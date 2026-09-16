@@ -241,7 +241,7 @@ export default function SymptomPageClient() {
           {/* 受診予約への導線 */}
           <FadeIn delay={0.2} className="mt-8 text-center">
             <a
-              href="https://line.me/R/ti/p/@159yebck"
+              href="https://line.me/R/ti/p/@337njouw"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 whitespace-nowrap rounded-full bg-primary px-7 py-3.5 font-bold text-white shadow-soft transition-transform hover:scale-105 hover:bg-primary-dark"

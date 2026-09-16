@@ -33,7 +33,7 @@ export default function ContactPageClient() {
             <p className="mt-4 text-[15px] font-bold text-ink">{c.lineLabel}</p>
             <p className="mt-2 text-sm text-ink/60">{c.lineNote}</p>
             <a
-              href="https://line.me/R/ti/p/@159yebck"
+              href="https://line.me/R/ti/p/@337njouw"
               target="_blank"
               rel="noopener noreferrer"
               className="mt-6 inline-flex w-full items-center justify-center gap-2 rounded-full bg-line py-3.5 font-bold text-white shadow-soft transition-transform hover:scale-[1.02]"

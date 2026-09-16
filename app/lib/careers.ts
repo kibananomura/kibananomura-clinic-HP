@@ -599,4 +599,4 @@ export const OBSERVER_PROGRAM = {
   },
 } as const;
 
-export const LINE_RECRUIT_URL = "https://line.me/R/ti/p/@159yebck";
+export const LINE_RECRUIT_URL = "https://line.me/R/ti/p/@337njouw";

@@ -99,7 +99,7 @@ export default function Footer() {
           </h2>
           <div className="mt-4 flex gap-3">
             <a
-              href="https://line.me/R/ti/p/@159yebck"
+              href="https://line.me/R/ti/p/@337njouw"
               target="_blank"
               rel="noopener noreferrer"
               aria-label={t.footer.lineAria}

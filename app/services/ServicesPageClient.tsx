@@ -327,7 +327,7 @@ export default function ServicesPageClient() {
         {/* LINE登録CTA */}
         <FadeIn delay={0.18} className="mt-10 text-center">
           <a
-            href="https://line.me/R/ti/p/@159yebck"
+            href="https://line.me/R/ti/p/@337njouw"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 whitespace-nowrap rounded-full bg-primary px-7 py-3.5 font-bold text-white shadow-soft transition-transform hover:scale-105 hover:bg-primary-dark"

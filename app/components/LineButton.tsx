@@ -41,7 +41,7 @@ export default function LineButton({
 
   return (
     <a
-      href="https://line.me/R/ti/p/@159yebck"
+      href="https://line.me/R/ti/p/@337njouw"
       target="_blank"
       rel="noopener noreferrer"
       aria-label={label}

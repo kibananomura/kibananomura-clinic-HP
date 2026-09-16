@@ -87,7 +87,7 @@ export default function FaqPageClient() {
                 </p>
                 <div className="mt-5 flex flex-wrap gap-3">
                   <a
-                    href="https://line.me/R/ti/p/@159yebck"
+                    href="https://line.me/R/ti/p/@337njouw"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex items-center gap-2 rounded-full bg-line px-5 py-2.5 text-sm font-bold text-white shadow-soft transition-transform hover:scale-105"
@@ -98,7 +98,7 @@ export default function FaqPageClient() {
                     LINEで相談する
                   </a>
                   <a
-                    href="https://line.me/R/ti/p/@159yebck"
+                    href="https://line.me/R/ti/p/@337njouw"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex items-center gap-2 rounded-full border-2 border-primary/30 px-5 py-2.5 text-sm font-bold text-primary transition-colors hover:border-primary hover:bg-accent"
@@ -115,7 +115,7 @@ export default function FaqPageClient() {
         <FadeIn delay={0.18} className="mt-8 text-center">
           <p className="mb-4 text-[15px] text-ink/75">その他ご不明な点はLINEでお気軽にお問い合わせください</p>
           <a
-            href="https://line.me/R/ti/p/@159yebck"
+            href="https://line.me/R/ti/p/@337njouw"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 rounded-full bg-line px-7 py-3.5 font-bold text-white shadow-soft transition-transform hover:scale-105"
