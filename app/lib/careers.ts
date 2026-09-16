@@ -563,7 +563,7 @@ export const OBSERVER_PROGRAM = {
     eyebrow: "大学生の方へ",
     heading: "オブザーバー募集（見学・交流プログラム）",
     intro:
-      "本枠は雇用契約を伴わない、完全無償の見学・交流プログラムです。給与・パート代のお支払いはございません。宮崎大学をはじめ、医学部生はもちろん、経営・IT・デザイン等に関心のある他学部の学生さんも歓迎します。",
+      "本枠は雇用契約を伴わない、完全無償の見学・交流プログラムです。給与・パート代のお支払いはございません。宮崎大学をはじめ、医療系学部の学生さんはもちろん、マーケティング・起業に関心のある学生さん、システムエンジニアリング（IT・プログラミング）に関心のある学生さんなど、様々な分野に関心のある学生さんを歓迎します。",
     whatYouSeeHeading: "見ていただける内容",
     whatYouSee: [
       "開業までのリアルな意思決定プロセス（融資交渉・土地契約・建築業者選定など、経営判断が実際にどう進んでいくかを垣間見られます）",
@@ -582,7 +582,7 @@ export const OBSERVER_PROGRAM = {
     eyebrow: "For university students",
     heading: "Observer Program (visit & exchange, no employment)",
     intro:
-      "This is a completely unpaid observation and exchange program with no employment contract and no compensation. We welcome students from the University of Miyazaki and beyond — not only medical students, but also students interested in management, IT, design and more.",
+      "This is a completely unpaid observation and exchange program with no employment contract and no compensation. We welcome students from the University of Miyazaki and beyond who are interested in a variety of fields — medical students, of course, but also students interested in marketing and entrepreneurship, or in systems engineering (IT and programming).",
     whatYouSeeHeading: "What you can see",
     whatYouSee: [
       "A behind-the-scenes look at real decision-making before opening (financing negotiations, land contracts, choosing a builder — how business decisions actually unfold)",

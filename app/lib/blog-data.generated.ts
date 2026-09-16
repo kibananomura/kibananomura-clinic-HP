@@ -188,7 +188,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "木花のむら診療所では、医学部生に限らず、経営やIT、デザインに関心のある学生さんも対象にした、完全無償のオブザーバー（見学・交流）プログラムを予定しています。開業までの準備の様子は、これからもこのブログで少しずつお伝えしていきます。興味を持っていただけたら、ぜひまたのぞきに来てください。"
+          "text": "木花のむら診療所では、医学部生に限らず、マーケティング・起業に関心のある学生さんや、システムエンジニアリング（IT・プログラミング）に関心のある学生さんも対象にした、完全無償のオブザーバー（見学・交流）プログラムを予定しています。開業までの準備の様子は、これからもこのブログで少しずつお伝えしていきます。興味を持っていただけたら、ぜひまたのぞきに来てください。"
         }
       ]
     },
@@ -251,7 +251,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "At Kibana-no-Mura Clinic, we're planning a completely unpaid observer program open not only to medical students but also to those interested in management, IT, or design. I'll keep sharing our preparations here on the blog — if this caught your interest, please come back and take a look."
+          "text": "At Kibana-no-Mura Clinic, we're planning a completely unpaid observer program open not only to medical students but also to those interested in marketing and entrepreneurship, or in systems engineering (IT and programming). I'll keep sharing our preparations here on the blog — if this caught your interest, please come back and take a look."
         }
       ]
     }

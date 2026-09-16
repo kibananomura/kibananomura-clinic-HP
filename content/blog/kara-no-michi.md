@@ -37,7 +37,7 @@ excerpt_en: From graduating the National Defense Medical College to disaster med
 
 もし今、進路に迷っている方がいたら伝えたいのは、「一つの専門を一直線に極める道」だけが正解ではない、ということです。私自身、災害医療、地域医療、大学、海外研究、そして開業と、色々な現場を渡り歩いてきました。振り返ってみると、それぞれの経験が、今の「患者さんもスタッフもみんなを笑顔にするクリニックをつくる」という目標につながっています。遠回りのように見えて、実はまっすぐな道だったのかもしれません。
 
-木花のむら診療所では、医学部生に限らず、経営やIT、デザインに関心のある学生さんも対象にした、完全無償のオブザーバー（見学・交流）プログラムを予定しています。開業までの準備の様子は、これからもこのブログで少しずつお伝えしていきます。興味を持っていただけたら、ぜひまたのぞきに来てください。
+木花のむら診療所では、医学部生に限らず、マーケティング・起業に関心のある学生さんや、システムエンジニアリング（IT・プログラミング）に関心のある学生さんも対象にした、完全無償のオブザーバー（見学・交流）プログラムを予定しています。開業までの準備の様子は、これからもこのブログで少しずつお伝えしていきます。興味を持っていただけたら、ぜひまたのぞきに来てください。
 
 ## en
 
@@ -67,4 +67,4 @@ Along the way, I've realized something else: building a good clinic can't be sep
 
 If you're unsure about your own path, here's what I'd like you to take away: a straight line through a single specialty isn't the only right answer. I moved through disaster medicine, regional hospitals, a university, research abroad, and now opening my own clinic. Looking back, each of those experiences fed into where I am now — building a clinic where "patients and staff alike leave with a smile." What looked like a detour turned out to be a straight path after all.
 
-At Kibana-no-Mura Clinic, we're planning a completely unpaid observer program open not only to medical students but also to those interested in management, IT, or design. I'll keep sharing our preparations here on the blog — if this caught your interest, please come back and take a look.
+At Kibana-no-Mura Clinic, we're planning a completely unpaid observer program open not only to medical students but also to those interested in marketing and entrepreneurship, or in systems engineering (IT and programming). I'll keep sharing our preparations here on the blog — if this caught your interest, please come back and take a look.
