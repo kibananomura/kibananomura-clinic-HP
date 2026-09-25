@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { BRAND } from "../../lib/brand";
 import { getSymptom, SYMPTOMS } from "../../lib/symptoms-data";
 import SymptomPageClient from "./SymptomPageClient";
+import BreadcrumbJsonLd from "../../components/BreadcrumbJsonLd";
 
 export function generateStaticParams() {
   return SYMPTOMS.map((s) => ({ slug: s.slug }));
@@ -20,9 +21,29 @@ export async function generateMetadata({
   return {
     title: `${symptom.title} | 症状から探す | ${BRAND.ja.primary}`,
     description: `${symptom.summary}。考えられる主な原因・当院で行う可能性のある検査・一般的な治療の考え方をご紹介します。このページは診断を行うものではなく、実際の診断・治療には受診が必要です。`,
+    alternates: {
+      canonical: `/symptoms/${slug}`,
+    },
   };
 }
 
-export default function SymptomPage() {
-  return <SymptomPageClient />;
+export default async function SymptomPage({
+  params,
+}: {
+  params: Promise<{ slug: string }>;
+}) {
+  const { slug } = await params;
+  const symptom = getSymptom(slug);
+  return (
+    <>
+      <BreadcrumbJsonLd
+        items={[
+          { name: "トップ", url: "/" },
+          { name: "症状から探す", url: "/symptoms" },
+          { name: symptom?.title ?? slug, url: `/symptoms/${slug}` },
+        ]}
+      />
+      <SymptomPageClient />
+    </>
+  );
 }

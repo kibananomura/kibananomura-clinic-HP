@@ -10,7 +10,8 @@
     "prebuild": "npm run blog:gen",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "indexnow": "node scripts/indexnow-submit.mjs"
   },
   "dependencies": {
     "framer-motion": "^11.3.2",

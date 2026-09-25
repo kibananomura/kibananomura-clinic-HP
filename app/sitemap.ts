@@ -1,8 +1,7 @@
 import type { MetadataRoute } from "next";
 import { SYMPTOMS } from "./lib/symptoms-data";
 import { generatedPosts } from "./lib/blog-data.generated";
-
-const BASE_URL = "https://kibananomura.jp";
+import { BASE_URL } from "./lib/seo";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const staticRoutes: MetadataRoute.Sitemap = [

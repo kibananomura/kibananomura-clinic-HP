@@ -4,7 +4,7 @@ import "./globals.css";
 import SiteShell from "./components/SiteShell";
 import ClinicJsonLd from "./components/ClinicJsonLd";
 import { BRAND } from "./lib/brand";
-import { SITE_SEO } from "./lib/seo";
+import { BASE_URL, SITE_SEO } from "./lib/seo";
 
 const notoSansJp = Noto_Sans_JP({
   subsets: ["latin"],
@@ -25,10 +25,14 @@ const siteTitle = SITE_SEO.title;
 const siteDescription = SITE_SEO.description;
 
 export const metadata: Metadata = {
+  metadataBase: new URL(BASE_URL),
   title: siteTitle,
   description: siteDescription,
   keywords: [...SITE_SEO.keywords],
   authors: [{ name: BRAND.ja.primary }],
+  alternates: {
+    canonical: "/",
+  },
   openGraph: {
     title: siteTitle,
     description: siteDescription,
@@ -39,6 +43,14 @@ export const metadata: Metadata = {
   robots: {
     index: true,
     follow: true,
+  },
+  verification: {
+    // Bing Webmaster Toolsで「サイト所有権の確認」＞「メタタグ」で発行された値に差し替えること。
+    // 未発行の間はプレースホルダーのままにしておく（実在しないコードなので確認は失敗するが、
+    // 実装のみ先行させている）。
+    other: {
+      "msvalidate.01": process.env.NEXT_PUBLIC_BING_VERIFICATION ?? "PLACEHOLDER_BING_VERIFICATION_CODE",
+    },
   },
 };
 

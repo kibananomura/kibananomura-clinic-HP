@@ -1,6 +1,6 @@
 import type { MetadataRoute } from "next";
 
-const BASE_URL = "https://kibananomura.jp";
+import { BASE_URL } from "./lib/seo";
 
 export default function robots(): MetadataRoute.Robots {
   return {
