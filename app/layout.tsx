@@ -1,5 +1,6 @@
 import type { Metadata, Viewport } from "next";
 import { Noto_Sans_JP, DM_Sans } from "next/font/google";
+import { Analytics } from "@vercel/analytics/next";
 import "./globals.css";
 import SiteShell from "./components/SiteShell";
 import ClinicJsonLd from "./components/ClinicJsonLd";
@@ -70,6 +71,7 @@ export default function RootLayout({
       <body>
         <ClinicJsonLd />
         <SiteShell>{children}</SiteShell>
+        <Analytics />
       </body>
     </html>
   );
