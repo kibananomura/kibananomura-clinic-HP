@@ -23,7 +23,6 @@ export const PARKING_STATUS = {
 } as const;
 
 export type Lang = "ja" | "en";
-export type Device = "desktop" | "mobile";
 
 type NavItem = { href: string; label: string };
 type Titled = { title: string; body: string };
@@ -34,10 +33,6 @@ export interface SiteDict {
     menuOpen: string;
     menuClose: string;
     langSwitch: string;
-    deviceSwitch: string;
-    deviceDesktop: string;
-    deviceMobile: string;
-    previewBadge: string;
     backHome: string;
   };
   nav: NavItem[];
@@ -258,10 +253,6 @@ const ja: SiteDict = {
     menuOpen: "メニューを開く",
     menuClose: "メニューを閉じる",
     langSwitch: "言語を切り替え",
-    deviceSwitch: "表示を切り替え",
-    deviceDesktop: "PC表示",
-    deviceMobile: "スマホ表示",
-    previewBadge: "スマホ表示プレビュー",
     backHome: "トップへ戻る",
   },
   nav: [
@@ -776,10 +767,6 @@ const en: SiteDict = {
     menuOpen: "Open menu",
     menuClose: "Close menu",
     langSwitch: "Switch language",
-    deviceSwitch: "Switch preview",
-    deviceDesktop: "Desktop",
-    deviceMobile: "Mobile",
-    previewBadge: "Mobile preview",
     backHome: "Back to home",
   },
   nav: [
@@ -1318,10 +1305,6 @@ type SiteContextValue = {
   lang: Lang;
   setLang: (l: Lang) => void;
   toggleLang: () => void;
-  device: Device;
-  setDevice: (d: Device) => void;
-  /** ユーザーが表示切替トグルを一度でも操作したか（未操作なら実機の画面幅どおりに表示する） */
-  deviceTouched: boolean;
   t: SiteDict;
 };
 
@@ -1329,34 +1312,10 @@ const SiteContext = createContext<SiteContextValue | null>(null);
 
 export function SiteProvider({ children }: { children: ReactNode }) {
   const [lang, setLang] = useState<Lang>("ja");
-  const [device, setDeviceState] = useState<Device>("desktop");
-  const [deviceTouched, setDeviceTouched] = useState(false);
 
-  const setDevice = (d: Device) => {
-    setDeviceTouched(true);
-    setDeviceState(d);
-    window.localStorage.setItem("kibana-device-touched", "1");
-  };
-
-  // 初回マウント時に保存済みの選択を復元（プレビュー iframe 内では端末切替を復元しない）
-  // 「操作済みか」は device の値そのものではなく専用フラグで判定する
-  // （device の初期値 "desktop" が下の永続化 effect で保存された直後の値と区別できないため）。
   useEffect(() => {
     const savedLang = window.localStorage.getItem("kibana-lang");
     if (savedLang === "ja" || savedLang === "en") setLang(savedLang);
-
-    const isEmbed =
-      new URLSearchParams(window.location.search).get("view") === "embed";
-    if (isEmbed) return;
-
-    const touched = window.localStorage.getItem("kibana-device-touched") === "1";
-    if (!touched) return;
-
-    const savedDevice = window.localStorage.getItem("kibana-device");
-    if (savedDevice === "desktop" || savedDevice === "mobile") {
-      setDeviceState(savedDevice);
-      setDeviceTouched(true);
-    }
   }, []);
 
   useEffect(() => {
@@ -1364,20 +1323,10 @@ export function SiteProvider({ children }: { children: ReactNode }) {
     window.localStorage.setItem("kibana-lang", lang);
   }, [lang]);
 
-  useEffect(() => {
-    const isEmbed =
-      new URLSearchParams(window.location.search).get("view") === "embed";
-    if (isEmbed) return;
-    window.localStorage.setItem("kibana-device", device);
-  }, [device]);
-
   const value: SiteContextValue = {
     lang,
     setLang,
     toggleLang: () => setLang((l) => (l === "ja" ? "en" : "ja")),
-    device,
-    setDevice,
-    deviceTouched,
     t: DICT[lang],
   };
 
