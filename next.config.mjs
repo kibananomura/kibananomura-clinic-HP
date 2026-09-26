@@ -2,6 +2,9 @@
 const SURVEY_FORM_URL = "https://forms.gle/i5YCRkvWt2quXaxU7";
 
 const nextConfig = {
+  turbopack: {
+    root: import.meta.dirname,
+  },
   images: {
     formats: ["image/webp"],
     remotePatterns: [],
