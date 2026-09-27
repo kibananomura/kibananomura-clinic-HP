@@ -5,6 +5,7 @@ import Link from "next/link";
 import { AnimatePresence, motion } from "framer-motion";
 import HeroBackground from "./HeroBackground";
 import LineButton from "./LineButton";
+import OpeningCountdown from "./OpeningCountdown";
 import { useSite } from "../lib/site";
 
 export default function Hero() {
@@ -88,6 +89,7 @@ export default function Hero() {
             transition={{ duration: 0.7, delay: 0.2 }}
           >
             <span className="whitespace-nowrap">{t.hero.subOpen}</span>
+            <OpeningCountdown />
           </motion.p>
 
           <motion.div
