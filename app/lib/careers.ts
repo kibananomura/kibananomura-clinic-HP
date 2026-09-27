@@ -26,13 +26,13 @@ export const CAREERS_PAGE = {
     eyebrow: "医療関係者向け",
     heading: "採用・求人募集",
     intro:
-      "木花診療所では、2027年10月1日の開院に向けて、一緒にクリニックをつくっていただける医療・事務スタッフを募集しています。1日約70名程度の外来を支える体制づくりのため、看護師・事務の各職種でご相談を承ります。",
+      "木花診療所では、2027年10月1日の開院に向けて、一緒にクリニックをつくっていただける医療・事務スタッフを募集しています。1日50〜100名程度の外来を支える体制づくりのため、看護師・事務の各職種でご相談を承ります。",
     overviewHeading: "クリニック概要",
     overviewItems: [
       { label: "開院", value: "2027年10月1日 予定（現在 建設準備中）" },
       { label: "所在地", value: "宮崎市熊野5233-2" },
       { label: "診療科", value: "内科・消化器内科・アレルギー内科・呼吸器内科・外科・小児科" },
-      { label: "外来規模", value: "1日 約70名程度 を想定" },
+      { label: "外来規模", value: "1日 50〜100名程度 を想定" },
       { label: "勤務時間", value: "月〜金（土日祝休み）" },
     ],
     teamVisionLabel: "採用の想い",
@@ -95,13 +95,13 @@ export const CAREERS_PAGE = {
     eyebrow: "For medical professionals",
     heading: "Recruitment",
     intro:
-      "Kibana Medical Office is recruiting medical and administrative staff to help us open in October 2027. We are building a team to support approximately 70 outpatients per day and welcome inquiries from nurses and office staff.",
+      "Kibana Medical Office is recruiting medical and administrative staff to help us open in October 2027. We are building a team to support approximately 50 to 100 outpatients per day and welcome inquiries from nurses and office staff.",
     overviewHeading: "About the clinic",
     overviewItems: [
       { label: "Opening", value: "Planned October 2027 (currently under construction)" },
       { label: "Location", value: "5233-2 Kumano, Miyazaki City" },
       { label: "Departments", value: "Internal medicine, gastroenterology, allergy, respiratory medicine, surgery, pediatrics" },
-      { label: "Outpatient volume", value: "Approx. 70 patients per day" },
+      { label: "Outpatient volume", value: "Approx. 50–100 patients per day" },
       { label: "Working hours", value: "Mon–Fri (closed Sat, Sun & holidays)" },
     ],
     teamVisionLabel: "Why we hire",
