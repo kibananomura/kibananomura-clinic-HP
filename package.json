@@ -11,7 +11,9 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint .",
-    "indexnow": "node scripts/indexnow-submit.mjs"
+    "indexnow": "node scripts/indexnow-submit.mjs",
+    "check-translations": "node scripts/check-translation-sync.mjs",
+    "sync-translations": "node scripts/check-translation-sync.mjs --write"
   },
   "overrides": {
     "glob": "^10.5.0",
