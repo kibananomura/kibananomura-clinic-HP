@@ -148,7 +148,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "正直に言うと、当時の私は「一つの専門をとことん極める」タイプの医師のキャリアパスとは、少し違う歩み方をしていました。外科医としての技術を磨きながらも、災害医療、地域医療、大学での教育・研究と、その都度、目の前にある「必要とされる場所」に飛び込んでいった、という感覚のほうが近いです。"
+          "text": "正直に言うと、当時の私は「一つの専門をとことん極める」タイプの医師のキャリアパスとは、少し違う歩み方をしていました。外科医としての技術を磨きながらも、東日本大震災における災害医療、陸上自衛隊衛生に係る救急救命士育成、行政業務、大学での教育・研究、そして、ここ宮崎での地域医療と、その都度、目の前にある「必要とされる場所」に全身で飛び込んでいった、という感覚のほうが近いです。"
         },
         {
           "kind": "text",
@@ -156,7 +156,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "2018年から2019年にかけて、マサチューセッツ総合病院（MGH）で研究員として過ごした時間も、私にとって大きな転換点でした。ボストン日本人研究者交流会(BJRF)で幹事の任を仰せつかり、医学だけでなく社会科学系研究者や一般企業の研究者など様々な分野の方々と交流する機会に恵まれました。臨床と研究の距離の近さ、そしてチームで一つの課題に向き合う文化に触れたことで、「良い医療は、優れた個人の技術だけでなく、仕組みとチームで支えられている」という実感を強く持つようになりました。"
+          "text": "2018年から2019年にかけて、マサチューセッツ総合病院（MGH）で研究員として過ごした時間も、私にとって大きな転換点でした。ボストン日本人研究者交流会(BJRF)で幹事の任を仰せつかり、医学だけでなく社会科学系系の研究者や一般企業の研究者など様々な分野の方々と交流する機会に恵まれました。臨床と研究の距離の近さ、そして様々な思考方法や文化に触れ、多くの仲間と繋がれたことで、「良い医療は、優れた個人の技術だけでなく、仕組みとチームによって支えられている」という実感を強く持つようになりました。"
         },
         {
           "kind": "text",
@@ -168,7 +168,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "外科専門医・消化器外科専門医として手術室に立ち続けることも、大学に残って研究を深めることも、選択肢としてはあったと思います。それでも私が選んだのは、宮崎市南部・木花の地域で、内科・消化器内科・アレルギー内科・呼吸器内科・外科・小児科という6つの科を掲げる、地域密着型の診療所を開業するという道でした。"
+          "text": "外科専門医・消化器外科専門医として手術室に立ち続けることも、大学に残って研究を深めることも、選択肢としてはありました。それでも私が選んだのは、宮崎市南部のこの木花の地域で、内科・外科・小児科という広く標榜科を掲げる、地域密着型の診療所を開業するという道でした。"
         },
         {
           "kind": "text",
@@ -176,7 +176,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "そして開業の準備を進める中で、私はもう一つ大事なことに気づきました。それは、良い診療所をつくることは、良い経営をつくることと切り離せない、ということです。資金計画、建物、採用、そして情報発信——医療の質と同じくらい、これらの一つひとつが、患者さんに届く医療の形を決めていきます。私が事業計画やホームページづくりにテクノロジー（AIエージェントなど）を積極的に活用しているのも、この「臨床と経営、両方に本気で向き合う」という姿勢の表れです。"
+          "text": "そして開業の準備を進める中で、私はもう一つ大事なことに気づきました。それは、良い診療所をつくることは、良い経営をつくることと切り離せない、ということです。資金計画、建物、採用、そして情報発信——医療の質と同じくらい、これらの一つひとつが、患者さんに届く医療の形を決めていきます。私が事業計画やホームページづくりにテクノロジー（AIエージェントなど）を積極的に活用しているのも、この「臨床と経営、両方に本気で向き合う」という姿勢の表わしたいからです。"
         },
         {
           "kind": "text",
@@ -211,7 +211,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "To be honest, my path didn't look like the classic \"master one specialty deeply\" career. While continuing to sharpen my skills as a surgeon, I kept moving toward wherever I felt I was needed most at the time — disaster medicine, regional care, teaching and research at a university."
+          "text": "To be honest, my path didn't look like the classic \"master one specialty deeply\" career. While continuing to sharpen my skills as a surgeon, I threw myself, wholeheartedly, into wherever I felt I was needed most at the time — disaster medicine after the Great East Japan Earthquake, training emergency medical technicians for the Ground Self-Defense Force medical service, administrative work, teaching and research at a university, and now community medicine here in Miyazaki."
         },
         {
           "kind": "text",
@@ -219,7 +219,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "Spending time as a research fellow at Massachusetts General Hospital (MGH) from 2018 to 2019 was another major turning point for me. I was asked to serve as an organizer for the Boston Japanese Researchers Forum (BJRF), which gave me the chance to connect with people from a wide range of fields — not only medicine, but the social sciences and private industry as well. Seeing how closely clinical practice and research were connected there, and the culture of teams tackling a single problem together, gave me a strong conviction: good medicine isn't just about one skilled individual — it's supported by systems and teams."
+          "text": "Spending time as a research fellow at Massachusetts General Hospital (MGH) from 2018 to 2019 was another major turning point for me. I was asked to serve as an organizer for the Boston Japanese Researchers Forum (BJRF), which gave me the chance to connect with people from a wide range of fields — not only medicine, but researchers in the social sciences and private industry as well. Seeing how closely clinical practice and research were connected there, encountering many different ways of thinking and cultures, and building connections with so many colleagues gave me a strong conviction: good medicine isn't just about one skilled individual — it's supported by systems and teams."
         },
         {
           "kind": "text",
@@ -231,7 +231,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "I could have continued as a surgeon in the operating room, or gone deeper into research at a university. Instead, I chose to open a community-based clinic in Kibana, in the southern part of Miyazaki City, covering six departments: internal medicine, gastroenterology, allergy medicine, respiratory medicine, surgery, and pediatrics."
+          "text": "I could have continued as a surgeon in the operating room, or gone deeper into research at a university. Instead, I chose to open a community-based clinic right here in Kibana, in the southern part of Miyazaki City, offering a broad range of care across internal medicine, surgery, and pediatrics."
         },
         {
           "kind": "text",
@@ -239,7 +239,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "Along the way, I've realized something else: building a good clinic can't be separated from building a good organization. Financial planning, the building itself, hiring, and how we communicate — each of these shapes the care that ultimately reaches patients, just as much as clinical quality does. That's part of why I actively use technology, including AI, in building our business plan and our website — it reflects a commitment to taking both clinical care and management seriously."
+          "text": "Along the way, I've realized something else: building a good clinic can't be separated from building a good organization. Financial planning, the building itself, hiring, and how we communicate — each of these shapes the care that ultimately reaches patients, just as much as clinical quality does. That's part of why I actively use technology, including AI agents, in building our business plan and our website — I want it to show a commitment to taking both clinical care and management seriously."
         },
         {
           "kind": "text",

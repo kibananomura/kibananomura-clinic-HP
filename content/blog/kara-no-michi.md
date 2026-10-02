@@ -17,21 +17,21 @@ excerpt_en: From graduating the National Defense Medical College to disaster med
 
 私は千葉県市川市に生まれ、慶應義塾高校を卒業し、一年市ヶ谷で浪人しました。その後、防衛医科大学校医学部に入学し、大学生活は規律の中で暮らし、卒業しました。その後、防衛医科大学校病院、災害医療センター、虎の門病院などで研鑽を積みました。災害医療センターでは、平時とは違う判断のスピードや、限られた資源の中で最善を尽くす姿勢を叩き込まれました。その後、陸上自衛隊衛生学校では教官として、陸上幕僚監部では行政を経験し、自衛隊熊本病院で外科部長兼健康管理センター長を務めました。宮崎大学では助教として教育・研究にも携わり、県立日南病院では外科医長として地域外科医療の最前線にも立ちました。そして、都城のクリニックでは1日150人以上来院するクリニックで一般内科としてプライマリーケアを経験しました。
 
-正直に言うと、当時の私は「一つの専門をとことん極める」タイプの医師のキャリアパスとは、少し違う歩み方をしていました。外科医としての技術を磨きながらも、災害医療、地域医療、大学での教育・研究と、その都度、目の前にある「必要とされる場所」に飛び込んでいった、という感覚のほうが近いです。
+正直に言うと、当時の私は「一つの専門をとことん極める」タイプの医師のキャリアパスとは、少し違う歩み方をしていました。外科医としての技術を磨きながらも、東日本大震災における災害医療、陸上自衛隊衛生に係る救急救命士育成、行政業務、大学での教育・研究、そして、ここ宮崎での地域医療と、その都度、目の前にある「必要とされる場所」に全身で飛び込んでいった、という感覚のほうが近いです。
 
 ### アメリカでの一年半が教えてくれたこと
 
-2018年から2019年にかけて、マサチューセッツ総合病院（MGH）で研究員として過ごした時間も、私にとって大きな転換点でした。ボストン日本人研究者交流会(BJRF)で幹事の任を仰せつかり、医学だけでなく社会科学系研究者や一般企業の研究者など様々な分野の方々と交流する機会に恵まれました。臨床と研究の距離の近さ、そしてチームで一つの課題に向き合う文化に触れたことで、「良い医療は、優れた個人の技術だけでなく、仕組みとチームで支えられている」という実感を強く持つようになりました。
+2018年から2019年にかけて、マサチューセッツ総合病院（MGH）で研究員として過ごした時間も、私にとって大きな転換点でした。ボストン日本人研究者交流会(BJRF)で幹事の任を仰せつかり、医学だけでなく社会科学系系の研究者や一般企業の研究者など様々な分野の方々と交流する機会に恵まれました。臨床と研究の距離の近さ、そして様々な思考方法や文化に触れ、多くの仲間と繋がれたことで、「良い医療は、優れた個人の技術だけでなく、仕組みとチームによって支えられている」という実感を強く持つようになりました。
 
 日本に戻ってからも、その視点は消えませんでした。目の前の患者さんを診ることと、地域全体の医療の仕組みを考えること——この二つは、決して別のものではないと思うようになったのです。
 
 ### なぜ、いま開業なのか
 
-外科専門医・消化器外科専門医として手術室に立ち続けることも、大学に残って研究を深めることも、選択肢としてはあったと思います。それでも私が選んだのは、宮崎市南部・木花の地域で、内科・消化器内科・アレルギー内科・呼吸器内科・外科・小児科という6つの科を掲げる、地域密着型の診療所を開業するという道でした。
+外科専門医・消化器外科専門医として手術室に立ち続けることも、大学に残って研究を深めることも、選択肢としてはありました。それでも私が選んだのは、宮崎市南部のこの木花の地域で、内科・外科・小児科という広く標榜科を掲げる、地域密着型の診療所を開業するという道でした。
 
 理由はシンプルです。専門分化が進む大きな病院の中では出会いにくい、「どこに相談したらいいか分からない」という悩みを抱えた方々を、まず受け止める場所をつくりたいと思ったからです。子どもからご高齢の方まで、日々のちょっとした不調から相談できる、地域のよろず相談所のような診療所です。2027年10月の開院を目指して、いま準備を進めています。
 
-そして開業の準備を進める中で、私はもう一つ大事なことに気づきました。それは、良い診療所をつくることは、良い経営をつくることと切り離せない、ということです。資金計画、建物、採用、そして情報発信——医療の質と同じくらい、これらの一つひとつが、患者さんに届く医療の形を決めていきます。私が事業計画やホームページづくりにテクノロジー（AIエージェントなど）を積極的に活用しているのも、この「臨床と経営、両方に本気で向き合う」という姿勢の表れです。
+そして開業の準備を進める中で、私はもう一つ大事なことに気づきました。それは、良い診療所をつくることは、良い経営をつくることと切り離せない、ということです。資金計画、建物、採用、そして情報発信——医療の質と同じくらい、これらの一つひとつが、患者さんに届く医療の形を決めていきます。私が事業計画やホームページづくりにテクノロジー（AIエージェントなど）を積極的に活用しているのも、この「臨床と経営、両方に本気で向き合う」という姿勢の表わしたいからです。
 
 ### 学生の皆さんへ
 
@@ -47,21 +47,21 @@ Hello, I'm Shinsuke Nomura, director of Kibana-no-Mura Clinic. Today I'd like to
 
 I was born in Ichikawa, Chiba, graduated from Keio Senior High School, and spent a year as a ronin student in Ichigaya before entering the medical school of the National Defense Medical College, where I lived and studied under a fairly disciplined campus life. After graduating, I trained at the college's affiliated hospital, the Disaster Medical Center, and Toranomon Hospital, among others. Working at the Disaster Medical Center taught me a different pace of decision-making than everyday practice, and the discipline of doing your best with limited resources. After that, I served as an instructor at the Japan Ground Self-Defense Force Medical School, worked in administration at the Ground Staff Office, and then as chief of surgery and head of the health management center at the Japan Self-Defense Forces Kumamoto Hospital. I also worked as an assistant professor at the University of Miyazaki (teaching and research), and then as head of surgery at the Nichinan Prefectural Hospital, on the front line of regional surgical care. After that, at a clinic in Miyakonojo seeing more than 150 patients a day, I gained experience in primary care as a general internist.
 
-To be honest, my path didn't look like the classic "master one specialty deeply" career. While continuing to sharpen my skills as a surgeon, I kept moving toward wherever I felt I was needed most at the time — disaster medicine, regional care, teaching and research at a university.
+To be honest, my path didn't look like the classic "master one specialty deeply" career. While continuing to sharpen my skills as a surgeon, I threw myself, wholeheartedly, into wherever I felt I was needed most at the time — disaster medicine after the Great East Japan Earthquake, training emergency medical technicians for the Ground Self-Defense Force medical service, administrative work, teaching and research at a university, and now community medicine here in Miyazaki.
 
 ### What a year and a half in the U.S. taught me
 
-Spending time as a research fellow at Massachusetts General Hospital (MGH) from 2018 to 2019 was another major turning point for me. I was asked to serve as an organizer for the Boston Japanese Researchers Forum (BJRF), which gave me the chance to connect with people from a wide range of fields — not only medicine, but the social sciences and private industry as well. Seeing how closely clinical practice and research were connected there, and the culture of teams tackling a single problem together, gave me a strong conviction: good medicine isn't just about one skilled individual — it's supported by systems and teams.
+Spending time as a research fellow at Massachusetts General Hospital (MGH) from 2018 to 2019 was another major turning point for me. I was asked to serve as an organizer for the Boston Japanese Researchers Forum (BJRF), which gave me the chance to connect with people from a wide range of fields — not only medicine, but researchers in the social sciences and private industry as well. Seeing how closely clinical practice and research were connected there, encountering many different ways of thinking and cultures, and building connections with so many colleagues gave me a strong conviction: good medicine isn't just about one skilled individual — it's supported by systems and teams.
 
 That perspective stayed with me after I returned to Japan. I came to believe that caring for the patient in front of you, and thinking about the healthcare system for an entire community, aren't really separate things at all.
 
 ### Why open a clinic now
 
-I could have continued as a surgeon in the operating room, or gone deeper into research at a university. Instead, I chose to open a community-based clinic in Kibana, in the southern part of Miyazaki City, covering six departments: internal medicine, gastroenterology, allergy medicine, respiratory medicine, surgery, and pediatrics.
+I could have continued as a surgeon in the operating room, or gone deeper into research at a university. Instead, I chose to open a community-based clinic right here in Kibana, in the southern part of Miyazaki City, offering a broad range of care across internal medicine, surgery, and pediatrics.
 
 The reason is simple. In large, highly specialized hospitals, it's easy to lose sight of people who simply don't know where to turn with their concerns. I wanted to create a place that welcomes them first — a kind of community "go-to" clinic for everyday troubles, from children to the elderly. We're preparing now, aiming to open in October 2027.
 
-Along the way, I've realized something else: building a good clinic can't be separated from building a good organization. Financial planning, the building itself, hiring, and how we communicate — each of these shapes the care that ultimately reaches patients, just as much as clinical quality does. That's part of why I actively use technology, including AI, in building our business plan and our website — it reflects a commitment to taking both clinical care and management seriously.
+Along the way, I've realized something else: building a good clinic can't be separated from building a good organization. Financial planning, the building itself, hiring, and how we communicate — each of these shapes the care that ultimately reaches patients, just as much as clinical quality does. That's part of why I actively use technology, including AI agents, in building our business plan and our website — I want it to show a commitment to taking both clinical care and management seriously.
 
 ### To the students reading this
 
