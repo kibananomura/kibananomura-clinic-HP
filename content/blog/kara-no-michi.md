@@ -21,7 +21,7 @@ excerpt_en: From graduating the National Defense Medical College to disaster med
 
 ### アメリカでの一年半が教えてくれたこと
 
-2018年から2019年にかけて、マサチューセッツ総合病院（MGH）で研究員として過ごした時間も、私にとって大きな転換点でした。ボストン日本人研究者交流会(BJRF)で幹事の任を仰せつかり、医学だけでなく社会科学系研究者や一般企業の研究者など様々なぶん
+2018年から2019年にかけて、マサチューセッツ総合病院（MGH）で研究員として過ごした時間も、私にとって大きな転換点でした。ボストン日本人研究者交流会(BJRF)で幹事の任を仰せつかり、医学だけでなく社会科学系研究者や一般企業の研究者など様々な分野の方々と交流する機会に恵まれました。臨床と研究の距離の近さ、そしてチームで一つの課題に向き合う文化に触れたことで、「良い医療は、優れた個人の技術だけでなく、仕組みとチームで支えられている」という実感を強く持つようになりました。
 
 日本に戻ってからも、その視点は消えませんでした。目の前の患者さんを診ることと、地域全体の医療の仕組みを考えること——この二つは、決して別のものではないと思うようになったのです。
 
@@ -41,17 +41,17 @@ excerpt_en: From graduating the National Defense Medical College to disaster med
 
 ## en
 
-Hello, I'm Shinsuke Nomura, director of Kibana-no-Mura Clinic. Today I'd like to try something a little different and write about my own career path. I hope this is useful to students at the University of Miyazaki — not only medical students, but anyone who's still figuring out their own road ahead.
+Hello, I'm Shinsuke Nomura, director of Kibana-no-Mura Clinic. Today I'd like to try something a little different and talk about my own career path. I hope this is useful to students at the University of Miyazaki — not only medical students, but anyone who's still figuring out their own road ahead.
 
 ### More than a decade without staying in one place
 
-I graduated from the medical school of the National Defense Medical College, and went on to train at its affiliated hospital and at the Disaster Medical Center. Working in disaster medicine taught me a different pace of decision-making than everyday practice, and the discipline of doing your best with limited resources. After that, I served as chief of surgery at the Japan Self-Defense Forces Kumamoto Hospital, worked as an assistant professor at the University of Miyazaki (teaching and research), and then as head of surgery at the Nichinan Prefectural Hospital, on the front line of regional medicine.
+I was born in Ichikawa, Chiba, graduated from Keio Senior High School, and spent a year as a ronin student in Ichigaya before entering the medical school of the National Defense Medical College, where I lived and studied under a fairly disciplined campus life. After graduating, I trained at the college's affiliated hospital, the Disaster Medical Center, and Toranomon Hospital, among others. Working at the Disaster Medical Center taught me a different pace of decision-making than everyday practice, and the discipline of doing your best with limited resources. After that, I served as an instructor at the Japan Ground Self-Defense Force Medical School, worked in administration at the Ground Staff Office, and then as chief of surgery and head of the health management center at the Japan Self-Defense Forces Kumamoto Hospital. I also worked as an assistant professor at the University of Miyazaki (teaching and research), and then as head of surgery at the Nichinan Prefectural Hospital, on the front line of regional surgical care. After that, at a clinic in Miyakonojo seeing more than 150 patients a day, I gained experience in primary care as a general internist.
 
 To be honest, my path didn't look like the classic "master one specialty deeply" career. While continuing to sharpen my skills as a surgeon, I kept moving toward wherever I felt I was needed most at the time — disaster medicine, regional care, teaching and research at a university.
 
 ### What a year and a half in the U.S. taught me
 
-Spending time as a research fellow at Massachusetts General Hospital (MGH) from 2018 to 2019 was another major turning point for me. Seeing how closely clinical practice and research were connected there, and the culture of teams tackling a single problem together, gave me a strong conviction: good medicine isn't just about one skilled individual — it's supported by systems and teams.
+Spending time as a research fellow at Massachusetts General Hospital (MGH) from 2018 to 2019 was another major turning point for me. I was asked to serve as an organizer for the Boston Japanese Researchers Forum (BJRF), which gave me the chance to connect with people from a wide range of fields — not only medicine, but the social sciences and private industry as well. Seeing how closely clinical practice and research were connected there, and the culture of teams tackling a single problem together, gave me a strong conviction: good medicine isn't just about one skilled individual — it's supported by systems and teams.
 
 That perspective stayed with me after I returned to Japan. I came to believe that caring for the patient in front of you, and thinking about the healthcare system for an entire community, aren't really separate things at all.
 
@@ -65,6 +65,6 @@ Along the way, I've realized something else: building a good clinic can't be sep
 
 ### To the students reading this
 
-If you're unsure about your own path, here's what I'd like you to take away: a straight line through a single specialty isn't the only right answer. I moved through disaster medicine, regional hospitals, a university, research abroad, and now opening my own clinic. Looking back, each of those experiences fed into where I am now — building a clinic where "patients and staff alike leave with a smile." What looked like a detour turned out to be a straight path after all.
+If you're unsure about your own path, here's what I'd like you to take away: a straight line through a single specialty isn't the only right answer. I moved through disaster medicine during the Great East Japan Earthquake, regional hospitals, a university, research abroad, and now opening my own clinic. Looking back, each of those experiences fed into where I am now — building a clinic where "patients and staff alike leave with a smile." What looked like a detour turned out to be a straight path after all.
 
 At Kibana-no-Mura Clinic, we're planning a completely unpaid observer program open not only to medical students but also to those interested in marketing and entrepreneurship, or in systems engineering (IT and programming). I'll keep sharing our preparations here on the blog — if this caught your interest, please come back and take a look.

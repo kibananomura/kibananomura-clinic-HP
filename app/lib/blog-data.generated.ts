@@ -77,19 +77,19 @@ export const generatedPosts: BlogPost[] = [
       "body": [
         {
           "kind": "text",
-          "text": "正式名称は「木花のむら診療所」。看板にもロゴにも、この名前をそのまま掲げます。日々の会話では「木花診療所」でも、あるいはただ「診療所」でもかまいません。呼び方はどうであれ、指しているのは同じ場所です。"
+          "text": "正式名称は「木花のむら診療所」。"
         },
         {
           "kind": "text",
-          "text": "名前の成り立ちを明かすと、少し欲張りな名前です。この土地の名である『木花（きばな）』に、院長である私の姓『野村』を重ねました。そのまま読ませるのも味気ない気がして、『木花の村』と読めるように表記を整えています。地域に溶け込むような、やわらかい響きを残したかったからです。"
+          "text": "名前の成り立ちを明かすと、少し欲張りな名前です。この土地の名である『木花（きばな）』に、院長である私の姓『野村』を重ねました。そのまま読ませるのも味気ない気がして、『木花の村』と読めるように表記を整えていました。地域に溶け込むような、やわらかい響きだと思いませんか？"
         },
         {
           "kind": "text",
-          "text": "木花は、宮崎市の南部に広がる、緑ゆたかな地域です。海と山がほどよく近く、空気のどこかがあたたかい。この土地の空気と、そこに暮らす人たちのあたたかさに惹かれて、ここに根を下ろすことを決めました。"
+          "text": "木花は、宮崎市の南部に広がる、緑ゆたかな地域です。海と山がほどよく近く、空気のどこかがあたたかい。この土地の空気と、そこに暮らす人たちのあたたかさに惹かれ、そして妻を育ててくれた木花の地に根を下ろすことを決めました。"
         },
         {
           "kind": "text",
-          "text": "ロゴにも、同じ想いを込めています。「木」と「花」、そしてこの地の山並みと朝日をかたどりました。芽吹き、少しずつ育っていく植物のように——地域の皆さんと長く歩んでいけるクリニックでありたい。そんな願いです。"
+          "text": "ロゴにも、同じ想いを込めています。「木」と「花」、そしてこの地の山並みと朝日をかたどりました。芽吹き、少しずつ育っていく植物のように——地域の皆さんと長く歩んでいけるクリニックでありたいと思っています。"
         },
         {
           "kind": "text",
@@ -104,15 +104,15 @@ export const generatedPosts: BlogPost[] = [
       "body": [
         {
           "kind": "text",
-          "text": "Our official name is Kibana-no-Mura Clinic — the name on our sign, and on our logo. Day to day, though, feel free to simply call us \"the clinic.\" However you say it, you're talking about the same place."
+          "text": "Our official name is Kibana-no-Mura Clinic."
         },
         {
           "kind": "text",
-          "text": "The name itself is a small indulgence, if I'm honest. It combines \"Kibana,\" the name of this area, with my own surname, Nomura. Written plainly, it would just be that — a name. So I chose characters that let it also be read as \"the village of Kibana,\" something softer, something that belongs to the community rather than just to me."
+          "text": "The name itself is a small indulgence, if I'm honest. It combines \"Kibana,\" the name of this area, with my own surname, Nomura. Written plainly, it would just be that — a name. So I chose characters that let it also be read as \"the village of Kibana.\" Doesn't it have a soft, welcoming ring to it — something that belongs to the community?"
         },
         {
           "kind": "text",
-          "text": "Kibana sits in the southern part of Miyazaki City, green and unhurried, with the sea and the mountains both within easy reach. It was the warmth of this place — the air, and the people in it — that convinced me to put down roots here."
+          "text": "Kibana sits in the southern part of Miyazaki City, green and unhurried, with the sea and the mountains both within easy reach. It was the warmth of this place — the air, and the people in it — along with the fact that it's the place that raised my wife, that led me to decide to put down roots here."
         },
         {
           "kind": "text",
@@ -136,7 +136,7 @@ export const generatedPosts: BlogPost[] = [
       "body": [
         {
           "kind": "text",
-          "text": "こんにちは。木花のむら診療所　院長の野村信介です。今日は少し趣向を変えて、私自身のキャリアの話を書いてみようと思います。宮崎大学の学生さん——医学部に限らず、進路や働き方に迷っている方すべてに、何かの参考になればうれしいです。"
+          "text": "こんにちは。木花のむら診療所　院長の野村信介です。今日は少し趣向を変えて、私自身のキャリアの話をしようと思います。宮崎大学の学生さん——医学部に限らず、進路や働き方に迷っている方すべてに、何かの参考になればうれしいです。"
         },
         {
           "kind": "text",
@@ -144,7 +144,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "私は防衛医科大学校医学部を卒業し、その後、防衛医科大学校病院、災害医療センターで研鑽を積みました。災害医療の現場では、平時とは違う判断のスピードや、限られた資源の中で最善を尽くす姿勢を叩き込まれました。その後、自衛隊熊本病院で外科部長を務め、宮崎大学では助教として教育・研究にも携わり、県立日南病院では外科医長として地域医療の最前線に立ちました。"
+          "text": "私は千葉県市川市に生まれ、慶應義塾高校を卒業し、一年市ヶ谷で浪人しました。その後、防衛医科大学校医学部に入学し、大学生活は規律の中で暮らし、卒業しました。その後、防衛医科大学校病院、災害医療センター、虎の門病院などで研鑽を積みました。災害医療センターでは、平時とは違う判断のスピードや、限られた資源の中で最善を尽くす姿勢を叩き込まれました。その後、陸上自衛隊衛生学校では教官として、陸上幕僚監部では行政を経験し、自衛隊熊本病院で外科部長兼健康管理センター長を務めました。宮崎大学では助教として教育・研究にも携わり、県立日南病院では外科医長として地域外科医療の最前線にも立ちました。そして、都城のクリニックでは1日150人以上来院するクリニックで一般内科としてプライマリーケアを経験しました。"
         },
         {
           "kind": "text",
@@ -156,7 +156,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "2018年から2019年にかけて、マサチューセッツ総合病院（MGH）で研究員として過ごした時間も、私にとって大きな転換点でした。臨床と研究の距離の近さ、そしてチームで一つの課題に向き合う文化に触れたことで、「良い医療は、優れた個人の技術だけでなく、仕組みとチームで支えられている」という実感を強く持つようになりました。"
+          "text": "2018年から2019年にかけて、マサチューセッツ総合病院（MGH）で研究員として過ごした時間も、私にとって大きな転換点でした。ボストン日本人研究者交流会(BJRF)で幹事の任を仰せつかり、医学だけでなく社会科学系研究者や一般企業の研究者など様々な分野の方々と交流する機会に恵まれました。臨床と研究の距離の近さ、そしてチームで一つの課題に向き合う文化に触れたことで、「良い医療は、優れた個人の技術だけでなく、仕組みとチームで支えられている」という実感を強く持つようになりました。"
         },
         {
           "kind": "text",
@@ -184,7 +184,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "もし今、進路に迷っている方がいたら伝えたいのは、「一つの専門を一直線に極める道」だけが正解ではない、ということです。私自身、災害医療、地域医療、大学、海外研究、そして開業と、色々な現場を渡り歩いてきました。振り返ってみると、それぞれの経験が、今の「患者さんもスタッフもみんなを笑顔にするクリニックをつくる」という目標につながっています。遠回りのように見えて、実はまっすぐな道だったのかもしれません。"
+          "text": "もし今、進路に迷っている方がいたら伝えたいのは、「一つの専門を一直線に極める道」だけが正解ではない、ということです。私自身、東日本大震災での災害医療、地域医療、大学、海外研究、そして開業と、色々な現場を渡り歩いてきました。振り返ってみると、それぞれの経験が、今の「患者さんもスタッフもみんなを笑顔にするクリニックをつくる」という目標につながっています。遠回りのように見えて、実はまっすぐな道だったのかもしれません。"
         },
         {
           "kind": "text",
@@ -199,7 +199,7 @@ export const generatedPosts: BlogPost[] = [
       "body": [
         {
           "kind": "text",
-          "text": "Hello, I'm Shinsuke Nomura, director of Kibana-no-Mura Clinic. Today I'd like to try something a little different and write about my own career path. I hope this is useful to students at the University of Miyazaki — not only medical students, but anyone who's still figuring out their own road ahead."
+          "text": "Hello, I'm Shinsuke Nomura, director of Kibana-no-Mura Clinic. Today I'd like to try something a little different and talk about my own career path. I hope this is useful to students at the University of Miyazaki — not only medical students, but anyone who's still figuring out their own road ahead."
         },
         {
           "kind": "text",
@@ -207,7 +207,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "I graduated from the medical school of the National Defense Medical College, and went on to train at its affiliated hospital and at the Disaster Medical Center. Working in disaster medicine taught me a different pace of decision-making than everyday practice, and the discipline of doing your best with limited resources. After that, I served as chief of surgery at the Japan Self-Defense Forces Kumamoto Hospital, worked as an assistant professor at the University of Miyazaki (teaching and research), and then as head of surgery at the Nichinan Prefectural Hospital, on the front line of regional medicine."
+          "text": "I was born in Ichikawa, Chiba, graduated from Keio Senior High School, and spent a year as a ronin student in Ichigaya before entering the medical school of the National Defense Medical College, where I lived and studied under a fairly disciplined campus life. After graduating, I trained at the college's affiliated hospital, the Disaster Medical Center, and Toranomon Hospital, among others. Working at the Disaster Medical Center taught me a different pace of decision-making than everyday practice, and the discipline of doing your best with limited resources. After that, I served as an instructor at the Japan Ground Self-Defense Force Medical School, worked in administration at the Ground Staff Office, and then as chief of surgery and head of the health management center at the Japan Self-Defense Forces Kumamoto Hospital. I also worked as an assistant professor at the University of Miyazaki (teaching and research), and then as head of surgery at the Nichinan Prefectural Hospital, on the front line of regional surgical care. After that, at a clinic in Miyakonojo seeing more than 150 patients a day, I gained experience in primary care as a general internist."
         },
         {
           "kind": "text",
@@ -219,7 +219,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "Spending time as a research fellow at Massachusetts General Hospital (MGH) from 2018 to 2019 was another major turning point for me. Seeing how closely clinical practice and research were connected there, and the culture of teams tackling a single problem together, gave me a strong conviction: good medicine isn't just about one skilled individual — it's supported by systems and teams."
+          "text": "Spending time as a research fellow at Massachusetts General Hospital (MGH) from 2018 to 2019 was another major turning point for me. I was asked to serve as an organizer for the Boston Japanese Researchers Forum (BJRF), which gave me the chance to connect with people from a wide range of fields — not only medicine, but the social sciences and private industry as well. Seeing how closely clinical practice and research were connected there, and the culture of teams tackling a single problem together, gave me a strong conviction: good medicine isn't just about one skilled individual — it's supported by systems and teams."
         },
         {
           "kind": "text",
@@ -247,7 +247,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "If you're unsure about your own path, here's what I'd like you to take away: a straight line through a single specialty isn't the only right answer. I moved through disaster medicine, regional hospitals, a university, research abroad, and now opening my own clinic. Looking back, each of those experiences fed into where I am now — building a clinic where \"patients and staff alike leave with a smile.\" What looked like a detour turned out to be a straight path after all."
+          "text": "If you're unsure about your own path, here's what I'd like you to take away: a straight line through a single specialty isn't the only right answer. I moved through disaster medicine during the Great East Japan Earthquake, regional hospitals, a university, research abroad, and now opening my own clinic. Looking back, each of those experiences fed into where I am now — building a clinic where \"patients and staff alike leave with a smile.\" What looked like a detour turned out to be a straight path after all."
         },
         {
           "kind": "text",

@@ -23,11 +23,11 @@ excerpt_en: Our official name is Kibana-Nomura Clinic — on our sign, on our lo
 
 ## en
 
-Our official name is Kibana-no-Mura Clinic — the name on our sign, and on our logo. Day to day, though, feel free to simply call us "the clinic." However you say it, you're talking about the same place.
+Our official name is Kibana-no-Mura Clinic.
 
-The name itself is a small indulgence, if I'm honest. It combines "Kibana," the name of this area, with my own surname, Nomura. Written plainly, it would just be that — a name. So I chose characters that let it also be read as "the village of Kibana," something softer, something that belongs to the community rather than just to me.
+The name itself is a small indulgence, if I'm honest. It combines "Kibana," the name of this area, with my own surname, Nomura. Written plainly, it would just be that — a name. So I chose characters that let it also be read as "the village of Kibana." Doesn't it have a soft, welcoming ring to it — something that belongs to the community?
 
-Kibana sits in the southern part of Miyazaki City, green and unhurried, with the sea and the mountains both within easy reach. It was the warmth of this place — the air, and the people in it — that convinced me to put down roots here.
+Kibana sits in the southern part of Miyazaki City, green and unhurried, with the sea and the mountains both within easy reach. It was the warmth of this place — the air, and the people in it — along with the fact that it's the place that raised my wife, that led me to decide to put down roots here.
 
 That same feeling shaped our logo: a tree and a flower, together with the hills and morning sun of this region. Like something newly planted, still growing — that's how I want this clinic to be, growing alongside the community for a long time to come.
 
