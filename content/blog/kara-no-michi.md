@@ -37,6 +37,8 @@ excerpt_en: From graduating the National Defense Medical College to disaster med
 
 もし今、進路に迷っている方がいたら伝えたいのは、「一つの専門を一直線に極める道」だけが正解ではない、ということです。私自身、東日本大震災での災害医療、地域医療、大学、海外研究、そして開業と、色々な現場を渡り歩いてきました。振り返ってみると、それぞれの経験が、今の「患者さんもスタッフもみんなを笑顔にするクリニックをつくる」という目標につながっています。遠回りのように見えて、実はまっすぐな道だったのかもしれません。
 
+なぜ私が、こうして学生の皆さんに語りかけているのか。それは、大学で臨床・教育・研究に携わっていた頃、学生さんや若い先生方と一緒に学び、成長を見守る「教育」という営みに、私自身が大きなやりがいを感じていたからです。ここ何年かは、そうした機会からすっかり離れてしまっていました。これまでの経験を若い世代に還元し、皆さんと一緒に、より良い社会をつくっていきたい——それが、このブログを書いている理由でもあります。ボストン留学中、365日欠かさず留学生活をFacebookに投稿していた当時の私を知っている方なら、きっとこの思いを分かっていただけるのではないかと思います。
+
 木花のむら診療所では、医学部生に限らず、マーケティング・起業に関心のある学生さんや、システムエンジニアリング（IT・プログラミング）に関心のある学生さんも対象にした、完全無償のオブザーバー（見学・交流）プログラムを予定しています。開業までの準備の様子は、これからもこのブログで少しずつお伝えしていきます。興味を持っていただけたら、ぜひまたのぞきに来てください。
 
 ## en
@@ -66,5 +68,7 @@ Along the way, I've realized something else: building a good clinic can't be sep
 ### To the students reading this
 
 If you're unsure about your own path, here's what I'd like you to take away: a straight line through a single specialty isn't the only right answer. I moved through disaster medicine during the Great East Japan Earthquake, regional hospitals, a university, research abroad, and now opening my own clinic. Looking back, each of those experiences fed into where I am now — building a clinic where "patients and staff alike leave with a smile." What looked like a detour turned out to be a straight path after all.
+
+So why am I reaching out to students like you? When I was involved in clinical care, teaching, and research at the university, I found real fulfillment in education — learning alongside students and young doctors, and watching them grow. For the past several years, I've been away from that kind of opportunity. I want to give back what I've gained to the next generation, and to build a better society together with you. That's part of why I'm writing this blog. Those who knew me during my time in Boston, when I posted about my life abroad on Facebook every single day for 365 days, will probably understand exactly what I mean.
 
 At Kibana-no-Mura Clinic, we're planning a completely unpaid observer program open not only to medical students but also to those interested in marketing and entrepreneurship, or in systems engineering (IT and programming). I'll keep sharing our preparations here on the blog — if this caught your interest, please come back and take a look.
