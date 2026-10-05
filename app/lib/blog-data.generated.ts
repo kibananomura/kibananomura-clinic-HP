@@ -144,11 +144,11 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "私は千葉県市川市に生まれ、慶應義塾高校を卒業し、一年市ヶ谷で浪人しました。その後、防衛医科大学校医学部に入学し、大学生活は規律の中で暮らし、卒業しました。その後、防衛医科大学校病院、災害医療センター、虎の門病院などで研鑽を積みました。災害医療センターでは、平時とは違う判断のスピードや、限られた資源の中で最善を尽くす姿勢を叩き込まれました。その後、陸上自衛隊衛生学校では教官として、陸上幕僚監部では行政を経験し、自衛隊熊本病院で外科部長兼健康管理センター長を務めました。宮崎大学では助教として教育・研究にも携わり、県立日南病院では外科医長として地域外科医療の最前線にも立ちました。そして、都城のクリニックでは1日150人以上来院するクリニックで一般内科としてプライマリーケアを経験しました。"
+          "text": "私は千葉県市川市に生まれ、慶應義塾高校を卒業し、一年間駿台市ヶ谷で浪人しました。その後、防衛医科大学校に入学し、大学生活は厳しい規律に従い暮らし、2008年に卒業しました。卒後、防衛医科大学校病院、自衛隊中央病院、三宿病院、災害医療センター、虎の門病院などで研鑽を積みました。災害医療センターでは、3次救急ならではの判断のスピードや、限られた時間の中で最善を尽くす姿勢を叩き込まれました。その後、陸上自衛隊衛生学校では医官、看護官、救命士といった衛生職種の教官として、陸上幕僚監部では行政を経験し、自衛隊熊本病院では外科部長兼健康管理センター長を務めました。宮崎大学では助教として臨床・教育・研究にも携わり、県立日南病院では外科医長として地域外科医療の最前線にも立ちました。そして、都城のクリニックでは1日150人以上来院するクリニックで一般内科としてプライマリーケアを経験しました。"
         },
         {
           "kind": "text",
-          "text": "正直に言うと、当時の私は「一つの専門をとことん極める」タイプの医師のキャリアパスとは、少し違う歩み方をしていました。外科医としての技術を磨きながらも、東日本大震災における災害医療、陸上自衛隊衛生に係る救急救命士育成、行政業務、大学での教育・研究、そして、ここ宮崎での地域医療と、その都度、目の前にある「必要とされる場所」に全身で飛び込んでいった、という感覚のほうが近いです。"
+          "text": "正直に言うと、これまでの私は「一つの専門をとことん極める」タイプの医師のキャリアパスとは、少し違う歩み方をしていました。外科医としての技術を磨きながらも、東日本大震災における災害医療、陸上自衛隊衛生に係る救急救命士育成、行政業務、大学病院での臨床・教育・研究、そして、ここ宮崎での地域医療と、その都度、目の前にある「必要とされる場所」に全身で飛び込んできました。"
         },
         {
           "kind": "text",
@@ -211,11 +211,11 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "I was born in Ichikawa, Chiba, graduated from Keio Senior High School, and spent a year as a ronin student in Ichigaya before entering the medical school of the National Defense Medical College, where I lived and studied under a fairly disciplined campus life. After graduating, I trained at the college's affiliated hospital, the Disaster Medical Center, and Toranomon Hospital, among others. Working at the Disaster Medical Center taught me a different pace of decision-making than everyday practice, and the discipline of doing your best with limited resources. After that, I served as an instructor at the Japan Ground Self-Defense Force Medical School, worked in administration at the Ground Staff Office, and then as chief of surgery and head of the health management center at the Japan Self-Defense Forces Kumamoto Hospital. I also worked as an assistant professor at the University of Miyazaki (teaching and research), and then as head of surgery at the Nichinan Prefectural Hospital, on the front line of regional surgical care. After that, at a clinic in Miyakonojo seeing more than 150 patients a day, I gained experience in primary care as a general internist."
+          "text": "I was born in Ichikawa, Chiba, graduated from Keio Senior High School, and spent a year as a ronin student at Sundai prep school in Ichigaya before entering the National Defense Medical College, where I lived and studied under fairly strict campus discipline, graduating in 2008. After graduating, I trained at the college's affiliated hospital, the Japan Self-Defense Force Central Hospital, Mishuku Hospital, the Disaster Medical Center, and Toranomon Hospital, among others. Working at the Disaster Medical Center taught me the pace of decision-making unique to tertiary emergency care, and the discipline of doing your best within limited time. After that, I served as an instructor for medical officers, nursing officers, and emergency life-saving technicians at the Japan Ground Self-Defense Force Medical School, worked in administration at the Ground Staff Office, and then as chief of surgery and head of the health management center at the Japan Self-Defense Forces Kumamoto Hospital. I also worked as an assistant professor at the University of Miyazaki (clinical practice, teaching, and research), and then as head of surgery at the Nichinan Prefectural Hospital, on the front line of regional surgical care. After that, at a clinic in Miyakonojo seeing more than 150 patients a day, I gained experience in primary care as a general internist."
         },
         {
           "kind": "text",
-          "text": "To be honest, my path didn't look like the classic \"master one specialty deeply\" career. While continuing to sharpen my skills as a surgeon, I threw myself, wholeheartedly, into wherever I felt I was needed most at the time — disaster medicine after the Great East Japan Earthquake, training emergency medical technicians for the Ground Self-Defense Force medical service, administrative work, teaching and research at a university, and now community medicine here in Miyazaki."
+          "text": "To be honest, up until now my path didn't look like the classic \"master one specialty deeply\" career. While continuing to sharpen my skills as a surgeon, I threw myself, wholeheartedly, into wherever I felt I was needed most at the time — disaster medicine after the Great East Japan Earthquake, training emergency medical technicians for the Ground Self-Defense Force medical service, administrative work, clinical practice, teaching and research at a university hospital, and now community medicine here in Miyazaki."
         },
         {
           "kind": "text",
