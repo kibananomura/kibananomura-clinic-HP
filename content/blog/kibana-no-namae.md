@@ -5,13 +5,13 @@ category_ja: クリニックのこと
 category_en: About the clinic
 title_ja: 「木花」という名前に込めた想い
 title_en: The meaning behind our name
-excerpt_ja: 正式名称は「木花のむら診療所」。看板にもロゴにも、この名前をそのまま使います。地域の名前『木花』と、院長の姓『野村』にまつわる、名前の話です。
-excerpt_en: Our official name is Kibana-Nomura Clinic — on our sign, on our logo, and now, the story behind it — the area's name, Kibana, and my own surname, Nomura.
+excerpt_ja: 正式名称は「木花のむら総合診療所」。看板にもロゴにも、この名前をそのまま使います。地域の名前『木花』と、院長の姓『野村』にまつわる、名前の話です。
+excerpt_en: Our official name is Kibana-no-Mura General Medicine Clinic — on our sign, on our logo, and now, the story behind it — the area's name, Kibana, and my own surname, Nomura.
 ---
 
 ## ja
 
-正式名称は「木花のむら診療所」。
+正式名称は「木花のむら総合診療所」。
 
 名前の成り立ちを明かすと、少し欲張りな名前です。この土地の名である『木花（きばな）』に、院長である私の姓『野村』を重ねました。そのまま読ませるのも味気ない気がして、『木花の村』と読めるように表記を整えていました。地域に溶け込むような、やわらかい響きだと思いませんか？
 
@@ -23,7 +23,7 @@ excerpt_en: Our official name is Kibana-Nomura Clinic — on our sign, on our lo
 
 ## en
 
-Our official name is Kibana-no-Mura Clinic.
+Our official name is Kibana-no-Mura General Medicine Clinic.
 
 The name itself is a small indulgence, if I'm honest. It combines "Kibana," the name of this area, with my own surname, Nomura. Written plainly, it would just be that — a name. So I chose characters that let it also be read as "the village of Kibana." Doesn't it have a soft, welcoming ring to it — something that belongs to the community?
 

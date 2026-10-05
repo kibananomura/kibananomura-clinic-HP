@@ -11,7 +11,7 @@ excerpt_en: From graduating the National Defense Medical College to disaster med
 
 ## ja
 
-こんにちは。木花のむら診療所　院長の野村信介です。今日は少し趣向を変えて、私自身のキャリアの話をしようと思います。宮崎大学の学生さん——医学部に限らず、進路や働き方に迷っている方すべてに、何かの参考になればうれしいです。
+こんにちは。木花のむら総合診療所　院長の野村信介です。今日は少し趣向を変えて、私自身のキャリアの話をしようと思います。宮崎大学の学生さん——医学部に限らず、進路や働き方に迷っている方すべてに、何かの参考になればうれしいです。
 
 ### 一つの場所に留まらなかった十数年
 
@@ -39,11 +39,11 @@ excerpt_en: From graduating the National Defense Medical College to disaster med
 
 なぜ私が、こうして学生の皆さんに語りかけているのか。それは、大学で臨床・教育・研究に携わっていた頃、学生さんや若い先生方と一緒に学び、成長を見守る「教育」という営みに、私自身が大きなやりがいを感じていたからです。ここ何年かは、そうした機会からすっかり離れてしまっていました。これまでの経験を若い世代に還元し、皆さんと一緒に、より良い社会をつくっていきたい——それが、このブログを書いている理由でもあります。ボストン留学中、365日欠かさず留学生活をFacebookに投稿していた当時の私を知っている方なら、きっとこの思いを分かっていただけるのではないかと思います。
 
-木花のむら診療所では、医学部生に限らず、マーケティング・起業に関心のある学生さんや、システムエンジニアリング（IT・プログラミング）に関心のある学生さんも対象にした、完全無償のオブザーバー（見学・交流）プログラムを予定しています。開業までの準備の様子は、これからもこのブログで少しずつお伝えしていきます。興味を持っていただけたら、ぜひまたのぞきに来てください。
+木花のむら総合診療所では、医学部生に限らず、マーケティング・起業に関心のある学生さんや、システムエンジニアリング（IT・プログラミング）に関心のある学生さんも対象にした、完全無償のオブザーバー（見学・交流）プログラムを予定しています。開業までの準備の様子は、これからもこのブログで少しずつお伝えしていきます。興味を持っていただけたら、ぜひまたのぞきに来てください。
 
 ## en
 
-Hello, I'm Shinsuke Nomura, director of Kibana-no-Mura Clinic. Today I'd like to try something a little different and talk about my own career path. I hope this is useful to students at the University of Miyazaki — not only medical students, but anyone who's still figuring out their own road ahead.
+Hello, I'm Shinsuke Nomura, director of Kibana-no-Mura General Medicine Clinic. Today I'd like to try something a little different and talk about my own career path. I hope this is useful to students at the University of Miyazaki — not only medical students, but anyone who's still figuring out their own road ahead.
 
 ### More than a decade without staying in one place
 
@@ -71,4 +71,4 @@ If you're unsure about your own path, here's what I'd like you to take away: a s
 
 So why am I reaching out to students like you? When I was involved in clinical care, teaching, and research at the university, I found real fulfillment in education — learning alongside students and young doctors, and watching them grow. For the past several years, I've been away from that kind of opportunity. I want to give back what I've gained to the next generation, and to build a better society together with you. That's part of why I'm writing this blog. Those who knew me during my time in Boston, when I posted about my life abroad on Facebook every single day for 365 days, will probably understand exactly what I mean.
 
-At Kibana-no-Mura Clinic, we're planning a completely unpaid observer program open not only to medical students but also to those interested in marketing and entrepreneurship, or in systems engineering (IT and programming). I'll keep sharing our preparations here on the blog — if this caught your interest, please come back and take a look.
+At Kibana-no-Mura General Medicine Clinic, we're planning a completely unpaid observer program open not only to medical students but also to those interested in marketing and entrepreneurship, or in systems engineering (IT and programming). I'll keep sharing our preparations here on the blog — if this caught your interest, please come back and take a look.

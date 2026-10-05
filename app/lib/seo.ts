@@ -15,7 +15,7 @@ export const SITE_SEO = {
   title: `${BRAND.ja.primary} | ${titleSuffix}`,
   description: BRAND.ja.seoDescription,
   keywords: [
-    "木花のむら診療所",
+    "木花のむら総合診療所",
     "木花診療所",
     "木花 クリニック",
     "宮崎市 木花 クリニック",

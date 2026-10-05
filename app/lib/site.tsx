@@ -249,7 +249,7 @@ export interface SiteDict {
 
 const ja: SiteDict = {
   common: {
-    toTop: "木花のむら診療所 トップへ",
+    toTop: "木花のむら総合診療所 トップへ",
     menuOpen: "メニューを開く",
     menuClose: "メニューを閉じる",
     langSwitch: "言語を切り替え",
@@ -307,7 +307,7 @@ const ja: SiteDict = {
   },
   mission: {
     eyebrow: "私たちの約束",
-    heading: "木花のむら診療所が目指すもの",
+    heading: "木花のむら総合診療所が目指すもの",
     cards: [
       {
         title: "理念",
@@ -327,7 +327,7 @@ const ja: SiteDict = {
       },
     ],
     visionQuote: "子供から高齢者まで、すべての世代の安心を支える地域のかかりつけ診療所になる",
-    visionCaption: "── 木花のむら診療所　ビジョン",
+    visionCaption: "── 木花のむら総合診療所　ビジョン",
   },
   features: {
     eyebrow: "選ばれる理由",
@@ -364,14 +364,14 @@ const ja: SiteDict = {
       "防衛医科大学校を卒業。同校は、医師である幹部自衛官（自衛隊医官）としての使命感を持ち、プライマリケアや総合臨床に対応できる人材の育成を理念に掲げており、その中で幅広い診療科に対応する力を培いました。卒業後は大学病院や地域の病院で消化器外科を中心に診療を重ね、手術室をはじめ、さまざまな現場で患者さんと向き合ってきました。",
     quote: "「どこに相談したらいいか分からない」——そんなときこそ、頼ってほしい。",
     storyBody: [
-      "木花のむら診療所は、宮崎市熊野に根ざす地域密着型のクリニックです。内科・消化器内科・アレルギー内科・呼吸器内科・外科・小児科の6科を標榜し、「どこに相談したらいいか分からない」ときにも安心して頼っていただけるかかりつけ診療所としての役割を大切にしています。",
+      "木花のむら総合診療所は、宮崎市熊野に根ざす地域密着型のクリニックです。内科・消化器内科・アレルギー内科・呼吸器内科・外科・小児科の6科を標榜し、「どこに相談したらいいか分からない」ときにも安心して頼っていただけるかかりつけ診療所としての役割を大切にしています。",
       "お子さんからご高齢の方まで、日常のちょっとした不調から人生の節目まで、患者さんやご家族の想いに寄り添いながら、丁寧な医療を提供してまいります。",
       "難しい説明は必要ありません。皆さんが「ここに来てよかった」と笑顔で帰れる場所をつくります。",
       "私たちが大切にしているのは「患者さんもスタッフもみんなを笑顔にするクリニック」という理念です。働くスタッフが笑顔でいられてこそ、患者さんにも心地よい時間をお届けできると考えています。",
     ],
     catch: "あなたとご家族のかかりつけ診療所に。",
     photoNote: "※ 写真は開院準備中（イメージ）",
-    portraitAria: "木花のむら診療所 院長 野村信介",
+    portraitAria: "木花のむら総合診療所 院長 野村信介",
   },
   services: {
     eyebrow: "診療のご案内",
@@ -471,7 +471,7 @@ const ja: SiteDict = {
   access: {
     eyebrow: "アクセス",
     heading: "通いやすい場所で、お待ちしています。",
-    mapTitle: "木花のむら診療所 開院予定地",
+    mapTitle: "木花のむら総合診療所 開院予定地",
     mapSub: "宮崎市熊野5233-2周辺（接道交渉中・場所は仮設定）",
     mapUrl: "https://maps.google.com/maps?q=%E5%AE%AE%E5%B4%8E%E7%9C%8C%E5%AE%AE%E5%B4%8E%E5%B8%82%E7%86%8A%E9%87%8E5233-2",
     mapEmbed:
@@ -494,7 +494,7 @@ const ja: SiteDict = {
   },
   footer: {
     tagline:
-      "宮崎市熊野の木花のむら診療所。内科・消化器内科・アレルギー内科・呼吸器内科・外科・小児科の6科対応。よろず相談所のように気軽に立ち寄れる場所を目指しています。",
+      "宮崎市熊野の木花のむら総合診療所。内科・消化器内科・アレルギー内科・呼吸器内科・外科・小児科の6科対応。よろず相談所のように気軽に立ち寄れる場所を目指しています。",
     badge: "2027年10月1日 開院予定 ／ 建設準備中",
     menuHeading: "メニュー",
     deptHeading: "診療科・所在地",
@@ -520,7 +520,7 @@ const ja: SiteDict = {
     eyebrow: "プライバシーポリシー",
     heading: "プライバシーポリシー",
     intro:
-      "木花のむら診療所（以下「当院」といいます）は、患者さんをはじめとする皆さまの個人情報を適切に保護することを重要な責務と考え、関係法令およびガイドラインを遵守し、以下の方針に基づいて個人情報を取り扱います。",
+      "木花のむら総合診療所（以下「当院」といいます）は、患者さんをはじめとする皆さまの個人情報を適切に保護することを重要な責務と考え、関係法令およびガイドラインを遵守し、以下の方針に基づいて個人情報を取り扱います。",
     sections: [
       {
         title: "1. 個人情報の取得について",
@@ -601,7 +601,7 @@ const ja: SiteDict = {
         date: "2026.06",
         tag: "お知らせ",
         title: "公式ホームページを公開しました",
-        body: "木花のむら診療所の公式サイトを公開しました。開院（2027年10月1日予定）に向けて、診療内容やアクセスなどの情報を順次お届けしてまいります。",
+        body: "木花のむら総合診療所の公式サイトを公開しました。開院（2027年10月1日予定）に向けて、診療内容やアクセスなどの情報を順次お届けしてまいります。",
       },
       {
         date: "2026.06",
@@ -648,7 +648,7 @@ const ja: SiteDict = {
     eyebrow: "診療内容のご案内",
     heading: "各診療科の詳しい診療内容",
     intro:
-      "木花のむら診療所では内科・消化器内科・アレルギー内科・呼吸器内科・外科・小児科の6科を標榜し、地域のかかりつけ診療所として幅広い診療を行います。「何科に行けばいいか分からない」という場合も、まずはお気軽にご相談ください。",
+      "木花のむら総合診療所では内科・消化器内科・アレルギー内科・呼吸器内科・外科・小児科の6科を標榜し、地域のかかりつけ診療所として幅広い診療を行います。「何科に行けばいいか分からない」という場合も、まずはお気軽にご相談ください。",
     deptDescs: [
       "生活習慣病の長期管理から急性症状・消化器の不調・アレルギー疾患まで総合的に対応します。CT・胃カメラ・エコー・FeNO測定などを院内で行い、その日のうちに結果をお伝えできる場合があります。",
       "外科専門医（消化器外科専門医）が担当します。傷・やけどの処置から粉瘤・脂肪腫などの日帰り小手術・巻き爪の処置まで対応。外科的な判断が必要な腹部症状にも CT・エコーを用いて対応します。",
@@ -734,7 +734,7 @@ const ja: SiteDict = {
     heading: "特定商取引法に基づく表記",
     intro: "自費診療サービスの提供に関する特定商取引法に基づく表記です。",
     items: [
-      { label: "販売業者", value: "木花のむら診療所（開院準備中）" },
+      { label: "販売業者", value: "木花のむら総合診療所（開院準備中）" },
       { label: "運営責任者", value: "野村 信介（院長）" },
       { label: "所在地", value: "宮崎県宮崎市熊野5233-2（接道交渉中）※開院後に詳細住所を公開" },
       { label: "電話番号", value: "開院後に公開予定" },
@@ -763,7 +763,7 @@ const ja: SiteDict = {
 
 const en: SiteDict = {
   common: {
-    toTop: "Back to Kibana-no-Mura Clinic home",
+    toTop: "Back to Kibana-no-Mura General Medicine Clinic home",
     menuOpen: "Open menu",
     menuClose: "Close menu",
     langSwitch: "Switch language",
@@ -786,7 +786,7 @@ const en: SiteDict = {
     close: "Dismiss notice",
   },
   hero: {
-    eyebrow: "Kumano, Miyazaki ｜ Kibana-no-Mura Clinic ｜ An all-purpose consultation spot",
+    eyebrow: "Kumano, Miyazaki ｜ Kibana-no-Mura General Medicine Clinic ｜ An all-purpose consultation spot",
     titleLines: [
       ["From children to seniors,"],
       ["a family clinic that supports"],
@@ -821,7 +821,7 @@ const en: SiteDict = {
   },
   mission: {
     eyebrow: "Our Promise",
-    heading: "What Kibana-no-Mura Clinic stands for",
+    heading: "What Kibana-no-Mura General Medicine Clinic stands for",
     cards: [
       {
         title: "Our Philosophy",
@@ -842,7 +842,7 @@ const en: SiteDict = {
     ],
     visionQuote:
       "A family clinic that supports every generation, from children to seniors.",
-    visionCaption: "── Kibana-no-Mura Clinic Vision",
+    visionCaption: "── Kibana-no-Mura General Medicine Clinic Vision",
   },
   features: {
     eyebrow: "Why Us",
@@ -883,13 +883,13 @@ const en: SiteDict = {
       "I graduated from the National Defense Medical College, whose mission is to train medical officers with a strong sense of duty who can also handle primary care and general clinical practice — an education that gave me a broad clinical foundation. From there, I trained mainly in gastroenterological surgery at university and regional hospitals, facing patients in the operating room and many other settings along the way.",
     quote: "“I don’t know where to turn.” Those are exactly the moments I want you to rely on us.",
     storyBody: [
-      "Kibana-no-Mura Clinic is a community-based clinic rooted in Kumano, Miyazaki. Covering internal medicine, gastroenterology, allergy, respiratory medicine, surgery and pediatrics across six departments, we cherish our role as the indispensable family clinic you can turn to with confidence — even when you're not sure where to seek help.",
+      "Kibana-no-Mura General Medicine Clinic is a community-based clinic rooted in Kumano, Miyazaki. Covering internal medicine, gastroenterology, allergy, respiratory medicine, surgery and pediatrics across six departments, we cherish our role as the indispensable family clinic you can turn to with confidence — even when you're not sure where to seek help.",
       "From children to the elderly, from everyday ailments to life's turning points, we provide careful medical care while staying close to the feelings of each patient and their family.",
       "No complicated explanations needed. We're building a place you leave with a smile, thinking, “I'm glad I came here.”",
     ],
     catch: "Your family clinic.",
     photoNote: "* Photo coming soon (image)",
-    portraitAria: "Dr. Shinsuke Nomura, Director of Kibana-no-Mura Clinic",
+    portraitAria: "Dr. Shinsuke Nomura, Director of Kibana-no-Mura General Medicine Clinic",
   },
   services: {
     eyebrow: "Services",
@@ -995,7 +995,7 @@ const en: SiteDict = {
   access: {
     eyebrow: "Access",
     heading: "Easy to reach, here for you.",
-    mapTitle: "Planned location of Kibana-no-Mura Clinic",
+    mapTitle: "Planned location of Kibana-no-Mura General Medicine Clinic",
     mapSub: "Kumano 5233-2, Miyazaki City (road access under negotiation — location is tentative)",
     mapUrl: "https://maps.google.com/maps?q=%E5%AE%AE%E5%B4%8E%E7%9C%8C%E5%AE%AE%E5%B4%8E%E5%B8%82%E7%86%8A%E9%87%8E5233-2",
     mapEmbed:
@@ -1018,7 +1018,7 @@ const en: SiteDict = {
   },
   footer: {
     tagline:
-      "Kibana-no-Mura Clinic in Kumano, Miyazaki. Six departments including internal medicine, surgery and gastroenterology. An all-purpose consultation spot you can drop by with ease.",
+      "Kibana-no-Mura General Medicine Clinic in Kumano, Miyazaki. Six departments including internal medicine, surgery and gastroenterology. An all-purpose consultation spot you can drop by with ease.",
     badge: "Opening October 2027 / Under construction",
     menuHeading: "Menu",
     deptHeading: "Departments & Location",
@@ -1044,7 +1044,7 @@ const en: SiteDict = {
     eyebrow: "Privacy Policy",
     heading: "Privacy Policy",
     intro:
-      "Kibana-no-Mura Clinic (\"the Clinic\") regards the proper protection of the personal information of patients and others as an important responsibility, and handles personal information in accordance with applicable laws and guidelines under the following policy.",
+      "Kibana-no-Mura General Medicine Clinic (\"the Clinic\") regards the proper protection of the personal information of patients and others as an important responsibility, and handles personal information in accordance with applicable laws and guidelines under the following policy.",
     sections: [
       {
         title: "1. Collection of personal information",
@@ -1175,7 +1175,7 @@ const en: SiteDict = {
     eyebrow: "Our Services",
     heading: "Detailed services by department",
     intro:
-      "Kibana-no-Mura Clinic offers six departments — internal medicine, gastroenterology, allergy, respiratory medicine, surgery and pediatrics — so you can rely on us as your family clinic. If you're unsure which department you need, please don't hesitate to ask.",
+      "Kibana-no-Mura General Medicine Clinic offers six departments — internal medicine, gastroenterology, allergy, respiratory medicine, surgery and pediatrics — so you can rely on us as your family clinic. If you're unsure which department you need, please don't hesitate to ask.",
     deptDescs: [
       "We cover everything from chronic disease management to acute symptoms, digestive issues and allergic conditions. Tests including CT, gastroscopy, ultrasound and FeNO are available in-house, and in many cases results can be shared the same day.",
       "Our board-certified surgeon (gastroenterological surgery) handles wound and burn care, day-surgery for cysts and lipomas, ingrown nail treatment and more. Abdominal symptoms requiring surgical assessment are also handled with CT and ultrasound on-site.",
@@ -1272,7 +1272,7 @@ const en: SiteDict = {
     heading: "Specified Commercial Transactions Act disclosure",
     intro: "Disclosure required by Japan's Specified Commercial Transactions Act for self-pay medical services.",
     items: [
-      { label: "Business operator", value: "Kibana-no-Mura Clinic (under construction)" },
+      { label: "Business operator", value: "Kibana-no-Mura General Medicine Clinic (under construction)" },
       { label: "Director", value: "Dr. Shinsuke Nomura" },
       { label: "Address", value: "5233-2 Kumano, Miyazaki City, Miyazaki Prefecture (road access under negotiation) — full address to be published after opening" },
       { label: "Phone", value: "To be published after opening" },

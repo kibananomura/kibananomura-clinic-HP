@@ -16,7 +16,7 @@ export const generatedPosts: BlogPost[] = [
       "body": [
         {
           "kind": "text",
-          "text": "はじめまして。木花のむら診療所院長の野村信介です。現在、2027年10月1日の開院に向けて準備を進めています。"
+          "text": "はじめまして。木花のむら総合診療所院長の野村信介です。現在、2027年10月1日の開院に向けて準備を進めています。"
         },
         {
           "kind": "text",
@@ -24,7 +24,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "木花のむら診療所は、そんなときにまず気軽に立ち寄っていただける、よろず相談所のような場所を目指しています。お子さんからご高齢の方まで、日々のちょっとした不調から、どうぞ気軽にご相談ください。"
+          "text": "木花のむら総合診療所は、そんなときにまず気軽に立ち寄っていただける、よろず相談所のような場所を目指しています。お子さんからご高齢の方まで、日々のちょっとした不調から、どうぞ気軽にご相談ください。"
         },
         {
           "kind": "image",
@@ -44,7 +44,7 @@ export const generatedPosts: BlogPost[] = [
       "body": [
         {
           "kind": "text",
-          "text": "Hello. I'm Shinsuke Nomura, director of Kibana-no-Mura Clinic. We're currently preparing for our opening, planned for October 2027."
+          "text": "Hello. I'm Shinsuke Nomura, director of Kibana-no-Mura General Medicine Clinic. We're currently preparing for our opening, planned for October 2027."
         },
         {
           "kind": "text",
@@ -52,7 +52,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "Kibana-no-Mura Clinic aims to be exactly that kind of place — somewhere you can turn to for just about anything, big or small. From children to the elderly, please feel free to consult us about the small everyday troubles."
+          "text": "Kibana-no-Mura General Medicine Clinic aims to be exactly that kind of place — somewhere you can turn to for just about anything, big or small. From children to the elderly, please feel free to consult us about the small everyday troubles."
         },
         {
           "kind": "image",
@@ -73,11 +73,11 @@ export const generatedPosts: BlogPost[] = [
     "ja": {
       "category": "クリニックのこと",
       "title": "「木花」という名前に込めた想い",
-      "excerpt": "正式名称は「木花のむら診療所」。看板にもロゴにも、この名前をそのまま使います。地域の名前『木花』と、院長の姓『野村』にまつわる、名前の話です。",
+      "excerpt": "正式名称は「木花のむら総合診療所」。看板にもロゴにも、この名前をそのまま使います。地域の名前『木花』と、院長の姓『野村』にまつわる、名前の話です。",
       "body": [
         {
           "kind": "text",
-          "text": "正式名称は「木花のむら診療所」。"
+          "text": "正式名称は「木花のむら総合診療所」。"
         },
         {
           "kind": "text",
@@ -100,11 +100,11 @@ export const generatedPosts: BlogPost[] = [
     "en": {
       "category": "About the clinic",
       "title": "The meaning behind our name",
-      "excerpt": "Our official name is Kibana-Nomura Clinic — on our sign, on our logo, and now, the story behind it — the area's name, Kibana, and my own surname, Nomura.",
+      "excerpt": "Our official name is Kibana-no-Mura General Medicine Clinic — on our sign, on our logo, and now, the story behind it — the area's name, Kibana, and my own surname, Nomura.",
       "body": [
         {
           "kind": "text",
-          "text": "Our official name is Kibana-no-Mura Clinic."
+          "text": "Our official name is Kibana-no-Mura General Medicine Clinic."
         },
         {
           "kind": "text",
@@ -136,7 +136,7 @@ export const generatedPosts: BlogPost[] = [
       "body": [
         {
           "kind": "text",
-          "text": "こんにちは。木花のむら診療所　院長の野村信介です。今日は少し趣向を変えて、私自身のキャリアの話をしようと思います。宮崎大学の学生さん——医学部に限らず、進路や働き方に迷っている方すべてに、何かの参考になればうれしいです。"
+          "text": "こんにちは。木花のむら総合診療所　院長の野村信介です。今日は少し趣向を変えて、私自身のキャリアの話をしようと思います。宮崎大学の学生さん——医学部に限らず、進路や働き方に迷っている方すべてに、何かの参考になればうれしいです。"
         },
         {
           "kind": "text",
@@ -192,7 +192,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "木花のむら診療所では、医学部生に限らず、マーケティング・起業に関心のある学生さんや、システムエンジニアリング（IT・プログラミング）に関心のある学生さんも対象にした、完全無償のオブザーバー（見学・交流）プログラムを予定しています。開業までの準備の様子は、これからもこのブログで少しずつお伝えしていきます。興味を持っていただけたら、ぜひまたのぞきに来てください。"
+          "text": "木花のむら総合診療所では、医学部生に限らず、マーケティング・起業に関心のある学生さんや、システムエンジニアリング（IT・プログラミング）に関心のある学生さんも対象にした、完全無償のオブザーバー（見学・交流）プログラムを予定しています。開業までの準備の様子は、これからもこのブログで少しずつお伝えしていきます。興味を持っていただけたら、ぜひまたのぞきに来てください。"
         }
       ]
     },
@@ -203,7 +203,7 @@ export const generatedPosts: BlogPost[] = [
       "body": [
         {
           "kind": "text",
-          "text": "Hello, I'm Shinsuke Nomura, director of Kibana-no-Mura Clinic. Today I'd like to try something a little different and talk about my own career path. I hope this is useful to students at the University of Miyazaki — not only medical students, but anyone who's still figuring out their own road ahead."
+          "text": "Hello, I'm Shinsuke Nomura, director of Kibana-no-Mura General Medicine Clinic. Today I'd like to try something a little different and talk about my own career path. I hope this is useful to students at the University of Miyazaki — not only medical students, but anyone who's still figuring out their own road ahead."
         },
         {
           "kind": "text",
@@ -259,7 +259,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "At Kibana-no-Mura Clinic, we're planning a completely unpaid observer program open not only to medical students but also to those interested in marketing and entrepreneurship, or in systems engineering (IT and programming). I'll keep sharing our preparations here on the blog — if this caught your interest, please come back and take a look."
+          "text": "At Kibana-no-Mura General Medicine Clinic, we're planning a completely unpaid observer program open not only to medical students but also to those interested in marketing and entrepreneurship, or in systems engineering (IT and programming). I'll keep sharing our preparations here on the blog — if this caught your interest, please come back and take a look."
         }
       ]
     }
