@@ -1,6 +1,7 @@
 "use client";
 
 import Image from "next/image";
+import Link from "next/link";
 import FadeIn from "./FadeIn";
 import { SoftBlob, LeafSprig, Blossom } from "./Decor";
 import { useSite } from "../lib/site";
@@ -61,6 +62,14 @@ export default function Director() {
                 <p key={i}>{p}</p>
               ))}
             </div>
+
+            <Link
+              href={t.director.storyMoreHref}
+              className="mt-4 inline-flex items-center gap-1 text-sm font-medium text-primary-dark underline decoration-primary/40 underline-offset-4 transition-colors hover:text-primary"
+            >
+              {t.director.storyMore}
+              <span aria-hidden="true">→</span>
+            </Link>
 
             <p className="mt-7 whitespace-nowrap font-bold leading-relaxed text-primary-dark [font-size:clamp(0.9rem,4.2vw,1.25rem)] sm:text-2xl">
               {t.director.catch}

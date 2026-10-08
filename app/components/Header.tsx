@@ -126,8 +126,8 @@ export default function Header() {
 
       <div
         id="mobile-menu"
-        className={`overflow-hidden bg-surface/95 backdrop-blur-md transition-[max-height,opacity] duration-300 xl:hidden ${
-          open ? "max-h-96 opacity-100 shadow-card" : "max-h-0 opacity-0"
+        className={`overflow-y-auto bg-surface/95 backdrop-blur-md transition-[max-height,opacity] duration-300 xl:hidden ${
+          open ? "max-h-[calc(100vh-6rem)] opacity-100 shadow-card" : "max-h-0 opacity-0"
         }`}
       >
         <nav

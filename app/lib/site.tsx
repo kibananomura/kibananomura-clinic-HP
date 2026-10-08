@@ -79,6 +79,8 @@ export interface SiteDict {
     storyIntro: string;
     quote: string;
     storyBody: string[];
+    storyMore: string;
+    storyMoreHref: string;
     catch: string;
     photoNote: string;
     portraitAria: string;
@@ -262,6 +264,7 @@ const ja: SiteDict = {
     { href: "/first-visit", label: "初診の方へ" },
     { href: "/faq", label: "よくある質問" },
     { href: "/pricing", label: "料金" },
+    { href: "/blog", label: "院長ブログ" },
     { href: "/#access", label: "アクセス" },
   ],
   headerCta: "開院情報を受け取る",
@@ -364,11 +367,11 @@ const ja: SiteDict = {
       "防衛医科大学校を卒業。同校は、医師である幹部自衛官（自衛隊医官）としての使命感を持ち、プライマリケアや総合臨床に対応できる人材の育成を理念に掲げており、その中で幅広い診療科に対応する力を培いました。卒業後は大学病院や地域の病院で消化器外科を中心に診療を重ね、手術室をはじめ、さまざまな現場で患者さんと向き合ってきました。",
     quote: "「どこに相談したらいいか分からない」——そんなときこそ、頼ってほしい。",
     storyBody: [
-      "木花のむら総合診療所は、宮崎市熊野に根ざす地域密着型のクリニックです。内科・消化器内科・アレルギー内科・呼吸器内科・外科・小児科の6科を標榜し、「どこに相談したらいいか分からない」ときにも安心して頼っていただけるかかりつけ診療所としての役割を大切にしています。",
-      "お子さんからご高齢の方まで、日常のちょっとした不調から人生の節目まで、患者さんやご家族の想いに寄り添いながら、丁寧な医療を提供してまいります。",
-      "難しい説明は必要ありません。皆さんが「ここに来てよかった」と笑顔で帰れる場所をつくります。",
-      "私たちが大切にしているのは「患者さんもスタッフもみんなを笑顔にするクリニック」という理念です。働くスタッフが笑顔でいられてこそ、患者さんにも心地よい時間をお届けできると考えています。",
+      "木花のむら総合診療所は、宮崎市熊野に根ざす地域密着型のクリニックです。内科・消化器内科・アレルギー内科・呼吸器内科・外科・小児科の6科を標榜し、お子さんからご高齢の方まで、日常のちょっとした不調から人生の節目まで寄り添う、かかりつけ診療所を目指します。",
+      "私たちが大切にしているのは「患者さんもスタッフもみんなを笑顔にするクリニック」という理念です。",
     ],
+    storyMore: "院長ブログでキャリアの話を読む",
+    storyMoreHref: "/blog/kara-no-michi",
     catch: "あなたとご家族のかかりつけ診療所に。",
     photoNote: "※ 写真は開院準備中（イメージ）",
     portraitAria: "木花のむら総合診療所 院長 野村信介",
@@ -776,6 +779,7 @@ const en: SiteDict = {
     { href: "/first-visit", label: "First Visit" },
     { href: "/faq", label: "FAQ" },
     { href: "/pricing", label: "Pricing" },
+    { href: "/blog", label: "Blog" },
     { href: "/#access", label: "Access" },
   ],
   headerCta: "Get opening updates",
@@ -883,10 +887,11 @@ const en: SiteDict = {
       "I graduated from the National Defense Medical College, whose mission is to train medical officers with a strong sense of duty who can also handle primary care and general clinical practice — an education that gave me a broad clinical foundation. From there, I trained mainly in gastroenterological surgery at university and regional hospitals, facing patients in the operating room and many other settings along the way.",
     quote: "“I don’t know where to turn.” Those are exactly the moments I want you to rely on us.",
     storyBody: [
-      "Kibana-no-Mura General Medicine Clinic is a community-based clinic rooted in Kumano, Miyazaki. Covering internal medicine, gastroenterology, allergy, respiratory medicine, surgery and pediatrics across six departments, we cherish our role as the indispensable family clinic you can turn to with confidence — even when you're not sure where to seek help.",
-      "From children to the elderly, from everyday ailments to life's turning points, we provide careful medical care while staying close to the feelings of each patient and their family.",
-      "No complicated explanations needed. We're building a place you leave with a smile, thinking, “I'm glad I came here.”",
+      "Kibana-no-Mura General Medicine Clinic is a community-based clinic rooted in Kumano, Miyazaki. Covering internal medicine, gastroenterology, allergy, respiratory medicine, surgery and pediatrics across six departments, we aim to be the family clinic you can turn to with confidence, from children to the elderly, for everyday ailments and life's turning points alike.",
+      "What we value most is the idea of a clinic where patients and staff alike leave with a smile.",
     ],
+    storyMore: "Read more about my career on the blog",
+    storyMoreHref: "/blog/kara-no-michi",
     catch: "Your family clinic.",
     photoNote: "* Photo coming soon (image)",
     portraitAria: "Dr. Shinsuke Nomura, Director of Kibana-no-Mura General Medicine Clinic",
