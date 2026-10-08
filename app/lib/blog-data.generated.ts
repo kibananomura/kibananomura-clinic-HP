@@ -287,6 +287,10 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
+          "text": "考えてみれば、「病名がつく前の不調を整える」という発想自体は、昔から東洋医学にある「未病」という考え方に近いものです。西洋医学の視点に加えて、漢方の視点も取り入れながら、マイナス0.5の段階に向き合っていけたらと考えており、今後力を入れていきたい分野のひとつです。"
+        },
+        {
+          "kind": "text",
           "text": "宮崎は海も山も川も近く、ゴルフやサーフィンをはじめ、体を動かす趣味を楽しんでいる方が多い土地だと感じています。仕事も趣味も思い切り楽しむには、まず「動ける体」が土台になる。その土台づくりを、地域の皆さんと一緒に続けていきたいというのが、私の願いです。"
         },
         {
@@ -315,6 +319,10 @@ export const generatedPosts: BlogPost[] = [
         {
           "kind": "text",
           "text": "\"I can't seem to shake this tiredness\" is the domain of internal medicine. \"My lower back hurts after sitting too long\" is the domain of surgery. These tend to be treated as two separate specialties, but in everyday life, fatigue in the body's internal systems and habits in how we move and hold ourselves tend to affect each other. It's no accident that our clinic covers both internal medicine and surgery — I want to look at everyday discomfort from both angles, metabolism and internal organ health on one side, posture, joints, and muscles on the other. Rather than stopping at zero, I want to help take that next step, together, toward a \"plus\" — days that genuinely feel good."
+        },
+        {
+          "kind": "text",
+          "text": "Thinking about it, this idea of tending to discomfort before it has a name is close to \"mibyo,\" a concept with roots in traditional East Asian medicine — addressing imbalance before it becomes illness. Alongside a Western medical approach, I'd like to bring in that Kampo perspective as well when thinking about the \"minus 0.5\" stage. It's one of the areas I hope to put more focus into going forward."
         },
         {
           "kind": "text",
