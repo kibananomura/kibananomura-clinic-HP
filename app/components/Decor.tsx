@@ -14,21 +14,21 @@ export function LeafSprig({ className }: { className?: string }) {
     >
       <path
         d="M45 118 C 45 80 44 50 44 18"
-        stroke="#7FB67E"
+        stroke="#146B3A"
         strokeWidth="3"
         strokeLinecap="round"
       />
       <path
         d="M44 70 C 18 64 6 44 10 18 C 38 22 50 44 44 70 Z"
-        fill="#94C892"
+        fill="#1E8A4C"
       />
       <path
         d="M44 92 C 70 86 82 66 78 40 C 50 44 38 66 44 92 Z"
-        fill="#BFE0BC"
+        fill="#3EC46F"
       />
       <path
         d="M44 50 C 30 44 24 30 28 16 C 44 20 50 36 44 50 Z"
-        fill="#7FB67E"
+        fill="#146B3A"
       />
     </svg>
   );
@@ -42,13 +42,13 @@ export function Blossom({ className }: { className?: string }) {
       aria-hidden="true"
       xmlns="http://www.w3.org/2000/svg"
     >
-      <g fill="#F2B19C">
+      <g fill="#F2896B">
         <ellipse cx="30" cy="15" rx="9" ry="13" />
         <ellipse cx="30" cy="45" rx="9" ry="13" />
         <ellipse cx="15" cy="30" rx="13" ry="9" />
         <ellipse cx="45" cy="30" rx="13" ry="9" />
       </g>
-      <circle cx="30" cy="30" r="8" fill="#F6C56B" />
+      <circle cx="30" cy="30" r="8" fill="#1E8A4C" />
     </svg>
   );
 }

@@ -18,11 +18,14 @@ const config: Config = {
         ink: "#15241A",
         muted: "#4F6657",
         line: "#06C755", // LINE brand green
-        // warm, organic accents for a "town health-room" feel, now with more punch
+        // Palette intentionally kept to 3 bold colors: primary green, blossom
+        // coral, and ink/surface neutrals. "sun" and "sky" tokens are kept for
+        // backward compatibility with existing class names but now resolve to
+        // the same 3 colors instead of adding pastel blue/yellow hues.
         cream: "#FBF6EC",
         blossom: "#F2896B",
-        sun: "#F5B301",
-        sky: "#5FC1E8",
+        sun: "#F2896B",
+        sky: "#1E8A4C",
       },
       fontFamily: {
         sans: ["var(--font-noto-sans-jp)", "var(--font-dm-sans)", "sans-serif"],
