@@ -279,7 +279,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "2018年から2019年にかけて、マサチューセッツ総合病院（MGH）で研究員として過ごした時間も、私にとって大きな転換点でした。ボストン日本人研究者交流会(BJRF)で幹事の任を仰せつかり、医学だけでなく社会科学系の研究者や一般企業の研究者など様々な分野の方々と交流する機会に恵まれました。臨床と研究の距離の近さ、そして様々な思考方法や文化に触れ、多くの仲間と繋がれたことで、**「良い医療は、優れた個人の技術だけでなく、仕組みとチームによって支えられている」**という実感を強く持つようになりました。"
+          "text": "2018年から2019年にかけて、マサチューセッツ総合病院（MGH）で研究員として過ごした時間も、私にとって大きな転換点でした。ボストン日本人研究者交流会(BJRF)で幹事の任を仰せつかり、医学だけでなく社会科学系の研究者や一般企業の研究者など様々な分野の方々と交流する機会に恵まれました。臨床と研究の距離の近さ、そして様々な思考方法や文化に触れ、多くの仲間と繋がれたことで、**「良い医療は、優れた個人の技術だけでなく、仕組みとチームによって支えられている」**という実感を強く持つようになりました。アフリカのことわざに「早く行きたければ一人で行け、遠くへ行きたければ大勢で行け」という言葉がありますが、まさにそれを肌で感じた日々でした。"
         },
         {
           "kind": "text",
@@ -346,7 +346,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "Spending time as a research fellow at Massachusetts General Hospital (MGH) from 2018 to 2019 was another major turning point for me. I was asked to serve as an organizer for the Boston Japanese Researchers Forum (BJRF), which gave me the chance to connect with people from a wide range of fields — not only medicine, but researchers in the social sciences and private industry as well. Seeing how closely clinical practice and research were connected there, encountering many different ways of thinking and cultures, and building connections with so many colleagues gave me a strong conviction: **good medicine isn't just about one skilled individual — it's supported by systems and teams**."
+          "text": "Spending time as a research fellow at Massachusetts General Hospital (MGH) from 2018 to 2019 was another major turning point for me. I was asked to serve as an organizer for the Boston Japanese Researchers Forum (BJRF), which gave me the chance to connect with people from a wide range of fields — not only medicine, but researchers in the social sciences and private industry as well. Seeing how closely clinical practice and research were connected there, encountering many different ways of thinking and cultures, and building connections with so many colleagues gave me a strong conviction: **good medicine isn't just about one skilled individual — it's supported by systems and teams**. There's an African proverb that goes, \"If you want to go fast, go alone. If you want to go far, go together\" — those days taught me exactly that, firsthand."
         },
         {
           "kind": "text",
