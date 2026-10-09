@@ -1,7 +1,6 @@
 "use client";
 
 import Link from "next/link";
-import Image from "next/image";
 import FadeIn from "../components/FadeIn";
 import SectionHeading from "../components/SectionHeading";
 import { SoftBlob, LeafSprig } from "../components/Decor";
@@ -28,43 +27,32 @@ export default function BlogPageClient() {
           </p>
         </FadeIn>
 
-        <div className="mx-auto mt-10 grid max-w-4xl gap-6 sm:grid-cols-2">
+        <div className="mx-auto mt-10 flex max-w-3xl flex-col gap-4">
           {posts.map((post, i) => {
             const c = getContent(post, lang);
             return (
-              <FadeIn as="article" key={post.slug} delay={(i % 2) * 0.08}>
+              <FadeIn as="article" key={post.slug} delay={(i % 4) * 0.05}>
                 <Link
                   href={`/blog/${post.slug}`}
-                  className="group block h-full overflow-hidden rounded-3xl bg-surface/90 shadow-card transition-all hover:-translate-y-1 hover:shadow-soft"
+                  className="group block rounded-2xl bg-surface/90 p-5 shadow-card transition-all hover:-translate-y-0.5 hover:shadow-soft sm:p-6"
                 >
-                  <div className="relative aspect-[16/9] overflow-hidden">
-                    <Image
-                      src={post.cover}
-                      alt={c.title}
-                      fill
-                      sizes="(max-width: 640px) 100vw, 50vw"
-                      className={`object-cover ${
-                        post.coverPosition ?? "object-center"
-                      } transition-transform duration-500 group-hover:scale-105`}
-                    />
-                  </div>
-                  <div className="p-6">
-                    <div className="flex flex-wrap items-center gap-3 text-xs">
-                      <time className="font-bold text-primary-dark">
-                        {post.date}
-                      </time>
-                      <span className="rounded-full bg-accent px-2.5 py-0.5 font-bold text-primary-dark">
-                        {c.category}
-                      </span>
-                    </div>
-                    <h2 className="mt-2 text-lg font-bold text-ink">{c.title}</h2>
-                    <p className="mt-2 text-sm leading-relaxed text-ink/70">
-                      {c.excerpt}
-                    </p>
-                    <span className="mt-4 inline-block text-sm font-bold text-primary transition-colors group-hover:text-primary-dark">
-                      {t.blog.readMore}
+                  <div className="flex flex-wrap items-center gap-3 text-xs">
+                    <time className="font-bold text-primary-dark">
+                      {post.date}
+                    </time>
+                    <span className="rounded-full bg-accent px-2.5 py-0.5 font-bold text-primary-dark">
+                      {c.category}
                     </span>
                   </div>
+                  <h2 className="mt-2 text-lg font-bold text-ink transition-colors group-hover:text-primary-dark">
+                    {c.title}
+                  </h2>
+                  <p className="mt-2 text-sm leading-relaxed text-ink/70">
+                    {c.excerpt}
+                  </p>
+                  <span className="mt-3 inline-block text-sm font-bold text-primary transition-colors group-hover:text-primary-dark">
+                    {t.blog.readMore}
+                  </span>
                 </Link>
               </FadeIn>
             );
