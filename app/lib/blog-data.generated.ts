@@ -148,11 +148,11 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "まず新型コロナウイルス感染症ですが、報告数は874人、定点あたり31.2人で、前月の約1.5倍に増加しています。**日向・日南・小林の各保健所管内で特に報告が多く**、**15歳未満のお子さんが全体の約8割を占めている**のが今回の特徴です。学校や園での集団生活の中で広がりやすい時期ですので、発熱・せき・のどの痛みがあれば、無理をさせずゆっくり休ませてあげてください。"
+          "text": "まず新型コロナウイルス感染症ですが、報告数は874人、定点あたり31.2人で、前月の約1.5倍に増加しています。1週間あたりの数字なので、**1つの医療機関に1日4〜5人ほどコロナの患者さんが受診している**計算です。**15歳未満のお子さんが全体の約8割を占めている**のが今回の特徴で、学校や園での集団生活の中で広がりやすい時期です。発熱・せき・のどの痛みがあれば、無理をさせずゆっくり休ませてあげてください。"
         },
         {
           "kind": "text",
-          "text": "感染性胃腸炎（いわゆる「おなかの風邪」）も、報告数485人・定点あたり32.3人と、前月の約1.4倍に増えています。延岡・小林・中央の各保健所管内で多く報告されており、**1〜3歳のお子さんが全体の約4割**を占めています。嘔吐や下痢が続くと、小さなお子さんは特に脱水になりやすいので、水分がとれているか、おしっこの回数が減っていないかを注意して見てあげてください。"
+          "text": "感染性胃腸炎（いわゆる「おなかの風邪」）も、報告数485人・定点あたり32.3人と、前月の約1.4倍に増えています。こちらも1日あたりに直すと、**1つの医療機関に1日4〜5人ほど**が受診している計算になります。宮崎市を含む中央保健所管内でも定点あたり31.0人の報告があり、宮崎市内でも流行していることがわかります。**1〜3歳のお子さんが全体の約4割**を占めています。嘔吐や下痢が続くと、小さなお子さんは特に脱水になりやすいので、水分がとれているか、おしっこの回数が減っていないかを注意して見てあげてください。"
         },
         {
           "kind": "text",
@@ -172,7 +172,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "お子さんに多い手足口病は、前月の220人から76人へと大きく減少しており、ひと段落してきた印象です。一方で、のどの痛みや発熱が特徴のA群溶血性レンサ球菌咽頭炎（いわゆる溶連菌）は152人と、前月の124人からやや増加しています。溶連菌は自然に治ることは少なく、適切な治療が勧められる感染症です。のどの痛みが強い・発疹が出ているといった場合は、早めにご相談ください。"
+          "text": "お子さんに多い手足口病は、前月の220人から76人へと、約3分の1まで大きく減少しており、ひと段落してきた印象です。一方で、のどの痛みや発熱が特徴のA群溶血性レンサ球菌咽頭炎（いわゆる溶連菌）は152人と、前月の124人からやや増加しています。溶連菌は自然に治ることは少なく、適切な治療が勧められる感染症です。のどの痛みが強い・発疹が出ているといった場合は、早めにご相談ください。"
         },
         {
           "kind": "text",
@@ -207,11 +207,11 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "COVID-19 reports reached 874 cases, or 31.2 per sentinel site, about 1.5 times last month's level. **Reports were especially high around the Hyuga, Nichinan, and Kobayashi health center areas**, and **children under 15 made up about 80% of all cases** this time. With group settings like school and daycare, it spreads easily — if there's fever, coughing, or a sore throat, please let your child rest without pushing through it."
+          "text": "COVID-19 reports reached 874 cases, or 31.2 per sentinel site, about 1.5 times last month's level. Since that's a weekly figure, it works out to **roughly 4-5 COVID patients a day at a single reporting clinic**. **Children under 15 made up about 80% of all cases** this time — a sign it's spreading easily through school and daycare settings. If there's fever, coughing, or a sore throat, please let your child rest without pushing through it."
         },
         {
           "kind": "text",
-          "text": "Infectious gastroenteritis (a general stomach bug) also rose, with 485 reported cases, or 32.3 per sentinel site — about 1.4 times last month. It was most common around Nobeoka, Kobayashi, and the central health center areas, with **children aged 1 to 3 making up about 40%** of cases. Young children dehydrate quickly with ongoing vomiting or diarrhea, so please keep an eye on whether they're able to keep fluids down and whether they're urinating as often as usual."
+          "text": "Infectious gastroenteritis (a general stomach bug) also rose, with 485 reported cases, or 32.3 per sentinel site — about 1.4 times last month. That also works out to **roughly 4-5 patients a day** at a single clinic. The central health center area, which covers Miyazaki City, reported 31.0 cases per sentinel site, so this is going around here too, not just elsewhere in the prefecture. **Children aged 1 to 3 made up about 40%** of cases. Young children dehydrate quickly with ongoing vomiting or diarrhea, so please keep an eye on whether they're able to keep fluids down and whether they're urinating as often as usual."
         },
         {
           "kind": "text",
@@ -231,7 +231,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "Hand, foot, and mouth disease, common among young children, dropped sharply from 220 cases last month to 76 — a sign it's settling down. On the other hand, group A streptococcal pharyngitis (strep throat), marked by sore throat and fever, rose slightly from 124 to 152 cases. Strep throat rarely resolves on its own, and appropriate treatment is generally recommended. If your child has a severe sore throat or a rash, please come in sooner rather than later."
+          "text": "Hand, foot, and mouth disease, common among young children, dropped sharply from 220 cases last month to 76, down to about a third — a sign it's settling down. On the other hand, group A streptococcal pharyngitis (strep throat), marked by sore throat and fever, rose slightly from 124 to 152 cases. Strep throat rarely resolves on its own, and appropriate treatment is generally recommended. If your child has a severe sore throat or a rash, please come in sooner rather than later."
         },
         {
           "kind": "text",
