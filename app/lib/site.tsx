@@ -346,7 +346,7 @@ const ja: SiteDict = {
       },
       {
         title: "待たない仕組み",
-        body: "Web問診（スマホ事前入力）・自動精算機・車内でのオンライン受付で、来院から会計まで最短30分を目指します。テクノロジーは、人に寄り添うための道具です。",
+        body: "Web問診（スマホ事前入力）・セミセルフレジ・車内でのオンライン受付で、来院から会計まで最短30分を目指します。もちろんWebを使わないご来院・直接のご予約も可能です。テクノロジーは、人に寄り添うための道具です。",
       },
       {
         title: "地元の医師が、長く診続ける",
@@ -706,9 +706,9 @@ const ja: SiteDict = {
     intro: "はじめて木花診療所を受診される方へ、診察の流れや持ち物をご案内します。「これくらいで受診していいのかな？」と思ったときも、どうぞお気軽にお越しください。",
     steps: [
       { num: "01", title: "ご予約（開院後）", body: "電話・Web・LINEにてご予約いただけます（開院後に受付開始）。当日のご来院も受け付けます。予約優先制のため、事前予約をお勧めします。" },
-      { num: "02", title: "来院・受付", body: "受付にて保険証・お薬手帳をご提示ください。Web問診システム（スマートフォン対応）で事前に症状を入力いただけます。" },
+      { num: "02", title: "来院・受付", body: "受付にて保険証・お薬手帳をご提示ください。Web問診システム（スマートフォン対応）で事前に症状を入力いただくこともできますし、ご来院時に直接ご記入いただいても構いません。" },
       { num: "03", title: "問診・診察", body: "医師が症状をていねいにお聞きします。CTや胃カメラ・エコーなど必要な検査はその日のうちに院内で行えます。" },
-      { num: "04", title: "会計・お薬", body: "自動精算機で会計をスムーズに行います。処方箋は院外の調剤薬局でお受け取りください。" },
+      { num: "04", title: "会計・お薬", body: "セミセルフレジで会計をスムーズに行います。処方箋は院外の調剤薬局でお受け取りください。" },
     ],
     prepHeading: "持ち物",
     prepItems: [
@@ -863,7 +863,7 @@ const en: SiteDict = {
       },
       {
         title: "A system that doesn't keep you waiting",
-        body: "AI pre-screening on your phone, self-checkout, and online check-in from your car aim for as little as 30 minutes from arrival to payment. Technology is simply a tool to stay close to people.",
+        body: "AI pre-screening on your phone, semi-self payment kiosks, and online check-in from your car aim for as little as 30 minutes from arrival to payment. Walking in or booking without using the web is also perfectly fine. Technology is simply a tool to stay close to people.",
       },
       {
         title: "A local doctor who keeps caring, long-term",
@@ -1236,9 +1236,9 @@ const en: SiteDict = {
     intro: "A guide for first-time patients — what to expect and what to bring. If you're unsure whether your symptoms warrant a visit, please don't hesitate to come.",
     steps: [
       { num: "01", title: "Book an appointment (after opening)", body: "Bookings can be made by phone, online or LINE (to open after clinic launch). Walk-ins are also welcome, but appointments are prioritised." },
-      { num: "02", title: "Arrive & check in", body: "Please present your insurance card and medication record at reception. Our AI pre-screening system (smartphone-friendly) lets you enter your symptoms in advance." },
+      { num: "02", title: "Arrive & check in", body: "Please present your insurance card and medication record at reception. Our AI pre-screening system (smartphone-friendly) lets you enter your symptoms in advance, or you're welcome to fill it out in person when you arrive." },
       { num: "03", title: "Consultation & examination", body: "The physician will listen carefully to your symptoms. Tests such as CT, gastroscopy and ultrasound can often be performed on the same day." },
-      { num: "04", title: "Payment & prescription", body: "Self-checkout machines allow a smooth payment process. Prescriptions are filled at a nearby dispensing pharmacy." },
+      { num: "04", title: "Payment & prescription", body: "Semi-self payment kiosks keep checkout quick and simple. Prescriptions are filled at a nearby dispensing pharmacy." },
     ],
     prepHeading: "What to bring",
     prepItems: [
