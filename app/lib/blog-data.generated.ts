@@ -126,6 +126,129 @@ export const generatedPosts: BlogPost[] = [
     }
   },
   {
+    "slug": "kansen-2026-07",
+    "date": "2026.08.05",
+    "cover": "/blog/kibana-landscape.png",
+    "ja": {
+      "category": "健康・予防の話",
+      "title": "宮崎県内で今、増えている感染症は？ 夏に気をつけたいこと",
+      "excerpt": "宮崎県の最新データをもとに、今どんな感染症が増えているか、夏に気をつけたい食中毒や胃腸炎、お子さんに多い感染症について、当院の院長がわかりやすくまとめました。",
+      "body": [
+        {
+          "kind": "text",
+          "text": "いつも木花のむら総合診療所のブログをご覧いただき、ありがとうございます。今回は少し趣向を変えて、宮崎県が発表している感染症発生動向のデータをもとに、今どんな感染症が流行しているか、ご家族で気をつけていただきたいポイントをまとめてみました。難しい数字の話は噛み砕いてお伝えしますので、気軽に読んでいただければと思います。"
+        },
+        {
+          "kind": "text",
+          "text": "対象は令和8年6月29日〜8月2日（第27週〜第31週）のデータです。「定点あたり」という言葉がよく出てきますが、これは「1つの医療機関あたりの患者数」という意味だと思っていただければ大丈夫です。数が多いほど、身の回りで流行しているということになります。"
+        },
+        {
+          "kind": "text",
+          "text": "### 増えている感染症：新型コロナと感染性胃腸炎"
+        },
+        {
+          "kind": "text",
+          "text": "まず新型コロナウイルス感染症ですが、報告数は874人、定点あたり31.2人で、前月の約1.5倍に増加しています。**日向・日南・小林の各保健所管内で特に報告が多く**、**15歳未満のお子さんが全体の約8割を占めている**のが今回の特徴です。学校や園での集団生活の中で広がりやすい時期ですので、発熱・せき・のどの痛みがあれば、無理をさせずゆっくり休ませてあげてください。"
+        },
+        {
+          "kind": "text",
+          "text": "感染性胃腸炎（いわゆる「おなかの風邪」）も、報告数485人・定点あたり32.3人と、前月の約1.4倍に増えています。延岡・小林・中央の各保健所管内で多く報告されており、**1〜3歳のお子さんが全体の約4割**を占めています。嘔吐や下痢が続くと、小さなお子さんは特に脱水になりやすいので、水分がとれているか、おしっこの回数が減っていないかを注意して見てあげてください。"
+        },
+        {
+          "kind": "text",
+          "text": "### 夏ならではの注意点：食中毒"
+        },
+        {
+          "kind": "text",
+          "text": "これからの時期は、食中毒にも注意が必要です。今回の報告でも、O157やO111などの**腸管出血性大腸菌感染症**（O157などの名前で知られる、おなかの感染症です）が18例報告されており、腹痛や血便、嘔吐、発熱といった症状が出ることがあります。5〜9歳のお子さんでの報告がもっとも多くなっています。サルモネラ菌やカンピロバクターによる食中毒の報告も見られます。"
+        },
+        {
+          "kind": "text",
+          "text": "バーベキューや焼肉など、生の肉を扱う機会が増える季節です。**生肉を触った箸やトングで、焼けた肉を取り分けない**こと、**お肉はしっかり中まで火を通す**こと、**調理の前後はしっかり手を洗う**ことを、ご家族みなさんで意識していただければと思います。"
+        },
+        {
+          "kind": "text",
+          "text": "### 少し落ち着いてきたもの・引き続き注意したいもの"
+        },
+        {
+          "kind": "text",
+          "text": "お子さんに多い手足口病は、前月の220人から76人へと大きく減少しており、ひと段落してきた印象です。一方で、のどの痛みや発熱が特徴のA群溶血性レンサ球菌咽頭炎（いわゆる溶連菌）は152人と、前月の124人からやや増加しています。溶連菌は自然に治ることは少なく、適切な治療が勧められる感染症です。のどの痛みが強い・発疹が出ているといった場合は、早めにご相談ください。"
+        },
+        {
+          "kind": "text",
+          "text": "### 当院からのお願い"
+        },
+        {
+          "kind": "text",
+          "text": "- 外から帰ったら、石けんでの手洗い・うがいを習慣にしてください\n- お肉や魚介類は中までしっかり加熱し、調理器具は使い分けてください\n- 発熱に加えて、下痢や嘔吐が続く、水分がとれない、ぐったりしているといった場合は、様子を見すぎずに早めにご相談ください"
+        },
+        {
+          "kind": "text",
+          "text": "「これくらいで受診していいのかな」と迷うことがあれば、どうぞ遠慮なくお電話ください。ご家族みなさんが、この夏を元気に過ごせますように。"
+        }
+      ]
+    },
+    "en": {
+      "category": "Health and prevention",
+      "title": "What infections are on the rise in Miyazaki right now? Things to watch for this summer",
+      "excerpt": "Based on the latest Miyazaki Prefecture data, our director sums up which infections are on the rise right now, along with summer food poisoning, stomach upsets, and infections common among children.",
+      "body": [
+        {
+          "kind": "text",
+          "text": "Thank you for reading the Kibana-no-Mura General Medicine Clinic blog. This time, we're sharing something a little different — a summary of the latest infectious disease data published by Miyazaki Prefecture, so you can see what's going around right now and what to watch for with your family. We'll keep the numbers simple, so please read on at ease."
+        },
+        {
+          "kind": "text",
+          "text": "This covers the period from June 29 to August 2, 2026. You'll see the term \"cases per sentinel site\" below, which simply means the average number of patients seen at a single reporting clinic — the higher the number, the more it's going around nearby."
+        },
+        {
+          "kind": "text",
+          "text": "### On the rise: COVID-19 and infectious gastroenteritis"
+        },
+        {
+          "kind": "text",
+          "text": "COVID-19 reports reached 874 cases, or 31.2 per sentinel site, about 1.5 times last month's level. **Reports were especially high around the Hyuga, Nichinan, and Kobayashi health center areas**, and **children under 15 made up about 80% of all cases** this time. With group settings like school and daycare, it spreads easily — if there's fever, coughing, or a sore throat, please let your child rest without pushing through it."
+        },
+        {
+          "kind": "text",
+          "text": "Infectious gastroenteritis (a general stomach bug) also rose, with 485 reported cases, or 32.3 per sentinel site — about 1.4 times last month. It was most common around Nobeoka, Kobayashi, and the central health center areas, with **children aged 1 to 3 making up about 40%** of cases. Young children dehydrate quickly with ongoing vomiting or diarrhea, so please keep an eye on whether they're able to keep fluids down and whether they're urinating as often as usual."
+        },
+        {
+          "kind": "text",
+          "text": "### A summer concern: food poisoning"
+        },
+        {
+          "kind": "text",
+          "text": "This time of year also calls for extra care around food poisoning. This report included 18 cases of **enterohemorrhagic E. coli infection** (an intestinal infection known by strain names such as O157 and O111), which can cause abdominal pain, bloody diarrhea, vomiting, and fever, most commonly in children aged 5 to 9. Cases of salmonella and campylobacter food poisoning were also reported."
+        },
+        {
+          "kind": "text",
+          "text": "This is the season for barbecues and grilling, when raw meat gets handled more often. Please keep in mind, as a family: **don't use the same chopsticks or tongs for raw and cooked meat**, **cook meat thoroughly all the way through**, and **wash your hands well before and after cooking**."
+        },
+        {
+          "kind": "text",
+          "text": "### Easing up, and still worth watching"
+        },
+        {
+          "kind": "text",
+          "text": "Hand, foot, and mouth disease, common among young children, dropped sharply from 220 cases last month to 76 — a sign it's settling down. On the other hand, group A streptococcal pharyngitis (strep throat), marked by sore throat and fever, rose slightly from 124 to 152 cases. Strep throat rarely resolves on its own, and appropriate treatment is generally recommended. If your child has a severe sore throat or a rash, please come in sooner rather than later."
+        },
+        {
+          "kind": "text",
+          "text": "### A few requests from us"
+        },
+        {
+          "kind": "text",
+          "text": "- Please make hand-washing with soap and gargling a habit after coming home\n- Cook meat and seafood thoroughly, and keep cooking utensils separate for raw and cooked food\n- If fever is accompanied by ongoing diarrhea or vomiting, trouble keeping fluids down, or your child seems unusually lethargic, please don't wait it out — come see us sooner"
+        },
+        {
+          "kind": "text",
+          "text": "If you're ever unsure whether something is \"worth a visit,\" please don't hesitate to call us. We hope your family has a healthy summer ahead."
+        }
+      ]
+    }
+  },
+  {
     "slug": "kara-no-michi",
     "date": "2026.09.15",
     "cover": "/blog/kibana-landscape.png",

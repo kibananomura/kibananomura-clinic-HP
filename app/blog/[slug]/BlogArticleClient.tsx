@@ -4,6 +4,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { notFound, useParams } from "next/navigation";
 import { SoftBlob } from "../../components/Decor";
+import BlogRichText from "../../components/BlogRichText";
 import { useSite } from "../../lib/site";
 import { getPost, getContent, getAdjacentPosts } from "../../lib/blog";
 
@@ -52,12 +53,7 @@ export default function BlogArticle() {
           <div className="mt-8 space-y-5">
             {c.body.map((block, i) =>
               block.kind === "text" ? (
-                <p
-                  key={i}
-                  className="text-[15px] leading-[1.95] text-ink/80"
-                >
-                  {block.text}
-                </p>
+                <BlogRichText key={i} text={block.text} />
               ) : (
                 <figure key={i} className="my-8">
                   <div className="relative aspect-[16/9] overflow-hidden rounded-2xl shadow-card">
