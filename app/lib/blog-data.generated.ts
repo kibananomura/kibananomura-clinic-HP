@@ -72,20 +72,20 @@ export const generatedPosts: BlogPost[] = [
     "cover": "/blog/kibana-landscape.png",
     "ja": {
       "category": "クリニックのこと",
-      "title": "「木花」という名前に込めた想い",
-      "excerpt": "正式名称は「木花のむら総合診療所」。看板にもロゴにも、この名前をそのまま使います。地域の名前『木花』と、院長の姓『野村』にまつわる、名前の話です。",
+      "title": "名前に込めた、ふたつの想い",
+      "excerpt": "正式名称は「木花のむら総合診療所」。「総合診療所」に込めた想いと、地域の名前『木花』と院長の姓『野村』にまつわる話、ふたつの名前の由来をお話しします。",
       "body": [
         {
           "kind": "text",
-          "text": "正式名称は「木花のむら総合診療所」。"
+          "text": "正式名称は「木花のむら総合診療所」。看板にもロゴにも、この名前をそのまま掲げます。少し長い名前ですが、ひとつひとつに意味を込めたつもりです。"
         },
         {
           "kind": "text",
-          "text": "「総合診療所」という言葉を入れたのにも、理由があります。**「何科にかかればいいんだろう」と迷う前に、まずは何でも診てもらえる場所だと伝わってほしい**からです。内科なのか外科なのか、ご自身で振り分けてから来院先を決めるのは、思いのほか負担になるものです。そうした迷いを取り除き、まず気軽に来ていただける場所でありたいという想いを、名前そのものに込めました。"
+          "text": "まず「総合診療所」という言葉について。これは、**「何科にかかればいいんだろう」と迷う前に、まずは何でも診てもらえる場所だと伝わってほしい**という想いから入れました。内科なのか外科なのか、ご自身で振り分けてから来院先を決めるのは、思いのほか負担になるものです。そうした迷いを取り除き、まず気軽に来ていただける場所でありたいと思っています。"
         },
         {
           "kind": "text",
-          "text": "名前の成り立ちを明かすと、少し欲張りな名前です。この土地の名である『木花（きばな）』に、**院長である私の姓『野村』を重ねました**。そのまま読ませるのも味気ない気がして、『木花の村』と読めるように表記を整えていました。地域に溶け込むような、やわらかい響きだと思いませんか？"
+          "text": "そして「木花のむら」という部分。名前の成り立ちを明かすと、少し欲張りな名前です。この土地の名である『木花（きばな）』に、**院長である私の姓『野村』を重ねました**。そのまま読ませるのも味気ない気がして、『木花の村』と読めるように表記を整えています。地域に溶け込むような、やわらかい響きだと思いませんか？"
         },
         {
           "kind": "text",
@@ -103,20 +103,20 @@ export const generatedPosts: BlogPost[] = [
     },
     "en": {
       "category": "About the clinic",
-      "title": "The meaning behind our name",
-      "excerpt": "Our official name is Kibana-no-Mura General Medicine Clinic — on our sign, on our logo, and now, the story behind it — the area's name, Kibana, and my own surname, Nomura.",
+      "title": "Two ideas behind our name",
+      "excerpt": "Our official name is Kibana-no-Mura General Medicine Clinic. Here's why \"General Medicine\" is part of it, and the story behind \"Kibana-no-Mura\" — the area's name, Kibana, combined with my own surname, Nomura.",
       "body": [
         {
           "kind": "text",
-          "text": "Our official name is Kibana-no-Mura General Medicine Clinic."
+          "text": "Our official name is Kibana-no-Mura General Medicine Clinic — the name on our sign, and on our logo. It's a bit of a long one, but I tried to put meaning into every part of it."
         },
         {
           "kind": "text",
-          "text": "There's a reason \"General Medicine\" is part of that name, too. **I wanted it to say, before anyone has to wonder \"which department should I go to?\", that this is a place where we see just about anything.** Figuring out whether something is an internal medicine issue or a surgical one, before you've even decided where to go, can be more of a burden than it seems. I wanted the name itself to remove that hesitation, so you can simply come in."
+          "text": "First, \"General Medicine.\" I wanted it to say, **before anyone has to wonder \"which department should I go to?\", that this is a place where we see just about anything**. Figuring out whether something is an internal medicine issue or a surgical one, before you've even decided where to go, can be more of a burden than it seems. I wanted the name itself to remove that hesitation, so you can simply come in."
         },
         {
           "kind": "text",
-          "text": "The name itself is a small indulgence, if I'm honest. It combines \"Kibana,\" the name of this area, **with my own surname, Nomura**. Written plainly, it would just be that — a name. So I chose characters that let it also be read as \"the village of Kibana.\" Doesn't it have a soft, welcoming ring to it — something that belongs to the community?"
+          "text": "Then there's \"Kibana-no-Mura.\" The name itself is a small indulgence, if I'm honest. It combines \"Kibana,\" the name of this area, **with my own surname, Nomura**. Written plainly, it would just be that — a name. So I chose characters that let it also be read as \"the village of Kibana.\" Doesn't it have a soft, welcoming ring to it — something that belongs to the community?"
         },
         {
           "kind": "text",
