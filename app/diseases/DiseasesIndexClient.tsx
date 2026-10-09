@@ -38,6 +38,20 @@ export default function DiseasesIndexClient() {
           </p>
         </FadeIn>
 
+        <FadeIn delay={0.1}>
+          <Link
+            href="/diet-guidance"
+            className="mx-auto mt-6 block max-w-2xl rounded-2xl bg-primary/10 p-5 text-center shadow-card transition-transform hover:-translate-y-0.5"
+          >
+            <p className="text-[15px] font-bold text-primary-dark">
+              🍚 高血圧・糖尿病・脂質異常症・高尿酸血症の食事について
+            </p>
+            <p className="mt-1.5 text-sm leading-relaxed text-ink/70">
+              複数の病気をお持ちの方でも実践しやすい、食事のポイントをまとめました →
+            </p>
+          </Link>
+        </FadeIn>
+
         <div className="mx-auto mt-12 max-w-4xl space-y-10">
           {DISEASE_CATEGORY_ORDER.map((category) => {
             const items = getDiseasesByCategory(category);

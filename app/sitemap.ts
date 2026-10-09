@@ -14,6 +14,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/careers",
     "/symptoms",
     "/diseases",
+    "/diet-guidance",
     "/blog",
     "/links",
     "/tokushoho",
