@@ -511,7 +511,7 @@ export const generatedPosts: BlogPost[] = [
     "cover": "/blog/kibana-landscape.png",
     "ja": {
       "category": "健康・予防の話",
-      "title": "「ガチガチの食事制限」はしません。私がおすすめしているのは「毎日違うものを食べる」ことだけです",
+      "title": "生活習慣病の方の食事指導の実際",
       "excerpt": "健診で数値を指摘されると、真っ先に「あれもこれも禁止されるのでは」と身構えてしまう方が多いように思います。当院が細かい制限をおすすめしない理由と、代わりにお伝えしている「毎日違うものを食べる」というシンプルな考え方についてお話しします。",
       "body": [
         {
@@ -574,7 +574,7 @@ export const generatedPosts: BlogPost[] = [
     },
     "en": {
       "category": "Health and prevention",
-      "title": "I don't give out strict diet rules. The only thing I ask is to eat something different each day",
+      "title": "What diet guidance actually looks like for lifestyle-related conditions",
       "excerpt": "When a health checkup flags a number, many people brace themselves for a long list of forbidden foods. Here's why I don't hand out strict diet rules, and the one simple idea I offer instead — eating something different each day.",
       "body": [
         {

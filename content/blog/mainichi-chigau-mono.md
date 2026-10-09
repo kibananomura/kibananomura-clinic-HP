@@ -3,8 +3,8 @@ date: 2026.10.13
 cover: /blog/kibana-landscape.png
 category_ja: 健康・予防の話
 category_en: Health and prevention
-title_ja: 「ガチガチの食事制限」はしません。私がおすすめしているのは「毎日違うものを食べる」ことだけです
-title_en: "I don't give out strict diet rules. The only thing I ask is to eat something different each day"
+title_ja: 生活習慣病の方の食事指導の実際
+title_en: "What diet guidance actually looks like for lifestyle-related conditions"
 excerpt_ja: 健診で数値を指摘されると、真っ先に「あれもこれも禁止されるのでは」と身構えてしまう方が多いように思います。当院が細かい制限をおすすめしない理由と、代わりにお伝えしている「毎日違うものを食べる」というシンプルな考え方についてお話しします。
 excerpt_en: When a health checkup flags a number, many people brace themselves for a long list of forbidden foods. Here's why I don't hand out strict diet rules, and the one simple idea I offer instead — eating something different each day.
 ---
