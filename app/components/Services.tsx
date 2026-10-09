@@ -7,6 +7,33 @@ import { SoftBlob, Blossom } from "./Decor";
 import { useSite } from "../lib/site";
 import { SCHEDULE } from "../lib/schedule";
 import { PATIENT_LINK_PAGE } from "../lib/patient-links";
+import { DISEASE_LINK_LABELS } from "../lib/diseases-data";
+
+const DISEASE_LINK_PATTERN = new RegExp(
+  `(${DISEASE_LINK_LABELS.map((l) => l.label).join("|")})`,
+  "g"
+);
+
+/** 診療内容の箇条書き中にある疾患名を、疾患ページへのリンクに変換する（日本語のみ対応） */
+function linkifyDiseases(text: string, lang: string) {
+  if (lang !== "ja") return text;
+  const parts = text.split(DISEASE_LINK_PATTERN);
+  return parts.map((part, i) => {
+    const match = DISEASE_LINK_LABELS.find((l) => l.label === part);
+    if (match) {
+      return (
+        <Link
+          key={i}
+          href={`/diseases/${match.slug}`}
+          className="font-medium text-primary-dark underline decoration-primary/30 underline-offset-2 hover:text-primary"
+        >
+          {part}
+        </Link>
+      );
+    }
+    return <span key={i}>{part}</span>;
+  });
+}
 
 const DEPT_ICON_PROPS = {
   className: "h-6 w-6",
@@ -88,7 +115,7 @@ export default function Services() {
                             className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-primary"
                             aria-hidden="true"
                           />
-                          <span>{it}</span>
+                          <span>{linkifyDiseases(it, lang)}</span>
                         </li>
                       ))}
                     </ul>

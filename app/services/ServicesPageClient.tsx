@@ -7,6 +7,33 @@ import { SoftBlob, Blossom } from "../components/Decor";
 import { useSite } from "../lib/site";
 import { SCHEDULE, WED_PM_INDEX } from "../lib/schedule";
 import { PATIENT_LINK_PAGE } from "../lib/patient-links";
+import { DISEASE_LINK_LABELS } from "../lib/diseases-data";
+
+const DISEASE_LINK_PATTERN = new RegExp(
+  `(${DISEASE_LINK_LABELS.map((l) => l.label).join("|")})`,
+  "g"
+);
+
+/** 診療内容の箇条書き中にある疾患名を、疾患ページへのリンクに変換する（日本語のみ対応） */
+function linkifyDiseases(text: string, lang: string) {
+  if (lang !== "ja") return text;
+  const parts = text.split(DISEASE_LINK_PATTERN);
+  return parts.map((part, i) => {
+    const match = DISEASE_LINK_LABELS.find((l) => l.label === part);
+    if (match) {
+      return (
+        <Link
+          key={i}
+          href={`/diseases/${match.slug}`}
+          className="font-medium text-primary-dark underline decoration-primary/30 underline-offset-2 hover:text-primary"
+        >
+          {part}
+        </Link>
+      );
+    }
+    return <span key={i}>{part}</span>;
+  });
+}
 
 const DEPT_ICON_PROPS = {
   className: "h-6 w-6",
@@ -104,6 +131,14 @@ export default function ServicesPageClient() {
               症状から調べる（発熱・腹痛・咳などの症状別ページ）→
             </Link>
           </p>
+          <p className="mx-auto mt-2 max-w-2xl text-center text-sm text-ink/70">
+            <Link
+              href="/diseases"
+              className="font-bold text-primary-dark underline underline-offset-2"
+            >
+              疾患から調べる（高血圧・糖尿病・気管支喘息などの疾患別ページ）→
+            </Link>
+          </p>
         </FadeIn>
 
         {/* 診療科ごとの詳細 */}
@@ -140,7 +175,7 @@ export default function ServicesPageClient() {
                             className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-primary"
                             aria-hidden="true"
                           />
-                          <span>{item}</span>
+                          <span>{linkifyDiseases(item, lang)}</span>
                         </li>
                       ))}
                     </ul>

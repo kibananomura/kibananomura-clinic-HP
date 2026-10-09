@@ -1,5 +1,6 @@
 import type { MetadataRoute } from "next";
 import { SYMPTOMS } from "./lib/symptoms-data";
+import { DISEASES } from "./lib/diseases-data";
 import { generatedPosts } from "./lib/blog-data.generated";
 import { BASE_URL } from "./lib/seo";
 
@@ -12,6 +13,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/contact",
     "/careers",
     "/symptoms",
+    "/diseases",
     "/blog",
     "/links",
     "/tokushoho",
@@ -30,10 +32,15 @@ export default function sitemap(): MetadataRoute.Sitemap {
     lastModified: entry.lastReviewed,
   }));
 
+  const diseaseRoutes: MetadataRoute.Sitemap = DISEASES.map((entry) => ({
+    url: `${BASE_URL}/diseases/${entry.slug}`,
+    lastModified: entry.lastReviewed,
+  }));
+
   const blogRoutes: MetadataRoute.Sitemap = generatedPosts.map((post) => ({
     url: `${BASE_URL}/blog/${post.slug}`,
     lastModified: new Date(post.date.replace(/\./g, "-")),
   }));
 
-  return [...staticRoutes, ...symptomRoutes, ...blogRoutes];
+  return [...staticRoutes, ...symptomRoutes, ...diseaseRoutes, ...blogRoutes];
 }
