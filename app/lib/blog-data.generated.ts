@@ -24,7 +24,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "木花のむら総合診療所は、そんなときにまず気軽に立ち寄っていただける、よろず相談所のような場所を目指しています。お子さんからご高齢の方まで、日々のちょっとした不調から、どうぞ気軽にご相談ください。"
+          "text": "木花のむら総合診療所は、そんなときにまず気軽に立ち寄っていただける、**よろず相談所のような場所**を目指しています。お子さんからご高齢の方まで、日々のちょっとした不調から、どうぞ気軽にご相談ください。"
         },
         {
           "kind": "image",
@@ -52,7 +52,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "Kibana-no-Mura General Medicine Clinic aims to be exactly that kind of place — somewhere you can turn to for just about anything, big or small. From children to the elderly, please feel free to consult us about the small everyday troubles."
+          "text": "Kibana-no-Mura General Medicine Clinic aims to be exactly that kind of place — **somewhere you can turn to for just about anything**, big or small. From children to the elderly, please feel free to consult us about the small everyday troubles."
         },
         {
           "kind": "image",
@@ -81,11 +81,11 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "名前の成り立ちを明かすと、少し欲張りな名前です。この土地の名である『木花（きばな）』に、院長である私の姓『野村』を重ねました。そのまま読ませるのも味気ない気がして、『木花の村』と読めるように表記を整えていました。地域に溶け込むような、やわらかい響きだと思いませんか？"
+          "text": "名前の成り立ちを明かすと、少し欲張りな名前です。この土地の名である『木花（きばな）』に、**院長である私の姓『野村』を重ねました**。そのまま読ませるのも味気ない気がして、『木花の村』と読めるように表記を整えていました。地域に溶け込むような、やわらかい響きだと思いませんか？"
         },
         {
           "kind": "text",
-          "text": "木花は、宮崎市の南部に広がる、緑ゆたかな地域です。海と山がほどよく近く、空気のどこかがあたたかい。この土地の空気と、そこに暮らす人たちのあたたかさに惹かれ、そして妻を育ててくれた木花の地に根を下ろすことを決めました。"
+          "text": "木花は、宮崎市の南部に広がる、緑ゆたかな地域です。海と山がほどよく近く、空気のどこかがあたたかい。この土地の空気と、そこに暮らす人たちのあたたかさに惹かれ、**そして妻を育ててくれた木花の地に根を下ろす**ことを決めました。"
         },
         {
           "kind": "text",
@@ -108,11 +108,11 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "The name itself is a small indulgence, if I'm honest. It combines \"Kibana,\" the name of this area, with my own surname, Nomura. Written plainly, it would just be that — a name. So I chose characters that let it also be read as \"the village of Kibana.\" Doesn't it have a soft, welcoming ring to it — something that belongs to the community?"
+          "text": "The name itself is a small indulgence, if I'm honest. It combines \"Kibana,\" the name of this area, **with my own surname, Nomura**. Written plainly, it would just be that — a name. So I chose characters that let it also be read as \"the village of Kibana.\" Doesn't it have a soft, welcoming ring to it — something that belongs to the community?"
         },
         {
           "kind": "text",
-          "text": "Kibana sits in the southern part of Miyazaki City, green and unhurried, with the sea and the mountains both within easy reach. It was the warmth of this place — the air, and the people in it — along with the fact that it's the place that raised my wife, that led me to decide to put down roots here."
+          "text": "Kibana sits in the southern part of Miyazaki City, green and unhurried, with the sea and the mountains both within easy reach. It was the warmth of this place — the air, and the people in it — along with the fact that **it's the place that raised my wife**, that led me to decide to put down roots here."
         },
         {
           "kind": "text",
@@ -271,7 +271,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "正直に言うと、これまでの私は「一つの専門をとことん極める」タイプの医師のキャリアパスとは、少し違う歩み方をしていました。外科医としての技術を磨きながらも、東日本大震災における災害医療、陸上自衛隊衛生に係る救急救命士育成、行政業務、大学病院での臨床・教育・研究、そして、ここ宮崎での地域医療と、その都度、目の前にある「必要とされる場所」に全身で飛び込んできました。"
+          "text": "正直に言うと、これまでの私は**「一つの専門をとことん極める」タイプの医師のキャリアパスとは、少し違う歩み方**をしていました。外科医としての技術を磨きながらも、東日本大震災における災害医療、陸上自衛隊衛生に係る救急救命士育成、行政業務、大学病院での臨床・教育・研究、そして、ここ宮崎での地域医療と、その都度、目の前にある「必要とされる場所」に全身で飛び込んできました。"
         },
         {
           "kind": "text",
@@ -279,7 +279,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "2018年から2019年にかけて、マサチューセッツ総合病院（MGH）で研究員として過ごした時間も、私にとって大きな転換点でした。ボストン日本人研究者交流会(BJRF)で幹事の任を仰せつかり、医学だけでなく社会科学系の研究者や一般企業の研究者など様々な分野の方々と交流する機会に恵まれました。臨床と研究の距離の近さ、そして様々な思考方法や文化に触れ、多くの仲間と繋がれたことで、「良い医療は、優れた個人の技術だけでなく、仕組みとチームによって支えられている」という実感を強く持つようになりました。"
+          "text": "2018年から2019年にかけて、マサチューセッツ総合病院（MGH）で研究員として過ごした時間も、私にとって大きな転換点でした。ボストン日本人研究者交流会(BJRF)で幹事の任を仰せつかり、医学だけでなく社会科学系の研究者や一般企業の研究者など様々な分野の方々と交流する機会に恵まれました。臨床と研究の距離の近さ、そして様々な思考方法や文化に触れ、多くの仲間と繋がれたことで、**「良い医療は、優れた個人の技術だけでなく、仕組みとチームによって支えられている」**という実感を強く持つようになりました。"
         },
         {
           "kind": "text",
@@ -295,7 +295,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "理由はシンプルです。専門分化が進む大きな病院の中では出会いにくい、「どこに相談したらいいか分からない」という悩みを抱えた方々を、まず受け止める場所をつくりたいと思ったからです。子どもからご高齢の方まで、日々のちょっとした不調から相談できる、地域のよろず相談所のような診療所です。2027年10月の開院を目指して、いま準備を進めています。"
+          "text": "理由はシンプルです。専門分化が進む大きな病院の中では出会いにくい、**「どこに相談したらいいか分からない」という悩みを抱えた方々を、まず受け止める場所**をつくりたいと思ったからです。子どもからご高齢の方まで、日々のちょっとした不調から相談できる、地域のよろず相談所のような診療所です。2027年10月の開院を目指して、いま準備を進めています。"
         },
         {
           "kind": "text",
@@ -307,7 +307,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "もし今、進路に迷っている方がいたら伝えたいのは、「一つの専門を一直線に極める道」だけが正解ではない、ということです。私自身、東日本大震災での災害医療、地域医療、大学、海外研究、そして開業と、色々な現場を渡り歩いてきました。振り返ってみると、それぞれの経験が、今の「患者さんもスタッフもみんなを笑顔にするクリニックをつくる」という目標につながっています。遠回りのように見えて、実はまっすぐな道だったのかもしれません。"
+          "text": "もし今、進路に迷っている方がいたら伝えたいのは、**「一つの専門を一直線に極める道」だけが正解ではない**、ということです。私自身、東日本大震災での災害医療、地域医療、大学、海外研究、そして開業と、色々な現場を渡り歩いてきました。振り返ってみると、それぞれの経験が、今の「患者さんもスタッフもみんなを笑顔にするクリニックをつくる」という目標につながっています。遠回りのように見えて、実はまっすぐな道だったのかもしれません。"
         },
         {
           "kind": "text",
@@ -338,7 +338,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "To be honest, up until now my path didn't look like the classic \"master one specialty deeply\" career. While continuing to sharpen my skills as a surgeon, I threw myself, wholeheartedly, into wherever I felt I was needed most at the time — disaster medicine after the Great East Japan Earthquake, training emergency medical technicians for the Ground Self-Defense Force medical service, administrative work, clinical practice, teaching and research at a university hospital, and now community medicine here in Miyazaki."
+          "text": "To be honest, up until now **my path didn't look like the classic \"master one specialty deeply\" career**. While continuing to sharpen my skills as a surgeon, I threw myself, wholeheartedly, into wherever I felt I was needed most at the time — disaster medicine after the Great East Japan Earthquake, training emergency medical technicians for the Ground Self-Defense Force medical service, administrative work, clinical practice, teaching and research at a university hospital, and now community medicine here in Miyazaki."
         },
         {
           "kind": "text",
@@ -346,7 +346,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "Spending time as a research fellow at Massachusetts General Hospital (MGH) from 2018 to 2019 was another major turning point for me. I was asked to serve as an organizer for the Boston Japanese Researchers Forum (BJRF), which gave me the chance to connect with people from a wide range of fields — not only medicine, but researchers in the social sciences and private industry as well. Seeing how closely clinical practice and research were connected there, encountering many different ways of thinking and cultures, and building connections with so many colleagues gave me a strong conviction: good medicine isn't just about one skilled individual — it's supported by systems and teams."
+          "text": "Spending time as a research fellow at Massachusetts General Hospital (MGH) from 2018 to 2019 was another major turning point for me. I was asked to serve as an organizer for the Boston Japanese Researchers Forum (BJRF), which gave me the chance to connect with people from a wide range of fields — not only medicine, but researchers in the social sciences and private industry as well. Seeing how closely clinical practice and research were connected there, encountering many different ways of thinking and cultures, and building connections with so many colleagues gave me a strong conviction: **good medicine isn't just about one skilled individual — it's supported by systems and teams**."
         },
         {
           "kind": "text",
@@ -362,7 +362,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "The reason is simple. In large, highly specialized hospitals, it's easy to lose sight of people who simply don't know where to turn with their concerns. I wanted to create a place that welcomes them first — a kind of community \"go-to\" clinic for everyday troubles, from children to the elderly. We're preparing now, aiming to open in October 2027."
+          "text": "The reason is simple. In large, highly specialized hospitals, **it's easy to lose sight of people who simply don't know where to turn with their concerns**. I wanted to create a place that welcomes them first — a kind of community \"go-to\" clinic for everyday troubles, from children to the elderly. We're preparing now, aiming to open in October 2027."
         },
         {
           "kind": "text",
@@ -374,7 +374,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "If you're unsure about your own path, here's what I'd like you to take away: a straight line through a single specialty isn't the only right answer. I moved through disaster medicine during the Great East Japan Earthquake, regional hospitals, a university, research abroad, and now opening my own clinic. Looking back, each of those experiences fed into where I am now — building a clinic where \"patients and staff alike leave with a smile.\" What looked like a detour turned out to be a straight path after all."
+          "text": "If you're unsure about your own path, here's what I'd like you to take away: **a straight line through a single specialty isn't the only right answer**. I moved through disaster medicine during the Great East Japan Earthquake, regional hospitals, a university, research abroad, and now opening my own clinic. Looking back, each of those experiences fed into where I am now — building a clinic where \"patients and staff alike leave with a smile.\" What looked like a detour turned out to be a straight path after all."
         },
         {
           "kind": "text",
@@ -402,11 +402,11 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "病院というのは、大きな病気やケガ、いわば「マイナス5」の状態になってから駆け込み、「ゼロ」、つまり異常なしの状態に戻す場所だと思われがちです。それも医療の大切な役割のひとつですが、私がずっと気になっているのは、その手前の時間です。検査には引っかからないけれど、本人は確かに「なんとなく調子が悪い」と感じている。その「マイナス0.5」くらいの段階こそ、実は一番大事なのではないかと思っています。"
+          "text": "病院というのは、大きな病気やケガ、いわば「マイナス5」の状態になってから駆け込み、「ゼロ」、つまり異常なしの状態に戻す場所だと思われがちです。それも医療の大切な役割のひとつですが、私がずっと気になっているのは、その手前の時間です。検査には引っかからないけれど、本人は確かに「なんとなく調子が悪い」と感じている。**その「マイナス0.5」くらいの段階こそ、実は一番大事なのではないか**と思っています。"
         },
         {
           "kind": "text",
-          "text": "「なんとなく疲れが取れない」は内科の領域、「長時間座っていると腰がつらい」は外科の領域。普段は別々の科として語られがちですが、日常のちょっとした不調は、内臓の疲れと体の使い方のクセが、互いに影響し合っていることがほとんどです。当院が内科と外科の両方を標榜しているのは、たまたまではありません。代謝や内臓の状態と、姿勢や関節・筋肉の状態、その両方から「なんとなくの不調」を見ていきたいからです。ゼロで終わらせず、そこからもう一歩踏み込んで、日々を気持ちよく過ごせる「プラス」の状態を一緒に目指していけたらと思っています。"
+          "text": "「なんとなく疲れが取れない」は内科の領域、「長時間座っていると腰がつらい」は外科の領域。普段は別々の科として語られがちですが、日常のちょっとした不調は、内臓の疲れと体の使い方のクセが、互いに影響し合っていることがほとんどです。**当院が内科と外科の両方を標榜しているのは、たまたまではありません。**代謝や内臓の状態と、姿勢や関節・筋肉の状態、その両方から「なんとなくの不調」を見ていきたいからです。ゼロで終わらせず、そこからもう一歩踏み込んで、日々を気持ちよく過ごせる「プラス」の状態を一緒に目指していけたらと思っています。"
         },
         {
           "kind": "text",
@@ -437,11 +437,11 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "People tend to think of a hospital as a place you rush to once something has gone seriously wrong, a \"minus 5,\" and where treatment brings you back to \"zero,\" meaning no abnormalities. That's one of medicine's important roles, but what I keep coming back to is the stretch of time before that. The tests don't catch anything, yet the person genuinely feels something is a little off. I believe that \"minus 0.5\" stage matters more than we usually give it credit for."
+          "text": "People tend to think of a hospital as a place you rush to once something has gone seriously wrong, a \"minus 5,\" and where treatment brings you back to \"zero,\" meaning no abnormalities. That's one of medicine's important roles, but what I keep coming back to is the stretch of time before that. The tests don't catch anything, yet the person genuinely feels something is a little off. **I believe that \"minus 0.5\" stage matters more than we usually give it credit for.**"
         },
         {
           "kind": "text",
-          "text": "\"I can't seem to shake this tiredness\" is the domain of internal medicine. \"My lower back hurts after sitting too long\" is the domain of surgery. These tend to be treated as two separate specialties, but in everyday life, fatigue in the body's internal systems and habits in how we move and hold ourselves tend to affect each other. It's no accident that our clinic covers both internal medicine and surgery — I want to look at everyday discomfort from both angles, metabolism and internal organ health on one side, posture, joints, and muscles on the other. Rather than stopping at zero, I want to help take that next step, together, toward a \"plus\" — days that genuinely feel good."
+          "text": "\"I can't seem to shake this tiredness\" is the domain of internal medicine. \"My lower back hurts after sitting too long\" is the domain of surgery. These tend to be treated as two separate specialties, but in everyday life, fatigue in the body's internal systems and habits in how we move and hold ourselves tend to affect each other. **It's no accident that our clinic covers both internal medicine and surgery** — I want to look at everyday discomfort from both angles, metabolism and internal organ health on one side, posture, joints, and muscles on the other. Rather than stopping at zero, I want to help take that next step, together, toward a \"plus\" — days that genuinely feel good."
         },
         {
           "kind": "text",

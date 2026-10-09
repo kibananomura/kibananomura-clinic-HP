@@ -13,9 +13,9 @@ excerpt_en: Our official name is Kibana-no-Mura General Medicine Clinic — on o
 
 正式名称は「木花のむら総合診療所」。
 
-名前の成り立ちを明かすと、少し欲張りな名前です。この土地の名である『木花（きばな）』に、院長である私の姓『野村』を重ねました。そのまま読ませるのも味気ない気がして、『木花の村』と読めるように表記を整えていました。地域に溶け込むような、やわらかい響きだと思いませんか？
+名前の成り立ちを明かすと、少し欲張りな名前です。この土地の名である『木花（きばな）』に、**院長である私の姓『野村』を重ねました**。そのまま読ませるのも味気ない気がして、『木花の村』と読めるように表記を整えていました。地域に溶け込むような、やわらかい響きだと思いませんか？
 
-木花は、宮崎市の南部に広がる、緑ゆたかな地域です。海と山がほどよく近く、空気のどこかがあたたかい。この土地の空気と、そこに暮らす人たちのあたたかさに惹かれ、そして妻を育ててくれた木花の地に根を下ろすことを決めました。
+木花は、宮崎市の南部に広がる、緑ゆたかな地域です。海と山がほどよく近く、空気のどこかがあたたかい。この土地の空気と、そこに暮らす人たちのあたたかさに惹かれ、**そして妻を育ててくれた木花の地に根を下ろす**ことを決めました。
 
 ロゴにも、同じ想いを込めています。「木」と「花」、そしてこの地の山並みと朝日をかたどりました。芽吹き、少しずつ育っていく植物のように——地域の皆さんと長く歩んでいけるクリニックでありたいと思っています。
 
@@ -25,9 +25,9 @@ excerpt_en: Our official name is Kibana-no-Mura General Medicine Clinic — on o
 
 Our official name is Kibana-no-Mura General Medicine Clinic.
 
-The name itself is a small indulgence, if I'm honest. It combines "Kibana," the name of this area, with my own surname, Nomura. Written plainly, it would just be that — a name. So I chose characters that let it also be read as "the village of Kibana." Doesn't it have a soft, welcoming ring to it — something that belongs to the community?
+The name itself is a small indulgence, if I'm honest. It combines "Kibana," the name of this area, **with my own surname, Nomura**. Written plainly, it would just be that — a name. So I chose characters that let it also be read as "the village of Kibana." Doesn't it have a soft, welcoming ring to it — something that belongs to the community?
 
-Kibana sits in the southern part of Miyazaki City, green and unhurried, with the sea and the mountains both within easy reach. It was the warmth of this place — the air, and the people in it — along with the fact that it's the place that raised my wife, that led me to decide to put down roots here.
+Kibana sits in the southern part of Miyazaki City, green and unhurried, with the sea and the mountains both within easy reach. It was the warmth of this place — the air, and the people in it — along with the fact that **it's the place that raised my wife**, that led me to decide to put down roots here.
 
 That same feeling shaped our logo: a tree and a flower, together with the hills and morning sun of this region. Like something newly planted, still growing — that's how I want this clinic to be, growing alongside the community for a long time to come.
 
