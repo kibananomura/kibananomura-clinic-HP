@@ -346,7 +346,7 @@ const ja: SiteDict = {
       },
       {
         title: "待たない仕組み",
-        body: "Web問診（スマホ事前入力）・セミセルフレジ・車内でのオンライン受付で、来院から会計まで最短30分を目指します。もちろんWebを使わないご来院・直接のご予約も可能です。テクノロジーは、人に寄り添うための道具です。",
+        body: "Web問診（スマホ事前入力）・セミセルフレジ・車内でのオンライン受付で、来院から会計まで概ね30分程度を目安に、できるだけ早くお帰りいただける体制を目指します。もちろんWebを使わないご来院・直接のご予約も可能です。テクノロジーは、人に寄り添うための道具です。",
       },
       {
         title: "地元の医師が、長く診続ける",
@@ -863,7 +863,7 @@ const en: SiteDict = {
       },
       {
         title: "A system that doesn't keep you waiting",
-        body: "AI pre-screening on your phone, semi-self payment kiosks, and online check-in from your car aim for as little as 30 minutes from arrival to payment. Walking in or booking without using the web is also perfectly fine. Technology is simply a tool to stay close to people.",
+        body: "AI pre-screening on your phone, semi-self payment kiosks, and online check-in from your car aim to get you from arrival to payment in around 30 minutes or less — often faster. Walking in or booking without using the web is also perfectly fine. Technology is simply a tool to stay close to people.",
       },
       {
         title: "A local doctor who keeps caring, long-term",
