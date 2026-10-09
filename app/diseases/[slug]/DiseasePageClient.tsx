@@ -5,6 +5,7 @@ import { notFound, useParams } from "next/navigation";
 import FadeIn from "../../components/FadeIn";
 import { SoftBlob } from "../../components/Decor";
 import MedicalWebPageJsonLd from "../../components/MedicalWebPageJsonLd";
+import InlineRichText from "../../components/InlineRichText";
 import { useSite } from "../../lib/site";
 import {
   DISEASE_CATEGORY_LABEL,
@@ -23,7 +24,9 @@ function Block({
   return (
     <div className="mt-6">
       <h2 className="text-lg font-bold text-primary-dark">{heading}</h2>
-      <p className="mt-2 text-[15px] leading-relaxed text-ink/80">{body}</p>
+      <p className="mt-2 text-[15px] leading-relaxed text-ink/80">
+        <InlineRichText text={body} />
+      </p>
     </div>
   );
 }
@@ -77,7 +80,7 @@ export default function DiseasePageClient() {
             <div className="mt-6 rounded-2xl bg-accent/50 p-5">
               <h2 className="text-sm font-bold text-primary-dark">💡 一口メモ</h2>
               <p className="mt-2 text-[15px] leading-relaxed text-ink/80">
-                {disease.tip}
+                <InlineRichText text={disease.tip} />
               </p>
             </div>
           </FadeIn>
@@ -96,7 +99,7 @@ export default function DiseasePageClient() {
                   <div className="mt-6 rounded-2xl bg-accent/50 p-5">
                     <h3 className="text-sm font-bold text-primary-dark">💡 一口メモ</h3>
                     <p className="mt-2 text-[15px] leading-relaxed text-ink/80">
-                      {sub.tip}
+                      <InlineRichText text={sub.tip} />
                     </p>
                   </div>
                 </FadeIn>
