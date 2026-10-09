@@ -254,12 +254,12 @@ export const generatedPosts: BlogPost[] = [
     "cover": "/blog/kibana-landscape.png",
     "ja": {
       "category": "院長のキャリア",
-      "title": "外科医から開業医へ——遠回りのようで、まっすぐだった道のり",
-      "excerpt": "防衛医科大学校を卒業してから、災害医療の現場、自衛隊病院、大学、留学、そして開業準備へ。宮崎大学の学生さんに向けて、進路に迷ったときの話を書いてみました。",
+      "title": "外科医から開業医へ（前編）——十数年、一つの場所に留まらなかった道のり",
+      "excerpt": "防衛医科大学校を卒業してから、災害医療の現場、自衛隊病院、大学、そしてアメリカ留学へ。院長自身のキャリアを振り返る前編です。",
       "body": [
         {
           "kind": "text",
-          "text": "こんにちは。木花のむら総合診療所　院長の野村信介です。今日は少し趣向を変えて、私自身のキャリアの話をしようと思います。宮崎大学の学生さん——医学部に限らず、進路や働き方に迷っている方すべてに、何かの参考になればうれしいです。"
+          "text": "こんにちは。木花のむら総合診療所　院長の野村信介です。今日は少し趣向を変えて、私自身のキャリアの話をしようと思います。宮崎大学の学生さん——医学部に限らず、進路や働き方に迷っている方すべてに、何かの参考になればうれしいです。少し長くなるので、今日と明日の2回に分けてお伝えします。"
         },
         {
           "kind": "text",
@@ -284,6 +284,65 @@ export const generatedPosts: BlogPost[] = [
         {
           "kind": "text",
           "text": "日本に戻ってからも、その視点は消えませんでした。目の前の患者さんを診ることと、地域全体の医療の仕組みを考えること——この二つは、決して別のものではないと思うようになったのです。"
+        },
+        {
+          "kind": "text",
+          "text": "明日の後編では、なぜ今、開業という道を選んだのか、そして進路に迷う学生の皆さんへのメッセージをお伝えします。"
+        }
+      ]
+    },
+    "en": {
+      "category": "Director's career",
+      "title": "From surgeon to clinic director, Part 1 — more than a decade without staying in one place",
+      "excerpt": "From graduating the National Defense Medical College to disaster medicine, a Self-Defense Forces hospital, university, and research in the U.S. Part 1 of the director looking back on his own career.",
+      "body": [
+        {
+          "kind": "text",
+          "text": "Hello, I'm Shinsuke Nomura, director of Kibana-no-Mura General Medicine Clinic. Today I'd like to try something a little different and talk about my own career path. I hope this is useful to students at the University of Miyazaki — not only medical students, but anyone who's still figuring out their own road ahead. It runs a bit long, so I'm splitting it across two posts, today and tomorrow."
+        },
+        {
+          "kind": "text",
+          "text": "### More than a decade without staying in one place"
+        },
+        {
+          "kind": "text",
+          "text": "I was born in Ichikawa, Chiba, graduated from Keio Senior High School, and spent a year as a ronin student at Sundai prep school in Ichigaya before entering the National Defense Medical College, where I lived and studied under fairly strict campus discipline, graduating in 2008. After graduating, I trained at the college's affiliated hospital, the Japan Self-Defense Force Central Hospital, Mishuku Hospital, the Disaster Medical Center, and Toranomon Hospital, among others. Working at the Disaster Medical Center taught me the pace of decision-making unique to tertiary emergency care, and the discipline of doing your best within limited time. After that, I served as an instructor for medical officers, nursing officers, and emergency life-saving technicians at the Japan Ground Self-Defense Force Medical School, worked in administration at the Ground Staff Office, and then as chief of surgery and head of the health management center at the Japan Self-Defense Forces Kumamoto Hospital. I also worked as an assistant professor at the University of Miyazaki (clinical practice, teaching, and research), and then as head of surgery at the Nichinan Prefectural Hospital, on the front line of regional surgical care. After that, at a clinic in Miyakonojo seeing more than 150 patients a day, I gained experience in primary care as a general internist."
+        },
+        {
+          "kind": "text",
+          "text": "To be honest, up until now **my path didn't look like the classic \"master one specialty deeply\" career**. While continuing to sharpen my skills as a surgeon, I threw myself, wholeheartedly, into wherever I felt I was needed most at the time — disaster medicine after the Great East Japan Earthquake, training emergency medical technicians for the Ground Self-Defense Force medical service, administrative work, clinical practice, teaching and research at a university hospital, and now community medicine here in Miyazaki."
+        },
+        {
+          "kind": "text",
+          "text": "### What a year and a half in the U.S. taught me"
+        },
+        {
+          "kind": "text",
+          "text": "Spending time as a research fellow at Massachusetts General Hospital (MGH) from 2018 to 2019 was another major turning point for me. I was asked to serve as an organizer for the Boston Japanese Researchers Forum (BJRF), which gave me the chance to connect with people from a wide range of fields — not only medicine, but researchers in the social sciences and private industry as well. Seeing how closely clinical practice and research were connected there, encountering many different ways of thinking and cultures, and building connections with so many colleagues gave me a strong conviction: **good medicine isn't just about one skilled individual — it's supported by systems and teams**. There's an African proverb that goes, \"If you want to go fast, go alone. If you want to go far, go together\" — those days taught me exactly that, firsthand."
+        },
+        {
+          "kind": "text",
+          "text": "That perspective stayed with me after I returned to Japan. I came to believe that caring for the patient in front of you, and thinking about the healthcare system for an entire community, aren't really separate things at all."
+        },
+        {
+          "kind": "text",
+          "text": "Tomorrow, in Part 2, I'll share why I chose to open a clinic now, and a message for students wondering about their own path."
+        }
+      ]
+    }
+  },
+  {
+    "slug": "kara-no-michi-2",
+    "date": "2026.09.16",
+    "cover": "/blog/kibana-landscape.png",
+    "ja": {
+      "category": "院長のキャリア",
+      "title": "外科医から開業医へ（後編）——遠回りのようで、まっすぐだった道のり",
+      "excerpt": "なぜ今、開業という道を選んだのか。そして進路に迷う学生の皆さんへ。キャリアを振り返る後編です。",
+      "body": [
+        {
+          "kind": "text",
+          "text": "昨日の前編では、防衛医科大学校を卒業してから、災害医療の現場や自衛隊病院、大学、そしてアメリカ留学までの道のりをお話ししました。今日は、なぜ今、開業という道を選んだのか、そして進路に迷う学生の皆さんへのメッセージをお伝えします。"
         },
         {
           "kind": "text",
@@ -321,36 +380,12 @@ export const generatedPosts: BlogPost[] = [
     },
     "en": {
       "category": "Director's career",
-      "title": "From surgeon to clinic director — a path that looked winding, but wasn't",
-      "excerpt": "From graduating the National Defense Medical College to disaster medicine, a Self-Defense Forces hospital, university, research abroad, and now preparing to open a clinic — a note for students wondering about the road ahead.",
+      "title": "From surgeon to clinic director, Part 2 — a path that looked winding, but wasn't",
+      "excerpt": "Why choose to open a clinic now, and a message for students wondering about their own path. Part 2 of the director looking back on his career.",
       "body": [
         {
           "kind": "text",
-          "text": "Hello, I'm Shinsuke Nomura, director of Kibana-no-Mura General Medicine Clinic. Today I'd like to try something a little different and talk about my own career path. I hope this is useful to students at the University of Miyazaki — not only medical students, but anyone who's still figuring out their own road ahead."
-        },
-        {
-          "kind": "text",
-          "text": "### More than a decade without staying in one place"
-        },
-        {
-          "kind": "text",
-          "text": "I was born in Ichikawa, Chiba, graduated from Keio Senior High School, and spent a year as a ronin student at Sundai prep school in Ichigaya before entering the National Defense Medical College, where I lived and studied under fairly strict campus discipline, graduating in 2008. After graduating, I trained at the college's affiliated hospital, the Japan Self-Defense Force Central Hospital, Mishuku Hospital, the Disaster Medical Center, and Toranomon Hospital, among others. Working at the Disaster Medical Center taught me the pace of decision-making unique to tertiary emergency care, and the discipline of doing your best within limited time. After that, I served as an instructor for medical officers, nursing officers, and emergency life-saving technicians at the Japan Ground Self-Defense Force Medical School, worked in administration at the Ground Staff Office, and then as chief of surgery and head of the health management center at the Japan Self-Defense Forces Kumamoto Hospital. I also worked as an assistant professor at the University of Miyazaki (clinical practice, teaching, and research), and then as head of surgery at the Nichinan Prefectural Hospital, on the front line of regional surgical care. After that, at a clinic in Miyakonojo seeing more than 150 patients a day, I gained experience in primary care as a general internist."
-        },
-        {
-          "kind": "text",
-          "text": "To be honest, up until now **my path didn't look like the classic \"master one specialty deeply\" career**. While continuing to sharpen my skills as a surgeon, I threw myself, wholeheartedly, into wherever I felt I was needed most at the time — disaster medicine after the Great East Japan Earthquake, training emergency medical technicians for the Ground Self-Defense Force medical service, administrative work, clinical practice, teaching and research at a university hospital, and now community medicine here in Miyazaki."
-        },
-        {
-          "kind": "text",
-          "text": "### What a year and a half in the U.S. taught me"
-        },
-        {
-          "kind": "text",
-          "text": "Spending time as a research fellow at Massachusetts General Hospital (MGH) from 2018 to 2019 was another major turning point for me. I was asked to serve as an organizer for the Boston Japanese Researchers Forum (BJRF), which gave me the chance to connect with people from a wide range of fields — not only medicine, but researchers in the social sciences and private industry as well. Seeing how closely clinical practice and research were connected there, encountering many different ways of thinking and cultures, and building connections with so many colleagues gave me a strong conviction: **good medicine isn't just about one skilled individual — it's supported by systems and teams**. There's an African proverb that goes, \"If you want to go fast, go alone. If you want to go far, go together\" — those days taught me exactly that, firsthand."
-        },
-        {
-          "kind": "text",
-          "text": "That perspective stayed with me after I returned to Japan. I came to believe that caring for the patient in front of you, and thinking about the healthcare system for an entire community, aren't really separate things at all."
+          "text": "In yesterday's Part 1, I talked about the road from graduating the National Defense Medical College, through disaster medicine, a Self-Defense Forces hospital, university, and my time researching in the U.S. Today, I'll share why I chose to open a clinic now, and a message for students wondering about their own path."
         },
         {
           "kind": "text",
