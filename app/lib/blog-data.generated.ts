@@ -81,6 +81,10 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
+          "text": "「総合診療所」という言葉を入れたのにも、理由があります。**「何科にかかればいいんだろう」と迷う前に、まずは何でも診てもらえる場所だと伝わってほしい**からです。内科なのか外科なのか、ご自身で振り分けてから来院先を決めるのは、思いのほか負担になるものです。そうした迷いを取り除き、まず気軽に来ていただける場所でありたいという想いを、名前そのものに込めました。"
+        },
+        {
+          "kind": "text",
           "text": "名前の成り立ちを明かすと、少し欲張りな名前です。この土地の名である『木花（きばな）』に、**院長である私の姓『野村』を重ねました**。そのまま読ませるのも味気ない気がして、『木花の村』と読めるように表記を整えていました。地域に溶け込むような、やわらかい響きだと思いませんか？"
         },
         {
@@ -105,6 +109,10 @@ export const generatedPosts: BlogPost[] = [
         {
           "kind": "text",
           "text": "Our official name is Kibana-no-Mura General Medicine Clinic."
+        },
+        {
+          "kind": "text",
+          "text": "There's a reason \"General Medicine\" is part of that name, too. **I wanted it to say, before anyone has to wonder \"which department should I go to?\", that this is a place where we see just about anything.** Figuring out whether something is an internal medicine issue or a surgical one, before you've even decided where to go, can be more of a burden than it seems. I wanted the name itself to remove that hesitation, so you can simply come in."
         },
         {
           "kind": "text",

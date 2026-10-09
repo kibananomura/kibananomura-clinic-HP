@@ -13,6 +13,8 @@ excerpt_en: Our official name is Kibana-no-Mura General Medicine Clinic — on o
 
 正式名称は「木花のむら総合診療所」。
 
+「総合診療所」という言葉を入れたのにも、理由があります。**「何科にかかればいいんだろう」と迷う前に、まずは何でも診てもらえる場所だと伝わってほしい**からです。内科なのか外科なのか、ご自身で振り分けてから来院先を決めるのは、思いのほか負担になるものです。そうした迷いを取り除き、まず気軽に来ていただける場所でありたいという想いを、名前そのものに込めました。
+
 名前の成り立ちを明かすと、少し欲張りな名前です。この土地の名である『木花（きばな）』に、**院長である私の姓『野村』を重ねました**。そのまま読ませるのも味気ない気がして、『木花の村』と読めるように表記を整えていました。地域に溶け込むような、やわらかい響きだと思いませんか？
 
 木花は、宮崎市の南部に広がる、緑ゆたかな地域です。海と山がほどよく近く、空気のどこかがあたたかい。この土地の空気と、そこに暮らす人たちのあたたかさに惹かれ、**そして妻を育ててくれた木花の地に根を下ろす**ことを決めました。
@@ -24,6 +26,8 @@ excerpt_en: Our official name is Kibana-no-Mura General Medicine Clinic — on o
 ## en
 
 Our official name is Kibana-no-Mura General Medicine Clinic.
+
+There's a reason "General Medicine" is part of that name, too. **I wanted it to say, before anyone has to wonder "which department should I go to?", that this is a place where we see just about anything.** Figuring out whether something is an internal medicine issue or a surgical one, before you've even decided where to go, can be more of a burden than it seems. I wanted the name itself to remove that hesitation, so you can simply come in.
 
 The name itself is a small indulgence, if I'm honest. It combines "Kibana," the name of this area, **with my own surname, Nomura**. Written plainly, it would just be that — a name. So I chose characters that let it also be read as "the village of Kibana." Doesn't it have a soft, welcoming ring to it — something that belongs to the community?
 
