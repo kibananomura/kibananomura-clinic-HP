@@ -53,7 +53,7 @@ export default function Header() {
       <div className="mx-auto flex min-h-24 w-full max-w-7xl items-center justify-between gap-2 overflow-visible px-4 sm:min-h-[6.5rem] sm:gap-4 sm:px-6 xl:px-8">
         <Link
           href="/"
-          className="group flex min-w-0 shrink items-center gap-2 overflow-visible sm:gap-3.5 xl:max-w-[15rem] 2xl:max-w-[18rem]"
+          className="group flex shrink-0 items-center gap-2 overflow-visible sm:gap-3.5"
           aria-label={t.common.toTop}
         >
           <Image
@@ -72,7 +72,7 @@ export default function Header() {
         </Link>
 
         <nav
-          className="hidden min-w-0 flex-1 flex-nowrap items-center justify-end gap-2.5 xl:flex xl:gap-3 2xl:gap-4"
+          className="hidden min-w-0 flex-1 flex-nowrap items-center justify-end gap-2.5 2xl:flex 2xl:gap-3.5"
           aria-label={t.common.toTop}
         >
           {t.nav.map((link) =>
@@ -118,7 +118,7 @@ export default function Header() {
           </Link>
         </nav>
 
-        <div className="flex shrink-0 items-center gap-1.5 xl:hidden">
+        <div className="flex shrink-0 items-center gap-1.5 2xl:hidden">
           <LanguageToggle />
           <button
             type="button"
@@ -151,7 +151,7 @@ export default function Header() {
 
       <div
         id="mobile-menu"
-        className={`overflow-y-auto bg-surface/95 backdrop-blur-md transition-[max-height,opacity] duration-300 xl:hidden ${
+        className={`overflow-y-auto bg-surface/95 backdrop-blur-md transition-[max-height,opacity] duration-300 2xl:hidden ${
           open ? "max-h-[calc(100vh-6rem)] opacity-100 shadow-card" : "max-h-0 opacity-0"
         }`}
       >
