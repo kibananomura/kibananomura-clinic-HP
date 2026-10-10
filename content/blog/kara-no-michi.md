@@ -29,7 +29,7 @@ excerpt_en: The National Defense Medical College, the front lines of disaster me
 
 ## en
 
-Hello, I'm Shinsuke Nomura, director of Kibana-no-Mura General Medicine Clinic. Today I'd like to try something a little different and talk about my own career path. I hope this is useful to students at the University of Miyazaki — not only medical students, but anyone who's still figuring out their own road ahead. It runs a bit long, so I'm splitting it across two posts, today and tomorrow.
+Hello, I'm Shinsuke Nomura, director of Kibana Nomura General Medicine Clinic. Today I'd like to try something a little different and talk about my own career path. I hope this is useful to students at the University of Miyazaki — not only medical students, but anyone who's still figuring out their own road ahead. It runs a bit long, so I'm splitting it across two posts, today and tomorrow.
 
 ### More than a decade without staying in one place
 

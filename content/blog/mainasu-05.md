@@ -39,4 +39,4 @@ Miyazaki is a place where the sea, the mountains, and the rivers are all close b
 
 I understand the hesitation — wondering whether something this minor is worth a visit. But no one is better positioned to notice that small sense of something being off than the person feeling it. Speaking up while it's still at minus 0.5 often turns out, in the end, to be the shortest path forward.
 
-We want Kibana-no-Mura General Medicine Clinic to be a place where you can bring up those small, easy-to-dismiss concerns without hesitation. We still have a little while to go before opening, and I'll keep sharing how our preparations are coming along, a little at a time.
+We want Kibana Nomura General Medicine Clinic to be a place where you can bring up those small, easy-to-dismiss concerns without hesitation. We still have a little while to go before opening, and I'll keep sharing how our preparations are coming along, a little at a time.

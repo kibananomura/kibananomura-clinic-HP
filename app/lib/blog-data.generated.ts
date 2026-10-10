@@ -44,7 +44,7 @@ export const generatedPosts: BlogPost[] = [
       "body": [
         {
           "kind": "text",
-          "text": "Hello. I'm Shinsuke Nomura, director of Kibana-no-Mura General Medicine Clinic. We're currently preparing for our opening, planned for October 2027."
+          "text": "Hello. I'm Shinsuke Nomura, director of Kibana Nomura General Medicine Clinic. We're currently preparing for our opening, planned for October 2027."
         },
         {
           "kind": "text",
@@ -52,7 +52,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "Kibana-no-Mura General Medicine Clinic aims to be exactly that kind of place — **somewhere you can turn to for just about anything**, big or small. From children to the elderly, please feel free to consult us about the small everyday troubles."
+          "text": "Kibana Nomura General Medicine Clinic aims to be exactly that kind of place — **somewhere you can turn to for just about anything**, big or small. From children to the elderly, please feel free to consult us about the small everyday troubles."
         },
         {
           "kind": "image",
@@ -104,11 +104,11 @@ export const generatedPosts: BlogPost[] = [
     "en": {
       "category": "About the clinic",
       "title": "Two ideas behind our name",
-      "excerpt": "It's actually a bit of a greedy name — I layered my own surname, Nomura, onto Kibana, the name of this area. Here's the story behind Kibana-no-Mura General Medicine Clinic.",
+      "excerpt": "It's actually a bit of a greedy name — I layered my own surname, Nomura, onto Kibana, the name of this area. Here's the story behind Kibana Nomura General Medicine Clinic.",
       "body": [
         {
           "kind": "text",
-          "text": "Our official name is Kibana-no-Mura General Medicine Clinic. It's a bit of a long one, but I tried to put meaning into every part of it."
+          "text": "Our official name is Kibana Nomura General Medicine Clinic. It's a bit of a long one, but I tried to put meaning into every part of it."
         },
         {
           "kind": "text",
@@ -203,7 +203,7 @@ export const generatedPosts: BlogPost[] = [
       "body": [
         {
           "kind": "text",
-          "text": "Thank you for reading the Kibana-no-Mura General Medicine Clinic blog. This time, we're sharing something a little different — a summary of the latest infectious disease data published by Miyazaki Prefecture, so you can see what's going around right now and what to watch for with your family. We'll keep the numbers simple, so please read on at ease."
+          "text": "Thank you for reading the Kibana Nomura General Medicine Clinic blog. This time, we're sharing something a little different — a summary of the latest infectious disease data published by Miyazaki Prefecture, so you can see what's going around right now and what to watch for with your family. We'll keep the numbers simple, so please read on at ease."
         },
         {
           "kind": "text",
@@ -306,7 +306,7 @@ export const generatedPosts: BlogPost[] = [
       "body": [
         {
           "kind": "text",
-          "text": "Hello, I'm Shinsuke Nomura, director of Kibana-no-Mura General Medicine Clinic. Today I'd like to try something a little different and talk about my own career path. I hope this is useful to students at the University of Miyazaki — not only medical students, but anyone who's still figuring out their own road ahead. It runs a bit long, so I'm splitting it across two posts, today and tomorrow."
+          "text": "Hello, I'm Shinsuke Nomura, director of Kibana Nomura General Medicine Clinic. Today I'd like to try something a little different and talk about my own career path. I hope this is useful to students at the University of Miyazaki — not only medical students, but anyone who's still figuring out their own road ahead. It runs a bit long, so I'm splitting it across two posts, today and tomorrow."
         },
         {
           "kind": "text",
@@ -425,7 +425,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "At Kibana-no-Mura General Medicine Clinic, we're planning a completely unpaid observer program open not only to medical students but also to those interested in marketing and entrepreneurship, or in systems engineering (IT and programming). I'll keep sharing our preparations here on the blog — if this caught your interest, please come back and take a look."
+          "text": "At Kibana Nomura General Medicine Clinic, we're planning a completely unpaid observer program open not only to medical students but also to those interested in marketing and entrepreneurship, or in systems engineering (IT and programming). I'll keep sharing our preparations here on the blog — if this caught your interest, please come back and take a look."
         }
       ]
     }
@@ -500,7 +500,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "We want Kibana-no-Mura General Medicine Clinic to be a place where you can bring up those small, easy-to-dismiss concerns without hesitation. We still have a little while to go before opening, and I'll keep sharing how our preparations are coming along, a little at a time."
+          "text": "We want Kibana Nomura General Medicine Clinic to be a place where you can bring up those small, easy-to-dismiss concerns without hesitation. We still have a little while to go before opening, and I'll keep sharing how our preparations are coming along, a little at a time."
         }
       ]
     }

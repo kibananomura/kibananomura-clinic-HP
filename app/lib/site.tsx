@@ -775,7 +775,7 @@ const ja: SiteDict = {
 
 const en: SiteDict = {
   common: {
-    toTop: "Back to Kibana-no-Mura General Medicine Clinic home",
+    toTop: "Back to Kibana Nomura General Medicine Clinic home",
     menuOpen: "Open menu",
     menuClose: "Close menu",
     langSwitch: "Switch language",
@@ -799,7 +799,7 @@ const en: SiteDict = {
     close: "Dismiss notice",
   },
   hero: {
-    eyebrow: "Kumano, Miyazaki ｜ Kibana-no-Mura General Medicine Clinic ｜ An all-purpose consultation spot",
+    eyebrow: "Kumano, Miyazaki ｜ Kibana Nomura General Medicine Clinic ｜ An all-purpose consultation spot",
     titleLines: [
       ["From children to seniors,"],
       ["a family clinic that supports"],
@@ -834,7 +834,7 @@ const en: SiteDict = {
   },
   mission: {
     eyebrow: "Our Promise",
-    heading: "What Kibana-no-Mura General Medicine Clinic stands for",
+    heading: "What Kibana Nomura General Medicine Clinic stands for",
     cards: [
       {
         title: "Our Philosophy",
@@ -855,7 +855,7 @@ const en: SiteDict = {
     ],
     visionQuote:
       "A family clinic that supports every generation, from children to seniors.",
-    visionCaption: "── Kibana-no-Mura General Medicine Clinic Vision",
+    visionCaption: "── Kibana Nomura General Medicine Clinic Vision",
   },
   features: {
     eyebrow: "Why Us",
@@ -897,14 +897,14 @@ const en: SiteDict = {
       "I graduated from the National Defense Medical College, whose mission is to train medical officers with a strong sense of duty who can also handle primary care and general clinical practice — an education that gave me a broad clinical foundation. From there, I trained mainly in gastroenterological surgery at university and regional hospitals, facing patients in the operating room and many other settings along the way.",
     quote: "“I don’t know where to turn.” Those are exactly the moments I want you to rely on us.",
     storyBody: [
-      "Kibana-no-Mura General Medicine Clinic is a community-based clinic rooted in Kumano, Miyazaki. Covering internal medicine, gastroenterology, allergy, respiratory medicine, surgery and pediatrics across six departments, we aim to be the family clinic you can turn to with confidence, from children to the elderly, for everyday ailments and life's turning points alike.",
+      "Kibana Nomura General Medicine Clinic is a community-based clinic rooted in Kumano, Miyazaki. Covering internal medicine, gastroenterology, allergy, respiratory medicine, surgery and pediatrics across six departments, we aim to be the family clinic you can turn to with confidence, from children to the elderly, for everyday ailments and life's turning points alike.",
       "What we value most is the idea of a clinic where patients and staff alike leave with a smile.",
     ],
     storyMore: "Read more about my career on the blog",
     storyMoreHref: "/blog/kara-no-michi",
     catch: "Your family clinic.",
     photoNote: "* Photo coming soon (image)",
-    portraitAria: "Dr. Shinsuke Nomura, Director of Kibana-no-Mura General Medicine Clinic",
+    portraitAria: "Dr. Shinsuke Nomura, Director of Kibana Nomura General Medicine Clinic",
   },
   services: {
     eyebrow: "Services",
@@ -1016,7 +1016,7 @@ const en: SiteDict = {
   access: {
     eyebrow: "Access",
     heading: "Easy to reach, here for you.",
-    mapTitle: "Planned location of Kibana-no-Mura General Medicine Clinic",
+    mapTitle: "Planned location of Kibana Nomura General Medicine Clinic",
     mapSub: "Kumano 5233-2, Miyazaki City (road access under negotiation — location is tentative)",
     mapUrl: "https://maps.google.com/maps?q=%E5%AE%AE%E5%B4%8E%E7%9C%8C%E5%AE%AE%E5%B4%8E%E5%B8%82%E7%86%8A%E9%87%8E5233-2",
     mapEmbed:
@@ -1039,7 +1039,7 @@ const en: SiteDict = {
   },
   footer: {
     tagline:
-      "Kibana-no-Mura General Medicine Clinic in Kumano, Miyazaki. Six departments including internal medicine, surgery and gastroenterology. An all-purpose consultation spot you can drop by with ease.",
+      "Kibana Nomura General Medicine Clinic in Kumano, Miyazaki. Six departments including internal medicine, surgery and gastroenterology. An all-purpose consultation spot you can drop by with ease.",
     badge: "Opening October 2027 / Under construction",
     menuHeading: "Menu",
     deptHeading: "Departments & Location",
@@ -1065,7 +1065,7 @@ const en: SiteDict = {
     eyebrow: "Privacy Policy",
     heading: "Privacy Policy",
     intro:
-      "Kibana-no-Mura General Medicine Clinic (\"the Clinic\") regards the proper protection of the personal information of patients and others as an important responsibility, and handles personal information in accordance with applicable laws and guidelines under the following policy.",
+      "Kibana Nomura General Medicine Clinic (\"the Clinic\") regards the proper protection of the personal information of patients and others as an important responsibility, and handles personal information in accordance with applicable laws and guidelines under the following policy.",
     sections: [
       {
         title: "1. Collection of personal information",
@@ -1196,7 +1196,7 @@ const en: SiteDict = {
     eyebrow: "Our Services",
     heading: "Detailed services by department",
     intro:
-      "Kibana-no-Mura General Medicine Clinic offers six departments — internal medicine, gastroenterology, allergy, respiratory medicine, surgery and pediatrics — so you can rely on us as your family clinic. If you're unsure which department you need, please don't hesitate to ask.",
+      "Kibana Nomura General Medicine Clinic offers six departments — internal medicine, gastroenterology, allergy, respiratory medicine, surgery and pediatrics — so you can rely on us as your family clinic. If you're unsure which department you need, please don't hesitate to ask.",
     deptDescs: [
       "We cover everything from chronic disease management to acute symptoms, digestive issues and allergic conditions. Tests including CT, gastroscopy, ultrasound and FeNO are available in-house, and in many cases results can be shared the same day.",
       "Our board-certified surgeon (gastroenterological surgery) handles wound and burn care, day-surgery for cysts and lipomas, ingrown nail treatment and more. Abdominal symptoms requiring surgical assessment are also handled with CT and ultrasound on-site.",
@@ -1293,7 +1293,7 @@ const en: SiteDict = {
     heading: "Specified Commercial Transactions Act disclosure",
     intro: "Disclosure required by Japan's Specified Commercial Transactions Act for self-pay medical services.",
     items: [
-      { label: "Business operator", value: "Kibana-no-Mura General Medicine Clinic (under construction)" },
+      { label: "Business operator", value: "Kibana Nomura General Medicine Clinic (under construction)" },
       { label: "Director", value: "Dr. Shinsuke Nomura" },
       { label: "Address", value: "5233-2 Kumano, Miyazaki City, Miyazaki Prefecture (road access under negotiation) — full address to be published after opening" },
       { label: "Phone", value: "To be published after opening" },

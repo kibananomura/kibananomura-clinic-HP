@@ -11,13 +11,13 @@ export const BRAND = {
       "宮崎市熊野の木花のむら総合診療所。内科・消化器内科・アレルギー内科・呼吸器内科・外科・小児科の6科に対応予定。CT・胃カメラ・外科処置に院内で対応できる体制を整備予定。2027年10月1日開院予定。",
   },
   en: {
-    primary: "Kibana-no-Mura General Medicine Clinic",
-    withSub: "Kibana-no-Mura General Medicine Clinic",
-    logoEmblemAlt: "Kibana-no-Mura General Medicine Clinic logo mark",
-    logoAlt: "Kibana-no-Mura General Medicine Clinic / MIYAZAKI, JAPAN",
-    copyright: "Kibana-no-Mura General Medicine Clinic",
+    primary: "Kibana Nomura General Medicine Clinic",
+    withSub: "Kibana Nomura General Medicine Clinic",
+    logoEmblemAlt: "Kibana Nomura General Medicine Clinic logo mark",
+    logoAlt: "Kibana Nomura General Medicine Clinic / MIYAZAKI, JAPAN",
+    copyright: "Kibana Nomura General Medicine Clinic",
     alternateNames: [] as const,
     seoDescription:
-      "Kibana-no-Mura General Medicine Clinic in Kumano, Miyazaki City (opening October 2027). Planned services: internal medicine, gastroenterology, allergy, respiratory, surgery and pediatric care (6 departments), with on-site CT, gastroscopy and minor surgery.",
+      "Kibana Nomura General Medicine Clinic in Kumano, Miyazaki City (opening October 2027). Planned services: internal medicine, gastroenterology, allergy, respiratory, surgery and pediatric care (6 departments), with on-site CT, gastroscopy and minor surgery.",
   },
 } as const;

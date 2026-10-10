@@ -6,7 +6,7 @@ category_en: About the clinic
 title_ja: 名前に込めた、ふたつの想い
 title_en: Two ideas behind our name
 excerpt_ja: 実は少し欲張りな名前なんです。地域の名『木花』に、院長の姓『野村』を重ねました。「木花のむら総合診療所」という名前に込めた、ふたつの想いをお話しします。
-excerpt_en: It's actually a bit of a greedy name — I layered my own surname, Nomura, onto Kibana, the name of this area. Here's the story behind Kibana-no-Mura General Medicine Clinic.
+excerpt_en: It's actually a bit of a greedy name — I layered my own surname, Nomura, onto Kibana, the name of this area. Here's the story behind Kibana Nomura General Medicine Clinic.
 ---
 
 ## ja
@@ -25,7 +25,7 @@ excerpt_en: It's actually a bit of a greedy name — I layered my own surname, N
 
 ## en
 
-Our official name is Kibana-no-Mura General Medicine Clinic. It's a bit of a long one, but I tried to put meaning into every part of it.
+Our official name is Kibana Nomura General Medicine Clinic. It's a bit of a long one, but I tried to put meaning into every part of it.
 
 First, "General Medicine." I wanted it to say, **before anyone has to wonder "which department should I go to?", that this is a place where we see just about anything**. Figuring out whether something is an internal medicine issue or a surgical one, before you've even decided where to go, can be more of a burden than it seems. I wanted the name itself to remove that hesitation, so you can simply come in.
 
