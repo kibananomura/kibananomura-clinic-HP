@@ -16,11 +16,12 @@ const ICON_PROPS = {
 function DustCloudIcon() {
   return (
     <svg viewBox="0 0 24 24" {...ICON_PROPS}>
-      <path d="M7 16a4 4 0 010-8 5 5 0 019.6-1.5A3.5 3.5 0 0118 16H7z" />
-      <circle cx="5" cy="19.5" r="0.6" fill="currentColor" stroke="none" />
-      <circle cx="9" cy="20.5" r="0.5" fill="currentColor" stroke="none" />
-      <circle cx="13" cy="19.5" r="0.6" fill="currentColor" stroke="none" />
-      <circle cx="17" cy="20.5" r="0.5" fill="currentColor" stroke="none" />
+      <circle cx="10" cy="15" r="3.4" fill="none" />
+      <circle cx="13.5" cy="13.5" r="2.6" fill="none" />
+      <circle cx="7.3" cy="13" r="2.2" fill="none" />
+      <path d="M5 5.5v2.6M3.7 6.8h2.6" />
+      <path d="M19 8.5v2.2M17.9 9.6h2.2" />
+      <path d="M14.3 3.5v2M13.3 4.5h2" />
     </svg>
   );
 }
