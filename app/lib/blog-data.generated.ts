@@ -12,7 +12,7 @@ export const generatedPosts: BlogPost[] = [
     "ja": {
       "category": "ごあいさつ",
       "title": "はじめまして。院長の野村です。",
-      "excerpt": "2027年10月1日の開院に向けて準備を進めています。木花診療所で大切にしたい想いを、少しだけお話しさせてください。",
+      "excerpt": "「こんなことで受診していいのかな」——そんな風にひとりで悩む方を、これまでたくさん見てきました。2027年10月開院に向けて、院長の野村から最初のごあいさつです。",
       "body": [
         {
           "kind": "text",
@@ -40,7 +40,7 @@ export const generatedPosts: BlogPost[] = [
     "en": {
       "category": "Greeting",
       "title": "Hello — I'm Dr. Nomura, the director.",
-      "excerpt": "We're preparing for our opening in October 2027. Let me share a little about what we want to cherish at Kibana Medical Office (Kibana Clinic).",
+      "excerpt": "“Is this even worth a doctor's visit?” — I've seen so many people quietly wrestle with that question alone. A first hello from director Nomura, ahead of our October 2027 opening.",
       "body": [
         {
           "kind": "text",
@@ -73,7 +73,7 @@ export const generatedPosts: BlogPost[] = [
     "ja": {
       "category": "クリニックのこと",
       "title": "名前に込めた、ふたつの想い",
-      "excerpt": "正式名称は「木花のむら総合診療所」。「総合診療所」に込めた想いと、地域の名前『木花』と院長の姓『野村』にまつわる話、ふたつの名前の由来をお話しします。",
+      "excerpt": "実は少し欲張りな名前なんです。地域の名『木花』に、院長の姓『野村』を重ねました。「木花のむら総合診療所」という名前に込めた、ふたつの想いをお話しします。",
       "body": [
         {
           "kind": "text",
@@ -104,7 +104,7 @@ export const generatedPosts: BlogPost[] = [
     "en": {
       "category": "About the clinic",
       "title": "Two ideas behind our name",
-      "excerpt": "Our official name is Kibana-no-Mura General Medicine Clinic. Here's why \"General Medicine\" is part of it, and the story behind \"Kibana-no-Mura\" — the area's name, Kibana, combined with my own surname, Nomura.",
+      "excerpt": "It's actually a bit of a greedy name — I layered my own surname, Nomura, onto Kibana, the name of this area. Here's the story behind Kibana-no-Mura General Medicine Clinic.",
       "body": [
         {
           "kind": "text",
@@ -140,7 +140,7 @@ export const generatedPosts: BlogPost[] = [
     "ja": {
       "category": "健康・予防の話",
       "title": "宮崎県内で今、増えている感染症は？ 夏に気をつけたいこと",
-      "excerpt": "宮崎県の最新データをもとに、今どんな感染症が増えているか、夏に気をつけたい食中毒や胃腸炎、お子さんに多い感染症について、当院の院長がわかりやすくまとめました。",
+      "excerpt": "今、宮崎市内の医療機関では1日あたり4〜5人がコロナで受診している計算に——最新データで分かった、夏に増えている感染症と気をつけたいポイントをまとめました。",
       "body": [
         {
           "kind": "text",
@@ -199,7 +199,7 @@ export const generatedPosts: BlogPost[] = [
     "en": {
       "category": "Health and prevention",
       "title": "What infections are on the rise in Miyazaki right now? Things to watch for this summer",
-      "excerpt": "Based on the latest Miyazaki Prefecture data, our director sums up which infections are on the rise right now, along with summer food poisoning, stomach upsets, and infections common among children.",
+      "excerpt": "Right now, a single clinic in Miyazaki City is seeing roughly 4-5 COVID patients a day — here's what the latest data shows about infections on the rise this summer, and what to watch for.",
       "body": [
         {
           "kind": "text",
@@ -263,7 +263,7 @@ export const generatedPosts: BlogPost[] = [
     "ja": {
       "category": "院長のキャリア",
       "title": "外科医から開業医へ（前編）——十数年、一つの場所に留まらなかった道のり",
-      "excerpt": "防衛医科大学校を卒業してから、災害医療の現場、自衛隊病院、大学、そしてアメリカ留学へ。院長自身のキャリアを振り返る前編です。",
+      "excerpt": "防衛医科大学校、災害医療の最前線、自衛隊病院、大学、そしてアメリカ留学へ——十数年、一つの場所に留まらなかった院長のキャリアを振り返る前編です。",
       "body": [
         {
           "kind": "text",
@@ -302,7 +302,7 @@ export const generatedPosts: BlogPost[] = [
     "en": {
       "category": "Director's career",
       "title": "From surgeon to clinic director, Part 1 — more than a decade without staying in one place",
-      "excerpt": "From graduating the National Defense Medical College to disaster medicine, a Self-Defense Forces hospital, university, and research in the U.S. Part 1 of the director looking back on his own career.",
+      "excerpt": "The National Defense Medical College, the front lines of disaster medicine, a Self-Defense Forces hospital, a university, and research in the U.S. — Part 1 of a career spent never staying in one place for long.",
       "body": [
         {
           "kind": "text",
@@ -346,7 +346,7 @@ export const generatedPosts: BlogPost[] = [
     "ja": {
       "category": "院長のキャリア",
       "title": "外科医から開業医へ（後編）——遠回りのようで、まっすぐだった道のり",
-      "excerpt": "なぜ今、開業という道を選んだのか。そして進路に迷う学生の皆さんへ。キャリアを振り返る後編です。",
+      "excerpt": "手術室に立ち続ける道も、大学に残る道もあった中で、私があえて開業を選んだ理由。進路に迷う学生の皆さんへのメッセージも添えた、キャリア振り返りの後編です。",
       "body": [
         {
           "kind": "text",
@@ -389,7 +389,7 @@ export const generatedPosts: BlogPost[] = [
     "en": {
       "category": "Director's career",
       "title": "From surgeon to clinic director, Part 2 — a path that looked winding, but wasn't",
-      "excerpt": "Why choose to open a clinic now, and a message for students wondering about their own path. Part 2 of the director looking back on his career.",
+      "excerpt": "I could have stayed in the operating room, or stayed at the university — here's why I chose to open a clinic instead. Part 2, with a message for students still finding their path.",
       "body": [
         {
           "kind": "text",
@@ -437,7 +437,7 @@ export const generatedPosts: BlogPost[] = [
     "ja": {
       "category": "院長のメッセージ",
       "title": "「マイナス0.5」から整える、という考え方",
-      "excerpt": "病院に行くほどじゃないけど、なんとなく体が重い。そんな違和感こそ、実は一番大事なサインかもしれません。内科と外科、両方を診る院長が考える、当院のコンセプトのお話です。",
+      "excerpt": "「病院に行くほどじゃないけど、なんとなく体が重い」。その違和感こそ、実は一番大事なサインかもしれません。内科・外科両方を診る院長が考える、当院のコンセプトです。",
       "body": [
         {
           "kind": "text",
@@ -472,7 +472,7 @@ export const generatedPosts: BlogPost[] = [
     "en": {
       "category": "A message from the director",
       "title": "Tending to the minus 0.5, before it becomes a diagnosis",
-      "excerpt": "It is not bad enough to go to the hospital, but something just does not feel quite right. That vague discomfort might be the most important signal of all. A note from our director, who sees both internal medicine and surgery, on the idea behind our clinic.",
+      "excerpt": "“It's not bad enough for the hospital, but I just feel kind of heavy.” That vague discomfort might be the most important signal of all — a note from our director on the idea behind this clinic.",
       "body": [
         {
           "kind": "text",
@@ -512,7 +512,7 @@ export const generatedPosts: BlogPost[] = [
     "ja": {
       "category": "健康・予防の話",
       "title": "生活習慣病の方の食事指導の実際",
-      "excerpt": "健診で数値を指摘されると、真っ先に「あれもこれも禁止されるのでは」と身構えてしまう方が多いように思います。当院が細かい制限をおすすめしない理由と、代わりにお伝えしている「毎日違うものを食べる」というシンプルな考え方についてお話しします。",
+      "excerpt": "「あれもこれも禁止されるのでは」——健診で数値を指摘された方の多くが、そう身構えています。私が細かい制限をおすすめしない理由と、代わりに伝えているたったひとつのコツをお話しします。",
       "body": [
         {
           "kind": "text",
@@ -575,7 +575,7 @@ export const generatedPosts: BlogPost[] = [
     "en": {
       "category": "Health and prevention",
       "title": "What diet guidance actually looks like for lifestyle-related conditions",
-      "excerpt": "When a health checkup flags a number, many people brace themselves for a long list of forbidden foods. Here's why I don't hand out strict diet rules, and the one simple idea I offer instead — eating something different each day.",
+      "excerpt": "“Am I about to be told everything is off-limits?” — that's the look I see on so many patients' faces after a checkup. Here's why I don't hand out strict diet rules, and the one thing I ask instead.",
       "body": [
         {
           "kind": "text",

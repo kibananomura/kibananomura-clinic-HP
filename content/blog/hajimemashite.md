@@ -6,8 +6,8 @@ category_ja: ごあいさつ
 category_en: Greeting
 title_ja: はじめまして。院長の野村です。
 title_en: Hello — I'm Dr. Nomura, the director.
-excerpt_ja: 2027年10月1日の開院に向けて準備を進めています。木花診療所で大切にしたい想いを、少しだけお話しさせてください。
-excerpt_en: We're preparing for our opening in October 2027. Let me share a little about what we want to cherish at Kibana Medical Office (Kibana Clinic).
+excerpt_ja: 「こんなことで受診していいのかな」——そんな風にひとりで悩む方を、これまでたくさん見てきました。2027年10月開院に向けて、院長の野村から最初のごあいさつです。
+excerpt_en: “Is this even worth a doctor's visit?” — I've seen so many people quietly wrestle with that question alone. A first hello from director Nomura, ahead of our October 2027 opening.
 ---
 
 ## ja

@@ -5,8 +5,8 @@ category_ja: 院長のキャリア
 category_en: Director's career
 title_ja: 外科医から開業医へ（後編）——遠回りのようで、まっすぐだった道のり
 title_en: "From surgeon to clinic director, Part 2 — a path that looked winding, but wasn't"
-excerpt_ja: なぜ今、開業という道を選んだのか。そして進路に迷う学生の皆さんへ。キャリアを振り返る後編です。
-excerpt_en: Why choose to open a clinic now, and a message for students wondering about their own path. Part 2 of the director looking back on his career.
+excerpt_ja: 手術室に立ち続ける道も、大学に残る道もあった中で、私があえて開業を選んだ理由。進路に迷う学生の皆さんへのメッセージも添えた、キャリア振り返りの後編です。
+excerpt_en: I could have stayed in the operating room, or stayed at the university — here's why I chose to open a clinic instead. Part 2, with a message for students still finding their path.
 ---
 
 ## ja

@@ -47,7 +47,7 @@ export default function BlogPageClient() {
                   <h2 className="mt-2 text-lg font-bold text-ink transition-colors group-hover:text-primary-dark">
                     {c.title}
                   </h2>
-                  <p className="mt-2 text-sm leading-relaxed text-ink/70">
+                  <p className="mt-2 line-clamp-1 text-sm leading-relaxed text-ink/70">
                     {c.excerpt}
                   </p>
                   <span className="mt-3 inline-block text-sm font-bold text-primary transition-colors group-hover:text-primary-dark">

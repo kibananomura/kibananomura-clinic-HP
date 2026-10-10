@@ -5,8 +5,8 @@ category_ja: クリニックのこと
 category_en: About the clinic
 title_ja: 名前に込めた、ふたつの想い
 title_en: Two ideas behind our name
-excerpt_ja: 正式名称は「木花のむら総合診療所」。「総合診療所」に込めた想いと、地域の名前『木花』と院長の姓『野村』にまつわる話、ふたつの名前の由来をお話しします。
-excerpt_en: Our official name is Kibana-no-Mura General Medicine Clinic. Here's why "General Medicine" is part of it, and the story behind "Kibana-no-Mura" — the area's name, Kibana, combined with my own surname, Nomura.
+excerpt_ja: 実は少し欲張りな名前なんです。地域の名『木花』に、院長の姓『野村』を重ねました。「木花のむら総合診療所」という名前に込めた、ふたつの想いをお話しします。
+excerpt_en: It's actually a bit of a greedy name — I layered my own surname, Nomura, onto Kibana, the name of this area. Here's the story behind Kibana-no-Mura General Medicine Clinic.
 ---
 
 ## ja

@@ -5,8 +5,8 @@ category_ja: 院長のメッセージ
 category_en: A message from the director
 title_ja: 「マイナス0.5」から整える、という考え方
 title_en: "Tending to the minus 0.5, before it becomes a diagnosis"
-excerpt_ja: 病院に行くほどじゃないけど、なんとなく体が重い。そんな違和感こそ、実は一番大事なサインかもしれません。内科と外科、両方を診る院長が考える、当院のコンセプトのお話です。
-excerpt_en: It is not bad enough to go to the hospital, but something just does not feel quite right. That vague discomfort might be the most important signal of all. A note from our director, who sees both internal medicine and surgery, on the idea behind our clinic.
+excerpt_ja: 「病院に行くほどじゃないけど、なんとなく体が重い」。その違和感こそ、実は一番大事なサインかもしれません。内科・外科両方を診る院長が考える、当院のコンセプトです。
+excerpt_en: “It's not bad enough for the hospital, but I just feel kind of heavy.” That vague discomfort might be the most important signal of all — a note from our director on the idea behind this clinic.
 ---
 
 ## ja

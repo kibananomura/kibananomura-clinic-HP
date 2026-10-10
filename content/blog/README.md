@@ -58,7 +58,7 @@ Second paragraph.
 | `coverPosition` | - | 画像の表示位置を微調整したいときだけ指定（例: `object-top`） |
 | `category_ja` / `category_en` | ○ | カテゴリ表示 |
 | `title_ja` / `title_en` | ○ | タイトル |
-| `excerpt_ja` / `excerpt_en` | ○ | 一覧ページに出る要約文 |
+| `excerpt_ja` / `excerpt_en` | ○ | 一覧ページに出る要約文。**1行で途中まで（line-clamp）表示されるため、冒頭文で興味を引く内容にすること。** 結論や核心を要約の最後に置かず、最初の一文（表示される1行分）で読みたくなる引っかかりを作る。 |
 
 ## 反映のしくみ（開発者向けメモ）
 

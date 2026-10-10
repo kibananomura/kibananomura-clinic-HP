@@ -5,8 +5,8 @@ category_ja: 健康・予防の話
 category_en: Health and prevention
 title_ja: 生活習慣病の方の食事指導の実際
 title_en: "What diet guidance actually looks like for lifestyle-related conditions"
-excerpt_ja: 健診で数値を指摘されると、真っ先に「あれもこれも禁止されるのでは」と身構えてしまう方が多いように思います。当院が細かい制限をおすすめしない理由と、代わりにお伝えしている「毎日違うものを食べる」というシンプルな考え方についてお話しします。
-excerpt_en: When a health checkup flags a number, many people brace themselves for a long list of forbidden foods. Here's why I don't hand out strict diet rules, and the one simple idea I offer instead — eating something different each day.
+excerpt_ja: 「あれもこれも禁止されるのでは」——健診で数値を指摘された方の多くが、そう身構えています。私が細かい制限をおすすめしない理由と、代わりに伝えているたったひとつのコツをお話しします。
+excerpt_en: “Am I about to be told everything is off-limits?” — that's the look I see on so many patients' faces after a checkup. Here's why I don't hand out strict diet rules, and the one thing I ask instead.
 ---
 
 ## ja

@@ -42,7 +42,7 @@ export default function BlogTeaser() {
                   <h3 className="mt-2 text-lg font-bold text-ink transition-colors group-hover:text-primary-dark">
                     {c.title}
                   </h3>
-                  <p className="mt-2 text-sm leading-relaxed text-ink/70">
+                  <p className="mt-2 line-clamp-1 text-sm leading-relaxed text-ink/70">
                     {c.excerpt}
                   </p>
                 </Link>

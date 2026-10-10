@@ -5,8 +5,8 @@ category_ja: 院長のキャリア
 category_en: Director's career
 title_ja: 外科医から開業医へ（前編）——十数年、一つの場所に留まらなかった道のり
 title_en: "From surgeon to clinic director, Part 1 — more than a decade without staying in one place"
-excerpt_ja: 防衛医科大学校を卒業してから、災害医療の現場、自衛隊病院、大学、そしてアメリカ留学へ。院長自身のキャリアを振り返る前編です。
-excerpt_en: From graduating the National Defense Medical College to disaster medicine, a Self-Defense Forces hospital, university, and research in the U.S. Part 1 of the director looking back on his own career.
+excerpt_ja: 防衛医科大学校、災害医療の最前線、自衛隊病院、大学、そしてアメリカ留学へ——十数年、一つの場所に留まらなかった院長のキャリアを振り返る前編です。
+excerpt_en: The National Defense Medical College, the front lines of disaster medicine, a Self-Defense Forces hospital, a university, and research in the U.S. — Part 1 of a career spent never staying in one place for long.
 ---
 
 ## ja
