@@ -370,7 +370,7 @@ const ja: SiteDict = {
       "防衛医科大学校を卒業。同校は、医師である幹部自衛官（自衛隊医官）としての使命感を持ち、プライマリケアや総合臨床に対応できる人材の育成を理念に掲げており、その中で幅広い診療科に対応する力を培いました。卒業後は大学病院や地域の病院で消化器外科を中心に診療を重ね、手術室をはじめ、さまざまな現場で患者さんと向き合ってきました。",
     quote: "「どこに相談したらいいか分からない」——そんなときこそ、頼ってほしい。",
     storyBody: [
-      "木花のむら総合診療所は、宮崎市熊野に根ざす地域密着型のクリニックです。内科・消化器内科・アレルギー内科・呼吸器内科・外科・小児科の6科を標榜し、お子さんからご高齢の方まで、日常のちょっとした不調から人生の節目まで寄り添う、かかりつけ診療所を目指します。",
+      "木花のむら総合診療所は、宮崎市熊野に根ざす地域密着型のクリニックです。内科・外科・小児科を中心に、お子さんからご高齢の方まで、日常のちょっとした不調から人生の節目まで寄り添う、かかりつけ診療所を目指します。",
       "私たちが大切にしているのは「患者さんもスタッフもみんなを笑顔にするクリニック」という理念です。",
     ],
     storyMore: "院長ブログでキャリアの話を読む",
@@ -381,9 +381,9 @@ const ja: SiteDict = {
   },
   services: {
     eyebrow: "診療のご案内",
-    heading: "幅広い診療科に、院内で対応予定。",
+    heading: "内科・外科・小児科、幅広い症状に院内で対応予定。",
     deptLabel: "標榜科",
-    departments: ["内科", "消化器内科", "アレルギー内科", "呼吸器内科", "外科", "小児科"],
+    departments: ["内科", "外科", "小児科"],
     detailHeading: "診療内容",
     details: [
       {
@@ -506,17 +506,17 @@ const ja: SiteDict = {
   },
   footer: {
     tagline:
-      "宮崎市熊野の木花のむら総合診療所。内科・消化器内科・アレルギー内科・呼吸器内科・外科・小児科の6科対応。よろず相談所のように気軽に立ち寄れる場所を目指しています。",
+      "宮崎市熊野の木花のむら総合診療所。内科・外科・小児科を中心に、よろず相談所のように気軽に立ち寄れる場所を目指しています。",
     badge: "2027年10月1日 開院予定 ／ 建設準備中",
     menuHeading: "メニュー",
     deptHeading: "診療科・所在地",
     deptItems: [
-      "内科 ／ 消化器内科 ／ アレルギー内科 ／ 呼吸器内科 ／ 外科 ／ 小児科",
+      "内科・外科・小児科",
       "宮崎市熊野5233-2（接道交渉中）",
       "TEL：開院後に設定いたします",
     ],
     snsHeading: "SNS",
-    copyrightDept: "宮崎市熊野 ｜ 内科・消化器内科・外科・小児科 ほか",
+    copyrightDept: "宮崎市熊野 ｜ 内科・外科・小児科",
     privacyLabel: "プライバシーポリシー",
     careersLabel: "医療関係者向け",
     firstVisitLabel: "初診の方へ",
@@ -632,7 +632,7 @@ const ja: SiteDict = {
       {
         title: "保険診療",
         items: [
-          { name: "内科・小児科・外科・消化器内科・アレルギー科", price: "各種保険適用" },
+          { name: "内科・外科・小児科", price: "各種保険適用" },
           { name: "各種検査（CT・胃カメラ・エコー など）", price: "保険診療に準じます" },
         ],
       },
@@ -660,7 +660,7 @@ const ja: SiteDict = {
     eyebrow: "診療内容のご案内",
     heading: "各診療科の詳しい診療内容",
     intro:
-      "木花のむら総合診療所では内科・消化器内科・アレルギー内科・呼吸器内科・外科・小児科の6科を標榜し、地域のかかりつけ診療所として幅広い診療を行います。「何科に行けばいいか分からない」という場合も、まずはお気軽にご相談ください。",
+      "木花のむら総合診療所は内科・外科・小児科を中心に、地域のかかりつけ診療所として幅広い診療を行います。「何科に行けばいいか分からない」という場合も、まずはお気軽にご相談ください。",
     deptDescs: [
       "生活習慣病の長期管理から急性症状・消化器の不調・アレルギー疾患まで総合的に対応します。CT・胃カメラ・エコー・FeNO測定などを院内で行い、その日のうちに結果をお伝えできる場合があります。",
       "外科専門医（消化器外科専門医）が担当します。傷・やけどの処置から粉瘤・脂肪腫などの日帰り小手術・巻き爪の処置まで対応。外科的な判断が必要な腹部症状にも CT・エコーを用いて対応します。",
@@ -813,7 +813,7 @@ const en: SiteDict = {
     guide: [
       {
         title: "Insured care",
-        body: "Internal medicine, pediatrics, surgery, gastroenterology and allergy care. CT, gastroscopy, ultrasound and minor surgery completed in-house.",
+        body: "Internal medicine, surgery and pediatrics. CT, gastroscopy, ultrasound and minor surgery completed in-house.",
       },
       {
         title: "Self-pay care",
@@ -897,7 +897,7 @@ const en: SiteDict = {
       "I graduated from the National Defense Medical College, whose mission is to train medical officers with a strong sense of duty who can also handle primary care and general clinical practice — an education that gave me a broad clinical foundation. From there, I trained mainly in gastroenterological surgery at university and regional hospitals, facing patients in the operating room and many other settings along the way.",
     quote: "“I don’t know where to turn.” Those are exactly the moments I want you to rely on us.",
     storyBody: [
-      "Kibana Nomura General Medicine Clinic is a community-based clinic rooted in Kumano, Miyazaki. Covering internal medicine, gastroenterology, allergy, respiratory medicine, surgery and pediatrics across six departments, we aim to be the family clinic you can turn to with confidence, from children to the elderly, for everyday ailments and life's turning points alike.",
+      "Kibana Nomura General Medicine Clinic is a community-based clinic rooted in Kumano, Miyazaki. Centered on internal medicine, surgery and pediatrics, we aim to be the family clinic you can turn to with confidence, from children to the elderly, for everyday ailments and life's turning points alike.",
       "What we value most is the idea of a clinic where patients and staff alike leave with a smile.",
     ],
     storyMore: "Read more about my career on the blog",
@@ -908,20 +908,13 @@ const en: SiteDict = {
   },
   services: {
     eyebrow: "Services",
-    heading: "A wide range of departments, in one place.",
+    heading: "Internal medicine, surgery and pediatrics, a wide range of care in one place.",
     deptLabel: "Departments",
-    departments: [
-      "Internal Medicine",
-      "Gastroenterology",
-      "Allergy & Immunology",
-      "Respiratory Medicine",
-      "Surgery",
-      "Pediatrics",
-    ],
+    departments: ["Internal Medicine", "Surgery", "Pediatrics"],
     detailHeading: "What we treat",
     details: [
       {
-        title: "Internal Medicine · Gastroenterology · Allergy",
+        title: "Internal Medicine",
         items: [
           "Lifestyle diseases (hypertension, dyslipidemia, diabetes)",
           "Colds, fever and cough",
@@ -1039,17 +1032,17 @@ const en: SiteDict = {
   },
   footer: {
     tagline:
-      "Kibana Nomura General Medicine Clinic in Kumano, Miyazaki. Six departments including internal medicine, surgery and gastroenterology. An all-purpose consultation spot you can drop by with ease.",
+      "Kibana Nomura General Medicine Clinic in Kumano, Miyazaki. Centered on internal medicine, surgery and pediatrics. An all-purpose consultation spot you can drop by with ease.",
     badge: "Opening October 2027 / Under construction",
     menuHeading: "Menu",
     deptHeading: "Departments & Location",
     deptItems: [
-      "Internal Medicine / Gastroenterology / Allergy / Respiratory / Surgery / Pediatrics",
+      "Internal Medicine, Surgery & Pediatrics",
       "5233-2 Kumano, Miyazaki City",
       "Tel: to be announced after opening",
     ],
     snsHeading: "Social",
-    copyrightDept: "Kumano, Miyazaki ｜ Internal Medicine, Surgery, Gastroenterology & more",
+    copyrightDept: "Kumano, Miyazaki ｜ Internal Medicine, Surgery & Pediatrics",
     privacyLabel: "Privacy Policy",
     careersLabel: "For medical professionals",
     firstVisitLabel: "First visit",
@@ -1166,7 +1159,7 @@ const en: SiteDict = {
         title: "Insured care",
         items: [
           {
-            name: "Internal medicine, pediatrics, surgery, gastroenterology, allergy",
+            name: "Internal medicine, surgery, pediatrics",
             price: "Covered by insurance",
           },
           {
@@ -1196,7 +1189,7 @@ const en: SiteDict = {
     eyebrow: "Our Services",
     heading: "Detailed services by department",
     intro:
-      "Kibana Nomura General Medicine Clinic offers six departments — internal medicine, gastroenterology, allergy, respiratory medicine, surgery and pediatrics — so you can rely on us as your family clinic. If you're unsure which department you need, please don't hesitate to ask.",
+      "Kibana Nomura General Medicine Clinic is centered on internal medicine, surgery and pediatrics, so you can rely on us as your family clinic. If you're unsure which department you need, please don't hesitate to ask.",
     deptDescs: [
       "We cover everything from chronic disease management to acute symptoms, digestive issues and allergic conditions. Tests including CT, gastroscopy, ultrasound and FeNO are available in-house, and in many cases results can be shared the same day.",
       "Our board-certified surgeon (gastroenterological surgery) handles wound and burn care, day-surgery for cysts and lipomas, ingrown nail treatment and more. Abdominal symptoms requiring surgical assessment are also handled with CT and ultrasound on-site.",
