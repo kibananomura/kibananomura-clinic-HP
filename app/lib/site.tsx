@@ -298,7 +298,7 @@ const ja: SiteDict = {
       },
       {
         title: "受付時間",
-        body: "月〜金（土日祝休み）。午前・午後とも診療します。昼休みは近隣施設への訪問診療の時間帯として予定。土曜・日曜の17:30〜18:30は、外科処置専門の特別外来を予定しています（予約制）。",
+        body: "月〜金（土日祝休み）。午前・午後とも診療します。昼休みは近隣施設への訪問診療の時間帯として予定。土曜・日曜は院長の都合がつく日に限り、17:30〜18:30に外科処置専門の特別外来を開設することがあります。",
       },
     ],
     guideLink: "詳しい診療内容を見る →",
@@ -472,7 +472,7 @@ const ja: SiteDict = {
     legendClosed: "休診",
     scheduleNotes: [
       "★ 昼休みは近隣施設への訪問診療の時間帯として予定しています",
-      "★ 土・日 17:30〜18:30は、外科処置専門の特別外来を予定しています（予約制）",
+      "★ 土・日は院長の都合がつく日に限り、17:30〜18:30に外科処置専門の特別外来を開設することがあります（空き日程は前週までにご案内予定）",
     ],
     closedNote: "休診：土曜・日曜・祝日（外科処置外来を除く）",
     days: ["月", "火", "水", "木", "金"],
@@ -819,7 +819,7 @@ const en: SiteDict = {
       },
       {
         title: "Reception hours",
-        body: "Mon–Fri (closed Sat, Sun & holidays). Open mornings and afternoons every weekday. Lunch breaks reserved for facility visits (care homes etc.). A special surgical procedure clinic is planned on Saturdays and Sundays, 5:30–6:30 PM (by appointment).",
+        body: "Mon–Fri (closed Sat, Sun & holidays). Open mornings and afternoons every weekday. Lunch breaks reserved for facility visits (care homes etc.). On select Saturdays and Sundays, depending on the director's availability, we may open a special surgical procedure clinic from 5:30–6:30 PM.",
       },
     ],
     guideLink: "See full services →",
@@ -1004,7 +1004,7 @@ const en: SiteDict = {
     legendClosed: "Closed",
     scheduleNotes: [
       "★ Lunch breaks are planned for facility visits (care homes, group homes, etc.)",
-      "★ A special surgical procedure clinic is planned on Sat & Sun, 5:30–6:30 PM (by appointment only)",
+      "★ On select Saturdays and Sundays, depending on the director's availability, we may open a special surgical procedure clinic from 5:30–6:30 PM (available dates announced the week before)",
     ],
     closedNote: "Closed: Saturdays, Sundays & holidays (except the surgical procedure clinic)",
     days: ["Mon", "Tue", "Wed", "Thu", "Fri"],
