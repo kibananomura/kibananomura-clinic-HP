@@ -6,8 +6,12 @@ export default function HeroBackground() {
     <div className="absolute inset-0 -z-10 overflow-hidden" aria-hidden="true">
       {/* 周辺地図 */}
       <div
-        className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-        style={{ backgroundImage: "url('/hero-map.jpg')" }}
+        className="absolute inset-0 bg-no-repeat"
+        style={{
+          backgroundImage: "url('/hero-map.jpg')",
+          backgroundSize: "145% auto",
+          backgroundPosition: "0% 46%",
+        }}
       />
 
       {/* テキスト可読性：左側を白くフェード */}
