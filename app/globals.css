@@ -88,16 +88,14 @@
     font-size: clamp(0.95rem, 4.2vw, 1.125rem);
     line-height: 1.15;
     max-width: 100%;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
+    white-space: normal;
+    overflow-wrap: break-word;
   }
 
   @media (min-width: 640px) {
     .header-brand-name {
       font-size: 1.5rem;
-      line-height: 1;
-      text-overflow: ellipsis;
+      line-height: 1.1;
     }
   }
 
@@ -112,9 +110,8 @@
     font-size: clamp(0.75rem, 3vw, 0.8125rem);
     line-height: 1.25;
     max-width: 100%;
-    overflow: hidden;
-    white-space: nowrap;
-    text-overflow: ellipsis;
+    white-space: normal;
+    overflow-wrap: break-word;
   }
 
   @media (min-width: 640px) {
