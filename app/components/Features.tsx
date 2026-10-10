@@ -89,6 +89,9 @@ export default function Features() {
                         {t.features.miniLegendStrong}
                       </span>
                     </p>
+                    <p className="mt-1.5 text-center text-[11px] leading-relaxed text-muted">
+                      {t.features.weekendNote}
+                    </p>
                   </div>
                 )}
               </div>

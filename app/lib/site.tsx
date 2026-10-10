@@ -69,6 +69,7 @@ export interface SiteDict {
     miniLegendPre: string;
     miniLegendStrong: string;
     miniDays: string[];
+    weekendNote: string;
   };
   director: {
     eyebrow: string;
@@ -357,6 +358,7 @@ const ja: SiteDict = {
     miniLegendPre: "上＝午前 / 下＝午後・",
     miniLegendStrong: "平日は毎日診察",
     miniDays: ["月", "火", "水", "木", "金"],
+    weekendNote: "★ 土・日も、院長の都合がつく日に限り外科処置専門の特別外来を開設することがあります",
   },
   director: {
     eyebrow: "院長紹介",
@@ -879,6 +881,7 @@ const en: SiteDict = {
     miniLegendPre: "Top = AM / Bottom = PM · ",
     miniLegendStrong: "Open every weekday",
     miniDays: ["Mo", "Tu", "We", "Th", "Fr"],
+    weekendNote: "★ On select Saturdays and Sundays, depending on the director's availability, we may also open a special surgical procedure clinic",
   },
   director: {
     eyebrow: "Director",
