@@ -7,6 +7,7 @@ import { SoftBlob } from "../../components/Decor";
 import MedicalWebPageJsonLd from "../../components/MedicalWebPageJsonLd";
 import InlineRichText from "../../components/InlineRichText";
 import PollenCalendarKyushu from "../../components/PollenCalendarKyushu";
+import AllergenSourcesIllustration from "../../components/AllergenSourcesIllustration";
 import { useSite } from "../../lib/site";
 import {
   DISEASE_CATEGORY_LABEL,
@@ -86,6 +87,7 @@ export default function DiseasePageClient() {
             </div>
 
             {disease.slug === "hay-fever" && <PollenCalendarKyushu />}
+            {disease.slug === "allergic-rhinitis" && <AllergenSourcesIllustration />}
 
             {disease.pricingLinkNote && (
               <Link
