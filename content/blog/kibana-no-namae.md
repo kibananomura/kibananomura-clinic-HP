@@ -29,7 +29,7 @@ Our official name is Kibana Nomura General Medicine Clinic. It's a bit of a long
 
 First, "General Medicine." I wanted it to say, **before anyone has to wonder "which department should I go to?", that this is a place where we see just about anything**. Figuring out whether something is an internal medicine issue or a surgical one, before you've even decided where to go, can be more of a burden than it seems. I wanted the name itself to remove that hesitation, so you can simply come in.
 
-Then there's "Kibana-no-Mura." The name itself is a small indulgence, if I'm honest. It combines "Kibana," the name of this area, **with my own surname, Nomura**. Written plainly, it would just be that — a name. So I chose characters that let it also be read as "the village of Kibana." Doesn't it have a soft, welcoming ring to it — something that belongs to the community?
+Then there's "Kibana Nomura." The name itself is a small indulgence, if I'm honest. It combines "Kibana," the name of this area, **with my own surname, Nomura**. Written plainly, it would just be that — a name. So I chose characters that let it also be read as "the village of Kibana." Doesn't it have a soft, welcoming ring to it — something that belongs to the community?
 
 Kibana sits in the southern part of Miyazaki City, green and unhurried, with the sea and the mountains both within easy reach. It was the warmth of this place — the air, and the people in it — along with the fact that **it's the place that raised my wife**, that led me to decide to put down roots here.
 

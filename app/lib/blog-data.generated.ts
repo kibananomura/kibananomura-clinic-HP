@@ -116,7 +116,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "Then there's \"Kibana-no-Mura.\" The name itself is a small indulgence, if I'm honest. It combines \"Kibana,\" the name of this area, **with my own surname, Nomura**. Written plainly, it would just be that — a name. So I chose characters that let it also be read as \"the village of Kibana.\" Doesn't it have a soft, welcoming ring to it — something that belongs to the community?"
+          "text": "Then there's \"Kibana Nomura.\" The name itself is a small indulgence, if I'm honest. It combines \"Kibana,\" the name of this area, **with my own surname, Nomura**. Written plainly, it would just be that — a name. So I chose characters that let it also be read as \"the village of Kibana.\" Doesn't it have a soft, welcoming ring to it — something that belongs to the community?"
         },
         {
           "kind": "text",
