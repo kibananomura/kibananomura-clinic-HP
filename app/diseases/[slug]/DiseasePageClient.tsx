@@ -6,6 +6,7 @@ import FadeIn from "../../components/FadeIn";
 import { SoftBlob } from "../../components/Decor";
 import MedicalWebPageJsonLd from "../../components/MedicalWebPageJsonLd";
 import InlineRichText from "../../components/InlineRichText";
+import PollenCalendarKyushu from "../../components/PollenCalendarKyushu";
 import { useSite } from "../../lib/site";
 import {
   DISEASE_CATEGORY_LABEL,
@@ -83,6 +84,8 @@ export default function DiseasePageClient() {
                 <InlineRichText text={disease.tip} />
               </p>
             </div>
+
+            {disease.slug === "hay-fever" && <PollenCalendarKyushu />}
 
             {disease.pricingLinkNote && (
               <Link
