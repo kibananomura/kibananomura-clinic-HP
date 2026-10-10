@@ -4,6 +4,7 @@ import { Analytics } from "@vercel/analytics/next";
 import "./globals.css";
 import SiteShell from "./components/SiteShell";
 import ClinicJsonLd from "./components/ClinicJsonLd";
+import GoogleAnalytics from "./components/GoogleAnalytics";
 import { BRAND } from "./lib/brand";
 import { BASE_URL, SITE_SEO } from "./lib/seo";
 
@@ -70,6 +71,7 @@ export default function RootLayout({
     <html lang="ja" className={`${notoSansJp.variable} ${dmSans.variable}`}>
       <body>
         <ClinicJsonLd />
+        <GoogleAnalytics />
         <SiteShell>{children}</SiteShell>
         <Analytics />
       </body>
