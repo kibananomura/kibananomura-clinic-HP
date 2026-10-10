@@ -344,7 +344,7 @@ const ja: SiteDict = {
       },
       {
         title: "CTから外科処置まで、院内で対応予定",
-        body: "16列CT・デジタルX線・エコー・経鼻内視鏡を院内に整備予定。「専門外」と言わずに、診察室で対応できる体制を目指します。",
+        body: "16列CT・デジタルX線・エコー・経鼻内視鏡を院内に整備予定。まずは何でもご相談いただき、できる限り院内で検査・対応できる体制を目指します（内容によっては適切な専門医療機関をご紹介します）。",
       },
       {
         title: "待たない仕組み",
@@ -867,7 +867,7 @@ const en: SiteDict = {
       },
       {
         title: "From CT to surgery, all in one place",
-        body: "16-row CT, digital X-ray, ultrasound and transnasal endoscopy on-site. Instead of saying “not my specialty,” we handle it in the exam room.",
+        body: "16-row CT, digital X-ray, ultrasound and transnasal endoscopy on-site. We aim to see you first for just about anything, testing and treating as much as possible in-house (and referring you to the right specialist when needed).",
       },
       {
         title: "A system that doesn't keep you waiting",
