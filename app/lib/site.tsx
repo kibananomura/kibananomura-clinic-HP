@@ -99,7 +99,7 @@ export interface SiteDict {
     insuranceTags: string[];
     selfpayBadge: string;
     selfpayTitle: string;
-    selfpayItems: string[];
+    selfpayItems: { label: string; slug: string }[];
     selfpayMore: string;
     pricingLink: string;
     equipmentLink: string;
@@ -200,7 +200,7 @@ export interface SiteDict {
     deptDescs: string[];
     selfpayHeading: string;
     selfpayIntro: string;
-    selfpayItems: { name: string; desc: string }[];
+    selfpayItems: { name: string; desc: string; slug: string }[];
     scheduleHeading: string;
     linksHeading: string;
     equipmentLabel: string;
@@ -457,12 +457,12 @@ const ja: SiteDict = {
     selfpayBadge: "自費診療",
     selfpayTitle: "お悩みに合わせて",
     selfpayItems: [
-      "GLP-1受容体作動薬（肥満治療）",
-      "AGA（男性型脱毛症）",
-      "LOH症候群・TRT",
-      "FAGA（女性の薄毛）",
-      "ED治療薬",
-      "花粉症ステロイド注射",
+      { label: "GLP-1受容体作動薬（肥満治療）", slug: "glp1" },
+      { label: "AGA（男性型脱毛症）", slug: "aga" },
+      { label: "LOH症候群・TRT", slug: "loh-trt" },
+      { label: "FAGA（女性の薄毛）", slug: "faga" },
+      { label: "ED治療薬", slug: "ed" },
+      { label: "花粉症ステロイド注射", slug: "pollen-steroid" },
     ],
     selfpayMore: "ほか",
     pricingLink: "料金の詳細を見る →",
@@ -675,26 +675,32 @@ const ja: SiteDict = {
       {
         name: "GLP-1受容体作動薬（肥満治療）",
         desc: "食欲抑制作用があるとされ、血糖値コントロールのサポートも期待されます。消化器症状（吐き気・下痢など）が現れる場合があるほか、まれに急性膵炎・胆嚢炎等の重篤な副作用が報告されているため、強い腹痛がある場合は速やかに受診してください。効果には個人差があり、医師が継続的な体重管理をサポートします。",
+        slug: "glp1",
       },
       {
         name: "AGA（男性型脱毛症）",
         desc: "ミノキシジル外用薬・フィナステリド内服薬など、エビデンスに基づく薄毛治療。フィナステリドでは性機能への影響が報告されています。定期的な経過観察を行います。",
+        slug: "aga",
       },
       {
         name: "FAGA（女性の薄毛）",
         desc: "女性ホルモンのバランスやストレス・栄養状態を考慮しながら、ミノキシジル外用を中心に対応します。頭皮刺激症状が出る場合があります。",
+        slug: "faga",
       },
       {
         name: "LOH症候群・TRT（男性ホルモン補充療法）",
         desc: "倦怠感・気力低下・性欲低下などテストステロン低下に伴う症状に対して、ホルモン補充療法で対応します。多血症・前立腺への影響等、定期的な検査が必要です。",
+        slug: "loh-trt",
       },
       {
         name: "ED治療薬",
         desc: "シルデナフィル・タダラフィルなど、医師の診察のうえで処方します。頭痛・顔面紅潮・血圧低下などの副作用が出る場合があります。",
+        slug: "ed",
       },
       {
         name: "花粉症ステロイド注射",
         desc: "季節性アレルギー性鼻炎のシーズン前に行うステロイド（トリアムシノロンアセトニド）注射。注射部位反応・血糖値上昇のほか、繰り返しの使用では月経異常・免疫力低下・注射部位の皮膚萎縮などのリスクがあり、頻回の使用はおすすめできません。",
+        slug: "pollen-steroid",
       },
     ],
     scheduleHeading: "受付時間",
@@ -984,12 +990,12 @@ const en: SiteDict = {
     selfpayBadge: "Self-pay",
     selfpayTitle: "Tailored to your needs",
     selfpayItems: [
-      "GLP-1 receptor agonists (weight loss)",
-      "AGA (male pattern hair loss)",
-      "LOH syndrome / TRT",
-      "FAGA (female hair loss)",
-      "ED medication",
-      "Steroid injection for hay fever",
+      { label: "GLP-1 receptor agonists (weight loss)", slug: "glp1" },
+      { label: "AGA (male pattern hair loss)", slug: "aga" },
+      { label: "LOH syndrome / TRT", slug: "loh-trt" },
+      { label: "FAGA (female hair loss)", slug: "faga" },
+      { label: "ED medication", slug: "ed" },
+      { label: "Steroid injection for hay fever", slug: "pollen-steroid" },
     ],
     selfpayMore: "and more",
     pricingLink: "See pricing details →",
@@ -1205,26 +1211,32 @@ const en: SiteDict = {
       {
         name: "GLP-1 receptor agonists (weight loss)",
         desc: "Appetite-regulating hormones suppress hunger and support blood-glucose control. Common side effects include nausea and gastrointestinal symptoms. A physician monitors your progress throughout treatment.",
+        slug: "glp1",
       },
       {
         name: "AGA (male pattern hair loss)",
         desc: "Evidence-based treatment including topical minoxidil and oral finasteride, with regular follow-up visits. Finasteride may affect sexual function in some individuals.",
+        slug: "aga",
       },
       {
         name: "FAGA (female hair loss)",
         desc: "Treatment centred on topical minoxidil, with consideration for hormonal balance, stress and nutritional factors. Scalp irritation may occur.",
+        slug: "faga",
       },
       {
         name: "LOH syndrome / TRT",
         desc: "Testosterone replacement therapy for fatigue, low motivation and reduced libido associated with declining testosterone levels. Regular blood tests are required to monitor for polycythaemia and prostate changes.",
+        slug: "loh-trt",
       },
       {
         name: "ED medication",
         desc: "Sildenafil, tadalafil and related medications prescribed after a medical consultation. Side effects may include headache, flushing and blood pressure changes.",
+        slug: "ed",
       },
       {
         name: "Steroid injection for hay fever",
         desc: "A triamcinolone acetonide injection given before the pollen season to reduce nasal symptoms throughout the season. Possible side effects include injection-site reactions and transient blood glucose elevation.",
+        slug: "pollen-steroid",
       },
     ],
     scheduleHeading: "Reception hours",

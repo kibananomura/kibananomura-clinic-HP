@@ -215,9 +215,10 @@ export default function ServicesPageClient() {
 
             <div className="mt-6 grid gap-4 sm:grid-cols-2">
               {t.servicesPage.selfpayItems.map((item, i) => (
-                <div
+                <Link
                   key={item.name}
-                  className="flex gap-4 rounded-2xl border border-primary/10 bg-accent/40 p-4"
+                  href={`/self-pay/${item.slug}`}
+                  className="flex gap-4 rounded-2xl border border-primary/10 bg-accent/40 p-4 transition-colors hover:border-primary/30 hover:bg-accent/70"
                 >
                   <span className="mt-0.5 flex h-9 w-9 shrink-0 items-center justify-center rounded-xl bg-primary/10 text-primary">
                     {SELFPAY_ICONS[i]}
@@ -229,8 +230,11 @@ export default function ServicesPageClient() {
                     <p className="mt-1 text-[13px] leading-relaxed text-ink/75">
                       {item.desc}
                     </p>
+                    <span className="mt-1.5 inline-block text-xs font-bold text-primary">
+                      {lang === "ja" ? "詳しく見る →" : "Learn more →"}
+                    </span>
                   </div>
-                </div>
+                </Link>
               ))}
             </div>
 

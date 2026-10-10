@@ -1,6 +1,7 @@
 import type { MetadataRoute } from "next";
 import { SYMPTOMS } from "./lib/symptoms-data";
 import { DISEASES } from "./lib/diseases-data";
+import { SELFPAY_ITEMS } from "./lib/selfpay-data";
 import { generatedPosts } from "./lib/blog-data.generated";
 import { BASE_URL } from "./lib/seo";
 
@@ -43,5 +44,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
     lastModified: new Date(post.date.replace(/\./g, "-")),
   }));
 
-  return [...staticRoutes, ...symptomRoutes, ...diseaseRoutes, ...blogRoutes];
+  const selfPayRoutes: MetadataRoute.Sitemap = SELFPAY_ITEMS.map((entry) => ({
+    url: `${BASE_URL}/self-pay/${entry.slug}`,
+    lastModified: entry.lastReviewed,
+  }));
+
+  return [...staticRoutes, ...symptomRoutes, ...diseaseRoutes, ...selfPayRoutes, ...blogRoutes];
 }

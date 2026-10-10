@@ -182,11 +182,13 @@ export default function Services() {
               </div>
               <ul className="mt-4 flex flex-wrap gap-2">
                 {t.services.selfpayItems.map((item) => (
-                  <li
-                    key={item}
-                    className="whitespace-nowrap rounded-full border border-primary/20 bg-accent/40 px-3 py-1.5 text-sm font-medium text-ink/80"
-                  >
-                    {item}
+                  <li key={item.slug}>
+                    <Link
+                      href={`/self-pay/${item.slug}`}
+                      className="inline-block whitespace-nowrap rounded-full border border-primary/20 bg-accent/40 px-3 py-1.5 text-sm font-medium text-ink/80 transition-colors hover:border-primary/40 hover:bg-accent"
+                    >
+                      {item.label}
+                    </Link>
                   </li>
                 ))}
                 <li className="rounded-full px-3 py-1.5 text-sm text-muted">
