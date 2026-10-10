@@ -75,15 +75,40 @@ export default function Header() {
           className="hidden min-w-0 flex-1 flex-nowrap items-center justify-end gap-2.5 xl:flex xl:gap-3 2xl:gap-4"
           aria-label={t.common.toTop}
         >
-          {t.nav.map((link) => (
-            <Link
-              key={link.href}
-              href={link.href}
-              className="shrink-0 whitespace-nowrap text-[13px] font-medium leading-none text-ink/80 transition-colors hover:text-primary 2xl:text-sm"
-            >
-              {link.label}
-            </Link>
-          ))}
+          {t.nav.map((link) =>
+            link.children && link.children.length > 0 ? (
+              <div key={link.href} className="group/nav relative shrink-0">
+                <Link
+                  href={link.href}
+                  className="flex items-center gap-1 whitespace-nowrap text-[13px] font-medium leading-none text-ink/80 transition-colors hover:text-primary 2xl:text-sm"
+                >
+                  {link.label}
+                  <span aria-hidden="true" className="text-[10px]">▾</span>
+                </Link>
+                <div className="invisible absolute left-1/2 top-full z-20 -translate-x-1/2 pt-3 opacity-0 transition-all duration-150 group-hover/nav:visible group-hover/nav:opacity-100 group-focus-within/nav:visible group-focus-within/nav:opacity-100">
+                  <div className="flex min-w-[11rem] flex-col gap-1 rounded-2xl bg-surface p-2 shadow-card">
+                    {link.children.map((child) => (
+                      <Link
+                        key={child.href}
+                        href={child.href}
+                        className="whitespace-nowrap rounded-xl px-3 py-2 text-[13px] font-medium text-ink/80 transition-colors hover:bg-accent hover:text-primary-dark"
+                      >
+                        {child.label}
+                      </Link>
+                    ))}
+                  </div>
+                </div>
+              </div>
+            ) : (
+              <Link
+                key={link.href}
+                href={link.href}
+                className="shrink-0 whitespace-nowrap text-[13px] font-medium leading-none text-ink/80 transition-colors hover:text-primary 2xl:text-sm"
+              >
+                {link.label}
+              </Link>
+            )
+          )}
           <LanguageToggle className="shrink-0" />
           <Link
             href="/#register"
@@ -135,14 +160,29 @@ export default function Header() {
           aria-label={t.common.toTop}
         >
           {t.nav.map((link) => (
-            <Link
-              key={link.href}
-              href={link.href}
-              onClick={() => setOpen(false)}
-              className="rounded-xl px-3 py-3 text-base font-medium text-ink/90 transition-colors hover:bg-accent"
-            >
-              {link.label}
-            </Link>
+            <div key={link.href}>
+              <Link
+                href={link.href}
+                onClick={() => setOpen(false)}
+                className="block rounded-xl px-3 py-3 text-base font-medium text-ink/90 transition-colors hover:bg-accent"
+              >
+                {link.label}
+              </Link>
+              {link.children && link.children.length > 0 && (
+                <div className="ml-3 flex flex-col border-l border-ink/10 pl-3">
+                  {link.children.map((child) => (
+                    <Link
+                      key={child.href}
+                      href={child.href}
+                      onClick={() => setOpen(false)}
+                      className="rounded-xl px-3 py-2.5 text-sm font-medium text-ink/70 transition-colors hover:bg-accent hover:text-primary-dark"
+                    >
+                      {child.label}
+                    </Link>
+                  ))}
+                </div>
+              )}
+            </div>
           ))}
           <Link
             href="/#register"

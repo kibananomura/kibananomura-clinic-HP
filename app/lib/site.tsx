@@ -24,7 +24,7 @@ export const PARKING_STATUS = {
 
 export type Lang = "ja" | "en";
 
-type NavItem = { href: string; label: string };
+type NavItem = { href: string; label: string; children?: NavItem[] };
 type Titled = { title: string; body: string };
 
 export interface SiteDict {
@@ -260,10 +260,17 @@ const ja: SiteDict = {
   nav: [
     { href: "/#director", label: "院長紹介" },
     { href: "/#services", label: "診療案内" },
-    { href: "/symptoms", label: "症状から調べる" },
+    {
+      href: "/symptoms",
+      label: "症状・病気から調べる",
+      children: [
+        { href: "/symptoms", label: "症状から調べる" },
+        { href: "/diseases", label: "病気について調べる" },
+      ],
+    },
     { href: "/first-visit", label: "初診の方へ" },
     { href: "/faq", label: "よくある質問" },
-    { href: "/pricing", label: "料金" },
+    { href: "/pricing", label: "料金について" },
     { href: "/blog", label: "院長ブログ" },
     { href: "/#access", label: "アクセス" },
   ],
