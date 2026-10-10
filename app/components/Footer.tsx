@@ -45,9 +45,7 @@ export default function Footer() {
         <nav aria-label={t.footer.menuHeading}>
           <h2 className="text-sm font-bold text-white">{t.footer.menuHeading}</h2>
           <ul className="mt-4 space-y-3 text-sm">
-            {t.nav
-              .flatMap((item) => (item.children && item.children.length > 0 ? item.children : [item]))
-              .map((item) => (
+            {t.nav.map((item) => (
               <li key={item.href}>
                 <Link
                   href={item.href}
