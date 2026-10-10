@@ -100,6 +100,30 @@ export default function DiseasePageClient() {
                 </span>
               </Link>
             )}
+
+            {disease.sources && disease.sources.length > 0 && (
+              <div className="mt-6 border-t border-accent pt-4">
+                <p className="text-xs font-bold text-ink/50">出典</p>
+                <ul className="mt-1.5 space-y-1">
+                  {disease.sources.map((source) => (
+                    <li key={source.label} className="text-xs leading-relaxed text-ink/60">
+                      {source.url ? (
+                        <a
+                          href={source.url}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="underline decoration-ink/30 underline-offset-2 hover:text-primary-dark"
+                        >
+                          {source.label}
+                        </a>
+                      ) : (
+                        source.label
+                      )}
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            )}
           </FadeIn>
 
           {disease.subsections && disease.subsections.length > 0 && (
