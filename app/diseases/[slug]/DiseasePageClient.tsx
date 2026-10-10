@@ -83,6 +83,18 @@ export default function DiseasePageClient() {
                 <InlineRichText text={disease.tip} />
               </p>
             </div>
+
+            {disease.pricingLinkNote && (
+              <Link
+                href="/pricing"
+                className="mt-4 flex items-center justify-between gap-3 rounded-2xl border border-primary/20 bg-surface px-5 py-4 text-sm text-ink/80 transition-colors hover:bg-accent/60"
+              >
+                <span>{disease.pricingLinkNote}</span>
+                <span className="shrink-0 font-bold text-primary-dark">
+                  料金ページへ →
+                </span>
+              </Link>
+            )}
           </FadeIn>
 
           {disease.subsections && disease.subsections.length > 0 && (
