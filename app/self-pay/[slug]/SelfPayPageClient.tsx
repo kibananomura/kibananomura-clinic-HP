@@ -4,6 +4,8 @@ import Link from "next/link";
 import { notFound, useParams } from "next/navigation";
 import FadeIn from "../../components/FadeIn";
 import { SoftBlob } from "../../components/Decor";
+import MedicalWebPageJsonLd from "../../components/MedicalWebPageJsonLd";
+import FaqJsonLd from "../../components/FaqJsonLd";
 import InlineRichText from "../../components/InlineRichText";
 import { useSite } from "../../lib/site";
 import {
@@ -26,6 +28,14 @@ export default function SelfPayPageClient() {
     <article className="relative overflow-hidden bg-cream pb-24 page-top">
       <SoftBlob className="absolute -right-24 top-32 h-80 w-80 bg-sky/30" />
       <SoftBlob className="absolute -left-16 bottom-12 h-72 w-72 bg-primary/10" />
+
+      <MedicalWebPageJsonLd
+        name={item.title}
+        description={item.summary.replace(/\*\*|__/g, "")}
+        url={`/self-pay/${item.slug}`}
+        lastReviewed={item.lastReviewed}
+      />
+      {item.faq.length > 0 && <FaqJsonLd items={item.faq} />}
 
       <div className="container-page relative">
         <div className="mx-auto max-w-3xl">
