@@ -77,7 +77,7 @@ export const generatedPosts: BlogPost[] = [
       "body": [
         {
           "kind": "text",
-          "text": "正式名称は「木花のむら総合診療所」。看板にもロゴにも、この名前をそのまま掲げます。少し長い名前ですが、ひとつひとつに意味を込めたつもりです。"
+          "text": "正式名称は「木花のむら総合診療所」。少し長い名前ですが、ひとつひとつに意味を込めたつもりです。"
         },
         {
           "kind": "text",
@@ -108,7 +108,7 @@ export const generatedPosts: BlogPost[] = [
       "body": [
         {
           "kind": "text",
-          "text": "Our official name is Kibana-no-Mura General Medicine Clinic — the name on our sign, and on our logo. It's a bit of a long one, but I tried to put meaning into every part of it."
+          "text": "Our official name is Kibana-no-Mura General Medicine Clinic. It's a bit of a long one, but I tried to put meaning into every part of it."
         },
         {
           "kind": "text",

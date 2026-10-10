@@ -11,7 +11,7 @@ excerpt_en: It's actually a bit of a greedy name — I layered my own surname, N
 
 ## ja
 
-正式名称は「木花のむら総合診療所」。看板にもロゴにも、この名前をそのまま掲げます。少し長い名前ですが、ひとつひとつに意味を込めたつもりです。
+正式名称は「木花のむら総合診療所」。少し長い名前ですが、ひとつひとつに意味を込めたつもりです。
 
 まず「総合診療所」という言葉について。これは、**「何科にかかればいいんだろう」と迷う前に、まずは何でも診てもらえる場所だと伝わってほしい**という想いから入れました。内科なのか外科なのか、ご自身で振り分けてから来院先を決めるのは、思いのほか負担になるものです。そうした迷いを取り除き、まず気軽に来ていただける場所でありたいと思っています。
 
@@ -25,7 +25,7 @@ excerpt_en: It's actually a bit of a greedy name — I layered my own surname, N
 
 ## en
 
-Our official name is Kibana-no-Mura General Medicine Clinic — the name on our sign, and on our logo. It's a bit of a long one, but I tried to put meaning into every part of it.
+Our official name is Kibana-no-Mura General Medicine Clinic. It's a bit of a long one, but I tried to put meaning into every part of it.
 
 First, "General Medicine." I wanted it to say, **before anyone has to wonder "which department should I go to?", that this is a place where we see just about anything**. Figuring out whether something is an internal medicine issue or a surgical one, before you've even decided where to go, can be more of a burden than it seems. I wanted the name itself to remove that hesitation, so you can simply come in.
 
