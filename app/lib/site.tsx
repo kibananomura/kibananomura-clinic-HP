@@ -259,15 +259,15 @@ const ja: SiteDict = {
   },
   nav: [
     { href: "/#director", label: "院長紹介" },
-    { href: "/#services", label: "診療案内" },
     {
-      href: "/symptoms",
-      label: "症状・病気から調べる",
+      href: "/#services",
+      label: "診療案内",
       children: [
-        { href: "/symptoms", label: "症状から調べる" },
+        { href: "/#services", label: "診療のご案内" },
         { href: "/diseases", label: "病気について調べる" },
       ],
     },
+    { href: "/symptoms", label: "症状から調べる" },
     { href: "/first-visit", label: "初診の方へ" },
     { href: "/faq", label: "よくある質問" },
     { href: "/pricing", label: "料金について" },

@@ -53,7 +53,7 @@ export default function Header() {
       <div className="mx-auto flex min-h-24 w-full max-w-7xl items-center justify-between gap-2 overflow-visible px-4 sm:min-h-[6.5rem] sm:gap-4 sm:px-6 xl:px-8">
         <Link
           href="/"
-          className="group flex min-w-0 shrink items-center gap-2 overflow-visible sm:gap-3.5"
+          className="group flex min-w-0 shrink items-center gap-2 overflow-visible sm:gap-3.5 xl:max-w-[15rem] 2xl:max-w-[18rem]"
           aria-label={t.common.toTop}
         >
           <Image
