@@ -9,8 +9,8 @@ export default function HeroBackground() {
         className="absolute inset-0 bg-no-repeat"
         style={{
           backgroundImage: "url('/hero-map.jpg')",
-          backgroundSize: "145% auto",
-          backgroundPosition: "0% 46%",
+          backgroundSize: "100% auto",
+          backgroundPosition: "15% 46%",
         }}
       />
 
