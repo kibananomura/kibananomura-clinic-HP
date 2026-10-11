@@ -173,6 +173,8 @@ export const SYMPTOMS: SymptomEntry[] = [
       { name: "便秘", note: "お腹の張りとともに痛みが出ることがあります。" },
       { name: "胆石", note: "食後の右上腹部の痛みとして現れることがあります。" },
       { name: "虫垂炎", note: "みぞおち〜右下腹部に痛みが移動することがあり、注意が必要な疾患のひとつです。" },
+      { name: "回腸末端炎", note: "虫垂炎とよく似た右下腹部の痛みを起こすことがあり、感染性腸炎やクローン病等が背景にあることがあります。" },
+      { name: "虚血性腸炎", note: "左側の急な腹痛に続いて下痢・血便が起こることがあり、便秘気味の中高年の方に多いとされています。" },
     ],
     relatedTests: [AVAILABLE_TESTS.blood, AVAILABLE_TESTS.echo, AVAILABLE_TESTS.ct, AVAILABLE_TESTS.gastroscopy],
     treatmentOverview: [
@@ -235,6 +237,7 @@ export const SYMPTOMS: SymptomEntry[] = [
       { name: "感染性腸炎", note: "急な下痢・腹痛・発熱を伴うことが多いです。" },
       { name: "過敏性腸症候群", note: "ストレスなどに関連して下痢・便秘を繰り返すことがあります。" },
       { name: "痔", note: "排便時の出血・痛みの原因となることが多いですが、血便がある場合は自己判断せず受診をおすすめします。" },
+      { name: "虚血性腸炎", note: "急な腹痛に続く下痢・血便として現れることがあり、便秘気味の中高年の方に多いとされています。" },
       { name: "大腸疾患", note: "便通の変化が続く場合、大腸の疾患が背景にあることがあり、精査が必要になる場合があります。" },
     ],
     relatedTests: [AVAILABLE_TESTS.blood, AVAILABLE_TESTS.echo],
