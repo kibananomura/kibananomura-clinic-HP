@@ -56,7 +56,7 @@ export default function FaqPageClient() {
 
       <div className="container-page relative">
         <FadeIn>
-          <SectionHeading eyebrow={faq.eyebrow} title={faq.heading} />
+          <SectionHeading eyebrow={faq.eyebrow} title={faq.heading} as="h1" />
         </FadeIn>
 
         <FadeIn delay={0.05}>

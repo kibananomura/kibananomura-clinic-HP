@@ -18,7 +18,7 @@ export default function FirstVisitPageClient() {
 
       <div className="container-page relative">
         <FadeIn>
-          <SectionHeading eyebrow={fv.eyebrow} title={fv.heading} />
+          <SectionHeading eyebrow={fv.eyebrow} title={fv.heading} as="h1" />
         </FadeIn>
 
         <FadeIn delay={0.05}>

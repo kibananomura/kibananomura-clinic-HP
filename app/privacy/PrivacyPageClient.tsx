@@ -19,6 +19,7 @@ export default function PrivacyPageClient() {
           <SectionHeading
             eyebrow={t.privacy.eyebrow}
             title={t.privacy.heading}
+            as="h1"
           />
         </FadeIn>
 

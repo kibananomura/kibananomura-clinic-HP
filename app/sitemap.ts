@@ -21,7 +21,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/tokushoho",
     "/privacy",
     "/first-visit",
-    "/survey",
     "/equipment",
     "/news",
   ].map((path) => ({

@@ -113,6 +113,7 @@ export default function ServicesPageClient() {
           <SectionHeading
             eyebrow={t.servicesPage.eyebrow}
             title={t.servicesPage.heading}
+            as="h1"
           />
         </FadeIn>
 

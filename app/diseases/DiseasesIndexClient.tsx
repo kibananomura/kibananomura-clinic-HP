@@ -23,7 +23,7 @@ export default function DiseasesIndexClient() {
 
       <div className="container-page relative">
         <FadeIn>
-          <SectionHeading eyebrow="疾患について" title="主な疾患から調べる" />
+          <SectionHeading eyebrow="疾患について" title="主な疾患から調べる" as="h1" />
         </FadeIn>
 
         <FadeIn delay={0.05}>

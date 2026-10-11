@@ -18,7 +18,7 @@ export default function ContactPageClient() {
 
       <div className="container-page relative">
         <FadeIn>
-          <SectionHeading eyebrow={c.eyebrow} title={c.heading} />
+          <SectionHeading eyebrow={c.eyebrow} title={c.heading} as="h1" />
         </FadeIn>
 
         <FadeIn delay={0.05} className="mx-auto mt-10 max-w-xl text-center">

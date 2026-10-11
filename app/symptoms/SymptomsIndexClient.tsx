@@ -30,7 +30,7 @@ export default function SymptomsIndexClient() {
         </FadeIn>
 
         <FadeIn>
-          <SectionHeading eyebrow="症状から探す" title="症状別に調べる" />
+          <SectionHeading eyebrow="症状から探す" title="症状別に調べる" as="h1" />
         </FadeIn>
 
         <FadeIn delay={0.05}>

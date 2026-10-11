@@ -17,7 +17,7 @@ export default function TokushohoPageClient() {
 
       <div className="container-page relative">
         <FadeIn>
-          <SectionHeading eyebrow={tk.eyebrow} title={tk.heading} />
+          <SectionHeading eyebrow={tk.eyebrow} title={tk.heading} as="h1" />
         </FadeIn>
 
         <FadeIn delay={0.05}>

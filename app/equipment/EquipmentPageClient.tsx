@@ -22,6 +22,7 @@ export default function EquipmentPageClient() {
           <SectionHeading
             eyebrow={t.equipment.eyebrow}
             title={t.equipment.heading}
+            as="h1"
           />
         </FadeIn>
 

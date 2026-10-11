@@ -39,7 +39,7 @@ export default function LinksPageClient() {
 
       <div className="container-page relative">
         <FadeIn>
-          <SectionHeading eyebrow={copy.eyebrow} title={copy.heading} />
+          <SectionHeading eyebrow={copy.eyebrow} title={copy.heading} as="h1" />
         </FadeIn>
 
         <FadeIn delay={0.05}>

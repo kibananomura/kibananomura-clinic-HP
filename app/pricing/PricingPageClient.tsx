@@ -17,7 +17,7 @@ export default function PricingPageClient() {
 
       <div className="container-page relative">
         <FadeIn>
-          <SectionHeading eyebrow={t.pricing.eyebrow} title={t.pricing.heading} />
+          <SectionHeading eyebrow={t.pricing.eyebrow} title={t.pricing.heading} as="h1" />
         </FadeIn>
 
         <FadeIn delay={0.05}>

@@ -18,7 +18,7 @@ export default function BlogPageClient() {
 
       <div className="container-page relative">
         <FadeIn>
-          <SectionHeading eyebrow={t.blog.eyebrow} title={t.blog.heading} />
+          <SectionHeading eyebrow={t.blog.eyebrow} title={t.blog.heading} as="h1" />
         </FadeIn>
 
         <FadeIn delay={0.05}>

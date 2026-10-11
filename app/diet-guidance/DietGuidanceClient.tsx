@@ -52,6 +52,7 @@ export default function DietGuidanceClient() {
             <SectionHeading
               eyebrow="食事指導"
               title="高血圧・糖尿病・脂質異常症・高尿酸血症の食事"
+              as="h1"
             />
           </FadeIn>
 

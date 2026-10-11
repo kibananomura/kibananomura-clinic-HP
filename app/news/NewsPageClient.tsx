@@ -17,7 +17,7 @@ export default function NewsPageClient() {
 
       <div className="container-page relative">
         <FadeIn>
-          <SectionHeading eyebrow={t.news.eyebrow} title={t.news.heading} />
+          <SectionHeading eyebrow={t.news.eyebrow} title={t.news.heading} as="h1" />
         </FadeIn>
 
         <FadeIn delay={0.05}>
