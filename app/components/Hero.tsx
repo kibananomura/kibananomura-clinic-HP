@@ -27,8 +27,7 @@ export default function Hero() {
         <div className="-mx-5 mb-7 h-52 overflow-hidden sm:hidden">
           <img
             src="/hero-map.jpg"
-            alt=""
-            aria-hidden="true"
+            alt="木花のむら総合診療所 開院予定地周辺の地図（宮崎市熊野）"
             className="h-full w-full object-cover"
           />
         </div>
