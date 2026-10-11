@@ -3,7 +3,7 @@ import { BRAND } from "../lib/brand";
 import BlogPageClient from "./BlogPageClient";
 
 export const metadata: Metadata = {
-  title: `開業前ブログ | ${BRAND.ja.primary}`,
+  title: `開業前ブログ（院長コラム・開院準備の様子） | ${BRAND.ja.primary}`,
   description:
     "木花のむら総合診療所（宮崎市熊野、2027年10月1日開院予定）の院長が綴る開業準備ブログ。開院までの様子や地域のこと、診療への想いをお伝えします。",
   alternates: {
