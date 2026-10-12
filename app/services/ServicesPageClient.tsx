@@ -24,7 +24,7 @@ function linkifyDiseases(text: string, lang: string) {
       return (
         <Link
           key={i}
-          href={`/diseases/${match.slug}`}
+          href={match.href ?? `/diseases/${match.slug}`}
           className="font-medium text-primary-dark underline decoration-primary/30 underline-offset-2 hover:text-primary"
         >
           {part}

@@ -836,10 +836,14 @@ export function getDiseasesByCategory(category: DiseaseCategory): DiseaseEntry[]
 export const DISEASE_CATEGORY_ORDER: DiseaseCategory[] = ["internal", "surgical"];
 
 /** services.detailsの箇条書き文字列中に含まれる疾患名を自動リンクするための辞書。
- *  キーが長い順にマッチさせることで「糖尿病」と「2型糖尿病」のような重複を避ける。 */
-export const DISEASE_LINK_LABELS: { label: string; slug: string }[] = DISEASES
-  .map((d) => ({ label: d.title.replace(/（.*）/, ""), slug: d.slug }))
+ *  キーが長い順にマッチさせることで「糖尿病」と「2型糖尿病」のような重複を避ける。
+ *  href を指定すると /diseases/[slug] 以外（例: /diet-guidance）へリンクできる。 */
+type DiseaseLinkLabel = { label: string; slug: string; href?: string };
+export const DISEASE_LINK_LABELS: DiseaseLinkLabel[] = DISEASES
+  .map((d): DiseaseLinkLabel => ({ label: d.title.replace(/（.*）/, ""), slug: d.slug }))
   .concat([
+    { label: "生活習慣病", slug: "", href: "/diet-guidance" },
+    { label: "かぜ", slug: "common-cold" },
     { label: "高血圧", slug: "hypertension" },
     { label: "脂質異常症", slug: "dyslipidemia" },
     { label: "糖尿病", slug: "diabetes" },
