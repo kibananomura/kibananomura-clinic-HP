@@ -855,6 +855,45 @@ export function getDiseasesByCategory(category: DiseaseCategory): DiseaseEntry[]
 
 export const DISEASE_CATEGORY_ORDER: DiseaseCategory[] = ["internal", "surgical"];
 
+/**
+ * 内科系疾患の一覧ページ表示用のサブ分類。
+ * グループの並び順・グループ内の並び順は、一般的な受診頻度・有病率の
+ * おおよその目安（頻度の高いものを先に）にもとづく大まかな目安であり、
+ * 統計的な厳密さを示すものではない。新しい内科系疾患を追加した場合は、
+ * 必ずいずれか1つのグループに slug を追加すること（このリストに含まれない
+ * 内科系疾患は一覧ページに表示されない）。
+ */
+export const INTERNAL_SUBCATEGORIES: { label: string; slugs: string[] }[] = [
+  {
+    label: "かぜ・感染症・呼吸器",
+    slugs: ["common-cold", "asthma", "asthma-child", "community-acquired-pneumonia", "aspiration-pneumonia"],
+  },
+  {
+    label: "生活習慣病・内分泌",
+    slugs: ["hypertension", "dyslipidemia", "diabetes", "thyroid"],
+  },
+  {
+    label: "消化器疾患",
+    slugs: ["constipation", "reflux-esophagitis", "ibs", "h-pylori", "stomatitis", "gallstones", "diverticulosis", "ischemic-colitis", "terminal-ileitis"],
+  },
+  {
+    label: "アレルギー疾患",
+    slugs: ["hay-fever", "allergic-rhinitis", "urticaria"],
+  },
+  {
+    label: "泌尿器疾患",
+    slugs: ["acute-cystitis", "overactive-bladder", "chronic-cystitis", "ureteral-stone"],
+  },
+  {
+    label: "耳鼻科・神経疾患",
+    slugs: ["headache", "bppv", "meniere-disease"],
+  },
+  {
+    label: "睡眠・生活の質",
+    slugs: ["insomnia", "sas"],
+  },
+];
+
 /** services.detailsの箇条書き文字列中に含まれる疾患名を自動リンクするための辞書。
  *  キーが長い順にマッチさせることで「糖尿病」と「2型糖尿病」のような重複を避ける。
  *  href を指定すると /diseases/[slug] 以外（例: /diet-guidance）へリンクできる。 */

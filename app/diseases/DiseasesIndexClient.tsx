@@ -9,7 +9,9 @@ import {
   DISEASE_CATEGORY_LABEL,
   DISEASE_CATEGORY_ORDER,
   DISEASE_DISCLAIMER_INTRO,
+  INTERNAL_SUBCATEGORIES,
   getDiseasesByCategory,
+  getDisease,
 } from "../lib/diseases-data";
 
 export default function DiseasesIndexClient() {
@@ -56,6 +58,48 @@ export default function DiseasesIndexClient() {
           {DISEASE_CATEGORY_ORDER.map((category) => {
             const items = getDiseasesByCategory(category);
             if (items.length === 0) return null;
+
+            if (category === "internal") {
+              return (
+                <FadeIn key={category}>
+                  <h2 className="text-lg font-bold text-primary-dark">
+                    {DISEASE_CATEGORY_LABEL[category]}
+                  </h2>
+                  <div className="mt-6 space-y-8">
+                    {INTERNAL_SUBCATEGORIES.map((sub) => {
+                      const subItems = sub.slugs
+                        .map((slug) => getDisease(slug))
+                        .filter((d): d is NonNullable<typeof d> => Boolean(d));
+                      if (subItems.length === 0) return null;
+                      return (
+                        <div key={sub.label}>
+                          <h3 className="text-sm font-bold text-ink/60">
+                            {sub.label}
+                          </h3>
+                          <div className="mt-3 grid gap-3 sm:grid-cols-2">
+                            {subItems.map((item) => (
+                              <Link
+                                key={item.slug}
+                                href={`/diseases/${item.slug}`}
+                                className="group block rounded-2xl bg-surface/90 p-5 shadow-card transition-all hover:-translate-y-0.5 hover:shadow-soft"
+                              >
+                                <p className="text-[15px] font-bold text-ink group-hover:text-primary-dark">
+                                  {item.title}
+                                </p>
+                                <p className="mt-1.5 text-sm leading-relaxed text-ink/70">
+                                  {item.summary}
+                                </p>
+                              </Link>
+                            ))}
+                          </div>
+                        </div>
+                      );
+                    })}
+                  </div>
+                </FadeIn>
+              );
+            }
+
             return (
               <FadeIn key={category}>
                 <h2 className="text-lg font-bold text-primary-dark">
