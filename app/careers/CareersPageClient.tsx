@@ -13,8 +13,8 @@ import {
   LINE_RECRUIT_URL,
 } from "../lib/careers";
 
-const MISSION_ICONS = ["👀", "👂", "🌱"];
-const MISSION_ICON_BG = ["bg-sky/50", "bg-blossom/30", "bg-sun/40"];
+const MISSION_ICONS = ["👀", "👂", "🌱", "🤝"];
+const MISSION_ICON_BG = ["bg-sky/50", "bg-blossom/30", "bg-sun/40", "bg-primary/15"];
 
 const POSITION_ICONS: Record<string, ReactNode> = {
   physician: (
@@ -92,7 +92,7 @@ export default function CareersPageClient() {
           </div>
         </FadeIn>
 
-        <div className="mx-auto mt-8 grid max-w-3xl gap-5 sm:grid-cols-3">
+        <div className="mx-auto mt-8 grid max-w-5xl gap-5 sm:grid-cols-2 lg:grid-cols-4">
           {t.mission.cards.map((card, i) => (
             <FadeIn key={card.title} delay={0.08 + i * 0.06} as="article">
               <div className="group relative h-full overflow-hidden rounded-3xl border border-white bg-surface/90 p-6 shadow-card transition-all hover:-translate-y-1 hover:shadow-soft">
