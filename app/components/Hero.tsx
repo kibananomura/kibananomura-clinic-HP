@@ -41,8 +41,12 @@ export default function Hero() {
           >
             <Link
               href="/careers"
-              className="inline-flex items-center gap-1.5 rounded-full bg-white/85 px-4 py-1.5 text-sm font-bold text-primary-dark shadow-sm ring-1 ring-primary/15 backdrop-blur transition-colors hover:bg-white"
+              className="inline-flex items-center gap-1.5 rounded-full bg-white px-4 py-2 text-[15px] font-bold text-primary-dark shadow-card ring-1 ring-primary/30 backdrop-blur transition-all hover:-translate-y-0.5 hover:bg-accent hover:shadow-soft"
             >
+              <span className="relative flex h-2 w-2 shrink-0" aria-hidden="true">
+                <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-primary opacity-75" />
+                <span className="relative inline-flex h-2 w-2 rounded-full bg-primary" />
+              </span>
               <svg
                 viewBox="0 0 24 24"
                 className="h-4 w-4"
