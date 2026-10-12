@@ -516,6 +516,26 @@ export const DISEASES: DiseaseEntry[] = [
     lastReviewed: "2026-10-12",
   },
   {
+    slug: "lumbar-spinal-stenosis",
+    title: "腰部脊柱管狭窄症",
+    category: "internal",
+    summary: "加齢に伴い背骨の神経の通り道が狭くなることで、歩いていると足がしびれて休むと楽になる、高齢の方に多い病気です。",
+    pathology:
+      "加齢等により、背骨（腰椎）の中を通る神経の通り道（脊柱管）が狭くなり、中を通る神経が圧迫されることで起こります。最大の特徴は__「間欠性跛行」__と呼ばれる症状で、__しばらく歩くと足のしびれ・痛み・だるさが強くなり、少し前かがみになって休むと症状が軽くなり、また歩けるようになる__というパターンを繰り返します。前かがみの姿勢をとる自転車では症状が出にくいのも特徴的です。__高齢の方に多く__、進行すると排尿・排便のコントロールに影響が出ることもあります。",
+    tests:
+      "問診（歩ける距離、前かがみで楽になるか等）と診察が診断の手がかりになります。確定診断や重症度の評価には__MRI等の画像検査__が重要とされており、必要に応じて画像検査が可能な医療機関と連携して評価します。",
+    treatment:
+      "多くの場合、__まずは保存的治療__（内服薬、神経ブロック注射、運動療法等）から開始し、経過を見ながら治療方針を調整します。__保存的治療で改善が乏しい場合や、日常生活に支障が大きい場合、排尿・排便の障害が出た場合__には、手術（神経の圧迫を取り除く手術）が選択肢となり、専門的な治療が可能な医療機関へご紹介します。",
+    tip: "__「年のせいだから仕方ない」と諦めてしまう方も多い__症状ですが、歩ける距離が徐々に短くなっている、休み休みでないと歩けない等でお困りの場合は、治療によって改善が期待できることがあります。一度ご相談ください。",
+    sources: [
+      {
+        label: "日本整形外科学会・日本脊椎脊髄病学会「腰部脊柱管狭窄症診療ガイドライン2021（改訂第2版）」",
+        url: "https://minds.jcqhc.or.jp/summary/c00646/",
+      },
+    ],
+    lastReviewed: "2026-10-13",
+  },
+  {
     slug: "h-pylori",
     title: "ピロリ菌感染（胃炎・胃潰瘍との関連）",
     category: "internal",
@@ -886,7 +906,7 @@ export const INTERNAL_SUBCATEGORIES: { label: string; slugs: string[] }[] = [
   },
   {
     label: "耳鼻科・神経疾患",
-    slugs: ["headache", "bppv", "meniere-disease"],
+    slugs: ["headache", "bppv", "meniere-disease", "lumbar-spinal-stenosis"],
   },
   {
     label: "睡眠・生活の質",
@@ -948,6 +968,8 @@ export const DISEASE_LINK_LABELS: DiseaseLinkLabel[] = DISEASES
     { label: "片頭痛", slug: "headache" },
     { label: "緊張型頭痛", slug: "headache" },
     { label: "群発頭痛", slug: "headache" },
+    { label: "腰部脊柱管狭窄症", slug: "lumbar-spinal-stenosis" },
+    { label: "脊柱管狭窄症", slug: "lumbar-spinal-stenosis" },
     { label: "逆流性食道炎", slug: "reflux-esophagitis" },
     { label: "過敏性腸症候群", slug: "ibs" },
     { label: "便秘症", slug: "constipation" },
