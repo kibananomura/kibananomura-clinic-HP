@@ -13,8 +13,8 @@ export default function Home() {
       <Hero />
       <SurveyBanner />
       <Features />
-      <Director />
       <Services />
+      <Director />
       <BlogTeaser />
       <Access />
       <RegisterCTA />
