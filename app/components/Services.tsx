@@ -135,6 +135,15 @@ export default function Services() {
               </FadeIn>
             ))}
           </div>
+
+          <FadeIn delay={0.15} className="mt-7 text-center">
+            <Link
+              href="/diseases"
+              className="inline-flex items-center gap-1.5 rounded-full bg-surface px-5 py-2.5 text-sm font-bold text-primary-dark shadow-card transition-transform hover:scale-105"
+            >
+              {t.services.diseasesLink}
+            </Link>
+          </FadeIn>
         </div>
 
         <div className="mt-12 grid gap-5 lg:grid-cols-2">

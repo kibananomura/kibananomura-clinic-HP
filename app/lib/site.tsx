@@ -93,6 +93,7 @@ export interface SiteDict {
     departments: string[];
     detailHeading: string;
     details: { title: string; items: string[]; note: string; wide: boolean }[];
+    diseasesLink: string;
     insuranceBadge: string;
     insuranceTitle: string;
     insuranceBody: string;
@@ -385,6 +386,7 @@ const ja: SiteDict = {
     deptLabel: "標榜科",
     departments: ["内科", "外科", "小児科"],
     detailHeading: "診療内容",
+    diseasesLink: "対応する疾患を一覧で見る →",
     details: [
       {
         title: "内科",
@@ -919,6 +921,7 @@ const en: SiteDict = {
     deptLabel: "Departments",
     departments: ["Internal Medicine", "Surgery", "Pediatrics"],
     detailHeading: "What we treat",
+    diseasesLink: "Browse conditions we cover →",
     details: [
       {
         title: "Internal Medicine",
