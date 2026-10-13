@@ -41,17 +41,30 @@ export default function DiseasesIndexClient() {
         </FadeIn>
 
         <FadeIn delay={0.1}>
-          <Link
-            href="/diet-guidance"
-            className="mx-auto mt-6 block max-w-2xl rounded-2xl bg-primary/10 p-5 text-center shadow-card transition-transform hover:-translate-y-0.5"
-          >
-            <p className="text-[15px] font-bold text-primary-dark">
-              🍚 高血圧・糖尿病・脂質異常症・高尿酸血症の食事について
-            </p>
-            <p className="mt-1.5 text-sm leading-relaxed text-ink/70">
-              複数の病気をお持ちの方でも実践しやすい、食事のポイントをまとめました →
-            </p>
-          </Link>
+          <div className="mx-auto mt-6 grid max-w-3xl gap-4 sm:grid-cols-2">
+            <Link
+              href="/diet-guidance"
+              className="block rounded-2xl bg-primary/10 p-5 text-center shadow-card transition-transform hover:-translate-y-0.5"
+            >
+              <p className="text-[15px] font-bold text-primary-dark">
+                🍚 高血圧・糖尿病・脂質異常症・高尿酸血症の食事について
+              </p>
+              <p className="mt-1.5 text-sm leading-relaxed text-ink/70">
+                複数の病気をお持ちの方でも実践しやすい、食事のポイントをまとめました →
+              </p>
+            </Link>
+            <Link
+              href="/school-attendance"
+              className="block rounded-2xl bg-primary/10 p-5 text-center shadow-card transition-transform hover:-translate-y-0.5"
+            >
+              <p className="text-[15px] font-bold text-primary-dark">
+                🏫 学校感染症と出席停止期間の基準
+              </p>
+              <p className="mt-1.5 text-sm leading-relaxed text-ink/70">
+                インフルエンザ・溶連菌感染症・手足口病等の登校の目安を一覧表でご紹介 →
+              </p>
+            </Link>
+          </div>
         </FadeIn>
 
         <div className="mx-auto mt-12 max-w-4xl space-y-10">

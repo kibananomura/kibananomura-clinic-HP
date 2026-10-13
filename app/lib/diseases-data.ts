@@ -569,6 +569,27 @@ export const DISEASES: DiseaseEntry[] = [
     lastReviewed: "2026-10-14",
   },
   {
+    slug: "croup",
+    title: "クループ症候群（急性喉頭気管支炎）",
+    category: "internal",
+    summary:
+      "特徴的な犬が吠えるような咳と、息を吸うときのゼーゼー音が特徴の、乳幼児に多いウイルス性の喉の炎症です。",
+    pathology:
+      "**パラインフルエンザウイルス**等のウイルス感染により、喉頭（のどぼとけの周辺）から気管にかけて炎症が起こり、__気道が狭くなる__ことで症状が出ます。__生後6か月〜3歳頃の乳幼児に多く__、__「ケンケン」「オットセイの鳴き声」に例えられる特徴的な咳__と、__息を吸うときにヒューヒュー・ゼーゼーという音（吸気性喘鳴）__が特徴です。__夜間〜明け方に症状が強くなりやすい__傾向があり、発熱を伴うこともあります。多くは数日で軽快しますが、__まれに気道が強く狭くなり呼吸困難に至る__ことがあります。",
+    tests:
+      "特徴的な咳・吸気性喘鳴等の所見から診察で診断することが多いです。重症度評価のため、呼吸状態・酸素飽和度等を確認します。",
+    treatment:
+      "**ステロイド薬（内服・吸入）**の投与が、気道の炎症・腫れを抑え症状の改善を早めるとされています。重症の場合は、__アドレナリン吸入__等で一時的に気道の狭窄を和らげる処置を行うこともあります。__呼吸困難が強い、顔色が悪い、ぐったりしている__等の場合は、入院での厳重な管理が必要なことがあり、速やかに小児の入院治療が可能な医療機関へご紹介します。",
+    tip: "__「ただの咳」と様子を見ているうちに、夜間に急に症状が悪化する__ことがあるクループ症候群は、保護者の方にとって不安の大きい病気のひとつです。__「ケンケン」という特徴的な咳や、息を吸う時のゼーゼー音__に気づいたら、軽症のうちに一度ご相談いただくと安心です。似た症状でより緊急性の高い「急性喉頭蓋炎」との鑑別も重要で、__高熱・よだれが多い・声がこもる等__を伴う場合は特に注意が必要です。",
+    sources: [
+      {
+        label:
+          "コクランレビュー（クループに対するステロイドの有効性）等、国際的な知見に基づく一般的な治療方針",
+      },
+    ],
+    lastReviewed: "2026-10-14",
+  },
+  {
     slug: "bppv",
     title: "良性発作性頭位めまい症（BPPV）",
     category: "internal",
@@ -1030,6 +1051,7 @@ export const INTERNAL_SUBCATEGORIES: { label: string; slugs: string[] }[] = [
     label: "かぜ・感染症・呼吸器",
     slugs: [
       "common-cold",
+      "croup",
       "streptococcal-pharyngitis",
       "mycoplasma-pneumonia",
       "rsv-infection",
@@ -1135,6 +1157,8 @@ export const DISEASE_LINK_LABELS: DiseaseLinkLabel[] = DISEASES
     { label: "溶連菌", slug: "streptococcal-pharyngitis" },
     { label: "マイコプラズマ肺炎", slug: "mycoplasma-pneumonia" },
     { label: "マイコプラズマ", slug: "mycoplasma-pneumonia" },
+    { label: "クループ症候群", slug: "croup" },
+    { label: "クループ", slug: "croup" },
     { label: "片頭痛", slug: "headache" },
     { label: "緊張型頭痛", slug: "headache" },
     { label: "群発頭痛", slug: "headache" },
