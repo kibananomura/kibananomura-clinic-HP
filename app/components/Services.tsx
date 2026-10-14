@@ -4,6 +4,7 @@ import Link from "next/link";
 import FadeIn from "./FadeIn";
 import SectionHeading from "./SectionHeading";
 import { SoftBlob, Blossom } from "./Decor";
+import BodySchema from "./BodySchema";
 import { useSite } from "../lib/site";
 import { SCHEDULE } from "../lib/schedule";
 import { PATIENT_LINK_PAGE } from "../lib/patient-links";
@@ -50,6 +51,19 @@ export default function Services() {
         <FadeIn>
           <SectionHeading eyebrow={t.services.eyebrow} title={t.services.heading} />
         </FadeIn>
+
+        {lang === "ja" && (
+          <FadeIn delay={0.05}>
+            <div className="mx-auto mt-10 max-w-2xl rounded-[1.75rem] bg-surface/80 p-6">
+              <h3 className="text-center text-base font-bold text-ink">
+                気になる部位から探す
+              </h3>
+              <div className="mt-5">
+                <BodySchema size="sm" />
+              </div>
+            </div>
+          </FadeIn>
+        )}
 
         {/* 診療科ごとの診療内容 */}
         <div className="mt-12">

@@ -4,6 +4,7 @@ import Link from "next/link";
 import FadeIn from "../components/FadeIn";
 import SectionHeading from "../components/SectionHeading";
 import { SoftBlob, Blossom } from "../components/Decor";
+import BodySchema from "../components/BodySchema";
 import { useSite } from "../lib/site";
 import {
   CATEGORY_LABEL,
@@ -43,6 +44,15 @@ export default function SymptomsIndexClient() {
           <p className="mx-auto mt-4 max-w-2xl rounded-2xl bg-surface/90 p-4 text-center text-sm leading-relaxed text-ink/70 shadow-card">
             {SYMPTOM_DISCLAIMER_INTRO}
           </p>
+        </FadeIn>
+
+        <FadeIn delay={0.1}>
+          <div className="mx-auto mt-10 max-w-3xl rounded-[1.75rem] bg-accent/40 p-6 sm:p-8">
+            <h2 className="text-center text-lg font-bold text-ink">部位から探す</h2>
+            <div className="mt-6">
+              <BodySchema size="lg" />
+            </div>
+          </div>
         </FadeIn>
 
         <div className="mx-auto mt-12 max-w-4xl space-y-10">
