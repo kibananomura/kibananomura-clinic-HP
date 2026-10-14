@@ -3,7 +3,7 @@ import { BRAND } from "../lib/brand";
 import CareersPageClient from "./CareersPageClient";
 
 export const metadata: Metadata = {
-  title: `採用・求人募集（看護師・事務） | ${BRAND.ja.primary}`,
+  title: `採用・求人募集（看護師・事務） | ${BRAND.ja.titleSuffix}`,
   description:
     "木花のむら総合診療所（宮崎市熊野、2027年10月1日開院予定）の採用情報。1日50〜100名程度の外来を支える看護師・事務スタッフを募集しています。",
   alternates: {

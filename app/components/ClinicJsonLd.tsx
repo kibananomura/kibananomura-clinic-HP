@@ -1,5 +1,5 @@
 import { BRAND } from "../lib/brand";
-import { SITE_SEO } from "../lib/seo";
+import { BASE_URL, SITE_SEO } from "../lib/seo";
 import { SCHEDULE } from "../lib/schedule";
 
 const DAY_OF_WEEK = [
@@ -44,6 +44,21 @@ function buildOpeningHoursSpecification() {
   });
 }
 
+const DIRECTOR = {
+  "@type": "Physician",
+  name: "野村信介",
+  honorificSuffix: "院長",
+  jobTitle: "院長",
+  medicalSpecialty: ["Surgery", "Gastroenterology"],
+  hasCredential: [
+    { "@type": "EducationalOccupationalCredential", credentialCategory: "防衛医科大学校卒" },
+    { "@type": "EducationalOccupationalCredential", credentialCategory: "日本外科学会専門医" },
+    { "@type": "EducationalOccupationalCredential", credentialCategory: "日本消化器外科学会専門医" },
+    { "@type": "EducationalOccupationalCredential", credentialCategory: "日本医師会認定健康スポーツ医" },
+  ],
+  url: `${BASE_URL}/#director`,
+} as const;
+
 export default function ClinicJsonLd() {
   const data = {
     "@context": "https://schema.org",
@@ -51,16 +66,17 @@ export default function ClinicJsonLd() {
     name: BRAND.ja.primary,
     alternateName: [...BRAND.ja.alternateNames],
     description: SITE_SEO.description,
+    url: BASE_URL,
     address: {
       "@type": "PostalAddress",
+      streetAddress: "熊野5233-2",
       addressLocality: "宮崎市",
       addressRegion: "宮崎県",
+      postalCode: "889-2151",
       addressCountry: "JP",
-      streetAddress: "木花",
     },
-    // 緯度経度（geo）・電話番号（telephone）・hasMap は、開院準備中のため
-    // 住所（接道交渉中）・電話番号ともに未確定。確定情報が入り次第、
-    // 架空の値を作らずここに追加すること。
+    // 緯度経度（geo）・電話番号（telephone）は、開院準備中のため未確定。
+    // 確定情報が入り次第、架空の値を作らずここに追加すること。
     email: "contact@kibananomura.jp",
     areaServed: {
       "@type": "City",
@@ -72,6 +88,19 @@ export default function ClinicJsonLd() {
       "Surgery",
       "Gastroenterology",
       "Allergy",
+    ],
+    availableLanguage: ["Japanese", "English"],
+    founder: DIRECTOR,
+    employee: [DIRECTOR],
+    amenityFeature: [
+      { "@type": "LocationFeatureSpecification", name: "駐車場", value: true, additionalProperty: { "@type": "PropertyValue", name: "台数", value: "32台（完備予定）" } },
+    ],
+    availableService: [
+      { "@type": "MedicalProcedure", name: "16列CT検査" },
+      { "@type": "MedicalProcedure", name: "経鼻内視鏡（胃カメラ）検査" },
+      { "@type": "MedicalProcedure", name: "腹部エコー（超音波）検査" },
+      { "@type": "MedicalProcedure", name: "FeNO検査（気管支喘息の診断・管理）" },
+      { "@type": "MedicalProcedure", name: "日帰り外科小手術" },
     ],
     openingHoursSpecification: buildOpeningHoursSpecification(),
   };

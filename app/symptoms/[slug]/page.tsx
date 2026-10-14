@@ -16,10 +16,10 @@ export async function generateMetadata({
   const { slug } = await params;
   const symptom = getSymptom(slug);
   if (!symptom) {
-    return { title: `症状から探す | ${BRAND.ja.primary}` };
+    return { title: `症状から探す | ${BRAND.ja.titleSuffix}` };
   }
   return {
-    title: `${symptom.title} | 症状から探す | ${BRAND.ja.primary}`,
+    title: `${symptom.title} | 症状から探す | ${BRAND.ja.titleSuffix}`,
     description: `${symptom.summary}。考えられる主な原因・当院で行う可能性のある検査・一般的な治療の考え方をご紹介します。このページは診断を行うものではなく、実際の診断・治療には受診が必要です。`,
     alternates: {
       canonical: `/symptoms/${slug}`,

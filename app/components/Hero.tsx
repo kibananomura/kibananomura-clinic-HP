@@ -134,18 +134,18 @@ export default function Hero() {
                 transition={{ duration: 0.35, ease: "easeInOut" }}
                 className="overflow-hidden"
               >
-                <div className="mt-5 grid gap-3 rounded-3xl border border-primary/15 bg-white/80 p-5 backdrop-blur sm:grid-cols-3">
+                <dl className="mt-5 grid gap-3 rounded-3xl border border-primary/15 bg-white/80 p-5 backdrop-blur sm:grid-cols-3">
                   {t.hero.guide.map((item) => (
                     <div key={item.title}>
-                      <p className="text-sm font-bold text-primary-dark">
+                      <dt className="text-sm font-bold text-primary-dark">
                         {item.title}
-                      </p>
-                      <p className="mt-1 text-sm leading-relaxed text-ink/75">
+                      </dt>
+                      <dd className="mt-1 text-sm leading-relaxed text-ink/75">
                         {item.body}
-                      </p>
+                      </dd>
                     </div>
                   ))}
-                </div>
+                </dl>
                 <div className="mt-3 flex flex-wrap gap-x-5 gap-y-2">
                   <a
                     href="/services"

@@ -3,16 +3,19 @@ export const BRAND = {
   ja: {
     primary: "木花のむら総合診療所",
     withSub: "木花のむら総合診療所",
+    /** 各ページの <title> 末尾に付与する、地域名・開院時期を含んだ表記 */
+    titleSuffix: "宮崎市熊野の木花のむら総合診療所（2027年10月開院予定）",
     logoEmblemAlt: "木花のむら総合診療所 ロゴマーク",
     logoAlt: "木花のむら総合診療所 MIYAZAKI JAPAN",
     copyright: "木花のむら総合診療所",
     alternateNames: [] as const,
     seoDescription:
-      "宮崎市熊野の木花のむら総合診療所。内科・外科・小児科を中心に対応予定。CT・胃カメラ・外科処置に院内で対応できる体制を整備予定。2027年10月1日開院予定。",
+      "宮崎市熊野の木花のむら総合診療所。内科・外科・小児科を中心に対応予定。CT・胃カメラ・外科処置に院内で対応できる体制を整備予定。現在は建設準備中です（2027年10月1日開院予定）。",
   },
   en: {
     primary: "Kibana Nomura General Medicine Clinic",
     withSub: "Kibana Nomura General Medicine Clinic",
+    titleSuffix: "Kibana Nomura General Medicine Clinic, Kumano, Miyazaki City (opening October 2027)",
     logoEmblemAlt: "Kibana Nomura General Medicine Clinic logo mark",
     logoAlt: "Kibana Nomura General Medicine Clinic / MIYAZAKI, JAPAN",
     copyright: "Kibana Nomura General Medicine Clinic",

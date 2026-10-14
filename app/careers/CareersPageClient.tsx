@@ -5,12 +5,12 @@ import type { ReactNode } from "react";
 import FadeIn from "../components/FadeIn";
 import SectionHeading from "../components/SectionHeading";
 import { SoftBlob, Blossom } from "../components/Decor";
+import LineLink from "../components/LineLink";
 import { useSite } from "../lib/site";
 import {
   CAREERS_PAGE,
   CAREER_POSITIONS,
   OBSERVER_PROGRAM,
-  LINE_RECRUIT_URL,
 } from "../lib/careers";
 
 const MISSION_ICONS = ["👀", "👂", "🌱", "🤝"];
@@ -362,15 +362,10 @@ export default function CareersPageClient() {
             <p className="mt-3 text-sm leading-relaxed text-ink/75">
               {copy.applyBody}
             </p>
-            <a
-              href={LINE_RECRUIT_URL}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="mt-6 inline-flex items-center gap-2 rounded-full bg-line px-7 py-3.5 text-sm font-bold text-white shadow-soft transition-transform hover:scale-105"
-            >
+            <LineLink className="mt-6 inline-flex items-center gap-2 rounded-full bg-line px-7 py-3.5 text-sm font-bold text-white shadow-soft transition-transform hover:scale-105">
               {copy.applyLineButton}
               <span aria-hidden="true">→</span>
-            </a>
+            </LineLink>
             <p className="mt-3 text-xs text-ink/55">{copy.applyLineNote}</p>
             <p className="mt-6 text-xs leading-relaxed text-ink/50">
               {copy.applyDisclaimer}

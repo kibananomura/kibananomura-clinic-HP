@@ -6,6 +6,7 @@ import FadeIn from "../../components/FadeIn";
 import { SoftBlob } from "../../components/Decor";
 import MedicalWebPageJsonLd from "../../components/MedicalWebPageJsonLd";
 import FaqJsonLd from "../../components/FaqJsonLd";
+import LineLink from "../../components/LineLink";
 import InlineRichText from "../../components/InlineRichText";
 import { useSite } from "../../lib/site";
 import {
@@ -126,6 +127,14 @@ export default function SelfPayPageClient() {
             </p>
           </FadeIn>
 
+          {/* 未承認医薬品等・適応外使用について */}
+          <FadeIn delay={0.13} className="mt-6 rounded-[1.75rem] border border-primary/15 bg-surface/80 p-7 shadow-card">
+            <h2 className="text-sm font-bold text-primary-dark">未承認医薬品等・適応外使用について</h2>
+            <p className="mt-2 text-[15px] leading-relaxed text-ink/80">
+              <InlineRichText text={item.approvalStatus} />
+            </p>
+          </FadeIn>
+
           {/* FAQ */}
           {item.faq.length > 0 && (
             <FadeIn delay={0.14} className="mt-6 rounded-[1.75rem] bg-surface/90 p-7 shadow-card">
@@ -150,15 +159,10 @@ export default function SelfPayPageClient() {
           <FadeIn delay={0.18} className="mt-8 rounded-[1.75rem] bg-surface/90 p-7 text-center shadow-card">
             <p className="text-sm font-bold text-primary-dark">{t.register.heading}</p>
             <p className="mt-2 text-sm leading-relaxed text-ink/70">{t.register.body}</p>
-            <a
-              href="https://line.me/R/ti/p/@337njouw"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="mt-5 inline-flex items-center gap-2 whitespace-nowrap rounded-full bg-primary px-7 py-3.5 font-bold text-white shadow-soft transition-transform hover:scale-105 hover:bg-primary-dark"
-            >
+            <LineLink className="mt-5 inline-flex items-center gap-2 whitespace-nowrap rounded-full bg-primary px-7 py-3.5 font-bold text-white shadow-soft transition-transform hover:scale-105 hover:bg-primary-dark">
               {t.register.button}
               <span aria-hidden="true">→</span>
-            </a>
+            </LineLink>
           </FadeIn>
 
           <div className="mt-10 flex flex-wrap justify-center gap-3">

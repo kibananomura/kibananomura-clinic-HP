@@ -7,6 +7,7 @@ import { SoftBlob, Blossom } from "../components/Decor";
 import { useSite } from "../lib/site";
 import { SCHEDULE, WED_PM_INDEX } from "../lib/schedule";
 import { PATIENT_LINK_PAGE } from "../lib/patient-links";
+import LineLink from "../components/LineLink";
 
 const DEPT_ICON_PROPS = {
   className: "h-6 w-6",
@@ -348,15 +349,10 @@ export default function ServicesPageClient() {
 
         {/* LINE登録CTA */}
         <FadeIn delay={0.18} className="mt-10 text-center">
-          <a
-            href="https://line.me/R/ti/p/@337njouw"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 whitespace-nowrap rounded-full bg-primary px-7 py-3.5 font-bold text-white shadow-soft transition-transform hover:scale-105 hover:bg-primary-dark"
-          >
+          <LineLink className="inline-flex items-center gap-2 whitespace-nowrap rounded-full bg-primary px-7 py-3.5 font-bold text-white shadow-soft transition-transform hover:scale-105 hover:bg-primary-dark">
             {t.register.button}
             <span aria-hidden="true">→</span>
-          </a>
+          </LineLink>
         </FadeIn>
 
         {/* トップへ戻る */}

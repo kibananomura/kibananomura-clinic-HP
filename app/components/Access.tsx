@@ -58,6 +58,7 @@ export default function Access() {
                   <dd className="mt-1 text-[15px] leading-relaxed text-ink/80">
                     {t.access.addressValue}
                   </dd>
+                  <dd className="mt-0.5 text-xs text-ink/50">{t.access.addressNote}</dd>
                 </div>
                 <div>
                   <dt className="text-sm font-bold text-primary-dark">

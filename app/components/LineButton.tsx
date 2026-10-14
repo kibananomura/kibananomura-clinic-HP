@@ -1,3 +1,5 @@
+import { LINE_URL } from "../lib/site-config";
+
 type LineButtonProps = {
   label?: string;
   className?: string;
@@ -39,9 +41,20 @@ export default function LineButton({
   const sizing =
     size === "lg" ? "px-7 py-4 text-base" : "px-6 py-3.5 text-[15px]";
 
+  if (!LINE_URL) {
+    return (
+      <span
+        role="note"
+        className={`inline-flex items-center justify-center gap-2.5 rounded-full bg-ink/10 text-center font-bold leading-tight text-ink/50 ${sizing} ${className}`}
+      >
+        現在LINE公式アカウントを開設準備中です（近日公開予定）
+      </span>
+    );
+  }
+
   return (
     <a
-      href="https://line.me/R/ti/p/@337njouw"
+      href={LINE_URL}
       target="_blank"
       rel="noopener noreferrer"
       aria-label={label}

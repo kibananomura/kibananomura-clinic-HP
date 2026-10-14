@@ -5,6 +5,9 @@ import { notFound, useParams } from "next/navigation";
 import FadeIn from "../../components/FadeIn";
 import { SoftBlob } from "../../components/Decor";
 import MedicalWebPageJsonLd from "../../components/MedicalWebPageJsonLd";
+import ArticleSupervisor from "../../components/ArticleSupervisor";
+import PreOpeningAlert from "../../components/PreOpeningAlert";
+import LineLink from "../../components/LineLink";
 import { useSite } from "../../lib/site";
 import {
   CATEGORY_LABEL,
@@ -238,17 +241,22 @@ export default function SymptomPageClient() {
             </p>
           </FadeIn>
 
+          {/* 開院前アラート */}
+          <FadeIn delay={0.19}>
+            <PreOpeningAlert />
+          </FadeIn>
+
+          {/* 執筆・監修ボックス */}
+          <FadeIn delay={0.2}>
+            <ArticleSupervisor />
+          </FadeIn>
+
           {/* 受診予約への導線 */}
           <FadeIn delay={0.2} className="mt-8 text-center">
-            <a
-              href="https://line.me/R/ti/p/@337njouw"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 whitespace-nowrap rounded-full bg-primary px-7 py-3.5 font-bold text-white shadow-soft transition-transform hover:scale-105 hover:bg-primary-dark"
-            >
+            <LineLink className="inline-flex items-center gap-2 whitespace-nowrap rounded-full bg-primary px-7 py-3.5 font-bold text-white shadow-soft transition-transform hover:scale-105 hover:bg-primary-dark">
               {t.register.button}
               <span aria-hidden="true">→</span>
-            </a>
+            </LineLink>
           </FadeIn>
 
           <div className="mt-10 flex flex-wrap justify-center gap-3">

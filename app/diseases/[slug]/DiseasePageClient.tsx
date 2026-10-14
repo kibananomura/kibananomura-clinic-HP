@@ -5,6 +5,9 @@ import { notFound, useParams } from "next/navigation";
 import FadeIn from "../../components/FadeIn";
 import { SoftBlob } from "../../components/Decor";
 import MedicalWebPageJsonLd from "../../components/MedicalWebPageJsonLd";
+import ArticleSupervisor from "../../components/ArticleSupervisor";
+import PreOpeningAlert from "../../components/PreOpeningAlert";
+import LineLink from "../../components/LineLink";
 import InlineRichText from "../../components/InlineRichText";
 import PollenCalendarKyushu from "../../components/PollenCalendarKyushu";
 import AllergenSourcesIllustration from "../../components/AllergenSourcesIllustration";
@@ -154,18 +157,21 @@ export default function DiseasePageClient() {
             </p>
           </FadeIn>
 
+          <FadeIn delay={0.13}>
+            <PreOpeningAlert />
+          </FadeIn>
+
+          <FadeIn delay={0.14}>
+            <ArticleSupervisor />
+          </FadeIn>
+
           <FadeIn delay={0.16} className="mt-8 rounded-[1.75rem] bg-surface/90 p-7 text-center shadow-card">
             <p className="text-sm font-bold text-primary-dark">{t.register.heading}</p>
             <p className="mt-2 text-sm leading-relaxed text-ink/70">{t.register.body}</p>
-            <a
-              href="https://line.me/R/ti/p/@337njouw"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="mt-5 inline-flex items-center gap-2 whitespace-nowrap rounded-full bg-primary px-7 py-3.5 font-bold text-white shadow-soft transition-transform hover:scale-105 hover:bg-primary-dark"
-            >
+            <LineLink className="mt-5 inline-flex items-center gap-2 whitespace-nowrap rounded-full bg-primary px-7 py-3.5 font-bold text-white shadow-soft transition-transform hover:scale-105 hover:bg-primary-dark">
               {t.register.button}
               <span aria-hidden="true">→</span>
-            </a>
+            </LineLink>
           </FadeIn>
 
           <div className="mt-10 flex flex-wrap justify-center gap-3">

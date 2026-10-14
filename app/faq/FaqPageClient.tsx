@@ -5,6 +5,7 @@ import Link from "next/link";
 import FadeIn from "../components/FadeIn";
 import SectionHeading from "../components/SectionHeading";
 import { SoftBlob, Blossom } from "../components/Decor";
+import LineLink from "../components/LineLink";
 import { useSite } from "../lib/site";
 
 function FaqItem({ q, a }: { q: string; a: string }) {
@@ -86,25 +87,18 @@ export default function FaqPageClient() {
                   昼休みを活用した施設への訪問診療を予定しています。入居者の方の定期的な医療管理・急変時対応などについて、まずはお気軽にLINEまたはお問い合わせフォームよりご連絡ください。
                 </p>
                 <div className="mt-5 flex flex-wrap gap-3">
-                  <a
-                    href="https://line.me/R/ti/p/@337njouw"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="inline-flex items-center gap-2 rounded-full bg-line px-5 py-2.5 text-sm font-bold text-white shadow-soft transition-transform hover:scale-105"
-                  >
+                  <LineLink className="inline-flex items-center gap-2 rounded-full bg-line px-5 py-2.5 text-sm font-bold text-white shadow-soft transition-transform hover:scale-105">
                     <svg viewBox="0 0 24 24" className="h-4 w-4" fill="currentColor" aria-hidden="true">
                       <path d="M12 2C6.48 2 2 5.69 2 10.23c0 4.07 3.58 7.48 8.41 8.12.33.07.78.22.89.5.1.26.07.66.03.92l-.14.86c-.04.26-.2 1.01.89.55 1.09-.46 5.86-3.45 8-5.91 1.47-1.62 2.18-3.27 2.18-5.04C22 5.69 17.52 2 12 2Z" />
                     </svg>
                     LINEで相談する
-                  </a>
-                  <a
-                    href="https://line.me/R/ti/p/@337njouw"
-                    target="_blank"
-                    rel="noopener noreferrer"
+                  </LineLink>
+                  <Link
+                    href="/contact"
                     className="inline-flex items-center gap-2 rounded-full border-2 border-primary/30 px-5 py-2.5 text-sm font-bold text-primary transition-colors hover:border-primary hover:bg-accent"
                   >
                     お問い合わせフォームへ
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -114,17 +108,12 @@ export default function FaqPageClient() {
         {/* 一般患者向け LINE CTA */}
         <FadeIn delay={0.18} className="mt-8 text-center">
           <p className="mb-4 text-[15px] text-ink/75">その他ご不明な点はLINEでお気軽にお問い合わせください</p>
-          <a
-            href="https://line.me/R/ti/p/@337njouw"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 rounded-full bg-line px-7 py-3.5 font-bold text-white shadow-soft transition-transform hover:scale-105"
-          >
+          <LineLink className="inline-flex items-center gap-2 rounded-full bg-line px-7 py-3.5 font-bold text-white shadow-soft transition-transform hover:scale-105">
             <svg viewBox="0 0 24 24" className="h-5 w-5" fill="currentColor" aria-hidden="true">
               <path d="M12 2C6.48 2 2 5.69 2 10.23c0 4.07 3.58 7.48 8.41 8.12.33.07.78.22.89.5.1.26.07.66.03.92l-.14.86c-.04.26-.2 1.01.89.55 1.09-.46 5.86-3.45 8-5.91 1.47-1.62 2.18-3.27 2.18-5.04C22 5.69 17.52 2 12 2Z" />
             </svg>
             LINE でお問い合わせ
-          </a>
+          </LineLink>
         </FadeIn>
 
         <div className="mt-10 text-center">

@@ -3,7 +3,7 @@ import { BRAND } from "../lib/brand";
 import ContactPageClient from "./ContactPageClient";
 
 export const metadata: Metadata = {
-  title: `お問い合わせ（LINE公式アカウント） | ${BRAND.ja.primary}`,
+  title: `お問い合わせ（LINE公式アカウント） | ${BRAND.ja.titleSuffix}`,
   description:
     "木花のむら総合診療所（宮崎市熊野、2027年10月1日開院予定）へのお問い合わせはLINE公式アカウントから。開院準備の状況やご質問はお気軽にご連絡ください。",
   alternates: {

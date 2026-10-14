@@ -9,22 +9,28 @@ export const BASE_URL = "https://www.kibananomura.jp";
  */
 export const INDEXNOW_KEY = "2ec2e28bd96afcd60ba2951334e48fbc";
 
-const titleSuffix = "宮崎市木花 内科・小児科・外科 2027年10月1日開院";
+const titleSuffix = "宮崎市熊野（木花）内科・小児科・外科 2027年10月1日開院";
 
 export const SITE_SEO = {
   title: `${BRAND.ja.primary} | ${titleSuffix}`,
   description: BRAND.ja.seoDescription,
   keywords: [
     "木花のむら総合診療所",
-    "木花診療所",
     "木花 クリニック",
     "宮崎市 木花 クリニック",
     "宮崎市木花 クリニック",
     "木花 内科",
     "木花 小児科",
     "宮崎市",
+    "宮崎市南部",
     "木花",
     "熊野",
+    "学園木花台",
+    "本郷",
+    "清武",
+    "木花駅",
+    "運動公園駅",
+    "宮崎大学 木花キャンパス",
     "内科",
     "小児科",
     "外科",

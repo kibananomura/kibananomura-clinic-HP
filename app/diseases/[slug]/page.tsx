@@ -16,10 +16,10 @@ export async function generateMetadata({
   const { slug } = await params;
   const disease = getDisease(slug);
   if (!disease) {
-    return { title: `疾患について | ${BRAND.ja.primary}` };
+    return { title: `疾患について | ${BRAND.ja.titleSuffix}` };
   }
   return {
-    title: `${disease.title} | 疾患について | ${BRAND.ja.primary}`,
+    title: `${disease.title} | 疾患について | ${BRAND.ja.titleSuffix}`,
     description: `${disease.summary} 病態・検査方法・治療法をご紹介します。このページは診断を行うものではなく、実際の診断・治療には受診が必要です。`,
     alternates: {
       canonical: `/diseases/${slug}`,

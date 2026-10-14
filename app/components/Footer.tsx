@@ -8,6 +8,7 @@ import {
   getFooterHighlightLinks,
 } from "../lib/patient-links";
 import { BRAND } from "../lib/brand";
+import LineLink from "./LineLink";
 
 export default function Footer() {
   const { t, lang } = useSite();
@@ -98,17 +99,14 @@ export default function Footer() {
             {t.footer.snsHeading}
           </h2>
           <div className="mt-4 flex gap-3">
-            <a
-              href="https://line.me/R/ti/p/@337njouw"
-              target="_blank"
-              rel="noopener noreferrer"
+            <LineLink
               aria-label={t.footer.lineAria}
               className="flex h-10 w-10 items-center justify-center rounded-full bg-white/10 transition-colors hover:bg-line"
             >
               <svg viewBox="0 0 24 24" className="h-5 w-5" fill="currentColor" aria-hidden="true">
                 <path d="M12 2C6.48 2 2 5.69 2 10.23c0 4.07 3.58 7.48 8.41 8.12.33.07.78.22.89.5.1.26.07.66.03.92l-.14.86c-.04.26-.2 1.01.89.55 1.09-.46 5.86-3.45 8-5.91 1.47-1.62 2.18-3.27 2.18-5.04C22 5.69 17.52 2 12 2Z" />
               </svg>
-            </a>
+            </LineLink>
             <a
               href="#"
               aria-label={t.footer.instaAria}

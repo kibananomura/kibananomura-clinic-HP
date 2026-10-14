@@ -6,8 +6,14 @@ import SectionHeading from "../components/SectionHeading";
 import { SoftBlob, Blossom } from "../components/Decor";
 import { useSite } from "../lib/site";
 
+const LABELS = {
+  ja: { overview: "治療の内容", price: "標準的な費用", risks: "主なリスク・副作用", approval: "未承認医薬品等・適応外使用について" },
+  en: { overview: "Treatment overview", price: "Standard cost", risks: "Main risks & side effects", approval: "Unapproved drugs / off-label use" },
+} as const;
+
 export default function PricingPageClient() {
-  const { t } = useSite();
+  const { t, lang } = useSite();
+  const labels = LABELS[lang];
 
   return (
     <section className="section-pad relative overflow-hidden bg-accent/60 page-top">
@@ -34,17 +40,59 @@ export default function PricingPageClient() {
                   {group.title}
                 </h2>
                 <ul className="divide-y divide-accent">
-                  {group.items.map((item) => (
-                    <li
-                      key={item.name}
-                      className="flex flex-wrap items-center justify-between gap-x-4 gap-y-1 px-6 py-4"
-                    >
-                      <span className="text-[15px] text-ink/85">{item.name}</span>
-                      <span className="whitespace-nowrap text-sm font-bold text-primary-dark">
-                        {item.price}
-                      </span>
-                    </li>
-                  ))}
+                  {group.items.map((item) =>
+                    item.overview || item.risks || item.approval ? (
+                      <li key={item.name}>
+                        <details className="group px-6 py-4">
+                          <summary className="flex cursor-pointer list-none flex-wrap items-center justify-between gap-x-4 gap-y-1 [&::-webkit-details-marker]:hidden">
+                            <span className="text-[15px] text-ink/85">
+                              {item.name}
+                              <span className="ml-2 inline-block text-xs text-primary-dark/60 transition-transform group-open:rotate-180">
+                                ▾
+                              </span>
+                            </span>
+                            <span className="whitespace-nowrap text-sm font-bold text-primary-dark">
+                              {item.price}
+                            </span>
+                          </summary>
+                          <dl className="mt-3 space-y-2 rounded-2xl bg-accent/30 p-4 text-sm leading-relaxed text-ink/80">
+                            {item.overview && (
+                              <div>
+                                <dt className="font-bold text-primary-dark">{labels.overview}</dt>
+                                <dd className="mt-0.5">{item.overview}</dd>
+                              </div>
+                            )}
+                            <div>
+                              <dt className="font-bold text-primary-dark">{labels.price}</dt>
+                              <dd className="mt-0.5">{item.price}</dd>
+                            </div>
+                            {item.risks && (
+                              <div>
+                                <dt className="font-bold text-primary-dark">{labels.risks}</dt>
+                                <dd className="mt-0.5">{item.risks}</dd>
+                              </div>
+                            )}
+                            {item.approval && (
+                              <div>
+                                <dt className="font-bold text-primary-dark">{labels.approval}</dt>
+                                <dd className="mt-0.5">{item.approval}</dd>
+                              </div>
+                            )}
+                          </dl>
+                        </details>
+                      </li>
+                    ) : (
+                      <li
+                        key={item.name}
+                        className="flex flex-wrap items-center justify-between gap-x-4 gap-y-1 px-6 py-4"
+                      >
+                        <span className="text-[15px] text-ink/85">{item.name}</span>
+                        <span className="whitespace-nowrap text-sm font-bold text-primary-dark">
+                          {item.price}
+                        </span>
+                      </li>
+                    )
+                  )}
                 </ul>
               </div>
             </FadeIn>

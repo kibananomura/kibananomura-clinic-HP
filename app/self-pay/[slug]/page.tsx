@@ -16,10 +16,10 @@ export async function generateMetadata({
   const { slug } = await params;
   const item = getSelfPayEntry(slug);
   if (!item) {
-    return { title: `自費診療について | ${BRAND.ja.primary}` };
+    return { title: `自費診療について | ${BRAND.ja.titleSuffix}` };
   }
   return {
-    title: `${item.title} | 自費診療 | ${BRAND.ja.primary}`,
+    title: `${item.title} | 自費診療 | ${BRAND.ja.titleSuffix}`,
     description: `${item.summary.replace(/\*\*|__/g, "")} 料金・主なリスクはページ内でご確認いただけます。`,
     alternates: {
       canonical: `/self-pay/${slug}`,

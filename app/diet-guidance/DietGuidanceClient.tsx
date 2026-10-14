@@ -6,6 +6,7 @@ import SectionHeading from "../components/SectionHeading";
 import { SoftBlob, Blossom } from "../components/Decor";
 import InlineRichText from "../components/InlineRichText";
 import MedicalWebPageJsonLd from "../components/MedicalWebPageJsonLd";
+import LineLink from "../components/LineLink";
 import { useSite } from "../lib/site";
 import {
   DIET_GUIDANCE_INTRO,
@@ -117,15 +118,10 @@ export default function DietGuidanceClient() {
           </FadeIn>
 
           <FadeIn delay={0.16} className="mt-8 text-center">
-            <a
-              href="https://line.me/R/ti/p/@337njouw"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 whitespace-nowrap rounded-full bg-primary px-7 py-3.5 font-bold text-white shadow-soft transition-transform hover:scale-105 hover:bg-primary-dark"
-            >
+            <LineLink className="inline-flex items-center gap-2 whitespace-nowrap rounded-full bg-primary px-7 py-3.5 font-bold text-white shadow-soft transition-transform hover:scale-105 hover:bg-primary-dark">
               {t.register.button}
               <span aria-hidden="true">→</span>
-            </a>
+            </LineLink>
           </FadeIn>
 
           <div className="mt-10 flex flex-wrap justify-center gap-3">

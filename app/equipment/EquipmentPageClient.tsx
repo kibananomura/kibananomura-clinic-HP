@@ -32,6 +32,41 @@ export default function EquipmentPageClient() {
           </p>
         </FadeIn>
 
+        {lang === "ja" && (
+          <FadeIn delay={0.07}>
+            <div className="mx-auto mt-8 max-w-4xl overflow-x-auto rounded-2xl border border-primary/10">
+              <table className="w-full min-w-[560px] border-collapse text-left text-sm">
+                <caption className="sr-only">院内で即日実施可能な主な検査一覧</caption>
+                <thead>
+                  <tr className="bg-primary/10 text-primary-dark">
+                    <th scope="col" className="whitespace-nowrap px-4 py-3 font-bold">検査名</th>
+                    <th scope="col" className="px-4 py-3 font-bold">特徴</th>
+                    <th scope="col" className="px-4 py-3 font-bold">こんな時に</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {[
+                    { name: "16列CT", feature: "痛み・被ばくを抑えた開放的な装置、短時間で撮影", use: "腹部・頭部の精査、外傷後の確認等" },
+                    { name: "経鼻内視鏡（胃カメラ）", feature: "鼻から挿入、会話しながら楽に受けられる", use: "胃痛・胸やけ・ピロリ菌精査等" },
+                    { name: "腹部エコー（超音波）", feature: "痛み・被ばくなし、お子さんから高齢の方まで", use: "肝臓・胆のう・腎臓等の観察" },
+                    { name: "デジタルX線（レントゲン）", feature: "低被ばく、その場ですぐ画像確認", use: "胸部・骨・副鼻腔の確認等" },
+                    { name: "FeNO（呼気NO検査）", feature: "息を吐くだけ、数分で終了", use: "長引く咳・気管支喘息の診断と経過確認" },
+                    { name: "処置室（外科小手術）", feature: "外科専門医による日帰り対応", use: "粉瘤・脂肪腫の切除、巻き爪処置、縫合等" },
+                  ].map((row) => (
+                    <tr key={row.name} className="odd:bg-surface even:bg-cream/60">
+                      <th scope="row" className="whitespace-nowrap px-4 py-3 align-top font-bold text-ink">
+                        {row.name}
+                      </th>
+                      <td className="px-4 py-3 align-top leading-relaxed text-ink/80">{row.feature}</td>
+                      <td className="px-4 py-3 align-top leading-relaxed text-ink/80">{row.use}</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          </FadeIn>
+        )}
+
         <div className="mx-auto mt-10 max-w-4xl space-y-6">
           {equipment.map((item, i) => {
             const c = lang === "en" ? item.en : item.ja;

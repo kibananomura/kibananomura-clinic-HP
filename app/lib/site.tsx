@@ -129,6 +129,7 @@ export interface SiteDict {
     mapButton: string;
     addressLabel: string;
     addressValue: string;
+    addressNote: string;
     parkingLabel: string;
     parkingValue: string;
     openLabel: string;
@@ -195,7 +196,19 @@ export interface SiteDict {
     eyebrow: string;
     heading: string;
     intro: string;
-    groups: { title: string; items: { name: string; price: string }[] }[];
+    groups: {
+      title: string;
+      items: {
+        name: string;
+        price: string;
+        /** 医療広告ガイドライン対応：①治療内容の概要（自費診療のみ） */
+        overview?: string;
+        /** ③主なリスク・副作用（自費診療のみ） */
+        risks?: string;
+        /** ④未承認医薬品等・適応外使用に関する明示（自費診療のみ） */
+        approval?: string;
+      }[];
+    }[];
     disclaimer: string;
     servicesLinkLabel: string;
   };
@@ -496,18 +509,19 @@ const ja: SiteDict = {
     eyebrow: "アクセス",
     heading: "通いやすい場所で、お待ちしています。",
     mapTitle: "木花のむら総合診療所 開院予定地",
-    mapSub: "宮崎市熊野5233-2周辺（接道交渉中・場所は仮設定）",
+    mapSub: "〒889-2151 宮崎県宮崎市熊野5233-2",
     mapUrl: "https://maps.google.com/maps?q=%E5%AE%AE%E5%B4%8E%E7%9C%8C%E5%AE%AE%E5%B4%8E%E5%B8%82%E7%86%8A%E9%87%8E5233-2",
     mapEmbed:
       "https://maps.google.com/maps?q=%E5%AE%AE%E5%B4%8E%E7%9C%8C%E5%AE%AE%E5%B4%8E%E5%B8%82%E7%86%8A%E9%87%8E5233-2&z=14&output=embed",
     mapButton: "Googleマップで開く",
     addressLabel: "所在地",
-    addressValue: "宮崎市熊野5233-2（接道交渉中・2027年10月1日開院予定）",
+    addressValue: "〒889-2151 宮崎県宮崎市熊野5233-2",
     parkingLabel: "駐車場",
     parkingValue: PARKING_STATUS.ja_short,
     openLabel: "開院",
     openValue: "2027年10月1日 予定（現在 建設準備中）",
-    note: "山下橋（清武川）開通後は、まなび野・学園台方面からのアクセスがさらに便利になります。",
+    addressNote: "※現在建設準備中です。",
+    note: "山下橋（清武川）開通後は、まなび野・学園台方面からのアクセスがさらに便利になります。宮崎市南部（木花・熊野・学園木花台・本郷・清武エリア）にお住まいの方を中心に、JR木花駅・運動公園駅や宮崎大学木花キャンパス周辺からもお車でお越しいただきやすい立地です。",
   },
   register: {
     badge: "2027年10月1日 開院予定",
@@ -518,13 +532,13 @@ const ja: SiteDict = {
   },
   footer: {
     tagline:
-      "宮崎市熊野の木花のむら総合診療所。内科・外科・小児科を中心に、よろず相談所のように気軽に立ち寄れる場所を目指しています。",
+      "宮崎市熊野の木花のむら総合診療所。内科・外科・小児科を中心に、よろず相談所のように気軽に立ち寄れる場所を目指しています。宮崎市南部（木花・熊野・学園木花台・本郷・清武エリア）の皆さまのかかりつけ医として。",
     badge: "2027年10月1日 開院予定 ／ 建設準備中",
     menuHeading: "メニュー",
     deptHeading: "診療科・所在地",
     deptItems: [
       "内科・外科・小児科",
-      "宮崎市熊野5233-2（接道交渉中）",
+      "〒889-2151 宮崎県宮崎市熊野5233-2",
       "TEL：開院後に設定いたします",
     ],
     snsHeading: "SNS",
@@ -651,17 +665,85 @@ const ja: SiteDict = {
       {
         title: "自費診療",
         items: [
-          { name: "GLP-1ダイエット（低用量開始プラン）", price: "月額19,800円〜" },
-          { name: "AGA治療（フィナステリド）", price: "月額6,200円" },
-          { name: "AGA治療（デュタステリド系）", price: "月額10,000円台〜" },
-          { name: "FAGA（女性の薄毛）", price: "準備中" },
-          { name: "LOH症候群・TRT", price: "準備中" },
-          { name: "ED治療薬（バイアグラ）", price: "1錠2,400円" },
-          { name: "ED治療薬（シアリス）", price: "1錠1,700円" },
-          { name: "花粉症ステロイド注射", price: "1回4,000円（診察料別途）" },
-          { name: "にんにく注射", price: "1回1,500円" },
-          { name: "各種予防接種・ワクチン", price: "準備中" },
-          { name: "ピロリ菌3次除菌（2次除菌まで不成功の場合）", price: "25,000円（診察・お薬・除菌判定検査込み、目安）" },
+          {
+            name: "GLP-1ダイエット（低用量開始プラン）",
+            price: "月額19,800円〜",
+            overview: "GLP-1受容体作動薬を少量から用いる、医師管理下の体重マネジメント治療です。",
+            risks:
+              "吐き気・嘔吐・下痢・便秘等の消化器症状が比較的高頻度にみられるほか、まれに低血糖、急性膵炎・胆嚢炎等の重篤な副作用が報告されています。効果・体重減少の程度には個人差があります。",
+            approval:
+              "使用する薬剤によっては、肥満治療としての国内適応外使用、または国内未承認薬の使用に該当する場合があります。使用薬剤の国内承認状況・入手経路は、治療開始前に医師より個別にご説明します。",
+          },
+          {
+            name: "AGA治療（フィナステリド）",
+            price: "月額6,200円",
+            overview: "男性型脱毛症（AGA）に対する、国内承認薬の内服治療です。",
+            risks: "性機能への影響（性欲減退・勃起機能低下等）、肝機能への影響等が報告されています。妊娠中・妊娠の可能性がある女性は薬剤に触れることも避ける必要があります。",
+            approval: "国内で承認されている医薬品を、保険適用外の自由診療として処方します（未承認医薬品ではありません）。",
+          },
+          {
+            name: "AGA治療（デュタステリド系）",
+            price: "月額10,000円台〜",
+            overview: "男性型脱毛症（AGA）に対する、国内承認薬の内服治療です。",
+            risks: "性機能への影響（性欲減退・勃起機能低下等）、肝機能への影響等が報告されています。妊娠中・妊娠の可能性がある女性は薬剤に触れることも避ける必要があります。",
+            approval: "国内で承認されている医薬品を、保険適用外の自由診療として処方します（未承認医薬品ではありません）。",
+          },
+          {
+            name: "FAGA（女性の薄毛）",
+            price: "準備中",
+            overview: "女性の薄毛（FAGA）に対する自費診療です。具体的な治療内容は提供開始までにご案内します。",
+            risks: "使用薬剤に応じたリスク・副作用は、提供開始までに個別にご案内します。",
+            approval: "使用薬剤の国内承認状況は、提供開始までに個別にご案内します。",
+          },
+          {
+            name: "LOH症候群・TRT",
+            price: "準備中",
+            overview: "加齢男性性腺機能低下症候群（LOH症候群）に対するテストステロン補充療法（TRT）です。具体的な治療内容は提供開始までにご案内します。",
+            risks: "多血症、前立腺への影響、睡眠時無呼吸症候群の悪化等が報告されています。詳細は提供開始までに個別にご案内します。",
+            approval: "使用薬剤の国内承認状況は、提供開始までに個別にご案内します。",
+          },
+          {
+            name: "ED治療薬（バイアグラ）",
+            price: "1錠2,400円",
+            overview: "勃起不全（ED）に対する、国内承認薬の内服治療です。",
+            risks: "頭痛・ほてり・動悸・消化不良等が報告されています。硝酸剤を使用中の方は併用禁忌です。",
+            approval: "国内で承認されている医薬品を、保険適用外の自由診療として処方します（未承認医薬品ではありません）。",
+          },
+          {
+            name: "ED治療薬（シアリス）",
+            price: "1錠1,700円",
+            overview: "勃起不全（ED）に対する、国内承認薬の内服治療です。",
+            risks: "頭痛・ほてり・消化不良・背部痛等が報告されています。硝酸剤を使用中の方は併用禁忌です。",
+            approval: "国内で承認されている医薬品を、保険適用外の自由診療として処方します（未承認医薬品ではありません）。",
+          },
+          {
+            name: "花粉症ステロイド注射",
+            price: "1回4,000円（診察料別途）",
+            overview: "花粉症（アレルギー性鼻炎）の症状を一時的に抑えるステロイドの筋肉注射です。内服薬・点鼻薬での治療を基本とし、ご希望の方に選択肢としてご案内します。",
+            risks: "月経異常、糖尿病の悪化、感染症への抵抗力低下、続発性副腎皮質機能不全、消化性潰瘍、精神症状等が報告されています。繰り返しの使用は特に注意が必要です。",
+            approval: "使用する注射薬は、花粉症（アレルギー性鼻炎）への使用が添付文書上の適応として明記されていない場合があり、医師の裁量による投与（適応外使用）となることがあります。",
+          },
+          {
+            name: "にんにく注射",
+            price: "1回1,500円",
+            overview: "ビタミンB1等を含む注射による、一時的な疲労感の緩和を目的とした自費診療です。",
+            risks: "まれにアレルギー反応、注射部位の痛み・発赤等が起こることがあります。",
+            approval: "使用する製剤は国内で承認されたビタミン剤等です。",
+          },
+          {
+            name: "各種予防接種・ワクチン",
+            price: "準備中",
+            overview: "任意接種のワクチン（成人用ワクチン等）です。具体的な種類・料金は提供開始までにご案内します。",
+            risks: "接種部位の腫れ・痛み、発熱等の一般的な副反応のほか、まれにアナフィラキシー等の重い副反応が報告されています。",
+            approval: "国内で承認されているワクチンを使用します。",
+          },
+          {
+            name: "ピロリ菌3次除菌（2次除菌まで不成功の場合）",
+            price: "25,000円（診察・お薬・除菌判定検査込み、目安）",
+            overview: "2次除菌までの治療で不成功だった場合の、3次除菌治療（保険適用外）です。",
+            risks: "下痢・軟便、味覚異常、発疹等が報告されています。除菌率は1次・2次除菌と比べて個人差があります。",
+            approval: "使用する薬剤の組み合わせによっては、ピロリ菌除菌としての国内適応外使用に該当する場合があります。詳細は診察時に医師よりご説明します。",
+          },
         ],
       },
     ],
@@ -730,11 +812,11 @@ const ja: SiteDict = {
   firstVisit: {
     eyebrow: "はじめての方へ",
     heading: "初診・受診の流れ",
-    intro: "はじめて木花診療所を受診される方へ、診察の流れや持ち物をご案内します。「これくらいで受診していいのかな？」と思ったときも、どうぞお気軽にお越しください。",
+    intro: "はじめて木花のむら総合診療所を受診される方へ、診察の流れや持ち物をご案内します。「これくらいで受診していいのかな？」と思ったときも、どうぞお気軽にお越しください。",
     steps: [
       { num: "01", title: "ご予約（開院後）", body: "電話・Web・LINEにてご予約いただけます（開院後に受付開始）。当日のご来院も受け付けます。予約優先制のため、事前予約をお勧めします。" },
       { num: "02", title: "来院・受付", body: "受付にて保険証・お薬手帳をご提示ください。Web問診システム（スマートフォン対応）で事前に症状をご入力いただくこともできますし、ご来院時に直接ご入力いただいても構いません。順番は受付順ではなく、診察準備が整った順番でお呼びしますので、あらかじめご了承ください。" },
-      { num: "03", title: "問診・診察", body: "医師が症状をていねいにお聞きします。CTやエコーなど必要な検査はその日のうちに院内で行えます。胃カメラは予約制です。午前10時までの空腹の状態で、内視鏡担当の看護師が勤務している日時にご案内いたします。" },
+      { num: "03", title: "問診・診察", body: "医師が症状をていねいにお聞きします。CTやエコーなど必要な検査はその日のうちに院内で行えます。胃カメラは予約制です。午前10時までの空腹の状態で、内視鏡担当の看護師が勤務している日時にご案内いたします。※午前の検査をご希望の場合、前日21時以降は絶食が必要です（水・お茶は可）。※介助看護師の配置状況により、ご希望の日時に添えない場合がありますので、事前のWeb・お電話でのご予約をおすすめします。" },
       { num: "04", title: "会計・お薬", body: "セミセルフレジで会計をスムーズに行います。お薬が処方される場合は処方箋をお渡ししますので、院外の調剤薬局にお持ちください。" },
     ],
     prepHeading: "持ち物チェックリスト",
@@ -768,7 +850,7 @@ const ja: SiteDict = {
     items: [
       { label: "販売業者", value: "木花のむら総合診療所（開院準備中）" },
       { label: "運営責任者", value: "野村 信介（院長）" },
-      { label: "所在地", value: "宮崎県宮崎市熊野5233-2（接道交渉中）※開院後に詳細住所を公開" },
+      { label: "所在地", value: "〒889-2151 宮崎県宮崎市熊野5233-2" },
       { label: "電話番号", value: "開院後に公開予定" },
       { label: "メールアドレス", value: "contact@kibananomura.jp" },
       { label: "診療時間", value: "月〜金：午前・午後  土・日・祝：休診" },
@@ -1036,18 +1118,19 @@ const en: SiteDict = {
     eyebrow: "Access",
     heading: "Easy to reach, here for you.",
     mapTitle: "Planned location of Kibana Nomura General Medicine Clinic",
-    mapSub: "Kumano 5233-2, Miyazaki City (road access under negotiation — location is tentative)",
+    mapSub: "5233-2 Kumano, Miyazaki City 889-2151, Japan",
     mapUrl: "https://maps.google.com/maps?q=%E5%AE%AE%E5%B4%8E%E7%9C%8C%E5%AE%AE%E5%B4%8E%E5%B8%82%E7%86%8A%E9%87%8E5233-2",
     mapEmbed:
       "https://maps.google.com/maps?q=%E5%AE%AE%E5%B4%8E%E7%9C%8C%E5%AE%AE%E5%B4%8E%E5%B8%82%E7%86%8A%E9%87%8E5233-2&z=14&output=embed",
     mapButton: "Open in Google Maps",
     addressLabel: "Address",
-    addressValue: "5233-2 Kumano, Miyazaki City (road access under negotiation, opening October 2027)",
+    addressValue: "5233-2 Kumano, Miyazaki City, Miyazaki 889-2151, Japan",
+    addressNote: "※Currently under construction.",
     parkingLabel: "Parking",
     parkingValue: PARKING_STATUS.en_short,
     openLabel: "Opening",
     openValue: "October 2027 (currently under construction)",
-    note: "Once the Yamashita Bridge (Kiyotake River) opens, access from the Manabino and Gakuendai areas will become even more convenient.",
+    note: "Once the Yamashita Bridge (Kiyotake River) opens, access from the Manabino and Gakuendai areas will become even more convenient. We're easy to reach by car from across southern Miyazaki City — including Kibana, Kumano, Gakuen-Kibanadai, Hongo and Kiyotake — as well as from near JR Kibana Station, Undokoen Station and the Kibana Campus of University of Miyazaki.",
   },
   register: {
     badge: "Opening October 2027",
@@ -1058,13 +1141,13 @@ const en: SiteDict = {
   },
   footer: {
     tagline:
-      "Kibana Nomura General Medicine Clinic in Kumano, Miyazaki. Centered on internal medicine, surgery and pediatrics. An all-purpose consultation spot you can drop by with ease.",
+      "Kibana Nomura General Medicine Clinic in Kumano, Miyazaki. Centered on internal medicine, surgery and pediatrics. An all-purpose consultation spot you can drop by with ease. Serving southern Miyazaki City — Kibana, Kumano, Gakuen-Kibanadai, Hongo and Kiyotake.",
     badge: "Opening October 2027 / Under construction",
     menuHeading: "Menu",
     deptHeading: "Departments & Location",
     deptItems: [
       "Internal Medicine, Surgery & Pediatrics",
-      "5233-2 Kumano, Miyazaki City",
+      "5233-2 Kumano, Miyazaki City, Miyazaki 889-2151",
       "Tel: to be announced after opening",
     ],
     snsHeading: "Social",
@@ -1197,14 +1280,62 @@ const en: SiteDict = {
       {
         title: "Self-pay care",
         items: [
-          { name: "GLP-1 receptor agonists (weight loss)", price: "Coming soon" },
-          { name: "AGA (male pattern hair loss)", price: "Coming soon" },
-          { name: "FAGA (female hair loss)", price: "Coming soon" },
-          { name: "LOH syndrome / TRT", price: "Coming soon" },
-          { name: "ED medication", price: "Coming soon" },
-          { name: "Steroid injection for hay fever", price: "Coming soon" },
-          { name: "Vaccinations", price: "Coming soon" },
-          { name: "H. pylori third-line eradication (if first and second attempts fail)", price: "¥25,000 (consultation, medication and follow-up test included, estimate)" },
+          {
+            name: "GLP-1 receptor agonists (weight loss)",
+            price: "Coming soon",
+            overview: "Physician-supervised weight management using low-dose GLP-1 receptor agonists.",
+            risks: "Nausea, vomiting, diarrhea and constipation are common; rare but serious risks include hypoglycemia, acute pancreatitis and gallbladder inflammation.",
+            approval: "Depending on the medication used, this may involve off-label use for weight loss or a drug not approved in Japan. Approval status and sourcing will be explained individually before treatment begins.",
+          },
+          {
+            name: "AGA (male pattern hair loss)",
+            price: "Coming soon",
+            overview: "Oral treatment with medications approved in Japan for male pattern hair loss.",
+            risks: "Possible effects on sexual function (reduced libido, erectile difficulty) and liver function. Pregnant women or those who may become pregnant must avoid contact with the medication.",
+            approval: "Uses medications approved in Japan, prescribed as self-pay care outside insurance coverage (not unapproved drugs).",
+          },
+          {
+            name: "FAGA (female hair loss)",
+            price: "Coming soon",
+            overview: "Self-pay treatment for female pattern hair loss. Details will be announced before this service launches.",
+            risks: "Risks will depend on the medication used and will be explained before this service launches.",
+            approval: "Approval status of the medication used will be explained before this service launches.",
+          },
+          {
+            name: "LOH syndrome / TRT",
+            price: "Coming soon",
+            overview: "Testosterone replacement therapy (TRT) for late-onset hypogonadism (LOH syndrome). Details will be announced before this service launches.",
+            risks: "Reported risks include polycythemia, effects on the prostate, and worsening of sleep apnea.",
+            approval: "Approval status of the medication used will be explained before this service launches.",
+          },
+          {
+            name: "ED medication",
+            price: "Coming soon",
+            overview: "Oral treatment with medications approved in Japan for erectile dysfunction.",
+            risks: "Headache, flushing, palpitations and indigestion have been reported. Contraindicated with nitrate medications.",
+            approval: "Uses medications approved in Japan, prescribed as self-pay care outside insurance coverage (not unapproved drugs).",
+          },
+          {
+            name: "Steroid injection for hay fever",
+            price: "Coming soon",
+            overview: "An intramuscular steroid injection to temporarily relieve hay fever symptoms, offered as an option alongside standard oral and nasal treatments.",
+            risks: "Reported risks include menstrual irregularity, worsening of diabetes, reduced resistance to infection, adrenal insufficiency, peptic ulcers and psychiatric symptoms. Repeated use requires particular caution.",
+            approval: "The injection used may not be explicitly indicated for hay fever (allergic rhinitis) in its approved labeling, meaning this can involve off-label use at the physician's discretion.",
+          },
+          {
+            name: "Vaccinations",
+            price: "Coming soon",
+            overview: "Optional vaccinations (adult vaccines, etc.). Specific options and pricing will be announced before launch.",
+            risks: "Common reactions include injection-site swelling and pain, and fever; rare but serious reactions such as anaphylaxis have been reported.",
+            approval: "Uses vaccines approved in Japan.",
+          },
+          {
+            name: "H. pylori third-line eradication (if first and second attempts fail)",
+            price: "¥25,000 (consultation, medication and follow-up test included, estimate)",
+            overview: "Third-line eradication treatment (self-pay) when first- and second-line treatment has failed.",
+            risks: "Reported risks include diarrhea, soft stools, taste disturbance and rash. Success rates vary more than with first- or second-line treatment.",
+            approval: "Depending on the drug combination used, this may involve off-label use for H. pylori eradication. Details will be explained by the physician at your consultation.",
+          },
         ],
       },
     ],
@@ -1277,7 +1408,7 @@ const en: SiteDict = {
     steps: [
       { num: "01", title: "Book an appointment (after opening)", body: "Bookings can be made by phone, online or LINE (to open after clinic launch). Walk-ins are also welcome, but appointments are prioritised." },
       { num: "02", title: "Arrive & check in", body: "Please present your insurance card and medication record at reception. Our web pre-screening system (smartphone-friendly) lets you enter your symptoms in advance, or you're welcome to fill it out in person when you arrive. You'll be called in once we're ready for you, rather than strictly in check-in order, so thank you for your understanding." },
-      { num: "03", title: "Consultation & examination", body: "The physician will listen carefully to your symptoms. Tests such as CT and ultrasound can often be performed on the same day. Gastroscopy is by appointment only, scheduled for a fasting morning slot before 10am when our endoscopy nurse is on duty." },
+      { num: "03", title: "Consultation & examination", body: "The physician will listen carefully to your symptoms. Tests such as CT and ultrasound can often be performed on the same day. Gastroscopy is by appointment only, scheduled for a fasting morning slot before 10am when our endoscopy nurse is on duty. *For a morning exam, you'll need to fast from 9pm the night before (water and tea are fine). *Please book in advance online or by phone, as availability depends on endoscopy nurse staffing." },
       { num: "04", title: "Payment & prescription", body: "Semi-self payment kiosks keep checkout quick and simple. If medication is prescribed, we'll hand you a prescription slip to take to an outside dispensing pharmacy." },
     ],
     prepHeading: "What to bring — checklist",
@@ -1322,7 +1453,7 @@ const en: SiteDict = {
     items: [
       { label: "Business operator", value: "Kibana Nomura General Medicine Clinic (under construction)" },
       { label: "Director", value: "Dr. Shinsuke Nomura" },
-      { label: "Address", value: "5233-2 Kumano, Miyazaki City, Miyazaki Prefecture (road access under negotiation) — full address to be published after opening" },
+      { label: "Address", value: "5233-2 Kumano, Miyazaki City, Miyazaki 889-2151, Japan" },
       { label: "Phone", value: "To be published after opening" },
       { label: "Email", value: "contact@kibananomura.jp" },
       { label: "Clinic hours", value: "Mon–Fri: morning and afternoon  Sat, Sun & holidays: closed" },

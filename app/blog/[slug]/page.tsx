@@ -12,11 +12,11 @@ export async function generateMetadata({
   const { slug } = await params;
   const post = getPost(slug);
   if (!post) {
-    return { title: `院長ブログ | ${BRAND.ja.primary}` };
+    return { title: `院長ブログ | ${BRAND.ja.titleSuffix}` };
   }
   const c = getContent(post, "ja");
   return {
-    title: `${c.title} | 院長ブログ | ${BRAND.ja.primary}`,
+    title: `${c.title} | 院長ブログ | ${BRAND.ja.titleSuffix}`,
     description: c.excerpt,
     alternates: {
       canonical: `/blog/${slug}`,
