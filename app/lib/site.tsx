@@ -725,7 +725,7 @@ const ja: SiteDict = {
     steps: [
       { num: "01", title: "ご予約（開院後）", body: "電話・Web・LINEにてご予約いただけます（開院後に受付開始）。当日のご来院も受け付けます。予約優先制のため、事前予約をお勧めします。" },
       { num: "02", title: "来院・受付", body: "受付にて保険証・お薬手帳をご提示ください。Web問診システム（スマートフォン対応）で事前に症状を入力いただくこともできますし、ご来院時に直接ご記入いただいても構いません。" },
-      { num: "03", title: "問診・診察", body: "医師が症状をていねいにお聞きします。CTやエコーなど必要な検査はその日のうちに院内で行えます。胃カメラも予約不要で受けていただけますが、実施できるのは午前10時までで、当日お薬や食事を摂っていないこと、内視鏡担当の看護師が勤務していることが条件となります。" },
+      { num: "03", title: "問診・診察", body: "医師が症状をていねいにお聞きします。CTやエコーなど必要な検査はその日のうちに院内で行えます。胃カメラは予約制です。午前10時までの空腹の状態で、内視鏡担当の看護師が勤務している日時にご案内いたします。" },
       { num: "04", title: "会計・お薬", body: "セミセルフレジで会計をスムーズに行います。お薬が処方される場合は処方箋をお渡ししますので、院外の調剤薬局にお持ちください。" },
     ],
     prepHeading: "持ち物チェックリスト",
@@ -1263,7 +1263,7 @@ const en: SiteDict = {
     steps: [
       { num: "01", title: "Book an appointment (after opening)", body: "Bookings can be made by phone, online or LINE (to open after clinic launch). Walk-ins are also welcome, but appointments are prioritised." },
       { num: "02", title: "Arrive & check in", body: "Please present your insurance card and medication record at reception. Our AI pre-screening system (smartphone-friendly) lets you enter your symptoms in advance, or you're welcome to fill it out in person when you arrive." },
-      { num: "03", title: "Consultation & examination", body: "The physician will listen carefully to your symptoms. Tests such as CT and ultrasound can often be performed on the same day. Gastroscopy doesn't require a prior appointment either, but it can only be done before 10am, if you haven't taken medication or eaten that day, and when our endoscopy nurse is on duty." },
+      { num: "03", title: "Consultation & examination", body: "The physician will listen carefully to your symptoms. Tests such as CT and ultrasound can often be performed on the same day. Gastroscopy is by appointment only, scheduled for a fasting morning slot before 10am when our endoscopy nurse is on duty." },
       { num: "04", title: "Payment & prescription", body: "Semi-self payment kiosks keep checkout quick and simple. If medication is prescribed, we'll hand you a prescription slip to take to an outside dispensing pharmacy." },
     ],
     prepHeading: "What to bring — checklist",
