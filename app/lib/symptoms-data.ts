@@ -261,6 +261,9 @@ export const SYMPTOMS: SymptomEntry[] = [
       { name: "高血圧", note: "自覚症状がないまま健診で指摘されることが多いです。" },
       { name: "脂質異常症", note: "コレステロール・中性脂肪の異常として健診で指摘されることが多いです。" },
       { name: "糖尿病", note: "血糖値・HbA1c（過去1〜2か月間の血糖値の平均を反映する指標）の異常として健診で指摘されることが多いです。" },
+      { name: "高尿酸血症", note: "尿酸値の異常として健診で指摘されることが多く、放置すると痛風発作を起こすことがあります。" },
+      { name: "脂肪肝（NAFLD/NASH）", note: "肝機能（AST・ALT・γ-GTP）の異常やエコーでの指摘で見つかることが多く、自覚症状はほとんどありません。" },
+      { name: "慢性腎臓病（CKD）", note: "尿たんぱくやクレアチニン・eGFRの異常として健診で指摘されることが多く、自覚症状がないまま進行することがあります。" },
     ],
     relatedTests: [AVAILABLE_TESTS.blood, AVAILABLE_TESTS.urine, AVAILABLE_TESTS.ecg],
     treatmentOverview: [
