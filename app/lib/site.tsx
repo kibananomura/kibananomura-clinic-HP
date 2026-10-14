@@ -220,6 +220,7 @@ export interface SiteDict {
     intro: string;
     steps: { num: string; title: string; body: string }[];
     prepHeading: string;
+    prepSubnote: string;
     prepItems: string[];
     insuranceHeading: string;
     insuranceBody: string;
@@ -727,7 +728,8 @@ const ja: SiteDict = {
       { num: "03", title: "問診・診察", body: "医師が症状をていねいにお聞きします。CTや胃カメラ・エコーなど必要な検査はその日のうちに院内で行えます。" },
       { num: "04", title: "会計・お薬", body: "セミセルフレジで会計をスムーズに行います。処方箋は院外の調剤薬局でお受け取りください。" },
     ],
-    prepHeading: "持ち物",
+    prepHeading: "持ち物チェックリスト",
+    prepSubnote: "来院前にこちらでご確認ください。",
     prepItems: [
       "健康保険証",
       "お薬手帳（お持ちの方）",
@@ -1264,7 +1266,8 @@ const en: SiteDict = {
       { num: "03", title: "Consultation & examination", body: "The physician will listen carefully to your symptoms. Tests such as CT, gastroscopy and ultrasound can often be performed on the same day." },
       { num: "04", title: "Payment & prescription", body: "Semi-self payment kiosks keep checkout quick and simple. Prescriptions are filled at a nearby dispensing pharmacy." },
     ],
-    prepHeading: "What to bring",
+    prepHeading: "What to bring — checklist",
+    prepSubnote: "Please check these before your visit.",
     prepItems: [
       "Health insurance card",
       "Medication record book (if you have one)",

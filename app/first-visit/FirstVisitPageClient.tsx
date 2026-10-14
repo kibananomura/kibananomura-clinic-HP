@@ -48,10 +48,14 @@ export default function FirstVisitPageClient() {
         <FadeIn delay={0.1} className="mt-10">
           <div className="rounded-[1.75rem] bg-surface/90 p-7 shadow-card sm:p-9">
             <h2 className="text-lg font-bold text-ink">{fv.prepHeading}</h2>
+            <p className="mt-1.5 text-xs text-ink/50">{fv.prepSubnote}</p>
             <ul className="mt-5 space-y-3">
               {fv.prepItems.map((item) => (
-                <li key={item} className="flex gap-3 text-[15px] text-ink/80">
-                  <span className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-primary" aria-hidden="true" />
+                <li key={item} className="flex items-center gap-3 text-[15px] text-ink/80">
+                  <span
+                    className="flex h-5 w-5 shrink-0 items-center justify-center rounded-md border-2 border-primary/40 bg-surface"
+                    aria-hidden="true"
+                  />
                   {item}
                 </li>
               ))}
