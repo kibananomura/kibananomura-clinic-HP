@@ -433,6 +433,7 @@ const ja: SiteDict = {
         title: "小児科",
         items: [
           { label: "お子さんの急な発熱・かぜ", href: "/symptoms/child-fever-cold" },
+          { label: "お子さんの鼻水・鼻づまり", href: "/symptoms/child-runny-nose" },
           { label: "お子さんの嘔吐・下痢が心配", href: "/symptoms/child-vomiting-diarrhea" },
         ],
         note: "当院は消化器外科・内科を専門とするクリニックですが、周辺に小児科が少ない地域のインフラとして、お子様の急な風邪、胃腸炎、各種ワクチン接種などの「一次対応（プライマリケア）」に全力を尽くします。より専門的な検査や加療が必要と判断した場合は、速やかに近隣の小児科専門医や基幹病院へご紹介する「安心のハブ（中継点）」としての役割を担います。",
@@ -972,6 +973,7 @@ const en: SiteDict = {
         title: "Pediatrics",
         items: [
           { label: "Your child has a sudden fever or cold", href: "/symptoms/child-fever-cold" },
+          { label: "Your child has a runny or stuffy nose", href: "/symptoms/child-runny-nose" },
           { label: "Worried about your child's vomiting or diarrhea", href: "/symptoms/child-vomiting-diarrhea" },
         ],
         note: "General care for children — fever, colds, stomach upsets and more. For vaccinations and infant check-ups we may not always be able to help, and we may guide you to your family doctor or a specialized clinic depending on the case. If something is difficult for us to handle, we consult with local pediatric clinics and core hospitals and refer you when needed.",
