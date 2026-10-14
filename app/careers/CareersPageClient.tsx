@@ -7,10 +7,14 @@ import SectionHeading from "../components/SectionHeading";
 import { SoftBlob, Blossom } from "../components/Decor";
 import LineLink from "../components/LineLink";
 import { useSite } from "../lib/site";
+import JobPostingJsonLd from "../components/JobPostingJsonLd";
 import {
   CAREERS_PAGE,
   CAREER_POSITIONS,
   OBSERVER_PROGRAM,
+  WORK_HIGHLIGHTS,
+  SALARY_MODELS,
+  COMMON_EMPLOYMENT_TERMS,
 } from "../lib/careers";
 
 const MISSION_ICONS = ["👀", "👂", "🌱", "🤝"];
@@ -65,9 +69,13 @@ export default function CareersPageClient() {
   const { lang, t } = useSite();
   const copy = CAREERS_PAGE[lang];
   const observer = OBSERVER_PROGRAM[lang];
+  const workHighlights = WORK_HIGHLIGHTS[lang];
+  const salaryModels = SALARY_MODELS[lang];
+  const employmentTerms = COMMON_EMPLOYMENT_TERMS[lang];
 
   return (
     <section className="section-pad relative overflow-hidden bg-accent/40 page-top">
+      <JobPostingJsonLd />
       <SoftBlob className="absolute -left-24 top-24 h-80 w-80 bg-sky/30" />
       <SoftBlob className="absolute -right-20 bottom-16 h-72 w-72 bg-primary/10" />
       <Blossom className="absolute right-8 top-12 hidden h-9 w-9 opacity-70 sm:block" />
@@ -81,6 +89,37 @@ export default function CareersPageClient() {
           <p className="mx-auto mt-6 max-w-2xl text-center text-[15px] leading-relaxed text-ink/75">
             {copy.intro}
           </p>
+        </FadeIn>
+
+        <FadeIn delay={0.055}>
+          <div className="mx-auto mt-10 max-w-5xl">
+            <h2 className="text-center text-lg font-bold text-ink">
+              {workHighlights.heading}
+            </h2>
+            <div className="mt-6 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+              {workHighlights.items.map((item, i) => (
+                <div
+                  key={item.title}
+                  className={`rounded-3xl border border-white bg-surface/90 p-5 shadow-card ${
+                    i === 4 ? "sm:col-span-2 lg:col-span-1" : ""
+                  }`}
+                >
+                  <div
+                    className="flex h-11 w-11 items-center justify-center rounded-2xl bg-primary/10 text-xl"
+                    aria-hidden="true"
+                  >
+                    {item.icon}
+                  </div>
+                  <h3 className="mt-3 text-sm font-bold text-primary-dark">
+                    {item.title}
+                  </h3>
+                  <p className="mt-2 text-sm leading-relaxed text-ink/75">
+                    {item.body}
+                  </p>
+                </div>
+              ))}
+            </div>
+          </div>
         </FadeIn>
 
         <FadeIn delay={0.06}>
@@ -124,6 +163,25 @@ export default function CareersPageClient() {
             </h2>
             <dl className="mt-4 divide-y divide-ink/8">
               {copy.overviewItems.map((item) => (
+                <div
+                  key={item.label}
+                  className="grid gap-1 py-3 sm:grid-cols-[7rem_1fr] sm:gap-4"
+                >
+                  <dt className="text-sm font-bold text-ink/60">{item.label}</dt>
+                  <dd className="text-sm leading-relaxed text-ink/85">{item.value}</dd>
+                </div>
+              ))}
+            </dl>
+          </div>
+        </FadeIn>
+
+        <FadeIn delay={0.09}>
+          <div className="mx-auto mt-6 max-w-3xl rounded-3xl bg-surface/90 p-6 shadow-card sm:p-8">
+            <h2 className="text-base font-bold text-primary-dark sm:text-lg">
+              {employmentTerms.heading}
+            </h2>
+            <dl className="mt-4 divide-y divide-ink/8">
+              {employmentTerms.items.map((item) => (
                 <div
                   key={item.label}
                   className="grid gap-1 py-3 sm:grid-cols-[7rem_1fr] sm:gap-4"
@@ -298,6 +356,32 @@ export default function CareersPageClient() {
             );
           })}
         </div>
+
+        <FadeIn delay={0.2}>
+          <div className="mx-auto mt-10 max-w-5xl">
+            <h2 className="text-center text-lg font-bold text-ink">
+              {salaryModels.heading}
+            </h2>
+            <div className="mt-6 grid gap-5 sm:grid-cols-3">
+              {salaryModels.items.map((model) => (
+                <div
+                  key={model.title}
+                  className="rounded-3xl border border-white bg-surface/90 p-5 shadow-card"
+                >
+                  <h3 className="text-sm font-bold text-ink">{model.title}</h3>
+                  <p className="mt-1 text-xs text-ink/55">{model.subtitle}</p>
+                  <p className="mt-3 text-base font-bold leading-snug text-primary-dark">
+                    {model.amount}
+                  </p>
+                  <p className="mt-2 text-xs leading-relaxed text-ink/60">{model.note}</p>
+                </div>
+              ))}
+            </div>
+            <p className="mx-auto mt-4 max-w-3xl text-center text-xs leading-relaxed text-ink/50">
+              {salaryModels.disclaimer}
+            </p>
+          </div>
+        </FadeIn>
 
         <FadeIn delay={0.22}>
           <div className="mx-auto mt-10 max-w-3xl rounded-3xl border border-primary/15 bg-primary/5 p-6 sm:p-8">

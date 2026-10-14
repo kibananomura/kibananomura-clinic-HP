@@ -162,6 +162,70 @@ export const CAREERS_PAGE = {
   },
 } as const;
 
+/** 求職者（特に宮崎市南部在住の子育て世代・大規模病院の夜勤経験者）に向けた、働く魅力5カ条。 */
+export const WORK_HIGHLIGHTS = {
+  ja: {
+    heading: "木花のむら総合診療所で働く5つの魅力",
+    items: [
+      {
+        icon: "🏠",
+        title: "平日勤務のみ（土日祝休み）で家庭と両立",
+        body: "原則平日の日勤のみで、週末や祝日はしっかり休める働きやすい環境です（※土日の短時間特別外来は院長中心の運営のため、スタッフの過度な負担はありません）。",
+      },
+      {
+        icon: "🌱",
+        title: "全員が同期のオープニングスタッフ",
+        body: "2027年10月開院。既存の派閥や上下関係がなく、綺麗な新築クリニックでゼロから一緒にチームを作れます（開院前の2027年9月頃からの事前研修期間中も給与を支給します）。",
+      },
+      {
+        icon: "💻",
+        title: "IT化による残業削減",
+        body: "Web予約・Web問診・自動精算機（またはキャッシュレス決済）・電子カルテを導入予定で、受付・会計・カルテ入力の業務負担と残業を最小限に抑えます。",
+      },
+      {
+        icon: "🚗",
+        title: "マイカー通勤無料・広々駐車場",
+        body: "駐車場32台完備予定。宮崎市南部（木花・熊野・清武・学園木花台・まなび野・本郷・田吉・日南方面）から渋滞ストレス少なく車通勤が可能です（交通費規定支給）。",
+      },
+      {
+        icon: "🩺",
+        title: "幅広い総合診療スキルが身につく",
+        body: "内科・外科・小児科・内視鏡・CTと地域のプライマリ・ケアを支えるため、やりがいと専門性を無理なく維持できます。",
+      },
+    ],
+  },
+  en: {
+    heading: "5 reasons to work at Kibana Nomura General Medicine Clinic",
+    items: [
+      {
+        icon: "🏠",
+        title: "Weekdays only (closed Sat, Sun & holidays) — balance work and family",
+        body: "You'll generally work daytime shifts on weekdays only, with weekends and holidays fully off (our short weekend specialty clinic is run mainly by the director, so it won't place an undue burden on staff).",
+      },
+      {
+        icon: "🌱",
+        title: "Everyone starts together as opening staff",
+        body: "Opening October 2027. There are no existing cliques or seniority hierarchies — you'll help build a brand-new clinic and team from scratch (pre-opening training from around September 2027 is paid).",
+      },
+      {
+        icon: "💻",
+        title: "Less overtime through IT",
+        body: "We plan to introduce web booking, web pre-screening, self-checkout/cashless payment and electronic medical records, keeping reception, billing and charting workloads — and overtime — to a minimum.",
+      },
+      {
+        icon: "🚗",
+        title: "Free parking, no commuting hassle",
+        body: "32 parking spaces planned. Easy car commuting with little traffic stress from across southern Miyazaki City (Kibana, Kumano, Kiyotake, Gakuen-Kibanadai, Manabino, Hongo, Tayoshi, toward Nichinan) — commuting allowance paid per policy.",
+      },
+      {
+        icon: "🩺",
+        title: "Build broad, well-rounded clinical skills",
+        body: "Supporting primary care across internal medicine, surgery, pediatrics, endoscopy and CT lets you grow your expertise and find fulfillment without being confined to one narrow area.",
+      },
+    ],
+  },
+} as const;
+
 export const CAREER_POSITIONS: CareerPosition[] = [
   {
     id: "nurse",
@@ -181,21 +245,18 @@ export const CAREER_POSITIONS: CareerPosition[] = [
         "経験よりも、素直な学ぶ姿勢・前向きさ・チームワークを重視します",
         "未経験の方も、意欲があればご相談ください",
         "勤務日数・時間帯は応相談",
+        "【歓迎スキル】消化器内視鏡（胃カメラ）の介助経験、外科処置の補助、小児科・救急外来での勤務経験がある方は給与面で優遇いたします（未経験・ブランクのある方も丁寧に指導します）",
       ],
       conditions: [
         { label: "雇用形態", value: "常勤（正社員）・パート" },
         {
-          label: "給与（常勤・正看護師）",
-          value: "月額210,000〜270,000円（基本給＋資格手当＋職務手当）",
+          label: "給与（常勤）",
+          value: "月給220,000〜270,000円（基本給＋資格手当等を含む／経験・能力・内視鏡や外科処置等のスキルを考慮の上決定）",
         },
-        {
-          label: "給与（常勤・准看護師）",
-          value: "月額175,000〜230,000円（基本給＋資格手当＋職務手当）",
-        },
-        { label: "給与（パート）", value: "時給1,300〜1,600円（正看護師）／1,100〜1,400円（准看護師）※経験・能力に応じて決定" },
-        { label: "賞与", value: "年2回（開業1年目：合計基本給×2.0ヶ月を予定、以降段階的に見直し）" },
-        { label: "通勤手当", value: "実費支給（上限あり）" },
-        { label: "社会保険", value: "労災保険は全員加入。雇用保険・社会保険は法令基準に基づき加入判定" },
+        { label: "給与（パート）", value: "時給1,400〜1,650円（経験・能力により優遇）" },
+        { label: "賞与", value: "年2回（常勤のみ／クリニック業績および個人の評価による ※開院初年度は規定による）" },
+        { label: "通勤手当", value: "交通費規定支給" },
+        { label: "社会保険", value: "社会保険完備（健康保険・厚生年金・雇用保険・労災保険 ※パートは勤務時間に応じて法定通り加入）" },
         { label: "休日", value: "土日祝休み（平日診療のみ）。年間休日日数は開院準備状況に応じて確定次第公開" },
       ],
     },
@@ -215,21 +276,18 @@ export const CAREER_POSITIONS: CareerPosition[] = [
         "We value an open, positive mindset and teamwork over experience alone",
         "Motivated learners without experience may apply",
         "Work days and hours negotiable",
+        "[Valued skills] Experience assisting with gastroscopy, surgical procedures, or working in pediatrics/emergency care is rewarded with higher pay (we also provide thorough training for those without experience or returning after a career break)",
       ],
       conditions: [
         { label: "Employment type", value: "Full-time or part-time" },
         {
-          label: "Salary (full-time RN)",
-          value: "JPY 210,000–270,000/month (base + qualification + duty allowance)",
+          label: "Salary (full-time)",
+          value: "JPY 220,000–270,000/month (including base salary, qualification allowance, etc.; decided based on experience, ability and skills such as endoscopy/surgical assistance)",
         },
-        {
-          label: "Salary (full-time LPN)",
-          value: "JPY 175,000–230,000/month (base + qualification + duty allowance)",
-        },
-        { label: "Salary (part-time)", value: "JPY 1,300–1,600/hr (RN) / JPY 1,100–1,400/hr (LPN), based on experience" },
-        { label: "Bonus", value: "Twice a year (Year 1: total 2.0x base salary planned, reviewed thereafter)" },
-        { label: "Commuting allowance", value: "Actual cost reimbursed (capped)" },
-        { label: "Social insurance", value: "Workers' comp for all staff; employment/health insurance per statutory thresholds" },
+        { label: "Salary (part-time)", value: "JPY 1,400–1,650/hr, with a premium for experience and ability" },
+        { label: "Bonus", value: "Twice a year (full-time only; based on clinic performance and individual evaluation; per internal rules in our first year)" },
+        { label: "Commuting allowance", value: "Paid per our commuting allowance policy" },
+        { label: "Social insurance", value: "Full social insurance (health, pension, employment, workers' comp; part-time staff enrolled per statutory thresholds based on hours worked)" },
         { label: "Holidays", value: "Closed Sat, Sun & public holidays (weekday clinic only). Annual holiday count to be announced once finalized" },
       ],
     },
@@ -253,17 +311,18 @@ export const CAREER_POSITIONS: CareerPosition[] = [
         "未経験の方も、意欲があればご相談ください",
         "患者さんへの丁寧な対応ができる方",
         "勤務日数・時間帯は応相談",
+        "【歓迎スキル】クリニックでの受付・レセプト業務経験者、電子カルテ・Web問診等のITツール操作に抵抗がない方を歓迎します",
       ],
       conditions: [
         { label: "雇用形態", value: "常勤（正社員）・パート" },
         {
-          label: "給与（常勤・目安）",
-          value: "未経験：月額19万円〜／経験者（レセプト可）：月額21万円〜／リーダー候補（経験3年以上）：月額23〜24万円",
+          label: "給与（常勤）",
+          value: "月給185,000〜225,000円（経験・レセプト算定スキル・電子カルテ操作経験を考慮の上決定）",
         },
-        { label: "給与（パート）", value: "時給1,250円〜（経験・能力に応じて決定）" },
-        { label: "賞与", value: "年2回（開業1年目：合計基本給×2.0ヶ月を予定、以降段階的に見直し）" },
-        { label: "通勤手当", value: "実費支給（上限あり）" },
-        { label: "社会保険", value: "労災保険は全員加入。雇用保険・社会保険は法令基準に基づき加入判定" },
+        { label: "給与（パート）", value: "時給1,150〜1,300円" },
+        { label: "賞与", value: "年2回（常勤のみ／クリニック業績および個人の評価による ※開院初年度は規定による）" },
+        { label: "通勤手当", value: "交通費規定支給" },
+        { label: "社会保険", value: "社会保険完備（健康保険・厚生年金・雇用保険・労災保険 ※パートは勤務時間に応じて法定通り加入）" },
         { label: "休日", value: "土日祝休み（平日診療のみ）。年間休日日数は開院準備状況に応じて確定次第公開" },
       ],
     },
@@ -284,17 +343,18 @@ export const CAREER_POSITIONS: CareerPosition[] = [
         "Motivated applicants without experience welcome",
         "Friendly, patient-facing communication",
         "Work days and hours negotiable",
+        "[Valued skills] We welcome applicants with clinic reception/claims experience, and those comfortable using electronic medical records, web pre-screening and other IT tools",
       ],
       conditions: [
         { label: "Employment type", value: "Full-time or part-time" },
         {
-          label: "Salary (full-time, guide)",
-          value: "No experience: from JPY 190,000/month; claims experience: from JPY 210,000/month; team lead (3+ yrs): JPY 230,000–240,000/month",
+          label: "Salary (full-time)",
+          value: "JPY 185,000–225,000/month (decided based on experience, claims processing skill and EMR experience)",
         },
-        { label: "Salary (part-time)", value: "From JPY 1,250/hr, based on experience" },
-        { label: "Bonus", value: "Twice a year (Year 1: total 2.0x base salary planned, reviewed thereafter)" },
-        { label: "Commuting allowance", value: "Actual cost reimbursed (capped)" },
-        { label: "Social insurance", value: "Workers' comp for all staff; employment/health insurance per statutory thresholds" },
+        { label: "Salary (part-time)", value: "JPY 1,150–1,300/hr" },
+        { label: "Bonus", value: "Twice a year (full-time only; based on clinic performance and individual evaluation; per internal rules in our first year)" },
+        { label: "Commuting allowance", value: "Paid per our commuting allowance policy" },
+        { label: "Social insurance", value: "Full social insurance (health, pension, employment, workers' comp; part-time staff enrolled per statutory thresholds based on hours worked)" },
         { label: "Holidays", value: "Closed Sat, Sun & public holidays (weekday clinic only). Annual holiday count to be announced once finalized" },
       ],
     },
@@ -557,6 +617,94 @@ export const CAREER_POSITIONS: CareerPosition[] = [
     },
   },
 ];
+
+/** 求職者が働き方・収入を具体的にイメージできるようにするモデル例。実在の個人を示すものではない。 */
+export const SALARY_MODELS = {
+  ja: {
+    heading: "働き方・収入モデル例",
+    items: [
+      {
+        title: "モデル例①　常勤看護師",
+        subtitle: "臨床経験5年・内視鏡介助経験あり",
+        amount: "月給 250,000円 ＋ 賞与年2回",
+        note: "平日のみ勤務・土日祝休み",
+      },
+      {
+        title: "モデル例②　パート看護師",
+        subtitle: "子育て中・扶養内または短時間勤務",
+        amount: "時給 1,450円 × 1日4時間（午前のみ）× 週4日 ＝ 月収目安 約92,800円",
+        note: "土日祝休み・お子様の学校行事等も柔軟に相談可",
+      },
+      {
+        title: "モデル例③　常勤医療事務",
+        subtitle: "クリニック算定経験3年",
+        amount: "月給 200,000円 ＋ 賞与年2回",
+        note: "平日のみ勤務・土日祝休み",
+      },
+    ],
+    disclaimer: "※ 上記はモデル例であり、実際の給与は経験・能力・勤務形態等を踏まえ個別に決定します。特定の個人を示すものではありません。",
+  },
+  en: {
+    heading: "Example pay & work-style models",
+    items: [
+      {
+        title: "Model ① Full-time nurse",
+        subtitle: "5 years' clinical experience, gastroscopy assistance experience",
+        amount: "JPY 250,000/month + bonus twice a year",
+        note: "Weekdays only, closed Sat/Sun/holidays",
+      },
+      {
+        title: "Model ② Part-time nurse",
+        subtitle: "Raising children, within dependent limits or short hours",
+        amount: "JPY 1,450/hr × 4 hrs/day (mornings only) × 4 days/week ≈ JPY 92,800/month",
+        note: "Closed Sat/Sun/holidays; flexible around school events, etc.",
+      },
+      {
+        title: "Model ③ Full-time admin staff",
+        subtitle: "3 years' clinic billing/claims experience",
+        amount: "JPY 200,000/month + bonus twice a year",
+        note: "Weekdays only, closed Sat/Sun/holidays",
+      },
+    ],
+    disclaimer: "* These are illustrative models only. Actual pay is determined individually based on experience, ability and work arrangement, and does not represent any specific person.",
+  },
+} as const;
+
+/** 職業安定法（労働条件明示）に準拠した、全職種共通の労働条件詳細。 */
+export const COMMON_EMPLOYMENT_TERMS = {
+  ja: {
+    heading: "共通の労働条件について",
+    items: [
+      { label: "昇給", value: "年1回（クリニック業績および個人の評価による ※開院初年度は規定による）" },
+      { label: "賞与", value: "年2回（常勤のみ／クリニック業績および個人の評価による ※開院初年度は規定による）" },
+      {
+        label: "残業代について",
+        value: "固定残業代制は採用しておりません。時間外労働が発生した場合は、実働時間に応じて法定割増賃金を別途全額支給いたします。",
+      },
+      { label: "試用期間", value: "3ヶ月（期間中の労働条件・給与の変動なし ※開院前研修期間を含む）" },
+      {
+        label: "福利厚生",
+        value: "社会保険完備（健康保険・厚生年金・雇用保険・労災保険 ※パートは勤務時間に応じて法定通り加入）、交通費規定支給、制服貸与、スタッフルーム完備予定",
+      },
+    ],
+  },
+  en: {
+    heading: "Common employment terms",
+    items: [
+      { label: "Pay raises", value: "Once a year (based on clinic performance and individual evaluation; per internal rules in our first year)" },
+      { label: "Bonus", value: "Twice a year (full-time only; based on clinic performance and individual evaluation; per internal rules in our first year)" },
+      {
+        label: "Overtime pay",
+        value: "We do not use a fixed/deemed overtime system. If overtime work occurs, we pay the full statutory premium wage separately, based on actual hours worked.",
+      },
+      { label: "Probation period", value: "3 months (no change to working conditions or pay during this period; includes pre-opening training)" },
+      {
+        label: "Benefits",
+        value: "Full social insurance (health, pension, employment, workers' comp; part-time staff enrolled per statutory thresholds based on hours worked), commuting allowance per policy, uniforms provided, staff room planned",
+      },
+    ],
+  },
+} as const;
 
 export const OBSERVER_PROGRAM = {
   ja: {

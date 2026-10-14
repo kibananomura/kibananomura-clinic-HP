@@ -3,9 +3,9 @@ import { BRAND } from "../lib/brand";
 import CareersPageClient from "./CareersPageClient";
 
 export const metadata: Metadata = {
-  title: `採用・求人募集（看護師・事務） | ${BRAND.ja.titleSuffix}`,
+  title: `看護師・医療事務 求人（平日のみ・オープニングスタッフ） | ${BRAND.ja.titleSuffix}`,
   description:
-    "木花のむら総合診療所（宮崎市熊野、2027年10月1日開院予定）の採用情報。1日50〜100名程度の外来を支える看護師・事務スタッフを募集しています。",
+    "宮崎市南部・2027年10月開院のオープニングスタッフ募集。看護師（常勤月給220,000〜270,000円／パート時給1,400〜1,650円）、医療事務（常勤月給185,000〜225,000円／パート時給1,150〜1,300円）。平日勤務のみ・土日祝休み、駐車場32台完備予定。",
   alternates: {
     canonical: "/careers",
   },
