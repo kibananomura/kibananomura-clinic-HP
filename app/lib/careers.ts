@@ -317,7 +317,7 @@ export const CAREER_POSITIONS: CareerPosition[] = [
         { label: "雇用形態", value: "常勤（正社員）・パート" },
         {
           label: "給与（常勤）",
-          value: "月給185,000〜225,000円（経験・レセプト算定スキル・電子カルテ操作経験を考慮の上決定）",
+          value: "月給185,000〜215,000円（経験・レセプト算定スキル・電子カルテ操作経験を考慮の上決定）",
         },
         { label: "給与（パート）", value: "時給1,150〜1,300円" },
         { label: "賞与", value: "年2回（常勤のみ／クリニック業績および個人の評価による ※開院初年度は規定による）" },
@@ -349,7 +349,7 @@ export const CAREER_POSITIONS: CareerPosition[] = [
         { label: "Employment type", value: "Full-time or part-time" },
         {
           label: "Salary (full-time)",
-          value: "JPY 185,000–225,000/month (decided based on experience, claims processing skill and EMR experience)",
+          value: "JPY 185,000–215,000/month (decided based on experience, claims processing skill and EMR experience)",
         },
         { label: "Salary (part-time)", value: "JPY 1,150–1,300/hr" },
         { label: "Bonus", value: "Twice a year (full-time only; based on clinic performance and individual evaluation; per internal rules in our first year)" },

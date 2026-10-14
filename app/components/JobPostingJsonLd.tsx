@@ -63,7 +63,7 @@ const JOBS: JobDef[] = [
     description:
       "木花のむら総合診療所（2027年10月1日開院予定、宮崎市熊野）での常勤医療事務の募集です。受付・会計、レセプト作成、電話・LINE対応等を担当します。クリニックでの受付・レセプト業務経験者、電子カルテ・Web問診等のITツール操作に抵抗がない方を歓迎します。未経験の方も意欲があればご相談ください。平日勤務のみ（土日祝休み）、駐車場32台完備予定。2027年10月開院のオープニングスタッフとして、ゼロからチームづくりに参加いただけます。",
     employmentType: "FULL_TIME",
-    baseSalary: { minValue: 185000, maxValue: 225000, unitText: "MONTH" },
+    baseSalary: { minValue: 185000, maxValue: 215000, unitText: "MONTH" },
   },
   {
     identifier: "admin-parttime",
