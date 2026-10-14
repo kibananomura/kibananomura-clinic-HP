@@ -7,33 +7,6 @@ import { SoftBlob, Blossom } from "../components/Decor";
 import { useSite } from "../lib/site";
 import { SCHEDULE, WED_PM_INDEX } from "../lib/schedule";
 import { PATIENT_LINK_PAGE } from "../lib/patient-links";
-import { DISEASE_LINK_LABELS } from "../lib/diseases-data";
-
-const DISEASE_LINK_PATTERN = new RegExp(
-  `(${DISEASE_LINK_LABELS.map((l) => l.label).join("|")})`,
-  "g"
-);
-
-/** 診療内容の箇条書き中にある疾患名を、疾患ページへのリンクに変換する（日本語のみ対応） */
-function linkifyDiseases(text: string, lang: string) {
-  if (lang !== "ja") return text;
-  const parts = text.split(DISEASE_LINK_PATTERN);
-  return parts.map((part, i) => {
-    const match = DISEASE_LINK_LABELS.find((l) => l.label === part);
-    if (match) {
-      return (
-        <Link
-          key={i}
-          href={match.href ?? `/diseases/${match.slug}`}
-          className="font-medium text-primary-dark underline decoration-primary/30 underline-offset-2 hover:text-primary"
-        >
-          {part}
-        </Link>
-      );
-    }
-    return <span key={i}>{part}</span>;
-  });
-}
 
 const DEPT_ICON_PROPS = {
   className: "h-6 w-6",
@@ -169,14 +142,23 @@ export default function ServicesPageClient() {
                     >
                       {dept.items.map((item) => (
                         <li
-                          key={item}
+                          key={item.label}
                           className="mb-2.5 flex break-inside-avoid gap-2.5"
                         >
                           <span
                             className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-primary"
                             aria-hidden="true"
                           />
-                          <span>{linkifyDiseases(item, lang)}</span>
+                          {item.href ? (
+                            <Link
+                              href={item.href}
+                              className="font-medium text-primary-dark underline decoration-primary/30 underline-offset-2 hover:text-primary"
+                            >
+                              {item.label}
+                            </Link>
+                          ) : (
+                            <span>{item.label}</span>
+                          )}
                         </li>
                       ))}
                     </ul>
