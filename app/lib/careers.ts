@@ -74,7 +74,7 @@ export const CAREERS_PAGE = {
     positionsHeading: "募集職種",
     dutiesLabel: "主な業務",
     requirementsLabel: "応募条件・歓迎",
-    conditionsLabel: "募集要項",
+    conditionsLabel: "募集要項（案）",
     highlightsHeading: "当院の特徴",
     highlights: [
       "CT・胃カメラ・エコー・外科小手術など、検査・処置を院内で完結できる体制を目指しています。",
@@ -143,7 +143,7 @@ export const CAREERS_PAGE = {
     positionsHeading: "Open positions",
     dutiesLabel: "Main duties",
     requirementsLabel: "Requirements & welcome",
-    conditionsLabel: "Employment conditions",
+    conditionsLabel: "Employment conditions (draft)",
     highlightsHeading: "Why join us",
     highlights: [
       "We aim to complete CT, gastroscopy, ultrasound and minor surgery in-house.",
