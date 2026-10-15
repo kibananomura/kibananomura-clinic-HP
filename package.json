@@ -12,6 +12,7 @@
     "start": "next start",
     "lint": "eslint .",
     "indexnow": "node scripts/indexnow-submit.mjs",
+    "sync-admin-docs": "node scripts/sync-admin-docs.mjs",
     "check-translations": "node scripts/check-translation-sync.mjs",
     "sync-translations": "node scripts/check-translation-sync.mjs --write"
   },
