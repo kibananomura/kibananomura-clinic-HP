@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-15T23:39:01.847Z",
+  "generatedAt": "2026-10-16T05:18:11.471Z",
   "categories": [
     {
       "label": "労務規程一式（就業規則・賃金規程・各種規程）",
@@ -160,6 +160,18 @@
           "url": "/admin-docs/interview-checklist/%E6%9C%A8%E8%8A%B1%E3%81%AE%E3%82%80%E3%82%89%E8%A8%BA%E7%99%82%E6%89%80_%E6%8E%A1%E7%94%A8%E9%9D%A2%E6%8E%A5%E8%B3%AA%E5%95%8F%E3%83%81%E3%82%A7%E3%83%83%E3%82%AF%E3%82%B7%E3%83%BC%E3%83%88_20260929.pdf",
           "sizeKB": 845,
           "modified": "2026-09-29"
+        }
+      ]
+    },
+    {
+      "label": "事前研修資料（労務編）",
+      "order": 5.5,
+      "files": [
+        {
+          "name": "開業前研修_労務オリエンテーション資料_20261016.pdf",
+          "url": "/admin-docs/pre-opening-training-labor/%E9%96%8B%E6%A5%AD%E5%89%8D%E7%A0%94%E4%BF%AE_%E5%8A%B4%E5%8B%99%E3%82%AA%E3%83%AA%E3%82%A8%E3%83%B3%E3%83%86%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E8%B3%87%E6%96%99_20261016.pdf",
+          "sizeKB": 1098,
+          "modified": "2026-10-16"
         }
       ]
     },

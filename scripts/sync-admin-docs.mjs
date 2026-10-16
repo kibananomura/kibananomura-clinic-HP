@@ -34,6 +34,7 @@ const CATEGORY_MAP = {
   "就業規則案": { slug: "work-rules-draft", label: "就業規則（旧案・給与等級表）", order: 3 },
   "採用案内": { slug: "recruiting", label: "採用案内", order: 4 },
   "採用面接質問チェックシート": { slug: "interview-checklist", label: "採用面接チェックシート", order: 5 },
+  "事前研修資料_労務編": { slug: "pre-opening-training-labor", label: "事前研修資料（労務編）", order: 5.5 },
   "医療機器見積価格_総まとめ": { slug: "equipment-summary", label: "医療機器見積価格（総まとめ）", order: 6 },
   "医療機器見積書": { slug: "equipment-quotes", label: "医療機器見積書（個別）", order: 7 },
   "CT導入検討資料": { slug: "ct-review", label: "CT導入検討資料", order: 8 },
