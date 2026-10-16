@@ -62,11 +62,12 @@ export const CAREERS_PAGE = {
     ],
     idealHeading: "求める人物像",
     idealIntro:
-      "スキルや経験の有無よりも、当院の理念への共感とマインドを大切にしています。面接では「当院で何を成し遂げたいか」「周囲と協力しながら物事に取り組めるか」といった点を丁寧にお聞きしています。",
+      "スキルや経験の有無よりも、当院の理念への共感とマインドを大切にしています。採用の目的は人員を補充することではなく、「その方が加わることで、チーム全体がより良くなるか」だと考えています。面接では「当院で何を成し遂げたいか」「周囲と協力しながら物事に取り組めるか」といった点を丁寧にお聞きしています。",
     idealItems: [
       "素直に学び、意見を受け入れられる方",
       "何事にも前向きに取り組める方",
       "自分の成果だけでなく、チーム全体を大切にできる方",
+      "うまくいかなかったときも人のせいにせず、自分で振り返り改善できる方",
     ],
     snsNoticeLabel: "SNS等での情報発信について",
     snsNoticeBody:
@@ -131,11 +132,12 @@ export const CAREERS_PAGE = {
     ],
     idealHeading: "Who we're looking for",
     idealIntro:
-      "We value your mindset and fit with our philosophy more than skills or experience alone. In interviews, we ask what you'd like to achieve here and how you work with others.",
+      "We value your mindset and fit with our philosophy more than skills or experience alone. Hiring isn't just about filling a seat — it's about whether the team as a whole gets better with you on it. In interviews, we ask what you'd like to achieve here and how you work with others.",
     idealItems: [
       "Open-minded and willing to learn",
       "Positive about taking on new things",
       "Values the team's success, not just your own",
+      "Owns mistakes and improves, rather than blaming others",
     ],
     snsNoticeLabel: "A note on social media",
     snsNoticeBody:
