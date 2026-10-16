@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   robots: { index: false, follow: false },
 };
 
-type DocFile = { name: string; url: string; sizeKB: number; modified: string };
+type DocFile = { name: string; url: string; htmlUrl?: string | null; sizeKB: number; modified: string };
 type Category = { label: string; order: number; files: DocFile[] };
 
 const categories = manifest.categories as Category[];
@@ -54,14 +54,34 @@ export default function AdminPage() {
                   fontSize: 13.5,
                 }}
               >
-                <a
-                  href={f.url}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  style={{ color: "#2a5a46", fontWeight: 600, textDecoration: "underline" }}
-                >
-                  {f.name}
-                </a>
+                <span>
+                  <a
+                    href={f.htmlUrl || f.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    style={{ color: "#2a5a46", fontWeight: 600, textDecoration: "underline" }}
+                  >
+                    {f.name}
+                  </a>
+                  {f.htmlUrl && (
+                    <a
+                      href={f.url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      style={{
+                        marginLeft: 8,
+                        fontSize: 10.5,
+                        fontWeight: 700,
+                        color: "#999",
+                        border: "1px solid #ccc",
+                        borderRadius: 4,
+                        padding: "1px 5px",
+                      }}
+                    >
+                      PDF版
+                    </a>
+                  )}
+                </span>
                 <span style={{ color: "#999", fontSize: 11.5, whiteSpace: "nowrap" }}>
                   {f.modified} ・ {f.sizeKB}KB
                 </span>

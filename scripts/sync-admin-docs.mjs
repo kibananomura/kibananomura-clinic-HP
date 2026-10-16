@@ -54,14 +54,26 @@ const CATEGORY_MAP = {
   "収支計画": { slug: "revenue-plan", label: "収支計画", order: 21 },
 };
 
-function listPdfs(dir) {
+// Collects PDFs, and — when a same-named .html sibling exists (self-authored
+// documents built from Markdown/HTML, as opposed to scanned/vendor PDFs) —
+// pairs them up. The HTML version is much lighter (no embedded CJK font) and
+// is offered as the primary link; the PDF stays available for printing/sharing.
+function listDocs(dir) {
   const out = [];
   for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {
     if (entry.isDirectory()) {
-      out.push(...listPdfs(path.join(dir, entry.name)));
-    } else if (entry.isFile() && entry.name.toLowerCase().endsWith(".pdf")) {
-      if (!EXCLUDE_FILES.has(entry.name.normalize("NFC"))) out.push(path.join(dir, entry.name));
+      out.push(...listDocs(path.join(dir, entry.name)));
+      continue;
     }
+    if (!entry.isFile() || !entry.name.toLowerCase().endsWith(".pdf")) continue;
+    const name = entry.name.normalize("NFC");
+    if (EXCLUDE_FILES.has(name)) continue;
+    const pdfPath = path.join(dir, entry.name);
+    const htmlPath = pdfPath.slice(0, -4) + ".html";
+    out.push({
+      pdfPath,
+      htmlPath: fs.existsSync(htmlPath) ? htmlPath : null,
+    });
   }
   return out;
 }
@@ -90,20 +102,29 @@ function main() {
     }
 
     const srcDir = path.join(SOURCE_ROOT, topEntry.name);
-    const pdfs = listPdfs(srcDir).sort();
-    if (pdfs.length === 0) continue;
+    const docs = listDocs(srcDir).sort((a, b) => a.pdfPath.localeCompare(b.pdfPath));
+    if (docs.length === 0) continue;
 
     const destDir = path.join(DEST_ROOT, meta.slug);
     fs.mkdirSync(destDir, { recursive: true });
 
     const files = [];
-    for (const srcFile of pdfs) {
-      const baseName = path.basename(srcFile).normalize("NFC");
-      fs.copyFileSync(srcFile, path.join(destDir, baseName));
-      const stat = fs.statSync(srcFile);
+    for (const doc of docs) {
+      const pdfBaseName = path.basename(doc.pdfPath).normalize("NFC");
+      fs.copyFileSync(doc.pdfPath, path.join(destDir, pdfBaseName));
+      const stat = fs.statSync(doc.pdfPath);
+
+      let htmlUrl = null;
+      if (doc.htmlPath) {
+        const htmlBaseName = path.basename(doc.htmlPath).normalize("NFC");
+        fs.copyFileSync(doc.htmlPath, path.join(destDir, htmlBaseName));
+        htmlUrl = `/admin-docs/${meta.slug}/${encodeURIComponent(htmlBaseName)}`;
+      }
+
       files.push({
-        name: baseName,
-        url: `/admin-docs/${meta.slug}/${encodeURIComponent(baseName)}`,
+        name: pdfBaseName.replace(/\.pdf$/i, ""),
+        url: `/admin-docs/${meta.slug}/${encodeURIComponent(pdfBaseName)}`,
+        htmlUrl,
         sizeKB: Math.round(stat.size / 1024),
         modified: stat.mtime.toISOString().slice(0, 10),
       });

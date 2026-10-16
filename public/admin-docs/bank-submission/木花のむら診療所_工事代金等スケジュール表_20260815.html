@@ -1,0 +1,332 @@
+<title>開業・工事代金等スケジュール表 | 木花のむら診療所</title>
+<style>
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+:root {
+  --ink: #1A1916;
+  --muted: #555;
+  --border: #C0C0BE;
+  --head-bg: #F0EFec;
+  --accent: #2C5F2E;
+}
+body {
+  font-family: "Hiragino Kaku Gothic ProN","ヒラギノ角ゴ ProN","MS Gothic",sans-serif;
+  font-size: 10.5px;
+  color: var(--ink);
+  background: #fff;
+  padding: 28px 36px 40px;
+  max-width: 950px;
+  margin: 0 auto;
+  line-height: 1.55;
+}
+
+.doc-header {
+  border-bottom: 2px solid var(--ink);
+  padding-bottom: 10px;
+  margin-bottom: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.doc-header-title { font-size: 16px; font-weight: bold; letter-spacing: 0.06em; }
+.doc-header-meta { font-size: 9.5px; color: var(--muted); text-align: right; line-height: 1.8; }
+
+.summary-bar {
+  display: flex; gap: 0;
+  border: 1.5px solid var(--border);
+  margin-bottom: 16px;
+}
+.sb-item {
+  flex: 1;
+  padding: 9px 12px;
+  border-right: 1px solid var(--border);
+  text-align: center;
+}
+.sb-item:last-child { border-right: none; }
+.sb-label { font-size: 9px; color: var(--muted); margin-bottom: 2px; }
+.sb-value { font-size: 13px; font-weight: bold; color: var(--accent); }
+
+.sched { width: 100%; border-collapse: collapse; }
+.sched th, .sched td {
+  border: 1px solid var(--border);
+  padding: 5px 8px;
+  vertical-align: middle;
+}
+.sched thead tr th {
+  background: var(--ink);
+  color: #fff;
+  font-size: 10px;
+  text-align: center;
+  padding: 6px 8px;
+  white-space: nowrap;
+}
+
+.ph-head td {
+  font-weight: bold;
+  font-size: 10.5px;
+  padding: 5px 10px;
+  letter-spacing: 0.04em;
+}
+.ph-land   { background: #C8E6CA; }
+.ph-design { background: #FFE9A0; }
+.ph-const  { background: #BBDEFB; }
+.ph-equip  { background: #E1BEE7; }
+.ph-open   { background: #FFCDD2; }
+
+.row-land   td { background: #F2FAF2; }
+.row-design td { background: #FFFBF0; }
+.row-const  td { background: #F2F6FC; }
+.row-equip  td { background: #FAF2FC; }
+.row-open   td { background: #FCF2F2; }
+
+.col-timing    { width: 110px; font-weight: bold; font-size: 10px; white-space: nowrap; }
+.col-milestone { width: 145px; font-size: 10px; }
+.col-item      { }
+.col-amount    { width: 120px; text-align: right; font-weight: bold; font-size: 11px; }
+
+.sub { font-size: 9.5px; color: var(--muted); display: block; }
+
+.total-row td {
+  background: #1A1916;
+  color: #fff;
+  font-weight: bold;
+  font-size: 12px;
+  padding: 7px 10px;
+  border-color: #333;
+}
+
+.notes {
+  margin-top: 14px;
+  font-size: 9.5px;
+  color: var(--muted);
+  line-height: 1.8;
+  border-top: 1px solid var(--border);
+  padding-top: 8px;
+}
+
+.doc-footer {
+  display: flex;
+  justify-content: space-between;
+  font-size: 9px;
+  color: var(--muted);
+  border-top: 1px solid var(--border);
+  padding-top: 6px;
+  margin-top: 14px;
+}
+
+@media print {
+  body { padding: 14px 18px 20px; }
+  tr { page-break-inside: avoid; }
+}
+</style>
+
+<div class="doc-header">
+  <div>
+    <div class="doc-header-title">開業・工事代金等スケジュール表</div>
+    <div style="font-size:11px;color:var(--muted);margin-top:3px;">木花のむら診療所　開業予定日：2027年10月1日</div>
+  </div>
+  <div class="doc-header-meta">
+    開設者：野村 信介<br>
+    所在地：宮崎市熊野5233-2（接道：市への払い下げ方向で概ね決定・書面確認中）<br>
+    作成日：2026年9月3日
+  </div>
+</div>
+
+<div class="summary-bar">
+  <div class="sb-item">
+    <div class="sb-label">初期投資総額（見込）</div>
+    <div class="sb-value">約23,035万円</div>
+  </div>
+  <div class="sb-item">
+    <div class="sb-label">土地代（確定）</div>
+    <div class="sb-value">2,550万円</div>
+  </div>
+  <div class="sb-item">
+    <div class="sb-label">建設工事費（見込）</div>
+    <div class="sb-value">約13,800万円</div>
+  </div>
+  <div class="sb-item">
+    <div class="sb-label">医療機器費（見込）</div>
+    <div class="sb-value">約2,350万円</div>
+  </div>
+  <div class="sb-item">
+    <div class="sb-label">開業目標日</div>
+    <div class="sb-value">2027年10月1日</div>
+  </div>
+</div>
+
+<table class="sched">
+  <thead>
+    <tr>
+      <th class="col-timing">時期（目安）</th>
+      <th class="col-milestone">マイルストーン</th>
+      <th class="col-item">支出内容・内訳</th>
+      <th class="col-amount">見込額（万円）</th>
+    </tr>
+  </thead>
+  <tbody>
+
+    <!-- 土地取得 -->
+    <tr class="ph-head"><td colspan="4" class="ph-land">① 土地取得</td></tr>
+
+    <tr class="row-land">
+      <td class="col-timing">2026年9〜10月</td>
+      <td class="col-milestone">売買契約・手付金</td>
+      <td class="col-item">
+        手付金（土地代の約10%）
+        <span class="sub">仲介手数料・売買契約印紙・司法書士費（手付分）</span>
+      </td>
+      <td class="col-amount">約255</td>
+    </tr>
+
+    <tr class="row-land">
+      <td class="col-timing">2026年10〜11月</td>
+      <td class="col-milestone">土地決済・所有権移転登記</td>
+      <td class="col-item">
+        土地残金（土地代2,550万 − 手付金255万）
+        <span class="sub">不動産取得税・所有権移転登記・測量費・司法書士報酬</span>
+        <span class="sub">土地関連合計（諸費用込み）：約2,700万円</span>
+      </td>
+      <td class="col-amount">約2,445<br><span style="font-size:9.5px;font-weight:normal;">（諸費用込み計 2,700）</span></td>
+    </tr>
+
+    <!-- 設計・許認可 -->
+    <tr class="ph-head"><td colspan="4" class="ph-design">② 設計・許認可</td></tr>
+
+    <tr class="row-design">
+      <td class="col-timing">2026年11月</td>
+      <td class="col-milestone">設計契約・着手金</td>
+      <td class="col-item">
+        基本設計・実施設計　着手金（設計料総額の約50%）
+        <span class="sub">設計事務所：AAO建築アトリエ（足立さん）／設計料総額：約700万円</span>
+      </td>
+      <td class="col-amount">約350</td>
+    </tr>
+
+    <tr class="row-design">
+      <td class="col-timing">2026年11〜12月</td>
+      <td class="col-milestone">各種許認可申請</td>
+      <td class="col-item">
+        農地転用許可申請・開発許可申請・建築確認申請（事前）
+        <span class="sub">熊野5233-2は農地転用手続きが必要（10月までに農業委員会手続き完了目標）</span>
+        <span class="sub">行政書士費用・申請手数料・各種調査費</span>
+      </td>
+      <td class="col-amount">約100</td>
+    </tr>
+
+    <!-- 建設工事 -->
+    <tr class="ph-head"><td colspan="4" class="ph-const">③ 建設工事（工事費総額：約13,800万円）</td></tr>
+
+    <tr class="row-const">
+      <td class="col-timing">2027年1〜2月</td>
+      <td class="col-milestone">工事請負契約・着工</td>
+      <td class="col-item">
+        着工金：工事費13,800万円 × 30%
+        <span class="sub">設計料残金（第2回）：約350万円</span>
+        <span class="sub">施工：吉原建設（入札予定）　工期目標：約8ヶ月</span>
+      </td>
+      <td class="col-amount">約4,490<br><span style="font-size:9.5px;font-weight:normal;">（着工金4,140 ＋ 設計料350）</span></td>
+    </tr>
+
+    <tr class="row-const">
+      <td class="col-timing">2027年5〜6月</td>
+      <td class="col-milestone">中間検査・中間金支払</td>
+      <td class="col-item">
+        中間金：工事費13,800万円 × 30%
+        <span class="sub">上棟・構造体検査（中間検査）完了後に支払</span>
+      </td>
+      <td class="col-amount">約4,140</td>
+    </tr>
+
+    <tr class="row-const">
+      <td class="col-timing">2027年8〜9月</td>
+      <td class="col-milestone">竣工検査・竣工金支払</td>
+      <td class="col-item">
+        竣工金：工事費13,800万円 × 40%
+        <span class="sub">竣工検査合格・建物所有権保存登記後に支払</span>
+        <span class="sub">外構・造成・駐車場32台・感染ドライブスルー動線含む</span>
+      </td>
+      <td class="col-amount">約5,520</td>
+    </tr>
+
+    <!-- 医療機器・開業準備 -->
+    <tr class="ph-head"><td colspan="4" class="ph-equip">④ 医療機器・開業準備</td></tr>
+
+    <tr class="row-equip">
+      <td class="col-timing">2027年8〜9月</td>
+      <td class="col-milestone">医療機器購入・搬入</td>
+      <td class="col-item">
+        16列CT（CT室スケルトン対応済・リファービッシュ品）
+        <span class="sub">経鼻内視鏡・デジタルX線（DIP法骨密度兼用）・超音波エコー・FeNO・心電図</span>
+      </td>
+      <td class="col-amount">約2,350</td>
+    </tr>
+
+    <tr class="row-equip">
+      <td class="col-timing">2027年8〜9月</td>
+      <td class="col-milestone">開業準備費一式</td>
+      <td class="col-item">
+        電子カルテ・IT機器・Web予約・自動精算機
+        <span class="sub">ホームページ制作・院内外看板・スタッフ採用費・内覧会・備品一式</span>
+      </td>
+      <td class="col-amount">約685</td>
+    </tr>
+
+    <tr class="row-equip">
+      <td class="col-timing">2027年8〜9月</td>
+      <td class="col-milestone">諸費用・許認可費</td>
+      <td class="col-item">
+        保険医療機関申請・医師会入会金・損害保険・開発許可費残金
+      </td>
+      <td class="col-amount">約300</td>
+    </tr>
+
+    <!-- 開業 -->
+    <tr class="ph-head"><td colspan="4" class="ph-open">⑤ 開業</td></tr>
+
+    <tr class="row-open">
+      <td class="col-timing">2027年9月</td>
+      <td class="col-milestone">最終準備・内覧会</td>
+      <td class="col-item">
+        保険医療機関指定・診療所開設届出
+        <span class="sub">スタッフ研修・カルテ動作確認・内覧会（上記準備費に含む）</span>
+      </td>
+      <td class="col-amount">（準備費に含む）</td>
+    </tr>
+
+    <tr class="row-open">
+      <td class="col-timing" style="color:#c00;font-weight:bold;">2027年10月1日</td>
+      <td class="col-milestone" style="color:#c00;font-weight:bold;">開　業</td>
+      <td class="col-item">
+        運転資金（保険診療入金2ヶ月遅れ対応・開業初期赤字補填）
+        <span class="sub">月次黒字転換目標：M5（患者52人/日）・安定期目標：M18（患者70人/日）</span>
+      </td>
+      <td class="col-amount">約2,500</td>
+    </tr>
+
+    <!-- 合計 -->
+    <tr class="total-row">
+      <td colspan="3" style="text-align:center;">初　期　投　資　総　額　（見込）</td>
+      <td style="text-align:right;font-size:14px;">約23,035万円</td>
+    </tr>
+
+  </tbody>
+</table>
+
+<div class="notes">
+  <strong>【注記】</strong><br>
+  ① 土地代は2026年8月現在で確定済み（25,504,000円）。諸費用（不動産取得税・登記・測量・仲介手数料等）込みの土地関連合計は約2,700万円。<br>
+  ② 建設工事費（約13,800万円）および設計料（約700万円）は設計確定後の入札額をもって確定予定。着工金・中間金・竣工金の支払割合（30%・30%・40%）は工事請負契約時に施工会社と確定する。<br>
+  ③ 医療機器費のうち16列CTおよび経鼻内視鏡はリファービッシュ品を予定（複数社から見積取得中）。<br>
+  ④ 上記は現段階の見込額。設計・入札確定後に改めて最終版を提出する。<br>
+  ⑤ 熊野5233-2は農地転用手続きが必要（2026年9月宮崎銀行面談で確認）。10月までに農業委員会での手続き完了を目標とする。<br>
+  ⑥ 接道問題（県有地）は市への払い下げ方向で概ね決定しているが、県からの書面回答・払い下げ申請受付の正式確認は未取得（2026年9月時点・口頭確認段階）。
+</div>
+
+<div class="doc-footer">
+  <span>木花のむら診療所 開業準備室</span>
+  <span>作成日 2026年9月3日（現段階見込額・確定次第更新）</span>
+</div>
+
+<div style="text-align:right;font-size:10.5px;margin-top:18px;padding-top:8px;border-top:1px solid var(--border);">
+  作成者　野村 信介
+</div>

@@ -1,0 +1,694 @@
+<title>開業事業計画書 | 木花のむら診療所</title>
+<style>
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+:root {
+  --ink: #1A1916;
+  --muted: #555;
+  --border: #C8C8C6;
+  --head-bg: #F2F1EE;
+  --accent: #2C5F2E;
+}
+body {
+  font-family: "Hiragino Kaku Gothic ProN","ヒラギノ角ゴ ProN","MS Gothic",sans-serif;
+  font-size: 10.5px;
+  color: var(--ink);
+  background: #fff;
+  padding: 28px 38px 36px;
+  max-width: 920px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+/* ── ページヘッダー ── */
+.page-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  border-bottom: 2px solid var(--ink);
+  padding-bottom: 6px;
+  margin-bottom: 4px;
+}
+.page-header-title { font-size: 17px; font-weight: bold; letter-spacing: 0.06em; }
+.page-header-sub { font-size: 10px; color: var(--muted); }
+.page-header-meta { font-size: 10px; text-align: right; color: var(--muted); line-height: 1.7; }
+
+/* ── KFバー ── */
+.kf-row { display: flex; gap: 0; border: 1.5px solid var(--border); margin: 10px 0 14px; }
+.kf-item { flex: 1; padding: 8px 10px; border-right: 1px solid var(--border); }
+.kf-item:last-child { border-right: none; }
+.kf-label { font-size: 9px; color: var(--muted); margin-bottom: 3px; }
+.kf-value { font-size: 14px; font-weight: bold; color: var(--accent); line-height: 1.2; }
+.kf-note  { font-size: 8.5px; color: var(--muted); margin-top: 2px; }
+
+/* ── セクション ── */
+.section { margin-bottom: 14px; }
+h2 {
+  font-size: 11.5px; font-weight: bold;
+  background: var(--ink); color: #fff;
+  padding: 4px 9px; letter-spacing: 0.06em;
+  margin-bottom: 7px;
+}
+h3 { font-size: 10.5px; font-weight: bold; border-left: 3px solid var(--accent); padding-left: 6px; margin: 10px 0 5px; }
+
+/* ── 定義テーブル ── */
+.dt { width: 100%; border-collapse: collapse; margin-bottom: 6px; font-size: 10px; }
+.dt th, .dt td { border: 1px solid var(--border); padding: 4px 8px; vertical-align: top; }
+.dt th { background: var(--head-bg); font-weight: bold; white-space: nowrap; width: 120px; }
+
+/* ── データテーブル ── */
+.tbl { width: 100%; border-collapse: collapse; margin-bottom: 6px; font-size: 10px; }
+.tbl th, .tbl td { border: 1px solid var(--border); padding: 4px 7px; vertical-align: middle; }
+.tbl thead th { background: var(--head-bg); font-weight: bold; }
+.tbl tfoot td { background: #ECEAE4; font-weight: bold; border-top: 1.5px solid var(--ink); }
+.num { text-align: right; }
+.ctr { text-align: center; }
+
+/* 経営理念ボックス */
+.rinen {
+  background: #F8F7F4; border-left: 4px solid var(--accent);
+  padding: 8px 12px; margin: 8px 0; font-size: 10.5px; line-height: 1.8;
+}
+.rinen strong { font-size: 11px; }
+
+/* 資金繰りテーブル */
+.cf-tbl { width: 100%; border-collapse: collapse; font-size: 9.5px; }
+.cf-tbl th, .cf-tbl td { border: 1px solid var(--border); padding: 3px 6px; text-align: right; vertical-align: middle; }
+.cf-tbl thead th { background: var(--ink); color: #fff; text-align: center; font-size: 9px; }
+.cf-tbl .row-label { text-align: left; background: var(--head-bg); font-weight: bold; }
+.cf-tbl .pos { color: #2C5F2E; font-weight: bold; }
+.cf-tbl .neg { color: #c00; font-weight: bold; }
+.cf-tbl .sep td { background: #E8E6E0; font-weight: bold; font-size: 9px; text-align: center; }
+.cf-tbl .stable td { background: #EAF4EA; }
+
+/* 感応度テーブル */
+.sens { width: 100%; border-collapse: collapse; font-size: 9.5px; margin-top: 8px; }
+.sens th, .sens td { border: 1px solid var(--border); padding: 4px 8px; text-align: right; }
+.sens thead th { background: var(--ink); color: #fff; text-align: center; }
+.sens .row-label { text-align: left; background: var(--head-bg); font-weight: bold; }
+.sens .pos { color: #2C5F2E; font-weight: bold; }
+.sens-box { border: 1px solid var(--border); padding: 8px 12px; margin-top: 8px; background: #F8F7F4; }
+
+/* PL表 */
+.pl { width: 100%; border-collapse: collapse; font-size: 9.5px; }
+.pl th, .pl td { border: 1px solid var(--border); padding: 3px 7px; }
+.pl thead th { background: var(--ink); color: #fff; text-align: center; }
+.pl .row-cat td { background: var(--head-bg); font-weight: bold; }
+.pl .num { text-align: right; }
+.pl .indent td:first-child { padding-left: 18px; font-size: 9px; color: var(--muted); }
+.pl .ebit td { background: #ECEAE4; font-weight: bold; }
+.pl .profit td { background: #EAF4EA; font-weight: bold; color: #2C5F2E; }
+
+/* ページ区切り */
+.page-break { page-break-before: always; padding-top: 24px; }
+.sub-h { font-size: 9px; color: var(--muted); }
+
+/* フッター */
+.doc-footer {
+  display: flex; justify-content: space-between;
+  font-size: 8.5px; color: var(--muted);
+  border-top: 1px solid var(--border); padding-top: 5px; margin-top: 10px;
+}
+
+@media print { body { padding: 12px 18px 16px; } tr { page-break-inside: avoid; } }
+</style>
+
+<!-- ══ P1 ══ -->
+<div class="page-header">
+  <div>
+    <div class="page-header-title">木花のむら診療所　事業計画書</div>
+    <div class="page-header-sub">宮崎市熊野・木花地区　2027年10月1日 開院予定</div>
+  </div>
+  <div class="page-header-meta">2026年9月<br>開設者　野村 信介</div>
+</div>
+
+<div class="kf-row">
+  <div class="kf-item">
+    <div class="kf-label">初期投資総額</div>
+    <div class="kf-value">約2億3,200万円</div>
+    <div class="kf-note">土地・建設・医療機器・開業準備・運転資金</div>
+  </div>
+  <div class="kf-item">
+    <div class="kf-label">損益分岐点</div>
+    <div class="kf-value">40人→60人 / 日</div>
+    <div class="kf-note">据え置き期約40人・通常返済開始後60人で月次黒字。安定期70人/日を見込む</div>
+  </div>
+  <div class="kf-item">
+    <div class="kf-label">月次固定費（開業時・返済含む）</div>
+    <div class="kf-value">458万円</div>
+    <div class="kf-note">人件費190万＋医療材料等155万＋返済103万（安定期は人件費238万→508万）</div>
+  </div>
+  <div class="kf-item">
+    <div class="kf-label">安定期余剰（M18〜・院長報酬150万込み）</div>
+    <div class="kf-value">+337万円 / 月</div>
+    <div class="kf-note">収入863万粗利×人件費比率45%設計（人件費/粗利=388万）</div>
+  </div>
+</div>
+
+<!-- §1 -->
+<div class="section">
+  <h2>１．事業概要</h2>
+  <table class="dt">
+    <tbody>
+      <tr><th>届出名称</th><td>木花のむら診療所（2026年7月2日確定）</td></tr>
+      <tr><th>標榜診療科</th><td>内科・消化器内科・アレルギー内科・呼吸器内科・外科・小児科（6科標榜）</td></tr>
+      <tr><th>開設場所</th><td>宮崎市熊野5233-2周辺（接道交渉中）</td></tr>
+      <tr><th>開院目標</th><td>2027年10月1日（土地確定後12〜15ヶ月）</td></tr>
+      <tr><th>規模</th><td>木造2階建・延床面積約333㎡（1階272㎡・2階61.5㎡）・駐車場32台</td></tr>
+      <tr><th>診療時間</th><td>月〜金 8:15〜12:00 / 14:00〜18:00（実質診療7.5時間）・土日祝休（将来的に土曜午前非常勤診療を検討）</td></tr>
+      <tr><th>1日目標患者数</th><td>開業初月25人 → 安定期（M18〜）70人（診療圏調査ベース51人に外科処置・6科標榜による上乗せ分を加算）</td></tr>
+      <tr><th>主要設備</th><td>16列CT・デジタルX線・超音波エコー・経鼻内視鏡・心電図・FeNO・クラウド型電子カルテ・Web予約・オンライン問診（以上開業時導入）</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<!-- §2 -->
+<div class="section">
+  <h2>２．開業の動機・経営理念</h2>
+  <div class="rinen" style="font-weight:normal;border-left-color:#888;background:#fff;border:none;padding:0 0 6px;">
+    <p style="margin-bottom:6px;">私は現在、宮崎市熊野に家族とともに居を構え、子どもたちのつながりや自治会活動を通じて地域の方々と日常的に言葉を交わしてきました。そのなかで、「体のことが心配でも、気軽に診てもらえる場所が近くにない」という声を直接耳にする機会が少なくありませんでした。医師である以前に、この街に暮らす生活者の一人として地域の医療的な空白を肌で感じてきたことが、木花・熊野地区への開設を決意した最初の動機です。</p>
+    <p style="margin-bottom:6px;">開業地の選定にあたっては、立地条件についても独自に調査・分析を行いました。熊野5233-2周辺は市街化調整区域に位置するため、従来の立地論では集患力に懸念が生じうる場所です。しかし、現在の宮崎県内の医療機関を見渡すと、SEO対策（検索エンジン最適化）・MEO対策（Googleマップ等の地図検索最適化）・LLMO対策（大規模言語モデル最適化：ChatGPTやClaudeなどのAIが医療相談に答える際に特定のクリニックを推薦するよう情報発信・評判を整備すること）のいずれも、ほとんどの医療機関で手が付けられていない現状があります。とりわけ、当院が標榜する内科・外科・消化器内科の同診療科においても、これらの対策を講じているクリニックは確認できませんでした。</p>
+    <p style="margin-bottom:6px;">こうしたデジタル集患の空白地帯であることは、逆に言えば、基本的な情報発信を丁寧に行うだけで検索上位・AI推薦に容易に入り込める環境を意味します。加えて、開業予定地（熊野5233-2）は周囲が開けた土地であり、道路からの視認性が高く、看板・外観による認知効果も期待できます。市街化調整区域という立地的ハンデを、デジタル上の可視性向上と物理的な視認性の高さによって十分に補えると判断したことが、この地への開設を後押しした根拠の一つです。急性期病院と在宅医療の間をつなぐかかりつけ診療所として、住民の皆さまが何でも気軽に相談できる診療所をつくりたいという思いとともに、開業の決断に至りました。</p>
+  </div>
+  <div class="rinen">
+    <div style="margin-bottom:5px;"><strong>ミッション：</strong>誰もが気兼ねなく医療につながり、安心して暮らし続けられる地域を創ること</div>
+    <div style="margin-bottom:5px;"><strong>ビジョン：</strong>住民一人ひとりの安心な暮らしを支える、なくてはならない『かかりつけ診療所』になる</div>
+    <div style="margin-top:6px;font-size:10px;line-height:1.9;">
+      <strong>バリュー：</strong><br>
+      ① <strong>誠実な対話と共同意思決定</strong>　丁寧で誠実なコミュニケーションで患者さんの不安に寄り添い、患者さんとご家族の意思を尊重しながら、ともに治療方針を決めます。<br>
+      ② <strong>たゆまない自己研鑽</strong>　常に最新の医学知識・技術を学び続け、地域のかかりつけ診療所として患者さんに最適な医療を提供できる自分であり続けます。<br>
+      ③ <strong>高潔な医療倫理</strong>　高い倫理観を持ち、患者さんに不必要な検査・治療を行いません。「必要なことを、必要なだけ」を原則とします。<br>
+      ④ <strong>ITの積極活用による患者へのゆとり</strong>　ITスキルの向上と業務効率化に継続的に取り組み、生まれた時間とゆとりを患者さんへの丁寧な応対に還元します。<br>
+      ⑤ <strong>主体性・チーム全体最適・持続可能な運営</strong>　職種を問わず全スタッフが主体的に動き、チームとして最善を模索します。質の高い医療を継続して届けるため、ビジネス視点を持った合理的な運営を行います。<br>
+      ⑥ <strong>自己の心身管理</strong>　いつでもベストな医療を提供できるよう、スタッフ一人ひとりが自らの心身の健康維持を責務として捉え、セルフマネジメントに努めます。
+    </div>
+  </div>
+  <p style="font-size:10px;margin-top:7px;"><strong>経営方針：</strong></p>
+  <p style="font-size:10px;line-height:1.8;margin-top:3px;">
+    【収益の柱】 保険診療（内科・外科・消化器内科の3本柱）を主軸に患者単価5,000円を維持。CT検査を画像診断の収益柱として早期から確立する。自費診療（GLP-1・AGA/FAGA・LOH症候群・ED治療薬・花粉症ケナコルト等）は保険診療と完全分離のうえ開業初日より展開し、月次収益の補完を図る。<br>
+    【患者数計画と損益管理】 開業初月25人/日 → 半年以内に損益分岐点到達 → M5以降月次黒字転換（52人/日）。安定期（M18〜）70人/日・月次余剰+350万円（返済前）を見込む。<br>
+    【費用管理方針】 開業時8名体制でスタート。スタッフ人件費・薬品費を主要変動費として管理し、月次固定費を抑制する。<br>
+    【差別化】 ①外科専門医による処置・内視鏡・CT検査の院内完結 ②Web予約・Web問診・自動精算による患者利便性の向上 ③宮崎大学エリアの若中年層への自費診療展開 ④医師会・地域病院との連携による紹介患者の取り込み ⑤イシャチョク®（仮想待合室型オンライン診療）を開業時・閑散期に活用し、対面外来の合間に診療患者数を安定確保<br>
+    【院長生活費（事業主貸）計画】 M1〜6：月100万　M7〜：月125万（年最大1,500万・法人成り後に改めて設計）
+  </p>
+</div>
+
+<!-- §3 -->
+<div class="section">
+  <h2>３．開業者プロフィール</h2>
+  <table class="dt">
+    <tbody>
+      <tr><th>氏名</th><td>野村 信介（のむら しんすけ）　1983年3月25日生　宮崎市熊野在住</td></tr>
+      <tr><th>学歴</th><td>防衛医科大学校 医学部卒（2008年）／同大学院 博士（医学）取得（2021年）</td></tr>
+      <tr><th>海外研究歴</th><td>マサチューセッツ総合病院（MGH・ハーバード大学）研究員（2018〜2019年）</td></tr>
+      <tr><th>専門資格</th><td>外科専門医・消化器外科専門医・健康スポーツ医・博士（医学）</td></tr>
+      <tr><th>職歴</th><td style="line-height:1.9;">
+        2008年　防衛医科大学校病院　研修医<br>
+        2010年〜2016年　防衛医科大学校 外科学講座　専攻医<br>
+        2011年〜2012年　国立病院機構 災害医療センター 救命救急科　医員（出向）／東日本大震災（福島）災害派遣（患者後送）<br>
+        2013年　国家公務員共済組合 虎ノ門病院　外科研修<br>
+        2016年〜2020年　防衛医科大学校 医学研究科 外科学講座<br>
+        2018年〜2019年　マサチューセッツ総合病院（ハーバード大学・米国）　研究員<br>
+        2020年〜2021年　防衛省 陸上幕僚監部 衛生部<br>
+        2021年　自衛隊大規模接種センター　計画・運営・派遣<br>
+        2021年　陸上自衛隊熊本病院　外科部長 兼 健康管理センター長<br>
+        2022年　宮崎大学医学部 消化管・内分泌・小児外科学　助教<br>
+        2023年　宮崎県立日南病院　外科医長<br>
+        2023年〜現在　医療法人社団明恵会 早水公園クリニック　副院長
+      </td></tr>
+      <tr><th>現職実績</th><td>年収1,500万円・通常150人/日・冬季ピーク250人/日（当院目標70人/日の2倍以上）</td></tr>
+      <tr><th>個人借入残高</th><td>なし（個人・事業ともに借入なし）</td></tr>
+      <tr><th>学術実績</th><td>査読論文65件・学術賞受賞5件以上・10学会所属・国際特許1件（WO2018-061201）</td></tr>
+      <tr><th>代診医</th><td>松島俊介先生（医療法人社団 聖山会 川南病院・救急科）</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="doc-footer">
+  <span>木花のむら診療所 開業準備室</span>
+  <span>1 / 5</span>
+</div>
+
+<!-- ══ P2 ══ -->
+<div class="page-break">
+<div class="page-header">
+  <div><div class="page-header-title">木花のむら診療所　事業計画書</div><div class="page-header-sub">診療内容・立地・市場分析</div></div>
+  <div class="page-header-meta">2026年9月　院長　野村 信介</div>
+</div>
+
+<!-- §4 -->
+<div class="section">
+  <h2>４．標榜診療科・主な診療内容</h2>
+  <table class="dt">
+    <tbody>
+      <tr><th>標榜診療科</th><td>内科・消化器内科・アレルギー内科・呼吸器内科・外科・小児科（6科標榜）</td></tr>
+      <tr><th>主な対応疾患</th><td>
+        <strong>内科：</strong>生活習慣病（高血圧・糖尿病・脂質異常症）・痛風・甲状腺疾患・感染症<br>
+        <strong>外科：</strong>創傷処置・小手術・皮膚腫瘤・陥入爪・巻き爪<br>
+        <strong>消化器内科：</strong>逆流性食道炎・胃潰瘍・胃腸炎・痔核・経鼻内視鏡（上部消化管）<br>
+        <strong>アレルギー内科：</strong>花粉症・気管支喘息・食物アレルギー・蕁麻疹<br>
+        <strong>呼吸器内科：</strong>慢性咳嗽・COPD・気管支炎・肺炎<br>
+        <strong>小児科：</strong>発熱・感染症・アレルギー（新生児・乳児は専門科紹介）
+      </td></tr>
+      <tr><th>検査・処置</th><td>デジタルX線・腹部エコー・体表エコー・心電図・経鼻内視鏡（上部消化管）・FeNO（気管支喘息管理）・骨密度（DIP法・デジタルX線を活用）・血液検査・尿検査・16列CT（肺・腹部・頭部単純CT。院長自身が操作・読影は外部委託）</td></tr>
+      <tr><th>自費診療（開業初日〜）</th><td>GLP-1受容体作動薬（肥満症・2型糖尿病）・AGA/FAGA（男女型脱毛症）・LOH症候群に対する男性ホルモン補充療法・ED治療薬・花粉症に対するケナコルト筋注療法<br><small style="color:var(--muted);">※各自費診療は保険診療と同一受診機会に混在させない（混合診療禁止規定厳守）</small></td></tr>
+      <tr><th>オンライン診療</th><td>イシャチョク®（仮想待合室型・予約不要）を開業時・閑散期に限定活用。単価4,000円/件・想定3〜5件/日・月25〜44万円の補完収益。対面外来が安定した段階で縮小予定</td></tr>
+      <tr><th>内視鏡計画</th><td>開業初期：胃カメラ（上部消化管）のみ → 2〜3年目：需要を見極めたうえで大腸内視鏡を追加予定（設計段階からスケルトン対応済み）</td></tr>
+      <tr><th>将来の在宅医療</th><td>施設定期訪問・かかりつけ医機能を段階的に導入予定</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<!-- §5 -->
+<div class="section">
+  <h2>５．立地・商圏の優位性</h2>
+  <table class="tbl">
+    <thead><tr><th style="width:140px;">要因</th><th style="width:260px;">内容</th><th>クリニックへの影響</th></tr></thead>
+    <tbody>
+      <tr><td><strong>県道沿い角地・高視認性</strong></td><td>県道に面した角地への立地を計画。複数方向からの進入が可能。マックスバリュ・ダイレックスへの買い物ルート近傍に位置し、日常的な通行量が見込まれる</td><td>「ついでに受診」「帰宅途中に寄れる」という通院行動が期待でき、継続的な認知蓄積が見込まれる</td></tr>
+      <tr><td><strong>商圏人口の多様性</strong></td><td>学園台・まなび野・本郷（30〜40代子育て世代）／木花・熊野（宮崎大学関係者・学生）／清武・田野（既存住民・高齢者）</td><td>一次商圏に多層的な患者層が存在し、特定層に依存しない安定した患者基盤を形成</td></tr>
+      <tr><td><strong>宮崎大学・看護大学</strong></td><td>教職員・学生が集積するエリア。20〜24歳比率12.4%（全国平均4.8%の約2.6倍）・1人世帯47%</td><td>かかりつけ医未保有の若年単身者が多く、新患獲得しやすい</td></tr>
+      <tr><td><strong>山下橋（清武川）建設中</strong></td><td>開通後は東宮・希望ヶ丘・まなび野・本郷地区（人口約2.8万人）からのアクセスが大幅に向上</td><td>開通前に開院し、開通後の交通量増加（計画9,300台/日）を患者増に転換できる戦略的立地</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<!-- §6 -->
+<div class="section">
+  <h2>６．診療圏分析（2026年7月調査・宮崎市大字熊野）</h2>
+  <table class="tbl">
+    <thead><tr><th style="width:120px;">診療科</th><th style="width:140px;">1日来院患者数予測</th><th style="width:70px;">競合数</th><th>特記事項</th></tr></thead>
+    <tbody>
+      <tr><td>内科</td><td>35人（二次圏・競合4件考慮後）</td><td class="ctr">4件</td><td>—</td></tr>
+      <tr><td>小児科</td><td>16人（二次圏）</td><td class="ctr">1件（二次のみ）</td><td>単科小児科クリニックは一次圏内にゼロ（亀山記念クリニックが小児科を標榜するが単科専門クリニックは存在しない）</td></tr>
+      <tr style="background:#F2F1EE;"><td><strong>調査ベース合計</strong></td><td><strong>51人/日</strong></td><td class="ctr">—</td><td>外科・消化器内科・アレルギー内科は除く</td></tr>
+      <tr><td>上乗せ（外科・消化器ほか）</td><td>+13〜19人/日</td><td class="ctr">—</td><td>外科専門医処置・内視鏡・CT・6科標榜</td></tr>
+      <tr style="background:#EAF4EA;"><td><strong>安定期目標（保守的設定）</strong></td><td><strong>70人/日</strong></td><td class="ctr">—</td><td>現職実績（150人/日）の47%。保守的設定</td></tr>
+    </tbody>
+  </table>
+  <p class="sub-h">※ 国勢調査500m統計データ令和2年度・厚生労働省令和5年患者調査受療率に基づく。二次圏人口：17,306人。</p>
+</div>
+
+<!-- §7 -->
+<div class="section">
+  <h2>７．主要競合医院の状況</h2>
+  <table class="tbl">
+    <thead><tr><th style="width:130px;">医院名</th><th style="width:110px;">距離</th><th style="width:70px;">推定1日外来</th><th style="width:50px;">駐車場</th><th>当院との差別化</th></tr></thead>
+    <tbody>
+      <tr><td>小緑内科クリニック</td><td>最近接（熊野・一次圏）</td><td class="ctr">60〜80人前後</td><td class="ctr">要確認</td><td>高齢者・施設回診（デイケア）中心で磐石だが医師対応への不満口コミ多数。当院は学園木花台ファミリー層へターゲットシフトし棲み分け。競合度：低（代替需要の機会は大）</td></tr>
+      <tr><td>学園台クリニック</td><td>679m（一次圏）</td><td class="ctr">10人前後</td><td class="ctr">5台</td><td>規模極小・駐車場5台は致命的制約。外科処置・内視鏡・CTは不可。競合度：低</td></tr>
+      <tr><td>ふくどめクリニック</td><td>894m（一次圏）</td><td class="ctr">43人前後</td><td class="ctr">40台</td><td>完全予約制・急患受入困難。当院が当日診療・外科処置・内視鏡・CTで差別化。競合度：中</td></tr>
+      <tr><td>いといクリニック</td><td>1.40km（二次圏）</td><td class="ctr">—</td><td class="ctr">—</td><td>泌尿器科主体。競合範囲限定的。競合度：低</td></tr>
+      <tr><td>亀山記念クリニック</td><td>1.95km（二次圏）</td><td class="ctr">要確認</td><td class="ctr">27台</td><td>院長高齢・有床17床。距離・院長高齢化から中長期的に患者流入を見込む</td></tr>
+      <tr><td>竜内科クリニック</td><td>約3km（北方）</td><td class="ctr">—</td><td class="ctr">—</td><td>消化器内科専門・最強競合。外科処置・CT・立地（南部優位）・自費診療で差別化。競合度：中〜高</td></tr>
+      <tr style="background:#EAF4EA;"><td><strong>木花のむら診療所（当院）</strong></td><td>—</td><td class="ctr"><strong>70人（目標）</strong></td><td class="ctr"><strong>32台</strong></td><td><strong>6科標榜・外科処置・内視鏡・CT（圏内唯一）・32台駐車場の組み合わせは圏内唯一</strong></td></tr>
+    </tbody>
+  </table>
+</div>
+
+<!-- §8 -->
+<div class="section">
+  <h2>８．地域医療連携・バックアップ体制</h2>
+  <table class="dt">
+    <tbody>
+      <tr><th>医師会</th><td>宮崎市郡医師会 A会員として加入予定。牛谷義秀副会長（防衛医大同門）と面識あり</td></tr>
+      <tr><th>代診医</th><td>松島俊介先生（医療法人社団 聖山会 川南病院・救急科）</td></tr>
+      <tr><th>土曜非常勤</th><td>松島先生による土曜午前対面診療を検討中（患者数75人超で段階導入）</td></tr>
+      <tr><th>高次医療連携</th><td>宮崎大学医学部附属病院・宮崎県立宮崎病院へ紹介ルートを確保予定（助教在職中・早水公園クリニック副院長経由の既存ネットワーク活用）</td></tr>
+      <tr><th>在宅バックアップ</th><td>坂田鋼治先生（彩り在宅クリニック）との在宅医療連携体制を構築予定</td></tr>
+      <tr><th>設計事務所</th><td>AAO建築アトリエ（足立さん）——設計進行中（2026年7月30日 三社MTG実施済み）</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="doc-footer">
+  <span>木花のむら診療所 開業準備室</span>
+  <span>2 / 5</span>
+</div>
+
+<!-- ══ P3 ══ -->
+<div class="page-break">
+<div class="page-header">
+  <div><div class="page-header-title">木花のむら診療所　事業計画書</div><div class="page-header-sub">資金計画・スタッフ計画・固定費内訳</div></div>
+  <div class="page-header-meta">2026年9月　院長　野村 信介</div>
+</div>
+
+<!-- §9 -->
+<div class="section">
+  <h2>９．初期投資・融資計画</h2>
+  <table class="tbl">
+    <thead><tr><th style="width:130px;">区分</th><th>用途</th><th class="num" style="width:110px;">金額（万円）</th><th style="width:75px;">返済期間</th></tr></thead>
+    <tbody>
+      <tr><td>設備資金（建物）</td><td>木造2階建・建物本体・CT室放射線遮蔽工事込み・外構・造成・設計料・予備費（資材高騰バッファー込み）</td><td class="num">約13,600</td><td>20年</td></tr>
+      <tr><td>設備資金（土地）</td><td>土地購入費（2筆パッケージ2,500万）・不動産取得税・登記・測量（2筆分）</td><td class="num">約2,700</td><td>20年</td></tr>
+      <tr><td>医療機器・IT一式</td><td>16列CT・経鼻内視鏡・デジタルX線・超音波エコー・FeNO・心電図・CLINICS・自動精算機・医療備品（主要機器はリファービッシュ品。内訳は下表）</td><td class="num">約3,000</td><td>20年</td></tr>
+      <tr style="font-size:9px;color:#555;"><td style="padding-left:14px;">　16列CT（Supria Advance FR等・リファービッシュ）</td><td>富士フィルム・Canon Medical等から相見積もり中</td><td class="num">1,500</td><td></td></tr>
+      <tr style="font-size:9px;color:#555;"><td style="padding-left:14px;">　デジタルX線装置</td><td></td><td class="num">300</td><td></td></tr>
+      <tr style="font-size:9px;color:#555;"><td style="padding-left:14px;">　超音波エコー</td><td></td><td class="num">180</td><td></td></tr>
+      <tr style="font-size:9px;color:#555;"><td style="padding-left:14px;">　経鼻内視鏡システム（上部のみ・大腸は2〜3年目）</td><td></td><td class="num">300</td><td></td></tr>
+      <tr style="font-size:9px;color:#555;"><td style="padding-left:14px;">　FeNO測定器</td><td></td><td class="num">50</td><td></td></tr>
+      <tr style="font-size:9px;color:#555;"><td style="padding-left:14px;">　心電図</td><td></td><td class="num">30</td><td></td></tr>
+      <tr style="font-size:9px;color:#555;"><td style="padding-left:14px;">　電子カルテ（CLINICS）初期費用・タブレット等</td><td>2026-09-01確定・Web予約・Web問診・自動精算込み</td><td class="num">200</td><td></td></tr>
+      <tr style="font-size:9px;color:#555;"><td style="padding-left:14px;">　自動精算機・キャッシュレス端末（スマレジfor Medical・釣銭機N300）</td><td></td><td class="num">173</td><td></td></tr>
+      <tr style="font-size:9px;color:#555;"><td style="padding-left:14px;">　医療備品一式（処置台・輸液ポンプ・診療器具等）</td><td></td><td class="num">267</td><td></td></tr>
+      <tr><td>開業準備資金</td><td>HP/SNS/MEO・看板・内覧会・採用費・研修・備品・医師会費 等（内訳は下表）</td><td class="num">約900</td><td>10年</td></tr>
+      <tr style="font-size:9px;color:#555;"><td style="padding-left:14px;">　HP制作・SNS・MEO</td><td>開業前6ヶ月から着手</td><td class="num">80</td><td></td></tr>
+      <tr style="font-size:9px;color:#555;"><td style="padding-left:14px;">　看板・サイン工事</td><td>外壁・道路誘導・駐車場表示</td><td class="num">80</td><td></td></tr>
+      <tr style="font-size:9px;color:#555;"><td style="padding-left:14px;">　内覧会・開業広告</td><td>チラシ・新聞掲載・地域PR</td><td class="num">100</td><td></td></tr>
+      <tr style="font-size:9px;color:#555;"><td style="padding-left:14px;">　採用費（求人広告・人材紹介）</td><td>看護師3名・事務3名 計6名</td><td class="num">150</td><td></td></tr>
+      <tr style="font-size:9px;color:#555;"><td style="padding-left:14px;">　スタッフ研修・ユニフォーム</td><td>院内研修・外部研修・制服</td><td class="num">80</td><td></td></tr>
+      <tr style="font-size:9px;color:#555;"><td style="padding-left:14px;">　事務用備品・什器</td><td></td><td class="num">80</td><td></td></tr>
+      <tr style="font-size:9px;color:#555;"><td style="padding-left:14px;">　医師賠償責任保険（初年度）</td><td></td><td class="num">20</td><td></td></tr>
+      <tr style="font-size:9px;color:#555;"><td style="padding-left:14px;">　医師会入会金・負担金</td><td>宮崎市郡・宮崎県・日本医師会（A会員）</td><td class="num">210</td><td></td></tr>
+      <tr style="font-size:9px;color:#555;"><td style="padding-left:14px;">　医師会初年度年会費</td><td>3会合計30〜40万円の中央値</td><td class="num">35</td><td></td></tr>
+      <tr style="font-size:9px;color:#555;"><td style="padding-left:14px;">　開業準備予備費</td><td></td><td class="num">65</td><td></td></tr>
+      <tr><td>諸費用・調整</td><td>許認可・損害保険・登記・準備費 等（内訳は下表）</td><td class="num">約500</td><td>10年</td></tr>
+      <tr style="font-size:9px;color:#555;"><td style="padding-left:14px;">　開発許可申請費用</td><td>市街化調整区域の場合に発生</td><td class="num">50</td><td></td></tr>
+      <tr style="font-size:9px;color:#555;"><td style="padding-left:14px;">　建築確認申請・検査費用</td><td>確認申請手数料・完了検査</td><td class="num">50</td><td></td></tr>
+      <tr style="font-size:9px;color:#555;"><td style="padding-left:14px;">　診療所開設届・保険医療機関申請</td><td>行政書士費用含む</td><td class="num">20</td><td></td></tr>
+      <tr style="font-size:9px;color:#555;"><td style="padding-left:14px;">　CT設置届出（医療法第15条・X線装置届）</td><td>放射線技師不在時の追加手続き含む</td><td class="num">30</td><td></td></tr>
+      <tr style="font-size:9px;color:#555;"><td style="padding-left:14px;">　各種損害保険（建物・医療賠償・火災等）</td><td>初年度一時払い分</td><td class="num">100</td><td></td></tr>
+      <tr style="font-size:9px;color:#555;"><td style="padding-left:14px;">　麻薬施用者免許・毒劇物取扱登録</td><td></td><td class="num">10</td><td></td></tr>
+      <tr style="font-size:9px;color:#555;"><td style="padding-left:14px;">　法人設立準備費（定款・登記）</td><td>開業後2〜3年目の法人成りに備えた準備費</td><td class="num">80</td><td></td></tr>
+      <tr style="font-size:9px;color:#555;"><td style="padding-left:14px;">　引越し・開業前諸経費</td><td></td><td class="num">60</td><td></td></tr>
+      <tr style="font-size:9px;color:#555;"><td style="padding-left:14px;">　調整・予備費</td><td>見積り誤差・追加申請対応</td><td class="num">100</td><td></td></tr>
+      <tr><td>運転資金</td><td>開業初期赤字・保険診療入金2ヶ月遅れ対応</td><td class="num">約2,500</td><td>10年</td></tr>
+    </tbody>
+    <tfoot><tr><td colspan="2"><strong>融資希望合計</strong></td><td class="num"><strong>約23,200</strong></td><td></td></tr></tfoot>
+  </table>
+  <p class="sub-h">※ 担保設定可能な資産：①購入予定土地2筆（本融資にて取得）②自宅不動産（院長所有）③院長個人資産 約8,000万円（現預金・有価証券等）。</p>
+  <p class="sub-h">※ 主要医療機器はリファービッシュ品で購入（デジタルX線・超音波エコー・経鼻内視鏡・16列CT）。月額リースなし。電子カルテはCLINICS（2026年9月確定）。</p>
+  <p class="sub-h">※ 融資希望総額 約23,200万円。設備資金20年返済分（約20,700万）＋運転資金・準備資金10年返済分（約2,500万）の2本立て構成。金利・返済条件は融資先金融機関との交渉の上で確定。設備資金（元利均等）の参考月次返済額：1.8%で約103万/月・据え置き中は利息のみ。</p>
+</div>
+
+<!-- §10 -->
+<div class="section">
+  <h2>１０．開業時スタッフ計画・人件費内訳</h2>
+  <table class="tbl">
+    <thead><tr><th>職種</th><th style="width:60px;" class="ctr">人数</th><th style="width:130px;" class="ctr">月額給与（目安）</th><th class="num" style="width:90px;">小計</th></tr></thead>
+    <tbody>
+      <tr><td>正看護師（常勤）</td><td class="ctr">2名</td><td class="ctr">24万円×2</td><td class="num">48万円</td></tr>
+      <tr><td>准看護師（常勤）</td><td class="ctr">1名</td><td class="ctr">20万円</td><td class="num">20万円</td></tr>
+      <tr><td>看護師パート（AM専従）</td><td class="ctr">1名</td><td class="ctr">時給1,400円×85h</td><td class="num">12万円</td></tr>
+      <tr><td>医療事務（常勤）</td><td class="ctr">2名</td><td class="ctr">21.5万円×2</td><td class="num">43万円</td></tr>
+      <tr><td>医療事務パート</td><td class="ctr">1名</td><td class="ctr">時給1,100円×95h</td><td class="num">10.5万円</td></tr>
+      <tr><td>通勤手当</td><td class="ctr">—</td><td class="ctr">—</td><td class="num">7万円</td></tr>
+      <tr><td>社保（常勤5名・法人負担分15.56%）</td><td class="ctr">—</td><td class="ctr">—</td><td class="num">17.3万円</td></tr>
+      <tr><td>社保（パート・雇用+労災1.2%）</td><td class="ctr">—</td><td class="ctr">—</td><td class="num">0.3万円</td></tr>
+      <tr><td>賞与積立月割（常勤4ヶ月分÷12）</td><td class="ctr">—</td><td class="ctr">—</td><td class="num">27.8万円</td></tr>
+      <tr><td>賞与社保積立</td><td class="ctr">—</td><td class="ctr">—</td><td class="num">4.3万円</td></tr>
+    </tbody>
+    <tfoot>
+      <tr><td colspan="3"><strong>スタッフ人件費　合計（開業時・院長生活費除く）</strong></td><td class="num"><strong>190万円</strong></td></tr>
+      <tr style="font-size:10px;color:#666;"><td colspan="3">安定期（70人/日到達後）：正看護師1名追加＋事務パート1名追加（+48万）→ <strong>238万円</strong>　※人件費/粗利＝45%設計</td><td class="num">238万円</td></tr>
+    </tfoot>
+  </table>
+  <p style="font-size:10px;margin-top:4px;">【採用戦略】診療は月曜〜金曜のみ（土日完全休日）とすることで「週休2日固定・夜勤なし・残業なし」を実現。採用難の医療労働市場において「土日休みのクリニック」は求人競争力が高く、質の高い応募者の確保を期待している。</p>
+</div>
+
+<!-- §11 -->
+<div class="section">
+  <h2>１１．月次固定費の内訳</h2>
+  <table class="tbl">
+    <thead><tr><th style="width:170px;">費目</th><th>備考</th><th class="num" style="width:80px;">月額</th></tr></thead>
+    <tbody>
+      <tr><td>人件費（スタッフ）</td><td>開業時190万／安定期（70人超）238万（正看護師1名・事務パート1名追加）</td><td class="num">190万円</td></tr>
+      <tr><td>薬品・消耗品</td><td>季節変動あり</td><td class="num">80万円</td></tr>
+      <tr><td>IT・読影・サブスク</td><td>CLINICS月額・各種サブスク（電子カルテ初期費は医療機器費に計上済）</td><td class="num">9万円</td></tr>
+      <tr><td>光熱費</td><td></td><td class="num">12万円</td></tr>
+      <tr><td>保険・広告・雑費</td><td></td><td class="num">30万円</td></tr>
+      <tr><td>CT保守費</td><td>年間保守契約（固定費）</td><td class="num">15万円</td></tr>
+      <tr><td>CT読影費</td><td>外部委託（固定計上・月10万円）</td><td class="num">10万円</td></tr>
+      <tr><td>税理士費用</td><td>顧問料3万＋決算報酬月割1.5万＋四半期チェック</td><td class="num">6万円</td></tr>
+      <tr><td>借入返済</td><td>設備資金20年元利均等（金利条件確定後）・下記感応度参照</td><td class="num">103万円</td></tr>
+      <tr><td>医師会費</td><td></td><td class="num">3万円</td></tr>
+    </tbody>
+    <tfoot><tr><td colspan="2"><strong>運営固定費合計（返済含む・開業時ベース）</strong><br><small style="font-weight:normal;">人件費190＋薬品80＋IT9＋光熱12＋広告30＋CT保守15＋読影10＋税理士6＋医師会3＋返済103</small></td><td class="num"><strong>458万円</strong></td></tr></tfoot>
+  </table>
+  <p class="sub-h">※ 院長生活費（事業主貸）は別途（M1〜6：月100万、M7〜：月125万・年最大1,500万。法人成り後に改めて設計）</p>
+  <p class="sub-h">※ 薬品・消耗品費：内視鏡1件あたり2,000〜3,000円の消耗品が発生（件数比例）。ワクチンシーズン（10〜2月）は+10〜15万円の季節変動を見込む。</p>
+</div>
+
+<!-- §12 -->
+<div class="section">
+  <h2>１２．現職クリニックでの実績（参考）</h2>
+  <table class="tbl">
+    <thead><tr><th style="width:200px;">指標</th><th style="width:130px;">実績値</th><th>備考</th></tr></thead>
+    <tbody>
+      <tr><td>通常時の1日来院患者数</td><td><strong>約150人/日</strong></td><td>常勤医2名＋非常勤体制</td></tr>
+      <tr><td>冬季ピーク来院患者数</td><td><strong>約250人/日</strong></td><td>インフルエンザ・感染症期</td></tr>
+      <tr><td>現職の年収</td><td><strong>1,500万円</strong></td><td>副院長（2023年10月〜現在）</td></tr>
+    </tbody>
+  </table>
+  <p style="font-size:10px;margin-top:4px;">当院の安定期目標（70人/日）は現職実績（150人/日）の47%であり、保守的な設定です。</p>
+</div>
+
+<div class="doc-footer">
+  <span>木花のむら診療所 開業準備室</span>
+  <span>3 / 5</span>
+</div>
+
+<!-- ══ P4 ══ -->
+<div class="page-break">
+<div class="page-header">
+  <div><div class="page-header-title">木花のむら診療所　事業計画書</div><div class="page-header-sub">月次収支計画（24ヶ月）・将来成長戦略</div></div>
+  <div class="page-header-meta">2026年9月　院長　野村 信介</div>
+</div>
+
+<!-- §13 -->
+<div class="section">
+  <h2>１３．資金繰り計画（24ヶ月）― 返済前余剰ベース・金利感応度分析付き</h2>
+  <table class="cf-tbl">
+    <thead>
+      <tr>
+        <th style="width:55px;">月</th>
+        <th style="width:60px;">患者/日</th>
+        <th style="width:145px;">現金入金<br>保険+自費+CT収入</th>
+        <th style="width:105px;">事業支出<br>運営費固定（返済除く）</th>
+        <th style="width:105px;">院長生活費<br>（事業主貸）</th>
+        <th style="width:85px;">返済前<br>月次余剰</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td class="row-label">M1</td><td class="ctr">25人</td><td>30万（自費のみ）</td><td class="ctr">385万</td><td class="ctr">100万</td><td class="neg">▲455万</td></tr>
+      <tr><td class="row-label">M2</td><td class="ctr">35人</td><td>30万（自費のみ）</td><td class="ctr">385万</td><td class="ctr">100万</td><td class="neg">▲455万</td></tr>
+      <tr><td class="row-label">M3</td><td class="ctr">42人</td><td>348万（M1保険+CT43万）</td><td class="ctr">385万</td><td class="ctr">100万</td><td class="neg">▲137万</td></tr>
+      <tr><td class="row-label">M4</td><td class="ctr">48人</td><td>475万（M2保険+CT60万）</td><td class="ctr">385万</td><td class="ctr">100万</td><td class="neg">▲10万</td></tr>
+      <tr style="background:#EAF4EA;"><td class="row-label">M5</td><td class="ctr">52人</td><td>552万（M3保険+CT60万）</td><td class="ctr">385万</td><td class="ctr">100万</td><td class="pos">+67万</td></tr>
+      <tr><td class="row-label">M6</td><td class="ctr">55人</td><td>618万</td><td class="ctr">385万</td><td class="ctr">100万</td><td class="pos">+133万</td></tr>
+      <tr><td class="row-label">M7</td><td class="ctr">58人</td><td>662万</td><td class="ctr">385万</td><td class="ctr">125万</td><td class="pos">+152万</td></tr>
+      <tr><td class="row-label">M8</td><td class="ctr">60人</td><td>695万</td><td class="ctr">385万</td><td class="ctr">125万</td><td class="pos">+185万</td></tr>
+      <tr><td class="row-label">M9</td><td class="ctr">62人</td><td>728万</td><td class="ctr">385万</td><td class="ctr">125万</td><td class="pos">+218万</td></tr>
+      <tr><td class="row-label">M10〜M12</td><td class="ctr">63〜65人</td><td>750〜783万</td><td class="ctr">385万</td><td class="ctr">125万</td><td class="pos">+240〜273万</td></tr>
+      <tr class="sep"><td colspan="6">── M13より元利均等返済開始（金利条件確定後）── 月次余剰から返済額を差し引いた実手取りは下記感応度参照 ──</td></tr>
+      <tr><td class="row-label">M13</td><td class="ctr">65人</td><td>805万</td><td class="ctr">385万</td><td class="ctr">125万</td><td class="pos">+295万</td></tr>
+      <tr><td class="row-label">M14〜M17</td><td class="ctr">66〜69人</td><td>810〜830万</td><td class="ctr">385万</td><td class="ctr">125万</td><td class="pos">+300〜320万</td></tr>
+      <tr class="stable"><td class="row-label">M18〜</td><td class="ctr">70人</td><td>860万</td><td class="ctr">385万</td><td class="ctr">125万</td><td class="pos">+350万</td></tr>
+    </tbody>
+  </table>
+
+  <div class="sens-box">
+    <strong>金利感応度分析（設備資金 約2億700万・20年返済）</strong>
+    <table class="sens" style="margin-top:6px;">
+      <thead><tr><th style="width:200px;" class="row-label">シナリオ</th><th>金利 1.5%</th><th>金利 1.8%</th><th>金利 2.0%</th><th>金利 2.5%</th></tr></thead>
+      <tbody>
+        <tr><td class="row-label">据置利息（月額）</td><td>26万円</td><td>31万円</td><td>35万円</td><td>43万円</td></tr>
+        <tr><td class="row-label">元利均等返済（月額・設備資金分）</td><td>100万円</td><td>103万円</td><td>107万円</td><td>113万円</td></tr>
+        <tr><td class="row-label">BEP患者数（37人/日・固定費495万）</td><td>37人/日</td><td>37人/日</td><td>38人/日</td><td>38人/日</td></tr>
+        <tr><td class="row-label">安定期（70人/日）月次余剰（返済後・院長報酬150万含む）</td><td class="pos">+約340万円</td><td class="pos">+約337万円</td><td class="pos">+約333万円</td><td class="pos">+約327万円</td></tr>
+      </tbody>
+    </table>
+    <p class="sub-h" style="margin-top:5px;">※ 融資希望総額約23,200万。設備資金20年返済分（約20,700万）＋運転資金・開業準備10年返済分（約2,500万）の2本立て。いずれの金利条件でも安定期（70人/日）に月次余剰+330万円以上を確保。人件費/粗利=45%の財務健全性設計。</p>
+  </div>
+  <p class="sub-h" style="margin-top:4px;">※ 院長生活費（事業主貸）：M1〜6：月100万、M7〜：月125万。事業経費ではなく利益からの引き出し。</p>
+</div>
+
+<!-- §14 -->
+<div class="section">
+  <h2>１４．将来的な成長余地（安定期以降のアップサイド）</h2>
+  <table class="tbl">
+    <thead><tr><th style="width:240px;">成長要因</th><th style="width:120px;">時期</th><th class="num">月次余剰への影響</th></tr></thead>
+    <tbody>
+      <tr><td><strong>イシャチョク®（オンライン診療）</strong><br><small>開業時・閑散期に限定活用</small></td><td>開業初日〜</td><td class="num">+25〜44万円/月</td></tr>
+      <tr><td><strong>土曜非常勤診療の開始</strong><br><small>松島先生による土曜午前対面診療</small></td><td>患者数75人超で段階導入</td><td class="num">+約60〜80万/月</td></tr>
+      <tr><td><strong>施設往診の開始</strong><br><small>近隣介護施設との定期訪問契約（50〜80名）</small></td><td>開院1〜2年目〜</td><td class="num">+130〜210万円/月</td></tr>
+      <tr><td><strong>大腸内視鏡の追加</strong><br><small>上部内視鏡稼働を確認後に追加導入</small></td><td>開院2〜3年目</td><td class="num">+65〜130万円/月</td></tr>
+      <tr><td><strong>CT件数の増加（病院連携強化）</strong><br><small>開業医ネットワーク・医師会経由のCT撮影依頼受入</small></td><td>開院1〜2年目〜</td><td class="num">+30〜60万円/月（+25〜50件/月）</td></tr>
+      <tr><td><strong>山下橋（清武川）開通後の流入増</strong><br><small>東宮・希望ヶ丘・まなび野・本郷地区（人口約2.8万人）へのアクセス向上</small></td><td>2037年頃（開院後10年）</td><td class="num">+約200万円/月（+12〜18人/日）</td></tr>
+      <tr><td><strong>短期借入の完済</strong><br><small>10年返済分（5,835万円）の完済</small></td><td>2038年頃</td><td class="num">+58万円/月</td></tr>
+      <tr><td><strong>高齢院長クリニックの診療体制変化</strong><br><small>圏内70歳超（推定）院長クリニック複数が中長期で変化</small></td><td>開院後5〜10年以内</td><td class="num">+約290〜430万円/月</td></tr>
+    </tbody>
+  </table>
+  <p class="sub-h">※ いずれも診療圏調査（内科35名＋小児16名＝51名）の試算には含まれていない上積み要因であり、確約ではなく将来シナリオとして提示している。</p>
+  <p class="sub-h">※ 院長44歳開業・65歳完済（20年ローン）の設計で、地域への長期安定的な医療供給と経営の持続性を両立する計画である。</p>
+</div>
+
+<div class="doc-footer">
+  <span>木花のむら診療所 開業準備室</span>
+  <span>4 / 5</span>
+</div>
+
+<!-- ══ P5 ══ -->
+<div class="page-break">
+<div class="page-header">
+  <div><div class="page-header-title">木花のむら診療所　事業計画書</div><div class="page-header-sub">3ヶ年損益計算書・収益根拠・代表者財産状況・開業スケジュール</div></div>
+  <div class="page-header-meta">2026年9月　院長　野村 信介</div>
+</div>
+
+<!-- §15 -->
+<div class="section">
+  <h2>１５．3ヶ年損益計算書（年次・個人事業ベース）</h2>
+  <table class="pl">
+    <thead>
+      <tr>
+        <th style="width:200px;">項目</th>
+        <th style="width:170px;">Year 1<br>2027/10〜2028/9</th>
+        <th style="width:170px;">Year 2<br>2028/10〜2029/9</th>
+        <th style="width:170px;">Year 3<br>2029/10〜2030/9</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr class="row-cat"><td colspan="4">【医業収入】合計</td></tr>
+      <tr><td style="padding-left:14px;">保険診療収入</td><td class="num">5,500万円</td><td class="num">9,025万円</td><td class="num">9,240万円</td></tr>
+      <tr><td style="padding-left:14px;">自費診療収入</td><td class="num">360万円</td><td class="num">360万円</td><td class="num">360万円</td></tr>
+      <tr><td style="padding-left:14px;">CT検査収入</td><td class="num">583万円</td><td class="num">720万円</td><td class="num">720万円</td></tr>
+      <tr style="background:#F8F7F4;font-weight:bold;"><td>【医業収入】合計</td><td class="num">6,443万円</td><td class="num">10,105万円</td><td class="num">10,320万円</td></tr>
+      <tr class="row-cat"><td colspan="4">【医業費用】</td></tr>
+      <tr><td style="padding-left:14px;">人件費（スタッフ）</td><td class="num">2,640万円</td><td class="num">2,640万円</td><td class="num">2,640万円</td></tr>
+      <tr><td style="padding-left:14px;">薬品・消耗品費</td><td class="num">960万円</td><td class="num">960万円</td><td class="num">960万円</td></tr>
+      <tr><td style="padding-left:14px;">IT・委託・通信費</td><td class="num">108万円</td><td class="num">108万円</td><td class="num">108万円</td></tr>
+      <tr><td style="padding-left:14px;">光熱費</td><td class="num">144万円</td><td class="num">144万円</td><td class="num">144万円</td></tr>
+      <tr><td style="padding-left:14px;">広告・保険料・雑費</td><td class="num">360万円</td><td class="num">360万円</td><td class="num">360万円</td></tr>
+      <tr><td style="padding-left:14px;">医師会費</td><td class="num">36万円</td><td class="num">36万円</td><td class="num">36万円</td></tr>
+      <tr><td style="padding-left:14px;">CT保守費</td><td class="num">180万円</td><td class="num">180万円</td><td class="num">180万円</td></tr>
+      <tr><td style="padding-left:14px;">CT読影費</td><td class="num">120万円</td><td class="num">120万円</td><td class="num">120万円</td></tr>
+      <tr><td style="padding-left:14px;">税理士費用</td><td class="num">72万円</td><td class="num">72万円</td><td class="num">72万円</td></tr>
+      <tr><td style="padding-left:14px;">減価償却費</td><td class="num">899万円</td><td class="num">899万円</td><td class="num">899万円</td></tr>
+      <tr style="background:#F8F7F4;font-weight:bold;"><td>【医業費用】合計</td><td class="num">5,519万円</td><td class="num">5,519万円</td><td class="num">5,519万円</td></tr>
+      <tr class="ebit"><td>EBIT（支払利息・税引前）</td><td class="num">924万円</td><td class="num">4,586万円</td><td class="num">4,801万円</td></tr>
+    </tbody>
+  </table>
+  <table class="pl" style="margin-top:4px;">
+    <thead>
+      <tr><th style="width:200px;">支払利息（金利条件別）</th><th style="width:170px;">Year 1</th><th style="width:170px;">Year 2</th><th style="width:170px;">Year 3</th></tr>
+    </thead>
+    <tbody>
+      <tr><td style="padding-left:8px;">金利 1.5%</td><td class="num">346万円</td><td class="num">323万円</td><td class="num">297万円</td></tr>
+      <tr><td style="padding-left:8px;">金利 1.8%</td><td class="num">415万円</td><td class="num">388万円</td><td class="num">356万円</td></tr>
+      <tr><td style="padding-left:8px;">金利 2.0%</td><td class="num">461万円</td><td class="num">431万円</td><td class="num">396万円</td></tr>
+      <tr><td style="padding-left:8px;">金利 2.5%</td><td class="num">576万円</td><td class="num">538万円</td><td class="num">493万円</td></tr>
+    </tbody>
+  </table>
+  <table class="pl" style="margin-top:4px;">
+    <thead>
+      <tr><th style="width:200px;">事業所得（金利条件別）</th><th style="width:170px;">Year 1</th><th style="width:170px;">Year 2</th><th style="width:170px;">Year 3</th></tr>
+    </thead>
+    <tbody>
+      <tr class="profit"><td style="padding-left:8px;">金利 1.5%</td><td class="num">578万円</td><td class="num">4,263万円</td><td class="num">4,504万円</td></tr>
+      <tr class="profit"><td style="padding-left:8px;">金利 1.8%</td><td class="num">509万円</td><td class="num">4,198万円</td><td class="num">4,445万円</td></tr>
+      <tr class="profit"><td style="padding-left:8px;">金利 2.0%</td><td class="num">463万円</td><td class="num">4,155万円</td><td class="num">4,405万円</td></tr>
+      <tr class="profit"><td style="padding-left:8px;">金利 2.5%</td><td class="num">348万円</td><td class="num">4,048万円</td><td class="num">4,308万円</td></tr>
+    </tbody>
+  </table>
+  <p class="sub-h" style="margin-top:5px;">【参考・PL外のキャッシュフロー】院長生活費（事業主貸）：Y1 1,350万円 / Y2〜Y3 各1,500万円 ／ 元本返済：Y1 0円（据置）/ Y2〜Y3 各1,284万円</p>
+  <p class="sub-h">※ 個人事業主のため、院長生活費（事業主貸）は経費ではなく利益からの引き出し。事業所得がそのまま課税対象となる。</p>
+  <p class="sub-h">※ Y1は開業初月〜満1年。保険収入は2ヶ月入金タイムラグを反映（発生主義）。減価償却費：建物・医療機器一式で約899万/年。</p>
+  <p class="sub-h">※ いずれの金利条件でもY1から黒字を確保。支払利息の差は年間最大230万円（1.5%〜2.5%の幅）にとどまり、事業継続性への影響は軽微。</p>
+</div>
+
+<!-- §16 -->
+<div class="section">
+  <h2>１６．収益計画の算定根拠</h2>
+  <div style="display:flex;gap:12px;">
+    <div style="flex:1;">
+      <h3>■ 保険診療 患者単価5,000円の根拠</h3>
+      <table class="tbl" style="font-size:9.5px;">
+        <thead><tr><th>診療区分</th><th>想定単価</th><th class="ctr">比率</th></tr></thead>
+        <tbody>
+          <tr><td>内科・一般外来（再診料＋処方＋検査）</td><td>3,500〜4,500円</td><td class="ctr">約60%</td></tr>
+          <tr><td>外科処置・小手術（創傷・皮膚腫瘤等）</td><td>6,000〜15,000円</td><td class="ctr">約15%</td></tr>
+          <tr><td>上部内視鏡（経鼻胃カメラ）</td><td>7,000〜10,000円</td><td class="ctr">約5%</td></tr>
+          <tr><td>小児科・アレルギー等（初診料＋処方）</td><td>3,000〜4,500円</td><td class="ctr">約20%</td></tr>
+        </tbody>
+      </table>
+      <p class="sub-h" style="margin-top:3px;">加重平均≒5,000円/人。現職クリニック（早水公園クリニック）での実績単価を参考に保守的に設定。</p>
+    </div>
+    <div style="flex:1;">
+      <h3>■ CT検査収入 60万円/月の根拠（安定期）</h3>
+      <table class="tbl" style="font-size:9.5px;">
+        <thead><tr><th>項目</th><th>内容</th></tr></thead>
+        <tbody>
+          <tr><td>CT件数（安定期）</td><td>50件/月</td></tr>
+          <tr><td>CT診療報酬単価</td><td>約12,000円/件（単純CT・3割負担なら4,000円）</td></tr>
+          <tr><td>月間CT収入</td><td><strong>60万円/月</strong></td></tr>
+          <tr><td>うち読影費（外部委託）</td><td>▲10万円/月（固定）</td></tr>
+          <tr><td>CT収入純益（安定期）</td><td><strong>+50万円/月</strong></td></tr>
+        </tbody>
+      </table>
+      <p class="sub-h" style="margin-top:3px;">院長自身が1件3分で操作（技師不要）。入金は撮影の翌々月。保守費15万/月は固定費として別計上。</p>
+    </div>
+  </div>
+  <h3 style="margin-top:8px;">■ 自費診療収入 30万円/月の内訳</h3>
+  <table class="tbl" style="font-size:9.5px;width:auto;min-width:480px;">
+    <thead><tr><th style="width:180px;">メニュー</th><th style="width:80px;" class="ctr">月間件数</th><th style="width:80px;" class="ctr">単価</th><th class="num" style="width:90px;">月間収入</th></tr></thead>
+    <tbody>
+      <tr><td>GLP-1/マンジャロ</td><td class="ctr">5件</td><td class="ctr">15,000円</td><td class="num">75,000円</td></tr>
+      <tr><td>AGA/FAGA</td><td class="ctr">5件</td><td class="ctr">8,000円</td><td class="num">40,000円</td></tr>
+      <tr><td>LOH症候群・TRT</td><td class="ctr">3件</td><td class="ctr">12,000円</td><td class="num">36,000円</td></tr>
+      <tr><td>ED治療薬</td><td class="ctr">5件</td><td class="ctr">5,000円</td><td class="num">25,000円</td></tr>
+      <tr><td>花粉症ケナコルト（年平均換算）</td><td class="ctr">5件</td><td class="ctr">10,000円</td><td class="num">50,000円</td></tr>
+      <tr><td>その他継続処方等</td><td class="ctr">—</td><td class="ctr">—</td><td class="num">74,000円</td></tr>
+    </tbody>
+    <tfoot><tr><td colspan="3"><strong>合計</strong></td><td class="num"><strong>300,000円</strong></td></tr></tfoot>
+  </table>
+</div>
+
+<!-- §17 -->
+<div class="section">
+  <h2>１７．代表者財産状況</h2>
+  <table class="tbl">
+    <thead><tr><th style="width:160px;">区分</th><th>内容・所在</th><th class="num" style="width:130px;">概算金額</th></tr></thead>
+    <tbody>
+      <tr><td>現預金・定期預金</td><td>銀行普通・定期預金（複数行）</td><td class="num">別途明細提出</td></tr>
+      <tr><td>有価証券・投資信託</td><td>株式・投資信託等</td><td class="num">別途明細提出</td></tr>
+      <tr><td>自宅不動産</td><td>宮崎市熊野（院長所有・居住中）</td><td class="num">別途評価額提出</td></tr>
+      <tr><td>その他資産</td><td>退職金見込み・生命保険解約返戻金等</td><td class="num">別途明細提出</td></tr>
+      <tr style="background:#F8F7F4;font-weight:bold;"><td>個人資産合計（概算）</td><td>現預金・有価証券・不動産の合計</td><td class="num">約8,000万円</td></tr>
+      <tr style="background:#F8F7F4;font-weight:bold;"><td>個人借入残高</td><td>なし（住宅ローン含め一切なし）</td><td class="num">0円</td></tr>
+      <tr><td>担保提供可能資産</td><td>①購入予定土地（本融資で取得）　②自宅不動産　③個人金融資産</td><td class="num">十分な担保力あり</td></tr>
+    </tbody>
+  </table>
+  <p class="sub-h" style="margin-top:4px;">※ 現職年収1,500万円（副院長・2023年10月〜）。個人借入ゼロで開業前から貯蓄余力が高い状態を維持。</p>
+  <p class="sub-h">※ 詳細明細（預金通帳・証券残高・固定資産評価証明）は審査時に別途ご提出します。</p>
+</div>
+
+<!-- §18 -->
+<div class="section">
+  <h2>１８．開業スケジュール（月次ロードマップ）</h2>
+  <table class="tbl">
+    <thead><tr><th style="width:120px;">時期</th><th style="width:110px;">フェーズ</th><th>主な作業・マイルストーン</th></tr></thead>
+    <tbody>
+      <tr><td>2026年8〜9月</td><td><strong>土地確定期</strong></td><td>熊野5233-2 接道交渉完了・売買契約締結。金融機関との融資相談（面談済み）。AAO建築アトリエと設計ラフ最終確定</td></tr>
+      <tr><td>2026年10月</td><td><strong>申請期</strong></td><td>融資本申込（複数金融機関で比較選定）・建築確認申請提出・農地転用許可申請（農業委員会手続き）</td></tr>
+      <tr><td>2026年11月</td><td><strong>着工準備期</strong></td><td>地盤調査・仮設工事。施工会社（入札選定後）との請負契約締結</td></tr>
+      <tr><td>2026年12月〜2027年3月</td><td><strong>建設期（躯体）</strong></td><td>基礎工事・躯体工事・外装工事。CT室放射線遮蔽（鉛・コンクリート）工事を建物工事と並行施工</td></tr>
+      <tr><td>2027年4〜6月</td><td><strong>建設期（内装）</strong></td><td>内装仕上げ・医療ガス配管・X線防護工事・電気・空調設備工事。電子カルテ選定確定・導入準備。CT本体据付スペース最終確認</td></tr>
+      <tr><td>2027年7月</td><td><strong>竣工・機器搬入期</strong></td><td>竣工検査・医療機器搬入（内視鏡・デジタルX線・エコー等）・CT本体搬入・据付・試験撮影。スタッフ採用完了（看護師3・事務2・他）</td></tr>
+      <tr><td>2027年8月</td><td><strong>許認可申請期</strong></td><td>保険医療機関指定申請（宮崎市保健所・保健医療課）・施設基準届出・麻薬施用者免許申請・CT稼働に係る届出（医療法第15条・X線装置届）</td></tr>
+      <tr><td>2027年9月</td><td><strong>開院直前期</strong></td><td>内覧会・地域への告知（チラシ・SNS・看板設置）。スタッフ最終研修・カルテ動作確認。保険医療機関指定通知受領</td></tr>
+      <tr style="background:#FDE8E8;"><td><strong>2027年10月1日</strong></td><td><strong>開　院</strong></td><td><strong>診療開始（月〜金・週5日・8:15〜18:00）。開業初月目標患者数25人/日</strong></td></tr>
+      <tr><td>2028年4月〜</td><td><strong>安定成長期</strong></td><td>月次黒字転換（M5〜・52人/日目標）。施設往診・土曜非常勤の段階的導入を検討。安定期（70人/日）到達を目指す</td></tr>
+    </tbody>
+  </table>
+  <p class="sub-h" style="margin-top:4px;">※ 土地確定が2026年内に完了した場合の最短スケジュール。土地確定の遅れが最大のリスク要因（1ヶ月遅延ごとに開院が1ヶ月後ろ倒しになる）。</p>
+  <p class="sub-h">※ 保険医療機関指定は申請から指定まで通常1ヶ月前後（開院月の前月末までに申請が必要）。</p>
+</div>
+
+<div class="doc-footer">
+  <span>木花のむら診療所 開業準備室</span>
+  <span>5 / 5</span>
+</div>
+
+<div style="text-align:right;font-size:10.5px;margin-top:18px;padding-top:8px;border-top:1px solid var(--border);">
+  作成者　野村 信介
+</div>
+</div></div></div></div>

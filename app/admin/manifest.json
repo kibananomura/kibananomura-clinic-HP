@@ -1,61 +1,70 @@
 {
-  "generatedAt": "2026-10-16T05:18:11.471Z",
+  "generatedAt": "2026-10-16T05:26:11.353Z",
   "categories": [
     {
       "label": "労務規程一式（就業規則・賃金規程・各種規程）",
       "order": 1,
       "files": [
         {
-          "name": "01_就業規則_本則.pdf",
+          "name": "01_就業規則_本則",
           "url": "/admin-docs/labor-regulations/01_%E5%B0%B1%E6%A5%AD%E8%A6%8F%E5%89%87_%E6%9C%AC%E5%89%87.pdf",
+          "htmlUrl": "/admin-docs/labor-regulations/01_%E5%B0%B1%E6%A5%AD%E8%A6%8F%E5%89%87_%E6%9C%AC%E5%89%87.html",
           "sizeKB": 2393,
           "modified": "2026-10-15"
         },
         {
-          "name": "02_賃金規程.pdf",
+          "name": "02_賃金規程",
           "url": "/admin-docs/labor-regulations/02_%E8%B3%83%E9%87%91%E8%A6%8F%E7%A8%8B.pdf",
+          "htmlUrl": "/admin-docs/labor-regulations/02_%E8%B3%83%E9%87%91%E8%A6%8F%E7%A8%8B.html",
           "sizeKB": 1888,
           "modified": "2026-10-15"
         },
         {
-          "name": "03_パートタイマー就業規則.pdf",
+          "name": "03_パートタイマー就業規則",
           "url": "/admin-docs/labor-regulations/03_%E3%83%91%E3%83%BC%E3%83%88%E3%82%BF%E3%82%A4%E3%83%9E%E3%83%BC%E5%B0%B1%E6%A5%AD%E8%A6%8F%E5%89%87.pdf",
+          "htmlUrl": "/admin-docs/labor-regulations/03_%E3%83%91%E3%83%BC%E3%83%88%E3%82%BF%E3%82%A4%E3%83%9E%E3%83%BC%E5%B0%B1%E6%A5%AD%E8%A6%8F%E5%89%87.html",
           "sizeKB": 1873,
           "modified": "2026-10-15"
         },
         {
-          "name": "04_育児介護休業規程.pdf",
+          "name": "04_育児介護休業規程",
           "url": "/admin-docs/labor-regulations/04_%E8%82%B2%E5%85%90%E4%BB%8B%E8%AD%B7%E4%BC%91%E6%A5%AD%E8%A6%8F%E7%A8%8B.pdf",
+          "htmlUrl": "/admin-docs/labor-regulations/04_%E8%82%B2%E5%85%90%E4%BB%8B%E8%AD%B7%E4%BC%91%E6%A5%AD%E8%A6%8F%E7%A8%8B.html",
           "sizeKB": 1875,
           "modified": "2026-10-15"
         },
         {
-          "name": "05_ハラスメント防止および休職細則規程.pdf",
+          "name": "05_ハラスメント防止および休職細則規程",
           "url": "/admin-docs/labor-regulations/05_%E3%83%8F%E3%83%A9%E3%82%B9%E3%83%A1%E3%83%B3%E3%83%88%E9%98%B2%E6%AD%A2%E3%81%8A%E3%82%88%E3%81%B3%E4%BC%91%E8%81%B7%E7%B4%B0%E5%89%87%E8%A6%8F%E7%A8%8B.pdf",
+          "htmlUrl": "/admin-docs/labor-regulations/05_%E3%83%8F%E3%83%A9%E3%82%B9%E3%83%A1%E3%83%B3%E3%83%88%E9%98%B2%E6%AD%A2%E3%81%8A%E3%82%88%E3%81%B3%E4%BC%91%E8%81%B7%E7%B4%B0%E5%89%87%E8%A6%8F%E7%A8%8B.html",
           "sizeKB": 1804,
           "modified": "2026-10-15"
         },
         {
-          "name": "06_マイカー通勤規程.pdf",
+          "name": "06_マイカー通勤規程",
           "url": "/admin-docs/labor-regulations/06_%E3%83%9E%E3%82%A4%E3%82%AB%E3%83%BC%E9%80%9A%E5%8B%A4%E8%A6%8F%E7%A8%8B.pdf",
+          "htmlUrl": "/admin-docs/labor-regulations/06_%E3%83%9E%E3%82%A4%E3%82%AB%E3%83%BC%E9%80%9A%E5%8B%A4%E8%A6%8F%E7%A8%8B.html",
           "sizeKB": 1818,
           "modified": "2026-10-15"
         },
         {
-          "name": "07_労働条件通知書_兼_雇用契約書_テンプレート.pdf",
+          "name": "07_労働条件通知書_兼_雇用契約書_テンプレート",
           "url": "/admin-docs/labor-regulations/07_%E5%8A%B4%E5%83%8D%E6%9D%A1%E4%BB%B6%E9%80%9A%E7%9F%A5%E6%9B%B8_%E5%85%BC_%E9%9B%87%E7%94%A8%E5%A5%91%E7%B4%84%E6%9B%B8_%E3%83%86%E3%83%B3%E3%83%97%E3%83%AC%E3%83%BC%E3%83%88.pdf",
+          "htmlUrl": "/admin-docs/labor-regulations/07_%E5%8A%B4%E5%83%8D%E6%9D%A1%E4%BB%B6%E9%80%9A%E7%9F%A5%E6%9B%B8_%E5%85%BC_%E9%9B%87%E7%94%A8%E5%A5%91%E7%B4%84%E6%9B%B8_%E3%83%86%E3%83%B3%E3%83%97%E3%83%AC%E3%83%BC%E3%83%88.html",
           "sizeKB": 1901,
           "modified": "2026-10-15"
         },
         {
-          "name": "08_入社時誓約書_守秘義務およびSNS禁止誓約書_身元保証書.pdf",
+          "name": "08_入社時誓約書_守秘義務およびSNS禁止誓約書_身元保証書",
           "url": "/admin-docs/labor-regulations/08_%E5%85%A5%E7%A4%BE%E6%99%82%E8%AA%93%E7%B4%84%E6%9B%B8_%E5%AE%88%E7%A7%98%E7%BE%A9%E5%8B%99%E3%81%8A%E3%82%88%E3%81%B3SNS%E7%A6%81%E6%AD%A2%E8%AA%93%E7%B4%84%E6%9B%B8_%E8%BA%AB%E5%85%83%E4%BF%9D%E8%A8%BC%E6%9B%B8.pdf",
+          "htmlUrl": "/admin-docs/labor-regulations/08_%E5%85%A5%E7%A4%BE%E6%99%82%E8%AA%93%E7%B4%84%E6%9B%B8_%E5%AE%88%E7%A7%98%E7%BE%A9%E5%8B%99%E3%81%8A%E3%82%88%E3%81%B3SNS%E7%A6%81%E6%AD%A2%E8%AA%93%E7%B4%84%E6%9B%B8_%E8%BA%AB%E5%85%83%E4%BF%9D%E8%A8%BC%E6%9B%B8.html",
           "sizeKB": 1917,
           "modified": "2026-10-15"
         },
         {
-          "name": "09_社労士確認用チェックリスト_および運用ガイド.pdf",
+          "name": "09_社労士確認用チェックリスト_および運用ガイド",
           "url": "/admin-docs/labor-regulations/09_%E7%A4%BE%E5%8A%B4%E5%A3%AB%E7%A2%BA%E8%AA%8D%E7%94%A8%E3%83%81%E3%82%A7%E3%83%83%E3%82%AF%E3%83%AA%E3%82%B9%E3%83%88_%E3%81%8A%E3%82%88%E3%81%B3%E9%81%8B%E7%94%A8%E3%82%AC%E3%82%A4%E3%83%89.pdf",
+          "htmlUrl": "/admin-docs/labor-regulations/09_%E7%A4%BE%E5%8A%B4%E5%A3%AB%E7%A2%BA%E8%AA%8D%E7%94%A8%E3%83%81%E3%82%A7%E3%83%83%E3%82%AF%E3%83%AA%E3%82%B9%E3%83%88_%E3%81%8A%E3%82%88%E3%81%B3%E9%81%8B%E7%94%A8%E3%82%AC%E3%82%A4%E3%83%89.html",
           "sizeKB": 2002,
           "modified": "2026-10-15"
         }
@@ -66,38 +75,44 @@
       "order": 2,
       "files": [
         {
-          "name": "雇用契約書_ひな形_20261015.pdf",
+          "name": "雇用契約書_ひな形_20261015",
           "url": "/admin-docs/employment-contracts/%E9%9B%87%E7%94%A8%E5%A5%91%E7%B4%84%E6%9B%B8_%E3%81%B2%E3%81%AA%E5%BD%A2_20261015.pdf",
+          "htmlUrl": null,
           "sizeKB": 907,
           "modified": "2026-10-15"
         },
         {
-          "name": "雇用契約書_医療事務（受付）版_20261015.pdf",
+          "name": "雇用契約書_医療事務（受付）版_20261015",
           "url": "/admin-docs/employment-contracts/%E9%9B%87%E7%94%A8%E5%A5%91%E7%B4%84%E6%9B%B8_%E5%8C%BB%E7%99%82%E4%BA%8B%E5%8B%99%EF%BC%88%E5%8F%97%E4%BB%98%EF%BC%89%E7%89%88_20261015.pdf",
+          "htmlUrl": null,
           "sizeKB": 803,
           "modified": "2026-10-15"
         },
         {
-          "name": "雇用契約書_理学療法士版_20261015.pdf",
+          "name": "雇用契約書_理学療法士版_20261015",
           "url": "/admin-docs/employment-contracts/%E9%9B%87%E7%94%A8%E5%A5%91%E7%B4%84%E6%9B%B8_%E7%90%86%E5%AD%A6%E7%99%82%E6%B3%95%E5%A3%AB%E7%89%88_20261015.pdf",
+          "htmlUrl": null,
           "sizeKB": 876,
           "modified": "2026-10-15"
         },
         {
-          "name": "雇用契約書_看護師版_20261015.pdf",
+          "name": "雇用契約書_看護師版_20261015",
           "url": "/admin-docs/employment-contracts/%E9%9B%87%E7%94%A8%E5%A5%91%E7%B4%84%E6%9B%B8_%E7%9C%8B%E8%AD%B7%E5%B8%AB%E7%89%88_20261015.pdf",
+          "htmlUrl": null,
           "sizeKB": 815,
           "modified": "2026-10-15"
         },
         {
-          "name": "雇用契約書_臨床検査技師版_20261015.pdf",
+          "name": "雇用契約書_臨床検査技師版_20261015",
           "url": "/admin-docs/employment-contracts/%E9%9B%87%E7%94%A8%E5%A5%91%E7%B4%84%E6%9B%B8_%E8%87%A8%E5%BA%8A%E6%A4%9C%E6%9F%BB%E6%8A%80%E5%B8%AB%E7%89%88_20261015.pdf",
+          "htmlUrl": null,
           "sizeKB": 835,
           "modified": "2026-10-15"
         },
         {
-          "name": "雇用契約書_診療放射線技師版_20261015.pdf",
+          "name": "雇用契約書_診療放射線技師版_20261015",
           "url": "/admin-docs/employment-contracts/%E9%9B%87%E7%94%A8%E5%A5%91%E7%B4%84%E6%9B%B8_%E8%A8%BA%E7%99%82%E6%94%BE%E5%B0%84%E7%B7%9A%E6%8A%80%E5%B8%AB%E7%89%88_20261015.pdf",
+          "htmlUrl": null,
           "sizeKB": 849,
           "modified": "2026-10-15"
         }
@@ -108,26 +123,30 @@
       "order": 3,
       "files": [
         {
-          "name": "就業規則_職種別付則_20261015.pdf",
+          "name": "就業規則_職種別付則_20261015",
           "url": "/admin-docs/work-rules-draft/%E5%B0%B1%E6%A5%AD%E8%A6%8F%E5%89%87_%E8%81%B7%E7%A8%AE%E5%88%A5%E4%BB%98%E5%89%87_20261015.pdf",
+          "htmlUrl": null,
           "sizeKB": 712,
           "modified": "2026-10-15"
         },
         {
-          "name": "木花のむら総合診療所_就業規則案_改訂版_20261015.pdf",
+          "name": "木花のむら総合診療所_就業規則案_改訂版_20261015",
           "url": "/admin-docs/work-rules-draft/%E6%9C%A8%E8%8A%B1%E3%81%AE%E3%82%80%E3%82%89%E7%B7%8F%E5%90%88%E8%A8%BA%E7%99%82%E6%89%80_%E5%B0%B1%E6%A5%AD%E8%A6%8F%E5%89%87%E6%A1%88_%E6%94%B9%E8%A8%82%E7%89%88_20261015.pdf",
+          "htmlUrl": null,
           "sizeKB": 936,
           "modified": "2026-10-15"
         },
         {
-          "name": "木花のむら診療所_就業規則案_20260929.pdf",
+          "name": "木花のむら診療所_就業規則案_20260929",
           "url": "/admin-docs/work-rules-draft/%E6%9C%A8%E8%8A%B1%E3%81%AE%E3%82%80%E3%82%89%E8%A8%BA%E7%99%82%E6%89%80_%E5%B0%B1%E6%A5%AD%E8%A6%8F%E5%89%87%E6%A1%88_20260929.pdf",
+          "htmlUrl": null,
           "sizeKB": 861,
           "modified": "2026-09-29"
         },
         {
-          "name": "看護師_給与等級表_20261015.pdf",
+          "name": "看護師_給与等級表_20261015",
           "url": "/admin-docs/work-rules-draft/%E7%9C%8B%E8%AD%B7%E5%B8%AB_%E7%B5%A6%E4%B8%8E%E7%AD%89%E7%B4%9A%E8%A1%A8_20261015.pdf",
+          "htmlUrl": null,
           "sizeKB": 569,
           "modified": "2026-10-15"
         }
@@ -138,14 +157,16 @@
       "order": 4,
       "files": [
         {
-          "name": "のむら木花診療所_看護師採用案内2.pdf",
+          "name": "のむら木花診療所_看護師採用案内2",
           "url": "/admin-docs/recruiting/%E3%81%AE%E3%82%80%E3%82%89%E6%9C%A8%E8%8A%B1%E8%A8%BA%E7%99%82%E6%89%80_%E7%9C%8B%E8%AD%B7%E5%B8%AB%E6%8E%A1%E7%94%A8%E6%A1%88%E5%86%852.pdf",
+          "htmlUrl": null,
           "sizeKB": 1070,
           "modified": "2026-07-27"
         },
         {
-          "name": "木花のむら診療所_看護師採用案内.pdf",
+          "name": "木花のむら診療所_看護師採用案内",
           "url": "/admin-docs/recruiting/%E6%9C%A8%E8%8A%B1%E3%81%AE%E3%82%80%E3%82%89%E8%A8%BA%E7%99%82%E6%89%80_%E7%9C%8B%E8%AD%B7%E5%B8%AB%E6%8E%A1%E7%94%A8%E6%A1%88%E5%86%85.pdf",
+          "htmlUrl": null,
           "sizeKB": 1070,
           "modified": "2026-07-31"
         }
@@ -156,8 +177,9 @@
       "order": 5,
       "files": [
         {
-          "name": "木花のむら診療所_採用面接質問チェックシート_20260929.pdf",
+          "name": "木花のむら診療所_採用面接質問チェックシート_20260929",
           "url": "/admin-docs/interview-checklist/%E6%9C%A8%E8%8A%B1%E3%81%AE%E3%82%80%E3%82%89%E8%A8%BA%E7%99%82%E6%89%80_%E6%8E%A1%E7%94%A8%E9%9D%A2%E6%8E%A5%E8%B3%AA%E5%95%8F%E3%83%81%E3%82%A7%E3%83%83%E3%82%AF%E3%82%B7%E3%83%BC%E3%83%88_20260929.pdf",
+          "htmlUrl": null,
           "sizeKB": 845,
           "modified": "2026-09-29"
         }
@@ -168,8 +190,9 @@
       "order": 5.5,
       "files": [
         {
-          "name": "開業前研修_労務オリエンテーション資料_20261016.pdf",
+          "name": "開業前研修_労務オリエンテーション資料_20261016",
           "url": "/admin-docs/pre-opening-training-labor/%E9%96%8B%E6%A5%AD%E5%89%8D%E7%A0%94%E4%BF%AE_%E5%8A%B4%E5%8B%99%E3%82%AA%E3%83%AA%E3%82%A8%E3%83%B3%E3%83%86%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E8%B3%87%E6%96%99_20261016.pdf",
+          "htmlUrl": null,
           "sizeKB": 1098,
           "modified": "2026-10-16"
         }
@@ -180,8 +203,9 @@
       "order": 6,
       "files": [
         {
-          "name": "医療機器見積価格_総まとめ_20261015.pdf",
+          "name": "医療機器見積価格_総まとめ_20261015",
           "url": "/admin-docs/equipment-summary/%E5%8C%BB%E7%99%82%E6%A9%9F%E5%99%A8%E8%A6%8B%E7%A9%8D%E4%BE%A1%E6%A0%BC_%E7%B7%8F%E3%81%BE%E3%81%A8%E3%82%81_20261015.pdf",
+          "htmlUrl": null,
           "sizeKB": 1494,
           "modified": "2026-10-15"
         }
@@ -192,20 +216,23 @@
       "order": 7,
       "files": [
         {
-          "name": "CTと一般撮影装置　参考価格.pdf",
+          "name": "CTと一般撮影装置　参考価格",
           "url": "/admin-docs/equipment-quotes/CT%E3%81%A8%E4%B8%80%E8%88%AC%E6%92%AE%E5%BD%B1%E8%A3%85%E7%BD%AE%E3%80%80%E5%8F%82%E8%80%83%E4%BE%A1%E6%A0%BC.pdf",
+          "htmlUrl": null,
           "sizeKB": 1306,
           "modified": "2026-10-13"
         },
         {
-          "name": "コニカ機器　参考価格.pdf",
+          "name": "コニカ機器　参考価格",
           "url": "/admin-docs/equipment-quotes/%E3%82%B3%E3%83%8B%E3%82%AB%E6%A9%9F%E5%99%A8%E3%80%80%E5%8F%82%E8%80%83%E4%BE%A1%E6%A0%BC.pdf",
+          "htmlUrl": null,
           "sizeKB": 831,
           "modified": "2026-10-13"
         },
         {
-          "name": "木花のむら診療所_医療機器物品リスト.pdf",
+          "name": "木花のむら診療所_医療機器物品リスト",
           "url": "/admin-docs/equipment-quotes/%E6%9C%A8%E8%8A%B1%E3%81%AE%E3%82%80%E3%82%89%E8%A8%BA%E7%99%82%E6%89%80_%E5%8C%BB%E7%99%82%E6%A9%9F%E5%99%A8%E7%89%A9%E5%93%81%E3%83%AA%E3%82%B9%E3%83%88.pdf",
+          "htmlUrl": null,
           "sizeKB": 634,
           "modified": "2026-08-02"
         }
@@ -216,14 +243,16 @@
       "order": 8,
       "files": [
         {
-          "name": "木花のむら診療所_CTシナリオ比較_20260806.pdf",
+          "name": "木花のむら診療所_CTシナリオ比較_20260806",
           "url": "/admin-docs/ct-review/%E6%9C%A8%E8%8A%B1%E3%81%AE%E3%82%80%E3%82%89%E8%A8%BA%E7%99%82%E6%89%80_CT%E3%82%B7%E3%83%8A%E3%83%AA%E3%82%AA%E6%AF%94%E8%BC%83_20260806.pdf",
+          "htmlUrl": null,
           "sizeKB": 800,
           "modified": "2026-08-06"
         },
         {
-          "name": "木花のむら診療所_CT導入シナリオ比較_20260809.pdf",
+          "name": "木花のむら診療所_CT導入シナリオ比較_20260809",
           "url": "/admin-docs/ct-review/%E6%9C%A8%E8%8A%B1%E3%81%AE%E3%82%80%E3%82%89%E8%A8%BA%E7%99%82%E6%89%80_CT%E5%B0%8E%E5%85%A5%E3%82%B7%E3%83%8A%E3%83%AA%E3%82%AA%E6%AF%94%E8%BC%83_20260809.pdf",
+          "htmlUrl": null,
           "sizeKB": 1617,
           "modified": "2026-08-10"
         }
@@ -234,8 +263,9 @@
       "order": 9,
       "files": [
         {
-          "name": "emr-demo-checklist-2026-06.pdf",
+          "name": "emr-demo-checklist-2026-06",
           "url": "/admin-docs/emr-review/emr-demo-checklist-2026-06.pdf",
+          "htmlUrl": null,
           "sizeKB": 1161,
           "modified": "2026-10-02"
         }
@@ -246,14 +276,16 @@
       "order": 10,
       "files": [
         {
-          "name": "木花のむら診療所_標榜科目・薬局面談資料_20261001.pdf",
+          "name": "木花のむら診療所_標榜科目・薬局面談資料_20261001",
           "url": "/admin-docs/pharmacy-meetings/%E6%9C%A8%E8%8A%B1%E3%81%AE%E3%82%80%E3%82%89%E8%A8%BA%E7%99%82%E6%89%80_%E6%A8%99%E6%A6%9C%E7%A7%91%E7%9B%AE%E3%83%BB%E8%96%AC%E5%B1%80%E9%9D%A2%E8%AB%87%E8%B3%87%E6%96%99_20261001.pdf",
+          "htmlUrl": null,
           "sizeKB": 750,
           "modified": "2026-09-30"
         },
         {
-          "name": "トモ薬局仁田脇様面談資料.pdf",
+          "name": "トモ薬局仁田脇様面談資料",
           "url": "/admin-docs/pharmacy-meetings/%E3%83%88%E3%83%A2%E8%96%AC%E5%B1%80%E4%BB%81%E7%94%B0%E8%84%87%E6%A7%98%E9%9D%A2%E8%AB%87%E8%B3%87%E6%96%99.pdf",
+          "htmlUrl": null,
           "sizeKB": 489,
           "modified": "2026-09-09"
         }
@@ -264,20 +296,23 @@
       "order": 11,
       "files": [
         {
-          "name": "社労士面談資料_20260906.pdf",
+          "name": "社労士面談資料_20260906",
           "url": "/admin-docs/labor-consultant-meetings/%E7%A4%BE%E5%8A%B4%E5%A3%AB%E9%9D%A2%E8%AB%87%E8%B3%87%E6%96%99_20260906.pdf",
+          "htmlUrl": null,
           "sizeKB": 889,
           "modified": "2026-09-06"
         },
         {
-          "name": "社労士面談資料_v2_20260906.pdf",
+          "name": "社労士面談資料_v2_20260906",
           "url": "/admin-docs/labor-consultant-meetings/%E7%A4%BE%E5%8A%B4%E5%A3%AB%E9%9D%A2%E8%AB%87%E8%B3%87%E6%96%99_v2_20260906.pdf",
+          "htmlUrl": null,
           "sizeKB": 770,
           "modified": "2026-09-06"
         },
         {
-          "name": "社労士面談資料_v3_20261015.pdf",
+          "name": "社労士面談資料_v3_20261015",
           "url": "/admin-docs/labor-consultant-meetings/%E7%A4%BE%E5%8A%B4%E5%A3%AB%E9%9D%A2%E8%AB%87%E8%B3%87%E6%96%99_v3_20261015.pdf",
+          "htmlUrl": null,
           "sizeKB": 976,
           "modified": "2026-10-14"
         }
@@ -288,14 +323,16 @@
       "order": 12,
       "files": [
         {
-          "name": "久野税理士先生_面談資料_20260905.pdf",
+          "name": "久野税理士先生_面談資料_20260905",
           "url": "/admin-docs/tax-accountant-meetings/%E4%B9%85%E9%87%8E%E7%A8%8E%E7%90%86%E5%A3%AB%E5%85%88%E7%94%9F_%E9%9D%A2%E8%AB%87%E8%B3%87%E6%96%99_20260905.pdf",
+          "htmlUrl": null,
           "sizeKB": 812,
           "modified": "2026-09-04"
         },
         {
-          "name": "資金計画ご説明資料_久野先生宛_20260930.pdf",
+          "name": "資金計画ご説明資料_久野先生宛_20260930",
           "url": "/admin-docs/tax-accountant-meetings/%E8%B3%87%E9%87%91%E8%A8%88%E7%94%BB%E3%81%94%E8%AA%AC%E6%98%8E%E8%B3%87%E6%96%99_%E4%B9%85%E9%87%8E%E5%85%88%E7%94%9F%E5%AE%9B_20260930.pdf",
+          "htmlUrl": null,
           "sizeKB": 528,
           "modified": "2026-09-30"
         }
@@ -306,56 +343,65 @@
       "order": 13,
       "files": [
         {
-          "name": "木花のむら診療所_事業計画書_20260808.pdf",
+          "name": "木花のむら診療所_事業計画書_20260808",
           "url": "/admin-docs/business-plan/%E6%9C%A8%E8%8A%B1%E3%81%AE%E3%82%80%E3%82%89%E8%A8%BA%E7%99%82%E6%89%80_%E4%BA%8B%E6%A5%AD%E8%A8%88%E7%94%BB%E6%9B%B8_20260808.pdf",
+          "htmlUrl": null,
           "sizeKB": 1976,
           "modified": "2026-08-09"
         },
         {
-          "name": "木花のむら診療所_事業計画書_20260810.pdf",
+          "name": "木花のむら診療所_事業計画書_20260810",
           "url": "/admin-docs/business-plan/%E6%9C%A8%E8%8A%B1%E3%81%AE%E3%82%80%E3%82%89%E8%A8%BA%E7%99%82%E6%89%80_%E4%BA%8B%E6%A5%AD%E8%A8%88%E7%94%BB%E6%9B%B8_20260810.pdf",
+          "htmlUrl": null,
           "sizeKB": 2543,
           "modified": "2026-08-11"
         },
         {
-          "name": "木花のむら診療所_事業計画書_20260811.pdf",
+          "name": "木花のむら診療所_事業計画書_20260811",
           "url": "/admin-docs/business-plan/%E6%9C%A8%E8%8A%B1%E3%81%AE%E3%82%80%E3%82%89%E8%A8%BA%E7%99%82%E6%89%80_%E4%BA%8B%E6%A5%AD%E8%A8%88%E7%94%BB%E6%9B%B8_20260811.pdf",
+          "htmlUrl": null,
           "sizeKB": 2143,
           "modified": "2026-08-12"
         },
         {
-          "name": "木花のむら診療所_事業計画書_20260815.pdf",
+          "name": "木花のむら診療所_事業計画書_20260815",
           "url": "/admin-docs/business-plan/%E6%9C%A8%E8%8A%B1%E3%81%AE%E3%82%80%E3%82%89%E8%A8%BA%E7%99%82%E6%89%80_%E4%BA%8B%E6%A5%AD%E8%A8%88%E7%94%BB%E6%9B%B8_20260815.pdf",
+          "htmlUrl": null,
           "sizeKB": 2168,
           "modified": "2026-08-15"
         },
         {
-          "name": "木花のむら診療所_事業計画書_CTなし版_20260809.pdf",
+          "name": "木花のむら診療所_事業計画書_CTなし版_20260809",
           "url": "/admin-docs/business-plan/%E6%9C%A8%E8%8A%B1%E3%81%AE%E3%82%80%E3%82%89%E8%A8%BA%E7%99%82%E6%89%80_%E4%BA%8B%E6%A5%AD%E8%A8%88%E7%94%BB%E6%9B%B8_CT%E3%81%AA%E3%81%97%E7%89%88_20260809.pdf",
+          "htmlUrl": null,
           "sizeKB": 2372,
           "modified": "2026-08-11"
         },
         {
-          "name": "木花のむら診療所_事業計画書_CTなし版_20260811.pdf",
+          "name": "木花のむら診療所_事業計画書_CTなし版_20260811",
           "url": "/admin-docs/business-plan/%E6%9C%A8%E8%8A%B1%E3%81%AE%E3%82%80%E3%82%89%E8%A8%BA%E7%99%82%E6%89%80_%E4%BA%8B%E6%A5%AD%E8%A8%88%E7%94%BB%E6%9B%B8_CT%E3%81%AA%E3%81%97%E7%89%88_20260811.pdf",
+          "htmlUrl": null,
           "sizeKB": 2394,
           "modified": "2026-08-11"
         },
         {
-          "name": "木花のむら診療所_事業計画書_CT導入版_20260810.pdf",
+          "name": "木花のむら診療所_事業計画書_CT導入版_20260810",
           "url": "/admin-docs/business-plan/%E6%9C%A8%E8%8A%B1%E3%81%AE%E3%82%80%E3%82%89%E8%A8%BA%E7%99%82%E6%89%80_%E4%BA%8B%E6%A5%AD%E8%A8%88%E7%94%BB%E6%9B%B8_CT%E5%B0%8E%E5%85%A5%E7%89%88_20260810.pdf",
+          "htmlUrl": null,
           "sizeKB": 2497,
           "modified": "2026-08-10"
         },
         {
-          "name": "木花のむら診療所_事業計画書_会計事務所用_20260812.pdf",
+          "name": "木花のむら診療所_事業計画書_会計事務所用_20260812",
           "url": "/admin-docs/business-plan/%E6%9C%A8%E8%8A%B1%E3%81%AE%E3%82%80%E3%82%89%E8%A8%BA%E7%99%82%E6%89%80_%E4%BA%8B%E6%A5%AD%E8%A8%88%E7%94%BB%E6%9B%B8_%E4%BC%9A%E8%A8%88%E4%BA%8B%E5%8B%99%E6%89%80%E7%94%A8_20260812.pdf",
+          "htmlUrl": null,
           "sizeKB": 2070,
           "modified": "2026-08-11"
         },
         {
-          "name": "木花のむら診療所_開業事業計画書_20260903.pdf",
+          "name": "木花のむら診療所_開業事業計画書_20260903",
           "url": "/admin-docs/business-plan/%E6%9C%A8%E8%8A%B1%E3%81%AE%E3%82%80%E3%82%89%E8%A8%BA%E7%99%82%E6%89%80_%E9%96%8B%E6%A5%AD%E4%BA%8B%E6%A5%AD%E8%A8%88%E7%94%BB%E6%9B%B8_20260903.pdf",
+          "htmlUrl": null,
           "sizeKB": 2470,
           "modified": "2026-09-03"
         }
@@ -366,50 +412,58 @@
       "order": 14,
       "files": [
         {
-          "name": "AAO予算書_比較表_20260917.pdf",
+          "name": "AAO予算書_比較表_20260917",
           "url": "/admin-docs/aao-budget/AAO%E4%BA%88%E7%AE%97%E6%9B%B8_%E6%AF%94%E8%BC%83%E8%A1%A8_20260917.pdf",
+          "htmlUrl": null,
           "sizeKB": 468,
           "modified": "2026-09-18"
         },
         {
-          "name": "AAO建築_予算書0916.pdf",
+          "name": "AAO建築_予算書0916",
           "url": "/admin-docs/aao-budget/AAO%E5%BB%BA%E7%AF%89_%E4%BA%88%E7%AE%97%E6%9B%B80916.pdf",
+          "htmlUrl": null,
           "sizeKB": 474,
           "modified": "2026-09-16"
         },
         {
-          "name": "AAO設計予算書_訂正版_20260918.pdf",
+          "name": "AAO設計予算書_訂正版_20260918",
           "url": "/admin-docs/aao-budget/AAO%E8%A8%AD%E8%A8%88%E4%BA%88%E7%AE%97%E6%9B%B8_%E8%A8%82%E6%AD%A3%E7%89%88_20260918.pdf",
+          "htmlUrl": null,
           "sizeKB": 669,
           "modified": "2026-09-18"
         },
         {
-          "name": "AAO足立様_再見積り依頼_20261008.pdf",
+          "name": "AAO足立様_再見積り依頼_20261008",
           "url": "/admin-docs/aao-budget/AAO%E8%B6%B3%E7%AB%8B%E6%A7%98_%E5%86%8D%E8%A6%8B%E7%A9%8D%E3%82%8A%E4%BE%9D%E9%A0%BC_20261008.pdf",
+          "htmlUrl": null,
           "sizeKB": 229,
           "modified": "2026-10-08"
         },
         {
-          "name": "business-plan-bank-presentation-2026-09-17.pdf",
+          "name": "business-plan-bank-presentation-2026-09-17",
           "url": "/admin-docs/aao-budget/business-plan-bank-presentation-2026-09-17.pdf",
+          "htmlUrl": null,
           "sizeKB": 2475,
           "modified": "2026-09-11"
         },
         {
-          "name": "事業計画書_AAO予算書_対応表_20260918.pdf",
+          "name": "事業計画書_AAO予算書_対応表_20260918",
           "url": "/admin-docs/aao-budget/%E4%BA%8B%E6%A5%AD%E8%A8%88%E7%94%BB%E6%9B%B8_AAO%E4%BA%88%E7%AE%97%E6%9B%B8_%E5%AF%BE%E5%BF%9C%E8%A1%A8_20260918.pdf",
+          "htmlUrl": null,
           "sizeKB": 580,
           "modified": "2026-09-25"
         },
         {
-          "name": "木花のむら総合診療所 設計予算書.pdf",
+          "name": "木花のむら総合診療所 設計予算書",
           "url": "/admin-docs/aao-budget/%E6%9C%A8%E8%8A%B1%E3%81%AE%E3%82%80%E3%82%89%E7%B7%8F%E5%90%88%E8%A8%BA%E7%99%82%E6%89%80%20%E8%A8%AD%E8%A8%88%E4%BA%88%E7%AE%97%E6%9B%B8.pdf",
+          "htmlUrl": null,
           "sizeKB": 436,
           "modified": "2026-10-13"
         },
         {
-          "name": "木花のむら診療所_事業計画書_AAO見積書比較_銀行提出用_20260925.pdf",
+          "name": "木花のむら診療所_事業計画書_AAO見積書比較_銀行提出用_20260925",
           "url": "/admin-docs/aao-budget/%E6%9C%A8%E8%8A%B1%E3%81%AE%E3%82%80%E3%82%89%E8%A8%BA%E7%99%82%E6%89%80_%E4%BA%8B%E6%A5%AD%E8%A8%88%E7%94%BB%E6%9B%B8_AAO%E8%A6%8B%E7%A9%8D%E6%9B%B8%E6%AF%94%E8%BC%83_%E9%8A%80%E8%A1%8C%E6%8F%90%E5%87%BA%E7%94%A8_20260925.pdf",
+          "htmlUrl": null,
           "sizeKB": 764,
           "modified": "2026-09-25"
         }
@@ -420,44 +474,51 @@
       "order": 15,
       "files": [
         {
-          "name": "木花のむら診療所_ヒアリングシート_20260806 4.49.48.pdf",
+          "name": "木花のむら診療所_ヒアリングシート_20260806 4.49.48",
           "url": "/admin-docs/miyazaki-bank-meeting/%E6%9C%A8%E8%8A%B1%E3%81%AE%E3%82%80%E3%82%89%E8%A8%BA%E7%99%82%E6%89%80_%E3%83%92%E3%82%A2%E3%83%AA%E3%83%B3%E3%82%B0%E3%82%B7%E3%83%BC%E3%83%88_20260806%204.49.48.pdf",
+          "htmlUrl": null,
           "sizeKB": 246,
           "modified": "2026-08-07"
         },
         {
-          "name": "木花のむら診療所_ヒアリングシート_20260806.pdf",
+          "name": "木花のむら診療所_ヒアリングシート_20260806",
           "url": "/admin-docs/miyazaki-bank-meeting/%E6%9C%A8%E8%8A%B1%E3%81%AE%E3%82%80%E3%82%89%E8%A8%BA%E7%99%82%E6%89%80_%E3%83%92%E3%82%A2%E3%83%AA%E3%83%B3%E3%82%B0%E3%82%B7%E3%83%BC%E3%83%88_20260806.pdf",
+          "htmlUrl": "/admin-docs/miyazaki-bank-meeting/%E6%9C%A8%E8%8A%B1%E3%81%AE%E3%82%80%E3%82%89%E8%A8%BA%E7%99%82%E6%89%80_%E3%83%92%E3%82%A2%E3%83%AA%E3%83%B3%E3%82%B0%E3%82%B7%E3%83%BC%E3%83%88_20260806.html",
           "sizeKB": 924,
           "modified": "2026-08-18"
         },
         {
-          "name": "木花のむら診療所_ヒアリングシート_20260815.pdf",
-          "url": "/admin-docs/miyazaki-bank-meeting/%E6%9C%A8%E8%8A%B1%E3%81%AE%E3%82%80%E3%82%89%E8%A8%BA%E7%99%82%E6%89%80_%E3%83%92%E3%82%A2%E3%83%AA%E3%83%B3%E3%82%B0%E3%82%B7%E3%83%BC%E3%83%88_20260815.pdf",
-          "sizeKB": 876,
-          "modified": "2026-08-15"
-        },
-        {
-          "name": "木花のむら診療所_ヒアリングシート_20260815_.pdf",
+          "name": "木花のむら診療所_ヒアリングシート_20260815_",
           "url": "/admin-docs/miyazaki-bank-meeting/%E6%9C%A8%E8%8A%B1%E3%81%AE%E3%82%80%E3%82%89%E8%A8%BA%E7%99%82%E6%89%80_%E3%83%92%E3%82%A2%E3%83%AA%E3%83%B3%E3%82%B0%E3%82%B7%E3%83%BC%E3%83%88_20260815_.pdf",
+          "htmlUrl": null,
           "sizeKB": 855,
           "modified": "2026-08-15"
         },
         {
-          "name": "木花のむら診療所_ヒアリングシート_20260903.pdf",
+          "name": "木花のむら診療所_ヒアリングシート_20260815",
+          "url": "/admin-docs/miyazaki-bank-meeting/%E6%9C%A8%E8%8A%B1%E3%81%AE%E3%82%80%E3%82%89%E8%A8%BA%E7%99%82%E6%89%80_%E3%83%92%E3%82%A2%E3%83%AA%E3%83%B3%E3%82%B0%E3%82%B7%E3%83%BC%E3%83%88_20260815.pdf",
+          "htmlUrl": null,
+          "sizeKB": 876,
+          "modified": "2026-08-15"
+        },
+        {
+          "name": "木花のむら診療所_ヒアリングシート_20260903",
           "url": "/admin-docs/miyazaki-bank-meeting/%E6%9C%A8%E8%8A%B1%E3%81%AE%E3%82%80%E3%82%89%E8%A8%BA%E7%99%82%E6%89%80_%E3%83%92%E3%82%A2%E3%83%AA%E3%83%B3%E3%82%B0%E3%82%B7%E3%83%BC%E3%83%88_20260903.pdf",
+          "htmlUrl": null,
           "sizeKB": 972,
           "modified": "2026-09-03"
         },
         {
-          "name": "木花のむら診療所_事業計画書_20260809.pdf",
+          "name": "木花のむら診療所_事業計画書_20260809",
           "url": "/admin-docs/miyazaki-bank-meeting/%E6%9C%A8%E8%8A%B1%E3%81%AE%E3%82%80%E3%82%89%E8%A8%BA%E7%99%82%E6%89%80_%E4%BA%8B%E6%A5%AD%E8%A8%88%E7%94%BB%E6%9B%B8_20260809.pdf",
+          "htmlUrl": null,
           "sizeKB": 2312,
           "modified": "2026-08-09"
         },
         {
-          "name": "木花のむら診療所_工事代金等スケジュール表_20260903.pdf",
+          "name": "木花のむら診療所_工事代金等スケジュール表_20260903",
           "url": "/admin-docs/miyazaki-bank-meeting/%E6%9C%A8%E8%8A%B1%E3%81%AE%E3%82%80%E3%82%89%E8%A8%BA%E7%99%82%E6%89%80_%E5%B7%A5%E4%BA%8B%E4%BB%A3%E9%87%91%E7%AD%89%E3%82%B9%E3%82%B1%E3%82%B8%E3%83%A5%E3%83%BC%E3%83%AB%E8%A1%A8_20260903.pdf",
+          "htmlUrl": null,
           "sizeKB": 708,
           "modified": "2026-09-03"
         }
@@ -468,50 +529,58 @@
       "order": 16,
       "files": [
         {
-          "name": "のむら木花診療所_銀行面談資料_20260806.pdf",
+          "name": "のむら木花診療所_銀行面談資料_20260806",
           "url": "/admin-docs/bank-submission/%E3%81%AE%E3%82%80%E3%82%89%E6%9C%A8%E8%8A%B1%E8%A8%BA%E7%99%82%E6%89%80_%E9%8A%80%E8%A1%8C%E9%9D%A2%E8%AB%87%E8%B3%87%E6%96%99_20260806.pdf",
+          "htmlUrl": null,
           "sizeKB": 937,
           "modified": "2026-08-04"
         },
         {
-          "name": "木花のむら診療所_工事代金等スケジュール表_20260815.pdf",
+          "name": "木花のむら診療所_工事代金等スケジュール表_20260815",
           "url": "/admin-docs/bank-submission/%E6%9C%A8%E8%8A%B1%E3%81%AE%E3%82%80%E3%82%89%E8%A8%BA%E7%99%82%E6%89%80_%E5%B7%A5%E4%BA%8B%E4%BB%A3%E9%87%91%E7%AD%89%E3%82%B9%E3%82%B1%E3%82%B8%E3%83%A5%E3%83%BC%E3%83%AB%E8%A1%A8_20260815.pdf",
+          "htmlUrl": "/admin-docs/bank-submission/%E6%9C%A8%E8%8A%B1%E3%81%AE%E3%82%80%E3%82%89%E8%A8%BA%E7%99%82%E6%89%80_%E5%B7%A5%E4%BA%8B%E4%BB%A3%E9%87%91%E7%AD%89%E3%82%B9%E3%82%B1%E3%82%B8%E3%83%A5%E3%83%BC%E3%83%AB%E8%A1%A8_20260815.html",
           "sizeKB": 690,
           "modified": "2026-08-15"
         },
         {
-          "name": "木花のむら診療所_銀行面談資料_20260806.pdf",
+          "name": "木花のむら診療所_銀行面談資料_20260806",
           "url": "/admin-docs/bank-submission/%E6%9C%A8%E8%8A%B1%E3%81%AE%E3%82%80%E3%82%89%E8%A8%BA%E7%99%82%E6%89%80_%E9%8A%80%E8%A1%8C%E9%9D%A2%E8%AB%87%E8%B3%87%E6%96%99_20260806.pdf",
+          "htmlUrl": null,
           "sizeKB": 2204,
           "modified": "2026-08-08"
         },
         {
-          "name": "木花のむら診療所_銀行面談資料_宮崎銀行_20260808.pdf",
+          "name": "木花のむら診療所_銀行面談資料_宮崎銀行_20260808",
           "url": "/admin-docs/bank-submission/%E6%9C%A8%E8%8A%B1%E3%81%AE%E3%82%80%E3%82%89%E8%A8%BA%E7%99%82%E6%89%80_%E9%8A%80%E8%A1%8C%E9%9D%A2%E8%AB%87%E8%B3%87%E6%96%99_%E5%AE%AE%E5%B4%8E%E9%8A%80%E8%A1%8C_20260808.pdf",
+          "htmlUrl": null,
           "sizeKB": 2209,
           "modified": "2026-08-09"
         },
         {
-          "name": "木花のむら診療所_銀行面談資料_鹿児島銀行_20260808.pdf",
+          "name": "木花のむら診療所_銀行面談資料_鹿児島銀行_20260808",
           "url": "/admin-docs/bank-submission/%E6%9C%A8%E8%8A%B1%E3%81%AE%E3%82%80%E3%82%89%E8%A8%BA%E7%99%82%E6%89%80_%E9%8A%80%E8%A1%8C%E9%9D%A2%E8%AB%87%E8%B3%87%E6%96%99_%E9%B9%BF%E5%85%90%E5%B3%B6%E9%8A%80%E8%A1%8C_20260808.pdf",
+          "htmlUrl": null,
           "sizeKB": 2210,
           "modified": "2026-08-09"
         },
         {
-          "name": "木花のむら診療所_開業事業計画書_20260815.pdf",
+          "name": "木花のむら診療所_開業事業計画書_20260815",
           "url": "/admin-docs/bank-submission/%E6%9C%A8%E8%8A%B1%E3%81%AE%E3%82%80%E3%82%89%E8%A8%BA%E7%99%82%E6%89%80_%E9%96%8B%E6%A5%AD%E4%BA%8B%E6%A5%AD%E8%A8%88%E7%94%BB%E6%9B%B8_20260815.pdf",
+          "htmlUrl": "/admin-docs/bank-submission/%E6%9C%A8%E8%8A%B1%E3%81%AE%E3%82%80%E3%82%89%E8%A8%BA%E7%99%82%E6%89%80_%E9%96%8B%E6%A5%AD%E4%BA%8B%E6%A5%AD%E8%A8%88%E7%94%BB%E6%9B%B8_20260815.html",
           "sizeKB": 2315,
           "modified": "2026-08-18"
         },
         {
-          "name": "木花のむら診療所_開業計画概要書_宮崎銀行_CT導入版_20260811.pdf",
+          "name": "木花のむら診療所_開業計画概要書_宮崎銀行_CT導入版_20260811",
           "url": "/admin-docs/bank-submission/%E6%9C%A8%E8%8A%B1%E3%81%AE%E3%82%80%E3%82%89%E8%A8%BA%E7%99%82%E6%89%80_%E9%96%8B%E6%A5%AD%E8%A8%88%E7%94%BB%E6%A6%82%E8%A6%81%E6%9B%B8_%E5%AE%AE%E5%B4%8E%E9%8A%80%E8%A1%8C_CT%E5%B0%8E%E5%85%A5%E7%89%88_20260811.pdf",
+          "htmlUrl": null,
           "sizeKB": 2292,
           "modified": "2026-08-10"
         },
         {
-          "name": "木花のむら診療所_開業計画概要書_鹿児島銀行_20260811.pdf",
+          "name": "木花のむら診療所_開業計画概要書_鹿児島銀行_20260811",
           "url": "/admin-docs/bank-submission/%E6%9C%A8%E8%8A%B1%E3%81%AE%E3%82%80%E3%82%89%E8%A8%BA%E7%99%82%E6%89%80_%E9%96%8B%E6%A5%AD%E8%A8%88%E7%94%BB%E6%A6%82%E8%A6%81%E6%9B%B8_%E9%B9%BF%E5%85%90%E5%B3%B6%E9%8A%80%E8%A1%8C_20260811.pdf",
+          "htmlUrl": null,
           "sizeKB": 2307,
           "modified": "2026-08-11"
         }
@@ -522,8 +591,9 @@
       "order": 17,
       "files": [
         {
-          "name": "熊野売買代金内訳・分筆図面.pdf",
+          "name": "熊野売買代金内訳・分筆図面",
           "url": "/admin-docs/land/%E7%86%8A%E9%87%8E%E5%A3%B2%E8%B2%B7%E4%BB%A3%E9%87%91%E5%86%85%E8%A8%B3%E3%83%BB%E5%88%86%E7%AD%86%E5%9B%B3%E9%9D%A2.pdf",
+          "htmlUrl": null,
           "sizeKB": 525,
           "modified": "2026-10-13"
         }
@@ -534,14 +604,16 @@
       "order": 18,
       "files": [
         {
-          "name": "「宮崎県宮崎市大字熊野」内科.pdf",
+          "name": "「宮崎県宮崎市大字熊野」内科",
           "url": "/admin-docs/catchment-survey/%E3%80%8C%E5%AE%AE%E5%B4%8E%E7%9C%8C%E5%AE%AE%E5%B4%8E%E5%B8%82%E5%A4%A7%E5%AD%97%E7%86%8A%E9%87%8E%E3%80%8D%E5%86%85%E7%A7%91.pdf",
+          "htmlUrl": null,
           "sizeKB": 2038,
           "modified": "2026-09-30"
         },
         {
-          "name": "「宮崎県宮崎市大字熊野」小児科.pdf",
+          "name": "「宮崎県宮崎市大字熊野」小児科",
           "url": "/admin-docs/catchment-survey/%E3%80%8C%E5%AE%AE%E5%B4%8E%E7%9C%8C%E5%AE%AE%E5%B4%8E%E5%B8%82%E5%A4%A7%E5%AD%97%E7%86%8A%E9%87%8E%E3%80%8D%E5%B0%8F%E5%85%90%E7%A7%91.pdf",
+          "htmlUrl": null,
           "sizeKB": 1990,
           "modified": "2026-09-30"
         }
@@ -552,8 +624,9 @@
       "order": 19,
       "files": [
         {
-          "name": "宮崎市医院一覧.pdf",
+          "name": "宮崎市医院一覧",
           "url": "/admin-docs/competitor-survey/%E5%AE%AE%E5%B4%8E%E5%B8%82%E5%8C%BB%E9%99%A2%E4%B8%80%E8%A6%A7.pdf",
+          "htmlUrl": null,
           "sizeKB": 1624,
           "modified": "2026-06-03"
         }
