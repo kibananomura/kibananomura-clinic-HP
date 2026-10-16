@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-16T05:43:56.072Z",
+  "generatedAt": "2026-10-16T05:46:13.064Z",
   "categories": [
     {
       "label": "労務規程一式（就業規則・賃金規程・各種規程）",
@@ -162,6 +162,13 @@
           "htmlUrl": null,
           "sizeKB": 1070,
           "modified": "2026-07-27"
+        },
+        {
+          "name": "木花のむら診療所_看護師採用案内_20261016",
+          "url": "/admin-docs/recruiting/%E6%9C%A8%E8%8A%B1%E3%81%AE%E3%82%80%E3%82%89%E8%A8%BA%E7%99%82%E6%89%80_%E7%9C%8B%E8%AD%B7%E5%B8%AB%E6%8E%A1%E7%94%A8%E6%A1%88%E5%86%85_20261016.pdf",
+          "htmlUrl": "/admin-docs/recruiting/%E6%9C%A8%E8%8A%B1%E3%81%AE%E3%82%80%E3%82%89%E8%A8%BA%E7%99%82%E6%89%80_%E7%9C%8B%E8%AD%B7%E5%B8%AB%E6%8E%A1%E7%94%A8%E6%A1%88%E5%86%85_20261016.html",
+          "sizeKB": 1103,
+          "modified": "2026-10-16"
         },
         {
           "name": "木花のむら診療所_看護師採用案内",
