@@ -818,7 +818,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "もちろん、一生同じ量を続けるわけではありません。ただしその判断は「最近調子がいいから」ではなく、**数ヶ月単位で症状が安定しているか、夜間の咳や息苦しさで目が覚めることがないか**といった指標に加えて、当院では**FeNO（呼気一酸化窒素濃度）検査**も活用しています。これは息を吐くだけで、気管にくすぶっているアレルギー炎症の強さをその場で数値化できる検査で、採血や大掛かりな機械を使わずに「今、火種がどれくらい残っているか」を客観的に確認できるのが利点です。こうした指標を組み合わせて医師が判断し、目安が整えば吸入薬を少しずつ減量するステップダウンを検討することもあります。逆に、花粉やハウスダストの季節、風邪をひいたときなどは一時的に増量することもあり、「量を固定したまま一生飲み続ける」治療でもありません。"
+          "text": "もちろん、一生同じ量を続けるわけではありません。ただしその判断は「最近調子がいいから」ではなく、**数ヶ月単位で症状が安定しているか、夜間の咳や息苦しさで目が覚めることがないか**といった指標に加えて、当院でも、開院後は**FeNO（呼気一酸化窒素濃度）検査**を活用する予定です。これは息を吐くだけで、気管にくすぶっているアレルギー炎症の強さをその場で数値化できる検査で、採血や大掛かりな機械を使わずに「今、火種がどれくらい残っているか」を客観的に確認できるのが利点です。こうした指標を組み合わせて医師が判断し、目安が整えば吸入薬を少しずつ減量するステップダウンを検討することもあります。逆に、花粉やハウスダストの季節、風邪をひいたときなどは一時的に増量することもあり、「量を固定したまま一生飲み続ける」治療でもありません。"
         },
         {
           "kind": "text",
@@ -885,7 +885,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "Of course, it's not a treatment you continue at the same dose forever. But that decision shouldn't be based on \"I've felt fine lately\" — it's something your doctor judges by combining several measures, such as **whether symptoms have been stable over several months and whether you're waking at night from coughing or breathlessness**, together with a **FeNO (fractional exhaled nitric oxide) test**, which we use at our clinic. With just a single breath out, it gives an on-the-spot, objective number for how much allergic inflammation is still smoldering in your airways — no blood draw or bulky equipment needed. Once those signs line up, we may consider a step-down, gradually reducing the inhaled dose. Conversely, during pollen or dust season, or when you catch a cold, we may temporarily increase it — this isn't a treatment where the dose stays fixed for life either."
+          "text": "Of course, it's not a treatment you continue at the same dose forever. But that decision shouldn't be based on \"I've felt fine lately\" — it's something your doctor judges by combining several measures, such as **whether symptoms have been stable over several months and whether you're waking at night from coughing or breathlessness**, together with a **FeNO (fractional exhaled nitric oxide) test**, which we plan to offer at our clinic once we open. With just a single breath out, it gives an on-the-spot, objective number for how much allergic inflammation is still smoldering in your airways — no blood draw or bulky equipment needed. Once those signs line up, we may consider a step-down, gradually reducing the inhaled dose. Conversely, during pollen or dust season, or when you catch a cold, we may temporarily increase it — this isn't a treatment where the dose stays fixed for life either."
         },
         {
           "kind": "text",
