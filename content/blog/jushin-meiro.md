@@ -3,8 +3,8 @@ date: 2026.10.16
 cover: /blog/kibana-landscape.png
 category_ja: 開業への想い
 category_en: Why we're opening
-title_ja: 「何科に行けばいいかわからない」をなくしたい——木花のむら総合診療所、開業への想い
-title_en: "I want to end 'I don't know which department to go to' — why we're opening Kibana Nomura General Medicine Clinic"
+title_ja: 「何科に行けばいいかわからない」をなくしたい
+title_en: "I want to end 'which department do I even go to?'"
 excerpt_ja: お子さんの体調不良で「小児科？耳鼻科？」、ご自身の不調で「内科？皮膚科？」と迷ったことはありませんか。開業の原点になった、ある夜の話をお伝えします。
 excerpt_en: Have you ever been unsure whether your child needed pediatrics or an ENT, or whether you yourself needed internal medicine or dermatology? Here's the story behind why we're opening this clinic.
 ---

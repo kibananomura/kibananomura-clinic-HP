@@ -773,7 +773,7 @@ export const generatedPosts: BlogPost[] = [
     "cover": "/blog/kibana-landscape.png",
     "ja": {
       "category": "開業への想い",
-      "title": "「何科に行けばいいかわからない」をなくしたい——木花のむら総合診療所、開業への想い",
+      "title": "「何科に行けばいいかわからない」をなくしたい",
       "excerpt": "お子さんの体調不良で「小児科？耳鼻科？」、ご自身の不調で「内科？皮膚科？」と迷ったことはありませんか。開業の原点になった、ある夜の話をお伝えします。",
       "body": [
         {
@@ -868,7 +868,7 @@ export const generatedPosts: BlogPost[] = [
     },
     "en": {
       "category": "Why we're opening",
-      "title": "I want to end 'I don't know which department to go to' — why we're opening Kibana Nomura General Medicine Clinic",
+      "title": "I want to end 'which department do I even go to?'",
       "excerpt": "Have you ever been unsure whether your child needed pediatrics or an ENT, or whether you yourself needed internal medicine or dermatology? Here's the story behind why we're opening this clinic.",
       "body": [
         {
