@@ -59,10 +59,15 @@ const CATEGORY_MAP = {
 // documents built from Markdown/HTML, as opposed to scanned/vendor PDFs) —
 // pairs them up. The HTML version is much lighter (no embedded CJK font) and
 // is offered as the primary link; the PDF stays available for printing/sharing.
+// サブフォルダ名がこれに一致する場合、改定前の古い版として一覧には出さない
+// （ファイル自体はローカルに保管されたまま。/admin には再帰的に含めない）
+const ARCHIVE_DIR_NAME = "過去版";
+
 function listDocs(dir) {
   const out = [];
   for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {
     if (entry.isDirectory()) {
+      if (entry.name.normalize("NFC") === ARCHIVE_DIR_NAME) continue;
       out.push(...listDocs(path.join(dir, entry.name)));
       continue;
     }
