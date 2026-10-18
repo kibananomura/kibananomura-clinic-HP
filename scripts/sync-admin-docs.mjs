@@ -52,6 +52,7 @@ const CATEGORY_MAP = {
   // 「ガイドライン」フォルダは学会等が発行する第三者の著作物（診療ガイドライン）であり、
   // 院長自身の業務資料ではないため、著作権上の配慮から /admin には掲載しない。
   "収支計画": { slug: "revenue-plan", label: "収支計画", order: 21 },
+  "BCP_事業継続計画": { slug: "bcp", label: "事業継続計画（BCP）", order: 22 },
 };
 
 // Collects PDFs, and — when a same-named .html sibling exists (self-authored

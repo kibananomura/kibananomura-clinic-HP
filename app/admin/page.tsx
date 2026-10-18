@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import manifest from "./manifest.json";
+import AdminDocsClient from "./AdminDocsClient";
 
 export const metadata: Metadata = {
   title: "資料一覧（管理用）",
@@ -22,74 +23,7 @@ export default function AdminPage() {
         このページは検索エンジンには表示されません。リンクは第三者に共有しないでください。
       </p>
 
-      {categories.map((cat) => (
-        <section key={cat.label} style={{ marginBottom: 28 }}>
-          <h2
-            style={{
-              fontSize: 15,
-              fontWeight: 700,
-              background: "#3f6652",
-              color: "#fff",
-              padding: "8px 14px",
-              borderRadius: 6,
-              marginBottom: 8,
-            }}
-          >
-            {cat.label}
-            <span style={{ fontWeight: 400, fontSize: 12, marginLeft: 8, opacity: 0.85 }}>
-              （{cat.files.length}件）
-            </span>
-          </h2>
-          <ul style={{ listStyle: "none", margin: 0, padding: 0 }}>
-            {cat.files.map((f) => (
-              <li
-                key={f.url}
-                style={{
-                  display: "flex",
-                  justifyContent: "space-between",
-                  alignItems: "baseline",
-                  gap: 12,
-                  padding: "8px 10px",
-                  borderBottom: "1px solid #e5e5e5",
-                  fontSize: 13.5,
-                }}
-              >
-                <span>
-                  <a
-                    href={f.htmlUrl || f.url}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    style={{ color: "#2a5a46", fontWeight: 600, textDecoration: "underline" }}
-                  >
-                    {f.name}
-                  </a>
-                  {f.htmlUrl && (
-                    <a
-                      href={f.url}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      style={{
-                        marginLeft: 8,
-                        fontSize: 10.5,
-                        fontWeight: 700,
-                        color: "#999",
-                        border: "1px solid #ccc",
-                        borderRadius: 4,
-                        padding: "1px 5px",
-                      }}
-                    >
-                      PDF版
-                    </a>
-                  )}
-                </span>
-                <span style={{ color: "#999", fontSize: 11.5, whiteSpace: "nowrap" }}>
-                  {f.modified} ・ {f.sizeKB}KB
-                </span>
-              </li>
-            ))}
-          </ul>
-        </section>
-      ))}
+      <AdminDocsClient categories={categories} />
     </main>
   );
 }
