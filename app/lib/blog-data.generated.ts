@@ -769,7 +769,7 @@ export const generatedPosts: BlogPost[] = [
   },
   {
     "slug": "jushin-meiro",
-    "date": "2026.10.16",
+    "date": "2026.10.15",
     "cover": "/blog/kibana-landscape.png",
     "ja": {
       "category": "開業への想い",
@@ -964,7 +964,7 @@ export const generatedPosts: BlogPost[] = [
   },
   {
     "slug": "zensoku-chiryo",
-    "date": "2026.10.17",
+    "date": "2026.10.16",
     "cover": "/blog/kibana-landscape.png",
     "ja": {
       "category": "健康・予防の話",
@@ -1103,7 +1103,7 @@ export const generatedPosts: BlogPost[] = [
   },
   {
     "slug": "seikatsu-shukanbyo-gokai",
-    "date": "2026.10.18",
+    "date": "2026.10.17",
     "cover": "/blog/kibana-landscape.png",
     "ja": {
       "category": "健康・予防の話",
@@ -1202,7 +1202,7 @@ export const generatedPosts: BlogPost[] = [
   },
   {
     "slug": "kusuri-yamerarenai",
-    "date": "2026.10.19",
+    "date": "2026.10.18",
     "cover": "/blog/kibana-landscape.png",
     "ja": {
       "category": "健康・予防の話",

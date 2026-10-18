@@ -1,5 +1,5 @@
 ---
-date: 2026.10.16
+date: 2026.10.15
 cover: /blog/kibana-landscape.png
 category_ja: 開業への想い
 category_en: Why we're opening
