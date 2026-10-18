@@ -185,6 +185,11 @@ export interface SiteDict {
     viewAll: string;
     prev: string;
     next: string;
+    contactCta: {
+      heading: string;
+      body: string;
+      button: string;
+    };
   };
   news: {
     eyebrow: string;
@@ -628,6 +633,11 @@ const ja: SiteDict = {
     viewAll: "ブログ一覧を見る →",
     prev: "前の記事",
     next: "次の記事",
+    contactCta: {
+      heading: "ご興味・ご質問がある方へ",
+      body: "記事の内容について気になることや、開業準備についてのご質問があれば、どうぞお気軽にご連絡ください。",
+      button: "contact@kibananomura.jp 宛にメールする",
+    },
   },
   news: {
     eyebrow: "お知らせ",
@@ -1237,6 +1247,11 @@ const en: SiteDict = {
     viewAll: "View all posts →",
     prev: "Previous",
     next: "Next",
+    contactCta: {
+      heading: "Have a question or interest?",
+      body: "If anything in this article caught your interest, or you have questions about our opening, please feel free to reach out.",
+      button: "Email contact@kibananomura.jp",
+    },
   },
   news: {
     eyebrow: "News",

@@ -75,6 +75,21 @@ export default function BlogArticle() {
             )}
           </div>
 
+          <div className="mt-12 rounded-3xl bg-surface/90 p-6 text-center shadow-card sm:p-8">
+            <p className="text-base font-bold text-ink">
+              {t.blog.contactCta.heading}
+            </p>
+            <p className="mx-auto mt-2 max-w-xl text-sm leading-relaxed text-muted">
+              {t.blog.contactCta.body}
+            </p>
+            <a
+              href="mailto:contact@kibananomura.jp"
+              className="mt-5 inline-flex items-center gap-1.5 rounded-full bg-primary px-6 py-3 text-sm font-bold text-white shadow-soft transition-transform hover:scale-105 hover:bg-primary-dark"
+            >
+              {t.blog.contactCta.button}
+            </a>
+          </div>
+
           <nav className="mt-12 grid gap-4 border-t border-accent pt-8 sm:grid-cols-2">
             {prev ? (
               <Link
