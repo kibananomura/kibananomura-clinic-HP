@@ -50,7 +50,7 @@ export default function Header() {
         </div>
       )}
 
-      <div className="mx-auto flex min-h-24 w-full max-w-7xl items-center justify-between gap-2 overflow-visible px-4 sm:min-h-[6.5rem] sm:gap-4 sm:px-6 xl:px-8">
+      <div className="mx-auto flex min-h-24 w-full max-w-[1600px] items-center justify-between gap-2 overflow-visible px-4 sm:min-h-[6.5rem] sm:gap-4 sm:px-6 xl:px-8">
         <Link
           href="/"
           className="group flex min-w-0 shrink items-center gap-2 overflow-visible sm:gap-3.5"
@@ -72,14 +72,14 @@ export default function Header() {
         </Link>
 
         <nav
-          className="hidden min-w-0 flex-1 flex-nowrap items-center justify-end gap-2.5 2xl:flex 2xl:gap-3.5"
+          className="hidden min-w-0 flex-1 flex-nowrap items-center justify-end gap-2 min-[1680px]:flex min-[1680px]:gap-2.5"
           aria-label={t.common.toTop}
         >
           {t.nav.map((link) => (
             <Link
               key={link.href}
               href={link.href}
-              className="shrink-0 whitespace-nowrap text-[13px] font-medium leading-none text-ink/80 transition-colors hover:text-primary 2xl:text-sm"
+              className="shrink-0 whitespace-nowrap text-[13px] font-medium leading-none text-ink/80 transition-colors hover:text-primary min-[1680px]:text-sm"
             >
               {link.label}
             </Link>
@@ -87,13 +87,13 @@ export default function Header() {
           <LanguageToggle className="shrink-0" />
           <Link
             href="/#register"
-            className="shrink-0 whitespace-nowrap rounded-full bg-primary px-4 py-2.5 text-[13px] font-bold text-white shadow-soft transition-transform hover:scale-105 hover:bg-primary-dark 2xl:px-5 2xl:text-sm"
+            className="shrink-0 whitespace-nowrap rounded-full bg-primary px-4 py-2.5 text-[13px] font-bold text-white shadow-soft transition-transform hover:scale-105 hover:bg-primary-dark min-[1680px]:px-5 min-[1680px]:text-sm"
           >
             {t.headerCta}
           </Link>
         </nav>
 
-        <div className="flex shrink-0 items-center gap-1.5 2xl:hidden">
+        <div className="flex shrink-0 items-center gap-1.5 min-[1680px]:hidden">
           <LanguageToggle />
           <button
             type="button"
@@ -126,7 +126,7 @@ export default function Header() {
 
       <div
         id="mobile-menu"
-        className={`overflow-y-auto bg-surface/95 backdrop-blur-md transition-[max-height,opacity] duration-300 2xl:hidden ${
+        className={`overflow-y-auto bg-surface/95 backdrop-blur-md transition-[max-height,opacity] duration-300 min-[1680px]:hidden ${
           open ? "max-h-[calc(100vh-6rem)] opacity-100 shadow-card" : "max-h-0 opacity-0"
         }`}
       >
