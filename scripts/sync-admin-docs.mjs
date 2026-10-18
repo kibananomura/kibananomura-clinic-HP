@@ -59,16 +59,16 @@ const CATEGORY_MAP = {
 // documents built from Markdown/HTML, as opposed to scanned/vendor PDFs) —
 // pairs them up. The HTML version is much lighter (no embedded CJK font) and
 // is offered as the primary link; the PDF stays available for printing/sharing.
-// サブフォルダ名がこれに一致する場合、改定前の古い版として一覧には出さない
-// （ファイル自体はローカルに保管されたまま。/admin には再帰的に含めない）
+// サブフォルダ名がこれに一致する場合、改定前の古い版として扱う（一覧には表示するが、
+// 表示名に接頭辞を付けて最新版と区別し、並び順も最後にする）
 const ARCHIVE_DIR_NAME = "過去版";
 
-function listDocs(dir) {
+function listDocs(dir, isArchived = false) {
   const out = [];
   for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {
     if (entry.isDirectory()) {
-      if (entry.name.normalize("NFC") === ARCHIVE_DIR_NAME) continue;
-      out.push(...listDocs(path.join(dir, entry.name)));
+      const childIsArchived = isArchived || entry.name.normalize("NFC") === ARCHIVE_DIR_NAME;
+      out.push(...listDocs(path.join(dir, entry.name), childIsArchived));
       continue;
     }
     if (!entry.isFile() || !entry.name.toLowerCase().endsWith(".pdf")) continue;
@@ -79,6 +79,7 @@ function listDocs(dir) {
     out.push({
       pdfPath,
       htmlPath: fs.existsSync(htmlPath) ? htmlPath : null,
+      isArchived,
     });
   }
   return out;
@@ -108,7 +109,10 @@ function main() {
     }
 
     const srcDir = path.join(SOURCE_ROOT, topEntry.name);
-    const docs = listDocs(srcDir).sort((a, b) => a.pdfPath.localeCompare(b.pdfPath));
+    const docs = listDocs(srcDir).sort((a, b) => {
+      if (a.isArchived !== b.isArchived) return a.isArchived ? 1 : -1;
+      return a.pdfPath.localeCompare(b.pdfPath);
+    });
     if (docs.length === 0) continue;
 
     const destDir = path.join(DEST_ROOT, meta.slug);
@@ -128,7 +132,7 @@ function main() {
       }
 
       files.push({
-        name: pdfBaseName.replace(/\.pdf$/i, ""),
+        name: (doc.isArchived ? "【過去版】" : "") + pdfBaseName.replace(/\.pdf$/i, ""),
         url: `/admin-docs/${meta.slug}/${encodeURIComponent(pdfBaseName)}`,
         htmlUrl,
         sizeKB: Math.round(stat.size / 1024),
