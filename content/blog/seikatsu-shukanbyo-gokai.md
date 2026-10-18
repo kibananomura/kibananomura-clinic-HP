@@ -11,7 +11,7 @@ excerpt_en: This number is my own fault for not taking care of myself, isn't it 
 
 ## ja
 
-健診結果の説明をしていると、「不摂生のせいで、この数値になってしまったんですよね……」と、申し訳なさそうにおっしゃる方がいます。高血圧・糖尿病・脂質異常症と聞くと、「生活習慣病」という言葉が真っ先に浮かび、「自分の生活の乱れのせいだ」と感じてしまう方は少なくありません。
+健診結果の説明をしていると、「不摂生のせいで、この数値になってしまったんですよね……」と、申し訳なさそうにおっしゃる方がいます。「どうしてこんなに運動したり、食事に気を使ってるのによくならないの？」と悲しそうにする方もいらっしゃいます。高血圧・糖尿病・脂質異常症と聞くと、「生活習慣病」という言葉が真っ先に浮かび、「自分の生活の乱れのせいだ」と感じてしまう方は少なくありません。
 
 ですが、ここで一つお伝えしたいことがあります。**高血圧・糖尿病・脂質異常症という診断名がついた方のすべてが、生活習慣病とは限らない**のです。
 
@@ -35,7 +35,7 @@ excerpt_en: This number is my own fault for not taking care of myself, isn't it 
 
 ## en
 
-When I explain checkup results, some patients apologize, saying something like, "This number is my own fault for not taking care of myself, isn't it..." When people hear "high blood pressure," "diabetes," or "dyslipidemia," the phrase "lifestyle disease" comes to mind first, and many end up feeling it's a result of their own undisciplined living.
+When I explain checkup results, some patients apologize, saying something like, "This number is my own fault for not taking care of myself, isn't it..." Others look genuinely disheartened and ask, "I'm exercising and watching my diet so carefully — why isn't it getting better?" When people hear "high blood pressure," "diabetes," or "dyslipidemia," the phrase "lifestyle disease" comes to mind first, and many end up feeling it's a result of their own undisciplined living.
 
 But there's something important I'd like to share: **not everyone diagnosed with high blood pressure, diabetes, or dyslipidemia actually has a lifestyle disease.**
 

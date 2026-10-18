@@ -20,11 +20,11 @@ export const equipment: Equipment[] = [
     image: "/equipment/endoscope.png",
     ja: {
       name: "経鼻内視鏡（胃カメラ）",
-      body: "鼻から挿入できる細いカメラで、のどや胃の中を観察します。鼻から入れるため**「オエッ」となりにくく**、会話をしながら比較的楽に受けられるのが特長です。",
+      body: "鼻から挿入できる細いカメラで、のどや胃の中を観察します。鼻から入れるため**「オエッ」となりにくく**、会話をしながら比較的楽に受けられるのが特長です。経鼻のため__全身麻酔は不要__で、局所麻酔で痛みをコントロールしながら行います。",
     },
     en: {
       name: "Transnasal endoscopy (gastroscopy)",
-      body: "A thin camera inserted through the nose to observe the throat and stomach. Because it goes through the nose, **it triggers less gagging**, and you can take it relatively comfortably while talking.",
+      body: "A thin camera inserted through the nose to observe the throat and stomach. Because it goes through the nose, **it triggers less gagging**, and you can take it relatively comfortably while talking. Since it's transnasal, __general anesthesia isn't needed__ — local anesthesia is used to keep it comfortable.",
     },
   },
   {
