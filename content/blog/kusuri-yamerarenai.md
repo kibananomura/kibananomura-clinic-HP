@@ -6,7 +6,7 @@ category_en: Health and prevention
 title_ja: 「お薬は一生やめられない」は誤解です
 title_en: "'Once you start, you can never stop' is a myth"
 excerpt_ja: 「このお薬、一度始めたらもう一生やめられないんですよね……？」外来でとてもよく聞かれる質問です。その答えは、実は「いいえ」です。
-excerpt_en: "Once I start this medication, I can never stop, right?" It's a question I hear all the time. The real answer is actually "no."
+excerpt_en: Once I start this medication, I can never stop, right? It's a question I hear all the time. The real answer is actually no.
 ---
 
 ## ja
