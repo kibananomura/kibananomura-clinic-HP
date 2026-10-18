@@ -22,6 +22,10 @@ yarn-error.log*
 # local env files
 .env*.local
 
+# internal business PDFs are uploaded to Vercel Blob by scripts/sync-admin-docs.mjs,
+# not committed to git (see app/admin-docs/[...path]/route.ts for how they're served)
+/public/admin-docs/
+
 # typescript
 *.tsbuildinfo
 next-env.d.ts

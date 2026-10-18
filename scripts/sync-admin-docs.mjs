@@ -1,7 +1,13 @@
 #!/usr/bin/env node
-// Syncs internal business PDFs from the local 資料 folder into public/admin-docs/
-// and regenerates app/admin/manifest.json. Run this any time a new PDF is created
-// in the 資料 folder, so the /admin page stays up to date.
+// Syncs internal business PDFs from the local 資料 folder into Vercel Blob
+// (private store) and regenerates app/admin/manifest.json. Run this any time
+// a new PDF is created in the 資料 folder, so the /admin page stays up to date.
+//
+// Files are NOT copied into public/ anymore — doing so used to bundle tens of
+// MB of internal PDFs into every single Vercel deployment snapshot, which was
+// the main driver of the project's Deployment Storage usage. They now live in
+// a private Vercel Blob store instead, and app/admin-docs/[...path]/route.ts
+// proxies requests to it (still gated by the existing Basic Auth middleware).
 //
 // Scope: business documents only. Personal/sensitive documents (income tax filings,
 // personal qualification certificates, sole-proprietorship filing forms) are
@@ -10,12 +16,14 @@
 import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
+import { put } from "@vercel/blob";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const PROJECT_ROOT = path.resolve(__dirname, "..");
 const SOURCE_ROOT = path.resolve(PROJECT_ROOT, "../../../木花のむら診療所_資料");
-const DEST_ROOT = path.join(PROJECT_ROOT, "public", "admin-docs");
 const MANIFEST_PATH = path.join(PROJECT_ROOT, "app", "admin", "manifest.json");
+
+const BLOB_TOKEN = process.env.BLOB_READ_WRITE_TOKEN;
 
 // Folders under 資料 that must never be published (personal/identity documents).
 const EXCLUDE_DIRS = new Set(["院長資格証明書"]);
@@ -55,10 +63,6 @@ const CATEGORY_MAP = {
   "BCP_事業継続計画": { slug: "bcp", label: "事業継続計画（BCP）", order: 22 },
 };
 
-// Collects PDFs, and — when a same-named .html sibling exists (self-authored
-// documents built from Markdown/HTML, as opposed to scanned/vendor PDFs) —
-// pairs them up. The HTML version is much lighter (no embedded CJK font) and
-// is offered as the primary link; the PDF stays available for printing/sharing.
 // サブフォルダ名がこれに一致する場合、改定前の古い版として扱う（一覧には表示するが、
 // 表示名に接頭辞を付けて最新版と区別し、並び順も最後にする）
 const ARCHIVE_DIR_NAME = "過去版";
@@ -85,14 +89,27 @@ function listDocs(dir, isArchived = false) {
   return out;
 }
 
-function main() {
+async function uploadToBlob(pathname, filePath, contentType) {
+  const body = fs.readFileSync(filePath);
+  const blob = await put(pathname, body, {
+    access: "private",
+    addRandomSuffix: false,
+    allowOverwrite: true,
+    contentType,
+    token: BLOB_TOKEN,
+  });
+  return blob.url;
+}
+
+async function main() {
+  if (!BLOB_TOKEN) {
+    console.error("BLOB_READ_WRITE_TOKEN is not set. Add it to .env.local before running this script.");
+    process.exit(1);
+  }
   if (!fs.existsSync(SOURCE_ROOT)) {
     console.error(`Source folder not found: ${SOURCE_ROOT}`);
     process.exit(1);
   }
-
-  fs.rmSync(DEST_ROOT, { recursive: true, force: true });
-  fs.mkdirSync(DEST_ROOT, { recursive: true });
 
   const categories = {};
 
@@ -115,26 +132,34 @@ function main() {
     });
     if (docs.length === 0) continue;
 
-    const destDir = path.join(DEST_ROOT, meta.slug);
-    fs.mkdirSync(destDir, { recursive: true });
-
     const files = [];
     for (const doc of docs) {
       const pdfBaseName = path.basename(doc.pdfPath).normalize("NFC");
-      fs.copyFileSync(doc.pdfPath, path.join(destDir, pdfBaseName));
+      const blobPdfUrl = await uploadToBlob(
+        `${meta.slug}/${pdfBaseName}`,
+        doc.pdfPath,
+        "application/pdf"
+      );
       const stat = fs.statSync(doc.pdfPath);
 
       let htmlUrl = null;
+      let blobHtmlUrl = null;
       if (doc.htmlPath) {
         const htmlBaseName = path.basename(doc.htmlPath).normalize("NFC");
-        fs.copyFileSync(doc.htmlPath, path.join(destDir, htmlBaseName));
+        blobHtmlUrl = await uploadToBlob(
+          `${meta.slug}/${htmlBaseName}`,
+          doc.htmlPath,
+          "text/html; charset=utf-8"
+        );
         htmlUrl = `/admin-docs/${meta.slug}/${encodeURIComponent(htmlBaseName)}`;
       }
 
       files.push({
         name: (doc.isArchived ? "【過去版】" : "") + pdfBaseName.replace(/\.pdf$/i, ""),
         url: `/admin-docs/${meta.slug}/${encodeURIComponent(pdfBaseName)}`,
+        blobUrl: blobPdfUrl,
         htmlUrl,
+        blobHtmlUrl,
         sizeKB: Math.round(stat.size / 1024),
         modified: stat.mtime.toISOString().slice(0, 10),
       });
@@ -161,7 +186,7 @@ function main() {
   );
 
   const totalFiles = sortedCategories.reduce((n, c) => n + c.files.length, 0);
-  console.log(`Synced ${totalFiles} PDF(s) across ${sortedCategories.length} categories.`);
+  console.log(`Uploaded ${totalFiles} document(s) to Blob across ${sortedCategories.length} categories.`);
   console.log(`Manifest: ${MANIFEST_PATH}`);
 }
 
