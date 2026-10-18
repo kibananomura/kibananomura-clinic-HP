@@ -756,6 +756,54 @@ const ja: SiteDict = {
           },
         ],
       },
+      {
+        title: "健診（自費診療・保険診療とは異なります）",
+        items: [
+          {
+            name: "半日人間ドック",
+            price: "準備中（今後掲載予定）",
+            overview: "半日で主要な検査項目を一通り受けていただける、保険適用外の総合健診です。内容・料金は提供開始までにご案内します。",
+          },
+          {
+            name: "胃カメラ（健診としてのご希望）",
+            price: "準備中（今後掲載予定）",
+            overview: "症状がない方が、健診として自費でご希望される場合の胃カメラ検査です。",
+            risks: "鎮静剤を使用する場合は呼吸抑制等のリスクがあるほか、まれに出血・穿孔等の合併症が報告されています。",
+          },
+          {
+            name: "CT検査（健診としてのご希望）",
+            price: "準備中（今後掲載予定）",
+            overview: "症状がない方が、健診として自費でご希望される場合のCT検査です。",
+            risks: "検査に伴うX線被ばくがあります。造影剤を使用する場合はアレルギー反応等のリスクがあります。",
+          },
+          {
+            name: "腹部エコー（健診としてのご希望）",
+            price: "準備中（今後掲載予定）",
+            overview: "症状がない方が、健診として自費でご希望される場合の腹部超音波検査です。",
+          },
+          {
+            name: "頸動脈エコー（健診としてのご希望）",
+            price: "準備中（今後掲載予定）",
+            overview: "動脈硬化の評価を目的とした、頸動脈の超音波検査です。",
+          },
+          {
+            name: "心電図（健診としてのご希望）",
+            price: "準備中（今後掲載予定）",
+            overview: "症状がない方が、健診として自費でご希望される場合の心電図検査です。",
+          },
+          {
+            name: "PSA検査（前立腺がん）",
+            price: "準備中（今後掲載予定）",
+            overview: "前立腺がんのスクリーニングを目的とした、採血による腫瘍マーカー検査です。",
+            risks: "採血に伴う内出血・痛み等が起こることがあります。数値が高い場合でも、がん以外の原因（前立腺肥大・炎症等）のこともあります。",
+          },
+          {
+            name: "法定健診（雇入時の健康診断 等）",
+            price: "10,000円",
+            overview: "事業所の皆さまを対象とした、労働安全衛生法に基づく雇入時の健康診断です。既往歴・自覚症状の確認、身体計測、血圧測定、胸部X線、血液・尿検査、心電図等を含みます。保険診療ではなく、事業所・ご本人による自費のお支払いとなります。",
+          },
+        ],
+      },
     ],
     disclaimer:
       "※ 自費診療の料金は2026年時点の参考価格であり、開院前に正式決定いたします。表示はすべて税込予定です。各治療の主なリスク・副作用は治療内容ごとに異なるため、診察時に医師より個別にご説明します。詳しくは開院後の窓口・お電話・LINEでお問い合わせください。",
@@ -1350,6 +1398,54 @@ const en: SiteDict = {
             overview: "Third-line eradication treatment (self-pay) when first- and second-line treatment has failed.",
             risks: "Reported risks include diarrhea, soft stools, taste disturbance and rash. Success rates vary more than with first- or second-line treatment.",
             approval: "Depending on the drug combination used, this may involve off-label use for H. pylori eradication. Details will be explained by the physician at your consultation.",
+          },
+        ],
+      },
+      {
+        title: "Health screening (self-pay — separate from insured care)",
+        items: [
+          {
+            name: "Half-day comprehensive health checkup",
+            price: "Coming soon",
+            overview: "A self-pay, half-day checkup covering the main screening items. Details and pricing will be announced before launch.",
+          },
+          {
+            name: "Gastroscopy (elective screening)",
+            price: "Coming soon",
+            overview: "Gastroscopy requested as elective self-pay screening by patients without symptoms.",
+            risks: "Sedation carries a risk of respiratory depression; rare complications include bleeding and perforation.",
+          },
+          {
+            name: "CT scan (elective screening)",
+            price: "Coming soon",
+            overview: "CT scanning requested as elective self-pay screening by patients without symptoms.",
+            risks: "Involves X-ray radiation exposure. Contrast agents, when used, carry a risk of allergic reaction.",
+          },
+          {
+            name: "Abdominal ultrasound (elective screening)",
+            price: "Coming soon",
+            overview: "Abdominal ultrasound requested as elective self-pay screening by patients without symptoms.",
+          },
+          {
+            name: "Carotid ultrasound (elective screening)",
+            price: "Coming soon",
+            overview: "Ultrasound of the carotid arteries to assess for arteriosclerosis.",
+          },
+          {
+            name: "ECG (elective screening)",
+            price: "Coming soon",
+            overview: "An electrocardiogram requested as elective self-pay screening by patients without symptoms.",
+          },
+          {
+            name: "PSA test (prostate cancer)",
+            price: "Coming soon",
+            overview: "A blood tumor-marker test for prostate cancer screening.",
+            risks: "Blood draws can cause bruising or pain. An elevated result can also have causes other than cancer, such as prostate enlargement or inflammation.",
+          },
+          {
+            name: "Statutory health checkup (pre-employment checkup, etc.)",
+            price: "¥10,000",
+            overview: "A pre-employment health checkup for local businesses, as required under Japan's Industrial Safety and Health Act. Includes a history review, physical measurements, blood pressure, chest X-ray, blood and urine tests, and an ECG. This is self-pay, billed to the employer or individual rather than through insurance.",
           },
         ],
       },
