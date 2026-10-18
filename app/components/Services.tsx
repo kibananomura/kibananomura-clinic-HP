@@ -142,7 +142,7 @@ export default function Services() {
           </FadeIn>
         </div>
 
-        <div className="mt-12 grid gap-5 lg:grid-cols-2">
+        <div className="mt-12 grid gap-5 lg:grid-cols-3">
           <FadeIn as="article">
             <div className="h-full rounded-[1.75rem] bg-surface/90 p-7 shadow-card transition-all hover:-translate-y-1 hover:shadow-soft">
               <div className="flex items-center gap-3">
@@ -205,6 +205,38 @@ export default function Services() {
                 className="mt-5 inline-flex items-center gap-1 text-sm font-bold text-primary transition-colors hover:text-primary-dark"
               >
                 {t.services.pricingLink}
+              </Link>
+            </div>
+          </FadeIn>
+
+          <FadeIn as="article" delay={0.15}>
+            <div className="h-full rounded-[1.75rem] bg-surface/90 p-7 shadow-card transition-all hover:-translate-y-1 hover:shadow-soft">
+              <div className="flex items-center gap-3">
+                <span className="rounded-full bg-blossom px-3 py-1 text-xs font-bold text-white">
+                  {t.services.checkupsBadge}
+                </span>
+                <h3 className="text-lg font-bold text-ink">
+                  {t.services.checkupsTitle}
+                </h3>
+              </div>
+              <p className="mt-4 text-[15px] leading-relaxed text-ink/75">
+                {t.services.checkupsBody}
+              </p>
+              <ul className="mt-5 flex flex-wrap gap-2">
+                {t.services.checkupsTags.map((tag) => (
+                  <li
+                    key={tag}
+                    className="whitespace-nowrap rounded-full bg-accent px-3 py-1.5 text-sm font-medium text-primary-dark"
+                  >
+                    {tag}
+                  </li>
+                ))}
+              </ul>
+              <Link
+                href="/checkups"
+                className="mt-5 inline-flex items-center gap-1 text-sm font-bold text-primary transition-colors hover:text-primary-dark"
+              >
+                {t.services.checkupsLink}
               </Link>
             </div>
           </FadeIn>

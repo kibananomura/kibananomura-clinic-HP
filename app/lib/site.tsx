@@ -109,6 +109,11 @@ export interface SiteDict {
     selfpayMore: string;
     pricingLink: string;
     equipmentLink: string;
+    checkupsBadge: string;
+    checkupsTitle: string;
+    checkupsBody: string;
+    checkupsTags: string[];
+    checkupsLink: string;
     scheduleTitle: string;
     amLabel: string;
     pmLabel: string;
@@ -497,6 +502,20 @@ const ja: SiteDict = {
     selfpayMore: "ほか",
     pricingLink: "料金の詳細を見る →",
     equipmentLink: "検査・設備の詳細を見る →",
+    checkupsBadge: "健診・検診",
+    checkupsTitle: "健康診断・各種検診も行えます",
+    checkupsBody:
+      "一般的な健康診断・人間ドックから、特定健診、企業健診（法定健診）、胃がんリスクを調べるABC検診、肝炎ウイルス検診まで対応予定。院内CTを用いた肺がん2次検診（精密検査）も行います。",
+    checkupsTags: [
+      "健康診断",
+      "人間ドック",
+      "特定健診",
+      "ABC検診",
+      "肝炎ウイルス検診",
+      "企業健診",
+      "肺がん2次検診（CT）",
+    ],
+    checkupsLink: "健診・検診の詳細を見る →",
     scheduleTitle: "受付時間",
     amLabel: "午前",
     pmLabel: "午後",
@@ -1159,6 +1178,20 @@ const en: SiteDict = {
     selfpayMore: "and more",
     pricingLink: "See pricing details →",
     equipmentLink: "See tests & equipment →",
+    checkupsBadge: "Health checkups",
+    checkupsTitle: "Health checkups & screening",
+    checkupsBody:
+      "From general health checkups and comprehensive health dock exams to statutory checkups for employers, ABC screening for stomach cancer risk, and hepatitis virus screening. We also offer secondary lung cancer screening using our in-house CT.",
+    checkupsTags: [
+      "Health checkup",
+      "Comprehensive health dock",
+      "Specific health checkup",
+      "ABC screening",
+      "Hepatitis screening",
+      "Employer checkups",
+      "Lung cancer screening (CT)",
+    ],
+    checkupsLink: "See checkup details →",
     scheduleTitle: "Reception hours",
     amLabel: "AM",
     pmLabel: "PM",
