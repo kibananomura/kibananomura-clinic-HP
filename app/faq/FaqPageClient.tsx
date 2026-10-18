@@ -6,6 +6,7 @@ import FadeIn from "../components/FadeIn";
 import SectionHeading from "../components/SectionHeading";
 import { SoftBlob, Blossom } from "../components/Decor";
 import LineLink from "../components/LineLink";
+import InlineRichText from "../components/InlineRichText";
 import { useSite } from "../lib/site";
 
 function FaqItem({ q, a }: { q: string; a: string }) {
@@ -37,7 +38,9 @@ function FaqItem({ q, a }: { q: string; a: string }) {
         <div className="border-t border-accent px-6 py-5">
           <div className="flex gap-3">
             <span className="mt-0.5 shrink-0 text-base font-bold text-primary-dark">A</span>
-            <p className="text-[15px] leading-relaxed text-ink/80">{a}</p>
+            <p className="text-[15px] leading-relaxed text-ink/80">
+              <InlineRichText text={a} />
+            </p>
           </div>
         </div>
       )}

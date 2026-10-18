@@ -7,6 +7,7 @@ import SectionHeading from "../components/SectionHeading";
 import { SoftBlob, LeafSprig } from "../components/Decor";
 import { useSite } from "../lib/site";
 import { equipment } from "../lib/equipment";
+import InlineRichText from "../components/InlineRichText";
 
 export default function EquipmentPageClient() {
   const { t, lang } = useSite();
@@ -87,7 +88,7 @@ export default function EquipmentPageClient() {
                       {c.name}
                     </h2>
                     <p className="mt-3 text-[15px] leading-[1.9] text-ink/80">
-                      {c.body}
+                      <InlineRichText text={c.body} />
                     </p>
                   </div>
                 </article>

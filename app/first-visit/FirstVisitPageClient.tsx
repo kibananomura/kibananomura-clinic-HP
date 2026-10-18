@@ -5,6 +5,7 @@ import FadeIn from "../components/FadeIn";
 import SectionHeading from "../components/SectionHeading";
 import { SoftBlob, Blossom } from "../components/Decor";
 import { useSite } from "../lib/site";
+import InlineRichText from "../components/InlineRichText";
 
 export default function FirstVisitPageClient() {
   const { t } = useSite();
@@ -37,7 +38,9 @@ export default function FirstVisitPageClient() {
                 </div>
                 <div>
                   <h2 className="text-lg font-bold text-primary-dark">{step.title}</h2>
-                  <p className="mt-2 text-[15px] leading-relaxed text-ink/80">{step.body}</p>
+                  <p className="mt-2 text-[15px] leading-relaxed text-ink/80">
+                    <InlineRichText text={step.body} />
+                  </p>
                 </div>
               </div>
             </FadeIn>
@@ -56,7 +59,7 @@ export default function FirstVisitPageClient() {
                     className="flex h-5 w-5 shrink-0 items-center justify-center rounded-md border-2 border-primary/40 bg-surface"
                     aria-hidden="true"
                   />
-                  {item}
+                  <InlineRichText text={item} />
                 </li>
               ))}
             </ul>
@@ -67,7 +70,9 @@ export default function FirstVisitPageClient() {
         <FadeIn delay={0.12} className="mt-6">
           <div className="rounded-[1.75rem] bg-surface/90 p-7 shadow-card sm:p-9">
             <h2 className="text-lg font-bold text-ink">{fv.insuranceHeading}</h2>
-            <p className="mt-4 text-[15px] leading-relaxed text-ink/80">{fv.insuranceBody}</p>
+            <p className="mt-4 text-[15px] leading-relaxed text-ink/80">
+              <InlineRichText text={fv.insuranceBody} />
+            </p>
           </div>
         </FadeIn>
 
@@ -82,7 +87,7 @@ export default function FirstVisitPageClient() {
               {fv.notes.map((note) => (
                 <li key={note} className="flex gap-3 text-[15px] text-ink/80">
                   <span className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-primary" aria-hidden="true" />
-                  {note}
+                  <InlineRichText text={note} />
                 </li>
               ))}
             </ul>
