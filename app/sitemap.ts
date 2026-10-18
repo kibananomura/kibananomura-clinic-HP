@@ -23,6 +23,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/privacy",
     "/first-visit",
     "/equipment",
+    "/checkups",
     "/news",
   ].map((path) => ({
     url: `${BASE_URL}${path}`,
