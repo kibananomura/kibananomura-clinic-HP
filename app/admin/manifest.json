@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-19T05:23:22.411Z",
+  "generatedAt": "2026-10-19T05:31:10.238Z",
   "categories": [
     {
       "label": "労務規程一式（就業規則・賃金規程・各種規程）",
@@ -85,6 +85,15 @@
           "blobHtmlUrl": "https://ck8huzl3ywaclnro.private.blob.vercel-storage.com/labor-regulations/09_%E7%A4%BE%E5%8A%B4%E5%A3%AB%E7%A2%BA%E8%AA%8D%E7%94%A8%E3%83%81%E3%82%A7%E3%83%83%E3%82%AF%E3%83%AA%E3%82%B9%E3%83%88_%E3%81%8A%E3%82%88%E3%81%B3%E9%81%8B%E7%94%A8%E3%82%AC%E3%82%A4%E3%83%89.html",
           "sizeKB": 2002,
           "modified": "2026-10-15"
+        },
+        {
+          "name": "10_ヒヤリハット報告書",
+          "url": "/admin-docs/labor-regulations/10_%E3%83%92%E3%83%A4%E3%83%AA%E3%83%8F%E3%83%83%E3%83%88%E5%A0%B1%E5%91%8A%E6%9B%B8.pdf",
+          "blobUrl": "https://ck8huzl3ywaclnro.private.blob.vercel-storage.com/labor-regulations/10_%E3%83%92%E3%83%A4%E3%83%AA%E3%83%8F%E3%83%83%E3%83%88%E5%A0%B1%E5%91%8A%E6%9B%B8.pdf",
+          "htmlUrl": "/admin-docs/labor-regulations/10_%E3%83%92%E3%83%A4%E3%83%AA%E3%83%8F%E3%83%83%E3%83%88%E5%A0%B1%E5%91%8A%E6%9B%B8.html",
+          "blobHtmlUrl": "https://ck8huzl3ywaclnro.private.blob.vercel-storage.com/labor-regulations/10_%E3%83%92%E3%83%A4%E3%83%AA%E3%83%8F%E3%83%83%E3%83%88%E5%A0%B1%E5%91%8A%E6%9B%B8.html",
+          "sizeKB": 431,
+          "modified": "2026-10-19"
         }
       ]
     },
@@ -215,7 +224,7 @@
           "blobUrl": "https://ck8huzl3ywaclnro.private.blob.vercel-storage.com/interview-checklist/%E6%9C%A8%E8%8A%B1%E3%81%AE%E3%82%80%E3%82%89%E8%A8%BA%E7%99%82%E6%89%80_%E6%8E%A1%E7%94%A8%E9%9D%A2%E6%8E%A5%E8%B3%AA%E5%95%8F%E3%83%81%E3%82%A7%E3%83%83%E3%82%AF%E3%82%B7%E3%83%BC%E3%83%88_20261016.pdf",
           "htmlUrl": "/admin-docs/interview-checklist/%E6%9C%A8%E8%8A%B1%E3%81%AE%E3%82%80%E3%82%89%E8%A8%BA%E7%99%82%E6%89%80_%E6%8E%A1%E7%94%A8%E9%9D%A2%E6%8E%A5%E8%B3%AA%E5%95%8F%E3%83%81%E3%82%A7%E3%83%83%E3%82%AF%E3%82%B7%E3%83%BC%E3%83%88_20261016.html",
           "blobHtmlUrl": "https://ck8huzl3ywaclnro.private.blob.vercel-storage.com/interview-checklist/%E6%9C%A8%E8%8A%B1%E3%81%AE%E3%82%80%E3%82%89%E8%A8%BA%E7%99%82%E6%89%80_%E6%8E%A1%E7%94%A8%E9%9D%A2%E6%8E%A5%E8%B3%AA%E5%95%8F%E3%83%81%E3%82%A7%E3%83%83%E3%82%AF%E3%82%B7%E3%83%BC%E3%83%88_20261016.html",
-          "sizeKB": 1345,
+          "sizeKB": 1377,
           "modified": "2026-10-19"
         },
         {
