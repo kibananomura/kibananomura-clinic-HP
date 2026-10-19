@@ -85,18 +85,14 @@ export default function AdminDocsClient({ categories }: { categories: Category[]
               >
                 <span>
                   <a
-                    href={f.htmlUrl || f.url}
-                    target="_blank"
-                    rel="noopener noreferrer"
+                    href={`/admin-docs/view?url=${encodeURIComponent(f.htmlUrl || f.url)}&name=${encodeURIComponent(f.name)}`}
                     style={{ color: "#2a5a46", fontWeight: 600, textDecoration: "underline" }}
                   >
                     {f.name}
                   </a>
                   {f.htmlUrl && (
                     <a
-                      href={f.url}
-                      target="_blank"
-                      rel="noopener noreferrer"
+                      href={`/admin-docs/view?url=${encodeURIComponent(f.url)}&name=${encodeURIComponent(f.name + "（PDF版）")}`}
                       style={{
                         marginLeft: 8,
                         fontSize: 10.5,
