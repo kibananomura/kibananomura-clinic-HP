@@ -11,7 +11,9 @@ excerpt_en: “It's not bad enough for the hospital, but I just feel kind of hea
 
 ## ja
 
-「病院に行くほどじゃないけど、なんとなく体が重い」。診察の合間にそんな話を聞くことが、思いのほか多くあります。健康診断では「異常なし」。でも本人にしか分からない「なんとなく」の不調は、確かにそこにある。
+「病院に行くほどじゃないけど、なんとなく体が重い」。健康診断では「異常なし」と言われたのに、自分では確かに調子が悪いと感じている——そんなモヤモヤを、どこに相談すればいいのか分からないまま抱えていませんか。診察の合間にそんな話を聞くことが、思いのほか多くあります。
+
+結論から言うと、そのモヤモヤは「気のせい」でも「我慢すべきもの」でもありません。**当院が内科と外科の両方を診ているのは、まさにこの「なんとなくの不調」に向き合うためです。**この記事を読んでいただくと、「検査で異常が出ない不調」がなぜ起こるのか、そしてそれをどう受け止めればいいのかが分かります。
 
 病院というのは、大きな病気やケガ、いわば「マイナス5」の状態になってから駆け込み、「ゼロ」、つまり異常なしの状態に戻す場所だと思われがちです。それも医療の大切な役割のひとつですが、私がずっと気になっているのは、その手前の時間です。検査には引っかからないけれど、本人は確かに「なんとなく調子が悪い」と感じている。**その「マイナス0.5」くらいの段階こそ、実は一番大事なのではないか**と思っています。
 
@@ -27,7 +29,9 @@ excerpt_en: “It's not bad enough for the hospital, but I just feel kind of hea
 
 ## en
 
-"It's not bad enough to go to the hospital, but I just feel kind of heavy and sluggish." I hear this kind of thing more often than you might expect, in between patients. Health checkups come back "no abnormalities found" — and yet the person themselves knows, better than any test, that something feels a little off.
+"It's not bad enough to go to the hospital, but I just feel kind of heavy and sluggish." Your checkup came back "no abnormalities found," and yet you know, somehow, that something is off — and you're not sure who you're even supposed to tell that to. I hear this kind of thing more often than you might expect, in between patients.
+
+The short version: that nagging feeling isn't "just your imagination" or something you have to quietly put up with. **The reason our clinic covers both internal medicine and surgery is precisely to address this kind of "something feels off" discomfort.** By the end of this post, you'll understand why discomfort that doesn't show up on a test happens in the first place, and how to think about it.
 
 People tend to think of a hospital as a place you rush to once something has gone seriously wrong, a "minus 5," and where treatment brings you back to "zero," meaning no abnormalities. That's one of medicine's important roles, but what I keep coming back to is the stretch of time before that. The tests don't catch anything, yet the person genuinely feels something is a little off. **I believe that "minus 0.5" stage matters more than we usually give it credit for.**
 

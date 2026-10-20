@@ -11,9 +11,11 @@ excerpt_en: Antibiotics don't work on colds — many of you probably already kno
 
 ## ja
 
-「風邪にはウイルスが多いので、抗生剤はあまり効果がありません」。この話、最近はテレビや雑誌でもよく取り上げられるようになり、知っている方も増えてきた印象があります。実際、外来で「どうせ効かないんですよね」と先に言われることも珍しくなくなりました。
+高熱と喉の痛みで仕事も家事も手につかない。「一刻も早く楽になりたい、できれば一番効く薬がほしい」——そう感じて受診される方は、本当に多くいらっしゃいます。つらいときほど、強い薬にすがりたくなるお気持ちは、痛いほどよく分かります。
 
-ただ、今日お話ししたいのは、その一歩先です。抗生剤は「効かない」だけでなく、**必要のない場面で飲んでしまうと、実はひそかに損をしている**かもしれない、という話です。
+ただ、「風邪にはウイルスが多いので、抗生剤はあまり効果がありません」という話は、最近はテレビや雑誌でもよく取り上げられるようになり、知っている方も増えてきた印象があります。外来で「どうせ効かないんですよね」と先に言われることも珍しくなくなりました。
+
+この記事を読んでいただくと、「効かない」だけでは終わらない、もう一歩踏み込んだ理由が分かります。結論から言うと、抗生剤は「効かない」だけでなく、**必要のない場面で飲んでしまうと、実はひそかに損をしている**かもしれません。
 
 ### おさらい：対症療法と根本療法
 
@@ -48,9 +50,11 @@ excerpt_en: Antibiotics don't work on colds — many of you probably already kno
 
 ## en
 
-"Most colds are caused by viruses, so antibiotics don't really help." This idea has made its way into TV programs and magazines often enough that many patients already know it. These days, it's not unusual for someone to say "I know it probably won't do anything anyway" before I've even finished explaining.
+A high fever and a throbbing throat that make it impossible to work or even get through the day — "I just want relief as fast as possible, and ideally, the strongest medicine available." So many patients come in feeling exactly this way, and when you're that miserable, wanting to reach for the strongest thing available makes complete sense.
 
-What I'd like to talk about today goes one step further. Antibiotics don't just fail to help with a cold — taking them when you don't actually need them may quietly cost you something.
+That said, the idea that "most colds are caused by viruses, so antibiotics don't really help" has made its way into TV programs and magazines often enough that many patients already know it. These days, it's not unusual for someone to say "I know it probably won't do anything anyway" before I've even finished explaining.
+
+By the end of this post, you'll understand a reason that goes beyond "it just doesn't work." The short version: antibiotics don't just fail to help with a cold — taking them when you don't actually need them may quietly cost you something.
 
 ### A quick refresher: symptom relief vs. root-cause treatment
 

@@ -144,7 +144,15 @@ export const generatedPosts: BlogPost[] = [
       "body": [
         {
           "kind": "text",
-          "text": "いつも木花のむら総合診療所のブログをご覧いただき、ありがとうございます。今回は少し趣向を変えて、宮崎県が発表している感染症発生動向のデータをもとに、今どんな感染症が流行しているか、ご家族で気をつけていただきたいポイントをまとめてみました。難しい数字の話は噛み砕いてお伝えしますので、気軽に読んでいただければと思います。"
+          "text": "「子どもの熱が続いているけど、これはただの風邪？　それとも、今どこかで流行っている何か？」。夜、体温計を片手に、そんな不安に襲われたことはありませんか。周りに同じ症状の子が増えてくると、なおさら心配になりますよね。"
+        },
+        {
+          "kind": "text",
+          "text": "今回は、宮崎県が発表している最新の感染症発生動向データをもとに、**今まさに宮崎で何が広がっていて、どんな症状に注意すべきか**をまとめました。最後まで読んでいただければ、「これは様子を見ていい症状か」「早めに受診すべき症状か」を、データに基づいて判断できるようになります。難しい数字の話は噛み砕いてお伝えしますので、気軽に読んでみてください。"
+        },
+        {
+          "kind": "text",
+          "text": "結論から言うと、今の宮崎で特に増えているのは**新型コロナウイルス感染症**と**感染性胃腸炎**、そしてこれからの季節は**食中毒**にも注意が必要です。一方で手足口病は落ち着いてきています。それぞれの具体的な数字と、ご家庭で気をつけていただきたいポイントを見ていきましょう。"
         },
         {
           "kind": "text",
@@ -203,7 +211,15 @@ export const generatedPosts: BlogPost[] = [
       "body": [
         {
           "kind": "text",
-          "text": "Thank you for reading the Kibana Nomura General Medicine Clinic blog. This time, we're sharing something a little different — a summary of the latest infectious disease data published by Miyazaki Prefecture, so you can see what's going around right now and what to watch for with your family. We'll keep the numbers simple, so please read on at ease."
+          "text": "\"My child's fever won't go away — is this just a cold, or something going around right now?\" Have you ever lain awake at night, thermometer in hand, caught in that exact worry? It only gets harder when you notice more kids around you coming down with the same thing."
+        },
+        {
+          "kind": "text",
+          "text": "This time, based on the latest infectious disease data published by Miyazaki Prefecture, we're summarizing **what's actually spreading in Miyazaki right now and which symptoms deserve extra caution.** By the end, you'll be able to judge, based on real data, whether a symptom is one to simply watch or one that calls for a visit sooner rather than later. We'll keep the numbers simple, so please read on at ease."
+        },
+        {
+          "kind": "text",
+          "text": "The short version: right now in Miyazaki, **COVID-19** and **infectious gastroenteritis** are both on the rise, and **food poisoning** deserves extra care as we head into summer. Hand, foot, and mouth disease, on the other hand, is easing up. Let's look at the specific numbers and what to watch for with your family."
         },
         {
           "kind": "text",
@@ -441,7 +457,11 @@ export const generatedPosts: BlogPost[] = [
       "body": [
         {
           "kind": "text",
-          "text": "「病院に行くほどじゃないけど、なんとなく体が重い」。診察の合間にそんな話を聞くことが、思いのほか多くあります。健康診断では「異常なし」。でも本人にしか分からない「なんとなく」の不調は、確かにそこにある。"
+          "text": "「病院に行くほどじゃないけど、なんとなく体が重い」。健康診断では「異常なし」と言われたのに、自分では確かに調子が悪いと感じている——そんなモヤモヤを、どこに相談すればいいのか分からないまま抱えていませんか。診察の合間にそんな話を聞くことが、思いのほか多くあります。"
+        },
+        {
+          "kind": "text",
+          "text": "結論から言うと、そのモヤモヤは「気のせい」でも「我慢すべきもの」でもありません。**当院が内科と外科の両方を診ているのは、まさにこの「なんとなくの不調」に向き合うためです。**この記事を読んでいただくと、「検査で異常が出ない不調」がなぜ起こるのか、そしてそれをどう受け止めればいいのかが分かります。"
         },
         {
           "kind": "text",
@@ -476,7 +496,11 @@ export const generatedPosts: BlogPost[] = [
       "body": [
         {
           "kind": "text",
-          "text": "\"It's not bad enough to go to the hospital, but I just feel kind of heavy and sluggish.\" I hear this kind of thing more often than you might expect, in between patients. Health checkups come back \"no abnormalities found\" — and yet the person themselves knows, better than any test, that something feels a little off."
+          "text": "\"It's not bad enough to go to the hospital, but I just feel kind of heavy and sluggish.\" Your checkup came back \"no abnormalities found,\" and yet you know, somehow, that something is off — and you're not sure who you're even supposed to tell that to. I hear this kind of thing more often than you might expect, in between patients."
+        },
+        {
+          "kind": "text",
+          "text": "The short version: that nagging feeling isn't \"just your imagination\" or something you have to quietly put up with. **The reason our clinic covers both internal medicine and surgery is precisely to address this kind of \"something feels off\" discomfort.** By the end of this post, you'll understand why discomfort that doesn't show up on a test happens in the first place, and how to think about it."
         },
         {
           "kind": "text",
@@ -517,6 +541,10 @@ export const generatedPosts: BlogPost[] = [
         {
           "kind": "text",
           "text": "健診で「中性脂肪が高いですね」「血糖値が気になります」「血圧が高めです」とお伝えすると、患者さんの表情がさっと曇ることがあります。ご本人に聞いてみると、「好きなものを全部禁止されるんじゃないか」「毎日カロリーを計算して、塩分を何グラムまでと言われるんじゃないか」と身構えていたとのことでした。そう思うと、病院に行くこと自体を後回しにしてしまう気持ちも、よく分かります。"
+        },
+        {
+          "kind": "text",
+          "text": "この記事を読んでいただければ、「細かい食事制限は、実はほとんど必要ない」ということと、代わりに今日から始められるたったひとつの考え方が分かります。結論から言うと、私が生活習慣病の患者さんにお伝えしているのは**「毎日同じものを食べないようにする」**、ただそれだけです。なぜそれで十分なのか、順を追ってお話しします。"
         },
         {
           "kind": "text",
@@ -580,6 +608,10 @@ export const generatedPosts: BlogPost[] = [
         {
           "kind": "text",
           "text": "\"Your triglycerides are a bit high,\" \"your blood sugar is something to watch,\" \"your blood pressure is on the high side\" — I sometimes watch a patient's face fall the moment I say something like this. When I ask, many tell me they'd already braced themselves for a long list of forbidden foods, or for being told to count calories and track every gram of salt. I understand why that feeling makes people put off coming in at all."
+        },
+        {
+          "kind": "text",
+          "text": "By the end of this post, you'll see that detailed food restrictions are rarely necessary at all — and you'll have one simple idea you can start today instead. The short version: the one piece of advice I give patients managing a lifestyle-related condition is simply **\"try not to eat the same thing every day.\"** Here's why that's enough."
         },
         {
           "kind": "text",
@@ -647,7 +679,11 @@ export const generatedPosts: BlogPost[] = [
       "body": [
         {
           "kind": "text",
-          "text": "「健診のオプションで腫瘍マーカーを測ったら、基準値を超えていた」。そんなご相談を受けることがあります。数字だけを見ると、どうしても「がんなのでは」と不安になってしまうと思います。今日は、そもそも腫瘍マーカーとはどういう検査なのかを少しお話しして、不安を少しでも軽くできればと思います。"
+          "text": "「健診のオプションで腫瘍マーカーを測ったら、基準値を超えていた」。結果通知の数字を前に、夜も眠れないほど「がんなのでは」と思い詰めてしまった——そんなご相談を受けることがあります。数字だけを見ると、どうしても最悪のケースを想像してしまうお気持ちは、本当によく分かります。"
+        },
+        {
+          "kind": "text",
+          "text": "今日は、そもそも腫瘍マーカーとはどういう検査なのかをお話しし、その不安を少しでも軽くできればと思います。結論から言うと、**腫瘍マーカーが基準値を超えていても、がんがない方のほうがずっと多い**のです。その上で、「それでも確認が必要なケース」と「医師にどう相談すればいいか」もあわせてお伝えします。最後まで読んでいただければ、今の数字とどう付き合えばいいかが見えてくるはずです。"
         },
         {
           "kind": "text",
@@ -710,7 +746,11 @@ export const generatedPosts: BlogPost[] = [
       "body": [
         {
           "kind": "text",
-          "text": "\"My optional tumor marker test came back above the normal range.\" We sometimes hear this from patients, and understandably, seeing a number out of range can make anyone worry it might mean cancer. Today we'd like to explain a bit about what tumor marker tests actually are, in the hope of easing that worry."
+          "text": "\"My optional tumor marker test came back above the normal range.\" We sometimes hear this from patients who tell us they could barely sleep that night, convinced it had to mean cancer. Staring at a number like that, it's completely understandable to imagine the worst."
+        },
+        {
+          "kind": "text",
+          "text": "Today we'd like to explain what tumor marker tests actually are, in the hope of easing that worry. The short version: **far more people with an elevated tumor marker turn out not to have cancer than do.** We'll also cover the cases where follow-up really is warranted, and how to talk it through with a doctor. By the end, you should have a clearer sense of how to make sense of your own result."
         },
         {
           "kind": "text",
@@ -985,6 +1025,10 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
+          "text": "この記事を読んでいただくと、「症状がないのに、なぜ薬を続ける必要があるのか」が分かり、不安なく治療を続けられるようになります。結論から言うと、**症状がない日も気管の炎症は静かにくすぶり続けているため、吸入薬は「治す薬」ではなく「火種を抑え続ける薬」**なのです。その理由を、順を追ってお話しします。"
+        },
+        {
+          "kind": "text",
           "text": "### 「症状がない日」も、気管はボヤ状態"
         },
         {
@@ -1052,6 +1096,10 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
+          "text": "By the end of this post, you'll understand why you need to keep taking medicine even with no symptoms at all, so you can keep up treatment without that nagging doubt. The short version: **even on symptom-free days, inflammation keeps quietly smoldering in your airways, so an inhaler isn't a \"cure\" — it's what keeps the embers from reigniting.** Here's why, step by step."
+        },
+        {
+          "kind": "text",
           "text": "### Even on symptom-free days, the airways are quietly smoldering"
         },
         {
@@ -1116,7 +1164,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "ですが、ここで一つお伝えしたいことがあります。**高血圧・糖尿病・脂質異常症という診断名がついた方のすべてが、生活習慣病とは限らない**のです。"
+          "text": "この記事を読んでいただければ、その自分を責める気持ちから、少し楽になっていただけるかもしれません。結論から言うと、**高血圧・糖尿病・脂質異常症という診断名がついた方のすべてが、生活習慣病とは限らない**のです。なぜそう言えるのか、具体的な例とともにお話しします。"
         },
         {
           "kind": "text",
@@ -1163,7 +1211,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "But there's something important I'd like to share: **not everyone diagnosed with high blood pressure, diabetes, or dyslipidemia actually has a lifestyle disease.**"
+          "text": "Reading this may ease some of that self-blame. The short version: **not everyone diagnosed with high blood pressure, diabetes, or dyslipidemia actually has a lifestyle disease.** Here's why, with some concrete examples."
         },
         {
           "kind": "text",
@@ -1211,7 +1259,11 @@ export const generatedPosts: BlogPost[] = [
       "body": [
         {
           "kind": "text",
-          "text": "「先生、このお薬、一度始めたらもう一生やめられないんですよね……？」外来で、本当によく聞かれる質問です。その言葉の奥には、「薬漬けになってしまう怖さ」や、「今の生活をまるごと変えなければいけない重たさ」があるのだと思います。どちらのお気持ちも、とてもよく分かります。一人で抱え込まず、どうすれば無理なく変えていけるか、まずは一緒に考えていきましょう。"
+          "text": "「先生、このお薬、一度始めたらもう一生やめられないんですよね……？」外来で、本当によく聞かれる質問です。その言葉の奥には、「薬漬けになってしまう怖さ」や、「今の生活をまるごと変えなければいけない重たさ」があるのだと思います。どちらのお気持ちも、とてもよく分かります。"
+        },
+        {
+          "kind": "text",
+          "text": "この記事を読んでいただければ、その不安の答えが「いいえ」であること、そしてお薬を減らしていくために今日からできることが分かります。結論から言うと、**お薬はあくまで「今の体を守るためのサポート」**であり、生活習慣を少しずつ整えていくことで、減薬や卒業を目指せる場合があります。一人で抱え込まず、どうすれば無理なく変えていけるか、まずは一緒に考えていきましょう。"
         },
         {
           "kind": "text",
@@ -1258,7 +1310,11 @@ export const generatedPosts: BlogPost[] = [
       "body": [
         {
           "kind": "text",
-          "text": "\"Doctor, once I start this medication, I can never stop, right?\" It's a question I hear all the time in clinic. Behind those words, I think, is a fear of becoming dependent on medication for life, and the heavy feeling that comes with having to overhaul your entire way of living. Both feelings make complete sense to me. You don't have to carry this alone — let's start by thinking together about how to make changes without straining yourself."
+          "text": "\"Doctor, once I start this medication, I can never stop, right?\" It's a question I hear all the time in clinic. Behind those words, I think, is a fear of becoming dependent on medication for life, and the heavy feeling that comes with having to overhaul your entire way of living. Both feelings make complete sense to me."
+        },
+        {
+          "kind": "text",
+          "text": "By the end of this post, you'll know the answer to that fear — it's no — and what you can start doing today to work toward taking less medication. The short version: **medication is, at its core, support to protect your body as it is right now,** and gradually adjusting your daily habits can open the door to reducing or even stopping it. You don't have to carry this alone — let's start by thinking together about how to make changes without straining yourself."
         },
         {
           "kind": "text",
@@ -1310,11 +1366,15 @@ export const generatedPosts: BlogPost[] = [
       "body": [
         {
           "kind": "text",
-          "text": "「風邪にはウイルスが多いので、抗生剤はあまり効果がありません」。この話、最近はテレビや雑誌でもよく取り上げられるようになり、知っている方も増えてきた印象があります。実際、外来で「どうせ効かないんですよね」と先に言われることも珍しくなくなりました。"
+          "text": "高熱と喉の痛みで仕事も家事も手につかない。「一刻も早く楽になりたい、できれば一番効く薬がほしい」——そう感じて受診される方は、本当に多くいらっしゃいます。つらいときほど、強い薬にすがりたくなるお気持ちは、痛いほどよく分かります。"
         },
         {
           "kind": "text",
-          "text": "ただ、今日お話ししたいのは、その一歩先です。抗生剤は「効かない」だけでなく、**必要のない場面で飲んでしまうと、実はひそかに損をしている**かもしれない、という話です。"
+          "text": "ただ、「風邪にはウイルスが多いので、抗生剤はあまり効果がありません」という話は、最近はテレビや雑誌でもよく取り上げられるようになり、知っている方も増えてきた印象があります。外来で「どうせ効かないんですよね」と先に言われることも珍しくなくなりました。"
+        },
+        {
+          "kind": "text",
+          "text": "この記事を読んでいただくと、「効かない」だけでは終わらない、もう一歩踏み込んだ理由が分かります。結論から言うと、抗生剤は「効かない」だけでなく、**必要のない場面で飲んでしまうと、実はひそかに損をしている**かもしれません。"
         },
         {
           "kind": "text",
@@ -1385,11 +1445,15 @@ export const generatedPosts: BlogPost[] = [
       "body": [
         {
           "kind": "text",
-          "text": "\"Most colds are caused by viruses, so antibiotics don't really help.\" This idea has made its way into TV programs and magazines often enough that many patients already know it. These days, it's not unusual for someone to say \"I know it probably won't do anything anyway\" before I've even finished explaining."
+          "text": "A high fever and a throbbing throat that make it impossible to work or even get through the day — \"I just want relief as fast as possible, and ideally, the strongest medicine available.\" So many patients come in feeling exactly this way, and when you're that miserable, wanting to reach for the strongest thing available makes complete sense."
         },
         {
           "kind": "text",
-          "text": "What I'd like to talk about today goes one step further. Antibiotics don't just fail to help with a cold — taking them when you don't actually need them may quietly cost you something."
+          "text": "That said, the idea that \"most colds are caused by viruses, so antibiotics don't really help\" has made its way into TV programs and magazines often enough that many patients already know it. These days, it's not unusual for someone to say \"I know it probably won't do anything anyway\" before I've even finished explaining."
+        },
+        {
+          "kind": "text",
+          "text": "By the end of this post, you'll understand a reason that goes beyond \"it just doesn't work.\" The short version: antibiotics don't just fail to help with a cold — taking them when you don't actually need them may quietly cost you something."
         },
         {
           "kind": "text",

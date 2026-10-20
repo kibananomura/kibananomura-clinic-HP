@@ -17,6 +17,8 @@ excerpt_en: Why keep taking medicine when you have no symptoms at all? Doctors u
 
 症状が落ち着いて元気に過ごせているのは素晴らしいことですし、毎日お薬を続ける大変さもよく分かります。ですが実は、ここが喘息治療のいちばんの落とし穴です。
 
+この記事を読んでいただくと、「症状がないのに、なぜ薬を続ける必要があるのか」が分かり、不安なく治療を続けられるようになります。結論から言うと、**症状がない日も気管の炎症は静かにくすぶり続けているため、吸入薬は「治す薬」ではなく「火種を抑え続ける薬」**なのです。その理由を、順を追ってお話しします。
+
 ### 「症状がない日」も、気管はボヤ状態
 
 1980年代頃まで、喘息は「発作のときだけ気管支がキュッと狭くなる病気」と考えられ、治療も発作を鎮める薬が中心でした。ところがその後の研究で、**発作のない平穏な日でも、気管の粘膜ではアレルギーによる炎症がずっとくすぶり続けている**ことが分かってきたのです。
@@ -49,6 +51,8 @@ A conversation like this comes up often in the exam room.
 "Doctor, I haven't been coughing at all lately, so I've been skipping my inhaler!"
 
 It's wonderful to hear that symptoms have settled down, and I understand how tiring it can be to keep up a daily medication. But this is actually the biggest trap in asthma treatment.
+
+By the end of this post, you'll understand why you need to keep taking medicine even with no symptoms at all, so you can keep up treatment without that nagging doubt. The short version: **even on symptom-free days, inflammation keeps quietly smoldering in your airways, so an inhaler isn't a "cure" — it's what keeps the embers from reigniting.** Here's why, step by step.
 
 ### Even on symptom-free days, the airways are quietly smoldering
 

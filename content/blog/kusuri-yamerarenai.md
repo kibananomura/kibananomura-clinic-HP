@@ -11,7 +11,9 @@ excerpt_en: Once I start this medication, I can never stop, right? It's a questi
 
 ## ja
 
-「先生、このお薬、一度始めたらもう一生やめられないんですよね……？」外来で、本当によく聞かれる質問です。その言葉の奥には、「薬漬けになってしまう怖さ」や、「今の生活をまるごと変えなければいけない重たさ」があるのだと思います。どちらのお気持ちも、とてもよく分かります。一人で抱え込まず、どうすれば無理なく変えていけるか、まずは一緒に考えていきましょう。
+「先生、このお薬、一度始めたらもう一生やめられないんですよね……？」外来で、本当によく聞かれる質問です。その言葉の奥には、「薬漬けになってしまう怖さ」や、「今の生活をまるごと変えなければいけない重たさ」があるのだと思います。どちらのお気持ちも、とてもよく分かります。
+
+この記事を読んでいただければ、その不安の答えが「いいえ」であること、そしてお薬を減らしていくために今日からできることが分かります。結論から言うと、**お薬はあくまで「今の体を守るためのサポート」**であり、生活習慣を少しずつ整えていくことで、減薬や卒業を目指せる場合があります。一人で抱え込まず、どうすれば無理なく変えていけるか、まずは一緒に考えていきましょう。
 
 ### お薬と生活習慣、本当の関係
 
@@ -33,7 +35,9 @@ excerpt_en: Once I start this medication, I can never stop, right? It's a questi
 
 ## en
 
-"Doctor, once I start this medication, I can never stop, right?" It's a question I hear all the time in clinic. Behind those words, I think, is a fear of becoming dependent on medication for life, and the heavy feeling that comes with having to overhaul your entire way of living. Both feelings make complete sense to me. You don't have to carry this alone — let's start by thinking together about how to make changes without straining yourself.
+"Doctor, once I start this medication, I can never stop, right?" It's a question I hear all the time in clinic. Behind those words, I think, is a fear of becoming dependent on medication for life, and the heavy feeling that comes with having to overhaul your entire way of living. Both feelings make complete sense to me.
+
+By the end of this post, you'll know the answer to that fear — it's no — and what you can start doing today to work toward taking less medication. The short version: **medication is, at its core, support to protect your body as it is right now,** and gradually adjusting your daily habits can open the door to reducing or even stopping it. You don't have to carry this alone — let's start by thinking together about how to make changes without straining yourself.
 
 ### What medication and lifestyle actually have to do with each other
 
