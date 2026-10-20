@@ -727,15 +727,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "### まとめ"
-        },
-        {
-          "kind": "text",
-          "text": "- 腫瘍マーカーは、もともとがん患者さんの経過観察のために発展してきた検査で、健康な方のスクリーニング用には設計されていません\n- そのため、がんがなくても基準値を超える「偽陽性」が珍しくありません\n- 一度の異常値だけで思い詰めすぎず、気になる場合は医師に相談し、数値の意味を一緒に確認しましょう\n- 結果にかかわらず、生活習慣を見直す良い機会として前向きに活用してください"
-        },
-        {
-          "kind": "text",
-          "text": "健診の結果でご不安なことがあれば、お一人で抱え込まず、どうぞ遠慮なくご相談ください。"
+          "text": "腫瘍マーカーは、もともとがん患者さんの経過観察のために発展してきた検査で、健康な方のスクリーニング用に作られたものではありません。だからこそ、がんがなくても基準値を超えてしまう方は、思っている以上に多いのです。一度の数字だけで思い詰めすぎず、気になるときはどうぞ一人で抱え込まず、ご相談ください。数字の意味を一緒に整理し、必要があれば次の一歩も一緒に考えていきます。"
         }
       ]
     },
@@ -794,15 +786,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "### In short"
-        },
-        {
-          "kind": "text",
-          "text": "- Tumor markers were developed mainly to monitor cancer patients already diagnosed, not as a screening tool for healthy people\n- Because of this, false positives — an elevated result without cancer — are not unusual\n- Don't let a single abnormal result weigh on you too heavily; if it's concerning, talk to a doctor and work through what the number means together\n- Either way, treat it as a good chance to take a fresh look at your daily habits"
-        },
-        {
-          "kind": "text",
-          "text": "If a checkup result has you worried, please don't carry that alone — feel free to reach out to us."
+          "text": "Tumor markers were developed mainly to monitor patients already diagnosed with cancer, not as a screening tool for healthy people. That's exactly why more people than you'd expect see an elevated result without having cancer at all. Please don't let a single number weigh on you too heavily — if it's on your mind, don't carry that alone. Come talk to us, and we'll work through what the number means together, and figure out the next step if one's needed."
         }
       ]
     }

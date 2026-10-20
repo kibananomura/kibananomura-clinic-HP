@@ -35,14 +35,7 @@ excerpt_en: For anyone who added a tumor marker test to their checkup and got an
 
 もし詳しい検査で異常が見つからなかった場合でも、その結果を「安心して終わり」にするのではなく、**ご自身の生活習慣を振り返るきっかけ**にしていただくのも良いのではないかと思います。禁煙、節酒、食生活の見直し、睡眠や運動の習慣など、見直せる点があれば、この機会に少しずつ整えていく。腫瘍マーカーが「これといった病気」を示していなかったとしても、体からの小さなサインとして前向きに受け止めていただければ、今回の検査にもきちんと意味があったことになります。
 
-### まとめ
-
-- 腫瘍マーカーは、もともとがん患者さんの経過観察のために発展してきた検査で、健康な方のスクリーニング用には設計されていません
-- そのため、がんがなくても基準値を超える「偽陽性」が珍しくありません
-- 一度の異常値だけで思い詰めすぎず、気になる場合は医師に相談し、数値の意味を一緒に確認しましょう
-- 結果にかかわらず、生活習慣を見直す良い機会として前向きに活用してください
-
-健診の結果でご不安なことがあれば、お一人で抱え込まず、どうぞ遠慮なくご相談ください。
+腫瘍マーカーは、もともとがん患者さんの経過観察のために発展してきた検査で、健康な方のスクリーニング用に作られたものではありません。だからこそ、がんがなくても基準値を超えてしまう方は、思っている以上に多いのです。一度の数字だけで思い詰めすぎず、気になるときはどうぞ一人で抱え込まず、ご相談ください。数字の意味を一緒に整理し、必要があれば次の一歩も一緒に考えていきます。
 
 ## en
 
@@ -70,11 +63,4 @@ This doesn't mean any result can be brushed off. If a value is **substantially a
 
 And if further testing turns up nothing concerning, we'd encourage you not to simply file it away as "all clear" — instead, treat it as **a prompt to look at your lifestyle**. Quitting smoking, cutting back on alcohol, adjusting your diet, improving sleep and exercise habits — if there's room to improve, this is a good moment to start. Even if the tumor marker wasn't pointing to any specific disease, treating it as a small signal from your body and responding to it positively means the test still served a real purpose.
 
-### In short
-
-- Tumor markers were developed mainly to monitor cancer patients already diagnosed, not as a screening tool for healthy people
-- Because of this, false positives — an elevated result without cancer — are not unusual
-- Don't let a single abnormal result weigh on you too heavily; if it's concerning, talk to a doctor and work through what the number means together
-- Either way, treat it as a good chance to take a fresh look at your daily habits
-
-If a checkup result has you worried, please don't carry that alone — feel free to reach out to us.
+Tumor markers were developed mainly to monitor patients already diagnosed with cancer, not as a screening tool for healthy people. That's exactly why more people than you'd expect see an elevated result without having cancer at all. Please don't let a single number weigh on you too heavily — if it's on your mind, don't carry that alone. Come talk to us, and we'll work through what the number means together, and figure out the next step if one's needed.
