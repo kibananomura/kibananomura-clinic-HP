@@ -1612,7 +1612,7 @@ export const generatedPosts: BlogPost[] = [
       "body": [
         {
           "kind": "text",
-          "text": "先日、70代の患者さんが「相談したいことがあって」と来院されました。特定健診の結果を見せていただくと、コレステロールも血圧も、たしかに「異常なし」の判定です。ただ、正常範囲の中でもやや上限寄りの数値が、ここ数年続いていました。"
+          "text": "先日、70代の患者さんが「相談したいことがあって」と来院されました。特定健診の結果を見せていただくと、コレステロールも血圧も「異常なし」の判定です。ただ、正常範囲の中でもやや上限寄りの数値が、ここ数年続いていました。"
         },
         {
           "kind": "text",
@@ -1620,27 +1620,31 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "### まずは、今の状態を言葉にすることから"
+          "text": "この記事を読んでいただくと、「異常なし」という判定と、ご自身が感じる不安との間にあるギャップを、どう考えればいいかのヒントが見つかるかもしれません。結論から言うと、**数値が「正常の範囲内かどうか」と、「お薬が必要かどうか」は、実はイコールではありません**。大切なのは、数字そのものより先に、その数字が今のご自身にとって何を意味するのかを、言葉で整理することです。"
         },
         {
           "kind": "text",
-          "text": "こうした時に大切なのは、検査を増やすことよりも先に、**今の状態がどういう意味を持つのかを、きちんと言葉でお伝えする**ことだと考えています。今回のケースでは、食事内容や運動習慣、ご家族の病歴なども含めてじっくり伺った上で、「今すぐお薬が必要な状態ではありません」とまずお伝えしました。"
+          "text": "### 「正常の上限」が続く、というのはどういう状態か"
         },
         {
           "kind": "text",
-          "text": "正常範囲の上限が続いているというのは、「今はまだ大丈夫だけれど、今後の生活習慣次第で変わっていく可能性がある」という、いわば分かれ道に立っている状態です。だからこそ、数値だけで一喜一憂するのではなく、ご自身の体の中で実際に何が起きているのかを理解していただくことが、次の一歩につながると思っています。"
+          "text": "正常範囲の上限が何年も続いているというのは、「今はまだ大丈夫だけれど、今後の生活習慣次第で変わっていく可能性がある」という、いわば分かれ道に立っている状態です。この患者さんの場合も、食事内容や運動習慣、ご家族の病歴なども含めてじっくり伺った上で、「今すぐお薬が必要な状態ではありません」とまずお伝えしました。"
         },
         {
           "kind": "text",
-          "text": "### 「知って、納得したい」というご希望から"
+          "text": "数値だけを見て一喜一憂するのではなく、その数値がどんな生活習慣の上に成り立っているのかを一緒に振り返ることで、ご本人が「なぜ今は大丈夫なのか」を自分の言葉で理解できるようになります。これが、周囲の声に振り回されないための、いちばんの土台になると感じています。"
         },
         {
           "kind": "text",
-          "text": "お話をする中で、この患者さんは「自分の血管が実際どうなっているのか、一度きちんと知った上で、これからの生活を決めたい」とおっしゃいました。そこで、体への負担が少ない血管の検査（血管の硬さを測る検査や、頸動脈のエコー検査など）で、動脈硬化の状態を客観的に確認してみることをご提案し、ご本人の希望のもとで実施しました。"
+          "text": "### 「知っておく」という選択肢もあります"
         },
         {
           "kind": "text",
-          "text": "結果は、年齢相応の範囲内で、これといった異常は見られませんでした。「数字だけじゃなくて、自分の体の中を実際に見てもらえて安心した」と、帰り際には笑顔を見せてくださいました。"
+          "text": "お話をする中で、この患者さんは「自分の血管が実際どうなっているのか、一度きちんと知った上で、これからの生活を決めたい」とおっしゃいました。そういう場合には、体への負担が少ない血管の検査（血管の硬さを測る検査や、頸動脈のエコー検査など）で、動脈硬化の状態を客観的に確認するという選択肢もあります、とお伝えしています。"
+        },
+        {
+          "kind": "text",
+          "text": "あくまで「こういう方法もありますよ」というご案内であって、全員に一律でおすすめしているわけではありません。今の生活を続けて大丈夫だと言葉で納得できれば、それで十分なことも多いですし、実際に調べてみて自分の目で確かめたい、という方には、こうした検査もひとつの選択肢になります。"
         },
         {
           "kind": "text",
@@ -1663,7 +1667,7 @@ export const generatedPosts: BlogPost[] = [
       "body": [
         {
           "kind": "text",
-          "text": "A patient in her 70s came in recently, saying she had something she wanted to talk about. When I looked at her health checkup results, both her cholesterol and blood pressure were indeed within the \"normal\" range. Still, the numbers had been sitting near the upper edge of normal for a few years running."
+          "text": "A patient in her 70s came in recently, saying she had something she wanted to talk about. When I looked at her health checkup results, both her cholesterol and blood pressure were within the \"normal\" range. Still, the numbers had been sitting near the upper edge of normal for a few years running."
         },
         {
           "kind": "text",
@@ -1671,27 +1675,31 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "### Starting by putting the current state into words"
+          "text": "By the end of this post, you may find a useful way to think about the gap between a \"no abnormalities\" result and the worry you still feel. The short version: **whether a number falls within the normal range, and whether you need medication, are not actually the same question.** What matters more than the number itself is putting into words what it actually means for you right now."
         },
         {
           "kind": "text",
-          "text": "In moments like this, I believe what matters most, before reaching for more tests, is **clearly explaining in words what the current numbers actually mean**. In this case, after carefully asking about her diet, exercise habits, and family medical history, I first told her plainly: \"You don't need medication right now.\""
+          "text": "### What it means when you sit at the \"upper edge of normal\" for years"
         },
         {
           "kind": "text",
-          "text": "Sitting at the upper edge of the normal range is, in a sense, standing at a fork in the road — things are fine for now, but which way they go depends on habits going forward. That's exactly why I think it matters less to react to a single number than to understand what's actually happening inside your own body, since that understanding is what leads to the next step."
+          "text": "Sitting at the upper edge of the normal range for years is, in a sense, standing at a fork in the road — things are fine for now, but which way they go depends on habits going forward. In this patient's case too, after carefully asking about her diet, exercise habits, and family medical history, I first told her plainly: \"You don't need medication right now.\""
         },
         {
           "kind": "text",
-          "text": "### Because she wanted to know, and to decide for herself"
+          "text": "Rather than reacting to the number alone, looking back together at the everyday habits behind that number lets a person understand, in their own words, why things are okay for now. I think that understanding is the real foundation for not being swayed by what everyone else around you is doing."
         },
         {
           "kind": "text",
-          "text": "As we talked further, she said, \"I'd like to actually know what's going on with my blood vessels before I decide how I want to live going forward.\" So I suggested a couple of low-burden vascular tests — one measuring arterial stiffness, another an ultrasound of the carotid arteries — to get an objective look at how her arteries were doing, and we went ahead at her request."
+          "text": "### \"Finding out for yourself\" is also an option"
         },
         {
           "kind": "text",
-          "text": "The results came back within the expected range for her age, with nothing of concern. As she was leaving, she smiled and said, \"It's reassuring to have someone actually look inside, not just at a number.\""
+          "text": "As we talked further, she said, \"I'd like to actually know what's going on with my blood vessels before I decide how I want to live going forward.\" In cases like that, I let patients know there's also the option of getting an objective look at arterial health through low-burden vascular tests — one measuring arterial stiffness, another an ultrasound of the carotid arteries."
+        },
+        {
+          "kind": "text",
+          "text": "This is offered simply as \"one option available to you,\" not something we recommend across the board to everyone. For many people, simply reaching a clear, worded understanding that it's fine to continue as they are is enough. For those who'd rather see it for themselves, a test like this is one path worth having on the table."
         },
         {
           "kind": "text",
