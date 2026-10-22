@@ -1,19 +1,19 @@
 ---
-date: 2026.10.21
+date: 2026.10.19
 cover: /blog/kibana-landscape.png
 category_ja: 健康・予防の話
 category_en: Health and prevention
-title_ja: 胃薬（PPI）は長期間飲み続けても大丈夫？〜胃酸の役割と正しい付き合い方〜
-title_en: Is it safe to keep taking stomach acid medication (PPI) long term?
+title_ja: 胃酸を抑える薬は長期間飲み続けても大丈夫？〜胃酸の役割と正しい付き合い方〜
+title_en: Is it safe to keep taking acid-suppressing stomach medication long term?
 excerpt_ja: 「この胃薬、ずっと飲み続けて大丈夫ですか？」診察室でとてもよく聞かれる質問です。安定して飲めているからこその、素朴な疑問だと思います。
 excerpt_en: Is it really okay to keep taking this stomach medication indefinitely? It's a question I hear often in clinic — a natural one to have once your symptoms have settled down.
 ---
 
 ## ja
 
-「先生、この胃薬、ずっと飲み続けて大丈夫ですか？」診察室で、本当によく聞かれる質問です。逆流性食道炎や胃潰瘍の予防のために処方されたPPI（プロトンポンプ阻害薬）を、症状が落ち着いた後も飲み続けている方ほど、ふとこの疑問が浮かぶのだと思います。
+「先生、この胃薬、ずっと飲み続けて大丈夫ですか？」診察室で、本当によく聞かれる質問です。逆流性食道炎や胃潰瘍の予防のために、胃の壁にある「胃酸を作り出す出口（プロトンポンプ）」そのものにふたをして、胃酸の分泌を根本から強力に抑えるお薬（プロトンポンプ阻害薬。頭文字をとって「PPI」と呼ばれることもあります）を処方されている方は多く、症状が落ち着いた後も飲み続けている方ほど、ふとこの疑問が浮かぶのだと思います。
 
-この記事を読んでいただくと、胃酸を長期間抑えることが体にどう影響するのか、そしてなぜ「飲み続けたほうがよい人」がいるのかが分かります。結論から言うと、**PPIは基本的に安全で優れたお薬ですが、胃酸を長期間しっかり抑えることによる影響も、近年少しずつ分かってきています。** 大切なのは、その影響を正しく知った上で、自己判断でやめたり続けたりせず、定期的に主治医と見直していくことです。
+この記事を読んでいただくと、胃酸を長期間抑えることが体にどう影響するのか、そしてなぜ「飲み続けたほうがよい人」がいるのかが分かります。結論から言うと、**このお薬は基本的に安全で優れたものですが、胃酸を長期間しっかり抑えることによる影響も、近年少しずつ分かってきています。** 大切なのは、その影響を正しく知った上で、自己判断でやめたり続けたりせず、定期的に主治医と見直していくことです。
 
 ### 胃酸には、実はとても大切な役割があります
 
@@ -22,7 +22,7 @@ excerpt_en: Is it really okay to keep taking this stomach medication indefinitel
 - **「胃の門番」としての殺菌作用：** 強い酸性の胃酸は、食べ物と一緒に入ってくる細菌やカビ（真菌）を退治するバリアの役割を果たしています。
 - **消化と栄養吸収の助け：** 食べたものを分解し、ビタミンやミネラルを体に取り込みやすい形に変える役割も担っています。
 
-PPIはこの胃酸の分泌を強力に抑えることで、荒れた胃や食道の粘膜を守り、治してくれるお薬です。ただし、この「門番」の働きを長期間弱めることになるため、知っておいていただきたい変化もあります。
+このお薬は、胃酸を作り出す出口そのものを直接ブロックすることで強力に分泌を抑え、荒れた胃や食道の粘膜を守り、治してくれます。ただし、この「門番」の働きを長期間弱めることになるため、知っておいていただきたい変化もあります。
 
 ### 長期服用で知っておきたい、体の変化
 
@@ -35,7 +35,7 @@ PPIはこの胃酸の分泌を強力に抑えることで、荒れた胃や食�
 
 ここまで読むと「じゃあ早くやめたほうがいいのでは」と思われるかもしれません。ですが、これらのリスクを超えて**「飲み続けるメリット」のほうが圧倒的に大きい方**がいらっしゃいます。
 
-例えば、重い逆流性食道炎を繰り返している方や、痛み止め（NSAIDs）やアスピリンを長期服用していて胃潰瘍・出血のリスクが高い方です。こうした方にとってPPIは、再発や出血という重大なリスクを防ぐための、欠かせない治療の土台になっています。
+例えば、重い逆流性食道炎を繰り返している方や、痛み止め（NSAIDs）やアスピリンを長期服用していて胃潰瘍・出血のリスクが高い方です。こうした方にとってこのお薬は、再発や出血という重大なリスクを防ぐための、欠かせない治療の土台になっています。
 
 ### 当院からのメッセージ
 
@@ -46,9 +46,9 @@ PPIはこの胃酸の分泌を強力に抑えることで、荒れた胃や食�
 
 ## en
 
-"Doctor, is it really okay to keep taking this stomach medication indefinitely?" It's a question I hear often in clinic. It tends to come up especially from people who were prescribed a PPI (proton pump inhibitor) to prevent reflux esophagitis or a stomach ulcer, and whose symptoms have since settled down — a natural question to have once things feel stable.
+"Doctor, is it really okay to keep taking this stomach medication indefinitely?" It's a question I hear often in clinic. Many people are prescribed a medication that directly blocks the "pump" in the stomach wall that produces acid — shutting down acid production at its source — to prevent reflux esophagitis or a stomach ulcer. (Because it blocks this proton pump, it's medically known as a proton pump inhibitor, sometimes abbreviated as "PPI.") It tends to come up especially from people whose symptoms have since settled down — a natural question to have once things feel stable.
 
-By the end of this post, you'll understand how suppressing stomach acid over the long term affects the body, and why some people genuinely benefit from continuing. The short version: **PPIs are, on the whole, safe and highly effective medications, but research in recent years has gradually revealed some effects of suppressing stomach acid strongly over a long period.** What matters is understanding those effects correctly, and reviewing your medication regularly with your doctor rather than deciding on your own to stop or continue.
+By the end of this post, you'll understand how suppressing stomach acid over the long term affects the body, and why some people genuinely benefit from continuing. The short version: **this medication is, on the whole, safe and highly effective, but research in recent years has gradually revealed some effects of suppressing stomach acid strongly over a long period.** What matters is understanding those effects correctly, and reviewing your medication regularly with your doctor rather than deciding on your own to stop or continue.
 
 ### Stomach acid actually plays an important protective role
 
@@ -57,7 +57,7 @@ By the end of this post, you'll understand how suppressing stomach acid over the
 - **Acting as a "gatekeeper" through its antibacterial effect:** The strong acidity of stomach acid acts as a barrier, destroying bacteria and fungi that enter along with food.
 - **Supporting digestion and nutrient absorption:** It also breaks down food and helps convert vitamins and minerals into a form the body can absorb more easily.
 
-PPIs work by strongly suppressing this acid production, which protects and helps heal an irritated stomach or esophageal lining. But because this means weakening the "gatekeeper" over an extended period, there are some changes worth knowing about.
+This medication works by directly blocking the pump that produces stomach acid, strongly suppressing acid production and allowing an irritated stomach or esophageal lining to heal and stay protected. But because this means weakening the "gatekeeper" over an extended period, there are some changes worth knowing about.
 
 ### Changes worth knowing about with long-term use
 
@@ -70,7 +70,7 @@ These changes don't occur in everyone, but they're worth keeping in mind if you'
 
 At this point, you might think it would be better to stop as soon as possible. But for some people, **the benefits of continuing clearly outweigh these risks.**
 
-This includes people with recurring, severe reflux esophagitis, and those on long-term NSAIDs or aspirin who face a higher risk of stomach ulcers or bleeding. For these patients, a PPI forms an essential foundation of treatment, preventing serious risks like recurrence or bleeding.
+This includes people with recurring, severe reflux esophagitis, and those on long-term NSAIDs or aspirin who face a higher risk of stomach ulcers or bleeding. For these patients, this medication forms an essential foundation of treatment, preventing serious risks like recurrence or bleeding.
 
 ### A message from the director
 
