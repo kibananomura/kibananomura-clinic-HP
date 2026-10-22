@@ -69,20 +69,26 @@ export default function Hero() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.7, delay: 0.1 }}
           >
-            {t.hero.titleLines.map((line, li) => (
-              <span key={li} className="block">
-                {line.map((chunk, ci) => (
-                  <span
-                    key={ci}
-                    className={`inline-block ${
-                      li === 1 && ci === 1 ? "text-primary" : ""
-                    }`}
-                  >
-                    {chunk}
-                  </span>
-                ))}
-              </span>
-            ))}
+            {t.hero.titleLines.map((line, li) => {
+              const isLastLine = li === t.hero.titleLines.length - 1;
+              return (
+                <span key={li} className="block">
+                  {line.map((chunk, ci) => {
+                    const isLastChunk = ci === line.length - 1;
+                    return (
+                      <span
+                        key={ci}
+                        className={`inline-block ${
+                          isLastLine && isLastChunk ? "text-primary" : ""
+                        }`}
+                      >
+                        {chunk}
+                      </span>
+                    );
+                  })}
+                </span>
+              );
+            })}
           </motion.h1>
 
           <motion.p
