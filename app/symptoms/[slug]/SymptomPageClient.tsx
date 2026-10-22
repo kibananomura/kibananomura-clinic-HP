@@ -18,8 +18,38 @@ import {
 } from "../../lib/symptoms-data";
 import { DISEASE_LINK_LABELS } from "../../lib/diseases-data";
 
-function findDiseaseLink(name: string) {
-  return DISEASE_LINK_LABELS.find((d) => d.label === name);
+// 長いラベルから先に判定することで、「糖尿病」より「糖尿病性神経障害」のような
+// より具体的なラベルを優先して一致させる。
+const SORTED_DISEASE_LINK_LABELS = [...DISEASE_LINK_LABELS].sort(
+  (a, b) => b.label.length - a.label.length,
+);
+
+/**
+ * 原因名の文字列内に疾患ページ・自費診療ページの名称が含まれていれば、
+ * その部分だけをリンクにする（例:「副鼻腔炎への移行」→「副鼻腔炎」のみリンク）。
+ * 一致するラベルがなければ、元の文字列をそのまま返す。
+ */
+function renderCauseName(name: string) {
+  for (const entry of SORTED_DISEASE_LINK_LABELS) {
+    if (!entry.label) continue;
+    const idx = name.indexOf(entry.label);
+    if (idx === -1) continue;
+    const before = name.slice(0, idx);
+    const after = name.slice(idx + entry.label.length);
+    return (
+      <>
+        {before}
+        <Link
+          href={entry.href ?? `/diseases/${entry.slug}`}
+          className="text-primary-dark underline decoration-primary/40 underline-offset-2 hover:text-primary"
+        >
+          {entry.label}
+        </Link>
+        {after}
+      </>
+    );
+  }
+  return name;
 }
 
 export default function SymptomPageClient() {
@@ -134,29 +164,19 @@ export default function SymptomPageClient() {
               症状から特定の疾患を断定するものではありません。複数の可能性を示しています。
             </p>
             <ul className="mt-4 space-y-3">
-              {symptom.possibleCauses.map((c) => {
-                const diseaseLink = findDiseaseLink(c.name);
-                return (
-                  <li
-                    key={c.name}
-                    className="rounded-2xl bg-surface/90 p-4 shadow-card"
-                  >
-                    {diseaseLink ? (
-                      <Link
-                        href={diseaseLink.href ?? `/diseases/${diseaseLink.slug}`}
-                        className="text-[15px] font-bold text-primary-dark underline decoration-primary/40 underline-offset-2 hover:text-primary"
-                      >
-                        {c.name}
-                      </Link>
-                    ) : (
-                      <p className="text-[15px] font-bold text-ink">{c.name}</p>
-                    )}
-                    <p className="mt-1 text-sm leading-relaxed text-ink/70">
-                      {c.note}
-                    </p>
-                  </li>
-                );
-              })}
+              {symptom.possibleCauses.map((c) => (
+                <li
+                  key={c.name}
+                  className="rounded-2xl bg-surface/90 p-4 shadow-card"
+                >
+                  <p className="text-[15px] font-bold text-ink">
+                    {renderCauseName(c.name)}
+                  </p>
+                  <p className="mt-1 text-sm leading-relaxed text-ink/70">
+                    {c.note}
+                  </p>
+                </li>
+              ))}
             </ul>
           </FadeIn>
 
