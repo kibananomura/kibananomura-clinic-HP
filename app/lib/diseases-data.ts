@@ -1825,8 +1825,32 @@ export const DISEASE_LINK_LABELS: DiseaseLinkLabel[] = DISEASES
     { label: "胃もたれ", slug: "functional-dyspepsia" },
     { label: "過敏性腸症候群", slug: "ibs" },
     { label: "便秘症", slug: "constipation" },
+    { label: "便秘", slug: "constipation" },
     { label: "大腸憩室症", slug: "diverticulosis" },
     { label: "結腸憩室症", slug: "diverticulosis" },
+    // 症状ページ「考えられる主な原因」等で使われる、疾患ページ見出しと表記が異なる原因名の別名
+    { label: "感冒（かぜ症候群・上気道感染症）", slug: "common-cold" },
+    { label: "かぜ症候群", slug: "common-cold" },
+    { label: "花粉症（季節性アレルギー性鼻炎）", slug: "hay-fever" },
+    { label: "良性発作性頭位めまい症（BPPV）", slug: "bppv" },
+    { label: "とびひ（伝染性膿痂疹）", slug: "impetigo" },
+    { label: "足白癬（水虫）", slug: "tinea-pedis" },
+    { label: "熱傷（やけど）", slug: "burns" },
+    { label: "創傷（切り傷・すり傷等）", slug: "wound-care" },
+    { label: "痔（いぼ痔・切れ痔等）", slug: "hemorrhoids" },
+    { label: "ピロリ菌関連疾患", slug: "h-pylori" },
+    { label: "感染性胃腸炎（ウイルス性・細菌性）", slug: "viral-gastroenteritis" },
+    { label: "脂肪肝（NAFLD/NASH）", slug: "fatty-liver-disease" },
+    { label: "慢性腎臓病（CKD）", slug: "chronic-kidney-disease" },
+    { label: "甲状腺機能の異常", slug: "thyroid" },
+    // 自費診療ページ（/self-pay/）へのリンク
+    { label: "GLP-1ダイエット（低用量開始プラン）", slug: "", href: "/self-pay/glp1" },
+    { label: "男性型脱毛症（AGA）", slug: "", href: "/self-pay/aga" },
+    { label: "AGA治療（フィナステリド）", slug: "", href: "/self-pay/aga" },
+    { label: "AGA治療（デュタステリド系）", slug: "", href: "/self-pay/aga" },
+    { label: "ED治療薬（バイアグラ）", slug: "", href: "/self-pay/ed" },
+    { label: "ED治療薬（シアリス）", slug: "", href: "/self-pay/ed" },
+    { label: "花粉症ステロイド注射", slug: "", href: "/self-pay/pollen-steroid" },
   ])
   .filter((v, i, arr) => arr.findIndex((x) => x.label === v.label) === i)
   .sort((a, b) => b.label.length - a.label.length);

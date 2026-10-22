@@ -1340,6 +1340,145 @@ export const generatedPosts: BlogPost[] = [
     }
   },
   {
+    "slug": "ppi-chouki-fukuyou",
+    "date": "2026.10.19",
+    "cover": "/blog/kibana-landscape.png",
+    "ja": {
+      "category": "健康・予防の話",
+      "title": "胃酸を抑える薬は長期間飲み続けても大丈夫？〜胃酸の役割と正しい付き合い方〜",
+      "excerpt": "「この胃薬、ずっと飲み続けて大丈夫ですか？」診察室でとてもよく聞かれる質問です。安定して飲めているからこその、素朴な疑問だと思います。",
+      "body": [
+        {
+          "kind": "text",
+          "text": "「先生、この胃薬、ずっと飲み続けて大丈夫ですか？」診察室で、本当によく聞かれる質問です。逆流性食道炎や胃潰瘍の予防のために、胃の壁にある「胃酸を作り出す出口（プロトンポンプ）」そのものにふたをして、胃酸の分泌を根本から強力に抑えるお薬（プロトンポンプ阻害薬。頭文字をとって「PPI」と呼ばれることもあります）を処方されている方は多く、症状が落ち着いた後も飲み続けている方ほど、ふとこの疑問が浮かぶのだと思います。"
+        },
+        {
+          "kind": "text",
+          "text": "この記事を読んでいただくと、胃酸を長期間抑えることが体にどう影響するのか、そしてなぜ「飲み続けたほうがよい人」がいるのかが分かります。結論から言うと、**このお薬は基本的に安全で優れたものですが、胃酸を長期間しっかり抑えることによる影響も、近年少しずつ分かってきています。** 大切なのは、その影響を正しく知った上で、自己判断でやめたり続けたりせず、定期的に主治医と見直していくことです。"
+        },
+        {
+          "kind": "text",
+          "text": "### 胃酸には、実はとても大切な役割があります"
+        },
+        {
+          "kind": "text",
+          "text": "胃酸と聞くと「胸やけの原因」というイメージが強いかもしれませんが、本来は体を守るための重要な働きを担っています。"
+        },
+        {
+          "kind": "text",
+          "text": "- **「胃の門番」としての殺菌作用：** 強い酸性の胃酸は、食べ物と一緒に入ってくる細菌やカビ（真菌）を退治するバリアの役割を果たしています。\n- **消化と栄養吸収の助け：** 食べたものを分解し、ビタミンやミネラルを体に取り込みやすい形に変える役割も担っています。"
+        },
+        {
+          "kind": "text",
+          "text": "このお薬は、胃酸を作り出す出口そのものを直接ブロックすることで強力に分泌を抑え、荒れた胃や食道の粘膜を守り、治してくれます。ただし、この「門番」の働きを長期間弱めることになるため、知っておいていただきたい変化もあります。"
+        },
+        {
+          "kind": "text",
+          "text": "### 長期服用で知っておきたい、体の変化"
+        },
+        {
+          "kind": "text",
+          "text": "- **食道カンジダ症や感染症：** 胃酸の殺菌力が弱まることで、普段はおとなしいカビの一種（カンジダ菌）が食道で増えやすくなったり、お腹の風邪のような腸管感染症にかかりやすくなったりすることがあります。\n- **栄養素の吸収低下：** 長期間の服用により、ビタミンB12やカルシウム、マグネシウムなどの吸収がやや低下することがあると報告されています。"
+        },
+        {
+          "kind": "text",
+          "text": "こうした変化は、すべての方に必ず起こるわけではありませんが、長く飲み続ける中で意識しておきたいポイントです。"
+        },
+        {
+          "kind": "text",
+          "text": "### それでも「飲み続けたほうがよい方」がいる理由"
+        },
+        {
+          "kind": "text",
+          "text": "ここまで読むと「じゃあ早くやめたほうがいいのでは」と思われるかもしれません。ですが、これらのリスクを超えて**「飲み続けるメリット」のほうが圧倒的に大きい方**がいらっしゃいます。"
+        },
+        {
+          "kind": "text",
+          "text": "例えば、重い逆流性食道炎を繰り返している方や、痛み止め（NSAIDs）やアスピリンを長期服用していて胃潰瘍・出血のリスクが高い方です。こうした方にとってこのお薬は、再発や出血という重大なリスクを防ぐための、欠かせない治療の土台になっています。"
+        },
+        {
+          "kind": "text",
+          "text": "### 当院からのメッセージ"
+        },
+        {
+          "kind": "text",
+          "text": "- **自己判断で中止しないでください：** 急にやめてしまうと、一時的に胃酸の分泌が普段より増える「リバウンド」が起こり、かえって症状が悪化することがあります。\n- **定期的な見直しを一緒に行いましょう：** 症状が安定している場合は、お薬の量を減らす、飲む回数を調整する（症状が出たときだけ飲む「オンデマンド服用」）、あるいは別のタイプのお薬へ切り替えるといった選択肢も検討できます。"
+        },
+        {
+          "kind": "text",
+          "text": "今飲んでいるお薬について「このまま続けていいのかな」と気になることがあれば、どうぞ我慢せずに、気軽に院長やスタッフにご相談ください。一緒に、今のご自身にとってちょうどよい付き合い方を見つけていきましょう。"
+        }
+      ]
+    },
+    "en": {
+      "category": "Health and prevention",
+      "title": "Is it safe to keep taking acid-suppressing stomach medication long term?",
+      "excerpt": "Is it really okay to keep taking this stomach medication indefinitely? It's a question I hear often in clinic — a natural one to have once your symptoms have settled down.",
+      "body": [
+        {
+          "kind": "text",
+          "text": "\"Doctor, is it really okay to keep taking this stomach medication indefinitely?\" It's a question I hear often in clinic. Many people are prescribed a medication that directly blocks the \"pump\" in the stomach wall that produces acid — shutting down acid production at its source — to prevent reflux esophagitis or a stomach ulcer. (Because it blocks this proton pump, it's medically known as a proton pump inhibitor, sometimes abbreviated as \"PPI.\") It tends to come up especially from people whose symptoms have since settled down — a natural question to have once things feel stable."
+        },
+        {
+          "kind": "text",
+          "text": "By the end of this post, you'll understand how suppressing stomach acid over the long term affects the body, and why some people genuinely benefit from continuing. The short version: **this medication is, on the whole, safe and highly effective, but research in recent years has gradually revealed some effects of suppressing stomach acid strongly over a long period.** What matters is understanding those effects correctly, and reviewing your medication regularly with your doctor rather than deciding on your own to stop or continue."
+        },
+        {
+          "kind": "text",
+          "text": "### Stomach acid actually plays an important protective role"
+        },
+        {
+          "kind": "text",
+          "text": "\"Stomach acid\" might bring to mind nothing more than heartburn, but it actually performs an important protective function in the body."
+        },
+        {
+          "kind": "text",
+          "text": "- **Acting as a \"gatekeeper\" through its antibacterial effect:** The strong acidity of stomach acid acts as a barrier, destroying bacteria and fungi that enter along with food.\n- **Supporting digestion and nutrient absorption:** It also breaks down food and helps convert vitamins and minerals into a form the body can absorb more easily."
+        },
+        {
+          "kind": "text",
+          "text": "This medication works by directly blocking the pump that produces stomach acid, strongly suppressing acid production and allowing an irritated stomach or esophageal lining to heal and stay protected. But because this means weakening the \"gatekeeper\" over an extended period, there are some changes worth knowing about."
+        },
+        {
+          "kind": "text",
+          "text": "### Changes worth knowing about with long-term use"
+        },
+        {
+          "kind": "text",
+          "text": "- **Esophageal candidiasis and infections:** As the antibacterial effect of stomach acid weakens, Candida — a type of fungus that's normally kept in check — can sometimes grow more easily in the esophagus, and intestinal infections (like stomach flu) can become somewhat more likely.\n- **Reduced absorption of certain nutrients:** Long-term use has been reported to somewhat reduce the absorption of vitamin B12, calcium, and magnesium."
+        },
+        {
+          "kind": "text",
+          "text": "These changes don't occur in everyone, but they're worth keeping in mind if you're on long-term treatment."
+        },
+        {
+          "kind": "text",
+          "text": "### Why some people genuinely benefit from continuing"
+        },
+        {
+          "kind": "text",
+          "text": "At this point, you might think it would be better to stop as soon as possible. But for some people, **the benefits of continuing clearly outweigh these risks.**"
+        },
+        {
+          "kind": "text",
+          "text": "This includes people with recurring, severe reflux esophagitis, and those on long-term NSAIDs or aspirin who face a higher risk of stomach ulcers or bleeding. For these patients, this medication forms an essential foundation of treatment, preventing serious risks like recurrence or bleeding."
+        },
+        {
+          "kind": "text",
+          "text": "### A message from the director"
+        },
+        {
+          "kind": "text",
+          "text": "- **Please don't stop on your own:** Stopping suddenly can cause a temporary rebound in acid production, which can actually make symptoms worse than before.\n- **Let's review your treatment together, regularly:** If your symptoms are stable, there are options worth considering — reducing the dose, adjusting how often you take it (such as on-demand dosing, only when symptoms appear), or switching to a different type of medication."
+        },
+        {
+          "kind": "text",
+          "text": "If you're ever wondering whether it's right to keep taking your current medication as is, please don't hold back — feel free to bring it up with the director or our staff anytime. Let's work together to find the approach that fits you best right now."
+        }
+      ]
+    }
+  },
+  {
     "slug": "kaze-taisho-ryoho",
     "date": "2026.10.20",
     "cover": "/blog/kibana-landscape.png",
@@ -1712,6 +1851,161 @@ export const generatedPosts: BlogPost[] = [
         {
           "kind": "text",
           "text": "If you're ever wondering whether something is worth bringing up, please feel free to stop by. Let's start by simply sorting out where things stand right now, together."
+        }
+      ]
+    }
+  },
+  {
+    "slug": "statin-kinniku-houkai",
+    "date": "2026.10.22",
+    "cover": "/blog/kibana-landscape.png",
+    "ja": {
+      "category": "健康・予防の話",
+      "title": "スタチンは筋肉を崩壊させるのか？〜コレステロール薬の疑問と最新医学〜",
+      "excerpt": "「スタチンを飲むと筋肉が溶ける」——ネットでそんな言葉を見て、薬をやめようか迷っていませんか。まず知っていただきたいのは、その不安のほとんどが誤解だということです。",
+      "body": [
+        {
+          "kind": "text",
+          "text": "「コレステロールの薬（スタチン）を飲むと、筋肉が溶ける・崩壊するらしい」。そんな言葉をネットで見かけて、今飲んでいるお薬をやめようか迷っている方、あるいはこれから始めることに不安を感じている方がいらっしゃるかもしれません。「横紋筋融解症」という言葉の強いインパクトだけが独り歩きし、まるで誰にでも起こることのように感じてしまうのも無理はないと思います。"
+        },
+        {
+          "kind": "text",
+          "text": "この記事を読んでいただくと、スタチンがなぜ筋肉に影響することがあるのか、その仕組みと「本当に注意すべきサイン」が分かります。結論から言うと、**「筋肉が崩壊する」というレベルの重い副作用は、数万人に1人という非常に稀なもの**です。一方で、軽いだるさや痛みが出ることは確かにあり、それにはきちんとした医学的な理由があります。大切なのは、正しい仕組みを知った上で、自己判断でお薬をやめないことです。"
+        },
+        {
+          "kind": "text",
+          "text": "### なぜスタチンで筋肉に影響が出ることがあるのか"
+        },
+        {
+          "kind": "text",
+          "text": "スタチンは、肝臓でコレステロールを作る工場の働きを穏やかに抑えるお薬です。ただ、この工場は実はコレステロールだけでなく、**筋肉を動かすためのエネルギー源であるコエンザイムQ10（CoQ10）**も一緒に作っています。そのため、スタチンによって工場の稼働が抑えられると、巻き添えでCoQ10も少し減ってしまい、筋肉のバッテリーが本来より少しパワー不足になることがあります。"
+        },
+        {
+          "kind": "text",
+          "text": "もう一つの仕組みが、筋肉の細胞の中にある**カルシウムのバランスの変化**です。カルシウムは本来、細胞の中できちんと管理されていますが、スタチンの影響でそのバランスが崩れると、細胞から漏れ出しやすくなり、筋肉がわずかに分解されやすい状態になることがあります。"
+        },
+        {
+          "kind": "text",
+          "text": "この二つの仕組みは、まだ完全に解明されたわけではありませんが、現時点で有力な説として考えられています。これらによって、「体がだるい」「少し筋肉が張る感じがする」といった軽い症状が出ることはあります。ただし、これは「筋肉が崩壊する」こととはまったく別の話です。**本当に重篤な横紋筋融解症は、数万人に1人というレベルの、きわめて稀な副作用**であり、ほとんどの方は安全に服用を続けられます。"
+        },
+        {
+          "kind": "text",
+          "text": "### 同じ薬でも、効き方や副作用に個人差が出る理由"
+        },
+        {
+          "kind": "text",
+          "text": "「同じ量を飲んでいるのに、症状が出る人と出ない人がいるのはなぜですか」と聞かれることがあります。年齢や筋肉量、他のお薬との飲み合わせなど理由はいくつかありますが、近年の研究で注目されているのが**腸内細菌叢（お腹の中の菌の集まり）**です。"
+        },
+        {
+          "kind": "text",
+          "text": "お腹の中にいる菌の種類やバランスは一人ひとり違い、この違いが薬の吸収のされ方や、体の中での分解のされ方、さらには体に炎症が起きやすいかどうかにまで関わっていることが、最新の研究で少しずつ分かってきています。つまり、「同じ薬なのに自分だけ違和感がある」という感覚は、決して気のせいではなく、**お腹の中の環境という、目に見えない個人差**が背景にある可能性があるのです。まだ研究が発展している分野ではありますが、「体質」の正体の一端が、こうした形で明らかになりつつあります。"
+        },
+        {
+          "kind": "text",
+          "text": "### ご自身でチェックしていただきたいサイン"
+        },
+        {
+          "kind": "text",
+          "text": "スタチンを服用中に、次のような症状がないか時々意識してみてください。"
+        },
+        {
+          "kind": "text",
+          "text": "- 手足に力が入らない、脱力感がある\n- 運動をしていないのに、太ももやふくらはぎが強く痛む\n- **尿の色が、紅茶やウーロン茶のような濃い赤褐色になる**（これが最も重要なサインです）"
+        },
+        {
+          "kind": "text",
+          "text": "特に最後の尿の色の変化は、筋肉の分解が進んでいる可能性を示す重要なサインです。この症状に気づいた場合は、様子を見ずに早めにご連絡ください。"
+        },
+        {
+          "kind": "text",
+          "text": "### 院長からのメッセージ"
+        },
+        {
+          "kind": "text",
+          "text": "スタチンは、将来の心筋梗塞や脳卒中を防ぐために、非常に重要な役割を果たすお薬です。「なんとなく不安だから」と自己判断でやめてしまうと、下がっていたはずの血管のリスクがまた上がってしまいます。"
+        },
+        {
+          "kind": "text",
+          "text": "体の違和感は、血液検査（CK値や腎機能）で比較的すぐに確認することができますし、もし本当に筋肉への影響が疑われる場合でも、お薬の種類や量を調整することで、多くの場合は安全に治療を続けられます。"
+        },
+        {
+          "kind": "text",
+          "text": "「これって筋肉痛かな、それとも薬のせいかな」と迷うことがあれば、我慢せずに、どうぞ気軽に院長やスタッフにご相談ください。"
+        }
+      ]
+    },
+    "en": {
+      "category": "Health and prevention",
+      "title": "Does statin medication really \"break down\" your muscles?",
+      "excerpt": "Statins dissolve your muscles — have you seen that claim online and started wondering whether to stop your medication? The first thing to know is that most of that fear comes from a misunderstanding.",
+      "body": [
+        {
+          "kind": "text",
+          "text": "\"Statins dissolve your muscles\" — you may have come across that phrase online and wondered whether to stop the medication you're taking, or felt uneasy about starting it in the first place. It's understandable: the strong image behind the term \"rhabdomyolysis\" tends to take on a life of its own, as if it could happen to anyone at any time."
+        },
+        {
+          "kind": "text",
+          "text": "By the end of this post, you'll understand why statins can sometimes affect muscles, and which signs genuinely deserve your attention. The short version: **a side effect severe enough to be called \"muscle breakdown\" is extremely rare — on the order of one in tens of thousands of patients.** Mild tiredness or soreness, on the other hand, can genuinely occur, and there are real medical reasons behind it. What matters most is understanding the mechanism correctly, rather than stopping your medication on your own judgment."
+        },
+        {
+          "kind": "text",
+          "text": "### Why statins can sometimes affect your muscles"
+        },
+        {
+          "kind": "text",
+          "text": "Statins work by gently slowing down the \"factory\" in your liver that produces cholesterol. The catch is that this same factory also produces **Coenzyme Q10 (CoQ10), a key energy source your muscles rely on to function.** When the factory's output is scaled back, CoQ10 production can dip slightly too, leaving your muscles running on a bit less power than usual — something like a battery running low."
+        },
+        {
+          "kind": "text",
+          "text": "A second mechanism involves **a shift in calcium balance inside muscle cells.** Calcium is normally kept carefully in check within cells, but when that balance is disrupted, it can leak out more easily, making muscle tissue slightly more prone to breaking down."
+        },
+        {
+          "kind": "text",
+          "text": "These two mechanisms aren't yet fully proven, but they're currently considered the leading explanations. Together, they can produce mild symptoms — general fatigue, or a sense of muscle tightness. But this is an entirely different matter from \"muscle breakdown.\" **True, severe rhabdomyolysis is an extremely rare side effect, occurring in roughly one in tens of thousands of patients,** and the vast majority of people can continue taking their medication safely."
+        },
+        {
+          "kind": "text",
+          "text": "### Why the same drug can affect people differently"
+        },
+        {
+          "kind": "text",
+          "text": "A question I hear often: \"We're taking the same dose, so why does one person get symptoms and another doesn't?\" Age, muscle mass, and interactions with other medications all play a role, but one area drawing growing research attention is the **gut microbiome** — the community of bacteria living in your intestines."
+        },
+        {
+          "kind": "text",
+          "text": "The mix of bacteria each person carries is unique, and emerging research suggests it may influence how a drug is absorbed, how it's broken down in the body, and even how prone the body is to inflammation. In other words, if you feel \"something's different for me even though it's the same medication,\" that sense isn't imaginary — it may reflect an invisible, individual difference rooted in your gut environment. This is still a developing field of research, but it's gradually revealing one piece of what we casually call \"constitution\" or \"body type.\""
+        },
+        {
+          "kind": "text",
+          "text": "### Signs worth checking for yourself"
+        },
+        {
+          "kind": "text",
+          "text": "While taking a statin, it's worth occasionally checking in with yourself for the following:"
+        },
+        {
+          "kind": "text",
+          "text": "- Weakness or a loss of strength in your arms or legs\n- Strong pain in your thighs or calves that isn't related to exercise\n- **Urine that turns a dark reddish-brown color, like strong tea or oolong tea** (this is the single most important sign)"
+        },
+        {
+          "kind": "text",
+          "text": "That last sign — a change in urine color — is a particularly important indicator that muscle breakdown may be underway. If you notice it, please don't wait and see; contact us right away."
+        },
+        {
+          "kind": "text",
+          "text": "### A message from the director"
+        },
+        {
+          "kind": "text",
+          "text": "Statins play a genuinely important role in preventing future heart attacks and strokes. Stopping on your own simply because something feels vaguely worrying can undo the reduction in vascular risk you've worked to achieve."
+        },
+        {
+          "kind": "text",
+          "text": "Any unusual sensation can be checked fairly quickly with a blood test (CK levels and kidney function), and even if a muscle-related effect is suspected, adjusting the type or dose of medication usually allows treatment to continue safely in most cases."
+        },
+        {
+          "kind": "text",
+          "text": "If you're ever unsure whether something is \"just muscle soreness\" or related to your medication, please don't tough it out alone — feel free to bring it up with the director or our staff anytime."
         }
       ]
     }
