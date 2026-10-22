@@ -16,6 +16,11 @@ import {
   SYMPTOM_DISCLAIMER_OUTRO,
   getSymptom,
 } from "../../lib/symptoms-data";
+import { DISEASE_LINK_LABELS } from "../../lib/diseases-data";
+
+function findDiseaseLink(name: string) {
+  return DISEASE_LINK_LABELS.find((d) => d.label === name);
+}
 
 export default function SymptomPageClient() {
   const { t } = useSite();
@@ -129,17 +134,29 @@ export default function SymptomPageClient() {
               症状から特定の疾患を断定するものではありません。複数の可能性を示しています。
             </p>
             <ul className="mt-4 space-y-3">
-              {symptom.possibleCauses.map((c) => (
-                <li
-                  key={c.name}
-                  className="rounded-2xl bg-surface/90 p-4 shadow-card"
-                >
-                  <p className="text-[15px] font-bold text-ink">{c.name}</p>
-                  <p className="mt-1 text-sm leading-relaxed text-ink/70">
-                    {c.note}
-                  </p>
-                </li>
-              ))}
+              {symptom.possibleCauses.map((c) => {
+                const diseaseLink = findDiseaseLink(c.name);
+                return (
+                  <li
+                    key={c.name}
+                    className="rounded-2xl bg-surface/90 p-4 shadow-card"
+                  >
+                    {diseaseLink ? (
+                      <Link
+                        href={diseaseLink.href ?? `/diseases/${diseaseLink.slug}`}
+                        className="text-[15px] font-bold text-primary-dark underline decoration-primary/40 underline-offset-2 hover:text-primary"
+                      >
+                        {c.name}
+                      </Link>
+                    ) : (
+                      <p className="text-[15px] font-bold text-ink">{c.name}</p>
+                    )}
+                    <p className="mt-1 text-sm leading-relaxed text-ink/70">
+                      {c.note}
+                    </p>
+                  </li>
+                );
+              })}
             </ul>
           </FadeIn>
 
