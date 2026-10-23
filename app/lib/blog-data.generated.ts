@@ -1143,27 +1143,15 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "### 胃外科医として見てきた変化"
+          "text": "### 都城のクリニックで気づいたこと"
         },
         {
           "kind": "text",
-          "text": "日本の胃がんは、1970年代から死亡率が大きく下がり続け、ピーク時の7〜8割近くまで減少しました。それでも高齢化を背景に、今なお年間10万人以上の方が新たに診断される、主要ながんのひとつです。一方で内視鏡治療の進歩により、早期に見つかった胃がんの多くは手術を必要としなくなりました。胃外科医の役割は、「早期がんを切除すること」から、「難しい手術や、再発後の治療、手術前後の全身管理」へと、少しずつ姿を変えてきたのです。"
+          "text": "外科医として大学病院や地域の基幹病院を渡り歩いたのち、私は都城市内の、1日150人以上の方が来院するクリニックで、一般内科医としてプライマリケアを経験しました。そこで驚いたのは、これだけ多くの患者さんを日々診察していても、専門だった胃がんの患者さんに実際の臨床の場で出会う機会が、思いのほか少なかったことです。"
         },
         {
           "kind": "text",
-          "text": "### がんの最前線から離れるという決断"
-        },
-        {
-          "kind": "text",
-          "text": "がん治療認定医を維持し、クリニックで外来化学療法まで担うには、高額な薬剤の管理や、専門の看護師の配置など、個人のクリニックだけでは抱えきれない体制が必要です。手術症例の変化とあわせてこの現実に直面したとき、正直、苦しい決断でした。それでも、「病気そのものだけでなく、もっと患者さんの日常の困りごとに一番近くで関わりたい」という思いのほうが、最後は強かったのです。"
-        },
-        {
-          "kind": "text",
-          "text": "### 消えない「見抜く力」"
-        },
-        {
-          "kind": "text",
-          "text": "専門医という肩書きを手放しても、何千人もの患者さんのお腹を、そして全身を診てきた経験は、消えてなくなるものではありません。日々の内視鏡検査で、ちょっとした粘膜の異変を見逃さない目。それは今も、私の診療の土台です。"
+          "text": "胃がんの治療そのものの大切さは、今も変わらず胸にあります。それでも、「目の前にいる、もっと多くの患者さんを癒すことができれば、社会によりインパクトを与えられるのではないか」。そう強く感じたのが、プライマリケアの道を選ぶ、大きなきっかけになりました。"
         },
         {
           "kind": "text",
@@ -1190,27 +1178,15 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "### What I saw change as a stomach cancer surgeon"
+          "text": "### What a clinic in Miyakonojo taught me"
         },
         {
           "kind": "text",
-          "text": "Japan's stomach cancer death rate has fallen sharply since the 1970s, down to roughly a quarter or less of its peak. Even so, with an aging population, around 120,000 people are still newly diagnosed each year — it remains one of the major cancers. At the same time, advances in endoscopic treatment mean many early-stage cancers no longer require surgery at all. The role of a stomach cancer surgeon has gradually shifted — from removing early-stage tumors, toward difficult operations, treating recurrence, and managing patients through surgery."
+          "text": "After moving between university hospitals and regional core hospitals as a surgeon, I spent time as a general internist at a clinic in Miyakonojo, seeing more than 150 patients a day, gaining my first real experience in primary care. What surprised me was this: even seeing that many patients every single day, I rarely actually encountered patients with stomach cancer, the very disease I'd specialized in, in everyday clinical practice."
         },
         {
           "kind": "text",
-          "text": "### Choosing to step away from the front line of cancer care"
-        },
-        {
-          "kind": "text",
-          "text": "Maintaining certification as a cancer treatment specialist, and offering outpatient chemotherapy at a clinic, requires infrastructure a solo clinic simply can't carry alone — managing high-cost medications, staffing specialized nurses, and more. Facing that reality, alongside the shift in surgical caseloads, was honestly a painful decision. But in the end, what mattered more to me was wanting to be close to patients' everyday concerns, not just the disease itself."
-        },
-        {
-          "kind": "text",
-          "text": "### A watchful eye that doesn't fade"
-        },
-        {
-          "kind": "text",
-          "text": "Setting aside the title of specialist doesn't erase the experience of having examined thousands of patients' abdomens, and their whole bodies. The eye that catches a subtle change in the mucosa during a routine endoscopy — that's still the foundation of how I practice medicine today."
+          "text": "The importance of treating stomach cancer itself hasn't faded for me at all. But I found myself thinking, strongly: if I could help the many more patients right in front of me instead, couldn't I make a bigger impact on this community? That realization became a major turning point toward choosing primary care."
         },
         {
           "kind": "text",
