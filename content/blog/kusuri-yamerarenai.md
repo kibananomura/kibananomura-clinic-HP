@@ -27,7 +27,7 @@ excerpt_en: Once I start this medication, I can never stop, right? It's a questi
 
 「服がゆるくなって困る」「階段を上るのが楽になった」——こうした日常のちょっとした嬉しい変化こそが、生活改善の何よりのご褒美だと思っています。そしてその先には、お薬を減らせる・卒業できるという未来が、ちゃんと待っています。
 
-### 先生と患者ではなく、伴走者として
+### 院長からのメッセージ
 
 生活習慣病の治療は、「指導」ではないと思っています。一人ひとりの日常やちょっとした癖に寄り添いながら進めていく、**共同作業**だと考えています。「本当はお酒がやめられなくて」「夜遅くに食べてしまう癖があって」——そんな弱みを見せていただけることが、治療の一番の近道になります。
 
@@ -51,7 +51,7 @@ Let me share something that actually happened. A patient came in for a follow-up
 
 "My clothes don't fit anymore" or "stairs feel so much easier now" — these small, everyday joys are, I think, the real reward of improving your habits. And waiting beyond them is a future where your medication can be reduced, or even stopped altogether.
 
-### Not doctor and patient, but partners in the same effort
+### A message from the director
 
 I don't think of treating lifestyle-related conditions as "instruction." It's a **joint effort**, one where I try to stay close to each person's daily life and small habits as we work through it together. Being able to admit "I really can't give up drinking" or "I have a habit of eating late at night" — sharing those small vulnerabilities is often the shortest path to real progress.
 

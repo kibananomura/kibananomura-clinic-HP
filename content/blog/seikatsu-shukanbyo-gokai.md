@@ -25,7 +25,7 @@ excerpt_en: This number is my own fault for not taking care of myself, isn't it 
 - **家族性高コレステロール血症（FH）**：遺伝的な体質によって、若いうちからコレステロール値が高くなる病気です。どれだけ食事に気をつけても数値が下がりきらず、早期からの薬物治療が必要になることがあります。
 - **二次性高血圧・遺伝性の高血圧**：高血圧の多くは塩分の摂りすぎや肥満も関わる本態性高血圧ですが、一部にはホルモン異常や腎臓の病気、お薬の影響で血圧が上がる二次性高血圧もあります。ご家族に高血圧が多く、若くして血圧が高くなる方もいらっしゃいます。
 
-### その「がんばっているのに」を、一人で抱えないでください
+### 院長からのメッセージ
 
 外来では、「甘いものを食べ過ぎたから糖尿病になったの、と言われて傷ついた」「毎日気をつけているのに数値が下がらず、自分が責められている気がする」というお話を伺うことがあります。病名だけを見て、ご本人や周囲が「自己管理ができていないせいだ」と決めつけてしまうのは、とても切ないことだと感じています。
 
@@ -49,7 +49,7 @@ A lifestyle disease is defined as a condition whose onset and progression are in
 - **Familial hypercholesterolemia (FH)**: an inherited condition that causes very high cholesterol from a young age. No matter how carefully someone manages their diet, the numbers often won't come down fully, and early medication is usually necessary.
 - **Secondary and hereditary hypertension**: most high blood pressure is "essential hypertension," where salt intake and obesity play a role, but a portion is "secondary hypertension," caused by hormonal abnormalities, kidney disease, or certain medications. Some people also develop high blood pressure at a young age due to a strong family history.
 
-### Please don't carry that "but I'm trying so hard" alone
+### A message from the director
 
 In clinic, I sometimes hear things like, "Someone told me I must have eaten too many sweets to get diabetes, and it hurt," or "I'm careful every day but my numbers won't budge, and it feels like I'm being blamed." It's genuinely painful to see people — or the people around them — assume, based on a diagnosis name alone, that it must be a failure of self-management.
 

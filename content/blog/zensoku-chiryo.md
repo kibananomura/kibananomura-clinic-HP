@@ -38,7 +38,7 @@ excerpt_en: Why keep taking medicine when you have no symptoms at all? Doctors u
 
 つまり大切なのは、自己判断で止める・減らすのではなく、**節目ごとに診察室で経過を確認しながら、今の自分に合った量を一緒に探っていく**ことです。
 
-### 一緒に、発作の起きない気道を守りましょう
+### 院長からのメッセージ
 
 毎日の吸入や服薬を手間に感じることもあると思います。ですがその1回1回が、将来のあなたの気道を守り、大きな発作を防いでいます。
 
@@ -73,7 +73,7 @@ Of course, it's not a treatment you continue at the same dose forever. But that 
 
 In other words, what matters is not stopping or reducing on your own judgment, but **checking in with us at each milestone so we can work out together what dose is right for you right now.**
 
-### Let's protect airways that don't flare up — together
+### A message from the director
 
 Taking a daily inhaler or medication can feel like a hassle at times. But each dose is protecting your airways for the future and preventing a major attack.
 

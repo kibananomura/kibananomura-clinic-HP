@@ -31,7 +31,7 @@ excerpt_en: For anyone who added a tumor marker test to their checkup and got an
 
 だからといって「どんな数値でも気にしなくていい」というわけではありません。**基準値を大きく超えている場合、複数回測定しても下がらない場合、症状を伴う場合**などは、念のため詳しい検査を行い、他の原因が隠れていないかを確認することが大切です。この見極めは自己判断では難しいため、結果の数字だけで悩み続けるのではなく、一度医師に相談して、数字の持つ意味を一緒に整理することをお勧めします。
 
-### むしろ、生活習慣を見直す「いいきっかけ」に
+### 院長からのメッセージ
 
 もし詳しい検査で異常が見つからなかった場合でも、その結果を「安心して終わり」にするのではなく、**ご自身の生活習慣を振り返るきっかけ**にしていただくのも良いのではないかと思います。禁煙、節酒、食生活の見直し、睡眠や運動の習慣など、見直せる点があれば、この機会に少しずつ整えていく。腫瘍マーカーが「これといった病気」を示していなかったとしても、体からの小さなサインとして前向きに受け止めていただければ、今回の検査にもきちんと意味があったことになります。
 
@@ -59,7 +59,7 @@ In fact, some health-checkup centers have discontinued certain tumor marker item
 
 This doesn't mean any result can be brushed off. If a value is **substantially above the normal range, stays elevated on repeat testing, or comes with symptoms**, it's worth getting a closer look to rule out other causes, just to be safe. Since this judgment call is hard to make on your own, rather than worrying over the number alone, we'd recommend talking it through with a doctor so you can make sense of what it does and doesn't mean together.
 
-### A good opportunity to revisit your habits
+### A message from the director
 
 And if further testing turns up nothing concerning, we'd encourage you not to simply file it away as "all clear" — instead, treat it as **a prompt to look at your lifestyle**. Quitting smoking, cutting back on alcohol, adjusting your diet, improving sleep and exercise habits — if there's room to improve, this is a good moment to start. Even if the tumor marker wasn't pointing to any specific disease, treating it as a small signal from your body and responding to it positively means the test still served a real purpose.
 

@@ -35,7 +35,7 @@ excerpt_en: “Am I about to be told everything is off-limits?” — that's the
 
 主菜であれば、月曜日は豚肉、火曜日は青魚、水曜日は豆腐料理と、たんぱく質の種類を日替わりでローテーションしてみる。野菜であれば、緑（ほうれん草・ブロッコリー）、赤（トマト・にんじん）、黄（かぼちゃ・卵）、黒（ひじき・きのこ）と、昨日とは違う色を一品加えてみる。それくらいで十分です。「昨日は魚だったから今日は鶏肉と納豆にしよう」「昨日は緑の野菜が多かったから今日は赤いトマトを添えよう」というくらいの気持ちで、ゲーム感覚で続けていただくのがちょうどいいと思います。
 
-### 診察室でお待ちしています
+### 院長からのメッセージ
 
 もちろん、すでに腎機能の低下がある方や、数値がかなり高い状態の方には、一時的により厳密な栄養調整をお願いすることもあります。ただ、多くの生活習慣病において本当に大切なのは、完璧を目指すことではなく、**小さな良い習慣を長く続けること**だと考えています。
 
@@ -67,7 +67,7 @@ Thinking "I have to cook something completely different every day" would be its 
 
 For a main dish, that might mean rotating pork on Monday, a fish rich in omega-3s on Tuesday, tofu on Wednesday. For vegetables, it might mean adding a color you didn't have yesterday — green (spinach, broccoli), red (tomato, carrot), yellow (pumpkin, egg), black (hijiki seaweed, mushrooms). That's enough. Something like, "I had fish yesterday, so today let's do chicken and natto," or "yesterday was mostly green, so let's add a red tomato today" — treating it almost like a small game is about the right amount of effort to keep it up.
 
-### Come talk to us
+### A message from the director
 
 Of course, for patients who already have reduced kidney function, or whose numbers are quite high, I do sometimes ask for stricter nutritional adjustments for a period. But for most lifestyle-related conditions, what actually matters isn't perfection — it's **keeping up a few small, good habits for a long time.**
 

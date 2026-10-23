@@ -42,7 +42,7 @@ excerpt_en: Antibiotics don't work on colds — many of you probably already kno
 
 症状がそれほどつらくなく、食事も睡眠も普段通りとれているなら、無理に薬を増やす必要はありません。しっかり体を休ませることが、遠回りに見えて実は一番の近道です。「薬を出さない」という判断も、将来の自分の免疫力と、社会全体の耐性菌リスクの両方を守るための、積極的な医療判断なのだとご理解いただけたら嬉しいです。
 
-### ただし、本当に抗生剤が必要な場合もあります
+### 院長からのメッセージ
 
 一つだけ付け加えさせてください。風邪だと思っていても、**溶連菌感染症**のように、細菌が原因で抗生剤が本当に必要になる病気が隠れていることもあります。診察のうえで抗生剤を処方する場合は、「なぜ今回は細菌感染が疑われるのか」を必ずご説明するようにしています。もし説明がないまま気になることがあれば、遠慮なく「これは何に効くお薬ですか？」と聞いてみてください。
 
@@ -81,7 +81,7 @@ In other words: if you take an ineffective antibiotic for a cold "just in case" 
 
 If your symptoms aren't too severe and you're still eating and sleeping normally, there's no need to force yourself onto more medication. Giving your body real rest may look like the slow route, but it's actually the fastest one. I hope you'll see the choice not to prescribe an antibiotic as an active medical decision — one made to protect both your own future immune resilience and the broader fight against antibiotic resistance.
 
-### That said, there are times antibiotics really are necessary
+### A message from the director
 
 Let me add one thing. What looks like a cold can sometimes turn out to be something like strep throat, a bacterial illness that genuinely requires antibiotics. When I do prescribe one, I make a point of explaining why a bacterial infection is suspected in that particular case. If that explanation hasn't come up and you're curious, please feel free to ask, "What is this medication actually treating?"
 

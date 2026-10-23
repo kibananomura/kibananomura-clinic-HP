@@ -23,7 +23,7 @@ excerpt_en: I hear people get the flu even after the shot, and the side effects 
 
 もちろん、判断材料として知っておいていただきたいこともあります。重症化しやすいご高齢の方や乳幼児、ご自身が持病をお持ちの方、同居するご家族に小さなお子さんや高齢の方がいる場合などは、重症化や周囲への感染を防ぐという意味で、接種のメリットが大きくなりやすい傾向があります。一方で、過去に強いアレルギー反応が出たことがある方は、慎重な判断が必要です。こうした情報はあくまで判断の材料であって、結論ではありません。最後にハンドルを握るのは、やはりご自身です。
 
-### 本音を言うと、少し悩みながらお伝えしています
+### 院長からのメッセージ
 
 「ご自身で決めてください」という言い方が、時に「冷たく突き放された」と感じさせてしまうかもしれない——正直、そのことに悩みながらお伝えしています。
 
@@ -45,7 +45,7 @@ Honestly, as a doctor, I can't tell you "this vaccine guarantees complete safety
 
 That said, there's information worth knowing as you weigh it. Older adults and young children, people managing a chronic condition, and anyone living with young children or elderly family members tend to see a bigger benefit from vaccination, both in avoiding severe illness and in protecting the people around them. On the other hand, if you've had a serious allergic reaction in the past, that calls for a more careful conversation. None of this is meant to hand you an answer — it's material for your own decision. You're still the one holding the wheel.
 
-### Truthfully, I say this with some unease
+### A message from the director
 
 Saying "it's your decision" can sometimes come across as cold, as if I'm pushing the question back onto you. I'll admit, that worry sits with me every time I say it.
 
