@@ -11,7 +11,7 @@ excerpt_en: Here in Kibana, close to Aoshima, we welcome sudden troubles on a tr
 
 ## ja
 
-「青島に向かう途中で、急にお腹が痛くなってしまって」。旅先でのそんな受診が、これからこの木花では珍しくなくなるだろうと感じています。木花のむら総合診療所、院長の野村信介です。
+「青島に向かう途中で、急にお腹が痛くなってしまって」。旅先でのそんな受診が、これからこの木花では珍しくなくなるだろうと感じています。
 
 実は私は、もともと胃がん治療を専門にしていた外科医でした。この記事を読んでいただくと、専門だった胃がんの手術から、なぜ街のかかりつけ医の道を選んだのか、その経緯が分かります。結論から言うと、**「もっと多くの方の日常に、一番近いところで関わりたい」という思いが、専門を手放してでも叶えたかったことでした。**
 
@@ -29,7 +29,7 @@ excerpt_en: Here in Kibana, close to Aoshima, we welcome sudden troubles on a tr
 
 ## en
 
-"I was on my way to Aoshima when my stomach suddenly started hurting." I expect visits like that will become a familiar sight here in Kibana. I'm Shinsuke Nomura, director of Kibana Nomura General Medicine Clinic.
+"I was on my way to Aoshima when my stomach suddenly started hurting." I expect visits like that will become a familiar sight here in Kibana.
 
 I actually used to be a surgeon specializing in stomach cancer treatment. By the end of this post, you'll understand why I stepped away from that specialty to become a neighborhood family doctor instead. The short version: **wanting to be close to as many people's everyday lives as possible was worth giving up my specialty for.**
 

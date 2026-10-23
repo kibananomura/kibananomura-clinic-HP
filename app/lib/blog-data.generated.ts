@@ -1139,7 +1139,7 @@ export const generatedPosts: BlogPost[] = [
       "body": [
         {
           "kind": "text",
-          "text": "「青島に向かう途中で、急にお腹が痛くなってしまって」。旅先でのそんな受診が、これからこの木花では珍しくなくなるだろうと感じています。木花のむら総合診療所、院長の野村信介です。"
+          "text": "「青島に向かう途中で、急にお腹が痛くなってしまって」。旅先でのそんな受診が、これからこの木花では珍しくなくなるだろうと感じています。"
         },
         {
           "kind": "text",
@@ -1178,7 +1178,7 @@ export const generatedPosts: BlogPost[] = [
       "body": [
         {
           "kind": "text",
-          "text": "\"I was on my way to Aoshima when my stomach suddenly started hurting.\" I expect visits like that will become a familiar sight here in Kibana. I'm Shinsuke Nomura, director of Kibana Nomura General Medicine Clinic."
+          "text": "\"I was on my way to Aoshima when my stomach suddenly started hurting.\" I expect visits like that will become a familiar sight here in Kibana."
         },
         {
           "kind": "text",
