@@ -192,7 +192,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "### 当院からのお願い"
+          "text": "### 院長からのメッセージ"
         },
         {
           "kind": "text",
@@ -259,7 +259,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "### A few requests from us"
+          "text": "### A message from the director"
         },
         {
           "kind": "text",
@@ -447,6 +447,466 @@ export const generatedPosts: BlogPost[] = [
     }
   },
   {
+    "slug": "statin-kinniku-houkai",
+    "date": "2026.10.05",
+    "cover": "/blog/kibana-landscape.png",
+    "ja": {
+      "category": "健康・予防の話",
+      "title": "スタチンは筋肉を崩壊させるのか？〜コレステロール薬の疑問と最新医学〜",
+      "excerpt": "「スタチンを飲むと筋肉が溶ける」——ネットでそんな言葉を見て、薬をやめようか迷っていませんか。まず知っていただきたいのは、その不安のほとんどが誤解だということです。",
+      "body": [
+        {
+          "kind": "text",
+          "text": "「コレステロールの薬（スタチン）を飲むと、筋肉が溶ける・崩壊するらしい」。そんな言葉をネットで見かけて、今飲んでいるお薬をやめようか迷っている方、あるいはこれから始めることに不安を感じている方がいらっしゃるかもしれません。「横紋筋融解症」という言葉の強いインパクトだけが独り歩きし、まるで誰にでも起こることのように感じてしまうのも無理はないと思います。"
+        },
+        {
+          "kind": "text",
+          "text": "この記事を読んでいただくと、スタチンがなぜ筋肉に影響することがあるのか、その仕組みと「本当に注意すべきサイン」が分かります。結論から言うと、**「筋肉が崩壊する」というレベルの重い副作用は、数万人に1人という非常に稀なもの**です。一方で、軽いだるさや痛みが出ることは確かにあり、それにはきちんとした医学的な理由があります。大切なのは、正しい仕組みを知った上で、自己判断でお薬をやめないことです。"
+        },
+        {
+          "kind": "text",
+          "text": "### なぜスタチンで筋肉に影響が出ることがあるのか"
+        },
+        {
+          "kind": "text",
+          "text": "スタチンは、肝臓でコレステロールを作る工場の働きを穏やかに抑えるお薬です。ただ、この工場は実はコレステロールだけでなく、**筋肉を動かすためのエネルギー源であるコエンザイムQ10（CoQ10）**も一緒に作っています。そのため、スタチンによって工場の稼働が抑えられると、巻き添えでCoQ10も少し減ってしまい、筋肉のバッテリーが本来より少しパワー不足になることがあります。"
+        },
+        {
+          "kind": "text",
+          "text": "もう一つの仕組みが、筋肉の細胞の中にある**カルシウムのバランスの変化**です。カルシウムは本来、細胞の中できちんと管理されていますが、スタチンの影響でそのバランスが崩れると、細胞から漏れ出しやすくなり、筋肉がわずかに分解されやすい状態になることがあります。"
+        },
+        {
+          "kind": "text",
+          "text": "この二つの仕組みは、まだ完全に解明されたわけではありませんが、現時点で有力な説として考えられています。これらによって、「体がだるい」「少し筋肉が張る感じがする」といった軽い症状が出ることはあります。ただし、これは「筋肉が崩壊する」こととはまったく別の話です。**本当に重篤な横紋筋融解症は、数万人に1人というレベルの、きわめて稀な副作用**であり、ほとんどの方は安全に服用を続けられます。"
+        },
+        {
+          "kind": "text",
+          "text": "### 同じ薬でも、効き方や副作用に個人差が出る理由"
+        },
+        {
+          "kind": "text",
+          "text": "「同じ量を飲んでいるのに、症状が出る人と出ない人がいるのはなぜですか」と聞かれることがあります。年齢や筋肉量、他のお薬との飲み合わせなど理由はいくつかありますが、近年の研究で注目されているのが**腸内細菌叢（お腹の中の菌の集まり）**です。"
+        },
+        {
+          "kind": "text",
+          "text": "お腹の中にいる菌の種類やバランスは一人ひとり違い、この違いが薬の吸収のされ方や、体の中での分解のされ方、さらには体に炎症が起きやすいかどうかにまで関わっていることが、最新の研究で少しずつ分かってきています。つまり、「同じ薬なのに自分だけ違和感がある」という感覚は、決して気のせいではなく、**お腹の中の環境という、目に見えない個人差**が背景にある可能性があるのです。まだ研究が発展している分野ではありますが、「体質」の正体の一端が、こうした形で明らかになりつつあります。"
+        },
+        {
+          "kind": "text",
+          "text": "### ご自身でチェックしていただきたいサイン"
+        },
+        {
+          "kind": "text",
+          "text": "スタチンを服用中に、次のような症状がないか時々意識してみてください。"
+        },
+        {
+          "kind": "text",
+          "text": "- 手足に力が入らない、脱力感がある\n- 運動をしていないのに、太ももやふくらはぎが強く痛む\n- **尿の色が、紅茶やウーロン茶のような濃い赤褐色になる**（これが最も重要なサインです）"
+        },
+        {
+          "kind": "text",
+          "text": "特に最後の尿の色の変化は、筋肉の分解が進んでいる可能性を示す重要なサインです。この症状に気づいた場合は、様子を見ずに早めにご連絡ください。"
+        },
+        {
+          "kind": "text",
+          "text": "### 院長からのメッセージ"
+        },
+        {
+          "kind": "text",
+          "text": "スタチンは、将来の心筋梗塞や脳卒中を防ぐために、非常に重要な役割を果たすお薬です。「なんとなく不安だから」と自己判断でやめてしまうと、下がっていたはずの血管のリスクがまた上がってしまいます。"
+        },
+        {
+          "kind": "text",
+          "text": "体の違和感は、血液検査（CK値や腎機能）で比較的すぐに確認することができますし、もし本当に筋肉への影響が疑われる場合でも、お薬の種類や量を調整することで、多くの場合は安全に治療を続けられます。"
+        },
+        {
+          "kind": "text",
+          "text": "「これって筋肉痛かな、それとも薬のせいかな」と迷うことがあれば、我慢せずに、どうぞ気軽に院長やスタッフにご相談ください。"
+        }
+      ]
+    },
+    "en": {
+      "category": "Health and prevention",
+      "title": "Does statin medication really \"break down\" your muscles?",
+      "excerpt": "Statins dissolve your muscles — have you seen that claim online and started wondering whether to stop your medication? The first thing to know is that most of that fear comes from a misunderstanding.",
+      "body": [
+        {
+          "kind": "text",
+          "text": "\"Statins dissolve your muscles\" — you may have come across that phrase online and wondered whether to stop the medication you're taking, or felt uneasy about starting it in the first place. It's understandable: the strong image behind the term \"rhabdomyolysis\" tends to take on a life of its own, as if it could happen to anyone at any time."
+        },
+        {
+          "kind": "text",
+          "text": "By the end of this post, you'll understand why statins can sometimes affect muscles, and which signs genuinely deserve your attention. The short version: **a side effect severe enough to be called \"muscle breakdown\" is extremely rare — on the order of one in tens of thousands of patients.** Mild tiredness or soreness, on the other hand, can genuinely occur, and there are real medical reasons behind it. What matters most is understanding the mechanism correctly, rather than stopping your medication on your own judgment."
+        },
+        {
+          "kind": "text",
+          "text": "### Why statins can sometimes affect your muscles"
+        },
+        {
+          "kind": "text",
+          "text": "Statins work by gently slowing down the \"factory\" in your liver that produces cholesterol. The catch is that this same factory also produces **Coenzyme Q10 (CoQ10), a key energy source your muscles rely on to function.** When the factory's output is scaled back, CoQ10 production can dip slightly too, leaving your muscles running on a bit less power than usual — something like a battery running low."
+        },
+        {
+          "kind": "text",
+          "text": "A second mechanism involves **a shift in calcium balance inside muscle cells.** Calcium is normally kept carefully in check within cells, but when that balance is disrupted, it can leak out more easily, making muscle tissue slightly more prone to breaking down."
+        },
+        {
+          "kind": "text",
+          "text": "These two mechanisms aren't yet fully proven, but they're currently considered the leading explanations. Together, they can produce mild symptoms — general fatigue, or a sense of muscle tightness. But this is an entirely different matter from \"muscle breakdown.\" **True, severe rhabdomyolysis is an extremely rare side effect, occurring in roughly one in tens of thousands of patients,** and the vast majority of people can continue taking their medication safely."
+        },
+        {
+          "kind": "text",
+          "text": "### Why the same drug can affect people differently"
+        },
+        {
+          "kind": "text",
+          "text": "A question I hear often: \"We're taking the same dose, so why does one person get symptoms and another doesn't?\" Age, muscle mass, and interactions with other medications all play a role, but one area drawing growing research attention is the **gut microbiome** — the community of bacteria living in your intestines."
+        },
+        {
+          "kind": "text",
+          "text": "The mix of bacteria each person carries is unique, and emerging research suggests it may influence how a drug is absorbed, how it's broken down in the body, and even how prone the body is to inflammation. In other words, if you feel \"something's different for me even though it's the same medication,\" that sense isn't imaginary — it may reflect an invisible, individual difference rooted in your gut environment. This is still a developing field of research, but it's gradually revealing one piece of what we casually call \"constitution\" or \"body type.\""
+        },
+        {
+          "kind": "text",
+          "text": "### Signs worth checking for yourself"
+        },
+        {
+          "kind": "text",
+          "text": "While taking a statin, it's worth occasionally checking in with yourself for the following:"
+        },
+        {
+          "kind": "text",
+          "text": "- Weakness or a loss of strength in your arms or legs\n- Strong pain in your thighs or calves that isn't related to exercise\n- **Urine that turns a dark reddish-brown color, like strong tea or oolong tea** (this is the single most important sign)"
+        },
+        {
+          "kind": "text",
+          "text": "That last sign — a change in urine color — is a particularly important indicator that muscle breakdown may be underway. If you notice it, please don't wait and see; contact us right away."
+        },
+        {
+          "kind": "text",
+          "text": "### A message from the director"
+        },
+        {
+          "kind": "text",
+          "text": "Statins play a genuinely important role in preventing future heart attacks and strokes. Stopping on your own simply because something feels vaguely worrying can undo the reduction in vascular risk you've worked to achieve."
+        },
+        {
+          "kind": "text",
+          "text": "Any unusual sensation can be checked fairly quickly with a blood test (CK levels and kidney function), and even if a muscle-related effect is suspected, adjusting the type or dose of medication usually allows treatment to continue safely in most cases."
+        },
+        {
+          "kind": "text",
+          "text": "If you're ever unsure whether something is \"just muscle soreness\" or related to your medication, please don't tough it out alone — feel free to bring it up with the director or our staff anytime."
+        }
+      ]
+    }
+  },
+  {
+    "slug": "tomato-juice-ryouba",
+    "date": "2026.10.06",
+    "cover": "/blog/kibana-landscape.png",
+    "ja": {
+      "category": "健康・予防の話",
+      "title": "毎日のトマトジュース、実は逆効果かもしれません",
+      "excerpt": "「健康のために、毎朝トマトジュースで野菜をとっています」。とても素敵な習慣ですが、実はその一杯、コレステロールには◎でも中性脂肪には注意が必要かもしれません。",
+      "body": [
+        {
+          "kind": "text",
+          "text": "「先生、健康のために、毎朝トマトジュースで野菜をとっているんです」。健診結果を見ながら、誇らしげにそうお話しされる患者さんによくお会いします。野菜不足を気にして、手軽に続けられる習慣を選ばれたその努力は、本当に素晴らしいことだと思います。"
+        },
+        {
+          "kind": "text",
+          "text": "ただ、少し意外に思われるかもしれませんが、**トマトジュースはコレステロールが高めの方にはおすすめな一方、中性脂肪が高めの方には逆効果になることがある**、いわば「両刃の剣」のような飲み物です。この記事を読んでいただくと、ご自身の健診結果のタイプに合わせた、トマトジュースとの正しい付き合い方が分かります。結論から言うと、**ポイントは「無塩かどうか」と「ジュースか、生のまま食べるか」**。この2つを押さえるだけで、同じ一杯が味方にも、注意信号にもなります。"
+        },
+        {
+          "kind": "text",
+          "text": "### なぜトマトジュースは「両刃の剣」なのか"
+        },
+        {
+          "kind": "text",
+          "text": "**コレステロール（LDL）が高めの方には、心強い味方**です。トマトの赤い色素であるリコピンには強い抗酸化作用があり、悪玉コレステロール（LDL）が血管の壁で酸化されて悪さをするのを防いでくれると考えられています。血圧にもよい影響が期待できるとされており、LDLが高めの方にとっては無理のない習慣のひとつといえます。"
+        },
+        {
+          "kind": "text",
+          "text": "一方で、**中性脂肪（TG）が高めの方には、少し注意が必要**です。ジュースにする過程で食物繊維の多くが失われ、糖質が吸収されやすい状態になります。噛まずに飲むぶん血糖・中性脂肪への影響が出やすく、「野菜の代わり」のつもりで飲んでいても、中性脂肪が高めの方にはやや不利に働くことがあります。"
+        },
+        {
+          "kind": "text",
+          "text": "### タイプ別・賢いトマトジュースとの付き合い方"
+        },
+        {
+          "kind": "text",
+          "text": "ご自身の健診結果のタイプに合わせて、次のように選んでいただくのがおすすめです。"
+        },
+        {
+          "kind": "text",
+          "text": "- **LDL（悪玉コレステロール）が高めの方**：**無塩**のトマトジュースを、**1日1杯（200ml程度）**までを目安にするのはおすすめです。塩分が多いタイプは血圧への影響が気になるため、「無塩」を選ぶのがポイントです。\n- **TG（中性脂肪）が高めの方**：ジュースではなく、**生のトマトをそのまま、よく噛んで食べる**のがベストです。食物繊維が丸ごと残っているため、糖質の吸収がゆるやかになります。他の野菜と同じように、「噛んで食べる」習慣を優先してください。\n- **LDL・TGの両方が高めの方**：飲む場合は「**無塩・1日1杯まで**」を守ったうえで、その分、夜のご飯（主食）を一口分だけ減らす等、1日の糖質量のバランスを調整していただくと安心です。"
+        },
+        {
+          "kind": "text",
+          "text": "### 院長からのメッセージ"
+        },
+        {
+          "kind": "text",
+          "text": "「体によい」とされる食品であっても、ご自身の血液検査のデータ（どの数値が高めなのか）に合わせて選ぶことが、遠回りのようでいちばんの近道です。"
+        },
+        {
+          "kind": "text",
+          "text": "ご自身の脂質のタイプがよく分からない方、健診結果を見て食事をどう工夫したらよいか迷っている方は、どうぞ健診結果を持って気軽にご相談ください。一緒に、今の数値に合った無理のない付き合い方を見つけていきましょう。"
+        }
+      ]
+    },
+    "en": {
+      "category": "Health and prevention",
+      "title": "Your daily tomato juice might be working against you",
+      "excerpt": "I drink tomato juice every morning instead of vegetables, for my health — a lovely habit, but that glass may be great for cholesterol while working against your triglycerides.",
+      "body": [
+        {
+          "kind": "text",
+          "text": "\"Doctor, I drink tomato juice every morning to get my vegetables in — it's good for my health.\" I hear this proudly, checkup results in hand, more often than you might think. Being mindful of not getting enough vegetables and choosing an easy habit you can actually stick with is genuinely admirable."
+        },
+        {
+          "kind": "text",
+          "text": "Here's something that might surprise you, though: **tomato juice can be great for people with high cholesterol, while working against people with high triglycerides** — it's something of a double-edged sword. By the end of this post, you'll know how to approach tomato juice based on your own checkup results. The short version: **what matters is whether it's unsalted, and whether you drink it as juice or eat the tomato whole.** Get those two things right, and the very same glass can either help you or work against you."
+        },
+        {
+          "kind": "text",
+          "text": "### Why tomato juice is a double-edged sword"
+        },
+        {
+          "kind": "text",
+          "text": "**For people with high LDL (\"bad\") cholesterol, it's a genuine ally.** Lycopene, the red pigment in tomatoes, has strong antioxidant properties and is thought to help prevent LDL cholesterol from oxidizing and causing damage inside blood vessel walls. It's also believed to have a favorable effect on blood pressure, making it a reasonable, low-burden habit for anyone with elevated LDL."
+        },
+        {
+          "kind": "text",
+          "text": "**For people with high triglycerides (TG), though, a bit of caution is warranted.** Juicing tomatoes strips away much of their fiber, leaving sugars that are absorbed more readily. Because you drink it rather than chew it, it can have more of an effect on blood sugar and triglycerides than you'd expect. Even if you're drinking it \"instead of vegetables,\" for someone with elevated triglycerides, it can work slightly against you."
+        },
+        {
+          "kind": "text",
+          "text": "### A smarter way to enjoy tomato juice, based on your type"
+        },
+        {
+          "kind": "text",
+          "text": "Here's how I'd suggest approaching it, based on which number on your checkup is elevated:"
+        },
+        {
+          "kind": "text",
+          "text": "- **If your LDL (\"bad\" cholesterol) is high:** Choosing **unsalted** tomato juice, up to about **one glass (200ml) a day**, is a reasonable habit. Salted varieties raise concerns about blood pressure, so \"unsalted\" is the key word to look for.\n- **If your triglycerides (TG) are high:** Skip the juice and **eat the tomato whole, chewing it well, instead.** With the fiber intact, sugar absorption slows down considerably. Treat it the same way you would any other vegetable — chewing, not drinking.\n- **If both LDL and TG are elevated:** If you do drink it, stick to \"**unsalted, one glass a day at most**,\" and balance things out by cutting back slightly elsewhere — for example, one bite less of rice at dinner — to manage your overall carbohydrate intake for the day."
+        },
+        {
+          "kind": "text",
+          "text": "### A message from the director"
+        },
+        {
+          "kind": "text",
+          "text": "Even foods considered \"healthy\" are best chosen with your own blood test results in mind — which numbers are actually elevated for you. It may feel like the long way around, but it's really the shortest path to results."
+        },
+        {
+          "kind": "text",
+          "text": "If you're not sure which type applies to you, or you're wondering how to adjust your diet based on your checkup results, please feel free to bring those results in and talk it over with us. Let's work together to find an approach that fits your numbers, without being a burden on daily life."
+        }
+      ]
+    }
+  },
+  {
+    "slug": "kansen-dousen-bunri",
+    "date": "2026.10.07",
+    "cover": "/blog/kibana-landscape.png",
+    "ja": {
+      "category": "クリニックのこと",
+      "title": "発熱の方の動線を、他の患者さんと完全に分けている理由",
+      "excerpt": "「熱があるとき、病院に行くこと自体が怖い」。その不安に、当院は建物の設計段階から向き合っています。駐車場から院内の動線まで、理由をお話しします。",
+      "body": [
+        {
+          "kind": "text",
+          "text": "「熱があるとき、病院に行くこと自体が怖い」。そう感じたことはありませんか。自分がうつされるかもしれない不安と、自分が誰かにうつしてしまうかもしれない不安、その両方を抱えながら受診される方は少なくないと思います。"
+        },
+        {
+          "kind": "text",
+          "text": "この記事を読んでいただくと、木花のむら診療所が発熱・感染が疑われる方の動線を、設計の最初の段階からどう分けているかが分かります。結論から言うと、**感染対策は「後から付け加えるもの」ではなく、駐車場の区画割りから院内の動線まで、建物そのものに最初から組み込んでいます。**"
+        },
+        {
+          "kind": "text",
+          "text": "### 駐車場の時点で、すでに分かれています"
+        },
+        {
+          "kind": "text",
+          "text": "当院の駐車場は、**発熱・感染が疑われる方専用の区画を5台分**確保したうえで、それとは別に一般の方用の区画を設ける計画で進めています（一般区画の正確な台数は現在調整中ですが、目安として25台前後を想定しています）。来院された時点で、発熱の症状がある方は専用の区画へ、それ以外の方は一般の区画へと、自然に動線が分かれる設計です。駐車場に着いた瞬間から、一般の患者さんと交わらない動線が始まっている、とイメージしていただくと分かりやすいかもしれません。"
+        },
+        {
+          "kind": "text",
+          "text": "### 院内に入らず、車の中で済ませられることも"
+        },
+        {
+          "kind": "text",
+          "text": "発熱対応区画にお車を停めていただいた場合、状況に応じて、**車にいたままで診察や検体採取を受けていただく**ことも想定しています。院内の待合や受付を通らずに済むため、他の患者さんと顔を合わせる場面そのものを減らすことができます。お薬についても、一般の受付窓口ではなく、発熱対応のための専用スペースを経由してお渡しする運用を予定しています。"
+        },
+        {
+          "kind": "text",
+          "text": "### なぜ、ここまで設計段階にこだわったのか"
+        },
+        {
+          "kind": "text",
+          "text": "動線の分離は、工事が始まってから追加できるものではありません。駐車場の区画割り、建物の出入口の位置、院内の通路の取り方——そのすべてが、設計図を描く最初の段階で決まってしまいます。「あとから感染対策を強化する」ことには限界があるからこそ、建築士の方との打ち合わせの早い時点から、この動線分離を設計の前提条件としてお伝えしてきました。"
+        },
+        {
+          "kind": "text",
+          "text": "### 院長からのメッセージ"
+        },
+        {
+          "kind": "text",
+          "text": "発熱で来院される方にとっても、それ以外の理由で来院される方にとっても、「ここに来れば安心」と思っていただけることが何より大切だと考えています。動線を分けることは、特別な方だけのための配慮ではなく、すべての患者さんの安心のための、ごく当たり前の備えだと思っています。"
+        },
+        {
+          "kind": "text",
+          "text": "開院まで、こうした設計の裏側も少しずつお伝えしていきますので、楽しみにしていてください。"
+        }
+      ]
+    },
+    "en": {
+      "category": "About the clinic",
+      "title": "Why we keep patients with a fever completely separate from everyone else",
+      "excerpt": "Going to the clinic itself feels scary when you have a fever — we took that worry seriously from the very first stage of designing this building.",
+      "body": [
+        {
+          "kind": "text",
+          "text": "Have you ever felt that going to the clinic itself is scary when you have a fever? Worrying both about catching something from someone else, and about passing something on yourself — I think a lot of people carry both of those fears at once when they visit a clinic with a fever."
+        },
+        {
+          "kind": "text",
+          "text": "By the end of this post, you'll understand how Kibananomura Clinic has separated the flow for patients with a fever or suspected infection from everyone else, starting from the very first stage of the building's design. The short version: **infection control here isn't something added on afterward — it's built into the building itself, from how the parking lot is divided all the way through to the flow inside.**"
+        },
+        {
+          "kind": "text",
+          "text": "### The separation starts right at the parking lot"
+        },
+        {
+          "kind": "text",
+          "text": "We're planning our parking lot with **5 spaces reserved specifically for patients with a fever**, set apart from the general parking area (the exact number of general spaces is still being finalized, but we expect somewhere around 25). From the moment you arrive, the flow naturally splits — patients with a fever head to the dedicated area, while everyone else uses the general area. Think of it as a separation that begins the instant you park, well before you ever reach the front door."
+        },
+        {
+          "kind": "text",
+          "text": "### Sometimes, you won't even need to come inside"
+        },
+        {
+          "kind": "text",
+          "text": "For patients parked in the fever-dedicated area, depending on the situation, we plan to offer **exams and sample collection while you remain in your car.** Because this skips the waiting room and front desk entirely, it also reduces the number of times you'd otherwise cross paths with other patients. For medication, rather than going through the general reception counter, we plan to hand it over through a dedicated space set up specifically for fever care."
+        },
+        {
+          "kind": "text",
+          "text": "### Why we insisted on getting this right at the design stage"
+        },
+        {
+          "kind": "text",
+          "text": "Separating patient flow isn't something you can bolt on once construction has already started. The layout of the parking lot, the placement of the building's entrances, how the hallways inside are routed — all of it gets locked in at the very first stage of drawing up the floor plan. Because there's only so much you can do to strengthen infection control after the fact, we made this separation a non-negotiable condition from the earliest conversations with our architect."
+        },
+        {
+          "kind": "text",
+          "text": "### A message from the director"
+        },
+        {
+          "kind": "text",
+          "text": "Whether you're visiting us with a fever or for an entirely different reason, what matters most to me is that you feel \"I can come here and feel safe.\" Separating the flow isn't a special accommodation for some patients — it's simply a basic precaution for every patient's peace of mind."
+        },
+        {
+          "kind": "text",
+          "text": "We'll keep sharing more of what's happening behind the scenes as we move toward opening, so stay tuned."
+        }
+      ]
+    }
+  },
+  {
+    "slug": "nagaku-tsukiau-iryou",
+    "date": "2026.10.08",
+    "cover": "/blog/kibana-landscape.png",
+    "ja": {
+      "category": "院長のメッセージ",
+      "title": "「治す」だけでなく、「長く付き合う」医療について",
+      "excerpt": "「一生このお薬と付き合うんですか」。高血圧や糖尿病の患者さんから、よくそう聞かれます。その問いに、私がどう向き合っているかをお話しします。",
+      "body": [
+        {
+          "kind": "text",
+          "text": "「先生、このお薬、一生付き合っていくんですか」。高血圧や糖尿病の患者さんから、診察室でよくそう聞かれます。その声には、「治らないのか」という落胆と、「ずっと病気の自分でいるのか」という寂しさが、いつも少しだけ混じっているように感じます。"
+        },
+        {
+          "kind": "text",
+          "text": "この記事を読んでいただくと、高血圧や糖尿病のように長く付き合っていく病気に対して、私がどんな姿勢で向き合っているかが分かります。結論から言うと、**私は「治す」ことだけを医療のゴールにしていません。むしろ、長く付き合っていく病気とどう上手に折り合いをつけるかを、患者さんと一緒に考えることこそが、自分の役目だと思っています。**"
+        },
+        {
+          "kind": "text",
+          "text": "### 「治らない」と「悪くならない」は、まったく別のことです"
+        },
+        {
+          "kind": "text",
+          "text": "高血圧や糖尿病は、多くの場合、完全に「治って」薬が一切不要になるとは限らない病気です。生活習慣の改善で薬を減らせたり、場合によっては中止できたりする方もいますが、多くの方にとっては長く付き合っていく病気でもあります。ですが、それは「何をしても同じ」ということでは決してありません。しっかり数値をコントロールできていれば、何年経っても合併症のリスクを大きく抑えながら、これまでと変わらない毎日を送れる方がほとんどです。「治らない」と「悪くならない」はまったく別のことで、私たちが目指しているのは、むしろ後者です。"
+        },
+        {
+          "kind": "text",
+          "text": "### 一生のお付き合いだからこそ、無理のない距離感を"
+        },
+        {
+          "kind": "text",
+          "text": "一生付き合っていく病気だからこそ、最初から全力で頑張りすぎる必要はないと思っています。急に食事を厳しく制限したり、無理な運動量を課したりしても、たいてい長続きしません。それよりも、ご本人の生活や好みに合わせて、少しずつ・無理なく続けられるやり方を一緒に探すほうが、結果的に何年も続けられます。治療は短距離走ではなく、長い道のりを一緒に歩くようなものだと考えています。"
+        },
+        {
+          "kind": "text",
+          "text": "### 数値の裏にある暮らしを見ています"
+        },
+        {
+          "kind": "text",
+          "text": "同じ血圧の数値でも、その背景にある生活は人それぞれです。仕事の都合で食事の時間が不規則な方、家族の介護で自分のことが後回しになりがちな方、すでに十分頑張っているのにもう一声求められて疲れてしまっている方。数値だけを見て画一的な指導をするのではなく、その方の暮らしの事情を聞いたうえで、今の生活の中で無理なくできることから一緒に考えていきたいと思っています。"
+        },
+        {
+          "kind": "text",
+          "text": "「一生このお薬と付き合うのか」と思うと気が重くなるかもしれませんが、それは「ずっと我慢を強いられる」ということではありません。ご自身の体と、無理のない距離感で、長く付き合っていく——そのための伴走者でありたいと思っています。何か不安なことがあれば、どうぞ遠慮なくお聞かせください。"
+        }
+      ]
+    },
+    "en": {
+      "category": "A message from the director",
+      "title": "Medicine isn't only about curing — it's also about staying alongside you",
+      "excerpt": "Am I going to be on this medication for the rest of my life? I hear that question often from patients with high blood pressure or diabetes — here's how I think about it.",
+      "body": [
+        {
+          "kind": "text",
+          "text": "\"Doctor, am I going to be on this medication for the rest of my life?\" I hear this often from patients with high blood pressure or diabetes. Behind that question, I always sense a mix of disappointment — \"so it can't be cured\" — and a quiet sadness at the thought of always being \"a patient.\""
+        },
+        {
+          "kind": "text",
+          "text": "By the end of this post, you'll understand how I approach conditions like high blood pressure and diabetes, the kind you live with for the long haul. The short version: **I don't treat \"curing\" as the only goal of medicine. I see my role as working together with patients to find a good, sustainable way to live alongside a condition that isn't going away.**"
+        },
+        {
+          "kind": "text",
+          "text": "### \"Not curable\" and \"not getting worse\" are two completely different things"
+        },
+        {
+          "kind": "text",
+          "text": "In many cases, high blood pressure and diabetes aren't conditions that simply get \"cured,\" with medication becoming entirely unnecessary. Some people do manage to reduce or even stop medication through lifestyle changes, but for many, it remains something to live with long-term. That doesn't mean nothing you do matters, though. When the numbers are well controlled, most people go years while substantially lowering their risk of complications, living essentially the same life they always have. \"Not curable\" and \"not getting worse\" are entirely different things, and it's the latter we're actually aiming for."
+        },
+        {
+          "kind": "text",
+          "text": "### Because it's a lifelong relationship, there's no need to overdo it from the start"
+        },
+        {
+          "kind": "text",
+          "text": "Precisely because this is a lifelong relationship, I don't think you need to go all-out from day one. Suddenly restricting your diet severely or forcing yourself into an unsustainable amount of exercise rarely lasts. It works out better, over the years, to find an approach that fits your actual life and preferences — something sustainable, taken step by step. I think of treatment less as a sprint and more as a long road walked together."
+        },
+        {
+          "kind": "text",
+          "text": "### Looking at the life behind the numbers"
+        },
+        {
+          "kind": "text",
+          "text": "The same blood pressure reading can sit behind very different lives. Someone whose work schedule makes mealtimes unpredictable. Someone caring for family members, with little time left for themselves. Someone who's already trying hard and feels worn down by being asked to do even more. Rather than giving the same generic advice based on the number alone, I want to hear about the realities of your life first, and work out together what's actually realistic to try from where you are now."
+        },
+        {
+          "kind": "text",
+          "text": "The thought of \"being on this medication forever\" can feel heavy, but it doesn't mean a lifetime of gritting your teeth. I want to be someone who walks alongside you, at a pace that actually fits your life, for however long that relationship with your own body needs to last. If anything is weighing on you, please don't hesitate to bring it up."
+        }
+      ]
+    }
+  },
+  {
     "slug": "mainasu-05",
     "date": "2026.10.09",
     "cover": "/blog/kibana-landscape.png",
@@ -588,7 +1048,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "### 診察室でお待ちしています"
+          "text": "### 院長からのメッセージ"
         },
         {
           "kind": "text",
@@ -655,7 +1115,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "### Come talk to us"
+          "text": "### A message from the director"
         },
         {
           "kind": "text",
@@ -664,6 +1124,279 @@ export const generatedPosts: BlogPost[] = [
         {
           "kind": "text",
           "text": "If your checkup results weren't great and you're not sure where to start, or if you've been taking supplements but aren't sure they're doing anything, please feel free to come talk it over with us. I won't hand you a list of strict rules. I'd rather work out, together, the smallest step that actually fits your life."
+        }
+      ]
+    }
+  },
+  {
+    "slug": "i-gekai-kara-kakaritsukei",
+    "date": "2026.10.11",
+    "cover": "/blog/kibana-landscape.png",
+    "ja": {
+      "category": "院長のキャリア",
+      "title": "元・胃外科医が、木花で「かかりつけ医」になった理由",
+      "excerpt": "青島が近いこの木花で、旅先での急な不調も、一見さんも、大歓迎です。胃がん治療の最前線から、あえて離れた一人の外科医の話をします。",
+      "body": [
+        {
+          "kind": "text",
+          "text": "木花のむら総合診療所、院長の野村信介です。この地域には、青島をはじめとした観光地も近く、旅先で急に体調を崩された方や、「かかりつけの病院が今日は休診で」という一見の方も、これからたくさんいらっしゃるだろうと感じています。今日は、専門だった胃がんの手術から、なぜ街のかかりつけ医の道を選んだのか、その経緯をお話しします。"
+        },
+        {
+          "kind": "text",
+          "text": "### 胃外科医として見てきた変化"
+        },
+        {
+          "kind": "text",
+          "text": "日本の胃がんは、1970年代から死亡率が大きく下がり続け、ピーク時の7〜8割近くまで減少しました。それでも高齢化を背景に、今なお年間10万人以上の方が新たに診断される、主要ながんのひとつです。一方で内視鏡治療の進歩により、早期に見つかった胃がんの多くは手術を必要としなくなりました。胃外科医の役割は、「早期がんを切除すること」から、「難しい手術や、再発後の治療、手術前後の全身管理」へと、少しずつ姿を変えてきたのです。"
+        },
+        {
+          "kind": "text",
+          "text": "### がんの最前線から離れるという決断"
+        },
+        {
+          "kind": "text",
+          "text": "がん治療認定医を維持し、クリニックで外来化学療法まで担うには、高額な薬剤の管理や、専門の看護師の配置など、個人のクリニックだけでは抱えきれない体制が必要です。手術症例の変化とあわせてこの現実に直面したとき、正直、苦しい決断でした。それでも、「病気そのものだけでなく、もっと患者さんの日常の困りごとに一番近くで関わりたい」という思いのほうが、最後は強かったのです。"
+        },
+        {
+          "kind": "text",
+          "text": "### 消えない「見抜く力」"
+        },
+        {
+          "kind": "text",
+          "text": "専門医という肩書きを手放しても、何千人もの患者さんのお腹を、そして全身を診てきた経験は、消えてなくなるものではありません。日々の内視鏡検査で、ちょっとした粘膜の異変を見逃さない目。それは今も、私の診療の土台です。"
+        },
+        {
+          "kind": "text",
+          "text": "### 木花という場所で、どんな方でも"
+        },
+        {
+          "kind": "text",
+          "text": "千葉で生まれ育った私にとって、ここ木花は、妻を育ててくれた大切な土地です。医師不足が指摘されるこの地域だからこそ、自分が支える側になりたいと思いました。自衛隊の医官として、立場も背景も様々な方を数多く診てきた経験は、初対面の方や急な受診にも、落ち着いて向き合う力になっています。旅先での体調不良も、いつものかかりつけの方も、同じように温かくお迎えしたいと思っています。"
+        },
+        {
+          "kind": "text",
+          "text": "「専門医」の看板は一枚、手放しました。それでも、木花の皆さんにとって一番近くで頼れる「かかりつけ医」であり続けることを、ここでお約束します。"
+        }
+      ]
+    },
+    "en": {
+      "category": "Director's career",
+      "title": "Why a former stomach cancer surgeon chose to become your family doctor, here in Kibana",
+      "excerpt": "Here in Kibana, close to Aoshima, we welcome sudden troubles on a trip and first-time visitors alike. This is the story of one surgeon who chose to step away from the front line of cancer care.",
+      "body": [
+        {
+          "kind": "text",
+          "text": "I'm Shinsuke Nomura, director of Kibana Nomura General Medicine Clinic. With Aoshima and other sightseeing spots nearby, I expect we'll see plenty of travelers who fall ill unexpectedly, and first-time visitors whose regular clinic happens to be closed that day. Today I want to share why I stepped away from stomach cancer surgery, my specialty, to become a neighborhood family doctor instead."
+        },
+        {
+          "kind": "text",
+          "text": "### What I saw change as a stomach cancer surgeon"
+        },
+        {
+          "kind": "text",
+          "text": "Japan's stomach cancer death rate has fallen sharply since the 1970s, down to roughly a quarter or less of its peak. Even so, with an aging population, around 120,000 people are still newly diagnosed each year — it remains one of the major cancers. At the same time, advances in endoscopic treatment mean many early-stage cancers no longer require surgery at all. The role of a stomach cancer surgeon has gradually shifted — from removing early-stage tumors, toward difficult operations, treating recurrence, and managing patients through surgery."
+        },
+        {
+          "kind": "text",
+          "text": "### Choosing to step away from the front line of cancer care"
+        },
+        {
+          "kind": "text",
+          "text": "Maintaining certification as a cancer treatment specialist, and offering outpatient chemotherapy at a clinic, requires infrastructure a solo clinic simply can't carry alone — managing high-cost medications, staffing specialized nurses, and more. Facing that reality, alongside the shift in surgical caseloads, was honestly a painful decision. But in the end, what mattered more to me was wanting to be close to patients' everyday concerns, not just the disease itself."
+        },
+        {
+          "kind": "text",
+          "text": "### A watchful eye that doesn't fade"
+        },
+        {
+          "kind": "text",
+          "text": "Setting aside the title of specialist doesn't erase the experience of having examined thousands of patients' abdomens, and their whole bodies. The eye that catches a subtle change in the mucosa during a routine endoscopy — that's still the foundation of how I practice medicine today."
+        },
+        {
+          "kind": "text",
+          "text": "### Here in Kibana, everyone is welcome"
+        },
+        {
+          "kind": "text",
+          "text": "Having grown up in Chiba, Kibana is precious to me as the place that raised my wife. In a region known for its shortage of doctors, I wanted to be someone who helps carry that weight. My years as a medical officer in the Self-Defense Forces, treating people from every kind of background and circumstance, gave me the ability to stay calm and get my bearings quickly — even with first-time patients or sudden visits. Whether it's sudden trouble on a trip or a familiar face from down the street, I want to welcome you just the same."
+        },
+        {
+          "kind": "text",
+          "text": "I set down one title: specialist. But I promise you this — I'll remain the family doctor you can count on, closest to home, here in Kibana."
+        }
+      ]
+    }
+  },
+  {
+    "slug": "gan-ninteii-koushin",
+    "date": "2026.10.12",
+    "cover": "/blog/kibana-landscape.png",
+    "ja": {
+      "category": "院長のキャリア",
+      "title": "「がん治療認定医」を、更新しないと決めた日",
+      "excerpt": "「先生、昔は何をされていたんですか」。診察の合間に、そう聞かれることがあります。かつて手にした資格を、あえて手放した日の話をします。",
+      "body": [
+        {
+          "kind": "text",
+          "text": "「先生、昔は何をされていたんですか」。診察の合間に、そう聞かれることがあります。今日は、消化器外科医としてがん治療に携わっていた頃に取得した「がん治療認定医」という資格を、なぜ更新しなかったのか、その経緯をお話しします。"
+        },
+        {
+          "kind": "text",
+          "text": "### 簡単には手に入らない資格でした"
+        },
+        {
+          "kind": "text",
+          "text": "がん治療認定医は、多くの症例数と手術実績、所定の研修・試験を積み重ねて、ようやく手にできる資格です。取得して終わりではなく、数年ごとの更新にも、厳格な実績と単位の維持が求められます。言い換えると、現場に立ち続けていることそのものが、資格を持ち続ける条件なのです。"
+        },
+        {
+          "kind": "text",
+          "text": "### 苦渋の決断でした"
+        },
+        {
+          "kind": "text",
+          "text": "クリニックを開業するにあたり、外来で安全に抗がん剤治療を続けるには、高額な薬剤の管理体制や、化学療法に精通した看護師・薬剤師によるチーム体制を日常的に維持することが欠かせません。これらを、開業したばかりの小さなクリニック単体で、常時十分なレベルで整えることは、現実的にはとても難しいことでした。正直に言うと、資格を手放すことには、惜しさと葛藤がありました。それでも、地域の皆さんの日常に一番近いところで関わりたいという思いのほうが、最後は勝ったのです。"
+        },
+        {
+          "kind": "text",
+          "text": "### 消えない知見があります"
+        },
+        {
+          "kind": "text",
+          "text": "肩書は更新しませんでしたが、何千人もの患者さんのお腹を、そして全身を診てきた経験そのものは、消えてなくなるものではありません。日々の内視鏡検査で、ちょっとした粘膜の変化を見逃さない目。腹痛の裏に隠れた病変を疑う勘。それらは今も、私の診療の中でそのまま生きています。"
+        },
+        {
+          "kind": "text",
+          "text": "「がんの専門医」という看板はありません。それでも、皆さんの日常のお腹の不安を、誰よりも丁寧に、正確に受け止める「身近で頼れる医師」であり続けると、ここでお約束します。"
+        }
+      ]
+    },
+    "en": {
+      "category": "Director's career",
+      "title": "The day I decided not to renew my cancer treatment certification",
+      "excerpt": "Doctor, what did you used to do before this? I'm sometimes asked that between patients. This is the story of the day I chose to let go of a credential I once held.",
+      "body": [
+        {
+          "kind": "text",
+          "text": "\"Doctor, what did you used to do before this?\" I'm sometimes asked that between patients. Today I want to share why I chose not to renew the \"cancer treatment specialist\" certification I earned during my years as a gastrointestinal surgeon treating cancer."
+        },
+        {
+          "kind": "text",
+          "text": "### A credential that was never easy to earn"
+        },
+        {
+          "kind": "text",
+          "text": "Becoming a certified cancer treatment specialist requires a substantial number of cases, surgical experience, and completing designated training and exams. Earning it isn't the end, either — renewal every few years demands maintaining strict case volumes and credit hours. In other words, staying on the front lines is itself a condition of holding onto the credential."
+        },
+        {
+          "kind": "text",
+          "text": "### A painful decision"
+        },
+        {
+          "kind": "text",
+          "text": "To safely continue outpatient chemotherapy at a clinic, you need infrastructure for managing high-cost medications, along with a team of nurses and pharmacists experienced in chemotherapy care, maintained consistently day to day. Carrying that alone, at a sufficient level, as a small, newly opened clinic, simply wasn't realistic. Honestly, letting go of that credential came with real reluctance and conflict. But in the end, what mattered more to me was wanting to stay close to the everyday concerns of this community."
+        },
+        {
+          "kind": "text",
+          "text": "### Knowledge that doesn't disappear"
+        },
+        {
+          "kind": "text",
+          "text": "I didn't renew the title, but the experience of examining thousands of patients' abdomens — and their whole bodies — doesn't simply vanish. The eye that catches a subtle change in the mucosa during a routine endoscopy. The instinct to suspect something hidden behind abdominal pain. Both are still very much alive in how I practice today."
+        },
+        {
+          "kind": "text",
+          "text": "I no longer carry the title of cancer specialist. But I promise you this: I'll remain the doctor close to home who takes your everyday worries about your health seriously, with care and precision, just the same."
+        }
+      ]
+    }
+  },
+  {
+    "slug": "isseisan-daikangei",
+    "date": "2026.10.13",
+    "cover": "/blog/kibana-landscape.png",
+    "ja": {
+      "category": "クリニックのこと",
+      "title": "旅先での体調不良、「一見さん」でも大歓迎です",
+      "excerpt": "「こんな一時的な受診で来てもいいのかな」。そのご遠慮は不要です。青島にほど近いこの地で、旅先・帰省中の急な体調不良を、どうぞ遠慮なくお任せください。",
+      "body": [
+        {
+          "kind": "text",
+          "text": "青島にほど近いこの木花の地では、旅行中や出張、帰省中に急に体調を崩された方、「かかりつけの病院が今日は休診で」と困っている方が、これからたくさんいらっしゃるだろうと感じています。"
+        },
+        {
+          "kind": "text",
+          "text": "### 「一見さん」も「つなぎの受診」も、遠慮は無用です"
+        },
+        {
+          "kind": "text",
+          "text": "他院にかかっている方が一時的に別のクリニックを頼るのは気が引ける、と感じる方は少なくありません。ですが、当院ではそうしたご遠慮は一切不要です。一度きりの受診でも、かかりつけ医が再開するまでの「つなぎ」でも、どうぞ気軽にお越しください。"
+        },
+        {
+          "kind": "text",
+          "text": "### 初めての方でも、安心していただける理由"
+        },
+        {
+          "kind": "text",
+          "text": "院長は自衛隊の医官として、立場も背景も様々な方を数多く診療してきました。初対面の患者さんの状況を短時間で的確に把握し、落ち着いて対応することには自信があります。旅先での急な受診でも、いつもどおり丁寧に向き合います。"
+        },
+        {
+          "kind": "text",
+          "text": "### スムーズな受診のために"
+        },
+        {
+          "kind": "text",
+          "text": "お薬手帳や、これまでの経過が分かるもの（お持ちであれば）をご持参いただけると、より的確な診療につながります。手元になくても、もちろん問題なく診察いたします。"
+        },
+        {
+          "kind": "text",
+          "text": "### 結びに"
+        },
+        {
+          "kind": "text",
+          "text": "地域の皆さんの日常の健康はもちろん、旅先や一時滞在中の「駆け込み寺」としても、いつでも気軽にお越しください。"
+        }
+      ]
+    },
+    "en": {
+      "category": "About the clinic",
+      "title": "Feeling unwell while traveling? First-time visitors are always welcome here",
+      "excerpt": "Is it okay to come in for something this temporary? You don't need to hesitate. Close to Aoshima, we're ready for sudden troubles while you're traveling or visiting family.",
+      "body": [
+        {
+          "kind": "text",
+          "text": "Here in Kibana, close to Aoshima, I expect we'll see plenty of people who fall suddenly ill while traveling, on a business trip, or visiting family — and plenty of people whose regular doctor happens to be closed that day."
+        },
+        {
+          "kind": "text",
+          "text": "### No need to hesitate, whether you're a first-timer or just filling a gap"
+        },
+        {
+          "kind": "text",
+          "text": "Many people feel awkward about turning to a different clinic temporarily when they already have a regular doctor elsewhere. Please don't feel that way here. Whether it's a single visit or simply bridging the gap until your usual clinic reopens, feel free to come in."
+        },
+        {
+          "kind": "text",
+          "text": "### Why first-time patients can feel at ease"
+        },
+        {
+          "kind": "text",
+          "text": "As a medical officer in the Self-Defense Forces, I treated people from every kind of background and circumstance. I'm confident in quickly and accurately grasping a new patient's situation and responding calmly. Even for a sudden visit while traveling, you'll get the same careful attention as anyone else."
+        },
+        {
+          "kind": "text",
+          "text": "### For a smoother visit"
+        },
+        {
+          "kind": "text",
+          "text": "Bringing your medication notebook, or anything showing your recent medical history if you have it, helps us treat you more precisely. If you don't have it on hand, that's completely fine too — we'll still see you without any trouble."
+        },
+        {
+          "kind": "text",
+          "text": "### In closing"
+        },
+        {
+          "kind": "text",
+          "text": "Whether it's your everyday health here in the community, or sudden trouble while traveling or staying nearby, please feel free to come to us anytime."
         }
       ]
     }
@@ -719,7 +1452,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "### むしろ、生活習慣を見直す「いいきっかけ」に"
+          "text": "### 院長からのメッセージ"
         },
         {
           "kind": "text",
@@ -778,7 +1511,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "### A good opportunity to revisit your habits"
+          "text": "### A message from the director"
         },
         {
           "kind": "text",
@@ -1049,7 +1782,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "### 一緒に、発作の起きない気道を守りましょう"
+          "text": "### 院長からのメッセージ"
         },
         {
           "kind": "text",
@@ -1120,7 +1853,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "### Let's protect airways that don't flare up — together"
+          "text": "### A message from the director"
         },
         {
           "kind": "text",
@@ -1168,7 +1901,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "### その「がんばっているのに」を、一人で抱えないでください"
+          "text": "### 院長からのメッセージ"
         },
         {
           "kind": "text",
@@ -1215,7 +1948,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "### Please don't carry that \"but I'm trying so hard\" alone"
+          "text": "### A message from the director"
         },
         {
           "kind": "text",
@@ -1275,7 +2008,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "### 先生と患者ではなく、伴走者として"
+          "text": "### 院長からのメッセージ"
         },
         {
           "kind": "text",
@@ -1326,7 +2059,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "### Not doctor and patient, but partners in the same effort"
+          "text": "### A message from the director"
         },
         {
           "kind": "text",
@@ -1398,7 +2131,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "### 当院からのメッセージ"
+          "text": "### 院長からのメッセージ"
         },
         {
           "kind": "text",
@@ -1549,7 +2282,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "### ただし、本当に抗生剤が必要な場合もあります"
+          "text": "### 院長からのメッセージ"
         },
         {
           "kind": "text",
@@ -1628,7 +2361,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "### That said, there are times antibiotics really are necessary"
+          "text": "### A message from the director"
         },
         {
           "kind": "text",
@@ -1676,7 +2409,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "### 本音を言うと、少し悩みながらお伝えしています"
+          "text": "### 院長からのメッセージ"
         },
         {
           "kind": "text",
@@ -1723,7 +2456,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "### Truthfully, I say this with some unease"
+          "text": "### A message from the director"
         },
         {
           "kind": "text",
@@ -1851,161 +2584,6 @@ export const generatedPosts: BlogPost[] = [
         {
           "kind": "text",
           "text": "If you're ever wondering whether something is worth bringing up, please feel free to stop by. Let's start by simply sorting out where things stand right now, together."
-        }
-      ]
-    }
-  },
-  {
-    "slug": "statin-kinniku-houkai",
-    "date": "2026.10.22",
-    "cover": "/blog/kibana-landscape.png",
-    "ja": {
-      "category": "健康・予防の話",
-      "title": "スタチンは筋肉を崩壊させるのか？〜コレステロール薬の疑問と最新医学〜",
-      "excerpt": "「スタチンを飲むと筋肉が溶ける」——ネットでそんな言葉を見て、薬をやめようか迷っていませんか。まず知っていただきたいのは、その不安のほとんどが誤解だということです。",
-      "body": [
-        {
-          "kind": "text",
-          "text": "「コレステロールの薬（スタチン）を飲むと、筋肉が溶ける・崩壊するらしい」。そんな言葉をネットで見かけて、今飲んでいるお薬をやめようか迷っている方、あるいはこれから始めることに不安を感じている方がいらっしゃるかもしれません。「横紋筋融解症」という言葉の強いインパクトだけが独り歩きし、まるで誰にでも起こることのように感じてしまうのも無理はないと思います。"
-        },
-        {
-          "kind": "text",
-          "text": "この記事を読んでいただくと、スタチンがなぜ筋肉に影響することがあるのか、その仕組みと「本当に注意すべきサイン」が分かります。結論から言うと、**「筋肉が崩壊する」というレベルの重い副作用は、数万人に1人という非常に稀なもの**です。一方で、軽いだるさや痛みが出ることは確かにあり、それにはきちんとした医学的な理由があります。大切なのは、正しい仕組みを知った上で、自己判断でお薬をやめないことです。"
-        },
-        {
-          "kind": "text",
-          "text": "### なぜスタチンで筋肉に影響が出ることがあるのか"
-        },
-        {
-          "kind": "text",
-          "text": "スタチンは、肝臓でコレステロールを作る工場の働きを穏やかに抑えるお薬です。ただ、この工場は実はコレステロールだけでなく、**筋肉を動かすためのエネルギー源であるコエンザイムQ10（CoQ10）**も一緒に作っています。そのため、スタチンによって工場の稼働が抑えられると、巻き添えでCoQ10も少し減ってしまい、筋肉のバッテリーが本来より少しパワー不足になることがあります。"
-        },
-        {
-          "kind": "text",
-          "text": "もう一つの仕組みが、筋肉の細胞の中にある**カルシウムのバランスの変化**です。カルシウムは本来、細胞の中できちんと管理されていますが、スタチンの影響でそのバランスが崩れると、細胞から漏れ出しやすくなり、筋肉がわずかに分解されやすい状態になることがあります。"
-        },
-        {
-          "kind": "text",
-          "text": "この二つの仕組みは、まだ完全に解明されたわけではありませんが、現時点で有力な説として考えられています。これらによって、「体がだるい」「少し筋肉が張る感じがする」といった軽い症状が出ることはあります。ただし、これは「筋肉が崩壊する」こととはまったく別の話です。**本当に重篤な横紋筋融解症は、数万人に1人というレベルの、きわめて稀な副作用**であり、ほとんどの方は安全に服用を続けられます。"
-        },
-        {
-          "kind": "text",
-          "text": "### 同じ薬でも、効き方や副作用に個人差が出る理由"
-        },
-        {
-          "kind": "text",
-          "text": "「同じ量を飲んでいるのに、症状が出る人と出ない人がいるのはなぜですか」と聞かれることがあります。年齢や筋肉量、他のお薬との飲み合わせなど理由はいくつかありますが、近年の研究で注目されているのが**腸内細菌叢（お腹の中の菌の集まり）**です。"
-        },
-        {
-          "kind": "text",
-          "text": "お腹の中にいる菌の種類やバランスは一人ひとり違い、この違いが薬の吸収のされ方や、体の中での分解のされ方、さらには体に炎症が起きやすいかどうかにまで関わっていることが、最新の研究で少しずつ分かってきています。つまり、「同じ薬なのに自分だけ違和感がある」という感覚は、決して気のせいではなく、**お腹の中の環境という、目に見えない個人差**が背景にある可能性があるのです。まだ研究が発展している分野ではありますが、「体質」の正体の一端が、こうした形で明らかになりつつあります。"
-        },
-        {
-          "kind": "text",
-          "text": "### ご自身でチェックしていただきたいサイン"
-        },
-        {
-          "kind": "text",
-          "text": "スタチンを服用中に、次のような症状がないか時々意識してみてください。"
-        },
-        {
-          "kind": "text",
-          "text": "- 手足に力が入らない、脱力感がある\n- 運動をしていないのに、太ももやふくらはぎが強く痛む\n- **尿の色が、紅茶やウーロン茶のような濃い赤褐色になる**（これが最も重要なサインです）"
-        },
-        {
-          "kind": "text",
-          "text": "特に最後の尿の色の変化は、筋肉の分解が進んでいる可能性を示す重要なサインです。この症状に気づいた場合は、様子を見ずに早めにご連絡ください。"
-        },
-        {
-          "kind": "text",
-          "text": "### 院長からのメッセージ"
-        },
-        {
-          "kind": "text",
-          "text": "スタチンは、将来の心筋梗塞や脳卒中を防ぐために、非常に重要な役割を果たすお薬です。「なんとなく不安だから」と自己判断でやめてしまうと、下がっていたはずの血管のリスクがまた上がってしまいます。"
-        },
-        {
-          "kind": "text",
-          "text": "体の違和感は、血液検査（CK値や腎機能）で比較的すぐに確認することができますし、もし本当に筋肉への影響が疑われる場合でも、お薬の種類や量を調整することで、多くの場合は安全に治療を続けられます。"
-        },
-        {
-          "kind": "text",
-          "text": "「これって筋肉痛かな、それとも薬のせいかな」と迷うことがあれば、我慢せずに、どうぞ気軽に院長やスタッフにご相談ください。"
-        }
-      ]
-    },
-    "en": {
-      "category": "Health and prevention",
-      "title": "Does statin medication really \"break down\" your muscles?",
-      "excerpt": "Statins dissolve your muscles — have you seen that claim online and started wondering whether to stop your medication? The first thing to know is that most of that fear comes from a misunderstanding.",
-      "body": [
-        {
-          "kind": "text",
-          "text": "\"Statins dissolve your muscles\" — you may have come across that phrase online and wondered whether to stop the medication you're taking, or felt uneasy about starting it in the first place. It's understandable: the strong image behind the term \"rhabdomyolysis\" tends to take on a life of its own, as if it could happen to anyone at any time."
-        },
-        {
-          "kind": "text",
-          "text": "By the end of this post, you'll understand why statins can sometimes affect muscles, and which signs genuinely deserve your attention. The short version: **a side effect severe enough to be called \"muscle breakdown\" is extremely rare — on the order of one in tens of thousands of patients.** Mild tiredness or soreness, on the other hand, can genuinely occur, and there are real medical reasons behind it. What matters most is understanding the mechanism correctly, rather than stopping your medication on your own judgment."
-        },
-        {
-          "kind": "text",
-          "text": "### Why statins can sometimes affect your muscles"
-        },
-        {
-          "kind": "text",
-          "text": "Statins work by gently slowing down the \"factory\" in your liver that produces cholesterol. The catch is that this same factory also produces **Coenzyme Q10 (CoQ10), a key energy source your muscles rely on to function.** When the factory's output is scaled back, CoQ10 production can dip slightly too, leaving your muscles running on a bit less power than usual — something like a battery running low."
-        },
-        {
-          "kind": "text",
-          "text": "A second mechanism involves **a shift in calcium balance inside muscle cells.** Calcium is normally kept carefully in check within cells, but when that balance is disrupted, it can leak out more easily, making muscle tissue slightly more prone to breaking down."
-        },
-        {
-          "kind": "text",
-          "text": "These two mechanisms aren't yet fully proven, but they're currently considered the leading explanations. Together, they can produce mild symptoms — general fatigue, or a sense of muscle tightness. But this is an entirely different matter from \"muscle breakdown.\" **True, severe rhabdomyolysis is an extremely rare side effect, occurring in roughly one in tens of thousands of patients,** and the vast majority of people can continue taking their medication safely."
-        },
-        {
-          "kind": "text",
-          "text": "### Why the same drug can affect people differently"
-        },
-        {
-          "kind": "text",
-          "text": "A question I hear often: \"We're taking the same dose, so why does one person get symptoms and another doesn't?\" Age, muscle mass, and interactions with other medications all play a role, but one area drawing growing research attention is the **gut microbiome** — the community of bacteria living in your intestines."
-        },
-        {
-          "kind": "text",
-          "text": "The mix of bacteria each person carries is unique, and emerging research suggests it may influence how a drug is absorbed, how it's broken down in the body, and even how prone the body is to inflammation. In other words, if you feel \"something's different for me even though it's the same medication,\" that sense isn't imaginary — it may reflect an invisible, individual difference rooted in your gut environment. This is still a developing field of research, but it's gradually revealing one piece of what we casually call \"constitution\" or \"body type.\""
-        },
-        {
-          "kind": "text",
-          "text": "### Signs worth checking for yourself"
-        },
-        {
-          "kind": "text",
-          "text": "While taking a statin, it's worth occasionally checking in with yourself for the following:"
-        },
-        {
-          "kind": "text",
-          "text": "- Weakness or a loss of strength in your arms or legs\n- Strong pain in your thighs or calves that isn't related to exercise\n- **Urine that turns a dark reddish-brown color, like strong tea or oolong tea** (this is the single most important sign)"
-        },
-        {
-          "kind": "text",
-          "text": "That last sign — a change in urine color — is a particularly important indicator that muscle breakdown may be underway. If you notice it, please don't wait and see; contact us right away."
-        },
-        {
-          "kind": "text",
-          "text": "### A message from the director"
-        },
-        {
-          "kind": "text",
-          "text": "Statins play a genuinely important role in preventing future heart attacks and strokes. Stopping on your own simply because something feels vaguely worrying can undo the reduction in vascular risk you've worked to achieve."
-        },
-        {
-          "kind": "text",
-          "text": "Any unusual sensation can be checked fairly quickly with a blood test (CK levels and kidney function), and even if a muscle-related effect is suspected, adjusting the type or dose of medication usually allows treatment to continue safely in most cases."
-        },
-        {
-          "kind": "text",
-          "text": "If you're ever unsure whether something is \"just muscle soreness\" or related to your medication, please don't tough it out alone — feel free to bring it up with the director or our staff anytime."
         }
       ]
     }

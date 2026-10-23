@@ -1,5 +1,5 @@
 ---
-date: 2026.10.23
+date: 2026.10.13
 cover: /blog/kibana-landscape.png
 category_ja: クリニックのこと
 category_en: About the clinic

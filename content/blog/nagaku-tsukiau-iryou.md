@@ -1,5 +1,5 @@
 ---
-date: 2026.10.23
+date: 2026.10.08
 cover: /blog/kibana-landscape.png
 category_ja: 院長のメッセージ
 category_en: A message from the director
