@@ -17,11 +17,11 @@ excerpt_en: Going to the clinic itself feels scary when you have a fever — we 
 
 ### 駐車場の時点で、すでに分かれています
 
-当院の駐車場は計32台を予定していますが、**一般の方用26台と、感染対応専用6台**をあらかじめ分けて配置しています。来院された時点で、発熱・感染が疑われる方は専用の区画へ、それ以外の方は一般の区画へと、自然に動線が分かれる設計です。駐車場に着いた瞬間から、一般の患者さんと交わらない動線が始まっている、とイメージしていただくと分かりやすいかもしれません。
+当院の駐車場は、**発熱・感染が疑われる方専用の区画を5台分**確保したうえで、それとは別に一般の方用の区画を設ける計画で進めています（一般区画の正確な台数は現在調整中ですが、目安として25台前後を想定しています）。来院された時点で、発熱の症状がある方は専用の区画へ、それ以外の方は一般の区画へと、自然に動線が分かれる設計です。駐車場に着いた瞬間から、一般の患者さんと交わらない動線が始まっている、とイメージしていただくと分かりやすいかもしれません。
 
 ### 院内に入らず、車の中で済ませられることも
 
-感染対応区画にお車を停めていただいた場合、状況に応じて、**車にいたままで診察や検体採取を受けていただく**ことも想定しています。院内の待合や受付を通らずに済むため、他の患者さんと顔を合わせる場面そのものを減らすことができます。お薬についても、一般の受付窓口ではなく、発熱・感染対応のための専用スペースを経由してお渡しする運用を予定しています。
+発熱対応区画にお車を停めていただいた場合、状況に応じて、**車にいたままで診察や検体採取を受けていただく**ことも想定しています。院内の待合や受付を通らずに済むため、他の患者さんと顔を合わせる場面そのものを減らすことができます。お薬についても、一般の受付窓口ではなく、発熱対応のための専用スペースを経由してお渡しする運用を予定しています。
 
 ### なぜ、ここまで設計段階にこだわったのか
 
@@ -41,11 +41,11 @@ By the end of this post, you'll understand how Kibananomura Clinic has separated
 
 ### The separation starts right at the parking lot
 
-Our parking lot is planned for 32 spaces total, but we've deliberately divided it into **26 spaces for general patients and 6 spaces reserved for patients with a suspected infection.** From the moment you arrive, the flow naturally splits — patients with a fever or suspected infection head to the dedicated area, while everyone else uses the general area. Think of it as a separation that begins the instant you park, well before you ever reach the front door.
+We're planning our parking lot with **5 spaces reserved specifically for patients with a fever**, set apart from the general parking area (the exact number of general spaces is still being finalized, but we expect somewhere around 25). From the moment you arrive, the flow naturally splits — patients with a fever head to the dedicated area, while everyone else uses the general area. Think of it as a separation that begins the instant you park, well before you ever reach the front door.
 
 ### Sometimes, you won't even need to come inside
 
-For patients parked in the infection-dedicated area, depending on the situation, we plan to offer **exams and sample collection while you remain in your car.** Because this skips the waiting room and front desk entirely, it also reduces the number of times you'd otherwise cross paths with other patients. For medication, rather than going through the general reception counter, we plan to hand it over through a dedicated space set up specifically for fever and infection care.
+For patients parked in the fever-dedicated area, depending on the situation, we plan to offer **exams and sample collection while you remain in your car.** Because this skips the waiting room and front desk entirely, it also reduces the number of times you'd otherwise cross paths with other patients. For medication, rather than going through the general reception counter, we plan to hand it over through a dedicated space set up specifically for fever care.
 
 ### Why we insisted on getting this right at the design stage
 
