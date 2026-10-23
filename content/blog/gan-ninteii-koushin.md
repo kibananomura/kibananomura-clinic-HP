@@ -1,8 +1,8 @@
 ---
 date: 2026.10.23
 cover: /blog/kibana-landscape.png
-category_ja: 院長のメッセージ
-category_en: A message from the director
+category_ja: 院長のキャリア
+category_en: Director's career
 title_ja: 「がん治療認定医」を、更新しないと決めた日
 title_en: The day I decided not to renew my cancer treatment certification
 excerpt_ja: 「先生、昔は何をされていたんですか」。診察の合間に、そう聞かれることがあります。かつて手にした資格を、あえて手放した日の話をします。
