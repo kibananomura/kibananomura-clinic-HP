@@ -25,7 +25,7 @@ excerpt_en: Statins dissolve your muscles — have you seen that claim online an
 
 ### 同じ薬でも、効き方や副作用に個人差が出る理由
 
-「同じ量を飲んでいるのに、症状が出る人と出ない人がいるのはなぜですか」と聞かれることがあります。年齢や筋肉量、他のお薬との飲み合わせなど理由はいくつかありますが、近年の研究で注目されているのが**腸内細菌叢（お腹の中の菌の集まり）**です。
+「同じ量を飲んでいるのに、症状が出る人と出ない人がいるのはなぜですか」と、これまでの診療の中で聞かれたことがあります。年齢や筋肉量、他のお薬との飲み合わせなど理由はいくつかありますが、近年の研究で注目されているのが**腸内細菌叢（お腹の中の菌の集まり）**です。
 
 お腹の中にいる菌の種類やバランスは一人ひとり違い、この違いが薬の吸収のされ方や、体の中での分解のされ方、さらには体に炎症が起きやすいかどうかにまで関わっていることが、最新の研究で少しずつ分かってきています。つまり、「同じ薬なのに自分だけ違和感がある」という感覚は、決して気のせいではなく、**お腹の中の環境という、目に見えない個人差**が背景にある可能性があるのです。まだ研究が発展している分野ではありますが、「体質」の正体の一端が、こうした形で明らかになりつつあります。
 
@@ -63,7 +63,7 @@ These two mechanisms aren't yet fully proven, but they're currently considered t
 
 ### Why the same drug can affect people differently
 
-A question I hear often: "We're taking the same dose, so why does one person get symptoms and another doesn't?" Age, muscle mass, and interactions with other medications all play a role, but one area drawing growing research attention is the **gut microbiome** — the community of bacteria living in your intestines.
+A question I've been asked before: "We're taking the same dose, so why does one person get symptoms and another doesn't?" Age, muscle mass, and interactions with other medications all play a role, but one area drawing growing research attention is the **gut microbiome** — the community of bacteria living in your intestines.
 
 The mix of bacteria each person carries is unique, and emerging research suggests it may influence how a drug is absorbed, how it's broken down in the body, and even how prone the body is to inflammation. In other words, if you feel "something's different for me even though it's the same medication," that sense isn't imaginary — it may reflect an invisible, individual difference rooted in your gut environment. This is still a developing field of research, but it's gradually revealing one piece of what we casually call "constitution" or "body type."
 

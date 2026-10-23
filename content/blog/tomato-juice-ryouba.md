@@ -11,7 +11,7 @@ excerpt_en: I drink tomato juice every morning instead of vegetables, for my hea
 
 ## ja
 
-「先生、健康のために、毎朝トマトジュースで野菜をとっているんです」。健診結果を見ながら、誇らしげにそうお話しされる患者さんによくお会いします。野菜不足を気にして、手軽に続けられる習慣を選ばれたその努力は、本当に素晴らしいことだと思います。
+「先生、健康のために、毎朝トマトジュースで野菜をとっているんです」。これまでの診療の中で、健診結果を見ながら、誇らしげにそうお話しされる患者さんによくお会いしてきました。野菜不足を気にして、手軽に続けられる習慣を選ばれたその努力は、本当に素晴らしいことだと思います。
 
 ただ、少し意外に思われるかもしれませんが、**トマトジュースはコレステロールが高めの方にはおすすめな一方、中性脂肪が高めの方には逆効果になることがある**、いわば「両刃の剣」のような飲み物です。この記事を読んでいただくと、ご自身の健診結果のタイプに合わせた、トマトジュースとの正しい付き合い方が分かります。結論から言うと、**ポイントは「無塩かどうか」と「ジュースか、生のまま食べるか」**。この2つを押さえるだけで、同じ一杯が味方にも、注意信号にもなります。
 
@@ -37,7 +37,7 @@ excerpt_en: I drink tomato juice every morning instead of vegetables, for my hea
 
 ## en
 
-"Doctor, I drink tomato juice every morning to get my vegetables in — it's good for my health." I hear this proudly, checkup results in hand, more often than you might think. Being mindful of not getting enough vegetables and choosing an easy habit you can actually stick with is genuinely admirable.
+"Doctor, I drink tomato juice every morning to get my vegetables in — it's good for my health." Throughout my career, I've heard this proudly, checkup results in hand, more often than you might think. Being mindful of not getting enough vegetables and choosing an easy habit you can actually stick with is genuinely admirable.
 
 Here's something that might surprise you, though: **tomato juice can be great for people with high cholesterol, while working against people with high triglycerides** — it's something of a double-edged sword. By the end of this post, you'll know how to approach tomato juice based on your own checkup results. The short version: **what matters is whether it's unsalted, and whether you drink it as juice or eat the tomato whole.** Get those two things right, and the very same glass can either help you or work against you.
 

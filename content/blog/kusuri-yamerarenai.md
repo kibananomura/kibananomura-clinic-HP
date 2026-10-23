@@ -5,13 +5,13 @@ category_ja: 健康・予防の話
 category_en: Health and prevention
 title_ja: 「お薬は一生やめられない」は誤解です
 title_en: "'Once you start, you can never stop' is a myth"
-excerpt_ja: 「このお薬、一度始めたらもう一生やめられないんですよね……？」外来でとてもよく聞かれる質問です。その答えは、実は「いいえ」です。
-excerpt_en: Once I start this medication, I can never stop, right? It's a question I hear all the time. The real answer is actually no.
+excerpt_ja: 「このお薬、一度始めたらもう一生やめられないんですよね……？」これまでの外来でとてもよく聞かれてきた質問です。その答えは、実は「いいえ」です。
+excerpt_en: Once I start this medication, I can never stop, right? It's a question I've heard all the time, throughout my career. The real answer is actually no.
 ---
 
 ## ja
 
-「先生、このお薬、一度始めたらもう一生やめられないんですよね……？」外来で、本当によく聞かれる質問です。その言葉の奥には、「薬漬けになってしまう怖さ」や、「今の生活をまるごと変えなければいけない重たさ」があるのだと思います。どちらのお気持ちも、とてもよく分かります。
+「先生、このお薬、一度始めたらもう一生やめられないんですよね……？」これまでの外来で、本当によく聞かれてきた質問です。その言葉の奥には、「薬漬けになってしまう怖さ」や、「今の生活をまるごと変えなければいけない重たさ」があるのだと思います。どちらのお気持ちも、とてもよく分かります。
 
 この記事を読んでいただければ、その不安の答えが「いいえ」であること、そしてお薬を減らしていくために今日からできることが分かります。結論から言うと、**お薬はあくまで「今の体を守るためのサポート」**であり、生活習慣を少しずつ整えていくことで、減薬や卒業を目指せる場合があります。一人で抱え込まず、どうすれば無理なく変えていけるか、まずは一緒に考えていきましょう。
 
@@ -23,7 +23,7 @@ excerpt_en: Once I start this medication, I can never stop, right? It's a questi
 
 ### 「服を買い替えないと」という、うれしい悲鳴
 
-実際にあったお話をさせてください。ある患者さんが、数か月ぶりの外来でこう報告してくださいました。「先生、体重が減って、服を買い替えないといけないくらい痩せちゃいました！」。満面の笑みでした。食事の内容を少しずつ見直し、無理のない範囲で体を動かす習慣をつけていっただけなのですが、体重が落ち、血液検査の数値も見違えるように安定していました。そしてそのタイミングで、お薬を一つ減らすことができたのです。
+実際にあったお話をさせてください。以前診療していたある患者さんが、数か月ぶりの外来でこう報告してくださったことがあります。「先生、体重が減って、服を買い替えないといけないくらい痩せちゃいました！」。満面の笑みでした。食事の内容を少しずつ見直し、無理のない範囲で体を動かす習慣をつけていっただけなのですが、体重が落ち、血液検査の数値も見違えるように安定していました。そしてそのタイミングで、お薬を一つ減らすことができたのです。
 
 「服がゆるくなって困る」「階段を上るのが楽になった」——こうした日常のちょっとした嬉しい変化こそが、生活改善の何よりのご褒美だと思っています。そしてその先には、お薬を減らせる・卒業できるという未来が、ちゃんと待っています。
 
@@ -35,7 +35,7 @@ excerpt_en: Once I start this medication, I can never stop, right? It's a questi
 
 ## en
 
-"Doctor, once I start this medication, I can never stop, right?" It's a question I hear all the time in clinic. Behind those words, I think, is a fear of becoming dependent on medication for life, and the heavy feeling that comes with having to overhaul your entire way of living. Both feelings make complete sense to me.
+"Doctor, once I start this medication, I can never stop, right?" It's a question I've heard all the time throughout my career. Behind those words, I think, is a fear of becoming dependent on medication for life, and the heavy feeling that comes with having to overhaul your entire way of living. Both feelings make complete sense to me.
 
 By the end of this post, you'll know the answer to that fear — it's no — and what you can start doing today to work toward taking less medication. The short version: **medication is, at its core, support to protect your body as it is right now,** and gradually adjusting your daily habits can open the door to reducing or even stopping it. You don't have to carry this alone — let's start by thinking together about how to make changes without straining yourself.
 
@@ -47,7 +47,7 @@ So starting a medication isn't a sign that it's "too late." If anything, I'd lik
 
 ### "I had to buy new clothes" — a complaint worth having
 
-Let me share something that actually happened. A patient came in for a follow-up after a few months and told me, beaming: "Doctor, I lost so much weight I had to buy new clothes!" She had simply adjusted her diet little by little and built a habit of moving her body within a comfortable range. Her weight came down, her blood test results stabilized remarkably, and at that visit, we were able to reduce one of her medications.
+Let me share something that actually happened. A patient I once treated came in for a follow-up after a few months and told me, beaming: "Doctor, I lost so much weight I had to buy new clothes!" She had simply adjusted her diet little by little and built a habit of moving her body within a comfortable range. Her weight came down, her blood test results stabilized remarkably, and at that visit, we were able to reduce one of her medications.
 
 "My clothes don't fit anymore" or "stairs feel so much easier now" — these small, everyday joys are, I think, the real reward of improving your habits. And waiting beyond them is a future where your medication can be reduced, or even stopped altogether.
 

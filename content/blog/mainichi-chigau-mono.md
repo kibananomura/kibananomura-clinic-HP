@@ -11,11 +11,11 @@ excerpt_en: “Am I about to be told everything is off-limits?” — that's the
 
 ## ja
 
-健診で「中性脂肪が高いですね」「血糖値が気になります」「血圧が高めです」とお伝えすると、患者さんの表情がさっと曇ることがあります。ご本人に聞いてみると、「好きなものを全部禁止されるんじゃないか」「毎日カロリーを計算して、塩分を何グラムまでと言われるんじゃないか」と身構えていたとのことでした。そう思うと、病院に行くこと自体を後回しにしてしまう気持ちも、よく分かります。
+これまでの診療の中で、健診で「中性脂肪が高いですね」「血糖値が気になります」「血圧が高めです」とお伝えすると、患者さんの表情がさっと曇ることが何度もありました。ご本人に聞いてみると、「好きなものを全部禁止されるんじゃないか」「毎日カロリーを計算して、塩分を何グラムまでと言われるんじゃないか」と身構えていたとのことでした。そう思うと、病院に行くこと自体を後回しにしてしまう気持ちも、よく分かります。
 
 この記事を読んでいただければ、「細かい食事制限は、実はほとんど必要ない」ということと、代わりに今日から始められるたったひとつの考え方が分かります。結論から言うと、私が生活習慣病の患者さんにお伝えしているのは**「毎日同じものを食べないようにする」**、ただそれだけです。なぜそれで十分なのか、順を追ってお話しします。
 
-実際のところ、私の診察室で「これは一切禁止」「あれも絶対にダメ」というような細かい食事制限をお伝えすることは、ほとんどありません。
+実際のところ、これまでの診療の中で「これは一切禁止」「あれも絶対にダメ」というような細かい食事制限をお伝えすることは、ほとんどありませんでした。
 
 ### 細かく縛るほど、続けられなくなる
 
@@ -43,11 +43,11 @@ excerpt_en: “Am I about to be told everything is off-limits?” — that's the
 
 ## en
 
-"Your triglycerides are a bit high," "your blood sugar is something to watch," "your blood pressure is on the high side" — I sometimes watch a patient's face fall the moment I say something like this. When I ask, many tell me they'd already braced themselves for a long list of forbidden foods, or for being told to count calories and track every gram of salt. I understand why that feeling makes people put off coming in at all.
+"Your triglycerides are a bit high," "your blood sugar is something to watch," "your blood pressure is on the high side" — throughout my career, I've often watched a patient's face fall the moment I said something like this. When I asked, many told me they'd already braced themselves for a long list of forbidden foods, or for being told to count calories and track every gram of salt. I understand why that feeling makes people put off coming in at all.
 
 By the end of this post, you'll see that detailed food restrictions are rarely necessary at all — and you'll have one simple idea you can start today instead. The short version: the one piece of advice I give patients managing a lifestyle-related condition is simply **"try not to eat the same thing every day."** Here's why that's enough.
 
-In practice, I rarely hand out strict rules like "never eat this" or "this is completely off-limits" in my exam room.
+In practice, throughout my career, I've rarely handed out strict rules like "never eat this" or "this is completely off-limits."
 
 ### The stricter the rule, the harder it is to keep
 

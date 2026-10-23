@@ -11,7 +11,7 @@ excerpt_en: For anyone who added a tumor marker test to their checkup and got an
 
 ## ja
 
-「健診のオプションで腫瘍マーカーを測ったら、基準値を超えていた」。結果通知の数字を前に、夜も眠れないほど「がんなのでは」と思い詰めてしまった——そんなご相談を受けることがあります。数字だけを見ると、どうしても最悪のケースを想像してしまうお気持ちは、本当によく分かります。
+「健診のオプションで腫瘍マーカーを測ったら、基準値を超えていた」。結果通知の数字を前に、夜も眠れないほど「がんなのでは」と思い詰めてしまった——これまでの診療の中で、そんなご相談を受けることがありました。数字だけを見ると、どうしても最悪のケースを想像してしまうお気持ちは、本当によく分かります。
 
 今日は、そもそも腫瘍マーカーとはどういう検査なのかをお話しし、その不安を少しでも軽くできればと思います。結論から言うと、**腫瘍マーカーが基準値を超えていても、がんがない方のほうがずっと多い**のです。その上で、「それでも確認が必要なケース」と「医師にどう相談すればいいか」もあわせてお伝えします。最後まで読んでいただければ、今の数字とどう付き合えばいいかが見えてくるはずです。
 
@@ -39,7 +39,7 @@ excerpt_en: For anyone who added a tumor marker test to their checkup and got an
 
 ## en
 
-"My optional tumor marker test came back above the normal range." We sometimes hear this from patients who tell us they could barely sleep that night, convinced it had to mean cancer. Staring at a number like that, it's completely understandable to imagine the worst.
+"My optional tumor marker test came back above the normal range." Throughout my career, I've sometimes heard this from patients who told me they could barely sleep that night, convinced it had to mean cancer. Staring at a number like that, it's completely understandable to imagine the worst.
 
 Today we'd like to explain what tumor marker tests actually are, in the hope of easing that worry. The short version: **far more people with an elevated tumor marker turn out not to have cancer than do.** We'll also cover the cases where follow-up really is warranted, and how to talk it through with a doctor. By the end, you should have a clearer sense of how to make sense of your own result.
 

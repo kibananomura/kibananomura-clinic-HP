@@ -11,7 +11,7 @@ excerpt_en: Why keep taking medicine when you have no symptoms at all? Doctors u
 
 ## ja
 
-診察室でよくこんな会話になります。
+これまでの診療の中で、よくこんな会話になりました。
 
 「先生、最近すっかり咳も出なくなったので、吸入のお薬お休みしてました！」
 
@@ -46,7 +46,7 @@ excerpt_en: Why keep taking medicine when you have no symptoms at all? Doctors u
 
 ## en
 
-A conversation like this comes up often in the exam room.
+A conversation like this has come up often, throughout my career.
 
 "Doctor, I haven't been coughing at all lately, so I've been skipping my inhaler!"
 

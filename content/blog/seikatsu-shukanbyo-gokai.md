@@ -11,7 +11,7 @@ excerpt_en: This number is my own fault for not taking care of myself, isn't it 
 
 ## ja
 
-健診結果の説明をしていると、「不摂生のせいで、この数値になってしまったんですよね……」と、申し訳なさそうにおっしゃる方がいます。「どうしてこんなに運動したり、食事に気を使ってるのによくならないの？」と悲しそうにする方もいらっしゃいます。高血圧・糖尿病・脂質異常症と聞くと、「生活習慣病」という言葉が真っ先に浮かび、「自分の生活の乱れのせいだ」と感じてしまう方は少なくありません。
+これまで健診結果の説明をしてきた中で、「不摂生のせいで、この数値になってしまったんですよね……」と、申し訳なさそうにおっしゃる方がいらっしゃいました。「どうしてこんなに運動したり、食事に気を使ってるのによくならないの？」と悲しそうにする方もいらっしゃいました。高血圧・糖尿病・脂質異常症と聞くと、「生活習慣病」という言葉が真っ先に浮かび、「自分の生活の乱れのせいだ」と感じてしまう方は少なくありません。
 
 この記事を読んでいただければ、その自分を責める気持ちから、少し楽になっていただけるかもしれません。結論から言うと、**高血圧・糖尿病・脂質異常症という診断名がついた方のすべてが、生活習慣病とは限らない**のです。なぜそう言えるのか、具体的な例とともにお話しします。
 
@@ -27,7 +27,7 @@ excerpt_en: This number is my own fault for not taking care of myself, isn't it 
 
 ### 院長からのメッセージ
 
-外来では、「甘いものを食べ過ぎたから糖尿病になったの、と言われて傷ついた」「毎日気をつけているのに数値が下がらず、自分が責められている気がする」というお話を伺うことがあります。病名だけを見て、ご本人や周囲が「自己管理ができていないせいだ」と決めつけてしまうのは、とても切ないことだと感じています。
+これまでの外来では、「甘いものを食べ過ぎたから糖尿病になったの、と言われて傷ついた」「毎日気をつけているのに数値が下がらず、自分が責められている気がする」というお話を伺うことがありました。病名だけを見て、ご本人や周囲が「自己管理ができていないせいだ」と決めつけてしまうのは、とても切ないことだと感じています。
 
 大切なのは、その数値の上がった背景に何があるのかを見極め、その方に合ったアプローチを選ぶことです。生活習慣の見直しで大きく変わる方もいれば、体質に合わせてお薬の力を借りるのが一番の近道になる方もいます。
 
@@ -35,7 +35,7 @@ excerpt_en: This number is my own fault for not taking care of myself, isn't it 
 
 ## en
 
-When I explain checkup results, some patients apologize, saying something like, "This number is my own fault for not taking care of myself, isn't it..." Others look genuinely disheartened and ask, "I'm exercising and watching my diet so carefully — why isn't it getting better?" When people hear "high blood pressure," "diabetes," or "dyslipidemia," the phrase "lifestyle disease" comes to mind first, and many end up feeling it's a result of their own undisciplined living.
+Throughout my career, when I've explained checkup results, some patients have apologized, saying something like, "This number is my own fault for not taking care of myself, isn't it..." Others have looked genuinely disheartened and asked, "I'm exercising and watching my diet so carefully — why isn't it getting better?" When people hear "high blood pressure," "diabetes," or "dyslipidemia," the phrase "lifestyle disease" comes to mind first, and many end up feeling it's a result of their own undisciplined living.
 
 Reading this may ease some of that self-blame. The short version: **not everyone diagnosed with high blood pressure, diabetes, or dyslipidemia actually has a lifestyle disease.** Here's why, with some concrete examples.
 
@@ -51,7 +51,7 @@ A lifestyle disease is defined as a condition whose onset and progression are in
 
 ### A message from the director
 
-In clinic, I sometimes hear things like, "Someone told me I must have eaten too many sweets to get diabetes, and it hurt," or "I'm careful every day but my numbers won't budge, and it feels like I'm being blamed." It's genuinely painful to see people — or the people around them — assume, based on a diagnosis name alone, that it must be a failure of self-management.
+Throughout my career, I've sometimes heard things like, "Someone told me I must have eaten too many sweets to get diabetes, and it hurt," or "I'm careful every day but my numbers won't budge, and it feels like I'm being blamed." It's genuinely painful to see people — or the people around them — assume, based on a diagnosis name alone, that it must be a failure of self-management.
 
 What matters is identifying what's actually behind an elevated number, and choosing the right approach for that person. For some, adjusting daily habits makes a real difference; for others, the best path forward is medication suited to their underlying condition.
 

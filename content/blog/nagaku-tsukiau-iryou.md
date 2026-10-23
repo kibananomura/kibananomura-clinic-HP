@@ -6,12 +6,12 @@ category_en: A message from the director
 title_ja: 「治す」だけでなく、「長く付き合う」医療について
 title_en: Medicine isn't only about curing — it's also about staying alongside you
 excerpt_ja: 「一生このお薬と付き合うんですか」。高血圧や糖尿病の患者さんから、よくそう聞かれます。その問いに、私がどう向き合っているかをお話しします。
-excerpt_en: Am I going to be on this medication for the rest of my life? I hear that question often from patients with high blood pressure or diabetes — here's how I think about it.
+excerpt_en: Am I going to be on this medication for the rest of my life? I've heard that question often from patients with high blood pressure or diabetes throughout my career — here's how I think about it.
 ---
 
 ## ja
 
-「先生、このお薬、一生付き合っていくんですか」。高血圧や糖尿病の患者さんから、診察室でよくそう聞かれます。その声には、「治らないのか」という落胆と、「ずっと病気の自分でいるのか」という寂しさが、いつも少しだけ混じっているように感じます。
+「先生、このお薬、一生付き合っていくんですか」。高血圧や糖尿病の患者さんから、これまでの診療の中でよくそう聞かれてきました。その声には、「治らないのか」という落胆と、「ずっと病気の自分でいるのか」という寂しさが、いつも少しだけ混じっているように感じます。
 
 この記事を読んでいただくと、高血圧や糖尿病のように長く付き合っていく病気に対して、私がどんな姿勢で向き合っているかが分かります。結論から言うと、**私は「治す」ことだけを医療のゴールにしていません。むしろ、長く付き合っていく病気とどう上手に折り合いをつけるかを、患者さんと一緒に考えることこそが、自分の役目だと思っています。**
 
@@ -31,7 +31,7 @@ excerpt_en: Am I going to be on this medication for the rest of my life? I hear 
 
 ## en
 
-"Doctor, am I going to be on this medication for the rest of my life?" I hear this often from patients with high blood pressure or diabetes. Behind that question, I always sense a mix of disappointment — "so it can't be cured" — and a quiet sadness at the thought of always being "a patient."
+"Doctor, am I going to be on this medication for the rest of my life?" I've heard this often from patients with high blood pressure or diabetes throughout my career. Behind that question, I always sense a mix of disappointment — "so it can't be cured" — and a quiet sadness at the thought of always being "a patient."
 
 By the end of this post, you'll understand how I approach conditions like high blood pressure and diabetes, the kind you live with for the long haul. The short version: **I don't treat "curing" as the only goal of medicine. I see my role as working together with patients to find a good, sustainable way to live alongside a condition that isn't going away.**
 

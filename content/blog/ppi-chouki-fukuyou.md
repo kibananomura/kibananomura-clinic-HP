@@ -5,13 +5,13 @@ category_ja: 健康・予防の話
 category_en: Health and prevention
 title_ja: 胃酸を抑える薬は長期間飲み続けても大丈夫？〜胃酸の役割と正しい付き合い方〜
 title_en: Is it safe to keep taking acid-suppressing stomach medication long term?
-excerpt_ja: 「この胃薬、ずっと飲み続けて大丈夫ですか？」診察室でとてもよく聞かれる質問です。安定して飲めているからこその、素朴な疑問だと思います。
-excerpt_en: Is it really okay to keep taking this stomach medication indefinitely? It's a question I hear often in clinic — a natural one to have once your symptoms have settled down.
+excerpt_ja: 「この胃薬、ずっと飲み続けて大丈夫ですか？」これまでの診療でとてもよく聞かれてきた質問です。安定して飲めているからこその、素朴な疑問だと思います。
+excerpt_en: Is it really okay to keep taking this stomach medication indefinitely? It's a question I've heard often throughout my career — a natural one to have once your symptoms have settled down.
 ---
 
 ## ja
 
-「先生、この胃薬、ずっと飲み続けて大丈夫ですか？」診察室で、本当によく聞かれる質問です。逆流性食道炎や胃潰瘍の予防のために、胃の壁にある「胃酸を作り出す出口（プロトンポンプ）」そのものにふたをして、胃酸の分泌を根本から強力に抑えるお薬（プロトンポンプ阻害薬。頭文字をとって「PPI」と呼ばれることもあります）を処方されている方は多く、症状が落ち着いた後も飲み続けている方ほど、ふとこの疑問が浮かぶのだと思います。
+「先生、この胃薬、ずっと飲み続けて大丈夫ですか？」これまでの診療の中で、本当によく聞かれてきた質問です。逆流性食道炎や胃潰瘍の予防のために、胃の壁にある「胃酸を作り出す出口（プロトンポンプ）」そのものにふたをして、胃酸の分泌を根本から強力に抑えるお薬（プロトンポンプ阻害薬。頭文字をとって「PPI」と呼ばれることもあります）を処方されている方は多く、症状が落ち着いた後も飲み続けている方ほど、ふとこの疑問が浮かぶのだと思います。
 
 この記事を読んでいただくと、胃酸を長期間抑えることが体にどう影響するのか、そしてなぜ「飲み続けたほうがよい人」がいるのかが分かります。結論から言うと、**このお薬は基本的に安全で優れたものですが、胃酸を長期間しっかり抑えることによる影響も、近年少しずつ分かってきています。** 大切なのは、その影響を正しく知った上で、自己判断でやめたり続けたりせず、定期的に主治医と見直していくことです。
 
@@ -46,7 +46,7 @@ excerpt_en: Is it really okay to keep taking this stomach medication indefinitel
 
 ## en
 
-"Doctor, is it really okay to keep taking this stomach medication indefinitely?" It's a question I hear often in clinic. Many people are prescribed a medication that directly blocks the "pump" in the stomach wall that produces acid — shutting down acid production at its source — to prevent reflux esophagitis or a stomach ulcer. (Because it blocks this proton pump, it's medically known as a proton pump inhibitor, sometimes abbreviated as "PPI.") It tends to come up especially from people whose symptoms have since settled down — a natural question to have once things feel stable.
+"Doctor, is it really okay to keep taking this stomach medication indefinitely?" It's a question I've heard often throughout my career. Many people are prescribed a medication that directly blocks the "pump" in the stomach wall that produces acid — shutting down acid production at its source — to prevent reflux esophagitis or a stomach ulcer. (Because it blocks this proton pump, it's medically known as a proton pump inhibitor, sometimes abbreviated as "PPI.") It tends to come up especially from people whose symptoms have since settled down — a natural question to have once things feel stable.
 
 By the end of this post, you'll understand how suppressing stomach acid over the long term affects the body, and why some people genuinely benefit from continuing. The short version: **this medication is, on the whole, safe and highly effective, but research in recent years has gradually revealed some effects of suppressing stomach acid strongly over a long period.** What matters is understanding those effects correctly, and reviewing your medication regularly with your doctor rather than deciding on your own to stop or continue.
 

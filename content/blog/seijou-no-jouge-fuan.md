@@ -5,13 +5,13 @@ category_ja: 健康・予防の話
 category_en: Health and prevention
 title_ja: 健診結果の「正常の上限」、どう考える？
 title_en: Your checkup came back "normal, but at the upper edge" — what does that mean?
-excerpt_ja: 「周りの友達が薬を飲み始めたけど、私も必要なのかな」。健診では異常なしだったのに、そんな不安を抱えて来院された70代の患者さんのお話です。
-excerpt_en: My friends have started taking medication, so do I need to as well — a patient in her 70s came in with exactly that worry, even though her checkup had come back with no abnormalities.
+excerpt_ja: 「周りの友達が薬を飲み始めたけど、私も必要なのかな」。健診では異常なしだったのに、そんな不安を抱えて相談に来られた70代の患者さんのお話です。
+excerpt_en: My friends have started taking medication, so do I need to as well — a patient in her 70s I once treated came to me with exactly that worry, even though her checkup had come back with no abnormalities.
 ---
 
 ## ja
 
-先日、70代の患者さんが「相談したいことがあって」と来院されました。特定健診の結果を見せていただくと、コレステロールも血圧も「異常なし」の判定です。ただ、正常範囲の中でもやや上限寄りの数値が、ここ数年続いていました。
+以前診療していた、70代のある患者さんが「相談したいことがあって」と来られたことがあります。特定健診の結果を見せていただくと、コレステロールも血圧も「異常なし」の判定です。ただ、正常範囲の中でもやや上限寄りの数値が、ここ数年続いていました。
 
 よくよくお話を伺うと、「周りの友達が次々と薬を飲み始めていて、自分もそろそろ必要なんじゃないかと気になって」とのことでした。健診の結果だけを見れば心配のいらない数値なのに、周囲の状況で不安になってしまう——このお気持ち、とても自然なことだと思います。
 
@@ -37,7 +37,7 @@ excerpt_en: My friends have started taking medication, so do I need to as well �
 
 ## en
 
-A patient in her 70s came in recently, saying she had something she wanted to talk about. When I looked at her health checkup results, both her cholesterol and blood pressure were within the "normal" range. Still, the numbers had been sitting near the upper edge of normal for a few years running.
+A patient in her 70s I once treated came to me, saying she had something she wanted to talk about. When I looked at her health checkup results, both her cholesterol and blood pressure were within the "normal" range. Still, the numbers had been sitting near the upper edge of normal for a few years running.
 
 As we talked more, she told me, "A lot of my friends have started taking medication one after another, and I've started wondering if it's about time for me too." Her checkup results themselves gave no cause for concern, and yet the people around her had made her anxious — a feeling I think is completely natural.
 

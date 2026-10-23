@@ -5,19 +5,19 @@ category_ja: 健康・予防の話
 category_en: Health and prevention
 title_ja: インフルエンザワクチン、打つべきか迷っているあなたへ
 title_en: Still unsure about the flu shot? Here's how to think about it
-excerpt_ja: 「打ってもかかる人はかかるって聞くし」「副反応も気になる」——そう迷いながら、結局決めきれずにいませんか。診察室で私が「ご自身がどうしたいかですよ」とお伝えする、本当の理由をお話しします。
-excerpt_en: I hear people get the flu even after the shot, and the side effects worry me too — if that loop sounds familiar, here's the real reason I tell patients the choice is ultimately theirs.
+excerpt_ja: 「打ってもかかる人はかかるって聞くし」「副反応も気になる」——そう迷いながら、結局決めきれずにいませんか。私が「ご自身がどうしたいかですよ」とお伝えしてきた、本当の理由をお話しします。
+excerpt_en: I hear people get the flu even after the shot, and the side effects worry me too — if that loop sounds familiar, here's the real reason I've always told patients the choice is ultimately theirs.
 ---
 
 ## ja
 
-「インフルエンザワクチン、打つべきですか？」。毎年この時期、本当によく聞かれる質問です。「打っても、かかる人はかかるって聞くし……」「副反応も気になる」「絶対に安全で、絶対に効くって言ってもらえるなら打つんですけど」。そうやって迷いながら、結局決めきれないまま今年も時期だけが過ぎていく——そんなお気持ち、とてもよく分かります。
+「インフルエンザワクチン、打つべきですか？」。これまでの診療の中で、毎年この時期になると、本当によく聞かれてきた質問です。「打っても、かかる人はかかるって聞くし……」「副反応も気になる」「絶対に安全で、絶対に効くって言ってもらえるなら打つんですけど」。そうやって迷いながら、結局決めきれないまま今年も時期だけが過ぎていく——そんなお気持ち、とてもよく分かります。
 
 この記事を読んでいただくと、「誰かに言われたから打つ・打たない」ではなく、**ご自身が納得した上で選べる**ようになります。
 
 ### 「ご自身がどうしたいかですよ」の本当の意味
 
-診察室で私がこうお伝えするとき、実は突き放しているわけではありません。予防接種は、病気になってから行う「治療」とは少し性質が違います。治療はほとんどの場合、受けることそのものに迷いの余地は少ないものです。けれど予防接種は、**まだ起きていないリスクに対して、自分の体をどう守るかを自分で選ぶ**という、本来あなた自身の権利に属することなのです。
+そのようにお伝えするとき、実は突き放しているわけではありません。予防接種は、病気になってから行う「治療」とは少し性質が違います。治療はほとんどの場合、受けることそのものに迷いの余地は少ないものです。けれど予防接種は、**まだ起きていないリスクに対して、自分の体をどう守るかを自分で選ぶ**という、本来あなた自身の権利に属することなのです。
 
 正直に言うと、私も医師として「このワクチンを打てば絶対に安全です」「絶対にかかりません」とは言えません。インフルエンザワクチンは発症や重症化のリスクを下げてくれますが、100%防ぐものではない。この「100%ではない」という事実こそが、最終的な判断をご自身にお任せする理由です。
 
@@ -33,13 +33,13 @@ excerpt_en: I hear people get the flu even after the shot, and the side effects 
 
 ## en
 
-"Should I get the flu shot?" It's a question I hear constantly this time of year. "I hear people get it even after getting vaccinated..." "The side effects worry me." "If you could just tell me it's completely safe and definitely works, I'd get it." And so the hesitation drags on, and another year slips by without a decision. I understand that feeling completely.
+"Should I get the flu shot?" It's a question I've heard constantly, every year around this time, throughout my career. "I hear people get it even after getting vaccinated..." "The side effects worry me." "If you could just tell me it's completely safe and definitely works, I'd get it." And so the hesitation drags on, and another year slips by without a decision. I understand that feeling completely.
 
 By the end of this post, you'll be able to choose — not because someone told you to, but because **you've reached your own conclusion.**
 
 ### What "it's really up to you" actually means
 
-When I say this in the exam room, I'm not brushing you off. A vaccine is different in nature from treatment given after you're already sick. With treatment, there's usually little real room for hesitation. A vaccine, though, is about **choosing, for yourself, how to protect your body against a risk that hasn't happened yet** — something that, by its nature, belongs to you.
+When I say this, I'm not brushing you off. A vaccine is different in nature from treatment given after you're already sick. With treatment, there's usually little real room for hesitation. A vaccine, though, is about **choosing, for yourself, how to protect your body against a risk that hasn't happened yet** — something that, by its nature, belongs to you.
 
 Honestly, as a doctor, I can't tell you "this vaccine guarantees complete safety" or "you definitely won't get the flu." The flu shot lowers your risk of getting sick and of severe illness, but it doesn't eliminate it entirely. That "not 100%" is exactly why the final call belongs to you.
 

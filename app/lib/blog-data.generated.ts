@@ -485,7 +485,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "「同じ量を飲んでいるのに、症状が出る人と出ない人がいるのはなぜですか」と聞かれることがあります。年齢や筋肉量、他のお薬との飲み合わせなど理由はいくつかありますが、近年の研究で注目されているのが**腸内細菌叢（お腹の中の菌の集まり）**です。"
+          "text": "「同じ量を飲んでいるのに、症状が出る人と出ない人がいるのはなぜですか」と、これまでの診療の中で聞かれたことがあります。年齢や筋肉量、他のお薬との飲み合わせなど理由はいくつかありますが、近年の研究で注目されているのが**腸内細菌叢（お腹の中の菌の集まり）**です。"
         },
         {
           "kind": "text",
@@ -560,7 +560,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "A question I hear often: \"We're taking the same dose, so why does one person get symptoms and another doesn't?\" Age, muscle mass, and interactions with other medications all play a role, but one area drawing growing research attention is the **gut microbiome** — the community of bacteria living in your intestines."
+          "text": "A question I've been asked before: \"We're taking the same dose, so why does one person get symptoms and another doesn't?\" Age, muscle mass, and interactions with other medications all play a role, but one area drawing growing research attention is the **gut microbiome** — the community of bacteria living in your intestines."
         },
         {
           "kind": "text",
@@ -612,7 +612,7 @@ export const generatedPosts: BlogPost[] = [
       "body": [
         {
           "kind": "text",
-          "text": "「先生、健康のために、毎朝トマトジュースで野菜をとっているんです」。健診結果を見ながら、誇らしげにそうお話しされる患者さんによくお会いします。野菜不足を気にして、手軽に続けられる習慣を選ばれたその努力は、本当に素晴らしいことだと思います。"
+          "text": "「先生、健康のために、毎朝トマトジュースで野菜をとっているんです」。これまでの診療の中で、健診結果を見ながら、誇らしげにそうお話しされる患者さんによくお会いしてきました。野菜不足を気にして、手軽に続けられる習慣を選ばれたその努力は、本当に素晴らしいことだと思います。"
         },
         {
           "kind": "text",
@@ -663,7 +663,7 @@ export const generatedPosts: BlogPost[] = [
       "body": [
         {
           "kind": "text",
-          "text": "\"Doctor, I drink tomato juice every morning to get my vegetables in — it's good for my health.\" I hear this proudly, checkup results in hand, more often than you might think. Being mindful of not getting enough vegetables and choosing an easy habit you can actually stick with is genuinely admirable."
+          "text": "\"Doctor, I drink tomato juice every morning to get my vegetables in — it's good for my health.\" Throughout my career, I've heard this proudly, checkup results in hand, more often than you might think. Being mindful of not getting enough vegetables and choosing an easy habit you can actually stick with is genuinely admirable."
         },
         {
           "kind": "text",
@@ -826,7 +826,7 @@ export const generatedPosts: BlogPost[] = [
       "body": [
         {
           "kind": "text",
-          "text": "「先生、このお薬、一生付き合っていくんですか」。高血圧や糖尿病の患者さんから、診察室でよくそう聞かれます。その声には、「治らないのか」という落胆と、「ずっと病気の自分でいるのか」という寂しさが、いつも少しだけ混じっているように感じます。"
+          "text": "「先生、このお薬、一生付き合っていくんですか」。高血圧や糖尿病の患者さんから、これまでの診療の中でよくそう聞かれてきました。その声には、「治らないのか」という落胆と、「ずっと病気の自分でいるのか」という寂しさが、いつも少しだけ混じっているように感じます。"
         },
         {
           "kind": "text",
@@ -865,11 +865,11 @@ export const generatedPosts: BlogPost[] = [
     "en": {
       "category": "A message from the director",
       "title": "Medicine isn't only about curing — it's also about staying alongside you",
-      "excerpt": "Am I going to be on this medication for the rest of my life? I hear that question often from patients with high blood pressure or diabetes — here's how I think about it.",
+      "excerpt": "Am I going to be on this medication for the rest of my life? I've heard that question often from patients with high blood pressure or diabetes throughout my career — here's how I think about it.",
       "body": [
         {
           "kind": "text",
-          "text": "\"Doctor, am I going to be on this medication for the rest of my life?\" I hear this often from patients with high blood pressure or diabetes. Behind that question, I always sense a mix of disappointment — \"so it can't be cured\" — and a quiet sadness at the thought of always being \"a patient.\""
+          "text": "\"Doctor, am I going to be on this medication for the rest of my life?\" I've heard this often from patients with high blood pressure or diabetes throughout my career. Behind that question, I always sense a mix of disappointment — \"so it can't be cured\" — and a quiet sadness at the thought of always being \"a patient.\""
         },
         {
           "kind": "text",
@@ -1000,7 +1000,7 @@ export const generatedPosts: BlogPost[] = [
       "body": [
         {
           "kind": "text",
-          "text": "健診で「中性脂肪が高いですね」「血糖値が気になります」「血圧が高めです」とお伝えすると、患者さんの表情がさっと曇ることがあります。ご本人に聞いてみると、「好きなものを全部禁止されるんじゃないか」「毎日カロリーを計算して、塩分を何グラムまでと言われるんじゃないか」と身構えていたとのことでした。そう思うと、病院に行くこと自体を後回しにしてしまう気持ちも、よく分かります。"
+          "text": "これまでの診療の中で、健診で「中性脂肪が高いですね」「血糖値が気になります」「血圧が高めです」とお伝えすると、患者さんの表情がさっと曇ることが何度もありました。ご本人に聞いてみると、「好きなものを全部禁止されるんじゃないか」「毎日カロリーを計算して、塩分を何グラムまでと言われるんじゃないか」と身構えていたとのことでした。そう思うと、病院に行くこと自体を後回しにしてしまう気持ちも、よく分かります。"
         },
         {
           "kind": "text",
@@ -1008,7 +1008,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "実際のところ、私の診察室で「これは一切禁止」「あれも絶対にダメ」というような細かい食事制限をお伝えすることは、ほとんどありません。"
+          "text": "実際のところ、これまでの診療の中で「これは一切禁止」「あれも絶対にダメ」というような細かい食事制限をお伝えすることは、ほとんどありませんでした。"
         },
         {
           "kind": "text",
@@ -1067,7 +1067,7 @@ export const generatedPosts: BlogPost[] = [
       "body": [
         {
           "kind": "text",
-          "text": "\"Your triglycerides are a bit high,\" \"your blood sugar is something to watch,\" \"your blood pressure is on the high side\" — I sometimes watch a patient's face fall the moment I say something like this. When I ask, many tell me they'd already braced themselves for a long list of forbidden foods, or for being told to count calories and track every gram of salt. I understand why that feeling makes people put off coming in at all."
+          "text": "\"Your triglycerides are a bit high,\" \"your blood sugar is something to watch,\" \"your blood pressure is on the high side\" — throughout my career, I've often watched a patient's face fall the moment I said something like this. When I asked, many told me they'd already braced themselves for a long list of forbidden foods, or for being told to count calories and track every gram of salt. I understand why that feeling makes people put off coming in at all."
         },
         {
           "kind": "text",
@@ -1075,7 +1075,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "In practice, I rarely hand out strict rules like \"never eat this\" or \"this is completely off-limits\" in my exam room."
+          "text": "In practice, throughout my career, I've rarely handed out strict rules like \"never eat this\" or \"this is completely off-limits.\""
         },
         {
           "kind": "text",
@@ -1396,7 +1396,7 @@ export const generatedPosts: BlogPost[] = [
       "body": [
         {
           "kind": "text",
-          "text": "「健診のオプションで腫瘍マーカーを測ったら、基準値を超えていた」。結果通知の数字を前に、夜も眠れないほど「がんなのでは」と思い詰めてしまった——そんなご相談を受けることがあります。数字だけを見ると、どうしても最悪のケースを想像してしまうお気持ちは、本当によく分かります。"
+          "text": "「健診のオプションで腫瘍マーカーを測ったら、基準値を超えていた」。結果通知の数字を前に、夜も眠れないほど「がんなのでは」と思い詰めてしまった——これまでの診療の中で、そんなご相談を受けることがありました。数字だけを見ると、どうしても最悪のケースを想像してしまうお気持ちは、本当によく分かります。"
         },
         {
           "kind": "text",
@@ -1455,7 +1455,7 @@ export const generatedPosts: BlogPost[] = [
       "body": [
         {
           "kind": "text",
-          "text": "\"My optional tumor marker test came back above the normal range.\" We sometimes hear this from patients who tell us they could barely sleep that night, convinced it had to mean cancer. Staring at a number like that, it's completely understandable to imagine the worst."
+          "text": "\"My optional tumor marker test came back above the normal range.\" Throughout my career, I've sometimes heard this from patients who told me they could barely sleep that night, convinced it had to mean cancer. Staring at a number like that, it's completely understandable to imagine the worst."
         },
         {
           "kind": "text",
@@ -1714,7 +1714,7 @@ export const generatedPosts: BlogPost[] = [
       "body": [
         {
           "kind": "text",
-          "text": "診察室でよくこんな会話になります。"
+          "text": "これまでの診療の中で、よくこんな会話になりました。"
         },
         {
           "kind": "text",
@@ -1785,7 +1785,7 @@ export const generatedPosts: BlogPost[] = [
       "body": [
         {
           "kind": "text",
-          "text": "A conversation like this comes up often in the exam room."
+          "text": "A conversation like this has come up often, throughout my career."
         },
         {
           "kind": "text",
@@ -1861,7 +1861,7 @@ export const generatedPosts: BlogPost[] = [
       "body": [
         {
           "kind": "text",
-          "text": "健診結果の説明をしていると、「不摂生のせいで、この数値になってしまったんですよね……」と、申し訳なさそうにおっしゃる方がいます。「どうしてこんなに運動したり、食事に気を使ってるのによくならないの？」と悲しそうにする方もいらっしゃいます。高血圧・糖尿病・脂質異常症と聞くと、「生活習慣病」という言葉が真っ先に浮かび、「自分の生活の乱れのせいだ」と感じてしまう方は少なくありません。"
+          "text": "これまで健診結果の説明をしてきた中で、「不摂生のせいで、この数値になってしまったんですよね……」と、申し訳なさそうにおっしゃる方がいらっしゃいました。「どうしてこんなに運動したり、食事に気を使ってるのによくならないの？」と悲しそうにする方もいらっしゃいました。高血圧・糖尿病・脂質異常症と聞くと、「生活習慣病」という言葉が真っ先に浮かび、「自分の生活の乱れのせいだ」と感じてしまう方は少なくありません。"
         },
         {
           "kind": "text",
@@ -1889,7 +1889,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "外来では、「甘いものを食べ過ぎたから糖尿病になったの、と言われて傷ついた」「毎日気をつけているのに数値が下がらず、自分が責められている気がする」というお話を伺うことがあります。病名だけを見て、ご本人や周囲が「自己管理ができていないせいだ」と決めつけてしまうのは、とても切ないことだと感じています。"
+          "text": "これまでの外来では、「甘いものを食べ過ぎたから糖尿病になったの、と言われて傷ついた」「毎日気をつけているのに数値が下がらず、自分が責められている気がする」というお話を伺うことがありました。病名だけを見て、ご本人や周囲が「自己管理ができていないせいだ」と決めつけてしまうのは、とても切ないことだと感じています。"
         },
         {
           "kind": "text",
@@ -1908,7 +1908,7 @@ export const generatedPosts: BlogPost[] = [
       "body": [
         {
           "kind": "text",
-          "text": "When I explain checkup results, some patients apologize, saying something like, \"This number is my own fault for not taking care of myself, isn't it...\" Others look genuinely disheartened and ask, \"I'm exercising and watching my diet so carefully — why isn't it getting better?\" When people hear \"high blood pressure,\" \"diabetes,\" or \"dyslipidemia,\" the phrase \"lifestyle disease\" comes to mind first, and many end up feeling it's a result of their own undisciplined living."
+          "text": "Throughout my career, when I've explained checkup results, some patients have apologized, saying something like, \"This number is my own fault for not taking care of myself, isn't it...\" Others have looked genuinely disheartened and asked, \"I'm exercising and watching my diet so carefully — why isn't it getting better?\" When people hear \"high blood pressure,\" \"diabetes,\" or \"dyslipidemia,\" the phrase \"lifestyle disease\" comes to mind first, and many end up feeling it's a result of their own undisciplined living."
         },
         {
           "kind": "text",
@@ -1936,7 +1936,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "In clinic, I sometimes hear things like, \"Someone told me I must have eaten too many sweets to get diabetes, and it hurt,\" or \"I'm careful every day but my numbers won't budge, and it feels like I'm being blamed.\" It's genuinely painful to see people — or the people around them — assume, based on a diagnosis name alone, that it must be a failure of self-management."
+          "text": "Throughout my career, I've sometimes heard things like, \"Someone told me I must have eaten too many sweets to get diabetes, and it hurt,\" or \"I'm careful every day but my numbers won't budge, and it feels like I'm being blamed.\" It's genuinely painful to see people — or the people around them — assume, based on a diagnosis name alone, that it must be a failure of self-management."
         },
         {
           "kind": "text",
@@ -1956,11 +1956,11 @@ export const generatedPosts: BlogPost[] = [
     "ja": {
       "category": "健康・予防の話",
       "title": "「お薬は一生やめられない」は誤解です",
-      "excerpt": "「このお薬、一度始めたらもう一生やめられないんですよね……？」外来でとてもよく聞かれる質問です。その答えは、実は「いいえ」です。",
+      "excerpt": "「このお薬、一度始めたらもう一生やめられないんですよね……？」これまでの外来でとてもよく聞かれてきた質問です。その答えは、実は「いいえ」です。",
       "body": [
         {
           "kind": "text",
-          "text": "「先生、このお薬、一度始めたらもう一生やめられないんですよね……？」外来で、本当によく聞かれる質問です。その言葉の奥には、「薬漬けになってしまう怖さ」や、「今の生活をまるごと変えなければいけない重たさ」があるのだと思います。どちらのお気持ちも、とてもよく分かります。"
+          "text": "「先生、このお薬、一度始めたらもう一生やめられないんですよね……？」これまでの外来で、本当によく聞かれてきた質問です。その言葉の奥には、「薬漬けになってしまう怖さ」や、「今の生活をまるごと変えなければいけない重たさ」があるのだと思います。どちらのお気持ちも、とてもよく分かります。"
         },
         {
           "kind": "text",
@@ -1984,7 +1984,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "実際にあったお話をさせてください。ある患者さんが、数か月ぶりの外来でこう報告してくださいました。「先生、体重が減って、服を買い替えないといけないくらい痩せちゃいました！」。満面の笑みでした。食事の内容を少しずつ見直し、無理のない範囲で体を動かす習慣をつけていっただけなのですが、体重が落ち、血液検査の数値も見違えるように安定していました。そしてそのタイミングで、お薬を一つ減らすことができたのです。"
+          "text": "実際にあったお話をさせてください。以前診療していたある患者さんが、数か月ぶりの外来でこう報告してくださったことがあります。「先生、体重が減って、服を買い替えないといけないくらい痩せちゃいました！」。満面の笑みでした。食事の内容を少しずつ見直し、無理のない範囲で体を動かす習慣をつけていっただけなのですが、体重が落ち、血液検査の数値も見違えるように安定していました。そしてそのタイミングで、お薬を一つ減らすことができたのです。"
         },
         {
           "kind": "text",
@@ -2007,11 +2007,11 @@ export const generatedPosts: BlogPost[] = [
     "en": {
       "category": "Health and prevention",
       "title": "'Once you start, you can never stop' is a myth",
-      "excerpt": "Once I start this medication, I can never stop, right? It's a question I hear all the time. The real answer is actually no.",
+      "excerpt": "Once I start this medication, I can never stop, right? It's a question I've heard all the time, throughout my career. The real answer is actually no.",
       "body": [
         {
           "kind": "text",
-          "text": "\"Doctor, once I start this medication, I can never stop, right?\" It's a question I hear all the time in clinic. Behind those words, I think, is a fear of becoming dependent on medication for life, and the heavy feeling that comes with having to overhaul your entire way of living. Both feelings make complete sense to me."
+          "text": "\"Doctor, once I start this medication, I can never stop, right?\" It's a question I've heard all the time throughout my career. Behind those words, I think, is a fear of becoming dependent on medication for life, and the heavy feeling that comes with having to overhaul your entire way of living. Both feelings make complete sense to me."
         },
         {
           "kind": "text",
@@ -2035,7 +2035,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "Let me share something that actually happened. A patient came in for a follow-up after a few months and told me, beaming: \"Doctor, I lost so much weight I had to buy new clothes!\" She had simply adjusted her diet little by little and built a habit of moving her body within a comfortable range. Her weight came down, her blood test results stabilized remarkably, and at that visit, we were able to reduce one of her medications."
+          "text": "Let me share something that actually happened. A patient I once treated came in for a follow-up after a few months and told me, beaming: \"Doctor, I lost so much weight I had to buy new clothes!\" She had simply adjusted her diet little by little and built a habit of moving her body within a comfortable range. Her weight came down, her blood test results stabilized remarkably, and at that visit, we were able to reduce one of her medications."
         },
         {
           "kind": "text",
@@ -2063,11 +2063,11 @@ export const generatedPosts: BlogPost[] = [
     "ja": {
       "category": "健康・予防の話",
       "title": "胃酸を抑える薬は長期間飲み続けても大丈夫？〜胃酸の役割と正しい付き合い方〜",
-      "excerpt": "「この胃薬、ずっと飲み続けて大丈夫ですか？」診察室でとてもよく聞かれる質問です。安定して飲めているからこその、素朴な疑問だと思います。",
+      "excerpt": "「この胃薬、ずっと飲み続けて大丈夫ですか？」これまでの診療でとてもよく聞かれてきた質問です。安定して飲めているからこその、素朴な疑問だと思います。",
       "body": [
         {
           "kind": "text",
-          "text": "「先生、この胃薬、ずっと飲み続けて大丈夫ですか？」診察室で、本当によく聞かれる質問です。逆流性食道炎や胃潰瘍の予防のために、胃の壁にある「胃酸を作り出す出口（プロトンポンプ）」そのものにふたをして、胃酸の分泌を根本から強力に抑えるお薬（プロトンポンプ阻害薬。頭文字をとって「PPI」と呼ばれることもあります）を処方されている方は多く、症状が落ち着いた後も飲み続けている方ほど、ふとこの疑問が浮かぶのだと思います。"
+          "text": "「先生、この胃薬、ずっと飲み続けて大丈夫ですか？」これまでの診療の中で、本当によく聞かれてきた質問です。逆流性食道炎や胃潰瘍の予防のために、胃の壁にある「胃酸を作り出す出口（プロトンポンプ）」そのものにふたをして、胃酸の分泌を根本から強力に抑えるお薬（プロトンポンプ阻害薬。頭文字をとって「PPI」と呼ばれることもあります）を処方されている方は多く、症状が落ち着いた後も飲み続けている方ほど、ふとこの疑問が浮かぶのだと思います。"
         },
         {
           "kind": "text",
@@ -2130,11 +2130,11 @@ export const generatedPosts: BlogPost[] = [
     "en": {
       "category": "Health and prevention",
       "title": "Is it safe to keep taking acid-suppressing stomach medication long term?",
-      "excerpt": "Is it really okay to keep taking this stomach medication indefinitely? It's a question I hear often in clinic — a natural one to have once your symptoms have settled down.",
+      "excerpt": "Is it really okay to keep taking this stomach medication indefinitely? It's a question I've heard often throughout my career — a natural one to have once your symptoms have settled down.",
       "body": [
         {
           "kind": "text",
-          "text": "\"Doctor, is it really okay to keep taking this stomach medication indefinitely?\" It's a question I hear often in clinic. Many people are prescribed a medication that directly blocks the \"pump\" in the stomach wall that produces acid — shutting down acid production at its source — to prevent reflux esophagitis or a stomach ulcer. (Because it blocks this proton pump, it's medically known as a proton pump inhibitor, sometimes abbreviated as \"PPI.\") It tends to come up especially from people whose symptoms have since settled down — a natural question to have once things feel stable."
+          "text": "\"Doctor, is it really okay to keep taking this stomach medication indefinitely?\" It's a question I've heard often throughout my career. Many people are prescribed a medication that directly blocks the \"pump\" in the stomach wall that produces acid — shutting down acid production at its source — to prevent reflux esophagitis or a stomach ulcer. (Because it blocks this proton pump, it's medically known as a proton pump inhibitor, sometimes abbreviated as \"PPI.\") It tends to come up especially from people whose symptoms have since settled down — a natural question to have once things feel stable."
         },
         {
           "kind": "text",
@@ -2206,11 +2206,11 @@ export const generatedPosts: BlogPost[] = [
       "body": [
         {
           "kind": "text",
-          "text": "高熱と喉の痛みで仕事も家事も手につかない。「一刻も早く楽になりたい、できれば一番効く薬がほしい」——そう感じて受診される方は、本当に多くいらっしゃいます。つらいときほど、強い薬にすがりたくなるお気持ちは、痛いほどよく分かります。"
+          "text": "高熱と喉の痛みで仕事も家事も手につかない。「一刻も早く楽になりたい、できれば一番効く薬がほしい」——これまでの診療の中で、そう感じて受診される方を、本当に多く見てきました。つらいときほど、強い薬にすがりたくなるお気持ちは、痛いほどよく分かります。"
         },
         {
           "kind": "text",
-          "text": "ただ、「風邪にはウイルスが多いので、抗生剤はあまり効果がありません」という話は、最近はテレビや雑誌でもよく取り上げられるようになり、知っている方も増えてきた印象があります。外来で「どうせ効かないんですよね」と先に言われることも珍しくなくなりました。"
+          "text": "ただ、「風邪にはウイルスが多いので、抗生剤はあまり効果がありません」という話は、最近はテレビや雑誌でもよく取り上げられるようになり、知っている方も増えてきた印象があります。外来で「どうせ効かないんですよね」と先に言われることも、これまで何度もありました。"
         },
         {
           "kind": "text",
@@ -2285,11 +2285,11 @@ export const generatedPosts: BlogPost[] = [
       "body": [
         {
           "kind": "text",
-          "text": "A high fever and a throbbing throat that make it impossible to work or even get through the day — \"I just want relief as fast as possible, and ideally, the strongest medicine available.\" So many patients come in feeling exactly this way, and when you're that miserable, wanting to reach for the strongest thing available makes complete sense."
+          "text": "A high fever and a throbbing throat that make it impossible to work or even get through the day — \"I just want relief as fast as possible, and ideally, the strongest medicine available.\" Throughout my career, I've seen so many patients come in feeling exactly this way, and when you're that miserable, wanting to reach for the strongest thing available makes complete sense."
         },
         {
           "kind": "text",
-          "text": "That said, the idea that \"most colds are caused by viruses, so antibiotics don't really help\" has made its way into TV programs and magazines often enough that many patients already know it. These days, it's not unusual for someone to say \"I know it probably won't do anything anyway\" before I've even finished explaining."
+          "text": "That said, the idea that \"most colds are caused by viruses, so antibiotics don't really help\" has made its way into TV programs and magazines often enough that many patients already know it. More than once, I've had someone say \"I know it probably won't do anything anyway\" before I've even finished explaining."
         },
         {
           "kind": "text",
@@ -2365,11 +2365,11 @@ export const generatedPosts: BlogPost[] = [
     "ja": {
       "category": "健康・予防の話",
       "title": "インフルエンザワクチン、打つべきか迷っているあなたへ",
-      "excerpt": "「打ってもかかる人はかかるって聞くし」「副反応も気になる」——そう迷いながら、結局決めきれずにいませんか。診察室で私が「ご自身がどうしたいかですよ」とお伝えする、本当の理由をお話しします。",
+      "excerpt": "「打ってもかかる人はかかるって聞くし」「副反応も気になる」——そう迷いながら、結局決めきれずにいませんか。私が「ご自身がどうしたいかですよ」とお伝えしてきた、本当の理由をお話しします。",
       "body": [
         {
           "kind": "text",
-          "text": "「インフルエンザワクチン、打つべきですか？」。毎年この時期、本当によく聞かれる質問です。「打っても、かかる人はかかるって聞くし……」「副反応も気になる」「絶対に安全で、絶対に効くって言ってもらえるなら打つんですけど」。そうやって迷いながら、結局決めきれないまま今年も時期だけが過ぎていく——そんなお気持ち、とてもよく分かります。"
+          "text": "「インフルエンザワクチン、打つべきですか？」。これまでの診療の中で、毎年この時期になると、本当によく聞かれてきた質問です。「打っても、かかる人はかかるって聞くし……」「副反応も気になる」「絶対に安全で、絶対に効くって言ってもらえるなら打つんですけど」。そうやって迷いながら、結局決めきれないまま今年も時期だけが過ぎていく——そんなお気持ち、とてもよく分かります。"
         },
         {
           "kind": "text",
@@ -2381,7 +2381,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "診察室で私がこうお伝えするとき、実は突き放しているわけではありません。予防接種は、病気になってから行う「治療」とは少し性質が違います。治療はほとんどの場合、受けることそのものに迷いの余地は少ないものです。けれど予防接種は、**まだ起きていないリスクに対して、自分の体をどう守るかを自分で選ぶ**という、本来あなた自身の権利に属することなのです。"
+          "text": "そのようにお伝えするとき、実は突き放しているわけではありません。予防接種は、病気になってから行う「治療」とは少し性質が違います。治療はほとんどの場合、受けることそのものに迷いの余地は少ないものです。けれど予防接種は、**まだ起きていないリスクに対して、自分の体をどう守るかを自分で選ぶ**という、本来あなた自身の権利に属することなのです。"
         },
         {
           "kind": "text",
@@ -2412,11 +2412,11 @@ export const generatedPosts: BlogPost[] = [
     "en": {
       "category": "Health and prevention",
       "title": "Still unsure about the flu shot? Here's how to think about it",
-      "excerpt": "I hear people get the flu even after the shot, and the side effects worry me too — if that loop sounds familiar, here's the real reason I tell patients the choice is ultimately theirs.",
+      "excerpt": "I hear people get the flu even after the shot, and the side effects worry me too — if that loop sounds familiar, here's the real reason I've always told patients the choice is ultimately theirs.",
       "body": [
         {
           "kind": "text",
-          "text": "\"Should I get the flu shot?\" It's a question I hear constantly this time of year. \"I hear people get it even after getting vaccinated...\" \"The side effects worry me.\" \"If you could just tell me it's completely safe and definitely works, I'd get it.\" And so the hesitation drags on, and another year slips by without a decision. I understand that feeling completely."
+          "text": "\"Should I get the flu shot?\" It's a question I've heard constantly, every year around this time, throughout my career. \"I hear people get it even after getting vaccinated...\" \"The side effects worry me.\" \"If you could just tell me it's completely safe and definitely works, I'd get it.\" And so the hesitation drags on, and another year slips by without a decision. I understand that feeling completely."
         },
         {
           "kind": "text",
@@ -2428,7 +2428,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "When I say this in the exam room, I'm not brushing you off. A vaccine is different in nature from treatment given after you're already sick. With treatment, there's usually little real room for hesitation. A vaccine, though, is about **choosing, for yourself, how to protect your body against a risk that hasn't happened yet** — something that, by its nature, belongs to you."
+          "text": "When I say this, I'm not brushing you off. A vaccine is different in nature from treatment given after you're already sick. With treatment, there's usually little real room for hesitation. A vaccine, though, is about **choosing, for yourself, how to protect your body against a risk that hasn't happened yet** — something that, by its nature, belongs to you."
         },
         {
           "kind": "text",
@@ -2464,11 +2464,11 @@ export const generatedPosts: BlogPost[] = [
     "ja": {
       "category": "健康・予防の話",
       "title": "健診結果の「正常の上限」、どう考える？",
-      "excerpt": "「周りの友達が薬を飲み始めたけど、私も必要なのかな」。健診では異常なしだったのに、そんな不安を抱えて来院された70代の患者さんのお話です。",
+      "excerpt": "「周りの友達が薬を飲み始めたけど、私も必要なのかな」。健診では異常なしだったのに、そんな不安を抱えて相談に来られた70代の患者さんのお話です。",
       "body": [
         {
           "kind": "text",
-          "text": "先日、70代の患者さんが「相談したいことがあって」と来院されました。特定健診の結果を見せていただくと、コレステロールも血圧も「異常なし」の判定です。ただ、正常範囲の中でもやや上限寄りの数値が、ここ数年続いていました。"
+          "text": "以前診療していた、70代のある患者さんが「相談したいことがあって」と来られたことがあります。特定健診の結果を見せていただくと、コレステロールも血圧も「異常なし」の判定です。ただ、正常範囲の中でもやや上限寄りの数値が、ここ数年続いていました。"
         },
         {
           "kind": "text",
@@ -2519,11 +2519,11 @@ export const generatedPosts: BlogPost[] = [
     "en": {
       "category": "Health and prevention",
       "title": "Your checkup came back \"normal, but at the upper edge\" — what does that mean?",
-      "excerpt": "My friends have started taking medication, so do I need to as well — a patient in her 70s came in with exactly that worry, even though her checkup had come back with no abnormalities.",
+      "excerpt": "My friends have started taking medication, so do I need to as well — a patient in her 70s I once treated came to me with exactly that worry, even though her checkup had come back with no abnormalities.",
       "body": [
         {
           "kind": "text",
-          "text": "A patient in her 70s came in recently, saying she had something she wanted to talk about. When I looked at her health checkup results, both her cholesterol and blood pressure were within the \"normal\" range. Still, the numbers had been sitting near the upper edge of normal for a few years running."
+          "text": "A patient in her 70s I once treated came to me, saying she had something she wanted to talk about. When I looked at her health checkup results, both her cholesterol and blood pressure were within the \"normal\" range. Still, the numbers had been sitting near the upper edge of normal for a few years running."
         },
         {
           "kind": "text",
