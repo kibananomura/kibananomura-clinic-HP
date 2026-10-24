@@ -135,6 +135,17 @@ export const DISEASES: DiseaseEntry[] = [
     tip: "コレステロールは血管の壁を傷めるだけでなく、__細胞膜やホルモンの材料__としても欠かせないものです。大切なのは「ゼロにする」ことではなく、ご自身のリスクに合った**適正なバランス**を保つことです。数値が高いと言われたら、まずは一度ご相談ください。症状がなくても定期的に調べておくことが、将来の安心につながります。",
     sources: [{ label: "日本動脈硬化学会「動脈硬化性疾患予防ガイドライン2022年版」" }],
     lastReviewed: "2026-10-10",
+    en: {
+      title: "Dyslipidemia",
+      summary: "An imbalance in blood lipids such as LDL cholesterol and triglycerides. Since it has no symptoms while atherosclerosis quietly progresses, **early detection at a checkup and ongoing management** are important.",
+      pathology:
+        "An imbalance among blood lipids such as LDL cholesterol, triglycerides (TG), and HDL cholesterol. The typical diagnostic thresholds are **LDL cholesterol 140mg/dl or higher, fasting triglycerides 150mg/dl or higher, or HDL cholesterol below 40mg/dl** (any one of these). The main problem is that __lipids build up in the artery walls and atherosclerosis progresses__ with almost no pain or other symptoms; if it advances, the risk of heart attack and stroke rises. The periods that call for extra attention differ by age and sex — for example, cholesterol tends to rise after menopause due to hormonal changes.",
+      tests:
+        "Blood tests check LDL cholesterol, HDL cholesterol, triglycerides, and non-HDL cholesterol (total cholesterol minus HDL). Because triglycerides are easily affected by food, they're generally evaluated with a **fasting blood draw**. We also check blood sugar, blood pressure, and liver function alongside **other risk factors related to atherosclerosis** (diabetes, hypertension, smoking, family history, etc.) to judge your overall risk.",
+      treatment:
+        "Treatment isn't based on the numbers alone — it's decided individually based on __your overall risk, including age, other conditions, and any history of atherosclerotic disease__. For those with no history of heart attack or stroke (primary prevention), the target is often an LDL cholesterol below roughly 120–160mg/dl depending on risk; for those with a history (secondary prevention), the goal is stricter — **below 100mg/dl** (sometimes below 70mg/dl). In both cases, diet (watching fat and carbohydrate intake, favoring vegetables and fish) and exercise form the foundation. If lifestyle changes alone aren't enough to reach target, or if LDL cholesterol is 180mg/dl or higher, **medication is considered regardless of overall risk level**. For older patients, we manage things at a comfortable pace, weighing the medication's benefit against physical burden and interactions with other medications.",
+      tip: "Cholesterol doesn't just damage artery walls — it's also __an essential building block for cell membranes and hormones__. The goal isn't to eliminate it, but to maintain **the right balance** for your own risk level. If you've been told your numbers are high, please come talk to us. Checking periodically even without symptoms is an investment in your future peace of mind.",
+    },
   },
   {
     slug: "diabetes",
@@ -155,6 +166,17 @@ export const DISEASES: DiseaseEntry[] = [
       },
     ],
     lastReviewed: "2026-10-10",
+    en: {
+      title: "Diabetes",
+      summary: "A condition where insulin function declines and blood sugar stays chronically elevated.",
+      pathology:
+        "A condition where insulin function declines and blood sugar stays chronically elevated. In the early stages there are almost no symptoms, and many people first learn of it through a checkup. Left untreated, it can lead to small-vessel complications (retinopathy, kidney disease, nerve damage) and large-vessel complications (heart attack, stroke). Diagnosis typically uses **① fasting blood glucose 126mg/dl or higher, ② a 2-hour value of 200mg/dl or higher on a 75g oral glucose tolerance test, ③ a random blood glucose of 200mg/dl or higher, and ④ HbA1c 6.5% or higher** — generally requiring one of ①–③ together with ④ (__never judging from a single reading alone__).",
+      tests:
+        "Blood tests (blood glucose, HbA1c, lipids, kidney and liver function, etc.) and urine tests (glucose, protein, ketones), along with checking weight and blood pressure. It's also important to periodically check __for complications__ — an eye exam for retinopathy, a urine albumin test for kidney disease, a neurological exam (numbness, sensation checks), and an ECG.",
+      treatment:
+        "Diet and exercise therapy (walking, ideally aiming for around 8,000–9,000 steps a day) usually forms the foundation; if that isn't enough, we consider oral medications or injectable treatments. The general target for blood sugar control is **HbA1c below 7.0%**, though this varies considerably based on age, hypoglycemia risk, and other conditions — a more lenient target (such as below 8.0%) may be appropriate for some. Managing **other lifestyle-related conditions** — blood pressure (target below 130/80mmHg at the clinic, below 125/75mmHg at home) and LDL cholesterol — is also important for preventing complications. The type and intensity of medication is judged individually based on kidney function and cardiovascular status, working with specialist institutions as needed.",
+      tip: "HbA1c reflects your average blood sugar over the past 1–2 months and is less affected by what you ate that day. Because diabetes can progress with few symptoms, __even if your numbers look stable, please don't stop your visits or medication on your own judgment__ — continuing regular check-ups and complication screening is recommended.",
+    },
   },
   {
     slug: "gallstones",
@@ -175,6 +197,17 @@ export const DISEASES: DiseaseEntry[] = [
       },
     ],
     lastReviewed: "2026-10-12",
+    en: {
+      title: "Gallstones",
+      summary: "Stones that form in the gallbladder and can cause abdominal pain and other symptoms, though many people have no symptoms at all.",
+      pathology:
+        "A general term for conditions caused by stones (gallstones) forming in the gallbladder or bile ducts. __Cholesterol stones are by far the most common type__, with risk factors including a high-fat diet, obesity, being female, pregnancy, and rapid weight loss. Many gallstones are found incidentally and cause no symptoms (\"silent gallstones\"), but __if a stone blocks the outlet of the gallbladder, it can cause pain in the upper right abdomen to the pit of the stomach__ (biliary colic), typically after eating — especially a fatty meal.",
+      tests:
+        "__Abdominal ultrasound__ is useful for diagnosing gallstones and is available at our clinic. We combine this with blood tests (liver function, inflammation markers) and CT as needed to check for complications such as cholecystitis or cholangitis.",
+      treatment:
+        "__Silent, symptom-free gallstones are usually simply monitored over time__. If colic episodes recur, or if a complication like cholecystitis develops, **laparoscopic gallbladder removal** is considered the standard treatment. If surgery is needed, we refer you to a partner institution.",
+      tip: "If you recognize the pattern of __\"upper right abdominal pain after a fatty meal,\"__ gallstones may be involved. If symptoms recur, or if you develop fever or jaundice (yellowing of the skin or whites of the eyes), please come in soon, as these can signal a complication.",
+    },
   },
   {
     slug: "cholecystitis",
@@ -195,6 +228,17 @@ export const DISEASES: DiseaseEntry[] = [
       },
     ],
     lastReviewed: "2026-10-12",
+    en: {
+      title: "Cholecystitis (acute cholecystitis)",
+      summary: "Usually caused by a gallstone, this is inflammation of the gallbladder, which can progress to needing emergency surgery.",
+      pathology:
+        "A state of inflammation inside the gallbladder, typically caused by a gallstone blocking its outlet. __Persistent pain in the upper right abdomen to the pit of the stomach, together with fever,__ is characteristic — think of it as biliary colic that hasn't settled and has worsened. If it progresses, it can lead to a serious condition (severe cholecystitis) where __the gallbladder becomes necrotic or pus spreads to surrounding tissue__.",
+      tests:
+        "__Abdominal ultrasound__ (checking for thickening of the gallbladder wall, etc.), along with blood tests (inflammation markers, liver function) and CT to assess severity and how far the inflammation has spread. __Murphy's sign__ (pain that stops your breath when the right upper abdomen is pressed with the ultrasound probe during a deep breath) is also a useful diagnostic clue.",
+      treatment:
+        "Once diagnosed, we start **fasting, IV fluids, and antibiotic treatment**, while __early laparoscopic gallbladder removal__ is recommended as the standard treatment. If early surgery isn't feasible due to overall condition, __a drainage procedure to insert a tube into the gallbladder to remove the pus__ may be done first, with surgery once the inflammation has settled. As soon as a diagnosis is made, we promptly refer you to a partner institution capable of inpatient treatment and surgery.",
+      tip: "If you have known gallstones and develop __strong upper right abdominal pain plus fever__, this may indicate progression to cholecystitis. Please don't just manage it with painkillers on your own — come in soon.",
+    },
   },
   {
     slug: "ureteral-stone",
@@ -215,6 +259,17 @@ export const DISEASES: DiseaseEntry[] = [
       },
     ],
     lastReviewed: "2026-10-12",
+    en: {
+      title: "Ureteral stones (urinary tract stones)",
+      summary: "A stone that forms in the kidney and gets lodged in the ureter, causing sudden severe abdominal and lower-back pain.",
+      pathology:
+        "This occurs when a stone that formed in the kidney (a urinary tract stone) moves into the ureter and becomes lodged. __When the stone blocks the flow of urine, pressure builds up in the kidney (hydronephrosis), causing sudden, severe pain in the lower back to lower abdomen__ (renal colic). The pain is often __so intense you can't stay still, and comes in waves__, sometimes with blood in the urine. __It's somewhat more common in men and known for recurring throughout a person's life.__",
+      tests:
+        "In addition to history-taking, a physical exam, and a urine test (checking for blood), __abdominal ultrasound and CT__ confirm the presence, location, and size of the stone. __CT is considered the most useful test for finding stones.__",
+      treatment:
+        "__For small stones, the usual approach is to wait for natural passage__ while encouraging fluid intake and using pain relievers and medications that help the stone pass (such as alpha-1 blockers). If the stone is large, pain is severe, or there's infection or declining kidney function, __extracorporeal shock wave lithotripsy (ESWL) or endoscopic treatment__ may be needed, and we refer you to an institution capable of specialized treatment.",
+      tip: "__Anyone who has had a urinary stone once is known to be more likely to get another.__ Drinking more water and reviewing your diet (watching excess salt and animal protein) can help prevent recurrence. If you have sudden, severe lower back pain, please come in soon.",
+    },
   },
   {
     slug: "acute-cystitis",
@@ -233,6 +288,16 @@ export const DISEASES: DiseaseEntry[] = [
       },
     ],
     lastReviewed: "2026-10-12",
+    en: {
+      title: "Acute cystitis",
+      summary: "A bladder infection caused by bacteria, causing frequent urination, pain on urination, and similar symptoms. It's more common in women.",
+      pathology:
+        "Usually caused by __bacteria such as E. coli entering the bladder through the urethra__. Women are more prone to infection than men because of a shorter urethra. Characteristic symptoms include __frequent urination, pain on urination (especially toward the end), a feeling of incomplete emptying, and cloudy urine__. __If fever or lower-back pain develops, this may indicate progression to pyelonephritis__ (infection spreading up to the kidney), which needs attention.",
+      tests: "A urine test (checking for white blood cells and bacteria) is the basic test. A urine culture may be done as needed to identify the causative bacteria and guide treatment.",
+      treatment:
+        "__Oral antibiotics__ are the standard treatment, and symptoms usually improve within a few days. __Increasing fluid intake__ also helps by promoting urination and supporting recovery. Even once symptoms improve, finishing the full prescribed course is important for preventing recurrence.",
+      tip: "__\"Just toughing it out\" and leaving it untreated can allow it to progress to pyelonephritis, with fever and other whole-body symptoms.__ If you have frequent urination or pain on urination, please come in soon.",
+    },
   },
   {
     slug: "chronic-cystitis",
@@ -251,6 +316,16 @@ export const DISEASES: DiseaseEntry[] = [
       },
     ],
     lastReviewed: "2026-10-12",
+    en: {
+      title: "Chronic cystitis (recurring or persistent bladder infection)",
+      summary: "Bladder infections that keep recurring, or symptoms that drag on. In postmenopausal women and in men, understanding the underlying cause matters even more.",
+      pathology:
+        "This refers to acute cystitis that __keeps recurring, or doesn't fully resolve and drags on__. Postmenopausal women are known to be __more prone to recurrence because declining estrogen weakens the mucosal lining's resistance__. Cystitis in men is often treated as \"complicated cystitis\" involving an underlying condition such as enlarged prostate, so __searching for an underlying cause__ is important. __A separate condition called \"interstitial cystitis,\" where bladder symptoms occur without any detectable bacteria,__ can sometimes be the real issue.",
+      tests: "A urine test and urine culture, plus, __for recurring cases, an evaluation of underlying conditions__ (ultrasound measurement of residual urine, prostate assessment, etc.).",
+      treatment:
+        "__Antibiotic treatment__ targeted to the causative bacteria is the basis, alongside __treating any underlying condition__ (such as enlarged prostate) if present. __When symptoms persist despite the infection clearing on tests, adding a kampo (traditional Japanese herbal) medicine such as choreito__ is sometimes used as an option. If a distinct condition like interstitial cystitis is suspected, we consider referral to a specialist institution.",
+      tip: "Cystitis in men, or cystitis that keeps recurring after menopause, __may not be a simple infection — something else may be behind it__. Rather than assuming it's \"the usual cystitis,\" it's worth getting a thorough evaluation.",
+    },
   },
   {
     slug: "bph",
@@ -272,6 +347,17 @@ export const DISEASES: DiseaseEntry[] = [
       },
     ],
     lastReviewed: "2026-10-14",
+    en: {
+      title: "Benign prostatic hyperplasia (enlarged prostate)",
+      summary: "More trips to the bathroom at night, a weaker urine stream... A condition many middle-aged and older men experience, with plenty of treatment options.",
+      pathology:
+        "With age, __the prostate, located near the bladder outlet, enlarges__, __narrowing the urinary passage and causing a range of urinary symptoms__ (lower urinary tract symptoms). Typical symptoms include __needing to urinate multiple times at night (nocturia), a weak stream, taking a while for urine to start, and a feeling of incomplete emptying__. It's extremely common — __most men over 60 have some degree of symptoms__. __In advanced cases, it can cause \"urinary retention,\" a complete inability to urinate.__",
+      tests:
+        "We assess severity using __the International Prostate Symptom Score (IPSS), a standard questionnaire__, and check __prostate size and residual urine with abdominal ultrasound__. __A blood test (PSA) to distinguish from prostate cancer__ is also typically done.",
+      treatment:
+        "**Oral medication (alpha-1 blockers, 5-alpha reductase inhibitors, etc.)** is the mainstay, and __most people's symptoms can be controlled with medication__. If overactive bladder symptoms are also present, __an overactive bladder medication may be added__. __If medication isn't effective enough, or urinary retention keeps recurring__, we refer you to __a specialist institution capable of surgical treatment__ (such as endoscopic prostate resection).",
+      tip: "__Many people simply put up with more frequent nighttime bathroom trips, assuming it's \"just age,\"__ but __left untreated, it can progress to problems like urinary retention__. __The IPSS questionnaire alone can give you a rough sense of how severe your symptoms are__, so if you notice __\"waking to urinate twice or more a night\" or \"a weaker stream than before,\"__ please come talk to us. __With plenty of treatment options available,__ there's no need to simply endure it — getting help can genuinely improve your quality of life.",
+    },
   },
   {
     slug: "community-acquired-pneumonia",
@@ -292,6 +378,17 @@ export const DISEASES: DiseaseEntry[] = [
       },
     ],
     lastReviewed: "2026-10-12",
+    en: {
+      title: "Community-acquired pneumonia",
+      summary: "Pneumonia caught in the course of everyday life. It can start with cold-like symptoms such as fever, cough, and phlegm, so assessing severity matters.",
+      pathology:
+        "Pneumonia that develops from infection acquired in everyday life, outside hospitals or care facilities, is called __community-acquired pneumonia__. It's often caused by bacteria or other organisms such as __Streptococcus pneumoniae, Haemophilus influenzae, and Mycoplasma__, and can start with cold-like symptoms — __fever, cough, phlegm, fatigue__ — but differs in that it may __involve shortness of breath or worsen rapidly__. Older adults and those with underlying conditions are more prone to severe disease.",
+      tests:
+        "__Chest X-ray__ checks for the presence and extent of pneumonia, and blood tests assess inflammation and overall condition. Rapid antigen tests (for pneumococcus, mycoplasma, etc.) may be used as needed to identify the cause.",
+      treatment:
+        "__Deciding on treatment starts with assessing severity.__ For mild to moderate cases where overall condition is stable, __outpatient antibiotic treatment with monitoring__ is often possible, but __if severity is high or breathing is unstable, inpatient treatment is needed__, and we refer you to a partner institution.",
+      tip: "Some cases worsen while being dismissed as \"just a cold.\" If you have __a persistent high fever, shortness of breath, or symptoms that suddenly worsen__, please come in soon.",
+    },
   },
   {
     slug: "aspiration-pneumonia",
@@ -311,6 +408,16 @@ export const DISEASES: DiseaseEntry[] = [
       },
     ],
     lastReviewed: "2026-10-12",
+    en: {
+      title: "Aspiration pneumonia",
+      summary: "Pneumonia caused by food, saliva, or other material accidentally entering the airway (aspiration), seen most often in older adults.",
+      pathology:
+        "Pneumonia that occurs when food, drink, or saliva __accidentally enters the windpipe and lungs instead of the esophagus__ (aspiration). It's common in people whose __swallowing function has declined__ due to age or after a stroke, and can sometimes show up as vague, non-specific symptoms — __\"seeming a bit off\" or loss of appetite__ — rather than a clear fever or cough. __It's also prone to recurring.__",
+      tests: "Chest X-ray and blood tests assess the presence and severity of pneumonia. __An assessment of swallowing function__ (such as a water-swallowing test) may also be done to check aspiration risk.",
+      treatment:
+        "Alongside __antibiotic treatment__, it's important to combine measures to __prevent aspiration__ — __oral care (keeping the mouth clean), adjusting food texture (such as thickening liquids), and swallowing rehabilitation__. Severe cases require inpatient treatment, and we refer you to a partner institution.",
+      tip: "__Coughing more often while eating, or taking longer to eat__ can be signs of declining swallowing function. Because aspiration pneumonia __tends to recur__, regular oral care and adjustments to meals help prevent it. If you notice concerning changes, please come in soon.",
+    },
   },
   {
     slug: "overactive-bladder",
@@ -330,6 +437,16 @@ export const DISEASES: DiseaseEntry[] = [
       },
     ],
     lastReviewed: "2026-10-12",
+    en: {
+      title: "Overactive bladder (OAB)",
+      summary: "A sudden, strong urge to urinate that's hard to hold. It becomes more common with age, but treatment can genuinely help.",
+      pathology:
+        "A condition involving __a sudden, strong urge to urinate (urgency) that's hard to hold__, sometimes with __frequent urination or leakage before reaching the bathroom (urge incontinence)__. Besides age-related changes in bladder function, underlying causes can include __enlarged prostate in men or a weakened pelvic floor in women__. __It isn't life-threatening, but it's known to significantly affect quality of life.__",
+      tests: "History-taking (checking frequency and severity of symptoms), plus a urine test to rule out infection and other causes. __Abdominal ultrasound to measure residual urine__ may also be used to assess urination.",
+      treatment:
+        "__Behavioral therapy — bladder training (practicing holding slightly longer when you feel the urge) and pelvic floor exercises__ — is typically the first step. If that isn't enough, we consider medication such as __anticholinergics or beta-3 agonists__. If enlarged prostate is an underlying factor in men, we treat that as well.",
+      tip: "__Many people simply write this off as \"just age,\"__ but __treatment can genuinely help__. If it's affecting your life — for instance, avoiding going out because you're worried about finding a bathroom — please come talk to us.",
+    },
   },
   {
     slug: "insomnia",
@@ -350,6 +467,17 @@ export const DISEASES: DiseaseEntry[] = [
       },
     ],
     lastReviewed: "2026-10-12",
+    en: {
+      title: "Insomnia",
+      summary: "Trouble falling asleep, waking in the night, and similar symptoms that persist and interfere with daytime life. The right approach depends on what's behind it.",
+      pathology:
+        "Insomnia refers to persistent __difficulty falling asleep, waking repeatedly during the night, waking too early in the morning, or not feeling rested even after sleeping__, __to the point that it interferes with daytime life__ — daytime sleepiness, poor concentration, and so on. It has many possible backgrounds, including __stress, disrupted daily rhythms, aging, other conditions (sleep apnea, depression, painful conditions, etc.), or medication side effects__.",
+      tests:
+        "Detailed history-taking about __the pattern of insomnia, its course, and lifestyle habits__ is the basis of diagnosis. __If sleep apnea or another underlying condition is suspected__, we run the necessary tests (blood work, etc.) and may prioritize treating that underlying cause.",
+      treatment:
+        "__Sleep hygiene guidance__ (reviewing daily rhythm, bedroom environment, caffeine and alcohol habits, etc.) is the usual starting point. If that isn't enough, we consider __medication (sleep aids)__, but __prolonged, open-ended use is avoided — treatment is planned with eventual dose reduction or discontinuation in mind once symptoms improve__. __Older patients face a higher risk of medication side effects (unsteadiness, falls, etc.),__ so medication choice requires particular care.",
+      tip: "__\"Can't sleep\" isn't always just a lifestyle issue — another condition can sometimes be behind it.__ Before continuing to rely on over-the-counter sleep aids on your own, talking it over with us can help identify and address the underlying cause.",
+    },
   },
   {
     slug: "stomatitis",
@@ -370,6 +498,17 @@ export const DISEASES: DiseaseEntry[] = [
       },
     ],
     lastReviewed: "2026-10-12",
+    en: {
+      title: "Mouth ulcers (aphthous stomatitis)",
+      summary: "Painful ulcers in the mouth. Besides standard treatments like steroid ointment, a kampo (herbal) mouth rinse is also an option.",
+      pathology:
+        "Stomatitis is a general term for inflammatory ulcers on the oral mucosa. The most common type is __aphthous stomatitis__ — shallow, round to oval ulcers with clear borders, usually on the inner cheek, inside of the lip, or edge of the tongue. Triggers are thought to include trauma (biting the cheek), fatigue or stress, lack of sleep, nutritional deficiencies (vitamins, iron, etc.), and immune changes, but __many cases recur without a clear identifiable cause__, known as \"chronic recurrent aphthae.\" Most heal on their own within one to two weeks, but if an ulcer **doesn't heal within two weeks, keeps recurring in the same way, or is unusually large and deep**, we may need to rule out other conditions (oral cancer, Behçet's disease, inflammatory bowel disease, etc.).",
+      tests:
+        "Most cases can be diagnosed by visual examination. __If healing is poor, recurrence is frequent, or the ulcer is large,__ blood tests may be done to check for deficiencies (iron, B vitamins, zinc, etc.) or an underlying systemic condition.",
+      treatment:
+        "The standard approach is applying a __steroid oral ointment or patch__ to reduce inflammation, with a mouth rinse or pain reliever added if pain is significant. There's also a lesser-known option beyond standard treatment: **the kampo medicine hangeshashinto**. It's officially indicated for stomatitis and has a distinctive use — __not just taken orally, but dissolved in hot water and used as a mouth rinse (gargle) directly on the affected area__. In a Japanese comparative trial involving stomatitis caused by chemotherapy for colorectal cancer, the group using hangeshashinto had a shorter duration of Grade 2+ stomatitis compared to placebo, and __it's sometimes used as one option for ordinary stomatitis as well__. That said, large comparative trials specifically on typical aphthous stomatitis are limited, so it's best thought of as __an option to combine with standard treatment__.",
+      tip: "__If an ulcer doesn't heal within two weeks, keeps appearing in different spots, is large and deep, or comes with whole-body symptoms like weight loss or diarrhea,__ it's worth checking for another underlying condition. Hangeshashinto doesn't suit everyone's constitution (it can cause swelling, raised blood pressure, etc. in some people), so __if you're interested, please talk to us before trying an over-the-counter version on your own.__",
+    },
   },
   {
     slug: "appendicitis",
@@ -394,6 +533,17 @@ export const DISEASES: DiseaseEntry[] = [
       },
     ],
     lastReviewed: "2026-10-12",
+    en: {
+      title: "Appendicitis (acute appendicitis)",
+      summary: "Inflammation of the appendix, a small organ near the cecum, which can progress to needing emergency surgery.",
+      pathology:
+        "The **appendix** is a thin, pouch-like organ extending from the cecum; __appendicitis (commonly called \"having your appendix\")__ is inflammation there. It's thought to mainly occur when the appendix opening is blocked by a hardened piece of stool (a fecalith) or swollen lymphatic tissue, allowing bacteria to multiply inside. The classic course is __pain starting around the pit of the stomach or navel, then migrating to the lower right abdomen over time__, though __children, older adults, and pregnant women may not follow this typical pattern__, so care is needed. If it progresses, the appendix can rupture, leading to the serious condition of peritonitis.",
+      tests:
+        "History-taking and examination (checking for tenderness in the lower right abdomen), combined with __blood tests (checking inflammation markers), abdominal ultrasound, and CT__. Ultrasound is typically used first, with CT added if findings are unclear or perforation is suspected.",
+      treatment:
+        "Depending on severity, __conservative treatment with antibiotics__ can resolve mild cases, but **surgery (appendectomy)** is the standard treatment in most cases, with __laparoscopic surgery__ now widely used. If an abscess has formed, antibiotics may be used first to calm the inflammation, with the appendix removed later (\"interval appendectomy\"). __Conservative treatment alone carries a risk of recurrence.__ If surgery is needed, we promptly refer you to a partner institution.",
+      tip: "If you have __worsening lower right abdominal pain, fever, or pain that has shifted location,__ please don't wait and see — come in soon. Because it can progress to needing emergency surgery, __coming in early is the safer choice__ rather than waiting to see how things develop.",
+    },
   },
   {
     slug: "terminal-ileitis",
@@ -413,6 +563,17 @@ export const DISEASES: DiseaseEntry[] = [
       },
     ],
     lastReviewed: "2026-10-12",
+    en: {
+      title: "Terminal ileitis",
+      summary: "A term describing inflammation found at the end of the small intestine (terminal ileum). It can cause symptoms similar to appendicitis, so identifying the underlying cause matters.",
+      pathology:
+        "\"Terminal ileitis\" __isn't the name of one specific disease — it's a term describing inflammation seen at the end of the small intestine (the terminal ileum)__. It can cause __lower right abdominal pain and fever similar to appendicitis__, and is often first discovered through imaging or endoscopy. Possible underlying causes include __bacterial infections such as Yersinia (infectious enteritis), Crohn's disease (an inflammatory bowel disease), intestinal tuberculosis, and intestinal Behçet's disease__ — **identifying which condition is responsible is key to deciding treatment.**",
+      tests:
+        "History-taking (overseas travel, eating raw or undercooked meat, course of symptoms) plus __blood tests, stool culture, abdominal ultrasound, and CT__. The pattern of lymph node swelling and distribution of the lesion offer clues to the cause. __Colonoscopy with biopsy__ may be used as needed to help distinguish inflammatory bowel disease from other causes.",
+      treatment:
+        "__When infectious enteritis (such as Yersinia infection) is the cause, symptomatic treatment or antibiotics usually lead to improvement.__ On the other hand, __if an inflammatory bowel disease like Crohn's disease turns out to be the cause, a long-term treatment plan is needed__, so we work with institutions capable of specialized evaluation and treatment. If symptoms are severe and hard to distinguish from appendicitis, emergency surgery may sometimes be necessary.",
+      tip: "__Lower right abdominal pain isn't always due to appendicitis.__ Even with similar symptoms, treatment differs greatly depending on the cause. Rather than guessing, a careful workup to find the actual cause is the shortest path to the right treatment.",
+    },
   },
   {
     slug: "ischemic-colitis",
@@ -433,6 +594,17 @@ export const DISEASES: DiseaseEntry[] = [
       },
     ],
     lastReviewed: "2026-10-12",
+    en: {
+      title: "Ischemic colitis",
+      summary: "A condition where temporarily reduced blood flow to the colon causes inflammation or ulcers, more common in constipation-prone, middle-aged and older people.",
+      pathology:
+        "A condition where blood flow to the colon temporarily drops (ischemia) for some reason, causing inflammation or ulcers in the lining. Alongside vascular factors like atherosclerosis, __increased pressure within the bowel from constipation, laxative use, or heavy straining__ is a known trigger. The typical course is __pain on the left side of the abdomen, followed by diarrhea and bloody stool__. Based on how it progresses, it's classified into three types — __transient (the most common, usually resolving on its own), stenotic, and gangrenous__ — with the gangrenous type being a serious condition where the bowel tissue dies and emergency surgery is needed.",
+      tests:
+        "History-taking and examination, plus __CT, which is important for initial diagnosis__ and shows characteristic segmental inflammation on the left side of the colon. A colonoscopy may also be used to directly observe the affected area as needed.",
+      treatment:
+        "The __transient type, which accounts for most cases, usually resolves on its own with conservative treatment that rests the bowel__ (fasting, IV fluids), with food reintroduced gradually as symptoms improve. For the __stenotic type__, endoscopic treatment or elective surgery may be considered depending on symptoms, and the **gangrenous type (where bowel tissue has died) is a serious condition requiring emergency surgery**. Recurrence happens at a certain rate, making __management of constipation__ important for prevention as well.",
+      tip: "This condition tends to occur in __middle-aged and older people who are prone to constipation.__ If you have sudden left-sided abdominal pain followed by diarrhea or bloody stool, please don't assume it's bleeding from hemorrhoids — come in soon. Most cases resolve with conservative treatment, but because __the severe type rarely needs emergency surgery,__ early evaluation matters.",
+    },
   },
   {
     slug: "common-cold",
@@ -453,6 +625,17 @@ export const DISEASES: DiseaseEntry[] = [
       },
     ],
     lastReviewed: "2026-10-12",
+    en: {
+      title: "Common cold syndrome (cold / upper respiratory infection)",
+      summary: "\"Cold,\" \"common cold,\" and \"upper respiratory infection\" all refer to essentially the same condition. It's mainly caused by viruses, and symptoms vary widely from person to person.",
+      pathology:
+        "__Cold syndrome, the common cold, and upper respiratory infection (acute upper respiratory tract infection) all refer to essentially the same condition, just with different names.__ \"Common cold\" is the formal medical term, \"cold\" is the everyday name, and \"upper respiratory infection\" is the clinical classification covering infections anywhere from the nose to the throat (the upper airway). Most cases are caused by viral infections — __rhinovirus, coronavirus, RSV, and others__ — causing inflammation of the nasal and throat lining. Japan's Ministry of Health, Labour and Welfare's guide to appropriate antimicrobial use classifies acute respiratory infections into **four types: the common cold, acute sinusitis, acute pharyngitis, and acute bronchitis**, of which the common cold is the most frequent and broadest. Symptoms are genuinely varied — __some people mainly get a runny or stuffy nose, others mainly a sore throat, others mainly a cough, and others mainly whole-body symptoms like fever and fatigue__ — depending on the virus and the individual.",
+      tests:
+        "Diagnosis is often made without testing when the course and findings are typical, but __when distinguishing from a more serious infection (pneumonia, influenza, COVID-19, etc.) is necessary,__ we may run blood tests, rapid antigen tests, or a chest X-ray.",
+      treatment:
+        "**Because the cause is viral, antibiotics aren't effective and aren't generally used.** Treatment centers on rest, fluids, nutrition, and __symptomatic treatment to ease symptoms__ (fever/pain relievers, expectorants, medication for nasal symptoms, etc.). Most cases __resolve naturally within about a week__, but if symptoms drag on or worsen, we reassess for complications (sinusitis, bronchitis, pneumonia) or other conditions like influenza or COVID-19.",
+      tip: "People often assume it's \"just a cold\" and wait it out, but if you have __a fever of 39°C or higher lasting 3 days or more, difficulty breathing, or symptoms that suddenly worsen,__ it's worth checking for a hidden complication like pneumonia. Also, **antibiotics have no effect on a cold itself**, and requesting them or taking them incompletely on your own judgment can increase the risk of antibiotic-resistant bacteria. If you have symptoms that concern you, please don't hesitate to ask.",
+    },
   },
   {
     slug: "thyroid",
@@ -493,6 +676,37 @@ export const DISEASES: DiseaseEntry[] = [
       },
     ],
     lastReviewed: "2026-10-09",
+    en: {
+      title: "Thyroid conditions",
+      summary: "When the thyroid is overactive or underactive, it can cause a range of symptoms throughout the body.",
+      pathology:
+        "When the thyroid becomes overactive (hyperthyroidism) or underactive (hypothyroidism), it can cause a range of symptoms throughout the body. **Graves' disease and Hashimoto's disease** are the two most common causes, but there are others, and blood tests are needed to tell them apart.",
+      tests:
+        "Blood tests (thyroid hormones, thyroid autoantibodies, etc.), visual and physical examination of the neck, and **neck ultrasound, which we also perform in-house**.",
+      treatment:
+        "For **benign thyroid conditions (Graves' disease, Hashimoto's disease, etc.)**, we manage your care directly with oral medication suited to the cause (anti-thyroid drugs, thyroid hormone replacement, etc.) and __follow your progress closely here at the clinic__. **If findings raise suspicion of malignancy (thyroid cancer),** we refer you to a specialist institution for further testing and treatment.",
+      tip: "Fatigue, weight changes, and heart palpitations can have causes other than the thyroid, so a blood test is often the first step toward a diagnosis.",
+      subsections: [
+        {
+          title: "Graves' disease (the leading cause of hyperthyroidism)",
+          pathology:
+            "The thyroid releases excess hormone, which tends to cause **a fast heart rate, weight loss, heavy sweating, and hand tremors.**",
+          tests: "Blood tests (thyroid hormones, TRAb, etc.) and an ECG to assess the fast heart rate.",
+          treatment:
+            "Standard treatment options include oral **anti-thyroid medication (MMI [thiamazole] or PTU [propylthiouracil])**, treatment with **potassium iodide** (an inorganic iodine preparation), and **surgery (subtotal thyroidectomy)**. Which approach suits you best varies by severity, side effects, whether you're hoping to become pregnant, and lifestyle — we select and adjust this together with you as we follow your progress.",
+          tip: "Symptoms can be hard to tell apart from \"stress\" or menopause, and are sometimes first noticed through a blood test.",
+        },
+        {
+          title: "Hashimoto's disease (chronic thyroiditis, the leading cause of hypothyroidism)",
+          pathology:
+            "Chronic autoimmune inflammation of the thyroid can cause its function to decline, tending to produce **swelling, weight gain, fatigue, and a slow heart rate.**",
+          tests: "Blood tests (thyroid hormones, anti-TPO antibodies, etc.).",
+          treatment:
+            "If thyroid function has declined, we typically consider **thyroid hormone replacement therapy**. If function is still preserved, monitoring may be all that's needed.",
+          tip: "A diagnosis of Hashimoto's disease doesn't necessarily mean treatment is needed right away — depending on your hormone levels, simply monitoring may be appropriate.",
+        },
+      ],
+    },
   },
   {
     slug: "fatty-liver-disease",
@@ -514,6 +728,17 @@ export const DISEASES: DiseaseEntry[] = [
       },
     ],
     lastReviewed: "2026-10-14",
+    en: {
+      title: "Fatty liver (NAFLD/NASH)",
+      summary: "Being flagged for \"abnormal liver function\" or \"fatty liver\" at a checkup can, if ignored, actually progress all the way to cirrhosis or liver cancer.",
+      pathology:
+        "Fatty liver refers to excess fat buildup in the liver, with __\"non-alcoholic fatty liver disease\" (NAFLD), which occurs in people who drink little alcohol,__ being the most representative type. It's __common in people with underlying lifestyle-related conditions like obesity, diabetes, or dyslipidemia__, and is usually found through __abnormal liver function values (AST, ALT, gamma-GTP) at a checkup or fatty liver noted on ultrasound__ — __there are almost no symptoms__. __Most cases follow a mild course, but some progress to \"non-alcoholic steatohepatitis\" (NASH),__ a type involving inflammation and fibrosis of the liver, and if left untreated, __it can progress all the way to cirrhosis and liver cancer__ — this is the key point.",
+      tests:
+        "We evaluate with __blood tests (liver function, blood sugar, lipids, etc.) and abdominal ultrasound__. Combining these with __a blood-based index for estimating the degree of liver fibrosis/stiffness (such as the FIB-4 index)__ lets us __narrow down in-house whether more detailed testing is needed__.",
+      treatment:
+        "__The foundation of treatment is lifestyle improvement__, and __losing 7% or more of body weight__ is known to be effective for improving the condition of the liver. We work on __diet, an exercise habit, and controlling any coexisting conditions like diabetes or dyslipidemia__ together. __If fibrosis appears advanced or NASH is suspected,__ we may refer you to an institution for specialized evaluation (such as a liver biopsy).",
+      tip: "__Many people leave checkup results unaddressed, thinking \"fatty liver doesn't hurt or itch,\"__ but the frightening part of this condition is that __it progresses quietly with no symptoms__. __If you've been flagged for a lifestyle-related condition at a checkup,__ it's worth checking for fatty liver too, which can also motivate lifestyle changes. __Weight management helps across the board with high blood pressure, diabetes, dyslipidemia, and high uric acid as well,__ so please also make use of our dietary guidance.",
+    },
   },
   {
     slug: "chronic-kidney-disease",
@@ -535,6 +760,17 @@ export const DISEASES: DiseaseEntry[] = [
       },
     ],
     lastReviewed: "2026-10-14",
+    en: {
+      title: "Chronic kidney disease (CKD)",
+      summary: "Have you been overlooking your \"eGFR\" or \"creatinine\" numbers on a checkup? This condition progresses with no symptoms and raises the risk of dialysis and cardiovascular disease.",
+      pathology:
+        "Chronic kidney disease (CKD) refers to chronically reduced kidney function, or __protein leaking into the urine persisting for 3 months or more__. __High blood pressure, diabetes, and aging__ are the main causes, and __there are almost no symptoms in the early stages__ — __it's usually first flagged through protein in the urine at a checkup, or creatinine/eGFR (estimated glomerular filtration rate) on a blood test__. __CKD doesn't just raise the risk of needing dialysis as kidney function worsens further — it also raises the risk of cardiovascular disease like heart attack and stroke__, which is why it's important to understand it's __not \"just a kidney problem.\"__",
+      tests:
+        "We regularly check __blood tests (creatinine, eGFR) and urine tests (protein, occult blood)__. We assess progression risk using __a severity classification combining eGFR and the degree of proteinuria (stages G1–G5, A1–A3)__.",
+      treatment:
+        "**Managing the underlying conditions (high blood pressure, diabetes)** forms the foundation of treatment, and __keeping blood pressure at target, and reducing protein in the urine with ACE inhibitors or ARBs if present,__ are important for slowing the decline in kidney function. We also work on __dietary measures such as reducing salt and reviewing protein intake__. __If kidney function has declined significantly (roughly eGFR below 45, for example),__ we refer you to a nephrologist for specialized treatment and to prepare for possible future dialysis.",
+      tip: "__Dismissing checkup results because \"the numbers are only slightly off\" is especially common with CKD.__ __By the time symptoms appear, it's often already fairly advanced,__ so __if you're being followed for high blood pressure or diabetes, regular kidney function checks should be considered part of your treatment itself.__ We also assess for __anemia related to kidney disease (renal anemia)__ here, managing CKD comprehensively.",
+    },
   },
   {
     slug: "hyperuricemia-gout",
@@ -556,6 +792,17 @@ export const DISEASES: DiseaseEntry[] = [
       },
     ],
     lastReviewed: "2026-10-14",
+    en: {
+      title: "Hyperuricemia and gout",
+      summary: "If uric acid in the blood stays elevated (hyperuricemia), it can lead one day to a sudden, intensely painful gout attack.",
+      pathology:
+        "A blood uric acid level **above 7.0mg/dl** is called hyperuricemia. If it stays elevated, uric acid crystals can build up in the joints, and one day trigger a __\"gout attack\" — sudden, severe pain, swelling, and warmth, typically at the base of the big toe__. Known factors that raise uric acid include __eating a lot of purine-rich food (liver, fish roe, etc.), obesity, alcohol, and fructose-heavy drinks__. Hyperuricemia is also linked to risks beyond gout, including __kidney impairment and urinary stones__.",
+      tests:
+        "A blood test checks uric acid levels. We also assess kidney function (creatinine, etc.) and any history of gout or complications.",
+      treatment:
+        "During an acute gout attack, the priority is easing pain and inflammation with __anti-inflammatory painkillers (NSAIDs), colchicine, or steroids__, and as a rule, __we don't start or change uric-acid-lowering medication during an attack__ (because a sudden change in uric acid levels can actually worsen or prolong the attack). Once the attack settles, the goal is to __keep uric acid below 6.0mg/dl__, generally through lifestyle changes (diet, reducing alcohol, weight management), with uric-acid-lowering medication for long-term management as needed.",
+      tip: "__Stopping your visits or medication on your own judgment just because \"the pain is gone\" can lead to repeated attacks,__ since the underlying hyperuricemia is still there. It often coexists with high blood pressure, diabetes, and dyslipidemia, so __comprehensive management alongside these other conditions__ matters. Please also see our dietary guidance page for tips on eating.",
+    },
   },
   {
     slug: "herpes-labialis",
@@ -577,6 +824,16 @@ export const DISEASES: DiseaseEntry[] = [
       },
     ],
     lastReviewed: "2026-10-14",
+    en: {
+      title: "Cold sores (herpes labialis / HSV)",
+      summary: "Recurring blisters on and around the lips caused by the herpes simplex virus. Starting treatment early makes a real difference in how mild the episode is.",
+      pathology:
+        "**Herpes simplex virus (HSV-1)** infection causes __small blisters clustered on or around the lips__, often with a tingling or prickling sensation. Once infected, the virus continues to lie dormant in nerve tissue even after symptoms clear, and __tends to reactivate repeatedly, triggered by fatigue, fever, UV exposure, or stress__. Many people notice __a tingling warning sign before the blisters actually appear__, and how you respond at this stage matters.",
+      tests: "Most cases are diagnosed by visual examination. If diagnosis is difficult or recurrence is frequent, a viral test on the lesion may be considered.",
+      treatment:
+        "**Antiviral medication (oral or topical)** is the standard treatment. __Timing is key__ — starting treatment as early as possible, right when you feel the tingling warning sign rather than waiting for the blister to appear, is known to reduce both the severity and duration. For people with frequent recurrences, we sometimes offer __a treatment where you start a pre-prescribed medication yourself as soon as you notice the warning sign__.",
+      tip: "__Telling yourself \"it's just my usual cold sore\" and waiting it out can make treatment less effective.__ Keeping medication on hand so you can use it the moment you notice the warning sign is the key to a milder, shorter episode. If you get these frequently, please come talk to us.",
+    },
   },
   {
     slug: "herpes-zoster",
@@ -597,6 +854,16 @@ export const DISEASES: DiseaseEntry[] = [
       },
     ],
     lastReviewed: "2026-10-14",
+    en: {
+      title: "Shingles (herpes zoster)",
+      summary: "A painful rash that spreads in a band on one side of the body. It's caused by reactivation of the chickenpox virus, and it's preventable with a vaccine.",
+      pathology:
+        "This occurs when __the virus from chickenpox caught in childhood, which remains dormant in nerve tissue even after recovery, reactivates__, often triggered by aging, fatigue, or a weakened immune system. It's characterized by __nerve pain — tingling or throbbing — followed by a band of red rash and blisters, along one side of the body (left or right only)__. The rate of occurrence rises after age 50, and __declining immune function with age__ is thought to be the main trigger. If treatment is delayed, it can leave behind __\"post-herpetic neuralgia,\" pain that persists long after the rash has healed__.",
+      tests: "Usually diagnosed visually, based on the characteristic distribution of the rash (one side of the body, following a nerve pathway).",
+      treatment:
+        "**Antiviral medication**, started __as early as possible (ideally within 72 hours of onset)__, helps reduce symptoms and prevent post-herpetic neuralgia. Pain relievers are added if pain is significant. If the rash appears on the face (especially around the eyes or ears), careful evaluation is needed to check for effects on vision or hearing.",
+      tip: "__For those 50 and older, a shingles vaccine__ is an option that can help prevent the condition, or reduce its severity if it does occur. Also, the earlier treatment starts after the rash appears, the less likely nerve pain is to linger — __please don't wait and see on your own judgment; come in soon if tingling pain is accompanied by a rash.__",
+    },
   },
   {
     slug: "rsv-infection",
@@ -618,6 +885,17 @@ export const DISEASES: DiseaseEntry[] = [
       },
     ],
     lastReviewed: "2026-10-14",
+    en: {
+      title: "RSV infection",
+      summary: "A viral infection often covered in the news as a cause of cough, runny nose, and fever in young children. Infants in particular can become severely ill.",
+      pathology:
+        "A respiratory infection caused by **RSV (respiratory syncytial virus)**, starting with cold-like symptoms such as __runny nose, cough, and fever__. It's an extremely common virus — __nearly every child is infected at least once by age 2__ — but the key point is that __especially in infants just a few months old, or children born premature or with underlying heart or lung conditions, it can cause \"bronchiolitis,\" inflammation of the small airways, leading to severe disease with breathing difficulty (wheezing, rapid breathing, chest retractions, etc.)__. It tends to be more common in fall through winter.",
+      tests:
+        "**A rapid antigen test (using a nasal swab)** often allows diagnosis, and we can perform this at our clinic. We assess severity through a chest exam and checking oxygen saturation as needed.",
+      treatment:
+        "There's no specific antiviral medication, so __symptomatic care — fluids and rest — is the basis__. We help make breathing easier with nasal suction or expectorants. If there are signs of severe illness — __labored breathing, inadequate fluid intake, poor color__ — hospitalization for oxygen or IV fluids may be needed, and we promptly refer you to an institution capable of pediatric inpatient care.",
+      tip: "There are cases where __what seemed like \"just a runny nose\" turns into an infant suddenly struggling to breathe__, so persistent cough or runny nose in a young child deserves attention. If you notice __unusual breathing (breathing with the shoulders, flaring nostrils, the skin between the ribs pulling in, etc.),__ please don't wait and see — come in soon.",
+    },
   },
   {
     slug: "human-metapneumovirus-infection",
@@ -637,6 +915,16 @@ export const DISEASES: DiseaseEntry[] = [
       },
     ],
     lastReviewed: "2026-10-14",
+    en: {
+      title: "Human metapneumovirus infection",
+      summary: "A viral infection with symptoms very similar to RSV, tending to spread in early spring.",
+      pathology:
+        "A respiratory infection caused by **human metapneumovirus (hMPV)**, causing __fever, cough, and runny nose__ — symptoms very similar to RSV infection. It's known to __peak in children around ages 3–6, and tends to spread in spring (around March–June)__. Most cases resolve within a few days to a week, but __infants and older adults can develop complications like bronchitis or pneumonia and become severely ill.__",
+      tests: "**A rapid antigen test** often allows diagnosis and is available at our clinic (testing has some age-related conditions).",
+      treatment:
+        "As with RSV, there's no specific antiviral medication, so __symptomatic care — fluids and rest — is the basis__. If symptoms are severe or breathing is a concern, we run the needed tests and procedures and coordinate with other institutions based on severity.",
+      tip: "__Telling it apart from RSV by symptoms alone is difficult — it comes down to what's going around and testing.__ If a young child or older adult has a prolonged cough or fever, or seems to be struggling to breathe, please come in soon.",
+    },
   },
   {
     slug: "streptococcal-pharyngitis",
@@ -656,6 +944,16 @@ export const DISEASES: DiseaseEntry[] = [
       },
     ],
     lastReviewed: "2026-10-14",
+    en: {
+      title: "Strep throat (group A streptococcal pharyngitis)",
+      summary: "A bacterial infection causing a strong sore throat and fever. Antibiotic treatment is needed, and completing it properly prevents complications.",
+      pathology:
+        "An infection with **group A streptococcus (strep)** causing __sudden fever and a strong sore throat__. It's __common in school-age children (around 5–15)__, but adults can get it too. It can come with __a \"strawberry tongue\" (a bumpy, strawberry-like surface) or an itchy rash__, and __a relative lack of cough or runny nose__ is one way it differs from a cold. In children under 3, it may show up as __nasal symptoms, irritability, or poor appetite__ rather than a typical sore throat.",
+      tests: "__A rapid antigen test (swabbing the throat)__ allows diagnosis and is available at our clinic.",
+      treatment:
+        "We treat with **antibiotics (penicillin-type drugs are first choice)**. __Even once symptoms improve, finishing the full prescribed course (usually around 10 days) is important__, because __incomplete treatment carries a risk of complications weeks later, such as acute glomerulonephritis or rheumatic fever__.",
+      tip: "__Stopping medication on your own judgment just because \"the fever is gone\" may not give you full protection against complications.__ Because this infection spreads easily among siblings and family members, __taking precautions at home__ as well brings extra peace of mind.",
+    },
   },
   {
     slug: "mycoplasma-pneumonia",
@@ -677,6 +975,17 @@ export const DISEASES: DiseaseEntry[] = [
       },
     ],
     lastReviewed: "2026-10-14",
+    en: {
+      title: "Mycoplasma pneumonia",
+      summary: "A pneumonia characterized by a persistent, stubborn dry cough. It comes in waves every few years and is most common from school-age children to young adults.",
+      pathology:
+        "A pneumonia caused by **mycoplasma**, an organism with properties somewhere between a bacterium and a virus. It's __common from school age through young adulthood__, and is characterized by __fever followed by a stubborn, dry cough that can persist for a long time (sometimes several weeks)__. It's also notable that __symptoms can feel relatively mild compared to what's heard on exam or seen on chest X-ray__ (sometimes called \"walking pneumonia\"), though it can still become severe. It's known to __spread in waves every few years.__",
+      tests:
+        "History-taking and examination, plus a __chest X-ray__ to check for pneumonia. __A rapid antigen test or blood antibody test__ may also be used to confirm the causative organism.",
+      treatment:
+        "Mycoplasma has the distinctive trait that __the penicillin-type antibiotics typically used for pneumonia don't work against it__, so __specific antibiotics such as macrolides__ are used instead. __Resistance to these drugs has become more common in some mycoplasma strains,__ so we may adjust medication based on how things progress after starting treatment.",
+      tip: "__If a dry cough drags on despite taking cough medicine,__ mycoplasma pneumonia may be the cause. Because it doesn't respond well to typical cold medicine or standard antibiotics, __if a cough lasts more than two weeks, or it's going around in your community,__ please come talk to us.",
+    },
   },
   {
     slug: "influenza",
@@ -697,6 +1006,17 @@ export const DISEASES: DiseaseEntry[] = [
       },
     ],
     lastReviewed: "2026-10-14",
+    en: {
+      title: "Influenza",
+      summary: "A winter-peaking viral infection characterized by a sudden high fever and whole-body fatigue. Even shortly after symptoms start, we can often test and get a result the same day.",
+      pathology:
+        "An infection caused by the **influenza virus**, characterized by __a much more sudden onset than the common cold__. __A sudden fever of 38°C or higher, joint and muscle aches, and strong fatigue__ often appear before nasal or throat symptoms, following a course like __\"fine in the morning, suddenly down with a high fever by midday.\"__ It typically __spreads from around December through March__, though timing can shift. __Older adults, young children, and people with underlying conditions__ can develop complications like pneumonia and become severely ill.",
+      tests:
+        "__A rapid antigen test (using a nasal swab)__ gives a diagnosis quickly, in-house. __Right after onset (within a few hours), the amount of virus may still be too low and give a false negative,__ so __retesting a bit later after symptoms start__ is sometimes needed.",
+      treatment:
+        "We treat with **anti-influenza medication (oral, inhaled, or IV)**. __Starting treatment within 48 hours of onset__ is associated with a shorter fever duration. For __healthy people with mild illness, managing without anti-influenza medication — using fever/pain relievers and getting plenty of rest — is also a reasonable option.__ For __those at higher risk of severe illness (older adults, people with underlying conditions, young children, etc.),__ we more often recommend active medication.",
+      tip: "__Telling yourself \"it's probably just a high fever\" and waiting it out can end up spreading the infection to family and others around you.__ Since __schools and workplaces sometimes ask for a \"negative certificate,\"__ it's worth testing early if you're concerned. __The virus can remain in your body even after the fever breaks, and Japan's School Health and Safety Act sets the guideline for returning to school at \"5 days after onset and 2 days after the fever breaks\" (3 days for young children)__ (see our school infections page for details).",
+    },
   },
   {
     slug: "covid-19",
@@ -716,6 +1036,16 @@ export const DISEASES: DiseaseEntry[] = [
       },
     ],
     lastReviewed: "2026-10-14",
+    en: {
+      title: "COVID-19 (novel coronavirus infection)",
+      summary: "A viral infection causing cold-like symptoms such as fever, sore throat, and cough. There are medication options tailored to your risk of severe illness.",
+      pathology:
+        "An infection caused by **the novel coronavirus (SARS-CoV-2)**, centered on cold-like symptoms — __fever, sore throat, cough, and fatigue__. __It's classified as a Category 5 infectious disease under Japan's Infectious Disease Control Law,__ and most cases are __mild, resolving within a few days to about a week__, but __older adults and people with underlying conditions (diabetes, chronic kidney disease, heart failure, etc.) can develop complications like pneumonia and become severely ill__. It's characterized by __continuing to spread year-round through repeated mutations.__",
+      tests: "__A rapid antigen test__ gives a diagnosis quickly, in-house.",
+      treatment:
+        "__For mild cases, symptomatic treatment with fever/pain relievers and plenty of rest__ is the basis. __For those at higher risk of severe illness, antiviral medication (oral, etc.) started early (usually within 5 days of onset)__ is an option, and __we judge suitability based on underlying conditions, other medications, kidney function, and more.__ __If breathing is difficult or oxygen saturation is low,__ we coordinate with institutions capable of inpatient treatment.",
+      tip: "__It's easy to think \"it's basically just a cold now,\"__ but __if you're older, or living with family members who have underlying conditions, coming in early with severe-illness risk in mind is worthwhile.__ __Japan's School Health and Safety Act sets the guideline for returning to school at \"5 days after onset and 1 day after symptoms ease\"__ (see our school infections page). __Vaccination is known to lower the risk of severe illness,__ and we offer vaccination here as well.",
+    },
   },
   {
     slug: "bacterial-food-poisoning",
@@ -736,6 +1066,17 @@ export const DISEASES: DiseaseEntry[] = [
       },
     ],
     lastReviewed: "2026-10-14",
+    en: {
+      title: "Bacterial food poisoning (Campylobacter, Salmonella, enterohemorrhagic E. coli, etc.)",
+      summary: "Undercooked chicken, insufficiently cooked eggs... An infection caused by food, with a different cause and symptom pattern from viral gastroenteritis.",
+      pathology:
+        "Gastroenteritis caused by bacteria such as **Campylobacter, Salmonella, and enterohemorrhagic E. coli (such as O157)**, often transmitted through __undercooked chicken, eggs, or beef__, with __a different cause and symptom pattern from viral gastroenteritis (norovirus, rotavirus)__. __Campylobacter is mainly caused by raw or undercooked chicken and has a somewhat longer incubation period of 2–7 days.__ __Salmonella is often linked to undercooked eggs or meat, while enterohemorrhagic E. coli (O157, etc.) can cause watery diarrhea followed by severe abdominal pain with bloody stool.__ __Rarely, Campylobacter infection can lead to Guillain-Barré syndrome (limb paralysis) weeks later, and enterohemorrhagic E. coli infection can lead to hemolytic uremic syndrome (HUS)__ — serious complications.",
+      tests:
+        "__A stool culture__ may be done to identify the causative bacteria. __If there's bloody stool or a high fever,__ we run blood tests to assess severity.",
+      treatment:
+        "__Most cases resolve naturally with symptomatic treatment centered on fluid replacement.__ __For enterohemorrhagic E. coli infection, anti-diarrheal medication is avoided because it can worsen symptoms by delaying toxin elimination__ — __the right approach differs depending on the causative bacteria,__ which matters. __For severe cases, bloody stool, or suspected complications,__ we coordinate with institutions capable of inpatient treatment.",
+      tip: "__People tend to lump this together as \"a stomach bug,\" but the precautions differ depending on whether the cause is bacterial or viral.__ If you have __bloody stool, a persistent high fever, or severe symptoms,__ please don't wait and see — come in. __The basics of prevention are thoroughly cooking meat through to the center (75°C core temperature for at least 1 minute), washing hands after handling raw meat, and using separate utensils for raw and cooked food.__ Please take extra care during barbecue and grilling season.",
+    },
   },
   {
     slug: "croup",
@@ -757,6 +1098,17 @@ export const DISEASES: DiseaseEntry[] = [
       },
     ],
     lastReviewed: "2026-10-14",
+    en: {
+      title: "Croup (acute laryngotracheobronchitis)",
+      summary: "A viral throat inflammation common in young children, characterized by a distinctive barking cough and a wheezing sound when breathing in.",
+      pathology:
+        "Viral infection, often with **parainfluenza virus**, causes inflammation from the larynx (around the voice box) down to the trachea, __narrowing the airway__ and producing symptoms. It's __common in infants and young children from about 6 months to 3 years old__, and is characterized by __a distinctive cough,__ often described as sounding like a bark or a seal, along with __a wheezing, whistling sound when breathing in (inspiratory stridor)__. Symptoms tend to __worsen at night and toward early morning__, and fever can occur. Most cases improve within a few days, but __rarely, the airway narrows severely enough to cause real difficulty breathing.__",
+      tests:
+        "Usually diagnosed based on the characteristic cough and inspiratory stridor observed during examination. Breathing status and oxygen saturation are checked to assess severity.",
+      treatment:
+        "**Steroid medication (oral or inhaled)** is thought to reduce airway inflammation and swelling and speed symptom improvement. In severe cases, __inhaled adrenaline__ may be used to temporarily ease airway narrowing. If __breathing difficulty is severe, color is poor, or the child seems listless,__ close inpatient monitoring may be needed, and we promptly refer you to an institution capable of pediatric inpatient care.",
+      tip: "Croup, where __what looks like \"just a cough\" can suddenly worsen at night,__ is one of the more anxiety-inducing conditions for parents. If you notice __the distinctive barking cough or wheezing sound when breathing in,__ coming in while it's still mild can bring peace of mind. Distinguishing it from the more urgent \"acute epiglottitis,\" which has similar symptoms, also matters — __particularly if there's a high fever, excessive drooling, or a muffled voice,__ extra caution is needed.",
+    },
   },
   {
     slug: "impetigo",
@@ -778,6 +1130,17 @@ export const DISEASES: DiseaseEntry[] = [
       },
     ],
     lastReviewed: "2026-10-14",
+    en: {
+      title: "Impetigo (contagious)",
+      summary: "Bacteria entering through a scratched insect bite or rash, spreading over the body in no time — impetigo is a skin infection common in children during summer.",
+      pathology:
+        "A skin infection that occurs when __Staphylococcus aureus or strep bacteria__ enter through a scratched insect bite, heat rash, or eczema. There are two types: **bullous impetigo** (mainly Staph, common in young children), where blisters form and quickly burst, leaving a moist, oozing surface; and **crusted impetigo** (mainly strep), which forms __thick scabs (crusts).__ It's called \"impetigo\" (literally \"flying fire\" in Japanese) because __touching other areas with the hand used to scratch spreads lesions one after another, like sparks jumping__, and it's common in children during the hot, humid summer.",
+      tests:
+        "Usually diagnosed by visual examination of the characteristic rash (the distribution and spread of blisters, erosions, and crusts). __A culture to identify the causative bacteria__ may be done if healing is poor or it keeps recurring.",
+      treatment:
+        "**Antibiotics (topical or oral)** are the mainstay of treatment. __If the lesion is small and limited, a topical antibiotic is used; if it's widespread or not improving with topical treatment, oral antibiotics are used.__ __Covering the affected area with clean gauze__ to prevent scratching also helps. **If there's no improvement after 3 days of treatment,** we consider that a resistant bacterium (such as MRSA) may be involved and review the medication.",
+      tip: "__While treating it on your own with over-the-counter medication, assuming it's \"just a worse insect bite,\"__ it can __spread repeatedly through bathing, shared towels, or contact between siblings.__ __Pools, nurseries, and kindergartens often require covering blisters and erosions until healed,__ so coming in early for the right treatment brings peace of mind for both the child and the family.",
+    },
   },
   {
     slug: "viral-gastroenteritis",
@@ -800,6 +1163,17 @@ export const DISEASES: DiseaseEntry[] = [
       },
     ],
     lastReviewed: "2026-10-14",
+    en: {
+      title: "Viral gastroenteritis (norovirus, rotavirus)",
+      summary: "Viral gastroenteritis causing vomiting and diarrhea. Treatment centers on preventing dehydration, and how you care for it at home strongly affects recovery.",
+      pathology:
+        "Gastroenteritis caused by viruses such as **norovirus and rotavirus**, typically __starting with vomiting, followed by several days of watery diarrhea.__ __Norovirus circulates year-round, especially in winter, affecting all ages,__ while __rotavirus is known for pale, forceful, watery stools__ and is more common in young children. __It's highly contagious — even a tiny amount of virus spreads easily via vomit, stool, hands, and surfaces,__ which is why outbreaks often occur within families or at nurseries and kindergartens.",
+      tests:
+        "Usually diagnosed from the course of symptoms; __a rapid antigen test (using a stool sample)__ may confirm the causative virus as needed. We assess severity by checking __the degree of dehydration (dry mouth, urine frequency, activity level, etc.)__ during examination.",
+      treatment:
+        "__There's no medication that targets the virus itself, so treatment centers on preventing dehydration.__ **Giving small, frequent sips of an oral rehydration solution (a low-osmolarity type like OS-1)** allows most cases to be managed at home. Breastfeeding should continue without interruption, and __reintroducing baby food or regular meals early, once nausea settles,__ is recommended. If __vomiting is severe and no fluids are staying down, the child is listless, or there's no urine for half a day or more,__ dehydration may be significant and IV treatment may be needed — please contact us promptly in that case.",
+      tip: "__People often assume \"anti-diarrheal medicine speeds recovery,\" but for viral gastroenteritis in children, anti-diarrheal medication is actually not recommended__ (it may delay clearing the virus). __Giving fluids in small, frequent amounts__ is the real shortest path to recovery. Also, __thorough handwashing and disinfection when handling vomit or stool (alcohol is less effective — chlorine-based disinfectant works better)__ is key to preventing spread within the household or a group setting.",
+    },
   },
   {
     slug: "iron-deficiency-anemia",
@@ -820,6 +1194,17 @@ export const DISEASES: DiseaseEntry[] = [
       },
     ],
     lastReviewed: "2026-10-14",
+    en: {
+      title: "Iron deficiency anemia",
+      summary: "Among people who come in with lightheadedness, fatigue, or a feeling of \"maybe it's anemia,\" this is by far the most common type. Finding the underlying cause is the fastest path to treatment.",
+      pathology:
+        "Iron deficiency anemia is __the most common type of anemia.__ When the body runs short on iron, it can't make enough **hemoglobin** to carry oxygen, causing __pallor, fatigue, palpitations, shortness of breath, and lightheadedness.__ __Chronic blood loss from menstruation__ is a leading cause in women, but causes vary — __bleeding from the digestive tract (stomach ulcer, colon polyps, colon cancer, etc.), an unbalanced diet, and increased demand during pregnancy,__ among others. Many people __assume \"tired = anemia\" on their own,__ but it's common to find, __once tested, that it isn't anemia at all, or it's a different type of anemia.__",
+      tests:
+        "**Our in-house blood cell counter can measure hemoglobin and MCV (red blood cell size) on the spot, giving a quick sense of whether it's anemia and, if so, what type.** We also check __serum ferritin (the body's stored iron)__, since ferritin drops before hemoglobin does, helping us __catch hidden iron deficiency early.__ __To find the cause, we may check your menstrual history and, as needed, examine the digestive tract with endoscopy (gastroscopy/colonoscopy).__",
+      treatment:
+        "**Oral iron supplements** are the standard treatment. __Even after hemoglobin normalizes, continuing treatment for several months is recommended to rebuild the body's iron stores.__ If digestive side effects (nausea, constipation, etc.) make oral iron difficult, __injectable iron__ may be considered. __Most important is finding and addressing the reason iron became deficient in the first place__ — continuing iron supplements alone without addressing the cause leads to recurrence.",
+      tip: "__Many people take an iron supplement on their own, thinking \"I'm a bit anemic,\"__ but __without testing, you can't know whether you're actually iron-deficient, or how deficient you are__ — which can mean not noticing any real improvement, or delaying the search for the actual cause. __In men and postmenopausal women with iron deficiency anemia in particular, it's important to check for hidden bleeding from the digestive tract.__ __Since our in-house blood counter can measure MCV on the spot, we can tell you the same day whether it's truly anemia and whether it looks like the iron-deficient type.__ Starting with a simple blood test to get an accurate picture is the fastest path to peace of mind.",
+    },
   },
   {
     slug: "megaloblastic-anemia",
@@ -841,6 +1226,17 @@ export const DISEASES: DiseaseEntry[] = [
       },
     ],
     lastReviewed: "2026-10-14",
+    en: {
+      title: "Megaloblastic anemia (vitamin B12 or folate deficiency anemia)",
+      summary: "Anemia caused by a shortage of vitamin B12 or folate, which, if left untreated, can leave behind lasting nerve symptoms like numbness in the hands and feet. This type doesn't respond to iron supplements.",
+      pathology:
+        "**Vitamin B12 and folate** are essential nutrients for making new red blood cells. When they're deficient, the red blood cells produced in the bone marrow become abnormally large (megaloblasts) and __break down before they can function properly__, causing anemia. __A leading cause of B12 deficiency is impaired absorption due to a lack of \"intrinsic factor,\" a substance secreted by the stomach (pernicious anemia)__, which can also occur in people with a history of stomach surgery or long-term strict vegetarian/vegan diets. __Folate deficiency can result from an unbalanced diet, heavy alcohol use, or certain medications.__ Because __the cause and treatment are completely different from iron deficiency anemia,__ this type of \"anemia\" __won't improve with iron supplements.__",
+      tests:
+        "**Our in-house blood cell counter checks hemoglobin along with MCV (red blood cell size) on the spot; because red blood cells are enlarged in this type of anemia, we can get a sense the same day that \"this might be a different type than iron deficiency.\"** We confirm with __serum vitamin B12 and folate levels,__ and __if B12 deficiency is suspected, we may consider tests such as gastroscopy to investigate the cause.__",
+      treatment:
+        "**Replacing vitamin B12 or folate** is the basis of treatment. __If there's an absorption problem, B12 injections are often needed,__ and __depending on the cause, lifelong periodic replacement may be necessary.__ Because __missing a B12 deficiency and replacing only folate can actually worsen nerve symptoms (numbness, etc.) even as the anemia numbers improve,__ __correctly identifying which one is deficient before starting treatment__ matters.",
+      tip: "__Some people simply assume \"anemia = low iron\" and manage with over-the-counter iron supplements or vitamins,__ but this type of anemia can be hiding underneath. __If you have numbness or unsteadiness in your hands and feet, a strange sensation on the tongue, or worsening forgetfulness, along with anemia symptoms,__ extra caution is warranted. __Advanced nerve symptoms sometimes don't fully recover even with treatment,__ so __rather than writing it off as \"just being tired,\" please come talk to us sooner rather than later.__ __Since our in-house blood counter can measure MCV on the spot, we can help with the first step of distinguishing this from iron deficiency anemia the same day.__",
+    },
   },
   {
     slug: "heart-failure",
@@ -862,6 +1258,17 @@ export const DISEASES: DiseaseEntry[] = [
       },
     ],
     lastReviewed: "2026-10-14",
+    en: {
+      title: "Heart failure",
+      summary: "Shortness of breath, swelling, and weight gain are warning signs. Heart failure is treated with the goal of slowing progression and maintaining a good quality of life for as long as possible.",
+      pathology:
+        "Heart failure is a general term for __the heart's pumping function declining to the point it can no longer send enough blood around the body, or can't smoothly receive blood returning to it.__ It's the endpoint of many different conditions, including **high blood pressure, ischemic heart disease (angina/heart attack), atrial fibrillation, valve disease, and diabetes.** Representative warning signs include __shortness of breath on stairs or slopes, difficulty breathing when lying down, swelling in the legs, and sudden weight gain (such as 2kg or more over a few days).__ Heart failure __isn't a condition that \"gets better once and is cured\" — it requires an ongoing, chronic approach of maintaining a good state while slowing progression.__ __Each time it flares up suddenly (an exacerbation), heart function tends to decline a notch further,__ so __early treatment and preventing exacerbations are very important.__",
+      tests:
+        "We combine **blood tests (BNP/NT-proBNP, markers of heart failure), an ECG, a chest X-ray, and echocardiography** to assess the presence, cause, and severity of heart failure. __All of these — blood tests, ECG, chest X-ray, and echocardiography — can be done in-house,__ letting us __assess the same day whether shortness of breath or swelling is coming from the heart.__",
+      treatment:
+        "Alongside **treating the underlying condition** (controlling high blood pressure, ischemic heart disease, arrhythmia, etc.), we gradually adjust __medication that reduces the heart's workload (what's often called the \"four pillars\" of heart failure treatment: ACE inhibitors/ARBs, beta blockers, MRAs, and SGLT2 inhibitors),__ taking symptoms and kidney function into account. **Salt restriction, careful fluid management, and daily weight tracking** are also key pillars for preventing exacerbations. __If specialized procedures are needed — valve surgery, catheter treatment, or treatment for serious arrhythmia —__ we promptly refer you to a specialist institution, and __continue your ongoing day-to-day follow-up here__ afterward.",
+      tip: "__\"I get short of breath more easily because of age\" or \"the swelling is from being tired\" are easy to dismiss,__ but __a sudden weight gain over a few days, or waking at night from coughing or breathlessness,__ can be signs that heart failure is worsening. __Catching it early and adjusting treatment can help prevent hospitalization and maintain a good state for longer.__ __Daily weight tracking__ is the simplest self-check you can do at home for heart failure. If you notice a concerning change, please don't wait and see — come talk to us.",
+    },
   },
   {
     slug: "atrial-fibrillation",
@@ -882,6 +1289,17 @@ export const DISEASES: DiseaseEntry[] = [
       },
     ],
     lastReviewed: "2026-10-14",
+    en: {
+      title: "Atrial fibrillation",
+      summary: "\"My pulse sometimes skips\" or \"my heart races\" — these could be signs of atrial fibrillation. Left untreated, this irregular heartbeat raises the risk of stroke.",
+      pathology:
+        "Atrial fibrillation is an irregular heartbeat where __the upper chambers of the heart (the atria) quiver rapidly and irregularly instead of beating normally, causing an uneven pulse.__ Some people notice symptoms like __palpitations, shortness of breath, or fatigue,__ while others have __no symptoms at all and it's found incidentally on an ECG during a checkup.__ It __becomes more common with age, and is triggered by factors such as high blood pressure, diabetes, sleep apnea, and heart disease.__ The biggest concern with atrial fibrillation is that __blood can pool and stagnate in the atria, making blood clots more likely to form__ — __if such a clot travels to the brain, it can cause a cardiogenic stroke, which tends to be particularly severe.__",
+      tests:
+        "Diagnosed with an **ECG**. __Because atrial fibrillation can come and go (paroxysmal atrial fibrillation), it can be missed if your pulse happens to be regular at the time of your visit,__ so __we may record an ECG while you have symptoms, or use extended ECG monitoring (a Holter monitor) as needed.__ We also do an __echocardiogram to assess the heart's structure.__",
+      treatment:
+        "There are two pillars of treatment. __One is anticoagulant medication to prevent stroke (such as DOACs — direct oral anticoagulants)__ — __we assess stroke risk using tools like the CHADS2 score and recommend medication for those who need it.__ __The other is controlling heart rate and rhythm (medication, and in some cases catheter ablation).__ __If symptoms are significant, or medication isn't effective enough,__ we refer you to a specialist institution capable of catheter ablation aimed at a cure, and __continue ongoing medication management and follow-up here afterward.__",
+      tip: "__It's not uncommon for atrial fibrillation to continue unnoticed, dismissed as \"palpitations from age\" or \"probably just tiredness.\"__ Because __stroke risk can build up silently with no symptoms at all,__ __if you've been flagged at a checkup, or have ever noticed an irregular pulse,__ it's worth having it checked with an ECG. __Taking the right anticoagulant medication can significantly lower stroke risk,__ which is why early detection and early treatment matter so much with this condition.",
+    },
   },
   {
     slug: "angina-ischemic-heart-disease",
@@ -902,6 +1320,17 @@ export const DISEASES: DiseaseEntry[] = [
       },
     ],
     lastReviewed: "2026-10-14",
+    en: {
+      title: "Angina and ischemic heart disease",
+      summary: "\"My chest tightens on stairs or slopes.\" Chest discomfort that only happens with exertion could be coming from the heart's own blood vessels.",
+      pathology:
+        "A general term for conditions where __the blood vessels that nourish the heart (the coronary arteries) narrow, often due to atherosclerosis, so the heart muscle doesn't get enough blood.__ The classic symptom of \"angina\" is __a squeezing or pressing pain or discomfort in the center of the chest that lasts a few minutes during exertion — climbing a slope or stairs — and eases with rest.__ Main risk factors include __high blood pressure, dyslipidemia, diabetes, smoking, and obesity,__ and __having several of these lifestyle-related conditions at once raises risk further.__ __If symptoms occur even at rest, last longer, or come with cold sweats,__ this may indicate __a heart attack (where a vessel is completely blocked),__ which is more urgent.",
+      tests:
+        "__An ECG and blood tests,__ sometimes combined with __an exercise or stress ECG that looks for changes after activity like climbing stairs.__ If __more detailed evaluation (cardiac catheterization, coronary CT, etc.)__ is needed, we refer you to a cardiology specialist.",
+      treatment:
+        "**Managing lifestyle-related conditions (controlling high blood pressure, dyslipidemia, diabetes, and quitting smoking)** forms the foundation of treatment, alongside oral medication such as __drugs to ease symptoms (nitrates, beta blockers, etc.) and drugs to prevent blood clots (antiplatelet agents).__ __If narrowing is significant, or medication doesn't control symptoms well enough,__ we refer you to a specialist institution capable of __catheter treatment (such as stent placement) or bypass surgery.__",
+      tip: "__It's easy to dismiss as \"slopes have just gotten harder because of age,\"__ but if the pattern of __chest discomfort only during activity, easing with rest__ sounds familiar, please come talk to us. __If you have sudden, severe chest pain, tightness, or cold sweats, don't wait — call emergency services (119) right away.__ Continuing treatment for high blood pressure, diabetes, and dyslipidemia is itself a way of preventing this condition.",
+    },
   },
   {
     slug: "renal-anemia",
@@ -922,6 +1351,17 @@ export const DISEASES: DiseaseEntry[] = [
       },
     ],
     lastReviewed: "2026-10-14",
+    en: {
+      title: "Renal anemia",
+      summary: "A distinctive type of anemia that develops as chronic kidney disease progresses. Iron supplements alone won't improve it — treatment needs to match how well the kidneys are working.",
+      pathology:
+        "The kidneys secrete __a hormone called erythropoietin, which signals the bone marrow to make blood__. **As chronic kidney disease (CKD) progresses, erythropoietin secretion declines**, leading to __\"renal anemia,\" where red blood cells aren't made efficiently even when iron is plentiful__. It causes symptoms similar to other types of anemia — __fatigue, shortness of breath, dizziness__ — but __because the cause lies in reduced kidney function, iron supplements alone won't adequately improve it__. __It becomes more common as CKD progresses__, so __regular anemia checks matter for anyone with reduced kidney function__.",
+      tests:
+        "Blood tests check __hemoglobin levels along with kidney function (eGFR, creatinine) and iron-related markers (ferritin, TSAT)__, while also evaluating __whether anemia from another cause (such as iron-deficiency anemia) might be present as well__.",
+      treatment:
+        "Treatment centers on **ESAs (erythropoiesis-stimulating agents) or HIF-PH inhibitors (oral medication)**, which make up for the reduced erythropoietin activity. __If iron is also low, iron supplements are added__. __The target hemoglobin level is set individually, based on age and the presence of cardiovascular disease__, and because __over-correction is known to actually raise the risk of cardiovascular events__, we __adjust carefully while monitoring with regular blood tests__. If kidney function itself continues to decline to __the point where dialysis is needed__, we continue treatment in partnership with a specialized nephrology/dialysis institution.",
+      tip: "__Assuming \"I'm just tired because I'm getting older\" or \"anemia must just mean low iron\"__ can let underlying chronic kidney disease go unnoticed for a long time. __If you have high blood pressure, diabetes, or any concern about your kidney function, or you've been flagged for kidney numbers at a checkup__, we'd recommend checking both kidney function and anemia together even without anemia symptoms. __Starting treatment early helps you maintain your quality of life while managing kidney disease well__.",
+    },
   },
   {
     slug: "osteoporosis",
@@ -943,6 +1383,17 @@ export const DISEASES: DiseaseEntry[] = [
       },
     ],
     lastReviewed: "2026-10-14",
+    en: {
+      title: "Osteoporosis",
+      summary: "A painless, progressive condition where bones weaken and fracture more easily. \"I've gotten shorter\" or \"I fractured a bone from a minor fall\" are signs worth paying attention to.",
+      pathology:
+        "Osteoporosis is __a condition where bone mass (bone density) decreases and the internal structure of bone becomes more fragile, making fractures more likely__. __Aging and the decline in the female hormone estrogen after menopause__ are the leading causes, making it __more common in women__, though it also occurs in __men and anyone on long-term steroid medication__. Because __osteoporosis itself is painless and causes almost no noticeable symptoms__, it's very often __only discovered after a fracture occurs__. __Compression fractures of the spine (getting shorter without realizing it, a stooped posture) and hip fractures from a fall__ can lead to __becoming bedridden or needing long-term care__, so __preventing this \"chain of fractures\" is a major goal of treatment__.",
+      tests:
+        "**Bone density testing** evaluates bone strength. We also __check calcium, vitamin D, and other bone metabolism markers with a blood test__, and __evaluate the spine with an X-ray for compression fractures that may have gone unnoticed (\"silent fractures\")__.",
+      treatment:
+        "Treatment is built around **lifestyle improvements** (__a diet mindful of calcium, vitamin D, and vitamin K; moderate weight-bearing exercise such as walking; and sunlight exposure__), with __medication considered based on bone density and fracture risk__. Medications include __drugs that suppress bone breakdown (bisphosphonates, denosumab, etc.) and drugs that strengthen bone formation (teriparatide, etc.)__, chosen __according to the degree of risk__. __Anyone who has already had one fracture has a substantially higher risk of a second__, so we place importance on __starting treatment as early as possible after a fracture__. If __a fracture requiring surgery occurs__, we coordinate treatment with orthopedics.",
+      tip: "__It's easy to put off treatment, assuming \"bones getting weaker is just part of aging,\"__ but __osteoporosis is a condition where early detection through testing and treatment can prevent fractures__. __Postmenopausal women, anyone with a family history of hip fracture, and anyone on long-term steroid medication__ would benefit from a bone density check even without symptoms. __\"I've gotten more than 2cm shorter than before\" or \"my back or lower back has started to curve\"__ can be signs that a compression fracture has already occurred without your noticing.",
+    },
   },
   {
     slug: "insect-bites",
@@ -963,6 +1414,17 @@ export const DISEASES: DiseaseEntry[] = [
       },
     ],
     lastReviewed: "2026-10-14",
+    en: {
+      title: "Insect bites and stings",
+      summary: "Even what seems like \"just a bug bite\" can sometimes cause a severe reaction or anaphylaxis, depending on the insect. Telling the difference matters.",
+      pathology:
+        "A defining feature of insect bites and stings is that __symptoms vary widely depending on the type of insect__ — mosquitoes, blackflies (buyu), mites, caterpillars, bees, and more. __Mosquito bites often itch right away, while blackfly bites can bring on strong itching and swelling half a day to a day later__, so the cause and symptom timing don't always line up. Most cases are __an allergic reaction to the insect's saliva or venom__, causing redness, swelling, and itching, but __bee stings (from hornets, paper wasps, etc.) can progress beyond local symptoms to \"anaphylaxis\" — hives, difficulty breathing, and a drop in blood pressure throughout the body__, which can become a __life-threatening emergency__. __Anyone who has been stung by a bee before has a higher risk of anaphylaxis if stung again__.",
+      tests:
+        "Diagnosis is usually based on __the appearance of the skin reaction and the circumstances of the bite or sting (location, time of day, any insect you recall)__. If __whole-body symptoms are present (spreading hives, difficulty breathing, dizziness, etc.)__, we first assess whether emergency treatment for anaphylaxis is needed.",
+      treatment:
+        "For local symptoms, applying a __topical steroid__ promptly and thoroughly can control itching and swelling. If itching is severe, an __oral antihistamine__ may be added. __For anyone with a history of anaphylaxis from a bee sting, an adrenaline auto-injector (EpiPen) that can be self-administered in an emergency__ may be prescribed, and __if whole-body symptoms such as hives, difficulty breathing, or dizziness appear after a sting, using adrenaline without hesitation and calling emergency services right away__ is recommended.",
+      tip: "__It's easy to think \"it's just a bug bite, going to the doctor feels excessive,\"__ but __scratching can lead to a skin infection such as impetigo__, and __with bees, a future sting can bring on a much more severe allergic reaction__, so __if symptoms are severe, or you've been stung by a bee before__, please come talk to it over with us. __If an unexplained rash or feeling unwell follows outdoor work or time in tall grass, it's also worth checking for a tick-borne infection__ (please see our separate page on tick bites as well).",
+    },
   },
   {
     slug: "tick-bite-sfts",
@@ -984,6 +1446,17 @@ export const DISEASES: DiseaseEntry[] = [
       },
     ],
     lastReviewed: "2026-10-14",
+    en: {
+      title: "Tick bites & Severe Fever with Thrombocytopenia Syndrome (SFTS)",
+      summary: "A tick bite in tall grass can, rarely, lead to a life-threatening infection (SFTS). Miyazaki, along with the rest of Kyushu, is one of the areas where it occurs more often.",
+      pathology:
+        "__Ticks__ attach to the skin during time in tall grass, brush, farm work, or camping, and can __feed on blood for a long time without you noticing__. Beyond the local reaction to the bite itself (redness, a firm lump), __some ticks carry viruses or bacteria that can be transmitted through the bite__. Among these, __Severe Fever with Thrombocytopenia Syndrome (SFTS)__ is caused by a bite from a tick carrying the SFTS virus, and after an incubation period of 6–14 days, __it begins with digestive symptoms such as fever, vomiting, and diarrhea__. __In severe cases, it can cause a drop in platelets and white blood cells, a tendency to bleed, and impaired consciousness__, with __a reported fatality rate of around 6–30%__ — __a genuinely serious infection, not one to take lightly__. __Reports are concentrated in western Japan__, and __in recent years the number of reports and the areas affected have been expanding nationwide__. __It can also be transmitted through contact with bodily fluids from an infected pet (cat or dog)__.",
+      tests:
+        "We check for __a tick bite mark or an actual tick still attached__. If SFTS is suspected, __blood tests (checking for low platelets, low white blood cells, elevated liver enzymes, and other characteristic findings)__ are used, and we coordinate with __the public health center or a specialized institution capable of confirmatory testing__.",
+      treatment:
+        "__If you find a tick attached, trying to pull it out forcefully on your own can leave its mouthparts embedded in the skin and raise infection risk__, so __proper removal at a dermatology clinic or medical institution__ is recommended. __Specific treatment for SFTS had long been limited, but an antiviral drug (favipiravir) was approved in Japan in June 2024__, giving __a treatment option when the condition is expected to progress__. Care otherwise centers on __supportive treatment including whole-body management__, and severe cases are managed in coordination with an institution capable of inpatient care.",
+      tip: "__It's common to simply watch and wait, thinking \"it's just a bug bite,\" only to realize days later — once a high fever or digestive symptoms appear — that a tick bite was the cause__. __There is currently no effective vaccine for SFTS, so avoiding bites in the first place is the best prevention__. Make it a habit to __wear long sleeves and long pants when entering tall grass, fields, or forested areas, use an insect repellent (DEET, icaridin, etc.), and check your body after outdoor activity__. __If you find a tick attached, or develop unexplained fever or feel unwell after a bite__, please don't wait too long — come talk to us sooner rather than later.",
+    },
   },
   {
     slug: "cat-scratch-disease",
@@ -1005,6 +1478,17 @@ export const DISEASES: DiseaseEntry[] = [
       },
     ],
     lastReviewed: "2026-10-14",
+    en: {
+      title: "Cat scratch disease",
+      summary: "An infection that can cause lingering, swollen lymph nodes after a cat scratch or bite. Worth knowing about if you have a cat at home.",
+      pathology:
+        "This is an infection caused by the bacterium **Bartonella henselae**, transmitted by __a cat's scratch or bite, or by a flea that has been on a cat__. __Cats themselves usually carry the bacteria with little or no symptoms of their own__, and __infection from kittens in particular has been reported__. The typical course is: __a small rash or scab forms at the site of injury, and then, one to several weeks later, a nearby lymph node (under the arm, in the neck, at the elbow, etc.) becomes swollen and painful__. __A mild fever or fatigue may accompany it__, and in most cases __it resolves on its own over weeks to months__, though it can also __linger as unexplained swollen lymph nodes, requiring differentiation from other conditions__.",
+      tests:
+        "__Asking about contact with a cat (any scratch or bite)__ is a major clue for diagnosis. __Blood tests, and imaging if needed, help investigate the cause of swollen lymph nodes__, and it's also important to __rule out other causes (such as lymphoma)__. Specialized serologic testing for a definitive diagnosis is only available at limited facilities.",
+      treatment:
+        "__In mild cases, it often resolves on its own over weeks to months without specific treatment__. __If symptoms are more pronounced, or you'd like to recover faster, antibiotic treatment (such as doxycycline) may be used__. __If a lymph node is markedly swollen and painful, a procedure such as needle aspiration (draining fluid with a needle) may be considered__.",
+      tip: "__It's easy to think lightly of \"just a scratch from the cat,\"__ but because __the lymph node swelling appears weeks after the actual injury, the connection is often missed__. __If you've recently gotten a new cat, had contact with a stray cat, and now have persistent swollen lymph nodes__, mentioning __your contact with a cat__ when you come in helps us reach an earlier diagnosis. __Washing any scratch or bite promptly and thoroughly with running water and soap, and keeping on top of flea prevention for your cat__, are both effective preventive measures.",
+    },
   },
   {
     slug: "heat-stroke",
@@ -1026,6 +1510,17 @@ export const DISEASES: DiseaseEntry[] = [
       },
     ],
     lastReviewed: "2026-10-14",
+    en: {
+      title: "Heat stroke",
+      summary: "Especially important in Miyazaki summers. What feels like \"just being tired\" can progress to a serious condition — it's a seasonal illness worth taking seriously.",
+      pathology:
+        "This occurs in hot, humid conditions when __the body's temperature-regulation system can't keep up, and heat builds up inside the body__. __Symptoms range from dizziness, lightheadedness, and muscle cramps (mild) to headache, vomiting, and fatigue (moderate), up to impaired consciousness and a very high body temperature (severe)__, and are __classified into four grades (I–IV) by severity__. __Older adults often have a reduced ability to sense heat or thirst, so it can progress to a severe stage without their noticing__, and it __can even occur indoors, while at rest__. __Miyazaki, along with the rest of Kyushu, has high summer temperatures and humidity__, making it one of the higher-risk areas.",
+      tests:
+        "We assess severity through __a history (the circumstances of onset, body temperature) and blood tests (evaluating organ function — kidney function, liver function, electrolytes, and more)__.",
+      treatment:
+        "__In mild cases, moving to a cool place, loosening clothing, and replenishing water and salt__ as first aid is often enough to improve things. __For moderate cases and above, IV fluids are given__, and __severe cases (with impaired consciousness, etc.) require active cooling and transfer to a facility capable of intensive care__.",
+      tip: "__It's common for symptoms to progress while telling yourself \"I'm just a little tired\" or \"I don't like air conditioning,\" and pushing through__. __Rather than \"drinking once you're thirsty,\" the basic principle of prevention during hot weather is replenishing water and salt regularly, before thirst sets in__. __Older adults, children, and anyone doing outdoor work or sports are at particularly high risk__, so it also helps for family members to check in on each other. __If dizziness or fatigue persists, or consciousness becomes hazy__, please don't wait it out — move to somewhere cool right away and consider coming in.",
+    },
   },
   {
     slug: "cellulitis",
@@ -1046,6 +1541,17 @@ export const DISEASES: DiseaseEntry[] = [
       },
     ],
     lastReviewed: "2026-10-14",
+    en: {
+      title: "Cellulitis",
+      summary: "A skin infection where the skin of the foot or hand becomes red, swollen, and hot, gradually spreading outward. Left untreated it can become serious, so early treatment matters.",
+      pathology:
+        "This is an infection where __bacteria (mainly streptococcus or staphylococcus) enter the deeper layers of the skin (the dermis and subcutaneous tissue)__ through a small skin injury, insect bite, or cracked skin from athlete's foot. __It tends to occur on the shin, top of the foot, or hand__, and is characterized by __redness, swelling, warmth, and pain that gradually spread outward with no clear border__. It's often accompanied by __whole-body symptoms such as fever and fatigue__, and __people with diabetes or circulation problems (prone to swelling, poor lymphatic flow, etc.) tend to develop more severe cases__. __Left untreated, the infection can spread into the bloodstream (sepsis) and affect the whole body__, so starting treatment early matters.",
+      tests:
+        "We evaluate __how far the rash has spread and its warmth__ on exam, and check __inflammatory markers on a blood test (white blood cell count, CRP, etc.)__. To track severity and spread, we sometimes __mark the edge of the affected area with a pen to record changes over time__.",
+      treatment:
+        "**Antibiotic treatment** is the foundation, using __an antibiotic effective against the likely bacteria (streptococcus, staphylococcus), given orally or by IV__. __Mild to moderate cases can often be managed with oral treatment and outpatient follow-up__, but if __the area is extensive, fever is significant, there's an underlying condition like diabetes, or there's no improvement after starting treatment__, we coordinate with __a facility capable of IV treatment or hospitalization__. __Keeping the affected area elevated above the heart and resting it__ also helps bring the swelling down.",
+      tip: "__It's common for the area to keep spreading while you tell yourself \"the bug bite just got worse\" or \"it's just swelling.\"__ __Taking a photo of how far the redness extends can help you judge whether it's spreading.__ __Leaving athlete's foot untreated can let bacteria in and cause recurring cellulitis__, so __treating athlete's foot is also an important way to prevent cellulitis__. If fever develops or the area spreads quickly, please don't wait too long — come talk to us sooner rather than later.",
+    },
   },
   {
     slug: "tinea-pedis",
@@ -1066,6 +1572,17 @@ export const DISEASES: DiseaseEntry[] = [
       },
     ],
     lastReviewed: "2026-10-14",
+    en: {
+      title: "Athlete's foot (tinea pedis)",
+      summary: "Are you treating it as \"just athlete's foot\" and relying on an over-the-counter cream alone? If not treated properly it can trigger cellulitis — there's a real knack to curing it.",
+      pathology:
+        "This condition is caused by **a fungus called dermatophyte (white fungus)** infecting the skin of the foot. Appearance varies by type: __\"interdigital type,\" with soggy, peeling skin between the toes; \"vesicular type,\" with small blisters on the sole; and \"hyperkeratotic type,\" with thickened, hardened skin on the heel and elsewhere__. __It spreads easily in hot, humid environments (inside shoes, shared spaces like gyms and bathhouses)__, and __can also be passed within a household by sharing towels or bath mats__. __If it infects the nails, it becomes \"tinea unguium,\" where the nail turns white, cloudy, and thick__, and __leaving athlete's foot untreated can let bacteria in through cracked skin and trigger cellulitis__.",
+      tests:
+        "Diagnosis is made by __taking a small skin sample and checking it under a microscope for the fungus (direct microscopy)__. Because __it can be hard to distinguish from other skin conditions like eczema or contact dermatitis by appearance alone__, it's important to __confirm it's actually athlete's foot before continuing to self-treat with an over-the-counter antifungal__.",
+      treatment:
+        "**Topical antifungal medication** is the mainstay of treatment. __Even once itching and appearance improve, the fungus often remains deeper in the skin__, so it's recommended to __keep applying it patiently for another 1–3 months after symptoms clear__. It's also important to __apply it broadly — not just to the visibly affected area, but across the entire sole and between the toes__. __If the nails are also affected, topical treatment alone is often not enough, and oral antifungal medication__ becomes the first-line option.",
+      tip: "__Many people repeat a cycle of using an over-the-counter cream for a while and stopping once the itching settles,__ but __this doesn't fully eliminate the fungus and leads to repeated recurrence__. __Because it's genuinely hard to tell athlete's foot from eczema by appearance alone, using the wrong cream can make things worse__, so __confirming it properly with a test first, then treating thoroughly for the correct length of time__, is ultimately the fastest path. __From the standpoint of preventing cellulitis too, athlete's foot is worth treating seriously rather than dismissing as trivial.__",
+    },
   },
   {
     slug: "sinusitis",
@@ -1087,6 +1604,17 @@ export const DISEASES: DiseaseEntry[] = [
       },
     ],
     lastReviewed: "2026-10-14",
+    en: {
+      title: "Sinusitis (acute & chronic)",
+      summary: "\"My cold is gone, but the stuffy nose and heavy feeling in my face haven't gone away.\" That could be sinusitis. We can check it on the spot with an X-ray.",
+      pathology:
+        "This is inflammation of the sinuses — the air-filled spaces that extend from behind the nose into the cheeks and forehead. It's divided into __\"acute sinusitis,\" which develops when a bacterial infection follows a cold (viral rhinitis)__, and __\"chronic sinusitis\" (sometimes called a chronic sinus infection), where inflammation continues for 3 months or more__. Typical symptoms include __thick yellow or green nasal discharge, nasal congestion, a heavy ache in the cheeks, forehead, or behind the eyes, and a reduced sense of smell__. __If you feel your cold should be over, but the stuffiness and heaviness in your face are dragging on__, that may mean it has progressed into sinusitis.",
+      tests:
+        "Beyond a history and an examination inside the nose, we use __our in-house digital X-ray with a special technique called the \"Waters' view,\" which images the condition of the sinuses__, so we can __check on the spot, as an actual image, whether fluid or discharge has built up in the sinuses__. __Sinuses that would normally appear dark show up hazy and white when inflamed__, which means __we can show you your own image and explain whether — and how much — inflammation is present, right then and there__. If symptoms drag on or don't respond well to treatment, a CT scan may be considered for a more detailed evaluation.",
+      treatment:
+        "__For mild acute sinusitis, we often skip antibiotics and manage it with expectorants, nasal treatments, and watchful waiting__, while __moderate or more severe cases are treated with antibiotics__. __For chronic sinusitis, a standard approach is \"low-dose, long-term therapy\" — taking a low dose of a macrolide antibiotic over an extended period__, aiming for __steady improvement over a timeframe of several months__. __Nasal sprays to improve airflow, and nasal irrigation (saline rinses),__ also help relieve symptoms. __If conservative treatment doesn't bring enough improvement__, we may refer you to an ENT specialist capable of surgical treatment.",
+      tip: "__Continuing to manage things with over-the-counter cold medicine, assuming \"my cold is just dragging on,\" can let it progress into chronic sinusitis and make treatment take longer.__ __Because we can check the state of your sinuses on the spot with an X-ray__, we'd recommend getting imaging done if __nasal congestion and facial heaviness have lasted more than 2 weeks__. Being able to __see the inside of your sinuses for yourself, as an image__ — something that's hard to judge just from how you feel — is one of the benefits of getting tested here.",
+    },
   },
   {
     slug: "ear-infection",
@@ -1128,6 +1656,36 @@ export const DISEASES: DiseaseEntry[] = [
       },
     ],
     lastReviewed: "2026-10-14",
+    en: {
+      title: "Ear infections (otitis media & otitis externa)",
+      summary: "Ear pain can come from inside the eardrum (middle ear infection) or near the ear opening (outer ear infection) — the cause and treatment differ. Middle ear infections, especially common in children, deserve attention.",
+      pathology:
+        "Ear pain most often comes from one of two conditions — __\"otitis media,\" inflammation inside the eardrum (the middle ear)__, or __\"otitis externa,\" inflammation of the ear canal from the opening of the ear to the eardrum__ — and __the cause and treatment for each are completely different__. __Otitis media commonly follows a cold and is especially common in children__, while __otitis externa is common in adults too, often triggered by skin trouble at the ear opening from overcleaning with a cotton swab or from swimming__. __Excessive self-directed ear cleaning with cotton swabs or similar tools can trigger either condition__, so care is needed.",
+      tests:
+        "An __examination with an otoscope (a tool for viewing inside the ear)__ lets us check the condition of the eardrum (redness, swelling, any pus) and the ear canal, to distinguish between otitis media and otitis externa.",
+      treatment: "Treatment depends on the cause (see below for details).",
+      tip: "__Because \"ear pain\" alone makes it hard to tell which condition you have,__ we'd recommend __having it examined before self-treating with an over-the-counter ear drop.__",
+      subsections: [
+        {
+          title: "Acute otitis media (mainly in children)",
+          pathology:
+            "This occurs when __a virus or bacteria infecting the nose or throat during a cold travels through the Eustachian tube (which connects the back of the nose to the ear) and into the middle ear__. __It's especially common in infants and young children, whose Eustachian tubes are underdeveloped, wider, and closer to horizontal__. Typical symptoms include __ear pain, fever, and fussiness (in infants, touching or tugging at the ear)__.",
+          tests: "We check the eardrum with an otoscope for redness, swelling, and any pus.",
+          treatment:
+            "__For mild cases, using pain relief and watching for a few days__ is one option, but __antibiotic treatment is more often used for more severe symptoms or in infants__. __If the eardrum is significantly swollen with pus built up, a myringotomy (a small incision in the eardrum) may be considered__.",
+          tip: "__Stopping follow-up visits on your own judgment just because the pain has settled__ can let it progress to __otitis media with effusion (fluid remaining behind the eardrum), which can leave lasting hearing difficulty__, so it's important to complete treatment exactly as your doctor advises.",
+        },
+        {
+          title: "Otitis externa (from overcleaning or after swimming)",
+          pathology:
+            "This occurs when __the skin of the ear canal is injured__ — from overcleaning with a cotton swab, or water remaining in the ear (after swimming or bathing) — __and bacteria or fungus then infect the area__. Typical symptoms include __itching and pain in the ear, pain when touching the ear, and ear discharge__.",
+          tests: "We check the ear canal with an otoscope for swelling, discharge, and any fungus.",
+          treatment:
+            "**Local treatment with ear drops (combination antibiotic/steroid, etc.)** is the mainstay. We also __clean the ear to keep it hygienic (removing earwax and discharge)__. __If the infection has spread to the surrounding skin or deeper tissue__, oral antibiotics may be added.",
+          tip: "__The very habit of frequently cleaning the ear with a cotton swab because \"it's itchy\" is itself a common cause of otitis externa.__ __Earwax naturally works its way out on its own, so excessive ear cleaning isn't needed__, and __not over-handling the ear during treatment__ is the key to healing quickly.",
+        },
+      ],
+    },
   },
   {
     slug: "bppv",
@@ -1148,6 +1706,17 @@ export const DISEASES: DiseaseEntry[] = [
       },
     ],
     lastReviewed: "2026-10-12",
+    en: {
+      title: "Benign Paroxysmal Positional Vertigo (BPPV)",
+      summary: "Spinning vertigo lasting seconds to tens of seconds, triggered by a specific head movement — the most common cause of vertigo.",
+      pathology:
+        "This is thought to occur when tiny calcium crystals (otoliths) in the inner ear become dislodged from their normal position and enter the semicircular canals, causing abnormal signals and vertigo when you move your head. It's often triggered by __rolling over in bed, sitting up, or looking upward__, and is considered **the most common cause of vertigo**. Most episodes are a brief, spinning vertigo that resolves within seconds to a minute, and it's characterized by the absence of hearing loss or tinnitus.",
+      tests:
+        "Diagnosis is based on a history plus __positional testing (observing eye movements, or nystagmus, as the head is moved into different positions)__ to confirm the characteristic pattern. Distinguishing it from other conditions (such as central vertigo from a stroke) is important, and __if it's accompanied by limb weakness or numbness, slurred speech, or double vision__, we coordinate with an institution capable of imaging for evaluation.",
+      treatment:
+        "Once diagnosed, **physical therapy to reposition the otoliths (repositioning maneuvers, vertigo exercises)** is considered effective, and techniques such as the Epley maneuver performed on the spot often improve symptoms. Anti-vertigo medication may be added during a severe acute episode. __It often resolves on its own__, though it can also recur.",
+      tip: "It's easy to dismiss it as \"just lightheadedness,\" but __brief, spinning vertigo triggered by a specific head position may well be BPPV__. That said, if the vertigo comes with difficulty moving your limbs or slurred speech, please don't wait and see — come talk to us sooner rather than later.",
+    },
   },
   {
     slug: "meniere-disease",
@@ -1168,6 +1737,17 @@ export const DISEASES: DiseaseEntry[] = [
       },
     ],
     lastReviewed: "2026-10-12",
+    en: {
+      title: "Ménière's disease",
+      summary: "A condition caused by fluid buildup in the inner ear (endolymphatic hydrops), bringing repeated episodes of spinning vertigo along with hearing loss, tinnitus, and ear fullness.",
+      pathology:
+        "This is thought to occur when the \"endolymph\" fluid that fills the inner ear builds up excessively, causing swelling (endolymphatic hydrops). It's characterized by __repeated episodes, lasting tens of minutes to hours, of spinning vertigo occurring together with hearing loss, tinnitus, and a plugged-up feeling in the ear (aural fullness)__, and **hearing loss can progress as episodes recur**. Stress, lack of sleep, and overexertion are known triggers for episodes.",
+      tests:
+        "Beyond a history, a __hearing test__ confirms whether hearing loss is present and to what degree. We make a judgment against diagnostic criteria based on the pattern of recurring episodes and hearing test results, and coordinate with an institution capable of imaging if another cause (such as a central nervous system condition) is suspected.",
+      treatment:
+        "During an acute episode, anti-vertigo and anti-nausea medication relieves symptoms, and during the interval between episodes, treatment centers on **a diuretic to reduce the fluid buildup** along with __lifestyle guidance (sleep, stress management, fluid intake, etc.)__. If episodes aren't adequately controlled with conservative treatment, we consider referral to an institution offering more specialized treatment such as middle ear pressure therapy or surgery.",
+      tip: "__If you're having repeated episodes that involve not just vertigo but also hearing loss or tinnitus__, Ménière's disease may be the cause. Because hearing can decline a little more with each episode, if this symptom pattern sounds familiar, we'd recommend coming in sooner rather than later.",
+    },
   },
   {
     slug: "dysautonomia",
@@ -1189,6 +1769,17 @@ export const DISEASES: DiseaseEntry[] = [
       },
     ],
     lastReviewed: "2026-10-23",
+    en: {
+      title: "Autonomic imbalance (\"dysautonomia\")",
+      summary: "A state where vertigo, palpitations, fatigue, headache, and other varied symptoms are suspected to stem from an imbalance in the autonomic nervous system. It isn't the name of a specific disease — it's a term used once other conditions have been ruled out.",
+      pathology:
+        "\"Dysautonomia\" (jiritsu-shinkei shitchōshō) __isn't an official, formally recognized diagnosis__ — it's a term used as an __umbrella label for a wide range of symptoms__, such as vertigo, palpitations, headache, fatigue, abnormal sweating, and digestive upset, thought to arise from an imbalance between the sympathetic and parasympathetic nervous systems. Stress, lack of sleep, an irregular lifestyle, and hormonal changes are all thought to play a role, but in reality **it's most often used provisionally, once testing finds nothing clearly abnormal and other conditions have been ruled out**. Because __other conditions with different treatments — such as orthostatic hypotension, thyroid dysfunction, anemia, or depression, discussed elsewhere — can sometimes hide behind these symptoms__, it's important not to settle for this label too readily.",
+      tests:
+        "After asking in detail about the course of your symptoms, your daily life, and sources of stress, we check for other conditions that could explain your symptoms — such as anemia, thyroid disease, arrhythmia, or orthostatic hypotension — using __blood tests (anemia, thyroid function, blood sugar, etc.) and an ECG__. If symptoms are severe or the cause is hard to pin down, we may coordinate with an institution capable of more specialized testing.",
+      treatment:
+        "Once other conditions have been ruled out, treatment centers on __reviewing your lifestyle (sleep, diet, moderate exercise) and managing stress__, combined with symptomatic treatment as needed (stomach medication, pain relief, sleep aids, etc.). __If strong anxiety or depressive symptoms seem to underlie your symptoms__, we may also consider treatment in coordination with psychosomatic medicine or psychiatry.",
+      tip: "__Rather than settling for the label \"autonomic imbalance,\" it's important to check whether another condition is hiding behind it__. If your symptoms drag on, worsen, or come with other symptoms (such as weight loss or fever), please don't make that judgment yourself — come talk to us sooner rather than later.",
+    },
   },
   {
     slug: "orthostatic-hypotension",
@@ -1210,6 +1801,17 @@ export const DISEASES: DiseaseEntry[] = [
       },
     ],
     lastReviewed: "2026-10-23",
+    en: {
+      title: "Orthostatic hypotension",
+      summary: "A condition where blood pressure drops significantly on standing, causing dizziness, lightheadedness, or fainting. It's also a known cause of falls in older adults.",
+      pathology:
+        "This refers to __a drop in systolic blood pressure of 20mmHg or more, or diastolic blood pressure of 10mmHg or more, within 3 minutes of standing__. When you stand up quickly, or after standing for a long time, it causes __dizziness, lightheadedness, a feeling of fading consciousness, or dimming/blurring vision__, and is characterized by **rapid improvement on lying down**. Causes range from acute ones — __reduced blood volume from dehydration or bleeding, the effects of medications such as blood pressure drugs, or prolonged bed rest__ — to chronic ones, such as __age-related decline in blood pressure regulation, autonomic nerve damage from diabetes or other conditions, and neurological diseases like Parkinson's disease__. It's seen in roughly __15–20%__ of older adults (this varies with underlying conditions and how it's measured), and is often an underlying factor behind falls.",
+      tests:
+        "The basic test is a __standing test: measuring blood pressure and heart rate after 5 minutes lying down, and then at 1 and 3 minutes after standing__. A poor increase in heart rate suggests an autonomic nerve problem, while a marked increase suggests reduced blood volume. We also check for a cause with an __ECG and blood tests (electrolytes, blood sugar, etc.)__, and coordinate with an institution capable of tilt-table testing if needed.",
+      treatment:
+        "The basics are lifestyle guidance: **don't stand up suddenly, drink enough fluids and get enough salt, limit alcohol, exercise moderately, and raise the head of the bed while sleeping**. __Physical measures such as compression stockings__ are also considered effective. If a medication is contributing, we consider adjusting it, and __if lifestyle guidance brings little improvement__, medications such as fludrocortisone or midodrine may be considered.",
+      tip: "__It's easy to dismiss it as \"just lightheadedness that comes with age,\" but it deserves attention because it can lead to falls and injury.__ If you're an older adult experiencing repeated lightheadedness on standing, please come talk to it over with us. A related condition common in adolescents, called \"orthostatic dysregulation,\" is called by a different name and sometimes needs a different approach — for example, its connection to school avoidance.",
+    },
   },
   {
     slug: "vasovagal-syncope",
@@ -1231,6 +1833,17 @@ export const DISEASES: DiseaseEntry[] = [
       },
     ],
     lastReviewed: "2026-10-23",
+    en: {
+      title: "Vasovagal syncope (reflex fainting)",
+      summary: "Triggered by intense pain, fear, standing for a long time, and similar factors, a vagal reflex causes blood flow to the brain to drop briefly, leading to loss of consciousness. It's considered the most common cause of fainting.",
+      pathology:
+        "Triggered by a strong emotion (pain, fear, seeing blood drawn or an injection), straining with coughing, bowel movements or urination, prolonged standing, or standing up suddenly, __the vagus nerve is stimulated, blood vessels widen, less blood returns to the heart, and the heart rate drops at the same time__, causing a brief shortage of blood flow to the brain and loss of consciousness. **It's considered the most common cause of fainting.** It's usually preceded by __warning signs such as lightheadedness, dizziness, nausea, sweating, pale skin, or blurred vision__, and recovery happens on its own within seconds to tens of seconds.",
+      tests:
+        "**A detailed history — the trigger, whether there were warning signs, how long recovery took — is central to diagnosis.** __Ruling out fainting caused by a heart condition (arrhythmia, valve disease, etc.) with an ECG and similar tests__ is important, and in cases of __fainting during exercise, sudden fainting with no warning signs, fainting accompanied by chest pain or palpitations, or a family history of unexplained sudden death__, we coordinate with an institution capable of more detailed testing for evaluation.",
+      treatment:
+        "**Patient education and lifestyle guidance about avoiding triggers, and sitting or lying down right away when you sense a warning sign,** form the basis of treatment. Beyond __drinking enough fluids and getting enough salt, and avoiding prolonged standing__, techniques such as __crossing your legs or tensing your arm muscles when you sense a warning sign (standing training)__ are considered effective. For __frequent episodes__ that don't improve enough with lifestyle guidance, medication, or — if the heart rate drops significantly — a pacemaker, may be considered in coordination with a specialized institution.",
+      tip: "__Fainting with a clear trigger and warning signs, that resolves within a few minutes, is likely vasovagal syncope and generally carries low risk.__ That said, if it __happened during exercise, happened suddenly with no warning, came with chest pain or palpitations, or happened while lying down__, a cause requiring more caution — such as a heart condition — may be present, so please don't wait and see; come talk to us sooner rather than later.",
+    },
   },
   {
     slug: "headache",
@@ -1280,6 +1893,46 @@ export const DISEASES: DiseaseEntry[] = [
       },
     ],
     lastReviewed: "2026-10-12",
+    en: {
+      title: "Headache (migraine, tension-type, cluster)",
+      summary: "Headaches range from common \"primary\" types to \"secondary\" types that need urgent attention. Identifying which type you have matters for proper treatment.",
+      pathology:
+        "Headaches fall broadly into two categories: __\"primary headaches,\" where the headache itself is the condition__ (migraine, tension-type headache, cluster headache), and __\"secondary headaches,\" caused by another underlying condition__ such as a subarachnoid hemorrhage or meningitis. Most headaches are primary and not life-threatening, but **\"the worst headache you've ever had,\" \"a sudden-onset headache,\" or \"a headache with fever, impaired consciousness, or weakness\"** should raise suspicion of a secondary headache and call for urgent evaluation.",
+      tests:
+        "Taking a detailed history of the headache's character (location, duration, accompanying symptoms, triggers) is the first step in determining whether it's primary or secondary. __If any dangerous warning signs (red flags) are present__, we coordinate quickly with an institution capable of imaging (CT, MRI, etc.) for evaluation.",
+      treatment:
+        "If diagnosed as a primary headache, we treat __according to the type__ (see below). If a secondary headache with warning signs is suspected, we promptly refer you to a higher-level institution.",
+      tip: "Many people simply tolerate it, thinking \"it's just a headache,\" but __correctly identifying the type of headache leads to the right treatment__. Please don't wait and see, especially for a headache that's different from your usual pattern or has suddenly gotten worse.",
+      subsections: [
+        {
+          title: "Migraine",
+          pathology:
+            "A throbbing, pulsating pain occurs on one side (sometimes both) of the head, and is characterized by worsening with physical movement. It often comes with nausea, vomiting, and sensitivity to light or sound, and some people experience an \"aura\" beforehand — jagged, shimmering spots in part of their vision. It typically lasts about 4 to 72 hours.",
+          tests: "Diagnosis is based primarily on a history (imaging won't show an abnormality).",
+          treatment:
+            "During an attack, **acetaminophen or NSAIDs (anti-inflammatory pain relievers)** are used, and __triptan medications__ may be added if those aren't enough. For frequent attacks (several times a month or more) or significant disruption to daily life, we consider **preventive medication** (calcium channel blockers, anti-seizure medications, anti-CGRP agents, etc.).",
+          tip: "__Taking pain relievers too often (roughly 10 or more days a month) can actually make headaches worse — a condition called \"medication overuse headache\"__ — so it's also important to watch how frequently you're using them.",
+        },
+        {
+          title: "Tension-type headache",
+          pathology:
+            "Characterized by a __pressing, tightening pain__ across the whole head. Unlike migraine, it rarely comes with nausea and doesn't typically worsen with movement. Tension in the neck and shoulder muscles, long periods in the same posture, and stress are all thought to play a role, and it's **considered the most common type of headache**.",
+          tests: "Diagnosis is based primarily on a history.",
+          treatment:
+            "Acetaminophen or NSAIDs are used during an acute episode. For frequent episodes (chronic tension-type headache), we may consider __reviewing lifestyle factors (posture, stress management, moderate exercise)__ along with preventive medication.",
+          tip: "It often occurs together with shoulder and neck stiffness, and __massage, stretching, and posture improvement__ can help reduce symptoms.",
+        },
+        {
+          title: "Cluster headache",
+          pathology:
+            "Characterized by __severe, boring pain behind one eye__, occurring almost daily — often __at the same time of day__ — over a period of about 1 to 2 months (a \"cluster period\"). During an attack, it's often accompanied by tearing, a runny nose, or eyelid swelling on the affected side, and it's somewhat more common in men.",
+          tests: "Diagnosis is based primarily on a history.",
+          treatment:
+            "During an attack, __pure oxygen inhalation or triptan medication (injection or nasal spray)__ is considered effective, and during a cluster period, preventive medication (such as calcium channel blockers) is used to prevent recurrence.",
+          tip: "__Being unable to stay still from the sheer intensity of the pain, and pacing restlessly,__ is also considered a characteristic feature of cluster headache. Because treatment differs greatly from other headache types, an accurate diagnosis matters.",
+        },
+      ],
+    },
   },
   {
     slug: "lumbar-spinal-stenosis",
@@ -1300,6 +1953,17 @@ export const DISEASES: DiseaseEntry[] = [
       },
     ],
     lastReviewed: "2026-10-13",
+    en: {
+      title: "Lumbar spinal stenosis",
+      summary: "As the nerve pathway through the spine narrows with age, walking brings on numbness in the legs that eases with rest — a condition common in older adults.",
+      pathology:
+        "This occurs when the spinal canal — the nerve pathway running through the lower back (lumbar spine) — narrows with age and other factors, compressing the nerves inside. Its hallmark symptom is called __\"intermittent claudication\"__: __after walking for a while, numbness, pain, or heaviness in the legs intensifies; bending forward slightly and resting eases it, and you can walk again__ — a pattern that repeats. Symptoms are also notably less likely to appear while cycling, where you naturally lean forward. __It's common in older adults__, and as it progresses it can also affect bladder and bowel control.",
+      tests:
+        "A history (how far you can walk, whether bending forward brings relief, etc.) and a physical exam provide clues for diagnosis. __Imaging such as MRI__ is considered important for a definitive diagnosis and assessing severity, and we coordinate with an institution capable of imaging as needed.",
+      treatment:
+        "In most cases, we __start with conservative treatment__ (oral medication, nerve block injections, exercise therapy, etc.) and adjust the approach based on how things progress. __If conservative treatment brings little improvement, daily life is significantly affected, or bladder/bowel problems appear__, surgery (to relieve the nerve compression) becomes an option, and we refer you to an institution capable of specialized treatment.",
+      tip: "__Many people resign themselves to it, thinking \"it's just part of getting older,\"__ but if you're troubled by a walking distance that's gradually getting shorter, or needing to stop and rest to keep walking, treatment can sometimes bring real improvement. Please come talk it over with us.",
+    },
   },
   {
     slug: "knee-osteoarthritis",
@@ -1320,6 +1984,16 @@ export const DISEASES: DiseaseEntry[] = [
       },
     ],
     lastReviewed: "2026-10-14",
+    en: {
+      title: "Knee osteoarthritis",
+      summary: "\"My knee hurts going up and down stairs\"; \"sitting on my heels is painful.\" Knee pain that increases with age can have its progression slowed with early action.",
+      pathology:
+        "This condition occurs when __the cartilage that cushions the knee joint wears down with age and overuse__, leading to __joint deformity and inflammation that cause pain and reduced mobility__. It often __hurts when standing up, starting to walk, or going up and down stairs__, and __as it progresses, pain can occur even at rest, kneeling becomes difficult, and the legs can bow outward__. It's __more common in women, those who are overweight, and those with a tendency toward bowed legs__, and is a __very common condition that becomes more frequent with age__.",
+      tests: "An __X-ray__ evaluates __how narrow the joint space has become and the degree of bone deformity__, confirming how far it has progressed.",
+      treatment:
+        "__Weight management and exercise therapy to strengthen the quadriceps and other muscles__ form the foundation of treatment, with __anti-inflammatory pain relievers (oral or topical) or joint injections such as hyaluronic acid__ added if pain is significant. __A knee brace or a cane__ can also help by reducing the load on the knee. __If conservative treatment brings little improvement and daily life is significantly affected__, we refer you to __an orthopedic specialist capable of advanced treatment such as joint replacement surgery__.",
+      tip: "__Resigning yourself to the pain and avoiding movement because \"it's just age\" can lead to further muscle loss and a worsening cycle.__ __Losing 1kg of body weight is said to reduce the load on the knee during walking by several kilograms__, so __weight management itself is an effective treatment__. __Rather than avoiding movement entirely because of pain, continuing moderate exercise suited to your pain level is the key to slowing progression.__",
+    },
   },
   {
     slug: "acute-low-back-pain",
@@ -1341,6 +2015,17 @@ export const DISEASES: DiseaseEntry[] = [
       },
     ],
     lastReviewed: "2026-10-14",
+    en: {
+      title: "Acute low back pain (\"thrown-out back\")",
+      summary: "A sudden, severe pain in the lower back at the moment of lifting something heavy — what's often called \"throwing out your back.\" In most cases it improves within days to weeks and isn't something to worry about excessively.",
+      pathology:
+        "This refers to __a sudden, sharp pain in the lower back__, typically at __the moment of lifting something heavy or suddenly twisting the body__, and is medically called \"acute low back pain.\" What's commonly called \"throwing out your back\" is known in the West as being hit by \"the witch's stroke,\" reflecting just how __sudden and intense__ the pain can be. __In most cases, the cause is minor strain to the back muscles or ligaments, and imaging usually finds no specific abnormality.__ Back pain lasting __up to 4 weeks after onset is classified as acute, while pain lasting 3 months or more is classified as chronic__.",
+      tests:
+        "A history and exam check for __\"warning signs\" such as leg numbness, bladder or bowel problems, fever, or weight loss__. __For most cases of acute low back pain, if none of these warning signs are present, urgent imaging (X-ray, CT, etc.) isn't considered necessary.__ Imaging is considered if warning signs are present or the pain drags on.",
+      treatment:
+        "It's known that __easing the pain with medication (oral or a topical patch) while \"not resting excessively, and continuing your usual daily activities as much as you reasonably can\"__ speeds recovery. __Temporarily supporting the lower back with a brace__ is also an option. __Most cases improve naturally within days to weeks.__ __If numbness or weakness in the legs, or bladder/bowel problems, are present__, nerve compression (such as spinal stenosis or a herniated disc) is suspected, and we carry out a specialized evaluation.",
+      tip: "__People often picture \"strict bed rest\" as the response to throwing out your back,__ but __we now know that resting too much can actually slow recovery__, and __returning to your usual activities early, as your pain allows, is recommended.__ __If it comes with leg numbness, weakness, or bladder/bowel changes__, it may be something other than a typical thrown-out back, so please come talk to us sooner rather than later.",
+    },
   },
   {
     slug: "h-pylori",
@@ -1361,6 +2046,16 @@ export const DISEASES: DiseaseEntry[] = [
       },
     ],
     lastReviewed: "2026-10-09",
+    en: {
+      title: "H. pylori infection (and its link to gastritis & stomach ulcers)",
+      summary: "Infection of the stomach with a bacterium called Helicobacter pylori, known as a risk factor for chronic gastritis, stomach ulcers, and more.",
+      pathology:
+        "Infection of the stomach with a bacterium called Helicobacter pylori, known as a **risk factor for chronic gastritis, stomach ulcers, and stomach cancer**.",
+      tests: "A blood test (antibodies), and observation/tissue sampling via transnasal endoscopy (gastroscopy).",
+      treatment:
+        "If infection is confirmed, we often consider **eradication treatment** (a combination of oral medications). __The first attempt (primary eradication) and second attempt (secondary eradication) are covered by insurance__, but a **third attempt (tertiary eradication), needed if both the first and second attempts fail, is self-pay**. Success rates vary from person to person.",
+      tip: "__Even successful eradication doesn't bring your stomach cancer risk down to zero__, so regular follow-up endoscopy is sometimes recommended even after eradication.",
+    },
   },
   {
     slug: "hay-fever",
@@ -1381,6 +2076,17 @@ export const DISEASES: DiseaseEntry[] = [
       },
     ],
     lastReviewed: "2026-10-10",
+    en: {
+      title: "Hay fever (seasonal allergic rhinitis)",
+      summary: "An allergic reaction to pollen causing sneezing, a runny nose, nasal congestion, and itchy eyes. Treatment approaches are well established by severity, with options ranging up to injectable medication and surgery for severe cases.",
+      pathology:
+        "Hay fever is sometimes described as a national condition, with a prevalence said to exceed **40%**, and recent years have also seen an increase in severe cases. It's divided into a \"sneezing/runny nose type\" (dominated by sneezing and discharge), a \"congestion type\" (dominated by nasal blockage), and a \"combined type\" (both). A notable feature is that __severity is classified step by step, from mild to most severe, based on the frequency of sneezing attacks and discharge, and how much time is spent breathing through the mouth__. The more severe the symptoms, the more that early, appropriate treatment is recommended.",
+      tests:
+        "Diagnosis is often made through a history and examination inside the nose (using a nasal speculum or endoscope), and treatment typically begins right away if the findings are typical. If the diagnosis isn't clear, medication isn't working well, or treatment aimed at fundamentally changing your allergic tendency (allergen immunotherapy) is being considered, we combine a blood test (allergy testing), skin testing, and a nasal provocation test (deliberately triggering and observing a nasal reaction) to reach a confirmed diagnosis.",
+      treatment:
+        "Treatment is staged according to severity. For mild to moderate cases, treatment centers on second-generation antihistamines and nasal steroid sprays; for severe and most severe cases, __these are combined__, with a nasal decongestant spray used short-term (around 2 weeks) as needed, and oral steroids added for about a week if symptoms are especially intense. Recent guidelines have made clear that **an injectable anti-IgE antibody medication (omalizumab) can be used for severe hay fever that doesn't improve with standard treatment**, when certain conditions are met, such as a confirmed diagnosis of Japanese cedar pollen allergy. \"Early treatment\" started before pollen season begins, and allergen immunotherapy (such as sublingual immunotherapy) aimed at fundamentally changing your allergic tendency, are also options that can reduce symptoms and offer hope of long-term improvement.",
+      tip: "__Among those managing severe hay fever with over-the-counter medication alone, year after year,__ some have real room for improvement with treatment that includes injectable medication. If you're struggling with persistent severe congestion, or symptoms bad enough to interfere with sleep, please come talk it over with us.",
+    },
   },
   {
     slug: "allergic-rhinitis",
@@ -1401,6 +2107,17 @@ export const DISEASES: DiseaseEntry[] = [
       },
     ],
     lastReviewed: "2026-10-10",
+    en: {
+      title: "Allergic rhinitis (year-round)",
+      summary: "A year-round allergic reaction in the nasal lining caused by something other than pollen, such as house dust or mites. Combining environmental changes with medication can keep symptoms under control over the long term.",
+      pathology:
+        "This is perennial (year-round) allergic rhinitis, caused by house dust, mite droppings and remains, and similar particles contacting the nasal lining all year. It's divided into a \"sneezing/runny nose type\" (dominated by sneezing and discharge), a \"congestion type\" (dominated by nasal blockage), and a \"combined type\" (both), and severity is classified step by step based on how often and how strongly symptoms occur. __There's also a recognized condition called \"local allergic rhinitis,\" where a small-scale allergic reaction occurs only in the nasal lining even when skin testing and blood tests come back negative__ — and because this can progress into full allergic rhinitis or asthma over time, we recommend coming in sooner rather than later if symptoms persist.",
+      tests:
+        "Beyond a history and examination inside the nose, diagnosis uses a blood test (allergy testing) and a test for eosinophils in nasal discharge. __If symptoms persist strongly despite negative test results__, we may perform a nasal provocation test — exposing the nasal lining directly to an allergen and observing the reaction — to check for local allergic rhinitis and other conditions that are easy to miss.",
+      treatment:
+        "**Removing or avoiding the allergen**, including mite countermeasures (managing bedding, carpets, etc.), is the first priority. Medication is used alone or in combination, based on severity, choosing from second-generation antihistamines and nasal steroid sprays; for severe and most severe cases, a short course of nasal decongestant spray or oral steroids is added. __For severe cases that don't improve with conservative treatment, surgery to reduce the nasal lining (such as submucosal turbinectomy) is also an option__, and has been reported to maintain symptom improvement over the long term. Allergen immunotherapy, aimed at fundamentally changing your allergic tendency, has been reported to keep working for a long time after treatment ends if continued for several years.",
+      tip: "If you have persistent severe congestion, repeated nosebleeds, a reduced sense of smell, or suspected snoring or sleep apnea, __something other than simple rhinitis may be present__, so we'd recommend a thorough evaluation.",
+    },
   },
   {
     slug: "urticaria",
@@ -1416,6 +2133,17 @@ export const DISEASES: DiseaseEntry[] = [
     tip: "蕁麻疹は、単一の原因だけで説明しようとしないことが大切です。疲労・ストレス・感染・特定の刺激などが**複合的に関わっている**ことが多く、原因探しに固執するより、__タイプに応じた適切な治療を続けることが改善への近道__です。長引く蕁麻疹でも多くは治癒に至りますので、一人で抱え込まずご相談ください。",
     sources: [{ label: "日本皮膚科学会「蕁麻疹診療ガイドライン2026（第4版）」" }],
     lastReviewed: "2026-10-10",
+    en: {
+      title: "Urticaria (hives)",
+      summary: "A condition where itchy welts (raised, wheal-like bumps) come and go. Identifying the type is the fastest route to effective treatment.",
+      pathology:
+        "This is characterized by itchy red welts that **usually disappear without a trace within 24 hours**, in a repeating pattern. \"Idiopathic\" cases, where no cause can be identified, are the most common, but there are also several other types, including __\"inducible urticaria,\" triggered by a specific stimulus (exercise, bathing, cold, sunlight, pressure, etc.)__, and \"angioedema,\" where the eyelids, lips, or similar areas swell. Even under the single umbrella term \"urticaria,\" the everyday precautions and treatment approach differ by type, so **accurately identifying the type first** is the most direct route to improvement, without unnecessary detours.",
+      tests:
+        "In most cases, **diagnosis can be made based on a history and the course of the skin reaction**, and we don't recommend blood tests or allergy testing across the board just because urticaria is present. If a detailed history raises suspicion of a link to a specific food, medication, or exercise, or if treatment isn't working well, we run blood tests (IgE levels, thyroid autoantibodies, inflammatory markers, etc.) or provocation testing as needed, to look for the cause or any aggravating factors.",
+      treatment:
+        "Oral **non-sedating, second-generation antihistamines** form the foundation of treatment. If the standard dose isn't enough, we try **increasing the dose, or switching to or adding another medication**, in stages; for difficult cases that still don't improve, we also consider specialized injectable treatment (such as anti-IgE antibody medication) or coordination with a specialized institution. The immediate goal is \"a state that doesn't interfere with daily life,\" followed by \"no symptoms at all,\" and __rather than stopping medication abruptly on your own once symptoms settle__, tapering the medication in stages can, in many cases, eventually let you go without medication altogether.",
+      tip: "With urticaria, it's important not to try to explain it with a single cause. Fatigue, stress, infection, specific triggers, and more are often **involved together**, and rather than fixating on finding \"the\" cause, __continuing the right treatment for your type is the faster route to improvement__. Even long-lasting urticaria resolves in most cases, so please don't carry it alone — come talk to us.",
+    },
   },
   {
     slug: "atopic-dermatitis",
@@ -1436,6 +2164,17 @@ export const DISEASES: DiseaseEntry[] = [
       },
     ],
     lastReviewed: "2026-10-14",
+    en: {
+      title: "Atopic dermatitis",
+      summary: "A chronic skin condition causing recurring, itchy eczema. With proper skincare and consistent treatment, a symptom-free state is a realistic goal.",
+      pathology:
+        "This is a chronic skin condition where __a weakened skin barrier combined with an allergic predisposition__ causes itchy eczema that repeatedly flares and settles. __It often develops in infancy__, but can also __first appear or recur in adulthood__. Symptoms tend to appear symmetrically on __the inner elbows and knees, neck, face, and similar areas__, and can be made worse by __dryness, sweat, stress, and allergens such as certain foods or mites__.",
+      tests:
+        "Diagnosis is usually made through __a history and checking the distribution and course of the rash__, with a __blood test (allergy testing) added as needed__.",
+      treatment:
+        "**Skincare with moisturizer** forms the foundation, with __anti-inflammatory topical medications such as steroid creams or tacrolimus ointment used selectively based on symptom severity__. Rather than __\"stopping on your own once symptoms improve,\"__ continuing intermittent topical treatment to maintain a good state (proactive therapy) aims to __prevent flares while gradually reducing treatment over time__. __In severe cases, oral medication or injectable biologics__ may become options, with coordination with a specialized institution as needed.",
+      tip: "__Quite a few people stop treatment on their own out of fear of steroids, which often ends up making things worse.__ __Used correctly, topical steroids are a medication that can safely control symptoms.__ __Keeping up daily moisturizing care is, in fact, the most unremarkable yet important treatment__, and __increasing the number of \"itch-free days\" is the real goal of treatment__. If you're unsure about the severity of your symptoms or how they're progressing, please stop guessing on your own and come talk to us.",
+    },
   },
   {
     slug: "asthma",
@@ -1451,6 +2190,17 @@ export const DISEASES: DiseaseEntry[] = [
     tip: "症状が落ち着いていても気道の炎症が続いていることが多いため、__自己判断で治療を中断しない__ことが大切です。治療を続けながら、どこまで薬を減らせるかは医師と一緒に見極めていきますので、安心して長期管理にお付き合いください。",
     sources: [{ label: "日本アレルギー学会「喘息予防・管理ガイドライン（JGL）」" }],
     lastReviewed: "2026-10-10",
+    en: {
+      title: "Bronchial asthma (adult)",
+      summary: "Chronic airway inflammation causing recurring cough, wheezing, and difficulty breathing. Long-term management with inhaled medication aims for an attack-free life.",
+      pathology:
+        "Chronic inflammation makes the airways hypersensitive and prone to narrowing. Cough, wheezing (a whistling or rattling breathing sound), and difficulty breathing are characterized by **recurring at night, early morning, after exercise, or following a cold**. For some people, a persistent cough is the only symptom, and it can go unrecognized as cough-variant asthma. Chronic wheezing can also lead to ongoing breathlessness and sometimes needs to be distinguished from COPD (chronic obstructive pulmonary disease).",
+      tests:
+        "Beyond a history and listening to your breathing, we evaluate the presence and degree of airway inflammation with a **FeNO test (measuring an inflammatory substance in your exhaled breath)** and blood tests (eosinophil count, IgE level, etc.). A digital X-ray may also be used to distinguish it from other lung conditions. Beyond simply diagnosing asthma, regularly assessing **how well it's being controlled** is important for guiding treatment decisions.",
+      treatment:
+        "Long-term management centers on inhaled medication, primarily an **inhaled corticosteroid (ICS)**. If symptoms aren't adequately controlled, we **adjust treatment step by step (stepping up or down)**, such as adding a long-acting bronchodilator (LABA). The treatment goal is maintaining a state with no interference in daily life and no attacks requiring a doctor's visit, missed work, or missed school. Even at the stage of mild cough or wheezing, it's worth treating as a cue for intervention — please don't tough it out, come talk to us.",
+      tip: "Even when symptoms have settled down, airway inflammation is often still ongoing, so __it's important not to stop treatment on your own judgment__. We'll work out together, over time, how far your medication can be reduced while continuing treatment — please feel at ease about the long-term management process.",
+    },
   },
   {
     slug: "asthma-child",
@@ -1471,6 +2221,17 @@ export const DISEASES: DiseaseEntry[] = [
       },
     ],
     lastReviewed: "2026-10-10",
+    en: {
+      title: "Childhood bronchial asthma",
+      summary: "Cough, wheezing, and difficulty breathing from chronic airway inflammation in children. Treatment dosing and daily management differ from adults.",
+      pathology:
+        "Chronic inflammation in a child's airways makes them hypersensitive and prone to narrowing, characterized by __recurring cough, wheezing, and difficulty breathing__ at night, early morning, after exercise, or following a cold. Allergens such as mites and house dust, along with exercise and weather changes, can trigger symptoms. Childhood asthma symptoms tend to change as the child grows, so __age-appropriate evaluation and management__ is needed.",
+      tests:
+        "Beyond a history, we use age-appropriate control questionnaires (JPAC, C-ACT, ACT, etc.) to check how well symptoms are being kept under control in daily life. A blood test may be used to investigate allergic involvement as needed, but **we weight the course of symptoms and how much they interfere with daily life more heavily than test results** when deciding on treatment.",
+      treatment:
+        "Long-term management centers on an **inhaled corticosteroid (ICS)**, choosing a **medication dose and inhaler device (such as a spacer-equipped inhaler) suited to the child's age and build**. Even with the same medications used in adults, the dose used is normally lower, and when used appropriately, the impact on height growth is considered small. Managing mite allergens at home (bedding care, etc.) can also help reduce symptoms. We're also happy to discuss pre-exercise precautions, vaccinations, and considerations for school life.",
+      tip: "For children's asthma, **continuing treatment even during symptom-free periods helps prevent future attacks**. Please don't stop inhalers on your own judgment — regular visits let us adjust the dose as your child grows. Symptoms tend to worsen with a cold, so please come in sooner rather than later if something seems different from usual.",
+    },
   },
   {
     slug: "sas",
@@ -1491,6 +2252,17 @@ export const DISEASES: DiseaseEntry[] = [
       },
     ],
     lastReviewed: "2026-10-10",
+    en: {
+      title: "Sleep Apnea Syndrome (SAS)",
+      summary: "A condition where breathing repeatedly stops or becomes shallow during sleep. It's common in people who are overweight, and is linked to high blood pressure, lifestyle-related conditions, and the risk of falling asleep while driving.",
+      pathology:
+        "This occurs when the upper airway (throat) narrows or becomes blocked during sleep, causing repeated pauses or shallow breathing. **The leading cause is being overweight** — fat around the neck narrows the airway — but it can also occur in slender people with a small jaw or large tonsils. Snoring, significant daytime sleepiness, morning headaches, and frequent nighttime urination are typical signs, but **it's hard to notice in yourself, and many people come in because a family member they live with points out that \"your breathing stopped.\"** It's also known to be linked to lifestyle-related conditions like high blood pressure, diabetes, and dyslipidemia, as well as future cardiovascular disease risk.",
+      tests:
+        "Beyond a history (snoring, reports of apnea, degree of daytime sleepiness), a simplified test (within the scope of what we offer) gives an approximate severity assessment. If the simplified test suggests moderate or more severe disease, or a more precise diagnosis is needed, we coordinate with a specialized institution capable of overnight polysomnography (PSG) for a definitive diagnosis.",
+      treatment:
+        "For mild cases, **lifestyle changes** such as weight loss, cutting back on alcohol, and sleeping on your side are the main approach. For moderate cases and above, **CPAP (continuous positive airway pressure therapy)** — delivering air through a nasal mask while you sleep to keep the airway open — is the standard treatment. Using CPAP consistently for a certain amount of time each night is thought to bring not just improved daytime sleepiness but also a reduced risk of high blood pressure and cardiovascular disease. Stopping on your own judgment causes symptoms to return within days, so **patiently continuing treatment** matters. We provide evaluation and follow-up after starting treatment within the scope of internal medicine/respiratory care.",
+      tip: "Snoring and daytime sleepiness are often dismissed as \"just how I am,\" but SAS is a condition linked to real risks, including accidents from falling asleep while driving. If a family member has noticed your breathing stop, or you feel significant sleepiness while driving, please come talk to us sooner rather than later.",
+    },
   },
   {
     slug: "reflux-esophagitis",
@@ -1511,6 +2283,17 @@ export const DISEASES: DiseaseEntry[] = [
       },
     ],
     lastReviewed: "2026-10-10",
+    en: {
+      title: "Reflux esophagitis",
+      summary: "A condition where stomach contents flow back up into the esophagus, causing heartburn and similar symptoms. We identify the severity and subtype before tailoring treatment to each person.",
+      pathology:
+        "This is a condition where stomach contents (such as stomach acid) flow back up into the esophagus, inflaming its lining. It often causes **heartburn, acid regurgitation (a sour taste rising up), and chest discomfort**, which tend to worsen after meals or at bedtime. On endoscopy, the degree of inflammation is graded using an international scale called the **LA classification**, but __the severity of the inflammation and how uncomfortable the symptoms feel don't always line up__. A pattern where reflux symptoms are severe despite no visible erosion (breakdown of the lining) on endoscopy is called __non-erosive reflux disease (NERD)__, and in fact, among Japanese people with reflux symptoms, NERD is reportedly more common than erosive GERD. This is thought to relate to the esophageal lining becoming sensitive to acid (**visceral hypersensitivity**), meaning the visible severity of inflammation and how uncomfortable the symptoms feel don't always match. Because of this, standard acid-suppressing medication alone sometimes isn't enough, and identifying the subtype before combining medication adjustments with lifestyle changes is the faster route to improvement. Aging, obesity, a hiatal hernia, and diet (fatty meals, alcohol, smoking) are often underlying factors.",
+      tests:
+        "After asking about your symptoms and their course, we use transnasal endoscopy (gastroscopy) to check the condition of the esophageal and stomach lining and assess severity using the LA classification. A blood test may also be done to evaluate for anemia or inflammation. If symptoms don't improve with treatment, it's important to reconsider the diagnosis itself rather than simply increasing the medication on your own.",
+      treatment:
+        "Treatment typically starts with **medication that thoroughly suppresses stomach acid production** to settle symptoms, checking the effect after about 4–8 weeks. For milder cases where symptoms have settled, many people can move to \"on-demand therapy\" — reducing the dose or taking it only when needed — while those with severe or recurring symptoms continue maintenance therapy to prevent relapse. Reviewing lifestyle factors also matters, but **the foods and habits that trigger symptoms vary from person to person**, so we work together to identify what applies to you from among high-fat foods, acidic or spicy foods, eating before bed, lying down right after eating, alcohol and smoking, and weight gain. Medications for other conditions (such as blood pressure drugs or pain relievers) can sometimes affect symptoms too, so please don't stop any medication on your own — always talk to us first. If symptoms don't improve, or bleeding, narrowing, or a hiatal hernia is suspected, we consider referral to a specialized institution.",
+      tip: "Heartburn tends to get dismissed as \"a common symptom\" and tolerated, but the right treatment approach varies greatly depending on the underlying subtype and severity. Rather than continuing to manage it temporarily with over-the-counter medication, let's get a thorough look with endoscopy and work out a treatment plan that fits you.",
+    },
   },
   {
     slug: "ibs",
@@ -1531,6 +2314,17 @@ export const DISEASES: DiseaseEntry[] = [
       },
     ],
     lastReviewed: "2026-10-10",
+    en: {
+      title: "Irritable Bowel Syndrome (IBS)",
+      summary: "A condition causing recurring abdominal pain, discomfort, and diarrhea or constipation, without any clear abnormality in the bowel. We identify the subtype and progress treatment step by step.",
+      pathology:
+        "This is a condition where abdominal pain, discomfort, and diarrhea and/or constipation recur, despite no clear abnormality — such as inflammation or a tumor — being found in the bowel. A disruption in the \"gut-brain axis,\" the two-way communication between the brain and the gut, is thought to underlie it, which is why stress and a disrupted daily rhythm tend to worsen symptoms. __It's divided into subtypes — \"constipation-predominant,\" \"diarrhea-predominant,\" and \"mixed,\" among others — based on bowel habits__, and because the effective medications and lifestyle guidance differ by subtype, accurately identifying the subtype first is the fastest route to improvement.",
+      tests:
+        "We ask in detail about the course of your symptoms and bowel habits (stool consistency, frequency, etc.), and check for __\"warning signs\" such as fever, joint pain, blood in the stool, or unexplained weight loss, as well as onset after age 50 or a family history of colorectal disease__. A blood test, urine test, and fecal occult blood test check for inflammation, anemia, and infection, and if these are abnormal or warning signs are present, we refer you to a specialized institution capable of detailed testing such as colonoscopy, confirming no other condition is present before reaching a diagnosis.",
+      treatment:
+        "Treatment progresses in stages. We start with dietary guidance (cutting back on fat, caffeine, and strong spices; trying a low-FODMAP diet, etc.) and lifestyle improvements (regular meals, moderate exercise) as the foundation, then add medication suited to your subtype (gut-regulating or anti-diarrheal medication for diarrhea-predominant, laxatives for constipation-predominant, antispasmodics for abdominal pain, etc.). If this brings little improvement, we evaluate for psychological factors such as anxiety or stress, and may add an antidepressant or similar medication as needed. Because the effect and the right approach vary a great deal from person to person, we adjust the treatment plan patiently, watching how your symptoms change.",
+      tip: "IBS symptoms aren't \"all in your head\" — they're a real physical response happening between the brain and gut. __Keeping a record of your symptoms__ (what you ate, bowel habits, any stress, etc.) can help with identifying your subtype and considering treatment. If your symptoms are persistent and difficult, or over-the-counter medication isn't helping, please don't carry it alone — come talk to us.",
+    },
   },
   {
     slug: "functional-dyspepsia",
@@ -1550,6 +2344,17 @@ export const DISEASES: DiseaseEntry[] = [
       },
     ],
     lastReviewed: "2026-10-21",
+    en: {
+      title: "Functional Dyspepsia (FD)",
+      summary: "Persistent pain or heaviness in the upper abdomen despite no abnormality — such as an ulcer or cancer — found on endoscopy. With treatment suited to the subtype, most people can get their symptoms under control.",
+      pathology:
+        "Functional Dyspepsia (FD) is a condition where, **once endoscopy has ruled out a structural condition such as a stomach ulcer or stomach cancer**, symptoms continue because of abnormal stomach movement or sensitivity. It's broadly divided into two subtypes: __Postprandial Distress Syndrome (PDS)__, centered on fullness after eating and feeling full too quickly, and __Epigastric Pain Syndrome (EPS)__, centered on pain or a burning sensation in the upper abdomen — and quite a few people have a mix of both. Reduced stomach motility (food isn't moved along efficiently), hypersensitivity of the stomach and duodenum, and stress are all thought to play a role. For those with **H. pylori infection**, eradication has been reported to improve symptoms in some cases, making H. pylori testing an important clue for both diagnosis and treatment.",
+      tests:
+        "We start with an endoscopy to check for a structural condition behind the symptoms, such as an ulcer, cancer, or reflux esophagitis — this process of ruling things out is a prerequisite for an FD diagnosis. We also test for H. pylori infection, and if present, you become a candidate for eradication treatment. If **warning symptoms** such as weight loss, vomiting, anemia, or difficulty swallowing are present, or symptoms newly began at age 40 or older, we prioritize more detailed testing.",
+      treatment:
+        "If H. pylori infection is present, we start with eradication treatment and check for improvement. If you're not a candidate for eradication, or symptoms remain afterward, we select and adjust medication suited to your subtype (PDS or EPS) — acid-suppressing medication, or medication that helps regulate stomach motility. If improvement is still limited, we gradually introduce additional options, such as adding a Kampo (traditional Japanese herbal) medicine, or a psychological approach that takes stress and anxiety into account (reviewing lifestyle factors, coordinating with a specialist as needed).",
+      tip: "\"It's painful even though testing found nothing wrong\" is exactly the situation FD treatment is meant for. Please don't carry it alone — let's first confirm your safety with an endoscopy, then work out a treatment approach suited to your subtype together.",
+    },
   },
   {
     slug: "constipation",
@@ -1570,6 +2375,17 @@ export const DISEASES: DiseaseEntry[] = [
       },
     ],
     lastReviewed: "2026-10-10",
+    en: {
+      title: "Constipation",
+      summary: "Ongoing trouble with bowel movements — infrequent stools, hard stools, and similar issues. Choosing the right medication for the underlying cause matters.",
+      pathology:
+        "There are two broad types: \"reduced-frequency type,\" where bowel movements simply happen less often, and \"evacuation-difficulty type,\" where stool reaches the rectum but is hard to pass — and the cause and the right approach differ for each. Contributing factors can include insufficient food or fluid intake, lack of exercise, aging, conditions like diabetes or hypothyroidism, medication side effects, and functional issues with the colon. __Rarely, a colon condition (such as a tumor or narrowing) underlies it__, so caution is needed if symptoms start suddenly or come with blood in the stool or weight loss.",
+      tests:
+        "We ask in detail about your bowel habits and their course, your medical history, and any medications you're taking. A blood test checks for anemia and thyroid function, and an abdominal ultrasound or X-ray may evaluate the abdomen. If __warning signs are present (blood in the stool, rapid weight loss, new onset at age 50 or older, etc.)__, we may refer you to a specialized institution capable of detailed colon testing.",
+      treatment:
+        "Lifestyle improvements — adequate fluids and fiber, moderate exercise, and reviewing your bowel habits — come first. __Medication relying solely on traditional stimulant laxatives like senna is a treatment best avoided__. While stimulant laxatives are effective, prolonged regular use can make them less effective over time and cause abdominal discomfort, so it's preferable to use them only as needed rather than regularly. The current recommended approach is to build on medications that draw water into the bowel to soften stool (such as magnesium oxide or polyethylene glycol), adding newer medication types — such as epithelial function modulators or bile acid transporter inhibitors — if the effect isn't enough, tailoring treatment to each person's specific type.",
+      tip: "The period after breakfast is said to be when the bowel is naturally more active, so building a habit of going to the bathroom after breakfast can help establish a regular rhythm. __Please avoid using over-the-counter laxatives (especially stimulant types) long-term on your own judgment__, and if constipation persists, come talk to us — including about reviewing your current medication.",
+    },
   },
   {
     slug: "diverticulosis",
@@ -1590,6 +2406,17 @@ export const DISEASES: DiseaseEntry[] = [
       },
     ],
     lastReviewed: "2026-10-10",
+    en: {
+      title: "Colonic diverticulosis",
+      summary: "A condition where part of the colon wall bulges outward into pouches — in most cases a common, symptomless finding. We're also your point of contact should bleeding or inflammation ever occur.",
+      pathology:
+        "This refers to multiple pouches (diverticula) forming where part of the colon wall bulges outward. In Japan, roughly 20% of adults are thought to have diverticula, a relatively common finding that becomes more frequent with age. Most people have no symptoms, and it's often found incidentally during testing for something else, but __bleeding from a diverticulum (\"diverticular bleeding\") or inflammation reaching a diverticulum (\"diverticulitis\") can sometimes occur__. Smoking and alcohol have been flagged as potentially raising the risk of diverticular bleeding and diverticulitis.",
+      tests:
+        "Because diverticulosis is usually symptomless, it's often found incidentally during testing done for another purpose (abdominal ultrasound, CT, etc.). If symptoms suggesting diverticulitis are present — abdominal pain, fever — a blood test checks for inflammation, and CT evaluates the extent and severity. If there's blood in the stool, we first check how significant the bleeding is (blood pressure, pulse, and other vital signs), then refer you to a specialized institution capable of colonoscopy to investigate the cause and, if needed, stop the bleeding.",
+      treatment:
+        "Symptomless diverticulosis generally needs no special treatment — watchful observation is fine. __Even when diverticulitis does occur, mild cases without an abscess or perforation often don't necessarily require antibiotics, and can improve with dietary measures and rest alone, managed as an outpatient__ (the latest guidelines also suggest not routinely giving antibiotics for mild cases). That said, significant fever or being on immunosuppressive treatment can mean antibiotics or hospitalization are needed, and we judge this individually. After diverticulitis has resolved, __colonoscopy is recommended during recovery__ to confirm no other condition, such as colon cancer, is hiding behind it. For severe or recurring cases, or those involving bleeding, narrowing, or a fistula, we discuss evaluation and treatment at a specialized institution.",
+      tip: "Even if diverticula are found, this isn't really a special disease on its own — it's one of the common changes that appear with age. There's no need for excessive worry, but __please come talk to us sooner rather than later if sudden abdominal pain, fever, or blood in the stool occurs__. Diverticulitis, when mild, often improves with outpatient treatment, so rather than watching and waiting on your own judgment, it's important to talk to us first.",
+    },
   },
   {
     slug: "atheroma",
@@ -1609,6 +2436,16 @@ export const DISEASES: DiseaseEntry[] = [
       },
     ],
     lastReviewed: "2026-10-10",
+    en: {
+      title: "Epidermoid cyst (atheroma)",
+      summary: "A benign lump under the skin, formed as a sac that slowly fills with waste material. It never goes away on its own, and left alone it can grow larger or become infected.",
+      pathology:
+        "An epidermoid cyst (atheroma) is a benign growth that forms when surface skin tissue gets pushed under the skin and forms a sac, inside which keratin and sebum — material that would normally shed off as dead skin — gradually builds up. It tends to form on the back, neck, face, and earlobes, and a characteristic feature is a small black dot (an opening) visible at the center of the surface. **It's often mistaken for a lump of fat, but it's actually a mass of skin waste material, not fatty tissue.** Left alone, it gradually grows larger, and __if it becomes infected with bacteria, it can suddenly become swollen, red, and painful, and discharge contents with a distinctive odor__.",
+      tests: "Diagnosis is usually possible through visual inspection and palpation. Surface ultrasound may be used if distinguishing it from another type of growth (such as a lipoma) is needed, or to assess its size and depth.",
+      treatment:
+        "If not infected, **same-day surgical removal** is the definitive treatment. Options include removing the whole sac through a spindle-shaped incision made along the natural skin creases to minimize scarring, or a \"punch excision\" technique where a small hole is made at the opening to remove the contents before extracting the sac — the approach is chosen together with you based on location and size. If it's already infected, red, and swollen, the usual approach is to first calm the inflammation with antibiotics or a procedure to drain the pus, then remove it at a later date once things have settled.",
+      tip: "**It never resolves on its own, and trying to squeeze the contents out yourself can spread the infection to surrounding tissue and make things worse**, so please never try to pop it yourself if it concerns you. __Removing it while it's still small, before it becomes infected, means a smaller scar and a shorter treatment period.__ If you've been watching it and it has grown larger or become red and swollen, that's exactly the moment to come talk to us sooner rather than later.",
+    },
   },
   {
     slug: "lipoma",
@@ -1629,6 +2466,17 @@ export const DISEASES: DiseaseEntry[] = [
       },
     ],
     lastReviewed: "2026-10-10",
+    en: {
+      title: "Lipoma",
+      summary: "The most common type of benign soft-tissue lump found under the skin. Usually soft and painless, though appearance alone isn't always enough to distinguish it from other conditions.",
+      pathology:
+        "A lipoma is the **most common type of benign growth** found among soft-tissue tumors under the skin. It's a soft lump formed from mature fat cells wrapped in a thin capsule, usually growing slowly and, in most cases, painless. It tends to form on the trunk — the back, shoulders, around the neck — and is somewhat more common in people in their 40s and 50s, in women, and in those who are overweight. A characteristic feature is a dome-shaped bulge in the skin that feels soft and moves when pressed.",
+      tests:
+        "Beyond visual inspection and palpation, we **evaluate its depth and extent with surface ultrasound**. CT or MRI may be used to confirm its characteristics as needed. __In rare cases, imaging alone can't reliably distinguish it from a malignant liposarcoma__, so if it's growing rapidly, feels firm, or is large, we may recommend removing it to examine the tissue.",
+      treatment:
+        "The definitive treatment is **surgical removal**. We make an incision sized to the lump and carefully separate it, along with its surrounding tissue and capsule, without damaging anything nearby. After removal, we achieve thorough hemostasis to prevent blood from pooling, and may temporarily place a drain and apply compression, depending on the size. A small, symptomless lipoma can also simply be monitored, but we discuss and decide together on same-day surgical removal based on your preference, size, and location.",
+      tip: "Recurrence after removal is considered rare, and complete removal resolves the issue for good. If you notice it __suddenly growing larger, becoming firmer, or becoming less mobile__, please come talk to it over with us just to be safe.",
+    },
   },
   {
     slug: "ingrown-nail",
@@ -1648,6 +2496,16 @@ export const DISEASES: DiseaseEntry[] = [
       },
     ],
     lastReviewed: "2026-10-10",
+    en: {
+      title: "Ingrown toenails / curled nails",
+      summary: "A condition where the nail digs into the surrounding skin, sometimes causing pain, inflammation, and infection. Treatment usually starts with conservative measures.",
+      pathology:
+        "This is a condition where the nail digs into the surrounding skin, sometimes causing pain, inflammation, and infection. It's often triggered by cutting nails too short, ill-fitting shoes, or a deformed nail shape. __Improper nail-cutting technique — especially rounding the corners too much — is known to make symptoms worse__, so it's recommended to cut the nail slightly longer than the end of the toe, leaving the corners square (\"square-off\" cutting).",
+      tests: "Visual inspection, checking the degree of inflammation or infection and the shape of the nail.",
+      treatment:
+        "For mild to moderate cases, __conservative treatment — taping or procedures to reshape the nail — is usually effective as a first step__. Jumping straight to surgery isn't recommended; surgical procedures, such as the phenol method (chemically treating part of the nail edge that's causing inflammation), are considered when conservative treatment doesn't bring enough improvement or inflammation keeps recurring. The phenol method is recognized as a procedure with relatively little post-procedure pain.",
+      tip: "Nails cut too short and ill-fitting shoes are common triggers, so __reviewing your everyday nail-cutting habits and shoe choice__ also helps with prevention. Forcefully cutting into the nail corner yourself, or leaving it alone, can make things worse, so please come talk to us sooner rather than later if pain persists.",
+    },
   },
   {
     slug: "wound-care",
@@ -1668,6 +2526,17 @@ export const DISEASES: DiseaseEntry[] = [
       },
     ],
     lastReviewed: "2026-10-10",
+    en: {
+      title: "Cuts, scrapes, punctures & other wounds",
+      summary: "Care for everyday injuries — cuts, scrapes, punctures, and animal bites. The right first response makes a real difference in how well a wound heals.",
+      pathology:
+        "These are the everyday injuries that come from a kitchen knife or a fall (cuts and scrapes), from a nail or broken glass (punctures), or from an animal bite. The right treatment depends on the wound's depth, how contaminated it is, and whether any foreign material is present, and __relying on self-disinfection or simply watching and waiting can lead to infection or slower healing__. Puncture wounds in particular deserve caution, since they can reach deeper than they appear and sometimes leave foreign material behind.",
+      tests:
+        "We check the wound's depth, contamination, and any foreign material on examination. If foreign material or deeper tissue damage is suspected, we consider imaging (X-ray, ultrasound, etc.) for evaluation. __Thorough washing with tap water is effective for preventing infection__, and a disinfectant isn't always necessary.",
+      treatment:
+        "For most simple cuts and scrapes, after thorough washing, we choose between a wound dressing (which protects the wound while keeping it from drying out) or a topical medication, based on the wound's condition. __For a simple wound with no underlying condition and no deep damage, antibiotics given specifically to prevent infection aren't always necessary__, but for a wound that's had time pass since the injury or one that's heavily contaminated (a crush wound, etc.), we decide on suturing and similar steps after thorough washing and treatment. __Tetanus prevention__ is considered depending on age, vaccination history, and the wound's condition. Animal bites carry a higher infection risk, and the approach (preventive antibiotics, whether rabies precautions are needed, etc.) differs depending on the type of animal and the circumstances, so careful evaluation is needed.",
+      tip: "Even a small wound — __a puncture, an animal bite, a heavily soiled wound, or one where time has passed since the injury__ — can sometimes need more than self-care alone. Rather than putting on a bandage and watching it, having us look at the wound first allows for proper cleaning, treatment, and infection prevention, leading to cleaner healing.",
+    },
   },
   {
     slug: "burns",
@@ -1688,6 +2557,17 @@ export const DISEASES: DiseaseEntry[] = [
       },
     ],
     lastReviewed: "2026-10-13",
+    en: {
+      title: "Burns",
+      summary: "Skin damage caused by heat. Treatment varies greatly depending on depth and extent, so correctly assessing severity matters.",
+      pathology:
+        "A burn is skin and underlying tissue damaged by heat. Based on depth, burns are classified as __\"first-degree,\" limited to the surface layer; \"superficial second-degree\" and \"deep second-degree,\" where blisters form; and \"third-degree,\" where the skin is damaged through its full thickness__ — and how easily it heals and how likely it is to scar differ greatly by depth. Severity is judged by __depth combined with the extent of the burn (the percentage of body surface area affected)__, and burns to functionally or cosmetically important areas — the face, hands, joints, groin, and similar areas — __need careful evaluation even if the area is small__.",
+      tests:
+        "Visual assessment of depth and extent is the basic approach. __Depth is often hard to judge right after the injury, and the assessment may need to be revised over the following days.__ If the area is extensive, or there's concern about the effect on your overall condition, we may evaluate with a blood test and similar means.",
+      treatment:
+        "For **mild to moderate burns (first-degree, limited-area second-degree, etc.)**, __our surgical specialist (a board-certified gastrointestinal surgeon) provides treatment using wound dressings and topical medication__. Right after the injury, __cooling under running water (roughly 15–30 minutes as a guide)__ is considered important for limiting how bad things get, and blisters are generally recommended to be __protected rather than popped, to prevent infection__. On the other hand, for __extensive burns covering a significant percentage of body surface area, suspected facial or airway burns, burns deeper than deep second-degree, electrical or chemical burns, and severe cases in children or older adults__, we judge that __whole-body management at a specialized burn facility is needed__ and promptly refer you to a partner institution.",
+      tip: "__Deciding on your own that \"this is mild enough to watch at home\" and delaying a visit can delay an accurate assessment of depth and lead to slower healing.__ If the area is large, the blister is big, or the pain is significant, please come in first. We'll explain during the visit, including __whether it's something we can treat here__.",
+    },
   },
   {
     slug: "hemorrhoids",
@@ -1708,6 +2588,17 @@ export const DISEASES: DiseaseEntry[] = [
       },
     ],
     lastReviewed: "2026-10-09",
+    en: {
+      title: "Hemorrhoids & anal fissures",
+      summary: "Hemorrhoids and anal fissures are the most common anal conditions. Most can be expected to improve with lifestyle changes and outpatient procedures — well-established, effective treatments.",
+      pathology:
+        "A hemorrhoid is a condition where the cushion-like tissue inside the anus becomes congested with blood, causing swelling or prolapse, and it's **the most common** of all anal conditions. It's triggered by straining during bowel movements, recurring constipation or diarrhea, and prolonged sitting, and the degree of prolapse is known to progress in stages — from mild (bulging only during a bowel movement) to permanently prolapsed — with __the right treatment depending on this stage (grade)__. An anal fissure is a tear in the skin of the anus, mainly triggered by passing hard stool from constipation or by recurring diarrhea. Once it becomes chronic, it's known to create **a vicious cycle where the anal sphincter tightens, blood flow worsens, and healing becomes even harder**.",
+      tests:
+        "Beyond visual inspection and palpation, we use an anoscope to directly observe the area as needed, assessing the degree of hemorrhoid prolapse and similar findings. __Bright red bleeding isn't necessarily \"just the usual hemorrhoids\" — a colon condition can sometimes be the real cause__, so if bleeding recurs or your stool changes in character, we consider a lower gastrointestinal endoscopy.",
+      treatment:
+        "Treatment for hemorrhoids is staged according to the degree of prolapse. For mild to moderate cases, lifestyle guidance — fiber and fluid intake, reviewing bowel habits — and topical medication come first; for internal hemorrhoids with prolapse that don't respond well enough to these, **sclerotherapy by injection (ALTA therapy)** is a minimally invasive option, and for severe cases with recurring bleeding and prolapse, **ligation and excision** is chosen as a treatment with high cure rates. For anal fissures too, **conservative treatment is generally tried first** — fiber intake, avoiding straining during bowel movements, sitz baths, and topical medication — and jumping straight to surgery is uncommon; specialized procedures are considered when it becomes chronic and the sphincter is significantly tight.",
+      tip: "__Relying solely on over-the-counter medication on your own judgment can let hemorrhoids or anal fissures worsen and become chronic.__ In particular, dismissing bleeding as \"just my usual hemorrhoids\" can delay finding a more serious condition, so if symptoms keep recurring, we'd recommend coming in sooner rather than later.",
+    },
   },
 ];
 

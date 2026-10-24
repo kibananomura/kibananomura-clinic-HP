@@ -225,6 +225,36 @@ export const SYMPTOMS: SymptomEntry[] = [
       "2〜3週間以上咳が続く場合は受診をご検討ください。",
       "咳以外の症状（発熱・体重減少など）を伴う場合は早めのご相談をおすすめします。",
     ],
+    en: {
+      title: "Persistent cough",
+      summary: "For a lingering or concerning cough",
+      emergencyBox: {
+        heading: "Please come in soon if any of these apply",
+        points: [
+          "Breathing is difficult, or it comes with shortness of breath",
+          "You're coughing up blood-streaked sputum",
+          "A long-lasting cough is accompanied by weight loss",
+        ],
+        action: "If any of the above apply, please come in soon — this includes ruling out causes such as tuberculosis.",
+      },
+      possibleCauses: [
+        { name: "Common cold (upper respiratory infection)", note: "A cough can be the main symptom; this usually improves within 1–2 weeks." },
+        { name: "Bronchitis", note: "A cough that lingers after a cold is common." },
+        { name: "Bronchial asthma", note: "Can involve a cough and wheezing that worsen at night or early morning." },
+        { name: "Postnasal drip (e.g. from sinusitis)", note: "Mucus running down the throat from the nose can cause an ongoing cough." },
+        { name: "An infection hiding behind a lingering cough", note: "For a cough that continues for a long time, ruling out other conditions such as tuberculosis may be necessary." },
+      ],
+      relatedTests: ["Blood test", "Digital X-ray", "FeNO test (measures exhaled nitric oxide; used to diagnose/manage asthma)"],
+      treatmentOverview: [
+        "Depending on the cause, we often use expectorants, bronchodilators, or inhaled medications.",
+        "If asthma is suspected, we may evaluate with a FeNO test (which measures inflammatory markers in your exhaled breath) before deciding on a treatment plan.",
+        "For a lingering cough, imaging tests or referral to a specialist may be considered as needed.",
+      ],
+      whenToVisit: [
+        "Please consider coming in if your cough lasts more than 2–3 weeks.",
+        "We recommend an early visit if the cough is accompanied by other symptoms such as fever or weight loss.",
+      ],
+    },
   },
   {
     slug: "abdominal-pain",
@@ -263,6 +293,41 @@ export const SYMPTOMS: SymptomEntry[] = [
       "軽い痛みで改善傾向がある場合は、自宅で様子を見ていただくことも可能です。",
       "痛みが強くなる、繰り返す、他の症状を伴う場合は受診をご検討ください。",
     ],
+    en: {
+      title: "Abdominal pain / stomach trouble",
+      summary: "For abdominal pain and discomfort",
+      emergencyBox: {
+        heading: "Please don't wait — call emergency services or go to the ER if any of these apply",
+        points: [
+          "Sudden, severe pain",
+          "Persistent vomiting",
+          "Blood in your stool or black, tarry stool",
+          "Your abdomen feels rigid, like a board (a sign of peritoneal irritation)",
+        ],
+        action: "If any of the above apply, please don't wait — call emergency services or go to the ER.",
+      },
+      possibleCauses: [
+        { name: "Gastritis", note: "Often involves pain or discomfort in the upper abdomen." },
+        { name: "Gastroenteritis", note: "Often comes with diarrhea and vomiting in addition to abdominal pain." },
+        { name: "Constipation", note: "Pain can occur along with bloating." },
+        { name: "Gallstones", note: "Often appears as pain in the upper right abdomen after a fatty meal; if accompanied by fever, it may be progressing to cholecystitis." },
+        { name: "Cholecystitis", note: "A state where gallstones have progressed to inflammation of the gallbladder. Often involves fever and needs prompt evaluation." },
+        { name: "Appendicitis", note: "Pain that moves from the upper abdomen to the lower right abdomen — a condition that needs careful attention." },
+        { name: "Ureteral stones", note: "Appears as sudden, severe pain from the lower back to the lower abdomen, sometimes with blood in the urine." },
+        { name: "Terminal ileitis", note: "Can cause lower-right abdominal pain resembling appendicitis; infectious enteritis or Crohn's disease can be underlying causes." },
+        { name: "Ischemic colitis", note: "Sudden left-sided abdominal pain followed by diarrhea or bloody stool; more common in middle-aged and older adults prone to constipation." },
+      ],
+      relatedTests: ["Blood test", "Abdominal ultrasound", "16-row CT", "Transnasal endoscopy (gastroscopy)"],
+      treatmentOverview: [
+        "Depending on the cause, we often manage symptoms with medication (stomach medicine, medicine to regulate bowel function, etc.) while monitoring your progress.",
+        "If gallstones or appendicitis are suspected, surgical treatment or referral to a higher-level institution may be necessary.",
+        "Depending on test results, we may consider treating the underlying cause (such as H. pylori eradication or lifestyle changes).",
+      ],
+      whenToVisit: [
+        "If the pain is mild and trending toward improvement, it's also fine to rest and watch at home.",
+        "Please consider coming in if the pain intensifies, recurs, or comes with other symptoms.",
+      ],
+    },
   },
   {
     slug: "heartburn-stomach-discomfort",
@@ -295,6 +360,34 @@ export const SYMPTOMS: SymptomEntry[] = [
       "市販薬で改善しない、症状が繰り返す場合は受診をご検討ください。",
       "上記の緊急性のある症状（胸痛・冷や汗・放散痛等）がある場合は、様子を見ず直ちに救急要請してください。",
     ],
+    en: {
+      title: "Heartburn / stomach discomfort",
+      summary: "For heartburn and discomfort in the upper abdomen",
+      emergencyBox: {
+        heading: "Watch out if chest pain is involved",
+        points: [
+          "Chest pain along with cold sweats, pain radiating to the left arm, or difficulty breathing",
+          "A strong, tight, squeezing sensation in the chest",
+        ],
+        action: "These may signal a heart condition rather than a digestive issue — call emergency services (119) right away.",
+        strong: true,
+      },
+      possibleCauses: [
+        { name: "Reflux esophagitis", note: "Often causes heartburn as stomach acid flows back into the esophagus." },
+        { name: "Gastritis", note: "Often involves discomfort in the upper abdomen and a heavy stomach feeling." },
+        { name: "H. pylori-related conditions", note: "Can be an underlying cause of chronic gastritis or stomach ulcers." },
+      ],
+      relatedTests: ["Blood test", "Transnasal endoscopy (gastroscopy)"],
+      treatmentOverview: [
+        "Treatment is often centered on medications that suppress stomach acid.",
+        "If H. pylori infection is confirmed, eradication treatment may be considered.",
+        "If symptoms persist, a closer look with a gastroscope may be considered.",
+      ],
+      whenToVisit: [
+        "Please consider coming in if over-the-counter medication doesn't help or symptoms keep recurring.",
+        "If you have any of the urgent symptoms above (chest pain, cold sweats, radiating pain, etc.), please don't wait — call emergency services right away.",
+      ],
+    },
   },
   {
     slug: "bowel-changes",
@@ -326,6 +419,34 @@ export const SYMPTOMS: SymptomEntry[] = [
       "一時的な下痢・便秘で改善傾向がある場合は、自宅で様子を見ていただくことも可能です。",
       "血便がある場合、体重減少を伴う場合、症状が長引く場合は「痔だと思っていても」自己判断せず受診してください。",
     ],
+    en: {
+      title: "Changes in bowel habits (diarrhea, constipation, blood in stool)",
+      summary: "For diarrhea, constipation, blood in stool, and other changes in bowel movements",
+      emergencyBox: {
+        heading: "Please consider coming in if any of these apply",
+        points: [
+          "You have blood in your stool (please don't assume it's hemorrhoids — come talk to us)",
+          "A change in bowel habits is accompanied by weight loss",
+        ],
+        action: "To rule out conditions such as colorectal disease, please consider coming in if any of the above apply.",
+      },
+      possibleCauses: [
+        { name: "Infectious enteritis", note: "Often involves sudden diarrhea, abdominal pain, and fever." },
+        { name: "Irritable bowel syndrome", note: "Can cause recurring diarrhea or constipation, often related to stress." },
+        { name: "Hemorrhoids", note: "A common cause of bleeding and pain during bowel movements — but if there's blood in your stool, please don't assume it's hemorrhoids and come in instead." },
+        { name: "Ischemic colitis", note: "Can present as diarrhea or bloody stool following sudden abdominal pain; more common in middle-aged and older adults prone to constipation." },
+        { name: "Colorectal conditions", note: "If a change in bowel habits continues, a colorectal condition may be an underlying cause, and further evaluation may be needed." },
+      ],
+      relatedTests: ["Blood test", "Abdominal ultrasound"],
+      treatmentOverview: [
+        "Depending on the cause, we often use medication to regulate bowel function or control diarrhea.",
+        "If blood in the stool or weight loss is involved, or we judge closer evaluation is needed, we may refer you to a specialized institution (one capable of endoscopy, etc.).",
+      ],
+      whenToVisit: [
+        "If diarrhea or constipation is temporary and trending toward improvement, it's also fine to rest and watch at home.",
+        "If there's blood in your stool, weight loss, or symptoms that drag on, please don't assume it's \"just hemorrhoids\" — come talk to us.",
+      ],
+    },
   },
   {
     slug: "checkup-lifestyle-disease",
@@ -349,6 +470,26 @@ export const SYMPTOMS: SymptomEntry[] = [
     whenToVisit: [
       "健診で数値の異常を指摘された場合は、症状がなくても一度ご相談いただくことをおすすめします。",
     ],
+    en: {
+      title: "Checkup abnormalities / lifestyle-related conditions",
+      summary: "For findings flagged at a checkup, and high blood pressure, dyslipidemia, or diabetes",
+      possibleCauses: [
+        { name: "High blood pressure", note: "Often flagged at a checkup with no noticeable symptoms." },
+        { name: "Dyslipidemia", note: "Often flagged at a checkup as abnormal cholesterol or triglyceride levels." },
+        { name: "Diabetes", note: "Often flagged at a checkup as abnormal blood sugar or HbA1c (a marker reflecting your average blood sugar over the past 1–2 months)." },
+        { name: "Hyperuricemia", note: "Often flagged at a checkup as an abnormal uric acid level; left untreated, it can lead to gout attacks." },
+        { name: "Fatty liver disease (NAFLD/NASH)", note: "Often found through abnormal liver function values (AST, ALT, γ-GTP) or on ultrasound, usually with no noticeable symptoms." },
+        { name: "Chronic kidney disease (CKD)", note: "Often flagged at a checkup as protein in the urine or abnormal creatinine/eGFR values, and can progress without symptoms." },
+      ],
+      relatedTests: ["Blood test", "Urine test", "ECG"],
+      treatmentOverview: [
+        "Treatment is generally built around lifestyle changes (diet, exercise, sleep, etc.), with medication considered as needed.",
+        "Since these are conditions that need long-term management, regular visits and testing to monitor your progress are standard.",
+      ],
+      whenToVisit: [
+        "If a checkup flagged an abnormal number, we recommend coming in for a consultation even without symptoms.",
+      ],
+    },
   },
   {
     slug: "neck-swelling-fatigue",
@@ -367,6 +508,21 @@ export const SYMPTOMS: SymptomEntry[] = [
     whenToVisit: [
       "首の腫れに気づいた場合、だるさが長く続く場合は受診をご検討ください。",
     ],
+    en: {
+      title: "Neck swelling / fatigue",
+      summary: "For swelling in the neck and whole-body fatigue",
+      possibleCauses: [
+        { name: "Thyroid conditions", note: "A possible cause of neck swelling, fatigue, palpitations, and weight changes." },
+      ],
+      relatedTests: ["Blood test", "Abdominal ultrasound"],
+      treatmentOverview: [
+        "Depending on blood test and ultrasound results, we often consider monitoring or medication.",
+        "If specialized evaluation or treatment is needed, we may refer you to a specialized institution.",
+      ],
+      whenToVisit: [
+        "Please consider coming in if you notice swelling in your neck, or if fatigue continues for a long time.",
+      ],
+    },
   },
   {
     slug: "allergy-rhinitis-itching",
@@ -387,6 +543,23 @@ export const SYMPTOMS: SymptomEntry[] = [
     whenToVisit: [
       "症状が生活に支障をきたす場合や、市販薬で改善しない場合は受診をご検討ください。",
     ],
+    en: {
+      title: "Rhinitis, sneezing, and itchy skin",
+      summary: "For hay fever, hives, allergic rhinitis, and similar conditions",
+      possibleCauses: [
+        { name: "Hay fever (seasonal allergic rhinitis)", note: "Often involves sneezing, a runny nose, and itchy eyes during a particular season." },
+        { name: "Hives", note: "Often appears as itchy welts (raised patches) on the skin." },
+        { name: "Allergic rhinitis", note: "Symptoms often triggered by a specific allergen, such as house dust." },
+      ],
+      relatedTests: ["Blood test"],
+      treatmentOverview: [
+        "Treatment is often centered on medication to manage symptoms — antiallergy drugs, nasal sprays, antihistamines, and the like.",
+        "For hay fever, in addition to standard insurance-covered treatment, we may also introduce a self-pay option (a steroid injection).",
+      ],
+      whenToVisit: [
+        "Please consider coming in if symptoms interfere with daily life, or over-the-counter medication isn't helping.",
+      ],
+    },
   },
   {
     slug: "snoring-daytime-sleepiness",
@@ -405,6 +578,21 @@ export const SYMPTOMS: SymptomEntry[] = [
     whenToVisit: [
       "ご家族からいびき・無呼吸を指摘された場合や、日中の眠気で日常生活に支障がある場合は受診をご検討ください。",
     ],
+    en: {
+      title: "Snoring / daytime sleepiness",
+      summary: "For snoring and strong daytime sleepiness",
+      possibleCauses: [
+        { name: "Sleep apnea syndrome", note: "A possible underlying condition when strong daytime sleepiness comes with pauses in breathing or loud snoring during sleep." },
+      ],
+      relatedTests: ["Blood test"],
+      treatmentOverview: [
+        "Depending on test results and severity, we may determine that lifestyle changes or specialized testing and treatment (such as CPAP therapy — sending air through a mask worn over the nose or mouth during sleep to keep the airway open) are needed.",
+        "If specialized testing or treatment is needed, we may refer you to an institution that can evaluate sleep apnea in detail.",
+      ],
+      whenToVisit: [
+        "Please consider coming in if family members have pointed out your snoring or breathing pauses, or if daytime sleepiness is interfering with daily life.",
+      ],
+    },
   },
   {
     slug: "palpitations-shortness-of-breath",
@@ -438,6 +626,35 @@ export const SYMPTOMS: SymptomEntry[] = [
       "動悸・息切れが繰り返す場合、階段や坂道で強く息切れするようになった場合は受診をご検討ください。",
       "失神・胸痛を伴う場合は様子を見ず直ちに救急要請してください。",
     ],
+    en: {
+      title: "Palpitations / shortness of breath",
+      summary: "For palpitations and shortness of breath (symptoms that may call for a cardiovascular evaluation)",
+      emergencyBox: {
+        heading: "Please don't wait — call emergency services right away if any of these apply",
+        points: [
+          "Palpitations along with fainting or feeling faint",
+          "Palpitations along with chest pain",
+          "Severe shortness of breath",
+        ],
+        action: "These may signal a cardiovascular emergency — call emergency services (119) right away.",
+        strong: true,
+      },
+      possibleCauses: [
+        { name: "Arrhythmia and other cardiovascular conditions", note: "A heart condition may be behind palpitations or shortness of breath, and ruling this out through an internal medicine evaluation is important." },
+        { name: "Anemia", note: "Confirmed with a blood test; anemia can be the cause of palpitations and shortness of breath." },
+        { name: "Thyroid dysfunction", note: "One of the conditions that can come with palpitations." },
+        { name: "Autonomic dysregulation", note: "May be considered once other conditions, such as stress or lifestyle irregularities, have been ruled out." },
+      ],
+      relatedTests: ["Blood test", "ECG", "Digital X-ray"],
+      treatmentOverview: [
+        "We usually start by evaluating the heart, anemia, and thyroid function with an ECG, blood tests, and the like.",
+        "If specialized testing or treatment is needed (such as Holter ECG monitoring — a portable device that records your heart rhythm over an extended period during daily life — or cardiac ultrasound), we may refer you to a cardiovascular specialist.",
+      ],
+      whenToVisit: [
+        "Please consider coming in if palpitations or shortness of breath recur, or if you've become noticeably short of breath on stairs or slopes.",
+        "If fainting or chest pain is involved, please don't wait — call emergency services right away.",
+      ],
+    },
   },
   {
     slug: "dizziness",
@@ -474,6 +691,39 @@ export const SYMPTOMS: SymptomEntry[] = [
       "めまいを繰り返す場合、日常生活に支障がある場合は受診をご検討ください。",
       "手足の麻痺・しびれ、ろれつが回らない等を伴う場合は様子を見ず直ちに救急要請してください。",
     ],
+    en: {
+      title: "Dizziness",
+      summary: "For spinning (vertigo-type) dizziness and lightheadedness",
+      emergencyBox: {
+        heading: "Please don't wait — call emergency services right away if any of these apply",
+        points: [
+          "Weakness or numbness in a limb, slurred speech, or trouble finding words",
+          "Double vision or a loss of part of your visual field",
+          "Your body strongly tilts to one side while walking, or you can't walk straight",
+          "A sudden, severe headache",
+        ],
+        action: "These may signal central (brain-related) dizziness such as stroke — call emergency services (119) right away.",
+        strong: true,
+      },
+      possibleCauses: [
+        { name: "Benign paroxysmal positional vertigo (BPPV)", note: "The most common cause of dizziness — spinning vertigo lasting seconds to tens of seconds, triggered by a change in head position." },
+        { name: "Ménière's disease", note: "Suspected when spinning vertigo recurs along with hearing loss, tinnitus, or a feeling of ear fullness." },
+        { name: "Orthostatic hypotension", note: "A sharp drop in blood pressure on standing can cause lightheadedness." },
+        { name: "Vasovagal reflex (vasovagal syncope)", note: "Lightheadedness or a brief loss of consciousness (fainting) can be triggered by intense pain, fear, or prolonged standing." },
+        { name: "Autonomic dysregulation", note: "May be considered as an underlying factor in lightheadedness once other causes have been ruled out." },
+        { name: "Central dizziness from stroke and similar conditions", note: "An urgent cause suspected when accompanied by limb weakness or slurred speech." },
+      ],
+      relatedTests: ["Blood test", "ECG"],
+      treatmentOverview: [
+        "We identify the cause through history-taking and positional testing; if BPPV is suspected, physical therapy to reposition the inner-ear crystals (vertigo exercises) is often used.",
+        "If Ménière's disease or similar conditions are suspected, we consider medication based on hearing tests and other findings.",
+        "If dangerous warning signs are present, we promptly refer you to an institution capable of imaging studies.",
+      ],
+      whenToVisit: [
+        "Please consider coming in if dizziness recurs or interferes with daily life.",
+        "If accompanied by limb weakness, numbness, or slurred speech, please don't wait — call emergency services right away.",
+      ],
+    },
   },
   {
     slug: "numbness",
@@ -510,6 +760,39 @@ export const SYMPTOMS: SymptomEntry[] = [
       "しびれが続く場合、徐々に悪化する場合、歩ける距離が短くなってきた場合は受診をご検討ください。",
       "片側の急なしびれ・脱力、顔のゆがみ、ろれつが回らない等がある場合は、様子を見ず直ちに救急要請してください。",
     ],
+    en: {
+      title: "Numbness in the hands or feet",
+      summary: "For numbness and abnormal sensation in the hands or feet. More common in older adults, with very different care depending on the cause.",
+      emergencyBox: {
+        heading: "Please don't wait — call emergency services right away if any of these apply",
+        points: [
+          "Sudden weakness or numbness on one side of the body",
+          "One side of the face droops, or you can't smile normally",
+          "Slurred speech, or trouble speaking or understanding",
+          "A sudden, severe headache unlike any you've had before",
+        ],
+        action: "These may be signs of a stroke (cerebral infarction or hemorrhage). Even if symptoms temporarily ease, don't dismiss them — call emergency services (119) right away. It also helps to note the time symptoms started (the last time you felt normal).",
+        strong: true,
+      },
+      possibleCauses: [
+        { name: "Stroke / transient ischemic attack (TIA)", note: "An urgent cause suspected when numbness or weakness suddenly appears on one side of the body or face. Even if it resolves quickly, it can be a warning sign of a future stroke." },
+        { name: "Lumbar spinal stenosis", note: "Common in older adults; characterized by numbness in the legs after walking for a while that eases with a short rest (intermittent claudication)." },
+        { name: "Cervical spondylosis (nerve compression from changes in the cervical spine)", note: "Can appear as numbness from the neck through the shoulder and arm." },
+        { name: "Diabetic neuropathy", note: "A complication of diabetes that can cause symmetric numbness and reduced sensation starting at the tips of both feet." },
+        { name: "Carpal tunnel syndrome", note: "Compression of a nerve at the wrist causes numbness from the thumb to the ring finger, often worse in the early morning." },
+        { name: "Peripheral artery disease (arteriosclerosis obliterans)", note: "Reduced blood flow to the legs can cause numbness, a cold sensation, and pain while walking." },
+      ],
+      relatedTests: ["Blood test", "ECG"],
+      treatmentOverview: [
+        "Our first priority is always ruling out urgent causes like stroke through history-taking and examination.",
+        "We check for systemic causes such as diabetes or vitamin deficiency with a blood test, and consider treatment accordingly (blood sugar control, etc.).",
+        "If lumbar spinal stenosis or cervical spondylosis is suspected, we coordinate with an orthopedic or spine specialist capable of imaging (MRI, etc.).",
+      ],
+      whenToVisit: [
+        "Please consider coming in if numbness persists, gradually worsens, or the distance you can walk is shrinking.",
+        "If you have sudden numbness or weakness on one side, facial drooping, or slurred speech, please don't wait — call emergency services right away.",
+      ],
+    },
   },
   {
     slug: "headache",
@@ -543,6 +826,36 @@ export const SYMPTOMS: SymptomEntry[] = [
       "頭痛を繰り返す場合、市販薬が効きにくくなってきた場合は受診をご検討ください。",
       "突然の激しい頭痛、発熱や麻痺を伴う頭痛は様子を見ず直ちに救急要請してください。",
     ],
+    en: {
+      title: "Headache",
+      summary: "For recurring headaches and sudden, severe headaches",
+      emergencyBox: {
+        heading: "Please don't wait — call emergency services right away if any of these apply",
+        points: [
+          "A sudden, severe headache unlike anything you've experienced before",
+          "Accompanied by fever, neck stiffness, or clouded consciousness",
+          "Accompanied by limb weakness, numbness, or slurred speech",
+          "A headache that started after hitting your head",
+        ],
+        action: "These may signal an urgent condition such as subarachnoid hemorrhage — call emergency services (119) right away.",
+        strong: true,
+      },
+      possibleCauses: [
+        { name: "Migraine", note: "A throbbing, pulsing headache usually on one side, often with nausea and sensitivity to light or sound." },
+        { name: "Tension-type headache", note: "Characterized by a tight, pressing sensation across the whole head — one of the most common types of headache." },
+        { name: "Cluster headache", note: "Severe pain behind one eye that recurs repeatedly over a set period (a cluster period)." },
+        { name: "Subarachnoid hemorrhage, meningitis, and similar conditions", note: "Urgent causes suspected when a sudden, severe headache comes with fever or altered consciousness." },
+      ],
+      relatedTests: ["Blood test"],
+      treatmentOverview: [
+        "We ask in detail about the nature of your headache and consider medication suited to the type — migraine, tension-type, cluster, and so on.",
+        "If dangerous warning signs are present, we promptly refer you to an institution capable of imaging (CT, MRI, etc.).",
+      ],
+      whenToVisit: [
+        "Please consider coming in if headaches recur, or over-the-counter medication is becoming less effective.",
+        "For a sudden, severe headache, or one with fever or weakness, please don't wait — call emergency services right away.",
+      ],
+    },
   },
 
   // ==================== 外科系 ====================
@@ -566,6 +879,24 @@ export const SYMPTOMS: SymptomEntry[] = [
       "出血が止まらない、範囲が広い、深いやけどの場合は早めに受診してください。",
       "軽い傷・やけどでも、化膿の兆候（腫れ・熱感・膿）がある場合は受診をご検討ください。",
     ],
+    en: {
+      title: "Wounds & burns",
+      summary: "For treatment of wounds and burns",
+      possibleCauses: [
+        { name: "Wounds (cuts, scrapes, etc.)", note: "Depending on severity, may require cleaning, suturing, or other treatment." },
+        { name: "Burns", note: "The treatment approach often differs depending on the area and depth." },
+      ],
+      relatedTests: [],
+      treatmentOverview: [
+        "Wound and burn care is provided by our surgical specialist (board-certified in gastrointestinal surgery).",
+        "Depending on severity, we often clean, disinfect, suture, and choose an appropriate dressing.",
+        "For more severe cases, we may consider referral to a more specialized institution (such as plastic surgery).",
+      ],
+      whenToVisit: [
+        "Please come in soon if bleeding won't stop, the area is large, or the burn is deep.",
+        "Even for a minor wound or burn, please consider coming in if there are signs of infection (swelling, warmth, pus).",
+      ],
+    },
   },
   {
     slug: "lumps-and-bumps",
@@ -596,6 +927,33 @@ export const SYMPTOMS: SymptomEntry[] = [
       "しこり・できものに気づいた場合は、症状がなくても一度ご相談いただくことをおすすめします。",
       "急速な増大・痛み・発赤・発熱を伴う場合は早めに受診してください。",
     ],
+    en: {
+      title: "Lumps & bumps",
+      summary: "For lumps and bumps on or under the skin",
+      emergencyBox: {
+        heading: "Please come in soon if any of these apply",
+        points: [
+          "It's growing rapidly",
+          "It's painful",
+          "There's redness or fever",
+        ],
+        action: "Most are benign, but a rapidly growing, hard lump, or one with changes in the overlying skin, needs closer evaluation. Please come in soon if any of the above apply.",
+      },
+      possibleCauses: [
+        { name: "Epidermoid cyst (atheroma)", note: "Often a benign growth under the skin." },
+        { name: "Lipoma", note: "Often a benign lump in the fatty tissue under the skin." },
+      ],
+      relatedTests: ["Abdominal ultrasound"],
+      treatmentOverview: [
+        "Most are benign, but we may check the characteristics with ultrasound or similar tests as needed.",
+        "Our surgical specialist can often perform same-day minor surgery (removal).",
+        "If a malignancy can't be ruled out — rapid growth, hardness, or changes in the overlying skin — we may refer you to an institution for more detailed testing.",
+      ],
+      whenToVisit: [
+        "If you notice a lump or growth, we recommend a consultation even without symptoms.",
+        "Please come in soon if it's growing rapidly, or accompanied by pain, redness, or fever.",
+      ],
+    },
   },
   {
     slug: "skin-redness-swelling",
@@ -628,6 +986,35 @@ export const SYMPTOMS: SymptomEntry[] = [
       "赤み・腫れの範囲が急速に広がる、発熱を伴う場合は早めに受診してください。",
       "軽い症状でも、繰り返す・なかなか治らない場合はご相談ください。",
     ],
+    en: {
+      title: "Skin redness, swelling, and warmth",
+      summary: "For red, swollen, warm skin on the hands or feet that's spreading",
+      emergencyBox: {
+        heading: "Please come in soon — don't wait if any of these apply",
+        points: [
+          "The redness or swelling is gradually spreading",
+          "Accompanied by fever or fatigue",
+          "You have an underlying condition such as diabetes",
+        ],
+        action: "Rapid spreading or fever may indicate an infection such as cellulitis — please don't wait too long, and come talk to us soon.",
+      },
+      possibleCauses: [
+        { name: "Hives", note: "Sudden, intensely itchy redness or welts that usually disappear within hours to a day, leaving no mark. Usually not accompanied by warmth or fever, which distinguishes it from an infection." },
+        { name: "Cellulitis", note: "A bacterial infection, often entering through a skin wound or athlete's foot, that causes spreading redness, swelling, and warmth." },
+        { name: "Impetigo", note: "A bacterial infection that can spread from a scratched insect bite or similar wound, mainly affecting children." },
+        { name: "Shingles", note: "Suspected with a band of redness and blisters on one side of the body, along with nerve pain." },
+      ],
+      relatedTests: ["Blood test"],
+      treatmentOverview: [
+        "We assess how the rash is spreading and its extent on examination, and check inflammatory markers with a blood test as needed.",
+        "We provide antibacterial or antiviral treatment depending on the cause.",
+        "For widespread involvement or significant fever, we may coordinate with an institution capable of IV treatment or hospitalization.",
+      ],
+      whenToVisit: [
+        "Please come in soon if redness or swelling is spreading rapidly, or accompanied by fever.",
+        "Even for mild symptoms, please talk to us if they recur or won't heal.",
+      ],
+    },
   },
   {
     slug: "itchy-feet-skin-peeling",
@@ -649,6 +1036,24 @@ export const SYMPTOMS: SymptomEntry[] = [
       "市販薬を使ってもかゆみ・皮むけが続く、繰り返す場合はご相談ください。",
       "見た目だけでは湿疹等と区別がつきにくいため、自己判断を続ける前に一度ご相談ください。",
     ],
+    en: {
+      title: "Itchy feet & skin peeling",
+      summary: "For itching, peeling, and blisters between the toes or on the soles",
+      possibleCauses: [
+        { name: "Athlete's foot (tinea pedis)", note: "A fungal infection causing soggy, peeling skin between the toes and blisters on the soles." },
+        { name: "Dyshidrotic eczema, contact dermatitis, and similar conditions", note: "Can closely resemble athlete's foot in appearance; testing is useful to tell them apart." },
+      ],
+      relatedTests: [],
+      treatmentOverview: [
+        "We diagnose by taking a skin sample and checking for fungus under a microscope (direct microscopy).",
+        "If athlete's foot is confirmed, we treat with a topical antifungal. It's important to keep applying it for a while even after symptoms clear.",
+        "If a nail fungal infection is also present, we may consider an oral antifungal medication.",
+      ],
+      whenToVisit: [
+        "Please talk to us if itching or peeling continues or recurs despite over-the-counter treatment.",
+        "Since it can be hard to tell apart from eczema and similar conditions by appearance alone, please come in rather than continuing to self-diagnose.",
+      ],
+    },
   },
   {
     slug: "nail-trouble",
@@ -667,6 +1072,21 @@ export const SYMPTOMS: SymptomEntry[] = [
     whenToVisit: [
       "痛みが強い、腫れ・膿がある場合は早めに受診してください。",
     ],
+    en: {
+      title: "Nail trouble",
+      summary: "For ingrown toenails and similar nail conditions",
+      possibleCauses: [
+        { name: "Ingrown/curved toenails", note: "Deformation or digging-in of the nail often causes pain, swelling, and inflammation." },
+      ],
+      relatedTests: [],
+      treatmentOverview: [
+        "Our surgical specialist often considers treatment (taping, partial nail removal, correction, etc.) suited to your condition.",
+        "If infection is present, we may add antibacterial treatment.",
+      ],
+      whenToVisit: [
+        "Please come in soon if pain is severe, or there's swelling or pus.",
+      ],
+    },
   },
   {
     slug: "hemorrhoids",
@@ -691,6 +1111,27 @@ export const SYMPTOMS: SymptomEntry[] = [
       "出血を繰り返す場合、痛みが強い場合は受診をご検討ください。",
       "「痔だと思っていても」自己判断せず、出血がある場合は一度ご相談ください。",
     ],
+    en: {
+      title: "Pain or bleeding around the anus",
+      summary: "For hemorrhoids and other pain or bleeding around the anus",
+      emergencyBox: {
+        heading: "Please don't self-diagnose — come talk to us",
+        points: ["If you have blood in your stool or bleeding, please don't assume it's \"just hemorrhoids\" — come in for a visit"],
+        action: "To rule out colorectal conditions, please consider coming in if you have any bleeding.",
+      },
+      possibleCauses: [
+        { name: "Hemorrhoids (external/internal piles, anal fissure, etc.)", note: "A common cause of pain and bleeding during bowel movements, but other conditions are also possible." },
+      ],
+      relatedTests: ["Blood test"],
+      treatmentOverview: [
+        "We often manage symptoms with topical or oral medication, along with lifestyle adjustments.",
+        "If symptoms are severe, or a condition other than hemorrhoids is suspected, we may refer you to an institution capable of specialized testing.",
+      ],
+      whenToVisit: [
+        "Please consider coming in if bleeding recurs or pain is severe.",
+        "Please don't assume it's \"just hemorrhoids\" — if you have any bleeding, come talk to us.",
+      ],
+    },
   },
   {
     slug: "abdominal-distension-surgical",
@@ -722,6 +1163,34 @@ export const SYMPTOMS: SymptomEntry[] = [
     whenToVisit: [
       "強い痛みが続く、症状が悪化している場合は速やかに受診してください。",
     ],
+    en: {
+      title: "Abdominal bloating/pain (when a surgical evaluation may be needed)",
+      summary: "For abdominal bloating or pain that may require a surgical judgment call",
+      emergencyBox: {
+        heading: "Please don't wait — call emergency services or go to the ER if any of these apply",
+        points: [
+          "Sudden, severe pain",
+          "Persistent vomiting",
+          "Blood in your stool or black, tarry stool",
+          "Your abdomen is rigid, like a board (a sign of peritoneal irritation)",
+        ],
+        action: "If any of the above apply, please don't wait — call emergency services or go to the ER.",
+      },
+      possibleCauses: [
+        { name: "Appendicitis", note: "A possible condition that may require surgical treatment." },
+        { name: "Bowel obstruction and other intestinal conditions", note: "Can involve bloating, pain, and vomiting." },
+        { name: "Gallstones", note: "Can appear as upper-right abdominal pain." },
+        { name: "Cholecystitis", note: "A state where gallstones have progressed to inflammation of the gallbladder, often with fever." },
+      ],
+      relatedTests: ["Blood test", "Abdominal ultrasound", "16-row CT"],
+      treatmentOverview: [
+        "We evaluate with imaging (CT, ultrasound, etc.) and determine whether surgical treatment is needed.",
+        "If emergency surgery is judged necessary, we promptly refer you to a higher-level institution.",
+      ],
+      whenToVisit: [
+        "Please come in promptly if severe pain continues or symptoms are worsening.",
+      ],
+    },
   },
   {
     slug: "bruises-sprains-injuries",
@@ -741,6 +1210,22 @@ export const SYMPTOMS: SymptomEntry[] = [
     whenToVisit: [
       "強い痛みで体重をかけられない、変形がある場合は早めに受診してください。",
     ],
+    en: {
+      title: "Bruises, sprains & injuries",
+      summary: "For bruises, sprains, and similar injuries",
+      possibleCauses: [
+        { name: "Bruise", note: "Often involves swelling and internal bleeding (bruising)." },
+        { name: "Sprain", note: "Often involves swelling and pain in a joint." },
+      ],
+      relatedTests: ["Digital X-ray"],
+      treatmentOverview: [
+        "First aid such as rest, icing, compression, and elevation (RICE), along with an X-ray as needed to check for a fracture.",
+        "If a fracture is suspected or specialized treatment is needed, we may consider referral to orthopedics.",
+      ],
+      whenToVisit: [
+        "Please come in soon if the pain is too severe to bear weight, or there's visible deformity.",
+      ],
+    },
   },
 
   // ==================== 小児科系 ====================
@@ -776,6 +1261,36 @@ export const SYMPTOMS: SymptomEntry[] = [
       "上記のレッドフラグサインに当てはまる場合は、様子を見ず救急要請してください。",
       "判断に迷う場合は、遠慮なくご相談ください。",
     ],
+    en: {
+      title: "A child's sudden fever or cold",
+      summary: "For a child's sudden fever or cold symptoms",
+      emergencyBox: {
+        heading: "Please don't wait — call emergency services if any of these apply",
+        points: [
+          "A fever in an infant under 3 months old",
+          "A seizure occurred",
+          "Limp and poorly responsive",
+          "Unable to take fluids, or no urination",
+        ],
+        action: "If any of the above apply, please don't wait — call emergency services.",
+        strong: true,
+      },
+      possibleCauses: [
+        { name: "Common cold", note: "Often involves fever, a runny nose, and a cough, and usually improves within a few days." },
+        { name: "Influenza and other viral infections", note: "Often involves a sudden high fever." },
+        { name: "Other infections", note: "Fever has many possible causes, so we often judge based on how it develops." },
+      ],
+      relatedTests: ["Blood test"],
+      treatmentOverview: [
+        "As your family's local clinic, we handle everyday fever and cold symptoms. We don't provide specialized inpatient or newborn care.",
+        "We often manage symptoms with medication (fever reducers, etc.), and refer to a higher-level institution or pediatric specialist when needed.",
+      ],
+      whenToVisit: [
+        "If the fever is mild and your child's mood and fluid intake are holding up, it's also fine to rest and watch at home.",
+        "If any of the red-flag signs above apply, please don't wait — call emergency services.",
+        "If you're unsure, please don't hesitate to reach out.",
+      ],
+    },
   },
   {
     slug: "child-runny-nose",
@@ -807,6 +1322,34 @@ export const SYMPTOMS: SymptomEntry[] = [
       "機嫌や哺乳・食事が保たれている軽い鼻水は、自宅で様子を見ていただくことも可能です。",
       "鼻水が2週間以上続く、呼吸が苦しそう等の場合は受診をご検討ください。",
     ],
+    en: {
+      title: "A child's runny or stuffy nose",
+      summary: "For a child's runny or stuffy nose without fever",
+      emergencyBox: {
+        heading: "Please come in — don't wait if any of these apply",
+        points: [
+          "Breathing looks difficult, or you hear a wheezing sound",
+          "Not feeding or eating enough",
+          "A runny nose that drags on, with thick yellow or green mucus",
+        ],
+        action: "If any of the above apply, please come in rather than waiting.",
+      },
+      possibleCauses: [
+        { name: "Common cold", note: "May occur without fever, with a runny or stuffy nose as the main ongoing symptom." },
+        { name: "Allergic rhinitis", note: "Possible when there's clear, watery nasal discharge or repeated sneezing." },
+        { name: "Progression to sinusitis", note: "Possible when nasal discharge drags on and turns thick, yellow, or green." },
+      ],
+      relatedTests: [],
+      treatmentOverview: [
+        "As your family's local clinic, we handle your child's everyday runny or stuffy nose.",
+        "We ease symptoms with nasal suction, expectorants, and oral medication or nasal sprays suited to the cause.",
+        "For symptoms that drag on or when sinusitis is suspected, we may check the sinuses with an in-house X-ray (Waters' view).",
+      ],
+      whenToVisit: [
+        "A mild runny nose, with mood, feeding, and eating holding up, can also be watched at home.",
+        "Please consider coming in if nasal discharge continues for more than 2 weeks, or breathing looks difficult.",
+      ],
+    },
   },
   {
     slug: "child-vomiting-diarrhea",
@@ -837,6 +1380,33 @@ export const SYMPTOMS: SymptomEntry[] = [
       "水分が摂れており、機嫌が保たれている場合は自宅で様子を見ていただくことも可能です。",
       "脱水症状（おしっこが出ない、ぐったりしている等）がみられる場合は、様子を見ず受診してください。",
     ],
+    en: {
+      title: "A child's vomiting & diarrhea (gastroenteritis)",
+      summary: "For a child's vomiting and diarrhea",
+      emergencyBox: {
+        heading: "Please come in or call emergency services — don't wait if any of these apply",
+        points: [
+          "Limp and poorly responsive",
+          "Unable to take fluids, with no urination for half a day or more",
+          "Severe, continuing vomiting or diarrhea",
+          "Blood in the stool",
+        ],
+        action: "These may indicate dehydration — please don't wait, come in or call emergency services.",
+        strong: true,
+      },
+      possibleCauses: [
+        { name: "Infectious gastroenteritis (viral or bacterial)", note: "Often involves vomiting, diarrhea, and fever, and usually improves within a few days." },
+      ],
+      relatedTests: ["Blood test"],
+      treatmentOverview: [
+        "As your family's local clinic, we handle everyday gastroenteritis. We don't provide specialized inpatient or newborn care.",
+        "Treatment is usually centered on fluid and electrolyte replacement, and we refer to a higher-level institution or pediatric specialist when needed.",
+      ],
+      whenToVisit: [
+        "If your child is taking fluids and in good spirits, it's also fine to watch at home.",
+        "If signs of dehydration appear (no urination, limpness, etc.), please don't wait — come in.",
+      ],
+    },
   },
 
   // ==================== 自費診療系 ====================
@@ -868,6 +1438,32 @@ export const SYMPTOMS: SymptomEntry[] = [
         "食欲抑制作用があるとされ、血糖値コントロールのサポートも期待されます。消化器症状（吐き気・下痢など）が現れる場合があるほか、まれに急性膵炎・胆嚢炎等の重篤な副作用が報告されているため、強い腹痛がある場合は速やかに受診してください。効果には個人差があり、医師が継続的な体重管理をサポートします。",
       contactNote: "詳しい費用・リスクは、初回診察時に医師よりご説明します。ご不明な点はLINE・お電話（開院後）でお問い合わせください。",
     },
+    en: {
+      title: "Not losing weight / obesity (GLP-1 treatment)",
+      summary: "Self-pay obesity treatment with GLP-1 receptor agonists",
+      possibleCauses: [
+        {
+          name: "Weight gain related to lifestyle",
+          note: "Diet, exercise, and sleep habits are often behind it. GLP-1 treatment is something a doctor considers only after judging it's indicated for obesity or type 2 diabetes — it isn't offered simply for cosmetic weight loss.",
+        },
+      ],
+      relatedTests: ["Blood test"],
+      treatmentOverview: [
+        "We start within insurance-covered care — reviewing lifestyle habits and evaluating with tests (blood work, etc.) as needed.",
+        "From there, self-pay treatment with a GLP-1 receptor agonist may be introduced as one option.",
+      ],
+      whenToVisit: [
+        "If a checkup has flagged abnormal weight or blood sugar, we recommend starting with an insurance-covered consultation.",
+      ],
+      selfPay: {
+        isSelfPayNote:
+          "Treatment with a GLP-1 receptor agonist is self-pay care (not covered by public health insurance — paid entirely out of pocket) and is not a substitute for standard insurance-covered treatment.",
+        priceItems: [{ name: "GLP-1 weight loss plan (low-dose starter)", price: "From ¥19,800/month" }],
+        risks:
+          "Thought to suppress appetite, with hoped-for support for blood sugar control as well. Digestive symptoms (nausea, diarrhea, etc.) can occur, and rare but serious side effects such as acute pancreatitis or cholecystitis have been reported — please come in promptly if you have severe abdominal pain. Results vary from person to person, and your doctor will support you with ongoing weight management.",
+        contactNote: "We'll explain the detailed costs and risks at your first visit. For questions, please reach out via LINE or by phone (once we're open).",
+      },
+    },
   },
   {
     slug: "hair-loss-aga",
@@ -897,6 +1493,32 @@ export const SYMPTOMS: SymptomEntry[] = [
         "ミノキシジル外用薬・フィナステリド内服薬など、エビデンスに基づく薄毛治療です。フィナステリドでは性機能への影響が報告されています。定期的な経過観察を行います。",
       contactNote: "詳しい費用・リスクは、初回診察時に医師よりご説明します。ご不明な点はLINE・お電話（開院後）でお問い合わせください。",
     },
+    en: {
+      title: "Concerned about thinning hair (AGA treatment)",
+      summary: "Self-pay treatment for AGA (male pattern hair loss)",
+      possibleCauses: [
+        { name: "Male pattern hair loss (AGA)", note: "Often related to aging and hormonal factors." },
+      ],
+      relatedTests: [],
+      treatmentOverview: [
+        "Evidence-based treatment typically involves topical minoxidil and oral finasteride.",
+        "Treatment is usually continued with regular follow-up. Results vary from person to person.",
+      ],
+      whenToVisit: [
+        "If thinning hair is a concern, we start with a consultation with the doctor (your first visit).",
+      ],
+      selfPay: {
+        isSelfPayNote:
+          "AGA treatment is self-pay care (not covered by public health insurance — paid entirely out of pocket) and is not a substitute for standard insurance-covered treatment. It requires ongoing prescriptions, and results vary from person to person.",
+        priceItems: [
+          { name: "AGA treatment (finasteride)", price: "¥6,200/month" },
+          { name: "AGA treatment (dutasteride-based)", price: "From around ¥10,000+/month" },
+        ],
+        risks:
+          "Evidence-based hair loss treatments such as topical minoxidil and oral finasteride. Finasteride has been reported to affect sexual function in some cases. We monitor your progress regularly.",
+        contactNote: "We'll explain the detailed costs and risks at your first visit. For questions, please reach out via LINE or by phone (once we're open).",
+      },
+    },
   },
   {
     slug: "ed-treatment",
@@ -925,6 +1547,31 @@ export const SYMPTOMS: SymptomEntry[] = [
       risks: "シルデナフィル・タダラフィルなど、医師の診察のうえで処方します。頭痛・顔面紅潮・血圧低下などの副作用が出る場合があります。",
       contactNote: "詳しい費用・リスクは、初回診察時に医師よりご説明します。ご不明な点はLINE・お電話（開院後）でお問い合わせください。",
     },
+    en: {
+      title: "ED (erectile dysfunction) treatment",
+      summary: "Self-pay treatment with ED medications",
+      possibleCauses: [
+        { name: "Factors related to aging, lifestyle, and blood flow", note: "An underlying lifestyle-related condition can sometimes be involved." },
+      ],
+      relatedTests: ["Blood test"],
+      treatmentOverview: [
+        "After a doctor's consultation, we often prescribe oral medication (sildenafil, tadalafil, etc.).",
+        "If an underlying lifestyle-related condition is present, we may evaluate and treat that as well.",
+      ],
+      whenToVisit: [
+        "For ED treatment too, we start with a consultation with the doctor (your first visit).",
+      ],
+      selfPay: {
+        isSelfPayNote:
+          "Prescribing ED medication is self-pay care (not covered by public health insurance — paid entirely out of pocket) and is not a substitute for standard insurance-covered treatment. It requires ongoing prescriptions, and results vary from person to person.",
+        priceItems: [
+          { name: "ED medication (Viagra)", price: "¥2,400/tablet" },
+          { name: "ED medication (Cialis)", price: "¥1,700/tablet" },
+        ],
+        risks: "Sildenafil, tadalafil, and similar medications, prescribed after a doctor's consultation. Side effects such as headache, facial flushing, or low blood pressure can occur.",
+        contactNote: "We'll explain the detailed costs and risks at your first visit. For questions, please reach out via LINE or by phone (once we're open).",
+      },
+    },
   },
   {
     slug: "hayfever-steroid-injection",
@@ -951,6 +1598,29 @@ export const SYMPTOMS: SymptomEntry[] = [
         "季節性アレルギー性鼻炎のシーズン前に行うステロイド（トリアムシノロンアセトニド）注射です。注射部位反応・血糖値上昇のほか、繰り返しの使用では月経異常・免疫力低下・注射部位の皮膚萎縮などのリスクがあり、頻回の使用はおすすめできません。",
       contactNote: "詳しい費用・リスクは、診察時に医師よりご説明します。ご不明な点はLINE・お電話（開院後）でお問い合わせください。",
     },
+    en: {
+      title: "Hay fever (self-pay steroid injection)",
+      summary: "A self-pay steroid injection for hay fever",
+      possibleCauses: [
+        { name: "Hay fever (seasonal allergic rhinitis)", note: "Often involves sneezing, a runny nose, and itchy eyes during a particular season." },
+      ],
+      relatedTests: [],
+      treatmentOverview: [
+        "We start by introducing insurance-covered oral medication and nasal sprays as the basic treatment.",
+        "As one option, we may offer a self-pay steroid injection given before the season starts. We don't recommend using it frequently.",
+      ],
+      whenToVisit: [
+        "If symptoms are severe every year and interfere with daily life, please talk to us once before the season starts.",
+      ],
+      selfPay: {
+        isSelfPayNote:
+          "The hay fever steroid injection is self-pay care (not covered by public health insurance — paid entirely out of pocket) and is not a substitute for standard insurance-covered treatment.",
+        priceItems: [{ name: "Hay fever steroid injection", price: "¥4,000/session (consultation fee separate)" }],
+        risks:
+          "A steroid (triamcinolone acetonide) injection given before the seasonal allergic rhinitis season. Besides injection-site reactions and a rise in blood sugar, repeated use carries risks such as menstrual irregularity, lowered immunity, and skin thinning at the injection site — we don't recommend frequent use.",
+        contactNote: "We'll explain the detailed costs and risks at your visit. For questions, please reach out via LINE or by phone (once we're open).",
+      },
+    },
   },
   {
     slug: "fatigue-vitamin-injection",
@@ -976,6 +1646,29 @@ export const SYMPTOMS: SymptomEntry[] = [
       risks:
         "ビタミンB1等を含む注射で、疲労感・倦怠感の軽減を目的として行われることがあります。効果には個人差があり、まれに注射部位の痛み・アレルギー反応等が起こることがあります。",
       contactNote: "詳しい費用・リスクは、診察時に医師よりご説明します。ご不明な点はLINE・お電話（開院後）でお問い合わせください。",
+    },
+    en: {
+      title: "Fatigue (vitamin \"garlic\" injection)",
+      summary: "A self-pay vitamin injection (\"garlic injection\") for fatigue",
+      possibleCauses: [
+        { name: "Fatigue related to lifestyle, lack of sleep, etc.", note: "Another condition (anemia, thyroid dysfunction, etc.) can sometimes be an underlying cause." },
+      ],
+      relatedTests: ["Blood test"],
+      treatmentOverview: [
+        "If fatigue persists, we usually start by checking for an underlying condition with a blood test or similar.",
+        "As one option, we may offer an injection containing vitamin B1 and similar nutrients (a so-called \"garlic injection\"). Results vary from person to person.",
+      ],
+      whenToVisit: [
+        "If fatigue continues for a long time, please come talk to us rather than self-diagnosing.",
+      ],
+      selfPay: {
+        isSelfPayNote:
+          "The vitamin injection (\"garlic injection\") is self-pay care (not covered by public health insurance — paid entirely out of pocket). It doesn't treat an underlying condition itself, and is not a substitute for standard insurance-covered treatment.",
+        priceItems: [{ name: "Garlic injection", price: "¥1,500/session" }],
+        risks:
+          "An injection containing vitamin B1 and similar nutrients, given with the aim of easing fatigue. Results vary from person to person, and rarely, injection-site pain or an allergic reaction can occur.",
+        contactNote: "We'll explain the detailed costs and risks at your visit. For questions, please reach out via LINE or by phone (once we're open).",
+      },
     },
   },
 ];
