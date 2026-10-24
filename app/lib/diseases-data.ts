@@ -2904,6 +2904,20 @@ export const DISEASE_LINK_LABELS_EN: DiseaseLinkLabel[] = DISEASES
     // 拾いきれない代表的な別表現だけを補足する。
     { label: "Common cold", slug: "common-cold" },
     { label: "Cold", slug: "common-cold" },
+    { label: "Autonomic dysregulation", slug: "dysautonomia" },
+    { label: "H. pylori-related conditions", slug: "h-pylori" },
+    { label: "H. pylori", slug: "h-pylori" },
+    { label: "Arrhythmia", slug: "atrial-fibrillation" },
+    { label: "Anemia", slug: "iron-deficiency-anemia" },
+    { label: "Thyroid dysfunction", slug: "thyroid" },
+    { label: "Thyroid", slug: "thyroid" },
+    { label: "Migraine", slug: "headache" },
+    { label: "Wounds", slug: "wound-care" },
+    { label: "Ingrown/curved toenails", slug: "ingrown-nail" },
+    { label: "Ingrown toenail", slug: "ingrown-nail" },
+    { label: "Infectious gastroenteritis", slug: "viral-gastroenteritis" },
+    { label: "Male pattern hair loss (AGA)", slug: "", href: "/self-pay/aga" },
+    { label: "Male pattern hair loss", slug: "", href: "/self-pay/aga" },
   ])
   .filter((v, i, arr) => arr.findIndex((x) => x.label.toLowerCase() === v.label.toLowerCase()) === i)
   .sort((a, b) => b.label.length - a.label.length);
