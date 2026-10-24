@@ -5,16 +5,29 @@ import FadeIn from "../components/FadeIn";
 import SectionHeading from "../components/SectionHeading";
 import { SoftBlob, Blossom } from "../components/Decor";
 import { useSite } from "../lib/site";
-import {
-  DISEASE_CATEGORY_LABEL,
-  DISEASE_CATEGORY_LABEL_EN,
-  DISEASE_CATEGORY_ORDER,
-  DISEASE_DISCLAIMER_INTRO,
-  INTERNAL_SUBCATEGORIES,
-  getDiseasesByCategory,
-  getDisease,
-  getDiseaseContent,
-} from "../lib/diseases-data";
+import { DISEASE_DISCLAIMER_INTRO, type DiseaseCategory } from "../lib/disease-shared";
+
+type DiseaseListItem = {
+  slug: string;
+  title: string;
+  titleEn: string;
+  summary: string;
+  summaryEn: string;
+};
+
+type DiseaseSubcategoryGroup = {
+  label: string;
+  labelEn: string;
+  items: DiseaseListItem[];
+};
+
+export type DiseaseCategoryGroup = {
+  category: DiseaseCategory;
+  categoryLabel: string;
+  categoryLabelEn: string;
+  items: DiseaseListItem[];
+  subcategories?: DiseaseSubcategoryGroup[];
+};
 
 const UI_TEXT = {
   ja: {
@@ -37,7 +50,7 @@ const UI_TEXT = {
   },
 };
 
-export default function DiseasesIndexClient() {
+export default function DiseasesIndexClient({ groups }: { groups: DiseaseCategoryGroup[] }) {
   const { t, lang } = useSite();
   const ui = UI_TEXT[lang];
 
@@ -92,78 +105,64 @@ export default function DiseasesIndexClient() {
         </FadeIn>
 
         <div className="mx-auto mt-12 max-w-4xl space-y-10">
-          {DISEASE_CATEGORY_ORDER.map((category) => {
-            const items = getDiseasesByCategory(category);
-            if (items.length === 0) return null;
-            const categoryLabel = lang === "en" ? DISEASE_CATEGORY_LABEL_EN[category] : DISEASE_CATEGORY_LABEL[category];
+          {groups.map((group) => {
+            const categoryLabel = lang === "en" ? group.categoryLabelEn : group.categoryLabel;
 
-            if (category === "internal") {
+            if (group.subcategories) {
               return (
-                <FadeIn key={category}>
+                <FadeIn key={group.category}>
                   <h2 className="text-lg font-bold text-primary-dark">
                     {categoryLabel}
                   </h2>
                   <div className="mt-6 space-y-8">
-                    {INTERNAL_SUBCATEGORIES.map((sub) => {
-                      const subItems = sub.slugs
-                        .map((slug) => getDisease(slug))
-                        .filter((d): d is NonNullable<typeof d> => Boolean(d));
-                      if (subItems.length === 0) return null;
-                      return (
-                        <div key={sub.label}>
-                          <h3 className="text-sm font-bold text-ink/60">
-                            {lang === "en" ? sub.labelEn : sub.label}
-                          </h3>
-                          <div className="mt-3 grid gap-3 sm:grid-cols-2">
-                            {subItems.map((item) => {
-                              const c = getDiseaseContent(item, lang);
-                              return (
-                                <Link
-                                  key={item.slug}
-                                  href={`/diseases/${item.slug}`}
-                                  className="group block rounded-2xl bg-surface/90 p-5 shadow-card transition-all hover:-translate-y-0.5 hover:shadow-soft"
-                                >
-                                  <p className="text-[15px] font-bold text-ink group-hover:text-primary-dark">
-                                    {c.title}
-                                  </p>
-                                  <p className="mt-1.5 text-sm leading-relaxed text-ink/70">
-                                    {c.summary}
-                                  </p>
-                                </Link>
-                              );
-                            })}
-                          </div>
+                    {group.subcategories.map((sub) => (
+                      <div key={sub.label}>
+                        <h3 className="text-sm font-bold text-ink/60">
+                          {lang === "en" ? sub.labelEn : sub.label}
+                        </h3>
+                        <div className="mt-3 grid gap-3 sm:grid-cols-2">
+                          {sub.items.map((item) => (
+                            <Link
+                              key={item.slug}
+                              href={`/diseases/${item.slug}`}
+                              className="group block rounded-2xl bg-surface/90 p-5 shadow-card transition-all hover:-translate-y-0.5 hover:shadow-soft"
+                            >
+                              <p className="text-[15px] font-bold text-ink group-hover:text-primary-dark">
+                                {lang === "en" ? item.titleEn : item.title}
+                              </p>
+                              <p className="mt-1.5 text-sm leading-relaxed text-ink/70">
+                                {lang === "en" ? item.summaryEn : item.summary}
+                              </p>
+                            </Link>
+                          ))}
                         </div>
-                      );
-                    })}
+                      </div>
+                    ))}
                   </div>
                 </FadeIn>
               );
             }
 
             return (
-              <FadeIn key={category}>
+              <FadeIn key={group.category}>
                 <h2 className="text-lg font-bold text-primary-dark">
                   {categoryLabel}
                 </h2>
                 <div className="mt-4 grid gap-3 sm:grid-cols-2">
-                  {items.map((item) => {
-                    const c = getDiseaseContent(item, lang);
-                    return (
-                      <Link
-                        key={item.slug}
-                        href={`/diseases/${item.slug}`}
-                        className="group block rounded-2xl bg-surface/90 p-5 shadow-card transition-all hover:-translate-y-0.5 hover:shadow-soft"
-                      >
-                        <p className="text-[15px] font-bold text-ink group-hover:text-primary-dark">
-                          {c.title}
-                        </p>
-                        <p className="mt-1.5 text-sm leading-relaxed text-ink/70">
-                          {c.summary}
-                        </p>
-                      </Link>
-                    );
-                  })}
+                  {group.items.map((item) => (
+                    <Link
+                      key={item.slug}
+                      href={`/diseases/${item.slug}`}
+                      className="group block rounded-2xl bg-surface/90 p-5 shadow-card transition-all hover:-translate-y-0.5 hover:shadow-soft"
+                    >
+                      <p className="text-[15px] font-bold text-ink group-hover:text-primary-dark">
+                        {lang === "en" ? item.titleEn : item.title}
+                      </p>
+                      <p className="mt-1.5 text-sm leading-relaxed text-ink/70">
+                        {lang === "en" ? item.summaryEn : item.summary}
+                      </p>
+                    </Link>
+                  ))}
                 </div>
               </FadeIn>
             );

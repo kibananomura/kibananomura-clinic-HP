@@ -57,12 +57,11 @@ export default function Header() {
           aria-label={t.common.toTop}
         >
           <Image
-            src="/logo-emblem.png?v=2"
+            src="/logo-emblem.png"
             alt={BRAND[lang].logoEmblemAlt}
             width={303}
             height={268}
             priority
-            unoptimized
             className="header-brand-logo shrink-0 transition-transform duration-200 group-hover:scale-[1.02]"
           />
           <span className="min-w-0 flex-1">

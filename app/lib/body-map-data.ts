@@ -97,3 +97,34 @@ export const BODY_REGIONS: BodyRegion[] = [
 export function getBodyRegion(id: string): BodyRegion | undefined {
   return BODY_REGIONS.find((r) => r.id === id);
 }
+
+/**
+ * BODY_REGIONS内のslugsで参照している症状ページのタイトル（日本語のみ）。
+ * BodySchemaコンポーネントが症状一覧ページへのリンク文言を表示するためだけに使う。
+ * symptoms-data.ts（本文テキストを含み重い）をクライアント側にバンドルしないよう、
+ * タイトルだけをこのファイルに複製している。
+ * symptoms-data.tsの該当slugのtitleを変更した場合は、ここも合わせて更新すること。
+ */
+export const SYMPTOM_TITLES: Record<string, string> = {
+  headache: "頭痛",
+  dizziness: "めまい",
+  "snoring-daytime-sleepiness": "いびき・日中の眠気",
+  "allergy-rhinitis-itching": "鼻炎・くしゃみ・皮膚のかゆみ",
+  "neck-swelling-fatigue": "首の腫れ・だるさ",
+  "persistent-cough": "咳が続く",
+  "fever-cold": "発熱・かぜ症状",
+  "palpitations-shortness-of-breath": "動悸・息切れ",
+  "abdominal-pain": "腹痛・お腹の不調",
+  "heartburn-stomach-discomfort": "胸やけ・胃の不調",
+  "bowel-changes": "便通異常（下痢・便秘・血便）",
+  "abdominal-distension-surgical": "お腹の張り・痛み（外科的な評価が必要な場合）",
+  hemorrhoids: "お尻の痛み・出血",
+  numbness: "手足のしびれ",
+  "bruises-sprains-injuries": "打撲・捻挫・ケガ",
+  "nail-trouble": "爪のトラブル",
+  "itchy-feet-skin-peeling": "足のかゆみ・皮むけ",
+  "skin-redness-swelling": "皮膚の赤み・腫れ・熱感",
+  "wounds-burns": "きず・やけど",
+  "lumps-and-bumps": "できもの・しこり",
+  "checkup-lifestyle-disease": "健診異常・生活習慣病",
+};

@@ -43,7 +43,7 @@ export default async function DiseasePage({
           { name: disease?.title ?? slug, url: `/diseases/${slug}` },
         ]}
       />
-      <DiseasePageClient />
+      <DiseasePageClient disease={disease} />
     </>
   );
 }

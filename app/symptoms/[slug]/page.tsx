@@ -1,8 +1,19 @@
 import type { Metadata } from "next";
 import { BRAND } from "../../lib/brand";
 import { getSymptom, SYMPTOMS } from "../../lib/symptoms-data";
+import { DISEASE_LINK_LABELS, DISEASE_LINK_LABELS_EN } from "../../lib/diseases-data";
 import SymptomPageClient from "./SymptomPageClient";
 import BreadcrumbJsonLd from "../../components/BreadcrumbJsonLd";
+
+// 長いラベルから先に判定することで、「糖尿病」より「糖尿病性神経障害」のような
+// より具体的なラベルを優先して一致させる。サーバー側でソートして渡すことで、
+// クライアントバンドルに疾患データ全体（diseases-data.ts）を含めずに済む。
+const SORTED_DISEASE_LINK_LABELS_JA = [...DISEASE_LINK_LABELS].sort(
+  (a, b) => b.label.length - a.label.length,
+);
+const SORTED_DISEASE_LINK_LABELS_EN = [...DISEASE_LINK_LABELS_EN].sort(
+  (a, b) => b.label.length - a.label.length,
+);
 
 export function generateStaticParams() {
   return SYMPTOMS.map((s) => ({ slug: s.slug }));
@@ -43,7 +54,11 @@ export default async function SymptomPage({
           { name: symptom?.title ?? slug, url: `/symptoms/${slug}` },
         ]}
       />
-      <SymptomPageClient />
+      <SymptomPageClient
+        symptom={symptom}
+        diseaseLinkLabelsJa={SORTED_DISEASE_LINK_LABELS_JA}
+        diseaseLinkLabelsEn={SORTED_DISEASE_LINK_LABELS_EN}
+      />
     </>
   );
 }

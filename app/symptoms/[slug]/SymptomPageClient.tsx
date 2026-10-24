@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { notFound, useParams } from "next/navigation";
+import { notFound } from "next/navigation";
 import FadeIn from "../../components/FadeIn";
 import { SoftBlob } from "../../components/Decor";
 import MedicalWebPageJsonLd from "../../components/MedicalWebPageJsonLd";
@@ -15,10 +15,11 @@ import {
   CHEST_PAIN_EMERGENCY_BANNER,
   SYMPTOM_DISCLAIMER_INTRO_SHORT,
   SYMPTOM_DISCLAIMER_OUTRO,
-  getSymptom,
   getSymptomContent,
-} from "../../lib/symptoms-data";
-import { DISEASE_LINK_LABELS, DISEASE_LINK_LABELS_EN } from "../../lib/diseases-data";
+  type SymptomEntry,
+} from "../../lib/symptom-shared";
+
+type DiseaseLink = { label: string; slug: string; href?: string };
 
 const UI_TEXT = {
   ja: {
@@ -49,22 +50,13 @@ const UI_TEXT = {
   },
 };
 
-// 長いラベルから先に判定することで、「糖尿病」より「糖尿病性神経障害」のような
-// より具体的なラベルを優先して一致させる。
-const SORTED_DISEASE_LINK_LABELS = [...DISEASE_LINK_LABELS].sort(
-  (a, b) => b.label.length - a.label.length,
-);
-const SORTED_DISEASE_LINK_LABELS_EN = [...DISEASE_LINK_LABELS_EN].sort(
-  (a, b) => b.label.length - a.label.length,
-);
-
 /**
  * 原因名の文字列内に疾患ページ・自費診療ページの名称が含まれていれば、
  * その部分だけをリンクにする（例:「副鼻腔炎への移行」→「副鼻腔炎」のみリンク）。
  * 一致するラベルがなければ、元の文字列をそのまま返す。
+ * ラベル一覧は呼び出し側で長い順にソート済みのものを渡す。
  */
-function renderCauseName(name: string, lang: "ja" | "en") {
-  const labels = lang === "en" ? SORTED_DISEASE_LINK_LABELS_EN : SORTED_DISEASE_LINK_LABELS;
+function renderCauseName(name: string, lang: "ja" | "en", labels: DiseaseLink[]) {
   // 英語版は翻訳元ごとに大文字小文字の揺れがあるため、検索は大文字小文字を無視し、
   // 実際に表示する文字列は name 側の元の表記（マッチした範囲）をそのまま使う。
   const nameLower = lang === "en" ? name.toLowerCase() : name;
@@ -92,11 +84,16 @@ function renderCauseName(name: string, lang: "ja" | "en") {
   return name;
 }
 
-export default function SymptomPageClient() {
+export default function SymptomPageClient({
+  symptom,
+  diseaseLinkLabelsJa,
+  diseaseLinkLabelsEn,
+}: {
+  symptom: SymptomEntry | undefined;
+  diseaseLinkLabelsJa: DiseaseLink[];
+  diseaseLinkLabelsEn: DiseaseLink[];
+}) {
   const { t, lang } = useSite();
-  const params = useParams();
-  const slug = String(params?.slug ?? "");
-  const symptom = getSymptom(slug);
 
   if (!symptom) {
     notFound();
@@ -105,6 +102,7 @@ export default function SymptomPageClient() {
   const c = getSymptomContent(symptom, lang);
   const ui = UI_TEXT[lang];
   const isStrongEmergency = c.emergencyBox?.strong;
+  const diseaseLinkLabels = lang === "en" ? diseaseLinkLabelsEn : diseaseLinkLabelsJa;
 
   return (
     <article className="relative overflow-hidden bg-cream pb-24 page-top">
@@ -138,7 +136,8 @@ export default function SymptomPageClient() {
             </FadeIn>
           )}
 
-          <FadeIn>
+          {/* ページタイトル（LCP対象になりやすいため、アニメーションで初期非表示にせず即時描画する） */}
+          <div>
             <span className="rounded-full bg-accent px-3 py-1 text-xs font-bold text-primary-dark">
               {lang === "en" ? CATEGORY_LABEL_EN[symptom.category] : CATEGORY_LABEL[symptom.category]}
             </span>
@@ -148,7 +147,7 @@ export default function SymptomPageClient() {
             <p className="mt-3 text-[15px] leading-relaxed text-ink/75">
               {c.summary}
             </p>
-          </FadeIn>
+          </div>
 
           {/* 免責文言：本文直下（冒頭） */}
           <FadeIn delay={0.03}>
@@ -212,7 +211,7 @@ export default function SymptomPageClient() {
                   className="rounded-2xl bg-surface/90 p-4 shadow-card"
                 >
                   <p className="text-[15px] font-bold text-ink">
-                    {renderCauseName(cause.name, lang)}
+                    {renderCauseName(cause.name, lang, diseaseLinkLabels)}
                   </p>
                   <p className="mt-1 text-sm leading-relaxed text-ink/70">
                     {cause.note}

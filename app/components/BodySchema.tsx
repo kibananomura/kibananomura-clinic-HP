@@ -2,8 +2,7 @@
 
 import { useState } from "react";
 import Link from "next/link";
-import { BODY_REGIONS, type BodyRegion } from "../lib/body-map-data";
-import { getSymptom } from "../lib/symptoms-data";
+import { BODY_REGIONS, SYMPTOM_TITLES, type BodyRegion } from "../lib/body-map-data";
 import { useSite } from "../lib/site";
 
 type Props = {
@@ -126,15 +125,15 @@ export default function BodySchema({ size = "lg", className = "" }: Props) {
               <p className="text-sm font-bold text-primary-dark">{selected.label}の症状</p>
               <ul className="mt-3 space-y-2">
                 {selected.slugs.map((slug) => {
-                  const symptom = getSymptom(slug);
-                  if (!symptom) return null;
+                  const title = SYMPTOM_TITLES[slug];
+                  if (!title) return null;
                   return (
                     <li key={slug}>
                       <Link
-                        href={`/symptoms/${symptom.slug}`}
+                        href={`/symptoms/${slug}`}
                         className="flex items-center justify-between gap-3 rounded-xl px-3 py-2 text-sm text-ink/80 transition-colors hover:bg-accent/60"
                       >
-                        <span>{symptom.title}</span>
+                        <span>{title}</span>
                         <span className="shrink-0 text-primary-dark" aria-hidden="true">
                           →
                         </span>

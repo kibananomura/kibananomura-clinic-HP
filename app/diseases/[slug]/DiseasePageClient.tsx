@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { notFound, useParams } from "next/navigation";
+import { notFound } from "next/navigation";
 import FadeIn from "../../components/FadeIn";
 import { SoftBlob } from "../../components/Decor";
 import MedicalWebPageJsonLd from "../../components/MedicalWebPageJsonLd";
@@ -16,9 +16,9 @@ import {
   DISEASE_CATEGORY_LABEL,
   DISEASE_DISCLAIMER_INTRO,
   DISEASE_DISCLAIMER_OUTRO,
-  getDisease,
   getDiseaseContent,
-} from "../../lib/diseases-data";
+  type DiseaseEntry,
+} from "../../lib/disease-shared";
 
 const UI_TEXT = {
   ja: {
@@ -58,11 +58,8 @@ function Block({
   );
 }
 
-export default function DiseasePageClient() {
+export default function DiseasePageClient({ disease }: { disease: DiseaseEntry | undefined }) {
   const { t, lang } = useSite();
-  const params = useParams();
-  const slug = String(params?.slug ?? "");
-  const disease = getDisease(slug);
 
   if (!disease) {
     notFound();
@@ -85,7 +82,8 @@ export default function DiseasePageClient() {
 
       <div className="container-page relative">
         <div className="mx-auto max-w-3xl">
-          <FadeIn>
+          {/* ページタイトル（LCP対象になりやすいため、アニメーションで初期非表示にせず即時描画する） */}
+          <div>
             <span className="rounded-full bg-accent px-3 py-1 text-xs font-bold text-primary-dark">
               {DISEASE_CATEGORY_LABEL[disease.category]}
             </span>
@@ -95,7 +93,7 @@ export default function DiseasePageClient() {
             <p className="mt-3 text-[15px] leading-relaxed text-ink/75">
               {c.summary}
             </p>
-          </FadeIn>
+          </div>
 
           <FadeIn delay={0.03}>
             <p className="mt-6 rounded-2xl bg-surface/90 p-4 text-sm leading-relaxed text-ink/70 shadow-card">

@@ -6,15 +6,22 @@ import SectionHeading from "../components/SectionHeading";
 import { SoftBlob, Blossom } from "../components/Decor";
 import BodySchema from "../components/BodySchema";
 import { useSite } from "../lib/site";
-import {
-  CATEGORY_LABEL,
-  CATEGORY_LABEL_EN,
-  CATEGORY_ORDER,
-  CHEST_PAIN_EMERGENCY_BANNER,
-  SYMPTOM_DISCLAIMER_INTRO,
-  getSymptomsByCategory,
-  getSymptomContent,
-} from "../lib/symptoms-data";
+import { CHEST_PAIN_EMERGENCY_BANNER, SYMPTOM_DISCLAIMER_INTRO, type SymptomCategory } from "../lib/symptom-shared";
+
+type SymptomListItem = {
+  slug: string;
+  title: string;
+  titleEn: string;
+  summary: string;
+  summaryEn: string;
+};
+
+export type SymptomCategoryGroup = {
+  category: SymptomCategory;
+  categoryLabel: string;
+  categoryLabelEn: string;
+  items: SymptomListItem[];
+};
 
 const UI_TEXT = {
   ja: {
@@ -31,7 +38,7 @@ const UI_TEXT = {
   },
 };
 
-export default function SymptomsIndexClient() {
+export default function SymptomsIndexClient({ groups }: { groups: SymptomCategoryGroup[] }) {
   const { t, lang } = useSite();
   const ui = UI_TEXT[lang];
 
@@ -74,36 +81,29 @@ export default function SymptomsIndexClient() {
         </FadeIn>
 
         <div className="mx-auto mt-12 max-w-4xl space-y-10">
-          {CATEGORY_ORDER.map((category) => {
-            const items = getSymptomsByCategory(category);
-            if (items.length === 0) return null;
-            return (
-              <FadeIn key={category}>
-                <h2 className="text-lg font-bold text-primary-dark">
-                  {lang === "en" ? CATEGORY_LABEL_EN[category] : CATEGORY_LABEL[category]}
-                </h2>
-                <div className="mt-4 grid gap-3 sm:grid-cols-2">
-                  {items.map((item) => {
-                    const c = getSymptomContent(item, lang);
-                    return (
-                      <Link
-                        key={item.slug}
-                        href={`/symptoms/${item.slug}`}
-                        className="group block rounded-2xl bg-surface/90 p-5 shadow-card transition-all hover:-translate-y-0.5 hover:shadow-soft"
-                      >
-                        <p className="text-[15px] font-bold text-ink group-hover:text-primary-dark">
-                          {c.title}
-                        </p>
-                        <p className="mt-1.5 text-sm leading-relaxed text-ink/70">
-                          {c.summary}
-                        </p>
-                      </Link>
-                    );
-                  })}
-                </div>
-              </FadeIn>
-            );
-          })}
+          {groups.map((group) => (
+            <FadeIn key={group.category}>
+              <h2 className="text-lg font-bold text-primary-dark">
+                {lang === "en" ? group.categoryLabelEn : group.categoryLabel}
+              </h2>
+              <div className="mt-4 grid gap-3 sm:grid-cols-2">
+                {group.items.map((item) => (
+                  <Link
+                    key={item.slug}
+                    href={`/symptoms/${item.slug}`}
+                    className="group block rounded-2xl bg-surface/90 p-5 shadow-card transition-all hover:-translate-y-0.5 hover:shadow-soft"
+                  >
+                    <p className="text-[15px] font-bold text-ink group-hover:text-primary-dark">
+                      {lang === "en" ? item.titleEn : item.title}
+                    </p>
+                    <p className="mt-1.5 text-sm leading-relaxed text-ink/70">
+                      {lang === "en" ? item.summaryEn : item.summary}
+                    </p>
+                  </Link>
+                ))}
+              </div>
+            </FadeIn>
+          ))}
         </div>
 
         <div className="mt-12 text-center">
