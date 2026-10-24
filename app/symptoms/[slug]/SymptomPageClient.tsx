@@ -11,12 +11,43 @@ import LineLink from "../../components/LineLink";
 import { useSite } from "../../lib/site";
 import {
   CATEGORY_LABEL,
+  CATEGORY_LABEL_EN,
   CHEST_PAIN_EMERGENCY_BANNER,
   SYMPTOM_DISCLAIMER_INTRO_SHORT,
   SYMPTOM_DISCLAIMER_OUTRO,
   getSymptom,
+  getSymptomContent,
 } from "../../lib/symptoms-data";
 import { DISEASE_LINK_LABELS } from "../../lib/diseases-data";
+
+const UI_TEXT = {
+  ja: {
+    possibleCauses: "考えられる主な原因",
+    possibleCausesNote: "症状から特定の疾患を断定するものではありません。複数の可能性を示しています。",
+    relatedTests: "行う可能性のある検査",
+    relatedTestsNote: "これらの中から症状に応じて医師が判断します。",
+    treatmentOverview: "一般的な治療の考え方",
+    selfPayBadge: "自費診療（自由診療）",
+    selfPayPricing: "料金",
+    selfPayRisks: "治療内容・主なリスク・副作用",
+    selfPayPricingLink: "料金のご案内ページで確認する →",
+    whenToVisit: "受診の目安",
+    backToList: "症状一覧へ戻る",
+  },
+  en: {
+    possibleCauses: "Possible causes",
+    possibleCausesNote: "This doesn't diagnose a specific condition from your symptom alone — it shows several possibilities.",
+    relatedTests: "Tests we may run",
+    relatedTestsNote: "Your doctor will decide which of these are needed based on your symptoms.",
+    treatmentOverview: "General approach to treatment",
+    selfPayBadge: "Self-pay (not covered by insurance)",
+    selfPayPricing: "Pricing",
+    selfPayRisks: "What's involved, and the main risks/side effects",
+    selfPayPricingLink: "Check our pricing page →",
+    whenToVisit: "When to come in",
+    backToList: "Back to all symptoms",
+  },
+};
 
 // 長いラベルから先に判定することで、「糖尿病」より「糖尿病性神経障害」のような
 // より具体的なラベルを優先して一致させる。
@@ -29,7 +60,8 @@ const SORTED_DISEASE_LINK_LABELS = [...DISEASE_LINK_LABELS].sort(
  * その部分だけをリンクにする（例:「副鼻腔炎への移行」→「副鼻腔炎」のみリンク）。
  * 一致するラベルがなければ、元の文字列をそのまま返す。
  */
-function renderCauseName(name: string) {
+function renderCauseName(name: string, lang: "ja" | "en") {
+  if (lang === "en") return name;
   for (const entry of SORTED_DISEASE_LINK_LABELS) {
     if (!entry.label) continue;
     const idx = name.indexOf(entry.label);
@@ -53,7 +85,7 @@ function renderCauseName(name: string) {
 }
 
 export default function SymptomPageClient() {
-  const { t } = useSite();
+  const { t, lang } = useSite();
   const params = useParams();
   const slug = String(params?.slug ?? "");
   const symptom = getSymptom(slug);
@@ -62,7 +94,9 @@ export default function SymptomPageClient() {
     notFound();
   }
 
-  const isStrongEmergency = symptom.emergencyBox?.strong;
+  const c = getSymptomContent(symptom, lang);
+  const ui = UI_TEXT[lang];
+  const isStrongEmergency = c.emergencyBox?.strong;
 
   return (
     <article className="relative overflow-hidden bg-cream pb-24 page-top">
@@ -70,8 +104,8 @@ export default function SymptomPageClient() {
       <SoftBlob className="absolute -left-16 bottom-12 h-72 w-72 bg-primary/10" />
 
       <MedicalWebPageJsonLd
-        name={symptom.title}
-        description={symptom.summary}
+        name={c.title}
+        description={c.summary}
         url={`/symptoms/${symptom.slug}`}
         lastReviewed={symptom.lastReviewed}
       />
@@ -82,7 +116,7 @@ export default function SymptomPageClient() {
           {symptom.showChestPainBanner && (
             <FadeIn>
               <div className="mb-6 rounded-2xl border-2 border-red-400 bg-red-50 p-5 text-sm font-bold leading-relaxed text-red-900 shadow-card">
-                ⚠ {CHEST_PAIN_EMERGENCY_BANNER}
+                ⚠ {CHEST_PAIN_EMERGENCY_BANNER[lang]}
               </div>
             </FadeIn>
           )}
@@ -91,32 +125,32 @@ export default function SymptomPageClient() {
           {isStrongEmergency && (
             <FadeIn>
               <div className="mb-6 rounded-2xl border-2 border-red-400 bg-red-50 p-5 text-sm leading-relaxed text-red-900 shadow-card">
-                <p className="font-bold">{SYMPTOM_DISCLAIMER_INTRO_SHORT}</p>
+                <p className="font-bold">{SYMPTOM_DISCLAIMER_INTRO_SHORT[lang]}</p>
               </div>
             </FadeIn>
           )}
 
           <FadeIn>
             <span className="rounded-full bg-accent px-3 py-1 text-xs font-bold text-primary-dark">
-              {CATEGORY_LABEL[symptom.category]}
+              {lang === "en" ? CATEGORY_LABEL_EN[symptom.category] : CATEGORY_LABEL[symptom.category]}
             </span>
             <h1 className="mt-4 text-2xl font-bold leading-relaxed text-ink sm:text-3xl">
-              {symptom.title}
+              {c.title}
             </h1>
             <p className="mt-3 text-[15px] leading-relaxed text-ink/75">
-              {symptom.summary}
+              {c.summary}
             </p>
           </FadeIn>
 
           {/* 免責文言：本文直下（冒頭） */}
           <FadeIn delay={0.03}>
             <p className="mt-6 rounded-2xl bg-surface/90 p-4 text-sm leading-relaxed text-ink/70 shadow-card">
-              {SYMPTOM_DISCLAIMER_INTRO_SHORT}
+              {SYMPTOM_DISCLAIMER_INTRO_SHORT[lang]}
             </p>
           </FadeIn>
 
           {/* 緊急性の注意喚起ボックス */}
-          {symptom.emergencyBox && (
+          {c.emergencyBox && (
             <FadeIn delay={0.05}>
               <div
                 className={`mt-6 rounded-2xl border-2 p-5 shadow-card ${
@@ -130,14 +164,14 @@ export default function SymptomPageClient() {
                     isStrongEmergency ? "text-red-900" : "text-amber-900"
                   }`}
                 >
-                  ⚠ {symptom.emergencyBox.heading}
+                  ⚠ {c.emergencyBox.heading}
                 </h2>
                 <ul
                   className={`mt-3 space-y-1.5 text-[15px] leading-relaxed ${
                     isStrongEmergency ? "text-red-900/90" : "text-amber-900/90"
                   }`}
                 >
-                  {symptom.emergencyBox.points.map((p) => (
+                  {c.emergencyBox.points.map((p) => (
                     <li key={p} className="flex gap-2">
                       <span aria-hidden="true">・</span>
                       <span>{p}</span>
@@ -149,7 +183,7 @@ export default function SymptomPageClient() {
                     isStrongEmergency ? "text-red-900" : "text-amber-900"
                   }`}
                 >
-                  {symptom.emergencyBox.action}
+                  {c.emergencyBox.action}
                 </p>
               </div>
             </FadeIn>
@@ -158,22 +192,22 @@ export default function SymptomPageClient() {
           {/* 考えられる主な原因 */}
           <FadeIn delay={0.08} className="mt-10">
             <h2 className="text-lg font-bold text-primary-dark">
-              考えられる主な原因
+              {ui.possibleCauses}
             </h2>
             <p className="mt-2 text-sm text-ink/60">
-              症状から特定の疾患を断定するものではありません。複数の可能性を示しています。
+              {ui.possibleCausesNote}
             </p>
             <ul className="mt-4 space-y-3">
-              {symptom.possibleCauses.map((c) => (
+              {c.possibleCauses.map((cause) => (
                 <li
-                  key={c.name}
+                  key={cause.name}
                   className="rounded-2xl bg-surface/90 p-4 shadow-card"
                 >
                   <p className="text-[15px] font-bold text-ink">
-                    {renderCauseName(c.name)}
+                    {renderCauseName(cause.name, lang)}
                   </p>
                   <p className="mt-1 text-sm leading-relaxed text-ink/70">
-                    {c.note}
+                    {cause.note}
                   </p>
                 </li>
               ))}
@@ -181,13 +215,13 @@ export default function SymptomPageClient() {
           </FadeIn>
 
           {/* 行う可能性のある検査 */}
-          {symptom.relatedTests.length > 0 && (
+          {c.relatedTests.length > 0 && (
             <FadeIn delay={0.1} className="mt-10">
               <h2 className="text-lg font-bold text-primary-dark">
-                行う可能性のある検査
+                {ui.relatedTests}
               </h2>
               <ul className="mt-4 flex flex-wrap gap-2">
-                {symptom.relatedTests.map((test) => (
+                {c.relatedTests.map((test) => (
                   <li
                     key={test}
                     className="rounded-full bg-accent px-3 py-1.5 text-sm font-medium text-primary-dark"
@@ -197,7 +231,7 @@ export default function SymptomPageClient() {
                 ))}
               </ul>
               <p className="mt-3 text-sm leading-relaxed text-ink/70">
-                これらの中から症状に応じて医師が判断します。
+                {ui.relatedTestsNote}
               </p>
             </FadeIn>
           )}
@@ -205,10 +239,10 @@ export default function SymptomPageClient() {
           {/* 一般的な治療の考え方 */}
           <FadeIn delay={0.12} className="mt-10">
             <h2 className="text-lg font-bold text-primary-dark">
-              一般的な治療の考え方
+              {ui.treatmentOverview}
             </h2>
             <ul className="mt-4 space-y-2.5">
-              {symptom.treatmentOverview.map((line) => (
+              {c.treatmentOverview.map((line) => (
                 <li key={line} className="flex gap-2.5 text-[15px] leading-relaxed text-ink/80">
                   <span className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-primary" aria-hidden="true" />
                   <span>{line}</span>
@@ -218,18 +252,18 @@ export default function SymptomPageClient() {
           </FadeIn>
 
           {/* 自費診療：料金・リスク・問い合わせ先 */}
-          {symptom.selfPay && (
+          {c.selfPay && (
             <FadeIn delay={0.14} className="mt-10">
               <div className="rounded-2xl border border-primary/15 bg-accent/40 p-6">
                 <span className="rounded-full bg-primary-light px-3 py-1 text-xs font-bold text-white">
-                  自費診療（自由診療）
+                  {ui.selfPayBadge}
                 </span>
                 <p className="mt-3 text-sm leading-relaxed text-ink/80">
-                  {symptom.selfPay.isSelfPayNote}
+                  {c.selfPay.isSelfPayNote}
                 </p>
-                <h3 className="mt-4 text-sm font-bold text-primary-dark">料金</h3>
+                <h3 className="mt-4 text-sm font-bold text-primary-dark">{ui.selfPayPricing}</h3>
                 <ul className="mt-2 space-y-1.5">
-                  {symptom.selfPay.priceItems.map((p) => (
+                  {c.selfPay.priceItems.map((p) => (
                     <li
                       key={p.name}
                       className="flex flex-wrap items-center justify-between gap-x-4 gap-y-1 rounded-xl bg-surface/80 px-4 py-2.5 text-sm"
@@ -240,19 +274,19 @@ export default function SymptomPageClient() {
                   ))}
                 </ul>
                 <h3 className="mt-4 text-sm font-bold text-primary-dark">
-                  治療内容・主なリスク・副作用
+                  {ui.selfPayRisks}
                 </h3>
                 <p className="mt-2 text-sm leading-relaxed text-ink/80">
-                  {symptom.selfPay.risks}
+                  {c.selfPay.risks}
                 </p>
                 <p className="mt-4 text-sm leading-relaxed text-ink/70">
-                  {symptom.selfPay.contactNote}
+                  {c.selfPay.contactNote}
                 </p>
                 <Link
                   href="/pricing"
                   className="mt-4 inline-flex items-center gap-1 text-sm font-bold text-primary transition-colors hover:text-primary-dark"
                 >
-                  料金のご案内ページで確認する →
+                  {ui.selfPayPricingLink}
                 </Link>
               </div>
             </FadeIn>
@@ -260,9 +294,9 @@ export default function SymptomPageClient() {
 
           {/* 受診の目安 */}
           <FadeIn delay={0.16} className="mt-10">
-            <h2 className="text-lg font-bold text-primary-dark">受診の目安</h2>
+            <h2 className="text-lg font-bold text-primary-dark">{ui.whenToVisit}</h2>
             <ul className="mt-4 space-y-2.5">
-              {symptom.whenToVisit.map((line) => (
+              {c.whenToVisit.map((line) => (
                 <li key={line} className="flex gap-2.5 text-[15px] leading-relaxed text-ink/80">
                   <span className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-primary" aria-hidden="true" />
                   <span>{line}</span>
@@ -274,7 +308,7 @@ export default function SymptomPageClient() {
           {/* 免責文言：末尾 */}
           <FadeIn delay={0.18} className="mt-10">
             <p className="rounded-2xl bg-surface/90 p-4 text-sm leading-relaxed text-ink/70 shadow-card">
-              {SYMPTOM_DISCLAIMER_OUTRO}
+              {SYMPTOM_DISCLAIMER_OUTRO[lang]}
             </p>
           </FadeIn>
 
@@ -302,7 +336,7 @@ export default function SymptomPageClient() {
               className="inline-flex items-center gap-1.5 rounded-full bg-surface px-5 py-2.5 text-sm font-bold text-primary-dark shadow-card transition-transform hover:scale-105"
             >
               <span aria-hidden="true">←</span>
-              症状一覧へ戻る
+              {ui.backToList}
             </Link>
             <Link
               href="/"

@@ -7,15 +7,39 @@ import { SoftBlob, Blossom } from "../components/Decor";
 import { useSite } from "../lib/site";
 import {
   DISEASE_CATEGORY_LABEL,
+  DISEASE_CATEGORY_LABEL_EN,
   DISEASE_CATEGORY_ORDER,
   DISEASE_DISCLAIMER_INTRO,
   INTERNAL_SUBCATEGORIES,
   getDiseasesByCategory,
   getDisease,
+  getDiseaseContent,
 } from "../lib/diseases-data";
 
+const UI_TEXT = {
+  ja: {
+    eyebrow: "疾患について",
+    heading: "主な疾患から調べる",
+    intro: "当院で診療している代表的な疾患について、病態・検査方法・治療法をご紹介します。",
+    dietCardTitle: "🍚 高血圧・糖尿病・脂質異常症・高尿酸血症の食事について",
+    dietCardBody: "複数の病気をお持ちの方でも実践しやすい、食事のポイントをまとめました →",
+    schoolCardTitle: "🏫 学校感染症と出席停止期間の基準",
+    schoolCardBody: "インフルエンザ・溶連菌感染症・手足口病等の登校の目安を一覧表でご紹介 →",
+  },
+  en: {
+    eyebrow: "Conditions we treat",
+    heading: "Browse by condition",
+    intro: "Here's an overview of what's happening, how we test, and how we treat the conditions we commonly see.",
+    dietCardTitle: "🍚 Eating well with high blood pressure, diabetes, dyslipidemia, or gout",
+    dietCardBody: "Practical diet tips that work even if you're managing more than one condition at once →",
+    schoolCardTitle: "🏫 School infections and exclusion periods",
+    schoolCardBody: "A table of guidelines for when kids can return to school after flu, strep, hand-foot-mouth disease, and more →",
+  },
+};
+
 export default function DiseasesIndexClient() {
-  const { t } = useSite();
+  const { t, lang } = useSite();
+  const ui = UI_TEXT[lang];
 
   return (
     <section className="section-pad relative overflow-hidden bg-accent/60 page-top">
@@ -25,18 +49,18 @@ export default function DiseasesIndexClient() {
 
       <div className="container-page relative">
         <FadeIn>
-          <SectionHeading eyebrow="疾患について" title="主な疾患から調べる" as="h1" />
+          <SectionHeading eyebrow={ui.eyebrow} title={ui.heading} as="h1" />
         </FadeIn>
 
         <FadeIn delay={0.05}>
           <p className="mx-auto mt-6 max-w-2xl text-center text-[15px] leading-relaxed text-ink/75">
-            当院で診療している代表的な疾患について、病態・検査方法・治療法をご紹介します。
+            {ui.intro}
           </p>
         </FadeIn>
 
         <FadeIn delay={0.08}>
           <p className="mx-auto mt-4 max-w-2xl rounded-2xl bg-surface/90 p-4 text-center text-sm leading-relaxed text-ink/70 shadow-card">
-            {DISEASE_DISCLAIMER_INTRO}
+            {DISEASE_DISCLAIMER_INTRO[lang]}
           </p>
         </FadeIn>
 
@@ -47,10 +71,10 @@ export default function DiseasesIndexClient() {
               className="block rounded-2xl bg-primary/10 p-5 text-center shadow-card transition-transform hover:-translate-y-0.5"
             >
               <p className="text-[15px] font-bold text-primary-dark">
-                🍚 高血圧・糖尿病・脂質異常症・高尿酸血症の食事について
+                {ui.dietCardTitle}
               </p>
               <p className="mt-1.5 text-sm leading-relaxed text-ink/70">
-                複数の病気をお持ちの方でも実践しやすい、食事のポイントをまとめました →
+                {ui.dietCardBody}
               </p>
             </Link>
             <Link
@@ -58,10 +82,10 @@ export default function DiseasesIndexClient() {
               className="block rounded-2xl bg-primary/10 p-5 text-center shadow-card transition-transform hover:-translate-y-0.5"
             >
               <p className="text-[15px] font-bold text-primary-dark">
-                🏫 学校感染症と出席停止期間の基準
+                {ui.schoolCardTitle}
               </p>
               <p className="mt-1.5 text-sm leading-relaxed text-ink/70">
-                インフルエンザ・溶連菌感染症・手足口病等の登校の目安を一覧表でご紹介 →
+                {ui.schoolCardBody}
               </p>
             </Link>
           </div>
@@ -71,12 +95,13 @@ export default function DiseasesIndexClient() {
           {DISEASE_CATEGORY_ORDER.map((category) => {
             const items = getDiseasesByCategory(category);
             if (items.length === 0) return null;
+            const categoryLabel = lang === "en" ? DISEASE_CATEGORY_LABEL_EN[category] : DISEASE_CATEGORY_LABEL[category];
 
             if (category === "internal") {
               return (
                 <FadeIn key={category}>
                   <h2 className="text-lg font-bold text-primary-dark">
-                    {DISEASE_CATEGORY_LABEL[category]}
+                    {categoryLabel}
                   </h2>
                   <div className="mt-6 space-y-8">
                     {INTERNAL_SUBCATEGORIES.map((sub) => {
@@ -87,23 +112,26 @@ export default function DiseasesIndexClient() {
                       return (
                         <div key={sub.label}>
                           <h3 className="text-sm font-bold text-ink/60">
-                            {sub.label}
+                            {lang === "en" ? sub.labelEn : sub.label}
                           </h3>
                           <div className="mt-3 grid gap-3 sm:grid-cols-2">
-                            {subItems.map((item) => (
-                              <Link
-                                key={item.slug}
-                                href={`/diseases/${item.slug}`}
-                                className="group block rounded-2xl bg-surface/90 p-5 shadow-card transition-all hover:-translate-y-0.5 hover:shadow-soft"
-                              >
-                                <p className="text-[15px] font-bold text-ink group-hover:text-primary-dark">
-                                  {item.title}
-                                </p>
-                                <p className="mt-1.5 text-sm leading-relaxed text-ink/70">
-                                  {item.summary}
-                                </p>
-                              </Link>
-                            ))}
+                            {subItems.map((item) => {
+                              const c = getDiseaseContent(item, lang);
+                              return (
+                                <Link
+                                  key={item.slug}
+                                  href={`/diseases/${item.slug}`}
+                                  className="group block rounded-2xl bg-surface/90 p-5 shadow-card transition-all hover:-translate-y-0.5 hover:shadow-soft"
+                                >
+                                  <p className="text-[15px] font-bold text-ink group-hover:text-primary-dark">
+                                    {c.title}
+                                  </p>
+                                  <p className="mt-1.5 text-sm leading-relaxed text-ink/70">
+                                    {c.summary}
+                                  </p>
+                                </Link>
+                              );
+                            })}
                           </div>
                         </div>
                       );
@@ -116,23 +144,26 @@ export default function DiseasesIndexClient() {
             return (
               <FadeIn key={category}>
                 <h2 className="text-lg font-bold text-primary-dark">
-                  {DISEASE_CATEGORY_LABEL[category]}
+                  {categoryLabel}
                 </h2>
                 <div className="mt-4 grid gap-3 sm:grid-cols-2">
-                  {items.map((item) => (
-                    <Link
-                      key={item.slug}
-                      href={`/diseases/${item.slug}`}
-                      className="group block rounded-2xl bg-surface/90 p-5 shadow-card transition-all hover:-translate-y-0.5 hover:shadow-soft"
-                    >
-                      <p className="text-[15px] font-bold text-ink group-hover:text-primary-dark">
-                        {item.title}
-                      </p>
-                      <p className="mt-1.5 text-sm leading-relaxed text-ink/70">
-                        {item.summary}
-                      </p>
-                    </Link>
-                  ))}
+                  {items.map((item) => {
+                    const c = getDiseaseContent(item, lang);
+                    return (
+                      <Link
+                        key={item.slug}
+                        href={`/diseases/${item.slug}`}
+                        className="group block rounded-2xl bg-surface/90 p-5 shadow-card transition-all hover:-translate-y-0.5 hover:shadow-soft"
+                      >
+                        <p className="text-[15px] font-bold text-ink group-hover:text-primary-dark">
+                          {c.title}
+                        </p>
+                        <p className="mt-1.5 text-sm leading-relaxed text-ink/70">
+                          {c.summary}
+                        </p>
+                      </Link>
+                    );
+                  })}
                 </div>
               </FadeIn>
             );

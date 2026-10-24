@@ -8,14 +8,32 @@ import BodySchema from "../components/BodySchema";
 import { useSite } from "../lib/site";
 import {
   CATEGORY_LABEL,
+  CATEGORY_LABEL_EN,
   CATEGORY_ORDER,
   CHEST_PAIN_EMERGENCY_BANNER,
   SYMPTOM_DISCLAIMER_INTRO,
   getSymptomsByCategory,
+  getSymptomContent,
 } from "../lib/symptoms-data";
 
+const UI_TEXT = {
+  ja: {
+    eyebrow: "症状から探す",
+    heading: "症状別に調べる",
+    intro: "気になる症状から、考えられる主な原因・当院で行う可能性のある検査・一般的な治療の考え方をご紹介します。",
+    bodyHeading: "部位から探す",
+  },
+  en: {
+    eyebrow: "Find by symptom",
+    heading: "Browse by symptom",
+    intro: "Here's an overview of the main possible causes, tests we may run, and general treatment approaches for the symptom that's bothering you.",
+    bodyHeading: "Find by body part",
+  },
+};
+
 export default function SymptomsIndexClient() {
-  const { t } = useSite();
+  const { t, lang } = useSite();
+  const ui = UI_TEXT[lang];
 
   return (
     <section className="section-pad relative overflow-hidden bg-accent/60 page-top">
@@ -26,29 +44,29 @@ export default function SymptomsIndexClient() {
       <div className="container-page relative">
         <FadeIn>
           <div className="mx-auto mb-8 max-w-2xl rounded-2xl border-2 border-red-400 bg-red-50 p-5 text-center text-sm font-bold leading-relaxed text-red-900 shadow-card">
-            ⚠ {CHEST_PAIN_EMERGENCY_BANNER}
+            ⚠ {CHEST_PAIN_EMERGENCY_BANNER[lang]}
           </div>
         </FadeIn>
 
         <FadeIn>
-          <SectionHeading eyebrow="症状から探す" title="症状別に調べる" as="h1" />
+          <SectionHeading eyebrow={ui.eyebrow} title={ui.heading} as="h1" />
         </FadeIn>
 
         <FadeIn delay={0.05}>
           <p className="mx-auto mt-6 max-w-2xl text-center text-[15px] leading-relaxed text-ink/75">
-            気になる症状から、考えられる主な原因・当院で行う可能性のある検査・一般的な治療の考え方をご紹介します。
+            {ui.intro}
           </p>
         </FadeIn>
 
         <FadeIn delay={0.08}>
           <p className="mx-auto mt-4 max-w-2xl rounded-2xl bg-surface/90 p-4 text-center text-sm leading-relaxed text-ink/70 shadow-card">
-            {SYMPTOM_DISCLAIMER_INTRO}
+            {SYMPTOM_DISCLAIMER_INTRO[lang]}
           </p>
         </FadeIn>
 
         <FadeIn delay={0.1}>
           <div className="mx-auto mt-10 max-w-3xl rounded-[1.75rem] bg-accent/40 p-6 sm:p-8">
-            <h2 className="text-center text-lg font-bold text-ink">部位から探す</h2>
+            <h2 className="text-center text-lg font-bold text-ink">{ui.bodyHeading}</h2>
             <div className="mt-6">
               <BodySchema size="lg" />
             </div>
@@ -62,23 +80,26 @@ export default function SymptomsIndexClient() {
             return (
               <FadeIn key={category}>
                 <h2 className="text-lg font-bold text-primary-dark">
-                  {CATEGORY_LABEL[category]}
+                  {lang === "en" ? CATEGORY_LABEL_EN[category] : CATEGORY_LABEL[category]}
                 </h2>
                 <div className="mt-4 grid gap-3 sm:grid-cols-2">
-                  {items.map((item) => (
-                    <Link
-                      key={item.slug}
-                      href={`/symptoms/${item.slug}`}
-                      className="group block rounded-2xl bg-surface/90 p-5 shadow-card transition-all hover:-translate-y-0.5 hover:shadow-soft"
-                    >
-                      <p className="text-[15px] font-bold text-ink group-hover:text-primary-dark">
-                        {item.title}
-                      </p>
-                      <p className="mt-1.5 text-sm leading-relaxed text-ink/70">
-                        {item.summary}
-                      </p>
-                    </Link>
-                  ))}
+                  {items.map((item) => {
+                    const c = getSymptomContent(item, lang);
+                    return (
+                      <Link
+                        key={item.slug}
+                        href={`/symptoms/${item.slug}`}
+                        className="group block rounded-2xl bg-surface/90 p-5 shadow-card transition-all hover:-translate-y-0.5 hover:shadow-soft"
+                      >
+                        <p className="text-[15px] font-bold text-ink group-hover:text-primary-dark">
+                          {c.title}
+                        </p>
+                        <p className="mt-1.5 text-sm leading-relaxed text-ink/70">
+                          {c.summary}
+                        </p>
+                      </Link>
+                    );
+                  })}
                 </div>
               </FadeIn>
             );

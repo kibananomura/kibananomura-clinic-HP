@@ -17,7 +17,29 @@ import {
   DISEASE_DISCLAIMER_INTRO,
   DISEASE_DISCLAIMER_OUTRO,
   getDisease,
+  getDiseaseContent,
 } from "../../lib/diseases-data";
+
+const UI_TEXT = {
+  ja: {
+    pathology: "病態",
+    tests: "検査方法",
+    treatment: "治療法",
+    tip: "💡 一口メモ",
+    pricingLink: "料金ページへ →",
+    sources: "出典",
+    backToList: "疾患一覧へ戻る",
+  },
+  en: {
+    pathology: "What's happening",
+    tests: "Tests",
+    treatment: "Treatment",
+    tip: "💡 A quick note",
+    pricingLink: "View pricing →",
+    sources: "Sources",
+    backToList: "Back to all conditions",
+  },
+};
 
 function Block({
   heading,
@@ -37,7 +59,7 @@ function Block({
 }
 
 export default function DiseasePageClient() {
-  const { t } = useSite();
+  const { t, lang } = useSite();
   const params = useParams();
   const slug = String(params?.slug ?? "");
   const disease = getDisease(slug);
@@ -46,14 +68,17 @@ export default function DiseasePageClient() {
     notFound();
   }
 
+  const c = getDiseaseContent(disease, lang);
+  const ui = UI_TEXT[lang];
+
   return (
     <article className="relative overflow-hidden bg-cream pb-24 page-top">
       <SoftBlob className="absolute -right-24 top-32 h-80 w-80 bg-sky/30" />
       <SoftBlob className="absolute -left-16 bottom-12 h-72 w-72 bg-primary/10" />
 
       <MedicalWebPageJsonLd
-        name={disease.title}
-        description={disease.summary}
+        name={c.title}
+        description={c.summary}
         url={`/diseases/${disease.slug}`}
         lastReviewed={disease.lastReviewed}
       />
@@ -65,27 +90,27 @@ export default function DiseasePageClient() {
               {DISEASE_CATEGORY_LABEL[disease.category]}
             </span>
             <h1 className="mt-4 text-2xl font-bold leading-relaxed text-ink sm:text-3xl">
-              {disease.title}
+              {c.title}
             </h1>
             <p className="mt-3 text-[15px] leading-relaxed text-ink/75">
-              {disease.summary}
+              {c.summary}
             </p>
           </FadeIn>
 
           <FadeIn delay={0.03}>
             <p className="mt-6 rounded-2xl bg-surface/90 p-4 text-sm leading-relaxed text-ink/70 shadow-card">
-              {DISEASE_DISCLAIMER_INTRO}
+              {DISEASE_DISCLAIMER_INTRO[lang]}
             </p>
           </FadeIn>
 
           <FadeIn delay={0.06} className="rounded-[1.75rem] bg-surface/90 p-7 shadow-card">
-            <Block heading="病態" body={disease.pathology} />
-            <Block heading="検査方法" body={disease.tests} />
-            <Block heading="治療法" body={disease.treatment} />
+            <Block heading={ui.pathology} body={c.pathology} />
+            <Block heading={ui.tests} body={c.tests} />
+            <Block heading={ui.treatment} body={c.treatment} />
             <div className="mt-6 rounded-2xl bg-accent/50 p-5">
-              <h2 className="text-sm font-bold text-primary-dark">💡 一口メモ</h2>
+              <h2 className="text-sm font-bold text-primary-dark">{ui.tip}</h2>
               <p className="mt-2 text-[15px] leading-relaxed text-ink/80">
-                <InlineRichText text={disease.tip} />
+                <InlineRichText text={c.tip} />
               </p>
             </div>
 
@@ -99,14 +124,14 @@ export default function DiseasePageClient() {
               >
                 <span>{disease.pricingLinkNote}</span>
                 <span className="shrink-0 font-bold text-primary-dark">
-                  料金ページへ →
+                  {ui.pricingLink}
                 </span>
               </Link>
             )}
 
             {disease.sources && disease.sources.length > 0 && (
               <div className="mt-6 border-t border-accent pt-4">
-                <p className="text-xs font-bold text-ink/50">出典</p>
+                <p className="text-xs font-bold text-ink/50">{ui.sources}</p>
                 <ul className="mt-1.5 space-y-1">
                   {disease.sources.map((source) => (
                     <li key={source.label} className="text-xs leading-relaxed text-ink/60">
@@ -129,19 +154,19 @@ export default function DiseasePageClient() {
             )}
           </FadeIn>
 
-          {disease.subsections && disease.subsections.length > 0 && (
+          {c.subsections && c.subsections.length > 0 && (
             <div className="mt-8 space-y-6">
-              {disease.subsections.map((sub) => (
+              {c.subsections.map((sub) => (
                 <FadeIn
                   key={sub.title}
                   className="rounded-[1.75rem] border border-primary/15 bg-surface/80 p-7 shadow-card"
                 >
                   <h2 className="text-base font-bold text-ink">{sub.title}</h2>
-                  <Block heading="病態" body={sub.pathology} />
-                  <Block heading="検査方法" body={sub.tests} />
-                  <Block heading="治療法" body={sub.treatment} />
+                  <Block heading={ui.pathology} body={sub.pathology} />
+                  <Block heading={ui.tests} body={sub.tests} />
+                  <Block heading={ui.treatment} body={sub.treatment} />
                   <div className="mt-6 rounded-2xl bg-accent/50 p-5">
-                    <h3 className="text-sm font-bold text-primary-dark">💡 一口メモ</h3>
+                    <h3 className="text-sm font-bold text-primary-dark">{ui.tip}</h3>
                     <p className="mt-2 text-[15px] leading-relaxed text-ink/80">
                       <InlineRichText text={sub.tip} />
                     </p>
@@ -153,7 +178,7 @@ export default function DiseasePageClient() {
 
           <FadeIn delay={0.12} className="mt-10">
             <p className="rounded-2xl bg-surface/90 p-4 text-sm leading-relaxed text-ink/70 shadow-card">
-              {DISEASE_DISCLAIMER_OUTRO}
+              {DISEASE_DISCLAIMER_OUTRO[lang]}
             </p>
           </FadeIn>
 
@@ -180,7 +205,7 @@ export default function DiseasePageClient() {
               className="inline-flex items-center gap-1.5 rounded-full bg-surface px-5 py-2.5 text-sm font-bold text-primary-dark shadow-card transition-transform hover:scale-105"
             >
               <span aria-hidden="true">←</span>
-              疾患一覧へ戻る
+              {ui.backToList}
             </Link>
             <Link
               href="/"

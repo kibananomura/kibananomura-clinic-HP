@@ -20,6 +20,11 @@ export const DISEASE_CATEGORY_LABEL: Record<DiseaseCategory, string> = {
   surgical: "外科系",
 };
 
+export const DISEASE_CATEGORY_LABEL_EN: Record<DiseaseCategory, string> = {
+  internal: "Internal medicine",
+  surgical: "Surgery",
+};
+
 export type DiseaseSource = {
   label: string;
   url?: string;
@@ -31,6 +36,17 @@ export type DiseaseSubsection = {
   tests: string;
   treatment: string;
   tip: string;
+};
+
+/** 英語版コンテンツ。未設定の項目は日本語版の値にフォールバックする（getDiseaseContentを参照）。 */
+export type DiseaseTranslation = {
+  title?: string;
+  summary?: string;
+  pathology?: string;
+  tests?: string;
+  treatment?: string;
+  tip?: string;
+  subsections?: DiseaseSubsection[];
 };
 
 export type DiseaseEntry = {
@@ -49,13 +65,33 @@ export type DiseaseEntry = {
   /** 参考にした学会ガイドライン等の出典。確認できたものだけ記載する */
   sources?: DiseaseSource[];
   lastReviewed: string;
+  /** 英語版。未翻訳の疾患はundefinedのままでよく、ページ側は日本語にフォールバックする */
+  en?: DiseaseTranslation;
 };
 
-export const DISEASE_DISCLAIMER_INTRO =
-  "このページでご紹介している疾患は、基本的にすべて当院で診療いたします。病状によって、特に高度な専門治療が必要と判断した場合に限り、連携する医療機関へご紹介することがあります。なお本ページは一般的な医学情報の提供を目的としており、診断を行うものではありません。実際の診断・治療には受診が必要です。";
+/** lang="en"かつ英語版フィールドがあればそれを、なければ日本語版の値を返す */
+export function getDiseaseContent(disease: DiseaseEntry, lang: "ja" | "en") {
+  const en = disease.en;
+  return {
+    title: (lang === "en" && en?.title) || disease.title,
+    summary: (lang === "en" && en?.summary) || disease.summary,
+    pathology: (lang === "en" && en?.pathology) || disease.pathology,
+    tests: (lang === "en" && en?.tests) || disease.tests,
+    treatment: (lang === "en" && en?.treatment) || disease.treatment,
+    tip: (lang === "en" && en?.tip) || disease.tip,
+    subsections: (lang === "en" && en?.subsections) || disease.subsections,
+  };
+}
 
-export const DISEASE_DISCLAIMER_OUTRO =
-  "※ 本ページの内容は一般的な医学情報の紹介であり、個々の患者さんの診断・治療方針を示すものではありません。実際の診断・治療方針は、受診のうえ医師が症状・経過・検査結果を踏まえて判断します。治療の効果や必要な薬剤・処置には個人差があります。";
+export const DISEASE_DISCLAIMER_INTRO = {
+  ja: "このページでご紹介している疾患は、基本的にすべて当院で診療いたします。病状によって、特に高度な専門治療が必要と判断した場合に限り、連携する医療機関へご紹介することがあります。なお本ページは一般的な医学情報の提供を目的としており、診断を行うものではありません。実際の診断・治療には受診が必要です。",
+  en: "In general, we treat every condition introduced on this page ourselves. Only when a condition calls for especially advanced specialist care do we refer patients to a partner institution. This page is intended to provide general medical information and does not constitute a diagnosis. An actual diagnosis and treatment require an in-person visit.",
+};
+
+export const DISEASE_DISCLAIMER_OUTRO = {
+  ja: "※ 本ページの内容は一般的な医学情報の紹介であり、個々の患者さんの診断・治療方針を示すものではありません。実際の診断・治療方針は、受診のうえ医師が症状・経過・検査結果を踏まえて判断します。治療の効果や必要な薬剤・処置には個人差があります。",
+  en: "* The content on this page is general medical information and does not represent a diagnosis or treatment plan for any individual patient. An actual diagnosis and treatment plan are determined by a physician after an in-person visit, based on your symptoms, history, and test results. Treatment effects and the medications or procedures needed vary from person to person.",
+};
 
 export const DISEASES: DiseaseEntry[] = [
   {
@@ -72,6 +108,17 @@ export const DISEASES: DiseaseEntry[] = [
     tip: "家庭での血圧測定（朝晩）は診察室血圧より実態に近いと言われています。測定習慣をつけることが治療の助けになることがあります。__ご自宅での血圧がなかなか目標の数値まで下がらない、あるいは数値が安定しないという場合__は、ご自身の判断だけで様子を見続けず、記録した血圧をお持ちのうえ主治医の先生にご相談いただくことをお勧めします。",
     sources: [{ label: "日本高血圧学会「高血圧管理・治療ガイドライン2025（JSH2025）」" }],
     lastReviewed: "2026-10-10",
+    en: {
+      title: "High blood pressure (hypertension)",
+      summary: "A lifestyle-related condition where blood pressure stays chronically elevated, often with no noticeable symptoms.",
+      pathology:
+        "Chronically elevated blood pressure. It usually causes no symptoms, but left untreated it raises the risk of stroke, heart disease, and kidney disease. The Japanese Society of Hypertension's 2025 guideline (JSH2025) defines hypertension as a clinic blood pressure reading of **140/90mmHg or higher (systolic/diastolic)**. Blood pressure measured at home tends to better reflect your everyday reality than a clinic reading, so the same guideline sets the threshold for home readings at **135/85mmHg or higher**. Because some people have normal readings at the clinic but higher readings at home (\"masked hypertension\"), __evaluating both sets of numbers together__ is considered important.",
+      tests:
+        "We evaluate for complications and secondary hypertension with blood tests, a urine test, an ECG, and digital X-ray or abdominal ultrasound as needed. Beyond the clinic measurement, __bringing in a record of your home blood pressure readings__ is also an important clue for diagnosis and evaluation. The typical approach is to measure once or twice in the morning (within an hour of waking, after using the bathroom, before medication or breakfast) and once or twice in the evening (before bed), each time after sitting calmly for 1–2 minutes. We usually evaluate the average over several days to a week — **a single reading alone isn't enough to go on.**",
+      treatment:
+        "Treatment generally starts with lifestyle changes (reducing salt, exercise, weight management), and if improvement isn't enough, we consider adding blood pressure medication relatively early, typically within about a month. JSH2025 generally recommends a target of **below 130/80mmHg at the clinic (below 125/75mmHg at home)** regardless of age, which is lower than the more lenient target previously set for patients 75 and older under the older JSH2019 guideline. That said, for older patients who need assistance getting to appointments or whose daily functioning has declined significantly, we adjust individually — sometimes setting a somewhat more lenient target (around 140–150mmHg systolic) or being careful not to lower it too far (particularly below 120mmHg systolic). The right target and medication vary a great deal from person to person, and we work it out together with you during your visits.",
+      tip: "Measuring your blood pressure at home, morning and evening, tends to reflect reality more closely than a single clinic reading. Building that habit can genuinely help with treatment. __If your home readings won't come down to target, or keep fluctuating,__ please don't just keep watching and waiting on your own — bring your recorded readings in and talk it over with your doctor.",
+    },
   },
   {
     slug: "dyslipidemia",
@@ -1682,9 +1729,10 @@ export const DISEASE_CATEGORY_ORDER: DiseaseCategory[] = ["internal", "surgical"
  * 必ずいずれか1つのグループに slug を追加すること（このリストに含まれない
  * 内科系疾患は一覧ページに表示されない）。
  */
-export const INTERNAL_SUBCATEGORIES: { label: string; slugs: string[] }[] = [
+export const INTERNAL_SUBCATEGORIES: { label: string; labelEn: string; slugs: string[] }[] = [
   {
     label: "かぜ・感染症・呼吸器",
+    labelEn: "Colds, infections & respiratory",
     slugs: [
       "common-cold",
       "influenza",
@@ -1704,6 +1752,7 @@ export const INTERNAL_SUBCATEGORIES: { label: string; slugs: string[] }[] = [
   },
   {
     label: "生活習慣病・内分泌",
+    labelEn: "Lifestyle & endocrine conditions",
     slugs: [
       "hypertension",
       "dyslipidemia",
@@ -1716,42 +1765,52 @@ export const INTERNAL_SUBCATEGORIES: { label: string; slugs: string[] }[] = [
   },
   {
     label: "循環器疾患",
+    labelEn: "Cardiovascular conditions",
     slugs: ["heart-failure", "atrial-fibrillation", "angina-ischemic-heart-disease"],
   },
   {
     label: "血液疾患（貧血）",
+    labelEn: "Blood disorders (anemia)",
     slugs: ["iron-deficiency-anemia", "megaloblastic-anemia", "renal-anemia"],
   },
   {
     label: "骨・運動器疾患",
+    labelEn: "Bone & musculoskeletal conditions",
     slugs: ["osteoporosis", "knee-osteoarthritis", "acute-low-back-pain"],
   },
   {
     label: "皮膚の感染症",
+    labelEn: "Skin infections",
     slugs: ["impetigo", "herpes-labialis", "herpes-zoster", "cellulitis", "tinea-pedis"],
   },
   {
     label: "虫・動物による感染症／熱中症",
+    labelEn: "Insect/animal-related infections & heat stroke",
     slugs: ["insect-bites", "tick-bite-sfts", "cat-scratch-disease", "heat-stroke"],
   },
   {
     label: "消化器疾患",
+    labelEn: "Digestive conditions",
     slugs: ["constipation", "reflux-esophagitis", "functional-dyspepsia", "ibs", "h-pylori", "stomatitis", "gallstones", "diverticulosis", "ischemic-colitis", "terminal-ileitis"],
   },
   {
     label: "アレルギー疾患",
+    labelEn: "Allergic conditions",
     slugs: ["hay-fever", "allergic-rhinitis", "urticaria", "atopic-dermatitis"],
   },
   {
     label: "泌尿器疾患",
+    labelEn: "Urinary conditions",
     slugs: ["acute-cystitis", "overactive-bladder", "chronic-cystitis", "ureteral-stone", "bph"],
   },
   {
     label: "耳鼻科・神経疾患",
+    labelEn: "ENT & neurological conditions",
     slugs: ["sinusitis", "ear-infection", "headache", "bppv", "meniere-disease", "lumbar-spinal-stenosis"],
   },
   {
     label: "睡眠・生活の質",
+    labelEn: "Sleep & quality of life",
     slugs: ["insomnia", "sas"],
   },
 ];
