@@ -3,6 +3,8 @@
  * 外部素材は使用せず、本サイト用に作成したシンプルな線画アイコン。
  */
 
+import { useSite } from "../lib/site";
+
 const ICON_PROPS = {
   className: "h-8 w-8",
   fill: "none",
@@ -60,20 +62,23 @@ function PetIcon() {
 }
 
 const ALLERGENS = [
-  { Icon: DustCloudIcon, label: "ハウスダスト" },
-  { Icon: MiteIcon, label: "ダニ（死骸・フン）" },
-  { Icon: BeddingIcon, label: "寝具・カーペット" },
-  { Icon: PetIcon, label: "ペットの毛・フケ" },
+  { Icon: DustCloudIcon, label: "ハウスダスト", labelEn: "House dust" },
+  { Icon: MiteIcon, label: "ダニ（死骸・フン）", labelEn: "Dust mites (remains & droppings)" },
+  { Icon: BeddingIcon, label: "寝具・カーペット", labelEn: "Bedding & carpets" },
+  { Icon: PetIcon, label: "ペットの毛・フケ", labelEn: "Pet hair & dander" },
 ];
 
 export default function AllergenSourcesIllustration() {
+  const { lang } = useSite();
+  const isEn = lang === "en";
+
   return (
     <div className="mt-6 rounded-2xl bg-surface/90 p-5 shadow-card">
       <h2 className="text-sm font-bold text-primary-dark">
-        花粉以外の主な原因（通年性アレルギー性鼻炎）
+        {isEn ? "Common causes besides pollen (perennial allergic rhinitis)" : "花粉以外の主な原因（通年性アレルギー性鼻炎）"}
       </h2>
       <div className="mt-4 grid grid-cols-2 gap-3 sm:grid-cols-4">
-        {ALLERGENS.map(({ Icon, label }) => (
+        {ALLERGENS.map(({ Icon, label, labelEn }) => (
           <div
             key={label}
             className="flex flex-col items-center gap-2 rounded-xl bg-accent/50 px-2 py-4 text-center"
@@ -82,13 +87,13 @@ export default function AllergenSourcesIllustration() {
               <Icon />
             </span>
             <span className="text-xs font-medium leading-snug text-ink/80">
-              {label}
+              {isEn ? labelEn : label}
             </span>
           </div>
         ))}
       </div>
       <p className="mt-3 text-[11px] text-ink/50">
-        ※ イラストは本サイト用に作成したオリジナルです。
+        {isEn ? "* These illustrations are original artwork created for this site." : "※ イラストは本サイト用に作成したオリジナルです。"}
       </p>
     </div>
   );
