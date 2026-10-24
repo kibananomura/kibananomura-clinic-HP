@@ -2600,6 +2600,110 @@ export const DISEASES: DiseaseEntry[] = [
       tip: "__Relying solely on over-the-counter medication on your own judgment can let hemorrhoids or anal fissures worsen and become chronic.__ In particular, dismissing bleeding as \"just my usual hemorrhoids\" can delay finding a more serious condition, so if symptoms keep recurring, we'd recommend coming in sooner rather than later.",
     },
   },
+  {
+    slug: "bronchitis",
+    title: "気管支炎",
+    category: "internal",
+    summary: "気管支の粘膜に炎症が起こり、咳や痰が続く病気です。多くはかぜの後に起こり、ウイルスが原因です。",
+    pathology:
+      "気管の奥にある気管支の粘膜に炎症が起こった状態です。多くは__かぜ（上気道感染症）に続いて起こり、原因の大部分はウイルス__です。発熱・のどの痛みといった症状が落ち着いたあとも、**咳や痰だけが1〜3週間ほど長引く**のが特徴で、気管支の粘膜が過敏になっているために、ちょっとした刺激（冷たい空気・煙等）でも咳が誘発されやすくなります。喫煙や大気汚染への曝露を繰り返すことで炎症が慢性化する「慢性気管支炎」は、急性気管支炎とは別の病態です。",
+    tests:
+      "多くは__問診・診察で診断__がつき、特別な検査を必要としません。発熱が長引く、息苦しさを伴う、痰に血が混じる等、肺炎を疑う所見がある場合は、デジタルX線（レントゲン）や血液検査で評価します。",
+    treatment:
+      "**ウイルスが原因のため抗菌薬（抗生物質）は基本的に使用しません**。安静・水分摂取を基本に、咳がつらい場合は去痰薬・鎮咳薬等で症状を和らげます。喘鳴（ゼーゼー）を伴う場合は、気管支を広げる吸入薬を用いることもあります。",
+    tip: "__「かぜは治ったのに咳だけ残る」状態は、気管支炎ではよくあることです__。多くは自然に軽快しますが、3週間以上続く咳、発熱を繰り返す咳、体重減少を伴う咳の場合は、他の病気が隠れていないか評価が必要なため、一度ご相談ください。",
+    sources: [],
+    lastReviewed: "2026-10-24",
+    en: {
+      title: "Bronchitis",
+      summary: "Inflammation of the bronchial tubes that causes an ongoing cough and phlegm. It usually follows a cold and is caused by a virus.",
+      pathology:
+        "This is inflammation of the lining of the bronchial tubes, the airways deep in the chest. It __usually follows a cold (an upper respiratory infection), and the large majority of cases are viral__. Even after symptoms like fever and sore throat have settled down, **the cough and phlegm alone often linger for one to three weeks** — a hallmark feature. Because the bronchial lining becomes more sensitive during this time, even minor triggers (cold air, smoke) can set off coughing fits. \"Chronic bronchitis,\" where repeated exposure to smoking or air pollution leads to long-term inflammation, is a separate condition from acute bronchitis.",
+      tests:
+        "In most cases, __diagnosis is made from your history and a physical exam__, without the need for special testing. If you have a prolonged fever, difficulty breathing, or blood-streaked phlegm — findings that raise concern for pneumonia — we evaluate with a digital X-ray and blood tests.",
+      treatment:
+        "**Because the cause is viral, antibiotics generally aren't used.** The basics are rest and staying hydrated; if the cough is bothersome, expectorants or cough suppressants can ease the symptoms. If wheezing is present, an inhaled bronchodilator may also be used.",
+      tip: "__\"The cold is gone but the cough is still here\" is a very common pattern with bronchitis.__ Most cases resolve on their own, but a cough lasting more than three weeks, one that comes with recurring fever, or one accompanied by weight loss warrants an evaluation to rule out other conditions — please come talk to us if that's the case.",
+    },
+  },
+  {
+    slug: "gastritis",
+    title: "胃炎",
+    category: "internal",
+    summary: "胃の粘膜に炎症が起こり、みぞおちの痛みや胃もたれなどの症状が出る状態です。原因により急性と慢性に分かれます。",
+    pathology:
+      "胃の内側を覆う粘膜に炎症が起こった状態です。__数日以内に症状が現れる「急性胃炎」__と、__長期間にわたって炎症が続く「慢性胃炎」__に大きく分けられます。急性胃炎は、暴飲暴食・香辛料の強い食事・痛み止め（NSAIDs）の使用・強いストレス・アルコールの多飲等がきっかけで起こることが多く、慢性胃炎の多くは**ピロリ菌（ヘリコバクター・ピロリ）の感染**が背景にあるとされています。",
+    tests:
+      "問診・診察に加え、__ピロリ菌感染の有無を調べる検査（尿素呼気試験・血液検査・便検査等）__を行うことがあります。症状が長引く場合や、体重減少・貧血・嘔吐・黒色便等の**注意すべき症状を伴う場合**は、胃の粘膜を直接観察する経鼻内視鏡（胃カメラ）での評価を検討します。",
+    treatment:
+      "原因に応じて、__胃酸の分泌を抑える薬（プロトンポンプ阻害薬等）__による対症療法を行います。原因となっている痛み止めやアルコール等があれば、中止・減量を検討します。ピロリ菌感染が確認された場合は、**除菌治療（抗菌薬を含む内服を1〜2週間程度）**を行うことで、慢性胃炎の改善や将来の胃潰瘍・胃がんのリスク低減が期待できます。",
+    tip: "__みぞおちの痛みや胃もたれを「ただの胃炎」と自己判断し、市販薬だけで様子を見続けるのは注意が必要です。__ 特に体重減少・貧血・繰り返す嘔吐・黒色便を伴う場合は、他の病気が隠れていないか確認するため、早めにご相談ください。",
+    sources: [],
+    lastReviewed: "2026-10-24",
+    en: {
+      title: "Gastritis",
+      summary: "Inflammation of the stomach lining that causes symptoms such as upper abdominal pain or a feeling of fullness after eating. It's broadly divided into acute and chronic forms, depending on the cause.",
+      pathology:
+        "This is inflammation of the lining of the stomach. It's broadly divided into __\"acute gastritis,\" where symptoms appear within a few days__, and __\"chronic gastritis,\" where inflammation persists over a long period__. Acute gastritis is often triggered by overeating or binge drinking, spicy food, use of pain relievers (NSAIDs), intense stress, or heavy alcohol use, while most chronic gastritis is thought to be caused by **infection with H. pylori (Helicobacter pylori)**.",
+      tests:
+        "Beyond a history and physical exam, we may run __tests to check for H. pylori infection (a urea breath test, blood test, or stool test)__. If symptoms persist, or if you have **concerning symptoms such as weight loss, anemia, vomiting, or black, tarry stools**, we consider evaluating the stomach lining directly with a transnasal endoscopy (gastroscopy).",
+      treatment:
+        "Depending on the cause, we treat symptomatically with __medications that suppress stomach acid (such as proton pump inhibitors)__. If a pain reliever or alcohol use is the trigger, we consider stopping or cutting back. If H. pylori infection is confirmed, **eradication therapy (a course of antibiotics and acid-suppressing medication over about 1–2 weeks)** can improve chronic gastritis and reduce the future risk of stomach ulcers and stomach cancer.",
+      tip: "__Assuming upper abdominal pain or a feeling of fullness is \"just gastritis\" and relying only on over-the-counter medication deserves some caution.__ In particular, if it comes with weight loss, anemia, repeated vomiting, or black, tarry stools, please come in sooner rather than later so we can check that nothing more serious is going on.",
+    },
+  },
+  {
+    slug: "gastroenteritis",
+    title: "胃腸炎（感染性腸炎）",
+    category: "internal",
+    summary: "胃や腸に炎症が起こり、嘔吐・下痢・腹痛等が現れる状態の総称です。多くはウイルスや細菌の感染が原因です。",
+    pathology:
+      "胃や腸の粘膜に炎症が起こり、__嘔吐・下痢・腹痛・発熱等__の症状が現れる状態をまとめて指す言葉です。原因の多くは感染性で、**ノロウイルス・ロタウイルス等のウイルス性**と、**サルモネラ・カンピロバクター・腸管出血性大腸菌（O157等）等の細菌性**に大きく分けられます。このうち、ウイルス性の胃腸炎については当院の「感染性胃腸炎（ノロウイルス・ロタウイルス）」のページ、食事が原因となる細菌性のものについては「細菌性食中毒」のページで、それぞれより詳しく解説しています。",
+    tests:
+      "多くは__症状の経過や周囲の流行状況から診断__し、特別な検査なしで対症療法を開始します。症状が重い場合、血便を伴う場合、集団発生が疑われる場合等には、便培養検査等で原因を調べることがあります。",
+    treatment:
+      "治療の基本は__水分・電解質の補給__で、特に乳幼児・高齢者は脱水に注意が必要です。嘔吐が強い場合は少量ずつこまめに水分を摂っていただき、必要に応じて点滴による補液を行います。**細菌性が疑われ症状が重い場合を除き、抗菌薬は基本的に使用しません。**下痢止めは、原因菌によってはかえって症状を長引かせることがあるため、自己判断での使用は推奨していません。",
+    tip: "__嘔吐・下痢が続くと、気づかないうちに脱水が進んでいることがあります。__ 尿の回数が減っている、ぐったりしている、水分を受け付けない等の様子があれば、様子を見ずに早めにご相談ください。血便を伴う場合も、同様に早めの受診をおすすめします。",
+    sources: [],
+    lastReviewed: "2026-10-24",
+    en: {
+      title: "Gastroenteritis (infectious enteritis)",
+      summary: "An umbrella term for inflammation of the stomach and intestines causing vomiting, diarrhea, and abdominal pain. Most cases are caused by a viral or bacterial infection.",
+      pathology:
+        "This is an umbrella term for inflammation of the lining of the stomach and intestines that produces __vomiting, diarrhea, abdominal pain, and fever__. Most cases are infectious, broadly split into **viral causes (such as norovirus and rotavirus)** and **bacterial causes (such as Salmonella, Campylobacter, and enterohemorrhagic E. coli like O157)**. For viral gastroenteritis specifically, see our \"Viral gastroenteritis (norovirus, rotavirus)\" page, and for bacterial cases linked to food, see our \"Bacterial food poisoning\" page — both go into more detail.",
+      tests:
+        "In most cases, __diagnosis is based on how your symptoms are progressing and what's going around in the community__, and symptomatic treatment starts without special testing. If symptoms are severe, there's blood in the stool, or an outbreak is suspected, a stool culture or similar test may be used to identify the cause.",
+      treatment:
+        "The foundation of treatment is __replacing fluids and electrolytes__ — infants and older adults in particular need close attention to avoid dehydration. If vomiting is severe, small, frequent sips of fluid are recommended, with IV fluids added if needed. **Antibiotics generally aren't used unless a bacterial cause is suspected and symptoms are severe.** We don't recommend using anti-diarrheal medication on your own judgment, since depending on the organism involved it can actually prolong the illness.",
+      tip: "__Ongoing vomiting and diarrhea can lead to dehydration before you realize it.__ If you notice reduced urination, listlessness, or an inability to keep fluids down, please don't wait and see — come in sooner rather than later. The same goes for blood in the stool.",
+    },
+  },
+  {
+    slug: "bowel-obstruction",
+    title: "腸閉塞（イレウス）",
+    category: "surgical",
+    summary: "腸の内容物の流れが止まってしまう状態です。「腸閉塞」と「イレウス」は日本の臨床現場では同じ意味で使われがちですが、本来は原因が異なる2つのタイプがあります。",
+    pathology:
+      "腸の中身（消化物やガス）の流れが、何らかの原因で止まってしまった状態です。日本では「腸閉塞」と「イレウス」という言葉が__同じ意味で使われることが多い__のですが、本来は原因によって2つのタイプに分かれます。**①機械的な閉塞（狭い意味での腸閉塞、英語ではbowel obstruction）**は、お腹の手術後の癒着・腫瘍・ヘルニアの嵌頓（かんとん）・腸重積等、__腸そのものが物理的にふさがれたり折れ曲がったりする__ことで起こります。**②機能的な閉塞（麻痺性イレウス、英語ではileus）**は、物理的な閉塞はないものの、__腹膜炎や開腹手術後等で腸の動き（蠕動運動）が弱まり、内容物が先に進めなくなる__ことで起こります。特に①のうち、腸への血流が障害されるタイプ（絞扼性腸閉塞）は、**腸が壊死してしまう危険があるため緊急の対応が必要**です。",
+    tests:
+      "問診・診察（お腹の張り・腸の音の聴診等）に加え、__腹部X線・CT検査__で、腸の拡張やガス・液体のたまり方、閉塞の原因・部位を評価します。血流障害を伴う絞扼性腸閉塞が疑われる場合は、特に迅速な評価と対応が必要です。",
+    treatment:
+      "多くは、__飲食を中断し、鼻からチューブを入れて腸の中のガス・液体を抜く処置（減圧）__と点滴による水分・電解質補給を行う保存的治療から開始します。機能的な閉塞（麻痺性イレウス）は、多くの場合この保存的治療で改善します。機械的な閉塞のうち、**血流障害を伴う絞扼性腸閉塞や、保存的治療で改善しない場合には、緊急手術が必要**となることがあり、専門的な治療が可能な医療機関と連携します。",
+    tip: "__お腹の張り・激しい腹痛・繰り返す嘔吐に加えて、ガスやおならが全く出ない状態__が続く場合は、腸閉塞を疑う重要なサインです。様子を見ずに、早めの受診・ご相談をおすすめします。過去にお腹の手術を受けたことがある方は、癒着による腸閉塞のリスクがあることも知っておいていただきたい点です。",
+    sources: [],
+    lastReviewed: "2026-10-24",
+    en: {
+      title: "Bowel obstruction (ileus)",
+      summary: "A condition where the contents of the intestine stop moving through. In everyday Japanese clinical use, \"bowel obstruction\" and \"ileus\" are often used interchangeably, but they're technically two distinct types with different causes.",
+      pathology:
+        "This is a state where the contents of the intestine (digested material and gas) stop moving along, for one of several reasons. In Japan, the terms for \"bowel obstruction\" and \"ileus\" are __often used interchangeably in everyday clinical conversation__, but they technically refer to two distinct types based on cause. **① Mechanical obstruction (bowel obstruction in the strict sense)** happens when __the intestine itself is physically blocked or kinked__ — from adhesions after abdominal surgery, a tumor, a strangulated hernia, intussusception, and similar causes. **② Functional obstruction (paralytic ileus)** happens when there's no physical blockage, but __the intestine's muscular movement (peristalsis) weakens__ — for example after peritonitis or abdominal surgery — so contents simply stop advancing. Within type ①, the subtype where blood flow to the intestine is compromised (strangulated obstruction) carries a **risk of the bowel tissue dying, and needs urgent treatment.**",
+      tests:
+        "Beyond a history and physical exam (checking for abdominal distension, listening for bowel sounds), we evaluate with __abdominal X-ray and CT scans__ to assess how distended the bowel is, how gas and fluid have accumulated, and the cause and location of the obstruction. If a strangulated obstruction with compromised blood flow is suspected, especially rapid evaluation and treatment are needed.",
+      treatment:
+        "Most cases start with conservative treatment: __stopping all food and drink, and placing a tube through the nose to decompress the bowel by draining gas and fluid__, along with IV fluids and electrolytes. Functional obstruction (paralytic ileus) usually improves with this conservative approach alone. Among mechanical obstructions, **a strangulated obstruction with compromised blood flow, or one that doesn't improve with conservative treatment, may require emergency surgery**, and we coordinate with an institution capable of that specialized care.",
+      tip: "__Abdominal distension, severe abdominal pain, and repeated vomiting, combined with a complete inability to pass gas or stool,__ is an important warning sign of bowel obstruction. Please don't wait and see — come in or get in touch sooner rather than later. If you've had abdominal surgery in the past, it's also worth knowing that adhesions can put you at risk for this kind of obstruction.",
+    },
+  },
 ];
 
 export function getDisease(slug: string): DiseaseEntry | undefined {
@@ -2626,6 +2730,7 @@ export const INTERNAL_SUBCATEGORIES: { label: string; labelEn: string; slugs: st
     labelEn: "Colds, infections & respiratory",
     slugs: [
       "common-cold",
+      "bronchitis",
       "influenza",
       "covid-19",
       "croup",
@@ -2634,6 +2739,7 @@ export const INTERNAL_SUBCATEGORIES: { label: string; labelEn: string; slugs: st
       "rsv-infection",
       "human-metapneumovirus-infection",
       "viral-gastroenteritis",
+      "gastroenteritis",
       "bacterial-food-poisoning",
       "asthma",
       "asthma-child",
@@ -2682,7 +2788,7 @@ export const INTERNAL_SUBCATEGORIES: { label: string; labelEn: string; slugs: st
   {
     label: "消化器疾患",
     labelEn: "Digestive conditions",
-    slugs: ["constipation", "reflux-esophagitis", "functional-dyspepsia", "ibs", "h-pylori", "stomatitis", "gallstones", "diverticulosis", "ischemic-colitis", "terminal-ileitis"],
+    slugs: ["gastritis", "constipation", "reflux-esophagitis", "functional-dyspepsia", "ibs", "h-pylori", "stomatitis", "gallstones", "diverticulosis", "ischemic-colitis", "terminal-ileitis"],
   },
   {
     label: "アレルギー疾患",
@@ -2777,7 +2883,8 @@ export const DISEASE_LINK_LABELS: DiseaseLinkLabel[] = DISEASES
     { label: "伝染性膿痂疹", slug: "impetigo" },
     { label: "ノロウイルス", slug: "viral-gastroenteritis" },
     { label: "ロタウイルス", slug: "viral-gastroenteritis" },
-    { label: "感染性胃腸炎", slug: "viral-gastroenteritis" },
+    { label: "感染性胃腸炎", slug: "gastroenteritis" },
+    { label: "感染性腸炎", slug: "gastroenteritis" },
     { label: "鉄欠乏性貧血", slug: "iron-deficiency-anemia" },
     { label: "貧血", slug: "iron-deficiency-anemia" },
     { label: "巨赤芽球性貧血", slug: "megaloblastic-anemia" },
@@ -2915,7 +3022,7 @@ export const DISEASE_LINK_LABELS_EN: DiseaseLinkLabel[] = DISEASES
     { label: "Wounds", slug: "wound-care" },
     { label: "Ingrown/curved toenails", slug: "ingrown-nail" },
     { label: "Ingrown toenail", slug: "ingrown-nail" },
-    { label: "Infectious gastroenteritis", slug: "viral-gastroenteritis" },
+    { label: "Infectious gastroenteritis", slug: "gastroenteritis" },
     { label: "Male pattern hair loss (AGA)", slug: "", href: "/self-pay/aga" },
     { label: "Male pattern hair loss", slug: "", href: "/self-pay/aga" },
   ])
