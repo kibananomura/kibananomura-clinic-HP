@@ -2871,3 +2871,39 @@ export const DISEASE_LINK_LABELS: DiseaseLinkLabel[] = DISEASES
   ])
   .filter((v, i, arr) => arr.findIndex((x) => x.label === v.label) === i)
   .sort((a, b) => b.label.length - a.label.length);
+
+/**
+ * DISEASE_LINK_LABELS の英語版。英訳のある疾患のタイトル（en.title）から自動生成する。
+ * 英語タイトルは "High blood pressure (hypertension)" や "Hyperuricemia and gout" のように
+ * 括弧や and/& で複数の呼び方を1つにまとめていることが多く、症状ページの原因名では
+ * そのうち一部の呼び方だけが使われることがあるため、括弧の有無・and/&区切りの
+ * それぞれの部分文字列も候補ラベルとして追加する。
+ */
+function expandEnTitleVariants(title: string): string[] {
+  const variants = new Set<string>([title]);
+  const withoutParens = title.replace(/\s*\([^)]*\)/g, "").trim();
+  if (withoutParens) variants.add(withoutParens);
+  const parenMatch = title.match(/\(([^)]*)\)/);
+  if (parenMatch?.[1]) variants.add(parenMatch[1].trim());
+  for (const base of [title, withoutParens]) {
+    for (const part of base.split(/\s+(?:and|&)\s+/i)) {
+      const trimmed = part.trim();
+      if (trimmed) variants.add(trimmed);
+    }
+  }
+  return [...variants].filter(Boolean);
+}
+
+export const DISEASE_LINK_LABELS_EN: DiseaseLinkLabel[] = DISEASES
+  .filter((d) => d.en?.title)
+  .flatMap((d): DiseaseLinkLabel[] =>
+    expandEnTitleVariants(d.en!.title!).map((label) => ({ label, slug: d.slug })),
+  )
+  .concat([
+    // 症状ページの原因名で使われる呼び方のうち、疾患タイトルの自動展開では
+    // 拾いきれない代表的な別表現だけを補足する。
+    { label: "Common cold", slug: "common-cold" },
+    { label: "Cold", slug: "common-cold" },
+  ])
+  .filter((v, i, arr) => arr.findIndex((x) => x.label.toLowerCase() === v.label.toLowerCase()) === i)
+  .sort((a, b) => b.label.length - a.label.length);

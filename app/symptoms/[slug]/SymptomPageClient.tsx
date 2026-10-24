@@ -18,7 +18,7 @@ import {
   getSymptom,
   getSymptomContent,
 } from "../../lib/symptoms-data";
-import { DISEASE_LINK_LABELS } from "../../lib/diseases-data";
+import { DISEASE_LINK_LABELS, DISEASE_LINK_LABELS_EN } from "../../lib/diseases-data";
 
 const UI_TEXT = {
   ja: {
@@ -54,6 +54,9 @@ const UI_TEXT = {
 const SORTED_DISEASE_LINK_LABELS = [...DISEASE_LINK_LABELS].sort(
   (a, b) => b.label.length - a.label.length,
 );
+const SORTED_DISEASE_LINK_LABELS_EN = [...DISEASE_LINK_LABELS_EN].sort(
+  (a, b) => b.label.length - a.label.length,
+);
 
 /**
  * 原因名の文字列内に疾患ページ・自費診療ページの名称が含まれていれば、
@@ -61,12 +64,17 @@ const SORTED_DISEASE_LINK_LABELS = [...DISEASE_LINK_LABELS].sort(
  * 一致するラベルがなければ、元の文字列をそのまま返す。
  */
 function renderCauseName(name: string, lang: "ja" | "en") {
-  if (lang === "en") return name;
-  for (const entry of SORTED_DISEASE_LINK_LABELS) {
+  const labels = lang === "en" ? SORTED_DISEASE_LINK_LABELS_EN : SORTED_DISEASE_LINK_LABELS;
+  // 英語版は翻訳元ごとに大文字小文字の揺れがあるため、検索は大文字小文字を無視し、
+  // 実際に表示する文字列は name 側の元の表記（マッチした範囲）をそのまま使う。
+  const nameLower = lang === "en" ? name.toLowerCase() : name;
+  for (const entry of labels) {
     if (!entry.label) continue;
-    const idx = name.indexOf(entry.label);
+    const entryKey = lang === "en" ? entry.label.toLowerCase() : entry.label;
+    const idx = nameLower.indexOf(entryKey);
     if (idx === -1) continue;
     const before = name.slice(0, idx);
+    const matched = name.slice(idx, idx + entry.label.length);
     const after = name.slice(idx + entry.label.length);
     return (
       <>
@@ -75,7 +83,7 @@ function renderCauseName(name: string, lang: "ja" | "en") {
           href={entry.href ?? `/diseases/${entry.slug}`}
           className="text-primary-dark underline decoration-primary/40 underline-offset-2 hover:text-primary"
         >
-          {entry.label}
+          {matched}
         </Link>
         {after}
       </>
