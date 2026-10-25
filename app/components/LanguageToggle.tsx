@@ -23,7 +23,7 @@ export default function LanguageToggle({
         onClick={() => setLang("ja")}
         aria-pressed={lang === "ja"}
         className={`rounded-full px-1.5 py-1 transition-colors sm:px-3 ${
-          lang === "ja" ? "bg-primary text-white" : "text-muted hover:text-ink"
+          lang === "ja" ? "bg-primary-dark text-white" : "text-muted hover:text-ink"
         }`}
       >
         日本語
@@ -33,7 +33,7 @@ export default function LanguageToggle({
         onClick={() => setLang("en")}
         aria-pressed={lang === "en"}
         className={`rounded-full px-1.5 py-1 transition-colors sm:px-3 ${
-          lang === "en" ? "bg-primary text-white" : "text-muted hover:text-ink"
+          lang === "en" ? "bg-primary-dark text-white" : "text-muted hover:text-ink"
         }`}
       >
         EN

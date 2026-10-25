@@ -126,31 +126,31 @@ export default function Footer() {
         <div className="container-page flex flex-col items-center justify-between gap-2 py-5 text-xs text-white/50 sm:flex-row">
           <p>&copy; {new Date().getFullYear()} {BRAND[lang].copyright}</p>
           <div className="flex flex-wrap items-center justify-center gap-x-4 gap-y-1 sm:justify-end">
-            <Link href="/first-visit" className="text-white/60 transition-colors hover:text-white">
+            <Link href="/first-visit" className="inline-block py-1.5 text-white/60 transition-colors hover:text-white">
               {t.footer.firstVisitLabel}
             </Link>
-            <Link href="/symptoms" className="text-white/60 transition-colors hover:text-white">
+            <Link href="/symptoms" className="inline-block py-1.5 text-white/60 transition-colors hover:text-white">
               症状から探す
             </Link>
-            <Link href="/faq" className="text-white/60 transition-colors hover:text-white">
+            <Link href="/faq" className="inline-block py-1.5 text-white/60 transition-colors hover:text-white">
               {t.footer.faqLabel}
             </Link>
-            <Link href="/contact" className="text-white/60 transition-colors hover:text-white">
+            <Link href="/contact" className="inline-block py-1.5 text-white/60 transition-colors hover:text-white">
               {t.footer.contactLabel}
             </Link>
-            <Link href="/blog" className="text-white/60 transition-colors hover:text-white">
+            <Link href="/blog" className="inline-block py-1.5 text-white/60 transition-colors hover:text-white">
               {t.footer.blogLabel}
             </Link>
-            <Link href="/news" className="text-white/60 transition-colors hover:text-white">
+            <Link href="/news" className="inline-block py-1.5 text-white/60 transition-colors hover:text-white">
               {t.footer.newsLabel}
             </Link>
-            <Link href="/careers" className="text-white/60 transition-colors hover:text-white">
+            <Link href="/careers" className="inline-block py-1.5 text-white/60 transition-colors hover:text-white">
               {t.footer.careersLabel}
             </Link>
-            <Link href="/privacy" className="text-white/60 transition-colors hover:text-white">
+            <Link href="/privacy" className="inline-block py-1.5 text-white/60 transition-colors hover:text-white">
               {t.footer.privacyLabel}
             </Link>
-            <Link href="/tokushoho" className="text-white/60 transition-colors hover:text-white">
+            <Link href="/tokushoho" className="inline-block py-1.5 text-white/60 transition-colors hover:text-white">
               {t.footer.tokushohoLabel}
             </Link>
             <p>{t.footer.copyrightDept}</p>

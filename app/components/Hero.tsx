@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { AnimatePresence, motion } from "framer-motion";
 import HeroBackground from "./HeroBackground";
 import LineButton from "./LineButton";
@@ -24,11 +25,15 @@ export default function Hero() {
 
       <div className="container-page">
         {/* スマホ: 地図はバナーとして上に、テキストはその下に配置 */}
-        <div className="-mx-5 mb-7 h-52 overflow-hidden sm:hidden">
-          <img
+        <div className="relative -mx-5 mb-7 h-52 overflow-hidden sm:hidden">
+          <Image
             src="/hero-map.jpg"
             alt="木花のむら総合診療所 開院予定地周辺の地図（宮崎市熊野）"
-            className="h-full w-full object-cover"
+            fill
+            priority
+            fetchPriority="high"
+            sizes="100vw"
+            className="object-cover"
           />
         </div>
 
