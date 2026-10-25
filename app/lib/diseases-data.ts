@@ -217,11 +217,12 @@ export const DISEASES: DiseaseEntry[] = [
     category: "internal",
     summary: "細菌感染により膀胱に炎症が起こる病気で、頻尿・排尿時痛等を起こします。女性に多くみられます。",
     pathology:
-      "多くは__大腸菌等の細菌が尿道から膀胱に入り込み感染する__ことで起こります。女性は尿道が短いため男性より感染しやすいとされ、__頻尿、排尿時痛（特に排尿の終わり頃に痛む）、残尿感、尿の濁り__等の症状が特徴的です。__発熱や腰背部痛を伴う場合は、腎盂腎炎（腎臓まで感染が広がった状態）__に進行している可能性があり、注意が必要です。",
-    tests: "尿検査（尿中の白血球・細菌の確認）が基本の検査です。必要に応じて尿培養検査で原因菌を特定し、治療薬の選択に役立てます。",
+      "多くは__大腸菌等の細菌が尿道から膀胱に入り込み感染する__ことで起こります。女性は尿道が短く、肛門との距離も近いため男性より感染しやすいとされ、__頻尿、排尿時痛（特に排尿の終わり頃に痛む）、残尿感、尿の濁り__等の症状が特徴的です。__性交渉・水分摂取不足・排尿を我慢する習慣・生理用品の長時間の使用等__が誘因になることもあります。__発熱や腰背部痛を伴う場合は、腎盂腎炎（腎臓まで感染が広がった状態）__に進行している可能性があり、注意が必要です。",
+    tests:
+      "尿検査（尿中の白血球・細菌の確認）が基本の検査です。__試験紙による迅速な簡易検査でおおよその見当をつけ__、必要に応じて尿培養検査で原因菌を特定し、治療薬の選択に役立てます。発熱や腰背部痛を伴う場合は、腎盂腎炎への進行を確認するため、血液検査や超音波検査を追加することもあります。",
     treatment:
-      "__抗菌薬の内服__が基本の治療で、多くは数日以内に症状が改善します。__水分摂取を増やす__ことも排泄を促し回復を助けます。症状が改善しても指示された期間はきちんと内服を続けることが、再発予防の観点からも大切です。",
-    tip: "__「我慢していれば治る」と放置すると、腎盂腎炎に進行し発熱等の全身症状を起こすことがあります__。頻尿・排尿時痛等の症状があれば、早めにご相談ください。",
+      "__抗菌薬の内服__が基本の治療で、多くは数日以内に症状が改善します。__水分摂取を増やす__ことも排泄を促し回復を助けます。__市販の痛み止めで様子を見ているうちに悪化してしまう__ケースもあるため、症状が続く場合は自己判断を続けず受診が勧められます。症状が改善しても指示された期間はきちんと内服を続けることが、再発予防の観点からも大切です。",
+    tip: "__「我慢していれば治る」と放置すると、腎盂腎炎に進行し発熱等の全身症状を起こすことがあります__。頻尿・排尿時痛等の症状があれば、早めにご相談ください。__短期間に何度も繰り返す場合__は、背景に別の原因が隠れていないか評価が必要になることもあります。",
     sources: [
       {
         label: "JAID/JSC感染症治療ガイド・ガイドライン作成委員会「JAID/JSC感染症治療ガイド2019（尿路感染症・男性性器感染症）」",
@@ -232,11 +233,12 @@ export const DISEASES: DiseaseEntry[] = [
       title: "Acute cystitis",
       summary: "A bladder infection caused by bacteria, causing frequent urination, pain on urination, and similar symptoms. It's more common in women.",
       pathology:
-        "Usually caused by __bacteria such as E. coli entering the bladder through the urethra__. Women are more prone to infection than men because of a shorter urethra. Characteristic symptoms include __frequent urination, pain on urination (especially toward the end), a feeling of incomplete emptying, and cloudy urine__. __If fever or lower-back pain develops, this may indicate progression to pyelonephritis__ (infection spreading up to the kidney), which needs attention.",
-      tests: "A urine test (checking for white blood cells and bacteria) is the basic test. A urine culture may be done as needed to identify the causative bacteria and guide treatment.",
+        "Usually caused by __bacteria such as E. coli entering the bladder through the urethra__. Women are more prone to infection than men because of a shorter urethra and its closer proximity to the anus. Characteristic symptoms include __frequent urination, pain on urination (especially toward the end), a feeling of incomplete emptying, and cloudy urine__. __Sexual activity, not drinking enough fluids, habitually holding in urination, and prolonged use of sanitary products__ can also act as triggers. __If fever or lower-back pain develops, this may indicate progression to pyelonephritis__ (infection spreading up to the kidney), which needs attention.",
+      tests:
+        "A urine test (checking for white blood cells and bacteria) is the basic test. __A quick dipstick test gives a rough initial read__, and a urine culture may be done as needed to identify the causative bacteria and guide treatment. If fever or lower-back pain is present, we may add a blood test or ultrasound to check for progression to pyelonephritis.",
       treatment:
-        "__Oral antibiotics__ are the standard treatment, and symptoms usually improve within a few days. __Increasing fluid intake__ also helps by promoting urination and supporting recovery. Even once symptoms improve, finishing the full prescribed course is important for preventing recurrence.",
-      tip: "__\"Just toughing it out\" and leaving it untreated can allow it to progress to pyelonephritis, with fever and other whole-body symptoms.__ If you have frequent urination or pain on urination, please come in soon.",
+        "__Oral antibiotics__ are the standard treatment, and symptoms usually improve within a few days. __Increasing fluid intake__ also helps by promoting urination and supporting recovery. __Some people end up getting worse while trying to manage symptoms with over-the-counter pain relievers alone__, so if symptoms persist, it's best to come in rather than keep waiting it out. Even once symptoms improve, finishing the full prescribed course is important for preventing recurrence.",
+      tip: "__\"Just toughing it out\" and leaving it untreated can allow it to progress to pyelonephritis, with fever and other whole-body symptoms.__ If you have frequent urination or pain on urination, please come in soon. __If it keeps recurring within a short span of time__, we may need to evaluate for another underlying cause.",
     },
   },
   {
@@ -843,11 +845,12 @@ export const DISEASES: DiseaseEntry[] = [
     category: "internal",
     summary: "RSウイルスとよく似た症状を起こす、春先に流行しやすいウイルス感染症です。",
     pathology:
-      "**ヒトメタニューモウイルス（hMPV）**による呼吸器感染症で、__発熱・咳・鼻水__等、RSウイルス感染症と非常によく似た症状を起こします。__3〜6歳頃の子どもに感染のピークがあり、春（3〜6月頃）に流行しやすい__ことが知られています。多くは数日〜1週間程度で軽快しますが、__乳幼児や高齢者では気管支炎・肺炎等を合併し重症化する__ことがあります。",
-    tests: "**迅速抗原検査**で診断できることが多く、当院でも実施可能です（検査には年齢等の条件があります）。",
+      "**ヒトメタニューモウイルス（hMPV）**による呼吸器感染症で、__発熱・咳・鼻水__等、RSウイルス感染症と非常によく似た症状を起こします。__潜伏期間は3〜6日程度__とされ、__3〜6歳頃の子どもに感染のピークがあり、春（3〜6月頃）に流行しやすい__ことが知られています。多くは数日〜1週間程度で軽快しますが、__乳幼児や高齢者、基礎疾患をお持ちの方では気管支炎・肺炎・喘息様症状（ゼーゼーする呼吸）等を合併し重症化する__ことがあります。__一度感染しても再感染することがあり__、大人でもかぜ症状の原因として検出されることがあります。",
+    tests:
+      "**迅速抗原検査**で診断できることが多く、当院でも実施可能です（検査には年齢や症状の重症度等の条件があります）。__症状の経過や流行状況から総合的に判断することも多く__、必要に応じて肺炎等の合併を調べるため聴診や画像検査を行うこともあります。",
     treatment:
-      "RSウイルス感染症と同様に特効薬はなく、__水分摂取・安静等の対症療法が基本__です。症状が強い場合や呼吸状態に不安がある場合は、必要な検査・処置を行い、重症度に応じて医療機関と連携します。",
-    tip: "RSウイルスとの__見分けは症状だけでは難しく、流行状況や検査で判断__することになります。小さなお子さんや高齢の方で、咳・発熱が長引く、呼吸が苦しそう等の場合は、早めにご相談ください。",
+      "RSウイルス感染症と同様に**特効薬・ワクチンはなく**、__水分摂取・安静等の対症療法が基本__です。咳や鼻水がつらい場合は症状を和らげる薬を用いることもあります。症状が強い場合や呼吸状態に不安がある場合は、必要な検査・処置を行い、__重症度に応じて入院加療が可能な医療機関と連携__します。",
+    tip: "RSウイルスとの__見分けは症状だけでは難しく、流行状況や検査で判断__することになります。小さなお子さんや高齢の方で、咳・発熱が長引く、呼吸が苦しそう、__ぐったりして水分が取れない__等の場合は、早めにご相談ください。__せきやくしゃみで家族内にうつりやすい__ため、手洗い等の基本的な対策も有効です。",
     sources: [
       {
         label: "日本小児呼吸器学会・日本小児感染症学会「小児呼吸器感染症診療ガイドライン2022」",
@@ -859,11 +862,12 @@ export const DISEASES: DiseaseEntry[] = [
       title: "Human metapneumovirus infection",
       summary: "A viral infection with symptoms very similar to RSV, tending to spread in early spring.",
       pathology:
-        "A respiratory infection caused by **human metapneumovirus (hMPV)**, causing __fever, cough, and runny nose__ — symptoms very similar to RSV infection. It's known to __peak in children around ages 3–6, and tends to spread in spring (around March–June)__. Most cases resolve within a few days to a week, but __infants and older adults can develop complications like bronchitis or pneumonia and become severely ill.__",
-      tests: "**A rapid antigen test** often allows diagnosis and is available at our clinic (testing has some age-related conditions).",
+        "A respiratory infection caused by **human metapneumovirus (hMPV)**, causing __fever, cough, and runny nose__ — symptoms very similar to RSV infection. The __incubation period is roughly 3–6 days__, and it's known to __peak in children around ages 3–6, and tends to spread in spring (around March–June)__. Most cases resolve within a few days to a week, but __infants, older adults, and those with underlying conditions can develop complications like bronchitis, pneumonia, or wheezing and become severely ill.__ __Reinfection is possible even after a prior episode__, and it's sometimes found as a cause of cold-like symptoms in adults, too.",
+      tests:
+        "**A rapid antigen test** often allows diagnosis and is available at our clinic (testing has some conditions related to age and symptom severity). __Diagnosis often also draws on the clinical course and what's currently going around__, and listening to the chest or imaging may be used as needed to check for complications such as pneumonia.",
       treatment:
-        "As with RSV, there's no specific antiviral medication, so __symptomatic care — fluids and rest — is the basis__. If symptoms are severe or breathing is a concern, we run the needed tests and procedures and coordinate with other institutions based on severity.",
-      tip: "__Telling it apart from RSV by symptoms alone is difficult — it comes down to what's going around and testing.__ If a young child or older adult has a prolonged cough or fever, or seems to be struggling to breathe, please come in soon.",
+        "As with RSV, there's **no specific antiviral medication or vaccine**, so __symptomatic care — fluids and rest — is the basis__. Medication to ease a difficult cough or runny nose may also be used. If symptoms are severe or breathing is a concern, we run the needed tests and procedures and __coordinate with an institution capable of inpatient care based on severity__.",
+      tip: "__Telling it apart from RSV by symptoms alone is difficult — it comes down to what's going around and testing.__ If a young child or older adult has a prolonged cough or fever, seems to be struggling to breathe, or __is too lethargic to take fluids__, please come in soon. __It spreads easily within a household through coughing and sneezing__, so basic precautions like handwashing are also worthwhile.",
     },
   },
   {
@@ -1973,11 +1977,12 @@ export const DISEASES: DiseaseEntry[] = [
     category: "internal",
     summary: "ヘリコバクター・ピロリという細菌の胃への感染で、慢性胃炎・胃潰瘍等のリスク要因として知られています。",
     pathology:
-      "ヘリコバクター・ピロリという細菌の胃への感染で、**慢性胃炎・胃潰瘍・胃がんのリスク要因**として知られています。",
-    tests: "血液検査（抗体）、経鼻内視鏡（胃カメラ）での観察・組織採取。",
+      "ヘリコバクター・ピロリという細菌の胃への感染で、**慢性胃炎・胃潰瘍・胃がんのリスク要因**として知られています。__多くは幼少期に、井戸水や家族内の口移し等をきっかけに感染する__と考えられており、感染していても自覚症状がないまま数十年経過することも珍しくありません。衛生環境の改善に伴い若い世代の感染率は下がっている一方、__現在60代以上の世代では感染率が比較的高い__とされ、これまで検査の機会がなかった方も少なくありません。",
+    tests:
+      "血液検査（抗体）、経鼻内視鏡（胃カメラ）での観察・組織採取のほか、**尿素呼気試験**（検査用の薬を飲んで吐く息を調べる）や**便中抗原検査**（便を採取して調べる）等、複数の検査方法があります。__検査の種類によって、除菌治療の前後で使えるもの・使えないものが異なる__ため、状況に応じて適した検査を選びます。",
     treatment:
-      "感染が確認された場合、**除菌治療**（内服薬の組み合わせ）を検討することが多いです。__1回目（一次除菌）・2回目（二次除菌）までは保険診療で受けていただけます__が、一次・二次とも不成功だった場合に行う**3回目（三次除菌）は自費診療**となります。除菌成功率には個人差があります。",
-    tip: "__除菌治療が成功しても胃がんのリスクがゼロになるわけではない__ため、除菌後も定期的な胃カメラ検査が勧められることがあります。",
+      "感染が確認された場合、**除菌治療**（胃酸を抑える薬＋抗菌薬2種類を1週間内服）を検討することが多いです。__1回目（一次除菌）・2回目（二次除菌）までは保険診療で受けていただけます__が、一次・二次とも不成功だった場合に行う**3回目（三次除菌）は自費診療**となります。除菌成功率には個人差があり、__服薬を自己判断で中断すると不成功につながりやすい__ため、決められた期間しっかり飲み切ることが大切です。除菌が成功したかどうかは、__服薬終了から一定期間を空けたうえで、尿素呼気試験や便中抗原検査で確認__します（抗体検査は除菌後も陽性が続くことがあるため確認には使えません）。",
+    tip: "__除菌治療が成功しても胃がんのリスクがゼロになるわけではない__ため、除菌後も定期的な胃カメラ検査が勧められることがあります。また、__ご家族内で感染が広がっているケース__もあるため、ご本人の感染が分かった際には、同居されているご家族の検査についてもあわせてご相談いただけます。",
     pricingLinkNote: "3次除菌は自費診療です。料金の詳細は料金ページをご覧ください。",
     sources: [
       {
@@ -1990,11 +1995,12 @@ export const DISEASES: DiseaseEntry[] = [
       title: "H. pylori infection (and its link to gastritis & stomach ulcers)",
       summary: "Infection of the stomach with a bacterium called Helicobacter pylori, known as a risk factor for chronic gastritis, stomach ulcers, and more.",
       pathology:
-        "Infection of the stomach with a bacterium called Helicobacter pylori, known as a **risk factor for chronic gastritis, stomach ulcers, and stomach cancer**.",
-      tests: "A blood test (antibodies), and observation/tissue sampling via transnasal endoscopy (gastroscopy).",
+        "Infection of the stomach with a bacterium called Helicobacter pylori, known as a **risk factor for chronic gastritis, stomach ulcers, and stomach cancer**. __Most infections happen in early childhood__, often from well water or close contact within the family, and it's not unusual to carry the infection for decades without any symptoms. While infection rates have fallen in younger generations as hygiene has improved, __rates remain comparatively high among those now in their 60s and older__, and many in that group have never had the chance to be tested.",
+      tests:
+        "Testing options include a blood test (antibodies), observation and tissue sampling via transnasal endoscopy (gastroscopy), a **urea breath test** (drinking a test substance and analyzing your breath), and a **stool antigen test**. __Which test is appropriate can depend on whether you're being tested before or after eradication treatment__, so we choose the right one for your situation.",
       treatment:
-        "If infection is confirmed, we often consider **eradication treatment** (a combination of oral medications). __The first attempt (primary eradication) and second attempt (secondary eradication) are covered by insurance__, but a **third attempt (tertiary eradication), needed if both the first and second attempts fail, is self-pay**. Success rates vary from person to person.",
-      tip: "__Even successful eradication doesn't bring your stomach cancer risk down to zero__, so regular follow-up endoscopy is sometimes recommended even after eradication.",
+        "If infection is confirmed, we often consider **eradication treatment** (a stomach-acid suppressant plus two antibiotics, taken for about a week). __The first attempt (primary eradication) and second attempt (secondary eradication) are covered by insurance__, but a **third attempt (tertiary eradication), needed if both the first and second attempts fail, is self-pay**. Success rates vary from person to person, and __stopping medication early on your own judgment makes failure more likely__, so completing the full course as prescribed matters. Whether eradication succeeded is __confirmed with a urea breath test or stool antigen test after waiting a set interval from the end of treatment__ (an antibody test isn't used for this, since antibodies can stay positive even after successful eradication).",
+      tip: "__Even successful eradication doesn't bring your stomach cancer risk down to zero__, so regular follow-up endoscopy is sometimes recommended even after eradication. Infection can also spread within a household, so __if you test positive, it's worth discussing testing for family members you live with__ as well.",
     },
   },
   {
