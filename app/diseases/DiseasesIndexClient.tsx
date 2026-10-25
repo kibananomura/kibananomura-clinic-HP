@@ -38,6 +38,7 @@ const UI_TEXT = {
     dietCardBody: "複数の病気をお持ちの方でも実践しやすい、食事のポイントをまとめました →",
     schoolCardTitle: "🏫 学校感染症と出席停止期間の基準",
     schoolCardBody: "インフルエンザ・溶連菌感染症・手足口病等の登校の目安を一覧表でご紹介 →",
+    jumpNavLabel: "分類から探す",
   },
   en: {
     eyebrow: "Conditions we treat",
@@ -47,6 +48,7 @@ const UI_TEXT = {
     dietCardBody: "Practical diet tips that work even if you're managing more than one condition at once →",
     schoolCardTitle: "🏫 School infections and exclusion periods",
     schoolCardBody: "A table of guidelines for when kids can return to school after flu, strep, hand-foot-mouth disease, and more →",
+    jumpNavLabel: "Jump to a category",
   },
 };
 
@@ -104,6 +106,41 @@ export default function DiseasesIndexClient({ groups }: { groups: DiseaseCategor
           </div>
         </FadeIn>
 
+        <FadeIn delay={0.12}>
+          <nav
+            aria-label={ui.jumpNavLabel}
+            className="mx-auto mt-10 max-w-4xl rounded-2xl bg-surface/90 p-4 shadow-card sm:p-5"
+          >
+            <p className="text-xs font-bold text-ink/50">{ui.jumpNavLabel}</p>
+            <div className="mt-3 flex flex-wrap gap-2">
+              {groups.map((group) => (
+                <a
+                  key={group.category}
+                  href={`#cat-${group.category}`}
+                  className="rounded-full bg-primary/10 px-3.5 py-1.5 text-sm font-bold text-primary-dark transition-colors hover:bg-primary/20"
+                >
+                  {lang === "en" ? group.categoryLabelEn : group.categoryLabel}
+                </a>
+              ))}
+            </div>
+            {groups.some((group) => group.subcategories) && (
+              <div className="mt-3 flex flex-wrap gap-2 border-t border-ink/10 pt-3">
+                {groups.map((group) =>
+                  group.subcategories?.map((sub, index) => (
+                    <a
+                      key={`${group.category}-${sub.label}`}
+                      href={`#cat-${group.category}-sub-${index}`}
+                      className="rounded-full bg-accent px-3 py-1.5 text-sm font-medium text-primary-dark transition-colors hover:bg-accent/70"
+                    >
+                      {lang === "en" ? sub.labelEn : sub.label}
+                    </a>
+                  )),
+                )}
+              </div>
+            )}
+          </nav>
+        </FadeIn>
+
         <div className="mx-auto mt-12 max-w-4xl space-y-10">
           {groups.map((group) => {
             const categoryLabel = lang === "en" ? group.categoryLabelEn : group.categoryLabel;
@@ -111,13 +148,16 @@ export default function DiseasesIndexClient({ groups }: { groups: DiseaseCategor
             if (group.subcategories) {
               return (
                 <FadeIn key={group.category}>
-                  <h2 className="text-lg font-bold text-primary-dark">
+                  <h2 id={`cat-${group.category}`} className="scroll-mt-24 text-lg font-bold text-primary-dark">
                     {categoryLabel}
                   </h2>
                   <div className="mt-6 space-y-8">
-                    {group.subcategories.map((sub) => (
+                    {group.subcategories.map((sub, index) => (
                       <div key={sub.label}>
-                        <h3 className="text-sm font-bold text-ink/60">
+                        <h3
+                          id={`cat-${group.category}-sub-${index}`}
+                          className="scroll-mt-24 text-sm font-bold text-ink/60"
+                        >
                           {lang === "en" ? sub.labelEn : sub.label}
                         </h3>
                         <div className="mt-3 grid gap-3 sm:grid-cols-2">
@@ -145,7 +185,7 @@ export default function DiseasesIndexClient({ groups }: { groups: DiseaseCategor
 
             return (
               <FadeIn key={group.category}>
-                <h2 className="text-lg font-bold text-primary-dark">
+                <h2 id={`cat-${group.category}`} className="scroll-mt-24 text-lg font-bold text-primary-dark">
                   {categoryLabel}
                 </h2>
                 <div className="mt-4 grid gap-3 sm:grid-cols-2">
