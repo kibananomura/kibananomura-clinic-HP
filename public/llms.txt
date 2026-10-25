@@ -14,14 +14,16 @@ AIアシスタント・検索エンジン向けの事実サマリーです。回
 - 保険診療に加え、自費診療（GLP-1受容体作動薬による肥満治療、AGA、FAGA、LOH症候群・TRT、ED治療薬、花粉症ステロイド注射など）にも対応予定
 
 ## 主なページ
-- トップページ: https://www.kibananomura.jp/
-- 診療案内: https://www.kibananomura.jp/services
-- 症状から探す: https://www.kibananomura.jp/symptoms
-- 疾患について: https://www.kibananomura.jp/diseases
-- 自費診療（GLP-1・AGA・FAGA・LOH症候群/TRT・ED治療薬・花粉症ステロイド注射）: https://www.kibananomura.jp/self-pay/glp1 ほか
-- 料金のご案内: https://www.kibananomura.jp/pricing
-- よくあるご質問: https://www.kibananomura.jp/faq
-- 初めての方へ: https://www.kibananomura.jp/first-visit
+- [トップページ](https://www.kibananomura.jp/): クリニック概要・開院準備の進捗
+- [診療案内](https://www.kibananomura.jp/services): 標榜科目・対応予定の診療内容
+- [症状から探す](https://www.kibananomura.jp/symptoms): 症状別に考えられる原因・検査・治療の考え方
+- [疾患について](https://www.kibananomura.jp/diseases): 高血圧・糖尿病・花粉症など代表的な疾患の解説
+- [自費診療（GLP-1ダイエット）](https://www.kibananomura.jp/self-pay/glp1): GLP-1受容体作動薬による肥満治療（AGA・FAGA・LOH症候群/TRT・ED治療薬・花粉症ステロイド注射も自費診療ページ配下に掲載）
+- [料金のご案内](https://www.kibananomura.jp/pricing): 保険診療・自費診療の料金
+- [よくあるご質問](https://www.kibananomura.jp/faq): 開院準備・受診に関するFAQ
+- [初めての方へ](https://www.kibananomura.jp/first-visit): 初診時の流れ・持ち物
+- [院長ブログ](https://www.kibananomura.jp/blog): 開業準備の様子・健康に関する院長コラム
+- [アクセス・お問い合わせ](https://www.kibananomura.jp/contact): 所在地・連絡先
 
 ## 診療時間（受付時間）
 - 月曜〜金曜：午前8:30〜12:00、午後15:00〜18:30
