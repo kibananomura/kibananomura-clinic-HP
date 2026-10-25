@@ -5,15 +5,17 @@ category_ja: 院長のキャリア
 category_en: Director's career
 title_ja: 「光でがんを温める」研究に打ち込んでいた頃の話
 title_en: Back when I was researching how to heat cancer with light
-excerpt_ja: 「光を当ててがんを治す」——ニュースでそんな言葉を見て、どこまで本当なのか気になったことはありませんか。実は私も大学院時代、その研究の真っただ中にいました。
-excerpt_en: “Treating cancer with light” — have you ever seen that phrase in the news and wondered how much of it is real? Back in graduate school, I was right in the middle of that research myself.
+excerpt_ja: 今年7月、「がん細胞を光の熱で壊す」研究がニュースになりました。実はこの治療、私が大学院時代に打ち込んでいた研究テーマでもあります。
+excerpt_en: This July, research on destroying cancer cells with heat from light made the news. As it happens, this was the very treatment I devoted myself to researching in graduate school.
 ---
 
 ## ja
 
-「がんを光で治す新しい治療」「切らずに済むがん治療」。テレビやネットのニュースで、こうした言葉を目にしたことのある方は多いのではないでしょうか。期待が持てる一方で、「本当にもう受けられるの？」「どこまで進んでいるの？」と、かえって分からなくなってしまう方も少なくないと思います。
+今年（2026年）7月、「がん細胞を熱で破壊する『光熱療法』実現へ新技術」というニュースが、Yahoo!ニュースにも掲載されました（ニュースイッチ／日刊工業新聞社）。東北大学などの研究グループが、光を熱に変える微粒子をがんに届けやすくする新しい技術を開発し、マウスの大腸がんが消失したという内容です。ご覧になった方もいらっしゃるかもしれません。
 
-実は私は、外科医としての経験を積んだあと、防衛医科大学校の大学院（医学研究科）で、まさにこの「光を使ってがんを温める治療」の研究に取り組んでいました。今回は、その成果として発表した論文と、日本ハイパーサーミア学会のニュースに寄稿した解説をもとに、当時の研究を分かりやすくご紹介します。読み終えるころには、こうしたニュースを見たときに「これは今どの段階の話なのか」を落ち着いて受け止める手がかりになるはずです。
+「がんを光で治す」と聞くと期待が膨らむ一方で、「本当にもう受けられるの？」「どこまで進んでいるの？」と、かえって分からなくなってしまう方も少なくないと思います。
+
+実はこのニュースを見て、懐かしい気持ちになりました。私は外科医としての経験を積んだあと、防衛医科大学校の大学院（医学研究科）で、まさにこの「光を使ってがんを温める治療」の研究に取り組んでいたからです。ニュースをきっかけに、今回はその成果として発表した論文と、日本ハイパーサーミア学会の会報に寄稿した解説をもとに、当時の研究を分かりやすくご紹介します。読み終えるころには、こうしたニュースを見たときに「これは今どの段階の話なのか」を落ち着いて受け止める手がかりになるはずです。
 
 ### 結論から言うと
 
@@ -60,7 +62,9 @@ excerpt_en: “Treating cancer with light” — have you ever seen that phrase 
 - 消化管や気管の内側をふさいでしまい、治療器具を通すのが難しいがん
 - 大腸がんや卵巣がんがお腹の中に散らばった病変のうち、表面にある限られた病変
 
-今後は、よりがんに集まりやすく、がんだけを狙い撃ちできる光吸収剤の開発が求められています。
+今後は、よりがんに集まりやすく、がんだけを狙い撃ちできる光吸収剤の開発が求められています。冒頭のニュースの研究は、まさにこの「薬をがんに届ける」部分と、「光を体の奥に届ける」部分（細い内視鏡を針に収めて、がんの内側から光を当てる方法）に取り組んだものです。同じ分野の研究が着実に前に進んでいることを、うれしく感じています。
+
+ただし、ニュースの研究もマウスでの結果で、人での臨床試験はこれからの段階です。「ニュースになった＝すぐに受けられる」ではない、という点は、ぜひ知っておいていただきたいと思います。
 
 ### 院長からのメッセージ
 
@@ -78,9 +82,11 @@ excerpt_en: “Treating cancer with light” — have you ever seen that phrase 
 
 ## en
 
-"A new cancer treatment that uses light." "Cancer treatment without surgery." Many of you have probably come across phrases like these on TV or online. They sound hopeful — but they can also leave you more confused: "Can I actually get this now?" "How far along is it, really?"
+In July this year (2026), a news story titled, roughly, "New technology brings photothermal therapy — destroying cancer cells with heat — closer to reality" ran on Yahoo! News Japan (originally from Newswitch / Nikkan Kogyo Shimbun). A research group including Tohoku University had developed a new way to deliver light-to-heat particles to tumors more effectively, and colon cancer in mice disappeared. Some of you may have seen it.
 
-As it happens, after gaining experience as a surgeon, I went on to the graduate school of medicine at the National Defense Medical College, where I researched exactly this: using light to heat cancer. In this post, based on the papers we published and a commentary I contributed to the newsletter of the Japanese Society for Thermal Medicine, I'd like to explain that research in plain terms. By the end, I hope you'll have a better sense of how to read news like this calmly — and how to tell what stage a given treatment is actually at.
+Hearing "treating cancer with light" raises hopes — but it can also leave you more confused: "Can I actually get this now?" "How far along is it, really?"
+
+Seeing that story actually made me a little nostalgic. After gaining experience as a surgeon, I went on to the graduate school of medicine at the National Defense Medical College, where I researched exactly this: using light to heat cancer. Prompted by the news, in this post, based on the papers we published and a commentary I contributed to the newsletter of the Japanese Society for Thermal Medicine, I'd like to explain that research in plain terms. By the end, I hope you'll have a better sense of how to read news like this calmly — and how to tell what stage a given treatment is actually at.
 
 ### The short version
 
@@ -127,7 +133,9 @@ Because light doesn't travel deep into the body, this approach is thought to sui
 - Cancers that block the inside of the digestive tract or airways, making it hard to pass treatment instruments through
 - Limited, surface-level lesions among colorectal or ovarian cancer that has spread within the abdomen
 
-Going forward, the field needs light absorbers that gather in tumors even more readily and target cancer alone.
+Going forward, the field needs light absorbers that gather in tumors even more readily and target cancer alone. The research in the news story tackled exactly this — getting the drug to the tumor — along with getting light deep into the body (by housing a thin endoscope inside a needle and shining light from inside the tumor). I'm genuinely glad to see steady progress in this field.
+
+That said, the research in the news was also done in mice, and clinical trials in people are still ahead. "It made the news" doesn't mean "you can get it right away" — that's something I'd really like you to keep in mind.
 
 ### A message from the director
 
