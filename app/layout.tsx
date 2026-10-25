@@ -10,7 +10,9 @@ import { BASE_URL, SITE_SEO } from "./lib/seo";
 
 const notoSansJp = Noto_Sans_JP({
   subsets: ["latin"],
-  weight: ["400", "500", "700", "900"],
+  // weight 900 (font-black)はサイト内で未使用のため含めない。
+  // フォントファイル数（=ネットワークリクエスト数）を減らしパフォーマンスを改善する。
+  weight: ["400", "500", "700"],
   variable: "--font-noto-sans-jp",
   display: "swap",
   preload: false,
