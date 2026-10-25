@@ -796,7 +796,13 @@ const ja: SiteDict = {
             name: "胃カメラ（健診としてのご希望）",
             price: "準備中（今後掲載予定）",
             overview: "症状がない方が、健診として自費でご希望される場合の胃カメラ検査です。",
-            risks: "鎮静剤を使用する場合は呼吸抑制等のリスクがあるほか、まれに出血・穿孔等の合併症が報告されています。",
+            risks: "鼻から挿入する経鼻内視鏡で、鎮静剤は原則使用しません。鼻腔の前処置・局所麻酔に伴う鼻出血や痛み、まれに出血・穿孔等の合併症が報告されています。",
+          },
+          {
+            name: "胃がんリスク検診（ABC検診）",
+            price: "準備中（今後掲載予定）",
+            overview: "採血でピロリ菌抗体とペプシノゲンを測定し、胃がんになりやすさをA〜D群に分類する検査です。がんそのものを見つける検査ではないため、判定に応じて胃カメラをおすすめします。",
+            risks: "採血に伴う内出血・痛み等が起こることがあります。除菌治療後の方、胃酸を抑える薬を服用中の方、胃の手術を受けた方などは正しく判定できないため対象外です。",
           },
           {
             name: "CT検査（健診としてのご希望）",
@@ -1462,7 +1468,13 @@ const en: SiteDict = {
             name: "Gastroscopy (elective screening)",
             price: "Coming soon",
             overview: "Gastroscopy requested as elective self-pay screening by patients without symptoms.",
-            risks: "Sedation carries a risk of respiratory depression; rare complications include bleeding and perforation.",
+            risks: "Performed with a transnasal endoscope, generally without sedation. Nasal preparation and local anesthesia can cause nosebleeds or discomfort; rare complications include bleeding and perforation.",
+          },
+          {
+            name: "Stomach cancer risk screening (ABC screening)",
+            price: "Coming soon",
+            overview: "A blood test measuring H. pylori antibodies and pepsinogen to sort stomach cancer risk into groups A to D. It does not detect cancer itself, so a gastroscopy is recommended depending on the result.",
+            risks: "Blood draws can cause bruising or pain. Results are unreliable for people who have had H. pylori eradication treatment, take acid-reducing medication or have had stomach surgery, so they are not eligible.",
           },
           {
             name: "CT scan (elective screening)",
