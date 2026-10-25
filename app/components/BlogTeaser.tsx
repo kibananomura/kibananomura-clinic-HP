@@ -12,7 +12,7 @@ export default function BlogTeaser() {
   const latest = posts.slice(0, 2);
 
   return (
-    <section id="blog" className="section-pad relative overflow-hidden bg-accent/60">
+    <section id="blog" className="section-pad relative overflow-hidden bg-cream">
       <SoftBlob className="absolute -left-24 top-20 h-80 w-80 bg-blossom/20" />
       <SoftBlob className="absolute -right-16 bottom-12 h-72 w-72 bg-primary/10" />
       <Blossom className="absolute right-8 top-12 hidden h-9 w-9 opacity-70 sm:block" />
