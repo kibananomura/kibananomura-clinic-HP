@@ -2860,7 +2860,7 @@ export const generatedPosts: BlogPost[] = [
       "body": [
         {
           "kind": "text",
-          "text": "「注射じゃなくて、スプレーで打てるワクチンがあるって聞いたんですが」「うちの子にも使えますか？」。これまで内科医として様々な病院・クリニックで診療にあたってきた中で、こうしたご質問をいただいたことが何度かありました。"
+          "text": "「注射じゃなくて、スプレーで打てるワクチンがあるって聞いたんですが」「うちの子にも使えますか？」。外科医として様々な病院に勤務する傍ら、都城のクリニックで一般内科のプライマリケアに携わっていた時期にも、こうしたご質問をいただいたことが何度かありました。"
         },
         {
           "kind": "text",
@@ -2923,7 +2923,7 @@ export const generatedPosts: BlogPost[] = [
       "body": [
         {
           "kind": "text",
-          "text": "\"I heard there's a vaccine you can get as a spray instead of a shot — can my child get it too?\" Over the years practicing internal medicine at various hospitals and clinics, I've been asked this more than a few times."
+          "text": "\"I heard there's a vaccine you can get as a spray instead of a shot — can my child get it too?\" As a surgeon who worked at several hospitals, and later in general internal medicine and primary care at a clinic in Miyakonojo, I've been asked this more than a few times."
         },
         {
           "kind": "text",

@@ -11,7 +11,7 @@ excerpt_en: "I heard there's a spray vaccine for kids who hate needles" — a qu
 
 ## ja
 
-「注射じゃなくて、スプレーで打てるワクチンがあるって聞いたんですが」「うちの子にも使えますか？」。これまで内科医として様々な病院・クリニックで診療にあたってきた中で、こうしたご質問をいただいたことが何度かありました。
+「注射じゃなくて、スプレーで打てるワクチンがあるって聞いたんですが」「うちの子にも使えますか？」。外科医として様々な病院に勤務する傍ら、都城のクリニックで一般内科のプライマリケアに携わっていた時期にも、こうしたご質問をいただいたことが何度かありました。
 
 2024年から日本でも本格的に使えるようになった、経鼻弱毒生インフルエンザワクチン「フルミスト」のことですね。両方の鼻にシュッとスプレーするだけで接種が完了するため、注射が苦手なお子さんやその保護者の方にとっては、本当に心強い選択肢だと思います。
 
@@ -41,7 +41,7 @@ excerpt_en: "I heard there's a spray vaccine for kids who hate needles" — a qu
 
 ## en
 
-"I heard there's a vaccine you can get as a spray instead of a shot — can my child get it too?" Over the years practicing internal medicine at various hospitals and clinics, I've been asked this more than a few times.
+"I heard there's a vaccine you can get as a spray instead of a shot — can my child get it too?" As a surgeon who worked at several hospitals, and later in general internal medicine and primary care at a clinic in Miyakonojo, I've been asked this more than a few times.
 
 It's FluMist, the live attenuated nasal-spray flu vaccine that became fully available in Japan from 2024. Since it's given as a quick spray in each nostril rather than an injection, it's a genuinely reassuring option for children (and parents) who dread needles.
 
