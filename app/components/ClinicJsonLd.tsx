@@ -60,9 +60,17 @@ const DIRECTOR = {
 } as const;
 
 export default function ClinicJsonLd() {
-  const data = {
-    "@context": "https://schema.org",
+  const website = {
+    "@type": "WebSite",
+    "@id": `${BASE_URL}/#website`,
+    url: BASE_URL,
+    name: BRAND.ja.primary,
+    inLanguage: "ja",
+  };
+
+  const clinic = {
     "@type": "MedicalClinic",
+    "@id": `${BASE_URL}/#clinic`,
     name: BRAND.ja.primary,
     alternateName: [...BRAND.ja.alternateNames],
     description: SITE_SEO.description,
@@ -103,6 +111,11 @@ export default function ClinicJsonLd() {
       { "@type": "MedicalProcedure", name: "日帰り外科小手術" },
     ],
     openingHoursSpecification: buildOpeningHoursSpecification(),
+  };
+
+  const data = {
+    "@context": "https://schema.org",
+    "@graph": [website, clinic],
   };
 
   return (

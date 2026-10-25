@@ -3,6 +3,7 @@ import { BRAND } from "../../lib/brand";
 import { getPost, getContent } from "../../lib/blog";
 import BlogArticleClient from "./BlogArticleClient";
 import BreadcrumbJsonLd from "../../components/BreadcrumbJsonLd";
+import ArticleJsonLd from "../../components/ArticleJsonLd";
 
 export async function generateMetadata({
   params,
@@ -41,6 +42,15 @@ export default async function BlogArticle({
           { name: title, url: `/blog/${slug}` },
         ]}
       />
+      {post && (
+        <ArticleJsonLd
+          slug={slug}
+          title={title}
+          description={getContent(post, "ja").excerpt}
+          cover={post.cover}
+          date={post.date}
+        />
+      )}
       <BlogArticleClient />
     </>
   );
