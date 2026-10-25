@@ -1,7 +1,6 @@
 ---
 date: 2026.06.01
 cover: /blog/greeting.png
-coverPosition: object-top
 category_ja: ごあいさつ
 category_en: Greeting
 title_ja: はじめまして。院長の野村です。

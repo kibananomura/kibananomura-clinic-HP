@@ -146,7 +146,7 @@ export default function Services() {
           <FadeIn as="article">
             <div className="h-full rounded-[1.75rem] bg-surface/90 p-7 shadow-card transition-all hover:-translate-y-1 hover:shadow-soft">
               <div className="flex items-center gap-3">
-                <span className="rounded-full bg-primary px-3 py-1 text-xs font-bold text-white">
+                <span className="whitespace-nowrap rounded-full bg-primary px-3 py-1 text-xs font-bold text-white">
                   {t.services.insuranceBadge}
                 </span>
                 <h3 className="text-lg font-bold text-ink">
@@ -178,7 +178,7 @@ export default function Services() {
           <FadeIn as="article" delay={0.1}>
             <div className="h-full rounded-[1.75rem] bg-surface/90 p-7 shadow-card transition-all hover:-translate-y-1 hover:shadow-soft">
               <div className="flex items-center gap-3">
-                <span className="rounded-full bg-primary-light px-3 py-1 text-xs font-bold text-white">
+                <span className="whitespace-nowrap rounded-full bg-primary-light px-3 py-1 text-xs font-bold text-white">
                   {t.services.selfpayBadge}
                 </span>
                 <h3 className="text-lg font-bold text-ink">
@@ -212,7 +212,7 @@ export default function Services() {
           <FadeIn as="article" delay={0.15}>
             <div className="h-full rounded-[1.75rem] bg-surface/90 p-7 shadow-card transition-all hover:-translate-y-1 hover:shadow-soft">
               <div className="flex items-center gap-3">
-                <span className="rounded-full bg-blossom px-3 py-1 text-xs font-bold text-white">
+                <span className="whitespace-nowrap rounded-full bg-blossom px-3 py-1 text-xs font-bold text-white">
                   {t.services.checkupsBadge}
                 </span>
                 <h3 className="text-lg font-bold text-ink">
