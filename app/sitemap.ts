@@ -19,8 +19,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/school-attendance",
     "/blog",
     "/links",
-    "/tokushoho",
-    "/privacy",
+    // /tokushoho・/privacy は noindex のためサイトマップに含めない
     "/first-visit",
     "/equipment",
     "/checkups",
