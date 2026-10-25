@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { BRAND } from "../../lib/brand";
+import { BASE_URL } from "../../lib/seo";
 import { getPost, getContent } from "../../lib/blog";
 import BlogArticleClient from "./BlogArticleClient";
 import BreadcrumbJsonLd from "../../components/BreadcrumbJsonLd";
@@ -21,6 +22,13 @@ export async function generateMetadata({
     description: c.excerpt,
     alternates: {
       canonical: `/blog/${slug}`,
+    },
+    openGraph: {
+      title: `${c.title} | 院長ブログ`,
+      description: c.excerpt,
+      url: `${BASE_URL}/blog/${slug}`,
+      type: "article",
+      images: [{ url: `${BASE_URL}${post.cover}` }],
     },
   };
 }

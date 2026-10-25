@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { BRAND } from "../../lib/brand";
+import { BASE_URL } from "../../lib/seo";
 import { getDisease, DISEASES } from "../../lib/diseases-data";
 import DiseasePageClient from "./DiseasePageClient";
 import BreadcrumbJsonLd from "../../components/BreadcrumbJsonLd";
@@ -18,11 +19,20 @@ export async function generateMetadata({
   if (!disease) {
     return { title: `疾患について | ${BRAND.ja.titleSuffix}` };
   }
+  const title = `${disease.title} | 疾患について | ${BRAND.ja.titleSuffix}`;
+  const description = `${disease.summary} 病態・検査方法・治療法をご紹介します。このページは診断を行うものではなく、実際の診断・治療には受診が必要です。`;
   return {
-    title: `${disease.title} | 疾患について | ${BRAND.ja.titleSuffix}`,
-    description: `${disease.summary} 病態・検査方法・治療法をご紹介します。このページは診断を行うものではなく、実際の診断・治療には受診が必要です。`,
+    title,
+    description,
     alternates: {
       canonical: `/diseases/${slug}`,
+    },
+    openGraph: {
+      title: `${disease.title} | 疾患について`,
+      description,
+      url: `${BASE_URL}/diseases/${slug}`,
+      type: "article",
+      images: [{ url: "/logo.png", width: 1024, height: 558 }],
     },
   };
 }

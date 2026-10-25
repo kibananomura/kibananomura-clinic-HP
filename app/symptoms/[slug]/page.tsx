@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { BRAND } from "../../lib/brand";
+import { BASE_URL } from "../../lib/seo";
 import { getSymptom, SYMPTOMS } from "../../lib/symptoms-data";
 import { DISEASE_LINK_LABELS, DISEASE_LINK_LABELS_EN } from "../../lib/diseases-data";
 import SymptomPageClient from "./SymptomPageClient";
@@ -29,11 +30,19 @@ export async function generateMetadata({
   if (!symptom) {
     return { title: `症状から探す | ${BRAND.ja.titleSuffix}` };
   }
+  const description = `${symptom.summary}。考えられる主な原因・当院で行う可能性のある検査・一般的な治療の考え方をご紹介します。このページは診断を行うものではなく、実際の診断・治療には受診が必要です。`;
   return {
     title: `${symptom.title} | 症状から探す | ${BRAND.ja.titleSuffix}`,
-    description: `${symptom.summary}。考えられる主な原因・当院で行う可能性のある検査・一般的な治療の考え方をご紹介します。このページは診断を行うものではなく、実際の診断・治療には受診が必要です。`,
+    description,
     alternates: {
       canonical: `/symptoms/${slug}`,
+    },
+    openGraph: {
+      title: `${symptom.title} | 症状から探す`,
+      description,
+      url: `${BASE_URL}/symptoms/${slug}`,
+      type: "article",
+      images: [{ url: "/logo.png", width: 1024, height: 558 }],
     },
   };
 }
