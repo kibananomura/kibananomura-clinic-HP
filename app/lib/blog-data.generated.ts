@@ -2855,7 +2855,7 @@ export const generatedPosts: BlogPost[] = [
     "cover": "/blog/kibana-landscape.png",
     "ja": {
       "category": "健康・予防の話",
-      "title": "「痛くないワクチン」フルミスト、受ける前に知ってほしい鼻のこと",
+      "title": "鼻からのインフルエンザワクチン「フルミスト」、鼻水が出ていても大丈夫？",
       "excerpt": "「注射が苦手な子にスプレーのワクチンがあるって聞いたんですが」——そうご質問いただくことが増えました。実はこのワクチン、鼻の状態によって効果が左右されることがあるのです。",
       "body": [
         {
@@ -2938,7 +2938,7 @@ export const generatedPosts: BlogPost[] = [
     },
     "en": {
       "category": "Health and prevention",
-      "title": "FluMist, the needle-free flu vaccine — what to check before you get it",
+      "title": "FluMist, the nasal-spray flu vaccine — is it okay with a runny nose?",
       "excerpt": "“I heard there's a spray vaccine for kids who hate needles” — I've been hearing this more and more. What many people don't know is that how well it works can depend on the condition of your nose.",
       "body": [
         {
