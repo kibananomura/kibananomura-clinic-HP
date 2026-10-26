@@ -8,6 +8,7 @@ import BlogRichText from "../../components/BlogRichText";
 import { useSite } from "../../lib/site";
 import { getPost, getContent, getAdjacentPosts } from "../../lib/blog";
 import type { RelatedLink } from "../../lib/related-content";
+import { withWbr } from "../../lib/jp-break";
 
 export default function BlogArticle({ relatedDiseases = [] }: { relatedDiseases?: RelatedLink[] }) {
   const { t, lang } = useSite();
@@ -48,7 +49,7 @@ export default function BlogArticle({ relatedDiseases = [] }: { relatedDiseases?
           </div>
 
           <h1 className="mt-3 text-2xl font-bold leading-relaxed text-ink sm:text-3xl">
-            {c.title}
+            {withWbr(c.title)}
           </h1>
 
           <div className="mt-8 space-y-5">
@@ -88,7 +89,7 @@ export default function BlogArticle({ relatedDiseases = [] }: { relatedDiseases?
                       href={`/diseases/${d.slug}`}
                       className="flex items-center justify-between gap-3 rounded-2xl border border-primary/15 px-4 py-3 text-sm font-bold text-ink transition-colors hover:bg-accent/60 hover:text-primary-dark"
                     >
-                      <span>{lang === "en" ? d.titleEn : d.titleJa}</span>
+                      <span className="jp-wrap">{withWbr(lang === "en" ? d.titleEn : d.titleJa)}</span>
                       <span aria-hidden="true" className="shrink-0 text-primary">→</span>
                     </Link>
                   </li>
@@ -121,8 +122,8 @@ export default function BlogArticle({ relatedDiseases = [] }: { relatedDiseases?
                 <span className="text-xs font-bold text-primary">
                   ← {t.blog.prev}
                 </span>
-                <p className="mt-1 text-sm font-bold text-ink group-hover:text-primary-dark">
-                  {getContent(prev, lang).title}
+                <p className="jp-wrap mt-1 text-sm font-bold text-ink group-hover:text-primary-dark">
+                  {withWbr(getContent(prev, lang).title)}
                 </p>
               </Link>
             ) : (
@@ -136,8 +137,8 @@ export default function BlogArticle({ relatedDiseases = [] }: { relatedDiseases?
                 <span className="text-xs font-bold text-primary">
                   {t.blog.next} →
                 </span>
-                <p className="mt-1 text-sm font-bold text-ink group-hover:text-primary-dark">
-                  {getContent(next, lang).title}
+                <p className="jp-wrap mt-1 text-sm font-bold text-ink group-hover:text-primary-dark">
+                  {withWbr(getContent(next, lang).title)}
                 </p>
               </Link>
             ) : (

@@ -4910,7 +4910,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "ところが、この菌には**20〜45℃くらいのぬるいお湯を好み、特に36℃前後で最もよく増える**という性質があります。人が快適に感じる温度のお湯が、ためたまま循環していると、菌にとって絶好のすみかになってしまうのです。"
+          "text": "ところが、この菌には**20〜50℃くらいのお湯で増え、特に36℃前後で最もよく増える**という性質があります。人が快適に感じる温度のお湯が、ためたまま循環していると、菌にとって絶好のすみかになってしまうのです。"
         },
         {
           "kind": "text",
@@ -4938,7 +4938,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "また、大切な点として、**レジオネラ症は人から人へはうつりません**。ご家族が感染しても、看病でうつる心配はありません。"
+          "text": "また、大切な点として、**レジオネラ症は基本的に人から人へはうつらないとされています**。ご家族が感染しても、看病でうつる心配はありません。"
         },
         {
           "kind": "text",
@@ -4966,7 +4966,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "もう一つ、医師として知っておいていただきたいことがあります。それは、**一般的な肺炎によく使われる抗菌薬（ペニシリン系など）が、レジオネラ菌には効きにくい**ということです。レジオネラ菌は人の細胞の中に入り込んで増えるため、細胞の中まで届く種類の抗菌薬を選ぶ必要があります。つまり、**「レジオネラかもしれない」と疑って、早く正しく診断することが、治療の成否を分ける**のです。"
+          "text": "もう一つ、医師として知っておいていただきたいことがあります。それは、**一般的な肺炎によく使われる抗菌薬（ペニシリン系など）は、レジオネラ菌には効果が期待できない**ということです。レジオネラ菌は人の細胞の中に入り込んで増えるため、細胞の中まで届く種類の抗菌薬を選ぶ必要があります。つまり、**「レジオネラかもしれない」と疑って、早く正しく診断することが、治療の成否を分ける**のです。"
         },
         {
           "kind": "text",
@@ -5062,7 +5062,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "However, it **prefers lukewarm water of about 20–45°C and multiplies best at around 36°C.** When water at a temperature comfortable for people is stored and recirculated, it becomes an ideal home for the bacteria."
+          "text": "However, it **multiplies in water of about 20–50°C, and best at around 36°C.** When water at a temperature comfortable for people is stored and recirculated, it becomes an ideal home for the bacteria."
         },
         {
           "kind": "text",
@@ -5090,7 +5090,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "Importantly, **Legionnaires' disease does not spread from person to person.** If a family member gets it, there's no risk of catching it while caring for them."
+          "text": "Importantly, **Legionnaires' disease is generally not considered to spread from person to person.** If a family member gets it, there's no risk of catching it while caring for them."
         },
         {
           "kind": "text",
@@ -5118,7 +5118,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "There's one more thing I'd like you to know as a doctor: **antibiotics commonly used for ordinary pneumonia (such as penicillins) don't work well against Legionella.** Because Legionella enters and multiplies inside human cells, antibiotics that can reach inside cells have to be chosen. In other words, **suspecting Legionella and diagnosing it quickly and correctly is what makes or breaks treatment.**"
+          "text": "There's one more thing I'd like you to know as a doctor: **antibiotics commonly used for ordinary pneumonia (such as penicillins) can't be expected to work against Legionella.** Because Legionella enters and multiplies inside human cells, antibiotics that can reach inside cells have to be chosen. In other words, **suspecting Legionella and diagnosing it quickly and correctly is what makes or breaks treatment.**"
         },
         {
           "kind": "text",

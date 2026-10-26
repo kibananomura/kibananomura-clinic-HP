@@ -1,5 +1,6 @@
 import type { ReactNode } from "react";
 import Link from "next/link";
+import { withWbr } from "../lib/jp-break";
 
 /**
  * ブログ本文の軽量Markdownレンダラー。
@@ -13,7 +14,7 @@ import Link from "next/link";
  *   - "[リンク文字](/blog/slug)" → サイト内リンク（"/" 始まりのパスのみ）
  */
 
-function renderInline(text: string): ReactNode[] {
+function renderInline(text: string, breakHints = false): ReactNode[] {
   const parts = text.split(/(\*\*[^*]+\*\*|\[[^\]]+\]\(\/[^)\s]*\))/g);
   return parts.map((part, i) => {
     const link = part.match(/^\[([^\]]+)\]\((\/[^)\s]*)\)$/);
@@ -27,11 +28,11 @@ function renderInline(text: string): ReactNode[] {
     if (part.startsWith("**") && part.endsWith("**") && part.length > 4) {
       return (
         <strong key={i} className="font-bold text-ink">
-          {part.slice(2, -2)}
+          {breakHints ? withWbr(part.slice(2, -2)) : part.slice(2, -2)}
         </strong>
       );
     }
-    return <span key={i}>{part}</span>;
+    return <span key={i}>{breakHints ? withWbr(part) : part}</span>;
   });
 }
 
@@ -65,13 +66,13 @@ export default function BlogRichText({ text }: { text: string }) {
     if (trimmed.startsWith("### ")) {
       elements.push(
         <h3 key={i} className="text-lg font-bold text-ink">
-          {renderInline(trimmed.slice(4))}
+          {renderInline(trimmed.slice(4), true)}
         </h3>
       );
     } else if (trimmed.startsWith("## ")) {
       elements.push(
         <h2 key={i} className="text-xl font-bold text-primary-dark">
-          {renderInline(trimmed.slice(3))}
+          {renderInline(trimmed.slice(3), true)}
         </h2>
       );
     } else if (trimmed.length > 0) {

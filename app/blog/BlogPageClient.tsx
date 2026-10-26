@@ -7,6 +7,7 @@ import SectionHeading from "../components/SectionHeading";
 import { SoftBlob, LeafSprig } from "../components/Decor";
 import { useSite } from "../lib/site";
 import { posts, getContent, type BlogPost } from "../lib/blog";
+import { withWbr } from "../lib/jp-break";
 
 // カテゴリの表示順（院長ブログで実際に使われているカテゴリに対応）。
 // ここにないカテゴリの記事があった場合は、末尾に自動的にまとめて表示される。
@@ -128,7 +129,7 @@ export default function BlogPageClient() {
             )}
           </div>
           <h2 className="mt-2 text-lg font-bold text-ink transition-colors group-hover:text-primary-dark">
-            {c.title}
+            {withWbr(c.title)}
           </h2>
           <p className="mt-2 line-clamp-1 text-sm leading-relaxed text-ink/70">
             {c.excerpt}

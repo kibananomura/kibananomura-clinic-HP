@@ -20,6 +20,7 @@ import {
   type DiseaseEntry,
 } from "../../lib/disease-shared";
 import type { RelatedLink } from "../../lib/related-content";
+import { withWbr } from "../../lib/jp-break";
 
 const UI_TEXT = {
   ja: {
@@ -97,7 +98,7 @@ export default function DiseasePageClient({
               {DISEASE_CATEGORY_LABEL[disease.category]}
             </span>
             <h1 className="mt-4 text-2xl font-bold leading-relaxed text-ink sm:text-3xl">
-              {c.title}
+              {withWbr(c.title)}
             </h1>
             <p className="mt-3 text-[15px] leading-relaxed text-ink/75">
               {c.summary}
@@ -171,7 +172,7 @@ export default function DiseasePageClient({
                       href={`/blog/${p.slug}`}
                       className="flex items-center justify-between gap-3 rounded-2xl border border-primary/15 px-4 py-3 text-sm font-bold text-ink transition-colors hover:bg-accent/60 hover:text-primary-dark"
                     >
-                      <span>{lang === "en" ? p.titleEn : p.titleJa}</span>
+                      <span className="jp-wrap">{withWbr(lang === "en" ? p.titleEn : p.titleJa)}</span>
                       <span aria-hidden="true" className="shrink-0 text-primary">→</span>
                     </Link>
                   </li>

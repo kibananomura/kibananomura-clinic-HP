@@ -23,7 +23,7 @@ excerpt_en: “Legionella detected at a hot spring facility” — if a headline
 
 レジオネラ菌は、川や湖、土の中など、自然界にもともと広く住んでいる細菌です。自然の中ではごく少ない数しかいないため、普段は問題になりません。
 
-ところが、この菌には**20〜45℃くらいのぬるいお湯を好み、特に36℃前後で最もよく増える**という性質があります。人が快適に感じる温度のお湯が、ためたまま循環していると、菌にとって絶好のすみかになってしまうのです。
+ところが、この菌には**20〜50℃くらいのお湯で増え、特に36℃前後で最もよく増える**という性質があります。人が快適に感じる温度のお湯が、ためたまま循環していると、菌にとって絶好のすみかになってしまうのです。
 
 ### 菌が増えやすい「身近な場所」
 
@@ -40,7 +40,7 @@ excerpt_en: “Legionella detected at a hot spring facility” — if a headline
 
 レジオネラ菌は、お湯を飲んだり、肌に触れたりするだけでは、ほとんど感染しません。**菌を含んだ細かい水しぶき（エアロゾル）や湯気を吸い込み、肺に入る**ことで感染します。ジェットバスの泡、シャワー、加湿器のミストなどが、その経路になります。
 
-また、大切な点として、**レジオネラ症は人から人へはうつりません**。ご家族が感染しても、看病でうつる心配はありません。
+また、大切な点として、**レジオネラ症は基本的に人から人へはうつらないとされています**。ご家族が感染しても、看病でうつる心配はありません。
 
 ## レジオネラ菌に感染するとどうなる？主な2つのタイプと症状
 
@@ -58,7 +58,7 @@ excerpt_en: “Legionella detected at a hot spring facility” — if a headline
 
 レジオネラ肺炎は、進行が早く、重症化しやすいのが特徴です。特に、**ご高齢の方、喫煙される方、糖尿病や肺の持病がある方、免疫を抑えるお薬を使っている方**などは注意が必要です。
 
-もう一つ、医師として知っておいていただきたいことがあります。それは、**一般的な肺炎によく使われる抗菌薬（ペニシリン系など）が、レジオネラ菌には効きにくい**ということです。レジオネラ菌は人の細胞の中に入り込んで増えるため、細胞の中まで届く種類の抗菌薬を選ぶ必要があります。つまり、**「レジオネラかもしれない」と疑って、早く正しく診断することが、治療の成否を分ける**のです。
+もう一つ、医師として知っておいていただきたいことがあります。それは、**一般的な肺炎によく使われる抗菌薬（ペニシリン系など）は、レジオネラ菌には効果が期待できない**ということです。レジオネラ菌は人の細胞の中に入り込んで増えるため、細胞の中まで届く種類の抗菌薬を選ぶ必要があります。つまり、**「レジオネラかもしれない」と疑って、早く正しく診断することが、治療の成否を分ける**のです。
 
 ### ② ポンティアック熱：比較的軽いタイプ
 
@@ -108,7 +108,7 @@ By the end of this post, you'll know what Legionella is and where it hides, what
 
 Legionella is a bacterium that naturally lives in rivers, lakes and soil. In nature, it exists only in very small numbers, so it usually isn't a problem.
 
-However, it **prefers lukewarm water of about 20–45°C and multiplies best at around 36°C.** When water at a temperature comfortable for people is stored and recirculated, it becomes an ideal home for the bacteria.
+However, it **multiplies in water of about 20–50°C, and best at around 36°C.** When water at a temperature comfortable for people is stored and recirculated, it becomes an ideal home for the bacteria.
 
 ### Everyday places where it multiplies
 
@@ -125,7 +125,7 @@ The breeding ground for the bacteria is the **slime** that forms on bathtubs, pi
 
 Drinking the water or having it touch your skin almost never causes infection. Infection happens when you **breathe in fine water droplets (aerosols) or steam containing the bacteria, and they reach your lungs.** Bubbles from jet baths, showers and humidifier mist can all be routes.
 
-Importantly, **Legionnaires' disease does not spread from person to person.** If a family member gets it, there's no risk of catching it while caring for them.
+Importantly, **Legionnaires' disease is generally not considered to spread from person to person.** If a family member gets it, there's no risk of catching it while caring for them.
 
 ## What happens if you're infected? Two main types and their symptoms
 
@@ -143,7 +143,7 @@ Symptoms appear about **2 to 10 days** after breathing in the bacteria.
 
 Legionella pneumonia progresses quickly and tends to become severe. **Older adults, smokers, people with diabetes or lung conditions, and people taking immunosuppressive medication** need to be especially careful.
 
-There's one more thing I'd like you to know as a doctor: **antibiotics commonly used for ordinary pneumonia (such as penicillins) don't work well against Legionella.** Because Legionella enters and multiplies inside human cells, antibiotics that can reach inside cells have to be chosen. In other words, **suspecting Legionella and diagnosing it quickly and correctly is what makes or breaks treatment.**
+There's one more thing I'd like you to know as a doctor: **antibiotics commonly used for ordinary pneumonia (such as penicillins) can't be expected to work against Legionella.** Because Legionella enters and multiplies inside human cells, antibiotics that can reach inside cells have to be chosen. In other words, **suspecting Legionella and diagnosing it quickly and correctly is what makes or breaks treatment.**
 
 ### ② Pontiac fever — the milder type
 

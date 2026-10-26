@@ -67,6 +67,12 @@
     @apply pt-48 sm:pt-52 xl:pt-56;
   }
 
+  /* 日本語のカードタイトル等：単語の途中で折り返さず、文節（<wbr>）で改行する */
+  .jp-wrap {
+    word-break: keep-all;
+    overflow-wrap: anywhere;
+  }
+
   .eyebrow {
     @apply inline-flex items-center gap-2 rounded-full bg-accent px-4 py-1.5 text-sm font-medium text-primary-dark;
     word-break: keep-all;

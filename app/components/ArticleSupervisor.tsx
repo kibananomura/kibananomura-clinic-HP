@@ -22,7 +22,12 @@ export default function ArticleSupervisor() {
           <p className="text-[15px] font-bold text-ink">
             {lang === "en"
               ? `Kibana Nomura General Medicine Clinic — ${t.director.name}, Director`
-              : "木花のむら総合診療所 院長　野村 信介"}
+              : (
+                  <>
+                    木花のむら総合診療所 院長{"　"}
+                    <span className="whitespace-nowrap">野村 信介</span>
+                  </>
+                )}
           </p>
           <p className="mt-1 text-sm leading-relaxed text-ink/70">
             {lang === "en"
