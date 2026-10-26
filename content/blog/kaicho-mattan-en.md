@@ -3,6 +3,8 @@ date: 2026.10.01
 cover: /blog/kibana-landscape.png
 category_ja: 健康・予防の話
 category_en: Health and prevention
+subcategory_ja: 胃腸・消化器
+subcategory_en: Stomach & digestion
 title_ja: 右下腹部が痛い、もしかして盲腸？——実は多い「回腸末端炎」のこと
 title_en: Pain in your lower right belly — is it appendicitis? Meet the often-overlooked “terminal ileitis”
 excerpt_ja: 「盲腸だと思って来たんです」——そう心配して受診され、検査の結果「回腸末端炎」だった、という方は少なくありません。聞き慣れない病名に不安になった方へ。

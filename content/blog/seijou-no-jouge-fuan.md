@@ -3,6 +3,8 @@ date: 2026.10.22
 cover: /blog/kibana-landscape.png
 category_ja: 健康・予防の話
 category_en: Health and prevention
+subcategory_ja: 健診・検査
+subcategory_en: Checkups & tests
 title_ja: 健診結果の「正常の上限」、どう考える？
 title_en: Your checkup came back "normal, but at the upper edge" — what does that mean?
 excerpt_ja: 「周りの友達が薬を飲み始めたけど、私も必要なのかな」。健診では異常なしだったのに、そんな不安を抱えて相談に来られた70代の患者さんのお話です。

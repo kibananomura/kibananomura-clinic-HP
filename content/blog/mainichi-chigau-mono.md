@@ -3,6 +3,8 @@ date: 2026.10.10
 cover: /blog/kibana-landscape.png
 category_ja: 健康・予防の話
 category_en: Health and prevention
+subcategory_ja: 生活習慣病・お薬
+subcategory_en: Lifestyle diseases & medication
 title_ja: 生活習慣病の方の食事指導の実際
 title_en: "What diet guidance actually looks like for lifestyle-related conditions"
 excerpt_ja: 「あれもこれも禁止されるのでは」——健診で数値を指摘された方の多くが、そう身構えています。私が細かい制限をおすすめしない理由と、代わりに伝えているたったひとつのコツをお話しします。

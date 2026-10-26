@@ -3,6 +3,8 @@ date: 2026.10.23
 cover: /blog/kibana-landscape.png
 category_ja: 健康・予防の話
 category_en: Health and prevention
+subcategory_ja: けが・外科
+subcategory_en: Injuries & surgery
 title_ja: 血が出たら、まずスマホで一枚撮ってください
 title_en: If you're bleeding, snap a photo on your phone first
 excerpt_ja: 便に血が混じっていた、吐いたものに血が混じっていた——そんなとき、つい忘れがちな「ある行動」が、実は診察をものすごく助けてくれます。

@@ -123,12 +123,14 @@ function generate() {
       coverPosition: data.coverPosition || undefined,
       ja: {
         category: data.category_ja,
+        subcategory: data.subcategory_ja || undefined,
         title: data.title_ja,
         excerpt: data.excerpt_ja,
         body: parseBlocks(ja, slug, "ja"),
       },
       en: {
         category: data.category_en,
+        subcategory: data.subcategory_en || undefined,
         title: data.title_en,
         excerpt: data.excerpt_en,
         body: parseBlocks(en, slug, "en"),

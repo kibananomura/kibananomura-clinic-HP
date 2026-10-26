@@ -3,6 +3,8 @@ date: 2026.10.21
 cover: /blog/kibana-landscape.png
 category_ja: 健康・予防の話
 category_en: Health and prevention
+subcategory_ja: 感染症・ワクチン
+subcategory_en: Infections & vaccines
 title_ja: インフルエンザワクチン、打つべきか迷っているあなたへ
 title_en: Still unsure about the flu shot? Here's how to think about it
 excerpt_ja: 「打ってもかかる人はかかるって聞くし」「副反応も気になる」——そう迷いながら、結局決めきれずにいませんか。私が「ご自身がどうしたいかですよ」とお伝えしてきた、本当の理由をお話しします。

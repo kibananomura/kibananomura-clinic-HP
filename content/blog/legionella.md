@@ -3,6 +3,8 @@ date: 2026.10.25
 cover: /blog/kibana-landscape.png
 category_ja: 健康・予防の話
 category_en: Health and prevention
+subcategory_ja: 感染症・ワクチン
+subcategory_en: Infections & vaccines
 title_ja: 温泉や加湿器にもいる「レジオネラ菌」、どんな病気？どう防ぐ？
 title_en: Legionella lives in hot springs and humidifiers too — what illness does it cause, and how do you prevent it?
 excerpt_ja: 「温泉施設でレジオネラ菌が検出」——そんなニュースを見て、自宅の加湿器は大丈夫かと気になった方へ。実はこの菌、私たちの身近な水まわりに普通にいる菌なのです。

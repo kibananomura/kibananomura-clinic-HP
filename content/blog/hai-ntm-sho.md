@@ -3,6 +3,8 @@ date: 2026.10.03
 cover: /blog/kibana-landscape.png
 category_ja: 健康・予防の話
 category_en: Health and prevention
+subcategory_ja: 肺・呼吸器
+subcategory_en: Lungs & breathing
 title_ja: 咳が長引く・健診で「影」——肺NTM症（肺MAC症）とは？原因・症状と「人にうつるの？」にお答えします
 title_en: A lingering cough or a “shadow” on your checkup — what is pulmonary NTM (MAC) disease? Causes, symptoms, and “Is it contagious?”
 excerpt_ja: 「肺NTM症って結核の仲間？家族にうつる？」——健診で影を指摘されて不安な方へ。先にお伝えすると、この病気は人から人へはうつりません。

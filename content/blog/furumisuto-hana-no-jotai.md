@@ -3,6 +3,8 @@ date: 2026.10.24
 cover: /blog/kibana-landscape.png
 category_ja: 健康・予防の話
 category_en: Health and prevention
+subcategory_ja: 感染症・ワクチン
+subcategory_en: Infections & vaccines
 title_ja: 鼻からのインフルエンザワクチン「フルミスト」、鼻水が出ていても大丈夫？
 title_en: FluMist, the nasal-spray flu vaccine — is it okay with a runny nose?
 excerpt_ja: 「注射が苦手な子にスプレーのワクチンがあるって聞いたんですが」——そうご質問いただくことが増えました。実はこのワクチン、鼻の状態によって効果が左右されることがあるのです。

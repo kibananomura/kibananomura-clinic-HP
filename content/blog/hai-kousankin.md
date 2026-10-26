@@ -3,6 +3,8 @@ date: 2026.10.02
 cover: /blog/kibana-landscape.png
 category_ja: 健康・予防の話
 category_en: Health and prevention
+subcategory_ja: 肺・呼吸器
+subcategory_en: Lungs & breathing
 title_ja: 「抗酸菌」は酸を出す最強の菌？——名前のせいで誤解されがちな菌の正体
 title_en: Are “acid-fast bacteria” super-germs that spit acid? The truth behind a misleading name
 excerpt_ja: 「抗酸菌が出ています」と言われて、酸を吐く凶悪な菌を想像していませんか。実はその名前、ある「検査の都合」でついたものなのです。

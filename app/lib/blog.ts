@@ -7,6 +7,7 @@ export type BlogBlock =
 
 export type BlogContent = {
   category: string;
+  subcategory?: string; // 健康・予防の話などのサブ分類（任意）
   title: string;
   excerpt: string;
   body: BlogBlock[];

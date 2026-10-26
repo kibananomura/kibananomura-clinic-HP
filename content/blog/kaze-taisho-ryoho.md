@@ -3,6 +3,8 @@ date: 2026.10.20
 cover: /blog/kibana-landscape.png
 category_ja: 健康・予防の話
 category_en: Health and prevention
+subcategory_ja: 感染症・ワクチン
+subcategory_en: Infections & vaccines
 title_ja: 風邪の抗生剤、実は「未来の免疫力」まで削っているかもしれません
 title_en: That antibiotic for your cold might be borrowing against your future immunity
 excerpt_ja: 「風邪に抗生剤は効かない」——もうご存じの方も多いかもしれません。では、「効かないだけでなく、実は損をしている」としたらどうでしょうか。

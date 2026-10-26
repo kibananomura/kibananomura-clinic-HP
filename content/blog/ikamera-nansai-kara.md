@@ -3,6 +3,8 @@ date: 2026.09.30
 cover: /blog/kibana-landscape.png
 category_ja: 健康・予防の話
 category_en: Health and prevention
+subcategory_ja: 胃腸・消化器
+subcategory_en: Stomach & digestion
 title_ja: 胃カメラは何歳から？どのくらいの間隔で受ければいい？
 title_en: When should you start getting gastroscopies — and how often?
 excerpt_ja: 「胃カメラって、何歳になったら受けるもの？」「毎年受けないとダメ？」——実はその答え、年齢だけでなく「ピロリ菌」と「症状」で大きく変わります。

@@ -138,6 +138,7 @@ export const generatedPosts: BlogPost[] = [
     "cover": "/blog/kibana-landscape.png",
     "ja": {
       "category": "健康・予防の話",
+      "subcategory": "感染症・ワクチン",
       "title": "宮崎県内で今、増えている感染症は？ 夏に気をつけたいこと",
       "excerpt": "今、宮崎市内の医療機関では1日あたり4〜5人がコロナで受診している計算に——最新データで分かった、夏に増えている感染症と気をつけたいポイントをまとめました。",
       "body": [
@@ -205,6 +206,7 @@ export const generatedPosts: BlogPost[] = [
     },
     "en": {
       "category": "Health and prevention",
+      "subcategory": "Infections & vaccines",
       "title": "What infections are on the rise in Miyazaki right now? Things to watch for this summer",
       "excerpt": "Right now, a single clinic in Miyazaki City is seeing roughly 4-5 COVID patients a day — here's what the latest data shows about infections on the rise this summer, and what to watch for.",
       "body": [
@@ -718,6 +720,7 @@ export const generatedPosts: BlogPost[] = [
     "cover": "/blog/kibana-landscape.png",
     "ja": {
       "category": "健康・予防の話",
+      "subcategory": "胃腸・消化器",
       "title": "胃カメラの前日・当日・検査後、どう過ごせばいい？",
       "excerpt": "「前日の夜ごはん、何時まで食べていいの？」「終わったらすぐ食べられる？」——胃カメラの予約をした方から、いちばん多くいただく質問です。",
       "body": [
@@ -861,6 +864,7 @@ export const generatedPosts: BlogPost[] = [
     },
     "en": {
       "category": "Health and prevention",
+      "subcategory": "Stomach & digestion",
       "title": "Getting a gastroscopy? How to spend the day before, the day of, and after",
       "excerpt": "“How late can I eat dinner the night before?” “Can I eat right after?” These are the questions I hear most from people who've just booked a gastroscopy.",
       "body": [
@@ -1009,6 +1013,7 @@ export const generatedPosts: BlogPost[] = [
     "cover": "/blog/kibana-landscape.png",
     "ja": {
       "category": "健康・予防の話",
+      "subcategory": "胃腸・消化器",
       "title": "胃カメラは何歳から？どのくらいの間隔で受ければいい？",
       "excerpt": "「胃カメラって、何歳になったら受けるもの？」「毎年受けないとダメ？」——実はその答え、年齢だけでなく「ピロリ菌」と「症状」で大きく変わります。",
       "body": [
@@ -1140,6 +1145,7 @@ export const generatedPosts: BlogPost[] = [
     },
     "en": {
       "category": "Health and prevention",
+      "subcategory": "Stomach & digestion",
       "title": "When should you start getting gastroscopies — and how often?",
       "excerpt": "“At what age should I start getting a gastroscopy?” “Do I need one every year?” The answer actually depends a lot on two things besides age — H. pylori and your symptoms.",
       "body": [
@@ -1276,6 +1282,7 @@ export const generatedPosts: BlogPost[] = [
     "cover": "/blog/kibana-landscape.png",
     "ja": {
       "category": "健康・予防の話",
+      "subcategory": "胃腸・消化器",
       "title": "右下腹部が痛い、もしかして盲腸？——実は多い「回腸末端炎」のこと",
       "excerpt": "「盲腸だと思って来たんです」——そう心配して受診され、検査の結果「回腸末端炎」だった、という方は少なくありません。聞き慣れない病名に不安になった方へ。",
       "body": [
@@ -1419,6 +1426,7 @@ export const generatedPosts: BlogPost[] = [
     },
     "en": {
       "category": "Health and prevention",
+      "subcategory": "Stomach & digestion",
       "title": "Pain in your lower right belly — is it appendicitis? Meet the often-overlooked “terminal ileitis”",
       "excerpt": "“I came in because I thought it was my appendix” — and the tests showed terminal ileitis instead. If an unfamiliar diagnosis has you worried, this is for you.",
       "body": [
@@ -1567,6 +1575,7 @@ export const generatedPosts: BlogPost[] = [
     "cover": "/blog/kibana-landscape.png",
     "ja": {
       "category": "健康・予防の話",
+      "subcategory": "肺・呼吸器",
       "title": "「抗酸菌」は酸を出す最強の菌？——名前のせいで誤解されがちな菌の正体",
       "excerpt": "「抗酸菌が出ています」と言われて、酸を吐く凶悪な菌を想像していませんか。実はその名前、ある「検査の都合」でついたものなのです。",
       "body": [
@@ -1734,6 +1743,7 @@ export const generatedPosts: BlogPost[] = [
     },
     "en": {
       "category": "Health and prevention",
+      "subcategory": "Lungs & breathing",
       "title": "Are “acid-fast bacteria” super-germs that spit acid? The truth behind a misleading name",
       "excerpt": "Told “acid-fast bacteria were found” and picturing a vicious germ that spits acid? That name actually comes from how the bacteria behave in a lab test.",
       "body": [
@@ -1906,6 +1916,7 @@ export const generatedPosts: BlogPost[] = [
     "cover": "/blog/kibana-landscape.png",
     "ja": {
       "category": "健康・予防の話",
+      "subcategory": "肺・呼吸器",
       "title": "咳が長引く・健診で「影」——肺NTM症（肺MAC症）とは？原因・症状と「人にうつるの？」にお答えします",
       "excerpt": "「肺NTM症って結核の仲間？家族にうつる？」——健診で影を指摘されて不安な方へ。先にお伝えすると、この病気は人から人へはうつりません。",
       "body": [
@@ -2085,6 +2096,7 @@ export const generatedPosts: BlogPost[] = [
     },
     "en": {
       "category": "Health and prevention",
+      "subcategory": "Lungs & breathing",
       "title": "A lingering cough or a “shadow” on your checkup — what is pulmonary NTM (MAC) disease? Causes, symptoms, and “Is it contagious?”",
       "excerpt": "“Is pulmonary NTM a kind of tuberculosis? Can my family catch it?” If a checkup found a shadow on your lungs, here's the reassuring first answer — it doesn't spread from person to person.",
       "body": [
@@ -2269,6 +2281,7 @@ export const generatedPosts: BlogPost[] = [
     "cover": "/blog/kibana-landscape.png",
     "ja": {
       "category": "健康・予防の話",
+      "subcategory": "生活習慣病・お薬",
       "title": "血圧が低いけれど、お薬を減らしても大丈夫？〜減量の目安とよくある不安〜",
       "excerpt": "「最近、家で測ると100を切るんです……薬、減らしたほうがいいですか？」最近そうご質問いただくことが増えました。減薬の目安と、よくある不安についてお話しします。",
       "body": [
@@ -2340,6 +2353,7 @@ export const generatedPosts: BlogPost[] = [
     },
     "en": {
       "category": "Health and prevention",
+      "subcategory": "Lifestyle diseases & medication",
       "title": "My blood pressure is running low — is it okay to cut back on medication?",
       "excerpt": "My home readings have been dipping under 100 lately — should I cut back on my medication? Here's how I think about the signs to watch for, and the worries that come with them.",
       "body": [
@@ -2416,6 +2430,7 @@ export const generatedPosts: BlogPost[] = [
     "cover": "/blog/kibana-landscape.png",
     "ja": {
       "category": "健康・予防の話",
+      "subcategory": "生活習慣病・お薬",
       "title": "スタチンは筋肉を崩壊させるのか？〜コレステロール薬の疑問と最新医学〜",
       "excerpt": "「スタチンを飲むと筋肉が溶ける」——ネットでそんな言葉を見て、薬をやめようか迷っていませんか。まず知っていただきたいのは、その不安のほとんどが誤解だということです。",
       "body": [
@@ -2491,6 +2506,7 @@ export const generatedPosts: BlogPost[] = [
     },
     "en": {
       "category": "Health and prevention",
+      "subcategory": "Lifestyle diseases & medication",
       "title": "Does statin medication really \"break down\" your muscles?",
       "excerpt": "Statins dissolve your muscles — have you seen that claim online and started wondering whether to stop your medication? The first thing to know is that most of that fear comes from a misunderstanding.",
       "body": [
@@ -2571,6 +2587,7 @@ export const generatedPosts: BlogPost[] = [
     "cover": "/blog/kibana-landscape.png",
     "ja": {
       "category": "健康・予防の話",
+      "subcategory": "生活習慣病・お薬",
       "title": "毎日のトマトジュース、実は逆効果かもしれません",
       "excerpt": "「健康のために、毎朝トマトジュースで野菜をとっています」。とても素敵な習慣ですが、実はその一杯、コレステロールには◎でも中性脂肪には注意が必要かもしれません。",
       "body": [
@@ -2622,6 +2639,7 @@ export const generatedPosts: BlogPost[] = [
     },
     "en": {
       "category": "Health and prevention",
+      "subcategory": "Lifestyle diseases & medication",
       "title": "Your daily tomato juice might be working against you",
       "excerpt": "I drink tomato juice every morning instead of vegetables, for my health — a lovely habit, but that glass may be great for cholesterol while working against your triglycerides.",
       "body": [
@@ -2959,6 +2977,7 @@ export const generatedPosts: BlogPost[] = [
     "cover": "/blog/kibana-landscape.png",
     "ja": {
       "category": "健康・予防の話",
+      "subcategory": "生活習慣病・お薬",
       "title": "生活習慣病の方の食事指導の実際",
       "excerpt": "「あれもこれも禁止されるのでは」——健診で数値を指摘された方の多くが、そう身構えています。私が細かい制限をおすすめしない理由と、代わりに伝えているたったひとつのコツをお話しします。",
       "body": [
@@ -3026,6 +3045,7 @@ export const generatedPosts: BlogPost[] = [
     },
     "en": {
       "category": "Health and prevention",
+      "subcategory": "Lifestyle diseases & medication",
       "title": "What diet guidance actually looks like for lifestyle-related conditions",
       "excerpt": "“Am I about to be told everything is off-limits?” — that's the look I see on so many patients' faces after a checkup. Here's why I don't hand out strict diet rules, and the one thing I ask instead.",
       "body": [
@@ -3355,6 +3375,7 @@ export const generatedPosts: BlogPost[] = [
     "cover": "/blog/kibana-landscape.png",
     "ja": {
       "category": "健康・予防の話",
+      "subcategory": "健診・検査",
       "title": "健診のオプションで「腫瘍マーカー」が高かった方へ",
       "excerpt": "健康診断のオプションで腫瘍マーカーを測り、異常値に不安を感じている方へ。腫瘍マーカーがどうやって生まれた検査なのかを知ると、少し見え方が変わるかもしれません。",
       "body": [
@@ -3414,6 +3435,7 @@ export const generatedPosts: BlogPost[] = [
     },
     "en": {
       "category": "Health and prevention",
+      "subcategory": "Checkups & tests",
       "title": "If your optional tumor marker test came back high",
       "excerpt": "For anyone who added a tumor marker test to their checkup and got an unsettling result — understanding how this test came to exist might change how you see that number.",
       "body": [
@@ -3673,6 +3695,7 @@ export const generatedPosts: BlogPost[] = [
     "cover": "/blog/kibana-landscape.png",
     "ja": {
       "category": "健康・予防の話",
+      "subcategory": "肺・呼吸器",
       "title": "「調子がいいから薬やめました」で喘息が怖い理由",
       "excerpt": "「症状がないのに、なぜ薬を続けなきゃいけないの？」——実は医師も昔はそう考えていました。喘息治療の考え方がこの数十年でどう変わったか、お話しします。",
       "body": [
@@ -3744,6 +3767,7 @@ export const generatedPosts: BlogPost[] = [
     },
     "en": {
       "category": "Health and prevention",
+      "subcategory": "Lungs & breathing",
       "title": "Why stopping asthma medicine when you feel fine can be risky",
       "excerpt": "Why keep taking medicine when you have no symptoms at all? Doctors used to think the same thing. Here's how asthma treatment has changed over the past few decades.",
       "body": [
@@ -3820,6 +3844,7 @@ export const generatedPosts: BlogPost[] = [
     "cover": "/blog/kibana-landscape.png",
     "ja": {
       "category": "健康・予防の話",
+      "subcategory": "生活習慣病・お薬",
       "title": "「生活習慣病」のレッテルで、ご自身を責めないでください",
       "excerpt": "「不摂生のせいでこの数値になったんですよね……」そう肩を落とす方に、お伝えしたいことがあります。実は、生活習慣とは関係なく起こる高血圧・糖尿病・脂質異常症もあるのです。",
       "body": [
@@ -3867,6 +3892,7 @@ export const generatedPosts: BlogPost[] = [
     },
     "en": {
       "category": "Health and prevention",
+      "subcategory": "Lifestyle diseases & medication",
       "title": "Please don't blame yourself for the label \"lifestyle disease\"",
       "excerpt": "This number is my own fault for not taking care of myself, isn't it — I want to tell the people who say this something important. Some cases of high blood pressure, diabetes, and dyslipidemia have nothing to do with lifestyle at all.",
       "body": [
@@ -3919,6 +3945,7 @@ export const generatedPosts: BlogPost[] = [
     "cover": "/blog/kibana-landscape.png",
     "ja": {
       "category": "健康・予防の話",
+      "subcategory": "生活習慣病・お薬",
       "title": "「お薬は一生やめられない」は誤解です",
       "excerpt": "「このお薬、一度始めたらもう一生やめられないんですよね……？」これまでの外来でとてもよく聞かれてきた質問です。その答えは、実は「いいえ」です。",
       "body": [
@@ -3970,6 +3997,7 @@ export const generatedPosts: BlogPost[] = [
     },
     "en": {
       "category": "Health and prevention",
+      "subcategory": "Lifestyle diseases & medication",
       "title": "'Once you start, you can never stop' is a myth",
       "excerpt": "Once I start this medication, I can never stop, right? It's a question I've heard all the time, throughout my career. The real answer is actually no.",
       "body": [
@@ -4026,6 +4054,7 @@ export const generatedPosts: BlogPost[] = [
     "cover": "/blog/kibana-landscape.png",
     "ja": {
       "category": "健康・予防の話",
+      "subcategory": "胃腸・消化器",
       "title": "胃酸を抑える薬は長期間飲み続けても大丈夫？〜胃酸の役割と正しい付き合い方〜",
       "excerpt": "「この胃薬、ずっと飲み続けて大丈夫ですか？」これまでの診療でとてもよく聞かれてきた質問です。安定して飲めているからこその、素朴な疑問だと思います。",
       "body": [
@@ -4093,6 +4122,7 @@ export const generatedPosts: BlogPost[] = [
     },
     "en": {
       "category": "Health and prevention",
+      "subcategory": "Stomach & digestion",
       "title": "Is it safe to keep taking acid-suppressing stomach medication long term?",
       "excerpt": "Is it really okay to keep taking this stomach medication indefinitely? It's a question I've heard often throughout my career — a natural one to have once your symptoms have settled down.",
       "body": [
@@ -4165,6 +4195,7 @@ export const generatedPosts: BlogPost[] = [
     "cover": "/blog/kibana-landscape.png",
     "ja": {
       "category": "健康・予防の話",
+      "subcategory": "感染症・ワクチン",
       "title": "風邪の抗生剤、実は「未来の免疫力」まで削っているかもしれません",
       "excerpt": "「風邪に抗生剤は効かない」——もうご存じの方も多いかもしれません。では、「効かないだけでなく、実は損をしている」としたらどうでしょうか。",
       "body": [
@@ -4244,6 +4275,7 @@ export const generatedPosts: BlogPost[] = [
     },
     "en": {
       "category": "Health and prevention",
+      "subcategory": "Infections & vaccines",
       "title": "That antibiotic for your cold might be borrowing against your future immunity",
       "excerpt": "Antibiotics don't work on colds — many of you probably already know that. But what if taking them anyway didn't just fail to help, but actually cost you something?",
       "body": [
@@ -4328,6 +4360,7 @@ export const generatedPosts: BlogPost[] = [
     "cover": "/blog/kibana-landscape.png",
     "ja": {
       "category": "健康・予防の話",
+      "subcategory": "感染症・ワクチン",
       "title": "インフルエンザワクチン、打つべきか迷っているあなたへ",
       "excerpt": "「打ってもかかる人はかかるって聞くし」「副反応も気になる」——そう迷いながら、結局決めきれずにいませんか。私が「ご自身がどうしたいかですよ」とお伝えしてきた、本当の理由をお話しします。",
       "body": [
@@ -4375,6 +4408,7 @@ export const generatedPosts: BlogPost[] = [
     },
     "en": {
       "category": "Health and prevention",
+      "subcategory": "Infections & vaccines",
       "title": "Still unsure about the flu shot? Here's how to think about it",
       "excerpt": "I hear people get the flu even after the shot, and the side effects worry me too — if that loop sounds familiar, here's the real reason I've always told patients the choice is ultimately theirs.",
       "body": [
@@ -4427,6 +4461,7 @@ export const generatedPosts: BlogPost[] = [
     "cover": "/blog/kibana-landscape.png",
     "ja": {
       "category": "健康・予防の話",
+      "subcategory": "健診・検査",
       "title": "健診結果の「正常の上限」、どう考える？",
       "excerpt": "「周りの友達が薬を飲み始めたけど、私も必要なのかな」。健診では異常なしだったのに、そんな不安を抱えて相談に来られた70代の患者さんのお話です。",
       "body": [
@@ -4482,6 +4517,7 @@ export const generatedPosts: BlogPost[] = [
     },
     "en": {
       "category": "Health and prevention",
+      "subcategory": "Checkups & tests",
       "title": "Your checkup came back \"normal, but at the upper edge\" — what does that mean?",
       "excerpt": "My friends have started taking medication, so do I need to as well — a patient in her 70s I once treated came to me with exactly that worry, even though her checkup had come back with no abnormalities.",
       "body": [
@@ -4542,6 +4578,7 @@ export const generatedPosts: BlogPost[] = [
     "cover": "/blog/kibana-landscape.png",
     "ja": {
       "category": "健康・予防の話",
+      "subcategory": "けが・外科",
       "title": "血が出たら、まずスマホで一枚撮ってください",
       "excerpt": "便に血が混じっていた、吐いたものに血が混じっていた——そんなとき、つい忘れがちな「ある行動」が、実は診察をものすごく助けてくれます。",
       "body": [
@@ -4605,6 +4642,7 @@ export const generatedPosts: BlogPost[] = [
     },
     "en": {
       "category": "Health and prevention",
+      "subcategory": "Injuries & surgery",
       "title": "If you're bleeding, snap a photo on your phone first",
       "excerpt": "Blood in your stool, blood in what you threw up — there's one easy thing people almost always forget to do, and it genuinely helps us a lot.",
       "body": [
@@ -4673,6 +4711,7 @@ export const generatedPosts: BlogPost[] = [
     "cover": "/blog/kibana-landscape.png",
     "ja": {
       "category": "健康・予防の話",
+      "subcategory": "感染症・ワクチン",
       "title": "鼻からのインフルエンザワクチン「フルミスト」、鼻水が出ていても大丈夫？",
       "excerpt": "「注射が苦手な子にスプレーのワクチンがあるって聞いたんですが」——そうご質問いただくことが増えました。実はこのワクチン、鼻の状態によって効果が左右されることがあるのです。",
       "body": [
@@ -4756,6 +4795,7 @@ export const generatedPosts: BlogPost[] = [
     },
     "en": {
       "category": "Health and prevention",
+      "subcategory": "Infections & vaccines",
       "title": "FluMist, the nasal-spray flu vaccine — is it okay with a runny nose?",
       "excerpt": "“I heard there's a spray vaccine for kids who hate needles” — I've been hearing this more and more. What many people don't know is that how well it works can depend on the condition of your nose.",
       "body": [
@@ -4844,6 +4884,7 @@ export const generatedPosts: BlogPost[] = [
     "cover": "/blog/kibana-landscape.png",
     "ja": {
       "category": "健康・予防の話",
+      "subcategory": "感染症・ワクチン",
       "title": "温泉や加湿器にもいる「レジオネラ菌」、どんな病気？どう防ぐ？",
       "excerpt": "「温泉施設でレジオネラ菌が検出」——そんなニュースを見て、自宅の加湿器は大丈夫かと気になった方へ。実はこの菌、私たちの身近な水まわりに普通にいる菌なのです。",
       "body": [
@@ -4995,6 +5036,7 @@ export const generatedPosts: BlogPost[] = [
     },
     "en": {
       "category": "Health and prevention",
+      "subcategory": "Infections & vaccines",
       "title": "Legionella lives in hot springs and humidifiers too — what illness does it cause, and how do you prevent it?",
       "excerpt": "“Legionella detected at a hot spring facility” — if a headline like that made you wonder about the humidifier at home, read on. This bacterium actually lives in ordinary water all around us.",
       "body": [

@@ -3,6 +3,8 @@ date: 2026.09.29
 cover: /blog/kibana-landscape.png
 category_ja: 健康・予防の話
 category_en: Health and prevention
+subcategory_ja: 胃腸・消化器
+subcategory_en: Stomach & digestion
 title_ja: 胃カメラの前日・当日・検査後、どう過ごせばいい？
 title_en: Getting a gastroscopy? How to spend the day before, the day of, and after
 excerpt_ja: 「前日の夜ごはん、何時まで食べていいの？」「終わったらすぐ食べられる？」——胃カメラの予約をした方から、いちばん多くいただく質問です。

@@ -73,3 +73,15 @@ Second paragraph.
 
 本文中に `[リンク文字](/blog/記事のslug)` と書くと、サイト内リンクになります（`/` で始まるサイト内のパスのみ対応）。
 例: `[肺NTM症の記事](/blog/hai-ntm-sho)`
+
+## サブ分類（健康・予防の話）
+
+`category_ja: 健康・予防の話` の記事は、frontmatter に次の2行を加えるとサブ分類で絞り込めるようになります（任意）。
+
+```
+subcategory_ja: 胃腸・消化器
+subcategory_en: Stomach & digestion
+```
+
+使用中のサブ分類：感染症・ワクチン（Infections & vaccines）／胃腸・消化器（Stomach & digestion）／肺・呼吸器（Lungs & breathing）／生活習慣病・お薬（Lifestyle diseases & medication）／健診・検査（Checkups & tests）／けが・外科（Injuries & surgery）。
+表示順は `app/blog/BlogPageClient.tsx` の `SUBCATEGORY_ORDER` で管理しています。

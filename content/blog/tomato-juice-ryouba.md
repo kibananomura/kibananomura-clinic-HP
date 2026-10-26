@@ -3,6 +3,8 @@ date: 2026.10.06
 cover: /blog/kibana-landscape.png
 category_ja: 健康・予防の話
 category_en: Health and prevention
+subcategory_ja: 生活習慣病・お薬
+subcategory_en: Lifestyle diseases & medication
 title_ja: 毎日のトマトジュース、実は逆効果かもしれません
 title_en: Your daily tomato juice might be working against you
 excerpt_ja: 「健康のために、毎朝トマトジュースで野菜をとっています」。とても素敵な習慣ですが、実はその一杯、コレステロールには◎でも中性脂肪には注意が必要かもしれません。

@@ -3,6 +3,8 @@ date: 2026.10.17
 cover: /blog/kibana-landscape.png
 category_ja: 健康・予防の話
 category_en: Health and prevention
+subcategory_ja: 生活習慣病・お薬
+subcategory_en: Lifestyle diseases & medication
 title_ja: 「生活習慣病」のレッテルで、ご自身を責めないでください
 title_en: Please don't blame yourself for the label "lifestyle disease"
 excerpt_ja: 「不摂生のせいでこの数値になったんですよね……」そう肩を落とす方に、お伝えしたいことがあります。実は、生活習慣とは関係なく起こる高血圧・糖尿病・脂質異常症もあるのです。

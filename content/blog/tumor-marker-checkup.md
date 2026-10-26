@@ -3,6 +3,8 @@ date: 2026.10.14
 cover: /blog/kibana-landscape.png
 category_ja: 健康・予防の話
 category_en: Health and prevention
+subcategory_ja: 健診・検査
+subcategory_en: Checkups & tests
 title_ja: 健診のオプションで「腫瘍マーカー」が高かった方へ
 title_en: If your optional tumor marker test came back high
 excerpt_ja: 健康診断のオプションで腫瘍マーカーを測り、異常値に不安を感じている方へ。腫瘍マーカーがどうやって生まれた検査なのかを知ると、少し見え方が変わるかもしれません。

@@ -3,6 +3,8 @@ date: 2026.10.04
 cover: /blog/kibana-landscape.png
 category_ja: 健康・予防の話
 category_en: Health and prevention
+subcategory_ja: 生活習慣病・お薬
+subcategory_en: Lifestyle diseases & medication
 title_ja: 血圧が低いけれど、お薬を減らしても大丈夫？〜減量の目安とよくある不安〜
 title_en: My blood pressure is running low — is it okay to cut back on medication?
 excerpt_ja: 「最近、家で測ると100を切るんです……薬、減らしたほうがいいですか？」最近そうご質問いただくことが増えました。減薬の目安と、よくある不安についてお話しします。

@@ -19,6 +19,18 @@ const CATEGORY_ORDER: { ja: string; en: string }[] = [
   { ja: "ごあいさつ", en: "Greeting" },
 ];
 
+// 「健康・予防の話」のサブ分類の表示順（記事の subcategory_ja に対応）。
+// ここにないサブ分類の記事があった場合は、末尾に自動的に表示される。
+const HEALTH_CATEGORY = "健康・予防の話";
+const SUBCATEGORY_ORDER: { ja: string; en: string }[] = [
+  { ja: "感染症・ワクチン", en: "Infections & vaccines" },
+  { ja: "胃腸・消化器", en: "Stomach & digestion" },
+  { ja: "肺・呼吸器", en: "Lungs & breathing" },
+  { ja: "生活習慣病・お薬", en: "Lifestyle diseases & medication" },
+  { ja: "健診・検査", en: "Checkups & tests" },
+  { ja: "けが・外科", en: "Injuries & surgery" },
+];
+
 function sortNewestFirst(list: BlogPost[]): BlogPost[] {
   return [...list].sort((a, b) => b.date.localeCompare(a.date));
 }
@@ -26,6 +38,12 @@ function sortNewestFirst(list: BlogPost[]): BlogPost[] {
 export default function BlogPageClient() {
   const { t, lang } = useSite();
   const [activeCategory, setActiveCategory] = useState<string | null>(null);
+  const [activeSubcategory, setActiveSubcategory] = useState<string | null>(null);
+
+  function selectCategory(key: string | null) {
+    setActiveCategory(key);
+    setActiveSubcategory(null);
+  }
 
   // 言語に依存しない「カテゴリの識別子」として常に日本語ラベルを使う
   // （post.ja.category は言語に関わらず一意なキーとして使える）。
@@ -60,9 +78,35 @@ export default function BlogPageClient() {
     return ordered;
   }, [lang]);
 
-  const visibleGroups = activeCategory
-    ? groups.filter((g) => g.key === activeCategory)
-    : groups;
+  // 「健康・予防の話」選択時に出すサブ分類チップ（言語に依存しないキーとして日本語ラベルを使う）
+  const subcategories = useMemo(() => {
+    const health = groups.find((g) => g.key === HEALTH_CATEGORY);
+    if (!health) return [];
+    const counts = new Map<string, { label: string; count: number }>();
+    for (const post of health.posts) {
+      const key = post.ja.subcategory;
+      if (!key) continue;
+      const entry = counts.get(key) ?? { label: getContent(post, lang).subcategory ?? key, count: 0 };
+      entry.count += 1;
+      counts.set(key, entry);
+    }
+    const ordered: { key: string; label: string; count: number }[] = [];
+    for (const entry of SUBCATEGORY_ORDER) {
+      const found = counts.get(entry.ja);
+      if (!found) continue;
+      ordered.push({ key: entry.ja, label: lang === "en" ? entry.en : entry.ja, count: found.count });
+      counts.delete(entry.ja);
+    }
+    for (const [key, v] of counts) ordered.push({ key, label: v.label, count: v.count });
+    return ordered;
+  }, [groups, lang]);
+
+  const visibleGroups = (activeCategory ? groups.filter((g) => g.key === activeCategory) : groups).map(
+    (g) =>
+      g.key === HEALTH_CATEGORY && activeSubcategory
+        ? { ...g, posts: g.posts.filter((p) => p.ja.subcategory === activeSubcategory) }
+        : g
+  );
 
   function PostCard({ post, delay }: { post: BlogPost; delay: number }) {
     const c = getContent(post, lang);
@@ -77,6 +121,11 @@ export default function BlogPageClient() {
             <span className="rounded-full bg-accent px-2.5 py-0.5 font-bold text-primary-dark">
               {c.category}
             </span>
+            {c.subcategory && (
+              <span className="rounded-full border border-primary/30 px-2.5 py-0.5 font-bold text-primary-dark/80">
+                {c.subcategory}
+              </span>
+            )}
           </div>
           <h2 className="mt-2 text-lg font-bold text-ink transition-colors group-hover:text-primary-dark">
             {c.title}
@@ -114,7 +163,7 @@ export default function BlogPageClient() {
           <div className="mx-auto mt-8 flex max-w-3xl flex-wrap justify-center gap-2">
             <button
               type="button"
-              onClick={() => setActiveCategory(null)}
+              onClick={() => selectCategory(null)}
               aria-pressed={activeCategory === null}
               className={`rounded-full px-4 py-2 text-sm font-bold transition-colors ${
                 activeCategory === null
@@ -132,7 +181,7 @@ export default function BlogPageClient() {
               <button
                 key={g.key}
                 type="button"
-                onClick={() => setActiveCategory(g.key)}
+                onClick={() => selectCategory(g.key)}
                 aria-pressed={activeCategory === g.key}
                 className={`rounded-full px-4 py-2 text-sm font-bold transition-colors ${
                   activeCategory === g.key
@@ -149,6 +198,43 @@ export default function BlogPageClient() {
             ))}
           </div>
         </FadeIn>
+
+        {/* 「健康・予防の話」選択時のみ、サブ分類で絞り込めるようにする */}
+        {activeCategory === HEALTH_CATEGORY && subcategories.length > 0 && (
+          <div className="mx-auto mt-4 flex max-w-3xl flex-wrap justify-center gap-2">
+            <button
+              type="button"
+              onClick={() => setActiveSubcategory(null)}
+              aria-pressed={activeSubcategory === null}
+              className={`rounded-full border px-3.5 py-1.5 text-xs font-bold transition-colors ${
+                activeSubcategory === null
+                  ? "border-primary bg-accent text-primary-dark"
+                  : "border-ink/15 bg-surface text-ink/60 hover:bg-accent"
+              }`}
+            >
+              {t.blog.allCategories}
+            </button>
+            {subcategories.map((sc) => (
+              <button
+                key={sc.key}
+                type="button"
+                onClick={() => setActiveSubcategory(sc.key)}
+                aria-pressed={activeSubcategory === sc.key}
+                className={`rounded-full border px-3.5 py-1.5 text-xs font-bold transition-colors ${
+                  activeSubcategory === sc.key
+                    ? "border-primary bg-accent text-primary-dark"
+                    : "border-ink/15 bg-surface text-ink/60 hover:bg-accent"
+                }`}
+              >
+                {sc.label}
+                <span className="ml-1 opacity-70">
+                  ({sc.count}
+                  {t.blog.postCountSuffix})
+                </span>
+              </button>
+            ))}
+          </div>
+        )}
 
         <div className="mx-auto mt-10 max-w-3xl space-y-12">
           {visibleGroups.map((g) => (

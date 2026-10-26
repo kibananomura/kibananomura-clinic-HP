@@ -3,6 +3,8 @@ date: 2026.10.19
 cover: /blog/kibana-landscape.png
 category_ja: 健康・予防の話
 category_en: Health and prevention
+subcategory_ja: 胃腸・消化器
+subcategory_en: Stomach & digestion
 title_ja: 胃酸を抑える薬は長期間飲み続けても大丈夫？〜胃酸の役割と正しい付き合い方〜
 title_en: Is it safe to keep taking acid-suppressing stomach medication long term?
 excerpt_ja: 「この胃薬、ずっと飲み続けて大丈夫ですか？」これまでの診療でとてもよく聞かれてきた質問です。安定して飲めているからこその、素朴な疑問だと思います。

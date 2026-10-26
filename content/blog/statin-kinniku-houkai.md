@@ -3,6 +3,8 @@ date: 2026.10.05
 cover: /blog/kibana-landscape.png
 category_ja: 健康・予防の話
 category_en: Health and prevention
+subcategory_ja: 生活習慣病・お薬
+subcategory_en: Lifestyle diseases & medication
 title_ja: スタチンは筋肉を崩壊させるのか？〜コレステロール薬の疑問と最新医学〜
 title_en: Does statin medication really "break down" your muscles?
 excerpt_ja: 「スタチンを飲むと筋肉が溶ける」——ネットでそんな言葉を見て、薬をやめようか迷っていませんか。まず知っていただきたいのは、その不安のほとんどが誤解だということです。
