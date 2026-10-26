@@ -21,7 +21,7 @@ excerpt_en: “Is pulmonary NTM a kind of tuberculosis? Can my family catch it?�
 
 **NTM**とは、「非結核性抗酸菌（Non-Tuberculous Mycobacteria）」の略です。少し難しい名前ですが、分解すると分かりやすくなります。
 
-- **抗酸菌**：酸に強い性質を持つ細菌のグループ。代表が「結核菌」です
+- **抗酸菌**：検査で強い酸を使って洗っても色が落ちにくい性質を持つ細菌のグループ。代表が「結核菌」です（名前の由来や、治療に時間がかかる理由は[「抗酸菌」の記事](/blog/hai-kousankin)でご紹介しています）
 - **非結核性**：その抗酸菌のうち、**結核菌（とハンセン病の原因となる菌）以外のもの**
 
 つまり、NTMは「結核菌と同じグループに属するけれど、結核菌ではない菌」の総称で、約200種類が知られています。この菌が肺に住みついて炎症を起こす病気が、**肺NTM症（肺非結核性抗酸菌症）**です。
@@ -125,7 +125,7 @@ In this post, I'll explain as simply as I can the difference between "pulmonary 
 
 **NTM** stands for "non-tuberculous mycobacteria." It's a mouthful, but breaking it down helps:
 
-- **Mycobacteria**: a group of bacteria that are resistant to acid. The best-known member is the tuberculosis bacterium
+- **Mycobacteria**: a group of bacteria whose stain doesn't wash out even with strong acid in lab tests. The best-known member is the tuberculosis bacterium (for where the name comes from and why treatment takes so long, see [our post on acid-fast bacteria](/blog/hai-kousankin))
 - **Non-tuberculous**: the mycobacteria in that group **other than the tuberculosis bacterium (and the one that causes leprosy)**
 
 So NTM is the umbrella term for "bacteria in the same family as tuberculosis, but not tuberculosis itself" — about 200 species are known. When these bacteria settle in the lungs and cause inflammation, it's called **pulmonary NTM disease** (pulmonary non-tuberculous mycobacterial disease).

@@ -3288,6 +3288,345 @@ export const generatedPosts: BlogPost[] = [
     }
   },
   {
+    "slug": "hai-kousankin",
+    "date": "2026.10.26",
+    "cover": "/blog/kibana-landscape.png",
+    "ja": {
+      "category": "健康・予防の話",
+      "title": "「抗酸菌」は酸を出す最強の菌？——名前のせいで誤解されがちな菌の正体",
+      "excerpt": "「抗酸菌が出ています」と言われて、酸を吐く凶悪な菌を想像していませんか。実はその名前、ある「検査の都合」でついたものなのです。",
+      "body": [
+        {
+          "kind": "text",
+          "text": "「検査で抗酸菌が出ていますね」。健診の再検査や、長引く咳で受診された方にそうお伝えすると、少し身構えた表情をされることがあります。「抗酸菌……酸を出す菌ですか？」「胃酸も平気な、すごく強い菌なんですか？」。これまでの診療の中で、そうした質問をいただいたことは一度や二度ではありません。"
+        },
+        {
+          "kind": "text",
+          "text": "確かに、「抗酸」という字面だけを見ると、酸をまき散らす凶悪な菌や、何にも負けない無敵の菌を想像してしまいますよね。"
+        },
+        {
+          "kind": "text",
+          "text": "この記事を読んでいただくと、抗酸菌という名前の本当の意味と、この菌がなぜ「手ごわい」と言われるのかが分かります。そして、**なぜ抗酸菌の治療には何か月、ときには年単位の時間がかかるのか、なぜ痰の検査がそれほど大切なのか**にも、納得していただけると思います。結論から言うと、**「抗酸菌」は酸を出す菌ではなく、「強い酸で洗っても色が落ちない菌」という、検査の性質からついた名前**です。"
+        },
+        {
+          "kind": "text",
+          "text": "## 実は「実験室の都合」でついた名前"
+        },
+        {
+          "kind": "text",
+          "text": "### 「抗酸」は「酸に抵抗する（色が落ちない）」という意味"
+        },
+        {
+          "kind": "text",
+          "text": "「抗酸菌」の「抗酸」は、「酸を出す」という意味ではありません。**「酸に抵抗する」、つまり「強い酸で洗っても、染めた色が落ちない」**という意味なのです。"
+        },
+        {
+          "kind": "text",
+          "text": "細菌はとても小さく、そのままでは顕微鏡で見えにくいため、検査では菌に色をつけて観察します。このとき、ほとんどの細菌は酸で洗うと色が落ちてしまいますが、**抗酸菌だけは、酸で洗っても色が残る**。この性質から、「抗酸性の菌＝抗酸菌」と呼ばれるようになりました。"
+        },
+        {
+          "kind": "text",
+          "text": "### 「特殊な絵の具」と「強力な酸」で洗う検査"
+        },
+        {
+          "kind": "text",
+          "text": "この検査（チール・ネールゼン染色などと呼ばれます）を、身近な例えでご説明します。"
+        },
+        {
+          "kind": "text",
+          "text": "- **① 赤い特殊な絵の具で、しっかり染める**：痰などに含まれる菌を、赤い色素で染めます。抗酸菌は染まりにくいため、温めながら時間をかけて色をしみ込ませます\n- **② 強力な酸で洗う**：次に、酸を含んだ液でゴシゴシ洗います。ふつうの細菌は、ここで赤い色がきれいに落ちてしまいます\n- **③ 青い絵の具で仕上げる**：最後に青い色で全体を染めます"
+        },
+        {
+          "kind": "text",
+          "text": "すると顕微鏡の中で、ふつうの菌は青く、**抗酸菌だけが赤く浮かび上がって見える**のです。"
+        },
+        {
+          "kind": "text",
+          "text": "つまり「抗酸菌」という名前は、菌が酸を出すからでも、胃酸に強いからでもなく、**人間がこの検査をしたときの「色の落ちにくさ」から名づけられた**もの。少し拍子抜けした方もいるかもしれませんね。"
+        },
+        {
+          "kind": "text",
+          "text": "## 強さの秘密は「ロウ（蝋）」でできた鎧"
+        },
+        {
+          "kind": "text",
+          "text": "### 細胞の表面が、分厚い脂のバリアで覆われている"
+        },
+        {
+          "kind": "text",
+          "text": "では、なぜ抗酸菌は、強い酸で洗っても色が落ちないのでしょうか。"
+        },
+        {
+          "kind": "text",
+          "text": "その秘密は、菌の表面にあります。抗酸菌の細胞の壁は、**「ミコール酸」などの脂（あぶら）がたっぷり含まれた、ロウ（蝋）のような分厚い層**で覆われています。"
+        },
+        {
+          "kind": "text",
+          "text": "イメージとしては、**全身に撥水ワックスを何重にも塗りたくった状態**です。ロウソクのロウやワックスが水をはじくように、この脂の鎧が、外から来るものをはじいてしまいます。いったん染み込んだ色素も、同じ理由でなかなか流れ出ていかないのです。"
+        },
+        {
+          "kind": "text",
+          "text": "### 鎧のせいで、多くのお薬や消毒薬が効きにくい"
+        },
+        {
+          "kind": "text",
+          "text": "この「ワックスの鎧」は、色素だけでなく、**多くの抗菌薬や消毒薬も通しにくく**します。ふつうの細菌によく効くお薬の多くが、抗酸菌にはほとんど効きません。"
+        },
+        {
+          "kind": "text",
+          "text": "さらに、抗酸菌には**とてもゆっくり増える**という特徴もあります。ふつうの細菌が数十分で倍に増えるのに対し、結核菌などは倍になるのに半日〜1日近くかかります。のんびり増える菌は、お薬の影響を受けにくい状態でじっと身をひそめていることがあり、これも治療を難しくしている理由のひとつです。"
+        },
+        {
+          "kind": "text",
+          "text": "### 代表的な抗酸菌は「結核菌」と「非結核性抗酸菌（NTM）」"
+        },
+        {
+          "kind": "text",
+          "text": "抗酸菌の仲間で、よく知られているのが次の2つです。"
+        },
+        {
+          "kind": "text",
+          "text": "- **結核菌**：結核の原因になる菌。人から人へうつるため、診断されたら保健所への届け出が必要です\n- **非結核性抗酸菌（NTM）**：結核菌以外の抗酸菌の総称。土や水まわりにいる菌で、**人から人へはうつりません**。近年、日本で患者さんが増えている「肺NTM症（肺MAC症）」の原因です。症状や原因については、[肺NTM症（肺MAC症）の記事](/blog/hai-ntm-sho)で詳しくご紹介しています"
+        },
+        {
+          "kind": "text",
+          "text": "同じ「抗酸菌」でも、うつるかどうか、どんなお薬を使うかがまったく違います。だからこそ、**どの抗酸菌なのかを見分けること**が、とても大切になるのです。"
+        },
+        {
+          "kind": "text",
+          "text": "## だからこそ「じっくり治療」と「痰の検査」が大切です"
+        },
+        {
+          "kind": "text",
+          "text": "### 頑丈な鎧を破るには、何種類ものお薬を長く"
+        },
+        {
+          "kind": "text",
+          "text": "ワックスの鎧をまとい、ゆっくり増え、じっと身をひそめる——そんな抗酸菌を退治するには、短期決戦というわけにはいきません。"
+        },
+        {
+          "kind": "text",
+          "text": "- **何種類ものお薬を組み合わせる**：1種類だけでは、お薬に負けない「耐性菌」が生き残りやすいため、複数のお薬で同時に攻めます\n- **長い期間、続ける**：結核ではふつう**半年以上**、肺MAC症では菌が出なくなってからさらに**1年以上**、お薬を続けるのが一般的です"
+        },
+        {
+          "kind": "text",
+          "text": "「症状が良くなったから」と途中でお薬をやめてしまうと、生き残った菌が再び増えたり、お薬の効かない菌に変わってしまったりするおそれがあります。**長い治療には、ちゃんと理由がある**のです。"
+        },
+        {
+          "kind": "text",
+          "text": "### 画像だけでは、どの菌か分からない"
+        },
+        {
+          "kind": "text",
+          "text": "胸のレントゲンやCTは、肺に影があるかどうか、その形や広がりを知るのにとても役立ちます。けれど、**その影が結核なのか、NTMなのか、あるいはまったく別の病気なのかは、画像だけでは確実には分かりません**。"
+        },
+        {
+          "kind": "text",
+          "text": "そこで欠かせないのが、**痰の検査（喀痰検査）**です。"
+        },
+        {
+          "kind": "text",
+          "text": "- 顕微鏡で、先ほどの「赤く染まる菌」がいるかを調べる\n- 菌を育てて（培養して）、どの種類の抗酸菌なのかを確かめる\n- 遺伝子の検査で、結核菌かどうかを素早く調べることもある"
+        },
+        {
+          "kind": "text",
+          "text": "抗酸菌はゆっくり増えるため、培養の結果が出るまでに**数週間**かかることがあります。また、1回の痰では菌が見つからないこともあるため、**日を変えて何回か**痰を出していただくのが一般的です。"
+        },
+        {
+          "kind": "text",
+          "text": "### 痰の検査をうまく受けるコツ"
+        },
+        {
+          "kind": "text",
+          "text": "- **朝起きてすぐ**の痰が、菌が見つかりやすいとされています\n- 先に水で軽く**うがい**をして、口の中をきれいにしてから\n- 唾液ではなく、**胸の奥から「ゴホン」と出した痰**を容器に入れてください"
+        },
+        {
+          "kind": "text",
+          "text": "## 院長からのメッセージ"
+        },
+        {
+          "kind": "text",
+          "text": "「抗酸菌」という名前は、聞くと少し怖く感じるかもしれません。けれど実際は、酸を出す菌でも、何にでも勝つ無敵の菌でもありません。ただ、ワックスの鎧をまとった、**少し手ごわく、じっくり付き合う必要がある菌**なのです。"
+        },
+        {
+          "kind": "text",
+          "text": "痰の検査は、何度もお願いすることがあって面倒に感じるかもしれませんが、どの菌なのかを正しく見極め、あなたに合った治療を選ぶための、いちばん確かな手がかりです。そして治療が始まったら、長い道のりを途中で投げ出さないよう、一緒に伴走していきたいと思っています。"
+        },
+        {
+          "kind": "text",
+          "text": "長引く咳や痰が続くとき、健診で「抗酸菌」「要精査」と言われて不安なときは、どうぞ一人で悩まず、お気軽にご相談ください。"
+        }
+      ]
+    },
+    "en": {
+      "category": "Health and prevention",
+      "title": "Are “acid-fast bacteria” super-germs that spit acid? The truth behind a misleading name",
+      "excerpt": "Told “acid-fast bacteria were found” and picturing a vicious germ that spits acid? That name actually comes from how the bacteria behave in a lab test.",
+      "body": [
+        {
+          "kind": "text",
+          "text": "\"Your test shows acid-fast bacteria.\" When I tell this to people coming in for a follow-up after a checkup, or for a cough that won't go away, I sometimes see them tense up. \"Acid-fast... does that mean it produces acid?\" \"Is it some super-strong germ that can even survive stomach acid?\" Over the years, I've been asked questions like these more than once or twice."
+        },
+        {
+          "kind": "text",
+          "text": "It's true — judging by the name alone, it's easy to picture a vicious germ spraying acid, or an invincible one that nothing can beat."
+        },
+        {
+          "kind": "text",
+          "text": "By the end of this post, you'll know what the name \"acid-fast bacteria\" really means and why these bacteria are considered \"tough.\" I think you'll also understand **why treatment for them takes months, sometimes years, and why sputum tests matter so much.** The short answer: **\"acid-fast bacteria\" don't produce acid — the name means \"bacteria whose stain doesn't wash out even with strong acid,\" a description based on how they behave in a lab test.**"
+        },
+        {
+          "kind": "text",
+          "text": "## A name that comes from \"lab convenience\""
+        },
+        {
+          "kind": "text",
+          "text": "### \"Acid-fast\" means \"resists acid\" — the color won't wash out"
+        },
+        {
+          "kind": "text",
+          "text": "The \"acid-fast\" in acid-fast bacteria doesn't mean \"makes acid.\" It means **\"resists acid\" — in other words, \"the stain doesn't wash out even with strong acid.\"**"
+        },
+        {
+          "kind": "text",
+          "text": "Bacteria are tiny and hard to see under a microscope as they are, so in testing they're colored with dye. Most bacteria lose their color when washed with acid, but **acid-fast bacteria keep their color even after an acid wash.** That property is where the name comes from."
+        },
+        {
+          "kind": "text",
+          "text": "### A test using \"special paint\" and \"strong acid\""
+        },
+        {
+          "kind": "text",
+          "text": "Here's an everyday way to picture this test (known as Ziehl–Neelsen staining, among others):"
+        },
+        {
+          "kind": "text",
+          "text": "- **① Stain thoroughly with a special red paint**: Bacteria in a sample such as sputum are dyed with a red stain. Because acid-fast bacteria resist staining, the color is worked in over time with gentle heating\n- **② Wash with strong acid**: Next, the sample is scrubbed with an acid-containing solution. Ordinary bacteria lose their red color completely at this step\n- **③ Finish with blue paint**: Finally, everything is counterstained blue"
+        },
+        {
+          "kind": "text",
+          "text": "Under the microscope, ordinary bacteria now look blue, while **only the acid-fast bacteria stand out in red.**"
+        },
+        {
+          "kind": "text",
+          "text": "In other words, the name \"acid-fast\" isn't because the bacteria produce acid or resist stomach acid — **it comes from how hard their color is to wash out when humans run this test.** Perhaps a bit of an anticlimax!"
+        },
+        {
+          "kind": "text",
+          "text": "## The secret of their toughness: armor made of \"wax\""
+        },
+        {
+          "kind": "text",
+          "text": "### A thick, fatty barrier covers the cell surface"
+        },
+        {
+          "kind": "text",
+          "text": "So why doesn't the color wash out of acid-fast bacteria, even with strong acid?"
+        },
+        {
+          "kind": "text",
+          "text": "The secret lies on their surface. The cell wall of acid-fast bacteria is covered with **a thick, wax-like layer rich in fats such as \"mycolic acids.\"**"
+        },
+        {
+          "kind": "text",
+          "text": "Picture it as **being coated head to toe in layer upon layer of water-repellent wax.** Just as candle wax or car wax repels water, this fatty armor repels things coming from outside. Once dye has soaked in, the same armor keeps it from washing back out."
+        },
+        {
+          "kind": "text",
+          "text": "### The armor makes many medicines and disinfectants less effective"
+        },
+        {
+          "kind": "text",
+          "text": "This \"wax armor\" doesn't just block dye — it also **makes it hard for many antibiotics and disinfectants to get through.** Many medicines that work well against ordinary bacteria have little effect on acid-fast bacteria."
+        },
+        {
+          "kind": "text",
+          "text": "Acid-fast bacteria also **grow very slowly.** Ordinary bacteria can double in tens of minutes, while tuberculosis bacteria take half a day to nearly a full day. Slow-growing bacteria can lie low in a state that's less affected by medicine — another reason treatment is difficult."
+        },
+        {
+          "kind": "text",
+          "text": "### Two well-known acid-fast bacteria: tuberculosis and NTM"
+        },
+        {
+          "kind": "text",
+          "text": "Two members of the acid-fast family are especially well known:"
+        },
+        {
+          "kind": "text",
+          "text": "- **Tuberculosis bacteria**: the cause of tuberculosis. Because it spreads from person to person, a diagnosis must be reported to the public health center\n- **Non-tuberculous mycobacteria (NTM)**: the umbrella term for acid-fast bacteria other than tuberculosis. They live in soil and water and **do not spread from person to person.** They cause \"pulmonary NTM disease (pulmonary MAC disease),\" which has been increasing in Japan in recent years. For its symptoms and causes, see [our post on pulmonary NTM (MAC) disease](/blog/hai-ntm-sho)"
+        },
+        {
+          "kind": "text",
+          "text": "Both are \"acid-fast,\" but whether they spread and which medicines are used differ completely. That's exactly why **identifying which acid-fast bacterium it is** matters so much."
+        },
+        {
+          "kind": "text",
+          "text": "## That's why \"patient treatment\" and \"sputum tests\" matter"
+        },
+        {
+          "kind": "text",
+          "text": "### Breaking through tough armor takes several medicines over a long time"
+        },
+        {
+          "kind": "text",
+          "text": "Acid-fast bacteria wear wax armor, grow slowly and lie low — so beating them can't be a quick fight."
+        },
+        {
+          "kind": "text",
+          "text": "- **Several medicines are combined**: With just one, bacteria that resist it (\"resistant bacteria\") are more likely to survive, so several medicines attack at once\n- **Treatment continues for a long time**: For tuberculosis, usually **six months or more**; for pulmonary MAC disease, treatment typically continues for **at least a year** after the bacteria disappear from the sputum"
+        },
+        {
+          "kind": "text",
+          "text": "If you stop the medicine partway because \"the symptoms got better,\" surviving bacteria can multiply again or turn into bacteria the medicine no longer works on. **There's a good reason treatment is long.**"
+        },
+        {
+          "kind": "text",
+          "text": "### Imaging alone can't tell which bacterium it is"
+        },
+        {
+          "kind": "text",
+          "text": "Chest X-rays and CT scans are very useful for seeing whether there's a shadow in the lungs, and its shape and extent. But **imaging alone can't reliably tell whether that shadow is tuberculosis, NTM or something else entirely.**"
+        },
+        {
+          "kind": "text",
+          "text": "That's where **sputum tests** become essential:"
+        },
+        {
+          "kind": "text",
+          "text": "- Checking under the microscope for the \"red-stained bacteria\" described above\n- Growing (culturing) the bacteria to identify which type of acid-fast bacterium it is\n- Sometimes using a genetic test to quickly check for tuberculosis"
+        },
+        {
+          "kind": "text",
+          "text": "Because acid-fast bacteria grow slowly, culture results can take **several weeks.** And since bacteria may not show up in a single sample, it's common to provide sputum **several times on different days.**"
+        },
+        {
+          "kind": "text",
+          "text": "### Tips for a good sputum sample"
+        },
+        {
+          "kind": "text",
+          "text": "- Sputum **right after waking up** is said to be the most likely to contain bacteria\n- **Rinse your mouth** lightly with water first to clean it\n- Collect sputum **coughed up from deep in your chest,** not saliva"
+        },
+        {
+          "kind": "text",
+          "text": "## A message from the director"
+        },
+        {
+          "kind": "text",
+          "text": "The name \"acid-fast bacteria\" may sound a little frightening. But in reality, they're neither acid-producing germs nor invincible ones. They're bacteria wearing wax armor — **a bit tough, and something you need to deal with patiently.**"
+        },
+        {
+          "kind": "text",
+          "text": "Being asked for sputum samples again and again may feel like a hassle, but it's the most reliable clue for correctly identifying the bacterium and choosing the right treatment for you. And once treatment begins, I want to run alongside you so the long road doesn't get abandoned halfway."
+        },
+        {
+          "kind": "text",
+          "text": "If a cough or phlegm won't go away, or a checkup flagged \"acid-fast bacteria\" or \"further testing needed\" and you're worried, please don't keep it to yourself — feel free to talk to us."
+        }
+      ]
+    }
+  },
+  {
     "slug": "hai-ntm-sho",
     "date": "2026.10.26",
     "cover": "/blog/kibana-landscape.png",
@@ -3318,7 +3657,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "- **抗酸菌**：酸に強い性質を持つ細菌のグループ。代表が「結核菌」です\n- **非結核性**：その抗酸菌のうち、**結核菌（とハンセン病の原因となる菌）以外のもの**"
+          "text": "- **抗酸菌**：検査で強い酸を使って洗っても色が落ちにくい性質を持つ細菌のグループ。代表が「結核菌」です（名前の由来や、治療に時間がかかる理由は[「抗酸菌」の記事](/blog/hai-kousankin)でご紹介しています）\n- **非結核性**：その抗酸菌のうち、**結核菌（とハンセン病の原因となる菌）以外のもの**"
         },
         {
           "kind": "text",
@@ -3497,7 +3836,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "- **Mycobacteria**: a group of bacteria that are resistant to acid. The best-known member is the tuberculosis bacterium\n- **Non-tuberculous**: the mycobacteria in that group **other than the tuberculosis bacterium (and the one that causes leprosy)**"
+          "text": "- **Mycobacteria**: a group of bacteria whose stain doesn't wash out even with strong acid in lab tests. The best-known member is the tuberculosis bacterium (for where the name comes from and why treatment takes so long, see [our post on acid-fast bacteria](/blog/hai-kousankin))\n- **Non-tuberculous**: the mycobacteria in that group **other than the tuberculosis bacterium (and the one that causes leprosy)**"
         },
         {
           "kind": "text",

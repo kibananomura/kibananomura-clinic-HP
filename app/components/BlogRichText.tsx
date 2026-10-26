@@ -1,4 +1,5 @@
 import type { ReactNode } from "react";
+import Link from "next/link";
 
 /**
  * ブログ本文の軽量Markdownレンダラー。
@@ -9,11 +10,20 @@ import type { ReactNode } from "react";
  *   - 行頭 "### " → 見出し(h3)
  *   - 行頭 "- " が連続する行 → 箇条書き(ul)
  *   - "**強調したい文字**" → 太字(strong)
+ *   - "[リンク文字](/blog/slug)" → サイト内リンク（"/" 始まりのパスのみ）
  */
 
 function renderInline(text: string): ReactNode[] {
-  const parts = text.split(/(\*\*[^*]+\*\*)/g);
+  const parts = text.split(/(\*\*[^*]+\*\*|\[[^\]]+\]\(\/[^)\s]*\))/g);
   return parts.map((part, i) => {
+    const link = part.match(/^\[([^\]]+)\]\((\/[^)\s]*)\)$/);
+    if (link) {
+      return (
+        <Link key={i} href={link[2]} className="font-bold text-primary-dark underline underline-offset-2">
+          {link[1]}
+        </Link>
+      );
+    }
     if (part.startsWith("**") && part.endsWith("**") && part.length > 4) {
       return (
         <strong key={i} className="font-bold text-ink">

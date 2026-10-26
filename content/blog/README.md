@@ -68,3 +68,8 @@ Second paragraph.
 手動で再生成したいときは `npm run blog:gen` を実行してください。
 
 `app/lib/blog-data.generated.ts` は自動生成ファイルなので、直接編集しないでください。
+
+## 記事どうしのリンク
+
+本文中に `[リンク文字](/blog/記事のslug)` と書くと、サイト内リンクになります（`/` で始まるサイト内のパスのみ対応）。
+例: `[肺NTM症の記事](/blog/hai-ntm-sho)`
