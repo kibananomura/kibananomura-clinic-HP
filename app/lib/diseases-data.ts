@@ -362,6 +362,65 @@ export const DISEASES: DiseaseEntry[] = [
     },
   },
   {
+    slug: "pulmonary-ntm",
+    title: "肺NTM症（肺非結核性抗酸菌症・肺MAC症）",
+    category: "internal",
+    summary: "結核菌以外の抗酸菌（NTM）が肺に住みついて炎症を起こす病気で、日本ではその約9割がMACという菌による「肺MAC症」です。人から人へはうつりません。",
+    pathology:
+      "非結核性抗酸菌（NTM）は、__結核菌以外の抗酸菌の総称__で、土の中や浴室・シャワーヘッド・加湿器などの__身近な水まわりに普通に存在する菌__です。菌を含んだほこりや水しぶきを吸い込むことで肺に入ると考えられており、**結核とは異なり、人から人へうつることはないとされています**（肺NTM症と確定すれば、保健所への届け出や隔離は必要ありません）。日本の肺NTM症の__約9割はMAC（Mycobacterium avium complex）__によるもので、近年患者さんが増えています。特に__中高年のやせ型の女性__に多く、小さな粒状の影と気管支の拡張がみられる「結節・気管支拡張型」が代表的です。多くは__何年もかけてゆっくり進行__し、初めは無症状で健診の胸部X線やCTで見つかることも少なくありません。進行すると、長引く咳・痰・血痰・微熱・だるさ・体重減少などが現れることがあります。",
+    tests:
+      "胸部X線・__胸部CT__で、影の形や広がりを確認します。診断には画像所見に加えて菌の確認が必要で、__喀痰（痰）の抗酸菌検査（塗抹・培養・菌種の同定）__を行います。日本の診断基準では、原則として**2回以上の異なる喀痰から同じ菌種が培養される**こと（または気管支鏡検査での検体から1回培養されること）などが目安とされています。痰が出にくく気管支鏡検査が必要な場合は、専門医療機関に依頼します。菌はゆっくり増えるため、培養結果が出るまで数週間かかります。補助的に、__MAC抗体を調べる血液検査__（保険適用）もあります。同じ抗酸菌である**結核との区別**も、重要な目的のひとつです。",
+    treatment:
+      "診断されても、**すぐに治療を始めるとは限りません**。症状が軽く、病変が小さく、進行がゆっくりな場合は、定期的な画像検査や喀痰検査で__経過観察__を行うことも一般的な選択肢です。病変が広がっている、空洞がある、症状が強いなどの場合には治療を検討し、肺MAC症では一般的に、__マクロライド系薬（クラリスロマイシンまたはアジスロマイシン）・エタンブトール・リファンピシンの3剤併用__を、__菌が検出されなくなってからも1年以上__続けます。エタンブトールによる視力の変化（眼科での定期検査を併用します）や、リファンピシンと他のお薬との飲み合わせなどに注意しながら進めます。なお、マクロライド系の薬を単独で長く飲むと、薬が効かない菌（耐性菌）が生じやすいため、単独での使用は避けます。当院では、__軽症と判断できる場合は当院で治療を行うこともあり__、重症化した場合や、注射薬・吸入薬の追加などより専門的な治療が必要な場合は、**呼吸器を専門とする医療機関へご紹介**します。",
+    tip: "菌は身近な環境にいるため完全には避けられませんが、__浴室の換気・清掃、シャワーヘッドや加湿器のこまめな手入れ、土いじりの際のマスク着用__で吸い込む機会を減らせます。しっかり食べて__体重と体力を保つ__ことも大切です。**人にうつる病気ではない**ので、ご家族と普段どおりに過ごしていただいて大丈夫です。なお、__血痰が増えた、まとまった量の血を吐いた__場合は、早めにご連絡ください。",
+    sources: [
+      { label: "日本結核病学会・日本呼吸器学会「肺非結核性抗酸菌症診断に関する指針―2008年」" },
+      { label: "日本結核・非結核性抗酸菌症学会 非結核性抗酸菌症対策委員会「成人肺非結核性抗酸菌症化学療法に関する見解―2023年改訂」" },
+    ],
+    lastReviewed: "2026-10-27",
+    en: {
+      title: "Pulmonary NTM disease (non-tuberculous mycobacterial lung disease / pulmonary MAC disease)",
+      summary: "A lung disease in which mycobacteria other than tuberculosis (NTM) settle in the lungs and cause inflammation. In Japan, about 90% of cases are \"pulmonary MAC disease,\" caused by bacteria called MAC. It does not spread from person to person.",
+      pathology:
+        "Non-tuberculous mycobacteria (NTM) is __the umbrella term for mycobacteria other than tuberculosis__. They are __ordinary bacteria found in soil and around everyday water sources__ such as bathrooms, shower heads and humidifiers. They're thought to reach the lungs when dust or water droplets containing them are inhaled, and **unlike tuberculosis, the disease is not considered to spread from person to person** (once confirmed as NTM disease, no public health reporting or isolation is needed). In Japan, __about 90% of pulmonary NTM disease is caused by MAC (Mycobacterium avium complex)__, and the number of patients has been rising. It is especially common in __middle-aged and older slim women__, typically in a \"nodular bronchiectatic\" form with small nodular shadows and widened airways. It usually __progresses slowly over years__, and is often found by chance on a checkup chest X-ray or CT before any symptoms appear. As it progresses, a lingering cough, phlegm, blood-streaked sputum, low-grade fever, fatigue and weight loss may develop.",
+      tests:
+        "A chest X-ray and __chest CT__ show the shape and extent of the shadows. Diagnosis requires confirming the bacteria as well as the imaging findings, so we perform __sputum tests for mycobacteria (smear, culture and species identification)__. Under Japanese diagnostic criteria, a key benchmark is generally **the same species being cultured from two or more separate sputum samples** (or from one bronchoscopy sample). If sputum is hard to produce and a bronchoscopy is needed, we arrange it with a specialist institution. Because the bacteria grow slowly, culture results take several weeks. A __blood test for MAC antibodies__ (covered by insurance) can also support the diagnosis. **Ruling out tuberculosis**, caused by bacteria from the same family, is another important goal.",
+      treatment:
+        "Even after diagnosis, **treatment doesn't always start straight away**. When symptoms are mild, lesions are small and progression is slow, __monitoring__ with regular imaging and sputum tests is a common option. When lesions are spreading, cavities are present or symptoms are significant, treatment is considered; for pulmonary MAC disease this generally means __a three-drug combination of a macrolide (clarithromycin or azithromycin), ethambutol and rifampicin__, continued for __at least a year after the bacteria are no longer detected__. We watch for vision changes from ethambutol (with regular eye checks at an ophthalmologist) and interactions between rifampicin and other medications. Because taking a macrolide on its own for a long time easily leads to resistant bacteria, it is not used alone. At our clinic, __when the disease can be judged to be mild, we may treat it here__; if it becomes severe, or more specialized treatment such as added injectable or inhaled medication is needed, **we refer you to an institution specializing in respiratory medicine**.",
+      tip: "Because the bacteria live in everyday environments, you can't avoid them completely, but __ventilating and cleaning the bathroom, regularly cleaning shower heads and humidifiers, and wearing a mask when handling soil__ reduce how often you breathe them in. __Maintaining your weight and strength__ by eating well also matters. **It isn't contagious**, so you can spend time with your family as usual. If __blood in your sputum increases, or you cough up a significant amount of blood__, please contact us promptly.",
+    },
+  },
+  {
+    slug: "legionellosis",
+    title: "レジオネラ症（レジオネラ肺炎）",
+    category: "internal",
+    summary: "温泉の循環式浴槽や加湿器などで増えたレジオネラ菌を、しぶきとして吸い込むことで起こる感染症です。重症化しやすい「レジオネラ肺炎」と、軽症の「ポンティアック熱」があります。",
+    pathology:
+      "レジオネラ菌は、川や土など__自然界にもともといる細菌__で、__20〜50℃程度のお湯（特に36℃前後）で増えやすい__性質があります。温泉・銭湯の循環式浴槽、家庭の24時間風呂、加湿器、ビルの冷却塔などで、ヌメリ（バイオフィルム）の中で増殖することがあります。また、__腐葉土・園芸用土__から感染した例も報告されています。__菌を含んだ細かい水しぶき（エアロゾル）や湯気を吸い込む__ことで感染し、**基本的に人から人へはうつらないとされています**。主に2つの病型があり、__レジオネラ肺炎__は吸入から2〜10日ほどで、突然の高熱・悪寒・頭痛・筋肉痛・乾いた咳・だるさなどで発症し、下痢などの消化器症状や、進行すると呼吸困難・意識障害を伴うことがあります。**進行が早く重症化しやすい**ため注意が必要です。もう一方の__ポンティアック熱__は、吸入から1〜2日ほどでインフルエンザに似た発熱や筋肉痛が出ますが、肺炎にはならず数日で自然に軽快することが多いタイプです。__ご高齢の方、喫煙される方、糖尿病・慢性の肺の病気がある方、免疫を抑える治療中の方__は重症化しやすいとされています。",
+    tests:
+      "胸部X線・__胸部CT__で肺炎の有無と広がりを確認し、血液検査で炎症の程度や、レジオネラ肺炎でみられやすい__低ナトリウム血症・肝機能や筋酵素（CK）の上昇__などを確認します。原因菌を調べるため、__尿中抗原検査や喀痰の培養・遺伝子検査__を行います（外部の検査機関に依頼し、結果を待たずに治療を開始することがあります）。尿中抗原検査は主に一部の菌の型を検出するため、**陰性でもレジオネラ症を完全には否定できない**点に注意が必要です。__2週間以内の温泉・入浴施設の利用歴や、腐葉土を使った園芸作業__なども、診断の大切な手がかりになります。",
+    treatment:
+      "レジオネラ菌は人の細胞の中で増えるため、**一般的な肺炎でよく使われるペニシリン系などの抗菌薬では効果が期待できないため**、__細胞内に移行しやすいニューキノロン系やマクロライド系の抗菌薬__で治療します。疑った段階で、早期に適切な抗菌薬を開始することが重要です。呼吸状態が悪い場合や重症の場合は、**入院治療が可能な医療機関と連携**して対応します。ポンティアック熱は、多くの場合、解熱薬などの対症療法で軽快します。なお、レジオネラ症は感染症法の4類感染症（全数把握）として、診断した医師が直ちに保健所へ届け出ます。",
+    tip: "家庭では、__加湿器の水を毎日入れ替え、タンクをこまめに洗う__ことが予防の基本です。__24時間風呂はフィルターの清掃・交換と定期的な湯の入れ替え__を。温泉や入浴施設の利用後2週間以内に高熱や咳が出たときは、受診の際に**「温泉（入浴施設）に行きました」と医師に伝えてください**。",
+    sources: [
+      { label: "国立健康危機管理研究機構（旧国立感染症研究所）「レジオネラ症」" },
+      { label: "厚生労働省健康局生活衛生課 監修「レジオネラ症防止指針（第4版）」（日本建築衛生管理教育センター、2017年）" },
+      { label: "日本呼吸器学会「成人肺炎診療ガイドライン2024」" },
+    ],
+    lastReviewed: "2026-10-27",
+    en: {
+      title: "Legionnaires' disease (Legionella pneumonia)",
+      summary: "An infection caused by breathing in spray containing Legionella bacteria that have multiplied in places such as recirculating hot spring baths or humidifiers. There are two forms: \"Legionella pneumonia,\" which can become severe, and the milder \"Pontiac fever.\"",
+      pathology:
+        "Legionella is __a bacterium that naturally lives in rivers and soil__ and __multiplies readily in water of about 20–50°C (especially around 36°C)__. It can grow in slime (biofilm) in recirculating baths at hot springs and bathhouses, 24-hour home bath systems, humidifiers and building cooling towers. Infections from __leaf mold and garden soil__ have also been reported. Infection occurs when __fine water droplets (aerosols) or steam containing the bacteria are inhaled__, and **it is generally not considered to spread from person to person**. There are two main forms. __Legionella pneumonia__ begins about 2–10 days after exposure with a sudden high fever, chills, headache, muscle aches, dry cough and fatigue, sometimes with diarrhea, and can progress to breathing difficulty or confusion. **It progresses quickly and tends to become severe.** __Pontiac fever__ causes flu-like fever and muscle aches about 1–2 days after exposure, but doesn't cause pneumonia and usually resolves on its own within a few days. __Older adults, smokers, people with diabetes or chronic lung disease, and those on immunosuppressive treatment__ are at higher risk of severe illness.",
+      tests:
+        "A chest X-ray and __chest CT__ check for pneumonia and its extent, and blood tests assess inflammation as well as findings common in Legionella pneumonia, such as __low sodium and elevated liver enzymes or muscle enzymes (CK)__. To identify the cause, we perform __a urinary antigen test and sputum culture or genetic testing__ (sent to an outside laboratory; treatment may be started without waiting for the results). Because the urinary antigen test mainly detects certain types of the bacterium, **a negative result doesn't completely rule out Legionnaires' disease**. __Use of a hot spring or bathing facility, or gardening with leaf mold, within the past two weeks__ is also an important diagnostic clue.",
+      treatment:
+        "Because Legionella multiplies inside human cells, **antibiotics commonly used for ordinary pneumonia, such as penicillins, cannot be expected to work**, so treatment uses __fluoroquinolone or macrolide antibiotics, which penetrate cells well__. Starting the right antibiotic early, as soon as it's suspected, is important. When breathing is compromised or illness is severe, **we work with hospitals that can provide inpatient care**. Pontiac fever usually improves with symptomatic treatment such as fever reducers. Under Japan's Infectious Diseases Control Law, Legionnaires' disease is a Category IV notifiable disease (all cases reported), and the diagnosing physician reports it to the public health center immediately.",
+      tip: "At home, the basics of prevention are __changing humidifier water every day and cleaning the tank regularly__. For __24-hour bath systems, clean or replace the filter and change the water regularly__. If you develop a high fever or cough within two weeks of visiting a hot spring or bathing facility, **tell the doctor \"I went to a hot spring (bathing facility)\"** when you come in.",
+    },
+  },
+  {
     slug: "overactive-bladder",
     title: "過活動膀胱（OAB）",
     category: "internal",
@@ -2691,6 +2750,8 @@ export const INTERNAL_SUBCATEGORIES: { label: string; labelEn: string; slugs: st
       "asthma-child",
       "community-acquired-pneumonia",
       "aspiration-pneumonia",
+      "pulmonary-ntm",
+      "legionellosis",
     ],
   },
   {
@@ -2796,6 +2857,9 @@ export const DISEASE_LINK_LABELS: DiseaseLinkLabel[] = DISEASES
     { label: "膀胱炎", slug: "acute-cystitis" },
     { label: "市中肺炎", slug: "community-acquired-pneumonia" },
     { label: "誤嚥性肺炎", slug: "aspiration-pneumonia" },
+    { label: "肺MAC症", slug: "pulmonary-ntm" },
+    { label: "非結核性抗酸菌症", slug: "pulmonary-ntm" },
+    { label: "レジオネラ肺炎", slug: "legionellosis" },
     { label: "過活動膀胱", slug: "overactive-bladder" },
     { label: "不眠症", slug: "insomnia" },
     { label: "口内炎", slug: "stomatitis" },

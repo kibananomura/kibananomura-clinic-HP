@@ -7,8 +7,9 @@ import { SoftBlob } from "../../components/Decor";
 import BlogRichText from "../../components/BlogRichText";
 import { useSite } from "../../lib/site";
 import { getPost, getContent, getAdjacentPosts } from "../../lib/blog";
+import type { RelatedLink } from "../../lib/related-content";
 
-export default function BlogArticle() {
+export default function BlogArticle({ relatedDiseases = [] }: { relatedDiseases?: RelatedLink[] }) {
   const { t, lang } = useSite();
   const params = useParams();
   const slug = String(params?.slug ?? "");
@@ -74,6 +75,27 @@ export default function BlogArticle() {
               )
             )}
           </div>
+
+          {relatedDiseases.length > 0 && (
+            <div className="mt-10 rounded-3xl bg-surface/90 p-6 shadow-card sm:p-7">
+              <p className="text-base font-bold text-primary-dark">
+                {lang === "en" ? "Learn more about the condition" : "関連する病気の解説"}
+              </p>
+              <ul className="mt-3 space-y-2">
+                {relatedDiseases.map((d) => (
+                  <li key={d.slug}>
+                    <Link
+                      href={`/diseases/${d.slug}`}
+                      className="flex items-center justify-between gap-3 rounded-2xl border border-primary/15 px-4 py-3 text-sm font-bold text-ink transition-colors hover:bg-accent/60 hover:text-primary-dark"
+                    >
+                      <span>{lang === "en" ? d.titleEn : d.titleJa}</span>
+                      <span aria-hidden="true" className="shrink-0 text-primary">→</span>
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          )}
 
           <div className="mt-12 rounded-3xl bg-surface/90 p-6 text-center shadow-card sm:p-8">
             <p className="text-base font-bold text-ink">

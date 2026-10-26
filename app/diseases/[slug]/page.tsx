@@ -4,6 +4,8 @@ import { BASE_URL } from "../../lib/seo";
 import { getDisease, DISEASES } from "../../lib/diseases-data";
 import DiseasePageClient from "./DiseasePageClient";
 import BreadcrumbJsonLd from "../../components/BreadcrumbJsonLd";
+import { getPost } from "../../lib/blog";
+import { getRelatedPostSlugs, type RelatedLink } from "../../lib/related-content";
 
 export function generateStaticParams() {
   return DISEASES.map((d) => ({ slug: d.slug }));
@@ -44,6 +46,10 @@ export default async function DiseasePage({
 }) {
   const { slug } = await params;
   const disease = getDisease(slug);
+  const relatedPosts: RelatedLink[] = getRelatedPostSlugs(slug).flatMap((postSlug) => {
+    const post = getPost(postSlug);
+    return post ? [{ slug: post.slug, titleJa: post.ja.title, titleEn: post.en.title }] : [];
+  });
   return (
     <>
       <BreadcrumbJsonLd
@@ -53,7 +59,7 @@ export default async function DiseasePage({
           { name: disease?.title ?? slug, url: `/diseases/${slug}` },
         ]}
       />
-      <DiseasePageClient disease={disease} />
+      <DiseasePageClient disease={disease} relatedPosts={relatedPosts} />
     </>
   );
 }

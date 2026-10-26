@@ -5,6 +5,8 @@ import { getPost, getContent } from "../../lib/blog";
 import BlogArticleClient from "./BlogArticleClient";
 import BreadcrumbJsonLd from "../../components/BreadcrumbJsonLd";
 import ArticleJsonLd from "../../components/ArticleJsonLd";
+import { getDisease } from "../../lib/diseases-data";
+import { getRelatedDiseaseSlugs, type RelatedLink } from "../../lib/related-content";
 
 export async function generateMetadata({
   params,
@@ -41,6 +43,10 @@ export default async function BlogArticle({
   const { slug } = await params;
   const post = getPost(slug);
   const title = post ? getContent(post, "ja").title : slug;
+  const relatedDiseases: RelatedLink[] = getRelatedDiseaseSlugs(slug).flatMap((diseaseSlug) => {
+    const d = getDisease(diseaseSlug);
+    return d ? [{ slug: d.slug, titleJa: d.title, titleEn: d.en?.title ?? d.title }] : [];
+  });
   return (
     <>
       <BreadcrumbJsonLd
@@ -59,7 +65,7 @@ export default async function BlogArticle({
           date={post.date}
         />
       )}
-      <BlogArticleClient />
+      <BlogArticleClient relatedDiseases={relatedDiseases} />
     </>
   );
 }

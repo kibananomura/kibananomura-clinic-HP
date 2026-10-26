@@ -19,6 +19,7 @@ import {
   getDiseaseContent,
   type DiseaseEntry,
 } from "../../lib/disease-shared";
+import type { RelatedLink } from "../../lib/related-content";
 
 const UI_TEXT = {
   ja: {
@@ -29,6 +30,7 @@ const UI_TEXT = {
     pricingLink: "料金ページへ →",
     sources: "出典",
     backToList: "疾患一覧へ戻る",
+    relatedPosts: "関連する院長ブログ",
   },
   en: {
     pathology: "What's happening",
@@ -38,6 +40,7 @@ const UI_TEXT = {
     pricingLink: "View pricing →",
     sources: "Sources",
     backToList: "Back to all conditions",
+    relatedPosts: "Related posts from the director's blog",
   },
 };
 
@@ -58,7 +61,13 @@ function Block({
   );
 }
 
-export default function DiseasePageClient({ disease }: { disease: DiseaseEntry | undefined }) {
+export default function DiseasePageClient({
+  disease,
+  relatedPosts = [],
+}: {
+  disease: DiseaseEntry | undefined;
+  relatedPosts?: RelatedLink[];
+}) {
   const { t, lang } = useSite();
 
   if (!disease) {
@@ -151,6 +160,25 @@ export default function DiseasePageClient({ disease }: { disease: DiseaseEntry |
               </div>
             )}
           </FadeIn>
+
+          {relatedPosts.length > 0 && (
+            <FadeIn className="mt-8 rounded-[1.75rem] bg-surface/90 p-7 shadow-card">
+              <h2 className="text-base font-bold text-primary-dark">{ui.relatedPosts}</h2>
+              <ul className="mt-3 space-y-2">
+                {relatedPosts.map((p) => (
+                  <li key={p.slug}>
+                    <Link
+                      href={`/blog/${p.slug}`}
+                      className="flex items-center justify-between gap-3 rounded-2xl border border-primary/15 px-4 py-3 text-sm font-bold text-ink transition-colors hover:bg-accent/60 hover:text-primary-dark"
+                    >
+                      <span>{lang === "en" ? p.titleEn : p.titleJa}</span>
+                      <span aria-hidden="true" className="shrink-0 text-primary">→</span>
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </FadeIn>
+          )}
 
           {c.subsections && c.subsections.length > 0 && (
             <div className="mt-8 space-y-6">
