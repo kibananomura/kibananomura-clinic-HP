@@ -1,5 +1,5 @@
 ---
-date: 2026.10.25
+date: 2026.09.28
 cover: /blog/kibana-landscape.png
 category_ja: 院長のキャリア
 category_en: Director's career

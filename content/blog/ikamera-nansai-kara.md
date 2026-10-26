@@ -1,5 +1,5 @@
 ---
-date: 2026.10.26
+date: 2026.09.30
 cover: /blog/kibana-landscape.png
 category_ja: 健康・予防の話
 category_en: Health and prevention

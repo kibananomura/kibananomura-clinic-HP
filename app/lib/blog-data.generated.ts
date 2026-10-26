@@ -446,6 +446,1824 @@ export const generatedPosts: BlogPost[] = [
     }
   },
   {
+    "slug": "hikari-onnetsu-kenkyu",
+    "date": "2026.09.28",
+    "cover": "/blog/kibana-landscape.png",
+    "ja": {
+      "category": "院長のキャリア",
+      "title": "「光でがんを温める」研究に打ち込んでいた頃の話",
+      "excerpt": "今年7月、「がん細胞を光の熱で壊す」研究がニュースになりました。実はこの治療、私が大学院時代に打ち込んでいた研究テーマでもあります。",
+      "body": [
+        {
+          "kind": "text",
+          "text": "今年（2026年）7月、「がん細胞を熱で破壊する『光熱療法』実現へ新技術」というニュースが、Yahoo!ニュースにも掲載されました（ニュースイッチ／日刊工業新聞社）。東北大学などの研究グループが、光を熱に変える微粒子をがんに届けやすくする新しい技術を開発し、マウスの大腸がんが消失したという内容です。ご覧になった方もいらっしゃるかもしれません。"
+        },
+        {
+          "kind": "text",
+          "text": "「がんを光で治す」と聞くと期待が膨らむ一方で、「本当にもう受けられるの？」「どこまで進んでいるの？」と、かえって分からなくなってしまう方も少なくないと思います。"
+        },
+        {
+          "kind": "text",
+          "text": "実はこのニュースを見て、懐かしい気持ちになりました。私は外科医としての経験を積んだあと、防衛医科大学校の大学院（医学研究科）で、まさにこの「光を使ってがんを温める治療」の研究に取り組んでいたからです。ニュースをきっかけに、今回はその成果として発表した論文と、日本ハイパーサーミア学会の会報に寄稿した解説をもとに、当時の研究を分かりやすくご紹介します。読み終えるころには、こうしたニュースを見たときに「これは今どの段階の話なのか」を落ち着いて受け止める手がかりになるはずです。"
+        },
+        {
+          "kind": "text",
+          "text": "### 結論から言うと"
+        },
+        {
+          "kind": "text",
+          "text": "私たちの研究で分かったことを一言でまとめると、**「光の強さや当てる時間よりも、がんの温度を43℃以上に保てたかどうかが、効果を決めていた」**ということです。そこで、照射中のがんの温度を測りながら、光の強さを自動で調整する仕組みを開発しました。"
+        },
+        {
+          "kind": "text",
+          "text": "ただし、これは**マウスを使った動物実験の段階の研究**です。人の治療として承認されたものではなく、当院でこの治療を行うこともありません。その前提で、中身をお話しします。"
+        },
+        {
+          "kind": "text",
+          "text": "### 「光温熱治療」とはどんな治療か"
+        },
+        {
+          "kind": "text",
+          "text": "光温熱治療（PTT：Photothermal Therapy）は、熱でがん細胞を死滅させる治療で、「温熱療法（ハイパーサーミア）」の仲間です。体の中まで届きやすい「近赤外光」という光と、その光を吸収して熱に変える薬剤（光吸収剤）を組み合わせて使います。"
+        },
+        {
+          "kind": "text",
+          "text": "仕組みはシンプルです。まず、がんに集まりやすい性質を持たせた光吸収剤を静脈から注射します。薬ががんに集まるのを待ってから、がんのある場所に近赤外光を当てると、光吸収剤が集まったがんの部分が温まります。**「光を当てる場所」と「薬が集まる場所」の二重の狙い撃ち**によって、周りの正常な組織への熱のダメージを抑えられると考えられており、体への負担が少ない治療として期待されてきました。"
+        },
+        {
+          "kind": "text",
+          "text": "### 研究で見えてきた課題：「光の量」だけでは効果が読めない"
+        },
+        {
+          "kind": "text",
+          "text": "ところが、この治療には悩ましい問題がありました。一般に、光の強さと当てる時間は照射の前に決めておきます。しかし、がんの大きさや中身のばらつき、薬の行き渡り方は一つひとつ違うため、**同じ条件で光を当てても、効くがんと効かないがんが出てしまう**のです。取りこぼしを避けるために光を強め・長めに当てると、今度はがんが50℃を超えるほど熱くなり、周りの組織にやけどや炎症を起こしやすくなります。"
+        },
+        {
+          "kind": "text",
+          "text": "私たちは、がんに集まりやすい微小な粒子に、近赤外光を吸収する色素「ICG（インドシアニングリーン）」を組み込んだ「ICGラクトソーム」という薬剤を使い、マウスの大腸がん細胞を背中の皮膚に移植したモデルで実験を行いました。光の強さを4段階、当てる時間を5段階に変えて組み合わせ、照射中のがんの表面温度を測り続けたところ、はっきりした傾向が見えてきました。"
+        },
+        {
+          "kind": "text",
+          "text": "- 光の強さや時間と、がんが消えるかどうかの間には、**一貫した関係は見られなかった**\n- 一方、照射中にがんの温度が **43℃を超えた** 場合は、光の強さに関係なく、**49個中47個のがんが消失**した（消えなかった2個は、照射時間が最も短い111秒の群でした）"
+        },
+        {
+          "kind": "text",
+          "text": "つまり、効くかどうかの分かれ目は「光の量」ではなく「がんの温度」にあり、**狙った温度に届き、それを保てるかどうか**が治療の成否を左右していたのです。"
+        },
+        {
+          "kind": "text",
+          "text": "### 温度を測りながら光を調整する仕組み"
+        },
+        {
+          "kind": "text",
+          "text": "そこで開発したのが、温度制御型の光温熱治療（寄稿では「tecPTT」と呼んでいます）です。レーザー装置に、赤外線で「触れずに温度を測る装置」をつなぎ、照射している場所の温度を0.1秒ごとに測りながら、**目標の温度を保つように光の強さを自動で調整する**仕組みです。この装置の性能を確かめた最初の論文では、マウスの皮膚に光を当てた際の温度のぶれを、温度制御なしのときの10分の1以下（ばらつき約0.14℃）に抑えられることを示しました。"
+        },
+        {
+          "kind": "text",
+          "text": "続いて、この仕組みを使い、目標温度を40℃・41℃・42℃・43℃に設定して、がんの経過を比べました（各5匹）。"
+        },
+        {
+          "kind": "text",
+          "text": "- 40℃・41℃：がんが消えたのは **0匹**\n- 42℃：**5匹中3匹** で消失\n- 43℃：**5匹すべて** で消失"
+        },
+        {
+          "kind": "text",
+          "text": "わずか2℃の違いで、結果がまったく変わったのです。また、がんのない場所に光を当てても温度はほとんど上がらず、薬ががん以外にはほとんど集まっていないことも確かめました。温度を「狙って保てる」ようになったことで、必要以上に熱くしなくても確実な効果を得られる可能性が見えてきました。人の治療へと発展させていくための足がかりになると考えています。なお、照射部位の温度を測りながら治療する光治療システムとして、国際特許出願も行いました（WO2018/061201）。"
+        },
+        {
+          "kind": "text",
+          "text": "一方で、限界もあります。測っていたのはがんの「表面」の温度で、内部の温度までは確認できていません。また、調べたのはマウスの大腸がん1種類だけで、他のがんでは効く温度が違うかもしれません。"
+        },
+        {
+          "kind": "text",
+          "text": "### どんながんに役立つ可能性があるか"
+        },
+        {
+          "kind": "text",
+          "text": "光は体の奥深くまでは届きにくいため、この治療が向いているのは、主に**体の表面に近いところや、内視鏡などで光を届けられる場所のがん**だと考えられます。寄稿では、将来の候補として次のような場面を挙げました。"
+        },
+        {
+          "kind": "text",
+          "text": "- 放射線治療や化学放射線療法のあとに、局所に残ったり再発したりした食道がん\n- 消化管や気管の内側をふさいでしまい、治療器具を通すのが難しいがん\n- 大腸がんや卵巣がんがお腹の中に散らばった病変のうち、表面にある限られた病変"
+        },
+        {
+          "kind": "text",
+          "text": "今後は、よりがんに集まりやすく、がんだけを狙い撃ちできる光吸収剤の開発が求められています。冒頭のニュースの研究は、まさにこの「薬をがんに届ける」部分と、「光を体の奥に届ける」部分（細い内視鏡を針に収めて、がんの内側から光を当てる方法）に取り組んだものです。同じ分野の研究が着実に前に進んでいることを、うれしく感じています。"
+        },
+        {
+          "kind": "text",
+          "text": "ただし、ニュースの研究もマウスでの結果で、人での臨床試験はこれからの段階です。「ニュースになった＝すぐに受けられる」ではない、という点は、ぜひ知っておいていただきたいと思います。"
+        },
+        {
+          "kind": "text",
+          "text": "### 院長からのメッセージ"
+        },
+        {
+          "kind": "text",
+          "text": "この研究を通じて私が学んだのは、**「なんとなく効いていそう」ではなく、測って確かめることの大切さ**でした。同じ治療でも、温度がわずか2℃違うだけで結果が正反対になる。その経験は、研究の現場を離れた今も、私の診療の土台になっています。"
+        },
+        {
+          "kind": "text",
+          "text": "血圧や血糖値、検査の数値、そして患者さんの「いつもと違う」という感覚。日々の診察でも、思い込みで判断せず、きちんと確かめてから一緒に方針を考える。そんな姿勢を、木花の地で大切にしていきたいと思っています。"
+        },
+        {
+          "kind": "text",
+          "text": "最近は、新しいがん治療のニュースを目にする機会も増えました。「これって自分にも関係あるの？」「今受けられる治療なの？」と気になったときは、開院後、どうぞ気軽にお尋ねください。今どの段階の研究なのかも含めて、分かりやすくお話しします。"
+        },
+        {
+          "kind": "text",
+          "text": "※本記事は、以下の論文・寄稿（いずれも防衛医科大学校の共同研究者と共著）の内容を、一般の方向けに書き直したものです。紹介した結果はすべて動物実験によるもので、人での有効性・安全性が確認された治療ではありません。"
+        },
+        {
+          "kind": "text",
+          "text": "- Nomura S, et al. Highly reliable, targeted photothermal cancer therapy combined with thermal dosimetry using a near-infrared absorbent. Scientific Reports. 2020;10:9765.\n- Nomura S, et al. Thermal Sensor Circuit Using Thermography for Temperature-Controlled Laser Hyperthermia. Journal of Sensors. 2017;2017:3738046.\n- 野村信介ほか「これからの光温熱治療開発の方向性」日本ハイパーサーミア学会ニュース No.150「最近の話題」（2021年）"
+        }
+      ]
+    },
+    "en": {
+      "category": "Director's career",
+      "title": "Back when I was researching how to heat cancer with light",
+      "excerpt": "This July, research on destroying cancer cells with heat from light made the news. As it happens, this was the very treatment I devoted myself to researching in graduate school.",
+      "body": [
+        {
+          "kind": "text",
+          "text": "In July this year (2026), a news story titled, roughly, \"New technology brings photothermal therapy — destroying cancer cells with heat — closer to reality\" ran on Yahoo! News Japan (originally from Newswitch / Nikkan Kogyo Shimbun). A research group including Tohoku University had developed a new way to deliver light-to-heat particles to tumors more effectively, and colon cancer in mice disappeared. Some of you may have seen it."
+        },
+        {
+          "kind": "text",
+          "text": "Hearing \"treating cancer with light\" raises hopes — but it can also leave you more confused: \"Can I actually get this now?\" \"How far along is it, really?\""
+        },
+        {
+          "kind": "text",
+          "text": "Seeing that story actually made me a little nostalgic. After gaining experience as a surgeon, I went on to the graduate school of medicine at the National Defense Medical College, where I researched exactly this: using light to heat cancer. Prompted by the news, in this post, based on the papers we published and a commentary I contributed to the newsletter of the Japanese Society for Thermal Medicine, I'd like to explain that research in plain terms. By the end, I hope you'll have a better sense of how to read news like this calmly — and how to tell what stage a given treatment is actually at."
+        },
+        {
+          "kind": "text",
+          "text": "### The short version"
+        },
+        {
+          "kind": "text",
+          "text": "If I had to sum up what we found in one sentence: **what decided the outcome wasn't the strength or duration of the light, but whether the tumor was kept at 43°C or higher.** So we developed a system that measures the tumor's temperature during treatment and automatically adjusts the strength of the light."
+        },
+        {
+          "kind": "text",
+          "text": "To be clear, though, **this was animal research, carried out in mice.** It is not an approved treatment for people, and it is not something our clinic offers. With that in mind, here's what the research involved."
+        },
+        {
+          "kind": "text",
+          "text": "### What is photothermal therapy?"
+        },
+        {
+          "kind": "text",
+          "text": "Photothermal therapy (PTT) kills cancer cells with heat and belongs to the family of hyperthermia treatments. It combines near-infrared light, which can pass into the body relatively easily, with a drug that absorbs that light and turns it into heat (a light absorber)."
+        },
+        {
+          "kind": "text",
+          "text": "The idea is simple. First, a light absorber designed to gather in tumors is injected into a vein. After waiting for it to collect in the tumor, near-infrared light is shone on the tumor area, and the part of the tumor where the absorber has gathered heats up. **This double targeting, \"where the light goes\" and \"where the drug gathers,\"** is thought to limit heat damage to the surrounding healthy tissue, which is why PTT has been seen as a promising, low-burden treatment."
+        },
+        {
+          "kind": "text",
+          "text": "### The problem we found: the amount of light alone doesn't predict the result"
+        },
+        {
+          "kind": "text",
+          "text": "But this treatment had a frustrating problem. Usually, the strength of the light and how long to shine it are decided in advance. Yet every tumor differs in size, internal makeup and how the drug spreads through it, so **the same settings could work on one tumor and fail on another.** Shining the light harder and longer to avoid missing anything can heat the tumor past 50°C, which makes burns and inflammation in the surrounding tissue more likely."
+        },
+        {
+          "kind": "text",
+          "text": "We used a drug called \"ICG lactosome\" — tiny particles designed to gather in tumors, carrying a near-infrared-absorbing dye called ICG (indocyanine green) — in mice with colon cancer cells implanted in the skin of their backs. We combined four levels of light strength with five irradiation times and kept measuring the tumor's surface temperature during irradiation. A clear pattern emerged:"
+        },
+        {
+          "kind": "text",
+          "text": "- There was **no consistent relationship** between light strength or duration and whether the tumor disappeared\n- But when the tumor's temperature **rose above 43°C** during irradiation, **47 of 49 tumors disappeared**, regardless of light strength (the two that didn't were both in the shortest, 111-second group)"
+        },
+        {
+          "kind": "text",
+          "text": "In other words, the dividing line wasn't the amount of light but the tumor's temperature, and **whether the target temperature could be reached and held** decided whether the treatment worked."
+        },
+        {
+          "kind": "text",
+          "text": "### A system that adjusts the light while measuring the temperature"
+        },
+        {
+          "kind": "text",
+          "text": "That's what led us to develop temperature-controlled PTT (called \"tecPTT\" in the newsletter article). A non-contact infrared temperature sensor is connected to the laser device, so the temperature of the irradiated spot is measured every 0.1 seconds, and **the light's strength is adjusted automatically to hold the target temperature.** In our first paper testing this device, we showed that when irradiating mouse skin, it kept temperature fluctuations to less than one-tenth of those without temperature control (a spread of about 0.14°C)."
+        },
+        {
+          "kind": "text",
+          "text": "Next, using this system, we set target temperatures of 40°C, 41°C, 42°C and 43°C and compared what happened to the tumors (five mice each):"
+        },
+        {
+          "kind": "text",
+          "text": "- 40°C and 41°C: tumors disappeared in **none** of the mice\n- 42°C: tumors disappeared in **3 of 5**\n- 43°C: tumors disappeared in **all 5**"
+        },
+        {
+          "kind": "text",
+          "text": "A difference of just two degrees changed the result completely. We also confirmed that shining the light on areas without a tumor barely raised the temperature, showing that the drug hardly gathered anywhere other than the tumor. Being able to aim for a temperature and hold it there suggested that reliable results might be possible without heating more than necessary — a foothold, we believe, for developing this into a treatment for people. We also filed an international patent application for a light-therapy system that treats while measuring the temperature of the irradiated area (WO2018/061201)."
+        },
+        {
+          "kind": "text",
+          "text": "There are limitations, too. We measured the tumor's surface temperature and couldn't confirm the temperature inside it. And we studied only one type of cancer — colon cancer in mice — so the effective temperature may differ for other cancers."
+        },
+        {
+          "kind": "text",
+          "text": "### Which cancers might it help with?"
+        },
+        {
+          "kind": "text",
+          "text": "Because light doesn't travel deep into the body, this approach is thought to suit mainly **cancers near the body's surface, or in places light can be delivered, for example through an endoscope.** In the newsletter article, we listed possible future candidates such as:"
+        },
+        {
+          "kind": "text",
+          "text": "- Esophageal cancer that remains or recurs locally after radiation therapy or chemoradiotherapy\n- Cancers that block the inside of the digestive tract or airways, making it hard to pass treatment instruments through\n- Limited, surface-level lesions among colorectal or ovarian cancer that has spread within the abdomen"
+        },
+        {
+          "kind": "text",
+          "text": "Going forward, the field needs light absorbers that gather in tumors even more readily and target cancer alone. The research in the news story tackled exactly this — getting the drug to the tumor — along with getting light deep into the body (by housing a thin endoscope inside a needle and shining light from inside the tumor). I'm genuinely glad to see steady progress in this field."
+        },
+        {
+          "kind": "text",
+          "text": "That said, the research in the news was also done in mice, and clinical trials in people are still ahead. \"It made the news\" doesn't mean \"you can get it right away\" — that's something I'd really like you to keep in mind."
+        },
+        {
+          "kind": "text",
+          "text": "### A message from the director"
+        },
+        {
+          "kind": "text",
+          "text": "What this research taught me was **the importance of measuring and confirming, rather than settling for \"it seems to be working.\"** The same treatment could produce opposite results with a difference of just two degrees. That experience still underpins how I practice medicine today, long after leaving the lab."
+        },
+        {
+          "kind": "text",
+          "text": "Blood pressure, blood sugar, test results — and a patient's own sense that \"something feels different.\" In everyday care, too, I want to avoid judging by assumption, confirm things properly, and then decide on a plan together with you. That's the approach I hope to carry with me here in Kibana."
+        },
+        {
+          "kind": "text",
+          "text": "News about new cancer treatments seems to come up more and more these days. If you ever find yourself wondering \"Does this apply to me?\" or \"Is this something I can actually get now?\", please feel free to ask once we open. I'll explain it clearly — including what stage the research is really at."
+        },
+        {
+          "kind": "text",
+          "text": "※This post is a plain-language rewrite of the following papers and commentary (all co-authored with fellow researchers at the National Defense Medical College). All results described come from animal experiments; this is not a treatment whose effectiveness or safety has been confirmed in people."
+        },
+        {
+          "kind": "text",
+          "text": "- Nomura S, et al. Highly reliable, targeted photothermal cancer therapy combined with thermal dosimetry using a near-infrared absorbent. Scientific Reports. 2020;10:9765.\n- Nomura S, et al. Thermal Sensor Circuit Using Thermography for Temperature-Controlled Laser Hyperthermia. Journal of Sensors. 2017;2017:3738046.\n- Nomura S, et al. \"Direction for development of photothermal therapy.\" Japanese Society for Thermal Medicine Newsletter No. 150, \"Recent Topics\" (2021)."
+        }
+      ]
+    }
+  },
+  {
+    "slug": "ikamera-junbi",
+    "date": "2026.09.29",
+    "cover": "/blog/kibana-landscape.png",
+    "ja": {
+      "category": "健康・予防の話",
+      "title": "胃カメラの前日・当日・検査後、どう過ごせばいい？",
+      "excerpt": "「前日の夜ごはん、何時まで食べていいの？」「終わったらすぐ食べられる？」——胃カメラの予約をした方から、いちばん多くいただく質問です。",
+      "body": [
+        {
+          "kind": "text",
+          "text": "「胃カメラの予約をしたけれど、前の日の夜ごはんは何時まで食べていいの？」「いつも飲んでいる薬はどうしたらいい？」「終わったら、すぐに食事や仕事に戻れる？」。胃カメラを受けると決めた方が、検査の数日前になって急に気になり始めるのが、こうした「準備」のことではないでしょうか。"
+        },
+        {
+          "kind": "text",
+          "text": "実は、胃カメラをスムーズに、そしてしっかり受けるためのポイントは、検査そのものよりも**前日と当日朝の過ごし方**にあります。この記事を読んでおけば、当日になって慌てることなく、落ち着いて検査を迎えられるはずです。"
+        },
+        {
+          "kind": "text",
+          "text": "### 結論から言うと"
+        },
+        {
+          "kind": "text",
+          "text": "押さえておきたいのは、次の4つです。"
+        },
+        {
+          "kind": "text",
+          "text": "- **前日**：夕食は21時までに、消化のよいものを軽めに。お酒は控えめに\n- **当日の朝**：食事は抜いて、水かお茶だけ。普段の薬は自己判断せず、事前に医師に確認\n- **検査後**：のどの麻酔が切れるまで（目安1時間）は飲食を控える\n- **組織を取った場合**：当日はお酒・刺激物・激しい運動・長風呂を避ける"
+        },
+        {
+          "kind": "text",
+          "text": "それぞれ、理由と一緒に説明します。"
+        },
+        {
+          "kind": "text",
+          "text": "### 前日：夕食は21時までに、軽めに"
+        },
+        {
+          "kind": "text",
+          "text": "胃の中に食べ物が残っていると、胃の壁が隠れてしまい、小さな病変を見落とすおそれがあります。そのため、**前日の夕食は21時ごろまでに済ませる**のが基本です。"
+        },
+        {
+          "kind": "text",
+          "text": "メニューは、うどん・おかゆ・白身魚・豆腐など、消化のよいものがおすすめです。反対に、揚げ物などの脂っこい料理、きのこ・海藻・こんにゃくのような消化に時間のかかる食材、量の多い食事は、胃に残りやすいので避けましょう。お酒も、できれば前日は控えてください。"
+        },
+        {
+          "kind": "text",
+          "text": "21時以降も、**水やお茶（砂糖やミルクの入っていないもの）**は飲んで構いません。"
+        },
+        {
+          "kind": "text",
+          "text": "### 当日の朝：食事は抜いて、水かお茶だけ"
+        },
+        {
+          "kind": "text",
+          "text": "当日の朝は、**何も食べずに**お越しください。牛乳・ジュース・スポーツドリンク・ミルク入りのコーヒーなども、胃に残るので控えます。水やお茶は、検査の少し前までなら少量飲んで大丈夫です。タバコは胃液を増やし、観察しにくくなるので、当日朝は控えてください。"
+        },
+        {
+          "kind": "text",
+          "text": "いちばん注意していただきたいのが、**普段飲んでいるお薬**です。"
+        },
+        {
+          "kind": "text",
+          "text": "- **血圧や心臓の薬**などは、朝早めに少量の水で飲んでいただくことが多いお薬です\n- **糖尿病の薬・インスリン**は、食事を抜いた状態で使うと低血糖を起こすおそれがあるため、当日朝は使わないのが一般的です\n- **血液をサラサラにする薬**（抗血小板薬・抗凝固薬）は、組織を取る可能性があるため扱いに注意が必要ですが、__自己判断でやめるのは危険__です"
+        },
+        {
+          "kind": "text",
+          "text": "どのお薬をどうするかは人によって違います。**予約の時点で、飲んでいるお薬（お薬手帳）を必ず医師に伝えて**、指示を確認しておいてください。"
+        },
+        {
+          "kind": "text",
+          "text": "服装は、おなかまわりを締めつけないゆったりしたものがおすすめです。"
+        },
+        {
+          "kind": "text",
+          "text": "### 検査中：鼻からの胃カメラで、話しながら"
+        },
+        {
+          "kind": "text",
+          "text": "当院の胃カメラは、**鼻から入れる細いカメラ（経鼻内視鏡）で、鎮静剤を使わずに行う**ことを基本にしています。"
+        },
+        {
+          "kind": "text",
+          "text": "検査の前に、鼻の通りをよくする薬と麻酔をスプレーやゼリーで入れ、のどにも軽く麻酔をします。鼻からのカメラは舌の付け根に触れにくいため、口からの胃カメラで起こりやすい**「オエッ」となる反射（えずき）が起こりにくい**のが特長です。"
+        },
+        {
+          "kind": "text",
+          "text": "口がふさがらないので、**検査中も会話ができます**。ご希望があれば、モニターに映る胃の中を一緒に見ながら、その場で説明することもできます。「今どこを見ているの？」「何か見つかった？」と気になったら、遠慮なく聞いてください。"
+        },
+        {
+          "kind": "text",
+          "text": "なお、鼻の通り道が狭い方や、鼻炎がひどい日などは、鼻から入れにくいことがあります。その場合は、安全を優先して、まずは口からの胃カメラへの切り替えをご提案します。"
+        },
+        {
+          "kind": "text",
+          "text": "### 検査後：1時間は飲食を控えて"
+        },
+        {
+          "kind": "text",
+          "text": "検査が終わったら、のどの麻酔が切れるまで、**目安として1時間ほどは飲食を控えて**ください。麻酔が効いている間に飲んだり食べたりすると、むせて気管に入ってしまうことがあります。最初は少量の水を飲んでみて、むせないことを確かめてから食事を始めましょう。"
+        },
+        {
+          "kind": "text",
+          "text": "検査後に鼻を強くかむと、鼻血が出ることがあります。当日はやさしくかむようにしてください。"
+        },
+        {
+          "kind": "text",
+          "text": "**組織を取って調べた（生検をした）場合**は、取った部分からの出血を防ぐため、当日は次のことを避けてください。"
+        },
+        {
+          "kind": "text",
+          "text": "- お酒、香辛料などの刺激物\n- 激しい運動\n- 長風呂（シャワー程度なら大丈夫です）"
+        },
+        {
+          "kind": "text",
+          "text": "食事は消化のよいものを。もし、**黒っぽい便が出る、おなかが強く痛む、気分が悪い**といったことがあれば、すぐに医療機関へご連絡ください。"
+        },
+        {
+          "kind": "text",
+          "text": "### 鎮静剤を使わないから、すぐに運転して帰れる"
+        },
+        {
+          "kind": "text",
+          "text": "眠くなる薬（鎮静剤）を使う胃カメラでは、検査後もしばらく休む必要があり、**当日は車の運転ができません**。送り迎えをお願いしたり、公共交通機関を使ったりする必要があります。"
+        },
+        {
+          "kind": "text",
+          "text": "一方、鎮静剤を使わない当院の胃カメラなら、検査が終わって説明を聞いたら、**そのままご自分で運転して帰ることができます**。車での移動が欠かせない宮崎では、これは大きなメリットだと考えています。お仕事の合間に受けて、そのまま職場に戻ることもしやすくなります。"
+        },
+        {
+          "kind": "text",
+          "text": "### 院長からのメッセージ"
+        },
+        {
+          "kind": "text",
+          "text": "胃カメラは、胃がんや食道がんを早く見つけるための、とても大切な検査です。それなのに「大変そう」「準備がよく分からない」という理由で先延ばしにされてしまうのは、本当にもったいないことだと感じています。"
+        },
+        {
+          "kind": "text",
+          "text": "準備のポイントさえ押さえておけば、胃カメラは決して怖い検査ではありません。当院では、鼻からの胃カメラで、できるだけ楽に、そして納得しながら受けていただけるよう準備を進めています。開院後は、「初めてで不安」「薬をどうしたらいいか分からない」といったご相談も、予約の時点で遠慮なくお寄せください。"
+        },
+        {
+          "kind": "text",
+          "text": "※当院での胃カメラは予約制で、午前中に行う予定です。食事の制限やお薬の扱いは、予約時に個別にご案内します。"
+        }
+      ]
+    },
+    "en": {
+      "category": "Health and prevention",
+      "title": "Getting a gastroscopy? How to spend the day before, the day of, and after",
+      "excerpt": "“How late can I eat dinner the night before?” “Can I eat right after?” These are the questions I hear most from people who've just booked a gastroscopy.",
+      "body": [
+        {
+          "kind": "text",
+          "text": "\"I've booked a gastroscopy — but how late can I eat dinner the night before?\" \"What should I do about my usual medications?\" \"Can I get back to eating and work right after?\" Once you've decided to have one, it's often these practical questions about preparation that start to weigh on your mind a few days beforehand."
+        },
+        {
+          "kind": "text",
+          "text": "In fact, the key to a smooth, thorough gastroscopy lies less in the exam itself and more in **how you spend the day before and the morning of.** Read this, and you should be able to go in calm and prepared instead of scrambling on the day."
+        },
+        {
+          "kind": "text",
+          "text": "### The short version"
+        },
+        {
+          "kind": "text",
+          "text": "Here are the four things to keep in mind:"
+        },
+        {
+          "kind": "text",
+          "text": "- **The day before**: Finish a light, easy-to-digest dinner by 9 p.m. Go easy on alcohol\n- **The morning of**: Skip breakfast — water or tea only. Don't decide about your usual medications yourself; check with your doctor in advance\n- **After the exam**: Avoid eating and drinking until the throat anesthetic wears off (about an hour)\n- **If a tissue sample was taken**: Avoid alcohol, spicy food, strenuous exercise and long baths that day"
+        },
+        {
+          "kind": "text",
+          "text": "Here's why, one by one."
+        },
+        {
+          "kind": "text",
+          "text": "### The day before: a light dinner, finished by 9 p.m."
+        },
+        {
+          "kind": "text",
+          "text": "If food is left in your stomach, it can hide the stomach lining and cause small abnormalities to be missed. That's why, as a rule, **dinner the night before should be finished by around 9 p.m.**"
+        },
+        {
+          "kind": "text",
+          "text": "Easy-to-digest foods are best — udon noodles, rice porridge, white fish, tofu and the like. On the other hand, fried and fatty dishes, slow-to-digest foods such as mushrooms, seaweed and konnyaku, and large portions tend to linger in the stomach, so it's best to avoid them. If you can, skip alcohol the day before as well."
+        },
+        {
+          "kind": "text",
+          "text": "After 9 p.m., **water and tea (without sugar or milk)** are fine."
+        },
+        {
+          "kind": "text",
+          "text": "### The morning of: no food — water or tea only"
+        },
+        {
+          "kind": "text",
+          "text": "Please come **without eating anything** that morning. Milk, juice, sports drinks and coffee with milk also linger in the stomach, so avoid those too. Small amounts of water or tea are fine until a little before the exam. Smoking increases stomach acid and makes the stomach harder to see, so please avoid it that morning."
+        },
+        {
+          "kind": "text",
+          "text": "What needs the most care is **your regular medication.**"
+        },
+        {
+          "kind": "text",
+          "text": "- **Blood pressure and heart medications** are often taken early in the morning with a small sip of water\n- **Diabetes medications and insulin** can cause low blood sugar when you haven't eaten, so they're generally not taken that morning\n- **Blood thinners** (antiplatelet and anticoagulant drugs) need careful handling because a tissue sample may be taken — but __stopping them on your own is dangerous__"
+        },
+        {
+          "kind": "text",
+          "text": "How to handle each medication differs from person to person. **When you book, be sure to tell the doctor what you take (bring your medication record),** and confirm the instructions in advance."
+        },
+        {
+          "kind": "text",
+          "text": "Loose clothing that doesn't squeeze your waist is recommended."
+        },
+        {
+          "kind": "text",
+          "text": "### During the exam: through the nose, while talking"
+        },
+        {
+          "kind": "text",
+          "text": "At our clinic, gastroscopy is done **with a thin scope inserted through the nose (transnasal endoscopy), without sedation,** as our standard approach."
+        },
+        {
+          "kind": "text",
+          "text": "Before the exam, medicine to open up the nasal passage and a local anesthetic are applied as a spray or gel, and the throat is lightly numbed too. Because a nasal scope rarely touches the base of the tongue, **the gag reflex — that \"hurk\" feeling common with scopes through the mouth — is much less likely.**"
+        },
+        {
+          "kind": "text",
+          "text": "Since your mouth isn't blocked, **you can talk during the exam.** If you'd like, we can look at the inside of your stomach on the monitor together and I'll explain as we go. If you're wondering \"Where are we looking now?\" or \"Did you find anything?\", please just ask."
+        },
+        {
+          "kind": "text",
+          "text": "That said, if your nasal passage is narrow or your nose is badly congested that day, the nasal route can be difficult. In that case, we'll put safety first and suggest switching to a gastroscopy through the mouth instead."
+        },
+        {
+          "kind": "text",
+          "text": "### After the exam: no food or drink for about an hour"
+        },
+        {
+          "kind": "text",
+          "text": "Once the exam is over, please **avoid eating and drinking for about an hour,** until the throat anesthetic wears off. Eating or drinking while it's still working can make you choke and send something down the wrong way. Start with a small sip of water, make sure you don't choke, and then begin eating."
+        },
+        {
+          "kind": "text",
+          "text": "Blowing your nose hard after the exam can cause a nosebleed, so please blow gently that day."
+        },
+        {
+          "kind": "text",
+          "text": "**If a tissue sample was taken (a biopsy),** avoid the following that day to prevent bleeding from the sampled spot:"
+        },
+        {
+          "kind": "text",
+          "text": "- Alcohol and spicy or irritating foods\n- Strenuous exercise\n- Long baths (a shower is fine)"
+        },
+        {
+          "kind": "text",
+          "text": "Stick to easily digestible food. If you notice **black stools, strong abdominal pain or feel unwell,** contact a medical facility right away."
+        },
+        {
+          "kind": "text",
+          "text": "### No sedation means you can drive yourself home right away"
+        },
+        {
+          "kind": "text",
+          "text": "With sedated gastroscopy (using medicine that makes you drowsy), you need to rest for a while afterward, and **you can't drive for the rest of the day.** You'll need someone to drop you off and pick you up, or to use public transport."
+        },
+        {
+          "kind": "text",
+          "text": "With our unsedated approach, once the exam is done and you've heard the explanation, **you can drive yourself home straight away.** In Miyazaki, where getting around by car is a must, I think that's a real advantage. It also makes it easier to fit the exam in around work and head straight back afterward."
+        },
+        {
+          "kind": "text",
+          "text": "### A message from the director"
+        },
+        {
+          "kind": "text",
+          "text": "Gastroscopy is a very important exam for catching stomach and esophageal cancer early. It's a real shame when people put it off simply because it \"sounds like a hassle\" or they're \"not sure how to prepare.\""
+        },
+        {
+          "kind": "text",
+          "text": "Once you know the key points of preparation, gastroscopy is nothing to be afraid of. We're preparing to offer transnasal gastroscopy so you can have it as comfortably as possible, and understand what's happening as you go. Once we open, please don't hesitate to bring up concerns like \"It's my first time and I'm nervous\" or \"I'm not sure what to do about my medication\" when you book."
+        },
+        {
+          "kind": "text",
+          "text": "※At our clinic, gastroscopy will be by appointment and performed in the morning. We'll give you individual instructions on food restrictions and medications when you book."
+        }
+      ]
+    }
+  },
+  {
+    "slug": "ikamera-nansai-kara",
+    "date": "2026.09.30",
+    "cover": "/blog/kibana-landscape.png",
+    "ja": {
+      "category": "健康・予防の話",
+      "title": "胃カメラは何歳から？どのくらいの間隔で受ければいい？",
+      "excerpt": "「胃カメラって、何歳になったら受けるもの？」「毎年受けないとダメ？」——実はその答え、年齢だけでなく「ピロリ菌」と「症状」で大きく変わります。",
+      "body": [
+        {
+          "kind": "text",
+          "text": "「胃カメラって、何歳くらいから受けたほうがいいんですか？」「一度受けたら、次はいつ？毎年受けないといけないの？」。健康診断の結果を見たときや、周りの人が胃カメラを受けたと聞いたときに、ふと気になる疑問ではないでしょうか。"
+        },
+        {
+          "kind": "text",
+          "text": "胃カメラは、胃がんや食道がんを早い段階で見つけられる、とても大切な検査です。ただ、必要以上に受ける必要はありませんし、逆に「まだ若いから」と先延ばしにしてよいとも限りません。この記事を読めば、**ご自分がいつ、どのくらいの間隔で受ければよいか**の目安がつかめるはずです。"
+        },
+        {
+          "kind": "text",
+          "text": "### 結論から言うと"
+        },
+        {
+          "kind": "text",
+          "text": "目安は次のとおりです。"
+        },
+        {
+          "kind": "text",
+          "text": "- **症状がある方**：年齢に関係なく、すぐに受診を（保険診療で受けられます）\n- **症状がない方**：国の指針では、胃がん検診は**50歳以上で2年に1回**が目安\n- **ピロリ菌に感染している（していた）方**：年齢にかかわらず、医師と相談して**定期的に**\n- **40代以下で症状がない方**：まずは一度、**ピロリ菌の有無**を調べておくと、その後の方針が立てやすくなります（血液でわかる「胃がんリスク検診」も選択肢の一つです）"
+        },
+        {
+          "kind": "text",
+          "text": "つまり、「何歳から」「何年ごと」は、**年齢だけでなく、ピロリ菌と症状によって変わる**のです。順番に説明します。"
+        },
+        {
+          "kind": "text",
+          "text": "### 症状があるなら、年齢は関係ありません"
+        },
+        {
+          "kind": "text",
+          "text": "まず大前提として、次のような症状がある場合は、何歳であっても「検診の年齢になってから」と待つ必要はありません。"
+        },
+        {
+          "kind": "text",
+          "text": "- みぞおちの痛みや胃もたれが続く\n- 食べ物が飲み込みにくい、つかえる感じがする\n- 黒っぽい便が出る\n- 食欲がなく、体重が減ってきた\n- 健康診断で貧血を指摘された"
+        },
+        {
+          "kind": "text",
+          "text": "こうした症状があるときの胃カメラは、病気を調べるための検査なので、**保険診療**で受けていただけます。"
+        },
+        {
+          "kind": "text",
+          "text": "### 症状がない方：国の指針は「50歳以上・2年に1回」"
+        },
+        {
+          "kind": "text",
+          "text": "症状のない方が受ける「胃がん検診」について、国の指針では、**50歳以上の方に、2年に1回**の胃カメラ（またはバリウム検査）を勧めています。多くの市町村で、この指針にもとづく胃がん検診が行われていますので、対象年齢や費用はお住まいの市町村の案内をご確認ください。"
+        },
+        {
+          "kind": "text",
+          "text": "50歳からとされているのは、胃がんにかかる人が50代以降に大きく増えるためです。"
+        },
+        {
+          "kind": "text",
+          "text": "### 年齢より大事な「ピロリ菌」"
+        },
+        {
+          "kind": "text",
+          "text": "ただし、胃がんのリスクを考えるうえで、年齢以上に大切なのが**ピロリ菌**です。胃がんの多くは、ピロリ菌の感染によって胃の粘膜に長く炎症が続き、粘膜が弱っていく（萎縮性胃炎）ことを背景に起こると考えられています。"
+        },
+        {
+          "kind": "text",
+          "text": "- **ピロリ菌に感染している方**：除菌治療をおすすめします。除菌すると胃がんのリスクは下がりますが、ゼロにはなりません\n- **除菌が成功した方**：胃の粘膜の状態によっては、**除菌後も定期的な胃カメラ**が勧められます。間隔は、胃の状態を見て医師と相談して決めます\n- **一度も感染したことがない方**：胃がんのリスクは比較的低く、検査の間隔を空けやすいと考えられています"
+        },
+        {
+          "kind": "text",
+          "text": "ピロリ菌は、子どもの頃に感染し、その後ずっと胃にすみ続けることが多い菌です。若い世代では感染している人が減っていますが、**「自分は感染しているのか、いないのか」を一度知っておく**ことは、40代以下の方にとっても十分に意味があります。"
+        },
+        {
+          "kind": "text",
+          "text": "### 血液で調べる「胃がんリスク検診（ABC検診）」"
+        },
+        {
+          "kind": "text",
+          "text": "ピロリ菌の有無と胃の状態を、胃カメラの前に手軽に知る方法として、**胃がんリスク検診（ABC検診）**があります。採血だけで、次の2つを調べる検査です。"
+        },
+        {
+          "kind": "text",
+          "text": "- **ピロリ菌の抗体**：ピロリ菌に感染しているかどうか\n- **ペプシノゲン**：胃の粘膜が弱っている（萎縮している）かどうか"
+        },
+        {
+          "kind": "text",
+          "text": "この2つの組み合わせから、胃がんになりやすさをA〜Dの群に分けます。A群は「ピロリ菌の感染がなく、胃の粘膜も健康」と考えられる比較的リスクの低いグループで、B→C→Dと進むほどリスクが高くなります。B〜D群と判定された方には、胃カメラでの精密検査をおすすめします。"
+        },
+        {
+          "kind": "text",
+          "text": "採血だけで済み、胃カメラに抵抗がある方でも受けやすいのが利点です。ただし、知っておいていただきたい注意点もあります。"
+        },
+        {
+          "kind": "text",
+          "text": "- **がんそのものを見つける検査ではありません**。あくまで「なりやすさ」を調べる検査で、胃カメラの代わりにはなりません\n- **A群でも安心しきらないこと**。過去に感染していて、すでに胃の粘膜が強く萎縮している方などは、実際より低いリスク（A群）に判定されてしまうことがあります。A群の方も、**一度は胃カメラで胃の中を確認しておく**と安心です\n- **すでに除菌治療を受けた方、胃酸を抑える薬を飲んでいる方、胃の手術を受けた方**などは、正しく判定できないため対象外です"
+        },
+        {
+          "kind": "text",
+          "text": "自治体や職場の健診で、オプションとして受けられる場合もあります。「胃カメラはまだ先かな」という若い世代の方にとって、**自分の胃のリスクを知る最初の一歩**として役立つ検査です。"
+        },
+        {
+          "kind": "text",
+          "text": "### 胃カメラの間隔を短くしたほうがよい方"
+        },
+        {
+          "kind": "text",
+          "text": "次のような方は、症状がなくても、一般的な目安より早め・短めの間隔で受けることを医師と相談してください。"
+        },
+        {
+          "kind": "text",
+          "text": "- **ご家族（親・きょうだい）に胃がんになった方がいる**\n- **お酒を飲むとすぐ顔が赤くなる方で、飲酒や喫煙の習慣がある**（食道がんのリスクが高まることが知られています）\n- **前回の胃カメラで、萎縮性胃炎やポリープなどを指摘された**"
+        },
+        {
+          "kind": "text",
+          "text": "### 院長からのメッセージ"
+        },
+        {
+          "kind": "text",
+          "text": "「胃カメラは何歳から？」という質問に、ひとことで答えるのは実は難しいのです。同じ50歳でも、ピロリ菌に感染したことがない方と、除菌治療を受けた方とでは、勧めたい間隔がまったく違います。"
+        },
+        {
+          "kind": "text",
+          "text": "だからこそ、一度胃カメラを受けたら、**「次はいつ受ければいいですか？」と、ぜひ医師に聞いてみてください**。胃の中の状態を実際に見た医師が、その方に合った間隔をお伝えできます。"
+        },
+        {
+          "kind": "text",
+          "text": "当院では開院後、症状があって受ける胃カメラ（保険診療）、症状のない方が健診として受ける胃カメラ（自費）に加えて、採血だけで受けられる**胃がんリスク検診（ABC検診）**にも対応する予定です。胃カメラは鼻からの細いカメラで、鎮静剤を使わず、検査中にご希望があれば画面を見ながら説明もできます。「自分の場合はいつ受ければいい？」というご相談だけでも、どうぞお気軽にお寄せください。"
+        }
+      ]
+    },
+    "en": {
+      "category": "Health and prevention",
+      "title": "When should you start getting gastroscopies — and how often?",
+      "excerpt": "“At what age should I start getting a gastroscopy?” “Do I need one every year?” The answer actually depends a lot on two things besides age — H. pylori and your symptoms.",
+      "body": [
+        {
+          "kind": "text",
+          "text": "\"At what age should I start getting gastroscopies?\" \"Once I've had one, when's the next? Do I need it every year?\" These questions tend to come up when you look over your health checkup results, or hear that someone you know just had one."
+        },
+        {
+          "kind": "text",
+          "text": "Gastroscopy is a very important exam that can catch stomach and esophageal cancer at an early stage. That said, there's no need to have it more often than necessary — and \"I'm still young\" isn't always a good reason to put it off. By the end of this post, you should have a good sense of **when, and how often, you personally should have one.**"
+        },
+        {
+          "kind": "text",
+          "text": "### The short version"
+        },
+        {
+          "kind": "text",
+          "text": "Here's a rough guide:"
+        },
+        {
+          "kind": "text",
+          "text": "- **If you have symptoms**: See a doctor now, whatever your age (it's covered by health insurance)\n- **If you have no symptoms**: Japan's national guidelines recommend stomach cancer screening **every 2 years from age 50**\n- **If you have (or had) H. pylori**: Have **regular** exams, whatever your age, at an interval agreed with your doctor\n- **If you're in your 40s or younger with no symptoms**: Finding out **whether you have H. pylori** makes it much easier to plan what comes next (a blood test called \"stomach cancer risk screening\" is one option)"
+        },
+        {
+          "kind": "text",
+          "text": "In other words, \"from what age\" and \"how often\" depend **not just on age, but on H. pylori and your symptoms.** Let's take these one at a time."
+        },
+        {
+          "kind": "text",
+          "text": "### If you have symptoms, age doesn't matter"
+        },
+        {
+          "kind": "text",
+          "text": "First and foremost: if you have any of the following, there's no need to wait until you reach \"screening age,\" however old you are."
+        },
+        {
+          "kind": "text",
+          "text": "- Ongoing pain in the pit of your stomach or a heavy, bloated feeling\n- Difficulty swallowing, or a feeling of food getting stuck\n- Black stools\n- Loss of appetite and weight loss\n- Anemia flagged at a health checkup"
+        },
+        {
+          "kind": "text",
+          "text": "A gastroscopy for symptoms like these is a diagnostic exam, so it's **covered by health insurance.**"
+        },
+        {
+          "kind": "text",
+          "text": "### No symptoms: the national guideline is \"every 2 years from age 50\""
+        },
+        {
+          "kind": "text",
+          "text": "For stomach cancer screening in people without symptoms, Japan's national guidelines recommend **a gastroscopy (or barium X-ray) every 2 years for people aged 50 and over.** Many municipalities offer stomach cancer screening based on these guidelines, so check your local municipality's information for eligible ages and costs."
+        },
+        {
+          "kind": "text",
+          "text": "The reason it starts at 50 is that stomach cancer becomes much more common from people's fifties onward."
+        },
+        {
+          "kind": "text",
+          "text": "### More important than age: H. pylori"
+        },
+        {
+          "kind": "text",
+          "text": "That said, when it comes to stomach cancer risk, something matters even more than age: **Helicobacter pylori** (H. pylori). Most stomach cancers are thought to develop against a background of long-term inflammation of the stomach lining caused by H. pylori infection, which gradually weakens the lining (atrophic gastritis)."
+        },
+        {
+          "kind": "text",
+          "text": "- **If you have H. pylori**: Eradication treatment is recommended. It lowers your stomach cancer risk, but doesn't reduce it to zero\n- **If eradication was successful**: Depending on the condition of your stomach lining, **regular gastroscopies may still be recommended afterward.** The interval is decided with your doctor based on what your stomach looks like\n- **If you've never been infected**: Your stomach cancer risk is considered relatively low, and longer intervals between exams are usually reasonable"
+        },
+        {
+          "kind": "text",
+          "text": "H. pylori is usually picked up in childhood and then stays in the stomach for years. Infection rates are falling among younger generations, but **knowing once and for all whether you're infected** is well worth it, even if you're in your forties or younger."
+        },
+        {
+          "kind": "text",
+          "text": "### Checking with a blood test: \"stomach cancer risk screening\" (ABC screening)"
+        },
+        {
+          "kind": "text",
+          "text": "One easy way to learn about H. pylori and the condition of your stomach before having a gastroscopy is **stomach cancer risk screening, also called ABC screening.** It's just a blood test that checks two things:"
+        },
+        {
+          "kind": "text",
+          "text": "- **H. pylori antibodies**: whether you're infected with H. pylori\n- **Pepsinogen**: whether your stomach lining has become weakened (atrophied)"
+        },
+        {
+          "kind": "text",
+          "text": "Based on the combination of these two, your stomach cancer risk is sorted into groups A to D. Group A is considered relatively low risk — \"no H. pylori infection and a healthy stomach lining\" — and the risk rises from B to C to D. For people in groups B to D, a gastroscopy is recommended for a closer look."
+        },
+        {
+          "kind": "text",
+          "text": "Because it only takes a blood sample, it's easy to have even if you're reluctant to get a gastroscopy. There are some important caveats, though:"
+        },
+        {
+          "kind": "text",
+          "text": "- **It doesn't detect cancer itself.** It only estimates your risk, and is not a substitute for a gastroscopy\n- **Group A isn't a guarantee.** People who were infected in the past and whose stomach lining is already severely atrophied, for example, can be placed in group A even though their real risk is higher. Even in group A, it's reassuring to **have a gastroscopy at least once** to check the inside of your stomach\n- **It can't give an accurate result** for people who have already had eradication treatment, take acid-reducing medication, or have had stomach surgery, so they aren't eligible"
+        },
+        {
+          "kind": "text",
+          "text": "Some municipal and workplace checkups offer it as an option. For younger people who feel a gastroscopy is \"still a way off,\" it's a useful **first step toward knowing your own stomach risk.**"
+        },
+        {
+          "kind": "text",
+          "text": "### Who should consider shorter intervals"
+        },
+        {
+          "kind": "text",
+          "text": "If any of the following apply to you, talk to your doctor about starting earlier or having exams more often than the general guide, even without symptoms:"
+        },
+        {
+          "kind": "text",
+          "text": "- **A parent or sibling has had stomach cancer**\n- **Your face quickly turns red when you drink, and you drink or smoke regularly** (this is known to raise the risk of esophageal cancer)\n- **Your last gastroscopy found atrophic gastritis, polyps or similar findings**"
+        },
+        {
+          "kind": "text",
+          "text": "### A message from the director"
+        },
+        {
+          "kind": "text",
+          "text": "\"From what age should I get a gastroscopy?\" is actually a hard question to answer in a single sentence. Two people who are both 50 — one who has never had H. pylori, and one who has been treated for it — may need completely different intervals."
+        },
+        {
+          "kind": "text",
+          "text": "That's exactly why, once you've had a gastroscopy, I'd encourage you to **ask the doctor, \"When should I have the next one?\"** A doctor who has actually seen the inside of your stomach can tell you the interval that's right for you."
+        },
+        {
+          "kind": "text",
+          "text": "Once we open, we plan to offer gastroscopy both for people with symptoms (covered by insurance) and for people without symptoms who want it as a health checkup (self-pay), as well as **stomach cancer risk screening (ABC screening)**, which only requires a blood test. For gastroscopy, we use a thin scope through the nose, without sedation, and if you'd like, I can explain what we're seeing on the monitor during the exam. Even if you just want to ask \"When should I be getting one?\", please feel free to get in touch."
+        }
+      ]
+    }
+  },
+  {
+    "slug": "kaicho-mattan-en",
+    "date": "2026.10.01",
+    "cover": "/blog/kibana-landscape.png",
+    "ja": {
+      "category": "健康・予防の話",
+      "title": "右下腹部が痛い、もしかして盲腸？——実は多い「回腸末端炎」のこと",
+      "excerpt": "「盲腸だと思って来たんです」——そう心配して受診され、検査の結果「回腸末端炎」だった、という方は少なくありません。聞き慣れない病名に不安になった方へ。",
+      "body": [
+        {
+          "kind": "text",
+          "text": "「右のお腹の下のほうが痛くて……盲腸だと思って来たんです」。これまでの診療の中で、そう心配して受診された方が、検査の結果「盲腸ではなく、回腸末端炎（かいちょうまったんえん）ですね」とお伝えすることになったケースは、決して少なくありません。"
+        },
+        {
+          "kind": "text",
+          "text": "「盲腸じゃなかったなら良かった」と思う一方で、初めて聞く病名に戸惑い、家に帰ってインターネットで調べてみたら「クローン病」「難病」といった言葉が出てきて、かえって不安になってしまった——そんなお気持ち、とてもよく分かります。"
+        },
+        {
+          "kind": "text",
+          "text": "この記事を読んでいただくと、回腸末端炎がどんな病気なのか、盲腸（急性虫垂炎）とどう違うのか、そしてどんなときに詳しい検査が必要なのかが分かります。結論から言うと、**回腸末端炎の多くは、細菌などによる一時的な腸の炎症で、自然に、あるいはお薬で良くなることが多いもの**です。ただし、中には詳しく調べたほうがよい原因が隠れていることもあるため、**きちんと診断して、原因を見極めることが大切**です。"
+        },
+        {
+          "kind": "text",
+          "text": "### 「回腸末端」は、盲腸のすぐ隣にあります"
+        },
+        {
+          "kind": "text",
+          "text": "小腸は、胃から続く長い腸で、最後の部分を「回腸（かいちょう）」と呼びます。その回腸の終わり、ちょうど**大腸につながる手前の部分が「回腸末端」**です。"
+        },
+        {
+          "kind": "text",
+          "text": "そして、この回腸末端がつながる大腸の入り口が「盲腸」で、いわゆる「盲腸（の病気）」と呼ばれている**虫垂（ちゅうすい）**は、その盲腸からぶら下がっている細い突起です。つまり、回腸末端と虫垂は、**右下腹部のほぼ同じ場所に、隣り合って並んでいる**のです。"
+        },
+        {
+          "kind": "text",
+          "text": "そのため、どちらに炎症が起きても、痛む場所がとてもよく似てしまいます。「右下腹部が痛い＝盲腸」と考えるのは自然なことですが、実際には盲腸（虫垂炎）以外の原因で痛んでいることも多く、その代表が回腸末端炎です。"
+        },
+        {
+          "kind": "text",
+          "text": "### 回腸末端は、炎症を起こしやすい「腸の関所」"
+        },
+        {
+          "kind": "text",
+          "text": "回腸末端は、小腸から大腸へ食べたものが移っていく「関所」のような場所です。ここでは、**栄養の吸収の仕上げ**（ビタミンB12や胆汁の成分の吸収など）が行われています。"
+        },
+        {
+          "kind": "text",
+          "text": "さらに、回腸末端の壁には、**「パイエル板」と呼ばれる免疫の拠点**がたくさん集まっています。腸に入ってきた細菌やウイルスを見張り、体を守るための大切な仕組みです。ところが、その分、外から入ってきた細菌などに反応して、**むくみや赤み（炎症）を起こしやすい、デリケートな場所**でもあるのです。"
+        },
+        {
+          "kind": "text",
+          "text": "### 盲腸（虫垂炎）と回腸末端炎、症状の違いは？"
+        },
+        {
+          "kind": "text",
+          "text": "どちらも右下腹部が痛む病気ですが、症状の出方にはいくつか違いがあります。"
+        },
+        {
+          "kind": "text",
+          "text": "- **痛みの始まり方**：虫垂炎は、最初は**みぞおちやおへその周り**が痛み、数時間〜半日ほどかけて**右下腹部へ痛みが移動する**ことが多いのが特徴です。一方、回腸末端炎は、**最初から右下腹部が痛む**ことが多くみられます\n- **お通じの変化**：回腸末端炎では、**下痢や水のような便、お腹の張り**を伴うことが多くあります。虫垂炎でも下痢が出ることはありますが、吐き気や食欲のなさが目立つことが多いです\n- **発熱**：どちらも熱が出ることがあり、熱だけでは区別できません"
+        },
+        {
+          "kind": "text",
+          "text": "ただし、これはあくまで「傾向」です。症状だけで両者をはっきり見分けることは、医師にとっても難しいことがあります。特に虫垂炎は、放っておくと破れて（穿孔して）腹膜炎になるおそれがあるため、**「たぶん腸炎だろう」と自己判断せず、検査で確かめることが大切**です。"
+        },
+        {
+          "kind": "text",
+          "text": "### 回腸末端炎の主な原因は、大きく3つ"
+        },
+        {
+          "kind": "text",
+          "text": "回腸末端炎は、ひとつの病気の名前というより、「回腸末端に炎症が起きている状態」を表す言葉です。原因は大きく次の3つに分けられます。"
+        },
+        {
+          "kind": "text",
+          "text": "**1. 細菌などによる感染性腸炎（いちばん多い原因）**"
+        },
+        {
+          "kind": "text",
+          "text": "最も多いのが、**カンピロバクター**（鶏肉の生焼けなどが原因になりやすい菌）や、**エルシニア**（豚肉や汚染された水などから感染する菌）などの細菌による、一時的な腸炎です。特にエルシニアは、回腸末端に炎症を起こしやすく、虫垂炎とそっくりの症状が出ることで知られています。"
+        },
+        {
+          "kind": "text",
+          "text": "このタイプは、**多くの場合、数日〜1、2週間ほどで自然に良くなります**。水分をしっかりとって、お腹を休めることが基本で、症状によってはお薬を使うこともあります。"
+        },
+        {
+          "kind": "text",
+          "text": "**2. お薬やストレス、腸内環境の乱れ**"
+        },
+        {
+          "kind": "text",
+          "text": "痛み止めとして使われる**解熱鎮痛薬（NSAIDs：ロキソプロフェンなど）**は、胃だけでなく小腸の粘膜も傷つけることがあり、回腸末端の炎症の原因になることがあります。また、強いストレスや、腸内環境の乱れが関わっていると考えられることもあります。"
+        },
+        {
+          "kind": "text",
+          "text": "普段飲んでいるお薬は、診察の際にぜひ教えてください。お薬手帳があると、とても助かります。"
+        },
+        {
+          "kind": "text",
+          "text": "**3. 慢性的な炎症性の病気（詳しく調べる必要があるもの）**"
+        },
+        {
+          "kind": "text",
+          "text": "頻度は高くありませんが、**クローン病**などの炎症性腸疾患や、**腸結核**などが、回腸末端の炎症として見つかることがあります。これらは、適切な診断と、継続的な治療が必要な病気です。"
+        },
+        {
+          "kind": "text",
+          "text": "ネットで「クローン病」という言葉を見て不安になった方も多いと思いますが、回腸末端炎と言われた方の多くは、1や2の一時的な炎症です。ただ、**症状が長引く、何度も繰り返す、体重が減る、血便が出る**といった場合は、こうした病気が隠れていないか、詳しく調べることが大切になります。"
+        },
+        {
+          "kind": "text",
+          "text": "### 当院での検査と診断の進め方"
+        },
+        {
+          "kind": "text",
+          "text": "右下腹部の痛みでは、「虫垂炎なのか、回腸末端炎なのか、それ以外なのか」を見極めることが何より重要です。当院では、次のような検査を組み合わせて診断します。"
+        },
+        {
+          "kind": "text",
+          "text": "- **血液検査**：白血球や炎症反応（CRP）の数値から、体の中でどのくらい炎症が起きているかを確認します\n- **便の検査**：下痢がある場合は、必要に応じて便を調べ、原因となる細菌を確認します\n- **腹部エコー（超音波）**：お腹に器械を当てるだけで、痛みも被ばくもなく、虫垂の腫れや、回腸末端の壁が厚くなっていないか（壁肥厚）を確認できます\n- **腹部CT**：院内のCTで、虫垂と回腸末端の状態や、周りへの炎症の広がりを、その日のうちに詳しく確認できます。「虫垂が腫れているのか」「回腸末端の壁が厚くなっているのか」の見極めに、とても役立ちます"
+        },
+        {
+          "kind": "text",
+          "text": "検査の結果、炎症が長引いている場合や、慢性の病気が疑われる場合には、**大腸カメラ（大腸内視鏡）**で回腸末端まで直接観察し、必要に応じて組織を少し取って調べます（生検）。大腸カメラが必要な場合は、連携する医療機関にご紹介します。"
+        },
+        {
+          "kind": "text",
+          "text": "また、虫垂炎で手術が必要と判断される場合も、速やかに対応できる医療機関へご紹介します。"
+        },
+        {
+          "kind": "text",
+          "text": "### 院長からのメッセージ"
+        },
+        {
+          "kind": "text",
+          "text": "「回腸末端炎」という聞き慣れない病名に、驚かれた方も多いと思います。けれど、きちんと検査をして原因を見極めれば、**過度に怖がる必要はありません**。多くの場合は、しばらく様子を見たり、お薬を使ったりすることで、良くなっていきます。"
+        },
+        {
+          "kind": "text",
+          "text": "大切なのは、「たぶん大丈夫だろう」と我慢しすぎないことです。消化器外科医として、これまで多くの虫垂炎や腸の病気の患者さんを診てきました。右下腹部の痛みには、早めの判断が必要なものと、落ち着いて経過を見てよいものの両方があります。その見極めこそが、私たち医師の役割です。"
+        },
+        {
+          "kind": "text",
+          "text": "右下腹部の痛みや、下痢・お腹の違和感が続くときは、どうぞ我慢せずにご相談ください。一緒に原因を確かめていきましょう。"
+        }
+      ]
+    },
+    "en": {
+      "category": "Health and prevention",
+      "title": "Pain in your lower right belly — is it appendicitis? Meet the often-overlooked “terminal ileitis”",
+      "excerpt": "“I came in because I thought it was my appendix” — and the tests showed terminal ileitis instead. If an unfamiliar diagnosis has you worried, this is for you.",
+      "body": [
+        {
+          "kind": "text",
+          "text": "\"My lower right belly hurts... I came in because I thought it was my appendix.\" Over the years in my practice, quite a few people who came in worried about exactly that turned out, after testing, to have something else: \"It's not your appendix — it's terminal ileitis.\""
+        },
+        {
+          "kind": "text",
+          "text": "Relief that it isn't appendicitis can quickly give way to confusion at an unfamiliar diagnosis. Then you search it online at home, see words like \"Crohn's disease\" or \"intractable disease,\" and end up more anxious than before. That feeling is completely understandable."
+        },
+        {
+          "kind": "text",
+          "text": "By the end of this post, you'll know what terminal ileitis is, how it differs from appendicitis, and when more detailed tests are needed. The short answer: **most terminal ileitis is a temporary inflammation of the intestine, often caused by bacteria, and it frequently gets better on its own or with medication.** That said, it can occasionally point to a cause that deserves a closer look — so **getting a proper diagnosis and identifying the cause is what matters.**"
+        },
+        {
+          "kind": "text",
+          "text": "### The terminal ileum sits right next to the appendix"
+        },
+        {
+          "kind": "text",
+          "text": "The small intestine is the long stretch of bowel that follows the stomach, and its last section is called the ileum. The very end of the ileum — **just before it joins the large intestine — is the \"terminal ileum.\"**"
+        },
+        {
+          "kind": "text",
+          "text": "The part of the large intestine it connects to is the cecum, and the **appendix** — the organ involved in \"appendicitis\" — is a thin tube hanging off the cecum. In other words, the terminal ileum and the appendix **sit side by side in almost the same spot in the lower right abdomen.**"
+        },
+        {
+          "kind": "text",
+          "text": "That's why inflammation in either one causes pain in a very similar place. It's natural to think \"lower right belly pain means appendicitis,\" but in reality the pain often has another cause — and terminal ileitis is one of the most common."
+        },
+        {
+          "kind": "text",
+          "text": "### The terminal ileum: a \"checkpoint\" prone to inflammation"
+        },
+        {
+          "kind": "text",
+          "text": "The terminal ileum works like a checkpoint where digested food passes from the small intestine into the large intestine. It's where **the final stage of nutrient absorption** takes place, including absorption of vitamin B12 and components of bile."
+        },
+        {
+          "kind": "text",
+          "text": "Its walls are also packed with **immune hubs called \"Peyer's patches,\"** which keep watch over bacteria and viruses entering the gut and help protect the body. But for that very reason, it's **a delicate spot that easily becomes swollen and red (inflamed)** in response to bacteria and other invaders."
+        },
+        {
+          "kind": "text",
+          "text": "### Appendicitis vs. terminal ileitis — how do the symptoms differ?"
+        },
+        {
+          "kind": "text",
+          "text": "Both cause pain in the lower right abdomen, but there are some differences in how symptoms show up:"
+        },
+        {
+          "kind": "text",
+          "text": "- **How the pain starts**: With appendicitis, pain often begins **around the pit of the stomach or the belly button,** then **moves to the lower right** over several hours to half a day. With terminal ileitis, the pain is often **in the lower right from the start**\n- **Bowel changes**: Terminal ileitis often comes with **diarrhea, watery stools and bloating.** Appendicitis can cause diarrhea too, but nausea and loss of appetite tend to be more prominent\n- **Fever**: Both can cause fever, so fever alone can't tell them apart"
+        },
+        {
+          "kind": "text",
+          "text": "These are only tendencies, though. Even for doctors, telling the two apart from symptoms alone can be difficult. Appendicitis in particular can rupture (perforate) and lead to peritonitis if left untreated, so **rather than deciding \"it's probably just gastroenteritis\" yourself, it's important to confirm with tests.**"
+        },
+        {
+          "kind": "text",
+          "text": "### Three main causes of terminal ileitis"
+        },
+        {
+          "kind": "text",
+          "text": "Terminal ileitis is less the name of a single disease than a description of \"inflammation at the terminal ileum.\" Its causes fall into three broad groups."
+        },
+        {
+          "kind": "text",
+          "text": "**1. Infectious enteritis caused by bacteria (the most common cause)**"
+        },
+        {
+          "kind": "text",
+          "text": "The most common cause is temporary enteritis from bacteria such as **Campylobacter** (often linked to undercooked chicken) or **Yersinia** (which can be caught from pork or contaminated water). Yersinia in particular tends to inflame the terminal ileum and is known for causing symptoms that look just like appendicitis."
+        },
+        {
+          "kind": "text",
+          "text": "This type **usually gets better on its own within a few days to a week or two.** The basics are drinking plenty of fluids and resting your gut, with medication used depending on symptoms."
+        },
+        {
+          "kind": "text",
+          "text": "**2. Medications, stress and disrupted gut balance**"
+        },
+        {
+          "kind": "text",
+          "text": "**Anti-inflammatory painkillers (NSAIDs, such as loxoprofen)** can damage the lining not only of the stomach but also of the small intestine, and can cause inflammation at the terminal ileum. Strong stress or an imbalance in the gut environment are also thought to play a role in some cases."
+        },
+        {
+          "kind": "text",
+          "text": "Please tell us about any medications you take regularly when you come in. Bringing your medication record helps a great deal."
+        },
+        {
+          "kind": "text",
+          "text": "**3. Chronic inflammatory diseases (those that need a closer look)**"
+        },
+        {
+          "kind": "text",
+          "text": "Less commonly, inflammatory bowel diseases such as **Crohn's disease,** or conditions such as **intestinal tuberculosis,** are found as inflammation of the terminal ileum. These need an accurate diagnosis and ongoing treatment."
+        },
+        {
+          "kind": "text",
+          "text": "Many people feel anxious after seeing \"Crohn's disease\" online, but most people told they have terminal ileitis have the temporary kind described in 1 or 2. Still, **if symptoms drag on, keep coming back, or come with weight loss or blood in the stool,** it's important to check carefully whether one of these conditions is involved."
+        },
+        {
+          "kind": "text",
+          "text": "### How we test and diagnose at our clinic"
+        },
+        {
+          "kind": "text",
+          "text": "With lower right abdominal pain, the most important thing is to work out whether it's appendicitis, terminal ileitis, or something else. At our clinic, we combine the following tests:"
+        },
+        {
+          "kind": "text",
+          "text": "- **Blood tests**: White blood cell counts and inflammation markers (CRP) show how much inflammation is going on in the body\n- **Stool tests**: If you have diarrhea, we may test a stool sample to identify the bacteria responsible\n- **Abdominal ultrasound**: Just placing a probe on the belly — painless and radiation-free — lets us check whether the appendix is swollen or the wall of the terminal ileum has thickened\n- **Abdominal CT**: With our in-house CT, we can examine the appendix, the terminal ileum and how far any inflammation has spread, in detail and on the same day. It's very helpful for telling \"a swollen appendix\" from \"a thickened terminal ileum wall\""
+        },
+        {
+          "kind": "text",
+          "text": "If the inflammation persists, or a chronic condition is suspected, a **colonoscopy** allows the terminal ileum to be examined directly, with a small tissue sample taken for testing if needed (a biopsy). When a colonoscopy is needed, we'll refer you to a partner medical institution."
+        },
+        {
+          "kind": "text",
+          "text": "And if appendicitis requiring surgery is diagnosed, we'll promptly refer you to a hospital that can provide it."
+        },
+        {
+          "kind": "text",
+          "text": "### A message from the director"
+        },
+        {
+          "kind": "text",
+          "text": "An unfamiliar diagnosis like \"terminal ileitis\" can be startling. But once the cause has been properly identified through testing, **there's no need to be overly afraid.** In many cases, it improves with a period of monitoring or with medication."
+        },
+        {
+          "kind": "text",
+          "text": "What matters is not to push through it thinking \"it's probably fine.\" As a gastrointestinal surgeon, I've treated many patients with appendicitis and other bowel conditions over the years. Lower right abdominal pain includes cases that need a quick decision and cases where it's fine to watch calmly — and telling them apart is exactly our job as doctors."
+        },
+        {
+          "kind": "text",
+          "text": "If pain in your lower right belly, diarrhea or ongoing discomfort won't go away, please don't put up with it. Let's find the cause together."
+        }
+      ]
+    }
+  },
+  {
+    "slug": "hai-kousankin",
+    "date": "2026.10.02",
+    "cover": "/blog/kibana-landscape.png",
+    "ja": {
+      "category": "健康・予防の話",
+      "title": "「抗酸菌」は酸を出す最強の菌？——名前のせいで誤解されがちな菌の正体",
+      "excerpt": "「抗酸菌が出ています」と言われて、酸を吐く凶悪な菌を想像していませんか。実はその名前、ある「検査の都合」でついたものなのです。",
+      "body": [
+        {
+          "kind": "text",
+          "text": "「検査で抗酸菌が出ていますね」。健診の再検査や、長引く咳で受診された方にそうお伝えすると、少し身構えた表情をされることがあります。「抗酸菌……酸を出す菌ですか？」「胃酸も平気な、すごく強い菌なんですか？」。これまでの診療の中で、そうした質問をいただいたことは一度や二度ではありません。"
+        },
+        {
+          "kind": "text",
+          "text": "確かに、「抗酸」という字面だけを見ると、酸をまき散らす凶悪な菌や、何にも負けない無敵の菌を想像してしまいますよね。"
+        },
+        {
+          "kind": "text",
+          "text": "この記事を読んでいただくと、抗酸菌という名前の本当の意味と、この菌がなぜ「手ごわい」と言われるのかが分かります。そして、**なぜ抗酸菌の治療には何か月、ときには年単位の時間がかかるのか、なぜ痰の検査がそれほど大切なのか**にも、納得していただけると思います。結論から言うと、**「抗酸菌」は酸を出す菌ではなく、「強い酸で洗っても色が落ちない菌」という、検査の性質からついた名前**です。"
+        },
+        {
+          "kind": "text",
+          "text": "## 実は「実験室の都合」でついた名前"
+        },
+        {
+          "kind": "text",
+          "text": "### 「抗酸」は「酸に抵抗する（色が落ちない）」という意味"
+        },
+        {
+          "kind": "text",
+          "text": "「抗酸菌」の「抗酸」は、「酸を出す」という意味ではありません。**「酸に抵抗する」、つまり「強い酸で洗っても、染めた色が落ちない」**という意味なのです。"
+        },
+        {
+          "kind": "text",
+          "text": "細菌はとても小さく、そのままでは顕微鏡で見えにくいため、検査では菌に色をつけて観察します。このとき、ほとんどの細菌は酸で洗うと色が落ちてしまいますが、**抗酸菌だけは、酸で洗っても色が残る**。この性質から、「抗酸性の菌＝抗酸菌」と呼ばれるようになりました。"
+        },
+        {
+          "kind": "text",
+          "text": "### 「特殊な絵の具」と「強力な酸」で洗う検査"
+        },
+        {
+          "kind": "text",
+          "text": "この検査（チール・ネールゼン染色などと呼ばれます）を、身近な例えでご説明します。"
+        },
+        {
+          "kind": "text",
+          "text": "- **① 赤い特殊な絵の具で、しっかり染める**：痰などに含まれる菌を、赤い色素で染めます。抗酸菌は染まりにくいため、温めながら時間をかけて色をしみ込ませます\n- **② 強力な酸で洗う**：次に、酸を含んだ液でゴシゴシ洗います。ふつうの細菌は、ここで赤い色がきれいに落ちてしまいます\n- **③ 青い絵の具で仕上げる**：最後に青い色で全体を染めます"
+        },
+        {
+          "kind": "text",
+          "text": "すると顕微鏡の中で、ふつうの菌は青く、**抗酸菌だけが赤く浮かび上がって見える**のです。"
+        },
+        {
+          "kind": "text",
+          "text": "つまり「抗酸菌」という名前は、菌が酸を出すからでも、胃酸に強いからでもなく、**人間がこの検査をしたときの「色の落ちにくさ」から名づけられた**もの。少し拍子抜けした方もいるかもしれませんね。"
+        },
+        {
+          "kind": "text",
+          "text": "## 強さの秘密は「ロウ（蝋）」でできた鎧"
+        },
+        {
+          "kind": "text",
+          "text": "### 細胞の表面が、分厚い脂のバリアで覆われている"
+        },
+        {
+          "kind": "text",
+          "text": "では、なぜ抗酸菌は、強い酸で洗っても色が落ちないのでしょうか。"
+        },
+        {
+          "kind": "text",
+          "text": "その秘密は、菌の表面にあります。抗酸菌の細胞の壁は、**「ミコール酸」などの脂（あぶら）がたっぷり含まれた、ロウ（蝋）のような分厚い層**で覆われています。"
+        },
+        {
+          "kind": "text",
+          "text": "イメージとしては、**全身に撥水ワックスを何重にも塗りたくった状態**です。ロウソクのロウやワックスが水をはじくように、この脂の鎧が、外から来るものをはじいてしまいます。いったん染み込んだ色素も、同じ理由でなかなか流れ出ていかないのです。"
+        },
+        {
+          "kind": "text",
+          "text": "### 鎧のせいで、多くのお薬や消毒薬が効きにくい"
+        },
+        {
+          "kind": "text",
+          "text": "この「ワックスの鎧」は、色素だけでなく、**多くの抗菌薬や消毒薬も通しにくく**します。ふつうの細菌によく効くお薬の多くが、抗酸菌にはほとんど効きません。"
+        },
+        {
+          "kind": "text",
+          "text": "さらに、抗酸菌には**とてもゆっくり増える**という特徴もあります。ふつうの細菌が数十分で倍に増えるのに対し、結核菌などは倍になるのに半日〜1日近くかかります。のんびり増える菌は、お薬の影響を受けにくい状態でじっと身をひそめていることがあり、これも治療を難しくしている理由のひとつです。"
+        },
+        {
+          "kind": "text",
+          "text": "### 代表的な抗酸菌は「結核菌」と「非結核性抗酸菌（NTM）」"
+        },
+        {
+          "kind": "text",
+          "text": "抗酸菌の仲間で、よく知られているのが次の2つです。"
+        },
+        {
+          "kind": "text",
+          "text": "- **結核菌**：結核の原因になる菌。人から人へうつるため、診断されたら保健所への届け出が必要です\n- **非結核性抗酸菌（NTM）**：結核菌以外の抗酸菌の総称。土や水まわりにいる菌で、**人から人へはうつりません**。近年、日本で患者さんが増えている「肺NTM症（肺MAC症）」の原因です。症状や原因については、[肺NTM症（肺MAC症）の記事](/blog/hai-ntm-sho)で詳しくご紹介しています"
+        },
+        {
+          "kind": "text",
+          "text": "同じ「抗酸菌」でも、うつるかどうか、どんなお薬を使うかがまったく違います。だからこそ、**どの抗酸菌なのかを見分けること**が、とても大切になるのです。"
+        },
+        {
+          "kind": "text",
+          "text": "## だからこそ「じっくり治療」と「痰の検査」が大切です"
+        },
+        {
+          "kind": "text",
+          "text": "### 頑丈な鎧を破るには、何種類ものお薬を長く"
+        },
+        {
+          "kind": "text",
+          "text": "ワックスの鎧をまとい、ゆっくり増え、じっと身をひそめる——そんな抗酸菌を退治するには、短期決戦というわけにはいきません。"
+        },
+        {
+          "kind": "text",
+          "text": "- **何種類ものお薬を組み合わせる**：1種類だけでは、お薬に負けない「耐性菌」が生き残りやすいため、複数のお薬で同時に攻めます\n- **長い期間、続ける**：結核ではふつう**半年以上**、肺MAC症では菌が出なくなってからさらに**1年以上**、お薬を続けるのが一般的です"
+        },
+        {
+          "kind": "text",
+          "text": "「症状が良くなったから」と途中でお薬をやめてしまうと、生き残った菌が再び増えたり、お薬の効かない菌に変わってしまったりするおそれがあります。**長い治療には、ちゃんと理由がある**のです。"
+        },
+        {
+          "kind": "text",
+          "text": "### 画像だけでは、どの菌か分からない"
+        },
+        {
+          "kind": "text",
+          "text": "胸のレントゲンやCTは、肺に影があるかどうか、その形や広がりを知るのにとても役立ちます。けれど、**その影が結核なのか、NTMなのか、あるいはまったく別の病気なのかは、画像だけでは確実には分かりません**。"
+        },
+        {
+          "kind": "text",
+          "text": "そこで欠かせないのが、**痰の検査（喀痰検査）**です。"
+        },
+        {
+          "kind": "text",
+          "text": "- 顕微鏡で、先ほどの「赤く染まる菌」がいるかを調べる\n- 菌を育てて（培養して）、どの種類の抗酸菌なのかを確かめる\n- 遺伝子の検査で、結核菌かどうかを素早く調べることもある"
+        },
+        {
+          "kind": "text",
+          "text": "抗酸菌はゆっくり増えるため、培養の結果が出るまでに**数週間**かかることがあります。また、1回の痰では菌が見つからないこともあるため、**日を変えて何回か**痰を出していただくのが一般的です。"
+        },
+        {
+          "kind": "text",
+          "text": "### 痰の検査をうまく受けるコツ"
+        },
+        {
+          "kind": "text",
+          "text": "- **朝起きてすぐ**の痰が、菌が見つかりやすいとされています\n- 先に水で軽く**うがい**をして、口の中をきれいにしてから\n- 唾液ではなく、**胸の奥から「ゴホン」と出した痰**を容器に入れてください"
+        },
+        {
+          "kind": "text",
+          "text": "## 院長からのメッセージ"
+        },
+        {
+          "kind": "text",
+          "text": "「抗酸菌」という名前は、聞くと少し怖く感じるかもしれません。けれど実際は、酸を出す菌でも、何にでも勝つ無敵の菌でもありません。ただ、ワックスの鎧をまとった、**少し手ごわく、じっくり付き合う必要がある菌**なのです。"
+        },
+        {
+          "kind": "text",
+          "text": "痰の検査は、何度もお願いすることがあって面倒に感じるかもしれませんが、どの菌なのかを正しく見極め、あなたに合った治療を選ぶための、いちばん確かな手がかりです。そして治療が始まったら、長い道のりを途中で投げ出さないよう、一緒に伴走していきたいと思っています。"
+        },
+        {
+          "kind": "text",
+          "text": "長引く咳や痰が続くとき、健診で「抗酸菌」「要精査」と言われて不安なときは、どうぞ一人で悩まず、お気軽にご相談ください。"
+        }
+      ]
+    },
+    "en": {
+      "category": "Health and prevention",
+      "title": "Are “acid-fast bacteria” super-germs that spit acid? The truth behind a misleading name",
+      "excerpt": "Told “acid-fast bacteria were found” and picturing a vicious germ that spits acid? That name actually comes from how the bacteria behave in a lab test.",
+      "body": [
+        {
+          "kind": "text",
+          "text": "\"Your test shows acid-fast bacteria.\" When I tell this to people coming in for a follow-up after a checkup, or for a cough that won't go away, I sometimes see them tense up. \"Acid-fast... does that mean it produces acid?\" \"Is it some super-strong germ that can even survive stomach acid?\" Over the years, I've been asked questions like these more than once or twice."
+        },
+        {
+          "kind": "text",
+          "text": "It's true — judging by the name alone, it's easy to picture a vicious germ spraying acid, or an invincible one that nothing can beat."
+        },
+        {
+          "kind": "text",
+          "text": "By the end of this post, you'll know what the name \"acid-fast bacteria\" really means and why these bacteria are considered \"tough.\" I think you'll also understand **why treatment for them takes months, sometimes years, and why sputum tests matter so much.** The short answer: **\"acid-fast bacteria\" don't produce acid — the name means \"bacteria whose stain doesn't wash out even with strong acid,\" a description based on how they behave in a lab test.**"
+        },
+        {
+          "kind": "text",
+          "text": "## A name that comes from \"lab convenience\""
+        },
+        {
+          "kind": "text",
+          "text": "### \"Acid-fast\" means \"resists acid\" — the color won't wash out"
+        },
+        {
+          "kind": "text",
+          "text": "The \"acid-fast\" in acid-fast bacteria doesn't mean \"makes acid.\" It means **\"resists acid\" — in other words, \"the stain doesn't wash out even with strong acid.\"**"
+        },
+        {
+          "kind": "text",
+          "text": "Bacteria are tiny and hard to see under a microscope as they are, so in testing they're colored with dye. Most bacteria lose their color when washed with acid, but **acid-fast bacteria keep their color even after an acid wash.** That property is where the name comes from."
+        },
+        {
+          "kind": "text",
+          "text": "### A test using \"special paint\" and \"strong acid\""
+        },
+        {
+          "kind": "text",
+          "text": "Here's an everyday way to picture this test (known as Ziehl–Neelsen staining, among others):"
+        },
+        {
+          "kind": "text",
+          "text": "- **① Stain thoroughly with a special red paint**: Bacteria in a sample such as sputum are dyed with a red stain. Because acid-fast bacteria resist staining, the color is worked in over time with gentle heating\n- **② Wash with strong acid**: Next, the sample is scrubbed with an acid-containing solution. Ordinary bacteria lose their red color completely at this step\n- **③ Finish with blue paint**: Finally, everything is counterstained blue"
+        },
+        {
+          "kind": "text",
+          "text": "Under the microscope, ordinary bacteria now look blue, while **only the acid-fast bacteria stand out in red.**"
+        },
+        {
+          "kind": "text",
+          "text": "In other words, the name \"acid-fast\" isn't because the bacteria produce acid or resist stomach acid — **it comes from how hard their color is to wash out when humans run this test.** Perhaps a bit of an anticlimax!"
+        },
+        {
+          "kind": "text",
+          "text": "## The secret of their toughness: armor made of \"wax\""
+        },
+        {
+          "kind": "text",
+          "text": "### A thick, fatty barrier covers the cell surface"
+        },
+        {
+          "kind": "text",
+          "text": "So why doesn't the color wash out of acid-fast bacteria, even with strong acid?"
+        },
+        {
+          "kind": "text",
+          "text": "The secret lies on their surface. The cell wall of acid-fast bacteria is covered with **a thick, wax-like layer rich in fats such as \"mycolic acids.\"**"
+        },
+        {
+          "kind": "text",
+          "text": "Picture it as **being coated head to toe in layer upon layer of water-repellent wax.** Just as candle wax or car wax repels water, this fatty armor repels things coming from outside. Once dye has soaked in, the same armor keeps it from washing back out."
+        },
+        {
+          "kind": "text",
+          "text": "### The armor makes many medicines and disinfectants less effective"
+        },
+        {
+          "kind": "text",
+          "text": "This \"wax armor\" doesn't just block dye — it also **makes it hard for many antibiotics and disinfectants to get through.** Many medicines that work well against ordinary bacteria have little effect on acid-fast bacteria."
+        },
+        {
+          "kind": "text",
+          "text": "Acid-fast bacteria also **grow very slowly.** Ordinary bacteria can double in tens of minutes, while tuberculosis bacteria take half a day to nearly a full day. Slow-growing bacteria can lie low in a state that's less affected by medicine — another reason treatment is difficult."
+        },
+        {
+          "kind": "text",
+          "text": "### Two well-known acid-fast bacteria: tuberculosis and NTM"
+        },
+        {
+          "kind": "text",
+          "text": "Two members of the acid-fast family are especially well known:"
+        },
+        {
+          "kind": "text",
+          "text": "- **Tuberculosis bacteria**: the cause of tuberculosis. Because it spreads from person to person, a diagnosis must be reported to the public health center\n- **Non-tuberculous mycobacteria (NTM)**: the umbrella term for acid-fast bacteria other than tuberculosis. They live in soil and water and **do not spread from person to person.** They cause \"pulmonary NTM disease (pulmonary MAC disease),\" which has been increasing in Japan in recent years. For its symptoms and causes, see [our post on pulmonary NTM (MAC) disease](/blog/hai-ntm-sho)"
+        },
+        {
+          "kind": "text",
+          "text": "Both are \"acid-fast,\" but whether they spread and which medicines are used differ completely. That's exactly why **identifying which acid-fast bacterium it is** matters so much."
+        },
+        {
+          "kind": "text",
+          "text": "## That's why \"patient treatment\" and \"sputum tests\" matter"
+        },
+        {
+          "kind": "text",
+          "text": "### Breaking through tough armor takes several medicines over a long time"
+        },
+        {
+          "kind": "text",
+          "text": "Acid-fast bacteria wear wax armor, grow slowly and lie low — so beating them can't be a quick fight."
+        },
+        {
+          "kind": "text",
+          "text": "- **Several medicines are combined**: With just one, bacteria that resist it (\"resistant bacteria\") are more likely to survive, so several medicines attack at once\n- **Treatment continues for a long time**: For tuberculosis, usually **six months or more**; for pulmonary MAC disease, treatment typically continues for **at least a year** after the bacteria disappear from the sputum"
+        },
+        {
+          "kind": "text",
+          "text": "If you stop the medicine partway because \"the symptoms got better,\" surviving bacteria can multiply again or turn into bacteria the medicine no longer works on. **There's a good reason treatment is long.**"
+        },
+        {
+          "kind": "text",
+          "text": "### Imaging alone can't tell which bacterium it is"
+        },
+        {
+          "kind": "text",
+          "text": "Chest X-rays and CT scans are very useful for seeing whether there's a shadow in the lungs, and its shape and extent. But **imaging alone can't reliably tell whether that shadow is tuberculosis, NTM or something else entirely.**"
+        },
+        {
+          "kind": "text",
+          "text": "That's where **sputum tests** become essential:"
+        },
+        {
+          "kind": "text",
+          "text": "- Checking under the microscope for the \"red-stained bacteria\" described above\n- Growing (culturing) the bacteria to identify which type of acid-fast bacterium it is\n- Sometimes using a genetic test to quickly check for tuberculosis"
+        },
+        {
+          "kind": "text",
+          "text": "Because acid-fast bacteria grow slowly, culture results can take **several weeks.** And since bacteria may not show up in a single sample, it's common to provide sputum **several times on different days.**"
+        },
+        {
+          "kind": "text",
+          "text": "### Tips for a good sputum sample"
+        },
+        {
+          "kind": "text",
+          "text": "- Sputum **right after waking up** is said to be the most likely to contain bacteria\n- **Rinse your mouth** lightly with water first to clean it\n- Collect sputum **coughed up from deep in your chest,** not saliva"
+        },
+        {
+          "kind": "text",
+          "text": "## A message from the director"
+        },
+        {
+          "kind": "text",
+          "text": "The name \"acid-fast bacteria\" may sound a little frightening. But in reality, they're neither acid-producing germs nor invincible ones. They're bacteria wearing wax armor — **a bit tough, and something you need to deal with patiently.**"
+        },
+        {
+          "kind": "text",
+          "text": "Being asked for sputum samples again and again may feel like a hassle, but it's the most reliable clue for correctly identifying the bacterium and choosing the right treatment for you. And once treatment begins, I want to run alongside you so the long road doesn't get abandoned halfway."
+        },
+        {
+          "kind": "text",
+          "text": "If a cough or phlegm won't go away, or a checkup flagged \"acid-fast bacteria\" or \"further testing needed\" and you're worried, please don't keep it to yourself — feel free to talk to us."
+        }
+      ]
+    }
+  },
+  {
+    "slug": "hai-ntm-sho",
+    "date": "2026.10.03",
+    "cover": "/blog/kibana-landscape.png",
+    "ja": {
+      "category": "健康・予防の話",
+      "title": "咳が長引く・健診で「影」——肺NTM症（肺MAC症）とは？原因・症状と「人にうつるの？」にお答えします",
+      "excerpt": "「肺NTM症って結核の仲間？家族にうつる？」——健診で影を指摘されて不安な方へ。先にお伝えすると、この病気は人から人へはうつりません。",
+      "body": [
+        {
+          "kind": "text",
+          "text": "「風邪はとっくに治ったはずなのに、咳だけが何週間も続いている」「健診の胸のレントゲンで『影がある』と言われ、CTを撮ったら『肺NTM症の疑い』と書かれていた」。聞き慣れない病名をインターネットで調べると、「結核の仲間」「治りにくい」といった言葉が目に入り、かえって不安が大きくなってしまった——そんな方も多いのではないでしょうか。"
+        },
+        {
+          "kind": "text",
+          "text": "最初に、いちばん気にされることからお伝えします。**肺NTM症は、人から人へはうつりません。** ご家族やお孫さんと、これまでどおり一緒に過ごしていただいて大丈夫です。また、多くの場合は何年もかけてゆっくり進む病気で、慌てて何かをしなければならないものでもありません。"
+        },
+        {
+          "kind": "text",
+          "text": "この記事では、「肺NTM症」と「肺MAC症」の違い、なぜかかるのか、どんな症状が出るのか、そして当院での検査や治療の考え方を、できるだけ分かりやすくご説明します。"
+        },
+        {
+          "kind": "text",
+          "text": "## 「肺NTM症」とは？「肺MAC症」との違い"
+        },
+        {
+          "kind": "text",
+          "text": "**NTM**とは、「非結核性抗酸菌（Non-Tuberculous Mycobacteria）」の略です。少し難しい名前ですが、分解すると分かりやすくなります。"
+        },
+        {
+          "kind": "text",
+          "text": "- **抗酸菌**：検査で強い酸を使って洗っても色が落ちにくい性質を持つ細菌のグループ。代表が「結核菌」です（名前の由来や、治療に時間がかかる理由は[「抗酸菌」の記事](/blog/hai-kousankin)でご紹介しています）\n- **非結核性**：その抗酸菌のうち、**結核菌（とハンセン病の原因となる菌）以外のもの**"
+        },
+        {
+          "kind": "text",
+          "text": "つまり、NTMは「結核菌と同じグループに属するけれど、結核菌ではない菌」の総称で、約200種類が知られています。この菌が肺に住みついて炎症を起こす病気が、**肺NTM症（肺非結核性抗酸菌症）**です。"
+        },
+        {
+          "kind": "text",
+          "text": "では、**肺MAC症**とは何でしょうか。NTMにはたくさんの種類がありますが、日本の肺NTM症の**約9割は「MAC（マック）」と呼ばれる菌**によるものです。MACは「マイコバクテリウム・アビウム・コンプレックス（Mycobacterium avium complex）」の略で、アビウム菌とイントラセルラーレ菌という、よく似た2種類の菌をまとめた呼び名です。"
+        },
+        {
+          "kind": "text",
+          "text": "整理すると、次のような関係になります。"
+        },
+        {
+          "kind": "text",
+          "text": "- **肺NTM症**：結核菌以外の抗酸菌による肺の病気の「総称」\n- **肺MAC症**：そのうち、MACという菌による肺NTM症。日本ではほとんどがこのタイプ"
+        },
+        {
+          "kind": "text",
+          "text": "「NTM症」と「MAC症」は別の病気ではなく、**大きな枠（NTM症）の中に、いちばん多いタイプ（MAC症）がある**と考えていただくと分かりやすいと思います。"
+        },
+        {
+          "kind": "text",
+          "text": "肺NTM症は、日本で近年はっきりと増えている病気です。全国調査では、患者さんの数が結核に匹敵する、あるいはそれを上回る規模になっていると報告されています。特に、**中高年の、やせ型の女性**に多くみられるのが特徴です。決して珍しい病気ではありません。"
+        },
+        {
+          "kind": "text",
+          "text": "## 肺NTM症の原因は？「人にうつる」のかという疑問"
+        },
+        {
+          "kind": "text",
+          "text": "### 菌は、身近な「土」や「水」にいます"
+        },
+        {
+          "kind": "text",
+          "text": "NTMは、特別な場所にいる菌ではありません。**土の中や、水まわり（浴室・シャワーヘッド・加湿器・水道など）**といった、私たちの身近な環境に普通に住んでいます。"
+        },
+        {
+          "kind": "text",
+          "text": "土いじりやガーデニング、シャワーの湯気などを通して、菌を含んだ細かいほこりや水しぶきを吸い込むことで、肺に入ると考えられています。ただし、同じ環境で暮らしていても、ほとんどの人は発病しません。なぜ一部の人だけが発病するのかは、体質や肺の状態など、まだ分かっていない部分も多いのが正直なところです。"
+        },
+        {
+          "kind": "text",
+          "text": "### 人から人へは、うつりません"
+        },
+        {
+          "kind": "text",
+          "text": "ここが、いちばん大切なポイントです。肺NTM症は、結核と同じ「抗酸菌」による病気ですが、**結核とは違って、人から人へうつることはないと考えられています**。そのため、結核のような保健所への届け出や、入院・隔離の必要もありません。"
+        },
+        {
+          "kind": "text",
+          "text": "- ご家族と同じ部屋で過ごしても大丈夫です\n- 食器やタオルを分ける必要もありません\n- お孫さんを抱っこしても問題ありません"
+        },
+        {
+          "kind": "text",
+          "text": "「家族にうつしてしまったらどうしよう」と、ひとりで抱え込む必要はありません。どうか安心してください。"
+        },
+        {
+          "kind": "text",
+          "text": "### 日常生活でできること"
+        },
+        {
+          "kind": "text",
+          "text": "菌は身近な環境にいるため、完全に避けることはできません。それでも、次のような工夫で、菌を吸い込む機会を減らすことができます。"
+        },
+        {
+          "kind": "text",
+          "text": "- **浴室の換気・掃除**をこまめにし、シャワーヘッドも定期的に洗う\n- **加湿器**は毎日水を替え、こまめに掃除する\n- **土いじりやガーデニング**をするときは、マスクをつける\n- しっかり食べて、**体重と体力を保つ**（やせすぎは、病気が進みやすくなる一因と考えられています）"
+        },
+        {
+          "kind": "text",
+          "text": "## 肺NTM症の症状は？長引く咳・痰に注意"
+        },
+        {
+          "kind": "text",
+          "text": "肺NTM症は、とてもゆっくり進む病気です。そのため、**初めのうちはほとんど症状がなく**、健診の胸部レントゲンやCTで偶然見つかることが少なくありません。"
+        },
+        {
+          "kind": "text",
+          "text": "病気が進んでくると、次のような症状が出ることがあります。"
+        },
+        {
+          "kind": "text",
+          "text": "- **長引く咳**（数週間〜数か月続く）\n- **痰**が出る、ときに痰に血が混じる（血痰）\n- **微熱**が続く\n- **だるさ（倦怠感）**、疲れやすい\n- 寝汗、食欲の低下、体重の減少"
+        },
+        {
+          "kind": "text",
+          "text": "どれも風邪や気管支炎、ほかの肺の病気でも起こる症状で、症状だけで肺NTM症と見分けることはできません。だからこそ、**「咳が3週間以上続く」「健診で影を指摘された」**ときは、そのままにせず、一度きちんと調べることが大切です。"
+        },
+        {
+          "kind": "text",
+          "text": "## 当院での検査・診断・治療の方針"
+        },
+        {
+          "kind": "text",
+          "text": "### 検査：CTと痰の検査で「菌」を確かめる"
+        },
+        {
+          "kind": "text",
+          "text": "肺NTM症の診断には、**「画像」と「菌」の両方の確認**が必要です。"
+        },
+        {
+          "kind": "text",
+          "text": "- **胸部レントゲン・CT**：当院では院内のCTで、肺の影の広がりや形をその日のうちに詳しく確認できます。肺NTM症では、小さな粒状の影や、気管支が広がった変化（気管支拡張）などが特徴的です\n- **痰の検査**：痰の中に抗酸菌がいるかを調べ、培養して菌の種類を確かめます。菌はゆっくり増えるため、結果が出るまでに数週間かかります。原則として、**2回以上の痰から同じ菌が見つかる**ことが、診断の目安の一つです\n- **血液検査**：肺MAC症の診断の補助として、MACに対する抗体を調べる血液検査（保険適用）もあります"
+        },
+        {
+          "kind": "text",
+          "text": "同じ抗酸菌による**結核ではないことを確かめる**のも、とても重要な役割です。"
+        },
+        {
+          "kind": "text",
+          "text": "### 治療：すぐに薬を始めるとは限りません"
+        },
+        {
+          "kind": "text",
+          "text": "肺NTM症と診断されても、**すぐに治療を始めるとは限りません**。症状が軽く、影の広がりも小さく、進み方がゆっくりな場合は、定期的にCTや痰の検査を行いながら**経過を見る**ことも、しっかりとした選択肢の一つです。"
+        },
+        {
+          "kind": "text",
+          "text": "一方、病気が進んでいる場合や、肺に空洞ができている場合などは、**複数の抗菌薬を組み合わせた治療**を行います。肺MAC症では、一般的に3種類の飲み薬を組み合わせ、菌が出なくなってからも1年以上続けるため、治療は長期間に及びます。薬の副作用（目の見え方の変化、肝臓の数値など）にも気を配りながら進める必要があります。"
+        },
+        {
+          "kind": "text",
+          "text": "当院では、**軽症と判断できる場合は、当院で治療を行うこともあります**。一方、病気が進んで**重症化した場合には、呼吸器を専門とする医療機関にご紹介します**。"
+        },
+        {
+          "kind": "text",
+          "text": "## まとめ：肺NTM症と言われて不安な方へ"
+        },
+        {
+          "kind": "text",
+          "text": "最後に、大切なポイントをまとめます。"
+        },
+        {
+          "kind": "text",
+          "text": "- **肺NTM症**は結核菌以外の抗酸菌による肺の病気で、日本ではその約9割が**肺MAC症**\n- 菌は**土や水まわり**など身近な環境にいて、**人から人へはうつらない**\n- 初めは**症状がないことも多く**、進むと**長引く咳・痰・微熱・だるさ**などが出る\n- 診断には**CTと痰の検査**が必要で、**すぐに治療が必要とは限らない**"
+        },
+        {
+          "kind": "text",
+          "text": "### 院長からのメッセージ"
+        },
+        {
+          "kind": "text",
+          "text": "「肺NTM症」「肺MAC症」と聞くと、聞き慣れない名前に驚き、インターネットの情報を読んで不安になってしまうのは自然なことです。けれど、この病気の多くはゆっくり進み、正しく理解して、自分に合ったペースで経過を見ていけば、日常生活を大きく変えずに付き合っていける病気でもあります。"
+        },
+        {
+          "kind": "text",
+          "text": "大切なのは、ひとりで抱え込まず、**定期的に診てもらえる医師を持つこと**です。開院後、当院では院内のCTを活かして肺の状態をしっかり確認し、必要に応じて専門の医療機関とも連携しながら、長い目で寄り添っていきたいと考えています。「咳がなかなか止まらない」「健診で影があると言われたけれど、どこに行けばいいか分からない」——そんなときは、どうぞお気軽にご相談ください。"
+        }
+      ]
+    },
+    "en": {
+      "category": "Health and prevention",
+      "title": "A lingering cough or a “shadow” on your checkup — what is pulmonary NTM (MAC) disease? Causes, symptoms, and “Is it contagious?”",
+      "excerpt": "“Is pulmonary NTM a kind of tuberculosis? Can my family catch it?” If a checkup found a shadow on your lungs, here's the reassuring first answer — it doesn't spread from person to person.",
+      "body": [
+        {
+          "kind": "text",
+          "text": "\"My cold cleared up ages ago, but this cough has dragged on for weeks.\" \"A chest X-ray at my checkup showed a 'shadow,' and after a CT scan the report said 'suspected pulmonary NTM disease.'\" When you look up an unfamiliar diagnosis online and see phrases like \"related to tuberculosis\" or \"hard to treat,\" it can make you even more anxious. If that sounds familiar, you're not alone."
+        },
+        {
+          "kind": "text",
+          "text": "Let me start with what people worry about most: **pulmonary NTM disease does not spread from person to person.** You can keep spending time with your family and grandchildren just as you always have. In most cases, it's also a condition that progresses slowly over years — not something that demands a rushed response."
+        },
+        {
+          "kind": "text",
+          "text": "In this post, I'll explain as simply as I can the difference between \"pulmonary NTM disease\" and \"pulmonary MAC disease,\" why people get it, what symptoms it causes, and how we approach testing and treatment at our clinic."
+        },
+        {
+          "kind": "text",
+          "text": "## What is pulmonary NTM disease? How is it different from MAC disease?"
+        },
+        {
+          "kind": "text",
+          "text": "**NTM** stands for \"non-tuberculous mycobacteria.\" It's a mouthful, but breaking it down helps:"
+        },
+        {
+          "kind": "text",
+          "text": "- **Mycobacteria**: a group of bacteria whose stain doesn't wash out even with strong acid in lab tests. The best-known member is the tuberculosis bacterium (for where the name comes from and why treatment takes so long, see [our post on acid-fast bacteria](/blog/hai-kousankin))\n- **Non-tuberculous**: the mycobacteria in that group **other than the tuberculosis bacterium (and the one that causes leprosy)**"
+        },
+        {
+          "kind": "text",
+          "text": "So NTM is the umbrella term for \"bacteria in the same family as tuberculosis, but not tuberculosis itself\" — about 200 species are known. When these bacteria settle in the lungs and cause inflammation, it's called **pulmonary NTM disease** (pulmonary non-tuberculous mycobacterial disease)."
+        },
+        {
+          "kind": "text",
+          "text": "What, then, is **pulmonary MAC disease**? There are many types of NTM, but in Japan **about 90% of pulmonary NTM disease is caused by bacteria called \"MAC.\"** MAC stands for Mycobacterium avium complex — a name grouping together two very similar species, M. avium and M. intracellulare."
+        },
+        {
+          "kind": "text",
+          "text": "Put simply:"
+        },
+        {
+          "kind": "text",
+          "text": "- **Pulmonary NTM disease**: the umbrella term for lung disease caused by mycobacteria other than tuberculosis\n- **Pulmonary MAC disease**: the type of pulmonary NTM disease caused by MAC — which accounts for most cases in Japan"
+        },
+        {
+          "kind": "text",
+          "text": "NTM disease and MAC disease aren't two separate illnesses. It's easiest to think of it as **the most common type (MAC disease) sitting inside the bigger category (NTM disease).**"
+        },
+        {
+          "kind": "text",
+          "text": "Pulmonary NTM disease has clearly been increasing in Japan in recent years. National surveys have reported that the number of patients is now comparable to — or even greater than — that of tuberculosis. It's particularly common among **middle-aged and older, slim women.** It is by no means a rare condition."
+        },
+        {
+          "kind": "text",
+          "text": "## What causes pulmonary NTM disease? Is it contagious?"
+        },
+        {
+          "kind": "text",
+          "text": "### The bacteria live in everyday soil and water"
+        },
+        {
+          "kind": "text",
+          "text": "NTM aren't found only in unusual places. They live naturally in our everyday surroundings — **in soil, and around water (bathrooms, shower heads, humidifiers, tap water and so on).**"
+        },
+        {
+          "kind": "text",
+          "text": "They're thought to reach the lungs when we breathe in fine dust or water droplets containing the bacteria — from gardening and handling soil, or from shower steam, for example. Yet most people living in the same environment never develop the disease. Honestly, much is still unknown about why only some people do — factors such as constitution and the condition of the lungs are thought to play a role."
+        },
+        {
+          "kind": "text",
+          "text": "### It does not spread from person to person"
+        },
+        {
+          "kind": "text",
+          "text": "This is the most important point. Pulmonary NTM disease is caused by mycobacteria, like tuberculosis — but **unlike tuberculosis, it is not considered to spread from person to person.** That's why, unlike tuberculosis, it doesn't need to be reported to the public health center, and hospitalization or isolation isn't required."
+        },
+        {
+          "kind": "text",
+          "text": "- It's fine to spend time in the same room as your family\n- There's no need to keep separate dishes or towels\n- It's perfectly fine to hold your grandchildren"
+        },
+        {
+          "kind": "text",
+          "text": "There's no need to carry the worry of \"What if I pass it on to my family?\" on your own. Please rest assured."
+        },
+        {
+          "kind": "text",
+          "text": "### What you can do in daily life"
+        },
+        {
+          "kind": "text",
+          "text": "Because the bacteria live in everyday environments, you can't avoid them completely. Still, a few habits can reduce how often you breathe them in:"
+        },
+        {
+          "kind": "text",
+          "text": "- **Ventilate and clean the bathroom** regularly, and clean the shower head from time to time\n- **Change the water in humidifiers daily** and clean them often\n- **Wear a mask** when gardening or handling soil\n- Eat well and **maintain your weight and strength** (being underweight is thought to be one factor that can make the disease progress)"
+        },
+        {
+          "kind": "text",
+          "text": "## Symptoms of pulmonary NTM disease: watch for a lingering cough and phlegm"
+        },
+        {
+          "kind": "text",
+          "text": "Pulmonary NTM disease progresses very slowly. As a result, **there are often hardly any symptoms at first,** and it's frequently discovered by chance on a checkup chest X-ray or CT."
+        },
+        {
+          "kind": "text",
+          "text": "As the disease progresses, symptoms like these may appear:"
+        },
+        {
+          "kind": "text",
+          "text": "- **A lingering cough** (lasting weeks to months)\n- **Phlegm,** sometimes streaked with blood\n- **A persistent low-grade fever**\n- **Fatigue** and tiring easily\n- Night sweats, loss of appetite, weight loss"
+        },
+        {
+          "kind": "text",
+          "text": "All of these can also occur with colds, bronchitis and other lung conditions, so pulmonary NTM disease can't be identified from symptoms alone. That's exactly why it matters to get checked properly, rather than leaving it, **if a cough lasts more than three weeks or a checkup has found a shadow on your lungs.**"
+        },
+        {
+          "kind": "text",
+          "text": "## How we test, diagnose and treat at our clinic"
+        },
+        {
+          "kind": "text",
+          "text": "### Testing: confirming the bacteria with CT and sputum tests"
+        },
+        {
+          "kind": "text",
+          "text": "Diagnosing pulmonary NTM disease requires confirming **both the imaging findings and the bacteria.**"
+        },
+        {
+          "kind": "text",
+          "text": "- **Chest X-ray and CT**: With our in-house CT, we can examine the extent and shape of lung shadows in detail on the same day. Typical findings in pulmonary NTM disease include small nodular shadows and widened airways (bronchiectasis)\n- **Sputum tests**: We check whether mycobacteria are present in your phlegm and culture them to identify the species. Because these bacteria grow slowly, results take several weeks. As a rule, **finding the same species in two or more sputum samples** is one of the diagnostic benchmarks\n- **Blood test**: There is also a blood test for antibodies against MAC (covered by insurance) that can support a diagnosis of pulmonary MAC disease"
+        },
+        {
+          "kind": "text",
+          "text": "Another very important part of the process is **ruling out tuberculosis,** which is caused by bacteria from the same family."
+        },
+        {
+          "kind": "text",
+          "text": "### Treatment: medication doesn't always start right away"
+        },
+        {
+          "kind": "text",
+          "text": "Even after a diagnosis of pulmonary NTM disease, **treatment doesn't necessarily start straight away.** When symptoms are mild, the shadows are small and the disease is progressing slowly, **monitoring it** with regular CT scans and sputum tests is a perfectly sound option."
+        },
+        {
+          "kind": "text",
+          "text": "On the other hand, if the disease is advancing, or cavities have formed in the lungs, **treatment combining several antibiotics** is used. For pulmonary MAC disease, this typically means three oral medications taken together, continued for at least a year after the bacteria disappear from the sputum — so treatment is long-term. Possible side effects (such as changes in vision or liver test results) also need careful monitoring along the way."
+        },
+        {
+          "kind": "text",
+          "text": "At our clinic, **when the disease can be judged to be mild, we may treat it here.** If it progresses and **becomes severe, we will refer you to a medical institution specializing in respiratory medicine.**"
+        },
+        {
+          "kind": "text",
+          "text": "## Summary: for anyone worried after hearing \"pulmonary NTM disease\""
+        },
+        {
+          "kind": "text",
+          "text": "To wrap up, here are the key points:"
+        },
+        {
+          "kind": "text",
+          "text": "- **Pulmonary NTM disease** is a lung disease caused by mycobacteria other than tuberculosis; in Japan, about 90% of cases are **pulmonary MAC disease**\n- The bacteria live in everyday environments such as **soil and water,** and the disease **does not spread from person to person**\n- **There are often no symptoms at first;** as it progresses, **a lingering cough, phlegm, low-grade fever and fatigue** may appear\n- Diagnosis requires **CT and sputum tests,** and **treatment isn't always needed right away**"
+        },
+        {
+          "kind": "text",
+          "text": "### A message from the director"
+        },
+        {
+          "kind": "text",
+          "text": "Hearing \"pulmonary NTM disease\" or \"pulmonary MAC disease\" for the first time can be startling, and it's natural to feel uneasy after reading about it online. But many cases progress slowly, and with a proper understanding and monitoring at a pace that suits you, it's a condition many people live with without major changes to their daily lives."
+        },
+        {
+          "kind": "text",
+          "text": "What matters is not to carry it alone, and **to have a doctor who can see you regularly.** Once we open, we plan to make full use of our in-house CT to check the condition of your lungs carefully, working with specialist institutions when needed, and to support you for the long term. If your cough just won't go away, or a checkup found a shadow and you're not sure where to turn, please feel free to talk to us."
+        }
+      ]
+    }
+  },
+  {
     "slug": "kouatsu-genryou-fuan",
     "date": "2026.10.04",
     "cover": "/blog/kibana-landscape.png",
@@ -2851,7 +4669,7 @@ export const generatedPosts: BlogPost[] = [
   },
   {
     "slug": "furumisuto-hana-no-jotai",
-    "date": "2026.10.25",
+    "date": "2026.10.24",
     "cover": "/blog/kibana-landscape.png",
     "ja": {
       "category": "健康・予防の話",
@@ -3021,1826 +4839,8 @@ export const generatedPosts: BlogPost[] = [
     }
   },
   {
-    "slug": "hikari-onnetsu-kenkyu",
-    "date": "2026.10.25",
-    "cover": "/blog/kibana-landscape.png",
-    "ja": {
-      "category": "院長のキャリア",
-      "title": "「光でがんを温める」研究に打ち込んでいた頃の話",
-      "excerpt": "今年7月、「がん細胞を光の熱で壊す」研究がニュースになりました。実はこの治療、私が大学院時代に打ち込んでいた研究テーマでもあります。",
-      "body": [
-        {
-          "kind": "text",
-          "text": "今年（2026年）7月、「がん細胞を熱で破壊する『光熱療法』実現へ新技術」というニュースが、Yahoo!ニュースにも掲載されました（ニュースイッチ／日刊工業新聞社）。東北大学などの研究グループが、光を熱に変える微粒子をがんに届けやすくする新しい技術を開発し、マウスの大腸がんが消失したという内容です。ご覧になった方もいらっしゃるかもしれません。"
-        },
-        {
-          "kind": "text",
-          "text": "「がんを光で治す」と聞くと期待が膨らむ一方で、「本当にもう受けられるの？」「どこまで進んでいるの？」と、かえって分からなくなってしまう方も少なくないと思います。"
-        },
-        {
-          "kind": "text",
-          "text": "実はこのニュースを見て、懐かしい気持ちになりました。私は外科医としての経験を積んだあと、防衛医科大学校の大学院（医学研究科）で、まさにこの「光を使ってがんを温める治療」の研究に取り組んでいたからです。ニュースをきっかけに、今回はその成果として発表した論文と、日本ハイパーサーミア学会の会報に寄稿した解説をもとに、当時の研究を分かりやすくご紹介します。読み終えるころには、こうしたニュースを見たときに「これは今どの段階の話なのか」を落ち着いて受け止める手がかりになるはずです。"
-        },
-        {
-          "kind": "text",
-          "text": "### 結論から言うと"
-        },
-        {
-          "kind": "text",
-          "text": "私たちの研究で分かったことを一言でまとめると、**「光の強さや当てる時間よりも、がんの温度を43℃以上に保てたかどうかが、効果を決めていた」**ということです。そこで、照射中のがんの温度を測りながら、光の強さを自動で調整する仕組みを開発しました。"
-        },
-        {
-          "kind": "text",
-          "text": "ただし、これは**マウスを使った動物実験の段階の研究**です。人の治療として承認されたものではなく、当院でこの治療を行うこともありません。その前提で、中身をお話しします。"
-        },
-        {
-          "kind": "text",
-          "text": "### 「光温熱治療」とはどんな治療か"
-        },
-        {
-          "kind": "text",
-          "text": "光温熱治療（PTT：Photothermal Therapy）は、熱でがん細胞を死滅させる治療で、「温熱療法（ハイパーサーミア）」の仲間です。体の中まで届きやすい「近赤外光」という光と、その光を吸収して熱に変える薬剤（光吸収剤）を組み合わせて使います。"
-        },
-        {
-          "kind": "text",
-          "text": "仕組みはシンプルです。まず、がんに集まりやすい性質を持たせた光吸収剤を静脈から注射します。薬ががんに集まるのを待ってから、がんのある場所に近赤外光を当てると、光吸収剤が集まったがんの部分が温まります。**「光を当てる場所」と「薬が集まる場所」の二重の狙い撃ち**によって、周りの正常な組織への熱のダメージを抑えられると考えられており、体への負担が少ない治療として期待されてきました。"
-        },
-        {
-          "kind": "text",
-          "text": "### 研究で見えてきた課題：「光の量」だけでは効果が読めない"
-        },
-        {
-          "kind": "text",
-          "text": "ところが、この治療には悩ましい問題がありました。一般に、光の強さと当てる時間は照射の前に決めておきます。しかし、がんの大きさや中身のばらつき、薬の行き渡り方は一つひとつ違うため、**同じ条件で光を当てても、効くがんと効かないがんが出てしまう**のです。取りこぼしを避けるために光を強め・長めに当てると、今度はがんが50℃を超えるほど熱くなり、周りの組織にやけどや炎症を起こしやすくなります。"
-        },
-        {
-          "kind": "text",
-          "text": "私たちは、がんに集まりやすい微小な粒子に、近赤外光を吸収する色素「ICG（インドシアニングリーン）」を組み込んだ「ICGラクトソーム」という薬剤を使い、マウスの大腸がん細胞を背中の皮膚に移植したモデルで実験を行いました。光の強さを4段階、当てる時間を5段階に変えて組み合わせ、照射中のがんの表面温度を測り続けたところ、はっきりした傾向が見えてきました。"
-        },
-        {
-          "kind": "text",
-          "text": "- 光の強さや時間と、がんが消えるかどうかの間には、**一貫した関係は見られなかった**\n- 一方、照射中にがんの温度が **43℃を超えた** 場合は、光の強さに関係なく、**49個中47個のがんが消失**した（消えなかった2個は、照射時間が最も短い111秒の群でした）"
-        },
-        {
-          "kind": "text",
-          "text": "つまり、効くかどうかの分かれ目は「光の量」ではなく「がんの温度」にあり、**狙った温度に届き、それを保てるかどうか**が治療の成否を左右していたのです。"
-        },
-        {
-          "kind": "text",
-          "text": "### 温度を測りながら光を調整する仕組み"
-        },
-        {
-          "kind": "text",
-          "text": "そこで開発したのが、温度制御型の光温熱治療（寄稿では「tecPTT」と呼んでいます）です。レーザー装置に、赤外線で「触れずに温度を測る装置」をつなぎ、照射している場所の温度を0.1秒ごとに測りながら、**目標の温度を保つように光の強さを自動で調整する**仕組みです。この装置の性能を確かめた最初の論文では、マウスの皮膚に光を当てた際の温度のぶれを、温度制御なしのときの10分の1以下（ばらつき約0.14℃）に抑えられることを示しました。"
-        },
-        {
-          "kind": "text",
-          "text": "続いて、この仕組みを使い、目標温度を40℃・41℃・42℃・43℃に設定して、がんの経過を比べました（各5匹）。"
-        },
-        {
-          "kind": "text",
-          "text": "- 40℃・41℃：がんが消えたのは **0匹**\n- 42℃：**5匹中3匹** で消失\n- 43℃：**5匹すべて** で消失"
-        },
-        {
-          "kind": "text",
-          "text": "わずか2℃の違いで、結果がまったく変わったのです。また、がんのない場所に光を当てても温度はほとんど上がらず、薬ががん以外にはほとんど集まっていないことも確かめました。温度を「狙って保てる」ようになったことで、必要以上に熱くしなくても確実な効果を得られる可能性が見えてきました。人の治療へと発展させていくための足がかりになると考えています。なお、照射部位の温度を測りながら治療する光治療システムとして、国際特許出願も行いました（WO2018/061201）。"
-        },
-        {
-          "kind": "text",
-          "text": "一方で、限界もあります。測っていたのはがんの「表面」の温度で、内部の温度までは確認できていません。また、調べたのはマウスの大腸がん1種類だけで、他のがんでは効く温度が違うかもしれません。"
-        },
-        {
-          "kind": "text",
-          "text": "### どんながんに役立つ可能性があるか"
-        },
-        {
-          "kind": "text",
-          "text": "光は体の奥深くまでは届きにくいため、この治療が向いているのは、主に**体の表面に近いところや、内視鏡などで光を届けられる場所のがん**だと考えられます。寄稿では、将来の候補として次のような場面を挙げました。"
-        },
-        {
-          "kind": "text",
-          "text": "- 放射線治療や化学放射線療法のあとに、局所に残ったり再発したりした食道がん\n- 消化管や気管の内側をふさいでしまい、治療器具を通すのが難しいがん\n- 大腸がんや卵巣がんがお腹の中に散らばった病変のうち、表面にある限られた病変"
-        },
-        {
-          "kind": "text",
-          "text": "今後は、よりがんに集まりやすく、がんだけを狙い撃ちできる光吸収剤の開発が求められています。冒頭のニュースの研究は、まさにこの「薬をがんに届ける」部分と、「光を体の奥に届ける」部分（細い内視鏡を針に収めて、がんの内側から光を当てる方法）に取り組んだものです。同じ分野の研究が着実に前に進んでいることを、うれしく感じています。"
-        },
-        {
-          "kind": "text",
-          "text": "ただし、ニュースの研究もマウスでの結果で、人での臨床試験はこれからの段階です。「ニュースになった＝すぐに受けられる」ではない、という点は、ぜひ知っておいていただきたいと思います。"
-        },
-        {
-          "kind": "text",
-          "text": "### 院長からのメッセージ"
-        },
-        {
-          "kind": "text",
-          "text": "この研究を通じて私が学んだのは、**「なんとなく効いていそう」ではなく、測って確かめることの大切さ**でした。同じ治療でも、温度がわずか2℃違うだけで結果が正反対になる。その経験は、研究の現場を離れた今も、私の診療の土台になっています。"
-        },
-        {
-          "kind": "text",
-          "text": "血圧や血糖値、検査の数値、そして患者さんの「いつもと違う」という感覚。日々の診察でも、思い込みで判断せず、きちんと確かめてから一緒に方針を考える。そんな姿勢を、木花の地で大切にしていきたいと思っています。"
-        },
-        {
-          "kind": "text",
-          "text": "最近は、新しいがん治療のニュースを目にする機会も増えました。「これって自分にも関係あるの？」「今受けられる治療なの？」と気になったときは、開院後、どうぞ気軽にお尋ねください。今どの段階の研究なのかも含めて、分かりやすくお話しします。"
-        },
-        {
-          "kind": "text",
-          "text": "※本記事は、以下の論文・寄稿（いずれも防衛医科大学校の共同研究者と共著）の内容を、一般の方向けに書き直したものです。紹介した結果はすべて動物実験によるもので、人での有効性・安全性が確認された治療ではありません。"
-        },
-        {
-          "kind": "text",
-          "text": "- Nomura S, et al. Highly reliable, targeted photothermal cancer therapy combined with thermal dosimetry using a near-infrared absorbent. Scientific Reports. 2020;10:9765.\n- Nomura S, et al. Thermal Sensor Circuit Using Thermography for Temperature-Controlled Laser Hyperthermia. Journal of Sensors. 2017;2017:3738046.\n- 野村信介ほか「これからの光温熱治療開発の方向性」日本ハイパーサーミア学会ニュース No.150「最近の話題」（2021年）"
-        }
-      ]
-    },
-    "en": {
-      "category": "Director's career",
-      "title": "Back when I was researching how to heat cancer with light",
-      "excerpt": "This July, research on destroying cancer cells with heat from light made the news. As it happens, this was the very treatment I devoted myself to researching in graduate school.",
-      "body": [
-        {
-          "kind": "text",
-          "text": "In July this year (2026), a news story titled, roughly, \"New technology brings photothermal therapy — destroying cancer cells with heat — closer to reality\" ran on Yahoo! News Japan (originally from Newswitch / Nikkan Kogyo Shimbun). A research group including Tohoku University had developed a new way to deliver light-to-heat particles to tumors more effectively, and colon cancer in mice disappeared. Some of you may have seen it."
-        },
-        {
-          "kind": "text",
-          "text": "Hearing \"treating cancer with light\" raises hopes — but it can also leave you more confused: \"Can I actually get this now?\" \"How far along is it, really?\""
-        },
-        {
-          "kind": "text",
-          "text": "Seeing that story actually made me a little nostalgic. After gaining experience as a surgeon, I went on to the graduate school of medicine at the National Defense Medical College, where I researched exactly this: using light to heat cancer. Prompted by the news, in this post, based on the papers we published and a commentary I contributed to the newsletter of the Japanese Society for Thermal Medicine, I'd like to explain that research in plain terms. By the end, I hope you'll have a better sense of how to read news like this calmly — and how to tell what stage a given treatment is actually at."
-        },
-        {
-          "kind": "text",
-          "text": "### The short version"
-        },
-        {
-          "kind": "text",
-          "text": "If I had to sum up what we found in one sentence: **what decided the outcome wasn't the strength or duration of the light, but whether the tumor was kept at 43°C or higher.** So we developed a system that measures the tumor's temperature during treatment and automatically adjusts the strength of the light."
-        },
-        {
-          "kind": "text",
-          "text": "To be clear, though, **this was animal research, carried out in mice.** It is not an approved treatment for people, and it is not something our clinic offers. With that in mind, here's what the research involved."
-        },
-        {
-          "kind": "text",
-          "text": "### What is photothermal therapy?"
-        },
-        {
-          "kind": "text",
-          "text": "Photothermal therapy (PTT) kills cancer cells with heat and belongs to the family of hyperthermia treatments. It combines near-infrared light, which can pass into the body relatively easily, with a drug that absorbs that light and turns it into heat (a light absorber)."
-        },
-        {
-          "kind": "text",
-          "text": "The idea is simple. First, a light absorber designed to gather in tumors is injected into a vein. After waiting for it to collect in the tumor, near-infrared light is shone on the tumor area, and the part of the tumor where the absorber has gathered heats up. **This double targeting, \"where the light goes\" and \"where the drug gathers,\"** is thought to limit heat damage to the surrounding healthy tissue, which is why PTT has been seen as a promising, low-burden treatment."
-        },
-        {
-          "kind": "text",
-          "text": "### The problem we found: the amount of light alone doesn't predict the result"
-        },
-        {
-          "kind": "text",
-          "text": "But this treatment had a frustrating problem. Usually, the strength of the light and how long to shine it are decided in advance. Yet every tumor differs in size, internal makeup and how the drug spreads through it, so **the same settings could work on one tumor and fail on another.** Shining the light harder and longer to avoid missing anything can heat the tumor past 50°C, which makes burns and inflammation in the surrounding tissue more likely."
-        },
-        {
-          "kind": "text",
-          "text": "We used a drug called \"ICG lactosome\" — tiny particles designed to gather in tumors, carrying a near-infrared-absorbing dye called ICG (indocyanine green) — in mice with colon cancer cells implanted in the skin of their backs. We combined four levels of light strength with five irradiation times and kept measuring the tumor's surface temperature during irradiation. A clear pattern emerged:"
-        },
-        {
-          "kind": "text",
-          "text": "- There was **no consistent relationship** between light strength or duration and whether the tumor disappeared\n- But when the tumor's temperature **rose above 43°C** during irradiation, **47 of 49 tumors disappeared**, regardless of light strength (the two that didn't were both in the shortest, 111-second group)"
-        },
-        {
-          "kind": "text",
-          "text": "In other words, the dividing line wasn't the amount of light but the tumor's temperature, and **whether the target temperature could be reached and held** decided whether the treatment worked."
-        },
-        {
-          "kind": "text",
-          "text": "### A system that adjusts the light while measuring the temperature"
-        },
-        {
-          "kind": "text",
-          "text": "That's what led us to develop temperature-controlled PTT (called \"tecPTT\" in the newsletter article). A non-contact infrared temperature sensor is connected to the laser device, so the temperature of the irradiated spot is measured every 0.1 seconds, and **the light's strength is adjusted automatically to hold the target temperature.** In our first paper testing this device, we showed that when irradiating mouse skin, it kept temperature fluctuations to less than one-tenth of those without temperature control (a spread of about 0.14°C)."
-        },
-        {
-          "kind": "text",
-          "text": "Next, using this system, we set target temperatures of 40°C, 41°C, 42°C and 43°C and compared what happened to the tumors (five mice each):"
-        },
-        {
-          "kind": "text",
-          "text": "- 40°C and 41°C: tumors disappeared in **none** of the mice\n- 42°C: tumors disappeared in **3 of 5**\n- 43°C: tumors disappeared in **all 5**"
-        },
-        {
-          "kind": "text",
-          "text": "A difference of just two degrees changed the result completely. We also confirmed that shining the light on areas without a tumor barely raised the temperature, showing that the drug hardly gathered anywhere other than the tumor. Being able to aim for a temperature and hold it there suggested that reliable results might be possible without heating more than necessary — a foothold, we believe, for developing this into a treatment for people. We also filed an international patent application for a light-therapy system that treats while measuring the temperature of the irradiated area (WO2018/061201)."
-        },
-        {
-          "kind": "text",
-          "text": "There are limitations, too. We measured the tumor's surface temperature and couldn't confirm the temperature inside it. And we studied only one type of cancer — colon cancer in mice — so the effective temperature may differ for other cancers."
-        },
-        {
-          "kind": "text",
-          "text": "### Which cancers might it help with?"
-        },
-        {
-          "kind": "text",
-          "text": "Because light doesn't travel deep into the body, this approach is thought to suit mainly **cancers near the body's surface, or in places light can be delivered, for example through an endoscope.** In the newsletter article, we listed possible future candidates such as:"
-        },
-        {
-          "kind": "text",
-          "text": "- Esophageal cancer that remains or recurs locally after radiation therapy or chemoradiotherapy\n- Cancers that block the inside of the digestive tract or airways, making it hard to pass treatment instruments through\n- Limited, surface-level lesions among colorectal or ovarian cancer that has spread within the abdomen"
-        },
-        {
-          "kind": "text",
-          "text": "Going forward, the field needs light absorbers that gather in tumors even more readily and target cancer alone. The research in the news story tackled exactly this — getting the drug to the tumor — along with getting light deep into the body (by housing a thin endoscope inside a needle and shining light from inside the tumor). I'm genuinely glad to see steady progress in this field."
-        },
-        {
-          "kind": "text",
-          "text": "That said, the research in the news was also done in mice, and clinical trials in people are still ahead. \"It made the news\" doesn't mean \"you can get it right away\" — that's something I'd really like you to keep in mind."
-        },
-        {
-          "kind": "text",
-          "text": "### A message from the director"
-        },
-        {
-          "kind": "text",
-          "text": "What this research taught me was **the importance of measuring and confirming, rather than settling for \"it seems to be working.\"** The same treatment could produce opposite results with a difference of just two degrees. That experience still underpins how I practice medicine today, long after leaving the lab."
-        },
-        {
-          "kind": "text",
-          "text": "Blood pressure, blood sugar, test results — and a patient's own sense that \"something feels different.\" In everyday care, too, I want to avoid judging by assumption, confirm things properly, and then decide on a plan together with you. That's the approach I hope to carry with me here in Kibana."
-        },
-        {
-          "kind": "text",
-          "text": "News about new cancer treatments seems to come up more and more these days. If you ever find yourself wondering \"Does this apply to me?\" or \"Is this something I can actually get now?\", please feel free to ask once we open. I'll explain it clearly — including what stage the research is really at."
-        },
-        {
-          "kind": "text",
-          "text": "※This post is a plain-language rewrite of the following papers and commentary (all co-authored with fellow researchers at the National Defense Medical College). All results described come from animal experiments; this is not a treatment whose effectiveness or safety has been confirmed in people."
-        },
-        {
-          "kind": "text",
-          "text": "- Nomura S, et al. Highly reliable, targeted photothermal cancer therapy combined with thermal dosimetry using a near-infrared absorbent. Scientific Reports. 2020;10:9765.\n- Nomura S, et al. Thermal Sensor Circuit Using Thermography for Temperature-Controlled Laser Hyperthermia. Journal of Sensors. 2017;2017:3738046.\n- Nomura S, et al. \"Direction for development of photothermal therapy.\" Japanese Society for Thermal Medicine Newsletter No. 150, \"Recent Topics\" (2021)."
-        }
-      ]
-    }
-  },
-  {
-    "slug": "hai-kousankin",
-    "date": "2026.10.26",
-    "cover": "/blog/kibana-landscape.png",
-    "ja": {
-      "category": "健康・予防の話",
-      "title": "「抗酸菌」は酸を出す最強の菌？——名前のせいで誤解されがちな菌の正体",
-      "excerpt": "「抗酸菌が出ています」と言われて、酸を吐く凶悪な菌を想像していませんか。実はその名前、ある「検査の都合」でついたものなのです。",
-      "body": [
-        {
-          "kind": "text",
-          "text": "「検査で抗酸菌が出ていますね」。健診の再検査や、長引く咳で受診された方にそうお伝えすると、少し身構えた表情をされることがあります。「抗酸菌……酸を出す菌ですか？」「胃酸も平気な、すごく強い菌なんですか？」。これまでの診療の中で、そうした質問をいただいたことは一度や二度ではありません。"
-        },
-        {
-          "kind": "text",
-          "text": "確かに、「抗酸」という字面だけを見ると、酸をまき散らす凶悪な菌や、何にも負けない無敵の菌を想像してしまいますよね。"
-        },
-        {
-          "kind": "text",
-          "text": "この記事を読んでいただくと、抗酸菌という名前の本当の意味と、この菌がなぜ「手ごわい」と言われるのかが分かります。そして、**なぜ抗酸菌の治療には何か月、ときには年単位の時間がかかるのか、なぜ痰の検査がそれほど大切なのか**にも、納得していただけると思います。結論から言うと、**「抗酸菌」は酸を出す菌ではなく、「強い酸で洗っても色が落ちない菌」という、検査の性質からついた名前**です。"
-        },
-        {
-          "kind": "text",
-          "text": "## 実は「実験室の都合」でついた名前"
-        },
-        {
-          "kind": "text",
-          "text": "### 「抗酸」は「酸に抵抗する（色が落ちない）」という意味"
-        },
-        {
-          "kind": "text",
-          "text": "「抗酸菌」の「抗酸」は、「酸を出す」という意味ではありません。**「酸に抵抗する」、つまり「強い酸で洗っても、染めた色が落ちない」**という意味なのです。"
-        },
-        {
-          "kind": "text",
-          "text": "細菌はとても小さく、そのままでは顕微鏡で見えにくいため、検査では菌に色をつけて観察します。このとき、ほとんどの細菌は酸で洗うと色が落ちてしまいますが、**抗酸菌だけは、酸で洗っても色が残る**。この性質から、「抗酸性の菌＝抗酸菌」と呼ばれるようになりました。"
-        },
-        {
-          "kind": "text",
-          "text": "### 「特殊な絵の具」と「強力な酸」で洗う検査"
-        },
-        {
-          "kind": "text",
-          "text": "この検査（チール・ネールゼン染色などと呼ばれます）を、身近な例えでご説明します。"
-        },
-        {
-          "kind": "text",
-          "text": "- **① 赤い特殊な絵の具で、しっかり染める**：痰などに含まれる菌を、赤い色素で染めます。抗酸菌は染まりにくいため、温めながら時間をかけて色をしみ込ませます\n- **② 強力な酸で洗う**：次に、酸を含んだ液でゴシゴシ洗います。ふつうの細菌は、ここで赤い色がきれいに落ちてしまいます\n- **③ 青い絵の具で仕上げる**：最後に青い色で全体を染めます"
-        },
-        {
-          "kind": "text",
-          "text": "すると顕微鏡の中で、ふつうの菌は青く、**抗酸菌だけが赤く浮かび上がって見える**のです。"
-        },
-        {
-          "kind": "text",
-          "text": "つまり「抗酸菌」という名前は、菌が酸を出すからでも、胃酸に強いからでもなく、**人間がこの検査をしたときの「色の落ちにくさ」から名づけられた**もの。少し拍子抜けした方もいるかもしれませんね。"
-        },
-        {
-          "kind": "text",
-          "text": "## 強さの秘密は「ロウ（蝋）」でできた鎧"
-        },
-        {
-          "kind": "text",
-          "text": "### 細胞の表面が、分厚い脂のバリアで覆われている"
-        },
-        {
-          "kind": "text",
-          "text": "では、なぜ抗酸菌は、強い酸で洗っても色が落ちないのでしょうか。"
-        },
-        {
-          "kind": "text",
-          "text": "その秘密は、菌の表面にあります。抗酸菌の細胞の壁は、**「ミコール酸」などの脂（あぶら）がたっぷり含まれた、ロウ（蝋）のような分厚い層**で覆われています。"
-        },
-        {
-          "kind": "text",
-          "text": "イメージとしては、**全身に撥水ワックスを何重にも塗りたくった状態**です。ロウソクのロウやワックスが水をはじくように、この脂の鎧が、外から来るものをはじいてしまいます。いったん染み込んだ色素も、同じ理由でなかなか流れ出ていかないのです。"
-        },
-        {
-          "kind": "text",
-          "text": "### 鎧のせいで、多くのお薬や消毒薬が効きにくい"
-        },
-        {
-          "kind": "text",
-          "text": "この「ワックスの鎧」は、色素だけでなく、**多くの抗菌薬や消毒薬も通しにくく**します。ふつうの細菌によく効くお薬の多くが、抗酸菌にはほとんど効きません。"
-        },
-        {
-          "kind": "text",
-          "text": "さらに、抗酸菌には**とてもゆっくり増える**という特徴もあります。ふつうの細菌が数十分で倍に増えるのに対し、結核菌などは倍になるのに半日〜1日近くかかります。のんびり増える菌は、お薬の影響を受けにくい状態でじっと身をひそめていることがあり、これも治療を難しくしている理由のひとつです。"
-        },
-        {
-          "kind": "text",
-          "text": "### 代表的な抗酸菌は「結核菌」と「非結核性抗酸菌（NTM）」"
-        },
-        {
-          "kind": "text",
-          "text": "抗酸菌の仲間で、よく知られているのが次の2つです。"
-        },
-        {
-          "kind": "text",
-          "text": "- **結核菌**：結核の原因になる菌。人から人へうつるため、診断されたら保健所への届け出が必要です\n- **非結核性抗酸菌（NTM）**：結核菌以外の抗酸菌の総称。土や水まわりにいる菌で、**人から人へはうつりません**。近年、日本で患者さんが増えている「肺NTM症（肺MAC症）」の原因です。症状や原因については、[肺NTM症（肺MAC症）の記事](/blog/hai-ntm-sho)で詳しくご紹介しています"
-        },
-        {
-          "kind": "text",
-          "text": "同じ「抗酸菌」でも、うつるかどうか、どんなお薬を使うかがまったく違います。だからこそ、**どの抗酸菌なのかを見分けること**が、とても大切になるのです。"
-        },
-        {
-          "kind": "text",
-          "text": "## だからこそ「じっくり治療」と「痰の検査」が大切です"
-        },
-        {
-          "kind": "text",
-          "text": "### 頑丈な鎧を破るには、何種類ものお薬を長く"
-        },
-        {
-          "kind": "text",
-          "text": "ワックスの鎧をまとい、ゆっくり増え、じっと身をひそめる——そんな抗酸菌を退治するには、短期決戦というわけにはいきません。"
-        },
-        {
-          "kind": "text",
-          "text": "- **何種類ものお薬を組み合わせる**：1種類だけでは、お薬に負けない「耐性菌」が生き残りやすいため、複数のお薬で同時に攻めます\n- **長い期間、続ける**：結核ではふつう**半年以上**、肺MAC症では菌が出なくなってからさらに**1年以上**、お薬を続けるのが一般的です"
-        },
-        {
-          "kind": "text",
-          "text": "「症状が良くなったから」と途中でお薬をやめてしまうと、生き残った菌が再び増えたり、お薬の効かない菌に変わってしまったりするおそれがあります。**長い治療には、ちゃんと理由がある**のです。"
-        },
-        {
-          "kind": "text",
-          "text": "### 画像だけでは、どの菌か分からない"
-        },
-        {
-          "kind": "text",
-          "text": "胸のレントゲンやCTは、肺に影があるかどうか、その形や広がりを知るのにとても役立ちます。けれど、**その影が結核なのか、NTMなのか、あるいはまったく別の病気なのかは、画像だけでは確実には分かりません**。"
-        },
-        {
-          "kind": "text",
-          "text": "そこで欠かせないのが、**痰の検査（喀痰検査）**です。"
-        },
-        {
-          "kind": "text",
-          "text": "- 顕微鏡で、先ほどの「赤く染まる菌」がいるかを調べる\n- 菌を育てて（培養して）、どの種類の抗酸菌なのかを確かめる\n- 遺伝子の検査で、結核菌かどうかを素早く調べることもある"
-        },
-        {
-          "kind": "text",
-          "text": "抗酸菌はゆっくり増えるため、培養の結果が出るまでに**数週間**かかることがあります。また、1回の痰では菌が見つからないこともあるため、**日を変えて何回か**痰を出していただくのが一般的です。"
-        },
-        {
-          "kind": "text",
-          "text": "### 痰の検査をうまく受けるコツ"
-        },
-        {
-          "kind": "text",
-          "text": "- **朝起きてすぐ**の痰が、菌が見つかりやすいとされています\n- 先に水で軽く**うがい**をして、口の中をきれいにしてから\n- 唾液ではなく、**胸の奥から「ゴホン」と出した痰**を容器に入れてください"
-        },
-        {
-          "kind": "text",
-          "text": "## 院長からのメッセージ"
-        },
-        {
-          "kind": "text",
-          "text": "「抗酸菌」という名前は、聞くと少し怖く感じるかもしれません。けれど実際は、酸を出す菌でも、何にでも勝つ無敵の菌でもありません。ただ、ワックスの鎧をまとった、**少し手ごわく、じっくり付き合う必要がある菌**なのです。"
-        },
-        {
-          "kind": "text",
-          "text": "痰の検査は、何度もお願いすることがあって面倒に感じるかもしれませんが、どの菌なのかを正しく見極め、あなたに合った治療を選ぶための、いちばん確かな手がかりです。そして治療が始まったら、長い道のりを途中で投げ出さないよう、一緒に伴走していきたいと思っています。"
-        },
-        {
-          "kind": "text",
-          "text": "長引く咳や痰が続くとき、健診で「抗酸菌」「要精査」と言われて不安なときは、どうぞ一人で悩まず、お気軽にご相談ください。"
-        }
-      ]
-    },
-    "en": {
-      "category": "Health and prevention",
-      "title": "Are “acid-fast bacteria” super-germs that spit acid? The truth behind a misleading name",
-      "excerpt": "Told “acid-fast bacteria were found” and picturing a vicious germ that spits acid? That name actually comes from how the bacteria behave in a lab test.",
-      "body": [
-        {
-          "kind": "text",
-          "text": "\"Your test shows acid-fast bacteria.\" When I tell this to people coming in for a follow-up after a checkup, or for a cough that won't go away, I sometimes see them tense up. \"Acid-fast... does that mean it produces acid?\" \"Is it some super-strong germ that can even survive stomach acid?\" Over the years, I've been asked questions like these more than once or twice."
-        },
-        {
-          "kind": "text",
-          "text": "It's true — judging by the name alone, it's easy to picture a vicious germ spraying acid, or an invincible one that nothing can beat."
-        },
-        {
-          "kind": "text",
-          "text": "By the end of this post, you'll know what the name \"acid-fast bacteria\" really means and why these bacteria are considered \"tough.\" I think you'll also understand **why treatment for them takes months, sometimes years, and why sputum tests matter so much.** The short answer: **\"acid-fast bacteria\" don't produce acid — the name means \"bacteria whose stain doesn't wash out even with strong acid,\" a description based on how they behave in a lab test.**"
-        },
-        {
-          "kind": "text",
-          "text": "## A name that comes from \"lab convenience\""
-        },
-        {
-          "kind": "text",
-          "text": "### \"Acid-fast\" means \"resists acid\" — the color won't wash out"
-        },
-        {
-          "kind": "text",
-          "text": "The \"acid-fast\" in acid-fast bacteria doesn't mean \"makes acid.\" It means **\"resists acid\" — in other words, \"the stain doesn't wash out even with strong acid.\"**"
-        },
-        {
-          "kind": "text",
-          "text": "Bacteria are tiny and hard to see under a microscope as they are, so in testing they're colored with dye. Most bacteria lose their color when washed with acid, but **acid-fast bacteria keep their color even after an acid wash.** That property is where the name comes from."
-        },
-        {
-          "kind": "text",
-          "text": "### A test using \"special paint\" and \"strong acid\""
-        },
-        {
-          "kind": "text",
-          "text": "Here's an everyday way to picture this test (known as Ziehl–Neelsen staining, among others):"
-        },
-        {
-          "kind": "text",
-          "text": "- **① Stain thoroughly with a special red paint**: Bacteria in a sample such as sputum are dyed with a red stain. Because acid-fast bacteria resist staining, the color is worked in over time with gentle heating\n- **② Wash with strong acid**: Next, the sample is scrubbed with an acid-containing solution. Ordinary bacteria lose their red color completely at this step\n- **③ Finish with blue paint**: Finally, everything is counterstained blue"
-        },
-        {
-          "kind": "text",
-          "text": "Under the microscope, ordinary bacteria now look blue, while **only the acid-fast bacteria stand out in red.**"
-        },
-        {
-          "kind": "text",
-          "text": "In other words, the name \"acid-fast\" isn't because the bacteria produce acid or resist stomach acid — **it comes from how hard their color is to wash out when humans run this test.** Perhaps a bit of an anticlimax!"
-        },
-        {
-          "kind": "text",
-          "text": "## The secret of their toughness: armor made of \"wax\""
-        },
-        {
-          "kind": "text",
-          "text": "### A thick, fatty barrier covers the cell surface"
-        },
-        {
-          "kind": "text",
-          "text": "So why doesn't the color wash out of acid-fast bacteria, even with strong acid?"
-        },
-        {
-          "kind": "text",
-          "text": "The secret lies on their surface. The cell wall of acid-fast bacteria is covered with **a thick, wax-like layer rich in fats such as \"mycolic acids.\"**"
-        },
-        {
-          "kind": "text",
-          "text": "Picture it as **being coated head to toe in layer upon layer of water-repellent wax.** Just as candle wax or car wax repels water, this fatty armor repels things coming from outside. Once dye has soaked in, the same armor keeps it from washing back out."
-        },
-        {
-          "kind": "text",
-          "text": "### The armor makes many medicines and disinfectants less effective"
-        },
-        {
-          "kind": "text",
-          "text": "This \"wax armor\" doesn't just block dye — it also **makes it hard for many antibiotics and disinfectants to get through.** Many medicines that work well against ordinary bacteria have little effect on acid-fast bacteria."
-        },
-        {
-          "kind": "text",
-          "text": "Acid-fast bacteria also **grow very slowly.** Ordinary bacteria can double in tens of minutes, while tuberculosis bacteria take half a day to nearly a full day. Slow-growing bacteria can lie low in a state that's less affected by medicine — another reason treatment is difficult."
-        },
-        {
-          "kind": "text",
-          "text": "### Two well-known acid-fast bacteria: tuberculosis and NTM"
-        },
-        {
-          "kind": "text",
-          "text": "Two members of the acid-fast family are especially well known:"
-        },
-        {
-          "kind": "text",
-          "text": "- **Tuberculosis bacteria**: the cause of tuberculosis. Because it spreads from person to person, a diagnosis must be reported to the public health center\n- **Non-tuberculous mycobacteria (NTM)**: the umbrella term for acid-fast bacteria other than tuberculosis. They live in soil and water and **do not spread from person to person.** They cause \"pulmonary NTM disease (pulmonary MAC disease),\" which has been increasing in Japan in recent years. For its symptoms and causes, see [our post on pulmonary NTM (MAC) disease](/blog/hai-ntm-sho)"
-        },
-        {
-          "kind": "text",
-          "text": "Both are \"acid-fast,\" but whether they spread and which medicines are used differ completely. That's exactly why **identifying which acid-fast bacterium it is** matters so much."
-        },
-        {
-          "kind": "text",
-          "text": "## That's why \"patient treatment\" and \"sputum tests\" matter"
-        },
-        {
-          "kind": "text",
-          "text": "### Breaking through tough armor takes several medicines over a long time"
-        },
-        {
-          "kind": "text",
-          "text": "Acid-fast bacteria wear wax armor, grow slowly and lie low — so beating them can't be a quick fight."
-        },
-        {
-          "kind": "text",
-          "text": "- **Several medicines are combined**: With just one, bacteria that resist it (\"resistant bacteria\") are more likely to survive, so several medicines attack at once\n- **Treatment continues for a long time**: For tuberculosis, usually **six months or more**; for pulmonary MAC disease, treatment typically continues for **at least a year** after the bacteria disappear from the sputum"
-        },
-        {
-          "kind": "text",
-          "text": "If you stop the medicine partway because \"the symptoms got better,\" surviving bacteria can multiply again or turn into bacteria the medicine no longer works on. **There's a good reason treatment is long.**"
-        },
-        {
-          "kind": "text",
-          "text": "### Imaging alone can't tell which bacterium it is"
-        },
-        {
-          "kind": "text",
-          "text": "Chest X-rays and CT scans are very useful for seeing whether there's a shadow in the lungs, and its shape and extent. But **imaging alone can't reliably tell whether that shadow is tuberculosis, NTM or something else entirely.**"
-        },
-        {
-          "kind": "text",
-          "text": "That's where **sputum tests** become essential:"
-        },
-        {
-          "kind": "text",
-          "text": "- Checking under the microscope for the \"red-stained bacteria\" described above\n- Growing (culturing) the bacteria to identify which type of acid-fast bacterium it is\n- Sometimes using a genetic test to quickly check for tuberculosis"
-        },
-        {
-          "kind": "text",
-          "text": "Because acid-fast bacteria grow slowly, culture results can take **several weeks.** And since bacteria may not show up in a single sample, it's common to provide sputum **several times on different days.**"
-        },
-        {
-          "kind": "text",
-          "text": "### Tips for a good sputum sample"
-        },
-        {
-          "kind": "text",
-          "text": "- Sputum **right after waking up** is said to be the most likely to contain bacteria\n- **Rinse your mouth** lightly with water first to clean it\n- Collect sputum **coughed up from deep in your chest,** not saliva"
-        },
-        {
-          "kind": "text",
-          "text": "## A message from the director"
-        },
-        {
-          "kind": "text",
-          "text": "The name \"acid-fast bacteria\" may sound a little frightening. But in reality, they're neither acid-producing germs nor invincible ones. They're bacteria wearing wax armor — **a bit tough, and something you need to deal with patiently.**"
-        },
-        {
-          "kind": "text",
-          "text": "Being asked for sputum samples again and again may feel like a hassle, but it's the most reliable clue for correctly identifying the bacterium and choosing the right treatment for you. And once treatment begins, I want to run alongside you so the long road doesn't get abandoned halfway."
-        },
-        {
-          "kind": "text",
-          "text": "If a cough or phlegm won't go away, or a checkup flagged \"acid-fast bacteria\" or \"further testing needed\" and you're worried, please don't keep it to yourself — feel free to talk to us."
-        }
-      ]
-    }
-  },
-  {
-    "slug": "hai-ntm-sho",
-    "date": "2026.10.26",
-    "cover": "/blog/kibana-landscape.png",
-    "ja": {
-      "category": "健康・予防の話",
-      "title": "咳が長引く・健診で「影」——肺NTM症（肺MAC症）とは？原因・症状と「人にうつるの？」にお答えします",
-      "excerpt": "「肺NTM症って結核の仲間？家族にうつる？」——健診で影を指摘されて不安な方へ。先にお伝えすると、この病気は人から人へはうつりません。",
-      "body": [
-        {
-          "kind": "text",
-          "text": "「風邪はとっくに治ったはずなのに、咳だけが何週間も続いている」「健診の胸のレントゲンで『影がある』と言われ、CTを撮ったら『肺NTM症の疑い』と書かれていた」。聞き慣れない病名をインターネットで調べると、「結核の仲間」「治りにくい」といった言葉が目に入り、かえって不安が大きくなってしまった——そんな方も多いのではないでしょうか。"
-        },
-        {
-          "kind": "text",
-          "text": "最初に、いちばん気にされることからお伝えします。**肺NTM症は、人から人へはうつりません。** ご家族やお孫さんと、これまでどおり一緒に過ごしていただいて大丈夫です。また、多くの場合は何年もかけてゆっくり進む病気で、慌てて何かをしなければならないものでもありません。"
-        },
-        {
-          "kind": "text",
-          "text": "この記事では、「肺NTM症」と「肺MAC症」の違い、なぜかかるのか、どんな症状が出るのか、そして当院での検査や治療の考え方を、できるだけ分かりやすくご説明します。"
-        },
-        {
-          "kind": "text",
-          "text": "## 「肺NTM症」とは？「肺MAC症」との違い"
-        },
-        {
-          "kind": "text",
-          "text": "**NTM**とは、「非結核性抗酸菌（Non-Tuberculous Mycobacteria）」の略です。少し難しい名前ですが、分解すると分かりやすくなります。"
-        },
-        {
-          "kind": "text",
-          "text": "- **抗酸菌**：検査で強い酸を使って洗っても色が落ちにくい性質を持つ細菌のグループ。代表が「結核菌」です（名前の由来や、治療に時間がかかる理由は[「抗酸菌」の記事](/blog/hai-kousankin)でご紹介しています）\n- **非結核性**：その抗酸菌のうち、**結核菌（とハンセン病の原因となる菌）以外のもの**"
-        },
-        {
-          "kind": "text",
-          "text": "つまり、NTMは「結核菌と同じグループに属するけれど、結核菌ではない菌」の総称で、約200種類が知られています。この菌が肺に住みついて炎症を起こす病気が、**肺NTM症（肺非結核性抗酸菌症）**です。"
-        },
-        {
-          "kind": "text",
-          "text": "では、**肺MAC症**とは何でしょうか。NTMにはたくさんの種類がありますが、日本の肺NTM症の**約9割は「MAC（マック）」と呼ばれる菌**によるものです。MACは「マイコバクテリウム・アビウム・コンプレックス（Mycobacterium avium complex）」の略で、アビウム菌とイントラセルラーレ菌という、よく似た2種類の菌をまとめた呼び名です。"
-        },
-        {
-          "kind": "text",
-          "text": "整理すると、次のような関係になります。"
-        },
-        {
-          "kind": "text",
-          "text": "- **肺NTM症**：結核菌以外の抗酸菌による肺の病気の「総称」\n- **肺MAC症**：そのうち、MACという菌による肺NTM症。日本ではほとんどがこのタイプ"
-        },
-        {
-          "kind": "text",
-          "text": "「NTM症」と「MAC症」は別の病気ではなく、**大きな枠（NTM症）の中に、いちばん多いタイプ（MAC症）がある**と考えていただくと分かりやすいと思います。"
-        },
-        {
-          "kind": "text",
-          "text": "肺NTM症は、日本で近年はっきりと増えている病気です。全国調査では、患者さんの数が結核に匹敵する、あるいはそれを上回る規模になっていると報告されています。特に、**中高年の、やせ型の女性**に多くみられるのが特徴です。決して珍しい病気ではありません。"
-        },
-        {
-          "kind": "text",
-          "text": "## 肺NTM症の原因は？「人にうつる」のかという疑問"
-        },
-        {
-          "kind": "text",
-          "text": "### 菌は、身近な「土」や「水」にいます"
-        },
-        {
-          "kind": "text",
-          "text": "NTMは、特別な場所にいる菌ではありません。**土の中や、水まわり（浴室・シャワーヘッド・加湿器・水道など）**といった、私たちの身近な環境に普通に住んでいます。"
-        },
-        {
-          "kind": "text",
-          "text": "土いじりやガーデニング、シャワーの湯気などを通して、菌を含んだ細かいほこりや水しぶきを吸い込むことで、肺に入ると考えられています。ただし、同じ環境で暮らしていても、ほとんどの人は発病しません。なぜ一部の人だけが発病するのかは、体質や肺の状態など、まだ分かっていない部分も多いのが正直なところです。"
-        },
-        {
-          "kind": "text",
-          "text": "### 人から人へは、うつりません"
-        },
-        {
-          "kind": "text",
-          "text": "ここが、いちばん大切なポイントです。肺NTM症は、結核と同じ「抗酸菌」による病気ですが、**結核とは違って、人から人へうつることはないと考えられています**。そのため、結核のような保健所への届け出や、入院・隔離の必要もありません。"
-        },
-        {
-          "kind": "text",
-          "text": "- ご家族と同じ部屋で過ごしても大丈夫です\n- 食器やタオルを分ける必要もありません\n- お孫さんを抱っこしても問題ありません"
-        },
-        {
-          "kind": "text",
-          "text": "「家族にうつしてしまったらどうしよう」と、ひとりで抱え込む必要はありません。どうか安心してください。"
-        },
-        {
-          "kind": "text",
-          "text": "### 日常生活でできること"
-        },
-        {
-          "kind": "text",
-          "text": "菌は身近な環境にいるため、完全に避けることはできません。それでも、次のような工夫で、菌を吸い込む機会を減らすことができます。"
-        },
-        {
-          "kind": "text",
-          "text": "- **浴室の換気・掃除**をこまめにし、シャワーヘッドも定期的に洗う\n- **加湿器**は毎日水を替え、こまめに掃除する\n- **土いじりやガーデニング**をするときは、マスクをつける\n- しっかり食べて、**体重と体力を保つ**（やせすぎは、病気が進みやすくなる一因と考えられています）"
-        },
-        {
-          "kind": "text",
-          "text": "## 肺NTM症の症状は？長引く咳・痰に注意"
-        },
-        {
-          "kind": "text",
-          "text": "肺NTM症は、とてもゆっくり進む病気です。そのため、**初めのうちはほとんど症状がなく**、健診の胸部レントゲンやCTで偶然見つかることが少なくありません。"
-        },
-        {
-          "kind": "text",
-          "text": "病気が進んでくると、次のような症状が出ることがあります。"
-        },
-        {
-          "kind": "text",
-          "text": "- **長引く咳**（数週間〜数か月続く）\n- **痰**が出る、ときに痰に血が混じる（血痰）\n- **微熱**が続く\n- **だるさ（倦怠感）**、疲れやすい\n- 寝汗、食欲の低下、体重の減少"
-        },
-        {
-          "kind": "text",
-          "text": "どれも風邪や気管支炎、ほかの肺の病気でも起こる症状で、症状だけで肺NTM症と見分けることはできません。だからこそ、**「咳が3週間以上続く」「健診で影を指摘された」**ときは、そのままにせず、一度きちんと調べることが大切です。"
-        },
-        {
-          "kind": "text",
-          "text": "## 当院での検査・診断・治療の方針"
-        },
-        {
-          "kind": "text",
-          "text": "### 検査：CTと痰の検査で「菌」を確かめる"
-        },
-        {
-          "kind": "text",
-          "text": "肺NTM症の診断には、**「画像」と「菌」の両方の確認**が必要です。"
-        },
-        {
-          "kind": "text",
-          "text": "- **胸部レントゲン・CT**：当院では院内のCTで、肺の影の広がりや形をその日のうちに詳しく確認できます。肺NTM症では、小さな粒状の影や、気管支が広がった変化（気管支拡張）などが特徴的です\n- **痰の検査**：痰の中に抗酸菌がいるかを調べ、培養して菌の種類を確かめます。菌はゆっくり増えるため、結果が出るまでに数週間かかります。原則として、**2回以上の痰から同じ菌が見つかる**ことが、診断の目安の一つです\n- **血液検査**：肺MAC症の診断の補助として、MACに対する抗体を調べる血液検査（保険適用）もあります"
-        },
-        {
-          "kind": "text",
-          "text": "同じ抗酸菌による**結核ではないことを確かめる**のも、とても重要な役割です。"
-        },
-        {
-          "kind": "text",
-          "text": "### 治療：すぐに薬を始めるとは限りません"
-        },
-        {
-          "kind": "text",
-          "text": "肺NTM症と診断されても、**すぐに治療を始めるとは限りません**。症状が軽く、影の広がりも小さく、進み方がゆっくりな場合は、定期的にCTや痰の検査を行いながら**経過を見る**ことも、しっかりとした選択肢の一つです。"
-        },
-        {
-          "kind": "text",
-          "text": "一方、病気が進んでいる場合や、肺に空洞ができている場合などは、**複数の抗菌薬を組み合わせた治療**を行います。肺MAC症では、一般的に3種類の飲み薬を組み合わせ、菌が出なくなってからも1年以上続けるため、治療は長期間に及びます。薬の副作用（目の見え方の変化、肝臓の数値など）にも気を配りながら進める必要があります。"
-        },
-        {
-          "kind": "text",
-          "text": "当院では、**軽症と判断できる場合は、当院で治療を行うこともあります**。一方、病気が進んで**重症化した場合には、呼吸器を専門とする医療機関にご紹介します**。"
-        },
-        {
-          "kind": "text",
-          "text": "## まとめ：肺NTM症と言われて不安な方へ"
-        },
-        {
-          "kind": "text",
-          "text": "最後に、大切なポイントをまとめます。"
-        },
-        {
-          "kind": "text",
-          "text": "- **肺NTM症**は結核菌以外の抗酸菌による肺の病気で、日本ではその約9割が**肺MAC症**\n- 菌は**土や水まわり**など身近な環境にいて、**人から人へはうつらない**\n- 初めは**症状がないことも多く**、進むと**長引く咳・痰・微熱・だるさ**などが出る\n- 診断には**CTと痰の検査**が必要で、**すぐに治療が必要とは限らない**"
-        },
-        {
-          "kind": "text",
-          "text": "### 院長からのメッセージ"
-        },
-        {
-          "kind": "text",
-          "text": "「肺NTM症」「肺MAC症」と聞くと、聞き慣れない名前に驚き、インターネットの情報を読んで不安になってしまうのは自然なことです。けれど、この病気の多くはゆっくり進み、正しく理解して、自分に合ったペースで経過を見ていけば、日常生活を大きく変えずに付き合っていける病気でもあります。"
-        },
-        {
-          "kind": "text",
-          "text": "大切なのは、ひとりで抱え込まず、**定期的に診てもらえる医師を持つこと**です。開院後、当院では院内のCTを活かして肺の状態をしっかり確認し、必要に応じて専門の医療機関とも連携しながら、長い目で寄り添っていきたいと考えています。「咳がなかなか止まらない」「健診で影があると言われたけれど、どこに行けばいいか分からない」——そんなときは、どうぞお気軽にご相談ください。"
-        }
-      ]
-    },
-    "en": {
-      "category": "Health and prevention",
-      "title": "A lingering cough or a “shadow” on your checkup — what is pulmonary NTM (MAC) disease? Causes, symptoms, and “Is it contagious?”",
-      "excerpt": "“Is pulmonary NTM a kind of tuberculosis? Can my family catch it?” If a checkup found a shadow on your lungs, here's the reassuring first answer — it doesn't spread from person to person.",
-      "body": [
-        {
-          "kind": "text",
-          "text": "\"My cold cleared up ages ago, but this cough has dragged on for weeks.\" \"A chest X-ray at my checkup showed a 'shadow,' and after a CT scan the report said 'suspected pulmonary NTM disease.'\" When you look up an unfamiliar diagnosis online and see phrases like \"related to tuberculosis\" or \"hard to treat,\" it can make you even more anxious. If that sounds familiar, you're not alone."
-        },
-        {
-          "kind": "text",
-          "text": "Let me start with what people worry about most: **pulmonary NTM disease does not spread from person to person.** You can keep spending time with your family and grandchildren just as you always have. In most cases, it's also a condition that progresses slowly over years — not something that demands a rushed response."
-        },
-        {
-          "kind": "text",
-          "text": "In this post, I'll explain as simply as I can the difference between \"pulmonary NTM disease\" and \"pulmonary MAC disease,\" why people get it, what symptoms it causes, and how we approach testing and treatment at our clinic."
-        },
-        {
-          "kind": "text",
-          "text": "## What is pulmonary NTM disease? How is it different from MAC disease?"
-        },
-        {
-          "kind": "text",
-          "text": "**NTM** stands for \"non-tuberculous mycobacteria.\" It's a mouthful, but breaking it down helps:"
-        },
-        {
-          "kind": "text",
-          "text": "- **Mycobacteria**: a group of bacteria whose stain doesn't wash out even with strong acid in lab tests. The best-known member is the tuberculosis bacterium (for where the name comes from and why treatment takes so long, see [our post on acid-fast bacteria](/blog/hai-kousankin))\n- **Non-tuberculous**: the mycobacteria in that group **other than the tuberculosis bacterium (and the one that causes leprosy)**"
-        },
-        {
-          "kind": "text",
-          "text": "So NTM is the umbrella term for \"bacteria in the same family as tuberculosis, but not tuberculosis itself\" — about 200 species are known. When these bacteria settle in the lungs and cause inflammation, it's called **pulmonary NTM disease** (pulmonary non-tuberculous mycobacterial disease)."
-        },
-        {
-          "kind": "text",
-          "text": "What, then, is **pulmonary MAC disease**? There are many types of NTM, but in Japan **about 90% of pulmonary NTM disease is caused by bacteria called \"MAC.\"** MAC stands for Mycobacterium avium complex — a name grouping together two very similar species, M. avium and M. intracellulare."
-        },
-        {
-          "kind": "text",
-          "text": "Put simply:"
-        },
-        {
-          "kind": "text",
-          "text": "- **Pulmonary NTM disease**: the umbrella term for lung disease caused by mycobacteria other than tuberculosis\n- **Pulmonary MAC disease**: the type of pulmonary NTM disease caused by MAC — which accounts for most cases in Japan"
-        },
-        {
-          "kind": "text",
-          "text": "NTM disease and MAC disease aren't two separate illnesses. It's easiest to think of it as **the most common type (MAC disease) sitting inside the bigger category (NTM disease).**"
-        },
-        {
-          "kind": "text",
-          "text": "Pulmonary NTM disease has clearly been increasing in Japan in recent years. National surveys have reported that the number of patients is now comparable to — or even greater than — that of tuberculosis. It's particularly common among **middle-aged and older, slim women.** It is by no means a rare condition."
-        },
-        {
-          "kind": "text",
-          "text": "## What causes pulmonary NTM disease? Is it contagious?"
-        },
-        {
-          "kind": "text",
-          "text": "### The bacteria live in everyday soil and water"
-        },
-        {
-          "kind": "text",
-          "text": "NTM aren't found only in unusual places. They live naturally in our everyday surroundings — **in soil, and around water (bathrooms, shower heads, humidifiers, tap water and so on).**"
-        },
-        {
-          "kind": "text",
-          "text": "They're thought to reach the lungs when we breathe in fine dust or water droplets containing the bacteria — from gardening and handling soil, or from shower steam, for example. Yet most people living in the same environment never develop the disease. Honestly, much is still unknown about why only some people do — factors such as constitution and the condition of the lungs are thought to play a role."
-        },
-        {
-          "kind": "text",
-          "text": "### It does not spread from person to person"
-        },
-        {
-          "kind": "text",
-          "text": "This is the most important point. Pulmonary NTM disease is caused by mycobacteria, like tuberculosis — but **unlike tuberculosis, it is not considered to spread from person to person.** That's why, unlike tuberculosis, it doesn't need to be reported to the public health center, and hospitalization or isolation isn't required."
-        },
-        {
-          "kind": "text",
-          "text": "- It's fine to spend time in the same room as your family\n- There's no need to keep separate dishes or towels\n- It's perfectly fine to hold your grandchildren"
-        },
-        {
-          "kind": "text",
-          "text": "There's no need to carry the worry of \"What if I pass it on to my family?\" on your own. Please rest assured."
-        },
-        {
-          "kind": "text",
-          "text": "### What you can do in daily life"
-        },
-        {
-          "kind": "text",
-          "text": "Because the bacteria live in everyday environments, you can't avoid them completely. Still, a few habits can reduce how often you breathe them in:"
-        },
-        {
-          "kind": "text",
-          "text": "- **Ventilate and clean the bathroom** regularly, and clean the shower head from time to time\n- **Change the water in humidifiers daily** and clean them often\n- **Wear a mask** when gardening or handling soil\n- Eat well and **maintain your weight and strength** (being underweight is thought to be one factor that can make the disease progress)"
-        },
-        {
-          "kind": "text",
-          "text": "## Symptoms of pulmonary NTM disease: watch for a lingering cough and phlegm"
-        },
-        {
-          "kind": "text",
-          "text": "Pulmonary NTM disease progresses very slowly. As a result, **there are often hardly any symptoms at first,** and it's frequently discovered by chance on a checkup chest X-ray or CT."
-        },
-        {
-          "kind": "text",
-          "text": "As the disease progresses, symptoms like these may appear:"
-        },
-        {
-          "kind": "text",
-          "text": "- **A lingering cough** (lasting weeks to months)\n- **Phlegm,** sometimes streaked with blood\n- **A persistent low-grade fever**\n- **Fatigue** and tiring easily\n- Night sweats, loss of appetite, weight loss"
-        },
-        {
-          "kind": "text",
-          "text": "All of these can also occur with colds, bronchitis and other lung conditions, so pulmonary NTM disease can't be identified from symptoms alone. That's exactly why it matters to get checked properly, rather than leaving it, **if a cough lasts more than three weeks or a checkup has found a shadow on your lungs.**"
-        },
-        {
-          "kind": "text",
-          "text": "## How we test, diagnose and treat at our clinic"
-        },
-        {
-          "kind": "text",
-          "text": "### Testing: confirming the bacteria with CT and sputum tests"
-        },
-        {
-          "kind": "text",
-          "text": "Diagnosing pulmonary NTM disease requires confirming **both the imaging findings and the bacteria.**"
-        },
-        {
-          "kind": "text",
-          "text": "- **Chest X-ray and CT**: With our in-house CT, we can examine the extent and shape of lung shadows in detail on the same day. Typical findings in pulmonary NTM disease include small nodular shadows and widened airways (bronchiectasis)\n- **Sputum tests**: We check whether mycobacteria are present in your phlegm and culture them to identify the species. Because these bacteria grow slowly, results take several weeks. As a rule, **finding the same species in two or more sputum samples** is one of the diagnostic benchmarks\n- **Blood test**: There is also a blood test for antibodies against MAC (covered by insurance) that can support a diagnosis of pulmonary MAC disease"
-        },
-        {
-          "kind": "text",
-          "text": "Another very important part of the process is **ruling out tuberculosis,** which is caused by bacteria from the same family."
-        },
-        {
-          "kind": "text",
-          "text": "### Treatment: medication doesn't always start right away"
-        },
-        {
-          "kind": "text",
-          "text": "Even after a diagnosis of pulmonary NTM disease, **treatment doesn't necessarily start straight away.** When symptoms are mild, the shadows are small and the disease is progressing slowly, **monitoring it** with regular CT scans and sputum tests is a perfectly sound option."
-        },
-        {
-          "kind": "text",
-          "text": "On the other hand, if the disease is advancing, or cavities have formed in the lungs, **treatment combining several antibiotics** is used. For pulmonary MAC disease, this typically means three oral medications taken together, continued for at least a year after the bacteria disappear from the sputum — so treatment is long-term. Possible side effects (such as changes in vision or liver test results) also need careful monitoring along the way."
-        },
-        {
-          "kind": "text",
-          "text": "At our clinic, **when the disease can be judged to be mild, we may treat it here.** If it progresses and **becomes severe, we will refer you to a medical institution specializing in respiratory medicine.**"
-        },
-        {
-          "kind": "text",
-          "text": "## Summary: for anyone worried after hearing \"pulmonary NTM disease\""
-        },
-        {
-          "kind": "text",
-          "text": "To wrap up, here are the key points:"
-        },
-        {
-          "kind": "text",
-          "text": "- **Pulmonary NTM disease** is a lung disease caused by mycobacteria other than tuberculosis; in Japan, about 90% of cases are **pulmonary MAC disease**\n- The bacteria live in everyday environments such as **soil and water,** and the disease **does not spread from person to person**\n- **There are often no symptoms at first;** as it progresses, **a lingering cough, phlegm, low-grade fever and fatigue** may appear\n- Diagnosis requires **CT and sputum tests,** and **treatment isn't always needed right away**"
-        },
-        {
-          "kind": "text",
-          "text": "### A message from the director"
-        },
-        {
-          "kind": "text",
-          "text": "Hearing \"pulmonary NTM disease\" or \"pulmonary MAC disease\" for the first time can be startling, and it's natural to feel uneasy after reading about it online. But many cases progress slowly, and with a proper understanding and monitoring at a pace that suits you, it's a condition many people live with without major changes to their daily lives."
-        },
-        {
-          "kind": "text",
-          "text": "What matters is not to carry it alone, and **to have a doctor who can see you regularly.** Once we open, we plan to make full use of our in-house CT to check the condition of your lungs carefully, working with specialist institutions when needed, and to support you for the long term. If your cough just won't go away, or a checkup found a shadow and you're not sure where to turn, please feel free to talk to us."
-        }
-      ]
-    }
-  },
-  {
-    "slug": "ikamera-junbi",
-    "date": "2026.10.26",
-    "cover": "/blog/kibana-landscape.png",
-    "ja": {
-      "category": "健康・予防の話",
-      "title": "胃カメラの前日・当日・検査後、どう過ごせばいい？",
-      "excerpt": "「前日の夜ごはん、何時まで食べていいの？」「終わったらすぐ食べられる？」——胃カメラの予約をした方から、いちばん多くいただく質問です。",
-      "body": [
-        {
-          "kind": "text",
-          "text": "「胃カメラの予約をしたけれど、前の日の夜ごはんは何時まで食べていいの？」「いつも飲んでいる薬はどうしたらいい？」「終わったら、すぐに食事や仕事に戻れる？」。胃カメラを受けると決めた方が、検査の数日前になって急に気になり始めるのが、こうした「準備」のことではないでしょうか。"
-        },
-        {
-          "kind": "text",
-          "text": "実は、胃カメラをスムーズに、そしてしっかり受けるためのポイントは、検査そのものよりも**前日と当日朝の過ごし方**にあります。この記事を読んでおけば、当日になって慌てることなく、落ち着いて検査を迎えられるはずです。"
-        },
-        {
-          "kind": "text",
-          "text": "### 結論から言うと"
-        },
-        {
-          "kind": "text",
-          "text": "押さえておきたいのは、次の4つです。"
-        },
-        {
-          "kind": "text",
-          "text": "- **前日**：夕食は21時までに、消化のよいものを軽めに。お酒は控えめに\n- **当日の朝**：食事は抜いて、水かお茶だけ。普段の薬は自己判断せず、事前に医師に確認\n- **検査後**：のどの麻酔が切れるまで（目安1時間）は飲食を控える\n- **組織を取った場合**：当日はお酒・刺激物・激しい運動・長風呂を避ける"
-        },
-        {
-          "kind": "text",
-          "text": "それぞれ、理由と一緒に説明します。"
-        },
-        {
-          "kind": "text",
-          "text": "### 前日：夕食は21時までに、軽めに"
-        },
-        {
-          "kind": "text",
-          "text": "胃の中に食べ物が残っていると、胃の壁が隠れてしまい、小さな病変を見落とすおそれがあります。そのため、**前日の夕食は21時ごろまでに済ませる**のが基本です。"
-        },
-        {
-          "kind": "text",
-          "text": "メニューは、うどん・おかゆ・白身魚・豆腐など、消化のよいものがおすすめです。反対に、揚げ物などの脂っこい料理、きのこ・海藻・こんにゃくのような消化に時間のかかる食材、量の多い食事は、胃に残りやすいので避けましょう。お酒も、できれば前日は控えてください。"
-        },
-        {
-          "kind": "text",
-          "text": "21時以降も、**水やお茶（砂糖やミルクの入っていないもの）**は飲んで構いません。"
-        },
-        {
-          "kind": "text",
-          "text": "### 当日の朝：食事は抜いて、水かお茶だけ"
-        },
-        {
-          "kind": "text",
-          "text": "当日の朝は、**何も食べずに**お越しください。牛乳・ジュース・スポーツドリンク・ミルク入りのコーヒーなども、胃に残るので控えます。水やお茶は、検査の少し前までなら少量飲んで大丈夫です。タバコは胃液を増やし、観察しにくくなるので、当日朝は控えてください。"
-        },
-        {
-          "kind": "text",
-          "text": "いちばん注意していただきたいのが、**普段飲んでいるお薬**です。"
-        },
-        {
-          "kind": "text",
-          "text": "- **血圧や心臓の薬**などは、朝早めに少量の水で飲んでいただくことが多いお薬です\n- **糖尿病の薬・インスリン**は、食事を抜いた状態で使うと低血糖を起こすおそれがあるため、当日朝は使わないのが一般的です\n- **血液をサラサラにする薬**（抗血小板薬・抗凝固薬）は、組織を取る可能性があるため扱いに注意が必要ですが、__自己判断でやめるのは危険__です"
-        },
-        {
-          "kind": "text",
-          "text": "どのお薬をどうするかは人によって違います。**予約の時点で、飲んでいるお薬（お薬手帳）を必ず医師に伝えて**、指示を確認しておいてください。"
-        },
-        {
-          "kind": "text",
-          "text": "服装は、おなかまわりを締めつけないゆったりしたものがおすすめです。"
-        },
-        {
-          "kind": "text",
-          "text": "### 検査中：鼻からの胃カメラで、話しながら"
-        },
-        {
-          "kind": "text",
-          "text": "当院の胃カメラは、**鼻から入れる細いカメラ（経鼻内視鏡）で、鎮静剤を使わずに行う**ことを基本にしています。"
-        },
-        {
-          "kind": "text",
-          "text": "検査の前に、鼻の通りをよくする薬と麻酔をスプレーやゼリーで入れ、のどにも軽く麻酔をします。鼻からのカメラは舌の付け根に触れにくいため、口からの胃カメラで起こりやすい**「オエッ」となる反射（えずき）が起こりにくい**のが特長です。"
-        },
-        {
-          "kind": "text",
-          "text": "口がふさがらないので、**検査中も会話ができます**。ご希望があれば、モニターに映る胃の中を一緒に見ながら、その場で説明することもできます。「今どこを見ているの？」「何か見つかった？」と気になったら、遠慮なく聞いてください。"
-        },
-        {
-          "kind": "text",
-          "text": "なお、鼻の通り道が狭い方や、鼻炎がひどい日などは、鼻から入れにくいことがあります。その場合は、安全を優先して、まずは口からの胃カメラへの切り替えをご提案します。"
-        },
-        {
-          "kind": "text",
-          "text": "### 検査後：1時間は飲食を控えて"
-        },
-        {
-          "kind": "text",
-          "text": "検査が終わったら、のどの麻酔が切れるまで、**目安として1時間ほどは飲食を控えて**ください。麻酔が効いている間に飲んだり食べたりすると、むせて気管に入ってしまうことがあります。最初は少量の水を飲んでみて、むせないことを確かめてから食事を始めましょう。"
-        },
-        {
-          "kind": "text",
-          "text": "検査後に鼻を強くかむと、鼻血が出ることがあります。当日はやさしくかむようにしてください。"
-        },
-        {
-          "kind": "text",
-          "text": "**組織を取って調べた（生検をした）場合**は、取った部分からの出血を防ぐため、当日は次のことを避けてください。"
-        },
-        {
-          "kind": "text",
-          "text": "- お酒、香辛料などの刺激物\n- 激しい運動\n- 長風呂（シャワー程度なら大丈夫です）"
-        },
-        {
-          "kind": "text",
-          "text": "食事は消化のよいものを。もし、**黒っぽい便が出る、おなかが強く痛む、気分が悪い**といったことがあれば、すぐに医療機関へご連絡ください。"
-        },
-        {
-          "kind": "text",
-          "text": "### 鎮静剤を使わないから、すぐに運転して帰れる"
-        },
-        {
-          "kind": "text",
-          "text": "眠くなる薬（鎮静剤）を使う胃カメラでは、検査後もしばらく休む必要があり、**当日は車の運転ができません**。送り迎えをお願いしたり、公共交通機関を使ったりする必要があります。"
-        },
-        {
-          "kind": "text",
-          "text": "一方、鎮静剤を使わない当院の胃カメラなら、検査が終わって説明を聞いたら、**そのままご自分で運転して帰ることができます**。車での移動が欠かせない宮崎では、これは大きなメリットだと考えています。お仕事の合間に受けて、そのまま職場に戻ることもしやすくなります。"
-        },
-        {
-          "kind": "text",
-          "text": "### 院長からのメッセージ"
-        },
-        {
-          "kind": "text",
-          "text": "胃カメラは、胃がんや食道がんを早く見つけるための、とても大切な検査です。それなのに「大変そう」「準備がよく分からない」という理由で先延ばしにされてしまうのは、本当にもったいないことだと感じています。"
-        },
-        {
-          "kind": "text",
-          "text": "準備のポイントさえ押さえておけば、胃カメラは決して怖い検査ではありません。当院では、鼻からの胃カメラで、できるだけ楽に、そして納得しながら受けていただけるよう準備を進めています。開院後は、「初めてで不安」「薬をどうしたらいいか分からない」といったご相談も、予約の時点で遠慮なくお寄せください。"
-        },
-        {
-          "kind": "text",
-          "text": "※当院での胃カメラは予約制で、午前中に行う予定です。食事の制限やお薬の扱いは、予約時に個別にご案内します。"
-        }
-      ]
-    },
-    "en": {
-      "category": "Health and prevention",
-      "title": "Getting a gastroscopy? How to spend the day before, the day of, and after",
-      "excerpt": "“How late can I eat dinner the night before?” “Can I eat right after?” These are the questions I hear most from people who've just booked a gastroscopy.",
-      "body": [
-        {
-          "kind": "text",
-          "text": "\"I've booked a gastroscopy — but how late can I eat dinner the night before?\" \"What should I do about my usual medications?\" \"Can I get back to eating and work right after?\" Once you've decided to have one, it's often these practical questions about preparation that start to weigh on your mind a few days beforehand."
-        },
-        {
-          "kind": "text",
-          "text": "In fact, the key to a smooth, thorough gastroscopy lies less in the exam itself and more in **how you spend the day before and the morning of.** Read this, and you should be able to go in calm and prepared instead of scrambling on the day."
-        },
-        {
-          "kind": "text",
-          "text": "### The short version"
-        },
-        {
-          "kind": "text",
-          "text": "Here are the four things to keep in mind:"
-        },
-        {
-          "kind": "text",
-          "text": "- **The day before**: Finish a light, easy-to-digest dinner by 9 p.m. Go easy on alcohol\n- **The morning of**: Skip breakfast — water or tea only. Don't decide about your usual medications yourself; check with your doctor in advance\n- **After the exam**: Avoid eating and drinking until the throat anesthetic wears off (about an hour)\n- **If a tissue sample was taken**: Avoid alcohol, spicy food, strenuous exercise and long baths that day"
-        },
-        {
-          "kind": "text",
-          "text": "Here's why, one by one."
-        },
-        {
-          "kind": "text",
-          "text": "### The day before: a light dinner, finished by 9 p.m."
-        },
-        {
-          "kind": "text",
-          "text": "If food is left in your stomach, it can hide the stomach lining and cause small abnormalities to be missed. That's why, as a rule, **dinner the night before should be finished by around 9 p.m.**"
-        },
-        {
-          "kind": "text",
-          "text": "Easy-to-digest foods are best — udon noodles, rice porridge, white fish, tofu and the like. On the other hand, fried and fatty dishes, slow-to-digest foods such as mushrooms, seaweed and konnyaku, and large portions tend to linger in the stomach, so it's best to avoid them. If you can, skip alcohol the day before as well."
-        },
-        {
-          "kind": "text",
-          "text": "After 9 p.m., **water and tea (without sugar or milk)** are fine."
-        },
-        {
-          "kind": "text",
-          "text": "### The morning of: no food — water or tea only"
-        },
-        {
-          "kind": "text",
-          "text": "Please come **without eating anything** that morning. Milk, juice, sports drinks and coffee with milk also linger in the stomach, so avoid those too. Small amounts of water or tea are fine until a little before the exam. Smoking increases stomach acid and makes the stomach harder to see, so please avoid it that morning."
-        },
-        {
-          "kind": "text",
-          "text": "What needs the most care is **your regular medication.**"
-        },
-        {
-          "kind": "text",
-          "text": "- **Blood pressure and heart medications** are often taken early in the morning with a small sip of water\n- **Diabetes medications and insulin** can cause low blood sugar when you haven't eaten, so they're generally not taken that morning\n- **Blood thinners** (antiplatelet and anticoagulant drugs) need careful handling because a tissue sample may be taken — but __stopping them on your own is dangerous__"
-        },
-        {
-          "kind": "text",
-          "text": "How to handle each medication differs from person to person. **When you book, be sure to tell the doctor what you take (bring your medication record),** and confirm the instructions in advance."
-        },
-        {
-          "kind": "text",
-          "text": "Loose clothing that doesn't squeeze your waist is recommended."
-        },
-        {
-          "kind": "text",
-          "text": "### During the exam: through the nose, while talking"
-        },
-        {
-          "kind": "text",
-          "text": "At our clinic, gastroscopy is done **with a thin scope inserted through the nose (transnasal endoscopy), without sedation,** as our standard approach."
-        },
-        {
-          "kind": "text",
-          "text": "Before the exam, medicine to open up the nasal passage and a local anesthetic are applied as a spray or gel, and the throat is lightly numbed too. Because a nasal scope rarely touches the base of the tongue, **the gag reflex — that \"hurk\" feeling common with scopes through the mouth — is much less likely.**"
-        },
-        {
-          "kind": "text",
-          "text": "Since your mouth isn't blocked, **you can talk during the exam.** If you'd like, we can look at the inside of your stomach on the monitor together and I'll explain as we go. If you're wondering \"Where are we looking now?\" or \"Did you find anything?\", please just ask."
-        },
-        {
-          "kind": "text",
-          "text": "That said, if your nasal passage is narrow or your nose is badly congested that day, the nasal route can be difficult. In that case, we'll put safety first and suggest switching to a gastroscopy through the mouth instead."
-        },
-        {
-          "kind": "text",
-          "text": "### After the exam: no food or drink for about an hour"
-        },
-        {
-          "kind": "text",
-          "text": "Once the exam is over, please **avoid eating and drinking for about an hour,** until the throat anesthetic wears off. Eating or drinking while it's still working can make you choke and send something down the wrong way. Start with a small sip of water, make sure you don't choke, and then begin eating."
-        },
-        {
-          "kind": "text",
-          "text": "Blowing your nose hard after the exam can cause a nosebleed, so please blow gently that day."
-        },
-        {
-          "kind": "text",
-          "text": "**If a tissue sample was taken (a biopsy),** avoid the following that day to prevent bleeding from the sampled spot:"
-        },
-        {
-          "kind": "text",
-          "text": "- Alcohol and spicy or irritating foods\n- Strenuous exercise\n- Long baths (a shower is fine)"
-        },
-        {
-          "kind": "text",
-          "text": "Stick to easily digestible food. If you notice **black stools, strong abdominal pain or feel unwell,** contact a medical facility right away."
-        },
-        {
-          "kind": "text",
-          "text": "### No sedation means you can drive yourself home right away"
-        },
-        {
-          "kind": "text",
-          "text": "With sedated gastroscopy (using medicine that makes you drowsy), you need to rest for a while afterward, and **you can't drive for the rest of the day.** You'll need someone to drop you off and pick you up, or to use public transport."
-        },
-        {
-          "kind": "text",
-          "text": "With our unsedated approach, once the exam is done and you've heard the explanation, **you can drive yourself home straight away.** In Miyazaki, where getting around by car is a must, I think that's a real advantage. It also makes it easier to fit the exam in around work and head straight back afterward."
-        },
-        {
-          "kind": "text",
-          "text": "### A message from the director"
-        },
-        {
-          "kind": "text",
-          "text": "Gastroscopy is a very important exam for catching stomach and esophageal cancer early. It's a real shame when people put it off simply because it \"sounds like a hassle\" or they're \"not sure how to prepare.\""
-        },
-        {
-          "kind": "text",
-          "text": "Once you know the key points of preparation, gastroscopy is nothing to be afraid of. We're preparing to offer transnasal gastroscopy so you can have it as comfortably as possible, and understand what's happening as you go. Once we open, please don't hesitate to bring up concerns like \"It's my first time and I'm nervous\" or \"I'm not sure what to do about my medication\" when you book."
-        },
-        {
-          "kind": "text",
-          "text": "※At our clinic, gastroscopy will be by appointment and performed in the morning. We'll give you individual instructions on food restrictions and medications when you book."
-        }
-      ]
-    }
-  },
-  {
-    "slug": "ikamera-nansai-kara",
-    "date": "2026.10.26",
-    "cover": "/blog/kibana-landscape.png",
-    "ja": {
-      "category": "健康・予防の話",
-      "title": "胃カメラは何歳から？どのくらいの間隔で受ければいい？",
-      "excerpt": "「胃カメラって、何歳になったら受けるもの？」「毎年受けないとダメ？」——実はその答え、年齢だけでなく「ピロリ菌」と「症状」で大きく変わります。",
-      "body": [
-        {
-          "kind": "text",
-          "text": "「胃カメラって、何歳くらいから受けたほうがいいんですか？」「一度受けたら、次はいつ？毎年受けないといけないの？」。健康診断の結果を見たときや、周りの人が胃カメラを受けたと聞いたときに、ふと気になる疑問ではないでしょうか。"
-        },
-        {
-          "kind": "text",
-          "text": "胃カメラは、胃がんや食道がんを早い段階で見つけられる、とても大切な検査です。ただ、必要以上に受ける必要はありませんし、逆に「まだ若いから」と先延ばしにしてよいとも限りません。この記事を読めば、**ご自分がいつ、どのくらいの間隔で受ければよいか**の目安がつかめるはずです。"
-        },
-        {
-          "kind": "text",
-          "text": "### 結論から言うと"
-        },
-        {
-          "kind": "text",
-          "text": "目安は次のとおりです。"
-        },
-        {
-          "kind": "text",
-          "text": "- **症状がある方**：年齢に関係なく、すぐに受診を（保険診療で受けられます）\n- **症状がない方**：国の指針では、胃がん検診は**50歳以上で2年に1回**が目安\n- **ピロリ菌に感染している（していた）方**：年齢にかかわらず、医師と相談して**定期的に**\n- **40代以下で症状がない方**：まずは一度、**ピロリ菌の有無**を調べておくと、その後の方針が立てやすくなります（血液でわかる「胃がんリスク検診」も選択肢の一つです）"
-        },
-        {
-          "kind": "text",
-          "text": "つまり、「何歳から」「何年ごと」は、**年齢だけでなく、ピロリ菌と症状によって変わる**のです。順番に説明します。"
-        },
-        {
-          "kind": "text",
-          "text": "### 症状があるなら、年齢は関係ありません"
-        },
-        {
-          "kind": "text",
-          "text": "まず大前提として、次のような症状がある場合は、何歳であっても「検診の年齢になってから」と待つ必要はありません。"
-        },
-        {
-          "kind": "text",
-          "text": "- みぞおちの痛みや胃もたれが続く\n- 食べ物が飲み込みにくい、つかえる感じがする\n- 黒っぽい便が出る\n- 食欲がなく、体重が減ってきた\n- 健康診断で貧血を指摘された"
-        },
-        {
-          "kind": "text",
-          "text": "こうした症状があるときの胃カメラは、病気を調べるための検査なので、**保険診療**で受けていただけます。"
-        },
-        {
-          "kind": "text",
-          "text": "### 症状がない方：国の指針は「50歳以上・2年に1回」"
-        },
-        {
-          "kind": "text",
-          "text": "症状のない方が受ける「胃がん検診」について、国の指針では、**50歳以上の方に、2年に1回**の胃カメラ（またはバリウム検査）を勧めています。多くの市町村で、この指針にもとづく胃がん検診が行われていますので、対象年齢や費用はお住まいの市町村の案内をご確認ください。"
-        },
-        {
-          "kind": "text",
-          "text": "50歳からとされているのは、胃がんにかかる人が50代以降に大きく増えるためです。"
-        },
-        {
-          "kind": "text",
-          "text": "### 年齢より大事な「ピロリ菌」"
-        },
-        {
-          "kind": "text",
-          "text": "ただし、胃がんのリスクを考えるうえで、年齢以上に大切なのが**ピロリ菌**です。胃がんの多くは、ピロリ菌の感染によって胃の粘膜に長く炎症が続き、粘膜が弱っていく（萎縮性胃炎）ことを背景に起こると考えられています。"
-        },
-        {
-          "kind": "text",
-          "text": "- **ピロリ菌に感染している方**：除菌治療をおすすめします。除菌すると胃がんのリスクは下がりますが、ゼロにはなりません\n- **除菌が成功した方**：胃の粘膜の状態によっては、**除菌後も定期的な胃カメラ**が勧められます。間隔は、胃の状態を見て医師と相談して決めます\n- **一度も感染したことがない方**：胃がんのリスクは比較的低く、検査の間隔を空けやすいと考えられています"
-        },
-        {
-          "kind": "text",
-          "text": "ピロリ菌は、子どもの頃に感染し、その後ずっと胃にすみ続けることが多い菌です。若い世代では感染している人が減っていますが、**「自分は感染しているのか、いないのか」を一度知っておく**ことは、40代以下の方にとっても十分に意味があります。"
-        },
-        {
-          "kind": "text",
-          "text": "### 血液で調べる「胃がんリスク検診（ABC検診）」"
-        },
-        {
-          "kind": "text",
-          "text": "ピロリ菌の有無と胃の状態を、胃カメラの前に手軽に知る方法として、**胃がんリスク検診（ABC検診）**があります。採血だけで、次の2つを調べる検査です。"
-        },
-        {
-          "kind": "text",
-          "text": "- **ピロリ菌の抗体**：ピロリ菌に感染しているかどうか\n- **ペプシノゲン**：胃の粘膜が弱っている（萎縮している）かどうか"
-        },
-        {
-          "kind": "text",
-          "text": "この2つの組み合わせから、胃がんになりやすさをA〜Dの群に分けます。A群は「ピロリ菌の感染がなく、胃の粘膜も健康」と考えられる比較的リスクの低いグループで、B→C→Dと進むほどリスクが高くなります。B〜D群と判定された方には、胃カメラでの精密検査をおすすめします。"
-        },
-        {
-          "kind": "text",
-          "text": "採血だけで済み、胃カメラに抵抗がある方でも受けやすいのが利点です。ただし、知っておいていただきたい注意点もあります。"
-        },
-        {
-          "kind": "text",
-          "text": "- **がんそのものを見つける検査ではありません**。あくまで「なりやすさ」を調べる検査で、胃カメラの代わりにはなりません\n- **A群でも安心しきらないこと**。過去に感染していて、すでに胃の粘膜が強く萎縮している方などは、実際より低いリスク（A群）に判定されてしまうことがあります。A群の方も、**一度は胃カメラで胃の中を確認しておく**と安心です\n- **すでに除菌治療を受けた方、胃酸を抑える薬を飲んでいる方、胃の手術を受けた方**などは、正しく判定できないため対象外です"
-        },
-        {
-          "kind": "text",
-          "text": "自治体や職場の健診で、オプションとして受けられる場合もあります。「胃カメラはまだ先かな」という若い世代の方にとって、**自分の胃のリスクを知る最初の一歩**として役立つ検査です。"
-        },
-        {
-          "kind": "text",
-          "text": "### 胃カメラの間隔を短くしたほうがよい方"
-        },
-        {
-          "kind": "text",
-          "text": "次のような方は、症状がなくても、一般的な目安より早め・短めの間隔で受けることを医師と相談してください。"
-        },
-        {
-          "kind": "text",
-          "text": "- **ご家族（親・きょうだい）に胃がんになった方がいる**\n- **お酒を飲むとすぐ顔が赤くなる方で、飲酒や喫煙の習慣がある**（食道がんのリスクが高まることが知られています）\n- **前回の胃カメラで、萎縮性胃炎やポリープなどを指摘された**"
-        },
-        {
-          "kind": "text",
-          "text": "### 院長からのメッセージ"
-        },
-        {
-          "kind": "text",
-          "text": "「胃カメラは何歳から？」という質問に、ひとことで答えるのは実は難しいのです。同じ50歳でも、ピロリ菌に感染したことがない方と、除菌治療を受けた方とでは、勧めたい間隔がまったく違います。"
-        },
-        {
-          "kind": "text",
-          "text": "だからこそ、一度胃カメラを受けたら、**「次はいつ受ければいいですか？」と、ぜひ医師に聞いてみてください**。胃の中の状態を実際に見た医師が、その方に合った間隔をお伝えできます。"
-        },
-        {
-          "kind": "text",
-          "text": "当院では開院後、症状があって受ける胃カメラ（保険診療）、症状のない方が健診として受ける胃カメラ（自費）に加えて、採血だけで受けられる**胃がんリスク検診（ABC検診）**にも対応する予定です。胃カメラは鼻からの細いカメラで、鎮静剤を使わず、検査中にご希望があれば画面を見ながら説明もできます。「自分の場合はいつ受ければいい？」というご相談だけでも、どうぞお気軽にお寄せください。"
-        }
-      ]
-    },
-    "en": {
-      "category": "Health and prevention",
-      "title": "When should you start getting gastroscopies — and how often?",
-      "excerpt": "“At what age should I start getting a gastroscopy?” “Do I need one every year?” The answer actually depends a lot on two things besides age — H. pylori and your symptoms.",
-      "body": [
-        {
-          "kind": "text",
-          "text": "\"At what age should I start getting gastroscopies?\" \"Once I've had one, when's the next? Do I need it every year?\" These questions tend to come up when you look over your health checkup results, or hear that someone you know just had one."
-        },
-        {
-          "kind": "text",
-          "text": "Gastroscopy is a very important exam that can catch stomach and esophageal cancer at an early stage. That said, there's no need to have it more often than necessary — and \"I'm still young\" isn't always a good reason to put it off. By the end of this post, you should have a good sense of **when, and how often, you personally should have one.**"
-        },
-        {
-          "kind": "text",
-          "text": "### The short version"
-        },
-        {
-          "kind": "text",
-          "text": "Here's a rough guide:"
-        },
-        {
-          "kind": "text",
-          "text": "- **If you have symptoms**: See a doctor now, whatever your age (it's covered by health insurance)\n- **If you have no symptoms**: Japan's national guidelines recommend stomach cancer screening **every 2 years from age 50**\n- **If you have (or had) H. pylori**: Have **regular** exams, whatever your age, at an interval agreed with your doctor\n- **If you're in your 40s or younger with no symptoms**: Finding out **whether you have H. pylori** makes it much easier to plan what comes next (a blood test called \"stomach cancer risk screening\" is one option)"
-        },
-        {
-          "kind": "text",
-          "text": "In other words, \"from what age\" and \"how often\" depend **not just on age, but on H. pylori and your symptoms.** Let's take these one at a time."
-        },
-        {
-          "kind": "text",
-          "text": "### If you have symptoms, age doesn't matter"
-        },
-        {
-          "kind": "text",
-          "text": "First and foremost: if you have any of the following, there's no need to wait until you reach \"screening age,\" however old you are."
-        },
-        {
-          "kind": "text",
-          "text": "- Ongoing pain in the pit of your stomach or a heavy, bloated feeling\n- Difficulty swallowing, or a feeling of food getting stuck\n- Black stools\n- Loss of appetite and weight loss\n- Anemia flagged at a health checkup"
-        },
-        {
-          "kind": "text",
-          "text": "A gastroscopy for symptoms like these is a diagnostic exam, so it's **covered by health insurance.**"
-        },
-        {
-          "kind": "text",
-          "text": "### No symptoms: the national guideline is \"every 2 years from age 50\""
-        },
-        {
-          "kind": "text",
-          "text": "For stomach cancer screening in people without symptoms, Japan's national guidelines recommend **a gastroscopy (or barium X-ray) every 2 years for people aged 50 and over.** Many municipalities offer stomach cancer screening based on these guidelines, so check your local municipality's information for eligible ages and costs."
-        },
-        {
-          "kind": "text",
-          "text": "The reason it starts at 50 is that stomach cancer becomes much more common from people's fifties onward."
-        },
-        {
-          "kind": "text",
-          "text": "### More important than age: H. pylori"
-        },
-        {
-          "kind": "text",
-          "text": "That said, when it comes to stomach cancer risk, something matters even more than age: **Helicobacter pylori** (H. pylori). Most stomach cancers are thought to develop against a background of long-term inflammation of the stomach lining caused by H. pylori infection, which gradually weakens the lining (atrophic gastritis)."
-        },
-        {
-          "kind": "text",
-          "text": "- **If you have H. pylori**: Eradication treatment is recommended. It lowers your stomach cancer risk, but doesn't reduce it to zero\n- **If eradication was successful**: Depending on the condition of your stomach lining, **regular gastroscopies may still be recommended afterward.** The interval is decided with your doctor based on what your stomach looks like\n- **If you've never been infected**: Your stomach cancer risk is considered relatively low, and longer intervals between exams are usually reasonable"
-        },
-        {
-          "kind": "text",
-          "text": "H. pylori is usually picked up in childhood and then stays in the stomach for years. Infection rates are falling among younger generations, but **knowing once and for all whether you're infected** is well worth it, even if you're in your forties or younger."
-        },
-        {
-          "kind": "text",
-          "text": "### Checking with a blood test: \"stomach cancer risk screening\" (ABC screening)"
-        },
-        {
-          "kind": "text",
-          "text": "One easy way to learn about H. pylori and the condition of your stomach before having a gastroscopy is **stomach cancer risk screening, also called ABC screening.** It's just a blood test that checks two things:"
-        },
-        {
-          "kind": "text",
-          "text": "- **H. pylori antibodies**: whether you're infected with H. pylori\n- **Pepsinogen**: whether your stomach lining has become weakened (atrophied)"
-        },
-        {
-          "kind": "text",
-          "text": "Based on the combination of these two, your stomach cancer risk is sorted into groups A to D. Group A is considered relatively low risk — \"no H. pylori infection and a healthy stomach lining\" — and the risk rises from B to C to D. For people in groups B to D, a gastroscopy is recommended for a closer look."
-        },
-        {
-          "kind": "text",
-          "text": "Because it only takes a blood sample, it's easy to have even if you're reluctant to get a gastroscopy. There are some important caveats, though:"
-        },
-        {
-          "kind": "text",
-          "text": "- **It doesn't detect cancer itself.** It only estimates your risk, and is not a substitute for a gastroscopy\n- **Group A isn't a guarantee.** People who were infected in the past and whose stomach lining is already severely atrophied, for example, can be placed in group A even though their real risk is higher. Even in group A, it's reassuring to **have a gastroscopy at least once** to check the inside of your stomach\n- **It can't give an accurate result** for people who have already had eradication treatment, take acid-reducing medication, or have had stomach surgery, so they aren't eligible"
-        },
-        {
-          "kind": "text",
-          "text": "Some municipal and workplace checkups offer it as an option. For younger people who feel a gastroscopy is \"still a way off,\" it's a useful **first step toward knowing your own stomach risk.**"
-        },
-        {
-          "kind": "text",
-          "text": "### Who should consider shorter intervals"
-        },
-        {
-          "kind": "text",
-          "text": "If any of the following apply to you, talk to your doctor about starting earlier or having exams more often than the general guide, even without symptoms:"
-        },
-        {
-          "kind": "text",
-          "text": "- **A parent or sibling has had stomach cancer**\n- **Your face quickly turns red when you drink, and you drink or smoke regularly** (this is known to raise the risk of esophageal cancer)\n- **Your last gastroscopy found atrophic gastritis, polyps or similar findings**"
-        },
-        {
-          "kind": "text",
-          "text": "### A message from the director"
-        },
-        {
-          "kind": "text",
-          "text": "\"From what age should I get a gastroscopy?\" is actually a hard question to answer in a single sentence. Two people who are both 50 — one who has never had H. pylori, and one who has been treated for it — may need completely different intervals."
-        },
-        {
-          "kind": "text",
-          "text": "That's exactly why, once you've had a gastroscopy, I'd encourage you to **ask the doctor, \"When should I have the next one?\"** A doctor who has actually seen the inside of your stomach can tell you the interval that's right for you."
-        },
-        {
-          "kind": "text",
-          "text": "Once we open, we plan to offer gastroscopy both for people with symptoms (covered by insurance) and for people without symptoms who want it as a health checkup (self-pay), as well as **stomach cancer risk screening (ABC screening)**, which only requires a blood test. For gastroscopy, we use a thin scope through the nose, without sedation, and if you'd like, I can explain what we're seeing on the monitor during the exam. Even if you just want to ask \"When should I be getting one?\", please feel free to get in touch."
-        }
-      ]
-    }
-  },
-  {
-    "slug": "kaicho-mattan-en",
-    "date": "2026.10.26",
-    "cover": "/blog/kibana-landscape.png",
-    "ja": {
-      "category": "健康・予防の話",
-      "title": "右下腹部が痛い、もしかして盲腸？——実は多い「回腸末端炎」のこと",
-      "excerpt": "「盲腸だと思って来たんです」——そう心配して受診され、検査の結果「回腸末端炎」だった、という方は少なくありません。聞き慣れない病名に不安になった方へ。",
-      "body": [
-        {
-          "kind": "text",
-          "text": "「右のお腹の下のほうが痛くて……盲腸だと思って来たんです」。これまでの診療の中で、そう心配して受診された方が、検査の結果「盲腸ではなく、回腸末端炎（かいちょうまったんえん）ですね」とお伝えすることになったケースは、決して少なくありません。"
-        },
-        {
-          "kind": "text",
-          "text": "「盲腸じゃなかったなら良かった」と思う一方で、初めて聞く病名に戸惑い、家に帰ってインターネットで調べてみたら「クローン病」「難病」といった言葉が出てきて、かえって不安になってしまった——そんなお気持ち、とてもよく分かります。"
-        },
-        {
-          "kind": "text",
-          "text": "この記事を読んでいただくと、回腸末端炎がどんな病気なのか、盲腸（急性虫垂炎）とどう違うのか、そしてどんなときに詳しい検査が必要なのかが分かります。結論から言うと、**回腸末端炎の多くは、細菌などによる一時的な腸の炎症で、自然に、あるいはお薬で良くなることが多いもの**です。ただし、中には詳しく調べたほうがよい原因が隠れていることもあるため、**きちんと診断して、原因を見極めることが大切**です。"
-        },
-        {
-          "kind": "text",
-          "text": "### 「回腸末端」は、盲腸のすぐ隣にあります"
-        },
-        {
-          "kind": "text",
-          "text": "小腸は、胃から続く長い腸で、最後の部分を「回腸（かいちょう）」と呼びます。その回腸の終わり、ちょうど**大腸につながる手前の部分が「回腸末端」**です。"
-        },
-        {
-          "kind": "text",
-          "text": "そして、この回腸末端がつながる大腸の入り口が「盲腸」で、いわゆる「盲腸（の病気）」と呼ばれている**虫垂（ちゅうすい）**は、その盲腸からぶら下がっている細い突起です。つまり、回腸末端と虫垂は、**右下腹部のほぼ同じ場所に、隣り合って並んでいる**のです。"
-        },
-        {
-          "kind": "text",
-          "text": "そのため、どちらに炎症が起きても、痛む場所がとてもよく似てしまいます。「右下腹部が痛い＝盲腸」と考えるのは自然なことですが、実際には盲腸（虫垂炎）以外の原因で痛んでいることも多く、その代表が回腸末端炎です。"
-        },
-        {
-          "kind": "text",
-          "text": "### 回腸末端は、炎症を起こしやすい「腸の関所」"
-        },
-        {
-          "kind": "text",
-          "text": "回腸末端は、小腸から大腸へ食べたものが移っていく「関所」のような場所です。ここでは、**栄養の吸収の仕上げ**（ビタミンB12や胆汁の成分の吸収など）が行われています。"
-        },
-        {
-          "kind": "text",
-          "text": "さらに、回腸末端の壁には、**「パイエル板」と呼ばれる免疫の拠点**がたくさん集まっています。腸に入ってきた細菌やウイルスを見張り、体を守るための大切な仕組みです。ところが、その分、外から入ってきた細菌などに反応して、**むくみや赤み（炎症）を起こしやすい、デリケートな場所**でもあるのです。"
-        },
-        {
-          "kind": "text",
-          "text": "### 盲腸（虫垂炎）と回腸末端炎、症状の違いは？"
-        },
-        {
-          "kind": "text",
-          "text": "どちらも右下腹部が痛む病気ですが、症状の出方にはいくつか違いがあります。"
-        },
-        {
-          "kind": "text",
-          "text": "- **痛みの始まり方**：虫垂炎は、最初は**みぞおちやおへその周り**が痛み、数時間〜半日ほどかけて**右下腹部へ痛みが移動する**ことが多いのが特徴です。一方、回腸末端炎は、**最初から右下腹部が痛む**ことが多くみられます\n- **お通じの変化**：回腸末端炎では、**下痢や水のような便、お腹の張り**を伴うことが多くあります。虫垂炎でも下痢が出ることはありますが、吐き気や食欲のなさが目立つことが多いです\n- **発熱**：どちらも熱が出ることがあり、熱だけでは区別できません"
-        },
-        {
-          "kind": "text",
-          "text": "ただし、これはあくまで「傾向」です。症状だけで両者をはっきり見分けることは、医師にとっても難しいことがあります。特に虫垂炎は、放っておくと破れて（穿孔して）腹膜炎になるおそれがあるため、**「たぶん腸炎だろう」と自己判断せず、検査で確かめることが大切**です。"
-        },
-        {
-          "kind": "text",
-          "text": "### 回腸末端炎の主な原因は、大きく3つ"
-        },
-        {
-          "kind": "text",
-          "text": "回腸末端炎は、ひとつの病気の名前というより、「回腸末端に炎症が起きている状態」を表す言葉です。原因は大きく次の3つに分けられます。"
-        },
-        {
-          "kind": "text",
-          "text": "**1. 細菌などによる感染性腸炎（いちばん多い原因）**"
-        },
-        {
-          "kind": "text",
-          "text": "最も多いのが、**カンピロバクター**（鶏肉の生焼けなどが原因になりやすい菌）や、**エルシニア**（豚肉や汚染された水などから感染する菌）などの細菌による、一時的な腸炎です。特にエルシニアは、回腸末端に炎症を起こしやすく、虫垂炎とそっくりの症状が出ることで知られています。"
-        },
-        {
-          "kind": "text",
-          "text": "このタイプは、**多くの場合、数日〜1、2週間ほどで自然に良くなります**。水分をしっかりとって、お腹を休めることが基本で、症状によってはお薬を使うこともあります。"
-        },
-        {
-          "kind": "text",
-          "text": "**2. お薬やストレス、腸内環境の乱れ**"
-        },
-        {
-          "kind": "text",
-          "text": "痛み止めとして使われる**解熱鎮痛薬（NSAIDs：ロキソプロフェンなど）**は、胃だけでなく小腸の粘膜も傷つけることがあり、回腸末端の炎症の原因になることがあります。また、強いストレスや、腸内環境の乱れが関わっていると考えられることもあります。"
-        },
-        {
-          "kind": "text",
-          "text": "普段飲んでいるお薬は、診察の際にぜひ教えてください。お薬手帳があると、とても助かります。"
-        },
-        {
-          "kind": "text",
-          "text": "**3. 慢性的な炎症性の病気（詳しく調べる必要があるもの）**"
-        },
-        {
-          "kind": "text",
-          "text": "頻度は高くありませんが、**クローン病**などの炎症性腸疾患や、**腸結核**などが、回腸末端の炎症として見つかることがあります。これらは、適切な診断と、継続的な治療が必要な病気です。"
-        },
-        {
-          "kind": "text",
-          "text": "ネットで「クローン病」という言葉を見て不安になった方も多いと思いますが、回腸末端炎と言われた方の多くは、1や2の一時的な炎症です。ただ、**症状が長引く、何度も繰り返す、体重が減る、血便が出る**といった場合は、こうした病気が隠れていないか、詳しく調べることが大切になります。"
-        },
-        {
-          "kind": "text",
-          "text": "### 当院での検査と診断の進め方"
-        },
-        {
-          "kind": "text",
-          "text": "右下腹部の痛みでは、「虫垂炎なのか、回腸末端炎なのか、それ以外なのか」を見極めることが何より重要です。当院では、次のような検査を組み合わせて診断します。"
-        },
-        {
-          "kind": "text",
-          "text": "- **血液検査**：白血球や炎症反応（CRP）の数値から、体の中でどのくらい炎症が起きているかを確認します\n- **便の検査**：下痢がある場合は、必要に応じて便を調べ、原因となる細菌を確認します\n- **腹部エコー（超音波）**：お腹に器械を当てるだけで、痛みも被ばくもなく、虫垂の腫れや、回腸末端の壁が厚くなっていないか（壁肥厚）を確認できます\n- **腹部CT**：院内のCTで、虫垂と回腸末端の状態や、周りへの炎症の広がりを、その日のうちに詳しく確認できます。「虫垂が腫れているのか」「回腸末端の壁が厚くなっているのか」の見極めに、とても役立ちます"
-        },
-        {
-          "kind": "text",
-          "text": "検査の結果、炎症が長引いている場合や、慢性の病気が疑われる場合には、**大腸カメラ（大腸内視鏡）**で回腸末端まで直接観察し、必要に応じて組織を少し取って調べます（生検）。大腸カメラが必要な場合は、連携する医療機関にご紹介します。"
-        },
-        {
-          "kind": "text",
-          "text": "また、虫垂炎で手術が必要と判断される場合も、速やかに対応できる医療機関へご紹介します。"
-        },
-        {
-          "kind": "text",
-          "text": "### 院長からのメッセージ"
-        },
-        {
-          "kind": "text",
-          "text": "「回腸末端炎」という聞き慣れない病名に、驚かれた方も多いと思います。けれど、きちんと検査をして原因を見極めれば、**過度に怖がる必要はありません**。多くの場合は、しばらく様子を見たり、お薬を使ったりすることで、良くなっていきます。"
-        },
-        {
-          "kind": "text",
-          "text": "大切なのは、「たぶん大丈夫だろう」と我慢しすぎないことです。消化器外科医として、これまで多くの虫垂炎や腸の病気の患者さんを診てきました。右下腹部の痛みには、早めの判断が必要なものと、落ち着いて経過を見てよいものの両方があります。その見極めこそが、私たち医師の役割です。"
-        },
-        {
-          "kind": "text",
-          "text": "右下腹部の痛みや、下痢・お腹の違和感が続くときは、どうぞ我慢せずにご相談ください。一緒に原因を確かめていきましょう。"
-        }
-      ]
-    },
-    "en": {
-      "category": "Health and prevention",
-      "title": "Pain in your lower right belly — is it appendicitis? Meet the often-overlooked “terminal ileitis”",
-      "excerpt": "“I came in because I thought it was my appendix” — and the tests showed terminal ileitis instead. If an unfamiliar diagnosis has you worried, this is for you.",
-      "body": [
-        {
-          "kind": "text",
-          "text": "\"My lower right belly hurts... I came in because I thought it was my appendix.\" Over the years in my practice, quite a few people who came in worried about exactly that turned out, after testing, to have something else: \"It's not your appendix — it's terminal ileitis.\""
-        },
-        {
-          "kind": "text",
-          "text": "Relief that it isn't appendicitis can quickly give way to confusion at an unfamiliar diagnosis. Then you search it online at home, see words like \"Crohn's disease\" or \"intractable disease,\" and end up more anxious than before. That feeling is completely understandable."
-        },
-        {
-          "kind": "text",
-          "text": "By the end of this post, you'll know what terminal ileitis is, how it differs from appendicitis, and when more detailed tests are needed. The short answer: **most terminal ileitis is a temporary inflammation of the intestine, often caused by bacteria, and it frequently gets better on its own or with medication.** That said, it can occasionally point to a cause that deserves a closer look — so **getting a proper diagnosis and identifying the cause is what matters.**"
-        },
-        {
-          "kind": "text",
-          "text": "### The terminal ileum sits right next to the appendix"
-        },
-        {
-          "kind": "text",
-          "text": "The small intestine is the long stretch of bowel that follows the stomach, and its last section is called the ileum. The very end of the ileum — **just before it joins the large intestine — is the \"terminal ileum.\"**"
-        },
-        {
-          "kind": "text",
-          "text": "The part of the large intestine it connects to is the cecum, and the **appendix** — the organ involved in \"appendicitis\" — is a thin tube hanging off the cecum. In other words, the terminal ileum and the appendix **sit side by side in almost the same spot in the lower right abdomen.**"
-        },
-        {
-          "kind": "text",
-          "text": "That's why inflammation in either one causes pain in a very similar place. It's natural to think \"lower right belly pain means appendicitis,\" but in reality the pain often has another cause — and terminal ileitis is one of the most common."
-        },
-        {
-          "kind": "text",
-          "text": "### The terminal ileum: a \"checkpoint\" prone to inflammation"
-        },
-        {
-          "kind": "text",
-          "text": "The terminal ileum works like a checkpoint where digested food passes from the small intestine into the large intestine. It's where **the final stage of nutrient absorption** takes place, including absorption of vitamin B12 and components of bile."
-        },
-        {
-          "kind": "text",
-          "text": "Its walls are also packed with **immune hubs called \"Peyer's patches,\"** which keep watch over bacteria and viruses entering the gut and help protect the body. But for that very reason, it's **a delicate spot that easily becomes swollen and red (inflamed)** in response to bacteria and other invaders."
-        },
-        {
-          "kind": "text",
-          "text": "### Appendicitis vs. terminal ileitis — how do the symptoms differ?"
-        },
-        {
-          "kind": "text",
-          "text": "Both cause pain in the lower right abdomen, but there are some differences in how symptoms show up:"
-        },
-        {
-          "kind": "text",
-          "text": "- **How the pain starts**: With appendicitis, pain often begins **around the pit of the stomach or the belly button,** then **moves to the lower right** over several hours to half a day. With terminal ileitis, the pain is often **in the lower right from the start**\n- **Bowel changes**: Terminal ileitis often comes with **diarrhea, watery stools and bloating.** Appendicitis can cause diarrhea too, but nausea and loss of appetite tend to be more prominent\n- **Fever**: Both can cause fever, so fever alone can't tell them apart"
-        },
-        {
-          "kind": "text",
-          "text": "These are only tendencies, though. Even for doctors, telling the two apart from symptoms alone can be difficult. Appendicitis in particular can rupture (perforate) and lead to peritonitis if left untreated, so **rather than deciding \"it's probably just gastroenteritis\" yourself, it's important to confirm with tests.**"
-        },
-        {
-          "kind": "text",
-          "text": "### Three main causes of terminal ileitis"
-        },
-        {
-          "kind": "text",
-          "text": "Terminal ileitis is less the name of a single disease than a description of \"inflammation at the terminal ileum.\" Its causes fall into three broad groups."
-        },
-        {
-          "kind": "text",
-          "text": "**1. Infectious enteritis caused by bacteria (the most common cause)**"
-        },
-        {
-          "kind": "text",
-          "text": "The most common cause is temporary enteritis from bacteria such as **Campylobacter** (often linked to undercooked chicken) or **Yersinia** (which can be caught from pork or contaminated water). Yersinia in particular tends to inflame the terminal ileum and is known for causing symptoms that look just like appendicitis."
-        },
-        {
-          "kind": "text",
-          "text": "This type **usually gets better on its own within a few days to a week or two.** The basics are drinking plenty of fluids and resting your gut, with medication used depending on symptoms."
-        },
-        {
-          "kind": "text",
-          "text": "**2. Medications, stress and disrupted gut balance**"
-        },
-        {
-          "kind": "text",
-          "text": "**Anti-inflammatory painkillers (NSAIDs, such as loxoprofen)** can damage the lining not only of the stomach but also of the small intestine, and can cause inflammation at the terminal ileum. Strong stress or an imbalance in the gut environment are also thought to play a role in some cases."
-        },
-        {
-          "kind": "text",
-          "text": "Please tell us about any medications you take regularly when you come in. Bringing your medication record helps a great deal."
-        },
-        {
-          "kind": "text",
-          "text": "**3. Chronic inflammatory diseases (those that need a closer look)**"
-        },
-        {
-          "kind": "text",
-          "text": "Less commonly, inflammatory bowel diseases such as **Crohn's disease,** or conditions such as **intestinal tuberculosis,** are found as inflammation of the terminal ileum. These need an accurate diagnosis and ongoing treatment."
-        },
-        {
-          "kind": "text",
-          "text": "Many people feel anxious after seeing \"Crohn's disease\" online, but most people told they have terminal ileitis have the temporary kind described in 1 or 2. Still, **if symptoms drag on, keep coming back, or come with weight loss or blood in the stool,** it's important to check carefully whether one of these conditions is involved."
-        },
-        {
-          "kind": "text",
-          "text": "### How we test and diagnose at our clinic"
-        },
-        {
-          "kind": "text",
-          "text": "With lower right abdominal pain, the most important thing is to work out whether it's appendicitis, terminal ileitis, or something else. At our clinic, we combine the following tests:"
-        },
-        {
-          "kind": "text",
-          "text": "- **Blood tests**: White blood cell counts and inflammation markers (CRP) show how much inflammation is going on in the body\n- **Stool tests**: If you have diarrhea, we may test a stool sample to identify the bacteria responsible\n- **Abdominal ultrasound**: Just placing a probe on the belly — painless and radiation-free — lets us check whether the appendix is swollen or the wall of the terminal ileum has thickened\n- **Abdominal CT**: With our in-house CT, we can examine the appendix, the terminal ileum and how far any inflammation has spread, in detail and on the same day. It's very helpful for telling \"a swollen appendix\" from \"a thickened terminal ileum wall\""
-        },
-        {
-          "kind": "text",
-          "text": "If the inflammation persists, or a chronic condition is suspected, a **colonoscopy** allows the terminal ileum to be examined directly, with a small tissue sample taken for testing if needed (a biopsy). When a colonoscopy is needed, we'll refer you to a partner medical institution."
-        },
-        {
-          "kind": "text",
-          "text": "And if appendicitis requiring surgery is diagnosed, we'll promptly refer you to a hospital that can provide it."
-        },
-        {
-          "kind": "text",
-          "text": "### A message from the director"
-        },
-        {
-          "kind": "text",
-          "text": "An unfamiliar diagnosis like \"terminal ileitis\" can be startling. But once the cause has been properly identified through testing, **there's no need to be overly afraid.** In many cases, it improves with a period of monitoring or with medication."
-        },
-        {
-          "kind": "text",
-          "text": "What matters is not to push through it thinking \"it's probably fine.\" As a gastrointestinal surgeon, I've treated many patients with appendicitis and other bowel conditions over the years. Lower right abdominal pain includes cases that need a quick decision and cases where it's fine to watch calmly — and telling them apart is exactly our job as doctors."
-        },
-        {
-          "kind": "text",
-          "text": "If pain in your lower right belly, diarrhea or ongoing discomfort won't go away, please don't put up with it. Let's find the cause together."
-        }
-      ]
-    }
-  },
-  {
     "slug": "legionella",
-    "date": "2026.10.27",
+    "date": "2026.10.25",
     "cover": "/blog/kibana-landscape.png",
     "ja": {
       "category": "健康・予防の話",
