@@ -7,7 +7,8 @@
     "dev:webpack": "node scripts/dev-webpack.mjs",
     "clean": "rm -rf .next",
     "blog:gen": "node scripts/gen-blog.mjs",
-    "prebuild": "npm run blog:gen",
+    "chat:gen": "node scripts/gen-chat-site-text.mjs",
+    "prebuild": "npm run blog:gen && npm run chat:gen",
     "build": "next build",
     "start": "next start",
     "lint": "eslint .",
@@ -30,6 +31,7 @@
     "ios_saf >= 15"
   ],
   "dependencies": {
+    "@anthropic-ai/sdk": "^0.133.0",
     "@vercel/analytics": "^2.0.1",
     "@vercel/blob": "^2.8.2",
     "budoux": "^0.6.4",
