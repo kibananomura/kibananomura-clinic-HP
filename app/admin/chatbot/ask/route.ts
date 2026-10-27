@@ -1,10 +1,14 @@
 import Anthropic from "@anthropic-ai/sdk";
+import { after } from "next/server";
 import { searchKnowledge } from "../../../lib/chat-knowledge";
 
 /**
  * HP案内チャットボット（試作）の回答API。
  * /admin 配下なので middleware.ts のBasic認証で保護されている（一般公開はまだしない）。
  * 環境変数 ANTHROPIC_API_KEY が必要。
+ * 質問と回答は、開業支援チームの Supabase（chatbot_logs 表）に記録して週次で分析する。
+ * 記録には CHATBOT_LOG_SUPABASE_URL・CHATBOT_LOG_SUPABASE_KEY（publishable キー）が必要で、
+ * 未設定なら記録だけ飛ばす（回答には影響しない）。
  */
 
 const MODEL = "claude-haiku-5-5";
@@ -53,6 +57,52 @@ const SYSTEM_PROMPT = `# 役割と目的
 
 const client = new Anthropic();
 
+const NO_ANSWER_MARKERS = ["記載が見つかりませんでした", "couldn't find", "could not find"];
+const EMERGENCY_MARKERS = ["119", "#7119"];
+
+/** 電話番号・メールアドレスらしき文字列を伏せ字にする（ログに個人を特定できる情報を残さないため） */
+function mask(text: string): string {
+  return text
+    .replace(/[\w.+-]+@[\w-]+(\.[\w-]+)+/g, "[メール]")
+    .replace(/(?<!\d)0\d{1,4}[-(（ ]?\d{1,4}[-)） ]?\d{3,4}(?!\d)/g, "[電話番号]");
+}
+
+type LogEntry = {
+  question: string;
+  answer: string;
+  sources: { title: string; url: string }[];
+  usage?: { input_tokens: number; output_tokens: number };
+  stopReason?: string | null;
+};
+
+/** 開業支援チームの Supabase に1件記録する（追加専用の関数 log_chatbot_qa を呼ぶ） */
+async function logQa(entry: LogEntry) {
+  const url = process.env.CHATBOT_LOG_SUPABASE_URL;
+  const key = process.env.CHATBOT_LOG_SUPABASE_KEY;
+  if (!url || !key) return;
+  const lang = /[ぁ-んァ-ン一-龥]/.test(entry.question) ? "ja" : "en";
+  try {
+    const res = await fetch(`${url}/rest/v1/rpc/log_chatbot_qa`, {
+      method: "POST",
+      headers: { "Content-Type": "application/json", apikey: key, Authorization: `Bearer ${key}` },
+      body: JSON.stringify({
+        p_question: mask(entry.question),
+        p_answer: mask(entry.answer),
+        p_sources: entry.sources,
+        p_lang: lang,
+        p_no_answer: NO_ANSWER_MARKERS.some((m) => entry.answer.includes(m)),
+        p_emergency: EMERGENCY_MARKERS.some((m) => entry.answer.includes(m)),
+        p_input_tokens: entry.usage?.input_tokens ?? null,
+        p_output_tokens: entry.usage?.output_tokens ?? null,
+        p_stop_reason: entry.stopReason ?? null,
+      }),
+    });
+    if (!res.ok) console.error("chatbot log failed", res.status);
+  } catch (error) {
+    console.error("chatbot log failed", error);
+  }
+}
+
 export async function POST(request: Request) {
   if (!process.env.ANTHROPIC_API_KEY) {
     return Response.json({ error: "ANTHROPIC_API_KEY が設定されていません。" }, { status: 503 });
@@ -92,12 +142,10 @@ export async function POST(request: Request) {
     });
 
     if (response.stop_reason === "refusal") {
-      return Response.json({
-        answer:
-          "申し訳ありません。このご質問にはお答えできませんでした。お手数ですが、ホームページの『お問い合わせ』またはLINE公式アカウントからお問い合わせください。",
-        sources: [],
-        usage: response.usage,
-      });
+      const answer =
+        "申し訳ありません。このご質問にはお答えできませんでした。お手数ですが、ホームページの『お問い合わせ』またはLINE公式アカウントからお問い合わせください。";
+      after(() => logQa({ question, answer, sources: [], usage: response.usage, stopReason: response.stop_reason }));
+      return Response.json({ answer, sources: [], usage: response.usage });
     }
 
     const answer = response.content
@@ -105,14 +153,12 @@ export async function POST(request: Request) {
       .join("")
       .trim();
 
-    return Response.json({
-      answer,
-      sources: chunks
-        .filter((c, i) => c.url !== "/" && chunks.findIndex((x) => x.url === c.url) === i)
-        .map((c) => ({ title: c.title, url: c.url })),
-      usage: response.usage,
-      stopReason: response.stop_reason,
-    });
+    const sources = chunks
+      .filter((c, i) => c.url !== "/" && chunks.findIndex((x) => x.url === c.url) === i)
+      .map((c) => ({ title: c.title, url: c.url }));
+    after(() => logQa({ question, answer, sources, usage: response.usage, stopReason: response.stop_reason }));
+
+    return Response.json({ answer, sources, usage: response.usage, stopReason: response.stop_reason });
   } catch (error) {
     if (error instanceof Anthropic.RateLimitError) {
       return Response.json({ error: "ただいま混み合っています。少し時間をおいてお試しください。" }, { status: 429 });
