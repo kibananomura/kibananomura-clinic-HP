@@ -69,12 +69,34 @@ const SYSTEM_PROMPT = `# 役割と目的
    - 回答は簡潔に（目安として300字程度まで）。見出しや表は使わず、文章と必要なら短い箇条書き（「・」）でお答えください。
    - 「**」「#」などのMarkdownの記号は画面にそのまま表示されてしまうため使わないでください。強調したい言葉は【】で囲んでください。
    - 参照したページのURLは、システム側で回答の下に表示するので、本文には書かなくてかまいません。
-   - 「参照テキスト」という言葉は使わず、「ホームページでは」「当院では」のように表現してください。`;
+   - 「参照テキスト」という言葉は使わず、「ホームページでは」「当院では」のように表現してください。
+
+10. 症状・病気・健康の話題は、ホームページの解説ページへご案内する
+   - 症状、病名、検査、予防、健康づくりなど、からだや病気にかかわる質問には、短くお答えしたうえで、回答の最後に詳しく読めるページを案内してください。
+   - 参照テキストの中に、タイトルが「症状の解説：」「病気の解説：」「院長ブログ：」で始まるページがあれば、そのページ名を挙げてください（例：「詳しくは、ホームページの症状の解説『腹痛』や、院長ブログ『〇〇』をご覧ください（下のリンクから開けます）」）。挙げるのは、ご質問に関係するページだけ、多くても3つまでにしてください。
+   - 関係するページが参照テキストにない場合は、「ホームページの『症状から探す』『疾患について』『院長ブログ』のページもあわせてご覧ください（下のリンクから開けます）」と案内してください。参照テキストにないページ名を作らないでください。
+   - 体調が悪いという相談では、ルール2の受診先の案内を先に書き、ページの案内はその後に添えてください。`;
 
 const client = new Anthropic();
 
 const NO_ANSWER_MARKERS = ["記載が見つかりませんでした", "couldn't find", "could not find"];
 const EMERGENCY_MARKERS = ["119", "#7119"];
+
+// 症状・病気・健康の話題かどうかの目安（当てはまれば、回答の下に症状・疾患・ブログの一覧ページを添える）
+const HEALTH_TOPIC =
+  /症状|病気|病名|疾患|痛|熱|咳|せき|鼻|のど|喉|下痢|便秘|吐|はき気|吐き気|めまい|かゆ|発疹|湿疹|むくみ|しびれ|だるい|疲れ|血圧|糖尿|血糖|コレステロール|脂質|尿酸|貧血|がん|癌|腫瘍|ポリープ|検査|健診|検診|予防|ワクチン|予防接種|風邪|かぜ|インフル|コロナ|感染|アレルギー|花粉|喘息|ぜんそく|胃|腸|肝|肺|心臓|腎|甲状腺|皮膚|けが|怪我|傷|やけど|睡眠|眠れ|いびき|漢方|肥満|ダイエット|禁煙|健康|\b(symptoms?|diseases?|pain|fever|cough|sick)\b/i;
+
+const HEALTH_INDEX_PAGES = [
+  { title: "症状から探す", url: "/symptoms" },
+  { title: "疾患について", url: "/diseases" },
+  { title: "院長ブログ", url: "/blog" },
+];
+
+/** 参考にしたページのうち、症状・病気の解説と院長ブログを先頭に並べる */
+function healthFirst(sources: { title: string; url: string }[]) {
+  const rank = (url: string) => (/^\/(symptoms|diseases|blog)\//.test(url) ? 0 : 1);
+  return [...sources].sort((a, b) => rank(a.url) - rank(b.url));
+}
 
 /** 電話番号・メールアドレスらしき文字列を伏せ字にする（ログに個人を特定できる情報を残さないため） */
 function mask(text: string): string {
@@ -221,9 +243,17 @@ export async function handleChatRequest(request: Request, options: { publicAcces
       .join("")
       .trim();
 
-    const sources = chunks
-      .filter((c, i) => c.url !== "/" && chunks.findIndex((x) => x.url === c.url) === i)
-      .map((c) => ({ title: c.title, url: c.url }));
+    const sources = healthFirst(
+      chunks
+        .filter((c, i) => c.url !== "/" && chunks.findIndex((x) => x.url === c.url) === i)
+        .map((c) => ({ title: c.title, url: c.url }))
+    );
+    if (HEALTH_TOPIC.test(question)) {
+      // 症状・病気の話題では、一覧ページも必ず下に出して解説ページへ誘導する
+      for (const page of HEALTH_INDEX_PAGES) {
+        if (!sources.some((s) => s.url === page.url)) sources.push(page);
+      }
+    }
     after(() => logQa({ question, answer, sources, usage: response.usage, stopReason: response.stop_reason }));
 
     return Response.json({ answer, sources, usage: response.usage, stopReason: response.stop_reason });

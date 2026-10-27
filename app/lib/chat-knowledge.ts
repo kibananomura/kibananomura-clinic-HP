@@ -177,8 +177,13 @@ const TOPIC_RULES: { keywords: RegExp; titles: string[] }[] = [
   { keywords: /栄養士/, titles: ["採用情報：管理栄養士"] },
 ];
 
+// 症状・病気の解説ページは、ブログより少し優先して参照する（解説ページへ案内しやすくするため）
+const HEALTH_PAGE_BOOST = 1.3;
+
 export function searchKnowledge(query: string, limit = 5, maxChars = 5000): KnowledgeChunk[] {
-  const q = bigrams(query);
+  // 「頭が痛い」「お腹が痛い」→「頭痛」「腹痛」のように、話し言葉を症状名に寄せた語も足して検索する
+  const expanded = `${query} ${query.replace(/(\S)が?痛(い|む|くて|み)/g, "$1痛")}`;
+  const q = bigrams(expanded);
   if (q.size === 0) return [BASIC_INFO];
   const scored = CHUNKS.map((chunk, i) => {
     let score = 0;
@@ -187,7 +192,8 @@ export function searchKnowledge(query: string, limit = 5, maxChars = 5000): Know
       if (CHUNK_BIGRAMS[i].text.has(g)) score += w;
       if (CHUNK_BIGRAMS[i].title.has(g)) score += 2 * w;
     }
-    return { chunk, score: score / Math.log(chunk.text.length + 50) };
+    const boost = /^\/(symptoms|diseases)\//.test(chunk.url) ? HEALTH_PAGE_BOOST : 1;
+    return { chunk, score: (boost * score) / Math.log(chunk.text.length + 50) };
   })
     .filter((s) => s.score > 0)
     .sort((a, b) => b.score - a.score);
@@ -204,10 +210,14 @@ export function searchKnowledge(query: string, limit = 5, maxChars = 5000): Know
       }
     }
   }
+  // 同じページの断片ばかりで枠が埋まらないよう、1ページから拾うのは2つまでにする
+  // （症状・病気の解説やブログなど、複数のページへ案内できるように）
+  const MAX_PER_URL = 2;
   for (const { chunk } of scored) {
     if (picked.includes(chunk)) continue;
     if (picked.length > limit) break;
     if (chunk === BASIC_INFO) continue;
+    if (picked.filter((c) => c.url === chunk.url).length >= MAX_PER_URL) continue;
     if (total + chunk.text.length > maxChars) continue;
     picked.push(chunk);
     total += chunk.text.length;
