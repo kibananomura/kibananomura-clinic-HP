@@ -15,6 +15,7 @@ import { SELFPAY_ITEMS } from "./selfpay-data";
 import { equipment } from "./equipment";
 import { posts } from "./blog";
 import { SITE_TEXT_CHUNKS } from "./chat-site-text.generated";
+import { CAREER_POSITIONS, COMMON_EMPLOYMENT_TERMS } from "./careers";
 
 export type KnowledgeChunk = { title: string; url: string; text: string };
 
@@ -107,6 +108,26 @@ function buildChunks(): KnowledgeChunk[] {
     chunks.push({ title: `設備：${e.ja.name}`, url: "/equipment", text: plain(e.ja.body) });
   }
 
+  // 採用情報。給与額は未決定のため、金額は渡さず「準備中・ハローワークの求人票を参照」とする
+  const SALARY_PENDING = "準備中（給与額は未決定です。ハローワークに掲載している求人票の金額をご参照ください）";
+  const condition = (c: { label: string; value: string }) =>
+    `${c.label}：${/給与|時給|月給/.test(c.label) ? SALARY_PENDING : c.value}`;
+  for (const pos of CAREER_POSITIONS) {
+    if (pos.hidden) continue;
+    const body = [
+      `${pos.ja.title}（${pos.ja.badge}）`,
+      pos.ja.summary,
+      `仕事内容：${pos.ja.duties.join("、")}`,
+      `応募条件：${pos.ja.requirements.join("、")}`,
+      ...(pos.ja.conditions ?? []).map(condition),
+      pos.ja.note ?? "",
+    ].join("\n");
+    chunks.push(...split(`採用情報：${pos.ja.title}`, "/careers", body));
+  }
+  chunks.push(
+    ...split("採用情報：共通の雇用条件", "/careers", COMMON_EMPLOYMENT_TERMS.ja.items.map(condition).join("\n"))
+  );
+
   for (const post of posts) {
     const body = post.ja.body
       .filter((b) => b.kind === "text")
@@ -147,6 +168,7 @@ const TOPIC_RULES: { keywords: RegExp; titles: string[] }[] = [
   { keywords: /院長|先生|医師|ドクター|経歴|出身|学歴|専門医|資格/, titles: ["院長紹介"] },
   { keywords: /駐車|アクセス|場所|住所|行き方|バス|駅/, titles: ["アクセス"] },
   { keywords: /初診|持ち物|保険証|受診の流れ/, titles: ["初診の方へ"] },
+  { keywords: /給与|給料|月給|時給|求人|採用|募集|働き|看護師|事務|パート|賞与|ボーナス/, titles: ["採用情報：共通の雇用条件"] },
 ];
 
 export function searchKnowledge(query: string, limit = 5, maxChars = 5000): KnowledgeChunk[] {
