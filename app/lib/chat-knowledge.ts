@@ -108,10 +108,11 @@ function buildChunks(): KnowledgeChunk[] {
     chunks.push({ title: `設備：${e.ja.name}`, url: "/equipment", text: plain(e.ja.body) });
   }
 
-  // 採用情報。給与額は未決定のため、金額は渡さず「準備中・ハローワークの求人票を参照」とする
-  const SALARY_PENDING = "準備中（給与額は未決定です。ハローワークに掲載している求人票の金額をご参照ください）";
+  // 採用情報。給与額は未決定のため、採用ページの金額は「参考の幅」として渡し、正式な金額はハローワークの求人票を案内する
   const condition = (c: { label: string; value: string }) =>
-    `${c.label}：${/給与|時給|月給/.test(c.label) ? SALARY_PENDING : c.value}`;
+    /給与|時給|月給/.test(c.label)
+      ? `${c.label}：【準備中】給与額は未決定です。参考の幅は${c.value}。正式な金額はハローワークに掲載している求人票をご参照ください`
+      : `${c.label}：${c.value}`;
   for (const pos of CAREER_POSITIONS) {
     if (pos.hidden) continue;
     const body = [
@@ -168,7 +169,12 @@ const TOPIC_RULES: { keywords: RegExp; titles: string[] }[] = [
   { keywords: /院長|先生|医師|ドクター|経歴|出身|学歴|専門医|資格/, titles: ["院長紹介"] },
   { keywords: /駐車|アクセス|場所|住所|行き方|バス|駅/, titles: ["アクセス"] },
   { keywords: /初診|持ち物|保険証|受診の流れ/, titles: ["初診の方へ"] },
-  { keywords: /給与|給料|月給|時給|求人|採用|募集|働き|看護師|事務|パート|賞与|ボーナス/, titles: ["採用情報：共通の雇用条件"] },
+  { keywords: /給与|給料|月給|時給|求人|採用|募集|働き|看護師|事務|パート|賞与|ボーナス|技師|栄養士/, titles: ["採用情報：共通の雇用条件"] },
+  { keywords: /看護/, titles: ["採用情報：看護師"] },
+  { keywords: /事務|受付/, titles: ["採用情報：事務"] },
+  { keywords: /放射線/, titles: ["採用情報：診療放射線技師"] },
+  { keywords: /臨床検査|検査技師/, titles: ["採用情報：臨床検査技師"] },
+  { keywords: /栄養士/, titles: ["採用情報：管理栄養士"] },
 ];
 
 export function searchKnowledge(query: string, limit = 5, maxChars = 5000): KnowledgeChunk[] {
