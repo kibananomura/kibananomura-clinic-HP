@@ -14,11 +14,11 @@ type Turn = { question: string; answer?: string; sources?: Source[]; error?: str
 
 const TEXT = {
   ja: {
-    open: "AIに質問する",
-    title: "AIがホームページの情報からお答えします",
+    open: "キバナビに質問する",
+    title: "AI案内係「キバナビ」が、ホームページの情報からお答えします",
     close: "閉じる",
     notice:
-      "AIが自動で回答します。内容に誤りがある場合もあります。お名前・連絡先などの個人情報や、詳しい症状は入力しないでください。ご質問と回答は、サービス改善のために記録しています。",
+      "キバナビはAIで、自動で回答します。内容に誤りがある場合もあります。お名前・連絡先などの個人情報や、詳しい症状は入力しないでください。ご質問と回答は、サービス改善のために記録しています。",
     privacy: "プライバシーポリシー",
     placeholder: "例：駐車場はありますか？",
     send: "送信",
@@ -28,11 +28,11 @@ const TEXT = {
     examples: ["駐車場はありますか？", "熱があるときの受診方法は？", "胃カメラの前日は何時まで食べていい？"],
   },
   en: {
-    open: "Ask our AI",
-    title: "Our AI answers from the information on this website",
+    open: "Ask Kibanavi",
+    title: "Kibanavi, our AI guide, answers from the information on this website",
     close: "Close",
     notice:
-      "Answers are generated automatically by AI and may contain mistakes. Please do not enter personal information such as your name or contact details, or detailed symptoms. Questions and answers are recorded to improve the service.",
+      "Kibanavi is an AI, and its answers are generated automatically and may contain mistakes. Please do not enter personal information such as your name or contact details, or detailed symptoms. Questions and answers are recorded to improve the service.",
     privacy: "Privacy policy",
     placeholder: "e.g. Is there parking?",
     send: "Send",
