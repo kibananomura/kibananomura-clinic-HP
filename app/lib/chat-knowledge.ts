@@ -139,6 +139,16 @@ function idf(gram: string): number {
   return Math.log((CHUNKS.length + 1) / ((DOC_FREQ.get(gram) ?? 0) + 1));
 }
 
+/**
+ * 質問に特定の言葉が入っていたら、必ず参照に含めるページ（2文字組の検索だけでは
+ * 拾いきれない定番の質問への保険）。
+ */
+const TOPIC_RULES: { keywords: RegExp; titles: string[] }[] = [
+  { keywords: /院長|先生|医師|ドクター|経歴|出身|学歴|専門医|資格/, titles: ["院長紹介"] },
+  { keywords: /駐車|アクセス|場所|住所|行き方|バス|駅/, titles: ["アクセス"] },
+  { keywords: /初診|持ち物|保険証|受診の流れ/, titles: ["初診の方へ"] },
+];
+
 export function searchKnowledge(query: string, limit = 5, maxChars = 5000): KnowledgeChunk[] {
   const q = bigrams(query);
   if (q.size === 0) return [BASIC_INFO];
@@ -157,7 +167,17 @@ export function searchKnowledge(query: string, limit = 5, maxChars = 5000): Know
   // 基本情報は常に最初に入れる（開院前であること・連絡先を必ず参照できるように）
   const picked: KnowledgeChunk[] = [BASIC_INFO];
   let total = BASIC_INFO.text.length;
+  for (const rule of TOPIC_RULES) {
+    if (!rule.keywords.test(query)) continue;
+    for (const chunk of CHUNKS) {
+      if (rule.titles.includes(chunk.title) && !picked.includes(chunk)) {
+        picked.push(chunk);
+        total += chunk.text.length;
+      }
+    }
+  }
   for (const { chunk } of scored) {
+    if (picked.includes(chunk)) continue;
     if (picked.length > limit) break;
     if (chunk === BASIC_INFO) continue;
     if (total + chunk.text.length > maxChars) continue;
