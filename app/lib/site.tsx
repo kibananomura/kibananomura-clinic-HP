@@ -924,7 +924,7 @@ const ja: SiteDict = {
     insuranceBody: "各種健康保険・国民健康保険・後期高齢者医療保険に対応予定です。労災・自賠責にも対応いたします。自費診療（GLP-1・AGAなど）については別途ご案内します。",
     noteHeading: "ご来院の際のお願い",
     notes: [
-      "__発熱・感染症症状がある方は、Web予約のうえ、ご予約の時間にクリニック横のひさしの下（発熱の方専用区画）に頭から入れて駐車し、車内でお待ちください__。カメラでご来院を確認し、スタッフがお車まで伺います（Web予約は開院後にご用意します）",
+      "__発熱・感染症症状がある方は、Web予約の発熱外来用の枠でご予約のうえ、ご予約の時間にクリニック横のひさしの下（発熱の方専用区画）に頭から入れて駐車し、車内でお待ちください__。カメラでご来院を確認し、スタッフがお車まで伺います（Web予約は開院後にご用意します）",
       "お子さんの受診には保護者同伴をお願いします",
       "駐車場は**33台**（一般28台・発熱の方専用5台）完備予定です",
     ],
@@ -1596,7 +1596,7 @@ const en: SiteDict = {
     insuranceBody: "We plan to accept national health insurance, employees' health insurance and the late-stage elderly medical care system. Workers' compensation and CALI are also accepted. Self-pay treatments (GLP-1, AGA, etc.) are detailed separately.",
     noteHeading: "Please note",
     notes: [
-      "__If you have a fever or possible infection, please book online, then at your appointment time park nose-in under the canopy beside the clinic (the area reserved for patients with a fever) and wait in your car.__ We will see your arrival on camera and a staff member will come out to you (online booking will be available after opening).",
+      "__If you have a fever or possible infection, please book a fever outpatient slot online, then at your appointment time park nose-in under the canopy beside the clinic (the area reserved for patients with a fever) and wait in your car.__ We will see your arrival on camera and a staff member will come out to you (online booking will be available after opening).",
       "Children must be accompanied by a parent or guardian.",
       "**33 parking spaces** are planned on-site (28 general, 5 reserved for patients with a fever).",
     ],
@@ -1609,7 +1609,8 @@ const en: SiteDict = {
       { q: "Do I need an appointment?", a: "We plan to operate on an **appointment-priority basis**, with bookings available by phone, online or LINE (from opening day). Walk-ins will also be accepted, but appointments are prioritised." },
       { q: "Do you see children?", a: "Yes. As a general paediatric practice we see children of all ages for fever, colds, stomach complaints and more. For some infant check-ups and routine vaccines we may refer you to a specialist paediatric clinic." },
       { q: "Is there parking?", a: "We plan to provide **33 parking spaces** on-site (28 general spaces and 5 reserved for patients with a fever). You are welcome to come by car." },
-      { q: "How should I come in if I have a fever?", a: "If you have a fever or symptoms that may be infectious, we plan to have you **wait in your car**, so you never come into contact with other patients. (1) Book through the **online reservation** system we will provide after opening. (2) At your appointment time, **park nose-in under the canopy beside the clinic** (the area reserved for patients with a fever) and stay in your car. (3) We will see that you have arrived on camera, and a staff member will come out to your car as soon as we are ready. __In an emergency, such as severe shortness of breath or confusion, please call 119 right away.__" },
+      { q: "How should I come in if I have a fever?", a: "If you have a fever or symptoms that may be infectious, we plan to have you **wait in your car**, so you never come into contact with other patients. (1) Book a **fever outpatient slot** through the online reservation system we will provide after opening. (2) At your appointment time, **park nose-in under the canopy beside the clinic** (the area reserved for patients with a fever) and stay in your car. (3) We will see that you have arrived on camera, and a staff member will come out to your car as soon as we are ready. If you start to feel worse while waiting in your car, __please have the person accompanying you ring the intercom at the main entrance and let our staff know__." },
+      { q: "Is there bicycle parking?", a: "Yes. We plan to provide bicycle parking **to the right of the main entrance**. You are welcome to come by bicycle or motorbike." },
       { q: "Can I have a CT or gastroscopy on the day?", a: "We plan to have a 16-row CT, transnasal endoscope and abdominal ultrasound on-site. When clinically indicated, we aim to perform **tests the same day**." },
       { q: "Can you refer me to a specialist?", a: "Yes. When a condition requires specialist care, we will **write a referral** to hospitals such as the University of Miyazaki Hospital or other appropriate facilities." },
       { q: "Do you offer home visits?", a: "We plan to visit nearby care facilities (nursing homes, group homes, etc.) during our lunch break. This service is intended for __facility residents, not for individual home visits__. If you are a facility coordinator, please feel free to contact us via LINE." },
