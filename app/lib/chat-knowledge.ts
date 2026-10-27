@@ -72,9 +72,10 @@ const BASIC_INFO: KnowledgeChunk = {
 function buildChunks(): KnowledgeChunk[] {
   const chunks: KnowledgeChunk[] = [BASIC_INFO, ...SITE_TEXT_CHUNKS];
 
-  for (const item of FAQ_ITEMS_JA) {
-    chunks.push({ title: `よくある質問：${item.q}`, url: "/faq", text: plain(`Q. ${item.q}\nA. ${item.a}`) });
-  }
+  // よくある質問は、該当する質問の位置へ直接案内する（app/faq/FaqPageClient.tsx の faq-1, faq-2… と対応）
+  FAQ_ITEMS_JA.forEach((item, i) => {
+    chunks.push({ title: `よくある質問：${item.q}`, url: `/faq#faq-${i + 1}`, text: plain(`Q. ${item.q}\nA. ${item.a}`) });
+  });
 
   for (const d of DISEASES) {
     const body = [d.summary, d.pathology, `検査：${d.tests}`, `治療：${d.treatment}`, `一口メモ：${d.tip}`].join("\n");

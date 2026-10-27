@@ -23,7 +23,7 @@ const TEXT = {
     placeholder: "例：駐車場はありますか？",
     send: "送信",
     thinking: "回答を作成しています…",
-    sources: "参考にしたページ",
+    sources: "詳しくはこちらのページで",
     error: "うまくお答えできませんでした。時間をおいてお試しください。",
     examples: ["駐車場はありますか？", "熱があるときの受診方法は？", "胃カメラの前日は何時まで食べていい？"],
   },
@@ -37,11 +37,14 @@ const TEXT = {
     placeholder: "e.g. Is there parking?",
     send: "Send",
     thinking: "Preparing an answer…",
-    sources: "Pages referred to",
+    sources: "Read more on these pages",
     error: "Sorry, we couldn't answer that. Please try again later.",
     examples: ["Is there parking?", "How do I come in if I have a fever?", "When does the clinic open?"],
   },
 };
+
+const SOURCE_LINK_CLASS =
+  "flex items-center justify-between gap-2 rounded-xl bg-surface px-3 py-2 font-bold text-primary-dark ring-1 ring-primary/20 transition-colors hover:bg-accent";
 
 export default function ChatWidget() {
   const { lang } = useSite();
@@ -156,12 +159,21 @@ export default function ChatWidget() {
                       {turn.sources && turn.sources.length > 0 && (
                         <div className="mt-2 border-t border-ink/10 pt-2 text-xs">
                           <p className="font-bold text-ink/60">{t.sources}</p>
-                          <ul className="mt-1 space-y-1">
+                          <ul className="mt-1.5 space-y-1.5">
                             {turn.sources.map((s) => (
                               <li key={s.url}>
-                                <Link href={s.url} className="text-primary-dark underline" onClick={() => setOpen(false)}>
-                                  {s.title}
-                                </Link>
+                                {/* よくある質問の各項目（/faq#faq-3 など）は、開いた状態で表示できるよう通常の遷移にする */}
+                                {s.url.includes("#") ? (
+                                  <a href={s.url} className={SOURCE_LINK_CLASS}>
+                                    {s.title}
+                                    <span aria-hidden="true">→</span>
+                                  </a>
+                                ) : (
+                                  <Link href={s.url} className={SOURCE_LINK_CLASS} onClick={() => setOpen(false)}>
+                                    {s.title}
+                                    <span aria-hidden="true">→</span>
+                                  </Link>
+                                )}
                               </li>
                             ))}
                           </ul>

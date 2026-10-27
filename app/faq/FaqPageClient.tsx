@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import Link from "next/link";
 import FadeIn from "../components/FadeIn";
 import SectionHeading from "../components/SectionHeading";
@@ -9,10 +9,24 @@ import LineLink from "../components/LineLink";
 import InlineRichText from "../components/InlineRichText";
 import { useSite } from "../lib/site";
 
-function FaqItem({ q, a }: { q: string; a: string }) {
+// 各質問に faq-1, faq-2… のIDを付け、/faq#faq-3 のようなリンク（チャットボットの案内など）で
+// 開いた状態のまま、その質問の位置へ移動できるようにする
+function FaqItem({ id, q, a }: { id: string; q: string; a: string }) {
   const [open, setOpen] = useState(false);
+
+  useEffect(() => {
+    function openIfTargeted() {
+      if (window.location.hash !== `#${id}`) return;
+      setOpen(true);
+      document.getElementById(id)?.scrollIntoView({ behavior: "smooth", block: "center" });
+    }
+    openIfTargeted();
+    window.addEventListener("hashchange", openIfTargeted);
+    return () => window.removeEventListener("hashchange", openIfTargeted);
+  }, [id]);
+
   return (
-    <div className="overflow-hidden rounded-2xl bg-surface/90 shadow-card">
+    <div id={id} className="scroll-mt-28 overflow-hidden rounded-2xl bg-surface/90 shadow-card">
       <button
         type="button"
         onClick={() => setOpen((v) => !v)}
@@ -70,8 +84,8 @@ export default function FaqPageClient() {
         </FadeIn>
 
         <FadeIn delay={0.08} className="mx-auto mt-12 max-w-3xl space-y-3">
-          {faq.items.map((item) => (
-            <FaqItem key={item.q} q={item.q} a={item.a} />
+          {faq.items.map((item, i) => (
+            <FaqItem key={item.q} id={`faq-${i + 1}`} q={item.q} a={item.a} />
           ))}
         </FadeIn>
 
