@@ -6,6 +6,7 @@ import { SiteProvider } from "../lib/site";
 import Header from "./Header";
 import Footer from "./Footer";
 import MobileTabBar from "./MobileTabBar";
+import ChatWidget from "./ChatWidget";
 
 function Shell({ children }: { children: ReactNode }) {
   const pathname = usePathname();
@@ -25,6 +26,7 @@ function Shell({ children }: { children: ReactNode }) {
         <Footer />
       </div>
       <MobileTabBar />
+      <ChatWidget />
     </>
   );
 }

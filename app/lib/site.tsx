@@ -621,25 +621,34 @@ const ja: SiteDict = {
         ],
       },
       {
-        title: "5. 開示・訂正・利用停止のご請求",
+        title: "5. ホームページの案内チャットボットについて",
+        body: [
+          "当院のホームページでは、AI（人工知能）がホームページ内の情報をもとに自動でお答えする案内チャットボットを提供しています。",
+          "・ご入力いただいたご質問は、回答を作成するため、AIサービス提供事業者（Anthropic社・米国）に送信されます。同社は、送信された内容をAIの学習には利用しません。",
+          "・ご質問と回答の内容は、ホームページの改善やよくあるご質問の充実のため、当院および当院の開業準備を支援する担当者が記録・分析します。記録の際、電話番号・メールアドレスと思われる文字列は自動で伏せ字にし、IPアドレスなど個人を特定する情報は記録しません。記録は1年を経過した時点で削除します。",
+          "・お名前・連絡先などの個人情報や、詳しい症状は入力しないでください。チャットボットは診断や治療の判断を行うものではありません。",
+        ],
+      },
+      {
+        title: "6. 開示・訂正・利用停止のご請求",
         body: [
           "ご本人からご自身の個人情報の開示・訂正・利用停止等のご請求をいただいた場合は、ご本人であることを確認のうえ、法令に従い適切に対応します。",
         ],
       },
       {
-        title: "6. お問い合わせ",
+        title: "7. お問い合わせ",
         body: [
           "個人情報の取り扱いに関するお問い合わせは、開院後に当院窓口・お電話・LINE公式アカウントにて承ります。",
         ],
       },
       {
-        title: "7. 本ポリシーの改定",
+        title: "8. 本ポリシーの改定",
         body: [
           "当院は、必要に応じて本ポリシーを見直し、改定することがあります。改定後の内容は、本ページに掲載した時点から適用されます。",
         ],
       },
     ],
-    updated: "制定日：2026年6月（開院に合わせて改定予定）",
+    updated: "制定日：2026年6月／改定日：2026年10月（案内チャットボットの項目を追加。開院に合わせて改定予定）",
   },
   equipment: {
     eyebrow: "院内の検査・設備",
@@ -1328,25 +1337,34 @@ const en: SiteDict = {
         ],
       },
       {
-        title: "5. Disclosure, correction and suspension of use",
+        title: "5. The website guide chatbot",
+        body: [
+          "Our website offers a guide chatbot in which AI (artificial intelligence) automatically answers questions based on the information on this website.",
+          "• Questions you enter are sent to an AI service provider (Anthropic, United States) to generate an answer. The provider does not use the content sent to train its AI.",
+          "• Questions and answers are recorded and analysed by the Clinic and the staff supporting our opening preparations, to improve the website and our FAQ. When recorded, strings that appear to be phone numbers or email addresses are automatically masked, and information that identifies individuals, such as IP addresses, is not recorded. Records are deleted after one year.",
+          "• Please do not enter personal information such as your name or contact details, or detailed symptoms. The chatbot does not provide diagnosis or treatment decisions.",
+        ],
+      },
+      {
+        title: "6. Disclosure, correction and suspension of use",
         body: [
           "If an individual requests the disclosure, correction or suspension of use of their own personal information, we will verify their identity and respond appropriately in accordance with the law.",
         ],
       },
       {
-        title: "6. Contact",
+        title: "7. Contact",
         body: [
           "Inquiries regarding the handling of personal information will be accepted after opening at our reception, by phone, or via our official LINE account.",
         ],
       },
       {
-        title: "7. Revisions to this policy",
+        title: "8. Revisions to this policy",
         body: [
           "The Clinic may review and revise this policy as necessary. Revised content applies from the time it is posted on this page.",
         ],
       },
     ],
-    updated: "Established: June 2026 (to be revised upon opening)",
+    updated: "Established: June 2026 / Revised: October 2026 (chatbot section added; to be revised upon opening)",
   },
   equipment: {
     eyebrow: "In-house tests & equipment",
