@@ -771,7 +771,7 @@ const ja: SiteDict = {
           {
             name: "インフルエンザ予防接種",
             price: "1回3,000円",
-            overview: "任意接種のインフルエンザワクチンです。65歳以上の方などは、宮崎市の助成により自己負担額が異なる場合があります。",
+            overview: "インフルエンザワクチンの接種です。65歳以上の方など（定期接種の対象の方）は1,400円です。お住まいの自治体からの助成により、自己負担額が異なる場合があります。",
             risks: "接種部位の腫れ・痛み、発熱等の一般的な副反応のほか、まれにアナフィラキシー等の重い副反応が報告されています。",
             approval: "国内で承認されているワクチンを使用します。",
           },
@@ -1461,7 +1461,7 @@ const en: SiteDict = {
           {
             name: "Flu shot",
             price: "¥3,000 per dose",
-            overview: "Optional influenza vaccination. For people aged 65 and over and some others, the co-payment may differ thanks to Miyazaki City subsidies.",
+            overview: "Influenza vaccination. For people aged 65 and over and others eligible for routine vaccination, it is ¥1,400. The co-payment may differ depending on subsidies from your local municipality.",
             risks: "Common reactions include injection-site swelling and pain, and fever; rare but serious reactions such as anaphylaxis have been reported.",
             approval: "Uses vaccines approved in Japan.",
           },
@@ -1656,7 +1656,7 @@ const en: SiteDict = {
       { q: "Do you have a smoking cessation clinic?", a: "This is not planned at opening, but we will announce it on this website and our official LINE account once we are ready." },
       { q: "Will there be an open house?", a: "We plan to hold an open house before opening. We will announce the date on **this website and our official LINE account** as it approaches." },
       { q: "Can I have Miyazaki City's specific health check-up or cancer screening?", a: "Yes, these will be available (after opening). For eligibility and co-payments, please check **the notice (such as a voucher) sent by Miyazaki City**." },
-      { q: "How much is a flu shot?", a: "A flu shot is **¥3,000 per dose** (a 2026 reference price, to be finalised before opening). For people aged 65 and over and some others, the co-payment may differ thanks to Miyazaki City subsidies. Common reactions include swelling and pain at the injection site and fever; rare but serious reactions such as anaphylaxis have been reported." },
+      { q: "How much is a flu shot?", a: "A flu shot is **¥3,000 per dose** (a 2026 reference price, to be finalised before opening). **For people aged 65 and over and others eligible for routine vaccination, it is ¥1,400.** The co-payment may differ depending on subsidies from your local municipality. Common reactions include swelling and pain at the injection site and fever; rare but serious reactions such as anaphylaxis have been reported." },
       { q: "How much does a medical certificate cost?", a: "A medical certificate in our own format is **¥2,500** (not covered by insurance; a 2026 reference price, to be finalised before opening)." },
       { q: "Is the clinic wheelchair accessible?", a: "Yes. The clinic is designed to be **barrier-free**, so you can come in by wheelchair. We also have a wheelchair-accessible restroom." },
       { q: "Is there a pharmacy nearby?", a: "Yes. A **dispensing pharmacy is planned on the lot next to the clinic**." },
