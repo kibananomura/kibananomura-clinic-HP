@@ -2713,7 +2713,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "当院の駐車場は、**発熱・感染が疑われる方専用の区画を5台分**確保したうえで、それとは別に一般の方用の区画を設ける計画で進めています（一般区画の正確な台数は現在調整中ですが、目安として25台前後を想定しています）。来院された時点で、発熱の症状がある方は専用の区画へ、それ以外の方は一般の区画へと、自然に動線が分かれる設計です。駐車場に着いた瞬間から、一般の患者さんと交わらない動線が始まっている、とイメージしていただくと分かりやすいかもしれません。"
+          "text": "当院の駐車場は、**発熱・感染が疑われる方専用の区画を5台分**確保したうえで、それとは別に一般の方用の区画を**28台分**設ける計画で進めています。来院された時点で、発熱の症状がある方は専用の区画へ、それ以外の方は一般の区画へと、自然に動線が分かれる設計です。駐車場に着いた瞬間から、一般の患者さんと交わらない動線が始まっている、とイメージしていただくと分かりやすいかもしれません。"
         },
         {
           "kind": "text",
@@ -2764,7 +2764,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "We're planning our parking lot with **5 spaces reserved specifically for patients with a fever**, set apart from the general parking area (the exact number of general spaces is still being finalized, but we expect somewhere around 25). From the moment you arrive, the flow naturally splits — patients with a fever head to the dedicated area, while everyone else uses the general area. Think of it as a separation that begins the instant you park, well before you ever reach the front door."
+          "text": "We're planning our parking lot with **5 spaces reserved specifically for patients with a fever**, set apart from a general parking area of **28 spaces**. From the moment you arrive, the flow naturally splits — patients with a fever head to the dedicated area, while everyone else uses the general area. Think of it as a separation that begins the instant you park, well before you ever reach the front door."
         },
         {
           "kind": "text",

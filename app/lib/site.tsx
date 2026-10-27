@@ -16,10 +16,10 @@ import { FAQ_ITEMS_JA } from "./faq-data";
  * （hero.supp3）とAccessセクション（access.parkingValue）の両方に反映される。
  */
 export const PARKING_STATUS = {
-  ja: "駐車場32台 完備予定",
-  ja_short: "32台 完備予定",
-  en: "32 parking spaces planned",
-  en_short: "32 spaces planned",
+  ja: "駐車場33台 完備予定",
+  ja_short: "33台（うち発熱の方専用5台）完備予定",
+  en: "33 parking spaces planned",
+  en_short: "33 spaces planned (5 reserved for patients with a fever)",
 } as const;
 
 export type Lang = "ja" | "en";
@@ -926,7 +926,7 @@ const ja: SiteDict = {
     notes: [
       "__発熱・感染症症状がある場合は、事前にお電話ください__（隔離対応を行います）",
       "お子さんの受診には保護者同伴をお願いします",
-      "駐車場は**25〜30台**完備予定です",
+      "駐車場は**33台**（一般28台・発熱の方専用5台）完備予定です",
     ],
   },
   faq: {
@@ -1598,7 +1598,7 @@ const en: SiteDict = {
     notes: [
       "__If you have a fever or possible infection, please call ahead__ so we can prepare appropriate isolation measures.",
       "Children must be accompanied by a parent or guardian.",
-      "**25–30 parking spaces** are planned on-site.",
+      "**33 parking spaces** are planned on-site (28 general, 5 reserved for patients with a fever).",
     ],
   },
   faq: {
@@ -1608,7 +1608,7 @@ const en: SiteDict = {
     items: [
       { q: "Do I need an appointment?", a: "We plan to operate on an **appointment-priority basis**, with bookings available by phone, online or LINE (from opening day). Walk-ins will also be accepted, but appointments are prioritised." },
       { q: "Do you see children?", a: "Yes. As a general paediatric practice we see children of all ages for fever, colds, stomach complaints and more. For some infant check-ups and routine vaccines we may refer you to a specialist paediatric clinic." },
-      { q: "Is there parking?", a: "We plan to provide **25–30 parking spaces**. You are welcome to come by car." },
+      { q: "Is there parking?", a: "We plan to provide **33 parking spaces** on-site (28 general spaces and 5 reserved for patients with a fever). You are welcome to come by car." },
       { q: "Can I have a CT or gastroscopy on the day?", a: "We plan to have a 16-row CT, transnasal endoscope and abdominal ultrasound on-site. When clinically indicated, we aim to perform **tests the same day**." },
       { q: "Can you refer me to a specialist?", a: "Yes. When a condition requires specialist care, we will **write a referral** to hospitals such as the University of Miyazaki Hospital or other appropriate facilities." },
       { q: "Do you offer home visits?", a: "We plan to visit nearby care facilities (nursing homes, group homes, etc.) during our lunch break. This service is intended for __facility residents, not for individual home visits__. If you are a facility coordinator, please feel free to contact us via LINE." },

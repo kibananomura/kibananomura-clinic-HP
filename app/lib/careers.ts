@@ -187,7 +187,7 @@ export const WORK_HIGHLIGHTS = {
       {
         icon: "🚗",
         title: "マイカー通勤無料・広々駐車場",
-        body: "駐車場32台完備予定。宮崎市南部（木花・熊野・清武・学園木花台・まなび野・本郷・田吉・日南方面）から渋滞ストレス少なく車通勤が可能です（通勤手当規定支給・月額上限10,000円）。",
+        body: "駐車場33台完備予定。宮崎市南部（木花・熊野・清武・学園木花台・まなび野・本郷・田吉・日南方面）から渋滞ストレス少なく車通勤が可能です（通勤手当規定支給・月額上限10,000円）。",
       },
       {
         icon: "🩺",
@@ -217,7 +217,7 @@ export const WORK_HIGHLIGHTS = {
       {
         icon: "🚗",
         title: "Free parking, no commuting hassle",
-        body: "32 parking spaces planned. Easy car commuting with little traffic stress from across southern Miyazaki City (Kibana, Kumano, Kiyotake, Gakuen-Kibanadai, Manabino, Hongo, Tayoshi, toward Nichinan) — commuting allowance paid per policy (capped at JPY 10,000/month).",
+        body: "33 parking spaces planned. Easy car commuting with little traffic stress from across southern Miyazaki City (Kibana, Kumano, Kiyotake, Gakuen-Kibanadai, Manabino, Hongo, Tayoshi, toward Nichinan) — commuting allowance paid per policy (capped at JPY 10,000/month).",
       },
       {
         icon: "🩺",
