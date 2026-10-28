@@ -3,7 +3,7 @@ import { handleLineEvents, verifySignature } from "../../../lib/kibanavi-line";
 
 /**
  * 公式LINE（Messaging API）の Webhook。LINE Developers の Webhook URL に
- * https://kibananomura.jp/api/line/webhook を設定する。
+ * https://www.kibananomura.jp/api/line/webhook を設定する（www なしは転送されるため、LINEの通知が届かない）。
  * LINEには先に200を返し、キバナビの回答づくりと返信は after で続ける（返信は reply token で行う）。
  */
 export const maxDuration = 60;

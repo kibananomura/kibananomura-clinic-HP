@@ -13,7 +13,7 @@ import { MAX_QUESTION_CHARS, answerQuestion, rateLimited, type Source } from "./
  * LINEのユーザーIDは保存せず、チャネルシークレットを鍵にしたハッシュにしてから受付状態の管理に使う。
  */
 
-const SITE_ORIGIN = "https://kibananomura.jp";
+const SITE_ORIGIN = "https://www.kibananomura.jp";
 const SENDER = { name: "キバナビ", iconUrl: `${SITE_ORIGIN}/kibanavi/kibanavi-face.png` };
 const MAX_LINKS = 3;
 
