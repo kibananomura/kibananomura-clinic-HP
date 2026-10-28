@@ -86,7 +86,7 @@ const SYSTEM_PROMPT = `# 役割と目的
 
 const client = new Anthropic();
 
-const NO_ANSWER_MARKERS = ["記載が見つかりませんでした", "couldn't find", "could not find"];
+const NO_ANSWER_MARKERS = ["記載が見つかりませんでした", "couldn't find", "could not find", "does not mention", "not mentioned", "no information"];
 const EMERGENCY_MARKERS = ["119", "#7119"];
 
 // 症状・病気・健康の話題かどうかの目安（当てはまれば、回答の下に症状・疾患・ブログの一覧ページを添える）
