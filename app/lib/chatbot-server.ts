@@ -5,6 +5,7 @@ import { searchKnowledge } from "./chat-knowledge";
 /**
  * HP案内チャットボットの回答処理（サーバー専用）。
  * 一般公開用の app/api/chat/route.ts と、管理者の動作確認用の app/admin/chatbot/ask/route.ts から呼ぶ。
+ * 公式LINEのキバナビ（app/lib/kibanavi-line.ts）も、回答づくりは下の answerQuestion を共通で使う。
  * 環境変数 ANTHROPIC_API_KEY が必要。
  * 質問と回答は、開業支援チームの Supabase（chatbot_logs 表）に記録して週次で分析する。
  * 記録には CHATBOT_LOG_SUPABASE_URL・CHATBOT_LOG_SUPABASE_KEY（publishable キー）が必要で、
@@ -12,7 +13,7 @@ import { searchKnowledge } from "./chat-knowledge";
  */
 
 const MODEL = "claude-haiku-5-5";
-const MAX_QUESTION_CHARS = 300;
+export const MAX_QUESTION_CHARS = 300;
 const UUID_PATTERN = /^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/i;
 
 const SYSTEM_PROMPT = `# 役割と目的
@@ -78,7 +79,10 @@ const SYSTEM_PROMPT = `# 役割と目的
    - ページの名前は、参照テキストのタイトルの「：」より後ろ（例：「症状の解説：腹痛・お腹の不調」なら『腹痛・お腹の不調』）を使い、「症状の解説」「病気の解説」「院長ブログ」「よくある質問」などの種類を添えてください。参照テキストにないページ名を作らないでください。
    - ご質問にそのまま答えている「よくある質問」があれば、それを最初に案内してください（例：熱があるときの受診方法）。
    - 症状、病名、検査、予防、健康づくりなど、からだや病気にかかわる質問では、よくある質問の次に「症状の解説」「病気の解説」「院長ブログ」のページを案内してください。関係するページが参照テキストにない場合は、「ホームページの『症状から探す』『疾患について』『院長ブログ』のページもあわせてご覧ください」と案内してください。
-   - 体調が悪いという相談では、ルール2の受診先の案内を先に書き、ページの案内はその後に添えてください。`;
+   - 体調が悪いという相談では、ルール2の受診先の案内を先に書き、ページの案内はその後に添えてください。
+
+11. 公式LINEからのご質問
+   - <channel>line</channel> と書かれているときは、公式LINEのトーク画面でお答えしています。お問い合わせ先を案内するときは「LINE公式アカウントから」ではなく、「『キバナビを終了』を押してから、このトークでスタッフにメッセージをお送りください」と案内してください。`;
 
 const client = new Anthropic();
 
@@ -116,16 +120,20 @@ type LogEntry = {
   usage?: { input_tokens: number; output_tokens: number };
   stopReason?: string | null;
   sessionId?: string | null;
+  channel: Channel;
 };
 
-/** 開業支援チームの Supabase に1件記録する（追加専用の関数 log_chatbot_qa_v2 を呼ぶ。会話IDつき） */
+/** 質問の経路（web＝HPのチャット窓／line＝公式LINE） */
+export type Channel = "web" | "line";
+
+/** 開業支援チームの Supabase に1件記録する（追加専用の関数 log_chatbot_qa_v3 を呼ぶ。会話ID・経路つき） */
 async function logQa(entry: LogEntry) {
   const url = process.env.CHATBOT_LOG_SUPABASE_URL;
   const key = process.env.CHATBOT_LOG_SUPABASE_KEY;
   if (!url || !key) return;
   const lang = /[ぁ-んァ-ン一-龥]/.test(entry.question) ? "ja" : "en";
   try {
-    const res = await fetch(`${url}/rest/v1/rpc/log_chatbot_qa_v2`, {
+    const res = await fetch(`${url}/rest/v1/rpc/log_chatbot_qa_v3`, {
       method: "POST",
       headers: { "Content-Type": "application/json", apikey: key, Authorization: `Bearer ${key}` },
       body: JSON.stringify({
@@ -139,6 +147,7 @@ async function logQa(entry: LogEntry) {
         p_output_tokens: entry.usage?.output_tokens ?? null,
         p_stop_reason: entry.stopReason ?? null,
         p_session_id: entry.sessionId ?? null,
+        p_channel: entry.channel,
       }),
     });
     if (!res.ok) console.error("chatbot log failed", res.status);
@@ -155,7 +164,7 @@ const ipHits = new Map<string, number[]>();
 let dailyCount = 0;
 let dailyResetAt = Date.now() + 24 * 60 * 60 * 1000;
 
-function rateLimited(ip: string): boolean {
+export function rateLimited(ip: string): boolean {
   const now = Date.now();
   if (now > dailyResetAt) {
     dailyCount = 0;
@@ -221,51 +230,9 @@ export async function handleChatRequest(request: Request, options: { publicAcces
     return Response.json({ error: `ご質問は${MAX_QUESTION_CHARS}文字以内でお願いします。` }, { status: 400 });
   }
 
-  const chunks = searchKnowledge(question);
-  const reference = chunks
-    .map((c) => `<document title="${c.title}" url="${c.url}">\n${c.text}\n</document>`)
-    .join("\n");
-
   try {
-    const response = await client.messages.create({
-      model: MODEL,
-      max_tokens: 2048,
-      output_config: { effort: "low" },
-      system: SYSTEM_PROMPT,
-      messages: [
-        {
-          role: "user",
-          content: `<reference>\n${reference}\n</reference>\n\n<question>\n${question}\n</question>`,
-        },
-      ],
-    });
-
-    if (response.stop_reason === "refusal") {
-      const answer =
-        "申し訳ありません。このご質問にはお答えできませんでした。お手数ですが、ホームページの『お問い合わせ』またはLINE公式アカウントからお問い合わせください。";
-      after(() => logQa({ question, answer, sources: [], usage: response.usage, stopReason: response.stop_reason, sessionId }));
-      return Response.json({ answer, sources: [], usage: response.usage });
-    }
-
-    const answer = response.content
-      .map((block) => (block.type === "text" ? block.text : ""))
-      .join("")
-      .trim();
-
-    const sources = orderSources(
-      chunks
-        .filter((c, i) => c.url !== "/" && chunks.findIndex((x) => x.url === c.url) === i)
-        .map((c) => ({ title: c.title, url: c.url }))
-    );
-    if (HEALTH_TOPIC.test(question)) {
-      // 症状・病気の話題では、一覧ページも必ず下に出して解説ページへ誘導する
-      for (const page of HEALTH_INDEX_PAGES) {
-        if (!sources.some((s) => s.url === page.url)) sources.push(page);
-      }
-    }
-    after(() => logQa({ question, answer, sources, usage: response.usage, stopReason: response.stop_reason, sessionId }));
-
-    return Response.json({ answer, sources, usage: response.usage, stopReason: response.stop_reason });
+    const result = await answerQuestion(question, { sessionId, channel: "web" });
+    return Response.json(result);
   } catch (error) {
     if (error instanceof Anthropic.RateLimitError) {
       return Response.json({ error: "ただいま混み合っています。少し時間をおいてお試しください。" }, { status: 429 });
@@ -276,4 +243,68 @@ export async function handleChatRequest(request: Request, options: { publicAcces
     }
     throw error;
   }
+}
+
+export type Source = { title: string; url: string };
+
+export type ChatAnswer = {
+  answer: string;
+  sources: Source[];
+  usage?: Anthropic.Usage;
+  stopReason?: string | null;
+};
+
+/**
+ * ホームページの情報を参照してキバナビの回答を作り、記録を予約する（記録は応答後に after で行う）。
+ * Claude API のエラーはそのまま投げるので、呼び出し側で利用者向けの文言に置き換えること。
+ */
+export async function answerQuestion(
+  question: string,
+  options: { sessionId: string | null; channel: Channel }
+): Promise<ChatAnswer> {
+  const { sessionId, channel } = options;
+  const chunks = searchKnowledge(question);
+  const reference = chunks
+    .map((c) => `<document title="${c.title}" url="${c.url}">\n${c.text}\n</document>`)
+    .join("\n");
+
+  const response = await client.messages.create({
+    model: MODEL,
+    max_tokens: 2048,
+    output_config: { effort: "low" },
+    system: SYSTEM_PROMPT,
+    messages: [
+      {
+        role: "user",
+        content: `<reference>\n${reference}\n</reference>\n\n<channel>${channel}</channel>\n\n<question>\n${question}\n</question>`,
+      },
+    ],
+  });
+
+  if (response.stop_reason === "refusal") {
+    const answer =
+      "申し訳ありません。このご質問にはお答えできませんでした。お手数ですが、ホームページの『お問い合わせ』またはLINE公式アカウントからお問い合わせください。";
+    after(() => logQa({ question, answer, sources: [], usage: response.usage, stopReason: response.stop_reason, sessionId, channel }));
+    return { answer, sources: [], usage: response.usage };
+  }
+
+  const answer = response.content
+    .map((block) => (block.type === "text" ? block.text : ""))
+    .join("")
+    .trim();
+
+  const sources = orderSources(
+    chunks
+      .filter((c, i) => c.url !== "/" && chunks.findIndex((x) => x.url === c.url) === i)
+      .map((c) => ({ title: c.title, url: c.url }))
+  );
+  if (HEALTH_TOPIC.test(question)) {
+    // 症状・病気の話題では、一覧ページも必ず下に出して解説ページへ誘導する
+    for (const page of HEALTH_INDEX_PAGES) {
+      if (!sources.some((s) => s.url === page.url)) sources.push(page);
+    }
+  }
+  after(() => logQa({ question, answer, sources, usage: response.usage, stopReason: response.stop_reason, sessionId, channel }));
+
+  return { answer, sources, usage: response.usage, stopReason: response.stop_reason };
 }

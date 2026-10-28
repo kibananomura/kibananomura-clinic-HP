@@ -621,11 +621,11 @@ const ja: SiteDict = {
         ],
       },
       {
-        title: "5. ホームページの案内チャットボットについて",
+        title: "5. 案内チャットボット「キバナビ」について",
         body: [
-          "当院のホームページでは、AI（人工知能）がホームページ内の情報をもとに自動でお答えする案内チャットボットを提供しています。",
+          "当院のホームページと公式LINEでは、AI（人工知能）がホームページ内の情報をもとに自動でお答えする案内チャットボット「キバナビ」を提供しています。公式LINEでは、メニューの「キバナビに質問する」を選んだ場合にのみキバナビがお答えし、それ以外のメッセージには当院スタッフが対応します。",
           "・ご入力いただいたご質問は、回答を作成するため、AIサービス提供事業者（Anthropic社・米国）に送信されます。同社は、送信された内容をAIの学習には利用しません。",
-          "・ご質問と回答の内容は、ホームページの改善やよくあるご質問の充実のため、当院および当院の開業準備を支援する担当者が記録・分析します。記録の際、電話番号・メールアドレスと思われる文字列は自動で伏せ字にし、IPアドレスなど個人を特定する情報は記録しません。記録は1年を経過した時点で削除します。",
+          "・ご質問と回答の内容は、ホームページの改善やよくあるご質問の充実のため、当院および当院の開業準備を支援する担当者が記録・分析します。記録の際、電話番号・メールアドレスと思われる文字列は自動で伏せ字にし、IPアドレスやLINEのユーザーIDなど個人を特定する情報は記録しません。記録は1年を経過した時点で削除します。",
           "・お名前・連絡先などの個人情報や、詳しい症状は入力しないでください。チャットボットは診断や治療の判断を行うものではありません。",
         ],
       },
@@ -648,7 +648,7 @@ const ja: SiteDict = {
         ],
       },
     ],
-    updated: "制定日：2026年6月／改定日：2026年10月（案内チャットボットの項目を追加。開院に合わせて改定予定）",
+    updated: "制定日：2026年6月／改定日：2026年10月（案内チャットボット「キバナビ」の項目を追加・公式LINEでの提供を追記。開院に合わせて改定予定）",
   },
   equipment: {
     eyebrow: "院内の検査・設備",
@@ -1337,11 +1337,11 @@ const en: SiteDict = {
         ],
       },
       {
-        title: "5. The website guide chatbot",
+        title: "5. Our guide chatbot, Kibanavi",
         body: [
-          "Our website offers a guide chatbot in which AI (artificial intelligence) automatically answers questions based on the information on this website.",
+          "On our website and our official LINE account, we offer a guide chatbot, Kibanavi, in which AI (artificial intelligence) automatically answers questions based on the information on this website. On LINE, Kibanavi answers only after you select \"キバナビに質問する\" (Ask Kibanavi) from the menu; other messages are handled by our staff.",
           "• Questions you enter are sent to an AI service provider (Anthropic, United States) to generate an answer. The provider does not use the content sent to train its AI.",
-          "• Questions and answers are recorded and analysed by the Clinic and the staff supporting our opening preparations, to improve the website and our FAQ. When recorded, strings that appear to be phone numbers or email addresses are automatically masked, and information that identifies individuals, such as IP addresses, is not recorded. Records are deleted after one year.",
+          "• Questions and answers are recorded and analysed by the Clinic and the staff supporting our opening preparations, to improve the website and our FAQ. When recorded, strings that appear to be phone numbers or email addresses are automatically masked, and information that identifies individuals, such as IP addresses or LINE user IDs, is not recorded. Records are deleted after one year.",
           "• Please do not enter personal information such as your name or contact details, or detailed symptoms. The chatbot does not provide diagnosis or treatment decisions.",
         ],
       },
@@ -1364,7 +1364,7 @@ const en: SiteDict = {
         ],
       },
     ],
-    updated: "Established: June 2026 / Revised: October 2026 (chatbot section added; to be revised upon opening)",
+    updated: "Established: June 2026 / Revised: October 2026 (section on our chatbot Kibanavi added, including its use on LINE; to be revised upon opening)",
   },
   equipment: {
     eyebrow: "In-house tests & equipment",
