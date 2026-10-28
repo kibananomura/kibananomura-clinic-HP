@@ -304,6 +304,9 @@ export async function answerQuestion(
       if (!sources.some((s) => s.url === page.url)) sources.push(page);
     }
   }
+  // 回答の本文で名前を挙げたページを先頭に寄せる（LINEのカードは上位3件だけなので、関係の薄いページが並ばないように）
+  const mentioned = (s: Source) => answer.includes(s.title.split("：").pop() ?? s.title);
+  sources.sort((a, b) => Number(mentioned(b)) - Number(mentioned(a)));
   after(() => logQa({ question, answer, sources, usage: response.usage, stopReason: response.stop_reason, sessionId, channel }));
 
   return { answer, sources, usage: response.usage, stopReason: response.stop_reason };
