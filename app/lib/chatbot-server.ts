@@ -13,6 +13,7 @@ import { searchKnowledge } from "./chat-knowledge";
 
 const MODEL = "claude-haiku-5-5";
 const MAX_QUESTION_CHARS = 300;
+const UUID_PATTERN = /^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/i;
 
 const SYSTEM_PROMPT = `# 役割と目的
 あなたは「木花のむら総合診療所」（宮崎市熊野・2027年10月1日開院予定・現在は建設準備中）の公式ホームページ案内アシスタント「キバナビ」（英語では Kibanavi）です。名前を聞かれたら「キバナビ」と名乗り、ホームページの情報をもとにご案内するAIであることをお伝えください。
@@ -75,7 +76,8 @@ const SYSTEM_PROMPT = `# 役割と目的
    - ご質問には要点を短くお答えし（目安として200字程度）、詳しい内容はホームページの該当ページで読んでいただくように案内してください。ページに書いてあることをすべて回答に書き写す必要はありません。
    - 回答の最後に、参照テキストのうちご質問に関係するページの名前を挙げて「詳しくは、ホームページの『〇〇』をご覧ください（下のリンクから開けます）」と案内してください。挙げるのは、関係するページだけ、多くても3つまでにしてください。
    - ページの名前は、参照テキストのタイトルの「：」より後ろ（例：「症状の解説：腹痛・お腹の不調」なら『腹痛・お腹の不調』）を使い、「症状の解説」「病気の解説」「院長ブログ」「よくある質問」などの種類を添えてください。参照テキストにないページ名を作らないでください。
-   - 症状、病名、検査、予防、健康づくりなど、からだや病気にかかわる質問では、「症状の解説」「病気の解説」「院長ブログ」のページを優先して案内してください。関係するページが参照テキストにない場合は、「ホームページの『症状から探す』『疾患について』『院長ブログ』のページもあわせてご覧ください」と案内してください。
+   - ご質問にそのまま答えている「よくある質問」があれば、それを最初に案内してください（例：熱があるときの受診方法）。
+   - 症状、病名、検査、予防、健康づくりなど、からだや病気にかかわる質問では、よくある質問の次に「症状の解説」「病気の解説」「院長ブログ」のページを案内してください。関係するページが参照テキストにない場合は、「ホームページの『症状から探す』『疾患について』『院長ブログ』のページもあわせてご覧ください」と案内してください。
    - 体調が悪いという相談では、ルール2の受診先の案内を先に書き、ページの案内はその後に添えてください。`;
 
 const client = new Anthropic();
@@ -93,9 +95,10 @@ const HEALTH_INDEX_PAGES = [
   { title: "院長ブログ", url: "/blog" },
 ];
 
-/** 参考にしたページのうち、症状・病気の解説と院長ブログを先頭に並べる */
-function healthFirst(sources: { title: string; url: string }[]) {
-  const rank = (url: string) => (/^\/(symptoms|diseases|blog)\//.test(url) ? 0 : 1);
+/** 参考にしたページを、よくある質問 → 症状・病気の解説と院長ブログ → その他の順に並べる
+ * （よくある質問は、受診方法など一番知りたい答えが直接載っていることが多いため先頭にする） */
+function orderSources(sources: { title: string; url: string }[]) {
+  const rank = (url: string) => (url.startsWith("/faq") ? 0 : /^\/(symptoms|diseases|blog)\//.test(url) ? 1 : 2);
   return [...sources].sort((a, b) => rank(a.url) - rank(b.url));
 }
 
@@ -112,16 +115,17 @@ type LogEntry = {
   sources: { title: string; url: string }[];
   usage?: { input_tokens: number; output_tokens: number };
   stopReason?: string | null;
+  sessionId?: string | null;
 };
 
-/** 開業支援チームの Supabase に1件記録する（追加専用の関数 log_chatbot_qa を呼ぶ） */
+/** 開業支援チームの Supabase に1件記録する（追加専用の関数 log_chatbot_qa_v2 を呼ぶ。会話IDつき） */
 async function logQa(entry: LogEntry) {
   const url = process.env.CHATBOT_LOG_SUPABASE_URL;
   const key = process.env.CHATBOT_LOG_SUPABASE_KEY;
   if (!url || !key) return;
   const lang = /[ぁ-んァ-ン一-龥]/.test(entry.question) ? "ja" : "en";
   try {
-    const res = await fetch(`${url}/rest/v1/rpc/log_chatbot_qa`, {
+    const res = await fetch(`${url}/rest/v1/rpc/log_chatbot_qa_v2`, {
       method: "POST",
       headers: { "Content-Type": "application/json", apikey: key, Authorization: `Bearer ${key}` },
       body: JSON.stringify({
@@ -134,6 +138,7 @@ async function logQa(entry: LogEntry) {
         p_input_tokens: entry.usage?.input_tokens ?? null,
         p_output_tokens: entry.usage?.output_tokens ?? null,
         p_stop_reason: entry.stopReason ?? null,
+        p_session_id: entry.sessionId ?? null,
       }),
     });
     if (!res.ok) console.error("chatbot log failed", res.status);
@@ -200,9 +205,12 @@ export async function handleChatRequest(request: Request, options: { publicAcces
   }
 
   let question = "";
+  let sessionId: string | null = null;
   try {
     const body = await request.json();
     question = typeof body?.question === "string" ? body.question.trim() : "";
+    // 会話ID（チャット窓を開いたページごとにブラウザ側で振るUUID）。形式が違えば記録しない
+    sessionId = typeof body?.sessionId === "string" && UUID_PATTERN.test(body.sessionId) ? body.sessionId : null;
   } catch {
     return Response.json({ error: "リクエストの形式が正しくありません。" }, { status: 400 });
   }
@@ -235,7 +243,7 @@ export async function handleChatRequest(request: Request, options: { publicAcces
     if (response.stop_reason === "refusal") {
       const answer =
         "申し訳ありません。このご質問にはお答えできませんでした。お手数ですが、ホームページの『お問い合わせ』またはLINE公式アカウントからお問い合わせください。";
-      after(() => logQa({ question, answer, sources: [], usage: response.usage, stopReason: response.stop_reason }));
+      after(() => logQa({ question, answer, sources: [], usage: response.usage, stopReason: response.stop_reason, sessionId }));
       return Response.json({ answer, sources: [], usage: response.usage });
     }
 
@@ -244,7 +252,7 @@ export async function handleChatRequest(request: Request, options: { publicAcces
       .join("")
       .trim();
 
-    const sources = healthFirst(
+    const sources = orderSources(
       chunks
         .filter((c, i) => c.url !== "/" && chunks.findIndex((x) => x.url === c.url) === i)
         .map((c) => ({ title: c.title, url: c.url }))
@@ -255,7 +263,7 @@ export async function handleChatRequest(request: Request, options: { publicAcces
         if (!sources.some((s) => s.url === page.url)) sources.push(page);
       }
     }
-    after(() => logQa({ question, answer, sources, usage: response.usage, stopReason: response.stop_reason }));
+    after(() => logQa({ question, answer, sources, usage: response.usage, stopReason: response.stop_reason, sessionId }));
 
     return Response.json({ answer, sources, usage: response.usage, stopReason: response.stop_reason });
   } catch (error) {

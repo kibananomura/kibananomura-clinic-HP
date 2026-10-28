@@ -170,6 +170,7 @@ const TOPIC_RULES: { keywords: RegExp; titles: string[] }[] = [
   { keywords: /院長|先生|医師|ドクター|経歴|出身|学歴|専門医|資格/, titles: ["院長紹介"] },
   { keywords: /駐車|アクセス|場所|住所|行き方|バス|駅/, titles: ["アクセス"] },
   { keywords: /初診|持ち物|保険証|受診の流れ/, titles: ["初診の方へ"] },
+  { keywords: /熱|発熱/, titles: ["よくある質問：熱があるときは、どのように受診すればいいですか？"] },
   { keywords: /給与|給料|月給|時給|求人|採用|募集|働き|看護師|事務|パート|賞与|ボーナス|技師|栄養士/, titles: ["採用情報：共通の雇用条件"] },
   { keywords: /看護/, titles: ["採用情報：看護師"] },
   { keywords: /事務|受付/, titles: ["採用情報：事務"] },

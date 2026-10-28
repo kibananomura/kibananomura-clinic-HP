@@ -60,6 +60,8 @@ export default function ChatWidget() {
   const [turns, setTurns] = useState<Turn[]>([]);
   const [loading, setLoading] = useState(false);
   const bottomRef = useRef<HTMLDivElement>(null);
+  // 会話ID：同じページで続けた質問を1つの会話として数えるため（ページを開き直すと変わる）
+  const sessionIdRef = useRef<string | null>(null);
 
   useEffect(() => {
     bottomRef.current?.scrollIntoView({ behavior: "smooth", block: "end" });
@@ -75,7 +77,7 @@ export default function ChatWidget() {
       const res = await fetch("/api/chat", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ question: text }),
+        body: JSON.stringify({ question: text, sessionId: (sessionIdRef.current ??= crypto.randomUUID()) }),
       });
       const data = await res.json().catch(() => ({}));
       setTurns((prev) =>
