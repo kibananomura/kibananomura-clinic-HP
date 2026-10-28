@@ -171,6 +171,8 @@ const TOPIC_RULES: { keywords: RegExp; titles: string[] }[] = [
   { keywords: /駐車|アクセス|場所|住所|行き方|バス|駅/, titles: ["アクセス"] },
   { keywords: /初診|持ち物|保険証|受診の流れ/, titles: ["初診の方へ"] },
   { keywords: /熱|発熱/, titles: ["よくある質問：熱があるときは、どのように受診すればいいですか？"] },
+  { keywords: /英語|english/i, titles: ["よくある質問：英語で診察を受けられますか？"] },
+  { keywords: /薬だけ|お薬だけ|処方だけ|prescription/i, titles: ["よくある質問：お薬だけ出してもらえますか？"] },
   { keywords: /給与|給料|月給|時給|求人|採用|募集|働き|看護師|事務|パート|賞与|ボーナス|技師|栄養士/, titles: ["採用情報：共通の雇用条件"] },
   { keywords: /看護/, titles: ["採用情報：看護師"] },
   { keywords: /事務|受付/, titles: ["採用情報：事務"] },
