@@ -255,7 +255,7 @@ export const CAREER_POSITIONS: CareerPosition[] = [
           label: "給与（常勤）",
           value: "月給220,000〜270,000円（基本給＋資格手当等を含む／経験・能力・内視鏡や外科処置等のスキルを考慮の上決定）",
         },
-        { label: "給与（パート）", value: "時給1,100〜1,500円（経験・能力により決定。宮崎県の最低賃金（2026年10月24日から時給1,085円）が改定された場合は、それを下回らない額とします）" },
+        { label: "給与（パート）", value: "時給1,200〜1,500円（経験・能力により決定。宮崎県の最低賃金（2026年10月24日から時給1,085円）が改定された場合は、それを下回らない額とします）" },
         { label: "賞与（予定）", value: "年2回（常勤のみ／クリニック業績および個人の評価による ※開院初年度は規定による）" },
         { label: "退職金（予定）", value: "現時点では検討中（法人化後、規模拡大の段階で導入を検討）" },
         { label: "通勤手当", value: "規定支給（燃費×通勤距離〈Googleマップ上の経路距離〉×勤務日数で算出、月額上限10,000円）" },
@@ -287,7 +287,7 @@ export const CAREER_POSITIONS: CareerPosition[] = [
           label: "Salary (full-time)",
           value: "JPY 220,000–270,000/month (including base salary, qualification allowance, etc.; decided based on experience, ability and skills such as endoscopy/surgical assistance)",
         },
-        { label: "Salary (part-time)", value: "JPY 1,100–1,500/hr, based on experience and ability (never below the Miyazaki Prefecture minimum wage (JPY 1,085/hr from 24 October 2026) if it is revised)" },
+        { label: "Salary (part-time)", value: "JPY 1,200–1,500/hr, based on experience and ability (never below the Miyazaki Prefecture minimum wage (JPY 1,085/hr from 24 October 2026) if it is revised)" },
         { label: "Bonus (planned)", value: "Twice a year (full-time only; based on clinic performance and individual evaluation; per internal rules in our first year)" },
         { label: "Retirement allowance (planned)", value: "Currently under consideration (planned for introduction once we incorporate and grow in scale)" },
         { label: "Commuting allowance", value: "Paid per policy (calculated as vehicle fuel efficiency × commuting distance via Google Maps × working days, capped at JPY 10,000/month)" },
@@ -646,7 +646,7 @@ export const SALARY_MODELS = {
       {
         title: "モデル例②　パート看護師",
         subtitle: "子育て中・扶養内または短時間勤務",
-        amount: "時給 1,250円 × 1日4時間（午前のみ）× 週4日 ＝ 月収目安 約80,000円",
+        amount: "時給 1,250円 × 1日4時間（午前のみ）× 週5日 ＝ 月収目安 約100,000円",
         note: "土日祝休み・お子様の学校行事等も柔軟に相談可",
       },
       {
@@ -670,7 +670,7 @@ export const SALARY_MODELS = {
       {
         title: "Model ② Part-time nurse",
         subtitle: "Raising children, within dependent limits or short hours",
-        amount: "JPY 1,250/hr × 4 hrs/day (mornings only) × 4 days/week ≈ JPY 80,000/month",
+        amount: "JPY 1,250/hr × 4 hrs/day (mornings only) × 5 days/week ≈ JPY 100,000/month",
         note: "Closed Sat/Sun/holidays; flexible around school events, etc.",
       },
       {
