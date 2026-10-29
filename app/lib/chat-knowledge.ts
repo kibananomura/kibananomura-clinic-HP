@@ -16,6 +16,7 @@ import { equipment } from "./equipment";
 import { posts } from "./blog";
 import { SITE_TEXT_CHUNKS } from "./chat-site-text.generated";
 import { CAREER_POSITIONS, COMMON_EMPLOYMENT_TERMS } from "./careers";
+import { INSURANCE_COPAY } from "./insurance-copay";
 
 export type KnowledgeChunk = { title: string; url: string; text: string };
 
@@ -107,6 +108,31 @@ function buildChunks(): KnowledgeChunk[] {
     chunks.push(...split(`自費診療：${item.title}`, `/self-pay/${item.slug}`, body));
   }
 
+  // 保険診療の自己負担（/insurance）。子ども医療費は市町村ごとに1チャンクにして、聞かれた市町村を拾いやすくする
+  const copay = INSURANCE_COPAY.ja;
+  chunks.push({
+    title: "保険診療の自己負担",
+    url: "/insurance",
+    text: [
+      copay.intro,
+      ...copay.ratios.map((r) => `${r.who}：${r.rate}`),
+      ...copay.ratioNotes,
+      `${copay.welfareHeading}：${copay.welfareBody}`,
+      copay.childIntro,
+      ...copay.childNotes,
+      copay.checkedNote,
+    ].join("\n"),
+  });
+  for (const m of copay.municipalities) {
+    chunks.push({
+      title: `子ども医療費助成：${m.name}`,
+      url: "/insurance#children",
+      text: [`対象：${m.target}`, `通院：${m.outpatient}`, `入院：${m.inpatient}`, `薬局：${m.pharmacy}`, m.note ?? "", copay.checkedNote]
+        .filter(Boolean)
+        .join("\n"),
+    });
+  }
+
   for (const e of equipment) {
     chunks.push({ title: `設備：${e.ja.name}`, url: "/equipment", text: plain(e.ja.body) });
   }
@@ -164,6 +190,18 @@ function idf(gram: string): number {
   return Math.log((CHUNKS.length + 1) / ((DOC_FREQ.get(gram) ?? 0) + 1));
 }
 
+/** 市町村名と子ども・医療費の話題が一緒に出たら、その市町村の子ども医療費助成を参照する */
+function childSubsidyRules(): { keywords: RegExp; titles: string[] }[] {
+  const topic = "(子ども|子供|こども|お子|小学|中学|高校|乳幼児|医療費|助成)";
+  return INSURANCE_COPAY.ja.municipalities.map((m) => {
+    const stem = m.name.replace(/（.*）/, "").replace(/[市町]$/, "");
+    return {
+      keywords: new RegExp(`${stem}.*${topic}|${topic}.*${stem}`),
+      titles: [`子ども医療費助成：${m.name}`],
+    };
+  });
+}
+
 /**
  * 質問に特定の言葉が入っていたら、必ず参照に含めるページ（2文字組の検索だけでは
  * 拾いきれない定番の質問への保険）。
@@ -172,12 +210,15 @@ const TOPIC_RULES: { keywords: RegExp; titles: string[] }[] = [
   { keywords: /院長|先生|医師|ドクター|経歴|出身|学歴|専門医|資格/, titles: ["院長紹介"] },
   { keywords: /駐車|駐輪|自転車|バイク|アクセス|場所|住所|行き方|バス|駅|薬局|バリアフリー|車いす|車椅子/, titles: ["アクセス"] },
   {
-    keywords: /初診|持ち物|保険証|マイナ|医療証|医療費助成|受診の流れ|予約|キャンセル|待ち時間|順番|支払|クレジット|カード|トイレ|おしっこ|英語|english/i,
+    keywords: /初診|持ち物|保険証|マイナ|医療証|受診の流れ|予約|キャンセル|待ち時間|順番|支払|クレジット|カード|トイレ|おしっこ|英語|english/i,
     titles: ["初診の方へ"],
   },
   { keywords: /熱|発熱|インフル|コロナ|感染/, titles: ["発熱・感染症の症状がある方へ"] },
   { keywords: /自由診療|自費|保険外|保険がきかない|保険が効かない|self-pay/i, titles: ["診療案内（詳細）"] },
   { keywords: /健診|検診|健康診断|ドック/, titles: ["診療案内"] },
+  // 子ども医療費・負担割合は「料金」より先に拾う（「いくら」で料金ページだけに枠を取られないように）
+  ...childSubsidyRules(),
+  { keywords: /自己負担|負担|[123１２３]割|生活保護|医療券|医療扶助|後期高齢|高額療養|子ども医療|医療費助成|受給資格証/, titles: ["保険診療の自己負担"] },
   { keywords: /料金|いくら|費用|値段|円|予防接種|ワクチン|診断書|血液型|粉瘤|脂肪腫/, titles: ["料金のご案内"] },
   { keywords: /薬だけ|お薬だけ|処方だけ|prescription/i, titles: ["よくある質問：お薬だけ出してもらえますか？"] },
   { keywords: /給与|給料|月給|時給|求人|採用|募集|働き|看護師|事務|パート|賞与|ボーナス|技師|栄養士/, titles: ["採用情報：共通の雇用条件"] },

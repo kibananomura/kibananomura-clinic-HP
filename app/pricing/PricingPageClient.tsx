@@ -5,6 +5,7 @@ import FadeIn from "../components/FadeIn";
 import SectionHeading from "../components/SectionHeading";
 import { SoftBlob, Blossom } from "../components/Decor";
 import { useSite } from "../lib/site";
+import { INSURANCE_COPAY } from "../lib/insurance-copay";
 
 const LABELS = {
   ja: { overview: "治療の内容", price: "標準的な費用", risks: "主なリスク・副作用", approval: "未承認医薬品等・適応外使用について" },
@@ -30,6 +31,17 @@ export default function PricingPageClient() {
           <p className="mx-auto mt-6 max-w-2xl text-center text-[15px] leading-relaxed text-ink/75">
             {t.pricing.intro}
           </p>
+        </FadeIn>
+
+        {/* 保険診療の自己負担（1〜3割・子ども医療費・生活保護）のページへ */}
+        <FadeIn delay={0.07} className="mx-auto mt-8 max-w-3xl">
+          <Link
+            href="/insurance"
+            className="flex items-center justify-between gap-3 rounded-2xl bg-accent/70 px-5 py-4 text-sm font-bold text-primary-dark transition-colors hover:bg-accent"
+          >
+            {INSURANCE_COPAY[lang].linkLabel}
+            <span aria-hidden="true">→</span>
+          </Link>
         </FadeIn>
 
         <div className="mx-auto mt-10 max-w-3xl space-y-6">

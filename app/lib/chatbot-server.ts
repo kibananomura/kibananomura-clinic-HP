@@ -102,7 +102,7 @@ const HEALTH_INDEX_PAGES = [
 /** 参考にしたページを、案内ページ（初診の方へ・料金・アクセス・診療案内・よくある質問）→ 症状・病気の解説と院長ブログ → その他の順に並べる
  * （受診方法や料金など、一番知りたい答えが直接載っているページを先頭にする） */
 function orderSources(sources: { title: string; url: string }[]) {
-  const guide = /^\/(faq|first-visit|pricing|services|#access)/;
+  const guide = /^\/(faq|first-visit|pricing|insurance|services|#access)/;
   const rank = (url: string) => (guide.test(url) ? 0 : /^\/(symptoms|diseases|blog)\//.test(url) ? 1 : 2);
   return [...sources].sort((a, b) => rank(a.url) - rank(b.url));
 }

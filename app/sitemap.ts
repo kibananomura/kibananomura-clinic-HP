@@ -21,6 +21,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/links",
     // /tokushoho・/privacy は noindex のためサイトマップに含めない
     "/first-visit",
+    "/insurance",
     "/equipment",
     "/checkups",
     "/news",

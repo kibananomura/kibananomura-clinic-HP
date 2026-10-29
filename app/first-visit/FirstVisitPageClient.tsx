@@ -5,10 +5,11 @@ import FadeIn from "../components/FadeIn";
 import SectionHeading from "../components/SectionHeading";
 import { SoftBlob, Blossom } from "../components/Decor";
 import { useSite } from "../lib/site";
+import { INSURANCE_COPAY } from "../lib/insurance-copay";
 import InlineRichText from "../components/InlineRichText";
 
 export default function FirstVisitPageClient() {
-  const { t } = useSite();
+  const { t, lang } = useSite();
   const fv = t.firstVisit;
   const fever = t.feverVisit;
 
@@ -109,6 +110,15 @@ export default function FirstVisitPageClient() {
             <p className="mt-4 text-[15px] leading-relaxed text-ink/80">
               <InlineRichText text={fv.insuranceBody} />
             </p>
+            <div className="mt-5">
+              <Link
+                href="/insurance"
+                className="flex items-center justify-between gap-3 rounded-2xl bg-accent/70 px-5 py-4 text-sm font-bold text-primary-dark transition-colors hover:bg-accent"
+              >
+                {INSURANCE_COPAY[lang].linkLabel}
+                <span aria-hidden="true">→</span>
+              </Link>
+            </div>
           </div>
         </FadeIn>
 
