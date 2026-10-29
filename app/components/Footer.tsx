@@ -25,11 +25,11 @@ export default function Footer() {
             aria-label={t.common.toTop}
           >
             <Image
-              src="/logo.png"
-              alt={BRAND[lang].logoAlt}
-              width={1024}
-              height={558}
-              className="h-20 w-auto max-w-[14rem] object-contain transition-transform duration-200 group-hover:scale-[1.02] sm:h-24 sm:max-w-[16rem] lg:h-28 lg:max-w-[18rem]"
+              src="/logo-emblem.png"
+              alt={BRAND[lang].logoEmblemAlt}
+              width={303}
+              height={268}
+              className="h-16 w-auto object-contain transition-transform duration-200 group-hover:scale-[1.02] sm:h-20"
             />
           </Link>
           <p className="mt-2 text-xs text-white/50">

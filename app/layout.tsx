@@ -43,7 +43,7 @@ export const metadata: Metadata = {
     type: "website",
     locale: "ja_JP",
     siteName: BRAND.ja.primary,
-    images: [{ url: `${BASE_URL}/logo.png`, width: 1024, height: 558 }],
+    images: [{ url: `${BASE_URL}/og-image.png`, width: 1200, height: 630 }],
   },
   robots: {
     index: true,

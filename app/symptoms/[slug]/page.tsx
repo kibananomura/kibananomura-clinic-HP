@@ -42,7 +42,7 @@ export async function generateMetadata({
       description,
       url: `${BASE_URL}/symptoms/${slug}`,
       type: "article",
-      images: [{ url: "/logo.png", width: 1024, height: 558 }],
+      images: [{ url: "/og-image.png", width: 1200, height: 630 }],
     },
   };
 }

@@ -36,7 +36,7 @@ export default function ArticleJsonLd({
       name: SITE_SEO.title,
       logo: {
         "@type": "ImageObject",
-        url: `${BASE_URL}/logo.png`,
+        url: `${BASE_URL}/logo-emblem.png`,
       },
     },
   };
