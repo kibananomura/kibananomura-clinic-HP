@@ -150,6 +150,9 @@ export default function Footer() {
             <Link href="/privacy" className="inline-block py-1.5 text-white/60 transition-colors hover:text-white">
               {t.footer.privacyLabel}
             </Link>
+            <Link href="/privacy#security" className="inline-block py-1.5 text-white/60 transition-colors hover:text-white">
+              {t.footer.securityLabel}
+            </Link>
             <Link href="/tokushoho" className="inline-block py-1.5 text-white/60 transition-colors hover:text-white">
               {t.footer.tokushohoLabel}
             </Link>

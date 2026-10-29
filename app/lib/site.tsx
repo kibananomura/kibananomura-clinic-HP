@@ -159,6 +159,8 @@ export interface SiteDict {
     snsHeading: string;
     copyrightDept: string;
     privacyLabel: string;
+    /** プライバシーポリシーの「ホームページの安全性について」（/privacy#security）へのリンク */
+    securityLabel: string;
     careersLabel: string;
     firstVisitLabel: string;
     faqLabel: string;
@@ -173,7 +175,8 @@ export interface SiteDict {
     eyebrow: string;
     heading: string;
     intro: string;
-    sections: { title: string; body: string[] }[];
+    /** id はページ内リンク用（例：/privacy#security） */
+    sections: { id?: string; title: string; body: string[] }[];
     updated: string;
   };
   equipment: {
@@ -598,6 +601,7 @@ const ja: SiteDict = {
     snsHeading: "SNS",
     copyrightDept: "宮崎市熊野 ｜ 内科・外科・小児科",
     privacyLabel: "プライバシーポリシー",
+    securityLabel: "ホームページの安全性",
     careersLabel: "医療関係者向け",
     firstVisitLabel: "初診の方へ",
     faqLabel: "よくある質問",
@@ -644,7 +648,18 @@ const ja: SiteDict = {
         ],
       },
       {
-        title: "5. 案内チャットボット「キバナビ」について",
+        id: "security",
+        title: "5. ホームページの安全性について",
+        body: [
+          "近年、WordPressなどPHPで動くホームページの弱点を突いた改ざんや情報漏えいが多く報告されています。当院のホームページは、PHPやWordPressを使わず、Next.jsという仕組みで作り、Vercel社（米国）のサーバーから配信しています。PHPやWordPressの弱点を狙った攻撃の影響は受けない構成です。",
+          "・ホームページとの通信は、すべて暗号化（HTTPS）しています。",
+          "・このホームページには、会員登録やお問い合わせフォームなど、お名前・ご住所・電話番号・保険証の情報などを登録していただく機能はありません。お問い合わせは、お電話・LINE公式アカウント・メールでお受けしています。",
+          "・電子カルテなど、診療の情報を扱うシステムは、このホームページとはつながっていません。",
+          "・インターネット上の安全に「絶対」はないため、使っている仕組みを最新の状態に保ち、見直しを続けます。",
+        ],
+      },
+      {
+        title: "6. 案内チャットボット「キバナビ」について",
         body: [
           "当院のホームページと公式LINEでは、AI（人工知能）がホームページ内の情報をもとに自動でお答えする案内チャットボット「キバナビ」を提供しています。公式LINEでは、メニューの「キバナビに質問する」を選んだ場合にのみキバナビがお答えし、それ以外のメッセージには当院スタッフが対応します。",
           "・ご入力いただいたご質問は、回答を作成するため、AIサービス提供事業者（Anthropic社・米国）に送信されます。同社は、送信された内容をAIの学習には利用しません。",
@@ -653,25 +668,32 @@ const ja: SiteDict = {
         ],
       },
       {
-        title: "6. 開示・訂正・利用停止のご請求",
+        title: "7. アクセス解析について",
+        body: [
+          "ホームページの改善のため、Google アナリティクス（Google社）と Vercel Web Analytics（Vercel社）を使い、閲覧されたページ・閲覧環境などの統計情報を集めています。Google アナリティクスは Cookie（クッキー）を使いますが、集める情報に、お名前など個人を特定する情報は含まれません。",
+          "・Cookie は、ブラウザの設定で無効にできます。Google アナリティクスによる情報の収集は、Google社が提供する「Google アナリティクス オプトアウト アドオン」でも止められます。",
+        ],
+      },
+      {
+        title: "8. 開示・訂正・利用停止のご請求",
         body: [
           "ご本人からご自身の個人情報の開示・訂正・利用停止等のご請求をいただいた場合は、ご本人であることを確認のうえ、法令に従い適切に対応します。",
         ],
       },
       {
-        title: "7. お問い合わせ",
+        title: "9. お問い合わせ",
         body: [
           "個人情報の取り扱いに関するお問い合わせは、開院後に当院窓口・お電話・LINE公式アカウントにて承ります。",
         ],
       },
       {
-        title: "8. 本ポリシーの改定",
+        title: "10. 本ポリシーの改定",
         body: [
           "当院は、必要に応じて本ポリシーを見直し、改定することがあります。改定後の内容は、本ページに掲載した時点から適用されます。",
         ],
       },
     ],
-    updated: "制定日：2026年6月／改定日：2026年10月（案内チャットボット「キバナビ」の項目を追加・公式LINEでの提供を追記。開院に合わせて改定予定）",
+    updated: "制定日：2026年6月／改定日：2026年10月（案内チャットボット「キバナビ」・ホームページの安全性・アクセス解析の項目を追加。開院に合わせて改定予定）",
   },
   equipment: {
     eyebrow: "院内の検査・設備",
@@ -1347,6 +1369,7 @@ const en: SiteDict = {
     snsHeading: "Social",
     copyrightDept: "Kumano, Miyazaki ｜ Internal Medicine, Surgery & Pediatrics",
     privacyLabel: "Privacy Policy",
+    securityLabel: "Website security",
     careersLabel: "For medical professionals",
     firstVisitLabel: "First visit",
     faqLabel: "FAQ",
@@ -1393,7 +1416,18 @@ const en: SiteDict = {
         ],
       },
       {
-        title: "5. Our guide chatbot, Kibanavi",
+        id: "security",
+        title: "5. Website security",
+        body: [
+          "In recent years, many cases of website defacement and data leaks exploiting weaknesses in websites that run on PHP, such as WordPress, have been reported. Our website does not use PHP or WordPress: it is built with Next.js and served from the servers of Vercel (United States), so it is not affected by attacks that target weaknesses in PHP or WordPress.",
+          "• All communication with this website is encrypted (HTTPS).",
+          "• This website has no feature, such as member registration or an inquiry form, for registering your name, address, phone number or insurance details. We accept inquiries by phone, via our official LINE account and by email.",
+          "• Systems that handle medical information, such as electronic medical records, are not connected to this website.",
+          "• As nothing on the internet is ever absolutely safe, we keep the systems we use up to date and continue to review them.",
+        ],
+      },
+      {
+        title: "6. Our guide chatbot, Kibanavi",
         body: [
           "On our website and our official LINE account, we offer a guide chatbot, Kibanavi, in which AI (artificial intelligence) automatically answers questions based on the information on this website. On LINE, Kibanavi answers only after you select \"キバナビに質問する\" (Ask Kibanavi) from the menu; other messages are handled by our staff.",
           "• Questions you enter are sent to an AI service provider (Anthropic, United States) to generate an answer. The provider does not use the content sent to train its AI.",
@@ -1402,25 +1436,32 @@ const en: SiteDict = {
         ],
       },
       {
-        title: "6. Disclosure, correction and suspension of use",
+        title: "7. Website analytics",
+        body: [
+          "To improve the website, we use Google Analytics (Google) and Vercel Web Analytics (Vercel) to collect statistical information such as the pages viewed and the browsing environment. Google Analytics uses cookies, but the information collected does not include anything that identifies you, such as your name.",
+          "• You can disable cookies in your browser settings. You can also stop Google Analytics from collecting information with the Google Analytics Opt-out Browser Add-on provided by Google.",
+        ],
+      },
+      {
+        title: "8. Disclosure, correction and suspension of use",
         body: [
           "If an individual requests the disclosure, correction or suspension of use of their own personal information, we will verify their identity and respond appropriately in accordance with the law.",
         ],
       },
       {
-        title: "7. Contact",
+        title: "9. Contact",
         body: [
           "Inquiries regarding the handling of personal information will be accepted after opening at our reception, by phone, or via our official LINE account.",
         ],
       },
       {
-        title: "8. Revisions to this policy",
+        title: "10. Revisions to this policy",
         body: [
           "The Clinic may review and revise this policy as necessary. Revised content applies from the time it is posted on this page.",
         ],
       },
     ],
-    updated: "Established: June 2026 / Revised: October 2026 (section on our chatbot Kibanavi added, including its use on LINE; to be revised upon opening)",
+    updated: "Established: June 2026 / Revised: October 2026 (sections on our chatbot Kibanavi, website security and website analytics added; to be revised upon opening)",
   },
   equipment: {
     eyebrow: "In-house tests & equipment",
