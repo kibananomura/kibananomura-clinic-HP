@@ -262,6 +262,10 @@ export interface SiteDict {
   /** 初診の方へページの「発熱・感染症の症状がある方へ」（/first-visit#fever） */
   feverVisit: {
     heading: string;
+    /** 見出し横のバッジ（予約制であることを色で示す） */
+    badge: string;
+    /** 見出しの直下に色付きで出す、予約が必要なことのお知らせ（全体を太字で出すので ** は使わない） */
+    reservationNotice: string;
     intro: string;
     steps: string[];
     notes: string[];
@@ -979,6 +983,8 @@ const ja: SiteDict = {
   },
   feverVisit: {
     heading: "発熱・感染症の症状がある方へ",
+    badge: "予約制",
+    reservationNotice: "熱があるときの受診は予約制です。ご来院の前に、必ず発熱外来の枠でご予約ください。",
     intro: "発熱や、感染症が疑われる症状がある方は、ほかの患者さんと接することなく受診いただけるよう、**お車の中でお待ちいただく形**を予定しています。インフルエンザ・新型コロナなどの検査も行います（開院後）。",
     steps: [
       "開院後にご用意する**Web予約の発熱外来用の枠**からご予約ください。",
@@ -997,7 +1003,7 @@ const ja: SiteDict = {
     pagesHeading: "予約・料金・アクセスなどは、こちらのページでご案内しています",
     pageLinks: [
       { label: "初診の方へ（予約・持ち物・支払い・保険証）", href: "/first-visit" },
-      { label: "熱があるときの受診方法", href: "/first-visit#fever" },
+      { label: "熱があるときの受診方法（予約制）", href: "/first-visit#fever" },
       { label: "料金について（予防接種・診断書など）", href: "/pricing" },
       { label: "保険診療の自己負担（1〜3割・子ども医療費）", href: "/insurance" },
       { label: "アクセス（駐車場・バス・薬局）", href: "/#access" },
@@ -1712,6 +1718,8 @@ const en: SiteDict = {
   },
   feverVisit: {
     heading: "If you have a fever",
+    badge: "Appointment only",
+    reservationNotice: "Visits with a fever are by appointment only. Please be sure to book a fever outpatient slot before coming to the clinic.",
     intro: "If you have a fever or symptoms that may be infectious, we plan to have you **wait in your car**, so you never come into contact with other patients. We also test for influenza, COVID-19 and similar infections (after opening).",
     steps: [
       "Book a **fever outpatient slot** through the online reservation system we will provide after opening.",
@@ -1730,7 +1738,7 @@ const en: SiteDict = {
     pagesHeading: "Appointments, fees and access are covered on these pages",
     pageLinks: [
       { label: "Your first visit (booking, what to bring, payment, insurance)", href: "/first-visit" },
-      { label: "If you have a fever", href: "/first-visit#fever" },
+      { label: "If you have a fever (appointment only)", href: "/first-visit#fever" },
       { label: "Fees (vaccinations, medical certificates, etc.)", href: "/pricing" },
       { label: "Out-of-pocket costs for insured care (10–30%, children's subsidies)", href: "/insurance" },
       { label: "Access (parking, bus, pharmacy)", href: "/#access" },

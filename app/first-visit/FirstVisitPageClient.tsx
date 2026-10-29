@@ -51,18 +51,24 @@ export default function FirstVisitPageClient() {
 
         {/* 発熱・感染症の症状がある方へ（/first-visit#fever。よくある質問・キバナビから直接案内する） */}
         <FadeIn delay={0.08} className="mt-10">
-          <div id="fever" className="scroll-mt-28 rounded-[1.75rem] border-2 border-primary/30 bg-surface/90 p-7 shadow-card sm:p-9">
-            <h2 className="flex items-center gap-2 text-lg font-bold text-primary-dark">
+          {/* 予約制であることが一目で分かるよう、ほかのカード（緑）と違う暖色にしている */}
+          <div id="fever" className="scroll-mt-28 rounded-[1.75rem] border-2 border-blossom bg-orange-50/60 p-7 shadow-card sm:p-9">
+            <h2 className="flex flex-wrap items-center gap-2 text-lg font-bold text-orange-800">
               <span aria-hidden="true">🌡️</span>
               {fever.heading}
+              <span className="rounded-full bg-orange-700 px-3 py-0.5 text-xs font-bold text-white">{fever.badge}</span>
             </h2>
+            <p className="mt-4 rounded-2xl border border-orange-300 bg-surface px-4 py-3 text-[15px] font-bold leading-relaxed text-orange-900">
+              <span aria-hidden="true">📅 </span>
+              {fever.reservationNotice}
+            </p>
             <p className="mt-4 text-[15px] leading-relaxed text-ink/80">
               <InlineRichText text={fever.intro} />
             </p>
             <ol className="mt-5 space-y-3">
               {fever.steps.map((step, i) => (
                 <li key={step} className="flex gap-3 text-[15px] leading-relaxed text-ink/80">
-                  <span className="flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-primary text-xs font-bold text-white">
+                  <span className="flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-orange-700 text-xs font-bold text-white">
                     {i + 1}
                   </span>
                   <span>
@@ -71,10 +77,10 @@ export default function FirstVisitPageClient() {
                 </li>
               ))}
             </ol>
-            <ul className="mt-5 space-y-2 border-t border-accent pt-4">
+            <ul className="mt-5 space-y-2 border-t border-orange-200 pt-4">
               {fever.notes.map((note) => (
                 <li key={note} className="flex gap-3 text-sm leading-relaxed text-ink/75">
-                  <span className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-primary" aria-hidden="true" />
+                  <span className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-orange-700" aria-hidden="true" />
                   <span>
                     <InlineRichText text={note} />
                   </span>
@@ -132,7 +138,7 @@ export default function FirstVisitPageClient() {
             <ul className="mt-4 space-y-3">
               {fv.notes.map((note) => (
                 <li key={note} className="flex gap-3 text-[15px] text-ink/80">
-                  <span className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-primary" aria-hidden="true" />
+                  <span className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-orange-700" aria-hidden="true" />
                   <span>
                     <InlineRichText text={note} />
                   </span>
