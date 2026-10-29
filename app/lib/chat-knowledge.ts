@@ -172,6 +172,7 @@ const TOPIC_RULES: { keywords: RegExp; titles: string[] }[] = [
   { keywords: /初診|持ち物|保険証|受診の流れ/, titles: ["初診の方へ"] },
   { keywords: /熱|発熱/, titles: ["よくある質問：熱があるときは、どのように受診すればいいですか？"] },
   { keywords: /英語|english/i, titles: ["よくある質問：英語で診察を受けられますか？"] },
+  { keywords: /自由診療|自費|保険外|保険がきかない|保険が効かない|self-pay/i, titles: ["よくある質問：自由診療（自費診療）も行っていますか？"] },
   { keywords: /薬だけ|お薬だけ|処方だけ|prescription/i, titles: ["よくある質問：お薬だけ出してもらえますか？"] },
   { keywords: /給与|給料|月給|時給|求人|採用|募集|働き|看護師|事務|パート|賞与|ボーナス|技師|栄養士/, titles: ["採用情報：共通の雇用条件"] },
   { keywords: /看護/, titles: ["採用情報：看護師"] },
@@ -186,7 +187,8 @@ const HEALTH_PAGE_BOOST = 1.3;
 
 export function searchKnowledge(query: string, limit = 5, maxChars = 5000): KnowledgeChunk[] {
   // 「頭が痛い」「お腹が痛い」→「頭痛」「腹痛」のように、話し言葉を症状名に寄せた語も足して検索する
-  const expanded = `${query} ${query.replace(/(\S)が?痛(い|む|くて|み)/g, "$1痛")}`;
+  // 「自由診療」「保険外」のような言い方は、HPの表記（自費診療）に寄せた語も足す
+  const expanded = `${query} ${query.replace(/(\S)が?痛(い|む|くて|み)/g, "$1痛")} ${/自由診療|保険外/.test(query) ? "自費診療" : ""}`;
   const q = bigrams(expanded);
   if (q.size === 0) return [BASIC_INFO];
   const scored = CHUNKS.map((chunk, i) => {
