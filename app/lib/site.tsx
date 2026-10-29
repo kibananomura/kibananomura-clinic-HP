@@ -8,7 +8,7 @@ import {
   type ReactNode,
 } from "react";
 import { BRAND } from "./brand";
-import { FAQ_ITEMS_JA } from "./faq-data";
+import { FAQ_CATEGORIES_EN, FAQ_CATEGORIES_JA, type FaqCategory } from "./faq-data";
 
 /**
  * 駐車場の台数・状態（「完備予定」の文言）を一元管理する定数。
@@ -137,6 +137,8 @@ export interface SiteDict {
     addressNote: string;
     parkingLabel: string;
     parkingValue: string;
+    /** 駐輪場・バス・薬局・バリアフリーなど、来院に関わる情報（駐車場の下に並べる） */
+    details: { label: string; value: string }[];
     openLabel: string;
     openValue: string;
     note: string;
@@ -257,11 +259,21 @@ export interface SiteDict {
     noteHeading: string;
     notes: string[];
   };
+  /** 初診の方へページの「発熱・感染症の症状がある方へ」（/first-visit#fever） */
+  feverVisit: {
+    heading: string;
+    intro: string;
+    steps: string[];
+    notes: string[];
+  };
   faq: {
     eyebrow: string;
     heading: string;
     intro: string;
-    items: { q: string; a: string }[];
+    /** 予約・料金・アクセスなど、よくある質問から各ページへ案内するリンク */
+    pagesHeading: string;
+    pageLinks: { label: string; href: string }[];
+    categories: FaqCategory[];
   };
   tokushoho: {
     eyebrow: string;
@@ -507,7 +519,7 @@ const ja: SiteDict = {
     checkupsBadge: "健診・検診",
     checkupsTitle: "健康診断・各種検診も行えます",
     checkupsBody:
-      "一般的な健康診断・人間ドックから、特定健診、胃がん・大腸がん・肺がんの各種がん検診、結核健診、ABC検診、肝炎ウイルス検診、企業健診（法定健診・特定業務健診）まで対応予定。院内CTを用いた肺がん2次検診（精密検査）も行います。",
+      "一般的な健康診断・人間ドックから、特定健診、胃がん・大腸がん・肺がんの各種がん検診、結核健診、ABC検診、肝炎ウイルス検診、企業健診（法定健診・特定業務健診）まで対応予定。院内CTを用いた肺がん2次検診（精密検査）も行います。宮崎市の特定健診・がん検診の対象となる方や自己負担額は、宮崎市からの案内（受診券など）をご確認ください。",
     checkupsTags: [
       "健康診断",
       "人間ドック",
@@ -549,6 +561,12 @@ const ja: SiteDict = {
     addressValue: "〒889-2151 宮崎県宮崎市熊野5233-2",
     parkingLabel: "駐車場",
     parkingValue: PARKING_STATUS.ja_short,
+    details: [
+      { label: "駐輪場", value: "正面玄関の右横に設置予定（自転車・バイク）" },
+      { label: "バス", value: "最寄りの下原バス停から徒歩約3分" },
+      { label: "薬局", value: "隣の敷地に調剤薬局が開設予定" },
+      { label: "バリアフリー", value: "院内はバリアフリー設計で、車いすのままお入りいただけます。車いす用トイレもございます" },
+    ],
     openLabel: "開院",
     openValue: "2027年10月1日 予定（現在 建設準備中）",
     addressNote: "※現在建設準備中です。",
@@ -707,6 +725,7 @@ const ja: SiteDict = {
         items: [
           { name: "内科・外科・小児科", price: "各種保険適用" },
           { name: "各種検査（CT・胃カメラ・エコー など）", price: "保険診療に準じます" },
+          { name: "外科処置・日帰り手術（粉瘤・脂肪腫など）", price: "保険診療（大きさ・部位・必要な検査などで変わるため、診察のうえでご説明します）" },
         ],
       },
       {
@@ -878,12 +897,12 @@ const ja: SiteDict = {
     deptDescs: [
       "生活習慣病の長期管理から急性症状・消化器の不調・アレルギー疾患まで総合的に対応します。CT・胃カメラ・エコー・FeNO測定などを院内で行い、その日のうちに結果をお伝えできる場合があります。",
       "外科専門医（消化器外科専門医）が担当します。傷・やけどの処置から粉瘤・脂肪腫などの日帰り小手術・巻き爪の処置まで対応。外科的な判断が必要な腹部症状にも CT・エコーを用いて対応します。",
-      "お子さんの総合診療科として、発熱・かぜ・消化器症状を中心に診察します。「この症状、受診すべきかな？」とためらう場面でも気軽にご相談いただける環境を目指しています。",
+      "お子さんの総合診療科として、発熱・かぜ・消化器症状を中心に診察します。「この症状、受診すべきかな？」とためらう場面でも気軽にご相談いただける環境を目指しています。一部の乳幼児健診や定期接種については、かかりつけの小児科をご案内する場合があります。",
       "定期的な予防接種に加え、成人向けワクチン（帯状疱疹・肺炎球菌・HPVなど）も対応します。ご希望の方はお電話・LINEでお問い合わせください。",
     ],
     selfpayHeading: "自費診療（美容・予防・生活習慣の改善）",
     selfpayIntro:
-      "保険診療では対応が難しい治療・予防医療について、自費診療（公的医療保険の適用外・全額自己負担）として対応します。初回に医師が主なリスク・副作用・標準的な費用を十分にご説明したうえで治療方針を決定します。料金は準備中のものが多く、確定次第こちらに掲載いたします。",
+      "保険診療では対応が難しい治療・予防医療について、自費診療（公的医療保険の適用外・全額自己負担）として対応します。初回に医師が主なリスク・副作用・標準的な費用を十分にご説明したうえで治療方針を決定します。ご相談だけでもお気軽にどうぞ。料金は準備中のものが多く、確定次第こちらに掲載いたします。",
     selfpayItems: [
       {
         name: "GLP-1受容体作動薬（肥満治療）",
@@ -933,8 +952,8 @@ const ja: SiteDict = {
     heading: "初診・受診の流れ",
     intro: "はじめて木花のむら総合診療所を受診される方へ、診察の流れや持ち物をご案内します。「これくらいで受診していいのかな？」と思ったときも、どうぞお気軽にお越しください。",
     steps: [
-      { num: "01", title: "ご予約（開院後）", body: "電話・Web・LINEにてご予約いただけます（開院後に受付開始）。当日のご来院も受け付けます。**予約優先制**のため、事前予約をお勧めします。" },
-      { num: "02", title: "来院・受付", body: "受付にて保険証・お薬手帳をご提示ください。Web問診システム（スマートフォン対応）で事前に症状をご入力いただくこともできますし、ご来院時に直接ご入力いただいても構いません。__順番は受付順ではなく、診察準備が整った順番__でお呼びしますので、あらかじめご了承ください。" },
+      { num: "01", title: "ご予約（開院後）", body: "電話・Web・LINEにてご予約いただけます（開院後に受付開始）。当日のご来院も受け付けます。**予約優先制**のため、事前予約をお勧めします。ご予約のキャンセル・変更は、**今後設定する当院の電話番号**におかけください（電話番号は決まり次第お知らせします）。" },
+      { num: "02", title: "来院・受付", body: "受付にて保険証・お薬手帳をご提示ください。Web問診システム（スマートフォン対応）で事前に症状をご入力いただくこともできますし、ご来院時に直接ご入力いただいても構いません。__順番は受付順ではなく、診察準備が整った順番__でお呼びしますので、あらかじめご了承ください。Web問診や予約システムなどの医療DXを活用し、待ち時間をできる限り短くできるよう努めます。" },
       { num: "03", title: "問診・診察", body: "医師が症状をていねいにお聞きします。CTやエコーなど必要な検査はその日のうちに院内で行えます。胃カメラは**予約制**です。午前10時までの空腹の状態で、内視鏡担当の看護師が勤務している日時にご案内いたします。__※午前の検査をご希望の場合、前日21時以降は絶食が必要です（水・お茶は可）。__ ※介助看護師の配置状況により、ご希望の日時に添えない場合がありますので、事前のWeb・お電話でのご予約をおすすめします。" },
       { num: "04", title: "会計・お薬", body: "セミセルフレジで会計をスムーズに行います。お薬が処方される場合は処方箋をお渡ししますので、**院外の調剤薬局**にお持ちください。" },
     ],
@@ -948,19 +967,42 @@ const ja: SiteDict = {
       "お支払い：現金・クレジットカード（開院後）",
     ],
     insuranceHeading: "保険診療について",
-    insuranceBody: "各種健康保険・国民健康保険・後期高齢者医療保険に対応予定です。労災・自賠責にも対応いたします。自費診療（GLP-1・AGAなど）については別途ご案内します。",
+    insuranceBody: "各種健康保険・国民健康保険・後期高齢者医療保険に対応予定です。**マイナ保険証**もご利用いただけます。労災・自賠責にも対応いたします。**子ども医療費の助成制度**もご利用いただけますので、受診の際は子ども医療費受給資格証などの医療証をお持ちください。自費診療（GLP-1・AGAなど）については別途ご案内します。",
     noteHeading: "ご来院の際のお願い",
     notes: [
-      "__発熱・感染症症状がある方は、Web予約の発熱外来用の枠でご予約のうえ、ご予約の時間にクリニック横のひさしの下（発熱の方専用区画）に頭から入れて駐車し、車内でお待ちください__。カメラでご来院を確認し、スタッフがお車まで伺います（Web予約は開院後にご用意します）",
+      "__発熱・感染症の症状がある方は、上の「発熱・感染症の症状がある方へ」の流れでご来院ください__",
       "お子さんの受診には保護者同伴をお願いします",
+      "診察の前にトイレに行かれる場合は、**受付にひと声おかけください**。腹痛や背中・腰の痛みがある方（尿管結石などが疑われる場合）や、高血圧・高尿酸血症で通院中の方などは、尿検査を行うことがあります。我慢できないときは遠慮なくどうぞ",
+      "**英語での診察**にも対応しています（院長が担当します）",
       "駐車場は**33台**（一般28台・発熱の方専用5台）完備予定です",
+    ],
+  },
+  feverVisit: {
+    heading: "発熱・感染症の症状がある方へ",
+    intro: "発熱や、感染症が疑われる症状がある方は、ほかの患者さんと接することなく受診いただけるよう、**お車の中でお待ちいただく形**を予定しています。インフルエンザ・新型コロナなどの検査も行います（開院後）。",
+    steps: [
+      "開院後にご用意する**Web予約の発熱外来用の枠**からご予約ください。",
+      "ご予約の時間に、**クリニック横のひさしの下（発熱の方専用の駐車区画・5台）**へ、**頭から入れる形で駐車**し、そのまま車内でお待ちください。",
+      "カメラでご来院を確認し、スタッフの準備が整い次第、お車まで伺います。",
+    ],
+    notes: [
+      "お車でお待ちの間に具合が悪くなった場合は、__お連れの方が正面玄関のインターホンを鳴らして、職員にお伝えください__。",
+      "お一人でお車でお越しの方には、__車内から院内にお電話いただける発熱外来専用の番号__をご案内します。",
     ],
   },
   faq: {
     eyebrow: "よくあるご質問",
     heading: "FAQ",
-    intro: "患者さんからよくいただくご質問をまとめました。その他ご不明な点はLINEまたはお電話でお気軽にお問い合わせください。",
-    items: FAQ_ITEMS_JA,
+    intro: "各ページに載せていない、そのほかのご質問をまとめました。その他ご不明な点はLINEまたはお電話でお気軽にお問い合わせください。",
+    pagesHeading: "予約・料金・アクセスなどは、こちらのページでご案内しています",
+    pageLinks: [
+      { label: "初診の方へ（予約・持ち物・支払い・保険証）", href: "/first-visit" },
+      { label: "熱があるときの受診方法", href: "/first-visit#fever" },
+      { label: "料金について（予防接種・診断書など）", href: "/pricing" },
+      { label: "アクセス（駐車場・バス・薬局）", href: "/#access" },
+      { label: "診療案内（小児科・健診・自費診療）", href: "/services" },
+    ],
+    categories: FAQ_CATEGORIES_JA,
   },
   tokushoho: {
     eyebrow: "法的表記",
@@ -1223,7 +1265,7 @@ const en: SiteDict = {
     checkupsBadge: "Health checkups",
     checkupsTitle: "Health checkups & screening",
     checkupsBody:
-      "From general health checkups and comprehensive health dock exams to statutory checkups, gastric, colorectal and lung cancer screening, tuberculosis screening, ABC screening, hepatitis virus screening, and employer checkups (statutory and special-duty). We also offer secondary lung cancer screening using our in-house CT.",
+      "From general health checkups and comprehensive health dock exams to statutory checkups, gastric, colorectal and lung cancer screening, tuberculosis screening, ABC screening, hepatitis virus screening, and employer checkups (statutory and special-duty). We also offer secondary lung cancer screening using our in-house CT. For eligibility and co-payments for Miyazaki City's specific health checkups and cancer screenings, please check the notice (such as a voucher) sent by the city.",
     checkupsTags: [
       "Health checkup",
       "Comprehensive health dock",
@@ -1266,6 +1308,12 @@ const en: SiteDict = {
     addressNote: "※Currently under construction.",
     parkingLabel: "Parking",
     parkingValue: PARKING_STATUS.en_short,
+    details: [
+      { label: "Bicycle parking", value: "Planned to the right of the main entrance (bicycles and motorbikes)" },
+      { label: "Bus", value: "About a 3-minute walk from the nearest stop, “下原”" },
+      { label: "Pharmacy", value: "A dispensing pharmacy is planned on the neighbouring lot" },
+      { label: "Accessibility", value: "The clinic is barrier-free and wheelchair accessible, with a wheelchair-accessible restroom" },
+    ],
     openLabel: "Opening",
     openValue: "October 2027 (currently under construction)",
     note: "Once the Yamashita Bridge (Kiyotake River) opens, access from the Manabino and Gakuendai areas will become even more convenient. We're easy to reach by car from across southern Miyazaki City — including Kibana, Kumano, Gakuen-Kibanadai, Hongo and Kiyotake — as well as from near JR Kibana Station, Undokoen Station and the Kibana Campus of University of Miyazaki.",
@@ -1429,6 +1477,10 @@ const en: SiteDict = {
             name: "Tests (CT, gastroscopy, ultrasound, etc.)",
             price: "Per insured rates",
           },
+          {
+            name: "Minor surgery (sebaceous cysts, lipomas, etc.)",
+            price: "Covered by insurance (varies with size, location and tests needed; explained at your consultation)",
+          },
         ],
       },
       {
@@ -1582,7 +1634,7 @@ const en: SiteDict = {
     ],
     selfpayHeading: "Self-pay care (cosmetic, preventive & lifestyle)",
     selfpayIntro:
-      "For treatments and preventive medicine not covered by insurance, we offer self-pay options. All self-pay treatments are not covered by public health insurance and are paid fully out-of-pocket. On the first visit, the physician will explain the treatment plan, standard costs and main risks and side effects in full before starting treatment. Pricing is still being finalised and will be published here when confirmed.",
+      "For treatments and preventive medicine not covered by insurance, we offer self-pay options. All self-pay treatments are not covered by public health insurance and are paid fully out-of-pocket. On the first visit, the physician will explain the treatment plan, standard costs and main risks and side effects in full before starting treatment. You are welcome to come just for a consultation. Pricing is still being finalised and will be published here when confirmed.",
     selfpayItems: [
       {
         name: "GLP-1 receptor agonists (weight loss)",
@@ -1632,8 +1684,8 @@ const en: SiteDict = {
     heading: "Your first visit",
     intro: "A guide for first-time patients — what to expect and what to bring. If you're unsure whether your symptoms warrant a visit, please don't hesitate to come.",
     steps: [
-      { num: "01", title: "Book an appointment (after opening)", body: "Bookings can be made by phone, online or LINE (to open after clinic launch). Walk-ins are also welcome, but **appointments are prioritised**." },
-      { num: "02", title: "Arrive & check in", body: "Please present your insurance card and medication record at reception. Our web pre-screening system (smartphone-friendly) lets you enter your symptoms in advance, or you're welcome to fill it out in person when you arrive. __You'll be called in once we're ready for you, rather than strictly in check-in order__, so thank you for your understanding." },
+      { num: "01", title: "Book an appointment (after opening)", body: "Bookings can be made by phone, online or LINE (to open after clinic launch). Walk-ins are also welcome, but **appointments are prioritised**. To cancel or change an appointment, please call **the clinic phone number, which will be announced once it is set up**." },
+      { num: "02", title: "Arrive & check in", body: "Please present your insurance card and medication record at reception. Our web pre-screening system (smartphone-friendly) lets you enter your symptoms in advance, or you're welcome to fill it out in person when you arrive. __You'll be called in once we're ready for you, rather than strictly in check-in order__, so thank you for your understanding. We use digital tools such as online questionnaires and our booking system to keep waiting times as short as possible." },
       { num: "03", title: "Consultation & examination", body: "The physician will listen carefully to your symptoms. Tests such as CT and ultrasound can often be performed on the same day. Gastroscopy is **by appointment only**, scheduled for a fasting morning slot before 10am when our endoscopy nurse is on duty. __*For a morning exam, you'll need to fast from 9pm the night before (water and tea are fine).__ *Please book in advance online or by phone, as availability depends on endoscopy nurse staffing." },
       { num: "04", title: "Payment & prescription", body: "Semi-self payment kiosks keep checkout quick and simple. If medication is prescribed, we'll hand you a prescription slip to take to an **outside dispensing pharmacy**." },
     ],
@@ -1647,55 +1699,42 @@ const en: SiteDict = {
       "Payment: cash or credit card (after opening)",
     ],
     insuranceHeading: "Insurance",
-    insuranceBody: "We plan to accept national health insurance, employees' health insurance and the late-stage elderly medical care system. Workers' compensation and CALI are also accepted. Self-pay treatments (GLP-1, AGA, etc.) are detailed separately.",
+    insuranceBody: "We plan to accept national health insurance, employees' health insurance and the late-stage elderly medical care system. **My Number insurance cards** are accepted. Workers' compensation and CALI are also accepted. The **children's medical expense subsidy** can be used — please bring your child's medical certificate (such as the subsidy eligibility card). Self-pay treatments (GLP-1, AGA, etc.) are detailed separately.",
     noteHeading: "Please note",
     notes: [
-      "__If you have a fever or possible infection, please book a fever outpatient slot online, then at your appointment time park nose-in under the canopy beside the clinic (the area reserved for patients with a fever) and wait in your car.__ We will see your arrival on camera and a staff member will come out to you (online booking will be available after opening).",
+      "__If you have a fever or possible infection, please follow the steps under \"If you have a fever\" above.__",
       "Children must be accompanied by a parent or guardian.",
+      "If you need the restroom before your consultation, **please let reception know first**. Patients with abdominal, back or flank pain (such as when a kidney or ureteral stone is suspected), or those being treated for high blood pressure or high uric acid, may need a urine test. Please do not hesitate if you cannot wait.",
+      "**Consultations in English** are available (with our director).",
       "**33 parking spaces** are planned on-site (28 general, 5 reserved for patients with a fever).",
+    ],
+  },
+  feverVisit: {
+    heading: "If you have a fever",
+    intro: "If you have a fever or symptoms that may be infectious, we plan to have you **wait in your car**, so you never come into contact with other patients. We also test for influenza, COVID-19 and similar infections (after opening).",
+    steps: [
+      "Book a **fever outpatient slot** through the online reservation system we will provide after opening.",
+      "At your appointment time, **park nose-in under the canopy beside the clinic** (the 5 spaces reserved for patients with a fever) and stay in your car.",
+      "We will see that you have arrived on camera, and a staff member will come out to your car as soon as we are ready.",
+    ],
+    notes: [
+      "If you start to feel worse while waiting in your car, __please have the person accompanying you ring the intercom at the main entrance and let our staff know__.",
+      "If you come alone by car, we will give you __a dedicated fever-outpatient phone number to call the clinic from your car__.",
     ],
   },
   faq: {
     eyebrow: "FAQ",
     heading: "Frequently asked questions",
-    intro: "Answers to questions we often receive. For anything not covered here, please feel free to contact us via LINE or phone.",
-    items: [
-      { q: "Do I need an appointment?", a: "We plan to operate on an **appointment-priority basis**, with bookings available by phone, online or LINE (from opening day). Walk-ins will also be accepted, but appointments are prioritised." },
-      { q: "How do I cancel or change my appointment?", a: "To cancel or change an appointment, please call **the clinic phone number, which will be set up in the future**. We will announce the number on this website as soon as it is decided." },
-      { q: "How long is the wait?", a: "We will make full use of **medical digital tools** such as online pre-visit questionnaires and our booking system to keep waiting times as short as possible. We appreciate your understanding if you do have to wait." },
-      { q: "Can I pay by credit card?", a: "Yes. In addition to cash, **credit cards** are accepted (after opening)." },
-      { q: "Can I use my My Number insurance card?", a: "Yes. The **My Number insurance card** can be used (after opening)." },
-      { q: "Can I use the children's medical expense subsidy?", a: "Yes. Please bring your **child medical expense certificate** or other medical certificates when you visit." },
-      { q: "Is there a nursing room or a place to change diapers?", a: "We do not have a dedicated nursing room, but we can show you to **an available consultation room** or our **wheelchair-accessible restroom**. Please just ask our staff." },
-      { q: "Do you offer infant health check-ups?", a: "This is not planned at opening, but we will announce it on this website and our official LINE account once we are ready." },
-      { q: "Can I have a colonoscopy?", a: "This is not planned at opening, but we will announce it on this website and our official LINE account once we are ready. Upper gastroscopy (transnasal endoscopy) will be available from opening." },
-      { q: "Can you test for influenza or COVID-19?", a: "Yes, we plan to offer testing (after opening). If you have a fever or similar symptoms, please book a **fever outpatient slot** online before coming in. See \"How should I come in if I have a fever?\" for how your visit will work." },
-      { q: "How much does sebaceous cyst (atheroma) removal cost?", a: "Removal of a sebaceous cyst is covered by **health insurance**. The cost depends on the size and location of the cyst and any tests needed, and also changes with revisions to the national fee schedule. We will explain the actual cost at your consultation." },
-      { q: "Do you have a smoking cessation clinic?", a: "This is not planned at opening, but we will announce it on this website and our official LINE account once we are ready." },
-      { q: "Will there be an open house?", a: "We plan to hold an open house before opening. We will announce the date on **this website and our official LINE account** as it approaches." },
-      { q: "Can I have Miyazaki City's specific health check-up or cancer screening?", a: "Yes, these will be available (after opening). For eligibility and co-payments, please check **the notice (such as a voucher) sent by Miyazaki City**." },
-      { q: "How much is a flu shot?", a: "A flu shot is **¥3,000 per dose** (a 2026 reference price, to be finalised before opening). **For people aged 65 and over and others eligible for routine vaccination, it is ¥1,400.** The co-payment may differ depending on subsidies from your local municipality. Common reactions include swelling and pain at the injection site and fever; rare but serious reactions such as anaphylaxis have been reported." },
-      { q: "How much does a medical certificate cost?", a: "A medical certificate in our own format is **¥2,500** (not covered by insurance; a 2026 reference price, to be finalised before opening)." },
-      { q: "Is the clinic wheelchair accessible?", a: "Yes. The clinic is designed to be **barrier-free**, so you can come in by wheelchair. We also have a wheelchair-accessible restroom." },
-      { q: "Is there a pharmacy nearby?", a: "Yes. A **dispensing pharmacy is planned on the lot next to the clinic**." },
-      { q: "Can I get there by bus? Where is the nearest bus stop?", a: "Yes. The clinic is about a **3-minute walk from the nearest bus stop, “下原”**." },
-      { q: "Do you see children?", a: "Yes. As a general paediatric practice we see children of all ages for fever, colds, stomach complaints and more. For some infant check-ups and routine vaccines we may refer you to a specialist paediatric clinic." },
-      { q: "Is there parking?", a: "We plan to provide **33 parking spaces** on-site (28 general spaces and 5 reserved for patients with a fever). You are welcome to come by car." },
-      { q: "How should I come in if I have a fever?", a: "If you have a fever or symptoms that may be infectious, we plan to have you **wait in your car**, so you never come into contact with other patients. (1) Book a **fever outpatient slot** through the online reservation system we will provide after opening. (2) At your appointment time, **park nose-in under the canopy beside the clinic** (the area reserved for patients with a fever) and stay in your car. (3) We will see that you have arrived on camera, and a staff member will come out to your car as soon as we are ready. If you start to feel worse while waiting in your car, __please have the person accompanying you ring the intercom at the main entrance and let our staff know__. If you come alone by car, we will give you __a dedicated fever-outpatient phone number to call the clinic from your car__." },
-      { q: "Is there bicycle parking?", a: "Yes. We plan to provide bicycle parking **to the right of the main entrance**. You are welcome to come by bicycle or motorbike." },
-      { q: "Can I get my blood type tested?", a: "Yes. Blood type testing (ABO and Rh) is available as a **self-pay test** (not covered by health insurance). The guide price is **¥2,200** (a 2026 reference price, to be finalised before opening). The blood draw may cause bruising or pain." },
-      { q: "Can I have a CT or gastroscopy on the day?", a: "We plan to have a 16-row CT, transnasal endoscope and abdominal ultrasound on-site. When clinically indicated, we aim to perform **tests the same day**." },
-      { q: "Can you refer me to a specialist?", a: "Yes. When a condition requires specialist care, we will **write a referral** to hospitals such as the University of Miyazaki Hospital or other appropriate facilities." },
-      { q: "Do you offer home visits?", a: "At opening, we plan to start with visits to **residents of nearby care facilities (nursing homes, group homes, etc.)** during our lunch break. If you are a facility coordinator, please feel free to contact us via LINE or our contact form. __Home visits to individual homes are not planned at opening__, but we will announce them on this website and our official LINE account once we are ready." },
-      { q: "Can I consult about self-pay treatments?", a: "Yes. For self-pay options such as GLP-1, AGA and ED treatment, an initial consultation with the physician is the first step." },
-      { q: "Do you offer online consultations?", a: "During quiet periods and at opening, we plan to use a virtual waiting-room online consultation service (Isya-choku®). Once in-person care stabilises, we will scale this back and focus fully on being your local family clinic." },
-      { q: "Do you offer steroid injections for hay fever?", a: "Yes, triamcinolone acetonide injections for hay fever are planned as a self-pay treatment. The physician will explain the effects and risks at your appointment." },
-      { q: "When do you open?", a: "We are planning to open in **October 2027**. Opening updates will be shared via our official LINE account." },
-      { q: "Can I just get a prescription without seeing the doctor?", a: "A **consultation with the doctor is required** for any prescription (Japanese law does not allow medication to be prescribed without an examination). If your condition is stable, we will **continue your prescription after a short consultation**. If it is hard for you to come in, **online consultations** will also be available after opening. With an online consultation, you can either (1) receive medication guidance from a pharmacy online and have your medication **delivered to your home**, or (2) have the prescription sent to a pharmacy of your choice and **pick it up there**. For option (2), a prescription is **valid for 4 days, including the day it is issued**, so please visit the pharmacy within that period. For first-time patients, online consultations have limits on the types of medication and the number of days that can be prescribed." },
-      { q: "May I use the restroom before my consultation?", a: "**Of course**, please do not hesitate if you cannot wait. However, a **urine test** may be needed for some patients — for example, those with abdominal, back or flank pain (such as when a kidney or ureteral stone is suspected), or those being treated for high blood pressure or high uric acid. **Please let the reception desk know** before you go." },
-      { q: "Can I see a doctor in English? Do you have English-speaking staff?", a: "Yes. **Our director can see patients in English.** If you would like a consultation in English, please let us know." },
-      { q: "Do you offer self-pay (non-insured) treatments?", a: "Yes. In addition to insured care, we plan to offer **self-pay (non-insured) treatments** after opening, including GLP-1 medical weight loss, AGA treatment (male pattern hair loss), FAGA treatment (female hair thinning), LOH syndrome / TRT (testosterone replacement therapy), ED treatment and steroid injections for hay fever. Self-pay treatments are not covered by health insurance, and the full cost is paid by the patient. The **standard costs and main risks and side effects** of each treatment are listed on our Pricing page and on each treatment page. We start with a consultation with the doctor." },
+    intro: "Other questions that are not covered on our other pages. For anything else, please feel free to contact us via LINE or phone.",
+    pagesHeading: "Appointments, fees and access are covered on these pages",
+    pageLinks: [
+      { label: "Your first visit (booking, what to bring, payment, insurance)", href: "/first-visit" },
+      { label: "If you have a fever", href: "/first-visit#fever" },
+      { label: "Fees (vaccinations, medical certificates, etc.)", href: "/pricing" },
+      { label: "Access (parking, bus, pharmacy)", href: "/#access" },
+      { label: "Services (children, health checkups, self-pay care)", href: "/services" },
     ],
+    categories: FAQ_CATEGORIES_EN,
   },
   tokushoho: {
     eyebrow: "Legal",

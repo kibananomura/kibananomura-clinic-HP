@@ -9,7 +9,7 @@ import LineLink from "../components/LineLink";
 import InlineRichText from "../components/InlineRichText";
 import { useSite } from "../lib/site";
 
-// 各質問に faq-1, faq-2… のIDを付け、/faq#faq-3 のようなリンク（チャットボットの案内など）で
+// 各質問に faq-data.ts の id を付け、/faq#online-consultation のようなリンク（キバナビの案内など）で
 // 開いた状態のまま、その質問の位置へ移動できるようにする
 function FaqItem({ id, q, a }: { id: string; q: string; a: string }) {
   const [open, setOpen] = useState(false);
@@ -83,11 +83,56 @@ export default function FaqPageClient() {
           </p>
         </FadeIn>
 
-        <FadeIn delay={0.08} className="mx-auto mt-12 max-w-3xl space-y-3">
-          {faq.items.map((item, i) => (
-            <FaqItem key={item.q} id={`faq-${i + 1}`} q={item.q} a={item.a} />
+        {/* 予約・料金・アクセスなど、各ページで案内している内容へのリンク */}
+        <FadeIn delay={0.07} className="mx-auto mt-10 max-w-3xl">
+          <div className="rounded-[1.75rem] bg-surface/90 p-6 shadow-card sm:p-7">
+            <h2 className="text-[15px] font-bold text-primary-dark">{faq.pagesHeading}</h2>
+            <ul className="mt-4 grid gap-2 sm:grid-cols-2">
+              {faq.pageLinks.map((link) => (
+                <li key={link.href}>
+                  <Link
+                    href={link.href}
+                    className="flex items-center justify-between gap-2 rounded-xl bg-accent/70 px-4 py-3 text-sm font-bold text-primary-dark transition-colors hover:bg-accent"
+                  >
+                    {link.label}
+                    <span aria-hidden="true">→</span>
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+        </FadeIn>
+
+        {/* カテゴリーへのジャンプ */}
+        <FadeIn delay={0.08} className="mx-auto mt-10 flex max-w-3xl flex-wrap justify-center gap-2">
+          {faq.categories.map((category) => (
+            <a
+              key={category.id}
+              href={`#category-${category.id}`}
+              className="rounded-full border border-primary/30 bg-surface/80 px-4 py-1.5 text-sm font-bold text-primary-dark transition-colors hover:bg-accent"
+            >
+              {category.title}
+            </a>
           ))}
         </FadeIn>
+
+        <div className="mx-auto mt-8 max-w-3xl space-y-10">
+          {faq.categories.map((category) => (
+            <FadeIn key={category.id}>
+              <section id={`category-${category.id}`} className="scroll-mt-28">
+                <h2 className="mb-4 flex items-center gap-2 text-lg font-bold text-ink">
+                  <span className="h-5 w-1.5 rounded-full bg-primary" aria-hidden="true" />
+                  {category.title}
+                </h2>
+                <div className="space-y-3">
+                  {category.items.map((item) => (
+                    <FaqItem key={item.id} id={item.id} q={item.q} a={item.a} />
+                  ))}
+                </div>
+              </section>
+            </FadeIn>
+          ))}
+        </div>
 
         {/* 施設担当者向け導線 */}
         <FadeIn delay={0.15} className="mx-auto mt-12 max-w-3xl">

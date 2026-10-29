@@ -10,6 +10,7 @@ import InlineRichText from "../components/InlineRichText";
 export default function FirstVisitPageClient() {
   const { t } = useSite();
   const fv = t.firstVisit;
+  const fever = t.feverVisit;
 
   return (
     <section className="section-pad relative overflow-hidden bg-cream page-top">
@@ -46,6 +47,41 @@ export default function FirstVisitPageClient() {
             </FadeIn>
           ))}
         </div>
+
+        {/* 発熱・感染症の症状がある方へ（/first-visit#fever。よくある質問・キバナビから直接案内する） */}
+        <FadeIn delay={0.08} className="mt-10">
+          <div id="fever" className="scroll-mt-28 rounded-[1.75rem] border-2 border-primary/30 bg-surface/90 p-7 shadow-card sm:p-9">
+            <h2 className="flex items-center gap-2 text-lg font-bold text-primary-dark">
+              <span aria-hidden="true">🌡️</span>
+              {fever.heading}
+            </h2>
+            <p className="mt-4 text-[15px] leading-relaxed text-ink/80">
+              <InlineRichText text={fever.intro} />
+            </p>
+            <ol className="mt-5 space-y-3">
+              {fever.steps.map((step, i) => (
+                <li key={step} className="flex gap-3 text-[15px] leading-relaxed text-ink/80">
+                  <span className="flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-primary text-xs font-bold text-white">
+                    {i + 1}
+                  </span>
+                  <span>
+                    <InlineRichText text={step} />
+                  </span>
+                </li>
+              ))}
+            </ol>
+            <ul className="mt-5 space-y-2 border-t border-accent pt-4">
+              {fever.notes.map((note) => (
+                <li key={note} className="flex gap-3 text-sm leading-relaxed text-ink/75">
+                  <span className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-primary" aria-hidden="true" />
+                  <span>
+                    <InlineRichText text={note} />
+                  </span>
+                </li>
+              ))}
+            </ul>
+          </div>
+        </FadeIn>
 
         {/* 持ち物 */}
         <FadeIn delay={0.1} className="mt-10">
@@ -87,7 +123,9 @@ export default function FirstVisitPageClient() {
               {fv.notes.map((note) => (
                 <li key={note} className="flex gap-3 text-[15px] text-ink/80">
                   <span className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-primary" aria-hidden="true" />
-                  <InlineRichText text={note} />
+                  <span>
+                    <InlineRichText text={note} />
+                  </span>
                 </li>
               ))}
             </ul>

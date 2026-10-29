@@ -74,10 +74,10 @@ const BASIC_INFO: KnowledgeChunk = {
 function buildChunks(): KnowledgeChunk[] {
   const chunks: KnowledgeChunk[] = [BASIC_INFO, ...SITE_TEXT_CHUNKS];
 
-  // よくある質問は、該当する質問の位置へ直接案内する（app/faq/FaqPageClient.tsx の faq-1, faq-2… と対応）
-  FAQ_ITEMS_JA.forEach((item, i) => {
-    chunks.push({ title: `よくある質問：${item.q}`, url: `/faq#faq-${i + 1}`, text: plain(`Q. ${item.q}\nA. ${item.a}`) });
-  });
+  // よくある質問は、該当する質問の位置へ直接案内する（id は faq-data.ts。予約・支払い・アクセス等は各ページの本文側）
+  for (const item of FAQ_ITEMS_JA) {
+    chunks.push({ title: `よくある質問：${item.q}`, url: `/faq#${item.id}`, text: plain(`Q. ${item.q}\nA. ${item.a}`) });
+  }
 
   for (const d of DISEASES) {
     const body = [d.summary, d.pathology, `検査：${d.tests}`, `治療：${d.treatment}`, `一口メモ：${d.tip}`].join("\n");
@@ -170,11 +170,15 @@ function idf(gram: string): number {
  */
 const TOPIC_RULES: { keywords: RegExp; titles: string[] }[] = [
   { keywords: /院長|先生|医師|ドクター|経歴|出身|学歴|専門医|資格/, titles: ["院長紹介"] },
-  { keywords: /駐車|アクセス|場所|住所|行き方|バス|駅/, titles: ["アクセス"] },
-  { keywords: /初診|持ち物|保険証|受診の流れ/, titles: ["初診の方へ"] },
-  { keywords: /熱|発熱/, titles: ["よくある質問：熱があるときは、どのように受診すればいいですか？"] },
-  { keywords: /英語|english/i, titles: ["よくある質問：英語で診察を受けられますか？"] },
-  { keywords: /自由診療|自費|保険外|保険がきかない|保険が効かない|self-pay/i, titles: ["よくある質問：自由診療（自費診療）も行っていますか？"] },
+  { keywords: /駐車|駐輪|自転車|バイク|アクセス|場所|住所|行き方|バス|駅|薬局|バリアフリー|車いす|車椅子/, titles: ["アクセス"] },
+  {
+    keywords: /初診|持ち物|保険証|マイナ|医療証|医療費助成|受診の流れ|予約|キャンセル|待ち時間|順番|支払|クレジット|カード|トイレ|おしっこ|英語|english/i,
+    titles: ["初診の方へ"],
+  },
+  { keywords: /熱|発熱|インフル|コロナ|感染/, titles: ["発熱・感染症の症状がある方へ"] },
+  { keywords: /自由診療|自費|保険外|保険がきかない|保険が効かない|self-pay/i, titles: ["診療案内（詳細）"] },
+  { keywords: /健診|検診|健康診断|ドック/, titles: ["診療案内"] },
+  { keywords: /料金|いくら|費用|値段|円|予防接種|ワクチン|診断書|血液型|粉瘤|脂肪腫/, titles: ["料金のご案内"] },
   { keywords: /薬だけ|お薬だけ|処方だけ|prescription/i, titles: ["よくある質問：お薬だけ出してもらえますか？"] },
   { keywords: /給与|給料|月給|時給|求人|採用|募集|働き|看護師|事務|パート|賞与|ボーナス|技師|栄養士/, titles: ["採用情報：共通の雇用条件"] },
   { keywords: /看護/, titles: ["採用情報：看護師"] },
@@ -212,6 +216,7 @@ export function searchKnowledge(query: string, limit = 5, maxChars = 5000): Know
   for (const rule of TOPIC_RULES) {
     if (!rule.keywords.test(query)) continue;
     for (const chunk of CHUNKS) {
+      if (total + chunk.text.length > maxChars) continue;
       if (rule.titles.includes(chunk.title) && !picked.includes(chunk)) {
         picked.push(chunk);
         total += chunk.text.length;

@@ -24,6 +24,7 @@ const SECTIONS = {
   access: { title: "アクセス", url: "/#access" },
   pricing: { title: "料金のご案内", url: "/pricing" },
   firstVisit: { title: "初診の方へ", url: "/first-visit" },
+  feverVisit: { title: "発熱・感染症の症状がある方へ", url: "/first-visit#fever" },
   news: { title: "お知らせ", url: "/news" },
 };
 

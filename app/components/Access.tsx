@@ -68,6 +68,12 @@ export default function Access() {
                     {t.access.parkingValue}
                   </dd>
                 </div>
+                {t.access.details.map((d) => (
+                  <div key={d.label}>
+                    <dt className="text-sm font-bold text-primary-dark">{d.label}</dt>
+                    <dd className="mt-1 text-[15px] leading-relaxed text-ink/80">{d.value}</dd>
+                  </div>
+                ))}
                 <div>
                   <dt className="text-sm font-bold text-primary-dark">
                     {t.access.openLabel}
