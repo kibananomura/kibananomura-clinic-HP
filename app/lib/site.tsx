@@ -1663,7 +1663,7 @@ const en: SiteDict = {
       { q: "Do I need an appointment?", a: "We plan to operate on an **appointment-priority basis**, with bookings available by phone, online or LINE (from opening day). Walk-ins will also be accepted, but appointments are prioritised." },
       { q: "How do I cancel or change my appointment?", a: "To cancel or change an appointment, please call **the clinic phone number, which will be set up in the future**. We will announce the number on this website as soon as it is decided." },
       { q: "How long is the wait?", a: "We will make full use of **medical digital tools** such as online pre-visit questionnaires and our booking system to keep waiting times as short as possible. We appreciate your understanding if you do have to wait." },
-      { q: "Can I pay by credit card?", a: "Yes. In addition to cash, **credit cards** are accepted (after opening). Please note that QR code payments are not accepted." },
+      { q: "Can I pay by credit card?", a: "Yes. In addition to cash, **credit cards** are accepted (after opening)." },
       { q: "Can I use my My Number insurance card?", a: "Yes. The **My Number insurance card** can be used (after opening)." },
       { q: "Can I use the children's medical expense subsidy?", a: "Yes. Please bring your **child medical expense certificate** or other medical certificates when you visit." },
       { q: "Is there a nursing room or a place to change diapers?", a: "We do not have a dedicated nursing room, but we can show you to **an available consultation room** or our **wheelchair-accessible restroom**. Please just ask our staff." },
