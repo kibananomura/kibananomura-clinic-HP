@@ -276,7 +276,8 @@ export interface SiteDict {
     intro: string;
     /** 予約・料金・アクセスなど、よくある質問から各ページへ案内するリンク */
     pagesHeading: string;
-    pageLinks: { label: string; href: string }[];
+    /** tone: "fever" は発熱の受診方法（予約制）。初診の方へページの発熱の枠と同じ暖色で出す */
+    pageLinks: { label: string; href: string; tone?: "fever" }[];
     categories: FaqCategory[];
   };
   tokushoho: {
@@ -1003,7 +1004,7 @@ const ja: SiteDict = {
     pagesHeading: "予約・料金・アクセスなどは、こちらのページでご案内しています",
     pageLinks: [
       { label: "初診の方へ（予約・持ち物・支払い・保険証）", href: "/first-visit" },
-      { label: "熱があるときの受診方法（予約制）", href: "/first-visit#fever" },
+      { label: "熱があるときの受診方法（予約制）", href: "/first-visit#fever", tone: "fever" },
       { label: "料金について（予防接種・診断書など）", href: "/pricing" },
       { label: "保険診療の自己負担（1〜3割・子ども医療費）", href: "/insurance" },
       { label: "アクセス（駐車場・バス・薬局）", href: "/#access" },
@@ -1738,7 +1739,7 @@ const en: SiteDict = {
     pagesHeading: "Appointments, fees and access are covered on these pages",
     pageLinks: [
       { label: "Your first visit (booking, what to bring, payment, insurance)", href: "/first-visit" },
-      { label: "If you have a fever (appointment only)", href: "/first-visit#fever" },
+      { label: "If you have a fever (appointment only)", href: "/first-visit#fever", tone: "fever" },
       { label: "Fees (vaccinations, medical certificates, etc.)", href: "/pricing" },
       { label: "Out-of-pocket costs for insured care (10–30%, children's subsidies)", href: "/insurance" },
       { label: "Access (parking, bus, pharmacy)", href: "/#access" },

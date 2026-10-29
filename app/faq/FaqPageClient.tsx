@@ -92,7 +92,11 @@ export default function FaqPageClient() {
                 <li key={link.href}>
                   <Link
                     href={link.href}
-                    className="flex items-center justify-between gap-2 rounded-xl bg-accent/70 px-4 py-3 text-sm font-bold text-primary-dark transition-colors hover:bg-accent"
+                    className={
+                      link.tone === "fever"
+                        ? "flex items-center justify-between gap-2 rounded-xl border border-blossom bg-orange-50 px-4 py-3 text-sm font-bold text-orange-800 transition-colors hover:bg-orange-100"
+                        : "flex items-center justify-between gap-2 rounded-xl bg-accent/70 px-4 py-3 text-sm font-bold text-primary-dark transition-colors hover:bg-accent"
+                    }
                   >
                     {link.label}
                     <span aria-hidden="true">→</span>
