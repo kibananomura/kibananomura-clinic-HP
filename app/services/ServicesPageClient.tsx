@@ -116,11 +116,30 @@ export default function ServicesPageClient() {
           </p>
         </FadeIn>
 
+        {/* ページ内の目次（メニューの「診療案内」から来た方が、見たい診療科へすぐ移れるように） */}
+        <FadeIn delay={0.07}>
+          <nav className="mx-auto mt-8 flex max-w-3xl flex-wrap justify-center gap-2">
+            {[
+              ...t.services.details.map((dept, i) => ({ href: `#dept-${i}`, label: dept.title })),
+              { href: "#selfpay", label: t.servicesPage.selfpayHeading },
+              { href: "#schedule", label: t.servicesPage.scheduleHeading },
+            ].map((item) => (
+              <a
+                key={item.href}
+                href={item.href}
+                className="rounded-full border border-primary/25 bg-surface px-4 py-2 text-sm font-bold text-primary-dark shadow-sm transition-colors hover:border-primary hover:bg-accent"
+              >
+                {item.label}
+              </a>
+            ))}
+          </nav>
+        </FadeIn>
+
         {/* 診療科ごとの詳細 */}
         <div className="mt-12 space-y-6">
           {t.services.details.map((dept, i) => (
             <FadeIn key={dept.title} delay={Math.min(i * 0.07, 0.25)}>
-              <article className="overflow-hidden rounded-[1.75rem] bg-surface/90 shadow-card">
+              <article id={`dept-${i}`} className="scroll-mt-44 overflow-hidden rounded-[1.75rem] bg-surface/90 shadow-card">
                 <div className="flex items-center gap-3 border-b border-accent bg-accent/30 px-7 py-5">
                   <span className="flex h-11 w-11 shrink-0 items-center justify-center rounded-2xl bg-primary/10 text-primary">
                     {DEPT_ICONS[i]}
@@ -184,7 +203,7 @@ export default function ServicesPageClient() {
 
         {/* 自費診療 */}
         <FadeIn delay={0.1} className="mt-14">
-          <div className="rounded-[1.75rem] bg-surface/90 p-7 shadow-card sm:p-9">
+          <div id="selfpay" className="scroll-mt-44 rounded-[1.75rem] bg-surface/90 p-7 shadow-card sm:p-9">
             <div className="flex items-center gap-3">
               <span className="rounded-full bg-primary-light px-3 py-1 text-xs font-bold text-white">
                 {t.services.selfpayBadge}
@@ -266,7 +285,7 @@ export default function ServicesPageClient() {
 
         {/* 受付時間 */}
         <FadeIn delay={0.14} className="mt-6">
-          <div className="rounded-[1.75rem] bg-surface/90 p-7 shadow-card sm:p-9">
+          <div id="schedule" className="scroll-mt-44 rounded-[1.75rem] bg-surface/90 p-7 shadow-card sm:p-9">
             <h2 className="text-lg font-bold text-ink">
               {t.servicesPage.scheduleHeading}
             </h2>

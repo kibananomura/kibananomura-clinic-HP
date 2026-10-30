@@ -33,7 +33,7 @@ export default function PrivacyPageClient() {
           <div className="mt-8 space-y-8">
             {t.privacy.sections.map((section, i) => (
               <FadeIn key={section.title} delay={Math.min(i * 0.04, 0.2)}>
-                <div id={section.id} className="scroll-mt-28">
+                <div id={section.id} className="scroll-mt-44">
                   <h2 className="text-base font-bold text-primary-dark sm:text-lg">
                     {section.title}
                   </h2>

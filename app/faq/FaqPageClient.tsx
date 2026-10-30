@@ -26,7 +26,7 @@ function FaqItem({ id, q, a }: { id: string; q: string; a: string }) {
   }, [id]);
 
   return (
-    <div id={id} className="scroll-mt-28 overflow-hidden rounded-2xl bg-surface/90 shadow-card">
+    <div id={id} className="scroll-mt-44 overflow-hidden rounded-2xl bg-surface/90 shadow-card">
       <button
         type="button"
         onClick={() => setOpen((v) => !v)}
@@ -123,7 +123,7 @@ export default function FaqPageClient() {
         <div className="mx-auto mt-8 max-w-3xl space-y-10">
           {faq.categories.map((category) => (
             <FadeIn key={category.id}>
-              <section id={`category-${category.id}`} className="scroll-mt-28">
+              <section id={`category-${category.id}`} className="scroll-mt-44">
                 <h2 className="mb-4 flex items-center gap-2 text-lg font-bold text-ink">
                   <span className="h-5 w-1.5 rounded-full bg-primary" aria-hidden="true" />
                   {category.title}

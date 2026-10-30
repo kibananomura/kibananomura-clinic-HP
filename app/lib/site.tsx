@@ -315,7 +315,7 @@ const ja: SiteDict = {
   nav: [
     { href: "/#director", label: "院長紹介" },
     { href: "/blog", label: "院長ブログ" },
-    { href: "/#services", label: "診療案内" },
+    { href: "/services", label: "診療案内" },
     { href: "/symptoms", label: "症状から調べる" },
     { href: "/diseases", label: "病気について調べる" },
     { href: "/faq", label: "よくある質問" },
@@ -1091,7 +1091,7 @@ const en: SiteDict = {
   nav: [
     { href: "/#director", label: "Director" },
     { href: "/blog", label: "Blog" },
-    { href: "/#services", label: "Services" },
+    { href: "/services", label: "Services" },
     { href: "/symptoms", label: "Find by Symptom" },
     { href: "/faq", label: "FAQ" },
     { href: "/first-visit", label: "First Visit" },

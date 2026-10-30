@@ -68,7 +68,7 @@ export default function InsurancePageClient() {
 
           {/* 子ども医療費助成 */}
           <FadeIn>
-            <section id="children" className="scroll-mt-28 rounded-[1.75rem] bg-surface/90 p-7 shadow-card sm:p-9">
+            <section id="children" className="scroll-mt-44 rounded-[1.75rem] bg-surface/90 p-7 shadow-card sm:p-9">
               <h2 className="text-lg font-bold text-primary-dark">{c.childHeading}</h2>
               <p className="mt-4 text-[15px] leading-relaxed text-ink/80">{c.childIntro}</p>
               <div className="mt-6 space-y-4">

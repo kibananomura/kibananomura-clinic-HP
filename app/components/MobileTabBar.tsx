@@ -19,7 +19,7 @@ export default function MobileTabBar() {
       aria-label={t.hero.ctaGuide}
     >
       <Link
-        href="/#services"
+        href="/services"
         className="flex flex-col items-center justify-center gap-1.5 py-3.5 text-ink/80 transition-colors active:bg-accent/60"
       >
         <svg viewBox="0 0 24 24" className="h-7 w-7" fill="none" stroke="currentColor" strokeWidth="1.8" aria-hidden="true">

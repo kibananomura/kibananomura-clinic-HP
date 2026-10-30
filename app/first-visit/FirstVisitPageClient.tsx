@@ -52,7 +52,7 @@ export default function FirstVisitPageClient() {
         {/* 発熱・感染症の症状がある方へ（/first-visit#fever。よくある質問・キバナビから直接案内する） */}
         <FadeIn delay={0.08} className="mt-10">
           {/* 予約制であることが一目で分かるよう、ほかのカード（緑）と違う暖色にしている */}
-          <div id="fever" className="scroll-mt-28 rounded-[1.75rem] border-2 border-blossom bg-orange-50/60 p-7 shadow-card sm:p-9">
+          <div id="fever" className="scroll-mt-44 rounded-[1.75rem] border-2 border-blossom bg-orange-50/60 p-7 shadow-card sm:p-9">
             <h2 className="flex flex-wrap items-center gap-2 text-lg font-bold text-orange-800">
               <span aria-hidden="true">🌡️</span>
               {fever.heading}
