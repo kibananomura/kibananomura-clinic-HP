@@ -727,7 +727,7 @@ const ja: SiteDict = {
       button: "contact@kibananomura.jp 宛にメールする",
     },
     requestNote: {
-      body: "「〇〇をテーマにブログを書いてほしい」などのご要望があれば、キバナビにお気軽にお寄せください。院長にお伝えします。",
+      body: "「〇〇をテーマにブログを書いてほしい」などのご要望があれば、キバナビにお気軽にお寄せください。院長にお伝えします。どなたからのご要望かが院長に伝わることはありませんので、安心してどうぞ。",
       button: "キバナビにリクエストする",
     },
   },
@@ -1506,7 +1506,7 @@ const en: SiteDict = {
       button: "Email contact@kibananomura.jp",
     },
     requestNote: {
-      body: "If there's a topic you'd like our director to write about, just let Kibanavi know. We'll pass it on to our director.",
+      body: "If there's a topic you'd like our director to write about, just let Kibanavi know. We'll pass it on to our director. Your identity is never shared with our director, so please feel free.",
       button: "Send a request to Kibanavi",
     },
   },
