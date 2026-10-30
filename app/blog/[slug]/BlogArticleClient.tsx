@@ -9,6 +9,7 @@ import { useSite } from "../../lib/site";
 import { getPost, getContent, getAdjacentPosts } from "../../lib/blog";
 import type { RelatedLink } from "../../lib/related-content";
 import { withWbr } from "../../lib/jp-break";
+import BlogRequestNote from "../../components/BlogRequestNote";
 
 export default function BlogArticle({ relatedDiseases = [] }: { relatedDiseases?: RelatedLink[] }) {
   const { t, lang } = useSite();
@@ -98,7 +99,9 @@ export default function BlogArticle({ relatedDiseases = [] }: { relatedDiseases?
             </div>
           )}
 
-          <div className="mt-12 rounded-3xl bg-surface/90 p-6 text-center shadow-card sm:p-8">
+          <BlogRequestNote className="mt-12" />
+
+          <div className="mt-6 rounded-3xl bg-surface/90 p-6 text-center shadow-card sm:p-8">
             <p className="text-base font-bold text-ink">
               {t.blog.contactCta.heading}
             </p>

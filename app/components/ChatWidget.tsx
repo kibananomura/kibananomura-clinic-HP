@@ -4,6 +4,7 @@ import { useEffect, useRef, useState, type FormEvent } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { useSite } from "../lib/site";
+import { OPEN_CHAT_EVENT } from "./chat-events";
 
 /**
  * HP案内チャットボット「キバナビ」（右下のボタンから開くチャット窓）。
@@ -66,6 +67,13 @@ export default function ChatWidget() {
   useEffect(() => {
     bottomRef.current?.scrollIntoView({ behavior: "smooth", block: "end" });
   }, [turns, open]);
+
+  // ページ内のボタン（ブログのご要望など）から窓を開けるようにする
+  useEffect(() => {
+    const openChat = () => setOpen(true);
+    window.addEventListener(OPEN_CHAT_EVENT, openChat);
+    return () => window.removeEventListener(OPEN_CHAT_EVENT, openChat);
+  }, []);
 
   async function ask(q: string) {
     const text = q.trim();

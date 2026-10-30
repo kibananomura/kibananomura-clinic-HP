@@ -82,12 +82,20 @@ const SYSTEM_PROMPT = `# 役割と目的
    - 体調が悪いという相談では、ルール2の受診先の案内を先に書き、ページの案内はその後に添えてください。
 
 11. 公式LINEからのご質問
-   - <channel>line</channel> と書かれているときは、公式LINEのトーク画面でお答えしています。お問い合わせ先を案内するときは「LINE公式アカウントから」ではなく、「『キバナビを終了』を押してから、このトークでスタッフにメッセージをお送りください」と案内してください。`;
+   - <channel>line</channel> と書かれているときは、公式LINEのトーク画面でお答えしています。お問い合わせ先を案内するときは「LINE公式アカウントから」ではなく、「『キバナビを終了』を押してから、このトークでスタッフにメッセージをお送りください」と案内してください。
+
+12. ブログの題材のご要望
+   - 「〇〇についてブログを書いてほしい」「〇〇を記事にしてほしい」など、院長ブログで取り上げてほしい題材のご要望をいただいたときは、ご要望へのお礼を述べ、院長に伝えることをお伝えしてください（必ず記事にできるとは限らないことも、やわらかく添えてください）。ページの案内は『院長ブログ』だけで十分です。
+   - そのときに限り、回答のいちばん最後に <blog_request>ご要望の題材を20字程度で要約したもの</blog_request> を付けてください。この部分はシステムが取り除くので、画面には表示されません。ブログの題材のご要望でないときは、絶対に付けないでください。`;
 
 const client = new Anthropic();
 
 const NO_ANSWER_MARKERS = ["記載が見つかりませんでした", "couldn't find", "could not find", "does not mention", "not mentioned", "no information"];
 const EMERGENCY_MARKERS = ["119", "#7119"];
+
+// ブログの題材のご要望（モデルが <blog_request> を付け忘れたときの予備の判定）
+const BLOG_REQUEST_PATTERN = /(ブログ|記事).{0,20}(書いて|書いてほしい|書いてください|取り上げて|ネタ|題材)|(write|blog post).{0,20}(about|on)\b/i;
+const BLOG_REQUEST_TAG = /<blog_request>([\s\S]*?)<\/blog_request>/;
 
 // 症状・病気・健康の話題かどうかの目安（当てはまれば、回答の下に症状・疾患・ブログの一覧ページを添える）
 const HEALTH_TOPIC =
@@ -154,6 +162,23 @@ async function logQa(entry: LogEntry) {
     if (!res.ok) console.error("chatbot log failed", res.status);
   } catch (error) {
     console.error("chatbot log failed", error);
+  }
+}
+
+/** ブログの題材のご要望を記録する（blog_requests。追加されると院長のLINE秘書に届く） */
+async function logBlogRequest(topic: string, question: string, channel: Channel) {
+  const url = process.env.CHATBOT_LOG_SUPABASE_URL;
+  const key = process.env.CHATBOT_LOG_SUPABASE_KEY;
+  if (!url || !key) return;
+  try {
+    const res = await fetch(`${url}/rest/v1/rpc/log_blog_request`, {
+      method: "POST",
+      headers: { "Content-Type": "application/json", apikey: key, Authorization: `Bearer ${key}` },
+      body: JSON.stringify({ p_topic: mask(topic), p_question: mask(question), p_channel: channel }),
+    });
+    if (!res.ok) console.error("blog request log failed", res.status);
+  } catch (error) {
+    console.error("blog request log failed", error);
   }
 }
 
@@ -289,10 +314,16 @@ export async function answerQuestion(
     return { answer, sources: [], usage: response.usage };
   }
 
-  const answer = response.content
+  const rawAnswer = response.content
     .map((block) => (block.type === "text" ? block.text : ""))
     .join("")
     .trim();
+  // ブログの題材のご要望なら、目印（<blog_request>）を取り除いて院長に届ける
+  const blogTopic = rawAnswer.match(BLOG_REQUEST_TAG)?.[1]?.trim();
+  const answer = rawAnswer.replace(BLOG_REQUEST_TAG, "").trim();
+  if (blogTopic || BLOG_REQUEST_PATTERN.test(question)) {
+    after(() => logBlogRequest(blogTopic || question, question, channel));
+  }
 
   const sources = orderSources(
     chunks

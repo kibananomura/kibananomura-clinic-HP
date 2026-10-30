@@ -8,6 +8,7 @@ import { SoftBlob, LeafSprig } from "../components/Decor";
 import { useSite } from "../lib/site";
 import { posts, getContent, type BlogPost } from "../lib/blog";
 import { withWbr } from "../lib/jp-break";
+import BlogRequestNote from "../components/BlogRequestNote";
 
 // カテゴリの表示順（院長ブログで実際に使われているカテゴリに対応）。
 // ここにないカテゴリの記事があった場合は、末尾に自動的にまとめて表示される。
@@ -157,6 +158,10 @@ export default function BlogPageClient() {
           <p className="mx-auto mt-6 max-w-xl text-center text-[15px] leading-relaxed text-ink/75">
             {t.blog.intro}
           </p>
+        </FadeIn>
+
+        <FadeIn delay={0.06}>
+          <BlogRequestNote className="mx-auto mt-6 max-w-xl" />
         </FadeIn>
 
         {/* カテゴリ絞り込みチップ */}
