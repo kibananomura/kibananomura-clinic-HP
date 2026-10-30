@@ -4,7 +4,6 @@ import Link from "next/link";
 import FadeIn from "./FadeIn";
 import SectionHeading from "./SectionHeading";
 import { SoftBlob, Blossom } from "./Decor";
-import BodySchema from "./BodySchema";
 import { useSite } from "../lib/site";
 import { SCHEDULE } from "../lib/schedule";
 import { PATIENT_LINK_PAGE } from "../lib/patient-links";
@@ -52,194 +51,69 @@ export default function Services() {
           <SectionHeading eyebrow={t.services.eyebrow} title={t.services.heading} />
         </FadeIn>
 
-        {lang === "ja" && (
-          <FadeIn delay={0.05}>
-            <div className="mx-auto mt-10 max-w-2xl rounded-[1.75rem] bg-surface/80 p-6">
-              <h3 className="text-center text-base font-bold text-ink">
-                気になる部位から探す
-              </h3>
-              <div className="mt-5">
-                <BodySchema size="sm" />
-              </div>
-            </div>
-          </FadeIn>
-        )}
-
-        {/* 診療科ごとの診療内容 */}
-        <div className="mt-12">
-          <h3 className="text-center text-xl font-bold text-ink sm:text-2xl">
-            {t.services.detailHeading}
-          </h3>
-          <div className="mt-8 grid gap-5 sm:grid-cols-2">
-            {t.services.details.map((d, i) => (
-              <FadeIn
-                key={d.title}
-                delay={(i % 2) * 0.1}
-                as="article"
-                className={d.wide ? "sm:col-span-2" : ""}
-              >
-                <div className="flex h-full flex-col rounded-[1.75rem] bg-surface/90 p-7 shadow-card transition-all hover:-translate-y-1 hover:shadow-soft">
-                  <div className="flex items-center gap-3 border-b border-accent pb-4">
-                    <span className="flex h-11 w-11 shrink-0 items-center justify-center rounded-2xl bg-primary/10 text-primary">
-                      {DEPT_ICONS[i]}
-                    </span>
-                    <h4 className="text-lg font-bold text-primary-dark">
-                      {d.title}
-                    </h4>
-                  </div>
-                  {d.items.length > 0 && (
-                    <ul
-                      className={`mt-5 text-[15px] leading-relaxed text-ink/80 ${
-                        d.wide ? "sm:columns-2 sm:[column-gap:2.5rem]" : ""
-                      }`}
-                    >
-                      {d.items.map((it) => (
-                        <li
-                          key={it.label}
-                          className="mb-2.5 flex break-inside-avoid gap-2.5"
-                        >
-                          <span
-                            className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-primary"
-                            aria-hidden="true"
-                          />
-                          {it.href ? (
-                            <Link
-                              href={it.href}
-                              className="font-medium text-primary-dark underline decoration-primary/30 underline-offset-2 hover:text-primary"
-                            >
-                              {it.label}
-                            </Link>
-                          ) : (
-                            <span>{it.label}</span>
-                          )}
-                        </li>
-                      ))}
-                    </ul>
-                  )}
-                  {d.note && (
-                    <p
-                      className={`text-[15px] text-ink/80 ${
-                        d.items.length === 0
-                          ? "my-auto leading-8"
-                          : "mt-5 leading-relaxed"
-                      }`}
-                    >
-                      {d.note}
-                    </p>
-                  )}
+        {/* 診療科（内科・外科・小児科）：1行の説明と代表的な症状だけを載せ、詳しくは診療案内ページへ */}
+        <div className="mt-12 grid gap-5 md:grid-cols-3">
+          {t.services.details.slice(0, 3).map((d, i) => (
+            <FadeIn key={d.title} delay={i * 0.08} as="article">
+              <div className="flex h-full flex-col rounded-[1.75rem] bg-surface/90 p-6 shadow-card transition-all hover:-translate-y-1 hover:shadow-soft sm:p-7">
+                <div className="flex items-center gap-3">
+                  <span className="flex h-11 w-11 shrink-0 items-center justify-center rounded-2xl bg-primary/10 text-primary">
+                    {DEPT_ICONS[i]}
+                  </span>
+                  <h3 className="text-lg font-bold text-primary-dark">{d.title}</h3>
                 </div>
-              </FadeIn>
-            ))}
-          </div>
-
-          <FadeIn delay={0.15} className="mt-7 text-center">
-            <Link
-              href="/diseases"
-              className="inline-flex items-center gap-1.5 rounded-full bg-surface px-5 py-2.5 text-sm font-bold text-primary-dark shadow-card transition-transform hover:scale-105"
-            >
-              {t.services.diseasesLink}
-            </Link>
-          </FadeIn>
+                <p className="mt-4 text-[15px] leading-relaxed text-ink/75">{t.services.deptSummaries[i]}</p>
+                <ul className="mt-4 flex flex-wrap gap-2">
+                  {d.items.slice(0, 3).map((it) =>
+                    it.href ? (
+                      <li key={it.label}>
+                        <Link
+                          href={it.href}
+                          className="inline-block rounded-full border border-primary/20 bg-accent/40 px-3 py-1.5 text-sm font-medium text-ink/80 transition-colors hover:border-primary/40 hover:bg-accent"
+                        >
+                          {it.label}
+                        </Link>
+                      </li>
+                    ) : null
+                  )}
+                </ul>
+                <Link
+                  href={`/services#dept-${i}`}
+                  className="mt-auto inline-flex items-center gap-1 pt-5 text-sm font-bold text-primary transition-colors hover:text-primary-dark"
+                >
+                  {t.services.deptMore}
+                </Link>
+              </div>
+            </FadeIn>
+          ))}
         </div>
 
-        <div className="mt-12 grid gap-5 lg:grid-cols-3">
-          <FadeIn as="article">
-            <div className="h-full rounded-[1.75rem] bg-surface/90 p-7 shadow-card transition-all hover:-translate-y-1 hover:shadow-soft">
-              <div className="flex items-center gap-3">
-                <span className="whitespace-nowrap rounded-full bg-primary px-3 py-1 text-xs font-bold text-white">
-                  {t.services.insuranceBadge}
-                </span>
-                <h3 className="text-lg font-bold text-ink">
-                  {t.services.insuranceTitle}
-                </h3>
-              </div>
-              <p className="mt-4 text-[15px] leading-relaxed text-ink/75">
-                {t.services.insuranceBody}
-              </p>
-              <ul className="mt-5 flex flex-wrap gap-2">
-                {t.services.insuranceTags.map((tag) => (
-                  <li
-                    key={tag}
-                    className="whitespace-nowrap rounded-full bg-accent px-3 py-1.5 text-sm font-medium text-primary-dark"
-                  >
-                    {tag}
-                  </li>
-                ))}
-              </ul>
+        {/* 各ページへの入口：同じ大きさのカードで並べる */}
+        <div className="mt-6 grid gap-5 sm:grid-cols-2">
+          {t.services.hubs.map((hub, i) => (
+            <FadeIn key={hub.href} delay={(i % 2) * 0.08} as="article">
               <Link
-                href="/equipment"
-                className="mt-5 inline-flex items-center gap-1 text-sm font-bold text-primary transition-colors hover:text-primary-dark"
+                href={hub.href}
+                className="group flex h-full flex-col rounded-[1.75rem] bg-surface/90 p-6 shadow-card transition-all hover:-translate-y-1 hover:shadow-soft sm:p-7"
               >
-                {t.services.equipmentLink}
-              </Link>
-            </div>
-          </FadeIn>
-
-          <FadeIn as="article" delay={0.1}>
-            <div className="h-full rounded-[1.75rem] bg-surface/90 p-7 shadow-card transition-all hover:-translate-y-1 hover:shadow-soft">
-              <div className="flex items-center gap-3">
-                <span className="whitespace-nowrap rounded-full bg-primary-light px-3 py-1 text-xs font-bold text-white">
-                  {t.services.selfpayBadge}
-                </span>
-                <h3 className="text-lg font-bold text-ink">
-                  {t.services.selfpayTitle}
-                </h3>
-              </div>
-              <ul className="mt-4 flex flex-wrap gap-2">
-                {t.services.selfpayItems.map((item) => (
-                  <li key={item.slug}>
-                    <Link
-                      href={`/self-pay/${item.slug}`}
-                      className="inline-block whitespace-nowrap rounded-full border border-primary/20 bg-accent/40 px-3 py-1.5 text-sm font-medium text-ink/80 transition-colors hover:border-primary/40 hover:bg-accent"
+                <h3 className="text-lg font-bold text-ink">{hub.title}</h3>
+                <p className="mt-2 text-[15px] leading-relaxed text-ink/75">{hub.body}</p>
+                <ul className="mt-4 flex flex-wrap gap-2">
+                  {hub.tags.map((tag) => (
+                    <li
+                      key={tag}
+                      className="whitespace-nowrap rounded-full bg-accent px-3 py-1.5 text-sm font-medium text-primary-dark"
                     >
-                      {item.label}
-                    </Link>
-                  </li>
-                ))}
-                <li className="rounded-full px-3 py-1.5 text-sm text-muted">
-                  {t.services.selfpayMore}
-                </li>
-              </ul>
-              <Link
-                href="/pricing"
-                className="mt-5 inline-flex items-center gap-1 text-sm font-bold text-primary transition-colors hover:text-primary-dark"
-              >
-                {t.services.pricingLink}
-              </Link>
-            </div>
-          </FadeIn>
-
-          <FadeIn as="article" delay={0.15}>
-            <div className="h-full rounded-[1.75rem] bg-surface/90 p-7 shadow-card transition-all hover:-translate-y-1 hover:shadow-soft">
-              <div className="flex items-center gap-3">
-                <span className="whitespace-nowrap rounded-full bg-blossom px-3 py-1 text-xs font-bold text-white">
-                  {t.services.checkupsBadge}
+                      {tag}
+                    </li>
+                  ))}
+                </ul>
+                <span className="mt-auto pt-5 text-sm font-bold text-primary transition-colors group-hover:text-primary-dark">
+                  {hub.link}
                 </span>
-                <h3 className="text-lg font-bold text-ink">
-                  {t.services.checkupsTitle}
-                </h3>
-              </div>
-              <p className="mt-4 text-[15px] leading-relaxed text-ink/75">
-                {t.services.checkupsBody}
-              </p>
-              <ul className="mt-5 flex flex-wrap gap-2">
-                {t.services.checkupsTags.map((tag) => (
-                  <li
-                    key={tag}
-                    className="whitespace-nowrap rounded-full bg-accent px-3 py-1.5 text-sm font-medium text-primary-dark"
-                  >
-                    {tag}
-                  </li>
-                ))}
-              </ul>
-              <Link
-                href="/checkups"
-                className="mt-5 inline-flex items-center gap-1 text-sm font-bold text-primary transition-colors hover:text-primary-dark"
-              >
-                {t.services.checkupsLink}
               </Link>
-            </div>
-          </FadeIn>
+            </FadeIn>
+          ))}
         </div>
 
         <FadeIn delay={0.15} className="mt-6">

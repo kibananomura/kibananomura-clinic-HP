@@ -3,8 +3,8 @@
 import FadeIn from "./FadeIn";
 import SectionHeading from "./SectionHeading";
 import { SoftBlob, Dots, LeafSprig } from "./Decor";
+import Link from "next/link";
 import { useSite } from "../lib/site";
-import { SCHEDULE } from "../lib/schedule";
 
 const ICON_PROPS = {
   className: "h-7 w-7",
@@ -17,9 +17,12 @@ const ICON_PROPS = {
 };
 
 const ICONS = [
+  // 01：発熱の方はお車で（車のアイコン）
   <svg key="0" viewBox="0 0 24 24" {...ICON_PROPS}>
-    <circle cx="12" cy="12" r="9" />
-    <path d="M12 7v5l3 2" />
+    <path d="M5 16V11l2-4.5h10L19 11v5" />
+    <path d="M3 16h18v2H3z" />
+    <circle cx="7.5" cy="18.5" r="1.5" />
+    <circle cx="16.5" cy="18.5" r="1.5" />
   </svg>,
   <svg key="1" viewBox="0 0 24 24" {...ICON_PROPS}>
     <path d="M3 12h4l2 5 4-12 2 7h6" />
@@ -32,11 +35,6 @@ const ICONS = [
     <path d="M12 21s-7-4.35-7-9a4 4 0 017-2.65A4 4 0 0119 12c0 4.65-7 9-7 9z" />
   </svg>,
 ];
-
-const SCHEDULE_MINI = SCHEDULE.map((day) => ({
-  am: day.am.open,
-  pm: day.pm.open,
-}));
 
 export default function Features() {
   const { t } = useSite();
@@ -53,10 +51,10 @@ export default function Features() {
           <SectionHeading eyebrow={t.features.heading} eyebrowAsTitle />
         </FadeIn>
 
-        <div className="mt-12 grid gap-5 sm:grid-cols-2 sm:items-start">
+        <div className="mt-12 grid gap-5 sm:grid-cols-2">
           {t.features.items.map((f, i) => (
             <FadeIn key={f.title} delay={(i % 2) * 0.1} as="article">
-              <div className="flex flex-col rounded-[1.75rem] bg-surface/90 p-6 shadow-card transition-all hover:-translate-y-1 hover:shadow-soft sm:p-7">
+              <div className="flex h-full flex-col rounded-[1.75rem] bg-surface/90 p-6 shadow-card transition-all hover:-translate-y-1 hover:shadow-soft sm:p-7">
                 <div className="flex items-start justify-between">
                   <div className="flex h-12 w-12 items-center justify-center rounded-2xl bg-primary/10 text-primary sm:h-14 sm:w-14">
                     {ICONS[i]}
@@ -71,28 +69,12 @@ export default function Features() {
                 </p>
 
                 {i === 0 && (
-                  <div className="mt-4 rounded-2xl bg-accent/70 p-3">
-                    <div className="grid grid-cols-5 gap-1 text-center text-xs">
-                      {SCHEDULE_MINI.map((s, di) => (
-                        <div key={di} className="space-y-1">
-                          <div className="rounded-md py-1 font-bold text-ink">
-                            {t.features.miniDays[di]}
-                          </div>
-                          <Cell on={s.am} />
-                          <Cell on={s.pm} />
-                        </div>
-                      ))}
-                    </div>
-                    <p className="mt-2 text-center text-[11px] text-muted">
-                      {t.features.miniLegendPre}
-                      <span className="font-bold text-primary-dark">
-                        {t.features.miniLegendStrong}
-                      </span>
-                    </p>
-                    <p className="mt-2 rounded-xl bg-surface/80 px-2.5 py-2 text-center text-xs font-medium leading-relaxed text-primary-dark">
-                      {t.features.weekendNote}
-                    </p>
-                  </div>
+                  <Link
+                    href="/first-visit#fever"
+                    className="mt-4 inline-flex items-center gap-1 text-sm font-bold text-primary transition-colors hover:text-primary-dark"
+                  >
+                    {t.features.feverLink}
+                  </Link>
                 )}
               </div>
             </FadeIn>
@@ -100,25 +82,5 @@ export default function Features() {
         </div>
       </div>
     </section>
-  );
-}
-
-function Cell({ on, highlight }: { on: boolean; highlight?: boolean }) {
-  if (!on) {
-    return (
-      <div className="rounded-md bg-white/60 py-1 text-muted" aria-hidden="true">
-        −
-      </div>
-    );
-  }
-  return (
-    <div
-      className={`rounded-md py-1 font-bold ${
-        highlight ? "bg-primary text-white" : "bg-white text-primary"
-      }`}
-      aria-hidden="true"
-    >
-      ●
-    </div>
   );
 }

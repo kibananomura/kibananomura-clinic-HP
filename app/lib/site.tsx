@@ -66,10 +66,8 @@ export interface SiteDict {
     eyebrow: string;
     heading: string;
     items: Titled[];
-    miniLegendPre: string;
-    miniLegendStrong: string;
-    miniDays: string[];
-    weekendNote: string;
+    /** 01（発熱の方の動線）の下に出す、受診方法へのリンク */
+    feverLink: string;
   };
   director: {
     eyebrow: string;
@@ -123,6 +121,11 @@ export interface SiteDict {
     closedNote: string;
     days: string[];
     cta: string;
+    /** トップページの「診療のご案内」：各科の1行説明（details の先頭3つと同じ順） */
+    deptSummaries: string[];
+    deptMore: string;
+    /** トップページの「診療のご案内」：各ページへの入口（同じ大きさのカードで並べる） */
+    hubs: { title: string; body: string; tags: string[]; href: string; link: string }[];
   };
   access: {
     eyebrow: string;
@@ -393,8 +396,8 @@ const ja: SiteDict = {
     heading: "診療所の4つの特徴",
     items: [
       {
-        title: "平日は毎日、午前・午後診察",
-        body: "月曜から金曜まで、毎日午前・午後とも診察します。仕事の合間・学校帰りにも、気軽に立ち寄れます。",
+        title: "発熱の方は、ほかの患者さんと分けて診察",
+        body: "発熱・感染症の症状がある方は、専用の駐車区画（5台）でお車の中のままお待ちいただき、スタッフがお車まで伺います。専用の屋外トイレも設置予定。院内でほかの患者さんと顔を合わせずに受診できます（予約制）。",
       },
       {
         title: "CTから外科処置まで、院内で対応予定",
@@ -409,10 +412,7 @@ const ja: SiteDict = {
         body: "院長もこの地域で暮らしています。開院して終わりではなく、お名前と顔を覚えて、ずっと診ていきます。",
       },
     ],
-    miniLegendPre: "上＝午前 / 下＝午後・",
-    miniLegendStrong: "平日は毎日診察",
-    miniDays: ["月", "火", "水", "木", "金"],
-    weekendNote: "★ 土・日も、院長の都合がつく日に限り外科処置専門の特別外来を開設することがあります",
+    feverLink: "熱があるときの受診方法を見る →",
   },
   director: {
     eyebrow: "院長紹介",
@@ -557,6 +557,42 @@ const ja: SiteDict = {
     closedNote: "休診：土曜・日曜・祝日（外科処置外来を除く）",
     days: ["月", "火", "水", "木", "金"],
     cta: "詳しい診療内容を見る",
+    deptSummaries: [
+      "かぜ・発熱から、胃腸・呼吸器・アレルギー、生活習慣病まで。「何科か分からない」ときの最初の窓口です。",
+      "きず・やけど、できもの、巻き爪、痔など。日帰りの外科処置にも対応します。",
+      "お子さんの急な発熱・かぜ・胃腸炎などに対応。必要なときは小児科専門医へご紹介します。",
+    ],
+    deptMore: "詳しく見る →",
+    hubs: [
+      {
+        title: "症状・部位から探す",
+        body: "気になる症状や体の部位から、考えられる原因と受診の目安を調べられます。",
+        tags: ["発熱・かぜ", "腹痛", "せき", "頭痛"],
+        href: "/symptoms",
+        link: "症状から調べる →",
+      },
+      {
+        title: "院内の検査・設備",
+        body: "CT・胃カメラ・エコーなどを院内にそろえ、気になる症状をその日のうちに調べられます。",
+        tags: ["16列CT", "胃カメラ", "エコー", "X線"],
+        href: "/equipment",
+        link: "検査・設備を見る →",
+      },
+      {
+        title: "健診・予防接種",
+        body: "健康診断・特定健診・各種がん検診と、インフルエンザ・帯状疱疹などの予防接種を行います。",
+        tags: ["特定健診", "がん検診", "人間ドック", "予防接種"],
+        href: "/checkups",
+        link: "健診・検診を見る →",
+      },
+      {
+        title: "自費診療",
+        body: "肥満治療（GLP-1）・AGA・ED治療など、保険がきかないお悩みのご相談にも応じます。",
+        tags: ["GLP-1", "AGA", "ED治療", "花粉症注射"],
+        href: "/services#selfpay",
+        link: "自費診療を見る →",
+      },
+    ],
   },
   access: {
     eyebrow: "アクセス",
@@ -1169,8 +1205,8 @@ const en: SiteDict = {
     heading: "4 features of our clinic",
     items: [
       {
-        title: "Open mornings & afternoons, every weekday",
-        body: "We see patients every weekday morning and afternoon, Monday through Friday — easy to drop by between work or after school.",
+        title: "Patients with a fever are seen separately",
+        body: "If you have a fever or possible infection, you wait in your car in a dedicated parking area (5 spaces) and our staff come out to you. An outdoor toilet just for patients with a fever is also planned, so you never have to meet other patients inside (appointment only).",
       },
       {
         title: "From CT to surgery, all in one place",
@@ -1185,10 +1221,7 @@ const en: SiteDict = {
         body: "Our director lives in Kibana. Opening is just the beginning — we'll remember your name and face, and keep caring for you.",
       },
     ],
-    miniLegendPre: "Top = AM / Bottom = PM · ",
-    miniLegendStrong: "Open every weekday",
-    miniDays: ["Mo", "Tu", "We", "Th", "Fr"],
-    weekendNote: "★ On select Saturdays and Sundays, depending on the director's availability, we may also open a special surgical procedure clinic",
+    feverLink: "How to visit when you have a fever →",
   },
   director: {
     eyebrow: "Director",
@@ -1337,6 +1370,42 @@ const en: SiteDict = {
     closedNote: "Closed: Saturdays, Sundays & holidays (except the surgical procedure clinic)",
     days: ["Mon", "Tue", "Wed", "Thu", "Fri"],
     cta: "See detailed services",
+    deptSummaries: [
+      "From colds and fevers to stomach, breathing and allergy problems and lifestyle diseases — your first point of contact when you're not sure which department to see.",
+      "Cuts, burns, lumps, ingrown nails, hemorrhoids and more. Minor day surgery is also available.",
+      "Sudden fevers, colds and stomach bugs in children. We refer you to a pediatric specialist when needed.",
+    ],
+    deptMore: "Learn more →",
+    hubs: [
+      {
+        title: "Search by symptom or body part",
+        body: "Look up possible causes and when to see a doctor, starting from your symptom or the part of the body that's bothering you.",
+        tags: ["Fever & colds", "Stomach pain", "Cough", "Headache"],
+        href: "/symptoms",
+        link: "Search by symptom →",
+      },
+      {
+        title: "Tests & equipment",
+        body: "With CT, gastroscopy and ultrasound in-house, worrying symptoms can be checked the same day.",
+        tags: ["16-row CT", "Gastroscopy", "Ultrasound", "X-ray"],
+        href: "/equipment",
+        link: "See tests & equipment →",
+      },
+      {
+        title: "Checkups & vaccinations",
+        body: "Health checkups, specific health checkups, cancer screenings, and vaccinations such as influenza and shingles.",
+        tags: ["Health checkups", "Cancer screening", "Comprehensive checkups", "Vaccinations"],
+        href: "/checkups",
+        link: "See checkups →",
+      },
+      {
+        title: "Self-pay care",
+        body: "We also offer consultations for concerns not covered by insurance, such as weight management (GLP-1), AGA and ED.",
+        tags: ["GLP-1", "AGA", "ED", "Hay fever injection"],
+        href: "/services#selfpay",
+        link: "See self-pay care →",
+      },
+    ],
   },
   access: {
     eyebrow: "Access",
