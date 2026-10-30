@@ -15,7 +15,7 @@ excerpt_en: “Your loan has been approved” — when the bank told me this, be
 
 先日、銀行から、開業のための融資が決まったという知らせをいただきました。正直に申し上げると、そのとき胸に湧いたのは、安堵よりも「いよいよだ」という身の引き締まる思いでした。
 
-この記事を読んでいただくと、日本の経済がいまどのように変わりつつあるのか、そしてその中で当院がどんな診療所を目指しているのかが分かります。結論から言うと、**金利のある時代は、「なんとなく」続ける組織が淘汰され、本気で価値を届ける組織だけが残る時代です。だからこそ当院は、覚悟と本気をもって、地域の医療に貢献する診療所をつくります。**
+そこで今回は、日本の経済がいまどのように変わりつつあるのか、そしてその中で当院がどんな診療所を目指しているのかについて説明しようと思います。結論から言うと、**金利のある時代は、「なんとなく」続ける組織が淘汰され、本気で価値を届ける組織だけが残る時代です。だからこそ当院は、覚悟と本気をもって、地域の医療に貢献する診療所をつくります。**
 
 ## 日本の経済に、いま起きている大きな変化
 
@@ -71,7 +71,7 @@ Web予約や、ホームページの案内チャットボット「キバナビ�
 
 Recently, the bank informed us that our loan for opening the clinic had been approved. To be honest, what I felt at that moment was not so much relief as a sense of resolve: this is really happening.
 
-By the end of this post, you'll understand how Japan's economy is changing right now, and what kind of clinic we are aiming to be in the middle of it. The short version: **an era with interest rates is one in which organizations that just carry on “somehow” are weeded out, and only those that truly deliver value remain. That is exactly why we are building this clinic with full commitment to contributing to local healthcare.**
+So in this post, I'd like to explain how Japan's economy is changing right now, and what kind of clinic we are aiming to be in the middle of it. The short version: **an era with interest rates is one in which organizations that just carry on “somehow” are weeded out, and only those that truly deliver value remain. That is exactly why we are building this clinic with full commitment to contributing to local healthcare.**
 
 ## A major change happening in Japan's economy
 
