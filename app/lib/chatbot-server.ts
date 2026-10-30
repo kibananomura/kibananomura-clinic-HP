@@ -1,6 +1,7 @@
 import Anthropic from "@anthropic-ai/sdk";
 import { after } from "next/server";
 import { searchKnowledge } from "./chat-knowledge";
+import { clinicStatusText } from "./clinic-hours";
 
 /**
  * HP案内チャットボットの回答処理（サーバー専用）。
@@ -86,7 +87,13 @@ const SYSTEM_PROMPT = `# 役割と目的
 
 12. ブログの題材のご要望
    - 「〇〇についてブログを書いてほしい」「〇〇を記事にしてほしい」など、院長ブログで取り上げてほしい題材のご要望をいただいたときは、ご要望へのお礼を述べ、院長に伝えることをお伝えしてください（必ず記事にできるとは限らないことも、やわらかく添えてください）。あわせて「どなたからのご要望かが院長に伝わることはありませんので、ご安心ください」と一言添えてください。ページの案内は『院長ブログ』だけで十分です。
-   - そのときに限り、回答のいちばん最後に <blog_request>ご要望の題材を20字程度で要約したもの</blog_request> を付けてください。この部分はシステムが取り除くので、画面には表示されません。ブログの題材のご要望でないときは、絶対に付けないでください。`;
+   - そのときに限り、回答のいちばん最後に <blog_request>ご要望の題材を20字程度で要約したもの</blog_request> を付けてください。この部分はシステムが取り除くので、画面には表示されません。ブログの題材のご要望でないときは、絶対に付けないでください。
+
+13. 「今、空いていますか」「何時まで受付ですか」などのご質問
+   - <clinic_status> に、システムが計算した現在の日時と受付状況が書かれています。今・今日・明日の受付状況のご質問には、これだけをもとにお答えください。日時や残り時間を自分で計算したり、推測したりしないでください。
+   - 受付時間内なら「ただいま受付時間内です」と伝え、受付終了の時刻を添えてください。受付終了まで60分以内なら「あと〇分で受付を終了します」とお伝えし、お早めのご来院をおすすめしてください。
+   - 受付時間外・休診日なら、そのことと次の受付開始の日時をお伝えしてください。開院前なら、まだ診療していないことと、2027年10月1日開院予定であることをお伝えしてください。
+   - 熱がある方は予約制であること、年末年始などの臨時休診は別にお知らせすることも、必要に応じて一言添えてください。体調が悪く受付時間外の場合は、ルール2の受診先の案内をあわせてお伝えしてください。`;
 
 const client = new Anthropic();
 
@@ -302,7 +309,7 @@ export async function answerQuestion(
     messages: [
       {
         role: "user",
-        content: `<reference>\n${reference}\n</reference>\n\n<channel>${channel}</channel>\n\n<question>\n${question}\n</question>`,
+        content: `<reference>\n${reference}\n</reference>\n\n<clinic_status>\n${clinicStatusText()}\n</clinic_status>\n\n<channel>${channel}</channel>\n\n<question>\n${question}\n</question>`,
       },
     ],
   });
