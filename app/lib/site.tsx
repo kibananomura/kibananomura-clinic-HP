@@ -16,10 +16,10 @@ import { FAQ_CATEGORIES_EN, FAQ_CATEGORIES_JA, type FaqCategory } from "./faq-da
  * （hero.supp3）とAccessセクション（access.parkingValue）の両方に反映される。
  */
 export const PARKING_STATUS = {
-  ja: "駐車場33台 完備予定",
-  ja_short: "33台（うち発熱の方専用5台）完備予定",
-  en: "33 parking spaces planned",
-  en_short: "33 spaces planned (5 reserved for patients with a fever)",
+  ja: "駐車場32台 完備予定",
+  ja_short: "32台（うち発熱の方専用5台）完備予定",
+  en: "32 parking spaces planned",
+  en_short: "32 spaces planned (5 reserved for patients with a fever)",
 } as const;
 
 export type Lang = "ja" | "en";
@@ -1006,7 +1006,7 @@ const ja: SiteDict = {
       "診察の前にトイレに行かれる場合は、**受付にひと声おかけください**。腹痛や背中・腰の痛みがある方（尿管結石などが疑われる場合）や、高血圧・高尿酸血症で通院中の方などは、尿検査を行うことがあります。我慢できないときは遠慮なくどうぞ",
       "お水などのお飲み物は、待合室の**ウォーターサーバー**をご利用いただけます（設置予定）。自動販売機の設置予定はありません",
       "**英語での診察**にも対応しています（院長が担当します）",
-      "駐車場は**33台**（一般28台・発熱の方専用5台）完備予定です",
+      "駐車場は**32台**（一般27台・発熱の方専用5台）完備予定です",
     ],
   },
   feverVisit: {
@@ -1769,7 +1769,7 @@ const en: SiteDict = {
       "If you need the restroom before your consultation, **please let reception know first**. Patients with abdominal, back or flank pain (such as when a kidney or ureteral stone is suspected), or those being treated for high blood pressure or high uric acid, may need a urine test. Please do not hesitate if you cannot wait.",
       "For drinking water, a **water dispenser** is planned for the waiting room. There are no plans for a vending machine.",
       "**Consultations in English** are available (with our director).",
-      "**33 parking spaces** are planned on-site (28 general, 5 reserved for patients with a fever).",
+      "**32 parking spaces** are planned on-site (27 general, 5 reserved for patients with a fever).",
     ],
   },
   feverVisit: {
