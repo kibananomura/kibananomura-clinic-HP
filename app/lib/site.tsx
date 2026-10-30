@@ -753,6 +753,7 @@ const ja: SiteDict = {
           { name: "内科・外科・小児科", price: "各種保険適用" },
           { name: "各種検査（CT・胃カメラ・エコー など）", price: "保険診療に準じます" },
           { name: "外科処置・日帰り手術（粉瘤・脂肪腫など）", price: "保険診療（大きさ・部位・必要な検査などで変わるため、診察のうえでご説明します）" },
+          { name: "管理栄養士の栄養指導（2回目以降をオンラインで受ける場合のシステム利用料）", price: "1回550円（税込）。保険診療の自己負担とは別にいただきます" },
         ],
       },
       {
@@ -1529,6 +1530,10 @@ const en: SiteDict = {
           {
             name: "Minor surgery (sebaceous cysts, lipomas, etc.)",
             price: "Covered by insurance (varies with size, location and tests needed; explained at your consultation)",
+          },
+          {
+            name: "Nutrition counselling by a registered dietitian (system fee for follow-up sessions held online)",
+            price: "¥550 per session (incl. tax), charged separately from your insurance co-payment",
           },
         ],
       },

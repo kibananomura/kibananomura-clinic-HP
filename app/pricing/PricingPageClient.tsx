@@ -99,7 +99,8 @@ export default function PricingPageClient() {
                         className="flex flex-wrap items-center justify-between gap-x-4 gap-y-1 px-6 py-4"
                       >
                         <span className="text-[15px] text-ink/85">{item.name}</span>
-                        <span className="whitespace-nowrap text-sm font-bold text-primary-dark">
+                        {/* 長い説明つきの料金はスマホで画面からはみ出すため、折り返せるようにする */}
+                        <span className="max-w-full text-sm font-bold text-primary-dark">
                           {item.price}
                         </span>
                       </li>
