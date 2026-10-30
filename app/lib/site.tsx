@@ -1020,6 +1020,7 @@ const ja: SiteDict = {
       "カメラでご来院を確認し、スタッフの準備が整い次第、お車まで伺います。",
     ],
     notes: [
+      "お車でお待ちの間にトイレに行きたくなったときは、院内に入らずにお使いいただける**発熱の方専用の屋外トイレ**をご利用ください（設置予定）。ほかの患者さんと顔を合わせずに済みます。",
       "お車でお待ちの間に具合が悪くなった場合は、__お連れの方が正面玄関のインターホンを鳴らして、職員にお伝えください__。",
       "お一人でお車でお越しの方には、__車内から院内にお電話いただける発熱外来専用の番号__をご案内します。",
     ],
@@ -1782,6 +1783,7 @@ const en: SiteDict = {
       "We will see that you have arrived on camera, and a staff member will come out to your car as soon as we are ready.",
     ],
     notes: [
+      "If you need the toilet while waiting in your car, please use the **outdoor toilet reserved for patients with a fever** (planned), so you don't have to come inside or meet other patients.",
       "If you start to feel worse while waiting in your car, __please have the person accompanying you ring the intercom at the main entrance and let our staff know__.",
       "If you come alone by car, we will give you __a dedicated fever-outpatient phone number to call the clinic from your car__.",
     ],

@@ -23,6 +23,8 @@ excerpt_en: Going to the clinic itself feels scary when you have a fever — we 
 
 発熱対応区画にお車を停めていただいた場合、状況に応じて、**車にいたままで診察や検体採取を受けていただく**ことも想定しています。院内の待合や受付を通らずに済むため、他の患者さんと顔を合わせる場面そのものを減らすことができます。お薬についても、一般の受付窓口ではなく、発熱対応のための専用スペースを経由してお渡しする運用を予定しています。
 
+さらに、**発熱の方専用の屋外トイレ**も設ける予定です。車でお待ちの間にトイレに行きたくなっても、院内に入る必要はありません。熱があるときのトイレは、ご本人にとっても、ほかの患者さんにとっても気がかりなところです。そこまで含めて分けておくことで、動線の分離が途中で途切れないようにしています。
+
 ### なぜ、ここまで設計段階にこだわったのか
 
 動線の分離は、工事が始まってから追加できるものではありません。駐車場の区画割り、建物の出入口の位置、院内の通路の取り方——そのすべてが、設計図を描く最初の段階で決まってしまいます。「あとから感染対策を強化する」ことには限界があるからこそ、建築士の方との打ち合わせの早い時点から、この動線分離を設計の前提条件としてお伝えしてきました。
@@ -46,6 +48,8 @@ We're planning our parking lot with **5 spaces reserved specifically for patient
 ### Sometimes, you won't even need to come inside
 
 For patients parked in the fever-dedicated area, depending on the situation, we plan to offer **exams and sample collection while you remain in your car.** Because this skips the waiting room and front desk entirely, it also reduces the number of times you'd otherwise cross paths with other patients. For medication, rather than going through the general reception counter, we plan to hand it over through a dedicated space set up specifically for fever care.
+
+We also plan to have an **outdoor toilet reserved for patients with a fever**. Even if you need the toilet while waiting in your car, you won't have to come inside. Using the toilet when you have a fever is a worry both for you and for other patients, so separating this too keeps the separation of patient flow unbroken from start to finish.
 
 ### Why we insisted on getting this right at the design stage
 

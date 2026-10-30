@@ -2725,6 +2725,10 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
+          "text": "さらに、**発熱の方専用の屋外トイレ**も設ける予定です。車でお待ちの間にトイレに行きたくなっても、院内に入る必要はありません。熱があるときのトイレは、ご本人にとっても、ほかの患者さんにとっても気がかりなところです。そこまで含めて分けておくことで、動線の分離が途中で途切れないようにしています。"
+        },
+        {
+          "kind": "text",
           "text": "### なぜ、ここまで設計段階にこだわったのか"
         },
         {
@@ -2773,6 +2777,10 @@ export const generatedPosts: BlogPost[] = [
         {
           "kind": "text",
           "text": "For patients parked in the fever-dedicated area, depending on the situation, we plan to offer **exams and sample collection while you remain in your car.** Because this skips the waiting room and front desk entirely, it also reduces the number of times you'd otherwise cross paths with other patients. For medication, rather than going through the general reception counter, we plan to hand it over through a dedicated space set up specifically for fever care."
+        },
+        {
+          "kind": "text",
+          "text": "We also plan to have an **outdoor toilet reserved for patients with a fever**. Even if you need the toilet while waiting in your car, you won't have to come inside. Using the toilet when you have a fever is a worry both for you and for other patients, so separating this too keeps the separation of patient flow unbroken from start to finish."
         },
         {
           "kind": "text",
