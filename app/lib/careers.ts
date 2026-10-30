@@ -26,7 +26,15 @@ export const CAREERS_PAGE = {
     eyebrow: "医療関係者向け",
     heading: "採用・求人募集",
     intro:
-      "木花のむら総合診療所では、2027年10月1日の開院に向けて、一緒にクリニックをつくっていただける医療・事務スタッフを募集しています。1日50〜100名程度の外来を支える体制づくりのため、看護師・事務の各職種でご相談を承ります。",
+      "木花のむら総合診療所では、2027年10月1日の開院に向けて、ゼロから一緒にクリニックをつくっていただける医療・事務スタッフを募集しています。目指すのは、「なんとなく」ではなく本気で地域の医療に向き合い、頑張る人がきちんと報われる診療所です。1日50〜100名程度の外来を支える体制づくりのため、看護師・事務の各職種でご相談を承ります。",
+    /** 冒頭（必ず読まれる位置）で案内する院長ブログ */
+    blogPick: {
+      label: "応募を考えている方に、まず読んでいただきたい記事",
+      title: "「金利のある世界」で、覚悟を持って診療所をつくります",
+      body: "融資が決まったいま、院長がこの診療所にかける覚悟と、一緒に働くスタッフへの約束を綴りました。どんな職場をつくろうとしているのかが、いちばんよく伝わる記事です。",
+      cta: "院長ブログを読む",
+      href: "/blog/kinri-no-aru-sekai",
+    },
     overviewHeading: "クリニック概要",
     overviewItems: [
       { label: "開院", value: "2027年10月1日 予定（現在 建設準備中）" },
@@ -45,6 +53,7 @@ export const CAREERS_PAGE = {
       "私の役割は、完璧な経営者としてスタッフを管理することではありません。むしろ、皆さんが患者さんと向き合う時間を大切にできるように現場の環境を整え、判断に迷うときや困難なときには自分が矢面に立つこと——それが院長としての私の務めだと思っています。",
       "内科・外科・小児科と幅広い症状に対応する分、一人ひとりの専門性やこれまでの経験を活かしていただける場面がたくさんあります。新しい診療所を、これから一緒につくっていける方をお待ちしています。",
     ],
+    directorMessageMore: "この診療所にかける覚悟は、院長ブログにも書きました →",
     valuesHeading: "大切にしている価値観",
     values: [
       {
@@ -96,7 +105,14 @@ export const CAREERS_PAGE = {
     eyebrow: "For medical professionals",
     heading: "Recruitment",
     intro:
-      "Kibana Nomura General Medicine Clinic is recruiting medical and administrative staff to help us open in October 2027. We are building a team to support approximately 50 to 100 outpatients per day and welcome inquiries from nurses and office staff.",
+      "Kibana Nomura General Medicine Clinic is recruiting medical and administrative staff to build the clinic with us from scratch, ahead of our opening in October 2027. Our aim is a clinic that takes local healthcare seriously, not one that just gets by, and where hard work is properly rewarded. We are building a team to support approximately 50 to 100 outpatients per day and welcome inquiries from nurses and office staff.",
+    blogPick: {
+      label: "If you're thinking of applying, please read this first",
+      title: "In a world where interest rates are back, we are building this clinic with full commitment",
+      body: "Now that our loan has been approved, our director wrote about the commitment behind this clinic and a promise to the staff who will work with us. It is the post that best shows the kind of workplace we are building.",
+      cta: "Read the director's blog",
+      href: "/blog/kinri-no-aru-sekai",
+    },
     overviewHeading: "About the clinic",
     overviewItems: [
       { label: "Opening", value: "Planned October 2027 (currently under construction)" },
@@ -115,6 +131,7 @@ export const CAREERS_PAGE = {
       "My role isn't to manage staff as a flawless executive. It's to protect an environment where you can focus on your patients, and to stand at the front line myself when things get difficult or decisions are hard.",
       "With a broad range of departments — internal medicine, gastroenterology, allergy, respiratory medicine, surgery and pediatrics — there is plenty of room to bring your own expertise and experience to the table. We're looking for people who want to build a new clinic together, from the ground up.",
     ],
+    directorMessageMore: "More on the commitment behind this clinic in the director's blog →",
     valuesHeading: "What we value",
     values: [
       {

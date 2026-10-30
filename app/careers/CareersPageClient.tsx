@@ -91,6 +91,22 @@ export default function CareersPageClient() {
           </p>
         </FadeIn>
 
+        {/* 冒頭の必ず読まれる位置に、院長の覚悟を書いたブログへの案内を置く */}
+        <FadeIn delay={0.052}>
+          <Link
+            href={copy.blogPick.href}
+            className="group mx-auto mt-8 block max-w-2xl rounded-3xl border-2 border-primary/25 bg-surface/95 p-6 shadow-card transition-all hover:-translate-y-0.5 hover:border-primary/50 hover:shadow-soft sm:p-7"
+          >
+            <p className="text-xs font-bold text-primary">{copy.blogPick.label}</p>
+            <p className="mt-2 text-base font-bold leading-snug text-ink sm:text-lg">{copy.blogPick.title}</p>
+            <p className="mt-2 text-sm leading-relaxed text-ink/75">{copy.blogPick.body}</p>
+            <span className="mt-4 inline-flex items-center gap-1.5 rounded-full bg-primary px-4 py-2 text-sm font-bold text-white transition-colors group-hover:bg-primary-dark">
+              {copy.blogPick.cta}
+              <span aria-hidden="true">→</span>
+            </span>
+          </Link>
+        </FadeIn>
+
         <FadeIn delay={0.055}>
           <div className="mx-auto mt-10 max-w-5xl">
             <h2 className="text-center text-lg font-bold text-ink">
@@ -218,6 +234,12 @@ export default function CareersPageClient() {
             <p className="mt-4 text-right text-sm font-bold text-ink/70">
               {copy.directorMessageName}
             </p>
+            <Link
+              href={copy.blogPick.href}
+              className="mt-3 block text-right text-sm font-bold text-primary-dark underline underline-offset-2 hover:text-primary"
+            >
+              {copy.directorMessageMore}
+            </Link>
           </div>
         </FadeIn>
 
