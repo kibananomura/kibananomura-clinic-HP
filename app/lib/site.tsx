@@ -137,7 +137,7 @@ export interface SiteDict {
     addressNote: string;
     parkingLabel: string;
     parkingValue: string;
-    /** 駐輪場・バス・薬局・バリアフリーなど、来院に関わる情報（駐車場の下に並べる） */
+    /** 駐輪場・バス・薬局・バリアフリーなど、来院に関わる情報（駐車場の下に並べる）。value の \n は改行して表示する */
     details: { label: string; value: string }[];
     openLabel: string;
     openValue: string;
@@ -571,6 +571,7 @@ const ja: SiteDict = {
     parkingValue: PARKING_STATUS.ja_short,
     details: [
       { label: "駐輪場", value: "正面玄関の右横に設置予定（自転車・バイク）" },
+      { label: "お車で", value: "JR木花駅から約5分\nJR清武駅から約10分\nJR青島駅から約12分\n宮崎空港から約13分\nJR南宮崎駅から約16分\nJR田野駅から約20分\n日南東郷ICから約30分\n（いずれも目安）" },
       { label: "バス", value: "最寄りの下原バス停から徒歩約3分" },
       { label: "薬局", value: "隣の敷地に調剤薬局が開設予定" },
       { label: "バリアフリー", value: "院内はバリアフリー設計で、車いすのままお入りいただけます。車いす用トイレもございます" },
@@ -1342,6 +1343,7 @@ const en: SiteDict = {
     parkingValue: PARKING_STATUS.en_short,
     details: [
       { label: "Bicycle parking", value: "Planned to the right of the main entrance (bicycles and motorbikes)" },
+      { label: "By car", value: "About 5 min from JR Kibana Station\n10 min from JR Kiyotake Station\n12 min from JR Aoshima Station\n13 min from Miyazaki Airport\n16 min from JR Minami-Miyazaki Station\n20 min from JR Tano Station\n30 min from Nichinan-Togo IC\n(approximate)" },
       { label: "Bus", value: "About a 3-minute walk from the nearest stop, “下原”" },
       { label: "Pharmacy", value: "A dispensing pharmacy is planned on the neighbouring lot" },
       { label: "Accessibility", value: "The clinic is barrier-free and wheelchair accessible, with a wheelchair-accessible restroom" },
