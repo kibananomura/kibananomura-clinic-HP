@@ -10,9 +10,8 @@ import { BASE_URL, SITE_SEO } from "./lib/seo";
 
 const notoSansJp = Noto_Sans_JP({
   subsets: ["latin"],
-  // weight 900 (font-black)はサイト内で未使用のため含めない。
-  // フォントファイル数（=ネットワークリクエスト数）を減らしパフォーマンスを改善する。
-  weight: ["400", "500", "700"],
+  // 太さを指定せず可変フォント（1種類で全ての太さ）を使う。太さごとに@font-faceが約120個ずつ増え、
+  // 表示を止めるCSSが3倍の大きさになっていたため（PageSpeedの「レンダリングをブロックしているリクエスト」）。
   variable: "--font-noto-sans-jp",
   display: "swap",
   preload: false,
@@ -20,7 +19,6 @@ const notoSansJp = Noto_Sans_JP({
 
 const dmSans = DM_Sans({
   subsets: ["latin"],
-  weight: ["400", "500", "700"],
   variable: "--font-dm-sans",
   display: "swap",
 });
