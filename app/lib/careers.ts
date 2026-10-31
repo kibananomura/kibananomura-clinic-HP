@@ -235,6 +235,7 @@ export const CAREER_POSITIONS: CareerPosition[] = [
         "処置のスピードや経験年数だけでなく、『患者さんとご家族への寄り添い』を大切にできる方を歓迎します。あなたがこれまで培ってきた医療知識を活かし、内科から小児科まで幅広い診療を支える一員として活躍してください。",
       duties: [
         "外来診療の看護（問診・バイタル・処置補助など）",
+        "看護記録（電子カルテへの記録）",
         "検査（採血・心電図・内視鏡・エコー等）の補助",
         "患者さん・ご家族への説明、医師・事務との連携",
       ],
@@ -260,6 +261,7 @@ export const CAREER_POSITIONS: CareerPosition[] = [
         "We value how you stand beside patients and their families as much as procedural speed or years of experience. Bring the medical knowledge you've built so far and join a team covering a wide range of departments from internal medicine to pediatrics.",
       duties: [
         "Outpatient nursing (vitals, procedures, assistance)",
+        "Nursing documentation (in the electronic medical record)",
         "Assisting with blood tests, ECG, endoscopy, ultrasound, etc.",
         "Patient communication; coordination with physicians and admin staff",
       ],
@@ -657,10 +659,10 @@ export const COMMON_EMPLOYMENT_TERMS = {
 
 export const OBSERVER_PROGRAM = {
   ja: {
-    eyebrow: "大学生の方へ",
+    eyebrow: "大学生・短大生の方へ",
     heading: "オブザーバー募集（見学・交流プログラム）",
     intro:
-      "本枠は雇用契約を伴わない、完全無償の見学・交流プログラムです。給与・パート代のお支払いはございません。宮崎大学をはじめ、医療系学部の学生さんはもちろん、マーケティング・起業に関心のある学生さん、システムエンジニアリング（IT・プログラミング）に関心のある学生さんなど、様々な分野に関心のある学生さんを歓迎します。",
+      "本枠は雇用契約を伴わない、完全無償の見学・交流プログラムです。給与・パート代のお支払いはございません。宮崎大学をはじめ、看護職を目指す宮崎県立看護大学の学生さん、医療事務・受付の仕事に関心のある宮崎学園短期大学・南九州短期大学の学生さん、栄養指導に関心のある南九州大学（健康栄養学部）の学生さんなど、医療系の学生さんはもちろん、マーケティング・起業に関心のある学生さん、システムエンジニアリング（IT・プログラミング）に関心のある学生さんなど、様々な分野に関心のある学生さんを歓迎します。",
     whatYouSeeHeading: "見ていただける内容",
     whatYouSee: [
       "開業までのリアルな意思決定プロセス（融資交渉・土地契約・建築業者選定など、経営判断が実際にどう進んでいくかを垣間見られます）",
@@ -676,10 +678,10 @@ export const OBSERVER_PROGRAM = {
       "※ 本枠は雇用・労働ではなく、無償の見学・交流プログラムです。給与・パート代のお支払いは発生しません。参加者の安全・情報管理に配慮した範囲でご案内します。",
   },
   en: {
-    eyebrow: "For university students",
+    eyebrow: "For university and junior college students",
     heading: "Observer Program (visit & exchange, no employment)",
     intro:
-      "This is a completely unpaid observation and exchange program with no employment contract and no compensation. We welcome students from the University of Miyazaki and beyond who are interested in a variety of fields — medical students, of course, but also students interested in marketing and entrepreneurship, or in systems engineering (IT and programming).",
+      "This is a completely unpaid observation and exchange program with no employment contract and no compensation. We welcome students from the University of Miyazaki and beyond — including nursing students at Miyazaki Prefectural Nursing University, students interested in medical office and reception work at Miyazaki Gakuen Junior College and Minami Kyushu Junior College, and students interested in nutrition guidance at Minami Kyushu University (Faculty of Health and Nutrition) — who are interested in a variety of fields — medical students, of course, but also students interested in marketing and entrepreneurship, or in systems engineering (IT and programming).",
     whatYouSeeHeading: "What you can see",
     whatYouSee: [
       "A behind-the-scenes look at real decision-making before opening (financing negotiations, land contracts, choosing a builder — how business decisions actually unfold)",
