@@ -874,11 +874,18 @@ const ja: SiteDict = {
             approval: "国内で承認されている医薬品を、保険適用外の自由診療として処方します（未承認医薬品ではありません）。",
           },
           {
-            name: "緊急避妊薬（アフターピル）",
+            name: "緊急避妊薬（レボノルゲストレル・性交後72時間以内）",
             price: "準備中",
-            overview: "性交後72時間以内に、レボノルゲストレルを1回内服します。早く飲むほど効果が高いとされています。内診はありません。",
+            overview: "性交後72時間以内に、レボノルゲストレル（1.5mg）を1回内服します。早く飲むほど効果が高いとされています。内診はありません。",
             risks: "吐き気・頭痛・だるさ・不正出血などが起こることがあります。100%妊娠を防げるものではなく、内服後も次の生理までの性交では妊娠する可能性があります。一部のお薬で効果が弱まることがあります。",
             approval: "国内で承認されている医薬品を、保険適用外の自由診療として処方します（未承認医薬品ではありません）。",
+          },
+          {
+            name: "緊急避妊薬（ウリプリスタル酢酸エステル・性交後120時間以内）",
+            price: "9,680円（税込・診察料込み）",
+            overview: "性交後120時間（5日）以内に、ウリプリスタル酢酸エステル（日本では未承認）を1回内服します。早く飲むほど効果が高いとされています。内診はありません。",
+            risks: "頭痛・吐き気・腹痛・不正出血などが起こることがあります。100%妊娠を防げるものではなく、内服後も次の生理までの性交では妊娠する可能性があります。胃酸を抑える薬など一部のお薬で効果が弱まることがあり、授乳中の方は内服後1週間は授乳を控える必要があります。ピルなどのホルモン剤は内服後5日間は始めないでください。",
+            approval: "ウリプリスタル酢酸エステル（30mg）は、日本国内では承認されていない医薬品（未承認医薬品）です。国内で承認されている同じ成分の医薬品はありません。同じ目的で国内で承認されているお薬として、レボノルゲストレル製剤（性交後72時間以内に内服、薬局でも購入可）があります。入手経路：当院の医師が、医薬品医療機器等法に基づく輸入確認の手続きを行い、診療に用いる目的で海外から個人輸入したものです。個人輸入の医薬品については、厚生労働省の「個人輸入において注意すべき医薬品等について」もご確認ください。ウリプリスタル酢酸エステル（30mg）は、欧州連合（欧州医薬品庁、2009年）、米国（食品医薬品局、2010年）などで緊急避妊薬として承認されています。主な副作用は頭痛・吐き気・腹痛・生理の乱れなどで、まれに発疹・顔のむくみなどのアレルギー反応が報告されています。同じ成分で子宮筋腫の治療のために長期間使う製剤では重い肝障害が報告されましたが、欧州医薬品庁は、緊急避妊のための1回の使用ではこの懸念はないと評価しています。国内で承認されていないため、重い副作用が起きた場合に、国の医薬品副作用被害救済制度の対象外となります。",
           },
           {
             name: "にんにく注射",
@@ -1032,7 +1039,7 @@ const ja: SiteDict = {
       },
       {
         name: "緊急避妊薬（アフターピル）",
-        desc: "性交後72時間以内に1回内服し、妊娠の可能性を下げるお薬です。100%防げるものではありません。内診はありません。吐き気・頭痛・不正出血などが起こることがあります。",
+        desc: "妊娠の可能性を下げるお薬です。性交後72時間以内のレボノルゲストレル（国内承認）と、120時間（5日）以内のウリプリスタル酢酸エステル（日本では未承認）の2種類をご用意しています。100%防げるものではありません。内診はありません。頭痛・吐き気・不正出血などが起こることがあります。",
         slug: "emergency-contraception",
       },
     ],
@@ -1709,11 +1716,18 @@ const en: SiteDict = {
             approval: "We prescribe medication approved in Japan, as self-pay care outside insurance (not an unapproved drug).",
           },
           {
-            name: "Emergency contraception (morning-after pill)",
+            name: "Emergency contraception (levonorgestrel, within 72 hours)",
             price: "Coming soon",
-            overview: "A single dose of levonorgestrel taken within 72 hours of intercourse; the sooner it is taken, the more effective it is. No internal examination.",
+            overview: "A single dose of levonorgestrel (1.5 mg) taken within 72 hours of intercourse; the sooner it is taken, the more effective it is. No internal examination.",
             risks: "Nausea, headache, tiredness and spotting may occur. It is not 100% effective, and pregnancy is still possible from intercourse before your next period. Some medicines can make it less effective.",
             approval: "We prescribe medication approved in Japan, as self-pay care outside insurance (not an unapproved drug).",
+          },
+          {
+            name: "Emergency contraception (ulipristal acetate, within 120 hours)",
+            price: "¥9,680 (incl. tax and consultation)",
+            overview: "A single dose of ulipristal acetate (not approved in Japan) taken within 120 hours (5 days) of intercourse; the sooner it is taken, the more effective it is. No internal examination.",
+            risks: "Headache, nausea, abdominal pain and spotting may occur. It is not 100% effective, and pregnancy is still possible from intercourse before your next period. Some medicines, including stomach-acid reducers, can make it less effective, and breastfeeding should be paused for 1 week after taking it. Do not start hormonal contraception for 5 days after taking it.",
+            approval: "Ulipristal acetate (30 mg) is not approved in Japan (an unapproved drug), and no drug with the same ingredient is approved in Japan. A drug approved in Japan for the same purpose is levonorgestrel (within 72 hours; also available at pharmacies). Source: imported for clinical use by our physician through the import confirmation procedure under Japan's Pharmaceutical and Medical Device Act. Ulipristal acetate (30 mg) is approved as emergency contraception in the European Union (EMA, 2009) and the United States (FDA, 2010), among others. Main side effects are headache, nausea, abdominal pain and menstrual irregularity; allergic reactions such as rash or facial swelling are rarely reported. Serious liver injury was reported with a long-term product of the same ingredient for uterine fibroids, but the EMA concluded this concern does not apply to single-dose use for emergency contraception. As it is unapproved in Japan, serious side effects are not covered by Japan's relief system for adverse drug reactions.",
           },
           {
             name: "Flu shot",
@@ -1860,7 +1874,7 @@ const en: SiteDict = {
       },
       {
         name: "Emergency contraception (morning-after pill)",
-        desc: "A single tablet taken within 72 hours of intercourse to lower the chance of pregnancy. It is not 100% effective. No internal examination. Possible side effects include nausea, headache and spotting.",
+        desc: "Medication to lower the chance of pregnancy. We offer two options: levonorgestrel (approved in Japan, within 72 hours) and ulipristal acetate (not approved in Japan, within 120 hours / 5 days). It is not 100% effective. No internal examination. Possible side effects include headache, nausea and spotting.",
         slug: "emergency-contraception",
       },
     ],
