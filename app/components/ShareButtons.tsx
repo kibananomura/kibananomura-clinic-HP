@@ -4,11 +4,23 @@ import { useState, useSyncExternalStore } from "react";
 import { BASE_URL } from "../lib/seo";
 
 /**
- * ブログ記事のシェアボタン（LINE・X・Facebook・リンクのコピー）。
+ * ページのシェアボタン（LINE・X・Facebook・リンクのコピー）。ブログ記事・病気の解説ページで使う。
  * スマホなど端末の共有機能が使える場合は、「その他のアプリで共有」も出す。
  */
-export default function BlogShareButtons({ slug, title, lang }: { slug: string; title: string; lang: "ja" | "en" }) {
-  const url = `${BASE_URL}/blog/${slug}`;
+export default function ShareButtons({
+  path,
+  title,
+  lang,
+  kind = "article",
+}: {
+  /** サイト内のパス（例：/blog/xxx、/diseases/xxx） */
+  path: string;
+  title: string;
+  lang: "ja" | "en";
+  /** 見出しの言い方：article＝「この記事を」、page＝「このページを」 */
+  kind?: "article" | "page";
+}) {
+  const url = `${BASE_URL}${path}`;
   const [copied, setCopied] = useState(false);
   // 端末の共有機能があるか（サーバー側では false。表示後にブラウザの値に切り替わる）
   const canNativeShare = useSyncExternalStore(
@@ -47,7 +59,9 @@ export default function BlogShareButtons({ slug, title, lang }: { slug: string; 
 
   return (
     <div className="mt-10 rounded-3xl bg-surface/90 p-6 text-center shadow-card sm:p-7">
-      <p className="text-sm font-bold text-ink">{lang === "en" ? "Share this post" : "この記事をシェアする"}</p>
+      <p className="text-sm font-bold text-ink">{lang === "en"
+          ? kind === "article" ? "Share this post" : "Share this page"
+          : kind === "article" ? "この記事をシェアする" : "このページをシェアする"}</p>
       <div className="mt-4 flex flex-wrap justify-center gap-2">
         {links.map((l) => (
           <a

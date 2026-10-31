@@ -21,6 +21,7 @@ import {
 } from "../../lib/disease-shared";
 import type { RelatedLink } from "../../lib/related-content";
 import { withWbr } from "../../lib/jp-break";
+import ShareButtons from "../../components/ShareButtons";
 
 const UI_TEXT = {
   ja: {
@@ -202,6 +203,8 @@ export default function DiseasePageClient({
               ))}
             </div>
           )}
+
+          <ShareButtons path={`/diseases/${disease.slug}`} title={c.title} lang={lang} kind="page" />
 
           <FadeIn delay={0.12} className="mt-10">
             <p className="rounded-2xl bg-surface/90 p-4 text-sm leading-relaxed text-ink/70 shadow-card">
