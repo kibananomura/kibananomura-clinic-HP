@@ -196,6 +196,7 @@ export default function CareersPageClient() {
             <h2 className="text-base font-bold text-primary-dark sm:text-lg">
               {employmentTerms.heading}
             </h2>
+            <p className="mt-1.5 text-xs text-ink/55">{employmentTerms.note}</p>
             <dl className="mt-4 divide-y divide-ink/8">
               {employmentTerms.items.map((item) => (
                 <div
@@ -207,17 +208,6 @@ export default function CareersPageClient() {
                 </div>
               ))}
             </dl>
-          </div>
-        </FadeIn>
-
-        <FadeIn delay={0.1}>
-          <div className="mx-auto mt-12 max-w-3xl rounded-3xl bg-primary px-6 py-10 text-center text-white shadow-soft sm:px-10">
-            <p className="text-xs font-bold uppercase tracking-wider text-white/70">
-              {copy.teamVisionLabel}
-            </p>
-            <p className="mt-3 text-base font-bold leading-relaxed [text-wrap:balance] sm:text-lg">
-              {copy.teamVisionBody}
-            </p>
           </div>
         </FadeIn>
 
@@ -402,24 +392,6 @@ export default function CareersPageClient() {
             <p className="mx-auto mt-4 max-w-3xl text-center text-xs leading-relaxed text-ink/50">
               {salaryModels.disclaimer}
             </p>
-          </div>
-        </FadeIn>
-
-        <FadeIn delay={0.22}>
-          <div className="mx-auto mt-10 max-w-3xl rounded-3xl border border-primary/15 bg-primary/5 p-6 sm:p-8">
-            <h2 className="text-base font-bold text-primary-dark sm:text-lg">
-              {copy.highlightsHeading}
-            </h2>
-            <ul className="mt-4 space-y-2 text-sm leading-relaxed text-ink/80">
-              {copy.highlights.map((line) => (
-                <li key={line} className="flex gap-2">
-                  <span className="text-primary" aria-hidden="true">
-                    ✓
-                  </span>
-                  <span>{line}</span>
-                </li>
-              ))}
-            </ul>
           </div>
         </FadeIn>
 

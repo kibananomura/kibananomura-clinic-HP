@@ -43,9 +43,6 @@ export const CAREERS_PAGE = {
       { label: "外来規模", value: "1日 50〜100名程度 を想定" },
       { label: "勤務時間", value: "月〜金（土日祝休み）" },
     ],
-    teamVisionLabel: "採用の想い",
-    teamVisionBody:
-      "全ては、患者さんとご家族の笑顔のために。木花のむら総合診療所は、この理念に共感し、職種の垣根なく学び合える仲間を探しています。",
     directorMessageLabel: "院長からのメッセージ",
     directorMessageName: "院長　野村信介",
     directorMessageBody: [
@@ -85,13 +82,6 @@ export const CAREERS_PAGE = {
     dutiesLabel: "主な業務",
     requirementsLabel: "応募条件・歓迎",
     conditionsLabel: "募集要項（案）",
-    highlightsHeading: "当院の特徴",
-    highlights: [
-      "CT・胃カメラ・エコー・外科小手術など、検査・処置を院内で完結できる体制を目指しています。",
-      "「よろず相談所」のように、気軽に相談できる地域密着型のクリニックを目指しています。",
-      "新規開院のため、診療・運営の仕組みづくりに参画いただける方を歓迎します。",
-      "勤務日数・時間帯は、ご希望やライフスタイルに合わせてご相談ください。",
-    ],
     applyHeading: "お問い合わせ・ご応募",
     applyBody:
       "ご興味のある方は、下記よりお気軽にお問い合わせください。面談の日程や詳細条件は個別にご案内いたします。",
@@ -121,9 +111,6 @@ export const CAREERS_PAGE = {
       { label: "Outpatient volume", value: "Approx. 50–100 patients per day" },
       { label: "Working hours", value: "Mon–Fri (closed Sat, Sun & holidays)" },
     ],
-    teamVisionLabel: "Why we hire",
-    teamVisionBody:
-      "Everything for the smiles of our patients and their families. We're looking for teammates who share this philosophy and are willing to learn together across every role.",
     directorMessageLabel: "A message from our director",
     directorMessageName: "Director Shinsuke Nomura",
     directorMessageBody: [
@@ -163,13 +150,6 @@ export const CAREERS_PAGE = {
     dutiesLabel: "Main duties",
     requirementsLabel: "Requirements & welcome",
     conditionsLabel: "Employment conditions (draft)",
-    highlightsHeading: "Why join us",
-    highlights: [
-      "We aim to complete CT, gastroscopy, ultrasound and minor surgery in-house.",
-      "A community clinic where patients feel comfortable asking anything—an all-purpose consultation spot for the neighborhood.",
-      "As a new clinic, you can help shape clinical and operational workflows from the start.",
-      "Work days and hours can be discussed to fit your schedule.",
-    ],
     applyHeading: "Inquiries & applications",
     applyBody:
       "If you are interested, please contact us below. We will arrange an interview and share details individually.",
@@ -204,7 +184,7 @@ export const WORK_HIGHLIGHTS = {
       {
         icon: "🚗",
         title: "マイカー通勤無料・広々駐車場",
-        body: "駐車場32台完備予定。宮崎市南部（木花・清武・青島・本郷・赤江・田野）や日南方面から渋滞ストレス少なく車通勤が可能です（通勤手当規定支給・月額上限10,000円）。",
+        body: "駐車場32台完備予定。宮崎市南部（木花・清武・青島・本郷・赤江・田野）や日南方面から渋滞ストレス少なく車通勤が可能です（通勤手当あり）。",
       },
       {
         icon: "🩺",
@@ -252,7 +232,7 @@ export const CAREER_POSITIONS: CareerPosition[] = [
       title: "看護師",
       badge: "正看護師・准看護師",
       summary:
-        "処置のスピードや経験年数だけでなく、『患者様とご家族への寄り添い』を大切にできる方を歓迎します。あなたがこれまで培ってきた医療知識を活かし、内科から小児科まで幅広い診療を支える一員として活躍してください。",
+        "処置のスピードや経験年数だけでなく、『患者さんとご家族への寄り添い』を大切にできる方を歓迎します。あなたがこれまで培ってきた医療知識を活かし、内科から小児科まで幅広い診療を支える一員として活躍してください。",
       duties: [
         "外来診療の看護（問診・バイタル・処置補助など）",
         "検査（採血・心電図・内視鏡・エコー等）の補助",
@@ -261,9 +241,7 @@ export const CAREER_POSITIONS: CareerPosition[] = [
       requirements: [
         "看護師免許（正看護師・准看護師）をお持ちの方",
         "クリニック・病院での外来または検査室経験がある方歓迎",
-        "経験よりも、素直な学ぶ姿勢・前向きさ・チームワークを重視します",
         "未経験の方も、意欲があればご相談ください",
-        "勤務日数・時間帯は応相談",
         "【歓迎スキル】消化器内視鏡（胃カメラ）の介助経験、外科処置の補助、小児科・救急外来での勤務経験がある方は給与面で優遇いたします（未経験・ブランクのある方も丁寧に指導します）",
       ],
       conditions: [
@@ -273,11 +251,6 @@ export const CAREER_POSITIONS: CareerPosition[] = [
           value: "月給220,000〜270,000円（基本給＋資格手当等を含む／経験・能力・内視鏡や外科処置等のスキルを考慮の上決定）",
         },
         { label: "給与（パート）", value: "時給1,200〜1,500円（経験・能力により決定。宮崎県の最低賃金（2026年10月24日から時給1,085円）が改定された場合は、それを下回らない額とします）" },
-        { label: "賞与（予定）", value: "年2回（常勤のみ／クリニック業績および個人の評価による ※開院初年度は規定による）" },
-        { label: "退職金（予定）", value: "現時点では検討中（法人化後、規模拡大の段階で導入を検討）" },
-        { label: "通勤手当", value: "規定支給（燃費×通勤距離〈Googleマップ上の経路距離〉×勤務日数で算出、月額上限10,000円）" },
-        { label: "社会保険", value: "社会保険完備（健康保険・厚生年金・雇用保険・労災保険 ※パートは勤務時間に応じて法定通り加入）" },
-        { label: "休日", value: "土日祝休み（平日診療のみ）。年間休日日数は開院準備状況に応じて確定次第公開" },
       ],
     },
     en: {
@@ -293,9 +266,7 @@ export const CAREER_POSITIONS: CareerPosition[] = [
       requirements: [
         "Valid nursing license (RN or LPN)",
         "Outpatient or exam room experience preferred",
-        "We value an open, positive mindset and teamwork over experience alone",
         "Motivated learners without experience may apply",
-        "Work days and hours negotiable",
         "[Valued skills] Experience assisting with gastroscopy, surgical procedures, or working in pediatrics/emergency care is rewarded with higher pay (we also provide thorough training for those without experience or returning after a career break)",
       ],
       conditions: [
@@ -305,11 +276,6 @@ export const CAREER_POSITIONS: CareerPosition[] = [
           value: "JPY 220,000–270,000/month (including base salary, qualification allowance, etc.; decided based on experience, ability and skills such as endoscopy/surgical assistance)",
         },
         { label: "Salary (part-time)", value: "JPY 1,200–1,500/hr, based on experience and ability (never below the Miyazaki Prefecture minimum wage (JPY 1,085/hr from 24 October 2026) if it is revised)" },
-        { label: "Bonus (planned)", value: "Twice a year (full-time only; based on clinic performance and individual evaluation; per internal rules in our first year)" },
-        { label: "Retirement allowance (planned)", value: "Currently under consideration (planned for introduction once we incorporate and grow in scale)" },
-        { label: "Commuting allowance", value: "Paid per policy (calculated as vehicle fuel efficiency × commuting distance via Google Maps × working days, capped at JPY 10,000/month)" },
-        { label: "Social insurance", value: "Full social insurance (health, pension, employment, workers' comp; part-time staff enrolled per statutory thresholds based on hours worked)" },
-        { label: "Holidays", value: "Closed Sat, Sun & public holidays (weekday clinic only). Annual holiday count to be announced once finalized" },
       ],
     },
   },
@@ -319,7 +285,7 @@ export const CAREER_POSITIONS: CareerPosition[] = [
       title: "事務",
       badge: "受付・会計・レセプト",
       summary:
-        "受付やパソコン入力だけでなく、患者様の不安を取り除く『おもてなし』の一員として活躍いただきます。開業初期の仕組みづくりから携わっていただけるため、将来はクリニック運営を支えるステップアップの道も見込めます。",
+        "受付やパソコン入力だけでなく、患者さんの不安を取り除く『おもてなし』の一員として活躍いただきます。開業初期の仕組みづくりから携わっていただけるため、将来はクリニック運営を支えるステップアップの道も見込めます。",
       duties: [
         "受付・会計・待合の案内",
         "レセプト作成、保険請求関連の事務",
@@ -328,10 +294,8 @@ export const CAREER_POSITIONS: CareerPosition[] = [
       ],
       requirements: [
         "医療事務経験者歓迎（レセプト経験がある方優遇）",
-        "経験よりも、素直な学ぶ姿勢・前向きさ・チームワークを重視します",
         "未経験の方も、意欲があればご相談ください",
         "患者さんへの丁寧な対応ができる方",
-        "勤務日数・時間帯は応相談",
         "【歓迎スキル】クリニックでの受付・レセプト業務経験者、電子カルテ・Web問診等のITツール操作に抵抗がない方を歓迎します",
       ],
       conditions: [
@@ -341,11 +305,6 @@ export const CAREER_POSITIONS: CareerPosition[] = [
           value: "月給185,000〜215,000円（経験・レセプト算定スキル・電子カルテ操作経験を考慮の上決定）",
         },
         { label: "給与（パート）", value: "時給1,150〜1,300円（宮崎県の最低賃金（2026年10月24日から時給1,085円）が改定された場合は、それを下回らない額とします）" },
-        { label: "賞与（予定）", value: "年2回（常勤のみ／クリニック業績および個人の評価による ※開院初年度は規定による）" },
-        { label: "退職金（予定）", value: "現時点では検討中（法人化後、規模拡大の段階で導入を検討）" },
-        { label: "通勤手当", value: "規定支給（燃費×通勤距離〈Googleマップ上の経路距離〉×勤務日数で算出、月額上限10,000円）" },
-        { label: "社会保険", value: "社会保険完備（健康保険・厚生年金・雇用保険・労災保険 ※パートは勤務時間に応じて法定通り加入）" },
-        { label: "休日", value: "土日祝休み（平日診療のみ）。年間休日日数は開院準備状況に応じて確定次第公開" },
       ],
     },
     en: {
@@ -361,10 +320,8 @@ export const CAREER_POSITIONS: CareerPosition[] = [
       ],
       requirements: [
         "Medical admin experience preferred (claims experience a plus)",
-        "We value an open, positive mindset and teamwork over experience alone",
         "Motivated applicants without experience welcome",
         "Friendly, patient-facing communication",
-        "Work days and hours negotiable",
         "[Valued skills] We welcome applicants with clinic reception/claims experience, and those comfortable using electronic medical records, web pre-screening and other IT tools",
       ],
       conditions: [
@@ -374,11 +331,6 @@ export const CAREER_POSITIONS: CareerPosition[] = [
           value: "JPY 185,000–215,000/month (decided based on experience, claims processing skill and EMR experience)",
         },
         { label: "Salary (part-time)", value: "JPY 1,150–1,300/hr (never below the Miyazaki Prefecture minimum wage (JPY 1,085/hr from 24 October 2026) if it is revised)" },
-        { label: "Bonus (planned)", value: "Twice a year (full-time only; based on clinic performance and individual evaluation; per internal rules in our first year)" },
-        { label: "Retirement allowance (planned)", value: "Currently under consideration (planned for introduction once we incorporate and grow in scale)" },
-        { label: "Commuting allowance", value: "Paid per policy (calculated as vehicle fuel efficiency × commuting distance via Google Maps × working days, capped at JPY 10,000/month)" },
-        { label: "Social insurance", value: "Full social insurance (health, pension, employment, workers' comp; part-time staff enrolled per statutory thresholds based on hours worked)" },
-        { label: "Holidays", value: "Closed Sat, Sun & public holidays (weekday clinic only). Annual holiday count to be announced once finalized" },
       ],
     },
   },
@@ -398,8 +350,6 @@ export const CAREER_POSITIONS: CareerPosition[] = [
       requirements: [
         "診療放射線技師免許をお持ちの方",
         "クリニック・病院での撮影業務経験がある方歓迎",
-        "経験よりも、患者さんへの丁寧な対応・チームワークを重視します",
-        "勤務日数・時間帯は応相談",
       ],
       conditions: [
         { label: "雇用形態", value: "常勤（正社員）を基本としつつ、診療体制・患者数に応じて非常勤・業務委託等も相談可" },
@@ -409,10 +359,6 @@ export const CAREER_POSITIONS: CareerPosition[] = [
         },
         { label: "給与（パート・目安）", value: "時給1,100〜1,300円程度（経験・能力に応じて決定。宮崎県の最低賃金（2026年10月24日から時給1,085円）が改定された場合は、それを下回らない額とします）" },
         { label: "賞与（予定）", value: "年2回（開業1年目：合計基本給×2.0ヶ月を予定、以降段階的に見直し）" },
-        { label: "退職金（予定）", value: "現時点では検討中（法人化後、規模拡大の段階で導入を検討）" },
-        { label: "通勤手当", value: "規定支給（燃費×通勤距離〈Googleマップ上の経路距離〉×勤務日数で算出、月額上限10,000円）" },
-        { label: "社会保険", value: "労災保険は全員加入。雇用保険・社会保険は法令基準に基づき加入判定" },
-        { label: "休日", value: "土日祝休み（平日診療のみ）。年間休日日数は開院準備状況に応じて確定次第公開" },
       ],
       note:
         "常勤採用を約束するものではなく、開院当初の診療体制・患者数の状況を踏まえ、非常勤・業務委託等の柔軟な形態も含めて個別にご相談させていただきます。撮影業務が1日4〜5件程度と限られる分、資格・技能を活かしつつ受付・ご案内等の患者対応にも幅広く携わっていただく前向きなポジションです。",
@@ -431,8 +377,6 @@ export const CAREER_POSITIONS: CareerPosition[] = [
       requirements: [
         "Valid radiologic technologist license",
         "Clinic or hospital imaging experience preferred",
-        "We value courteous patient care and teamwork over experience alone",
-        "Work days and hours negotiable",
       ],
       conditions: [
         { label: "Employment type", value: "Primarily full-time, with part-time or contract arrangements considered depending on clinic volume" },
@@ -442,10 +386,6 @@ export const CAREER_POSITIONS: CareerPosition[] = [
         },
         { label: "Salary (part-time, guide)", value: "Approx. JPY 1,100–1,300/hr, based on experience (never below the Miyazaki Prefecture minimum wage (JPY 1,085/hr from 24 October 2026) if it is revised)" },
         { label: "Bonus (planned)", value: "Twice a year (Year 1: total 2.0x base salary planned, reviewed thereafter)" },
-        { label: "Retirement allowance (planned)", value: "Currently under consideration (planned for introduction once we incorporate and grow in scale)" },
-        { label: "Commuting allowance", value: "Paid per policy (calculated as vehicle fuel efficiency × commuting distance via Google Maps × working days, capped at JPY 10,000/month)" },
-        { label: "Social insurance", value: "Workers' comp for all staff; employment/health insurance per statutory thresholds" },
-        { label: "Holidays", value: "Closed Sat, Sun & public holidays (weekday clinic only). Annual holiday count to be announced once finalized" },
       ],
       note:
         "This is not a guarantee of full-time employment; the exact arrangement (full-time, part-time, or contract) will be discussed individually based on our clinical volume at opening. Since imaging work is expected to be around 4–5 cases per day, this is a positive opportunity to apply your technical expertise while also broadly supporting patients at reception.",
@@ -467,8 +407,6 @@ export const CAREER_POSITIONS: CareerPosition[] = [
       requirements: [
         "臨床検査技師免許をお持ちの方",
         "クリニック・病院での検査業務経験がある方歓迎",
-        "経験よりも、患者さんへの丁寧な対応・チームワークを重視します",
-        "勤務日数・時間帯は応相談",
       ],
       conditions: [
         { label: "雇用形態", value: "常勤（正社員）・パートを想定。診療体制・患者数に応じて非常勤中心での採用も相談可" },
@@ -478,10 +416,6 @@ export const CAREER_POSITIONS: CareerPosition[] = [
         },
         { label: "給与（パート・目安）", value: "時給1,100〜1,300円程度（経験・能力に応じて決定。宮崎県の最低賃金（2026年10月24日から時給1,085円）が改定された場合は、それを下回らない額とします）" },
         { label: "賞与（予定）", value: "年2回（開業1年目：合計基本給×2.0ヶ月を予定、以降段階的に見直し）※パートは勤務形態によって異なる" },
-        { label: "退職金（予定）", value: "現時点では検討中（法人化後、規模拡大の段階で導入を検討）" },
-        { label: "通勤手当", value: "規定支給（燃費×通勤距離〈Googleマップ上の経路距離〉×勤務日数で算出、月額上限10,000円）" },
-        { label: "社会保険", value: "労災保険は全員加入。雇用保険・社会保険は法令基準に基づき加入判定" },
-        { label: "休日", value: "土日祝休み（平日診療のみ）。年間休日日数は開院準備状況に応じて確定次第公開" },
       ],
       note:
         "常勤採用を約束するものではなく、開院当初の診療体制・患者数の状況を踏まえ、非常勤等の柔軟な形態も含めて個別にご相談させていただきます。検査業務が1日4〜5件程度と限られる分、資格・技能を活かしつつ受付・ご案内等の患者対応にも幅広く携わっていただく前向きなポジションです。",
@@ -500,8 +434,6 @@ export const CAREER_POSITIONS: CareerPosition[] = [
       requirements: [
         "Valid medical technologist license",
         "Clinic or hospital laboratory experience preferred",
-        "We value courteous patient care and teamwork over experience alone",
-        "Work days and hours negotiable",
       ],
       conditions: [
         { label: "Employment type", value: "Full-time or part-time; primarily part-time arrangements considered depending on clinic volume" },
@@ -511,10 +443,6 @@ export const CAREER_POSITIONS: CareerPosition[] = [
         },
         { label: "Salary (part-time, guide)", value: "Approx. JPY 1,100–1,300/hr, based on experience (never below the Miyazaki Prefecture minimum wage (JPY 1,085/hr from 24 October 2026) if it is revised)" },
         { label: "Bonus (planned)", value: "Twice a year (Year 1: total 2.0x base salary planned); varies for part-time roles" },
-        { label: "Retirement allowance (planned)", value: "Currently under consideration (planned for introduction once we incorporate and grow in scale)" },
-        { label: "Commuting allowance", value: "Paid per policy (calculated as vehicle fuel efficiency × commuting distance via Google Maps × working days, capped at JPY 10,000/month)" },
-        { label: "Social insurance", value: "Workers' comp for all staff; employment/health insurance per statutory thresholds" },
-        { label: "Holidays", value: "Closed Sat, Sun & public holidays (weekday clinic only). Annual holiday count to be announced once finalized" },
       ],
       note:
         "This is not a guarantee of full-time employment; the exact arrangement will be discussed individually based on our clinical volume at opening. Since testing work is expected to be around 4–5 cases per day, this is a positive opportunity to apply your technical expertise while also broadly supporting patients at reception.",
@@ -536,7 +464,6 @@ export const CAREER_POSITIONS: CareerPosition[] = [
       requirements: [
         "医療ソーシャルワーカー（MSW）・社会福祉士等の資格・実務経験がある方",
         "介護保険制度・地域連携に関する知識がある方歓迎",
-        "経験よりも、患者さん・ご家族への丁寧な対応を重視します",
       ],
       conditions: [
         { label: "雇用形態", value: "非常勤中心（診療体制・患者数に応じて日数・時間を相談）" },
@@ -545,8 +472,6 @@ export const CAREER_POSITIONS: CareerPosition[] = [
           value: "月給換算230,000〜280,000円程度（非常勤の場合は勤務日数・時間に応じて応相談）",
         },
         { label: "賞与（予定）", value: "勤務形態によって異なる（面談時にご相談）" },
-        { label: "退職金（予定）", value: "現時点では検討中（法人化後、規模拡大の段階で導入を検討）" },
-        { label: "通勤手当", value: "規定支給（燃費×通勤距離〈Googleマップ上の経路距離〉×勤務日数で算出、月額上限10,000円）" },
         { label: "社会保険", value: "労災保険は全員加入。雇用保険・社会保険は勤務形態・法令基準に基づき加入判定" },
         { label: "休日", value: "勤務形態によって異なる（面談時にご相談）" },
       ],
@@ -566,7 +491,6 @@ export const CAREER_POSITIONS: CareerPosition[] = [
       requirements: [
         "Experience or qualification as a medical social worker or certified social worker",
         "Knowledge of long-term care insurance and community liaison work preferred",
-        "We value attentive support for patients and families over experience alone",
       ],
       conditions: [
         { label: "Employment type", value: "Mainly part-time (days/hours negotiable based on clinic volume)" },
@@ -575,8 +499,6 @@ export const CAREER_POSITIONS: CareerPosition[] = [
           value: "Equivalent to approx. JPY 230,000–280,000/month; part-time terms negotiable based on days/hours",
         },
         { label: "Bonus (planned)", value: "Varies by employment arrangement (to be discussed at interview)" },
-        { label: "Retirement allowance (planned)", value: "Currently under consideration (planned for introduction once we incorporate and grow in scale)" },
-        { label: "Commuting allowance", value: "Paid per policy (calculated as vehicle fuel efficiency × commuting distance via Google Maps × working days, capped at JPY 10,000/month)" },
         { label: "Social insurance", value: "Workers' comp for all staff; employment/health insurance per employment type and statutory thresholds" },
         { label: "Holidays", value: "Varies by employment arrangement (to be discussed at interview)" },
       ],
@@ -599,7 +521,6 @@ export const CAREER_POSITIONS: CareerPosition[] = [
       requirements: [
         "管理栄養士免許をお持ちの方",
         "栄養指導の実務経験がある方歓迎",
-        "経験よりも、患者さんへの丁寧な対応を重視します",
       ],
       conditions: [
         { label: "雇用形態", value: "非常勤（栄養指導委託を想定）" },
@@ -608,8 +529,6 @@ export const CAREER_POSITIONS: CareerPosition[] = [
           value: "非常勤の栄養指導委託が一般的なため、指導実績・勤務日数に応じて応相談",
         },
         { label: "賞与（予定）", value: "勤務形態によって異なる（面談時にご相談）" },
-        { label: "退職金（予定）", value: "現時点では検討中（法人化後、規模拡大の段階で導入を検討）" },
-        { label: "通勤手当", value: "規定支給（燃費×通勤距離〈Googleマップ上の経路距離〉×勤務日数で算出、月額上限10,000円）" },
         { label: "社会保険", value: "業務委託の場合は対象外。雇用契約の場合は法令基準に基づき加入判定" },
         { label: "休日", value: "勤務形態によって異なる（面談時にご相談）" },
       ],
@@ -629,7 +548,6 @@ export const CAREER_POSITIONS: CareerPosition[] = [
       requirements: [
         "Valid registered dietitian license",
         "Practical nutrition guidance experience preferred",
-        "We value attentive patient care over experience alone",
       ],
       conditions: [
         { label: "Employment type", value: "Part-time (typically as contracted nutrition guidance)" },
@@ -638,8 +556,6 @@ export const CAREER_POSITIONS: CareerPosition[] = [
           value: "Negotiable based on guidance record and working days, as part-time contracted arrangements are standard for this role",
         },
         { label: "Bonus (planned)", value: "Varies by employment arrangement (to be discussed at interview)" },
-        { label: "Retirement allowance (planned)", value: "Currently under consideration (planned for introduction once we incorporate and grow in scale)" },
-        { label: "Commuting allowance", value: "Paid per policy (calculated as vehicle fuel efficiency × commuting distance via Google Maps × working days, capped at JPY 10,000/month)" },
         { label: "Social insurance", value: "Not applicable for contracted work; per statutory thresholds if employed directly" },
         { label: "Holidays", value: "Varies by employment arrangement (to be discussed at interview)" },
       ],
@@ -664,7 +580,7 @@ export const SALARY_MODELS = {
         title: "モデル例②　パート看護師",
         subtitle: "子育て中・扶養内または短時間勤務",
         amount: "時給 1,250円 × 1日4時間（午前のみ）× 週5日 ＝ 月収目安 約100,000円",
-        note: "土日祝休み・お子様の学校行事等も柔軟に相談可",
+        note: "土日祝休み・お子さんの学校行事等も柔軟に相談可",
       },
       {
         title: "モデル例③　常勤医療事務",
@@ -705,36 +621,36 @@ export const SALARY_MODELS = {
 export const COMMON_EMPLOYMENT_TERMS = {
   ja: {
     heading: "共通の労働条件について",
+    note: "※ 各職種の募集要項に別の記載がある場合は、そちらが優先されます。",
     items: [
+      { label: "勤務日数・時間帯", value: "常勤・パートとも、ご希望やライフスタイルに合わせてご相談に応じます" },
+      { label: "休日", value: "土日祝休み（平日診療のみ）。年間休日日数は開院準備状況に応じて確定次第公開" },
       { label: "昇給", value: "年1回（クリニック業績および個人の評価による ※開院初年度は規定による）" },
-      { label: "賞与（予定）", value: "年2回（常勤のみ／クリニック業績および個人の評価による ※開院初年度は規定による）" },
-      { label: "退職金（予定）", value: "現時点では検討中（法人化後、規模拡大の段階で導入を検討）" },
       {
         label: "残業代について",
         value: "固定残業代制は採用しておりません。時間外労働が発生した場合は、実働時間に応じて法定割増賃金を別途全額支給いたします。",
       },
       { label: "試用期間", value: "3ヶ月（期間中の労働条件・給与の変動なし ※開院前研修期間を含む）" },
-      {
-        label: "福利厚生",
-        value: "社会保険完備（健康保険・厚生年金・雇用保険・労災保険 ※パートは勤務時間に応じて法定通り加入）、交通費規定支給、制服貸与、スタッフルーム完備予定",
-      },
+      { label: "社会保険", value: "社会保険完備（健康保険・厚生年金・雇用保険・労災保険 ※パートは勤務時間に応じて法定通り加入）" },
+      { label: "通勤手当", value: "規定支給（燃費×通勤距離〈Googleマップ上の経路距離〉×勤務日数で算出、月額上限10,000円）" },
+      { label: "福利厚生", value: "制服貸与、スタッフルーム完備予定" },
     ],
   },
   en: {
     heading: "Common employment terms",
+    note: "* Where a role's listing states different terms, those take precedence.",
     items: [
+      { label: "Work days & hours", value: "For both full-time and part-time, we will discuss days and hours to suit your wishes and lifestyle" },
+      { label: "Holidays", value: "Closed Sat, Sun & public holidays (weekday clinic only). Annual holiday count to be announced once finalized" },
       { label: "Pay raises", value: "Once a year (based on clinic performance and individual evaluation; per internal rules in our first year)" },
-      { label: "Bonus (planned)", value: "Twice a year (full-time only; based on clinic performance and individual evaluation; per internal rules in our first year)" },
-      { label: "Retirement allowance (planned)", value: "Currently under consideration (planned for introduction once we incorporate and grow in scale)" },
       {
         label: "Overtime pay",
         value: "We do not use a fixed/deemed overtime system. If overtime work occurs, we pay the full statutory premium wage separately, based on actual hours worked.",
       },
       { label: "Probation period", value: "3 months (no change to working conditions or pay during this period; includes pre-opening training)" },
-      {
-        label: "Benefits",
-        value: "Full social insurance (health, pension, employment, workers' comp; part-time staff enrolled per statutory thresholds based on hours worked), commuting allowance per policy, uniforms provided, staff room planned",
-      },
+      { label: "Social insurance", value: "Full social insurance (health, pension, employment, workers' comp; part-time staff enrolled per statutory thresholds based on hours worked)" },
+      { label: "Commuting allowance", value: "Paid per policy (calculated as vehicle fuel efficiency × commuting distance via Google Maps × working days, capped at JPY 10,000/month)" },
+      { label: "Benefits", value: "Uniforms provided, staff room planned" },
     ],
   },
 } as const;
