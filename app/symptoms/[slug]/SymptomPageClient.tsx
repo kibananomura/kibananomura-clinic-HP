@@ -9,6 +9,7 @@ import ArticleSupervisor from "../../components/ArticleSupervisor";
 import PreOpeningAlert from "../../components/PreOpeningAlert";
 import LineLink from "../../components/LineLink";
 import { useSite } from "../../lib/site";
+import ShareButtons from "../../components/ShareButtons";
 import {
   CATEGORY_LABEL,
   CATEGORY_LABEL_EN,
@@ -311,6 +312,8 @@ export default function SymptomPageClient({
               ))}
             </ul>
           </FadeIn>
+
+          <ShareButtons path={`/symptoms/${symptom.slug}`} title={c.title} lang={lang} kind="page" />
 
           {/* 免責文言：末尾 */}
           <FadeIn delay={0.18} className="mt-10">
