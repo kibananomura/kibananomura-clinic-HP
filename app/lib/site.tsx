@@ -620,7 +620,7 @@ const ja: SiteDict = {
     openLabel: "開院",
     openValue: "2027年10月1日 予定（現在 建設準備中）",
     addressNote: "※現在建設準備中です。",
-    note: "山下橋（清武川）開通後は、まなび野・学園台方面からのアクセスがさらに便利になります。宮崎市南部（木花・熊野・学園木花台・本郷・清武エリア）にお住まいの方を中心に、JR木花駅・運動公園駅や宮崎大学木花キャンパス周辺からもお車でお越しいただきやすい立地です。",
+    note: "山下橋（清武川）開通後は、まなび野・学園台方面からのアクセスがさらに便利になります。宮崎市南部（木花・清武・青島・本郷・赤江・田野）にお住まいの方を中心に、JR木花駅・運動公園駅や宮崎大学木花キャンパス周辺からもお車でお越しいただきやすい立地です。",
   },
   register: {
     badge: "2027年10月1日 開院予定",
@@ -631,7 +631,7 @@ const ja: SiteDict = {
   },
   footer: {
     tagline:
-      "宮崎市熊野の木花のむら総合診療所。内科・外科・小児科を中心に、よろず相談所のように気軽に立ち寄れる場所を目指しています。宮崎市南部（木花・熊野・学園木花台・本郷・清武エリア）の皆さまのかかりつけ医として。",
+      "宮崎市熊野の木花のむら総合診療所。内科・外科・小児科を中心に、よろず相談所のように気軽に立ち寄れる場所を目指しています。宮崎市南部（木花・清武・青島・本郷・赤江・田野）の皆さまのかかりつけ医として。",
     badge: "2027年10月1日 開院予定 ／ 建設準備中",
     menuHeading: "メニュー",
     deptHeading: "診療科・所在地",
@@ -1433,7 +1433,7 @@ const en: SiteDict = {
     ],
     openLabel: "Opening",
     openValue: "October 2027 (currently under construction)",
-    note: "Once the Yamashita Bridge (Kiyotake River) opens, access from the Manabino and Gakuendai areas will become even more convenient. We're easy to reach by car from across southern Miyazaki City — including Kibana, Kumano, Gakuen-Kibanadai, Hongo and Kiyotake — as well as from near JR Kibana Station, Undokoen Station and the Kibana Campus of University of Miyazaki.",
+    note: "Once the Yamashita Bridge (Kiyotake River) opens, access from the Manabino and Gakuendai areas will become even more convenient. We're easy to reach by car from across southern Miyazaki City — including Kibana, Kiyotake, Aoshima, Hongo, Akae and Tano — as well as from near JR Kibana Station, Undokoen Station and the Kibana Campus of University of Miyazaki.",
   },
   register: {
     badge: "Opening October 2027",
@@ -1444,7 +1444,7 @@ const en: SiteDict = {
   },
   footer: {
     tagline:
-      "Kibana Nomura General Medicine Clinic in Kumano, Miyazaki. Centered on internal medicine, surgery and pediatrics. An all-purpose consultation spot you can drop by with ease. Serving southern Miyazaki City — Kibana, Kumano, Gakuen-Kibanadai, Hongo and Kiyotake.",
+      "Kibana Nomura General Medicine Clinic in Kumano, Miyazaki. Centered on internal medicine, surgery and pediatrics. An all-purpose consultation spot you can drop by with ease. Serving southern Miyazaki City — Kibana, Kiyotake, Aoshima, Hongo, Akae and Tano.",
     badge: "Opening October 2027 / Under construction",
     menuHeading: "Menu",
     deptHeading: "Departments & Location",

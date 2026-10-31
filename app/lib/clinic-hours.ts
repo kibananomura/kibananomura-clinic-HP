@@ -9,6 +9,9 @@ import { SCHEDULE, type ScheduleSlot } from "./schedule";
 
 export const OPENING_DATE = "2027-10-01";
 
+/** 受付終了の時刻を過ぎてから、この分数のあいだは「お急ぎの方はご相談を」と案内する（終了時刻を過ぎて来られた方も受け付ける運用のため） */
+const GRACE_MINUTES = 15;
+
 const WEEKDAYS_JA = ["日", "月", "火", "水", "木", "金", "土"];
 const WEEKDAYS_EN = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
 
@@ -98,6 +101,19 @@ export function clinicStatusText(now: Date = new Date()): string {
     if (current.label === "am") {
       const pm = slots.find((s) => s.label === "pm");
       if (pm) lines.push(`午前の受付終了後は、${pm.slot.start}から午後の受付があります。`);
+    }
+    return lines.join("\n");
+  }
+
+  // 受付終了の直後：きっぱり「終了」とは言わず、ご相談いただく案内にする
+  const justClosed = slots.find(({ slot }) => minutes >= toMinutes(slot.end) && minutes < toMinutes(slot.end) + GRACE_MINUTES);
+  if (justClosed) {
+    lines.push(
+      `${justClosed.label === "am" ? "午前" : "午後"}の受付時間（〜${justClosed.slot.end}）を過ぎたところです。お急ぎの方は、まずお電話でご相談ください。`
+    );
+    if (justClosed.label === "am") {
+      const pm = slots.find((s) => s.label === "pm");
+      if (pm) lines.push(`午後の受付は${pm.slot.start}からです。`);
     }
     return lines.join("\n");
   }
