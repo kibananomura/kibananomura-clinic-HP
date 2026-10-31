@@ -76,6 +76,18 @@ function nextOpening(today: string, nowMinutes: number) {
   return null;
 }
 
+/** 開院までの残り（「あと11か月（335日）」のように。1か月を切ったら日数だけ） */
+function untilOpeningText(ymd: string) {
+  const [y, m, d] = ymd.split("-").map(Number);
+  const [oy, om, od] = OPENING_DATE.split("-").map(Number);
+  const days = Math.round((Date.UTC(oy, om - 1, od) - Date.UTC(y, m - 1, d)) / 86_400_000);
+  let months = (oy - y) * 12 + (om - m);
+  if (od < d) months -= 1;
+  return months >= 1
+    ? `開院まで、あと${months}か月（${days}日）です。`
+    : `開院まで、あと${days}日です。`;
+}
+
 /** キバナビに渡す「現在の受付状況」の説明文 */
 export function clinicStatusText(now: Date = new Date()): string {
   const { ymd, minutes } = jstParts(now);
@@ -88,6 +100,7 @@ export function clinicStatusText(now: Date = new Date()): string {
 
   if (ymd < OPENING_DATE) {
     lines.push("当院は2027年10月1日開院予定で、現在はまだ診療を行っていません（開院前）。受付時間は開院後のものです。");
+    lines.push(untilOpeningText(ymd));
     return lines.join("\n");
   }
 
