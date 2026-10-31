@@ -10,6 +10,7 @@ import { getPost, getContent, getAdjacentPosts } from "../../lib/blog";
 import type { RelatedLink } from "../../lib/related-content";
 import { withWbr } from "../../lib/jp-break";
 import BlogRequestNote from "../../components/BlogRequestNote";
+import BlogShareButtons from "../../components/BlogShareButtons";
 
 export default function BlogArticle({ relatedDiseases = [] }: { relatedDiseases?: RelatedLink[] }) {
   const { t, lang } = useSite();
@@ -77,6 +78,8 @@ export default function BlogArticle({ relatedDiseases = [] }: { relatedDiseases?
               )
             )}
           </div>
+
+          <BlogShareButtons slug={post.slug} title={c.title} lang={lang} />
 
           {relatedDiseases.length > 0 && (
             <div className="mt-10 rounded-3xl bg-surface/90 p-6 shadow-card sm:p-7">
