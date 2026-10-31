@@ -5,10 +5,10 @@ category_ja: 健康・予防の話
 category_en: Health and prevention
 subcategory_ja: 生活習慣病・お薬
 subcategory_en: Lifestyle diseases & medication
-title_ja: 「薬をもらうだけなのに、なぜ毎月？」その答えは、薬の外にあります
-title_en: “Why every month, just to pick up my medicine?” The answer lies outside the pills
-excerpt_ja: 「先生、安定しているんだから、お薬だけ3か月分まとめて出してよ」——その気持ち、よく分かります。それでも私が月に一度お会いしたい理由をお話しします。
-excerpt_en: “Doctor, I'm stable — can't you just give me three months of pills at once?” I completely understand. Here's why I'd still like to see you once a month.
+title_ja: 生活習慣病の本当の治療は、診察室の外にあります
+title_en: The real treatment for lifestyle diseases happens outside the consultation room
+excerpt_ja: 「薬は毎日飲んでいるのに、数値がなかなか良くならない」——その答えは、お薬の外、毎日の暮らしの中にあるかもしれません。
+excerpt_en: “I take my medicine every day, but my numbers just won't improve” — the answer may lie outside the pills, in your daily life.
 ---
 
 ## ja

@@ -6017,14 +6017,14 @@ export const generatedPosts: BlogPost[] = [
     }
   },
   {
-    "slug": "maitsuki-tsuin-no-imi",
+    "slug": "hontou-no-chiryou",
     "date": "2026.10.31",
     "cover": "/blog/kibana-landscape.png",
     "ja": {
       "category": "健康・予防の話",
       "subcategory": "生活習慣病・お薬",
-      "title": "「薬をもらうだけなのに、なぜ毎月？」その答えは、薬の外にあります",
-      "excerpt": "「先生、安定しているんだから、お薬だけ3か月分まとめて出してよ」——その気持ち、よく分かります。それでも私が月に一度お会いしたい理由をお話しします。",
+      "title": "生活習慣病の本当の治療は、診察室の外にあります",
+      "excerpt": "「薬は毎日飲んでいるのに、数値がなかなか良くならない」——その答えは、お薬の外、毎日の暮らしの中にあるかもしれません。",
       "body": [
         {
           "kind": "text",
@@ -6147,8 +6147,8 @@ export const generatedPosts: BlogPost[] = [
     "en": {
       "category": "Health and prevention",
       "subcategory": "Lifestyle diseases & medication",
-      "title": "“Why every month, just to pick up my medicine?” The answer lies outside the pills",
-      "excerpt": "“Doctor, I'm stable — can't you just give me three months of pills at once?” I completely understand. Here's why I'd still like to see you once a month.",
+      "title": "The real treatment for lifestyle diseases happens outside the consultation room",
+      "excerpt": "“I take my medicine every day, but my numbers just won't improve” — the answer may lie outside the pills, in your daily life.",
       "body": [
         {
           "kind": "text",
