@@ -55,7 +55,7 @@ export default async function DiseasePage({
       <BreadcrumbJsonLd
         items={[
           { name: "トップ", url: "/" },
-          { name: "疾患について", url: "/diseases" },
+          { name: "病気について調べる", url: "/diseases" },
           { name: disease?.title ?? slug, url: `/diseases/${slug}` },
         ]}
       />

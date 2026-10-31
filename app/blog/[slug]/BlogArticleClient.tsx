@@ -11,6 +11,7 @@ import type { RelatedLink } from "../../lib/related-content";
 import { withWbr } from "../../lib/jp-break";
 import BlogRequestNote from "../../components/BlogRequestNote";
 import ShareButtons from "../../components/ShareButtons";
+import Breadcrumbs from "../../components/Breadcrumbs";
 
 export default function BlogArticle({ relatedDiseases = [] }: { relatedDiseases?: RelatedLink[] }) {
   const { t, lang } = useSite();
@@ -32,6 +33,7 @@ export default function BlogArticle({ relatedDiseases = [] }: { relatedDiseases?
 
       <div className="container-page relative">
         <div className="mx-auto max-w-3xl">
+          <Breadcrumbs parentHref="/blog" current={c.title} />
           <div className="relative aspect-[16/9] overflow-hidden rounded-3xl shadow-card">
             <Image
               src={post.cover}

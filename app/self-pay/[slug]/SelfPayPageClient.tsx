@@ -9,6 +9,7 @@ import FaqJsonLd from "../../components/FaqJsonLd";
 import LineLink from "../../components/LineLink";
 import InlineRichText from "../../components/InlineRichText";
 import { useSite } from "../../lib/site";
+import Breadcrumbs from "../../components/Breadcrumbs";
 import {
   SELFPAY_DISCLAIMER_INTRO,
   SELFPAY_DISCLAIMER_OUTRO,
@@ -40,6 +41,7 @@ export default function SelfPayPageClient() {
 
       <div className="container-page relative">
         <div className="mx-auto max-w-3xl">
+          <Breadcrumbs parentHref="/services" current={item.title} />
           <FadeIn>
             <span className="rounded-full bg-primary-light px-3 py-1 text-xs font-bold text-white">
               {item.badge}

@@ -10,6 +10,7 @@ import PreOpeningAlert from "../../components/PreOpeningAlert";
 import LineLink from "../../components/LineLink";
 import { useSite } from "../../lib/site";
 import ShareButtons from "../../components/ShareButtons";
+import Breadcrumbs from "../../components/Breadcrumbs";
 import {
   CATEGORY_LABEL,
   CATEGORY_LABEL_EN,
@@ -119,6 +120,7 @@ export default function SymptomPageClient({
 
       <div className="container-page relative">
         <div className="mx-auto max-w-3xl">
+          <Breadcrumbs parentHref="/symptoms" current={c.title} />
           {/* 胸痛・冷や汗を伴う場合の救急要請バナー（常時表示） */}
           {symptom.showChestPainBanner && (
             <FadeIn>

@@ -22,6 +22,7 @@ import {
 import type { RelatedLink } from "../../lib/related-content";
 import { withWbr } from "../../lib/jp-break";
 import ShareButtons from "../../components/ShareButtons";
+import Breadcrumbs from "../../components/Breadcrumbs";
 
 const UI_TEXT = {
   ja: {
@@ -93,6 +94,7 @@ export default function DiseasePageClient({
 
       <div className="container-page relative">
         <div className="mx-auto max-w-3xl">
+          <Breadcrumbs parentHref="/diseases" current={c.title} />
           {/* ページタイトル（LCP対象になりやすいため、アニメーションで初期非表示にせず即時描画する） */}
           <div>
             <span className="rounded-full bg-accent px-3 py-1 text-xs font-bold text-primary-dark">
