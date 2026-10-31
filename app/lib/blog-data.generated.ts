@@ -308,7 +308,11 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "日本に戻ってからも、その視点は消えませんでした。目の前の患者さんを診ることと、地域全体の医療の仕組みを考えること——この二つは、決して別のものではないと思うようになったのです。"
+          "text": "日本に帰国してからも、その視座は私の根底に息づいています。目の前の一人の患者さんに真摯に向き合うことと、地域全体の健やかな暮らしを支える医療の仕組みをつくること——この二つは、決して別のものではありません。"
+        },
+        {
+          "kind": "text",
+          "text": "当院では、医師だけでなく、看護師や医療事務など、すべてのスタッフが一体となって連携し、患者さんお一人おひとりに寄り添いながら、地域に長く安心を届けられる医療を目指してまいります。"
         },
         {
           "kind": "text",
@@ -347,7 +351,11 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "That perspective stayed with me after I returned to Japan. I came to believe that caring for the patient in front of you, and thinking about the healthcare system for an entire community, aren't really separate things at all."
+          "text": "That perspective has stayed at the core of who I am since returning to Japan. Sincerely caring for the one patient in front of me, and building a healthcare system that supports the healthy lives of the whole community, are never really separate things."
+        },
+        {
+          "kind": "text",
+          "text": "At our clinic, not only the doctor but every member of our staff, including nurses and medical office staff, will work together as one team, staying close to each patient and aiming to provide care that brings lasting peace of mind to the community."
         },
         {
           "kind": "text",
