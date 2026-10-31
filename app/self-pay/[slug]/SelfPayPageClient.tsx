@@ -135,6 +135,14 @@ export default function SelfPayPageClient() {
             </p>
           </FadeIn>
 
+          {/* 相談先の案内（緊急避妊薬の「被害にあわれた方へ」など） */}
+          {item.supportNote && (
+            <FadeIn delay={0.135} className="mt-6 rounded-[1.75rem] border-2 border-blossom/60 bg-orange-50/60 p-7 shadow-card">
+              <h2 className="text-base font-bold text-orange-900">{item.supportNote.title}</h2>
+              <p className="mt-2 text-[15px] leading-relaxed text-ink/80">{item.supportNote.body}</p>
+            </FadeIn>
+          )}
+
           {/* FAQ */}
           {item.faq.length > 0 && (
             <FadeIn delay={0.14} className="mt-6 rounded-[1.75rem] bg-surface/90 p-7 shadow-card">
