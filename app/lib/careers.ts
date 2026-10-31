@@ -179,7 +179,7 @@ export const WORK_HIGHLIGHTS = {
       {
         icon: "💻",
         title: "IT化による残業削減",
-        body: "Web予約・Web問診・自動精算機（またはキャッシュレス決済）・電子カルテを導入予定で、受付・会計・カルテ入力の業務負担と残業を最小限に抑えます。",
+        body: "Web予約・Web問診・セミセルフレジ（キャッシュレス決済にも対応）・電子カルテを導入予定で、受付・会計・カルテ入力の業務負担と残業を最小限に抑えます。",
       },
       {
         icon: "🚗",
@@ -209,7 +209,7 @@ export const WORK_HIGHLIGHTS = {
       {
         icon: "💻",
         title: "Less overtime through IT",
-        body: "We plan to introduce web booking, web pre-screening, self-checkout/cashless payment and electronic medical records, keeping reception, billing and charting workloads — and overtime — to a minimum.",
+        body: "We plan to introduce web booking, web pre-screening, semi-self checkout registers (with cashless payment) and electronic medical records, keeping reception, billing and charting workloads — and overtime — to a minimum.",
       },
       {
         icon: "🚗",
