@@ -6015,5 +6015,258 @@ export const generatedPosts: BlogPost[] = [
         }
       ]
     }
+  },
+  {
+    "slug": "maitsuki-tsuin-no-imi",
+    "date": "2026.10.31",
+    "cover": "/blog/kibana-landscape.png",
+    "ja": {
+      "category": "健康・予防の話",
+      "subcategory": "生活習慣病・お薬",
+      "title": "「薬をもらうだけなのに、なぜ毎月？」その答えは、薬の外にあります",
+      "excerpt": "「先生、安定しているんだから、お薬だけ3か月分まとめて出してよ」——その気持ち、よく分かります。それでも私が月に一度お会いしたい理由をお話しします。",
+      "body": [
+        {
+          "kind": "text",
+          "text": "「先生、数値も安定しているんだから、お薬だけ出して、2〜3か月分まとめてもらえませんか」。診察室で、こうした声を本当によくお聞きします。"
+        },
+        {
+          "kind": "text",
+          "text": "仕事を抜けて来るのも、待合室で待つのも、正直なところ大変ですよね。「どうせ同じ薬をもらうだけなのに」と感じるのは、とても自然なことだと思います。"
+        },
+        {
+          "kind": "text",
+          "text": "この記事では、生活習慣病の通院で、なぜ月に一度お会いすることをおすすめしているのかをお話しします。結論から言うと、**生活習慣病の治療の中心はお薬そのものではなく、日々の暮らしの小さな変化にあります。そして、月に一度、医師と一緒に数字と生活を振り返る時間は、その変化を続けるための、治療の大切な一部**だと考えています。"
+        },
+        {
+          "kind": "text",
+          "text": "## お薬だけでは、病気は治りきらない"
+        },
+        {
+          "kind": "text",
+          "text": "高血圧、脂質異常症、糖尿病のお薬は、数値を下げる力をしっかり持っています。ただ、お薬にできるのは、主に「数値を整えること」です。"
+        },
+        {
+          "kind": "text",
+          "text": "- 塩分の多い食事が続けば、血圧の薬は効きにくくなります\n- 体を動かす機会が減れば、血糖やコレステロールは上がりやすくなります\n- 睡眠不足やストレスも、数値に表れます"
+        },
+        {
+          "kind": "text",
+          "text": "つまり、毎日の食事・運動・睡眠という「土台」が変わらないままでは、お薬の量が少しずつ増えていくことも珍しくありません。"
+        },
+        {
+          "kind": "text",
+          "text": "正直に申し上げると、**「お薬を出すだけの医療」には限界があります**。その限界を越えられるのは、診察室の外で過ごす、皆さんの毎日の暮らしなのです。"
+        },
+        {
+          "kind": "text",
+          "text": "## 「意識すること」が、体を変える"
+        },
+        {
+          "kind": "text",
+          "text": "ここで、ひとつ興味深い研究をご紹介します。"
+        },
+        {
+          "kind": "text",
+          "text": "### ハーバード大学の、ホテル客室係の研究"
+        },
+        {
+          "kind": "text",
+          "text": "2007年、ハーバード大学のクラム博士らは、ホテルで客室の清掃をしている女性たちを対象に、ある研究を行いました。"
+        },
+        {
+          "kind": "text",
+          "text": "- 一方のグループには「皆さんが毎日している清掃の仕事は、立派な運動になっています」と、消費カロリーの目安とともに伝えました\n- もう一方のグループには、何も伝えませんでした"
+        },
+        {
+          "kind": "text",
+          "text": "すると4週間後、伝えられたグループでは、仕事の内容は変わっていないと答えていたにもかかわらず、**体重や体脂肪がわずかに減り、血圧も下がった**と報告されています。"
+        },
+        {
+          "kind": "text",
+          "text": "この研究は対象の人数が少なく、短い期間のものなので、結果をそのまま当てはめることはできません。それでも、**「自分の行動は体に良い影響を与えている」と意識すること**が、体の変化と結びつきうることを示した研究として知られています。"
+        },
+        {
+          "kind": "text",
+          "text": "### 月に一度の「振り返り」が、意識をリセットする"
+        },
+        {
+          "kind": "text",
+          "text": "人の決意は、どうしても少しずつ緩んでいくものです。私自身もそうです。"
+        },
+        {
+          "kind": "text",
+          "text": "だからこそ、月に一度、"
+        },
+        {
+          "kind": "text",
+          "text": "- 血圧や検査の数字を一緒に確認する\n- 「この1か月、何がうまくいったか」を振り返る\n- 次の1か月で、無理なくできることを一つだけ決める"
+        },
+        {
+          "kind": "text",
+          "text": "この時間が、緩みかけた意識を整え直し、「また頑張ってみよう」と思えるきっかけになります。お薬と同じくらい、ときにはそれ以上に、治療を支える時間だと考えています。"
+        },
+        {
+          "kind": "text",
+          "text": "## 間隔があきすぎると起こる「見えない変化」"
+        },
+        {
+          "kind": "text",
+          "text": "通院の間隔が2か月、3か月とあくと、その間に生活が少しずつ元に戻ってしまうことがあります。"
+        },
+        {
+          "kind": "text",
+          "text": "- 季節の変わり目や年末年始で、食事や運動のリズムが崩れる\n- 自宅での血圧測定が、いつの間にか途切れる\n- 体重が少しずつ増えていても、気づきにくい"
+        },
+        {
+          "kind": "text",
+          "text": "こうした変化は自覚症状がないまま進むため、次に受診したときには、数値が悪化していることがあります。月に一度お会いしていれば、小さなずれのうちに気づき、早めに軌道修正ができます。"
+        },
+        {
+          "kind": "text",
+          "text": "もちろん、状態が長く安定している方には、通院の間隔を相談しながら調整することもあります。大切なのは、間隔の長さそのものより、**「振り返る機会を途切れさせないこと」**です。"
+        },
+        {
+          "kind": "text",
+          "text": "## 院長からのメッセージ"
+        },
+        {
+          "kind": "text",
+          "text": "当院への毎月の通院は、ただお薬をお渡しする場所ではありません。あなたの健康を守るための、**生活習慣の軌道修正（メンテナンス）の時間**です。"
+        },
+        {
+          "kind": "text",
+          "text": "お説教をするつもりはありません。うまくいかなかった月があっても大丈夫です。その月の暮らしの事情をお聞きしながら、今の生活の中で無理なくできることを、一緒に考えていきます。"
+        },
+        {
+          "kind": "text",
+          "text": "[高血圧](/diseases/hypertension)・[脂質異常症](/diseases/dyslipidemia)・[糖尿病](/diseases/diabetes)について詳しく知りたい方は、病気の解説ページもあわせてご覧ください。一緒に、無理なく健康な未来をつくっていきましょう。"
+        }
+      ]
+    },
+    "en": {
+      "category": "Health and prevention",
+      "subcategory": "Lifestyle diseases & medication",
+      "title": "“Why every month, just to pick up my medicine?” The answer lies outside the pills",
+      "excerpt": "“Doctor, I'm stable — can't you just give me three months of pills at once?” I completely understand. Here's why I'd still like to see you once a month.",
+      "body": [
+        {
+          "kind": "text",
+          "text": "“Doctor, my numbers are stable — can't you just give me two or three months of medicine at once?” I hear this a lot in the consultation room."
+        },
+        {
+          "kind": "text",
+          "text": "Taking time off work and waiting at the clinic is genuinely hard. It's completely natural to feel, “I'm only getting the same medicine anyway.”"
+        },
+        {
+          "kind": "text",
+          "text": "In this post, I'd like to explain why I recommend seeing me once a month for lifestyle diseases. The short version: **the heart of treating lifestyle diseases is not the medicine itself, but small changes in your daily life. And the time we spend together once a month, reviewing your numbers and your routine, is an important part of the treatment that helps those changes last.**"
+        },
+        {
+          "kind": "text",
+          "text": "## Medicine alone can't fully treat the condition"
+        },
+        {
+          "kind": "text",
+          "text": "Medicines for high blood pressure, dyslipidemia and diabetes are good at lowering the numbers. But what medicine mainly does is “adjust the numbers.”"
+        },
+        {
+          "kind": "text",
+          "text": "- If salty meals continue, blood pressure medicine works less well\n- If you move less, blood sugar and cholesterol tend to rise\n- Lack of sleep and stress also show up in the numbers"
+        },
+        {
+          "kind": "text",
+          "text": "So if the foundation — daily meals, exercise and sleep — stays the same, it's not unusual for the amount of medicine to slowly increase."
+        },
+        {
+          "kind": "text",
+          "text": "To be honest, **“care that only hands out medicine” has its limits.** What can go beyond those limits is your daily life outside the consultation room."
+        },
+        {
+          "kind": "text",
+          "text": "## Being aware can change your body"
+        },
+        {
+          "kind": "text",
+          "text": "Here is an interesting study."
+        },
+        {
+          "kind": "text",
+          "text": "### The Harvard study of hotel room attendants"
+        },
+        {
+          "kind": "text",
+          "text": "In 2007, Dr. Crum and colleagues at Harvard University studied women working as hotel room attendants."
+        },
+        {
+          "kind": "text",
+          "text": "- One group was told, “The cleaning work you do every day counts as good exercise,” along with estimates of the calories they burned\n- The other group was told nothing"
+        },
+        {
+          "kind": "text",
+          "text": "Four weeks later, the informed group reported that their work had not changed, yet they **showed small decreases in weight and body fat, and lower blood pressure.**"
+        },
+        {
+          "kind": "text",
+          "text": "The study was small and short, so its results can't be applied directly to everyone. Still, it is known as a study suggesting that **being aware that “what I do is good for my body”** can be linked to physical change."
+        },
+        {
+          "kind": "text",
+          "text": "### A monthly review resets your awareness"
+        },
+        {
+          "kind": "text",
+          "text": "Our resolutions naturally loosen over time. Mine do too."
+        },
+        {
+          "kind": "text",
+          "text": "That's why, once a month, we:"
+        },
+        {
+          "kind": "text",
+          "text": "- Check your blood pressure and test results together\n- Look back on what went well over the past month\n- Choose just one thing you can comfortably do over the next month"
+        },
+        {
+          "kind": "text",
+          "text": "This time helps reset awareness that has started to slip, and becomes a chance to think, “Let's try again.” I see it as time that supports treatment as much as the medicine does — sometimes even more."
+        },
+        {
+          "kind": "text",
+          "text": "## The “invisible changes” when visits are spread too far apart"
+        },
+        {
+          "kind": "text",
+          "text": "When the gap between visits grows to two or three months, daily life can gradually slip back to old habits."
+        },
+        {
+          "kind": "text",
+          "text": "- Meal and exercise routines get disrupted by seasonal changes or the New Year holidays\n- Home blood pressure checks quietly stop\n- Slow weight gain is hard to notice"
+        },
+        {
+          "kind": "text",
+          "text": "Because these changes happen without symptoms, your numbers may have worsened by the next visit. Seeing each other once a month lets us notice small shifts early and correct course."
+        },
+        {
+          "kind": "text",
+          "text": "Of course, for patients who have been stable for a long time, we may adjust the interval together. What matters most is not the length of the interval, but **not letting the chance to look back lapse.**"
+        },
+        {
+          "kind": "text",
+          "text": "## A message from the director"
+        },
+        {
+          "kind": "text",
+          "text": "Monthly visits to our clinic are not just about handing over medicine. They are **time for course-correcting your lifestyle — maintenance to protect your health.**"
+        },
+        {
+          "kind": "text",
+          "text": "I don't intend to lecture you. It's fine if some months don't go well. I'll listen to what's happening in your life that month, and we'll think together about what you can comfortably do."
+        },
+        {
+          "kind": "text",
+          "text": "To learn more about [high blood pressure](/diseases/hypertension), [dyslipidemia](/diseases/dyslipidemia) and [diabetes](/diseases/diabetes), please see our disease pages as well. Let's build a healthy future together, without strain."
+        }
+      ]
+    }
   }
 ];
