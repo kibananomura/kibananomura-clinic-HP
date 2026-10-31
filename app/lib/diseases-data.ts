@@ -2978,7 +2978,7 @@ export const DISEASE_LINK_LABELS: DiseaseLinkLabel[] = DISEASES
     { label: "慢性腎臓病（CKD）", slug: "chronic-kidney-disease" },
     { label: "甲状腺機能の異常", slug: "thyroid" },
     // 自費診療ページ（/self-pay/）へのリンク
-    { label: "GLP-1ダイエット（低用量開始プラン）", slug: "", href: "/self-pay/glp1" },
+    { label: "GLP-1受容体作動薬による肥満治療（少量から開始）", slug: "", href: "/self-pay/glp1" },
     { label: "男性型脱毛症（AGA）", slug: "", href: "/self-pay/aga" },
     { label: "AGA治療（フィナステリド）", slug: "", href: "/self-pay/aga" },
     { label: "AGA治療（デュタステリド系）", slug: "", href: "/self-pay/aga" },

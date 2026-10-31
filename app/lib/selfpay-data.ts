@@ -53,7 +53,7 @@ export const SELFPAY_ITEMS: SelfPayEntry[] = [
   {
     slug: "glp1",
     label: "GLP-1受容体作動薬（肥満治療）",
-    title: "GLP-1ダイエット（医療ダイエット）",
+    title: "GLP-1受容体作動薬による肥満治療（いわゆる医療ダイエット）",
     badge: "肥満治療",
     catchCopy: "食事制限だけに頼らない、医師管理下の体重マネジメント",
     summary:

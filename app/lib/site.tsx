@@ -356,7 +356,7 @@ const ja: SiteDict = {
       },
       {
         title: "受付時間",
-        body: "月〜金（土日祝休み）。午前・午後とも診療します。昼休みは近隣施設への訪問診療の時間帯として予定。土曜・日曜は院長の都合がつく日に限り、17:30〜18:30に外科処置専門の特別外来を開設することがあります。",
+        body: "月〜金（土日祝休み）。午前・午後とも診療します。昼休みは近隣施設への訪問診療の時間帯として予定。土曜・日曜は院長が対応できる日に限り、17:30〜18:30に外科処置専門の特別外来を開設することがあります。",
       },
     ],
     guideLink: "詳しい診療内容を見る →",
@@ -381,18 +381,18 @@ const ja: SiteDict = {
       },
       {
         title: "ビジョン",
-        body: "子供から高齢者まで、すべての世代の安心を支える地域のかかりつけ診療所になる",
+        body: "お子さんからご高齢の方まで、すべての世代の安心を支える地域のかかりつけ診療所になる",
       },
       {
         title: "バリュー",
-        body: "①誠実な対話と共同意思決定　②たゆまない自己研鑽　③高潔な医療倫理　④ITの積極活用による患者へのゆとり　⑤主体性・チーム全体最適・持続可能な運営　⑥自己の心身管理",
+        body: "①誠実な対話と共同意思決定　②たゆまない自己研鑽　③高潔な医療倫理　④ITの積極活用による患者さんのゆとり　⑤主体性・チーム全体最適・持続可能な運営　⑥自己の心身管理",
       },
     ],
-    visionQuote: "子供から高齢者まで、すべての世代の安心を支える地域のかかりつけ診療所になる",
+    visionQuote: "お子さんからご高齢の方まで、すべての世代の安心を支える地域のかかりつけ診療所になる",
     visionCaption: "── 木花のむら総合診療所　ビジョン",
   },
   features: {
-    eyebrow: "選ばれる理由",
+    eyebrow: "当院の特徴",
     heading: "診療所の4つの特徴",
     items: [
       {
@@ -404,7 +404,7 @@ const ja: SiteDict = {
         body: "16列CT・デジタルX線・エコー・経鼻内視鏡を院内に整備予定。まずは何でもご相談いただき、できる限り院内で検査・対応できる体制を目指します（内容によっては適切な専門医療機関をご紹介します）。",
       },
       {
-        title: "待たない仕組み",
+        title: "待ち時間を短くする工夫",
         body: "Web問診（スマホ事前入力）・セミセルフレジ・車内でのオンライン受付で、来院から会計まで概ね30分程度を目安に、できるだけ早くお帰りいただける体制を目指します。もちろんWebを使わないご来院・直接のご予約も可能です。テクノロジーは、人に寄り添うための道具です。",
       },
       {
@@ -483,7 +483,7 @@ const ja: SiteDict = {
           { label: "お子さんの鼻水・鼻づまり", href: "/symptoms/child-runny-nose" },
           { label: "お子さんの嘔吐・下痢が心配", href: "/symptoms/child-vomiting-diarrhea" },
         ],
-        note: "当院は消化器外科・内科を専門とするクリニックですが、周辺に小児科が少ない地域のインフラとして、お子様の急な風邪、胃腸炎、各種ワクチン接種などの「一次対応（プライマリケア）」に全力を尽くします。より専門的な検査や加療が必要と判断した場合は、速やかに近隣の小児科専門医や基幹病院へご紹介する「安心のハブ（中継点）」としての役割を担います。",
+        note: "院長は消化器外科・内科を専門としていますが、近くに小児科が少ない地域だからこそ、お子さんの急なかぜ・発熱・胃腸炎や予防接種など、身近な病気の最初の窓口として、ていねいに診療します。より専門的な検査や治療が必要なときは、近隣の小児科専門医や病院へ速やかにご紹介します。",
         wide: false,
       },
       {
@@ -552,7 +552,7 @@ const ja: SiteDict = {
     legendClosed: "休診",
     scheduleNotes: [
       "★ 昼休みは近隣施設への訪問診療の時間帯として予定しています",
-      "★ 土・日は院長の都合がつく日に限り、17:30〜18:30に外科処置専門の特別外来を開設することがあります（空き日程は前週までにご案内予定）",
+      "★ 土・日は院長が対応できる日に限り、17:30〜18:30に外科処置専門の特別外来を開設することがあります（空き日程は前週までにご案内予定）",
     ],
     closedNote: "休診：土曜・日曜・祝日（外科処置外来を除く）",
     days: ["月", "火", "水", "木", "金"],
@@ -807,7 +807,7 @@ const ja: SiteDict = {
         title: "自費診療",
         items: [
           {
-            name: "GLP-1ダイエット（低用量開始プラン）",
+            name: "GLP-1受容体作動薬による肥満治療（少量から開始）",
             price: "月額19,800円〜",
             overview: "GLP-1受容体作動薬を少量から用いる、医師管理下の体重マネジメント治療です。",
             risks:
@@ -1028,7 +1028,7 @@ const ja: SiteDict = {
     intro: "はじめて木花のむら総合診療所を受診される方へ、診察の流れや持ち物をご案内します。「これくらいで受診していいのかな？」と思ったときも、どうぞお気軽にお越しください。",
     steps: [
       { num: "01", title: "ご予約（開院後）", body: "電話・Web・LINEにてご予約いただけます（開院後に受付開始）。当日のご来院も受け付けます。**予約優先制**のため、事前予約をお勧めします。ご予約のキャンセル・変更は、**今後設定する当院の電話番号**におかけください（電話番号は決まり次第お知らせします）。" },
-      { num: "02", title: "来院・受付", body: "受付にて保険証・お薬手帳をご提示ください。Web問診システム（スマートフォン対応）で事前に症状をご入力いただくこともできますし、ご来院時に直接ご入力いただいても構いません。__順番は受付順ではなく、診察準備が整った順番__でお呼びしますので、あらかじめご了承ください。Web問診や予約システムなどの医療DXを活用し、待ち時間をできる限り短くできるよう努めます。" },
+      { num: "02", title: "来院・受付", body: "受付にて保険証・お薬手帳をご提示ください。Web問診システム（スマートフォン対応）で事前に症状をご入力いただくこともできますし、ご来院時に直接ご入力いただいても構いません。__検査の有無や診察の準備状況により、お呼びする順番が受付順と前後することがあります__。あらかじめご了承ください。Web問診や予約システムなどの医療DXを活用し、待ち時間をできる限り短くできるよう努めます。" },
       { num: "03", title: "問診・診察", body: "医師が症状をていねいにお聞きします。CTやエコーなど必要な検査はその日のうちに院内で行えます。胃カメラは**予約制**です。午前10時までの空腹の状態で、内視鏡担当の看護師が勤務している日時にご案内いたします。__※午前の検査をご希望の場合、前日21時以降は絶食が必要です（水・お茶は可）。__ ※介助看護師の配置状況により、ご希望の日時に添えない場合がありますので、事前のWeb・お電話でのご予約をおすすめします。" },
       { num: "04", title: "会計・お薬", body: "セミセルフレジで会計をスムーズに行います。お薬が処方される場合は処方箋をお渡ししますので、**院外の調剤薬局**にお持ちください。" },
     ],
@@ -1213,8 +1213,8 @@ const en: SiteDict = {
         body: "16-row CT, digital X-ray, ultrasound and transnasal endoscopy on-site. We aim to see you first for just about anything, testing and treating as much as possible in-house (and referring you to the right specialist when needed).",
       },
       {
-        title: "A system that doesn't keep you waiting",
-        body: "AI pre-screening on your phone, semi-self payment kiosks, and online check-in from your car aim to get you from arrival to payment in around 30 minutes or less — often faster. Walking in or booking without using the web is also perfectly fine. Technology is simply a tool to stay close to people.",
+        title: "Shorter waits, by design",
+        body: "AI pre-screening on your phone, semi-self payment kiosks, and online check-in from your car aim to keep the time from arrival to payment to around 30 minutes where possible. Walking in or booking without using the web is also perfectly fine. Technology is simply a tool to stay close to people.",
       },
       {
         title: "A local doctor who keeps caring, long-term",
@@ -1830,7 +1830,7 @@ const en: SiteDict = {
     intro: "A guide for first-time patients — what to expect and what to bring. If you're unsure whether your symptoms warrant a visit, please don't hesitate to come.",
     steps: [
       { num: "01", title: "Book an appointment (after opening)", body: "Bookings can be made by phone, online or LINE (to open after clinic launch). Walk-ins are also welcome, but **appointments are prioritised**. To cancel or change an appointment, please call **the clinic phone number, which will be announced once it is set up**." },
-      { num: "02", title: "Arrive & check in", body: "Please present your insurance card and medication record at reception. Our web pre-screening system (smartphone-friendly) lets you enter your symptoms in advance, or you're welcome to fill it out in person when you arrive. __You'll be called in once we're ready for you, rather than strictly in check-in order__, so thank you for your understanding. We use digital tools such as online questionnaires and our booking system to keep waiting times as short as possible." },
+      { num: "02", title: "Arrive & check in", body: "Please present your insurance card and medication record at reception. Our web pre-screening system (smartphone-friendly) lets you enter your symptoms in advance, or you're welcome to fill it out in person when you arrive. __Depending on tests and preparation, the order in which you are called may differ from check-in order__, so thank you for your understanding. We use digital tools such as online questionnaires and our booking system to keep waiting times as short as possible." },
       { num: "03", title: "Consultation & examination", body: "The physician will listen carefully to your symptoms. Tests such as CT and ultrasound can often be performed on the same day. Gastroscopy is **by appointment only**, scheduled for a fasting morning slot before 10am when our endoscopy nurse is on duty. __*For a morning exam, you'll need to fast from 9pm the night before (water and tea are fine).__ *Please book in advance online or by phone, as availability depends on endoscopy nurse staffing." },
       { num: "04", title: "Payment & prescription", body: "Semi-self payment kiosks keep checkout quick and simple. If medication is prescribed, we'll hand you a prescription slip to take to an **outside dispensing pharmacy**." },
     ],
