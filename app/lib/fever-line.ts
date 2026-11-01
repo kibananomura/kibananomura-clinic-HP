@@ -19,9 +19,8 @@ const ARRIVE_WORDS = ["発熱到着", "発熱で到着", "発熱到着しまし�
 const TEXT = {
   arrive:
     "到着のご連絡ありがとうございます。\n" +
-    "院内のフリーWi-Fiにつないでから、下のボタンで「発熱外来 到着受付」を開き、駐車番号・お車のナンバー・受診される方の人数を送ってください。\n" +
+    "院内のフリーWi-Fiにつないでから、下のURLで「発熱外来 到着受付」を開き、駐車番号・お車のナンバー・受診される方の人数を送ってください。\n" +
     "お薬の準備ができたら、このLINEでもお知らせします。",
-  arriveButton: "到着受付を開く",
   notReady: "発熱外来のLINE受付は準備中です。お手数ですが、駐車区画の看板のQRコードから到着受付を開くか、受付にお電話ください。",
   ready: "調剤が済みました。薬局横の所定の位置まで進んで停車してください。\n\nお薬を受け取ったら、到着受付の画面を閉じてください。",
 };
@@ -37,24 +36,15 @@ export function parseFeverArrival(text: string): string | null {
   return /^[1-9]$/.test(rest) ? rest : "";
 }
 
-/** 「発熱到着」への返信（到着受付のURLボタン付き）。返信なので通数にはかぞえられない */
+/** 「発熱到着」への返信（到着受付のURL）。返信なので通数にはかぞえられない。
+ *  院内のアドレス（http://192.168.…）はボタン（テンプレートメッセージ）だとLINEに受け付けられないことがあるため、文字のURLで送る */
 export function feverArrivalMessages(userId: string, slot: string): LineMessage[] {
   const base = process.env.FEVER_SIGNAGE_URL;
   if (!base || !process.env.SIGNAGE_NOTIFY_SECRET) return [{ type: "text", text: TEXT.notReady }];
   const url = new URL("/fever.html", base);
   url.searchParams.set("lt", sealUser(userId));
   if (slot) url.searchParams.set("slot", slot);
-  return [
-    {
-      type: "template",
-      altText: "発熱外来 到着受付",
-      template: {
-        type: "buttons",
-        text: TEXT.arrive.slice(0, 160),
-        actions: [{ type: "uri", label: TEXT.arriveButton, uri: url.toString() }],
-      },
-    },
-  ];
+  return [{ type: "text", text: `${TEXT.arrive}\n\n▼発熱外来 到着受付\n${url.toString()}` }];
 }
 
 /** 院内サイネージからの依頼で、目印の方にLINEを送る（今は「調剤済み」だけ） */
