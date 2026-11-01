@@ -628,6 +628,8 @@ export const COMMON_EMPLOYMENT_TERMS = {
       { label: "勤務日数・時間帯", value: "常勤・パートとも、ご希望やライフスタイルに合わせてご相談に応じます" },
       { label: "休日", value: "年間休日120日（土曜・日曜・祝日、年末年始〈12/29〜1/3〉）。土日に院長が行うことがある外科処置の特別外来は、スタッフの勤務を前提としていません" },
       { label: "昇給", value: "年1回（クリニック業績および個人の評価による ※開院初年度は規定による）" },
+      { label: "賞与（予定）", value: "年2回（常勤のみ／クリニック業績および個人の評価による ※開院初年度は規定による）" },
+      { label: "退職金（予定）", value: "現時点では検討中（法人化後、規模拡大の段階で導入を検討）" },
       {
         label: "残業代について",
         value: "固定残業代制は採用しておりません。時間外労働が発生した場合は、実働時間に応じて法定割増賃金を別途全額支給いたします。",
@@ -645,6 +647,8 @@ export const COMMON_EMPLOYMENT_TERMS = {
       { label: "Work days & hours", value: "For both full-time and part-time, we will discuss days and hours to suit your wishes and lifestyle" },
       { label: "Holidays", value: "120 days off per year (Saturdays, Sundays, public holidays, and the New Year break, 29 Dec – 3 Jan). The director's occasional weekend surgical clinic does not require staff to work" },
       { label: "Pay raises", value: "Once a year (based on clinic performance and individual evaluation; per internal rules in our first year)" },
+      { label: "Bonus (planned)", value: "Twice a year (full-time only; based on clinic performance and individual evaluation; per internal rules in our first year)" },
+      { label: "Retirement allowance (planned)", value: "Currently under consideration (planned for introduction once we incorporate and grow in scale)" },
       {
         label: "Overtime pay",
         value: "We do not use a fixed/deemed overtime system. If overtime work occurs, we pay the full statutory premium wage separately, based on actual hours worked.",
