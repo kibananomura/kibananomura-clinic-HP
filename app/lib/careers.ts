@@ -59,7 +59,7 @@ export const CAREERS_PAGE = {
       },
       {
         title: "職種の垣根を越えて助け合う（半学半教）",
-        body: "小さな診療所だからこそ、自分の職種の範囲だけに閉じこもるのではなく、手が空いたときは他の職種の業務にも柔軟にフォローに回れる職場を目指しています。看護師・医療事務・診療放射線技師・臨床検査技師・管理栄養士など、互いに教え合い、支え合いながらチーム全体で医療の質を高めていきます。",
+        body: "小さな診療所だからこそ、自分の職種の範囲だけに閉じこもるのではなく、手が空いたときは他の職種の業務にも柔軟にフォローに回れる職場を目指しています。看護師・医療事務・診療放射線技師・臨床検査技師など、互いに教え合い、支え合いながらチーム全体で医療の質を高めていきます。",
       },
       {
         title: "自己成長を楽しむ姿勢",
@@ -127,7 +127,7 @@ export const CAREERS_PAGE = {
       },
       {
         title: "Helping across roles, not confined to one (Hangaku Hankyo)",
-        body: "As a small clinic, we want everyone — nurses, admin staff, radiologic technologists, medical technologists, dietitians and more — to look beyond the boundaries of their own role and step in to support other staff whenever they have a moment to spare. We teach and support each other across roles, raising the quality of care as one team.",
+        body: "As a small clinic, we want everyone — nurses, admin staff, radiologic technologists, medical technologists and more — to look beyond the boundaries of their own role and step in to support other staff whenever they have a moment to spare. We teach and support each other across roles, raising the quality of care as one team.",
       },
       {
         title: "Enjoying your own growth",
@@ -214,7 +214,7 @@ export const WORK_HIGHLIGHTS = {
       {
         icon: "🚗",
         title: "Free parking, no commuting hassle",
-        body: "32 parking spaces planned. Easy car commuting with little traffic stress from across southern Miyazaki City (Kibana, Kiyotake, Aoshima, Hongo, Akae and Tano) and from the Nichinan direction — commuting allowance paid per policy (capped at JPY 10,000/month).",
+        body: "32 parking spaces planned. Easy car commuting with little traffic stress from across southern Miyazaki City (Kibana, Kiyotake, Aoshima, Hongo, Akae and Tano) and from the Nichinan direction — commuting allowance paid per policy (capped at JPY 10,000/month (tentative)).",
       },
       {
         icon: "🩺",
@@ -249,9 +249,9 @@ export const CAREER_POSITIONS: CareerPosition[] = [
         { label: "雇用形態", value: "常勤（正社員）・パート" },
         {
           label: "給与（常勤）",
-          value: "月給220,000〜270,000円（基本給＋資格手当等を含む／経験・能力・内視鏡や外科処置等のスキルを考慮の上決定）",
+          value: "月給220,000〜270,000円（案）（基本給＋資格手当等を含む／経験・能力・内視鏡や外科処置等のスキルを考慮の上決定）",
         },
-        { label: "給与（パート）", value: "時給1,200〜1,500円（経験・能力により決定。宮崎県の最低賃金（2026年10月24日から時給1,085円）が改定された場合は、それを下回らない額とします）" },
+        { label: "給与（パート）", value: "時給1,180〜1,500円（案）（経験・能力により決定。宮崎県の最低賃金（2026年10月24日から時給1,085円）が改定された場合は、それを下回らない額とします）" },
       ],
     },
     en: {
@@ -275,9 +275,9 @@ export const CAREER_POSITIONS: CareerPosition[] = [
         { label: "Employment type", value: "Full-time or part-time" },
         {
           label: "Salary (full-time)",
-          value: "JPY 220,000–270,000/month (including base salary, qualification allowance, etc.; decided based on experience, ability and skills such as endoscopy/surgical assistance)",
+          value: "JPY 220,000–270,000/month (tentative) (including base salary, qualification allowance, etc.; decided based on experience, ability and skills such as endoscopy/surgical assistance)",
         },
-        { label: "Salary (part-time)", value: "JPY 1,200–1,500/hr, based on experience and ability (never below the Miyazaki Prefecture minimum wage (JPY 1,085/hr from 24 October 2026) if it is revised)" },
+        { label: "Salary (part-time)", value: "JPY 1,180–1,500/hr (tentative), based on experience and ability (never below the Miyazaki Prefecture minimum wage (JPY 1,085/hr from 24 October 2026) if it is revised)" },
       ],
     },
   },
@@ -304,9 +304,9 @@ export const CAREER_POSITIONS: CareerPosition[] = [
         { label: "雇用形態", value: "常勤（正社員）・パート" },
         {
           label: "給与（常勤）",
-          value: "月給185,000〜215,000円（経験・レセプト算定スキル・電子カルテ操作経験を考慮の上決定）",
+          value: "月給185,000〜215,000円（案）（経験・レセプト算定スキル・電子カルテ操作経験を考慮の上決定）",
         },
-        { label: "給与（パート）", value: "時給1,150〜1,300円（宮崎県の最低賃金（2026年10月24日から時給1,085円）が改定された場合は、それを下回らない額とします）" },
+        { label: "給与（パート）", value: "時給1,100〜1,300円（案）（宮崎県の最低賃金（2026年10月24日から時給1,085円）が改定された場合は、それを下回らない額とします）" },
       ],
     },
     en: {
@@ -330,9 +330,9 @@ export const CAREER_POSITIONS: CareerPosition[] = [
         { label: "Employment type", value: "Full-time or part-time" },
         {
           label: "Salary (full-time)",
-          value: "JPY 185,000–215,000/month (decided based on experience, claims processing skill and EMR experience)",
+          value: "JPY 185,000–215,000/month (tentative) (decided based on experience, claims processing skill and EMR experience)",
         },
-        { label: "Salary (part-time)", value: "JPY 1,150–1,300/hr (never below the Miyazaki Prefecture minimum wage (JPY 1,085/hr from 24 October 2026) if it is revised)" },
+        { label: "Salary (part-time)", value: "JPY 1,100–1,300/hr (tentative) (never below the Miyazaki Prefecture minimum wage (JPY 1,085/hr from 24 October 2026) if it is revised)" },
       ],
     },
   },
@@ -357,10 +357,9 @@ export const CAREER_POSITIONS: CareerPosition[] = [
         { label: "雇用形態", value: "常勤（正社員）を基本としつつ、診療体制・患者数に応じて非常勤・業務委託等も相談可" },
         {
           label: "給与（常勤・目安）",
-          value: "月額200,000〜230,000円程度（資格手当込み・経験を考慮のうえ決定）",
+          value: "月額200,000〜230,000円程度（案）（資格手当込み・経験を考慮のうえ決定）",
         },
-        { label: "給与（パート・目安）", value: "時給1,100〜1,300円程度（経験・能力に応じて決定。宮崎県の最低賃金（2026年10月24日から時給1,085円）が改定された場合は、それを下回らない額とします）" },
-        { label: "賞与（予定）", value: "年2回（開業1年目：合計基本給×2.0ヶ月を予定、以降段階的に見直し）" },
+        { label: "給与（パート・目安）", value: "時給1,100〜1,300円程度（案）（経験・能力に応じて決定。宮崎県の最低賃金（2026年10月24日から時給1,085円）が改定された場合は、それを下回らない額とします）" },
       ],
       note:
         "常勤採用を約束するものではなく、開院当初の診療体制・患者数の状況を踏まえ、非常勤・業務委託等の柔軟な形態も含めて個別にご相談させていただきます。撮影業務が1日4〜5件程度と限られる分、資格・技能を活かしつつ受付・ご案内等の患者対応にも幅広く携わっていただく前向きなポジションです。",
@@ -384,10 +383,9 @@ export const CAREER_POSITIONS: CareerPosition[] = [
         { label: "Employment type", value: "Primarily full-time, with part-time or contract arrangements considered depending on clinic volume" },
         {
           label: "Salary (full-time, guide)",
-          value: "Approx. JPY 200,000–230,000/month (including qualification allowance, based on experience)",
+          value: "Approx. JPY 200,000–230,000/month (tentative) (including qualification allowance, based on experience)",
         },
-        { label: "Salary (part-time, guide)", value: "Approx. JPY 1,100–1,300/hr, based on experience (never below the Miyazaki Prefecture minimum wage (JPY 1,085/hr from 24 October 2026) if it is revised)" },
-        { label: "Bonus (planned)", value: "Twice a year (Year 1: total 2.0x base salary planned, reviewed thereafter)" },
+        { label: "Salary (part-time, guide)", value: "Approx. JPY 1,100–1,300/hr (tentative), based on experience (never below the Miyazaki Prefecture minimum wage (JPY 1,085/hr from 24 October 2026) if it is revised)" },
       ],
       note:
         "This is not a guarantee of full-time employment; the exact arrangement (full-time, part-time, or contract) will be discussed individually based on our clinical volume at opening. Since imaging work is expected to be around 4–5 cases per day, this is a positive opportunity to apply your technical expertise while also broadly supporting patients at reception.",
@@ -414,10 +412,9 @@ export const CAREER_POSITIONS: CareerPosition[] = [
         { label: "雇用形態", value: "常勤（正社員）・パートを想定。診療体制・患者数に応じて非常勤中心での採用も相談可" },
         {
           label: "給与（常勤・目安）",
-          value: "月額200,000〜230,000円程度（経験・能力を考慮のうえ決定）",
+          value: "月額200,000〜230,000円程度（案）（経験・能力を考慮のうえ決定）",
         },
-        { label: "給与（パート・目安）", value: "時給1,100〜1,300円程度（経験・能力に応じて決定。宮崎県の最低賃金（2026年10月24日から時給1,085円）が改定された場合は、それを下回らない額とします）" },
-        { label: "賞与（予定）", value: "年2回（開業1年目：合計基本給×2.0ヶ月を予定、以降段階的に見直し）※パートは勤務形態によって異なる" },
+        { label: "給与（パート・目安）", value: "時給1,100〜1,300円程度（案）（経験・能力に応じて決定。宮崎県の最低賃金（2026年10月24日から時給1,085円）が改定された場合は、それを下回らない額とします）" },
       ],
       note:
         "常勤採用を約束するものではなく、開院当初の診療体制・患者数の状況を踏まえ、非常勤等の柔軟な形態も含めて個別にご相談させていただきます。検査業務が1日4〜5件程度と限られる分、資格・技能を活かしつつ受付・ご案内等の患者対応にも幅広く携わっていただく前向きなポジションです。",
@@ -441,10 +438,9 @@ export const CAREER_POSITIONS: CareerPosition[] = [
         { label: "Employment type", value: "Full-time or part-time; primarily part-time arrangements considered depending on clinic volume" },
         {
           label: "Salary (full-time, guide)",
-          value: "Approx. JPY 200,000–230,000/month (based on experience)",
+          value: "Approx. JPY 200,000–230,000/month (tentative) (based on experience)",
         },
-        { label: "Salary (part-time, guide)", value: "Approx. JPY 1,100–1,300/hr, based on experience (never below the Miyazaki Prefecture minimum wage (JPY 1,085/hr from 24 October 2026) if it is revised)" },
-        { label: "Bonus (planned)", value: "Twice a year (Year 1: total 2.0x base salary planned); varies for part-time roles" },
+        { label: "Salary (part-time, guide)", value: "Approx. JPY 1,100–1,300/hr (tentative), based on experience (never below the Miyazaki Prefecture minimum wage (JPY 1,085/hr from 24 October 2026) if it is revised)" },
       ],
       note:
         "This is not a guarantee of full-time employment; the exact arrangement will be discussed individually based on our clinical volume at opening. Since testing work is expected to be around 4–5 cases per day, this is a positive opportunity to apply your technical expertise while also broadly supporting patients at reception.",
@@ -471,7 +467,7 @@ export const CAREER_POSITIONS: CareerPosition[] = [
         { label: "雇用形態", value: "非常勤中心（診療体制・患者数に応じて日数・時間を相談）" },
         {
           label: "給与（目安）",
-          value: "月給換算230,000〜280,000円程度（非常勤の場合は勤務日数・時間に応じて応相談）",
+          value: "月給換算230,000〜280,000円程度（案）（非常勤の場合は勤務日数・時間に応じて応相談）",
         },
         { label: "賞与（予定）", value: "勤務形態によって異なる（面談時にご相談）" },
         { label: "社会保険", value: "労災保険は全員加入。雇用保険・社会保険は勤務形態・法令基準に基づき加入判定" },
@@ -498,7 +494,7 @@ export const CAREER_POSITIONS: CareerPosition[] = [
         { label: "Employment type", value: "Mainly part-time (days/hours negotiable based on clinic volume)" },
         {
           label: "Salary (guide)",
-          value: "Equivalent to approx. JPY 230,000–280,000/month; part-time terms negotiable based on days/hours",
+          value: "Equivalent to approx. JPY 230,000–280,000/month (tentative); part-time terms negotiable based on days/hours",
         },
         { label: "Bonus (planned)", value: "Varies by employment arrangement (to be discussed at interview)" },
         { label: "Social insurance", value: "Workers' comp for all staff; employment/health insurance per employment type and statutory thresholds" },
@@ -510,6 +506,8 @@ export const CAREER_POSITIONS: CareerPosition[] = [
   },
   {
     id: "dietitian",
+    // 開院当初は栄養指導を外注するため非表示（クリニックが軌道に乗ってから採用を検討・2026-11-01院長）
+    hidden: true,
     ja: {
       title: "管理栄養士",
       badge: "生活習慣病の栄養指導（非常勤）",
@@ -575,23 +573,23 @@ export const SALARY_MODELS = {
       {
         title: "モデル例①　常勤看護師",
         subtitle: "臨床経験5年・内視鏡介助経験あり",
-        amount: "月給 250,000円 ＋ 賞与年2回",
+        amount: "月給 250,000円（案） ＋ 賞与年2回",
         note: "平日のみ勤務・土日祝休み",
       },
       {
         title: "モデル例②　パート看護師",
         subtitle: "子育て中・扶養内または短時間勤務",
-        amount: "時給 1,250円 × 1日4時間（午前のみ）× 週5日 ＝ 月収目安 約100,000円",
-        note: "土日祝休み・お子さんの学校行事等も柔軟に相談可",
+        amount: "時給 1,250円（案） × 1日4時間（午前のみ）× 週4日 ＝ 月収目安 約87,000円（案）（年収 約104万円）",
+        note: "通勤手当を含めても、社会保険の扶養の目安（年収130万円未満）に収まる働き方です。土日祝休み・お子さんの学校行事等も柔軟に相談可",
       },
       {
         title: "モデル例③　常勤医療事務",
         subtitle: "クリニック算定経験3年",
-        amount: "月給 200,000円 ＋ 賞与年2回",
+        amount: "月給 200,000円（案） ＋ 賞与年2回",
         note: "平日のみ勤務・土日祝休み",
       },
     ],
-    disclaimer: "※ 上記はモデル例であり、実際の給与は経験・能力・勤務形態等を踏まえ個別に決定します。特定の個人を示すものではありません。",
+    disclaimer: "※ 上記はモデル例であり、実際の給与は経験・能力・勤務形態等を踏まえ個別に決定します。特定の個人を示すものではありません。※ 扶養内で働きたい方へ：2025年の税制改正で、ご本人に所得税がかからない年収は160万円まで、配偶者控除を受けられる年収は123万円まで引き上げられました。社会保険の扶養の目安は年収130万円未満（通勤手当を含む）のままです。勤務日数・時間は、ご希望の働き方に合わせてご相談ください。",
   },
   en: {
     heading: "Example pay & work-style models",
@@ -599,23 +597,23 @@ export const SALARY_MODELS = {
       {
         title: "Model ① Full-time nurse",
         subtitle: "5 years' clinical experience, gastroscopy assistance experience",
-        amount: "JPY 250,000/month + bonus twice a year",
+        amount: "JPY 250,000/month (tentative) + bonus twice a year",
         note: "Weekdays only, closed Sat/Sun/holidays",
       },
       {
         title: "Model ② Part-time nurse",
         subtitle: "Raising children, within dependent limits or short hours",
-        amount: "JPY 1,250/hr × 4 hrs/day (mornings only) × 5 days/week ≈ JPY 100,000/month",
-        note: "Closed Sat/Sun/holidays; flexible around school events, etc.",
+        amount: "JPY 1,250/hr (tentative) × 4 hrs/day (mornings only) × 4 days/week ≈ JPY 87,000/month (tentative) (≈ JPY 1.04 million/year)",
+        note: "Even including the commuting allowance, this stays under the social insurance dependent threshold (annual income under JPY 1.3 million). Closed Sat/Sun/holidays; flexible around school events, etc.",
       },
       {
         title: "Model ③ Full-time admin staff",
         subtitle: "3 years' clinic billing/claims experience",
-        amount: "JPY 200,000/month + bonus twice a year",
+        amount: "JPY 200,000/month (tentative) + bonus twice a year",
         note: "Weekdays only, closed Sat/Sun/holidays",
       },
     ],
-    disclaimer: "* These are illustrative models only. Actual pay is determined individually based on experience, ability and work arrangement, and does not represent any specific person.",
+    disclaimer: "* These are illustrative models only. Actual pay is determined individually based on experience, ability and work arrangement, and does not represent any specific person. * If you want to stay within dependent limits: under Japan's 2025 tax reform, the income at which you pay no income tax rose to JPY 1.6 million, and the limit for the spouse deduction rose to JPY 1.23 million. The social insurance dependent threshold remains annual income under JPY 1.3 million (including commuting allowance). We will discuss work days and hours to suit how you want to work.",
   },
 } as const;
 
@@ -628,15 +626,15 @@ export const COMMON_EMPLOYMENT_TERMS = {
       { label: "勤務日数・時間帯", value: "常勤・パートとも、ご希望やライフスタイルに合わせてご相談に応じます" },
       { label: "休日", value: "年間休日120日（土曜・日曜・祝日、年末年始〈12/29〜1/3〉）。土日に院長が行うことがある外科処置の特別外来は、スタッフの勤務を前提としていません" },
       { label: "昇給", value: "年1回（クリニック業績および個人の評価による ※開院初年度は規定による）" },
-      { label: "賞与（予定）", value: "年2回（常勤のみ／クリニック業績および個人の評価による ※開院初年度は規定による）" },
-      { label: "退職金（予定）", value: "現時点では検討中（法人化後、規模拡大の段階で導入を検討）" },
+      { label: "賞与（予定）", value: "常勤：年2回（クリニック業績および個人の評価による ※開院初年度は規定による）／パート：寸志あり（勤務状況による）" },
+      { label: "退職金", value: "あり（勤続3年以上の方。支給額は退職金規程による）" },
       {
         label: "残業代について",
         value: "固定残業代制は採用しておりません。時間外労働が発生した場合は、実働時間に応じて法定割増賃金を別途全額支給いたします。",
       },
       { label: "試用期間", value: "3ヶ月（期間中の労働条件・給与の変動なし ※開院前研修期間を含む）" },
       { label: "社会保険", value: "社会保険完備（健康保険・厚生年金・雇用保険・労災保険 ※パートは勤務時間に応じて法定通り加入）" },
-      { label: "通勤手当", value: "規定支給（燃費×通勤距離〈Googleマップ上の経路距離〉×勤務日数で算出、月額上限10,000円）" },
+      { label: "通勤手当", value: "規定支給（燃費×通勤距離〈Googleマップ上の経路距離〉×勤務日数で算出、月額上限10,000円（案））" },
       { label: "福利厚生", value: "制服貸与、スタッフルーム完備予定" },
     ],
   },
@@ -647,15 +645,15 @@ export const COMMON_EMPLOYMENT_TERMS = {
       { label: "Work days & hours", value: "For both full-time and part-time, we will discuss days and hours to suit your wishes and lifestyle" },
       { label: "Holidays", value: "120 days off per year (Saturdays, Sundays, public holidays, and the New Year break, 29 Dec – 3 Jan). The director's occasional weekend surgical clinic does not require staff to work" },
       { label: "Pay raises", value: "Once a year (based on clinic performance and individual evaluation; per internal rules in our first year)" },
-      { label: "Bonus (planned)", value: "Twice a year (full-time only; based on clinic performance and individual evaluation; per internal rules in our first year)" },
-      { label: "Retirement allowance (planned)", value: "Currently under consideration (planned for introduction once we incorporate and grow in scale)" },
+      { label: "Bonus (planned)", value: "Full-time: twice a year (based on clinic performance and individual evaluation; per internal rules in our first year) / Part-time: a small bonus, depending on work record" },
+      { label: "Retirement allowance", value: "Provided for staff with 3 or more years of service (amount per our retirement allowance rules)" },
       {
         label: "Overtime pay",
         value: "We do not use a fixed/deemed overtime system. If overtime work occurs, we pay the full statutory premium wage separately, based on actual hours worked.",
       },
       { label: "Probation period", value: "3 months (no change to working conditions or pay during this period; includes pre-opening training)" },
       { label: "Social insurance", value: "Full social insurance (health, pension, employment, workers' comp; part-time staff enrolled per statutory thresholds based on hours worked)" },
-      { label: "Commuting allowance", value: "Paid per policy (calculated as vehicle fuel efficiency × commuting distance via Google Maps × working days, capped at JPY 10,000/month)" },
+      { label: "Commuting allowance", value: "Paid per policy (calculated as vehicle fuel efficiency × commuting distance via Google Maps × working days, capped at JPY 10,000/month (tentative))" },
       { label: "Benefits", value: "Uniforms provided, staff room planned" },
     ],
   },
@@ -666,7 +664,7 @@ export const OBSERVER_PROGRAM = {
     eyebrow: "大学生・短大生の方へ",
     heading: "オブザーバー募集（見学・交流プログラム）",
     intro:
-      "本枠は雇用契約を伴わない、完全無償の見学・交流プログラムです。給与・パート代のお支払いはございません。宮崎大学をはじめ、看護職を目指す宮崎県立看護大学の学生さん、医療事務・受付の仕事に関心のある宮崎学園短期大学・南九州短期大学の学生さん、栄養指導に関心のある南九州大学（健康栄養学部）の学生さんなど、医療系の学生さんはもちろん、マーケティング・起業に関心のある学生さん、システムエンジニアリング（IT・プログラミング）に関心のある学生さんなど、様々な分野に関心のある学生さんを歓迎します。",
+      "本枠は雇用契約を伴わない、完全無償の見学・交流プログラムです。給与・パート代のお支払いはございません。宮崎大学をはじめ、看護職を目指す宮崎県立看護大学の学生さん、医療事務・受付の仕事に関心のある宮崎学園短期大学・南九州短期大学の学生さんなど、医療系の学生さんはもちろん、マーケティング・起業に関心のある学生さん、システムエンジニアリング（IT・プログラミング）に関心のある学生さんなど、様々な分野に関心のある学生さんを歓迎します。",
     whatYouSeeHeading: "見ていただける内容",
     whatYouSee: [
       "開業までのリアルな意思決定プロセス（融資交渉・土地契約・建築業者選定など、経営判断が実際にどう進んでいくかを垣間見られます）",
@@ -685,7 +683,7 @@ export const OBSERVER_PROGRAM = {
     eyebrow: "For university and junior college students",
     heading: "Observer Program (visit & exchange, no employment)",
     intro:
-      "This is a completely unpaid observation and exchange program with no employment contract and no compensation. We welcome students from the University of Miyazaki and beyond — including nursing students at Miyazaki Prefectural Nursing University, students interested in medical office and reception work at Miyazaki Gakuen Junior College and Minami Kyushu Junior College, and students interested in nutrition guidance at Minami Kyushu University (Faculty of Health and Nutrition) — who are interested in a variety of fields — medical students, of course, but also students interested in marketing and entrepreneurship, or in systems engineering (IT and programming).",
+      "This is a completely unpaid observation and exchange program with no employment contract and no compensation. We welcome students from the University of Miyazaki and beyond — including nursing students at Miyazaki Prefectural Nursing University, students interested in medical office and reception work at Miyazaki Gakuen Junior College and Minami Kyushu Junior College — who are interested in a variety of fields — medical students, of course, but also students interested in marketing and entrepreneurship, or in systems engineering (IT and programming).",
     whatYouSeeHeading: "What you can see",
     whatYouSee: [
       "A behind-the-scenes look at real decision-making before opening (financing negotiations, land contracts, choosing a builder — how business decisions actually unfold)",

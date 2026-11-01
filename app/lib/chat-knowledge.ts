@@ -226,7 +226,6 @@ const TOPIC_RULES: { keywords: RegExp; titles: string[] }[] = [
   { keywords: /事務|受付/, titles: ["採用情報：事務"] },
   { keywords: /放射線/, titles: ["採用情報：診療放射線技師"] },
   { keywords: /臨床検査|検査技師/, titles: ["採用情報：臨床検査技師"] },
-  { keywords: /栄養士/, titles: ["採用情報：管理栄養士"] },
 ];
 
 // 症状・病気の解説ページは、ブログより少し優先して参照する（解説ページへ案内しやすくするため）

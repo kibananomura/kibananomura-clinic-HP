@@ -55,7 +55,7 @@ const JOBS: JobDef[] = [
     description:
       "木花のむら総合診療所（2027年10月1日開院予定、宮崎市熊野）でのパート看護師の募集です。外来診療の看護、採血・心電図・内視鏡・エコー等の検査補助を担当します。消化器内視鏡の介助経験、外科処置の補助、小児科・救急外来での勤務経験がある方は給与面で優遇します。勤務日数・時間帯はご相談に応じます。平日勤務のみ（土日祝休み）、駐車場32台完備予定。",
     employmentType: "PART_TIME",
-    baseSalary: { minValue: 1400, maxValue: 1650, unitText: "HOUR" },
+    baseSalary: { minValue: 1180, maxValue: 1500, unitText: "HOUR" },
   },
   {
     identifier: "admin-fulltime",
@@ -71,7 +71,7 @@ const JOBS: JobDef[] = [
     description:
       "木花のむら総合診療所（2027年10月1日開院予定、宮崎市熊野）でのパート医療事務の募集です。受付・会計、レセプト作成、電話・LINE対応等を担当します。クリニックでの受付・レセプト業務経験者、電子カルテ・Web問診等のITツール操作に抵抗がない方を歓迎します。勤務日数・時間帯はご相談に応じます。平日勤務のみ（土日祝休み）、駐車場32台完備予定。",
     employmentType: "PART_TIME",
-    baseSalary: { minValue: 1150, maxValue: 1300, unitText: "HOUR" },
+    baseSalary: { minValue: 1100, maxValue: 1300, unitText: "HOUR" },
   },
 ];
 
