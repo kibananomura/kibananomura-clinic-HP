@@ -1,6 +1,7 @@
 import { createHmac, timingSafeEqual } from "node:crypto";
 import Anthropic from "@anthropic-ai/sdk";
 import { MAX_QUESTION_CHARS, answerQuestion, rateLimited, type Source } from "./chatbot-server";
+import { feverArrivalMessages, parseFeverArrival } from "./fever-line";
 
 /**
  * 公式LINEのキバナビ（app/api/line/webhook/route.ts から呼ぶ）。
@@ -71,6 +72,13 @@ async function handleEvent(event: LineEvent) {
 
   const userHash = hashUser(event.source.userId);
   const text = event.message?.type === "text" ? (event.message.text ?? "").trim() : "";
+
+  // 発熱外来の車の方の「発熱到着」は、キバナビの受付中かどうかに関係なく、到着受付のURLを返す
+  const feverSlot = parseFeverArrival(text);
+  if (feverSlot !== null) {
+    await reply(event.replyToken, feverArrivalMessages(event.source.userId, feverSlot), false);
+    return;
+  }
 
   if (START_WORDS.includes(text)) {
     await session(userHash, "start");
@@ -184,12 +192,12 @@ function withQuickReply(message: LineMessage, examples: string[] = []): LineMess
   return { ...message, quickReply: { items } };
 }
 
-async function reply(replyToken: string, messages: LineMessage[]) {
+async function reply(replyToken: string, messages: LineMessage[], asKibanavi = true) {
   const res = await fetch("https://api.line.me/v2/bot/message/reply", {
     method: "POST",
     headers: { "Content-Type": "application/json", Authorization: `Bearer ${process.env.LINE_OA_CHANNEL_ACCESS_TOKEN}` },
     // 送り主の名前とアイコンを「キバナビ」にする（スタッフからの返信と見分けられるように）
-    body: JSON.stringify({ replyToken, messages: messages.map((m) => ({ ...m, sender: SENDER })) }),
+    body: JSON.stringify({ replyToken, messages: asKibanavi ? messages.map((m) => ({ ...m, sender: SENDER })) : messages }),
   });
   if (!res.ok) console.error("kibanavi line reply failed", res.status, await res.text());
 }
