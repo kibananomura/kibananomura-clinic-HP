@@ -168,7 +168,7 @@ export const WORK_HIGHLIGHTS = {
     items: [
       {
         icon: "🏠",
-        title: "平日勤務のみ（土日祝休み）で家庭と両立",
+        title: "年間休日120日・平日勤務のみ（土日祝休み）で家庭と両立",
         body: "原則平日の日勤のみで、週末や祝日はしっかり休める働きやすい環境です（※土日の短時間特別外来は院長中心の運営のため、スタッフの過度な負担はありません）。",
       },
       {
@@ -198,7 +198,7 @@ export const WORK_HIGHLIGHTS = {
     items: [
       {
         icon: "🏠",
-        title: "Weekdays only (closed Sat, Sun & holidays) — balance work and family",
+        title: "120 days off a year, weekdays only (closed Sat, Sun & holidays) — balance work and family",
         body: "You'll generally work daytime shifts on weekdays only, with weekends and holidays fully off (our short weekend specialty clinic is run mainly by the director, so it won't place an undue burden on staff).",
       },
       {
@@ -626,7 +626,7 @@ export const COMMON_EMPLOYMENT_TERMS = {
     note: "※ 各職種の募集要項に別の記載がある場合は、そちらが優先されます。",
     items: [
       { label: "勤務日数・時間帯", value: "常勤・パートとも、ご希望やライフスタイルに合わせてご相談に応じます" },
-      { label: "休日", value: "土日祝休み（平日診療のみ）。年間休日日数は開院準備状況に応じて確定次第公開" },
+      { label: "休日", value: "年間休日120日（土曜・日曜・祝日、年末年始〈12/29〜1/3〉）。土日に院長が行うことがある外科処置の特別外来は、スタッフの勤務を前提としていません" },
       { label: "昇給", value: "年1回（クリニック業績および個人の評価による ※開院初年度は規定による）" },
       {
         label: "残業代について",
@@ -643,7 +643,7 @@ export const COMMON_EMPLOYMENT_TERMS = {
     note: "* Where a role's listing states different terms, those take precedence.",
     items: [
       { label: "Work days & hours", value: "For both full-time and part-time, we will discuss days and hours to suit your wishes and lifestyle" },
-      { label: "Holidays", value: "Closed Sat, Sun & public holidays (weekday clinic only). Annual holiday count to be announced once finalized" },
+      { label: "Holidays", value: "120 days off per year (Saturdays, Sundays, public holidays, and the New Year break, 29 Dec – 3 Jan). The director's occasional weekend surgical clinic does not require staff to work" },
       { label: "Pay raises", value: "Once a year (based on clinic performance and individual evaluation; per internal rules in our first year)" },
       {
         label: "Overtime pay",
