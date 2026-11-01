@@ -4,7 +4,7 @@ import { createCipheriv, createDecipheriv, createHash, randomBytes } from "node:
  * 発熱外来の車の方を、公式LINEでご案内する（院内サイネージ Clinic_signage と連携）。
  * 1. 発熱区画に着いた方が公式LINEに「発熱到着」と送る → 発熱外来の到着受付画面（院内サイネージの fever.html）のURLを返す
  * 2. URLには、その方だけの目印（LINEのユーザーIDを暗号化したもの）を付ける。院内サイネージは目印を受付番号と一緒に覚えておく
- * 3. 受付が発熱車の番号を感染診察室へ移すと「待機室にお入りください」、薬局が「調剤済み」を押すと、院内サイネージが /api/line/fever-notify に目印を送り、その方にだけLINEでお知らせする
+ * 3. 薬局が「調剤済み」を押すと、院内サイネージが /api/line/fever-notify に目印を送り、その方にだけLINEでお知らせする
  * LINEのユーザーIDはどこにも保存しない（目印は16時間で使えなくなる）。
  *
  * 必要な環境変数:
@@ -22,7 +22,6 @@ const TEXT = {
     "院内のフリーWi-Fiにつないでから、下のURLで「発熱外来 到着受付」を開き、駐車番号・お車のナンバー・受診される方の人数を送ってください。\n" +
     "お薬の準備ができたら、このLINEでもお知らせします。",
   notReady: "発熱外来のLINE受付は準備中です。お手数ですが、駐車区画の看板のQRコードから到着受付を開くか、受付にお電話ください。",
-  room: "診察の準備が整いました。待機室にお入りください。",
   ready: "調剤が済みました。薬局横の所定の位置まで進んで停車してください。\n\nお薬を受け取ったら、到着受付の画面を閉じてください。",
 };
 
@@ -49,16 +48,15 @@ export function feverArrivalMessages(userId: string, slot: string): LineMessage[
   return [{ type: "text", text: `${TEXT.arrive}\n\n▼発熱外来 到着受付\n${url.toString()}` }];
 }
 
-/** 院内サイネージからの依頼で、目印の方にLINEを送る（room=感染診察室へ移った・ready=調剤済み） */
+/** 院内サイネージからの依頼で、目印の方にLINEを送る（今は「調剤済み」だけ） */
 export async function pushFeverNotice(token: string, kind: string): Promise<{ ok: boolean; error?: string }> {
-  const text = kind === "room" ? TEXT.room : kind === "ready" ? TEXT.ready : null;
-  if (!text) return { ok: false, error: "unknown kind" };
+  if (kind !== "ready") return { ok: false, error: "unknown kind" };
   const userId = openUser(token);
   if (!userId) return { ok: false, error: "invalid or expired token" };
   const res = await fetch("https://api.line.me/v2/bot/message/push", {
     method: "POST",
     headers: { "Content-Type": "application/json", Authorization: `Bearer ${process.env.LINE_OA_CHANNEL_ACCESS_TOKEN}` },
-    body: JSON.stringify({ to: userId, messages: [{ type: "text", text }] }),
+    body: JSON.stringify({ to: userId, messages: [{ type: "text", text: TEXT.ready }] }),
   });
   if (!res.ok) {
     console.error("fever line push failed", res.status, await res.text());
