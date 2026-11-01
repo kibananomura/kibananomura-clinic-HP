@@ -37,11 +37,12 @@ export function parseFeverArrival(text: string): string | null {
 }
 
 /** 「発熱到着」への返信（到着受付のURL）。返信なので通数にはかぞえられない。
- *  院内のアドレス（http://192.168.…）はボタン（テンプレートメッセージ）だとLINEに受け付けられないことがあるため、文字のURLで送る */
+ *  院内のアドレス（http://192.168.…）はLINEでリンクにならないため、HPのURLから転送する */
 export function feverArrivalMessages(userId: string, slot: string): LineMessage[] {
   const base = process.env.FEVER_SIGNAGE_URL;
   if (!base || !process.env.SIGNAGE_NOTIFY_SECRET) return [{ type: "text", text: TEXT.notReady }];
-  const url = new URL("/fever.html", base);
+  // LINEは院内のアドレスをリンクにできないため、HPのHTTPSのURL（/api/line/fever-open）を経由して院内サイネージへ転送する
+  const url = new URL("/api/line/fever-open", "https://www.kibananomura.jp");
   url.searchParams.set("lt", sealUser(userId));
   if (slot) url.searchParams.set("slot", slot);
   return [{ type: "text", text: `${TEXT.arrive}\n\n▼発熱外来 到着受付\n${url.toString()}` }];
