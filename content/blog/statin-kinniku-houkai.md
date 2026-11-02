@@ -5,10 +5,10 @@ category_ja: 健康・予防の話
 category_en: Health and prevention
 subcategory_ja: 生活習慣病・お薬
 subcategory_en: Lifestyle diseases & medication
-title_ja: スタチンは筋肉を崩壊させるのか？〜コレステロール薬の疑問と最新医学〜
-title_en: Does statin medication really "break down" your muscles?
-excerpt_ja: 「スタチンを飲むと筋肉が溶ける」——ネットでそんな言葉を見て、薬をやめようか迷っていませんか。まず知っていただきたいのは、その不安のほとんどが誤解だということです。
-excerpt_en: Statins dissolve your muscles — have you seen that claim online and started wondering whether to stop your medication? The first thing to know is that most of that fear comes from a misunderstanding.
+title_ja: コレステロールの薬で、筋肉が溶けるって本当？〜悪玉コレステロールを下げる薬（スタチン）の疑問と最新医学〜
+title_en: Can cholesterol medicine really "break down" your muscles? Questions about statins and the latest evidence
+excerpt_ja: 「コレステロールの薬を飲むと筋肉が溶ける」——ネットでそんな言葉を見て、薬をやめようか迷っていませんか。まず知っていただきたいのは、その不安のほとんどが誤解だということです。
+excerpt_en: “Cholesterol medicine dissolves your muscles” — have you seen that claim online and started wondering whether to stop your medication? The first thing to know is that most of that fear comes from a misunderstanding.
 ---
 
 ## ja
@@ -41,7 +41,7 @@ excerpt_en: Statins dissolve your muscles — have you seen that claim online an
 
 特に最後の尿の色の変化は、筋肉の分解が進んでいる可能性を示す重要なサインです。この症状に気づいた場合は、様子を見ずに早めにご連絡ください。
 
-なお、「スタチンをやめると、すぐコレステロールが戻ってしまう」理由については、[痩せているのに、なぜコレステロールが高いの？](/blog/yasete-iru-noni-ldl)で詳しくお話ししています。
+なお、「このお薬をやめると、すぐコレステロールが戻ってしまう」理由については、[痩せているのに、なぜコレステロールが高いの？](/blog/yasete-iru-noni-ldl)で詳しくお話ししています。
 
 ### 院長からのメッセージ
 

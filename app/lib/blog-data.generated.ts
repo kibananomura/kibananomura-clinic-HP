@@ -2439,8 +2439,8 @@ export const generatedPosts: BlogPost[] = [
     "ja": {
       "category": "健康・予防の話",
       "subcategory": "生活習慣病・お薬",
-      "title": "スタチンは筋肉を崩壊させるのか？〜コレステロール薬の疑問と最新医学〜",
-      "excerpt": "「スタチンを飲むと筋肉が溶ける」——ネットでそんな言葉を見て、薬をやめようか迷っていませんか。まず知っていただきたいのは、その不安のほとんどが誤解だということです。",
+      "title": "コレステロールの薬で、筋肉が溶けるって本当？〜悪玉コレステロールを下げる薬（スタチン）の疑問と最新医学〜",
+      "excerpt": "「コレステロールの薬を飲むと筋肉が溶ける」——ネットでそんな言葉を見て、薬をやめようか迷っていませんか。まず知っていただきたいのは、その不安のほとんどが誤解だということです。",
       "body": [
         {
           "kind": "text",
@@ -2496,7 +2496,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "なお、「スタチンをやめると、すぐコレステロールが戻ってしまう」理由については、[痩せているのに、なぜコレステロールが高いの？](/blog/yasete-iru-noni-ldl)で詳しくお話ししています。"
+          "text": "なお、「このお薬をやめると、すぐコレステロールが戻ってしまう」理由については、[痩せているのに、なぜコレステロールが高いの？](/blog/yasete-iru-noni-ldl)で詳しくお話ししています。"
         },
         {
           "kind": "text",
@@ -2519,8 +2519,8 @@ export const generatedPosts: BlogPost[] = [
     "en": {
       "category": "Health and prevention",
       "subcategory": "Lifestyle diseases & medication",
-      "title": "Does statin medication really \"break down\" your muscles?",
-      "excerpt": "Statins dissolve your muscles — have you seen that claim online and started wondering whether to stop your medication? The first thing to know is that most of that fear comes from a misunderstanding.",
+      "title": "Can cholesterol medicine really \"break down\" your muscles? Questions about statins and the latest evidence",
+      "excerpt": "“Cholesterol medicine dissolves your muscles” — have you seen that claim online and started wondering whether to stop your medication? The first thing to know is that most of that fear comes from a misunderstanding.",
       "body": [
         {
           "kind": "text",
