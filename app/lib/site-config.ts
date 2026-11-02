@@ -10,5 +10,5 @@ export const LINE_URL = process.env.NEXT_PUBLIC_LINE_URL || "https://line.me/R/t
 /** Facebookページ「木花のむら総合診療所」（公開。毎週木曜に投稿） */
 export const FACEBOOK_URL = "https://www.facebook.com/profile.php?id=61595134787241";
 
-/** Instagram。開設したらURLを入れる（空のあいだは、フッターのアイコンを出さない） */
-export const INSTAGRAM_URL = "";
+/** Instagram（2026-11-03開設。空にすると、フッターのアイコンを出さない） */
+export const INSTAGRAM_URL = "https://www.instagram.com/kibananomura/";
