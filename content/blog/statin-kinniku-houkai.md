@@ -41,6 +41,8 @@ excerpt_en: Statins dissolve your muscles — have you seen that claim online an
 
 特に最後の尿の色の変化は、筋肉の分解が進んでいる可能性を示す重要なサインです。この症状に気づいた場合は、様子を見ずに早めにご連絡ください。
 
+なお、「スタチンをやめると、すぐコレステロールが戻ってしまう」理由については、[痩せているのに、なぜコレステロールが高いの？](/blog/yasete-iru-noni-ldl)で詳しくお話ししています。
+
 ### 院長からのメッセージ
 
 スタチンは、将来の心筋梗塞や脳卒中を防ぐために、非常に重要な役割を果たすお薬です。「なんとなく不安だから」と自己判断でやめてしまうと、下がっていたはずの血管のリスクがまた上がってしまいます。
@@ -78,6 +80,8 @@ While taking a statin, it's worth occasionally checking in with yourself for the
 - **Urine that turns a dark reddish-brown color, like strong tea or oolong tea** (this is the single most important sign)
 
 That last sign — a change in urine color — is a particularly important indicator that muscle breakdown may be underway. If you notice it, please don't wait and see; contact us right away.
+
+For why cholesterol tends to bounce back soon after stopping a statin, see “[Slim, but high cholesterol?](/blog/yasete-iru-noni-ldl)”.
 
 ### A message from the director
 

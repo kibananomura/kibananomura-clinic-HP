@@ -29,6 +29,8 @@ excerpt_en: Once I start this medication, I can never stop, right? It's a questi
 
 「服がゆるくなって困る」「階段を上るのが楽になった」——こうした日常のちょっとした嬉しい変化こそが、生活改善の何よりのご褒美だと思っています。そしてその先には、お薬を減らせる・卒業できるという未来が、ちゃんと待っています。
 
+ただし、悪玉（LDL）コレステロールのように**体質の影響が大きいもの**は、生活を整えても下がりきらず、お薬で支え続けたほうが血管を守れる場合もあります。その理由は「[痩せているのに、なぜコレステロールが高いの？](/blog/yasete-iru-noni-ldl)」で詳しくお話ししています。
+
 ### 院長からのメッセージ
 
 生活習慣病の治療は、「指導」ではないと思っています。一人ひとりの日常やちょっとした癖に寄り添いながら進めていく、**共同作業**だと考えています。「本当はお酒がやめられなくて」「夜遅くに食べてしまう癖があって」——そんな弱みを見せていただけることが、治療の一番の近道になります。
@@ -52,6 +54,8 @@ So starting a medication isn't a sign that it's "too late." If anything, I'd lik
 Let me share something that actually happened. A patient I once treated came in for a follow-up after a few months and told me, beaming: "Doctor, I lost so much weight I had to buy new clothes!" She had simply adjusted her diet little by little and built a habit of moving her body within a comfortable range. Her weight came down, her blood test results stabilized remarkably, and at that visit, we were able to reduce one of her medications.
 
 "My clothes don't fit anymore" or "stairs feel so much easier now" — these small, everyday joys are, I think, the real reward of improving your habits. And waiting beyond them is a future where your medication can be reduced, or even stopped altogether.
+
+That said, for things **strongly shaped by constitution**, such as LDL (“bad”) cholesterol, numbers may not come down enough with lifestyle changes alone, and continuing medicine may better protect your blood vessels. We explain why in “[Slim, but high cholesterol?](/blog/yasete-iru-noni-ldl)”.
 
 ### A message from the director
 

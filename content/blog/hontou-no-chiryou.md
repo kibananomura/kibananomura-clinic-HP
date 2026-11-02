@@ -76,6 +76,8 @@ excerpt_en: “I take my medicine every day, but my numbers just won't improve�
 
 お説教をするつもりはありません。うまくいかなかった月があっても大丈夫です。その月の暮らしの事情をお聞きしながら、今の生活の中で無理なくできることを、一緒に考えていきます。
 
+「太っていないし食事も気をつけているのに、コレステロールが下がらない」という方は、[痩せているのに、なぜコレステロールが高いの？](/blog/yasete-iru-noni-ldl)もあわせてお読みください。
+
 [高血圧](/diseases/hypertension)・[脂質異常症](/diseases/dyslipidemia)・[糖尿病](/diseases/diabetes)について詳しく知りたい方は、病気の解説ページもあわせてご覧ください。一緒に、無理なく健康な未来をつくっていきましょう。
 
 ## en
@@ -142,5 +144,7 @@ Of course, for patients who have been stable for a long time, we may adjust the 
 Monthly visits to our clinic are not just about handing over medicine. They are **time for course-correcting your lifestyle — maintenance to protect your health.**
 
 I don't intend to lecture you. It's fine if some months don't go well. I'll listen to what's happening in your life that month, and we'll think together about what you can comfortably do.
+
+If your cholesterol won't come down even though you're not overweight and eat carefully, please also read “[Slim, but high cholesterol?](/blog/yasete-iru-noni-ldl)”.
 
 To learn more about [high blood pressure](/diseases/hypertension), [dyslipidemia](/diseases/dyslipidemia) and [diabetes](/diseases/diabetes), please see our disease pages as well. Let's build a healthy future together, without strain.
