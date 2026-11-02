@@ -27,7 +27,14 @@ excerpt_en: I could have stayed in the operating room, or stayed at the universi
 
 なぜ私が、こうして学生の皆さんに語りかけているのか。それは、大学で臨床・教育・研究に携わっていた頃、学生さんや若い先生方と一緒に学び、成長を見守る「教育」という営みに、私自身が大きなやりがいを感じていたからです。ここ何年かは、そうした機会からすっかり離れてしまっていました。これまでの経験を若い世代に還元し、皆さんと一緒に、より良い社会をつくっていきたい——それが、このブログを書いている理由でもあります。ボストン留学中、365日欠かさず留学生活をFacebookに投稿していた当時の私を知っている方なら、きっとこの思いを分かっていただけるのではないかと思います。
 
-木花のむら総合診療所では、医学部生に限らず、マーケティング・起業に関心のある学生さんや、システムエンジニアリング（IT・プログラミング）に関心のある学生さんも対象にした、完全無償のオブザーバー（見学・交流）プログラムを予定しています。開業までの準備の様子は、これからもこのブログで少しずつお伝えしていきます。興味を持っていただけたら、ぜひまたのぞきに来てください。
+木花のむら総合診療所では、医学部生に限らず、マーケティング・起業に関心のある学生さんや、システムエンジニアリング（IT・プログラミング）に関心のある学生さん、そして社会人の方も対象にした、完全無償のオブザーバー（見学・交流）プログラムを行っています。
+
+あの頃Facebookに毎日書いていたように、今度は開業までの道のりを、Facebookで記録しています。
+
+- **オブザーバーの方限定の連載「木花のむら開業記」**：開業準備で何度も悩んだことや、その時々の決め方を、ありのままに書いています。Facebookグループ「[木花のむら開業記｜オブザーバーの会](https://www.facebook.com/groups/4037759076531378)」に参加申請してください。
+- **毎週木曜の準備の様子**：どなたでも見られる[Facebookページ「木花のむら総合診療所」](https://www.facebook.com/profile.php?id=61595134787241)でお伝えしています。
+
+参加の方法や見ていただける内容は、[職員募集ページのオブザーバー募集](/careers#observer)にもまとめています。この続きは、ぜひFacebookでご一緒しましょう。
 
 ## en
 
@@ -47,4 +54,11 @@ If you're unsure about your own path, here's what I'd like you to take away: **a
 
 So why am I reaching out to students like you? When I was involved in clinical care, teaching, and research at the university, I found real fulfillment in education — learning alongside students and young doctors, and watching them grow. For the past several years, I've been away from that kind of opportunity. I want to give back what I've gained to the next generation, and to build a better society together with you. That's part of why I'm writing this blog. Those who knew me during my time in Boston, when I posted about my life abroad on Facebook every single day for 365 days, will probably understand exactly what I mean.
 
-At Kibana Nomura General Medicine Clinic, we're planning a completely unpaid observer program open not only to medical students but also to those interested in marketing and entrepreneurship, or in systems engineering (IT and programming). I'll keep sharing our preparations here on the blog — if this caught your interest, please come back and take a look.
+At Kibana Nomura General Medicine Clinic, we run a completely unpaid observer program open not only to medical students but also to students interested in marketing and entrepreneurship or systems engineering (IT and programming) — and to working professionals, too.
+
+Just as I once posted on Facebook every day, I'm now recording the road to opening on Facebook.
+
+- **“Kibana-no-Mura Opening Journal,” a series for observers only**: an honest account of the things I've wrestled with again and again, and how my way of deciding changed. Please request to join our Facebook group, [“Kibana-no-Mura Opening Journal | Observers”](https://www.facebook.com/groups/4037759076531378).
+- **Weekly updates every Thursday**: on our public [Facebook page](https://www.facebook.com/profile.php?id=61595134787241), open to everyone.
+
+You'll also find how to join and what you can see on the [observer section of our careers page](/careers#observer). Let's continue the story together on Facebook.

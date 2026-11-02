@@ -396,7 +396,7 @@ export default function CareersPageClient() {
         </FadeIn>
 
         <FadeIn delay={0.24}>
-          <div className="mx-auto mt-14 max-w-3xl rounded-3xl border-2 border-dashed border-sun/60 bg-sun/10 p-6 sm:p-8">
+          <div id="observer" className="scroll-mt-44 mx-auto mt-14 max-w-3xl rounded-3xl border-2 border-dashed border-sun/60 bg-sun/10 p-6 sm:p-8">
             <p className="text-xs font-bold uppercase tracking-wider text-primary-dark">
               {observer.eyebrow}
             </p>
