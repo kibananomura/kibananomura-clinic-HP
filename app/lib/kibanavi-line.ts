@@ -36,6 +36,29 @@ const TEXT = {
   linksTitle: "詳しくはこちらのページで",
 };
 
+// オブザーバー（見学・交流プログラム）への参加の申し出
+const OBSERVER_REQUEST = /オブザーバー.{0,15}(参加|申し込|申込|応募|希望|入り|なりたい|したい)|(参加|申し込|申込|応募).{0,15}オブザーバー|\bobserver\b.{0,20}\b(join|apply|participate)|\b(join|apply)\b.{0,20}\bobserver/i;
+const TEXT_OBSERVER =
+  "オブザーバー（見学・交流プログラム）へのご関心、ありがとうございます。\n" +
+  "院長に伝えましたので、このトークで個別にご案内します。お返事まで少しお時間をいただくことがあります。\n\n" +
+  "※雇用ではなく、無償の見学・交流プログラムです。";
+
+/** 申し出を記録する（observer_requests。追加されると院長のLINE秘書に届く）。名前・連絡先は受け取らない */
+async function logObserverRequest(message: string) {
+  const url = process.env.CHATBOT_LOG_SUPABASE_URL;
+  const key = process.env.CHATBOT_LOG_SUPABASE_KEY;
+  if (!url || !key) return;
+  const masked = message
+    .replace(/[\w.+-]+@[\w-]+(\.[\w-]+)+/g, "[メール]")
+    .replace(/(?<!\d)0\d{1,4}[-(（ ]?\d{1,4}[-)） ]?\d{3,4}(?!\d)/g, "[電話番号]");
+  const res = await fetch(`${url}/rest/v1/rpc/log_observer_request`, {
+    method: "POST",
+    headers: { "Content-Type": "application/json", apikey: key, Authorization: `Bearer ${key}` },
+    body: JSON.stringify({ p_message: masked, p_channel: "line" }),
+  }).catch(() => null);
+  if (!res?.ok) console.error("observer request log failed", res?.status);
+}
+
 type LineEvent = {
   type: string;
   replyToken?: string;
@@ -72,6 +95,13 @@ async function handleEvent(event: LineEvent) {
 
   const userHash = hashUser(event.source.userId);
   const text = event.message?.type === "text" ? (event.message.text ?? "").trim() : "";
+
+  // 「オブザーバーに参加したい」は、キバナビの受付中かどうかに関係なく受け付けて院長に知らせる（返信は院長がこのトークで行う）
+  if (OBSERVER_REQUEST.test(text)) {
+    await logObserverRequest(text);
+    await reply(event.replyToken, [{ type: "text", text: TEXT_OBSERVER }], false);
+    return;
+  }
 
   // 発熱外来の車の方の「発熱到着」は、キバナビの受付中かどうかに関係なく、到着受付のURLを返す
   const feverSlot = parseFeverArrival(text);

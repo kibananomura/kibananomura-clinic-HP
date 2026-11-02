@@ -661,10 +661,10 @@ export const COMMON_EMPLOYMENT_TERMS = {
 
 export const OBSERVER_PROGRAM = {
   ja: {
-    eyebrow: "大学生・短大生の方へ",
+    eyebrow: "学生さん・社会人の方へ",
     heading: "オブザーバー募集（見学・交流プログラム）",
     intro:
-      "本枠は雇用契約を伴わない、完全無償の見学・交流プログラムです。給与・パート代のお支払いはございません。宮崎大学をはじめ、看護職を目指す宮崎県立看護大学の学生さん、医療事務・受付の仕事に関心のある宮崎学園短期大学・南九州短期大学の学生さんなど、医療系の学生さんはもちろん、マーケティング・起業に関心のある学生さん、システムエンジニアリング（IT・プログラミング）に関心のある学生さんなど、様々な分野に関心のある学生さんを歓迎します。",
+      "本枠は雇用契約を伴わない、完全無償の見学・交流プログラムです。給与・パート代のお支払いはございません。宮崎大学をはじめ、看護職を目指す宮崎県立看護大学の学生さん、医療事務・受付の仕事に関心のある宮崎学園短期大学・南九州短期大学の学生さんなど、医療系の学生さんはもちろん、マーケティング・起業に関心のある学生さん、システムエンジニアリング（IT・プログラミング）に関心のある学生さんなど、様々な分野に関心のある学生さんを歓迎します。学生さんに限らず、開業や地域医療、医療×ITに関心のある社会人の方も歓迎します。",
     whatYouSeeHeading: "見ていただける内容",
     whatYouSee: [
       "開業までのリアルな意思決定プロセス（融資交渉・土地契約・建築業者選定など、経営判断が実際にどう進んでいくかを垣間見られます）",
@@ -675,15 +675,15 @@ export const OBSERVER_PROGRAM = {
     ],
     formatHeading: "参加のかたち",
     formatBody:
-      "ブログでも開業の様子を定期的に発信していく予定です。ブログを読んで興味を持っていただいた方には、少人数での見学会・座談会（対面）にもお声がけします。まずはブログをのぞいてみてください。",
+      "開業までの様子は、院長ブログと、オブザーバーの方限定のFacebookでの連載「木花のむら開業記」でお伝えしていきます。参加された方には、少人数での見学会・座談会（対面）にもお声がけします。参加をご希望の方は、①公式LINEで「オブザーバーに参加したい」と送る（キバナビが受け付け、個別にご案内します）、②院長のFacebookにメッセージを送る、③Facebookグループに参加申請する、のいずれかでお知らせください。",
     disclaimer:
       "※ 本枠は雇用・労働ではなく、無償の見学・交流プログラムです。給与・パート代のお支払いは発生しません。参加者の安全・情報管理に配慮した範囲でご案内します。",
   },
   en: {
-    eyebrow: "For university and junior college students",
+    eyebrow: "For students and working professionals",
     heading: "Observer Program (visit & exchange, no employment)",
     intro:
-      "This is a completely unpaid observation and exchange program with no employment contract and no compensation. We welcome students from the University of Miyazaki and beyond — including nursing students at Miyazaki Prefectural Nursing University, students interested in medical office and reception work at Miyazaki Gakuen Junior College and Minami Kyushu Junior College — who are interested in a variety of fields — medical students, of course, but also students interested in marketing and entrepreneurship, or in systems engineering (IT and programming).",
+      "This is a completely unpaid observation and exchange program with no employment contract and no compensation. We welcome students from the University of Miyazaki and beyond — including nursing students at Miyazaki Prefectural Nursing University, students interested in medical office and reception work at Miyazaki Gakuen Junior College and Minami Kyushu Junior College — who are interested in a variety of fields — medical students, of course, but also students interested in marketing and entrepreneurship, or in systems engineering (IT and programming). Working professionals interested in opening a clinic, community medicine, or healthcare × IT are also welcome.",
     whatYouSeeHeading: "What you can see",
     whatYouSee: [
       "A behind-the-scenes look at real decision-making before opening (financing negotiations, land contracts, choosing a builder — how business decisions actually unfold)",
@@ -694,7 +694,7 @@ export const OBSERVER_PROGRAM = {
     ],
     formatHeading: "How to join",
     formatBody:
-      "We plan to share regular updates on our progress toward opening via our blog. Students who read the blog and are interested may be invited to a small, in-person visit or discussion session. Start by following the blog.",
+      "We share our progress toward opening through the director's blog and a members-only Facebook series for observers. Participants may also be invited to small, in-person visits or discussion sessions. To join, (1) send \"I'd like to join as an observer\" on our official LINE account (Kibanavi will take your request and we will contact you individually), (2) send a message to the director on Facebook, or (3) request to join our Facebook group.",
     disclaimer:
       "* This is not employment or paid work — it is a free observation and exchange program with no compensation. Participation will be arranged with appropriate care for safety and confidentiality.",
   },
