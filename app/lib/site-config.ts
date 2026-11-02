@@ -6,3 +6,9 @@
  * 「現在LINE公式アカウントを開設準備中です」という表示に自動で切り替わる。
  */
 export const LINE_URL = process.env.NEXT_PUBLIC_LINE_URL || "https://line.me/R/ti/p/@337njouw";
+
+/** Facebookページ「木花のむら総合診療所」（公開。毎週木曜に投稿） */
+export const FACEBOOK_URL = "https://www.facebook.com/profile.php?id=61595134787241";
+
+/** Instagram。開設したらURLを入れる（空のあいだは、フッターのアイコンを出さない） */
+export const INSTAGRAM_URL = "";

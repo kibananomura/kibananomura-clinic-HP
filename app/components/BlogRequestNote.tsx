@@ -2,6 +2,7 @@
 
 import { useSite } from "../lib/site";
 import { OPEN_CHAT_EVENT } from "./chat-events";
+import { FACEBOOK_URL } from "../lib/site-config";
 
 /** 「〇〇をテーマにブログを書いてほしい」というご要望を、キバナビで受け付ける案内（ボタンでチャット窓が開く） */
 export default function BlogRequestNote({ className = "" }: { className?: string }) {
@@ -16,6 +17,11 @@ export default function BlogRequestNote({ className = "" }: { className?: string
       >
         {t.blog.requestNote.button}
       </button>
+      <p className="mt-3 text-xs">
+        <a href={FACEBOOK_URL} target="_blank" rel="noopener noreferrer" className="font-bold text-primary underline-offset-2 hover:underline">
+          {t.blog.requestNote.facebook} →
+        </a>
+      </p>
     </div>
   );
 }

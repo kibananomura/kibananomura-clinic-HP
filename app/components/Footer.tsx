@@ -9,6 +9,7 @@ import {
 } from "../lib/patient-links";
 import { BRAND } from "../lib/brand";
 import LineLink from "./LineLink";
+import { FACEBOOK_URL, INSTAGRAM_URL } from "../lib/site-config";
 
 export default function Footer() {
   const { t, lang } = useSite();
@@ -108,16 +109,31 @@ export default function Footer() {
               </svg>
             </LineLink>
             <a
-              href="#"
-              aria-label={t.footer.instaAria}
-              className="flex h-10 w-10 items-center justify-center rounded-full bg-white/10 transition-colors hover:bg-primary"
+              href={FACEBOOK_URL}
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label={t.footer.facebookAria}
+              className="flex h-10 w-10 items-center justify-center rounded-full bg-white/10 transition-colors hover:bg-[#1877F2]"
             >
-              <svg viewBox="0 0 24 24" className="h-5 w-5" fill="none" stroke="currentColor" strokeWidth="1.8" aria-hidden="true">
-                <rect x="3" y="3" width="18" height="18" rx="5" />
-                <circle cx="12" cy="12" r="4" />
-                <circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none" />
+              <svg viewBox="0 0 24 24" className="h-5 w-5" fill="currentColor" aria-hidden="true">
+                <path d="M14 8.5V6.6c0-.9.6-1.1 1-1.1h2.5V2h-3.4C10.4 2 9.6 4.8 9.6 6.5v2H7.5V12h2.1v10H14V12h3l.4-3.5H14Z" />
               </svg>
             </a>
+            {INSTAGRAM_URL && (
+            <a
+                href={INSTAGRAM_URL}
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label={t.footer.instaAria}
+                className="flex h-10 w-10 items-center justify-center rounded-full bg-white/10 transition-colors hover:bg-primary"
+              >
+                <svg viewBox="0 0 24 24" className="h-5 w-5" fill="none" stroke="currentColor" strokeWidth="1.8" aria-hidden="true">
+                  <rect x="3" y="3" width="18" height="18" rx="5" />
+                  <circle cx="12" cy="12" r="4" />
+                  <circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none" />
+                </svg>
+              </a>
+            )}
           </div>
         </div>
       </div>

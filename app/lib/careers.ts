@@ -675,7 +675,7 @@ export const OBSERVER_PROGRAM = {
     ],
     formatHeading: "参加のかたち",
     formatBody:
-      "開業までの様子は、院長ブログと、オブザーバーの方限定のFacebookでの連載「木花のむら開業記」でお伝えしていきます。参加された方には、少人数での見学会・座談会（対面）にもお声がけします。参加をご希望の方は、①公式LINEで「オブザーバーに参加したい」と送る（キバナビが受け付け、個別にご案内します）、②院長のFacebookにメッセージを送る、③Facebookグループ「木花のむら開業記｜オブザーバーの会」（https://www.facebook.com/groups/4037759076531378）に参加申請する、のいずれかでお知らせください。",
+      "開業までの様子は、院長ブログと、オブザーバーの方限定のFacebookでの連載「木花のむら開業記」でお伝えしていきます。参加された方には、少人数での見学会・座談会（対面）にもお声がけします。参加をご希望の方は、①公式LINEで「オブザーバーに参加したい」と送る（キバナビが受け付け、個別にご案内します）、②院長のFacebookにメッセージを送る、③Facebookグループ「木花のむら開業記｜オブザーバーの会」（https://www.facebook.com/groups/4037759076531378）に参加申請する、のいずれかでお知らせください。日々の準備の様子は、どなたでも見られるFacebookページ「木花のむら総合診療所」（https://www.facebook.com/profile.php?id=61595134787241）でも毎週お伝えしています。",
     disclaimer:
       "※ 本枠は雇用・労働ではなく、無償の見学・交流プログラムです。給与・パート代のお支払いは発生しません。参加者の安全・情報管理に配慮した範囲でご案内します。",
   },
@@ -694,7 +694,7 @@ export const OBSERVER_PROGRAM = {
     ],
     formatHeading: "How to join",
     formatBody:
-      "We share our progress toward opening through the director's blog and a members-only Facebook series for observers. Participants may also be invited to small, in-person visits or discussion sessions. To join, (1) send \"I'd like to join as an observer\" on our official LINE account (Kibanavi will take your request and we will contact you individually), (2) send a message to the director on Facebook, or (3) request to join our Facebook group \"Kibana-no-Mura Opening Journal | Observers\" (https://www.facebook.com/groups/4037759076531378).",
+      "We share our progress toward opening through the director's blog and a members-only Facebook series for observers. Participants may also be invited to small, in-person visits or discussion sessions. To join, (1) send \"I'd like to join as an observer\" on our official LINE account (Kibanavi will take your request and we will contact you individually), (2) send a message to the director on Facebook, or (3) request to join our Facebook group \"Kibana-no-Mura Opening Journal | Observers\" (https://www.facebook.com/groups/4037759076531378). We also share weekly updates on our public Facebook page (https://www.facebook.com/profile.php?id=61595134787241).",
     disclaimer:
       "* This is not employment or paid work — it is a free observation and exchange program with no compensation. Participation will be arranged with appropriate care for safety and confidentiality.",
   },

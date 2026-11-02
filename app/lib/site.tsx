@@ -173,6 +173,7 @@ export interface SiteDict {
     newsLabel: string;
     lineAria: string;
     instaAria: string;
+    facebookAria: string;
   };
   privacy: {
     eyebrow: string;
@@ -206,7 +207,7 @@ export interface SiteDict {
       button: string;
     };
     /** ブログの題材のご要望をキバナビで受け付ける案内（キバナビが院長に届ける） */
-    requestNote: { body: string; button: string };
+    requestNote: { body: string; button: string; facebook: string };
   };
   news: {
     eyebrow: string;
@@ -655,6 +656,7 @@ const ja: SiteDict = {
     newsLabel: "お知らせ",
     lineAria: "LINE公式アカウント",
     instaAria: "Instagram",
+    facebookAria: "Facebookページ",
   },
   privacy: {
     eyebrow: "プライバシーポリシー",
@@ -768,6 +770,7 @@ const ja: SiteDict = {
     requestNote: {
       body: "「〇〇をテーマにブログを書いてほしい」などのご要望があれば、キバナビにお気軽にお寄せください。院長にお伝えします。どなたからのご要望かが院長に伝わることはありませんので、安心してどうぞ。",
       button: "キバナビにリクエストする",
+      facebook: "新しい記事は、Facebookページでもお知らせしています",
     },
   },
   news: {
@@ -1501,6 +1504,7 @@ const en: SiteDict = {
     newsLabel: "News",
     lineAria: "Official LINE account",
     instaAria: "Instagram",
+    facebookAria: "Facebook page",
   },
   privacy: {
     eyebrow: "Privacy Policy",
@@ -1614,6 +1618,7 @@ const en: SiteDict = {
     requestNote: {
       body: "If there's a topic you'd like our director to write about, just let Kibanavi know. We'll pass it on to our director. Your identity is never shared with our director, so please feel free.",
       button: "Send a request to Kibanavi",
+      facebook: "We also announce new posts on our Facebook page",
     },
   },
   news: {
