@@ -34,7 +34,7 @@ excerpt_en: “I'm not overweight, and I watch what I eat…” In fact, 70–80
 
 基本のスープの濃さは、生まれ持った**遺伝や体質**、そして**年齢**で決まる部分が大きく、ご本人の努力不足ではありません。体型が細くても、こうした体質の方はたくさんいらっしゃいます。
 
-スタチンというお薬は、二つの働きでこの体質を支えます。
+悪玉コレステロールを下げる薬（スタチン）は、二つの働きでこの体質を支えます。
 
 1. 工場（肝臓）の**火加減を弱めて**、作る量を減らす
 2. 血液中のコレステロールを回収する**「お掃除ロボット」（受け取り口）を増やして**、血管の中からしっかり回収する
@@ -51,7 +51,7 @@ excerpt_en: “I'm not overweight, and I watch what I eat…” In fact, 70–80
 
 もちろん、食事や運動が無意味になるわけではありません。2〜3割の「煮汁」を整えることは、中性脂肪や血糖、血圧にも良い影響があります。[生活習慣病の本当の治療は、診察室の外にあります](/blog/hontou-no-chiryou)でもお話ししたとおり、お薬と生活の両方がそろってこそ、血管を長く守れます。
 
-お薬の量は、数値や体の状態に合わせて診察で一緒に見直していきます。副作用が気になる方は、[スタチンの筋肉への影響についての記事](/blog/statin-kinniku-houkai)も参考にしてください。[脂質異常症の解説ページ](/diseases/dyslipidemia)もあわせてご覧いただけます。
+お薬の量は、数値や体の状態に合わせて診察で一緒に見直していきます。副作用が気になる方は、[このお薬（スタチン）と筋肉への影響についての記事](/blog/statin-kinniku-houkai)も参考にしてください。[脂質異常症の解説ページ](/diseases/dyslipidemia)もあわせてご覧いただけます。
 
 ### 院長からのメッセージ
 
@@ -82,7 +82,7 @@ Cutting back on the splash makes the soup a little lighter. But if the base soup
 
 How rich the base soup is depends largely on your **genes and constitution**, and on **age** — not on a lack of effort. Plenty of slim people have this tendency.
 
-Statins support this tendency in two ways:
+Statins — medicines that lower LDL (“bad”) cholesterol — support this tendency in two ways:
 
 1. They **turn down the heat** in the factory (your liver), so it makes less
 2. They **increase the “cleaning robots”** (receptors) that collect cholesterol from your blood

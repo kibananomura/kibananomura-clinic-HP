@@ -6979,7 +6979,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "スタチンというお薬は、二つの働きでこの体質を支えます。"
+          "text": "悪玉コレステロールを下げる薬（スタチン）は、二つの働きでこの体質を支えます。"
         },
         {
           "kind": "text",
@@ -7011,7 +7011,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "お薬の量は、数値や体の状態に合わせて診察で一緒に見直していきます。副作用が気になる方は、[スタチンの筋肉への影響についての記事](/blog/statin-kinniku-houkai)も参考にしてください。[脂質異常症の解説ページ](/diseases/dyslipidemia)もあわせてご覧いただけます。"
+          "text": "お薬の量は、数値や体の状態に合わせて診察で一緒に見直していきます。副作用が気になる方は、[このお薬（スタチン）と筋肉への影響についての記事](/blog/statin-kinniku-houkai)も参考にしてください。[脂質異常症の解説ページ](/diseases/dyslipidemia)もあわせてご覧いただけます。"
         },
         {
           "kind": "text",
@@ -7075,7 +7075,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "Statins support this tendency in two ways:"
+          "text": "Statins — medicines that lower LDL (“bad”) cholesterol — support this tendency in two ways:"
         },
         {
           "kind": "text",
