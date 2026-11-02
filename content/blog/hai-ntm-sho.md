@@ -5,7 +5,7 @@ category_ja: 健康・予防の話
 category_en: Health and prevention
 subcategory_ja: 肺・呼吸器
 subcategory_en: Lungs & breathing
-title_ja: 咳が長引く・健診で「影」——肺NTM症（肺MAC症）とは？原因・症状と「人にうつるの？」にお答えします
+title_ja: 咳が長引く・健診で「影」——結核菌の仲間による肺の病気「肺NTM症」とは？原因・症状と「人にうつるの？」にお答えします
 title_en: A lingering cough or a “shadow” on your checkup — what is pulmonary NTM (MAC) disease? Causes, symptoms, and “Is it contagious?”
 excerpt_ja: 「肺NTM症って結核の仲間？家族にうつる？」——健診で影を指摘されて不安な方へ。先にお伝えすると、この病気は人から人へはうつりません。
 excerpt_en: “Is pulmonary NTM a kind of tuberculosis? Can my family catch it?” If a checkup found a shadow on your lungs, here's the reassuring first answer — it doesn't spread from person to person.
@@ -96,7 +96,7 @@ NTMは、特別な場所にいる菌ではありません。**土の中や、水
 
 肺NTM症と診断されても、**すぐに治療を始めるとは限りません**。症状が軽く、影の広がりも小さく、進み方がゆっくりな場合は、定期的にCTや痰の検査を行いながら**経過を見る**ことも、しっかりとした選択肢の一つです。
 
-一方、病気が進んでいる場合や、肺に空洞ができている場合などは、**複数の抗菌薬を組み合わせた治療**を行います。肺MAC症では、一般的に3種類の飲み薬を組み合わせ、菌が出なくなってからも1年以上続けるため、治療は長期間に及びます。薬の副作用（目の見え方の変化、肝臓の数値など）にも気を配りながら進める必要があります。
+一方、病気が進んでいる場合や、肺に空洞ができている場合などは、**複数の抗菌薬（いわゆる抗生物質）を組み合わせた治療**を行います。肺MAC症では、一般的に3種類の飲み薬を組み合わせ、菌が出なくなってからも1年以上続けるため、治療は長期間に及びます。薬の副作用（目の見え方の変化、肝臓の数値など）にも気を配りながら進める必要があります。
 
 当院では、**軽症と判断できる場合は、当院で治療を行うこともあります**。一方、病気が進んで**重症化した場合には、呼吸器を専門とする医療機関にご紹介します**。
 

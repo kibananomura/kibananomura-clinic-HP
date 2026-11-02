@@ -40,7 +40,7 @@ export const SCHOOL_ATTENDANCE_TABLE: SchoolAttendanceRow[] = [
     disease: "百日咳",
     category: "第二種",
     criteria:
-      "特有の咳が消失するまで、または5日間の適正な抗菌薬治療が終了するまで",
+      "特有の咳が消失するまで、または5日間の適正な抗菌薬（いわゆる抗生物質）治療が終了するまで",
   },
   {
     disease: "麻しん（はしか）",
