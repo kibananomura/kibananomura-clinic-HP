@@ -28,6 +28,7 @@ const SUBCATEGORY_ORDER: { ja: string; en: string }[] = [
   { ja: "感染症・ワクチン", en: "Infections & vaccines" },
   { ja: "胃腸・消化器", en: "Stomach & digestion" },
   { ja: "肺・呼吸器", en: "Lungs & breathing" },
+  { ja: "アレルギー・花粉症", en: "Allergies & hay fever" },
   { ja: "生活習慣病・お薬", en: "Lifestyle diseases & medication" },
   { ja: "健診・検査", en: "Checkups & tests" },
   { ja: "けが・外科", en: "Injuries & surgery" },

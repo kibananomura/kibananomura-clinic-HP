@@ -6537,5 +6537,370 @@ export const generatedPosts: BlogPost[] = [
         }
       ]
     }
+  },
+  {
+    "slug": "kyonen-no-allergy-kusuri",
+    "date": "2026.11.02",
+    "cover": "/blog/kibana-landscape.png",
+    "ja": {
+      "category": "健康・予防の話",
+      "subcategory": "アレルギー・花粉症",
+      "title": "去年の残りの薬で凌いでいませんか？——抗アレルギー薬の組み合わせと、自己判断の落とし穴",
+      "excerpt": "「去年の薬がまだ何種類か残っているから、とりあえず飲んでおこう」——その引き出しの中の薬、実は「効く相手」がそれぞれ違うかもしれません。",
+      "body": [
+        {
+          "kind": "text",
+          "text": "くしゃみが出始めた、鼻がムズムズする、目がかゆい——。そんなとき、「去年もらった薬がまだ何種類か残っているから、とりあえず飲んでおこう」と、引き出しを開けていませんか？"
+        },
+        {
+          "kind": "text",
+          "text": "忙しい毎日の中で、わざわざ受診するのは大変ですよね。手元にある薬で何とかしたくなるのは、とても自然なことだと思います。"
+        },
+        {
+          "kind": "text",
+          "text": "ただ、診察室では「ちゃんと薬を飲んでいるのに、今年はなぜか効かないんです」というお話をよくお聞きします。その多くは、薬そのものが悪いのではなく、**いまの症状と「効く相手（ターゲット）」が違う薬を選んでいたり、組み合わせが合っていなかったりする**ことが原因です。"
+        },
+        {
+          "kind": "text",
+          "text": "結論から言うと、**抗アレルギー薬は「どれを飲んでも同じ」ではありません。いまの症状に合った薬を選べば、驚くほど楽に過ごせます。**この記事では、抗アレルギー薬の種類と組み合わせの考え方、そして残った薬を自己判断で飲むときの落とし穴をお話しします。"
+        },
+        {
+          "kind": "text",
+          "text": "## 抗アレルギー薬は、大きく分けて「2つのタイプ」があります"
+        },
+        {
+          "kind": "text",
+          "text": "アレルギーの症状は、体の中で出てくる「原因物質」が引き起こしています。代表的なのが**ヒスタミン**と**ロイコトリエン**です。抗アレルギー薬は、どの原因物質を抑えるかによって、得意な症状が違います。"
+        },
+        {
+          "kind": "text",
+          "text": "### ① くしゃみ・サラサラ鼻水に強いタイプ（抗ヒスタミン薬）"
+        },
+        {
+          "kind": "text",
+          "text": "- ヒスタミンという物質のはたらきを抑えます\n- 発作のように続く**くしゃみ**や、水のような**サラサラの鼻水**、**目や鼻のかゆみ**を、素早く止めるのが得意です\n- 例えるなら、鳴り続ける**「警報ベル」を止める役**です"
+        },
+        {
+          "kind": "text",
+          "text": "花粉症の薬として一番よく使われるのは、このタイプです。"
+        },
+        {
+          "kind": "text",
+          "text": "### ② 鼻づまり・粘膜の腫れに強いタイプ（抗ロイコトリエン薬）"
+        },
+        {
+          "kind": "text",
+          "text": "- ロイコトリエンという物質のはたらきを抑えます\n- 鼻の粘膜の**腫れ**を引かせて、**頑固な鼻づまり**をやわらげるのが得意です\n- 例えるなら、腫れて狭くなった**「空気の通り道」を広げる役**です"
+        },
+        {
+          "kind": "text",
+          "text": "喘息の治療にも使われる、空気の通り道を守るお薬です。"
+        },
+        {
+          "kind": "text",
+          "text": "### 「効く相手」が違えば、スッキリしない"
+        },
+        {
+          "kind": "text",
+          "text": "この2つは、得意な症状がまったく違います。"
+        },
+        {
+          "kind": "text",
+          "text": "- **サラサラの鼻水がつらいのに**、鼻づまり向けの薬だけを飲んでいる\n- **鼻づまりがつらいのに**、くしゃみ・鼻水向けの薬だけを飲んでいる"
+        },
+        {
+          "kind": "text",
+          "text": "こうした「すれ違い」が起きると、毎日きちんと飲んでいても、なかなかスッキリしません。「薬が効かない体質になった」のではなく、**狙う相手が違っている**のかもしれません。"
+        },
+        {
+          "kind": "text",
+          "text": "## なぜ、2種類以上の薬や「強い薬」が出ることがあるのか"
+        },
+        {
+          "kind": "text",
+          "text": "### 症状が重いときは、ターゲットの違う薬を組み合わせます"
+        },
+        {
+          "kind": "text",
+          "text": "「鼻水も鼻づまりも、両方つらい」というように症状が重いときは、**ターゲットの違う薬を2種類組み合わせて**、それぞれの症状を同時に抑える治療がよく行われます。①と②を一緒に使うのが、その代表です。症状によっては、鼻に直接使う**ステロイドの点鼻薬**や点眼薬を合わせることもあります。"
+        },
+        {
+          "kind": "text",
+          "text": "ここで大事なのは、**「違うタイプを組み合わせる」**ことです。同じタイプの薬を2種類重ねても、効果はほとんど上がりません。"
+        },
+        {
+          "kind": "text",
+          "text": "### とても症状が強い時期には、「ステロイド配合剤」を短く使うことがあります"
+        },
+        {
+          "kind": "text",
+          "text": "鼻が完全に詰まって眠れない、仕事や家事が手につかない——。そんな症状がとても強い時期には、**セレスタミン**のような**ステロイド配合剤**を、ごく短い期間だけ使うことがあります。"
+        },
+        {
+          "kind": "text",
+          "text": "セレスタミンは、炎症を強く抑える**ステロイド**と、**古いタイプの抗ヒスタミン薬**を組み合わせたお薬です。即効性があり、よく効きます。その分、**「短期間だけ、医師が様子を見ながら使う」ことが前提の、いわば切り札**です。"
+        },
+        {
+          "kind": "text",
+          "text": "## 自己判断で飲むと、ここが危ない"
+        },
+        {
+          "kind": "text",
+          "text": "「よく効いたから」と、残っていたセレスタミンを自己判断で飲み続けたり、手元の薬をなんとなく組み合わせたりすると、思わぬ落とし穴があります。"
+        },
+        {
+          "kind": "text",
+          "text": "### 1. 強い薬をダラダラ続けてしまう"
+        },
+        {
+          "kind": "text",
+          "text": "ステロイドを長く飲み続けると、**血糖値や血圧が上がる**、**感染症にかかりやすくなる**、**骨がもろくなる**といった副作用が出ることがあります。また、セレスタミンに含まれる古いタイプの抗ヒスタミン薬は、**緑内障**や**前立腺肥大**のある方では、症状を悪くすることがあります。"
+        },
+        {
+          "kind": "text",
+          "text": "### 2. 同じタイプの薬が重なってしまう"
+        },
+        {
+          "kind": "text",
+          "text": "別々の病院や去年・おととしにもらった薬を合わせて飲むと、気づかないうちに**抗ヒスタミン薬を2種類、3種類と重ねて飲んでいる**ことがあります。効果はほとんど変わらないのに、**強い眠気**や**口の渇き**などの副作用だけが増えてしまいます。"
+        },
+        {
+          "kind": "text",
+          "text": "### 3. 眠気で、車の運転が危なくなる"
+        },
+        {
+          "kind": "text",
+          "text": "抗ヒスタミン薬の中には、**眠気が出やすく、飲んだ日は車の運転を控える必要がある薬**もあります。車での移動が欠かせない地域だからこそ、どの薬を飲んでいるかを把握しておくことが大切です。"
+        },
+        {
+          "kind": "text",
+          "text": "### 4. 去年と今年で、体の状態が変わっている"
+        },
+        {
+          "kind": "text",
+          "text": "去年の薬は、**去年のあなたの体と症状**に合わせて選ばれたものです。その後に始めたお薬との飲み合わせ、新しく見つかった病気、妊娠・授乳などで、同じ薬が合わなくなっていることがあります。また、**ご家族に処方された薬**は、年齢や体重に合わせて量が決められているため、ほかの方が飲むのは避けてください。"
+        },
+        {
+          "kind": "text",
+          "text": "## 「今年のアレルギー」は「今年の診察」で治すのが一番の近道"
+        },
+        {
+          "kind": "text",
+          "text": "花粉の飛ぶ量は年によって大きく違い、その年の体調によっても症状の出方は変わります。**去年はくしゃみ・鼻水がメインだったのに、今年は鼻づまりがつらい**——ということも珍しくありません。"
+        },
+        {
+          "kind": "text",
+          "text": "また、鼻水や鼻づまりが続いていても、実は花粉症ではなく、**かぜや副鼻腔炎**のこともあります。その場合は、抗アレルギー薬をいくら飲んでもよくなりません。"
+        },
+        {
+          "kind": "text",
+          "text": "だからこそ、効かないからといって手元の薬を**自己判断で増やしたり、組み合わせたり**するのではなく、"
+        },
+        {
+          "kind": "text",
+          "text": "- いま**一番つらい症状**は何か\n- 症状は**どのくらいの強さ**か\n- **ほかに飲んでいる薬**や、持病はあるか"
+        },
+        {
+          "kind": "text",
+          "text": "を医師と一緒に確認して、薬を選ぶことが、**いちばん早く、安全に楽になる方法**です。症状が出始めたら早めに治療を始めると、ひどくなる前に抑えやすくなります。"
+        },
+        {
+          "kind": "text",
+          "text": "受診の際は、**手元に残っている薬やお薬手帳**をお持ちください。「この薬はまだ使える」「これはもう飲まないで」と、一緒に整理することもできます。"
+        },
+        {
+          "kind": "text",
+          "text": "## 院長からのメッセージ"
+        },
+        {
+          "kind": "text",
+          "text": "抗アレルギー薬は、いまの症状にピタリと合えば、**驚くほど快適に過ごせる**お薬です。せっかく毎日飲んでいるのに効果が出なかったり、お体に負担がかかったりするのは、本当にもったいないことです。"
+        },
+        {
+          "kind": "text",
+          "text": "「今年の症状に効いていない気がする」「手元の薬をどう飲めばいいかわからない」——そんなときは、どうぞお気軽に当院にご相談ください。あなたの「いまの症状」に合わせて、一緒にお薬を選びましょう。"
+        }
+      ]
+    },
+    "en": {
+      "category": "Health and prevention",
+      "subcategory": "Allergies & hay fever",
+      "title": "Getting by on last year's leftover pills? How allergy medicines work together — and the pitfalls of choosing your own",
+      "excerpt": "“There are still a few kinds left from last year, so I'll just take those” — but the medicines in that drawer may each be aimed at a different target.",
+      "body": [
+        {
+          "kind": "text",
+          "text": "A sneeze here, an itchy nose there, watery eyes… When symptoms start, do you open the drawer and think, “There are still a few kinds left from last year — I'll just take those”?"
+        },
+        {
+          "kind": "text",
+          "text": "With busy days, making time to see a doctor isn't easy. Wanting to get by with what's already at home is completely natural."
+        },
+        {
+          "kind": "text",
+          "text": "But in the clinic, we often hear, “I'm taking my medicine properly, but this year it just doesn't seem to work.” In many cases, the medicine itself isn't the problem. **The medicine is aimed at a different target from the symptoms you have now, or the combination doesn't fit.**"
+        },
+        {
+          "kind": "text",
+          "text": "The bottom line: **allergy medicines are not all the same. When the medicine matches your current symptoms, you can feel remarkably better.** In this article, we explain the main types of allergy medicine, how they're combined, and the pitfalls of taking leftover medicine on your own judgment."
+        },
+        {
+          "kind": "text",
+          "text": "## Allergy medicines come in two main types"
+        },
+        {
+          "kind": "text",
+          "text": "Allergy symptoms are triggered by chemical messengers released in the body. Two of the main ones are **histamine** and **leukotrienes**. Each type of allergy medicine blocks a different messenger, so each is good at different symptoms."
+        },
+        {
+          "kind": "text",
+          "text": "### ① Best for sneezing and runny nose (antihistamines)"
+        },
+        {
+          "kind": "text",
+          "text": "- They block histamine\n- They quickly stop bouts of **sneezing**, **watery runny nose** and **itchy eyes and nose**\n- Think of them as **switching off an alarm bell** that won't stop ringing"
+        },
+        {
+          "kind": "text",
+          "text": "These are the most commonly used hay fever medicines."
+        },
+        {
+          "kind": "text",
+          "text": "### ② Best for blocked nose and swelling (leukotriene receptor antagonists)"
+        },
+        {
+          "kind": "text",
+          "text": "- They block leukotrienes\n- They reduce **swelling** of the nasal lining and ease a **stubborn blocked nose**\n- Think of them as **widening a narrowed airway**"
+        },
+        {
+          "kind": "text",
+          "text": "They're also used in asthma treatment to protect the airways."
+        },
+        {
+          "kind": "text",
+          "text": "### If the target is different, you won't feel relief"
+        },
+        {
+          "kind": "text",
+          "text": "These two types work on very different symptoms."
+        },
+        {
+          "kind": "text",
+          "text": "- Your **runny nose** is the problem, but you're only taking medicine for a blocked nose\n- Your **blocked nose** is the problem, but you're only taking medicine for sneezing and a runny nose"
+        },
+        {
+          "kind": "text",
+          "text": "When this kind of mismatch happens, you may not feel better even if you take your medicine every day. It's not that your body has stopped responding — **the medicine may simply be aimed at the wrong target.**"
+        },
+        {
+          "kind": "text",
+          "text": "## Why two or more medicines — or a “strong” one — may be prescribed"
+        },
+        {
+          "kind": "text",
+          "text": "### When symptoms are severe, medicines with different targets are combined"
+        },
+        {
+          "kind": "text",
+          "text": "When symptoms are severe — for example, both a runny nose and a blocked nose — doctors often **combine two medicines with different targets** to control both at once. Using ① and ② together is a typical example. Depending on your symptoms, a **steroid nasal spray** or eye drops may also be added."
+        },
+        {
+          "kind": "text",
+          "text": "The key is **combining different types**. Taking two medicines of the same type adds very little benefit."
+        },
+        {
+          "kind": "text",
+          "text": "### In very severe periods, a steroid combination may be used briefly"
+        },
+        {
+          "kind": "text",
+          "text": "When your nose is completely blocked and you can't sleep, or you can't focus on work or housework, a **steroid combination medicine** such as **Celestamine** may be used for a very short time."
+        },
+        {
+          "kind": "text",
+          "text": "Celestamine combines a **steroid**, which strongly reduces inflammation, with an **older-type antihistamine**. It works quickly and effectively — which is exactly why it is **a “trump card” meant to be used briefly, under a doctor's supervision.**"
+        },
+        {
+          "kind": "text",
+          "text": "## The risks of choosing on your own"
+        },
+        {
+          "kind": "text",
+          "text": "Continuing leftover Celestamine because “it worked so well,” or casually combining whatever medicines you have at home, can lead to unexpected problems."
+        },
+        {
+          "kind": "text",
+          "text": "### 1. Taking a strong medicine for too long"
+        },
+        {
+          "kind": "text",
+          "text": "Long-term steroid use can **raise blood sugar and blood pressure**, **make infections more likely**, and **weaken bones**. The older-type antihistamine in Celestamine can also worsen **glaucoma** or an **enlarged prostate**."
+        },
+        {
+          "kind": "text",
+          "text": "### 2. Doubling up on the same type"
+        },
+        {
+          "kind": "text",
+          "text": "Combining medicines from different clinics, or from last year and the year before, can mean you're **taking two or three antihistamines at once** without realizing it. The benefit barely changes, but side effects such as **strong drowsiness** and **dry mouth** increase."
+        },
+        {
+          "kind": "text",
+          "text": "### 3. Drowsiness can make driving dangerous"
+        },
+        {
+          "kind": "text",
+          "text": "Some antihistamines **cause drowsiness, and you should avoid driving on days you take them**. In an area where getting around by car is essential, it's important to know exactly what you're taking."
+        },
+        {
+          "kind": "text",
+          "text": "### 4. Your body may have changed since last year"
+        },
+        {
+          "kind": "text",
+          "text": "Last year's medicine was chosen for **last year's you and last year's symptoms**. Interactions with medicines you've started since then, newly diagnosed conditions, pregnancy or breastfeeding can all make the same medicine unsuitable. Also, **medicine prescribed for a family member** is dosed for their age and weight, so please don't share it."
+        },
+        {
+          "kind": "text",
+          "text": "## This year's allergy is best treated with this year's check-up"
+        },
+        {
+          "kind": "text",
+          "text": "Pollen levels vary greatly from year to year, and your symptoms can change with your health that year. It's not unusual for **sneezing and a runny nose to be the main problem one year, and a blocked nose the next.**"
+        },
+        {
+          "kind": "text",
+          "text": "A lasting runny or blocked nose may also not be hay fever at all, but **a cold or sinusitis** — in which case no amount of allergy medicine will help."
+        },
+        {
+          "kind": "text",
+          "text": "So rather than **raising the dose or combining medicines on your own** when they don't seem to work, check these with your doctor:"
+        },
+        {
+          "kind": "text",
+          "text": "- Which symptom is **bothering you most** right now\n- **How severe** your symptoms are\n- What **other medicines** you take, and any ongoing conditions"
+        },
+        {
+          "kind": "text",
+          "text": "Choosing your medicine this way is **the fastest and safest route to feeling better**. Starting treatment early, as soon as symptoms begin, also makes it easier to keep them under control before they get worse."
+        },
+        {
+          "kind": "text",
+          "text": "When you visit, please bring **any leftover medicine and your medication record book**. We can sort through them together — which ones are still fine to use, and which ones to stop."
+        },
+        {
+          "kind": "text",
+          "text": "## A message from the director"
+        },
+        {
+          "kind": "text",
+          "text": "When an allergy medicine matches your current symptoms, it can make you **feel remarkably comfortable**. It's a real shame to take medicine every day and not feel the benefit, or to put unnecessary strain on your body."
+        },
+        {
+          "kind": "text",
+          "text": "If you feel “my medicine isn't working this year,” or you're unsure how to take what you have at home, please feel free to talk to us. Let's choose the right medicine for your symptoms right now, together."
+        }
+      ]
+    }
   }
 ];
