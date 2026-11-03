@@ -1,6 +1,6 @@
 ---
 date: 2026.10.07
-cover: /blog/kibana-landscape.png
+cover: /blog/kibana-landscape.jpg
 category_ja: クリニックのこと
 category_en: About the clinic
 title_ja: 発熱の方の動線を、他の患者さんと完全に分けている理由

@@ -1,6 +1,6 @@
 ---
 date: 2026.10.14
-cover: /blog/kibana-landscape.png
+cover: /blog/kibana-landscape.jpg
 category_ja: 健康・予防の話
 category_en: Health and prevention
 subcategory_ja: 健診・検査

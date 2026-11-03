@@ -1,6 +1,6 @@
 ---
 date: 2026.10.13
-cover: /blog/kibana-landscape.png
+cover: /blog/kibana-landscape.jpg
 category_ja: クリニックのこと
 category_en: About the clinic
 title_ja: 旅先での体調不良、「一見さん」でも大歓迎です

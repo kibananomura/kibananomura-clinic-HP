@@ -17,7 +17,7 @@ excerpt_en: “Is this even worth a doctor's visit?” — I've seen so many peo
 
 木花のむら総合診療所は、そんなときにまず気軽に立ち寄っていただける、**よろず相談所のような場所**を目指しています。お子さんからご高齢の方まで、日々のちょっとした不調から、どうぞ気軽にご相談ください。
 
-![緑ゆたかな木花の地で、皆さんをお待ちしています。](/blog/kibana-landscape.png)
+![緑ゆたかな木花の地で、皆さんをお待ちしています。](/blog/kibana-landscape.jpg)
 
 このブログでは、開院までの準備の様子や、地域のこと、診療への想いなどを、少しずつお伝えしていきます。どうぞよろしくお願いいたします。
 
@@ -29,6 +29,6 @@ I've practiced mainly in surgery at university and regional hospitals. Throughou
 
 Kibana Nomura General Medicine Clinic aims to be exactly that kind of place — **somewhere you can turn to for just about anything**, big or small. From children to the elderly, please feel free to consult us about the small everyday troubles.
 
-![We look forward to seeing you here, in the green land of Kibana.](/blog/kibana-landscape.png)
+![We look forward to seeing you here, in the green land of Kibana.](/blog/kibana-landscape.jpg)
 
 On this blog, I'll gradually share our preparations toward opening, stories about the area, and our thoughts on care. Thank you for reading.

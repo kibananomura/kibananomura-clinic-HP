@@ -1,6 +1,6 @@
 ---
 date: 2026.09.28
-cover: /blog/kibana-landscape.png
+cover: /blog/kibana-landscape.jpg
 category_ja: 院長のキャリア
 category_en: Director's career
 title_ja: 「光でがんを温める」研究に打ち込んでいた頃の話

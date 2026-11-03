@@ -1,6 +1,6 @@
 ---
 date: 2026.09.15
-cover: /blog/kibana-landscape.png
+cover: /blog/kibana-landscape.jpg
 category_ja: 院長のキャリア
 category_en: Director's career
 title_ja: 外科医から開業医へ（前編）——十数年、一つの場所に留まらなかった道のり

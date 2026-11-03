@@ -1,6 +1,6 @@
 ---
 date: 2026.10.30
-cover: /blog/kibana-landscape.png
+cover: /blog/kibana-landscape.jpg
 category_ja: 院長のメッセージ
 category_en: A message from the director
 title_ja: 「金利のある世界」で、覚悟を持って診療所をつくります

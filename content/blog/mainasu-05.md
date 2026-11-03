@@ -1,6 +1,6 @@
 ---
 date: 2026.10.09
-cover: /blog/kibana-landscape.png
+cover: /blog/kibana-landscape.jpg
 category_ja: 院長のメッセージ
 category_en: A message from the director
 title_ja: 「マイナス0.5」から整える、という考え方

@@ -1,6 +1,6 @@
 ---
 date: 2026.10.11
-cover: /blog/kibana-landscape.png
+cover: /blog/kibana-landscape.jpg
 category_ja: 院長のキャリア
 category_en: Director's career
 title_ja: 元・胃外科医が、木花で「かかりつけ医」になった理由

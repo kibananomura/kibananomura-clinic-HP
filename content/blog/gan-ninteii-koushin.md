@@ -1,6 +1,6 @@
 ---
 date: 2026.10.12
-cover: /blog/kibana-landscape.png
+cover: /blog/kibana-landscape.jpg
 category_ja: 院長のキャリア
 category_en: Director's career
 title_ja: 「がん治療認定医」を、更新しないと決めた日

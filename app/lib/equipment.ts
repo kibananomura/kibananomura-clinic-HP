@@ -6,7 +6,7 @@ export type Equipment = {
 
 export const equipment: Equipment[] = [
   {
-    image: "/equipment/ct.png",
+    image: "/equipment/ct.jpg",
     ja: {
       name: "16列CT",
       body: "体の断面を撮影し、頭部からおなかまで詳しく調べられる検査です。放射線を遮断する専用の検査室で安全に撮影します。装置自体は**開放的な造り**で、トンネルのように長く囲まれることがありません。狭いところが苦手・不安という方も、写真のとおり開口部が広いため、リラックスして検査を受けていただけます。撮影自体は__わずかな時間で終わります__。",
@@ -17,7 +17,7 @@ export const equipment: Equipment[] = [
     },
   },
   {
-    image: "/equipment/endoscope.png",
+    image: "/equipment/endoscope.jpg",
     ja: {
       name: "経鼻内視鏡（胃カメラ）",
       body: "鼻から挿入できる細いカメラで、のどや胃の中を観察します。鼻から入れるため**「オエッ」となりにくく**、会話をしながら比較的楽に受けられるのが特長です。経鼻のため__全身麻酔は不要__で、局所麻酔で痛みをコントロールしながら行います。",
@@ -28,7 +28,7 @@ export const equipment: Equipment[] = [
     },
   },
   {
-    image: "/equipment/ultrasound.png",
+    image: "/equipment/ultrasound.jpg",
     ja: {
       name: "腹部エコー（超音波）",
       body: "おなかにあてるだけで、肝臓・胆のう・腎臓などの様子を観察できる検査です。__痛みも被ばくもなく__、お子さんからご高齢の方まで安心して受けていただけます。",
@@ -39,7 +39,7 @@ export const equipment: Equipment[] = [
     },
   },
   {
-    image: "/equipment/xray.png",
+    image: "/equipment/xray.jpg",
     ja: {
       name: "デジタルX線（レントゲン）",
       body: "胸やおなか、骨などを撮影します。デジタル化により、**少ない被ばく量**で、その場ですぐに画像を確認できます。",
@@ -50,7 +50,7 @@ export const equipment: Equipment[] = [
     },
   },
   {
-    image: "/equipment/feno.png",
+    image: "/equipment/feno.jpg",
     ja: {
       name: "FENO（呼気NO検査・喘息診断）",
       body: "**息を吐くだけ**で、気道の炎症の程度を数値で調べられる検査です。せきが長引く方や、喘息が疑われる方の診断・経過の確認に役立ちます。痛みはなく、__数分で終わります__。",
@@ -61,7 +61,7 @@ export const equipment: Equipment[] = [
     },
   },
   {
-    image: "/equipment/surgery.png",
+    image: "/equipment/surgery.jpg",
     ja: {
       name: "処置室（外科小手術）",
       body: "粉瘤（皮膚の下にできる袋状のできもの）や脂肪腫（皮膚の下の脂肪のかたまり）の切除、巻き爪の処置、きずの縫合など、**日帰りでの小手術・処置**に対応します。清潔な処置室で、__外科専門医__が丁寧に行います。",

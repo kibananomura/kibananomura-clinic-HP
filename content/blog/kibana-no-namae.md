@@ -1,6 +1,6 @@
 ---
 date: 2026.06.02
-cover: /blog/kibana-landscape.png
+cover: /blog/kibana-landscape.jpg
 category_ja: クリニックのこと
 category_en: About the clinic
 title_ja: 名前に込めた、ふたつの想い

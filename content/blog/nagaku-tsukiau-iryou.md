@@ -1,6 +1,6 @@
 ---
 date: 2026.10.08
-cover: /blog/kibana-landscape.png
+cover: /blog/kibana-landscape.jpg
 category_ja: 院長のメッセージ
 category_en: A message from the director
 title_ja: 「治す」だけでなく、「長く付き合う」医療について

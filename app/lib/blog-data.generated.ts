@@ -27,7 +27,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "image",
-          "src": "/blog/kibana-landscape.png",
+          "src": "/blog/kibana-landscape.jpg",
           "caption": "緑ゆたかな木花の地で、皆さんをお待ちしています。"
         },
         {
@@ -55,7 +55,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "image",
-          "src": "/blog/kibana-landscape.png",
+          "src": "/blog/kibana-landscape.jpg",
           "caption": "We look forward to seeing you here, in the green land of Kibana."
         },
         {
@@ -68,7 +68,7 @@ export const generatedPosts: BlogPost[] = [
   {
     "slug": "kibana-no-namae",
     "date": "2026.06.02",
-    "cover": "/blog/kibana-landscape.png",
+    "cover": "/blog/kibana-landscape.jpg",
     "ja": {
       "category": "クリニックのこと",
       "title": "名前に込めた、ふたつの想い",
@@ -135,7 +135,7 @@ export const generatedPosts: BlogPost[] = [
   {
     "slug": "kansen-2026-07",
     "date": "2026.08.05",
-    "cover": "/blog/kibana-landscape.png",
+    "cover": "/blog/kibana-landscape.jpg",
     "ja": {
       "category": "健康・予防の話",
       "subcategory": "感染症・ワクチン",
@@ -276,7 +276,7 @@ export const generatedPosts: BlogPost[] = [
   {
     "slug": "kara-no-michi",
     "date": "2026.09.15",
-    "cover": "/blog/kibana-landscape.png",
+    "cover": "/blog/kibana-landscape.jpg",
     "ja": {
       "category": "院長のキャリア",
       "title": "外科医から開業医へ（前編）——十数年、一つの場所に留まらなかった道のり",
@@ -367,7 +367,7 @@ export const generatedPosts: BlogPost[] = [
   {
     "slug": "kara-no-michi-2",
     "date": "2026.09.16",
-    "cover": "/blog/kibana-landscape.png",
+    "cover": "/blog/kibana-landscape.jpg",
     "ja": {
       "category": "院長のキャリア",
       "title": "外科医から開業医へ（後編）——遠回りのようで、まっすぐだった道のり",
@@ -482,7 +482,7 @@ export const generatedPosts: BlogPost[] = [
   {
     "slug": "hikari-onnetsu-kenkyu",
     "date": "2026.09.28",
-    "cover": "/blog/kibana-landscape.png",
+    "cover": "/blog/kibana-landscape.jpg",
     "ja": {
       "category": "院長のキャリア",
       "title": "「光でがんを温める」研究に打ち込んでいた頃の話",
@@ -749,7 +749,7 @@ export const generatedPosts: BlogPost[] = [
   {
     "slug": "ikamera-junbi",
     "date": "2026.09.29",
-    "cover": "/blog/kibana-landscape.png",
+    "cover": "/blog/kibana-landscape.jpg",
     "ja": {
       "category": "健康・予防の話",
       "subcategory": "胃腸・消化器",
@@ -1042,7 +1042,7 @@ export const generatedPosts: BlogPost[] = [
   {
     "slug": "ikamera-nansai-kara",
     "date": "2026.09.30",
-    "cover": "/blog/kibana-landscape.png",
+    "cover": "/blog/kibana-landscape.jpg",
     "ja": {
       "category": "健康・予防の話",
       "subcategory": "胃腸・消化器",
@@ -1311,7 +1311,7 @@ export const generatedPosts: BlogPost[] = [
   {
     "slug": "kaicho-mattan-en",
     "date": "2026.10.01",
-    "cover": "/blog/kibana-landscape.png",
+    "cover": "/blog/kibana-landscape.jpg",
     "ja": {
       "category": "健康・予防の話",
       "subcategory": "胃腸・消化器",
@@ -1604,7 +1604,7 @@ export const generatedPosts: BlogPost[] = [
   {
     "slug": "hai-kousankin",
     "date": "2026.10.02",
-    "cover": "/blog/kibana-landscape.png",
+    "cover": "/blog/kibana-landscape.jpg",
     "ja": {
       "category": "健康・予防の話",
       "subcategory": "肺・呼吸器",
@@ -1945,7 +1945,7 @@ export const generatedPosts: BlogPost[] = [
   {
     "slug": "hai-ntm-sho",
     "date": "2026.10.03",
-    "cover": "/blog/kibana-landscape.png",
+    "cover": "/blog/kibana-landscape.jpg",
     "ja": {
       "category": "健康・予防の話",
       "subcategory": "肺・呼吸器",
@@ -2310,7 +2310,7 @@ export const generatedPosts: BlogPost[] = [
   {
     "slug": "kouatsu-genryou-fuan",
     "date": "2026.10.04",
-    "cover": "/blog/kibana-landscape.png",
+    "cover": "/blog/kibana-landscape.jpg",
     "ja": {
       "category": "健康・予防の話",
       "subcategory": "生活習慣病・お薬",
@@ -2459,7 +2459,7 @@ export const generatedPosts: BlogPost[] = [
   {
     "slug": "statin-kinniku-houkai",
     "date": "2026.10.05",
-    "cover": "/blog/kibana-landscape.png",
+    "cover": "/blog/kibana-landscape.jpg",
     "ja": {
       "category": "健康・予防の話",
       "subcategory": "生活習慣病・お薬",
@@ -2624,7 +2624,7 @@ export const generatedPosts: BlogPost[] = [
   {
     "slug": "tomato-juice-ryouba",
     "date": "2026.10.06",
-    "cover": "/blog/kibana-landscape.png",
+    "cover": "/blog/kibana-landscape.jpg",
     "ja": {
       "category": "健康・予防の話",
       "subcategory": "生活習慣病・お薬",
@@ -2733,7 +2733,7 @@ export const generatedPosts: BlogPost[] = [
   {
     "slug": "kansen-dousen-bunri",
     "date": "2026.10.07",
-    "cover": "/blog/kibana-landscape.png",
+    "cover": "/blog/kibana-landscape.jpg",
     "ja": {
       "category": "クリニックのこと",
       "title": "発熱の方の動線を、他の患者さんと完全に分けている理由",
@@ -2848,7 +2848,7 @@ export const generatedPosts: BlogPost[] = [
   {
     "slug": "nagaku-tsukiau-iryou",
     "date": "2026.10.08",
-    "cover": "/blog/kibana-landscape.png",
+    "cover": "/blog/kibana-landscape.jpg",
     "ja": {
       "category": "院長のメッセージ",
       "title": "「治す」だけでなく、「長く付き合う」医療について",
@@ -2939,7 +2939,7 @@ export const generatedPosts: BlogPost[] = [
   {
     "slug": "mainasu-05",
     "date": "2026.10.09",
-    "cover": "/blog/kibana-landscape.png",
+    "cover": "/blog/kibana-landscape.jpg",
     "ja": {
       "category": "院長のメッセージ",
       "title": "「マイナス0.5」から整える、という考え方",
@@ -3022,7 +3022,7 @@ export const generatedPosts: BlogPost[] = [
   {
     "slug": "mainichi-chigau-mono",
     "date": "2026.10.10",
-    "cover": "/blog/kibana-landscape.png",
+    "cover": "/blog/kibana-landscape.jpg",
     "ja": {
       "category": "健康・予防の話",
       "subcategory": "生活習慣病・お薬",
@@ -3163,7 +3163,7 @@ export const generatedPosts: BlogPost[] = [
   {
     "slug": "i-gekai-kara-kakaritsukei",
     "date": "2026.10.11",
-    "cover": "/blog/kibana-landscape.png",
+    "cover": "/blog/kibana-landscape.jpg",
     "ja": {
       "category": "院長のキャリア",
       "title": "元・胃外科医が、木花で「かかりつけ医」になった理由",
@@ -3246,7 +3246,7 @@ export const generatedPosts: BlogPost[] = [
   {
     "slug": "gan-ninteii-koushin",
     "date": "2026.10.12",
-    "cover": "/blog/kibana-landscape.png",
+    "cover": "/blog/kibana-landscape.jpg",
     "ja": {
       "category": "院長のキャリア",
       "title": "「がん治療認定医」を、更新しないと決めた日",
@@ -3329,7 +3329,7 @@ export const generatedPosts: BlogPost[] = [
   {
     "slug": "isseisan-daikangei",
     "date": "2026.10.13",
-    "cover": "/blog/kibana-landscape.png",
+    "cover": "/blog/kibana-landscape.jpg",
     "ja": {
       "category": "クリニックのこと",
       "title": "旅先での体調不良、「一見さん」でも大歓迎です",
@@ -3420,7 +3420,7 @@ export const generatedPosts: BlogPost[] = [
   {
     "slug": "tumor-marker-checkup",
     "date": "2026.10.14",
-    "cover": "/blog/kibana-landscape.png",
+    "cover": "/blog/kibana-landscape.jpg",
     "ja": {
       "category": "健康・予防の話",
       "subcategory": "健診・検査",
@@ -3545,7 +3545,7 @@ export const generatedPosts: BlogPost[] = [
   {
     "slug": "jushin-meiro",
     "date": "2026.10.15",
-    "cover": "/blog/kibana-landscape.png",
+    "cover": "/blog/kibana-landscape.jpg",
     "ja": {
       "category": "開業への想い",
       "title": "「何科に行けばいいかわからない」をなくしたい",
@@ -3740,7 +3740,7 @@ export const generatedPosts: BlogPost[] = [
   {
     "slug": "zensoku-chiryo",
     "date": "2026.10.16",
-    "cover": "/blog/kibana-landscape.png",
+    "cover": "/blog/kibana-landscape.jpg",
     "ja": {
       "category": "健康・予防の話",
       "subcategory": "肺・呼吸器",
@@ -3889,7 +3889,7 @@ export const generatedPosts: BlogPost[] = [
   {
     "slug": "seikatsu-shukanbyo-gokai",
     "date": "2026.10.17",
-    "cover": "/blog/kibana-landscape.png",
+    "cover": "/blog/kibana-landscape.jpg",
     "ja": {
       "category": "健康・予防の話",
       "subcategory": "生活習慣病・お薬",
@@ -3990,7 +3990,7 @@ export const generatedPosts: BlogPost[] = [
   {
     "slug": "kusuri-yamerarenai",
     "date": "2026.10.18",
-    "cover": "/blog/kibana-landscape.png",
+    "cover": "/blog/kibana-landscape.jpg",
     "ja": {
       "category": "健康・予防の話",
       "subcategory": "生活習慣病・お薬",
@@ -4107,7 +4107,7 @@ export const generatedPosts: BlogPost[] = [
   {
     "slug": "ppi-chouki-fukuyou",
     "date": "2026.10.19",
-    "cover": "/blog/kibana-landscape.png",
+    "cover": "/blog/kibana-landscape.jpg",
     "ja": {
       "category": "健康・予防の話",
       "subcategory": "胃腸・消化器",
@@ -4248,7 +4248,7 @@ export const generatedPosts: BlogPost[] = [
   {
     "slug": "kaze-taisho-ryoho",
     "date": "2026.10.20",
-    "cover": "/blog/kibana-landscape.png",
+    "cover": "/blog/kibana-landscape.jpg",
     "ja": {
       "category": "健康・予防の話",
       "subcategory": "感染症・ワクチン",
@@ -4413,7 +4413,7 @@ export const generatedPosts: BlogPost[] = [
   {
     "slug": "influenza-vaccine-mayoi",
     "date": "2026.10.21",
-    "cover": "/blog/kibana-landscape.png",
+    "cover": "/blog/kibana-landscape.jpg",
     "ja": {
       "category": "健康・予防の話",
       "subcategory": "感染症・ワクチン",
@@ -4514,7 +4514,7 @@ export const generatedPosts: BlogPost[] = [
   {
     "slug": "seijou-no-jouge-fuan",
     "date": "2026.10.22",
-    "cover": "/blog/kibana-landscape.png",
+    "cover": "/blog/kibana-landscape.jpg",
     "ja": {
       "category": "健康・予防の話",
       "subcategory": "健診・検査",
@@ -4631,7 +4631,7 @@ export const generatedPosts: BlogPost[] = [
   {
     "slug": "shukketsu-shashin-onegai",
     "date": "2026.10.23",
-    "cover": "/blog/kibana-landscape.png",
+    "cover": "/blog/kibana-landscape.jpg",
     "ja": {
       "category": "健康・予防の話",
       "subcategory": "けが・外科",
@@ -4764,7 +4764,7 @@ export const generatedPosts: BlogPost[] = [
   {
     "slug": "furumisuto-hana-no-jotai",
     "date": "2026.10.24",
-    "cover": "/blog/kibana-landscape.png",
+    "cover": "/blog/kibana-landscape.jpg",
     "ja": {
       "category": "健康・予防の話",
       "subcategory": "感染症・ワクチン",
@@ -4937,7 +4937,7 @@ export const generatedPosts: BlogPost[] = [
   {
     "slug": "legionella",
     "date": "2026.10.25",
-    "cover": "/blog/kibana-landscape.png",
+    "cover": "/blog/kibana-landscape.jpg",
     "ja": {
       "category": "健康・予防の話",
       "subcategory": "感染症・ワクチン",
@@ -5246,7 +5246,7 @@ export const generatedPosts: BlogPost[] = [
   {
     "slug": "kizu-shoudoku",
     "date": "2026.10.26",
-    "cover": "/blog/kibana-landscape.png",
+    "cover": "/blog/kibana-landscape.jpg",
     "ja": {
       "category": "健康・予防の話",
       "subcategory": "けが・外科",
@@ -5563,7 +5563,7 @@ export const generatedPosts: BlogPost[] = [
   {
     "slug": "ichinichi-isshoku-yasenai",
     "date": "2026.10.29",
-    "cover": "/blog/kibana-landscape.png",
+    "cover": "/blog/kibana-landscape.jpg",
     "ja": {
       "category": "健康・予防の話",
       "subcategory": "生活習慣病・お薬",
@@ -5824,7 +5824,7 @@ export const generatedPosts: BlogPost[] = [
   {
     "slug": "kinri-no-aru-sekai",
     "date": "2026.10.30",
-    "cover": "/blog/kibana-landscape.png",
+    "cover": "/blog/kibana-landscape.jpg",
     "ja": {
       "category": "院長のメッセージ",
       "title": "「金利のある世界」で、覚悟を持って診療所をつくります",
@@ -6059,7 +6059,7 @@ export const generatedPosts: BlogPost[] = [
   {
     "slug": "hontou-no-chiryou",
     "date": "2026.10.31",
-    "cover": "/blog/kibana-landscape.png",
+    "cover": "/blog/kibana-landscape.jpg",
     "ja": {
       "category": "健康・予防の話",
       "subcategory": "生活習慣病・お薬",
@@ -6320,7 +6320,7 @@ export const generatedPosts: BlogPost[] = [
   {
     "slug": "senna-choukirenyou",
     "date": "2026.11.01",
-    "cover": "/blog/kibana-landscape.png",
+    "cover": "/blog/kibana-landscape.jpg",
     "ja": {
       "category": "健康・予防の話",
       "subcategory": "胃腸・消化器",
@@ -6589,7 +6589,7 @@ export const generatedPosts: BlogPost[] = [
   {
     "slug": "kyonen-no-allergy-kusuri",
     "date": "2026.11.02",
-    "cover": "/blog/kibana-landscape.png",
+    "cover": "/blog/kibana-landscape.jpg",
     "ja": {
       "category": "健康・予防の話",
       "subcategory": "アレルギー・花粉症",
@@ -6954,7 +6954,7 @@ export const generatedPosts: BlogPost[] = [
   {
     "slug": "yasete-iru-noni-ldl",
     "date": "2026.11.03",
-    "cover": "/blog/kibana-landscape.png",
+    "cover": "/blog/kibana-landscape.jpg",
     "ja": {
       "category": "健康・予防の話",
       "subcategory": "生活習慣病・お薬",

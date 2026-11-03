@@ -1,6 +1,6 @@
 ---
 date: 2026.10.15
-cover: /blog/kibana-landscape.png
+cover: /blog/kibana-landscape.jpg
 category_ja: 開業への想い
 category_en: Why we're opening
 title_ja: 「何科に行けばいいかわからない」をなくしたい
