@@ -21,7 +21,7 @@ excerpt_en: The National Defense Medical College, the front lines of disaster me
 
 ### アメリカでの一年半が教えてくれたこと
 
-2018年から2019年にかけて、マサチューセッツ総合病院（MGH）で研究員として過ごした時間も、私にとって大きな転換点でした。ボストン日本人研究者交流会(BJRF)で幹事の任を仰せつかり、医学だけでなく社会科学系の研究者や一般企業の研究者など様々な分野の方々と交流する機会に恵まれました。臨床と研究の距離の近さ、そして様々な思考方法や文化に触れ、多くの仲間と繋がれたことで、**「良い医療は、優れた個人の技術だけでなく、仕組みとチームによって支えられている」**という実感を強く持つようになりました。アフリカのことわざに「早く行きたければ一人で行け、遠くへ行きたければ大勢で行け」という言葉がありますが、まさにそれを肌で感じた日々でした。
+2018年から2019年にかけて、マサチューセッツ総合病院（MGH）で研究員として過ごした時間も、私にとって大きな転換点でした。ボストン日本人研究者交流会(BJRF)で幹事の任を仰せつかり、医学だけでなく社会科学系の研究者や一般企業の研究者など様々な分野の方々と交流する機会に恵まれました。2019年3月には、BJRFの第171回講演会（会場はマサチューセッツ工科大学〈MIT〉）で、「光が導くがん外科治療の未来」と題してお話しする機会もいただきました（[講演の概要](https://www.boston-researchers.jp/pukiwiki/index.php?lecture/2019.html#ode171)）。臨床と研究の距離の近さ、そして様々な思考方法や文化に触れ、多くの仲間と繋がれたことで、**「良い医療は、優れた個人の技術だけでなく、仕組みとチームによって支えられている」**という実感を強く持つようになりました。アフリカのことわざに「早く行きたければ一人で行け、遠くへ行きたければ大勢で行け」という言葉がありますが、まさにそれを肌で感じた日々でした。
 
 日本に帰国してからも、その視座は私の根底に息づいています。目の前の一人の患者さんに真摯に向き合うことと、地域全体の健やかな暮らしを支える医療の仕組みをつくること——この二つは、決して別のものではありません。
 
@@ -41,7 +41,7 @@ To be honest, up until now **my path didn't look like the classic "master one sp
 
 ### What a year and a half in the U.S. taught me
 
-Spending time as a research fellow at Massachusetts General Hospital (MGH) from 2018 to 2019 was another major turning point for me. I was asked to serve as an organizer for the Boston Japanese Researchers Forum (BJRF), which gave me the chance to connect with people from a wide range of fields — not only medicine, but researchers in the social sciences and private industry as well. Seeing how closely clinical practice and research were connected there, encountering many different ways of thinking and cultures, and building connections with so many colleagues gave me a strong conviction: **good medicine isn't just about one skilled individual — it's supported by systems and teams**. There's an African proverb that goes, "If you want to go fast, go alone. If you want to go far, go together" — those days taught me exactly that, firsthand.
+Spending time as a research fellow at Massachusetts General Hospital (MGH) from 2018 to 2019 was another major turning point for me. I was asked to serve as an organizer for the Boston Japanese Researchers Forum (BJRF), which gave me the chance to connect with people from a wide range of fields — not only medicine, but researchers in the social sciences and private industry as well. In March 2019, I also had the opportunity to speak at BJRF's 171st lecture meeting, held at the Massachusetts Institute of Technology (MIT), on “The future of cancer surgery guided by light” ([lecture summary](https://www.boston-researchers.jp/pukiwiki/index.php?lecture/2019.html#ode171)). Seeing how closely clinical practice and research were connected there, encountering many different ways of thinking and cultures, and building connections with so many colleagues gave me a strong conviction: **good medicine isn't just about one skilled individual — it's supported by systems and teams**. There's an African proverb that goes, "If you want to go fast, go alone. If you want to go far, go together" — those days taught me exactly that, firsthand.
 
 That perspective has stayed at the core of who I am since returning to Japan. Sincerely caring for the one patient in front of me, and building a healthcare system that supports the healthy lives of the whole community, are never really separate things.
 
