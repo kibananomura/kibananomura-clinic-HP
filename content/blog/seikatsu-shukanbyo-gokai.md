@@ -27,6 +27,8 @@ excerpt_en: This number is my own fault for not taking care of myself, isn't it 
 - **家族性高コレステロール血症（FH）**：遺伝的な体質によって、若いうちからコレステロール値が高くなる病気です。どれだけ食事に気をつけても数値が下がりきらず、早期からの薬物治療が必要になることがあります。
 - **二次性高血圧（ほかの病気が原因で起こる高血圧）・遺伝性の高血圧**：高血圧の多くは塩分の摂りすぎや肥満も関わる本態性高血圧ですが、一部にはホルモン異常や腎臓の病気、お薬の影響で血圧が上がる二次性高血圧もあります。ご家族に高血圧が多く、若くして血圧が高くなる方もいらっしゃいます。
 
+頑張ってきたのに報われない気持ちを、診察室でうまく言葉にできなかった方は、[「もうやれることはやったのに」——その言葉、診察室で言っていいんです](/blog/honne-ga-ienai)もあわせてお読みください。
+
 ### 院長からのメッセージ
 
 これまでの外来では、「甘いものを食べ過ぎたから糖尿病になったの、と言われて傷ついた」「毎日気をつけているのに数値が下がらず、自分が責められている気がする」というお話を伺うことがありました。病名だけを見て、ご本人や周囲が「自己管理ができていないせいだ」と決めつけてしまうのは、とても切ないことだと感じています。
@@ -50,6 +52,8 @@ A lifestyle disease is defined as a condition whose onset and progression are in
 - **Type 1 diabetes**: caused by the body's immune system mistakenly attacking the insulin-producing cells in the pancreas, among other factors. It often develops in childhood or young adulthood and has nothing to do with diet or exercise.
 - **Familial hypercholesterolemia (FH)**: an inherited condition that causes very high cholesterol from a young age. No matter how carefully someone manages their diet, the numbers often won't come down fully, and early medication is usually necessary.
 - **Secondary and hereditary hypertension**: most high blood pressure is "essential hypertension," where salt intake and obesity play a role, but a portion is "secondary hypertension," caused by hormonal abnormalities, kidney disease, or certain medications. Some people also develop high blood pressure at a young age due to a strong family history.
+
+If you've struggled to put a sense of unrewarded effort into words in the exam room, please also read “[‘I've already done everything I can’ — it's okay to say that in the exam room](/blog/honne-ga-ienai)”.
 
 ### A message from the director
 
