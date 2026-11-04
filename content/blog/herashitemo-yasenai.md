@@ -7,8 +7,8 @@ subcategory_ja: 生活習慣病・お薬
 subcategory_en: Lifestyle diseases & medication
 title_ja: ご飯を減らしても痩せないのはなぜ？〜40代からは「引き算」より「足し算」のダイエット〜
 title_en: Eating less but not losing weight? After 40, it's about adding, not subtracting
-excerpt_ja: 実は、食べたカロリーの約3割が「食べるだけ」で消えていく栄養素があります。年齢とともに痩せにくくなる本当の理由と、その栄養素の話です。
-excerpt_en: There's one nutrient where about 30% of its calories are burned just by eating it. Here's the real reason weight gets harder to lose with age — and why that nutrient matters.
+excerpt_ja: 実は、食べたカロリーの2〜3割が、消化のときに熱として使われる栄養素があります。年齢とともに痩せにくくなる本当の理由と、その栄養素の話です。
+excerpt_en: There's one nutrient where 20–30% of its calories are burned off as heat during digestion. Here's the real reason weight gets harder to lose with age — and why that nutrient matters.
 ---
 
 ## ja
@@ -52,9 +52,9 @@ excerpt_en: There's one nutrient where about 30% of its calories are burned just
 
 - 糖質：約6％
 - 脂質：約4％
-- **タンパク質：約30％**
+- **タンパク質：約20〜30％**
 
-タンパク質は、**食べたカロリーのおよそ3割が、消化と代謝の段階で熱として使われる**のです。
+タンパク質は、**食べたカロリーの2〜3割が、消化と代謝の段階で熱として使われる**のです。
 
 **合図：運動**
 ここが年齢とともに変わる大切なポイントです。年齢を重ねた筋肉は、タンパク質が入ってきても**「作れ」という合図に反応しにくく**なります。そこで効いてくるのが運動です。筋肉を使うと、その筋肉は材料を取り込みやすい状態になります。
@@ -138,9 +138,9 @@ Protein is also the nutrient that burns the most energy while being digested ([d
 
 - Carbohydrates: about 6%
 - Fat: about 4%
-- **Protein: about 30%**
+- **Protein: about 20–30%**
 
-That means **roughly 30% of the calories in protein are used up as heat during digestion and metabolism.**
+That means **20–30% of the calories in protein are used up as heat during digestion and metabolism.**
 
 **Signal: exercise**
 This is the key thing that changes with age. Older muscle becomes **less responsive to the “build” signal** when protein comes in. That's where exercise helps: when you use a muscle, it becomes more ready to take in building material.

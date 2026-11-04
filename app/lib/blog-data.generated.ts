@@ -7548,7 +7548,7 @@ export const generatedPosts: BlogPost[] = [
       "category": "健康・予防の話",
       "subcategory": "生活習慣病・お薬",
       "title": "ご飯を減らしても痩せないのはなぜ？〜40代からは「引き算」より「足し算」のダイエット〜",
-      "excerpt": "実は、食べたカロリーの約3割が「食べるだけ」で消えていく栄養素があります。年齢とともに痩せにくくなる本当の理由と、その栄養素の話です。",
+      "excerpt": "実は、食べたカロリーの2〜3割が、消化のときに熱として使われる栄養素があります。年齢とともに痩せにくくなる本当の理由と、その栄養素の話です。",
       "body": [
         {
           "kind": "text",
@@ -7616,11 +7616,11 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "- 糖質：約6％\n- 脂質：約4％\n- **タンパク質：約30％**"
+          "text": "- 糖質：約6％\n- 脂質：約4％\n- **タンパク質：約20〜30％**"
         },
         {
           "kind": "text",
-          "text": "タンパク質は、**食べたカロリーのおよそ3割が、消化と代謝の段階で熱として使われる**のです。"
+          "text": "タンパク質は、**食べたカロリーの2〜3割が、消化と代謝の段階で熱として使われる**のです。"
         },
         {
           "kind": "text",
@@ -7680,7 +7680,7 @@ export const generatedPosts: BlogPost[] = [
       "category": "Health and prevention",
       "subcategory": "Lifestyle diseases & medication",
       "title": "Eating less but not losing weight? After 40, it's about adding, not subtracting",
-      "excerpt": "There's one nutrient where about 30% of its calories are burned just by eating it. Here's the real reason weight gets harder to lose with age — and why that nutrient matters.",
+      "excerpt": "There's one nutrient where 20–30% of its calories are burned off as heat during digestion. Here's the real reason weight gets harder to lose with age — and why that nutrient matters.",
       "body": [
         {
           "kind": "text",
@@ -7748,11 +7748,11 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "- Carbohydrates: about 6%\n- Fat: about 4%\n- **Protein: about 30%**"
+          "text": "- Carbohydrates: about 6%\n- Fat: about 4%\n- **Protein: about 20–30%**"
         },
         {
           "kind": "text",
-          "text": "That means **roughly 30% of the calories in protein are used up as heat during digestion and metabolism.**"
+          "text": "That means **20–30% of the calories in protein are used up as heat during digestion and metabolism.**"
         },
         {
           "kind": "text",
