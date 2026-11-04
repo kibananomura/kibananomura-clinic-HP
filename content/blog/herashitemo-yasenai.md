@@ -13,63 +13,62 @@ excerpt_en: There's one nutrient where about 30% of its calories are burned just
 
 ## ja
 
-「若いころより、ご飯の量はずいぶん減らしているんです。それなのに、体重がちっとも減らなくて……」
+「若いころと同じように、ご飯を減らせば痩せると思っていたんです。でも、40を過ぎてから全然うまくいかなくて……」
 
-外来でも、健診のあとでも、本当によく聞くお悩みです。我慢しているのに結果が出ないのは、つらいですよね。
+食事の回数や量は変えていないのに、いつの間にか体型が変わってきた。減らしても、昔のようには落ちない。そんな「年齢の壁」を感じている方は少なくありません。
 
-この記事を読んでいただくと、年齢とともに痩せにくくなる理由と、今日から何を変えればよいかが分かります。結論から言うと、**40代以降は「ただ食事を減らす」ダイエットは、かえって痩せにくい体をつくってしまいます。** 大切なのは、**タンパク質をしっかりとり、運動で筋肉に刺激を与えること**。この2つのセットです。
+この記事を読んでいただくと、年齢を重ねると「減らすだけ」のダイエットが効きにくくなる理由と、ご自身の筋肉の状態を確かめる方法、そして今日からの一歩が分かります。結論から言うと、**40代以降のダイエットの主役は「何を減らすか」ではなく「筋肉を育てる材料と合図を足すこと」**。つまり、**タンパク質と運動のセット**です。
 
-### 年齢とともに、筋肉は静かに減っていきます
+### 年齢とともに、筋肉は「静かに」減っていく
 
-筋肉は、何もしなければ30代ごろから少しずつ減っていきます。年齢とともに筋肉が減って、力や体の働きが落ちていく状態を**サルコペニア（年齢とともに筋肉が減っていくこと）**と呼びます。
+年齢とともに筋肉が減り、力や体の働きが落ちていく状態を**サルコペニア（年齢とともに筋肉が減っていくこと）**と呼びます。筋肉は30代をピークに少しずつ減りはじめ、特に**太ももなど脚の筋肉**から落ちやすいのが特徴です。
 
-筋肉は、体の中の「エンジン」です。筋肉が減ると、
+体重計の数字が変わらなくても、中身が「筋肉が減って、脂肪が増えた」に入れ替わっていることがあります。見た目では気づきにくいので、「静かに」進むのです。
 
-- **基礎代謝（何もしなくても、呼吸や体温を保つために使われるエネルギー）**が下がる
-- 歩く・立つといった日常の動きも少なくなり、使うエネルギーがさらに減る
+**＜えっ、知らなかった！＞ 筋肉は、食後の糖のいちばんの受け皿**
+食事でとった糖の多くは、実は筋肉に取り込まれて使われたり、ためられたりしています。筋肉が減ると、糖の行き場が減り、余ったぶんが脂肪に回りやすくなります。筋肉は「力を出す」だけでなく、「糖を受け止める倉庫」でもあるのです。
 
-という二重の「省エネ」が起こります。同じ量を食べていても、余ったぶんが脂肪として残りやすくなるのです。
+**＜えっ、知らなかった！＞ 寝込むと、筋肉は驚くほど早く落ちる**
+高齢の方では、10日ほどベッドで安静にしているだけで、脚の筋肉が目に見えて減ることが研究で分かっています。風邪やけがで数日寝込んだあと「足が細くなった」と感じるのは、気のせいではありません。
 
-さらにやっかいなのが、**食事だけを減らすと、脂肪と一緒に筋肉も減ってしまう**こと。体重は一時的に落ちても、エンジンが小さくなるので、リバウンドしやすい体になってしまいます。[1日一食にしても痩せない](/blog/ichinichi-isshoku-yasenai)のも、同じ理由が関わっています。
+### あなたの筋肉は大丈夫？「指輪っかテスト」
 
-### 思わず人に話したくなる「食事と代謝」のトリビア
+ご自宅で簡単にできるチェックがあります。
 
-**トリビア① 食べるだけで、エネルギーは消費されている**
+1. 両手の親指と人さし指で「輪っか」を作ります。
+2. 利き足ではないほうの、ふくらはぎのいちばん太いところを、その輪っかで囲んでみます。
 
-食事のあと、体がポカポカしてきた経験はありませんか？ 実は、食べたものを消化・吸収するだけで、体はエネルギーを使っています。これを**DIT（食事誘発性熱産生）**といい、1日に使うエネルギーの**約10％**にあたります。
+- **囲めない**：筋肉が保たれている目安です。
+- **ちょうど囲める・すき間ができる**：筋肉が減りはじめているサインかもしれません。
 
-食事を抜いたり極端に減らしたりすると、この「食べるだけで起こる消費」のチャンスまで手放してしまうことになります。
+ほかにも、「ペットボトルのふたが開けにくくなった」「横断歩道を青のうちに渡りきるのが不安」といった変化も、筋肉からのサインです。
 
-**トリビア② いちばん「燃える」栄養素は、タンパク質**
+### 筋肉を育てるのに必要な「材料」と「合図」
 
-DITで消費される割合は、栄養素によって大きく違います。
+**材料：タンパク質**
+筋肉はもちろん、食べ物を分解する**消化酵素**や、代謝を調整する**ホルモン**の多くも、タンパク質から作られています。不足が続くと、消化吸収の力や代謝そのものが落ちて、ますます痩せにくくなる悪循環につながります。
+
+さらにタンパク質は、食べたものを消化するときに使われるエネルギー（[食事誘発性熱産生・DIT](/blog/ichinichi-isshoku-yasenai)）がいちばん大きい栄養素でもあります。
 
 - 糖質：約6％
 - 脂質：約4％
 - **タンパク質：約30％**
 
-つまり、タンパク質は**食べたカロリーのおよそ3割が、消化と代謝の段階で熱として使われる**のです。同じカロリーでも、何を食べるかで体の中での「燃え方」が変わります。
+タンパク質は、**食べたカロリーのおよそ3割が、消化と代謝の段階で熱として使われる**のです。
 
-**トリビア③ 消化酵素も、タンパク質からできている**
+**合図：運動**
+ここが年齢とともに変わる大切なポイントです。年齢を重ねた筋肉は、タンパク質が入ってきても**「作れ」という合図に反応しにくく**なります。そこで効いてくるのが運動です。筋肉を使うと、その筋肉は材料を取り込みやすい状態になります。
 
-タンパク質は筋肉の材料というイメージが強いですが、それだけではありません。食べ物を分解する**消化酵素**や、代謝を調整する**ホルモン**の多くも、タンパク質から作られています。
+- タンパク質だけ → 合図がなく、筋肉になりにくい
+- 運動だけ → 材料が足りず、体が自分の筋肉を分解してエネルギーに回してしまうことがある
 
-タンパク質が大きく不足すると、消化吸収の力や代謝そのものが落ちて、ますます痩せにくくなる——そんな悪循環につながることがあります。
-
-### なぜ「運動」と「タンパク質」はセットなのか
-
-- **タンパク質だけでは足りない理由**：筋肉は「使われた」という刺激があって初めて、新しく作られます。運動がないと、せっかくとったタンパク質が筋肉になりにくいのです。
-- **運動だけでも足りない理由**：材料が足りない状態で運動をすると、体は自分の筋肉を分解してエネルギーに回してしまうことがあります。
-
-材料（タンパク質）と、合図（運動）。この両方がそろって、はじめて筋肉は育ちます。中年以降は、これが**サルコペニアを防ぎ、代謝のエンジンをもう一度動かす一番の近道**です。
+だからこそ、**この2つはセット**なのです。
 
 ### 今日からできる、小さな一歩
 
-いきなり激しい運動や、大がかりな食事の見直しをする必要はありません。
-
-- **毎食「手のひら1枚分」のタンパク質を**：肉、魚、卵、豆腐、納豆など。朝食が手薄になりがちなので、卵や納豆を1品足すだけでも違います。
-- **歩く時間を少しだけ増やす**：ひと駅分歩く、エレベーターを階段にする、などで十分です。
-- **椅子を使ったスクワット**：椅子に座って立つ動作を、ゆっくり10回。テレビを見ながらでもできます。
+- **タンパク質を「運動した日の食事」に**：散歩や体操をした日の食事に、魚・卵・豆腐などを1品足す。材料と合図のタイミングがそろいます。
+- **かかと上げ**：台所で立っているときに、ゆっくりかかとを上げ下げ10回。ふくらはぎの筋肉を育てます。
+- **階段は「1階分だけ」**：全部でなくて大丈夫です。脚の筋肉にちょうどよい合図になります。
 
 なお、腎臓の病気がある方は、タンパク質をとりすぎないほうがよい場合があります。ひざや腰に痛みがある方も含めて、気になる方は一度ご相談ください。
 
@@ -77,67 +76,66 @@ DITで消費される割合は、栄養素によって大きく違います。
 
 これまでのダイエットは「減らす」引き算が中心だったかもしれません。でも年齢を重ねてからは、**必要なものを補って、筋肉を育てる「足し算」の健康づくり**が大切になります。
 
-「何を、どれくらい食べればいいのか分からない」「どんな運動なら続けられるか知りたい」——そんなときは、どうぞ気軽にご相談ください。あなたの暮らしに合ったやり方を、一緒に考えていきましょう。
+指輪っかテストで気になる結果が出た方や、「何を、どれくらい食べればいいのか」「どんな運動なら続けられるか」と迷っている方は、どうぞ気軽にご相談ください。あなたの暮らしに合ったやり方を、一緒に考えていきましょう。
 
 ## en
 
-“I eat much less than I did when I was younger. And yet my weight won't budge…”
+“I thought cutting back on food would work like it did when I was younger. But since I turned 40, it just doesn't…”
 
-I hear this all the time, both in clinic and after health checkups. It's frustrating to hold back and see no results.
+You haven't changed how often or how much you eat, yet your shape has shifted. Cutting back doesn't work the way it used to. Many people run into this “age wall.”
 
-This article explains why weight gets harder to lose with age, and what to change starting today. The bottom line: **after your 40s, a diet that “just eats less” can actually build a body that's harder to slim down.** What matters is **getting enough protein and giving your muscles a workout** — the two together.
+This article explains why “just eating less” works less well as we age, how to check the state of your own muscles, and a first step you can take today. The bottom line: **after your 40s, the key to losing weight isn't what you cut — it's adding the building material and the signal your muscles need.** In other words, **protein and exercise, together.**
 
-### With age, muscle quietly slips away
+### With age, muscle slips away “quietly”
 
-Left alone, muscle starts to decrease little by little from around your 30s. When muscle shrinks with age and strength and physical function decline, it's called **sarcopenia (age-related muscle loss)**.
+When muscle shrinks with age and strength and physical function decline, it's called **sarcopenia (age-related muscle loss)**. Muscle peaks around your 30s and then gradually declines, and it tends to go first from **the legs, especially the thighs**.
 
-Muscle is your body's “engine.” When it shrinks:
+Even if the number on the scale doesn't change, the contents may have swapped — less muscle, more fat. Because it's hard to see, it happens “quietly.”
 
-- **Basal metabolism (the energy used just to breathe and keep your body warm, even at rest)** goes down
-- Everyday movement like walking and standing decreases too, so you burn even less
+**Did you know? Muscle is the main destination for sugar after a meal**
+Much of the sugar from a meal is actually taken up by muscle, to be used or stored. With less muscle, sugar has fewer places to go, and the excess is more likely to be turned into fat. Muscle isn't just for strength — it's also a “warehouse” that catches sugar.
 
-That's a double “energy-saving mode.” Even eating the same amount, the excess is more likely to stay on as fat.
+**Did you know? Muscle disappears surprisingly fast when you're laid up**
+Research shows that in older adults, just about 10 days of bed rest leads to a noticeable loss of leg muscle. If your legs feel thinner after a few days in bed with a cold or an injury, it's not your imagination.
 
-What makes it trickier is that **cutting food alone means losing muscle along with fat.** The scale may dip for a while, but with a smaller engine, the weight comes back more easily. The same thing is behind [not losing weight even on one meal a day](/blog/ichinichi-isshoku-yasenai).
+### Are your muscles okay? The “finger-ring test”
 
-### Food-and-metabolism trivia you'll want to share
+Here's a simple check you can do at home.
 
-**Trivia 1: Just eating burns energy**
+1. Make a ring with the thumbs and index fingers of both hands.
+2. Try to wrap it around the thickest part of the calf on your non-dominant leg.
 
-Ever feel warm after a meal? Digesting and absorbing food actually uses energy. This is called **DIT (diet-induced thermogenesis)**, and it accounts for **about 10%** of the energy you use in a day.
+- **The ring doesn't close around it**: a sign your muscle is holding up.
+- **It just fits, or there's a gap**: possibly a sign muscle loss has begun.
 
-Skipping meals or cutting back drastically means giving up even this “burn that comes from eating.”
+Other changes — like “bottle caps are getting harder to open” or “I worry about crossing the street before the light changes” — are also signals from your muscles.
 
-**Trivia 2: The nutrient that “burns” the most is protein**
+### What muscle needs to grow: “material” and a “signal”
 
-How much DIT burns varies a lot by nutrient:
+**Material: protein**
+Not only muscle, but many of the **digestive enzymes** that break down food and the **hormones** that regulate metabolism are made from protein. When you're short on it for a long time, your ability to digest and absorb food — and your metabolism itself — can decline, a vicious cycle that makes losing weight even harder.
+
+Protein is also the nutrient that burns the most energy while being digested ([diet-induced thermogenesis, or DIT](/blog/ichinichi-isshoku-yasenai)):
 
 - Carbohydrates: about 6%
 - Fat: about 4%
 - **Protein: about 30%**
 
-In other words, **roughly 30% of the calories in protein are used up as heat during digestion and metabolism.** Same calories, but what you eat changes how they “burn” inside you.
+That means **roughly 30% of the calories in protein are used up as heat during digestion and metabolism.**
 
-**Trivia 3: Digestive enzymes are made of protein, too**
+**Signal: exercise**
+This is the key thing that changes with age. Older muscle becomes **less responsive to the “build” signal** when protein comes in. That's where exercise helps: when you use a muscle, it becomes more ready to take in building material.
 
-We tend to think of protein as just the building block of muscle, but that's not all. Many of the **digestive enzymes** that break down food and the **hormones** that regulate metabolism are also made from protein.
+- Protein alone → no signal, so it's less likely to become muscle
+- Exercise alone → not enough material, and the body may break down its own muscle for energy
 
-When protein falls far short, your ability to digest and absorb food — and your metabolism itself — can decline, leading to a vicious cycle that makes losing weight even harder.
-
-### Why exercise and protein go together
-
-- **Why protein alone isn't enough**: muscle is only built when it gets the signal that it's been used. Without exercise, the protein you eat is less likely to become muscle.
-- **Why exercise alone isn't enough**: exercising without enough building material can lead your body to break down its own muscle for energy.
-
-Material (protein) and signal (exercise) — muscle grows only when both are there. From middle age on, this is **the surest way to prevent sarcopenia and restart your metabolic engine.**
+That's why **the two go together.**
 
 ### Small steps you can start today
 
-There's no need to jump into intense exercise or overhaul your diet.
-
-- **A palm-sized portion of protein at every meal**: meat, fish, eggs, tofu, natto and so on. Breakfast tends to fall short, so even adding an egg or natto helps.
-- **Walk a little more**: getting off one stop early or taking the stairs instead of the elevator is plenty.
-- **Chair squats**: sit down and stand up from a chair slowly, 10 times. You can do it while watching TV.
+- **Put protein in the meal on days you move**: on a day you take a walk or do some exercise, add one dish of fish, eggs or tofu. The material and the signal line up.
+- **Heel raises**: while standing in the kitchen, slowly raise and lower your heels 10 times. It builds your calf muscles.
+- **Take the stairs for just one floor**: you don't have to do them all. It's just the right signal for your leg muscles.
 
 If you have kidney disease, you may need to avoid eating too much protein. If that applies to you — or if you have knee or back pain — please talk with us first.
 
@@ -145,4 +143,4 @@ If you have kidney disease, you may need to avoid eating too much protein. If th
 
 Until now, dieting may have been mostly about subtracting. But as we get older, **adding what you need and building muscle** becomes the key to good health.
 
-“I don't know what or how much to eat.” “I'd like to know what kind of exercise I could keep up.” If that sounds like you, please feel free to come and talk with us. Let's find an approach that fits your life, together.
+If the finger-ring test gave you a result that worries you, or you're unsure “what and how much to eat” or “what exercise I could keep up,” please feel free to come and talk with us. Let's find an approach that fits your life, together.
