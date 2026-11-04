@@ -67,8 +67,27 @@ excerpt_en: There's one nutrient where about 30% of its calories are burned just
 ### 今日からできる、小さな一歩
 
 - **タンパク質を「運動した日の食事」に**：散歩や体操をした日の食事に、魚・卵・豆腐などを1品足す。材料と合図のタイミングがそろいます。
-- **かかと上げ**：台所で立っているときに、ゆっくりかかとを上げ下げ10回。ふくらはぎの筋肉を育てます。
 - **階段は「1階分だけ」**：全部でなくて大丈夫です。脚の筋肉にちょうどよい合図になります。
+
+**テレビや本で話題の「ゆるジャンプ」**
+愛媛大学の伊賀瀬道也教授が、書籍やテレビで紹介している運動です。名前のとおり「ゆるく」跳ぶだけなので、運動が苦手な方でも始めやすいのが特徴です。
+
+**やり方**
+1. 肩や腕の力を抜き、背すじを伸ばして立ちます。
+2. かかとが床から少し浮く程度に、その場で小さくトントンと跳びます。高く跳ぶ必要はありません。
+3. 着地は、ひざを軽く曲げてやわらかく。呼吸は止めずに自然に。
+4. 最初は10回ほどから。慣れてきたら、1分間（100回くらい）を目安にします。
+
+**どこに効くの？**
+- **ふくらはぎ（下腿三頭筋）**：跳び上がるたびに働く、いちばんの主役です。ふくらはぎは、脚の血液を心臓へ押し戻すポンプの役目もあり「第二の心臓」とも呼ばれます。指輪っかテストで測ったのも、この筋肉です。
+- **太ももの前（大腿四頭筋）**：着地の衝撃を受け止めるクッションとして働きます。年齢とともに最も落ちやすい筋肉の一つです。
+- **おなかや背中（体幹）**：まっすぐ跳び続けるために、姿勢を支えます。
+- **骨**：着地の小さな衝撃が骨への刺激になり、骨を丈夫に保つ助けになると考えられています。
+
+**注意してほしいこと**
+- **ひざや足首、腰に痛みがある方、骨粗しょう症と言われている方、心臓の病気がある方、ふらつきがある方**は、始める前にご相談ください。
+- 起きてすぐや、食べてすぐは避けましょう。転ばないよう、最初は椅子の背やテーブルに手を添えて行うと安心です。
+- 跳ぶのが不安な方は、**かかと上げ**（かかとをゆっくり上げ下げ10回）から。同じふくらはぎを、床から足を離さずに育てられます。
 
 なお、腎臓の病気がある方は、タンパク質をとりすぎないほうがよい場合があります。ひざや腰に痛みがある方も含めて、気になる方は一度ご相談ください。
 
@@ -134,8 +153,27 @@ That's why **the two go together.**
 ### Small steps you can start today
 
 - **Put protein in the meal on days you move**: on a day you take a walk or do some exercise, add one dish of fish, eggs or tofu. The material and the signal line up.
-- **Heel raises**: while standing in the kitchen, slowly raise and lower your heels 10 times. It builds your calf muscles.
 - **Take the stairs for just one floor**: you don't have to do them all. It's just the right signal for your leg muscles.
+
+**“Yuru jump” — the gentle jump you may have seen on TV or in books**
+This exercise is introduced in books and on TV by Professor Michiya Igase of Ehime University. As the name (“yuru” means relaxed) suggests, you just hop gently, so it's easy to start even if you don't like exercise.
+
+**How to do it**
+1. Relax your shoulders and arms, and stand with your back straight.
+2. Hop in place with small, light bounces — just enough for your heels to leave the floor. No need to jump high.
+3. Land softly with your knees slightly bent. Keep breathing naturally.
+4. Start with about 10 hops. Once you're used to it, aim for about 1 minute (around 100 hops).
+
+**What does it work?**
+- **Calves (triceps surae)**: the main players, working with every hop. Your calves also pump blood from your legs back to your heart, which is why they're called “the second heart.” They're the same muscles you checked with the finger-ring test.
+- **Front of the thighs (quadriceps)**: they act as a cushion to absorb each landing. They're among the muscles most likely to weaken with age.
+- **Abdomen and back (core)**: they support your posture so you can keep hopping straight.
+- **Bones**: the small impact of each landing stimulates your bones and is thought to help keep them strong.
+
+**Please be careful**
+- If you have **knee, ankle or back pain, have been told you have osteoporosis, have a heart condition, or feel unsteady on your feet**, please talk with us before starting.
+- Avoid it right after waking up or right after eating. To be safe, rest a hand on the back of a chair or a table at first.
+- If jumping feels risky, start with **heel raises** (slowly raise and lower your heels 10 times). They build the same calf muscles without your feet leaving the floor.
 
 If you have kidney disease, you may need to avoid eating too much protein. If that applies to you — or if you have knee or back pain — please talk with us first.
 
