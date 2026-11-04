@@ -208,6 +208,7 @@ export interface SiteDict {
     };
     /** ブログの題材のご要望をキバナビで受け付ける案内（キバナビが院長に届ける） */
     requestNote: { body: string; button: string; facebook: string };
+    feedback: { question: string; yes: string; no: string; note: string; thanks: string; noFollow: string; noButton: string };
   };
   news: {
     eyebrow: string;
@@ -771,6 +772,15 @@ const ja: SiteDict = {
       body: "「〇〇をテーマにブログを書いてほしい」などのご要望があれば、キバナビにお気軽にお寄せください。院長にお伝えします。どなたからのご要望かが院長に伝わることはありませんので、安心してどうぞ。",
       button: "キバナビにリクエストする",
       facebook: "新しい記事は、Facebookページでもお知らせしています",
+    },
+    feedback: {
+      question: "この記事は役に立ちましたか？",
+      yes: "役に立った",
+      no: "よく分からなかった",
+      note: "押していただくと、今後の記事づくりの参考にします（お名前などは記録しません）。",
+      thanks: "ありがとうございます。今後の記事づくりの参考にします。",
+      noFollow: "どこが分かりにくかったか、キバナビで教えていただけるとうれしいです。どなたからのご意見かが院長に伝わることはありません。",
+      noButton: "キバナビで伝える",
     },
   },
   news: {
@@ -1619,6 +1629,15 @@ const en: SiteDict = {
       body: "If there's a topic you'd like our director to write about, just let Kibanavi know. We'll pass it on to our director. Your identity is never shared with our director, so please feel free.",
       button: "Send a request to Kibanavi",
       facebook: "We also announce new posts on our Facebook page",
+    },
+    feedback: {
+      question: "Was this article helpful?",
+      yes: "Helpful",
+      no: "Not clear",
+      note: "Your answer helps us write better articles (we don't record your name).",
+      thanks: "Thank you. We'll use this to improve our articles.",
+      noFollow: "We'd love to hear what was unclear — please tell Kibanavi. Your identity is never shared with our director.",
+      noButton: "Tell Kibanavi",
     },
   },
   news: {

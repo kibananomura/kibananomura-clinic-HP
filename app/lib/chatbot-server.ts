@@ -221,7 +221,7 @@ export function rateLimited(ip: string): boolean {
 }
 
 /** 当サイト以外のページから直接呼び出されるのを防ぐ（ブラウザが付ける Origin を確認する） */
-function isAllowedOrigin(request: Request): boolean {
+export function isAllowedOrigin(request: Request): boolean {
   const origin = request.headers.get("origin");
   if (!origin) return false;
   try {

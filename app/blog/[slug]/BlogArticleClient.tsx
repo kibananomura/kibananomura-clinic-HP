@@ -10,6 +10,7 @@ import { getPost, getContent, getAdjacentPosts } from "../../lib/blog";
 import type { RelatedLink } from "../../lib/related-content";
 import { withWbr } from "../../lib/jp-break";
 import BlogRequestNote from "../../components/BlogRequestNote";
+import BlogFeedback from "../../components/BlogFeedback";
 import ShareButtons from "../../components/ShareButtons";
 import Breadcrumbs from "../../components/Breadcrumbs";
 
@@ -104,7 +105,9 @@ export default function BlogArticle({ relatedDiseases = [] }: { relatedDiseases?
             </div>
           )}
 
-          <BlogRequestNote className="mt-12" />
+          <BlogFeedback slug={post.slug} className="mt-12" />
+
+          <BlogRequestNote className="mt-6" />
 
           <div className="mt-6 rounded-3xl bg-surface/90 p-6 text-center shadow-card sm:p-8">
             <p className="text-base font-bold text-ink">
