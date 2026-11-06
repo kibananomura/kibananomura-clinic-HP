@@ -27,7 +27,13 @@ excerpt_en: Your child trips at the park and scrapes a knee. Dirt and sand get i
 - **仲間を呼ぶ**：白血球を現場に呼び寄せる
 - **穴をあける**：ばい菌の表面に小さな穴をあけて、壊してしまう
 
+擦り傷のまわりが少し赤くなって、熱っぽく腫れることがありますよね。あれは、警備隊に呼ばれた白血球が集まって、ばい菌と戦っている印でもあります。
+
 この警備隊はとても古い仕組みで、ウニのような生き物にも、そのもとになる仕組みがあることが分かっています。何億年も前から、生き物の体を守ってきたのです。
+
+### 擦り傷は「消毒」より「洗う」
+
+警備隊が力を発揮できるように、私たちにできることもあります。擦り傷ができたら、まずは水道水で、砂や泥が取れるまでしっかり洗い流してください。消毒液は、ばい菌だけでなく、傷を治そうとする体の細胞まで傷めてしまうことがあります。赤みがどんどん広がる、ズキズキした痛みが強くなる、膿が出るといったときは、警備隊だけでは手が足りないサインです。早めに受診してください。
 
 ### 警備隊が暴走してしまう病気もある
 
@@ -69,7 +75,13 @@ Complement has three main jobs:
 - **Calling for backup**: it draws white blood cells to the scene
 - **Punching holes**: it punches tiny holes in the germs' surface and destroys them
 
+Sometimes the skin around a scrape turns a little red, warm and swollen. That is partly a sign that white blood cells, called in by the security team, have gathered to fight the germs.
+
 This security team is very old — even creatures like sea urchins have its building blocks. It has protected living things for hundreds of millions of years.
+
+### For scrapes, “rinse” rather than “disinfect”
+
+There are things we can do to help the security team do its job. When you get a scrape, first rinse it well under tap water until the sand and dirt are gone. Disinfectants can damage not only germs but also the body's own cells that are trying to heal the wound. If the redness keeps spreading, the throbbing pain gets worse, or pus comes out, that's a sign the security team needs help. Please see a doctor early.
 
 ### Some diseases make the security team go out of control
 

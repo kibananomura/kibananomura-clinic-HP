@@ -7845,7 +7845,19 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
+          "text": "擦り傷のまわりが少し赤くなって、熱っぽく腫れることがありますよね。あれは、警備隊に呼ばれた白血球が集まって、ばい菌と戦っている印でもあります。"
+        },
+        {
+          "kind": "text",
           "text": "この警備隊はとても古い仕組みで、ウニのような生き物にも、そのもとになる仕組みがあることが分かっています。何億年も前から、生き物の体を守ってきたのです。"
+        },
+        {
+          "kind": "text",
+          "text": "### 擦り傷は「消毒」より「洗う」"
+        },
+        {
+          "kind": "text",
+          "text": "警備隊が力を発揮できるように、私たちにできることもあります。擦り傷ができたら、まずは水道水で、砂や泥が取れるまでしっかり洗い流してください。消毒液は、ばい菌だけでなく、傷を治そうとする体の細胞まで傷めてしまうことがあります。赤みがどんどん広がる、ズキズキした痛みが強くなる、膿が出るといったときは、警備隊だけでは手が足りないサインです。早めに受診してください。"
         },
         {
           "kind": "text",
@@ -7925,7 +7937,19 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
+          "text": "Sometimes the skin around a scrape turns a little red, warm and swollen. That is partly a sign that white blood cells, called in by the security team, have gathered to fight the germs."
+        },
+        {
+          "kind": "text",
           "text": "This security team is very old — even creatures like sea urchins have its building blocks. It has protected living things for hundreds of millions of years."
+        },
+        {
+          "kind": "text",
+          "text": "### For scrapes, “rinse” rather than “disinfect”"
+        },
+        {
+          "kind": "text",
+          "text": "There are things we can do to help the security team do its job. When you get a scrape, first rinse it well under tap water until the sand and dirt are gone. Disinfectants can damage not only germs but also the body's own cells that are trying to heal the wound. If the redness keeps spreading, the throbbing pain gets worse, or pus comes out, that's a sign the security team needs help. Please see a doctor early."
         },
         {
           "kind": "text",
