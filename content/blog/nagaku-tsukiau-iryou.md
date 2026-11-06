@@ -17,7 +17,7 @@ excerpt_en: Am I going to be on this medication for the rest of my life? I've he
 
 ### 「治らない」と「悪くならない」は、まったく別のことです
 
-高血圧や糖尿病は、多くの場合、完全に「治って」薬が一切不要になるとは限らない病気です。生活習慣の改善で薬を減らせたり、場合によっては中止できたりする方もいますが、多くの方にとっては長く付き合っていく病気でもあります。ですが、それは「何をしても同じ」ということでは決してありません。しっかり数値をコントロールできていれば、何年経っても合併症のリスクを大きく抑えながら、これまでと変わらない毎日を送れる方がほとんどです。「治らない」と「悪くならない」はまったく別のことで、私たちが目指しているのは、むしろ後者です。
+高血圧や糖尿病は、多くの場合、完全に「治って」薬が一切不要になるとは限らない病気です。生活習慣の改善で薬を減らせたり、場合によっては中止できたりする方もいますが、多くの方にとっては長く付き合っていく病気でもあります。ですが、それは「何をしても同じ」ということでは決してありません。しっかり数値をコントロールできていれば、何年経っても合併症のリスクを大きく抑えながら、これまでと変わらない毎日を送れる方がほとんどです。「治らない」と「悪くならない」はまったく別のことで、私たちが目指しているのは、むしろ後者です。血圧の数値が落ち着いているのに薬を続ける理由は、「[血圧はもう正常なのに、どうして薬を飲み続けるの？](/blog/kouatsu-kusuri-tsuzukeru)」で詳しくお話ししています。
 
 ### 一生のお付き合いだからこそ、無理のない距離感を
 
@@ -37,7 +37,7 @@ By the end of this post, you'll understand how I approach conditions like high b
 
 ### "Not curable" and "not getting worse" are two completely different things
 
-In many cases, high blood pressure and diabetes aren't conditions that simply get "cured," with medication becoming entirely unnecessary. Some people do manage to reduce or even stop medication through lifestyle changes, but for many, it remains something to live with long-term. That doesn't mean nothing you do matters, though. When the numbers are well controlled, most people go years while substantially lowering their risk of complications, living essentially the same life they always have. "Not curable" and "not getting worse" are entirely different things, and it's the latter we're actually aiming for.
+In many cases, high blood pressure and diabetes aren't conditions that simply get "cured," with medication becoming entirely unnecessary. Some people do manage to reduce or even stop medication through lifestyle changes, but for many, it remains something to live with long-term. That doesn't mean nothing you do matters, though. When the numbers are well controlled, most people go years while substantially lowering their risk of complications, living essentially the same life they always have. "Not curable" and "not getting worse" are entirely different things, and it's the latter we're actually aiming for. I explain why we continue medicine even when blood pressure has settled in “[My blood pressure is normal now — so why do I still need to take my medicine?](/blog/kouatsu-kusuri-tsuzukeru).”
 
 ### Because it's a lifelong relationship, there's no need to overdo it from the start
 

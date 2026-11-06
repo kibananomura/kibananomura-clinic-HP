@@ -15,7 +15,7 @@ export const RELATED_POSTS_BY_DISEASE: Record<string, string[]> = {
   "h-pylori": ["ikamera-nansai-kara"],
   "pulmonary-ntm": ["hai-ntm-sho", "hai-kousankin"],
   legionellosis: ["legionella"],
-  hypertension: ["kouatsu-genryou-fuan"],
+  hypertension: ["kouatsu-genryou-fuan", "kouatsu-kusuri-tsuzukeru"],
   dyslipidemia: ["statin-kinniku-houkai"],
 };
 

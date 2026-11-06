@@ -41,6 +41,8 @@ excerpt_en: My home readings have been dipping under 100 lately — should I cut
 
 なお、意識が遠のく・実際に倒れてしまう・胸の痛みや冷や汗を伴う動悸がある、といった場合は、様子を見ずにすぐにご連絡・受診ください。
 
+反対に、「血圧は落ち着いているのに、どうしてまだ薬を続けるの？」と感じている方は、「[血圧はもう正常なのに、どうして薬を飲み続けるの？](/blog/kouatsu-kusuri-tsuzukeru)」もあわせてお読みください。
+
 ### 院長からのメッセージ
 
 不安な気持ちから、ご自身の判断でお薬を中断・スキップしてしまうことだけは、どうか避けてください。血圧の薬を急に止めることは、かえって体に負担をかけることがあります。
@@ -76,6 +78,8 @@ Here are the signs worth paying attention to if your blood pressure is running o
 On the other hand, **if you have none of these symptoms and you're feeling like your usual self, there's often no need to worry excessively just because of the number alone.** The number is one clue among several — what matters is weighing it together with how you actually feel.
 
 That said, if you ever lose consciousness, actually faint, or have chest pain or cold sweats along with palpitations, please contact us or seek care right away rather than waiting it out.
+
+On the other hand, if you're wondering, “My blood pressure has settled, so why am I still taking medicine?”, please also read “[My blood pressure is normal now — so why do I still need to take my medicine?](/blog/kouatsu-kusuri-tsuzukeru)”
 
 ### A message from the director
 

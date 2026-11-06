@@ -31,6 +31,8 @@ excerpt_en: Once I start this medication, I can never stop, right? It's a questi
 
 ただし、悪玉（LDL）コレステロールのように**体質の影響が大きいもの**は、生活を整えても下がりきらず、お薬で支え続けたほうが血管を守れる場合もあります。その理由は「[痩せているのに、なぜコレステロールが高いの？](/blog/yasete-iru-noni-ldl)」で詳しくお話ししています。
 
+高血圧の場合、「数値が落ち着いている＝もう治った」とは限らず、薬が支えてくれているからこその安定であることも多いものです。続けたほうがいい方と、やめられる可能性がある方の違いは、「[血圧はもう正常なのに、どうして薬を飲み続けるの？](/blog/kouatsu-kusuri-tsuzukeru)」でお話ししています。
+
 ### 院長からのメッセージ
 
 生活習慣病の治療は、「指導」ではないと思っています。一人ひとりの日常やちょっとした癖に寄り添いながら進めていく、**共同作業**だと考えています。「本当はお酒がやめられなくて」「夜遅くに食べてしまう癖があって」——そんな弱みを見せていただけることが、治療の一番の近道になります。
@@ -56,6 +58,8 @@ Let me share something that actually happened. A patient I once treated came in 
 "My clothes don't fit anymore" or "stairs feel so much easier now" — these small, everyday joys are, I think, the real reward of improving your habits. And waiting beyond them is a future where your medication can be reduced, or even stopped altogether.
 
 That said, for things **strongly shaped by constitution**, such as LDL (“bad”) cholesterol, numbers may not come down enough with lifestyle changes alone, and continuing medicine may better protect your blood vessels. We explain why in “[Slim, but high cholesterol?](/blog/yasete-iru-noni-ldl)”.
+
+With high blood pressure, “my numbers have settled” doesn't always mean “I'm cured” — often the stability is there because the medicine is supporting it. I explain the difference between people who should continue and those who may be able to stop in “[My blood pressure is normal now — so why do I still need to take my medicine?](/blog/kouatsu-kusuri-tsuzukeru)”
 
 ### A message from the director
 
