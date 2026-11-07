@@ -16,7 +16,8 @@ excerpt_en: “I started medicine to lower my uric acid, and then I had a gout a
 1. date を公開日にする
 2. content/blog/ へ移す
 3. app/lib/related-content.ts の "hyperuricemia-gout" にこの slug を足す
-4. npm run blog:gen と npm run chat:gen を実行して push
+4. プリン体の記事（blog-stock/purin-tai-yurai.md）が先に公開済みなら、「急にやりすぎない」の段落に相互リンクを足す
+5. npm run blog:gen と npm run chat:gen を実行して push
 -->
 
 ## ja
