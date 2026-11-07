@@ -8315,7 +8315,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "- **悪化を防ぐ**：神経への圧迫が続いていないかを確かめ、必要な治療を続けます。症状によっては、専門の医療機関と連携して手術も含めて検討します\n- **和らげる**：しびれや痛みをやわらげるお薬を、体に合わせて調整できます\n- **慣れていく**：しびれそのものが残っていても、時間とともに気にならなくなっていく方は少なくありません\n- **足を守る**：感覚が鈍いと、けがや低温やけどに気づきにくくなります。湯たんぽやカイロは直接当てない、足を毎日見る、つまずき・転倒に気をつけることが大切です"
+          "text": "- **悪化を防ぐ**：神経への圧迫が続いていないかを確かめ、必要な治療を続けます。症状によっては、専門の医療機関と連携して手術も含めて検討します\n- **和らげる**：しびれや痛みをやわらげるお薬には、飲み薬のほかに漢方薬など、いくつかの選択肢があります。体質や今飲んでいるお薬との組み合わせも見ながら選ぶので、今の治療で物足りなさを感じている方は、主治医の先生にも相談してみてください\n- **慣れていく**：しびれそのものが残っていても、時間とともに気にならなくなっていく方は少なくありません\n- **足を守る**：感覚が鈍いと、けがや低温やけどに気づきにくくなります。湯たんぽやカイロは直接当てない、足を毎日見る、つまずき・転倒に気をつけることが大切です"
         },
         {
           "kind": "text",
@@ -8411,7 +8411,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "- **Prevent it from getting worse**: we check whether pressure on the nerve is still there and continue the treatment you need. Depending on symptoms, we work with specialist hospitals to consider options including surgery\n- **Ease it**: medicines that soften numbness and pain can be adjusted to suit you\n- **Get used to it**: even when the numbness itself remains, many people find it bothers them less over time\n- **Protect your feet**: with reduced sensation, it's harder to notice injuries or low-temperature burns. Don't put hot-water bottles or heat packs directly on your skin, look at your feet every day, and take care not to trip or fall"
+          "text": "- **Prevent it from getting worse**: we check whether pressure on the nerve is still there and continue the treatment you need. Depending on symptoms, we work with specialist hospitals to consider options including surgery\n- **Ease it**: there are several options for medicines that soften numbness and pain, including Kampo (traditional Japanese herbal) medicines as well as standard ones. Because the choice depends on your constitution and the other medicines you take, if your current treatment doesn't feel like enough, please talk it over with your doctor too\n- **Get used to it**: even when the numbness itself remains, many people find it bothers them less over time\n- **Protect your feet**: with reduced sensation, it's harder to notice injuries or low-temperature burns. Don't put hot-water bottles or heat packs directly on your skin, look at your feet every day, and take care not to trip or fall"
         },
         {
           "kind": "text",
