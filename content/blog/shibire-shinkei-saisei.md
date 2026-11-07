@@ -5,53 +5,47 @@ category_ja: 健康・予防の話
 category_en: Health and prevention
 subcategory_ja: 腰・関節・神経
 subcategory_en: Back, joints & nerves
-title_ja: 足のしびれは、一生このまま？〜1日1ミリ、ゆっくりでも進む神経の修復〜
-title_en: Will the numbness in my leg stay forever? — nerve repair is slow, about a millimeter a day, but it moves forward
-excerpt_ja: 「腰の痛みはましになったのに、足のしびれだけがいつまでも取れない。これって一生治らないの？」——実は、足の神経には自分で修復する力が備わっています。
-excerpt_en: “My back pain is better, but the numbness in my leg just won't go away. Will it never heal?” In fact, the nerves in your legs have a built-in ability to repair themselves.
+title_ja: 足のしびれは、治る？残る？〜神経の修復力と、しびれと上手に付き合うということ〜
+title_en: Will the numbness in my leg go away, or will it stay? — the nerve's power to repair, and learning to live well with numbness
+excerpt_ja: 「腰の痛みはましになったのに、足のしびれだけが取れない」——足の神経には修復する力がある一方で、しびれは残りやすい症状でもあります。その両方を、正直にお話しします。
+excerpt_en: “My back pain is better, but the numbness in my leg won't go away.” Leg nerves can repair themselves, yet numbness is also a symptom that tends to linger. Here's an honest look at both.
 ---
 
 ## ja
 
-「腰の痛みはずいぶんましになったのに、お尻から足にかけてのしびれだけが、いつまでたっても取れない」「もしかして、このまま一生残るのでは」——坐骨神経痛の方から、こうした不安の声をよくお聞きします。しびれは目に見えないぶん、「良くなっているのかどうか」が分かりにくく、心細くなりますよね。
+「腰の痛みはずいぶんましになったのに、お尻から足にかけてのしびれだけが、いつまでたっても取れない」「このまま一生残るのでは」——坐骨神経痛の方から、こうした声をよくお聞きします。しびれは目に見えないぶん、良くなっているのかどうかが分かりにくく、心細くなりますよね。
 
-この記事を読んでいただくと、傷ついた神経がどうやって治っていくのか、なぜ時間がかかるのか、そして回復を早めるために何ができるのかが分かります。結論から言うと、**足の神経には、自分で修復する力が備わっています。ただし、その歩みは1日1ミリほどととてもゆっくりなので、しびれの改善には数か月かかることが多いのです。焦らず、でも放っておかずに、修復の邪魔になるものを取りのぞいていくことが大切です。**
+この記事を読んでいただくと、傷ついた神経がどう修復されるのか、なぜしびれは残りやすいのか、そして残ったときにどう付き合えばよいのかが分かります。結論から言うと、**足の神経には修復する力がありますが、しびれが完全に消えるとは限らず、何らかのしびれが残る方のほうが多いのが実際です。それでも、悪化を防ぎ、日常生活で気にならない程度まで和らげていくことは、多くの方で目指せます。**
 
-### 足の神経には「治る力」がある
+### 足の神経には「修復する力」がある
 
-神経は、大きく2つに分けられます。脳や脊髄（背骨の中を通る太い神経の束）といった「中枢神経」と、そこから枝分かれして全身に伸びる「末梢神経」です。
+脳や脊髄（背骨の中を通る太い神経の束）の神経は、一度傷つくと元に戻りにくいことが知られています。一方、腰から足へと伸びる坐骨神経などの「末梢神経」は、傷ついても、もう一度伸びて修復しようとする力を持っています。
 
-脳や脊髄の神経は、一度傷つくと元に戻りにくいことが知られています。「神経は治らない」というイメージは、ここから来ているのかもしれません。
+神経は、電気コードのようなものです。中に信号を伝える「芯」（軸索）があり、その周りを「被膜」（髄鞘）が包んでいます。圧迫が軽く、傷んだのが主に被膜であれば、数週間ほどでしびれが軽くなっていくこともあります。
 
-一方で、腰から足へと伸びる坐骨神経などの末梢神経は、**傷ついても、もう一度伸びて修復する力**を持っています。しびれがあるからといって、すべてが終わりではありません。回復の余地は、ちゃんと残っているのです。
+芯まで傷ついた場合は、生き残った神経の根元から、新しい芯が1日に1ミリから数ミリほどの速さで、少しずつ伸びていきます。とてもゆっくりなので、変化が出るまでには数か月単位の時間がかかります。
 
-### 1日1ミリの旅路——神経が治るしくみ
+### 正直にお伝えしたいこと——しびれは残りやすい症状です
 
-神経は、電気コードのようなものです。中には信号を伝える「芯」（軸索）があり、その周りを「被膜」（髄鞘）が包んでいます。
+ここで、大切なことをお伝えしなければなりません。治療によって痛みや足の力は回復しても、**しびれは最後まで残りやすい症状**です。
 
-圧迫が比較的軽い場合は、傷むのは主に被膜です。被膜は比較的早く修復されるため、数週間ほどでしびれが軽くなっていくこともあります。
+その理由のひとつは、神経の修復が「元どおり」ではないことです。新しく伸びた芯が、すべて元の行き先に正しくつながるわけではありません。また、圧迫が長く強く続いていた場合は、神経の根元そのものが弱ってしまい、伸びる力が十分に残っていないこともあります。
 
-圧迫が強かったり長く続いたりして、芯まで傷ついた場合は、少し時間がかかります。傷ついた場所より先の芯は、いったん分解されて片づけられます。そのあと、生き残った神経の“根元”から、新しい芯が芽を出すように少しずつ伸びていきます。
+ですから、「しびれがゼロにならない＝治療が失敗した」というわけではありません。むしろ、多くの方にとっての現実的な目標は、**「しびれを悪化させないこと」と「しびれがあっても、困らずに暮らせること」**だと私は考えています。
 
-その速さは、**1日に1ミリから数ミリほど**。お尻から足先までの長い道のりを、こつこつと進んでいくわけです。そのため、しびれの改善には**数か月単位の時間がかかることが多い**のです。
+### しびれが残っても、できることはあります
 
-「なかなか良くならない」と感じる日も、体の中では修復が着実に進んでいます。しびれがお尻や太ももの側から少しずつ軽くなり、足先が最後まで残るのも、よくある経過です。
+- **悪化を防ぐ**：神経への圧迫が続いていないかを確かめ、必要な治療を続けます。症状によっては、専門の医療機関と連携して手術も含めて検討します
+- **和らげる**：しびれや痛みをやわらげるお薬を、体に合わせて調整できます
+- **慣れていく**：しびれそのものが残っていても、時間とともに気にならなくなっていく方は少なくありません
+- **足を守る**：感覚が鈍いと、けがや低温やけどに気づきにくくなります。湯たんぽやカイロは直接当てない、足を毎日見る、つまずき・転倒に気をつけることが大切です
 
-ただ、回復の度合いには個人差があり、圧迫が長く強く続いていた場合などは、しびれが一部残ることもあります。だからこそ、修復が進みやすい環境を早めに整えることが大切です。
+### 修復を邪魔するもの・助けるもの
 
-### 修復を邪魔するもの、助けるもの
+神経が回復する余地を少しでも残すために、次のことも意識してみてください。
 
-**修復を邪魔するもの**
-
-- **神経への圧迫が続いていること**：椎間板ヘルニアや脊柱管狭窄症で神経が押されたままだと、新しい芯が伸びにくくなります
-- **血流が悪いこと**：神経も、血液から酸素と栄養を受け取って修復しています。喫煙や、体の冷え、長時間同じ姿勢でいることは血流を悪くします
-- **血糖値が高い状態**：糖尿病で血糖値が高い状態が続くと、神経の修復が遅れやすくなります
-
-**修復を助けるもの**
-
-- **早めに圧迫をやわらげる治療**：お薬やリハビリ、姿勢の工夫など。症状によっては、専門の医療機関と連携して手術も含めて検討します
-- **無理のない範囲で体を動かす**：痛みが落ち着いてきたら、散歩などで血のめぐりを良くしましょう
-- **栄養と休養**：バランスのよい食事と十分な睡眠は、修復の土台になります。神経の働きに欠かせないビタミンB12が不足していることもあるので、気になる方は血液検査で確認できます（[ビタミンB12欠乏性貧血の解説](/diseases/megaloblastic-anemia)）
+- **邪魔するもの**：圧迫が続くこと、喫煙や冷え・同じ姿勢による血流の悪さ、高い血糖値
+- **助けるもの**：早めの治療、痛みが落ち着いたあとの散歩など無理のない運動、バランスのよい食事と十分な睡眠。神経に欠かせないビタミンB12が不足していないかは、血液検査で確認できます（[ビタミンB12欠乏性貧血の解説](/diseases/megaloblastic-anemia)）
 
 ### すぐに受診してほしいサイン
 
@@ -65,51 +59,45 @@ excerpt_en: “My back pain is better, but the numbness in my leg just won't go 
 
 ### 院長からのメッセージ
 
-神経の修復は、ゆっくりでも、ちゃんと前に進んでいます。「すぐに治らないから、もうだめだ」とあきらめる必要はありません。かといって、「そのうち治るだろう」と我慢を続けてしまうと、圧迫が続いて回復が遅れてしまうこともあります。
+しびれが残ることは、決して珍しいことではありません。そして、しびれがあっても、仕事や趣味、旅行を楽しみながら暮らしている方はたくさんいらっしゃいます。
 
-しびれの場所や強さが、先月と比べてどう変わったか。そうした変化を一緒に確かめながら、焦らず、でも着実に改善を目指していきましょう。気になるしびれがあれば、どうぞ一人で抱え込まずにご相談ください。
+大切なのは、ひとりで我慢し続けないことです。しびれの場所や強さが前と比べてどう変わったか、暮らしの中で何に困っているか。そうしたお話を伺いながら、あなたにとって無理のない目標を一緒に考えていきましょう。
 
 ## en
 
-“My back pain is much better, but the numbness from my buttock down my leg just won't go away.” “Could it stay like this for the rest of my life?” I often hear worries like these from people with sciatica. Because numbness can't be seen, it's hard to tell whether it's getting better — and that can feel lonely.
+“My back pain is much better, but the numbness from my buttock down my leg just won't go away.” “Will it stay like this for the rest of my life?” I often hear words like these from people with sciatica. Because numbness can't be seen, it's hard to tell whether it's getting better — and that can feel lonely.
 
-This article explains how injured nerves heal, why it takes time, and what you can do to help recovery along. The bottom line: **the nerves in your legs have a built-in ability to repair themselves. But that repair moves very slowly — about a millimeter a day — so numbness often takes months to improve. Don't rush, but don't ignore it either: removing what gets in the way of repair is what matters.**
+This article explains how injured nerves repair themselves, why numbness tends to linger, and how to live with it if it stays. The bottom line: **the nerves in your legs can repair themselves, but numbness doesn't always disappear completely — in fact, more people are left with some degree of numbness than not. Even so, for many people it's realistic to aim for keeping it from getting worse and easing it to the point where it doesn't bother daily life.**
 
-### The nerves in your legs can heal
+### The nerves in your legs can repair themselves
 
-Nerves fall into two broad groups. The “central nervous system” is the brain and spinal cord (the thick bundle of nerves running inside your spine). The “peripheral nerves” branch off from there and reach every part of your body.
+Nerves in the brain and spinal cord (the thick bundle of nerves running inside your spine) are known to be hard to restore once damaged. But “peripheral nerves,” such as the sciatic nerve running from your lower back down your leg, try to grow back and repair themselves after injury.
 
-Nerves in the brain and spinal cord are known to be hard to restore once damaged. The idea that “nerves never heal” may come from this.
+A nerve is a bit like an electrical cord. Inside is a “core” (the axon) that carries signals, wrapped in an insulating “coating” (the myelin sheath). When the pressure is mild and mainly the coating is damaged, numbness may ease within a few weeks.
 
-Peripheral nerves, such as the sciatic nerve running from your lower back down your leg, on the other hand, **can grow back and repair themselves after injury**. Having numbness doesn't mean it's all over. There is still real room for recovery.
+When the core itself is damaged, a new core grows from the surviving root of the nerve at about one to a few millimeters a day. Because this is so slow, it takes months for changes to show.
 
-### A journey of a millimeter a day — how nerves heal
+### What I want to tell you honestly — numbness tends to linger
 
-A nerve is a bit like an electrical cord. Inside is a “core” (the axon) that carries signals, wrapped in an insulating “coating” (the myelin sheath).
+Here's something important I need to tell you. Even when treatment brings back strength and eases the pain, **numbness is often the last symptom to go, and the one most likely to stay**.
 
-When the pressure is relatively mild, it's mainly the coating that's damaged. The coating repairs fairly quickly, so numbness may ease within a few weeks.
+One reason is that nerve repair isn't a perfect “restore.” Not every newly grown core reconnects to exactly where it used to go. And when pressure has been strong for a long time, the root of the nerve itself can weaken, leaving too little strength to regrow.
 
-When the pressure was strong or lasted a long time and the core itself was damaged, it takes longer. The part of the core beyond the injury is first broken down and cleared away. Then, from the surviving “root” of the nerve, a new core sprouts and grows little by little.
+So “the numbness hasn't gone to zero” doesn't mean “the treatment failed.” For many people, I believe the realistic goals are **keeping the numbness from getting worse, and being able to live without trouble even if some numbness remains**.
 
-It grows at about **one to a few millimeters a day**, steadily making its way along the long path from the buttock to the toes. That's why improvement in numbness **often takes months**.
+### Even if numbness remains, there's a lot you can do
 
-Even on days when you feel “it's not getting any better,” repair is steadily moving forward inside your body. It's also a common pattern for numbness to ease first around the buttock and thigh, with the toes the last to recover.
-
-Recovery varies from person to person, though, and when pressure has been strong for a long time, some numbness may remain. That's exactly why it's important to set up conditions that help repair early on.
+- **Prevent it from getting worse**: we check whether pressure on the nerve is still there and continue the treatment you need. Depending on symptoms, we work with specialist hospitals to consider options including surgery
+- **Ease it**: medicines that soften numbness and pain can be adjusted to suit you
+- **Get used to it**: even when the numbness itself remains, many people find it bothers them less over time
+- **Protect your feet**: with reduced sensation, it's harder to notice injuries or low-temperature burns. Don't put hot-water bottles or heat packs directly on your skin, look at your feet every day, and take care not to trip or fall
 
 ### What gets in the way of repair, and what helps
 
-**What gets in the way**
+To keep as much room for recovery as possible, keep these in mind too.
 
-- **Ongoing pressure on the nerve**: if a herniated disc or spinal stenosis keeps pressing on the nerve, the new core has trouble growing
-- **Poor blood flow**: nerves rely on oxygen and nutrients from the blood to repair themselves. Smoking, getting cold, and staying in one position for long periods all reduce blood flow
-- **High blood sugar**: when blood sugar stays high with diabetes, nerve repair tends to slow down
-
-**What helps**
-
-- **Early treatment to relieve pressure**: medicines, rehabilitation, adjusting your posture and more. Depending on symptoms, we work with specialist hospitals to consider options including surgery
-- **Moving within comfortable limits**: once the pain settles, walks and similar activity improve circulation
-- **Nutrition and rest**: a balanced diet and enough sleep are the foundation for repair. Vitamin B12, which nerves need to work, is sometimes low — if you're concerned, a blood test can check ([about vitamin B12 deficiency anemia](/diseases/megaloblastic-anemia))
+- **What gets in the way**: ongoing pressure, poor blood flow from smoking, cold or staying in one position, and high blood sugar
+- **What helps**: early treatment, gentle exercise such as walks once the pain settles, a balanced diet and enough sleep. A blood test can check whether you're low on vitamin B12, which nerves need ([about vitamin B12 deficiency anemia](/diseases/megaloblastic-anemia))
 
 ### Signs you should see a doctor right away
 
@@ -123,6 +111,6 @@ If your legs go numb when you walk and feel better when you rest, please also se
 
 ### A message from the director
 
-Nerve repair is slow, but it is moving forward. There's no need to give up because it doesn't heal right away. At the same time, if you just put up with it thinking “it'll get better eventually,” ongoing pressure can delay recovery.
+Lingering numbness is not unusual at all. And plenty of people with numbness go on enjoying their work, hobbies and travel.
 
-How have the location and strength of your numbness changed since last month? Let's check those changes together and aim for steady improvement, without rushing. If you have numbness that worries you, please don't carry it alone — come talk with us.
+What matters is not putting up with it alone. How have the location and strength of your numbness changed? What's giving you trouble in daily life? Let's talk those things through and set goals that feel realistic for you, together.
