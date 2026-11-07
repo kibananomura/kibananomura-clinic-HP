@@ -43,7 +43,7 @@ excerpt_en: A thorn pricks you while gardening, and after you pull it out the sp
 
 - 赤みが、どんどん外側へ広がっていく
 - ズキズキした痛みが、日に日に強くなる
-- 膿が出る、熱が出てだるい
+- うみが出る、熱が出てだるい
 - とげの先が、皮膚の中に残っている気がする
 
 傷ができたときの手当ての基本は、[すり傷に消毒、実は逆効果？](/blog/kizu-shoudoku)の記事で詳しく書いています。

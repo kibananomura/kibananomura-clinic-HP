@@ -1,11 +1,11 @@
 ---
 date: 2026.10.30
 cover: /blog/kibana-landscape.jpg
-category_ja: 院長のメッセージ
-category_en: A message from the director
+category_ja: 診療所づくり
+category_en: Building the clinic
 title_ja: 「金利のある世界」で、覚悟を持って診療所をつくります
 title_en: In a world where interest rates are back, we are building this clinic with full commitment
-excerpt_ja: 「融資が決まりました」——銀行からのその知らせに、安堵よりも先に、背筋が伸びる思いがしました。時代が大きく変わる今、院長として決めた覚悟をお伝えします。
+excerpt_ja: 「融資が決まりました」——銀行からのその知らせに、ほっとするより先に、背筋が伸びる思いがしました。時代が大きく変わる今、院長として決めた覚悟をお伝えします。
 excerpt_en: “Your loan has been approved” — when the bank told me this, before any relief, I felt myself sit up straighter. As times change in a big way, here is the commitment I have made as director.
 ---
 
@@ -13,9 +13,9 @@ excerpt_en: “Your loan has been approved” — when the bank told me this, be
 
 「本当にこの診療所は、長く続いていくのだろうか」。新しくできるクリニックに対して、そう感じる方もいらっしゃると思います。また、これから一緒に働こうと考えてくださっているスタッフの方にとっては、「この職場に、自分の将来を預けて大丈夫だろうか」という不安もあるはずです。そのお気持ちは、とても自然なものだと思います。
 
-先日、銀行から、開業のための融資が決まったという知らせをいただきました。正直に申し上げると、そのとき胸に湧いたのは、安堵よりも「いよいよだ」という身の引き締まる思いでした。
+先日、銀行から、開業のための融資が決まったという知らせをいただきました。正直に申し上げると、そのとき胸に湧いたのは、ほっとした気持ちよりも「いよいよだ」という身の引き締まる思いでした。
 
-そこで今回は、日本の経済がいまどのように変わりつつあるのか、そしてその中で当院がどんな診療所を目指しているのかについて説明しようと思います。結論から言うと、**金利のある時代は、「なんとなく」続ける組織が淘汰され、本気で価値を届ける組織だけが残る時代です。だからこそ当院は、覚悟と本気をもって、地域の医療に貢献する診療所をつくります。**
+そこで今回は、日本の経済がいまどのように変わりつつあるのか、そしてその中で当院がどんな診療所を目指しているのかについて説明しようと思います。結論から言うと、**金利のある時代は、「なんとなく」続ける組織がとうたされ、本気で価値を届ける組織だけが残る時代です。だからこそ当院は、覚悟と本気をもって、地域の医療に貢献する診療所をつくります。**
 
 ## 日本の経済に、いま起きている大きな変化
 

@@ -1,8 +1,8 @@
 ---
 date: 2026.10.11
 cover: /blog/kibana-landscape.jpg
-category_ja: 院長のキャリア
-category_en: Director's career
+category_ja: 院長の歩み
+category_en: The director's journey
 title_ja: 元・胃外科医が、木花で「かかりつけ医」になった理由
 title_en: Why a former stomach cancer surgeon chose to become your family doctor, here in Kibana
 excerpt_ja: 青島が近いこの木花で、旅先での急な不調も、一見さんも、大歓迎です。胃がん治療の最前線から、あえて離れた一人の外科医の話をします。
@@ -13,7 +13,7 @@ excerpt_en: Here in Kibana, close to Aoshima, we welcome sudden troubles on a tr
 
 「青島に向かう途中で、急にお腹が痛くなってしまって」。旅先でのそんな受診が、これからこの木花では珍しくなくなるだろうと感じています。
 
-実は私は、もともと胃がん治療を専門にしていた外科医でした。この記事を読んでいただくと、専門だった胃がんの手術から、なぜ街のかかりつけ医の道を選んだのか、その経緯が分かります。結論から言うと、**「もっと多くの方の日常に、一番近いところで関わりたい」という思いが、専門を手放してでも叶えたかったことでした。**
+実は私は、もともと胃がん治療を専門にしていた外科医でした。この記事を読んでいただくと、専門だった胃がんの手術から、なぜ街のかかりつけ医の道を選んだのか、その経緯が分かります。結論から言うと、**「もっと多くの方の日常に、一番近いところで関わりたい」という思いが、専門を手放してでもかなえたかったことでした。**
 
 ### 都城のクリニックで気づいたこと
 

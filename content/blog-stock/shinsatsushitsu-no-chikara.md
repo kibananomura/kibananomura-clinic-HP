@@ -1,8 +1,8 @@
 ---
 date: 公開日に記入（例 2026.11.29）
 cover: /blog/kibana-landscape.jpg
-category_ja: 院長のメッセージ
-category_en: A message from the director
+category_ja: 診療で大切にしていること
+category_en: What I value in care
 title_ja: 同じ言葉なのに、診察室だと心に届くのはなぜ？〜「場」が持つ、もうひとつの治療の力〜
 title_en: Why do the same words reach you differently in the exam room? — the other healing power of a “place”
 excerpt_ja: 歯医者さんで歯みがきの仕方を教わった日の夜だけは、いつもより丁寧に磨いてしまう。そんな経験はありませんか。

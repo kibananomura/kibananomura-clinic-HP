@@ -1,8 +1,8 @@
 ---
 date: 2026.06.01
 cover: /blog/greeting.png
-category_ja: ごあいさつ
-category_en: Greeting
+category_ja: 院長の歩み
+category_en: The director's journey
 title_ja: はじめまして。院長の野村です。
 title_en: Hello — I'm Dr. Nomura, the director.
 excerpt_ja: 「こんなことで受診していいのかな」——そんな風にひとりで悩む方を、これまでたくさん見てきました。2027年10月開院に向けて、院長の野村から最初のごあいさつです。

@@ -1,8 +1,8 @@
 ---
 date: 2026.10.13
 cover: /blog/kibana-landscape.jpg
-category_ja: クリニックのこと
-category_en: About the clinic
+category_ja: 診療所づくり
+category_en: Building the clinic
 title_ja: 旅先での体調不良、「一見さん」でも大歓迎です
 title_en: Feeling unwell while traveling? First-time visitors are always welcome here
 excerpt_ja: 「こんな一時的な受診で来てもいいのかな」。そのご遠慮は不要です。青島にほど近いこの地で、旅先・帰省中の急な体調不良を、どうぞ遠慮なくお任せください。

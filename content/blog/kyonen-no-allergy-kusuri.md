@@ -5,7 +5,7 @@ category_ja: 健康・予防の話
 category_en: Health and prevention
 subcategory_ja: アレルギー・花粉症
 subcategory_en: Allergies & hay fever
-title_ja: 去年の残りの薬で凌いでいませんか？——抗アレルギー薬の組み合わせと、自己判断の落とし穴
+title_ja: 去年の残りの薬でしのいでいませんか？——抗アレルギー薬の組み合わせと、自己判断の落とし穴
 title_en: Getting by on last year's leftover pills? How allergy medicines work together — and the pitfalls of choosing your own
 excerpt_ja: 「去年の薬がまだ何種類か残っているから、とりあえず飲んでおこう」——その引き出しの中の薬、実は「効く相手」がそれぞれ違うかもしれません。
 excerpt_en: “There are still a few kinds left from last year, so I'll just take those” — but the medicines in that drawer may each be aimed at a different target.
@@ -39,7 +39,7 @@ excerpt_en: “There are still a few kinds left from last year, so I'll just tak
 - 鼻の粘膜の**腫れ**を引かせて、**頑固な鼻づまり**をやわらげるのが得意です
 - 例えるなら、腫れて狭くなった**「空気の通り道」を広げる役**です
 
-喘息の治療にも使われる、空気の通り道を守るお薬です。
+ぜんそくの治療にも使われる、空気の通り道を守るお薬です。
 
 ### 「効く相手」が違えば、スッキリしない
 
@@ -88,7 +88,7 @@ excerpt_en: “There are still a few kinds left from last year, so I'll just tak
 
 花粉の飛ぶ量は年によって大きく違い、その年の体調によっても症状の出方は変わります。**去年はくしゃみ・鼻水がメインだったのに、今年は鼻づまりがつらい**——ということも珍しくありません。
 
-また、鼻水や鼻づまりが続いていても、実は花粉症ではなく、**かぜや副鼻腔炎**のこともあります。その場合は、抗アレルギー薬をいくら飲んでもよくなりません。
+また、鼻水や鼻づまりが続いていても、実は花粉症ではなく、**かぜや副鼻くう炎**のこともあります。その場合は、抗アレルギー薬をいくら飲んでもよくなりません。
 
 だからこそ、効かないからといって手元の薬を**自己判断で増やしたり、組み合わせたり**するのではなく、
 

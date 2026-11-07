@@ -14,11 +14,9 @@ import BlogRequestNote from "../components/BlogRequestNote";
 // ここにないカテゴリの記事があった場合は、末尾に自動的にまとめて表示される。
 const CATEGORY_ORDER: { ja: string; en: string }[] = [
   { ja: "健康・予防の話", en: "Health and prevention" },
-  { ja: "クリニックのこと", en: "About the clinic" },
-  { ja: "開業への想い", en: "Why we're opening" },
-  { ja: "院長のキャリア", en: "Director's career" },
-  { ja: "院長のメッセージ", en: "A message from the director" },
-  { ja: "ごあいさつ", en: "Greeting" },
+  { ja: "診療で大切にしていること", en: "What I value in care" },
+  { ja: "診療所づくり", en: "Building the clinic" },
+  { ja: "院長の歩み", en: "The director's journey" },
 ];
 
 // 「健康・予防の話」のサブ分類の表示順（記事の subcategory_ja に対応）。

@@ -1,8 +1,8 @@
 ---
 date: 2026.10.07
 cover: /blog/kibana-landscape.jpg
-category_ja: クリニックのこと
-category_en: About the clinic
+category_ja: 診療所づくり
+category_en: Building the clinic
 title_ja: 発熱の方の動線を、他の患者さんと完全に分けている理由
 title_en: Why we keep patients with a fever completely separate from everyone else
 excerpt_ja: 「熱があるとき、病院に行くこと自体が怖い」。その不安に、当院は建物の設計段階から向き合っています。駐車場から院内の動線まで、理由をお話しします。

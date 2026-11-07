@@ -1,8 +1,8 @@
 ---
 date: 2026.09.28
 cover: /blog/kibana-landscape.jpg
-category_ja: 院長のキャリア
-category_en: Director's career
+category_ja: 院長の歩み
+category_en: The director's journey
 title_ja: 「光でがんを温める」研究に打ち込んでいた頃の話
 title_en: Back when I was researching how to heat cancer with light
 excerpt_ja: 今年7月、「がん細胞を光の熱で壊す」研究がニュースになりました。実はこの治療、私が大学院時代に打ち込んでいた研究テーマでもあります。

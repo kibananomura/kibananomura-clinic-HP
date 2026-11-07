@@ -1,8 +1,8 @@
 ---
 date: 2026.11.03
 cover: /blog/kibana-landscape.jpg
-category_ja: 院長のメッセージ
-category_en: A message from the director
+category_ja: 診療で大切にしていること
+category_en: What I value in care
 title_ja: 「もうやれることはやったのに」——その言葉、診察室で言っていいんです
 title_en: “I've already done everything I can” — it's okay to say that in the exam room
 excerpt_ja: 診察の最後、ドアに手をかけたところで、ようやく出てくる本音があります。言えなかったのは、あなたの勇気が足りなかったからではありません。

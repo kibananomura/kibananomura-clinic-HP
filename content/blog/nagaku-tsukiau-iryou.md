@@ -1,8 +1,8 @@
 ---
 date: 2026.10.08
 cover: /blog/kibana-landscape.jpg
-category_ja: 院長のメッセージ
-category_en: A message from the director
+category_ja: 診療で大切にしていること
+category_en: What I value in care
 title_ja: 「治す」だけでなく、「長く付き合う」医療について
 title_en: Medicine isn't only about curing — it's also about staying alongside you
 excerpt_ja: 「一生このお薬と付き合うんですか」。高血圧や糖尿病の患者さんから、よくそう聞かれます。その問いに、私がどう向き合っているかをお話しします。

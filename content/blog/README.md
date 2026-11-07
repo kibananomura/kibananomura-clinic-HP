@@ -74,6 +74,10 @@ Second paragraph.
 本文中に `[リンク文字](/blog/記事のslug)` と書くと、サイト内リンクになります（`/` で始まるサイト内のパスのみ対応）。
 例: `[肺NTM症の記事](/blog/hai-ntm-sho)`
 
+## カテゴリ
+
+使用中のカテゴリ：健康・予防の話（Health and prevention）／診療で大切にしていること（What I value in care）／診療所づくり（Building the clinic）／院長の歩み（The director's journey）。表示順は app/blog/BlogPageClient.tsx の CATEGORY_ORDER。
+
 ## サブ分類（健康・予防の話）
 
 `category_ja: 健康・予防の話` の記事は、frontmatter に次の2行を加えるとサブ分類で絞り込めるようになります（任意）。
