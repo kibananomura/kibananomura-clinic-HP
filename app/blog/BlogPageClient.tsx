@@ -283,7 +283,7 @@ export default function BlogPageClient() {
             </div>
             {!searching && (
               <div className="mt-3 flex flex-wrap justify-center gap-2 text-xs">
-                <span className="py-1 text-ink/50">{lang === "en" ? "Popular:" : "よく読まれる話題："}</span>
+                <span className="py-1 text-ink/50">{lang === "en" ? "Try:" : "たとえば："}</span>
                 {SEARCH_SUGGESTIONS.map((sg) => (
                   <button
                     key={sg.ja}
