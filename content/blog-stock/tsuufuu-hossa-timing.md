@@ -3,8 +3,8 @@ date: 公開日に記入（例 2026.11.15）
 cover: /blog/kibana-landscape.jpg
 category_ja: 健康・予防の話
 category_en: Health and prevention
-subcategory_ja: 生活習慣病・お薬
-subcategory_en: Lifestyle diseases & medication
+subcategory_ja: コレステロール・尿酸
+subcategory_en: Cholesterol & uric acid
 title_ja: 痛風発作は「尿酸値が上がる時」と「下がる時」、どっちに起きやすい？〜カギは“急な変化”でした〜
 title_en: Do gout attacks happen when uric acid goes up, or when it comes down? — the key turns out to be “sudden change”
 excerpt_ja: 「薬で尿酸値を下げ始めたのに、かえって痛風発作が起きた」——実は痛風発作は、尿酸値が急に下がったときにも起きやすいのです。

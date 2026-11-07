@@ -3,8 +3,8 @@ date: 2026.11.07
 cover: /blog/kibana-landscape.jpg
 category_ja: 健康・予防の話
 category_en: Health and prevention
-subcategory_ja: 生活習慣病・お薬
-subcategory_en: Lifestyle diseases & medication
+subcategory_ja: 血圧
+subcategory_en: Blood pressure
 title_ja: 血圧はもう正常なのに、どうして薬を飲み続けるの？〜「治った」と「薬が支えている」の違い〜
 title_en: My blood pressure is normal now — so why do I still need to take my medicine? — the difference between “cured” and “held steady by medicine”
 excerpt_ja: 「先生、血圧が正常に安定しているのだから、もう薬をやめてもいいですか？」。そう思うのは、治療がうまくいっている証拠でもあります。

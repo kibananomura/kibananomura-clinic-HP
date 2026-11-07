@@ -3,8 +3,8 @@ date: 2026.10.29
 cover: /blog/kibana-landscape.jpg
 category_ja: 健康・予防の話
 category_en: Health and prevention
-subcategory_ja: 生活習慣病・お薬
-subcategory_en: Lifestyle diseases & medication
+subcategory_ja: 食事・ダイエット
+subcategory_en: Diet & weight
 title_ja: 1日一食しか食べてないのに痩せないあなたへ
 title_en: To everyone who eats only one meal a day and still can't lose weight
 excerpt_ja: 「1日1食しか食べていないのに、体重計の数字がびくともしない」——その原因は意志の弱さではなく、体が切り替えた「省エネモード」かもしれません。

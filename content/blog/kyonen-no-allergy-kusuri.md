@@ -60,17 +60,17 @@ excerpt_en: “There are still a few kinds left from last year, so I'll just tak
 
 ### とても症状が強い時期には、「ステロイド配合剤」を短く使うことがあります
 
-鼻が完全に詰まって眠れない、仕事や家事が手につかない——。そんな症状がとても強い時期には、**セレスタミン**のような**ステロイド配合剤**を、ごく短い期間だけ使うことがあります。
+鼻が完全に詰まって眠れない、仕事や家事が手につかない——。そんな症状がとても強い時期には、**ステロイド配合剤**（ステロイドと抗ヒスタミン薬を一緒にしたお薬）を、ごく短い期間だけ使うことがあります。
 
-セレスタミンは、炎症を強く抑える**ステロイド**と、**古いタイプの抗ヒスタミン薬**を組み合わせたお薬です。即効性があり、よく効きます。その分、**「短期間だけ、医師が様子を見ながら使う」ことが前提の、いわば切り札**です。
+このお薬は、炎症を強く抑える**ステロイド**と、**古いタイプの抗ヒスタミン薬**を組み合わせたお薬です。即効性があり、よく効きます。その分、**「短期間だけ、医師が様子を見ながら使う」ことが前提の、いわば切り札**です。
 
 ## 自己判断で飲むと、ここが危ない
 
-「よく効いたから」と、残っていたセレスタミンを自己判断で飲み続けたり、手元の薬をなんとなく組み合わせたりすると、思わぬ落とし穴があります。
+「よく効いたから」と、残っていたステロイド配合剤を自己判断で飲み続けたり、手元の薬をなんとなく組み合わせたりすると、思わぬ落とし穴があります。
 
 ### 1. 強い薬をダラダラ続けてしまう
 
-ステロイドを長く飲み続けると、**血糖値や血圧が上がる**、**感染症にかかりやすくなる**、**骨がもろくなる**といった副作用が出ることがあります。また、セレスタミンに含まれる古いタイプの抗ヒスタミン薬は、**緑内障**や**前立腺肥大**のある方では、症状を悪くすることがあります。
+ステロイドを長く飲み続けると、**血糖値や血圧が上がる**、**感染症にかかりやすくなる**、**骨がもろくなる**といった副作用が出ることがあります。また、ステロイド配合剤に含まれる古いタイプの抗ヒスタミン薬は、**緑内障**や**前立腺肥大**のある方では、症状を悪くすることがあります。
 
 ### 2. 同じタイプの薬が重なってしまう
 
@@ -155,17 +155,17 @@ The key is **combining different types**. Taking two medicines of the same type 
 
 ### In very severe periods, a steroid combination may be used briefly
 
-When your nose is completely blocked and you can't sleep, or you can't focus on work or housework, a **steroid combination medicine** such as **Celestamine** may be used for a very short time.
+When your nose is completely blocked and you can't sleep, or you can't focus on work or housework, a **steroid combination medicine** (a steroid combined with an antihistamine) may be used for a very short time.
 
-Celestamine combines a **steroid**, which strongly reduces inflammation, with an **older-type antihistamine**. It works quickly and effectively — which is exactly why it is **a “trump card” meant to be used briefly, under a doctor's supervision.**
+This medicine combines a **steroid**, which strongly reduces inflammation, with an **older-type antihistamine**. It works quickly and effectively — which is exactly why it is **a “trump card” meant to be used briefly, under a doctor's supervision.**
 
 ## The risks of choosing on your own
 
-Continuing leftover Celestamine because “it worked so well,” or casually combining whatever medicines you have at home, can lead to unexpected problems.
+Continuing a leftover steroid combination medicine because “it worked so well,” or casually combining whatever medicines you have at home, can lead to unexpected problems.
 
 ### 1. Taking a strong medicine for too long
 
-Long-term steroid use can **raise blood sugar and blood pressure**, **make infections more likely**, and **weaken bones**. The older-type antihistamine in Celestamine can also worsen **glaucoma** or an **enlarged prostate**.
+Long-term steroid use can **raise blood sugar and blood pressure**, **make infections more likely**, and **weaken bones**. The older-type antihistamine in steroid combination medicines can also worsen **glaucoma** or an **enlarged prostate**.
 
 ### 2. Doubling up on the same type
 

@@ -2321,7 +2321,7 @@ export const generatedPosts: BlogPost[] = [
     "cover": "/blog/kibana-landscape.jpg",
     "ja": {
       "category": "健康・予防の話",
-      "subcategory": "生活習慣病・お薬",
+      "subcategory": "血圧",
       "title": "血圧が低いけれど、お薬を減らしても大丈夫？〜減量の目安とよくある不安〜",
       "excerpt": "「最近、家で測ると100を切るんです……薬、減らしたほうがいいですか？」最近そうご質問いただくことが増えました。減薬の目安と、よくある不安についてお話しします。",
       "body": [
@@ -2397,7 +2397,7 @@ export const generatedPosts: BlogPost[] = [
     },
     "en": {
       "category": "Health and prevention",
-      "subcategory": "Lifestyle diseases & medication",
+      "subcategory": "Blood pressure",
       "title": "My blood pressure is running low — is it okay to cut back on medication?",
       "excerpt": "My home readings have been dipping under 100 lately — should I cut back on my medication? Here's how I think about the signs to watch for, and the worries that come with them.",
       "body": [
@@ -2478,7 +2478,7 @@ export const generatedPosts: BlogPost[] = [
     "cover": "/blog/kibana-landscape.jpg",
     "ja": {
       "category": "健康・予防の話",
-      "subcategory": "生活習慣病・お薬",
+      "subcategory": "コレステロール・尿酸",
       "title": "コレステロールの薬で、筋肉が溶けるって本当？〜悪玉コレステロールを下げる薬（スタチン）の疑問と最新医学〜",
       "excerpt": "「コレステロールの薬を飲むと筋肉が溶ける」——ネットでそんな言葉を見て、薬をやめようか迷っていませんか。まず知っていただきたいのは、その不安のほとんどが誤解だということです。",
       "body": [
@@ -2558,7 +2558,7 @@ export const generatedPosts: BlogPost[] = [
     },
     "en": {
       "category": "Health and prevention",
-      "subcategory": "Lifestyle diseases & medication",
+      "subcategory": "Cholesterol & uric acid",
       "title": "Can cholesterol medicine really \"break down\" your muscles? Questions about statins and the latest evidence",
       "excerpt": "“Cholesterol medicine dissolves your muscles” — have you seen that claim online and started wondering whether to stop your medication? The first thing to know is that most of that fear comes from a misunderstanding.",
       "body": [
@@ -2643,7 +2643,7 @@ export const generatedPosts: BlogPost[] = [
     "cover": "/blog/kibana-landscape.jpg",
     "ja": {
       "category": "健康・予防の話",
-      "subcategory": "生活習慣病・お薬",
+      "subcategory": "コレステロール・尿酸",
       "title": "毎日のトマトジュース、実は逆効果かもしれません",
       "excerpt": "「健康のために、毎朝トマトジュースで野菜をとっています」。とても素敵な習慣ですが、実はその一杯、コレステロールには◎でも中性脂肪には注意が必要かもしれません。",
       "body": [
@@ -2695,7 +2695,7 @@ export const generatedPosts: BlogPost[] = [
     },
     "en": {
       "category": "Health and prevention",
-      "subcategory": "Lifestyle diseases & medication",
+      "subcategory": "Cholesterol & uric acid",
       "title": "Your daily tomato juice might be working against you",
       "excerpt": "I drink tomato juice every morning instead of vegetables, for my health — a lovely habit, but that glass may be great for cholesterol while working against your triglycerides.",
       "body": [
@@ -3041,7 +3041,7 @@ export const generatedPosts: BlogPost[] = [
     "cover": "/blog/kibana-landscape.jpg",
     "ja": {
       "category": "健康・予防の話",
-      "subcategory": "生活習慣病・お薬",
+      "subcategory": "食事・ダイエット",
       "title": "生活習慣病の方の食事指導の実際",
       "excerpt": "「あれもこれも禁止されるのでは」——健診で数値を指摘された方の多くが、そう身構えています。私が細かい制限をおすすめしない理由と、代わりに伝えているたったひとつのコツをお話しします。",
       "body": [
@@ -3109,7 +3109,7 @@ export const generatedPosts: BlogPost[] = [
     },
     "en": {
       "category": "Health and prevention",
-      "subcategory": "Lifestyle diseases & medication",
+      "subcategory": "Diet & weight",
       "title": "What diet guidance actually looks like for lifestyle-related conditions",
       "excerpt": "“Am I about to be told everything is off-limits?” — that's the look I see on so many patients' faces after a checkup. Here's why I don't hand out strict diet rules, and the one thing I ask instead.",
       "body": [
@@ -3908,7 +3908,7 @@ export const generatedPosts: BlogPost[] = [
     "cover": "/blog/kibana-landscape.jpg",
     "ja": {
       "category": "健康・予防の話",
-      "subcategory": "生活習慣病・お薬",
+      "subcategory": "生活習慣病との付き合い方",
       "title": "「生活習慣病」のレッテルで、ご自身を責めないでください",
       "excerpt": "「不摂生のせいでこの数値になったんですよね……」そう肩を落とす方に、お伝えしたいことがあります。実は、生活習慣とは関係なく起こる高血圧・糖尿病・脂質異常症もあるのです。",
       "body": [
@@ -3960,7 +3960,7 @@ export const generatedPosts: BlogPost[] = [
     },
     "en": {
       "category": "Health and prevention",
-      "subcategory": "Lifestyle diseases & medication",
+      "subcategory": "Living with lifestyle diseases",
       "title": "Please don't blame yourself for the label \"lifestyle disease\"",
       "excerpt": "This number is my own fault for not taking care of myself, isn't it — I want to tell the people who say this something important. Some cases of high blood pressure, diabetes, and dyslipidemia have nothing to do with lifestyle at all.",
       "body": [
@@ -4017,7 +4017,7 @@ export const generatedPosts: BlogPost[] = [
     "cover": "/blog/kibana-landscape.jpg",
     "ja": {
       "category": "健康・予防の話",
-      "subcategory": "生活習慣病・お薬",
+      "subcategory": "生活習慣病との付き合い方",
       "title": "「お薬は一生やめられない」は誤解です",
       "excerpt": "「このお薬、一度始めたらもう一生やめられないんですよね……？」これまでの外来でとてもよく聞かれてきた質問です。その答えは、実は「いいえ」です。",
       "body": [
@@ -4077,7 +4077,7 @@ export const generatedPosts: BlogPost[] = [
     },
     "en": {
       "category": "Health and prevention",
-      "subcategory": "Lifestyle diseases & medication",
+      "subcategory": "Living with lifestyle diseases",
       "title": "'Once you start, you can never stop' is a myth",
       "excerpt": "Once I start this medication, I can never stop, right? It's a question I've heard all the time, throughout my career. The real answer is actually no.",
       "body": [
@@ -5598,7 +5598,7 @@ export const generatedPosts: BlogPost[] = [
     "cover": "/blog/kibana-landscape.jpg",
     "ja": {
       "category": "健康・予防の話",
-      "subcategory": "生活習慣病・お薬",
+      "subcategory": "食事・ダイエット",
       "title": "1日一食しか食べてないのに痩せないあなたへ",
       "excerpt": "「1日1食しか食べていないのに、体重計の数字がびくともしない」——その原因は意志の弱さではなく、体が切り替えた「省エネモード」かもしれません。",
       "body": [
@@ -5726,7 +5726,7 @@ export const generatedPosts: BlogPost[] = [
     },
     "en": {
       "category": "Health and prevention",
-      "subcategory": "Lifestyle diseases & medication",
+      "subcategory": "Diet & weight",
       "title": "To everyone who eats only one meal a day and still can't lose weight",
       "excerpt": "“I only eat one meal a day, and the scale won't budge” — the cause may not be weak willpower, but the “energy-saving mode” your body has switched into.",
       "body": [
@@ -6094,7 +6094,7 @@ export const generatedPosts: BlogPost[] = [
     "cover": "/blog/kibana-landscape.jpg",
     "ja": {
       "category": "健康・予防の話",
-      "subcategory": "生活習慣病・お薬",
+      "subcategory": "生活習慣病との付き合い方",
       "title": "生活習慣病の本当の治療は、診察室の外にあります",
       "excerpt": "「薬は毎日飲んでいるのに、数値がなかなか良くならない」——その答えは、お薬の外、毎日の暮らしの中にあるかもしれません。",
       "body": [
@@ -6226,7 +6226,7 @@ export const generatedPosts: BlogPost[] = [
     },
     "en": {
       "category": "Health and prevention",
-      "subcategory": "Lifestyle diseases & medication",
+      "subcategory": "Living with lifestyle diseases",
       "title": "The real treatment for lifestyle diseases happens outside the consultation room",
       "excerpt": "“I take my medicine every day, but my numbers just won't improve” — the answer may lie outside the pills, in your daily life.",
       "body": [
@@ -6722,11 +6722,11 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "鼻が完全に詰まって眠れない、仕事や家事が手につかない——。そんな症状がとても強い時期には、**セレスタミン**のような**ステロイド配合剤**を、ごく短い期間だけ使うことがあります。"
+          "text": "鼻が完全に詰まって眠れない、仕事や家事が手につかない——。そんな症状がとても強い時期には、**ステロイド配合剤**（ステロイドと抗ヒスタミン薬を一緒にしたお薬）を、ごく短い期間だけ使うことがあります。"
         },
         {
           "kind": "text",
-          "text": "セレスタミンは、炎症を強く抑える**ステロイド**と、**古いタイプの抗ヒスタミン薬**を組み合わせたお薬です。即効性があり、よく効きます。その分、**「短期間だけ、医師が様子を見ながら使う」ことが前提の、いわば切り札**です。"
+          "text": "このお薬は、炎症を強く抑える**ステロイド**と、**古いタイプの抗ヒスタミン薬**を組み合わせたお薬です。即効性があり、よく効きます。その分、**「短期間だけ、医師が様子を見ながら使う」ことが前提の、いわば切り札**です。"
         },
         {
           "kind": "text",
@@ -6734,7 +6734,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "「よく効いたから」と、残っていたセレスタミンを自己判断で飲み続けたり、手元の薬をなんとなく組み合わせたりすると、思わぬ落とし穴があります。"
+          "text": "「よく効いたから」と、残っていたステロイド配合剤を自己判断で飲み続けたり、手元の薬をなんとなく組み合わせたりすると、思わぬ落とし穴があります。"
         },
         {
           "kind": "text",
@@ -6742,7 +6742,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "ステロイドを長く飲み続けると、**血糖値や血圧が上がる**、**感染症にかかりやすくなる**、**骨がもろくなる**といった副作用が出ることがあります。また、セレスタミンに含まれる古いタイプの抗ヒスタミン薬は、**緑内障**や**前立腺肥大**のある方では、症状を悪くすることがあります。"
+          "text": "ステロイドを長く飲み続けると、**血糖値や血圧が上がる**、**感染症にかかりやすくなる**、**骨がもろくなる**といった副作用が出ることがあります。また、ステロイド配合剤に含まれる古いタイプの抗ヒスタミン薬は、**緑内障**や**前立腺肥大**のある方では、症状を悪くすることがあります。"
         },
         {
           "kind": "text",
@@ -6902,11 +6902,11 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "When your nose is completely blocked and you can't sleep, or you can't focus on work or housework, a **steroid combination medicine** such as **Celestamine** may be used for a very short time."
+          "text": "When your nose is completely blocked and you can't sleep, or you can't focus on work or housework, a **steroid combination medicine** (a steroid combined with an antihistamine) may be used for a very short time."
         },
         {
           "kind": "text",
-          "text": "Celestamine combines a **steroid**, which strongly reduces inflammation, with an **older-type antihistamine**. It works quickly and effectively — which is exactly why it is **a “trump card” meant to be used briefly, under a doctor's supervision.**"
+          "text": "This medicine combines a **steroid**, which strongly reduces inflammation, with an **older-type antihistamine**. It works quickly and effectively — which is exactly why it is **a “trump card” meant to be used briefly, under a doctor's supervision.**"
         },
         {
           "kind": "text",
@@ -6914,7 +6914,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "Continuing leftover Celestamine because “it worked so well,” or casually combining whatever medicines you have at home, can lead to unexpected problems."
+          "text": "Continuing a leftover steroid combination medicine because “it worked so well,” or casually combining whatever medicines you have at home, can lead to unexpected problems."
         },
         {
           "kind": "text",
@@ -6922,7 +6922,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "Long-term steroid use can **raise blood sugar and blood pressure**, **make infections more likely**, and **weaken bones**. The older-type antihistamine in Celestamine can also worsen **glaucoma** or an **enlarged prostate**."
+          "text": "Long-term steroid use can **raise blood sugar and blood pressure**, **make infections more likely**, and **weaken bones**. The older-type antihistamine in steroid combination medicines can also worsen **glaucoma** or an **enlarged prostate**."
         },
         {
           "kind": "text",
@@ -7200,7 +7200,7 @@ export const generatedPosts: BlogPost[] = [
     "cover": "/blog/kibana-landscape.jpg",
     "ja": {
       "category": "健康・予防の話",
-      "subcategory": "生活習慣病・お薬",
+      "subcategory": "コレステロール・尿酸",
       "title": "痩せているのに、なぜコレステロールが高いの？——薬をやめると数値が戻ってしまう本当の理由",
       "excerpt": "「太っていないし、食事も気をつけているのに……」——実は、コレステロールの7〜8割は、食べ物ではなくご自身の肝臓が作っています。",
       "body": [
@@ -7296,7 +7296,7 @@ export const generatedPosts: BlogPost[] = [
     },
     "en": {
       "category": "Health and prevention",
-      "subcategory": "Lifestyle diseases & medication",
+      "subcategory": "Cholesterol & uric acid",
       "title": "Slim, but high cholesterol? The real reason your numbers bounce back when you stop the medicine",
       "excerpt": "“I'm not overweight, and I watch what I eat…” In fact, 70–80% of your cholesterol isn't from food — your own liver makes it.",
       "body": [
@@ -7397,7 +7397,7 @@ export const generatedPosts: BlogPost[] = [
     "cover": "/blog/kibana-landscape.jpg",
     "ja": {
       "category": "健康・予防の話",
-      "subcategory": "生活習慣病・お薬",
+      "subcategory": "血圧",
       "title": "「上はいいのに、下だけ下がらない」のはなぜ？〜上の血圧と下の血圧、表しているものが違います〜",
       "excerpt": "「薬で上は下がったのに、下がなかなか下がらないんです」。上と下の血圧は、実は体の別々の働きを映しています。",
       "body": [
@@ -7477,7 +7477,7 @@ export const generatedPosts: BlogPost[] = [
     },
     "en": {
       "category": "Health and prevention",
-      "subcategory": "Lifestyle diseases & medication",
+      "subcategory": "Blood pressure",
       "title": "“My top number is fine, so why won't the bottom one come down?” — the two numbers measure different things",
       "excerpt": "“The medicine brought my top number down, but the bottom one just won't budge.” The two numbers actually reflect two different parts of how your body works.",
       "body": [
@@ -7562,7 +7562,7 @@ export const generatedPosts: BlogPost[] = [
     "cover": "/blog/kibana-landscape.jpg",
     "ja": {
       "category": "健康・予防の話",
-      "subcategory": "生活習慣病・お薬",
+      "subcategory": "食事・ダイエット",
       "title": "ご飯を減らしても痩せないのはなぜ？〜40代からは「引き算」より「足し算」のダイエット〜",
       "excerpt": "実は、食べたカロリーの2〜3割が、消化のときに熱として使われる栄養素があります。年齢とともに痩せにくくなる本当の理由と、その栄養素の話です。",
       "body": [
@@ -7694,7 +7694,7 @@ export const generatedPosts: BlogPost[] = [
     },
     "en": {
       "category": "Health and prevention",
-      "subcategory": "Lifestyle diseases & medication",
+      "subcategory": "Diet & weight",
       "title": "Eating less but not losing weight? After 40, it's about adding, not subtracting",
       "excerpt": "There's one nutrient where 20–30% of its calories are burned off as heat during digestion. Here's the real reason weight gets harder to lose with age — and why that nutrient matters.",
       "body": [
@@ -8060,7 +8060,7 @@ export const generatedPosts: BlogPost[] = [
     "cover": "/blog/kibana-landscape.jpg",
     "ja": {
       "category": "健康・予防の話",
-      "subcategory": "生活習慣病・お薬",
+      "subcategory": "血圧",
       "title": "血圧はもう正常なのに、どうして薬を飲み続けるの？〜「治った」と「薬が支えている」の違い〜",
       "excerpt": "「先生、血圧が正常に安定しているのだから、もう薬をやめてもいいですか？」。そう思うのは、治療がうまくいっている証拠でもあります。",
       "body": [
@@ -8160,7 +8160,7 @@ export const generatedPosts: BlogPost[] = [
     },
     "en": {
       "category": "Health and prevention",
-      "subcategory": "Lifestyle diseases & medication",
+      "subcategory": "Blood pressure",
       "title": "My blood pressure is normal now — so why do I still need to take my medicine? — the difference between “cured” and “held steady by medicine”",
       "excerpt": "“Doctor, my blood pressure has been normal and stable — can I stop the medicine now?” Wondering that is actually a sign your treatment is working.",
       "body": [

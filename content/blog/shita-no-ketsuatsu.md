@@ -3,8 +3,8 @@ date: 2026.11.04
 cover: /blog/kibana-landscape.jpg
 category_ja: 健康・予防の話
 category_en: Health and prevention
-subcategory_ja: 生活習慣病・お薬
-subcategory_en: Lifestyle diseases & medication
+subcategory_ja: 血圧
+subcategory_en: Blood pressure
 title_ja: 「上はいいのに、下だけ下がらない」のはなぜ？〜上の血圧と下の血圧、表しているものが違います〜
 title_en: “My top number is fine, so why won't the bottom one come down?” — the two numbers measure different things
 excerpt_ja: 「薬で上は下がったのに、下がなかなか下がらないんです」。上と下の血圧は、実は体の別々の働きを映しています。

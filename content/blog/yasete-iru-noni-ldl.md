@@ -3,8 +3,8 @@ date: 2026.11.03
 cover: /blog/kibana-landscape.jpg
 category_ja: 健康・予防の話
 category_en: Health and prevention
-subcategory_ja: 生活習慣病・お薬
-subcategory_en: Lifestyle diseases & medication
+subcategory_ja: コレステロール・尿酸
+subcategory_en: Cholesterol & uric acid
 title_ja: 痩せているのに、なぜコレステロールが高いの？——薬をやめると数値が戻ってしまう本当の理由
 title_en: Slim, but high cholesterol? The real reason your numbers bounce back when you stop the medicine
 excerpt_ja: 「太っていないし、食事も気をつけているのに……」——実は、コレステロールの7〜8割は、食べ物ではなくご自身の肝臓が作っています。

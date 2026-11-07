@@ -3,8 +3,8 @@ date: 公開日に記入（例 2026.11.22）
 cover: /blog/kibana-landscape.jpg
 category_ja: 健康・予防の話
 category_en: Health and prevention
-subcategory_ja: 生活習慣病・お薬
-subcategory_en: Lifestyle diseases & medication
+subcategory_ja: コレステロール・尿酸
+subcategory_en: Cholesterol & uric acid
 title_ja: プリン体って、あの「プリン」と関係あるの？〜名前の由来と、多い食べ物の意外な共通点〜
 title_en: Do purines have anything to do with pudding? — where the name comes from, and what purine-rich foods have in common
 excerpt_ja: 「先生、プリンを食べすぎると痛風になるんですか？」——実は、プリン体とデザートのプリンは、名前が似ているだけのまったくの別物です。
