@@ -62,6 +62,8 @@ sources:
 
 一つだけ付け加えさせてください。風邪だと思っていても、**溶連菌（のどの感染症などを起こす細菌）感染症**のように、細菌が原因で抗生剤が本当に必要になる病気が隠れていることもあります。診察のうえで抗生剤を処方する場合は、「なぜ今回は細菌感染が疑われるのか」を必ずご説明するようにしています。もし説明がないまま気になることがあれば、遠慮なく「これは何に効くお薬ですか？」と聞いてみてください。
 
+正直に言うと、実際の判断に迷うことも少なくありません。飲まなくても自然に治っていたかもしれない方がいる一方で、飲まずに治らない方の中には、へんとう炎、溶連菌感染症、副鼻くう炎、肺炎のように、抗生剤が本当に効くケースもあるからです。だからこそ、症状の経過を丁寧に伺い、必要なときには迷わず使う、ということを大切にしています。
+
 つらいときに、早く楽になりたいと思うのは当然のことです。その気持ちに寄り添いながら、「今の自分」だけでなく「これからの自分」にとっても本当に必要な治療は何かを、一緒に考えていけたらと思っています。
 
 ## en
@@ -107,5 +109,7 @@ If your symptoms aren't too severe and you're still eating and sleeping normally
 ### In closing
 
 Let me add one thing. What looks like a cold can sometimes turn out to be something like strep throat, a bacterial illness that genuinely requires antibiotics. When I do prescribe one, I make a point of explaining why a bacterial infection is suspected in that particular case. If that explanation hasn't come up and you're curious, please feel free to ask, "What is this medication actually treating?"
+
+To be honest, the actual decision is often a hard one. Some people might well have recovered without antibiotics, while among those who don't get better without them are cases where antibiotics truly work — tonsillitis, strep infection, sinusitis and pneumonia. That's why I listen carefully to how symptoms have progressed, and when antibiotics are needed, I use them without hesitation.
 
 Wanting relief quickly when you're unwell is only natural. I'd like to stay close to that feeling while we think together about what treatment truly serves not just who you are today, but who you'll need your body to be tomorrow.

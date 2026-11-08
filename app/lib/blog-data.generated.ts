@@ -4752,6 +4752,10 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
+          "text": "一方で、外来では、体型やBMI（肥満度の目安）を見ると肥満ではないのに数値が高く、お話を伺うと、やはり食事のとり方や生活のリズムが整っていない、という方もよくいらっしゃいます。体質の影響もあれば、生活の影響もある。だからこそ、ご自身を責めるのではなく、どちらがどのくらい関わっているのかを一緒に見極めることが大切なのです。"
+        },
+        {
+          "kind": "text",
           "text": "「健診で指摘されたけれど、思い当たる原因がない」「がんばっているのに数値が変わらない」——そんな不安があるときは、お一人で抱え込まず、一度ご相談いただければと思います。"
         }
       ]
@@ -4801,6 +4805,10 @@ export const generatedPosts: BlogPost[] = [
         {
           "kind": "text",
           "text": "What matters is identifying what's actually behind an elevated number, and choosing the right approach for that person. For some, adjusting daily habits makes a real difference; for others, the best path forward is medication suited to their underlying condition."
+        },
+        {
+          "kind": "text",
+          "text": "On the other hand, in clinic I also often see people who aren't overweight by body shape or BMI, yet have high numbers — and when we talk, it turns out their eating habits or daily rhythm aren't quite in order. Sometimes it's constitution, sometimes it's lifestyle. That's exactly why, rather than blaming yourself, it's important to work out together how much each one is involved."
         },
         {
           "kind": "text",
@@ -5067,6 +5075,10 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
+          "text": "正確な数ではありませんが、私の実感では、自己判断でこのお薬をやめた方の半分くらいが、同じ症状がぶり返して受診されています。"
+        },
+        {
+          "kind": "text",
           "text": "今飲んでいるお薬について「このまま続けていいのかな」と気になることがあれば、どうぞ我慢せずに、気軽に院長やスタッフにご相談ください。一緒に、今のご自身にとってちょうどよい付き合い方を見つけていきましょう。"
         }
       ]
@@ -5136,6 +5148,10 @@ export const generatedPosts: BlogPost[] = [
         {
           "kind": "text",
           "text": "- **Please don't stop on your own:** Stopping suddenly can cause a temporary rebound in acid production, which can actually make symptoms worse than before.\n- **Let's review your treatment together, regularly:** If your symptoms are stable, there are options worth considering — reducing the dose, adjusting how often you take it (such as on-demand dosing, only when symptoms appear), or switching to a different type of medication."
+        },
+        {
+          "kind": "text",
+          "text": "It's not an exact figure, but in my experience, about half of the people who stop this medicine on their own come back to the clinic with the same symptoms."
         },
         {
           "kind": "text",
@@ -5263,6 +5279,10 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
+          "text": "正直に言うと、実際の判断に迷うことも少なくありません。飲まなくても自然に治っていたかもしれない方がいる一方で、飲まずに治らない方の中には、へんとう炎、溶連菌感染症、副鼻くう炎、肺炎のように、抗生剤が本当に効くケースもあるからです。だからこそ、症状の経過を丁寧に伺い、必要なときには迷わず使う、ということを大切にしています。"
+        },
+        {
+          "kind": "text",
           "text": "つらいときに、早く楽になりたいと思うのは当然のことです。その気持ちに寄り添いながら、「今の自分」だけでなく「これからの自分」にとっても本当に必要な治療は何かを、一緒に考えていけたらと思っています。"
         }
       ]
@@ -5348,6 +5368,10 @@ export const generatedPosts: BlogPost[] = [
         {
           "kind": "text",
           "text": "Let me add one thing. What looks like a cold can sometimes turn out to be something like strep throat, a bacterial illness that genuinely requires antibiotics. When I do prescribe one, I make a point of explaining why a bacterial infection is suspected in that particular case. If that explanation hasn't come up and you're curious, please feel free to ask, \"What is this medication actually treating?\""
+        },
+        {
+          "kind": "text",
+          "text": "To be honest, the actual decision is often a hard one. Some people might well have recovered without antibiotics, while among those who don't get better without them are cases where antibiotics truly work — tonsillitis, strep infection, sinusitis and pneumonia. That's why I listen carefully to how symptoms have progressed, and when antibiotics are needed, I use them without hesitation."
         },
         {
           "kind": "text",

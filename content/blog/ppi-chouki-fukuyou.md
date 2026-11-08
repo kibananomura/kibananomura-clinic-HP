@@ -49,6 +49,8 @@ sources:
 - **自己判断で中止しないでください：** 急にやめてしまうと、一時的に胃酸の分泌が普段より増える「リバウンド」が起こり、かえって症状が悪化することがあります。
 - **定期的な見直しを一緒に行いましょう：** 症状が安定している場合は、お薬の量を減らす、飲む回数を調整する（症状が出たときだけ飲む「オンデマンド服用」）、あるいは別のタイプのお薬へ切り替えるといった選択肢も検討できます。
 
+正確な数ではありませんが、私の実感では、自己判断でこのお薬をやめた方の半分くらいが、同じ症状がぶり返して受診されています。
+
 今飲んでいるお薬について「このまま続けていいのかな」と気になることがあれば、どうぞ我慢せずに、気軽に院長やスタッフにご相談ください。一緒に、今のご自身にとってちょうどよい付き合い方を見つけていきましょう。
 
 ## en
@@ -85,5 +87,7 @@ To sum up: **this medication is, on the whole, safe and highly effective, but re
 
 - **Please don't stop on your own:** Stopping suddenly can cause a temporary rebound in acid production, which can actually make symptoms worse than before.
 - **Let's review your treatment together, regularly:** If your symptoms are stable, there are options worth considering — reducing the dose, adjusting how often you take it (such as on-demand dosing, only when symptoms appear), or switching to a different type of medication.
+
+It's not an exact figure, but in my experience, about half of the people who stop this medicine on their own come back to the clinic with the same symptoms.
 
 If you're ever wondering whether it's right to keep taking your current medication as is, please don't hold back — feel free to bring it up with the director or our staff anytime. Let's work together to find the approach that fits you best right now.

@@ -38,6 +38,8 @@ sources:
 
 大切なのは、その数値の上がった背景に何があるのかを見極め、その方に合ったアプローチを選ぶことです。生活習慣の見直しで大きく変わる方もいれば、体質に合わせてお薬の力を借りるのが一番の近道になる方もいます。
 
+一方で、外来では、体型やBMI（肥満度の目安）を見ると肥満ではないのに数値が高く、お話を伺うと、やはり食事のとり方や生活のリズムが整っていない、という方もよくいらっしゃいます。体質の影響もあれば、生活の影響もある。だからこそ、ご自身を責めるのではなく、どちらがどのくらい関わっているのかを一緒に見極めることが大切なのです。
+
 「健診で指摘されたけれど、思い当たる原因がない」「がんばっているのに数値が変わらない」——そんな不安があるときは、お一人で抱え込まず、一度ご相談いただければと思います。
 
 ## en
@@ -63,5 +65,7 @@ If you've struggled to put a sense of unrewarded effort into words in the exam r
 Throughout my career, I've sometimes heard things like, "Someone told me I must have eaten too many sweets to get diabetes, and it hurt," or "I'm careful every day but my numbers won't budge, and it feels like I'm being blamed." It's genuinely painful to see people — or the people around them — assume, based on a diagnosis name alone, that it must be a failure of self-management.
 
 What matters is identifying what's actually behind an elevated number, and choosing the right approach for that person. For some, adjusting daily habits makes a real difference; for others, the best path forward is medication suited to their underlying condition.
+
+On the other hand, in clinic I also often see people who aren't overweight by body shape or BMI, yet have high numbers — and when we talk, it turns out their eating habits or daily rhythm aren't quite in order. Sometimes it's constitution, sometimes it's lifestyle. That's exactly why, rather than blaming yourself, it's important to work out together how much each one is involved.
 
 If you've been flagged at a checkup but can't think of a reason why, or if you're working hard and the numbers still won't change, please don't carry that alone — feel free to come talk with us.
