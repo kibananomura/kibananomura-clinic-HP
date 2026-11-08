@@ -89,7 +89,11 @@ subcategory_en: Stomach & digestion
 
 使用中のサブ分類：感染症・ワクチン（Infections & vaccines）／胃腸・消化器（Stomach & digestion）／肺・呼吸器（Lungs & breathing）／アレルギー・花粉症（Allergies & hay fever）／血圧（Blood pressure）／コレステロール・尿酸（Cholesterol & uric acid）／血糖・糖尿病（Blood sugar & diabetes）／食事・運動（Diet & exercise）／生活習慣病との付き合い方（Living with lifestyle diseases）／健診・検査（Checkups & tests）／腰・関節・神経（Back, joints & nerves）／足の健康（Foot health）／けが・外科（Injuries & surgery）。表示順は app/blog/BlogPageClient.tsx の SUBCATEGORY_ORDER。
 
-未公開の原稿（ストック）は content/blog-stock/ に置く（ここはサイトに読み込まれない）。公開するときは content/blog/ へ移して blog:gen。
+未公開の原稿（ストック）は content/blog-stock/ に置く。frontmatter の date の朝5時（日本時間）に自動で公開される（予約公開。くわしくは content/blog-stock/README.md）。
+
+## 関連する院長ブログ（記事末尾）
+
+frontmatter に `related: [slug, slug]` を書くと、記事の末尾に「関連する院長ブログ」として並ぶ。本文中の /blog/〇〇 へのリンクと、逆向き（相手が自分を挙げている場合）も自動で加わる。つながりが少ない記事は、同じ分類の新しい記事で補う。相手がまだストックにある場合は「近日公開」としてタイトルだけ予告する。
 表示順は `app/blog/BlogPageClient.tsx` の `SUBCATEGORY_ORDER` で管理しています。
 
 ## 参考にした資料（sources）

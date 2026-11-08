@@ -1,22 +1,15 @@
 ---
-date: 公開日に記入（例 2026.11.29）
+date: 2026.11.12
 cover: /blog/kibana-landscape.jpg
 category_ja: 診療で大切にしていること
 category_en: What I value in care
-title_ja: 同じ言葉なのに、診察室だと心に届くのはなぜ？〜「場」が持つ、もうひとつの治療の力〜
-title_en: Why do the same words reach you differently in the exam room? — the other healing power of a “place”
-excerpt_ja: 歯医者さんで歯みがきの仕方を教わった日の夜だけは、いつもより丁寧に磨いてしまう。そんな経験はありませんか。
-excerpt_en: On the night after the dentist shows you how to brush, you somehow brush more carefully than usual. Ever had that happen?
+title_ja: "同じ言葉なのに、診察室だと心に届くのはなぜ？〜「場」が持つ、もうひとつの治療の力〜"
+title_en: "Why do the same words reach you differently in the exam room? — the other healing power of a “place”"
+excerpt_ja: "歯医者さんで歯みがきの仕方を教わった日の夜だけは、いつもより丁寧に磨いてしまう。そんな経験はありませんか。"
+excerpt_en: "On the night after the dentist shows you how to brush, you somehow brush more carefully than usual. Ever had that happen?"
+related: [hontou-no-chiryou, honne-ga-ienai, nagaku-tsukiau-iryou]
 ---
 
-<!--
-ストック原稿（未公開）。公開するときは：
-1. date を公開日にする
-2. content/blog/ へ移す
-3. npm run blog:gen と npm run chat:gen を実行して push
-相互リンク：この記事 → hontou-no-chiryou・honne-ga-ienai へ貼り済み。
-公開時に hontou-no-chiryou の「月に一度の『振り返り』が、意識をリセットする」の段落末に、この記事へのリンクを1文足す。
--->
 
 ## ja
 

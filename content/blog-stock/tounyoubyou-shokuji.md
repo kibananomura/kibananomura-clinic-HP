@@ -1,14 +1,15 @@
 ---
-date: 公開日に記入
+date: 2026.11.18
 cover: /blog/kibana-landscape.jpg
 category_ja: 健康・予防の話
 category_en: Health and prevention
 subcategory_ja: 血糖・糖尿病
 subcategory_en: Blood sugar & diabetes
-title_ja: 糖尿病だから、ご飯は抜くべき？〜「我慢の食事」から「しっかり食べて体を守る食事」へ〜
-title_en: I have diabetes — should I skip rice? — from “eating by enduring” to “eating well to protect your body”
-excerpt_ja: 「糖尿病だから、ご飯もパンも食べないようにしています」——その頑張り、実は体の負担になっているかもしれません。
-excerpt_en: “I have diabetes, so I avoid rice and bread completely.” That effort may actually be putting a strain on your body.
+title_ja: "糖尿病だから、ご飯は抜くべき？〜「我慢の食事」から「しっかり食べて体を守る食事」へ〜"
+title_en: "I have diabetes — should I skip rice? — from “eating by enduring” to “eating well to protect your body”"
+excerpt_ja: "「糖尿病だから、ご飯もパンも食べないようにしています」——その頑張り、実は体の負担になっているかもしれません。"
+excerpt_en: "“I have diabetes, so I avoid rice and bread completely.” That effort may actually be putting a strain on your body."
+related: [tounyoubyou-kankai, herashitemo-yasenai, mainichi-chigau-mono]
 sources:
   - label: "日本糖尿病学会「糖尿病診療ガイドライン2024」"
     url: "https://minds.jcqhc.or.jp/summary/c00864/"
@@ -17,14 +18,6 @@ sources:
     url: "https://www.mhlw.go.jp/stf/newpage_44138.html"
 ---
 
-<!--
-ストック原稿（未公開）。公開するときは：
-1. date を公開日にする
-2. content/blog/ へ移す
-3. app/lib/related-content.ts の "diabetes" にこの slug を足す
-4. 寛解の記事（tounyoubyou-kankai）・歩数の記事（hosuu-5000）が公開済みなら、本文に相互リンクを足す
-5. npm run blog:gen と npm run chat:gen を実行して push
--->
 
 ## ja
 

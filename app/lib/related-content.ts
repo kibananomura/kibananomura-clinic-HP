@@ -9,7 +9,7 @@ export const RELATED_POSTS_BY_DISEASE: Record<string, string[]> = {
   "wound-care": ["kizu-shoudoku", "shukketsu-shashin-onegai"],
   appendicitis: ["kaicho-mattan-en"],
   "terminal-ileitis": ["kaicho-mattan-en"],
-  influenza: ["influenza-vaccine-mayoi", "furumisuto-hana-no-jotai", "kansen-2026-11"],
+  influenza: ["influenza-vaccine-mayoi", "furumisuto-hana-no-jotai", "kansen-2026-11", "flu-vaccine-timing"],
   "rsv-infection": ["kansen-2026-11"],
   "tick-bite-sfts": ["kansen-2026-11"],
   asthma: ["zensoku-chiryo"],
@@ -20,6 +20,10 @@ export const RELATED_POSTS_BY_DISEASE: Record<string, string[]> = {
   "lumbar-spinal-stenosis": ["shibire-shinkei-saisei"],
   hypertension: ["kouatsu-genryou-fuan", "kouatsu-kusuri-tsuzukeru"],
   dyslipidemia: ["statin-kinniku-houkai"],
+  // 予約公開待ちの記事も先に登録しておく（公開されるまでは表示されない）
+  diabetes: ["tounyoubyou-kankai", "tounyoubyou-shokuji", "ashi-tako-sign"],
+  "hyperuricemia-gout": ["tsuufuu-hossa-timing", "purin-tai-yurai"],
+  "iron-deficiency-anemia": ["tetsu-vitamin-c-ekiden"],
 };
 
 export function getRelatedPostSlugs(diseaseSlug: string): string[] {

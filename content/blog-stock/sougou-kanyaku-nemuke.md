@@ -1,14 +1,15 @@
 ---
-date: 公開日に記入（例 2026.12.13）
+date: 2026.11.15
 cover: /blog/kibana-landscape.jpg
 category_ja: 健康・予防の話
 category_en: Health and prevention
 subcategory_ja: 感染症・ワクチン
 subcategory_en: Infections & vaccines
-title_ja: 残っていた風邪薬を飲んだら、猛烈に眠くなった？〜「総合感冒薬」の中身と、眠気の本当の理由〜
-title_en: Took some leftover cold medicine and got overwhelmingly sleepy? — what's inside a combination cold medicine, and the real reason for the drowsiness
-excerpt_ja: 「熱冷ましのつもりで飲んだだけなのに、気づいたら何時間も寝ていた」——その眠気には、ちゃんとした理由があります。
-excerpt_en: “I only took it to bring my fever down, and the next thing I knew I'd slept for hours.” There's a clear reason for that drowsiness.
+title_ja: "残っていた風邪薬を飲んだら、猛烈に眠くなった？〜「総合感冒薬」の中身と、眠気の本当の理由〜"
+title_en: "Took some leftover cold medicine and got overwhelmingly sleepy? — what's inside a combination cold medicine, and the real reason for the drowsiness"
+excerpt_ja: "「熱冷ましのつもりで飲んだだけなのに、気づいたら何時間も寝ていた」——その眠気には、ちゃんとした理由があります。"
+excerpt_en: "“I only took it to bring my fever down, and the next thing I knew I'd slept for hours.” There's a clear reason for that drowsiness."
+related: [kyonen-no-allergy-kusuri, kaze-taisho-ryoho, kansen-2026-11]
 sources:
   - label: "日本鼻科学会「鼻アレルギー診療ガイドライン－通年性鼻炎と花粉症－2024年版（改訂第10版）」"
     url: "https://minds.jcqhc.or.jp/guidelines_kind/%E9%BC%BB%E3%82%A2%E3%83%AC%E3%83%AB%E3%82%AE%E3%83%BC/"
@@ -16,14 +17,6 @@ sources:
     url: "https://www.mhlw.go.jp/content/10900000/000573655.pdf"
 ---
 
-<!--
-ストック原稿（未公開）。公開するときは：
-1. date を公開日にする
-2. content/blog/ へ移す
-3. npm run blog:gen と npm run chat:gen を実行して push
-相互リンク：この記事 → kyonen-no-allergy-kusuri・kaze-taisho-ryoho へ貼り済み。
-公開時に kyonen-no-allergy-kusuri の「自己判断で飲むと、ここが危ない」の節末に、この記事へのリンクを1文足す。
--->
 
 ## ja
 

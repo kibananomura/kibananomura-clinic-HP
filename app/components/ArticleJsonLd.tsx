@@ -9,12 +9,14 @@ export default function ArticleJsonLd({
   description,
   cover,
   date, // "YYYY.MM.DD"
+  sources = [],
 }: {
   slug: string;
   title: string;
   description: string;
   cover: string;
   date: string;
+  sources?: { label: string; url?: string }[];
 }) {
   const isoDate = date.replace(/\./g, "-");
   const data = {
@@ -26,6 +28,13 @@ export default function ArticleJsonLd({
     datePublished: isoDate,
     dateModified: isoDate,
     mainEntityOfPage: `${BASE_URL}/blog/${slug}`,
+    ...(sources.length > 0
+      ? {
+          citation: sources.map((s) =>
+            s.url ? { "@type": "CreativeWork", name: s.label, url: s.url } : { "@type": "CreativeWork", name: s.label }
+          ),
+        }
+      : {}),
     author: {
       "@type": "Person",
       name: "野村信介",

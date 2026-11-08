@@ -1,14 +1,15 @@
 ---
-date: 公開日に記入
+date: 2026.11.20
 cover: /blog/kibana-landscape.jpg
 category_ja: 健康・予防の話
 category_en: Health and prevention
 subcategory_ja: 食事・運動
 subcategory_en: Diet & exercise
-title_ja: 1日1万歩じゃなくても大丈夫？〜60歳からは「まず5,000歩」。スマホで楽しく続けるコツ〜
-title_en: Do you really need 10,000 steps a day? — after 60, “start with 5,000,” plus tips for keeping it fun with your smartphone
-excerpt_ja: 「運動しなきゃ」と思うたびに、ちょっと気が重くなる。そんな方に、少し肩の力が抜けるお話です。
-excerpt_en: Every time you think “I should exercise,” you feel a bit weighed down? Here's something to help you relax a little.
+title_ja: "1日1万歩じゃなくても大丈夫？〜60歳からは「まず5,000歩」。スマホで楽しく続けるコツ〜"
+title_en: "Do you really need 10,000 steps a day? — after 60, “start with 5,000,” plus tips for keeping it fun with your smartphone"
+excerpt_ja: "「運動しなきゃ」と思うたびに、ちょっと気が重くなる。そんな方に、少し肩の力が抜けるお話です。"
+excerpt_en: "Every time you think “I should exercise,” you feel a bit weighed down? Here's something to help you relax a little."
+related: [tounyoubyou-kankai, herashitemo-yasenai, ashi-kutsu-erabi]
 sources:
   - label: "Paluch AE, et al. Daily steps and all-cause mortality: a meta-analysis of 15 international cohorts. Lancet Public Health. 2022;7:e219-e228"
     url: "https://doi.org/10.1016/S2468-2667(21)00302-9"
@@ -16,13 +17,6 @@ sources:
     url: "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/kenkou/undou/index.html"
 ---
 
-<!--
-ストック原稿（未公開）。公開するときは：
-1. date を公開日にする
-2. content/blog/ へ移す
-3. 糖尿病の食事・寛解の記事が公開済みなら相互リンクを足す
-4. npm run blog:gen と npm run chat:gen を実行して push
--->
 
 ## ja
 

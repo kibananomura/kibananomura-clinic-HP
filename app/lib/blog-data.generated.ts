@@ -63,7 +63,24 @@ export const generatedPosts: BlogPost[] = [
           "text": "On this blog, I'll gradually share our preparations toward opening, stories about the area, and our thoughts on care. Thank you for reading."
         }
       ]
-    }
+    },
+    "related": [
+      {
+        "slug": "gan-ninteii-koushin",
+        "ja": "「がん治療認定医」を、更新しないと決めた日",
+        "en": "The day I decided not to renew my cancer treatment certification"
+      },
+      {
+        "slug": "i-gekai-kara-kakaritsukei",
+        "ja": "元・胃外科医が、木花で「かかりつけ医」になった理由",
+        "en": "Why a former stomach cancer surgeon chose to become your family doctor, here in Kibana"
+      },
+      {
+        "slug": "hikari-onnetsu-kenkyu",
+        "ja": "「光でがんを温める」研究に打ち込んでいた頃の話",
+        "en": "Back when I was researching how to heat cancer with light"
+      }
+    ]
   },
   {
     "slug": "kibana-no-namae",
@@ -130,7 +147,24 @@ export const generatedPosts: BlogPost[] = [
           "text": "Opening is still a little way off. Until then, I'll keep sharing how the preparations are going, a little at a time. I'm looking forward to the day we meet, here in Kibana."
         }
       ]
-    }
+    },
+    "related": [
+      {
+        "slug": "kinri-no-aru-sekai",
+        "ja": "「金利のある世界」で、覚悟を持って診療所をつくります",
+        "en": "In a world where interest rates are back, we are building this clinic with full commitment"
+      },
+      {
+        "slug": "isseisan-daikangei",
+        "ja": "旅先での体調不良、「一見さん」でも大歓迎です",
+        "en": "Feeling unwell while traveling? First-time visitors are always welcome here"
+      },
+      {
+        "slug": "kansen-dousen-bunri",
+        "ja": "発熱の方の動線を、他の患者さんと完全に分けている理由",
+        "en": "Why we keep patients with a fever completely separate from everyone else"
+      }
+    ]
   },
   {
     "slug": "kansen-2026-07",
@@ -285,7 +319,24 @@ export const generatedPosts: BlogPost[] = [
           "text": "If you're ever unsure whether something is \"worth a visit,\" please don't hesitate to call us. We hope your family has a healthy summer ahead."
         }
       ]
-    }
+    },
+    "related": [
+      {
+        "slug": "kansen-2026-11",
+        "ja": "【続報】宮崎でインフルエンザが例年の約15倍に。RSウイルスも倍増、マダニの感染症にも注意を",
+        "en": "[Update] Flu in Miyazaki is about 15 times the usual level — RSV has doubled, and watch out for tick-borne infections too"
+      },
+      {
+        "slug": "hotai-card",
+        "ja": "とげが刺さったところが、赤く腫れて自然におさまるのはなぜ？〜白血球と、もうひとつの“見えない守り役”補体の話〜",
+        "en": "Why does a splinter spot swell up and then settle down on its own? — white blood cells, and another “invisible guardian” called complement"
+      },
+      {
+        "slug": "legionella",
+        "ja": "温泉や加湿器にもいる「レジオネラ菌」、どんな病気？どう防ぐ？",
+        "en": "Legionella lives in hot springs and humidifiers too — what illness does it cause, and how do you prevent it?"
+      }
+    ]
   },
   {
     "slug": "kara-no-michi",
@@ -376,7 +427,24 @@ export const generatedPosts: BlogPost[] = [
           "text": "Tomorrow, in Part 2, I'll share why I chose to open a clinic now, and a message for students wondering about their own path."
         }
       ]
-    }
+    },
+    "related": [
+      {
+        "slug": "gan-ninteii-koushin",
+        "ja": "「がん治療認定医」を、更新しないと決めた日",
+        "en": "The day I decided not to renew my cancer treatment certification"
+      },
+      {
+        "slug": "i-gekai-kara-kakaritsukei",
+        "ja": "元・胃外科医が、木花で「かかりつけ医」になった理由",
+        "en": "Why a former stomach cancer surgeon chose to become your family doctor, here in Kibana"
+      },
+      {
+        "slug": "hikari-onnetsu-kenkyu",
+        "ja": "「光でがんを温める」研究に打ち込んでいた頃の話",
+        "en": "Back when I was researching how to heat cancer with light"
+      }
+    ]
   },
   {
     "slug": "kara-no-michi-2",
@@ -491,7 +559,24 @@ export const generatedPosts: BlogPost[] = [
           "text": "You'll also find how to join and what you can see on the [observer section of our careers page](/careers#observer). Let's continue the story together on Facebook."
         }
       ]
-    }
+    },
+    "related": [
+      {
+        "slug": "gan-ninteii-koushin",
+        "ja": "「がん治療認定医」を、更新しないと決めた日",
+        "en": "The day I decided not to renew my cancer treatment certification"
+      },
+      {
+        "slug": "i-gekai-kara-kakaritsukei",
+        "ja": "元・胃外科医が、木花で「かかりつけ医」になった理由",
+        "en": "Why a former stomach cancer surgeon chose to become your family doctor, here in Kibana"
+      },
+      {
+        "slug": "hikari-onnetsu-kenkyu",
+        "ja": "「光でがんを温める」研究に打ち込んでいた頃の話",
+        "en": "Back when I was researching how to heat cancer with light"
+      }
+    ]
   },
   {
     "slug": "hikari-onnetsu-kenkyu",
@@ -766,7 +851,24 @@ export const generatedPosts: BlogPost[] = [
           "text": "- Nomura S, et al. Highly reliable, targeted photothermal cancer therapy combined with thermal dosimetry using a near-infrared absorbent. Scientific Reports. 2020;10:9765.\n- Nomura S, et al. Thermal Sensor Circuit Using Thermography for Temperature-Controlled Laser Hyperthermia. Journal of Sensors. 2017;2017:3738046.\n- Nomura S, et al. \"Direction for development of photothermal therapy.\" Japanese Society for Thermal Medicine Newsletter No. 150, \"Recent Topics\" (2021)."
         }
       ]
-    }
+    },
+    "related": [
+      {
+        "slug": "gan-ninteii-koushin",
+        "ja": "「がん治療認定医」を、更新しないと決めた日",
+        "en": "The day I decided not to renew my cancer treatment certification"
+      },
+      {
+        "slug": "i-gekai-kara-kakaritsukei",
+        "ja": "元・胃外科医が、木花で「かかりつけ医」になった理由",
+        "en": "Why a former stomach cancer surgeon chose to become your family doctor, here in Kibana"
+      },
+      {
+        "slug": "kara-no-michi-2",
+        "ja": "外科医から開業医へ（後編）——遠回りのようで、まっすぐだった道のり",
+        "en": "From surgeon to clinic director, Part 2 — a path that looked winding, but wasn't"
+      }
+    ]
   },
   {
     "slug": "ikamera-junbi",
@@ -1059,7 +1161,24 @@ export const generatedPosts: BlogPost[] = [
           "text": "※At our clinic, gastroscopy will be by appointment and performed in the morning. We'll give you individual instructions on food restrictions and medications when you book."
         }
       ]
-    }
+    },
+    "related": [
+      {
+        "slug": "senna-choukirenyou",
+        "ja": "その便秘薬、飲む量が増えていませんか？——センナを毎日続けないほうがよい理由",
+        "en": "Is your laxative dose creeping up? Why senna isn't meant for every day"
+      },
+      {
+        "slug": "ppi-chouki-fukuyou",
+        "ja": "胃酸を抑える薬は長期間飲み続けても大丈夫？〜胃酸の役割と正しい付き合い方〜",
+        "en": "Is it safe to keep taking acid-suppressing stomach medication long term?"
+      },
+      {
+        "slug": "kaicho-mattan-en",
+        "ja": "右下腹部が痛い、もしかして盲腸？——実は多い「回腸末端炎（小腸の出口の炎症）」のこと",
+        "en": "Pain in your lower right belly — is it appendicitis? Meet the often-overlooked “terminal ileitis”"
+      }
+    ]
   },
   {
     "slug": "ikamera-nansai-kara",
@@ -1342,7 +1461,24 @@ export const generatedPosts: BlogPost[] = [
           "text": "Once we open, we plan to offer gastroscopy both for people with symptoms (covered by insurance) and for people without symptoms who want it as a health checkup (self-pay), as well as **stomach cancer risk screening (ABC screening)**, which only requires a blood test. For gastroscopy, we use a thin scope through the nose, without sedation, and if you'd like, I can explain what we're seeing on the monitor during the exam. Even if you just want to ask \"When should I be getting one?\", please feel free to get in touch."
         }
       ]
-    }
+    },
+    "related": [
+      {
+        "slug": "senna-choukirenyou",
+        "ja": "その便秘薬、飲む量が増えていませんか？——センナを毎日続けないほうがよい理由",
+        "en": "Is your laxative dose creeping up? Why senna isn't meant for every day"
+      },
+      {
+        "slug": "ppi-chouki-fukuyou",
+        "ja": "胃酸を抑える薬は長期間飲み続けても大丈夫？〜胃酸の役割と正しい付き合い方〜",
+        "en": "Is it safe to keep taking acid-suppressing stomach medication long term?"
+      },
+      {
+        "slug": "kaicho-mattan-en",
+        "ja": "右下腹部が痛い、もしかして盲腸？——実は多い「回腸末端炎（小腸の出口の炎症）」のこと",
+        "en": "Pain in your lower right belly — is it appendicitis? Meet the often-overlooked “terminal ileitis”"
+      }
+    ]
   },
   {
     "slug": "kaicho-mattan-en",
@@ -1641,7 +1777,24 @@ export const generatedPosts: BlogPost[] = [
           "text": "If pain in your lower right belly, diarrhea or ongoing discomfort won't go away, please don't put up with it. Let's find the cause together."
         }
       ]
-    }
+    },
+    "related": [
+      {
+        "slug": "senna-choukirenyou",
+        "ja": "その便秘薬、飲む量が増えていませんか？——センナを毎日続けないほうがよい理由",
+        "en": "Is your laxative dose creeping up? Why senna isn't meant for every day"
+      },
+      {
+        "slug": "ppi-chouki-fukuyou",
+        "ja": "胃酸を抑える薬は長期間飲み続けても大丈夫？〜胃酸の役割と正しい付き合い方〜",
+        "en": "Is it safe to keep taking acid-suppressing stomach medication long term?"
+      },
+      {
+        "slug": "ikamera-nansai-kara",
+        "ja": "胃カメラは何歳から？どのくらいの間隔で受ければいい？",
+        "en": "When should you start getting gastroscopies — and how often?"
+      }
+    ]
   },
   {
     "slug": "hai-kousankin",
@@ -1991,7 +2144,19 @@ export const generatedPosts: BlogPost[] = [
           "text": "If a cough or phlegm won't go away, or a checkup flagged \"acid-fast bacteria\" or \"further testing needed\" and you're worried, please don't keep it to yourself — feel free to talk to us."
         }
       ]
-    }
+    },
+    "related": [
+      {
+        "slug": "hai-ntm-sho",
+        "ja": "せきが長引く・健診で「影」——結核菌の仲間による肺の病気「肺NTM症」とは？原因・症状と「人にうつるの？」にお答えします",
+        "en": "A lingering cough or a “shadow” on your checkup — what is pulmonary NTM (MAC) disease? Causes, symptoms, and “Is it contagious?”"
+      },
+      {
+        "slug": "zensoku-chiryo",
+        "ja": "「調子がいいから薬やめました」でぜんそくが怖い理由",
+        "en": "Why stopping asthma medicine when you feel fine can be risky"
+      }
+    ]
   },
   {
     "slug": "hai-ntm-sho",
@@ -2365,7 +2530,19 @@ export const generatedPosts: BlogPost[] = [
           "text": "What matters is not to carry it alone, and **to have a doctor who can see you regularly.** Once we open, we plan to make full use of our in-house CT to check the condition of your lungs carefully, working with specialist institutions when needed, and to support you for the long term. If your cough just won't go away, or a checkup found a shadow and you're not sure where to turn, please feel free to talk to us."
         }
       ]
-    }
+    },
+    "related": [
+      {
+        "slug": "hai-kousankin",
+        "ja": "「抗酸菌」は酸を出す最強の菌？——名前のせいで誤解されがちな菌の正体",
+        "en": "Are “acid-fast bacteria” super-germs that spit acid? The truth behind a misleading name"
+      },
+      {
+        "slug": "zensoku-chiryo",
+        "ja": "「調子がいいから薬やめました」でぜんそくが怖い理由",
+        "en": "Why stopping asthma medicine when you feel fine can be risky"
+      }
+    ]
   },
   {
     "slug": "kouatsu-genryou-fuan",
@@ -2528,7 +2705,19 @@ export const generatedPosts: BlogPost[] = [
           "text": "If you can show us your blood pressure log and say, \"it's been running a bit low lately...\" — that genuinely helps us assess where things stand. If anything feels off, please feel free to bring your blood pressure notebook and come talk it over with us anytime."
         }
       ]
-    }
+    },
+    "related": [
+      {
+        "slug": "kouatsu-kusuri-tsuzukeru",
+        "ja": "血圧はもう正常なのに、どうして薬を飲み続けるの？〜「治った」と「薬が支えている」の違い〜",
+        "en": "My blood pressure is normal now — so why do I still need to take my medicine? — the difference between “cured” and “held steady by medicine”"
+      },
+      {
+        "slug": "shita-no-ketsuatsu",
+        "ja": "「上はいいのに、下だけ下がらない」のはなぜ？〜上の血圧と下の血圧、表しているものが違います〜",
+        "en": "“My top number is fine, so why won't the bottom one come down?” — the two numbers measure different things"
+      }
+    ]
   },
   {
     "slug": "statin-kinniku-houkai",
@@ -2707,7 +2896,19 @@ export const generatedPosts: BlogPost[] = [
           "text": "If you're ever unsure whether something is \"just muscle soreness\" or related to your medication, please don't tough it out alone — feel free to bring it up with the director or our staff anytime."
         }
       ]
-    }
+    },
+    "related": [
+      {
+        "slug": "yasete-iru-noni-ldl",
+        "ja": "痩せているのに、なぜコレステロールが高いの？——薬をやめると数値が戻ってしまう本当の理由",
+        "en": "Slim, but high cholesterol? The real reason your numbers bounce back when you stop the medicine"
+      },
+      {
+        "slug": "tomato-juice-ryouba",
+        "ja": "毎日のトマトジュース、実は逆効果かもしれません",
+        "en": "Your daily tomato juice might be working against you"
+      }
+    ]
   },
   {
     "slug": "tomato-juice-ryouba",
@@ -2826,7 +3027,19 @@ export const generatedPosts: BlogPost[] = [
           "text": "If you're not sure which type applies to you, or you're wondering how to adjust your diet based on your checkup results, please feel free to bring those results in and talk it over with us. Let's work together to find an approach that fits your numbers, without being a burden on daily life."
         }
       ]
-    }
+    },
+    "related": [
+      {
+        "slug": "yasete-iru-noni-ldl",
+        "ja": "痩せているのに、なぜコレステロールが高いの？——薬をやめると数値が戻ってしまう本当の理由",
+        "en": "Slim, but high cholesterol? The real reason your numbers bounce back when you stop the medicine"
+      },
+      {
+        "slug": "statin-kinniku-houkai",
+        "ja": "コレステロールの薬で、筋肉が溶けるって本当？〜悪玉コレステロールを下げる薬（スタチン）の疑問と最新医学〜",
+        "en": "Can cholesterol medicine really \"break down\" your muscles? Questions about statins and the latest evidence"
+      }
+    ]
   },
   {
     "slug": "kansen-dousen-bunri",
@@ -2941,7 +3154,24 @@ export const generatedPosts: BlogPost[] = [
           "text": "We'll keep sharing more of what's happening behind the scenes as we move toward opening, so stay tuned."
         }
       ]
-    }
+    },
+    "related": [
+      {
+        "slug": "kinri-no-aru-sekai",
+        "ja": "「金利のある世界」で、覚悟を持って診療所をつくります",
+        "en": "In a world where interest rates are back, we are building this clinic with full commitment"
+      },
+      {
+        "slug": "isseisan-daikangei",
+        "ja": "旅先での体調不良、「一見さん」でも大歓迎です",
+        "en": "Feeling unwell while traveling? First-time visitors are always welcome here"
+      },
+      {
+        "slug": "kibana-no-namae",
+        "ja": "名前に込めた、ふたつの想い",
+        "en": "Two ideas behind our name"
+      }
+    ]
   },
   {
     "slug": "nagaku-tsukiau-iryou",
@@ -3032,7 +3262,30 @@ export const generatedPosts: BlogPost[] = [
           "text": "The thought of \"being on this medication forever\" can feel heavy, but it doesn't mean a lifetime of gritting your teeth. I want to be someone who walks alongside you, at a pace that actually fits your life, for however long that relationship with your own body needs to last. If anything is weighing on you, please don't hesitate to bring it up."
         }
       ]
-    }
+    },
+    "related": [
+      {
+        "slug": "kouatsu-kusuri-tsuzukeru",
+        "ja": "血圧はもう正常なのに、どうして薬を飲み続けるの？〜「治った」と「薬が支えている」の違い〜",
+        "en": "My blood pressure is normal now — so why do I still need to take my medicine? — the difference between “cured” and “held steady by medicine”"
+      },
+      {
+        "slug": "honne-ga-ienai",
+        "ja": "「もうやれることはやったのに」——その言葉、診察室で言っていいんです",
+        "en": "“I've already done everything I can” — it's okay to say that in the exam room"
+      },
+      {
+        "slug": "jushin-meiro",
+        "ja": "「何科に行けばいいかわからない」をなくしたい",
+        "en": "I want to end 'which department do I even go to?'"
+      }
+    ],
+    "upcoming": [
+      {
+        "ja": "同じ言葉なのに、診察室だと心に届くのはなぜ？〜「場」が持つ、もうひとつの治療の力〜",
+        "en": "Why do the same words reach you differently in the exam room? — the other healing power of a “place”"
+      }
+    ]
   },
   {
     "slug": "mainasu-05",
@@ -3115,7 +3368,24 @@ export const generatedPosts: BlogPost[] = [
           "text": "We want Kibana Nomura General Medicine Clinic to be a place where you can bring up those small, easy-to-dismiss concerns without hesitation. We still have a little while to go before opening, and I'll keep sharing how our preparations are coming along, a little at a time."
         }
       ]
-    }
+    },
+    "related": [
+      {
+        "slug": "honne-ga-ienai",
+        "ja": "「もうやれることはやったのに」——その言葉、診察室で言っていいんです",
+        "en": "“I've already done everything I can” — it's okay to say that in the exam room"
+      },
+      {
+        "slug": "jushin-meiro",
+        "ja": "「何科に行けばいいかわからない」をなくしたい",
+        "en": "I want to end 'which department do I even go to?'"
+      },
+      {
+        "slug": "nagaku-tsukiau-iryou",
+        "ja": "「治す」だけでなく、「長く付き合う」医療について",
+        "en": "Medicine isn't only about curing — it's also about staying alongside you"
+      }
+    ]
   },
   {
     "slug": "mainichi-chigau-mono",
@@ -3262,7 +3532,29 @@ export const generatedPosts: BlogPost[] = [
           "text": "If your checkup results weren't great and you're not sure where to start, or if you've been taking supplements but aren't sure they're doing anything, please feel free to come talk it over with us. I won't hand you a list of strict rules. I'd rather work out, together, the smallest step that actually fits your life."
         }
       ]
-    }
+    },
+    "related": [
+      {
+        "slug": "herashitemo-yasenai",
+        "ja": "ご飯を減らしても痩せないのはなぜ？〜40代からは「引き算」より「足し算」のダイエット〜",
+        "en": "Eating less but not losing weight? After 40, it's about adding, not subtracting"
+      },
+      {
+        "slug": "ichinichi-isshoku-yasenai",
+        "ja": "1日一食しか食べてないのに痩せないあなたへ",
+        "en": "To everyone who eats only one meal a day and still can't lose weight"
+      }
+    ],
+    "upcoming": [
+      {
+        "ja": "痛風発作は「尿酸値が上がる時」と「下がる時」、どっちに起きやすい？〜カギは“急な変化”でした〜",
+        "en": "Do gout attacks happen when uric acid goes up, or when it comes down? — the key turns out to be “sudden change”"
+      },
+      {
+        "ja": "プリン体って、あの「プリン」と関係あるの？〜名前の由来と、多い食べ物の意外な共通点〜",
+        "en": "Do purines have anything to do with pudding? — where the name comes from, and what purine-rich foods have in common"
+      }
+    ]
   },
   {
     "slug": "i-gekai-kara-kakaritsukei",
@@ -3345,7 +3637,24 @@ export const generatedPosts: BlogPost[] = [
           "text": "I set down one title: specialist. But I promise you this — I'll remain the family doctor you can count on, closest to home, here in Kibana."
         }
       ]
-    }
+    },
+    "related": [
+      {
+        "slug": "gan-ninteii-koushin",
+        "ja": "「がん治療認定医」を、更新しないと決めた日",
+        "en": "The day I decided not to renew my cancer treatment certification"
+      },
+      {
+        "slug": "hikari-onnetsu-kenkyu",
+        "ja": "「光でがんを温める」研究に打ち込んでいた頃の話",
+        "en": "Back when I was researching how to heat cancer with light"
+      },
+      {
+        "slug": "kara-no-michi-2",
+        "ja": "外科医から開業医へ（後編）——遠回りのようで、まっすぐだった道のり",
+        "en": "From surgeon to clinic director, Part 2 — a path that looked winding, but wasn't"
+      }
+    ]
   },
   {
     "slug": "gan-ninteii-koushin",
@@ -3428,7 +3737,24 @@ export const generatedPosts: BlogPost[] = [
           "text": "I no longer carry the title of cancer specialist. But I promise you this: I'll remain the doctor close to home who takes your everyday worries about your health seriously, with care and precision, just the same."
         }
       ]
-    }
+    },
+    "related": [
+      {
+        "slug": "i-gekai-kara-kakaritsukei",
+        "ja": "元・胃外科医が、木花で「かかりつけ医」になった理由",
+        "en": "Why a former stomach cancer surgeon chose to become your family doctor, here in Kibana"
+      },
+      {
+        "slug": "hikari-onnetsu-kenkyu",
+        "ja": "「光でがんを温める」研究に打ち込んでいた頃の話",
+        "en": "Back when I was researching how to heat cancer with light"
+      },
+      {
+        "slug": "kara-no-michi-2",
+        "ja": "外科医から開業医へ（後編）——遠回りのようで、まっすぐだった道のり",
+        "en": "From surgeon to clinic director, Part 2 — a path that looked winding, but wasn't"
+      }
+    ]
   },
   {
     "slug": "isseisan-daikangei",
@@ -3519,7 +3845,24 @@ export const generatedPosts: BlogPost[] = [
           "text": "Whether it's your everyday health here in the community, or sudden trouble while traveling or staying nearby, please feel free to come to us anytime."
         }
       ]
-    }
+    },
+    "related": [
+      {
+        "slug": "kinri-no-aru-sekai",
+        "ja": "「金利のある世界」で、覚悟を持って診療所をつくります",
+        "en": "In a world where interest rates are back, we are building this clinic with full commitment"
+      },
+      {
+        "slug": "kansen-dousen-bunri",
+        "ja": "発熱の方の動線を、他の患者さんと完全に分けている理由",
+        "en": "Why we keep patients with a fever completely separate from everyone else"
+      },
+      {
+        "slug": "kibana-no-namae",
+        "ja": "名前に込めた、ふたつの想い",
+        "en": "Two ideas behind our name"
+      }
+    ]
   },
   {
     "slug": "tumor-marker-checkup",
@@ -3644,7 +3987,24 @@ export const generatedPosts: BlogPost[] = [
           "text": "Tumor markers were developed mainly to monitor patients already diagnosed with cancer, not as a screening tool for healthy people. That's exactly why more people than you'd expect see an elevated result without having cancer at all. Please don't let a single number weigh on you too heavily — if it's on your mind, don't carry that alone. Come talk to us, and we'll work through what the number means together, and figure out the next step if one's needed."
         }
       ]
-    }
+    },
+    "related": [
+      {
+        "slug": "seijou-no-jouge-fuan",
+        "ja": "健診結果の「正常の上限」、どう考える？",
+        "en": "Your checkup came back \"normal, but at the upper edge\" — what does that mean?"
+      },
+      {
+        "slug": "shibire-shinkei-saisei",
+        "ja": "足のしびれは、治る？残る？〜神経の修復力と、しびれと上手に付き合うということ〜",
+        "en": "Will the numbness in my leg go away, or will it stay? — the nerve's power to repair, and learning to live well with numbness"
+      },
+      {
+        "slug": "kansen-2026-11",
+        "ja": "【続報】宮崎でインフルエンザが例年の約15倍に。RSウイルスも倍増、マダニの感染症にも注意を",
+        "en": "[Update] Flu in Miyazaki is about 15 times the usual level — RSV has doubled, and watch out for tick-borne infections too"
+      }
+    ]
   },
   {
     "slug": "jushin-meiro",
@@ -3839,7 +4199,34 @@ export const generatedPosts: BlogPost[] = [
           "text": "I want to reduce the number of nights in this community spent stuck on \"I don't know which department to go to.\" As we move toward our opening in October 2027, I'll keep sharing our progress here on this blog. Thank you for reading."
         }
       ]
-    }
+    },
+    "related": [
+      {
+        "slug": "honne-ga-ienai",
+        "ja": "「もうやれることはやったのに」——その言葉、診察室で言っていいんです",
+        "en": "“I've already done everything I can” — it's okay to say that in the exam room"
+      },
+      {
+        "slug": "mainasu-05",
+        "ja": "「マイナス0.5」から整える、という考え方",
+        "en": "Tending to the minus 0.5, before it becomes a diagnosis"
+      },
+      {
+        "slug": "nagaku-tsukiau-iryou",
+        "ja": "「治す」だけでなく、「長く付き合う」医療について",
+        "en": "Medicine isn't only about curing — it's also about staying alongside you"
+      }
+    ],
+    "upcoming": [
+      {
+        "ja": "足が痛い、むくむ。でも、何科に行けばいいの？〜日本で遅れていた「足の医療」と、受診のコツ〜",
+        "en": "My feet hurt and swell — but which department should I see? — Japan's late start in “foot medicine,” and tips for getting care"
+      },
+      {
+        "ja": "足が痛いのは、年齢や遺伝のせい？〜外反母趾・扁平足と「靴」の深い関係。子どもの靴選びから見直そう〜",
+        "en": "Is foot pain just age or genes? — the close link between bunions, flat feet and shoes, starting with how we choose children's shoes"
+      }
+    ]
   },
   {
     "slug": "zensoku-chiryo",
@@ -3997,7 +4384,19 @@ export const generatedPosts: BlogPost[] = [
           "text": "If you're ever unsure whether you're using your inhaler correctly, or you'd like to try reducing your medication, please don't stop on your own — come talk to us anytime. Let's work side by side to protect your days of comfortable breathing."
         }
       ]
-    }
+    },
+    "related": [
+      {
+        "slug": "hai-ntm-sho",
+        "ja": "せきが長引く・健診で「影」——結核菌の仲間による肺の病気「肺NTM症」とは？原因・症状と「人にうつるの？」にお答えします",
+        "en": "A lingering cough or a “shadow” on your checkup — what is pulmonary NTM (MAC) disease? Causes, symptoms, and “Is it contagious?”"
+      },
+      {
+        "slug": "hai-kousankin",
+        "ja": "「抗酸菌」は酸を出す最強の菌？——名前のせいで誤解されがちな菌の正体",
+        "en": "Are “acid-fast bacteria” super-germs that spit acid? The truth behind a misleading name"
+      }
+    ]
   },
   {
     "slug": "seikatsu-shukanbyo-gokai",
@@ -4112,7 +4511,25 @@ export const generatedPosts: BlogPost[] = [
           "text": "If you've been flagged at a checkup but can't think of a reason why, or if you're working hard and the numbers still won't change, please don't carry that alone — feel free to come talk with us."
         }
       ]
-    }
+    },
+    "related": [
+      {
+        "slug": "honne-ga-ienai",
+        "ja": "「もうやれることはやったのに」——その言葉、診察室で言っていいんです",
+        "en": "“I've already done everything I can” — it's okay to say that in the exam room"
+      },
+      {
+        "slug": "kouatsu-kusuri-tsuzukeru",
+        "ja": "血圧はもう正常なのに、どうして薬を飲み続けるの？〜「治った」と「薬が支えている」の違い〜",
+        "en": "My blood pressure is normal now — so why do I still need to take my medicine? — the difference between “cured” and “held steady by medicine”"
+      }
+    ],
+    "upcoming": [
+      {
+        "ja": "「糖尿病は一生治らない」は、もう昔の話？〜「寛解」を目指せる時代になりました〜",
+        "en": "“Diabetes never goes away” — is that an old idea now? — remission has become a realistic goal"
+      }
+    ]
   },
   {
     "slug": "kusuri-yamerarenai",
@@ -4251,7 +4668,30 @@ export const generatedPosts: BlogPost[] = [
           "text": "Wouldn't it be nice to aim for a complaint like \"buying new clothes is such a hassle\" together? If you're carrying any of this alone, it might be worth talking it over with your doctor."
         }
       ]
-    }
+    },
+    "related": [
+      {
+        "slug": "kouatsu-kusuri-tsuzukeru",
+        "ja": "血圧はもう正常なのに、どうして薬を飲み続けるの？〜「治った」と「薬が支えている」の違い〜",
+        "en": "My blood pressure is normal now — so why do I still need to take my medicine? — the difference between “cured” and “held steady by medicine”"
+      },
+      {
+        "slug": "yasete-iru-noni-ldl",
+        "ja": "痩せているのに、なぜコレステロールが高いの？——薬をやめると数値が戻ってしまう本当の理由",
+        "en": "Slim, but high cholesterol? The real reason your numbers bounce back when you stop the medicine"
+      },
+      {
+        "slug": "shita-no-ketsuatsu",
+        "ja": "「上はいいのに、下だけ下がらない」のはなぜ？〜上の血圧と下の血圧、表しているものが違います〜",
+        "en": "“My top number is fine, so why won't the bottom one come down?” — the two numbers measure different things"
+      }
+    ],
+    "upcoming": [
+      {
+        "ja": "「糖尿病は一生治らない」は、もう昔の話？〜「寛解」を目指せる時代になりました〜",
+        "en": "“Diabetes never goes away” — is that an old idea now? — remission has become a realistic goal"
+      }
+    ]
   },
   {
     "slug": "ppi-chouki-fukuyou",
@@ -4398,7 +4838,24 @@ export const generatedPosts: BlogPost[] = [
           "text": "If you're ever wondering whether it's right to keep taking your current medication as is, please don't hold back — feel free to bring it up with the director or our staff anytime. Let's work together to find the approach that fits you best right now."
         }
       ]
-    }
+    },
+    "related": [
+      {
+        "slug": "senna-choukirenyou",
+        "ja": "その便秘薬、飲む量が増えていませんか？——センナを毎日続けないほうがよい理由",
+        "en": "Is your laxative dose creeping up? Why senna isn't meant for every day"
+      },
+      {
+        "slug": "kaicho-mattan-en",
+        "ja": "右下腹部が痛い、もしかして盲腸？——実は多い「回腸末端炎（小腸の出口の炎症）」のこと",
+        "en": "Pain in your lower right belly — is it appendicitis? Meet the often-overlooked “terminal ileitis”"
+      },
+      {
+        "slug": "ikamera-nansai-kara",
+        "ja": "胃カメラは何歳から？どのくらいの間隔で受ければいい？",
+        "en": "When should you start getting gastroscopies — and how often?"
+      }
+    ]
   },
   {
     "slug": "kaze-taisho-ryoho",
@@ -4577,7 +5034,30 @@ export const generatedPosts: BlogPost[] = [
           "text": "Wanting relief quickly when you're unwell is only natural. I'd like to stay close to that feeling while we think together about what treatment truly serves not just who you are today, but who you'll need your body to be tomorrow."
         }
       ]
-    }
+    },
+    "related": [
+      {
+        "slug": "kansen-2026-11",
+        "ja": "【続報】宮崎でインフルエンザが例年の約15倍に。RSウイルスも倍増、マダニの感染症にも注意を",
+        "en": "[Update] Flu in Miyazaki is about 15 times the usual level — RSV has doubled, and watch out for tick-borne infections too"
+      },
+      {
+        "slug": "hotai-card",
+        "ja": "とげが刺さったところが、赤く腫れて自然におさまるのはなぜ？〜白血球と、もうひとつの“見えない守り役”補体の話〜",
+        "en": "Why does a splinter spot swell up and then settle down on its own? — white blood cells, and another “invisible guardian” called complement"
+      },
+      {
+        "slug": "legionella",
+        "ja": "温泉や加湿器にもいる「レジオネラ菌」、どんな病気？どう防ぐ？",
+        "en": "Legionella lives in hot springs and humidifiers too — what illness does it cause, and how do you prevent it?"
+      }
+    ],
+    "upcoming": [
+      {
+        "ja": "残っていた風邪薬を飲んだら、猛烈に眠くなった？〜「総合感冒薬」の中身と、眠気の本当の理由〜",
+        "en": "Took some leftover cold medicine and got overwhelmingly sleepy? — what's inside a combination cold medicine, and the real reason for the drowsiness"
+      }
+    ]
   },
   {
     "slug": "influenza-vaccine-mayoi",
@@ -4684,7 +5164,30 @@ export const generatedPosts: BlogPost[] = [
           "text": "Hesitation and all, please feel free to bring it up with me in the exam room. Let's think it through together."
         }
       ]
-    }
+    },
+    "related": [
+      {
+        "slug": "kansen-2026-11",
+        "ja": "【続報】宮崎でインフルエンザが例年の約15倍に。RSウイルスも倍増、マダニの感染症にも注意を",
+        "en": "[Update] Flu in Miyazaki is about 15 times the usual level — RSV has doubled, and watch out for tick-borne infections too"
+      },
+      {
+        "slug": "hotai-card",
+        "ja": "とげが刺さったところが、赤く腫れて自然におさまるのはなぜ？〜白血球と、もうひとつの“見えない守り役”補体の話〜",
+        "en": "Why does a splinter spot swell up and then settle down on its own? — white blood cells, and another “invisible guardian” called complement"
+      },
+      {
+        "slug": "legionella",
+        "ja": "温泉や加湿器にもいる「レジオネラ菌」、どんな病気？どう防ぐ？",
+        "en": "Legionella lives in hot springs and humidifiers too — what illness does it cause, and how do you prevent it?"
+      }
+    ],
+    "upcoming": [
+      {
+        "ja": "インフルエンザワクチン、いつ打つのが一番いい？〜受験や大切な日から「逆算」する接種スケジュール〜",
+        "en": "When is the best time to get a flu shot? — planning backward from exams and other important days"
+      }
+    ]
   },
   {
     "slug": "seijou-no-jouge-fuan",
@@ -4811,7 +5314,30 @@ export const generatedPosts: BlogPost[] = [
           "text": "If you're ever wondering whether something is worth bringing up, please feel free to stop by. Let's start by simply sorting out where things stand right now, together."
         }
       ]
-    }
+    },
+    "related": [
+      {
+        "slug": "tumor-marker-checkup",
+        "ja": "健診のオプションで「腫瘍マーカー」が高かった方へ",
+        "en": "If your optional tumor marker test came back high"
+      },
+      {
+        "slug": "shibire-shinkei-saisei",
+        "ja": "足のしびれは、治る？残る？〜神経の修復力と、しびれと上手に付き合うということ〜",
+        "en": "Will the numbness in my leg go away, or will it stay? — the nerve's power to repair, and learning to live well with numbness"
+      },
+      {
+        "slug": "kansen-2026-11",
+        "ja": "【続報】宮崎でインフルエンザが例年の約15倍に。RSウイルスも倍増、マダニの感染症にも注意を",
+        "en": "[Update] Flu in Miyazaki is about 15 times the usual level — RSV has doubled, and watch out for tick-borne infections too"
+      }
+    ],
+    "upcoming": [
+      {
+        "ja": "鉄分をとっているのに、貧血が良くならない？〜カギはビタミンC。走る子に貧血が多い理由と、まぶたのセルフチェック〜",
+        "en": "Taking iron, but your anemia isn't improving? — vitamin C is the key, plus why young runners often become anemic and a simple eyelid self-check"
+      }
+    ]
   },
   {
     "slug": "shukketsu-shashin-onegai",
@@ -4944,7 +5470,24 @@ export const generatedPosts: BlogPost[] = [
           "text": "Next time you notice something and think, \"wait, is that blood?\" — take a breath, and snap one photo. That small action can genuinely help your care."
         }
       ]
-    }
+    },
+    "related": [
+      {
+        "slug": "kizu-shoudoku",
+        "ja": "すり傷に消毒、実は逆効果？——「洗って、乾かさない」が早くきれいに治すコツ",
+        "en": "Is disinfecting a scrape actually counterproductive? Why “wash it, and don't let it dry out” heals faster and cleaner"
+      },
+      {
+        "slug": "shibire-shinkei-saisei",
+        "ja": "足のしびれは、治る？残る？〜神経の修復力と、しびれと上手に付き合うということ〜",
+        "en": "Will the numbness in my leg go away, or will it stay? — the nerve's power to repair, and learning to live well with numbness"
+      },
+      {
+        "slug": "kansen-2026-11",
+        "ja": "【続報】宮崎でインフルエンザが例年の約15倍に。RSウイルスも倍増、マダニの感染症にも注意を",
+        "en": "[Update] Flu in Miyazaki is about 15 times the usual level — RSV has doubled, and watch out for tick-borne infections too"
+      }
+    ]
   },
   {
     "slug": "furumisuto-hana-no-jotai",
@@ -5126,7 +5669,30 @@ export const generatedPosts: BlogPost[] = [
           "text": "If you're wondering \"Is my child's nose okay for it right now?\" or \"Should we go with the shot or the spray?\", please feel free to ask. Let's think it through together."
         }
       ]
-    }
+    },
+    "related": [
+      {
+        "slug": "kansen-2026-11",
+        "ja": "【続報】宮崎でインフルエンザが例年の約15倍に。RSウイルスも倍増、マダニの感染症にも注意を",
+        "en": "[Update] Flu in Miyazaki is about 15 times the usual level — RSV has doubled, and watch out for tick-borne infections too"
+      },
+      {
+        "slug": "hotai-card",
+        "ja": "とげが刺さったところが、赤く腫れて自然におさまるのはなぜ？〜白血球と、もうひとつの“見えない守り役”補体の話〜",
+        "en": "Why does a splinter spot swell up and then settle down on its own? — white blood cells, and another “invisible guardian” called complement"
+      },
+      {
+        "slug": "legionella",
+        "ja": "温泉や加湿器にもいる「レジオネラ菌」、どんな病気？どう防ぐ？",
+        "en": "Legionella lives in hot springs and humidifiers too — what illness does it cause, and how do you prevent it?"
+      }
+    ],
+    "upcoming": [
+      {
+        "ja": "インフルエンザワクチン、いつ打つのが一番いい？〜受験や大切な日から「逆算」する接種スケジュール〜",
+        "en": "When is the best time to get a flu shot? — planning backward from exams and other important days"
+      }
+    ]
   },
   {
     "slug": "legionella",
@@ -5440,7 +6006,24 @@ export const generatedPosts: BlogPost[] = [
           "text": "If you have **a high fever with no clear cause, a lingering cough, or severe fatigue,** please don't just wait for it to pass — come and see us early. Let's find the cause together."
         }
       ]
-    }
+    },
+    "related": [
+      {
+        "slug": "kansen-2026-11",
+        "ja": "【続報】宮崎でインフルエンザが例年の約15倍に。RSウイルスも倍増、マダニの感染症にも注意を",
+        "en": "[Update] Flu in Miyazaki is about 15 times the usual level — RSV has doubled, and watch out for tick-borne infections too"
+      },
+      {
+        "slug": "hotai-card",
+        "ja": "とげが刺さったところが、赤く腫れて自然におさまるのはなぜ？〜白血球と、もうひとつの“見えない守り役”補体の話〜",
+        "en": "Why does a splinter spot swell up and then settle down on its own? — white blood cells, and another “invisible guardian” called complement"
+      },
+      {
+        "slug": "furumisuto-hana-no-jotai",
+        "ja": "鼻からのインフルエンザワクチン「フルミスト」、鼻水が出ていても大丈夫？",
+        "en": "FluMist, the nasal-spray flu vaccine — is it okay with a runny nose?"
+      }
+    ]
   },
   {
     "slug": "kizu-shoudoku",
@@ -5767,7 +6350,25 @@ export const generatedPosts: BlogPost[] = [
           "text": "If you do get hurt, there's no need to panic. First, **rinse it gently but thoroughly under tap water.** And if you're unsure — \"Does this need stitches?\" \"How should I care for this wound?\" — please feel free to come and see us. As a surgeon, I'm here to help your wounds heal quickly and cleanly."
         }
       ]
-    }
+    },
+    "related": [
+      {
+        "slug": "hotai-card",
+        "ja": "とげが刺さったところが、赤く腫れて自然におさまるのはなぜ？〜白血球と、もうひとつの“見えない守り役”補体の話〜",
+        "en": "Why does a splinter spot swell up and then settle down on its own? — white blood cells, and another “invisible guardian” called complement"
+      },
+      {
+        "slug": "shukketsu-shashin-onegai",
+        "ja": "血が出たら、まずスマホで一枚撮ってください",
+        "en": "If you're bleeding, snap a photo on your phone first"
+      }
+    ],
+    "upcoming": [
+      {
+        "ja": "その足のタコや小さな傷、「たかが」で済ませていませんか？〜足は全身の鏡。今日からできるセルフチェック〜",
+        "en": "Are you brushing off those calluses and small cuts on your feet? — your feet mirror your whole body: a self-check you can start today"
+      }
+    ]
   },
   {
     "slug": "ichinichi-isshoku-yasenai",
@@ -6034,7 +6635,19 @@ export const generatedPosts: BlogPost[] = [
           "text": "Rather than a rapid diet, **gradually getting your body into shape while keeping your metabolism up and protecting your muscles** may look like a detour, but it is the surest path. If you are unsure how to adjust your meals, or if a health check has flagged your blood sugar or weight, please feel free to talk to us. Let's find a way that you can keep up without strain, together."
         }
       ]
-    }
+    },
+    "related": [
+      {
+        "slug": "herashitemo-yasenai",
+        "ja": "ご飯を減らしても痩せないのはなぜ？〜40代からは「引き算」より「足し算」のダイエット〜",
+        "en": "Eating less but not losing weight? After 40, it's about adding, not subtracting"
+      },
+      {
+        "slug": "mainichi-chigau-mono",
+        "ja": "生活習慣病の方の食事指導の実際",
+        "en": "What diet guidance actually looks like for lifestyle-related conditions"
+      }
+    ]
   },
   {
     "slug": "kinri-no-aru-sekai",
@@ -6269,7 +6882,24 @@ export const generatedPosts: BlogPost[] = [
           "text": "Even as times change, one promise stays the same: we will keep facing the health of our community with full commitment. Please keep watching over us until we open."
         }
       ]
-    }
+    },
+    "related": [
+      {
+        "slug": "kansen-dousen-bunri",
+        "ja": "発熱の方の動線を、他の患者さんと完全に分けている理由",
+        "en": "Why we keep patients with a fever completely separate from everyone else"
+      },
+      {
+        "slug": "isseisan-daikangei",
+        "ja": "旅先での体調不良、「一見さん」でも大歓迎です",
+        "en": "Feeling unwell while traveling? First-time visitors are always welcome here"
+      },
+      {
+        "slug": "kibana-no-namae",
+        "ja": "名前に込めた、ふたつの想い",
+        "en": "Two ideas behind our name"
+      }
+    ]
   },
   {
     "slug": "hontou-no-chiryou",
@@ -6544,7 +7174,25 @@ export const generatedPosts: BlogPost[] = [
           "text": "To learn more about [high blood pressure](/diseases/hypertension), [dyslipidemia](/diseases/dyslipidemia) and [diabetes](/diseases/diabetes), please see our disease pages as well. Let's build a healthy future together, without strain."
         }
       ]
-    }
+    },
+    "related": [
+      {
+        "slug": "honne-ga-ienai",
+        "ja": "「もうやれることはやったのに」——その言葉、診察室で言っていいんです",
+        "en": "“I've already done everything I can” — it's okay to say that in the exam room"
+      },
+      {
+        "slug": "yasete-iru-noni-ldl",
+        "ja": "痩せているのに、なぜコレステロールが高いの？——薬をやめると数値が戻ってしまう本当の理由",
+        "en": "Slim, but high cholesterol? The real reason your numbers bounce back when you stop the medicine"
+      }
+    ],
+    "upcoming": [
+      {
+        "ja": "同じ言葉なのに、診察室だと心に届くのはなぜ？〜「場」が持つ、もうひとつの治療の力〜",
+        "en": "Why do the same words reach you differently in the exam room? — the other healing power of a “place”"
+      }
+    ]
   },
   {
     "slug": "senna-choukirenyou",
@@ -6819,7 +7467,24 @@ export const generatedPosts: BlogPost[] = [
           "text": "Even if you've taken senna for years, you can start again today. “I'm taking more than before,” “I'm scared to stop” — please feel free to share those worries with us as they are. See our [constipation page](/diseases/constipation) as well, and talk to us anytime."
         }
       ]
-    }
+    },
+    "related": [
+      {
+        "slug": "ppi-chouki-fukuyou",
+        "ja": "胃酸を抑える薬は長期間飲み続けても大丈夫？〜胃酸の役割と正しい付き合い方〜",
+        "en": "Is it safe to keep taking acid-suppressing stomach medication long term?"
+      },
+      {
+        "slug": "kaicho-mattan-en",
+        "ja": "右下腹部が痛い、もしかして盲腸？——実は多い「回腸末端炎（小腸の出口の炎症）」のこと",
+        "en": "Pain in your lower right belly — is it appendicitis? Meet the often-overlooked “terminal ileitis”"
+      },
+      {
+        "slug": "ikamera-nansai-kara",
+        "ja": "胃カメラは何歳から？どのくらいの間隔で受ければいい？",
+        "en": "When should you start getting gastroscopies — and how often?"
+      }
+    ]
   },
   {
     "slug": "kyonen-no-allergy-kusuri",
@@ -7190,7 +7855,30 @@ export const generatedPosts: BlogPost[] = [
           "text": "If you feel “my medicine isn't working this year,” or you're unsure how to take what you have at home, please feel free to talk to us. Let's choose the right medicine for your symptoms right now, together."
         }
       ]
-    }
+    },
+    "related": [
+      {
+        "slug": "shibire-shinkei-saisei",
+        "ja": "足のしびれは、治る？残る？〜神経の修復力と、しびれと上手に付き合うということ〜",
+        "en": "Will the numbness in my leg go away, or will it stay? — the nerve's power to repair, and learning to live well with numbness"
+      },
+      {
+        "slug": "kansen-2026-11",
+        "ja": "【続報】宮崎でインフルエンザが例年の約15倍に。RSウイルスも倍増、マダニの感染症にも注意を",
+        "en": "[Update] Flu in Miyazaki is about 15 times the usual level — RSV has doubled, and watch out for tick-borne infections too"
+      },
+      {
+        "slug": "kouatsu-kusuri-tsuzukeru",
+        "ja": "血圧はもう正常なのに、どうして薬を飲み続けるの？〜「治った」と「薬が支えている」の違い〜",
+        "en": "My blood pressure is normal now — so why do I still need to take my medicine? — the difference between “cured” and “held steady by medicine”"
+      }
+    ],
+    "upcoming": [
+      {
+        "ja": "残っていた風邪薬を飲んだら、猛烈に眠くなった？〜「総合感冒薬」の中身と、眠気の本当の理由〜",
+        "en": "Took some leftover cold medicine and got overwhelmingly sleepy? — what's inside a combination cold medicine, and the real reason for the drowsiness"
+      }
+    ]
   },
   {
     "slug": "honne-ga-ienai",
@@ -7393,7 +8081,30 @@ export const generatedPosts: BlogPost[] = [
           "text": "“I've already done everything I can” — you're welcome to say that at the start of a visit, not the end. From there, let's think together about what's possible in your life right now. [The real treatment for lifestyle diseases happens outside the exam room](/blog/hontou-no-chiryou) — and that's exactly why I want the exam room to be a place where you can share any feeling with peace of mind."
         }
       ]
-    }
+    },
+    "related": [
+      {
+        "slug": "yasete-iru-noni-ldl",
+        "ja": "痩せているのに、なぜコレステロールが高いの？——薬をやめると数値が戻ってしまう本当の理由",
+        "en": "Slim, but high cholesterol? The real reason your numbers bounce back when you stop the medicine"
+      },
+      {
+        "slug": "seikatsu-shukanbyo-gokai",
+        "ja": "「生活習慣病」のレッテルで、ご自身を責めないでください",
+        "en": "Please don't blame yourself for the label \"lifestyle disease\""
+      },
+      {
+        "slug": "hontou-no-chiryou",
+        "ja": "生活習慣病の本当の治療は、診察室の外にあります",
+        "en": "The real treatment for lifestyle diseases happens outside the consultation room"
+      }
+    ],
+    "upcoming": [
+      {
+        "ja": "同じ言葉なのに、診察室だと心に届くのはなぜ？〜「場」が持つ、もうひとつの治療の力〜",
+        "en": "Why do the same words reach you differently in the exam room? — the other healing power of a “place”"
+      }
+    ]
   },
   {
     "slug": "yasete-iru-noni-ldl",
@@ -7596,7 +8307,35 @@ export const generatedPosts: BlogPost[] = [
           "text": "Please don't stop on your own or worry alone. Talk to us anytime, and let's keep you in a safe balance together."
         }
       ]
-    }
+    },
+    "related": [
+      {
+        "slug": "honne-ga-ienai",
+        "ja": "「もうやれることはやったのに」——その言葉、診察室で言っていいんです",
+        "en": "“I've already done everything I can” — it's okay to say that in the exam room"
+      },
+      {
+        "slug": "hontou-no-chiryou",
+        "ja": "生活習慣病の本当の治療は、診察室の外にあります",
+        "en": "The real treatment for lifestyle diseases happens outside the consultation room"
+      },
+      {
+        "slug": "kusuri-yamerarenai",
+        "ja": "「お薬は一生やめられない」は誤解です",
+        "en": "'Once you start, you can never stop' is a myth"
+      },
+      {
+        "slug": "statin-kinniku-houkai",
+        "ja": "コレステロールの薬で、筋肉が溶けるって本当？〜悪玉コレステロールを下げる薬（スタチン）の疑問と最新医学〜",
+        "en": "Can cholesterol medicine really \"break down\" your muscles? Questions about statins and the latest evidence"
+      }
+    ],
+    "upcoming": [
+      {
+        "ja": "プリン体って、あの「プリン」と関係あるの？〜名前の由来と、多い食べ物の意外な共通点〜",
+        "en": "Do purines have anything to do with pudding? — where the name comes from, and what purine-rich foods have in common"
+      }
+    ]
   },
   {
     "slug": "shita-no-ketsuatsu",
@@ -7767,7 +8506,19 @@ export const generatedPosts: BlogPost[] = [
           "text": "Your top number coming down is the result of the treatment you've kept up. Let's work on the bottom number together too — without rushing, starting with what you can do."
         }
       ]
-    }
+    },
+    "related": [
+      {
+        "slug": "kusuri-yamerarenai",
+        "ja": "「お薬は一生やめられない」は誤解です",
+        "en": "'Once you start, you can never stop' is a myth"
+      },
+      {
+        "slug": "kouatsu-genryou-fuan",
+        "ja": "血圧が低いけれど、お薬を減らしても大丈夫？〜減量の目安とよくある不安〜",
+        "en": "My blood pressure is running low — is it okay to cut back on medication?"
+      }
+    ]
   },
   {
     "slug": "herashitemo-yasenai",
@@ -8046,7 +8797,29 @@ export const generatedPosts: BlogPost[] = [
           "text": "If the finger-ring test gave you a result that worries you, or you're unsure “what and how much to eat” or “what exercise I could keep up,” please feel free to come and talk with us. Let's find an approach that fits your life, together."
         }
       ]
-    }
+    },
+    "related": [
+      {
+        "slug": "ichinichi-isshoku-yasenai",
+        "ja": "1日一食しか食べてないのに痩せないあなたへ",
+        "en": "To everyone who eats only one meal a day and still can't lose weight"
+      },
+      {
+        "slug": "mainichi-chigau-mono",
+        "ja": "生活習慣病の方の食事指導の実際",
+        "en": "What diet guidance actually looks like for lifestyle-related conditions"
+      }
+    ],
+    "upcoming": [
+      {
+        "ja": "糖尿病だから、ご飯は抜くべき？〜「我慢の食事」から「しっかり食べて体を守る食事」へ〜",
+        "en": "I have diabetes — should I skip rice? — from “eating by enduring” to “eating well to protect your body”"
+      },
+      {
+        "ja": "1日1万歩じゃなくても大丈夫？〜60歳からは「まず5,000歩」。スマホで楽しく続けるコツ〜",
+        "en": "Do you really need 10,000 steps a day? — after 60, “start with 5,000,” plus tips for keeping it fun with your smartphone"
+      }
+    ]
   },
   {
     "slug": "hotai-card",
@@ -8285,7 +9058,24 @@ export const generatedPosts: BlogPost[] = [
           "text": "When you're unsure whether something is “worth seeing a doctor for,” that's when I want to be a place you can casually ask. Once we open, Kibana Nomura General Medicine Clinic will support everyone's daily life, close to home."
         }
       ]
-    }
+    },
+    "related": [
+      {
+        "slug": "kizu-shoudoku",
+        "ja": "すり傷に消毒、実は逆効果？——「洗って、乾かさない」が早くきれいに治すコツ",
+        "en": "Is disinfecting a scrape actually counterproductive? Why “wash it, and don't let it dry out” heals faster and cleaner"
+      },
+      {
+        "slug": "kansen-2026-11",
+        "ja": "【続報】宮崎でインフルエンザが例年の約15倍に。RSウイルスも倍増、マダニの感染症にも注意を",
+        "en": "[Update] Flu in Miyazaki is about 15 times the usual level — RSV has doubled, and watch out for tick-borne infections too"
+      },
+      {
+        "slug": "legionella",
+        "ja": "温泉や加湿器にもいる「レジオネラ菌」、どんな病気？どう防ぐ？",
+        "en": "Legionella lives in hot springs and humidifiers too — what illness does it cause, and how do you prevent it?"
+      }
+    ]
   },
   {
     "slug": "kouatsu-kusuri-tsuzukeru",
@@ -8496,7 +9286,29 @@ export const generatedPosts: BlogPost[] = [
           "text": "Before you stop on your own, would you show me your current lifestyle and your blood pressure log? Telling me “here's what I've been working on lately” is valuable information too. Let's talk through your treatment plan together."
         }
       ]
-    }
+    },
+    "related": [
+      {
+        "slug": "kouatsu-genryou-fuan",
+        "ja": "血圧が低いけれど、お薬を減らしても大丈夫？〜減量の目安とよくある不安〜",
+        "en": "My blood pressure is running low — is it okay to cut back on medication?"
+      },
+      {
+        "slug": "seikatsu-shukanbyo-gokai",
+        "ja": "「生活習慣病」のレッテルで、ご自身を責めないでください",
+        "en": "Please don't blame yourself for the label \"lifestyle disease\""
+      },
+      {
+        "slug": "kusuri-yamerarenai",
+        "ja": "「お薬は一生やめられない」は誤解です",
+        "en": "'Once you start, you can never stop' is a myth"
+      },
+      {
+        "slug": "nagaku-tsukiau-iryou",
+        "ja": "「治す」だけでなく、「長く付き合う」医療について",
+        "en": "Medicine isn't only about curing — it's also about staying alongside you"
+      }
+    ]
   },
   {
     "slug": "kansen-2026-11",
@@ -8695,7 +9507,29 @@ export const generatedPosts: BlogPost[] = [
           "text": "Toward the end of the year, there will be more occasions when people gather. When you're unsure whether something is “worth seeing a doctor for,” that's exactly when to feel free to ask. I hope your whole family welcomes winter in good health."
         }
       ]
-    }
+    },
+    "related": [
+      {
+        "slug": "kansen-2026-07",
+        "ja": "宮崎県内で今、増えている感染症は？ 夏に気をつけたいこと",
+        "en": "What infections are on the rise in Miyazaki right now? Things to watch for this summer"
+      },
+      {
+        "slug": "influenza-vaccine-mayoi",
+        "ja": "インフルエンザワクチン、打つべきか迷っているあなたへ",
+        "en": "Still unsure about the flu shot? Here's how to think about it"
+      }
+    ],
+    "upcoming": [
+      {
+        "ja": "インフルエンザワクチン、いつ打つのが一番いい？〜受験や大切な日から「逆算」する接種スケジュール〜",
+        "en": "When is the best time to get a flu shot? — planning backward from exams and other important days"
+      },
+      {
+        "ja": "残っていた風邪薬を飲んだら、猛烈に眠くなった？〜「総合感冒薬」の中身と、眠気の本当の理由〜",
+        "en": "Took some leftover cold medicine and got overwhelmingly sleepy? — what's inside a combination cold medicine, and the real reason for the drowsiness"
+      }
+    ]
   },
   {
     "slug": "shibire-shinkei-saisei",
@@ -8905,6 +9739,29 @@ export const generatedPosts: BlogPost[] = [
           "text": "What matters is not putting up with it alone. How have the location and strength of your numbness changed? What's giving you trouble in daily life? Let's talk those things through and set goals that feel realistic for you, together."
         }
       ]
-    }
+    },
+    "related": [
+      {
+        "slug": "kansen-2026-11",
+        "ja": "【続報】宮崎でインフルエンザが例年の約15倍に。RSウイルスも倍増、マダニの感染症にも注意を",
+        "en": "[Update] Flu in Miyazaki is about 15 times the usual level — RSV has doubled, and watch out for tick-borne infections too"
+      },
+      {
+        "slug": "kouatsu-kusuri-tsuzukeru",
+        "ja": "血圧はもう正常なのに、どうして薬を飲み続けるの？〜「治った」と「薬が支えている」の違い〜",
+        "en": "My blood pressure is normal now — so why do I still need to take my medicine? — the difference between “cured” and “held steady by medicine”"
+      },
+      {
+        "slug": "hotai-card",
+        "ja": "とげが刺さったところが、赤く腫れて自然におさまるのはなぜ？〜白血球と、もうひとつの“見えない守り役”補体の話〜",
+        "en": "Why does a splinter spot swell up and then settle down on its own? — white blood cells, and another “invisible guardian” called complement"
+      }
+    ],
+    "upcoming": [
+      {
+        "ja": "足が痛い、むくむ。でも、何科に行けばいいの？〜日本で遅れていた「足の医療」と、受診のコツ〜",
+        "en": "My feet hurt and swell — but which department should I see? — Japan's late start in “foot medicine,” and tips for getting care"
+      }
+    ]
   }
 ];

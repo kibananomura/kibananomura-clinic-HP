@@ -19,6 +19,8 @@ export type BlogPost = {
   cover: string;
   coverPosition?: string; // Tailwind object-position クラス（既定: object-center）
   sources?: { label: string; url?: string }[]; // 参考にした資料（記事末尾に表示）
+  related?: { slug: string; ja: string; en: string }[]; // 関連する院長ブログ（記事末尾に表示、生成時に自動計算）
+  upcoming?: { ja: string; en: string }[]; // 関連する「近日公開予定」の記事（予約公開待ち）
   ja: BlogContent;
   en: BlogContent;
 };

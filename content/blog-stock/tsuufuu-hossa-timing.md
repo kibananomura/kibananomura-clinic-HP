@@ -1,27 +1,20 @@
 ---
-date: 公開日に記入（例 2026.11.15）
+date: 2026.11.11
 cover: /blog/kibana-landscape.jpg
 category_ja: 健康・予防の話
 category_en: Health and prevention
 subcategory_ja: コレステロール・尿酸
 subcategory_en: Cholesterol & uric acid
-title_ja: 痛風発作は「尿酸値が上がる時」と「下がる時」、どっちに起きやすい？〜カギは“急な変化”でした〜
-title_en: Do gout attacks happen when uric acid goes up, or when it comes down? — the key turns out to be “sudden change”
-excerpt_ja: 「薬で尿酸値を下げ始めたのに、かえって痛風発作が起きた」——実は痛風発作は、尿酸値が急に下がったときにも起きやすいのです。
-excerpt_en: “I started medicine to lower my uric acid, and then I had a gout attack.” In fact, gout attacks also tend to happen when uric acid drops quickly.
+title_ja: "痛風発作は「尿酸値が上がる時」と「下がる時」、どっちに起きやすい？〜カギは“急な変化”でした〜"
+title_en: "Do gout attacks happen when uric acid goes up, or when it comes down? — the key turns out to be “sudden change”"
+excerpt_ja: "「薬で尿酸値を下げ始めたのに、かえって痛風発作が起きた」——実は痛風発作は、尿酸値が急に下がったときにも起きやすいのです。"
+excerpt_en: "“I started medicine to lower my uric acid, and then I had a gout attack.” In fact, gout attacks also tend to happen when uric acid drops quickly."
+related: [purin-tai-yurai, mainichi-chigau-mono]
 sources:
   - label: "日本痛風・尿酸核酸学会「高尿酸血症・痛風の治療ガイドライン第3版」"
     url: "https://minds.jcqhc.or.jp/summary/c00476/"
 ---
 
-<!--
-ストック原稿（未公開）。公開するときは：
-1. date を公開日にする
-2. content/blog/ へ移す
-3. app/lib/related-content.ts の "hyperuricemia-gout" にこの slug を足す
-4. プリン体の記事（blog-stock/purin-tai-yurai.md）が先に公開済みなら、「急にやりすぎない」の段落に相互リンクを足す
-5. npm run blog:gen と npm run chat:gen を実行して push
--->
 
 ## ja
 

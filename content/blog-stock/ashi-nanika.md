@@ -1,14 +1,15 @@
 ---
-date: 公開日に記入
+date: 2026.11.10
 cover: /blog/kibana-landscape.jpg
 category_ja: 健康・予防の話
 category_en: Health and prevention
 subcategory_ja: 足の健康
 subcategory_en: Foot health
-title_ja: 足が痛い、むくむ。でも、何科に行けばいいの？〜日本で遅れていた「足の医療」と、受診のコツ〜
-title_en: My feet hurt and swell — but which department should I see? — Japan's late start in “foot medicine,” and tips for getting care
-excerpt_ja: 足の痛み、しびれ、むくみ、タコ、爪のトラブル。「何科に行けばいいのか分からなくて」と、我慢していませんか。
-excerpt_en: Foot pain, numbness, swelling, calluses, nail problems — are you putting up with them because you don't know where to go?
+title_ja: "足が痛い、むくむ。でも、何科に行けばいいの？〜日本で遅れていた「足の医療」と、受診のコツ〜"
+title_en: "My feet hurt and swell — but which department should I see? — Japan's late start in “foot medicine,” and tips for getting care"
+excerpt_ja: "足の痛み、しびれ、むくみ、タコ、爪のトラブル。「何科に行けばいいのか分からなくて」と、我慢していませんか。"
+excerpt_en: "Foot pain, numbness, swelling, calluses, nail problems — are you putting up with them because you don't know where to go?"
+related: [ashi-tako-sign, ashi-kutsu-erabi, jushin-meiro, shibire-shinkei-saisei]
 sources:
   - label: "日本フットケア・足病医学会「学会について」"
     url: "https://jfcpm.org/outline.html"
@@ -18,13 +19,6 @@ sources:
     url: "https://www.j-circ.or.jp/cms/wp-content/uploads/2022/03/JCS2022_Azuma.pdf"
 ---
 
-<!--
-ストック原稿（未公開）。公開するときは：
-1. date を公開日にする
-2. content/blog/ へ移す
-3. 足の3本（ashi-nanika・ashi-tako-sign・ashi-kutsu-erabi）のうち公開済みのものどうしで、本文末に相互リンクを足す
-4. npm run blog:gen と npm run chat:gen を実行して push
--->
 
 ## ja
 

@@ -1,14 +1,15 @@
 ---
-date: 公開日に記入
+date: 2026.11.14
 cover: /blog/kibana-landscape.jpg
 category_ja: 健康・予防の話
 category_en: Health and prevention
 subcategory_ja: 足の健康
 subcategory_en: Foot health
-title_ja: その足のタコや小さな傷、「たかが」で済ませていませんか？〜足は全身の鏡。今日からできるセルフチェック〜
-title_en: Are you brushing off those calluses and small cuts on your feet? — your feet mirror your whole body: a self-check you can start today
-excerpt_ja: 足のタコやウオノメ、小さな傷。忙しいと、ついそのままにしてしまいますよね。でも、その小さなトラブルが、大切なサインのことがあります。
-excerpt_en: Calluses, corns and small cuts on your feet — when you're busy, it's easy to leave them be. But those small troubles can be important signs.
+title_ja: "その足のタコや小さな傷、「たかが」で済ませていませんか？〜足は全身の鏡。今日からできるセルフチェック〜"
+title_en: "Are you brushing off those calluses and small cuts on your feet? — your feet mirror your whole body: a self-check you can start today"
+excerpt_ja: "足のタコやウオノメ、小さな傷。忙しいと、ついそのままにしてしまいますよね。でも、その小さなトラブルが、大切なサインのことがあります。"
+excerpt_en: "Calluses, corns and small cuts on your feet — when you're busy, it's easy to leave them be. But those small troubles can be important signs."
+related: [ashi-nanika, ashi-kutsu-erabi, tounyoubyou-kankai, kizu-shoudoku]
 sources:
   - label: "日本フットケア・足病医学会「重症化予防のための足病診療ガイドライン」"
     url: "https://jfcpm.org/guideline.html"
@@ -18,14 +19,6 @@ sources:
     url: "https://minds.jcqhc.or.jp/summary/c00864/"
 ---
 
-<!--
-ストック原稿（未公開）。公開するときは：
-1. date を公開日にする
-2. content/blog/ へ移す
-3. app/lib/related-content.ts の "diabetes" にこの slug を足す
-4. 足の3本のうち公開済みのものどうしで、本文末に相互リンクを足す
-5. npm run blog:gen と npm run chat:gen を実行して push
--->
 
 ## ja
 

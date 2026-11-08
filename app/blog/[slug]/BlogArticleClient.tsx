@@ -136,6 +136,45 @@ export default function BlogArticle({ relatedDiseases = [] }: { relatedDiseases?
             </div>
           )}
 
+          {((post.related && post.related.length > 0) || (post.upcoming && post.upcoming.length > 0)) && (
+            <div className="mt-6 rounded-3xl bg-surface/90 p-6 shadow-card sm:p-7">
+              <p className="text-base font-bold text-primary-dark">
+                {lang === "en" ? "Related posts from the director" : "関連する院長ブログ"}
+              </p>
+              <ul className="mt-3 space-y-2">
+                {post.related?.map((r) => (
+                  <li key={r.slug}>
+                    <Link
+                      href={`/blog/${r.slug}`}
+                      className="flex items-center justify-between gap-3 rounded-2xl border border-primary/15 px-4 py-3 text-sm font-bold text-ink transition-colors hover:bg-accent/60 hover:text-primary-dark"
+                    >
+                      <span className="jp-wrap">{withWbr(lang === "en" ? r.en : r.ja)}</span>
+                      <span aria-hidden="true" className="shrink-0 text-primary">→</span>
+                    </Link>
+                  </li>
+                ))}
+                {post.upcoming?.map((u) => (
+                  <li
+                    key={u.ja}
+                    className="flex flex-col items-start gap-1.5 rounded-2xl border border-dashed border-primary/25 px-4 py-3 text-sm text-ink/60"
+                  >
+                    <span className="shrink-0 rounded-full bg-accent px-2.5 py-0.5 text-xs font-bold text-primary-dark">
+                      {lang === "en" ? "Coming soon" : "近日公開"}
+                    </span>
+                    <span className="jp-wrap">{withWbr(lang === "en" ? u.en : u.ja)}</span>
+                  </li>
+                ))}
+              </ul>
+              {post.upcoming && post.upcoming.length > 0 && (
+                <p className="mt-3 text-xs leading-relaxed text-ink/45">
+                  {lang === "en"
+                    ? "Upcoming posts and their order may change."
+                    : "公開予定の記事や順番は、変わることがあります。"}
+                </p>
+              )}
+            </div>
+          )}
+
           <BlogFeedback slug={post.slug} className="mt-12" />
 
           <BlogRequestNote className="mt-6" />

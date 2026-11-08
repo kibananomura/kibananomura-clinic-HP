@@ -1,27 +1,20 @@
 ---
-date: 公開日に記入（例 2026.11.22）
+date: 2026.11.16
 cover: /blog/kibana-landscape.jpg
 category_ja: 健康・予防の話
 category_en: Health and prevention
 subcategory_ja: コレステロール・尿酸
 subcategory_en: Cholesterol & uric acid
-title_ja: プリン体って、あの「プリン」と関係あるの？〜名前の由来と、多い食べ物の意外な共通点〜
-title_en: Do purines have anything to do with pudding? — where the name comes from, and what purine-rich foods have in common
-excerpt_ja: 「先生、プリンを食べすぎると痛風になるんですか？」——実は、プリン体とデザートのプリンは、名前が似ているだけのまったくの別物です。
-excerpt_en: “Doctor, can eating too much pudding give me gout?” In fact, purines and the dessert called “purin” in Japanese just happen to sound alike — they're completely different things.
+title_ja: "プリン体って、あの「プリン」と関係あるの？〜名前の由来と、多い食べ物の意外な共通点〜"
+title_en: "Do purines have anything to do with pudding? — where the name comes from, and what purine-rich foods have in common"
+excerpt_ja: "「先生、プリンを食べすぎると痛風になるんですか？」——実は、プリン体とデザートのプリンは、名前が似ているだけのまったくの別物です。"
+excerpt_en: "“Doctor, can eating too much pudding give me gout?” In fact, purines and the dessert called “purin” in Japanese just happen to sound alike — they're completely different things."
+related: [tsuufuu-hossa-timing, mainichi-chigau-mono, yasete-iru-noni-ldl]
 sources:
   - label: "日本痛風・尿酸核酸学会「高尿酸血症・痛風の治療ガイドライン第3版」"
     url: "https://minds.jcqhc.or.jp/summary/c00476/"
 ---
 
-<!--
-ストック原稿（未公開）。公開するときは：
-1. date を公開日にする
-2. content/blog/ へ移す
-3. app/lib/related-content.ts の "hyperuricemia-gout" にこの slug を足す
-4. 痛風発作の記事（blog-stock/tsuufuu-hossa-timing.md）が先に公開済みなら、本文の最後の段落に相互リンクを足す
-5. npm run blog:gen と npm run chat:gen を実行して push
--->
 
 ## ja
 

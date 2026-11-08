@@ -1,14 +1,15 @@
 ---
-date: 公開日に記入
+date: 2026.11.19
 cover: /blog/kibana-landscape.jpg
 category_ja: 健康・予防の話
 category_en: Health and prevention
 subcategory_ja: 足の健康
 subcategory_en: Foot health
-title_ja: 足が痛いのは、年齢や遺伝のせい？〜外反母趾・扁平足と「靴」の深い関係。子どもの靴選びから見直そう〜
-title_en: Is foot pain just age or genes? — the close link between bunions, flat feet and shoes, starting with how we choose children's shoes
-excerpt_ja: おしゃれな靴を履きたいのに、すぐ足が痛くなる。子どもの靴、どれを選べばいいのか分からない。その悩み、「靴」から見直すと変わるかもしれません。
-excerpt_en: You want to wear stylish shoes, but your feet soon start to hurt. You're not sure which shoes to choose for your child. Rethinking “shoes” may change things.
+title_ja: "足が痛いのは、年齢や遺伝のせい？〜外反母趾・扁平足と「靴」の深い関係。子どもの靴選びから見直そう〜"
+title_en: "Is foot pain just age or genes? — the close link between bunions, flat feet and shoes, starting with how we choose children's shoes"
+excerpt_ja: "おしゃれな靴を履きたいのに、すぐ足が痛くなる。子どもの靴、どれを選べばいいのか分からない。その悩み、「靴」から見直すと変わるかもしれません。"
+excerpt_en: "You want to wear stylish shoes, but your feet soon start to hurt. You're not sure which shoes to choose for your child. Rethinking “shoes” may change things."
+related: [ashi-nanika, ashi-tako-sign, hosuu-5000]
 sources:
   - label: "日本フットケア・足病医学会『小児靴の手引き書 第二版 2024』"
     url: "https://jfcpm.org/news/children_shoe_tebiki.html"
@@ -16,13 +17,6 @@ sources:
     url: "https://jfcpm.org/outline.html"
 ---
 
-<!--
-ストック原稿（未公開）。公開するときは：
-1. date を公開日にする
-2. content/blog/ へ移す
-3. 足の3本のうち公開済みのものどうしで、本文末に相互リンクを足す
-4. npm run blog:gen と npm run chat:gen を実行して push
--->
 
 ## ja
 

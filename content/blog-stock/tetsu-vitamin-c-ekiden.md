@@ -1,14 +1,15 @@
 ---
-date: 公開日に記入（例 2026.12.06）
+date: 2026.11.17
 cover: /blog/kibana-landscape.jpg
 category_ja: 健康・予防の話
 category_en: Health and prevention
 subcategory_ja: 健診・検査
 subcategory_en: Checkups & tests
-title_ja: 鉄分をとっているのに、貧血が良くならない？〜カギはビタミンC。走る子に貧血が多い理由と、まぶたのセルフチェック〜
-title_en: Taking iron, but your anemia isn't improving? — vitamin C is the key, plus why young runners often become anemic and a simple eyelid self-check
-excerpt_ja: 「貧血なので、鉄分をたくさんとっています！」——その心がけ、ちょっとした組み合わせの工夫で、もっと生かせるかもしれません。
-excerpt_en: “I'm anemic, so I'm getting lots of iron!” A small change in what you pair it with may help that effort go further.
+title_ja: "鉄分をとっているのに、貧血が良くならない？〜カギはビタミンC。走る子に貧血が多い理由と、まぶたのセルフチェック〜"
+title_en: "Taking iron, but your anemia isn't improving? — vitamin C is the key, plus why young runners often become anemic and a simple eyelid self-check"
+excerpt_ja: "「貧血なので、鉄分をたくさんとっています！」——その心がけ、ちょっとした組み合わせの工夫で、もっと生かせるかもしれません。"
+excerpt_en: "“I'm anemic, so I'm getting lots of iron!” A small change in what you pair it with may help that effort go further."
+related: [seijou-no-jouge-fuan, hosuu-5000]
 sources:
   - label: "日本鉄バイオサイエンス学会「鉄欠乏性貧血の診療指針」（2024年改訂）"
   - label: "Hallberg L, et al. Iron absorption in man: ascorbic acid and dose-dependent inhibition by phytate. Am J Clin Nutr. 1989;49:140-144"
@@ -16,13 +17,6 @@ sources:
   - label: "日本陸上競技連盟「アスリートの貧血対処7か条」（2016年）"
 ---
 
-<!--
-ストック原稿（未公開）。公開するときは：
-1. date を公開日にする
-2. content/blog/ へ移す
-3. app/lib/related-content.ts に "iron-deficiency-anemia": ["tetsu-vitamin-c-ekiden"] を足す
-4. npm run blog:gen と npm run chat:gen を実行して push
--->
 
 ## ja
 

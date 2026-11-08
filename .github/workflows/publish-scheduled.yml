@@ -1,0 +1,44 @@
+# 院長ブログの予約公開
+# 毎朝5時（日本時間）に、content/blog-stock/ のうち公開日が来た原稿を content/blog/ へ移して push する。
+# push されると Vercel が自動でビルドし、ビルド前の prebuild（blog:gen）で記事一覧に載る。
+name: 院長ブログの予約公開
+
+on:
+  schedule:
+    - cron: "0 20 * * *" # 20:00 UTC = 翌5:00 JST
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: publish-scheduled
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: 公開日が来た原稿を移す
+        id: move
+        run: |
+          moved="$(node scripts/publish-scheduled.mjs)"
+          echo "$moved"
+          {
+            echo "moved<<EOF"
+            echo "$moved"
+            echo "EOF"
+          } >> "$GITHUB_OUTPUT"
+      - name: コミットして push
+        if: steps.move.outputs.moved != ''
+        run: |
+          # Vercel（Hobby）は、リポジトリの持ち主のコミットだけを自動デプロイするため、持ち主の名前で記録する
+          git config user.name "Medirealize"
+          git config user.email "info@medirealize.jp"
+          git add content/blog content/blog-stock
+          git commit -m "院長ブログの予約公開: $(echo "${{ steps.move.outputs.moved }}" | tr '\n' ' ')"
+          git push

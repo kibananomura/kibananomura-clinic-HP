@@ -5,10 +5,11 @@ category_ja: 健康・予防の話
 category_en: Health and prevention
 subcategory_ja: 感染症・ワクチン
 subcategory_en: Infections & vaccines
-title_ja: インフルエンザワクチン、いつ打つのが一番いい？〜受験や大切な日から「逆算」する接種スケジュール〜
-title_en: When is the best time to get a flu shot? — planning backward from exams and other important days
-excerpt_ja: 「先生、インフルエンザワクチンって、いつ打つのが一番いいですか？」——受験や結婚式など、絶対に休めない日を控えた方ほど、悩む質問です。
-excerpt_en: “Doctor, when's the best time to get a flu shot?” It's a question that weighs most on people with a day they absolutely can't miss, like an exam or a wedding.
+title_ja: "インフルエンザワクチン、いつ打つのが一番いい？〜受験や大切な日から「逆算」する接種スケジュール〜"
+title_en: "When is the best time to get a flu shot? — planning backward from exams and other important days"
+excerpt_ja: "「先生、インフルエンザワクチンって、いつ打つのが一番いいですか？」——受験や結婚式など、絶対に休めない日を控えた方ほど、悩む質問です。"
+excerpt_en: "“Doctor, when's the best time to get a flu shot?” It's a question that weighs most on people with a day they absolutely can't miss, like an exam or a wedding."
+related: [influenza-vaccine-mayoi, furumisuto-hana-no-jotai, kansen-2026-11]
 sources:
   - label: "厚生労働省「令和8年度冬季 急性呼吸器感染症（ARI）総合対策に関するQ&A」"
     url: "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/kenkou/kekkaku-kansenshou/infulenza/QA2026.html"
@@ -20,13 +21,6 @@ sources:
     url: "https://www.pref.miyazaki.lg.jp/contents/org/fukushi/eikanken/center/infectious/"
 ---
 
-<!--
-ストック原稿（未公開）。11/9付で公開予定。公開するときは：
-1. content/blog/ へ移す
-2. app/lib/related-content.ts の influenza にこの slug を足す
-3. influenza-vaccine-mayoi の本文末に、この記事へのリンクを1文足す
-4. npm run blog:gen と npm run chat:gen を実行して push
--->
 
 ## ja
 

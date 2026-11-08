@@ -63,6 +63,7 @@ export default async function BlogArticle({
           description={getContent(post, "ja").excerpt}
           cover={post.cover}
           date={post.date}
+          sources={post.sources}
         />
       )}
       <BlogArticleClient relatedDiseases={relatedDiseases} />

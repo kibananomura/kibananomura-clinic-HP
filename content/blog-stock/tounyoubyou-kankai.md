@@ -1,14 +1,15 @@
 ---
-date: 公開日に記入
+date: 2026.11.13
 cover: /blog/kibana-landscape.jpg
 category_ja: 健康・予防の話
 category_en: Health and prevention
 subcategory_ja: 血糖・糖尿病
 subcategory_en: Blood sugar & diabetes
-title_ja: 「糖尿病は一生治らない」は、もう昔の話？〜「寛解」を目指せる時代になりました〜
-title_en: “Diabetes never goes away” — is that an old idea now? — remission has become a realistic goal
-excerpt_ja: 「糖尿病になったら、もうおしまい」——そう思って、健診の結果を見ないふりをしていませんか。実はいま、糖尿病の考え方は大きく変わりつつあります。
-excerpt_en: “Once you have diabetes, that's it” — is that why you've been avoiding your checkup results? In fact, how we think about diabetes is changing a great deal.
+title_ja: "「糖尿病は一生治らない」は、もう昔の話？〜「寛解」を目指せる時代になりました〜"
+title_en: "“Diabetes never goes away” — is that an old idea now? — remission has become a realistic goal"
+excerpt_ja: "「糖尿病になったら、もうおしまい」——そう思って、健診の結果を見ないふりをしていませんか。実はいま、糖尿病の考え方は大きく変わりつつあります。"
+excerpt_en: "“Once you have diabetes, that's it” — is that why you've been avoiding your checkup results? In fact, how we think about diabetes is changing a great deal."
+related: [tounyoubyou-shokuji, hosuu-5000, kusuri-yamerarenai]
 sources:
   - label: "日本糖尿病学会「糖尿病診療ガイドライン2024」"
     url: "https://minds.jcqhc.or.jp/summary/c00864/"
@@ -18,13 +19,6 @@ sources:
     url: "https://doi.org/10.1016/S0140-6736(17)33102-1"
 ---
 
-<!--
-ストック原稿（未公開）。公開するときは：
-1. date を公開日にする
-2. content/blog/ へ移す
-3. app/lib/related-content.ts に "diabetes": ["tounyoubyou-kankai", "tounyoubyou-shokuji"] を足す（食事の記事も公開済みなら）
-4. npm run blog:gen と npm run chat:gen を実行して push
--->
 
 ## ja
 
