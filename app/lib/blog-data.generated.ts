@@ -2905,7 +2905,7 @@ export const generatedPosts: BlogPost[] = [
       "body": [
         {
           "kind": "text",
-          "text": "「コレステロールの薬（スタチン）を飲むと、筋肉が溶ける・崩壊するらしい」。そんな言葉をネットで見かけて、今飲んでいるお薬をやめようか迷っている方、あるいはこれから始めることに不安を感じている方がいらっしゃるかもしれません。「横紋筋融解症」という言葉の強いインパクトだけが独り歩きし、まるで誰にでも起こることのように感じてしまうのも無理はないと思います。"
+          "text": "「コレステロールの薬（スタチン）を飲むと、筋肉が溶ける・崩壊するらしい」。そんな言葉をネットで見かけて、今飲んでいるお薬をやめようか迷っている方、あるいはこれから始めることに不安を感じている方がいらっしゃるかもしれません。「横紋筋融解症」という言葉の強いインパクトだけが独り歩きし、まるで誰にでも起こることのように感じてしまうのも無理はないと思います。外来でも、「筋肉痛が出たので、自分で薬をやめてしまいました」「ネットで見て怖くなって……」という声を、実際によくお聞きします。"
         },
         {
           "kind": "text",
@@ -2993,7 +2993,7 @@ export const generatedPosts: BlogPost[] = [
       "body": [
         {
           "kind": "text",
-          "text": "\"Statins dissolve your muscles\" — you may have come across that phrase online and wondered whether to stop the medication you're taking, or felt uneasy about starting it in the first place. It's understandable: the strong image behind the term \"rhabdomyolysis\" tends to take on a life of its own, as if it could happen to anyone at any time."
+          "text": "\"Statins dissolve your muscles\" — you may have come across that phrase online and wondered whether to stop the medication you're taking, or felt uneasy about starting it in the first place. It's understandable: the strong image behind the term \"rhabdomyolysis\" tends to take on a life of its own, as if it could happen to anyone at any time. In clinic, I really do often hear, “My muscles started aching, so I stopped the medicine on my own,” or “I got scared after reading about it online...”"
         },
         {
           "kind": "text",
@@ -3136,7 +3136,23 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "- **LDL（悪玉コレステロール）が高めの方**：**無塩**のトマトジュースを、**1日1杯（200ml程度）**までを目安にするのはおすすめです。塩分が多いタイプは血圧への影響が気になるため、「無塩」を選ぶのがポイントです。\n- **TG（中性脂肪）が高めの方**：ジュースではなく、**生のトマトをそのまま、よくかんで食べる**のがベストです。食物繊維が丸ごと残っているため、糖質の吸収がゆるやかになります。他の野菜と同じように、「かんで食べる」習慣を優先してください。\n- **LDL・TGの両方が高めの方**：飲む場合は「**無塩・1日1杯まで**」を守ったうえで、その分、夜のご飯（主食）を一口分だけ減らす等、1日の糖質量のバランスを調整していただくと安心です。"
+          "text": "- **LDL（悪玉コレステロール）が高めの方**：あえて飲むなら、**食塩無添加・砂糖不使用**のトマトジュースを、**1日1杯（200ml程度）**までにとどめましょう。塩分が多いタイプは血圧への影響が気になります。\n- **TG（中性脂肪）が高めの方**：ジュースではなく、**生のトマトをそのまま、よくかんで食べる**のがベストです。食物繊維が丸ごと残っているため、糖質の吸収がゆるやかになります。他の野菜と同じように、「かんで食べる」習慣を優先してください。\n- **LDL・TGの両方が高めの方**：飲む場合は「**無塩・1日1杯まで**」を守ったうえで、その分、夜のご飯（主食）を一口分だけ減らす等、1日の糖質量のバランスを調整していただくと安心です。"
+        },
+        {
+          "kind": "text",
+          "text": "### ジュースならではの注意点"
+        },
+        {
+          "kind": "text",
+          "text": "毎日続けるうちに、思わぬところで体に負担がかかっていた、という方もいらっしゃいます。"
+        },
+        {
+          "kind": "text",
+          "text": "- **塩分のとりすぎ**：食塩入りのものを毎日飲むと、塩分が積み重なります\n- **カリウムのとりすぎ**：トマトはカリウムの多い野菜です。腎臓の働きが落ちている方は、とりすぎに注意が必要なので、主治医に相談してください\n- **お腹がゆるくなる**：飲む量が多いと、お腹がゆるくなることがあります"
+        },
+        {
+          "kind": "text",
+          "text": "また、トマトにはGABA（ギャバ）という成分が含まれていて、睡眠の質に関わるとも言われています。飲むなら、朝よりも夕方以降がおすすめです。"
         },
         {
           "kind": "text",
@@ -3188,7 +3204,23 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "- **If your LDL (\"bad\" cholesterol) is high:** Choosing **unsalted** tomato juice, up to about **one glass (200ml) a day**, is a reasonable habit. Salted varieties raise concerns about blood pressure, so \"unsalted\" is the key word to look for.\n- **If your triglycerides (TG) are high:** Skip the juice and **eat the tomato whole, chewing it well, instead.** With the fiber intact, sugar absorption slows down considerably. Treat it the same way you would any other vegetable — chewing, not drinking.\n- **If both LDL and TG are elevated:** If you do drink it, stick to \"**unsalted, one glass a day at most**,\" and balance things out by cutting back slightly elsewhere — for example, one bite less of rice at dinner — to manage your overall carbohydrate intake for the day."
+          "text": "- **If your LDL (\"bad\" cholesterol) is high:** If you do drink it, choose tomato juice with **no added salt and no added sugar**, and keep it to about **one glass (200ml) a day**. Salted varieties raise concerns about blood pressure, so \"unsalted\" is the key word to look for.\n- **If your triglycerides (TG) are high:** Skip the juice and **eat the tomato whole, chewing it well, instead.** With the fiber intact, sugar absorption slows down considerably. Treat it the same way you would any other vegetable — chewing, not drinking.\n- **If both LDL and TG are elevated:** If you do drink it, stick to \"**unsalted, one glass a day at most**,\" and balance things out by cutting back slightly elsewhere — for example, one bite less of rice at dinner — to manage your overall carbohydrate intake for the day."
+        },
+        {
+          "kind": "text",
+          "text": "### Cautions that come with juice"
+        },
+        {
+          "kind": "text",
+          "text": "Some people find that a daily habit was quietly putting a strain on their body."
+        },
+        {
+          "kind": "text",
+          "text": "- **Too much salt**: drinking a salted kind every day adds up\n- **Too much potassium**: tomatoes are rich in potassium. If your kidney function has declined, you need to be careful not to take in too much, so please talk with your doctor\n- **Loose stools**: drinking a lot can loosen your bowels"
+        },
+        {
+          "kind": "text",
+          "text": "Tomatoes also contain GABA, a substance said to be involved in sleep quality. If you drink tomato juice, the evening is a better time than the morning."
         },
         {
           "kind": "text",
@@ -3229,6 +3261,10 @@ export const generatedPosts: BlogPost[] = [
         {
           "kind": "text",
           "text": "「熱があるとき、病院に行くこと自体が怖い」。そう感じたことはありませんか。自分がうつされるかもしれない不安と、自分が誰かにうつしてしまうかもしれない不安、その両方を抱えながら受診される方は少なくないと思います。"
+        },
+        {
+          "kind": "text",
+          "text": "私自身、患者として病院に行ったとき、待合室でせき込んでいる方と、その方を怪訝そうに見るほかの患者さんの表情を目にして、つらい気持ちになったことがあります。せき込んでいる方も、周りの方も、誰も悪くないのに、です。そして何より、診療所を院内で感染が広がる場にはしたくない。それが、この設計の出発点です。"
         },
         {
           "kind": "text",
@@ -3288,6 +3324,10 @@ export const generatedPosts: BlogPost[] = [
         {
           "kind": "text",
           "text": "Have you ever felt that going to the clinic itself is scary when you have a fever? Worrying both about catching something from someone else, and about passing something on yourself — I think a lot of people carry both of those fears at once when they visit a clinic with a fever."
+        },
+        {
+          "kind": "text",
+          "text": "When I went to a hospital myself as a patient, I once saw someone coughing hard in the waiting room, and the uneasy looks other patients gave them — and it was painful to watch. The person coughing wasn't to blame, and neither was anyone else. Above all, I don't want our clinic to become a place where infections spread. That's where this design began."
         },
         {
           "kind": "text",

@@ -20,7 +20,7 @@ sources:
 
 ## ja
 
-「コレステロールの薬（スタチン）を飲むと、筋肉が溶ける・崩壊するらしい」。そんな言葉をネットで見かけて、今飲んでいるお薬をやめようか迷っている方、あるいはこれから始めることに不安を感じている方がいらっしゃるかもしれません。「横紋筋融解症」という言葉の強いインパクトだけが独り歩きし、まるで誰にでも起こることのように感じてしまうのも無理はないと思います。
+「コレステロールの薬（スタチン）を飲むと、筋肉が溶ける・崩壊するらしい」。そんな言葉をネットで見かけて、今飲んでいるお薬をやめようか迷っている方、あるいはこれから始めることに不安を感じている方がいらっしゃるかもしれません。「横紋筋融解症」という言葉の強いインパクトだけが独り歩きし、まるで誰にでも起こることのように感じてしまうのも無理はないと思います。外来でも、「筋肉痛が出たので、自分で薬をやめてしまいました」「ネットで見て怖くなって……」という声を、実際によくお聞きします。
 
 先にお答えすると、**「筋肉が崩壊する」というレベルの重い副作用は、数万人に1人という非常にまれなもの**です。一方で、軽いだるさや痛みが出ることは確かにあり、それにはきちんとした医学的な理由があります。大切なのは、正しい仕組みを知った上で、自己判断でお薬をやめないことです。
 
@@ -66,7 +66,7 @@ sources:
 
 ## en
 
-"Statins dissolve your muscles" — you may have come across that phrase online and wondered whether to stop the medication you're taking, or felt uneasy about starting it in the first place. It's understandable: the strong image behind the term "rhabdomyolysis" tends to take on a life of its own, as if it could happen to anyone at any time.
+"Statins dissolve your muscles" — you may have come across that phrase online and wondered whether to stop the medication you're taking, or felt uneasy about starting it in the first place. It's understandable: the strong image behind the term "rhabdomyolysis" tends to take on a life of its own, as if it could happen to anyone at any time. In clinic, I really do often hear, “My muscles started aching, so I stopped the medicine on my own,” or “I got scared after reading about it online...”
 
 By the end of this post, you'll understand why statins can sometimes affect muscles, and which signs genuinely deserve your attention. Here's the short answer: **a side effect severe enough to be called "muscle breakdown" is extremely rare — on the order of one in tens of thousands of patients.** Mild tiredness or soreness, on the other hand, can genuinely occur, and there are real medical reasons behind it. What matters most is understanding the mechanism correctly, rather than stopping your medication on your own judgment.
 

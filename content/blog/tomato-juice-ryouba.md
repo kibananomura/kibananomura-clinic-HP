@@ -32,9 +32,19 @@ sources:
 
 ご自身の健診結果のタイプに合わせて、次のように選んでいただくのがおすすめです。
 
-- **LDL（悪玉コレステロール）が高めの方**：**無塩**のトマトジュースを、**1日1杯（200ml程度）**までを目安にするのはおすすめです。塩分が多いタイプは血圧への影響が気になるため、「無塩」を選ぶのがポイントです。
+- **LDL（悪玉コレステロール）が高めの方**：あえて飲むなら、**食塩無添加・砂糖不使用**のトマトジュースを、**1日1杯（200ml程度）**までにとどめましょう。塩分が多いタイプは血圧への影響が気になります。
 - **TG（中性脂肪）が高めの方**：ジュースではなく、**生のトマトをそのまま、よくかんで食べる**のがベストです。食物繊維が丸ごと残っているため、糖質の吸収がゆるやかになります。他の野菜と同じように、「かんで食べる」習慣を優先してください。
 - **LDL・TGの両方が高めの方**：飲む場合は「**無塩・1日1杯まで**」を守ったうえで、その分、夜のご飯（主食）を一口分だけ減らす等、1日の糖質量のバランスを調整していただくと安心です。
+
+### ジュースならではの注意点
+
+毎日続けるうちに、思わぬところで体に負担がかかっていた、という方もいらっしゃいます。
+
+- **塩分のとりすぎ**：食塩入りのものを毎日飲むと、塩分が積み重なります
+- **カリウムのとりすぎ**：トマトはカリウムの多い野菜です。腎臓の働きが落ちている方は、とりすぎに注意が必要なので、主治医に相談してください
+- **お腹がゆるくなる**：飲む量が多いと、お腹がゆるくなることがあります
+
+また、トマトにはGABA（ギャバ）という成分が含まれていて、睡眠の質に関わるとも言われています。飲むなら、朝よりも夕方以降がおすすめです。
 
 ### 最後に
 
@@ -58,9 +68,19 @@ Here's something that might surprise you, though: **tomato juice can be great fo
 
 Here's how I'd suggest approaching it, based on which number on your checkup is elevated:
 
-- **If your LDL ("bad" cholesterol) is high:** Choosing **unsalted** tomato juice, up to about **one glass (200ml) a day**, is a reasonable habit. Salted varieties raise concerns about blood pressure, so "unsalted" is the key word to look for.
+- **If your LDL ("bad" cholesterol) is high:** If you do drink it, choose tomato juice with **no added salt and no added sugar**, and keep it to about **one glass (200ml) a day**. Salted varieties raise concerns about blood pressure, so "unsalted" is the key word to look for.
 - **If your triglycerides (TG) are high:** Skip the juice and **eat the tomato whole, chewing it well, instead.** With the fiber intact, sugar absorption slows down considerably. Treat it the same way you would any other vegetable — chewing, not drinking.
 - **If both LDL and TG are elevated:** If you do drink it, stick to "**unsalted, one glass a day at most**," and balance things out by cutting back slightly elsewhere — for example, one bite less of rice at dinner — to manage your overall carbohydrate intake for the day.
+
+### Cautions that come with juice
+
+Some people find that a daily habit was quietly putting a strain on their body.
+
+- **Too much salt**: drinking a salted kind every day adds up
+- **Too much potassium**: tomatoes are rich in potassium. If your kidney function has declined, you need to be careful not to take in too much, so please talk with your doctor
+- **Loose stools**: drinking a lot can loosen your bowels
+
+Tomatoes also contain GABA, a substance said to be involved in sleep quality. If you drink tomato juice, the evening is a better time than the morning.
 
 ### Finally
 

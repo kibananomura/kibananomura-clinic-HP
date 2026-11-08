@@ -13,6 +13,8 @@ excerpt_en: Going to the clinic itself feels scary when you have a fever — we 
 
 「熱があるとき、病院に行くこと自体が怖い」。そう感じたことはありませんか。自分がうつされるかもしれない不安と、自分が誰かにうつしてしまうかもしれない不安、その両方を抱えながら受診される方は少なくないと思います。
 
+私自身、患者として病院に行ったとき、待合室でせき込んでいる方と、その方を怪訝そうに見るほかの患者さんの表情を目にして、つらい気持ちになったことがあります。せき込んでいる方も、周りの方も、誰も悪くないのに、です。そして何より、診療所を院内で感染が広がる場にはしたくない。それが、この設計の出発点です。
+
 今日は、木花のむら診療所が発熱・感染が疑われる方の動線を、設計の最初の段階からどう分けているかについてお話しします。最後まで読んでいただくと、きっと「なるほど」と思っていただけるはずです。ひとつずつ見ていきましょう。
 
 ### 駐車場の時点で、すでに分かれています
@@ -40,6 +42,8 @@ excerpt_en: Going to the clinic itself feels scary when you have a fever — we 
 ## en
 
 Have you ever felt that going to the clinic itself is scary when you have a fever? Worrying both about catching something from someone else, and about passing something on yourself — I think a lot of people carry both of those fears at once when they visit a clinic with a fever.
+
+When I went to a hospital myself as a patient, I once saw someone coughing hard in the waiting room, and the uneasy looks other patients gave them — and it was painful to watch. The person coughing wasn't to blame, and neither was anyone else. Above all, I don't want our clinic to become a place where infections spread. That's where this design began.
 
 By the end of this post, you'll understand how Kibananomura Clinic has separated the flow for patients with a fever or suspected infection from everyone else, starting from the very first stage of the building's design. By the end, I hope it will all make sense. Let's look at it one step at a time.
 
