@@ -3,8 +3,8 @@ date: 2026.10.11
 cover: /blog/kibana-landscape.jpg
 category_ja: 院長の歩み
 category_en: The director's journey
-title_ja: 元・胃外科医が、木花で「かかりつけ医」になった理由
-title_en: Why a former stomach cancer surgeon chose to become your family doctor, here in Kibana
+title_ja: 元・消化器外科医が、木花で「かかりつけ医」になった理由
+title_en: Why a former gastrointestinal surgeon chose to become your family doctor, here in Kibana
 excerpt_ja: 青島が近いこの木花で、旅先での急な不調も、一見さんも、大歓迎です。胃がん治療の最前線から、あえて離れた一人の外科医の話をします。
 excerpt_en: Here in Kibana, close to Aoshima, we welcome sudden troubles on a trip and first-time visitors alike. This is the story of one surgeon who chose to step away from the front line of cancer care.
 ---

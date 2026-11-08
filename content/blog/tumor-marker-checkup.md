@@ -15,6 +15,8 @@ excerpt_en: For anyone who added a tumor marker test to their checkup and got an
 
 「健診のオプションで腫瘍マーカーを測ったら、基準値を超えていた」。結果通知の数字を前に、夜も眠れないほど「がんなのでは」と思い詰めてしまった——これまでの診療の中で、そんなご相談を受けることがありました。数字だけを見ると、どうしても最悪のケースを想像してしまうお気持ちは、本当によく分かります。
 
+健診のオプションで測られることが多いのは、CA19-9、CEA、AFPといったマーカーです。中には、ご家族を同じがんで亡くされている方もいらっしゃいました。そうした経験があれば、数字ひとつで不安が何倍にも大きくなるのは、当然のことだと思います。
+
 今日は、そもそも腫瘍マーカー（がんがあると血液中で増えることがある物質）とはどういう検査なのかをお話しし、その不安を少しでも軽くできればと思います。先にお答えすると、**腫瘍マーカーが基準値を超えていても、がんがない方のほうがずっと多い**のです。その上で、「それでも確認が必要なケース」と「医師にどう相談すればいいか」もあわせてお伝えします。最後まで読んでいただければ、今の数字とどう付き合えばいいかが見えてくるはずです。
 
 ### 腫瘍マーカーは、もともと何のための検査？
@@ -42,6 +44,8 @@ excerpt_en: For anyone who added a tumor marker test to their checkup and got an
 ## en
 
 "My optional tumor marker test came back above the normal range." Throughout my career, I've sometimes heard this from patients who told me they could barely sleep that night, convinced it had to mean cancer. Staring at a number like that, it's completely understandable to imagine the worst.
+
+The markers most often measured as checkup options are CA19-9, CEA and AFP. Some people who came to me had, sadly, lost a family member to the very same cancer. With an experience like that, it's only natural for a single number to multiply your worry many times over.
 
 Today we'd like to explain what tumor marker tests actually are, in the hope of easing that worry. Here's the short answer: **far more people with an elevated tumor marker turn out not to have cancer than do.** We'll also cover the cases where follow-up really is warranted, and how to talk it through with a doctor. By the end, you should have a clearer sense of how to make sense of your own result.
 

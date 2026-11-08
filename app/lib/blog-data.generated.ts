@@ -80,8 +80,8 @@ export const generatedPosts: BlogPost[] = [
       },
       {
         "slug": "i-gekai-kara-kakaritsukei",
-        "ja": "元・胃外科医が、木花で「かかりつけ医」になった理由",
-        "en": "Why a former stomach cancer surgeon chose to become your family doctor, here in Kibana"
+        "ja": "元・消化器外科医が、木花で「かかりつけ医」になった理由",
+        "en": "Why a former gastrointestinal surgeon chose to become your family doctor, here in Kibana"
       },
       {
         "slug": "hikari-onnetsu-kenkyu",
@@ -508,8 +508,8 @@ export const generatedPosts: BlogPost[] = [
       },
       {
         "slug": "i-gekai-kara-kakaritsukei",
-        "ja": "元・胃外科医が、木花で「かかりつけ医」になった理由",
-        "en": "Why a former stomach cancer surgeon chose to become your family doctor, here in Kibana"
+        "ja": "元・消化器外科医が、木花で「かかりつけ医」になった理由",
+        "en": "Why a former gastrointestinal surgeon chose to become your family doctor, here in Kibana"
       },
       {
         "slug": "hikari-onnetsu-kenkyu",
@@ -640,8 +640,8 @@ export const generatedPosts: BlogPost[] = [
       },
       {
         "slug": "i-gekai-kara-kakaritsukei",
-        "ja": "元・胃外科医が、木花で「かかりつけ医」になった理由",
-        "en": "Why a former stomach cancer surgeon chose to become your family doctor, here in Kibana"
+        "ja": "元・消化器外科医が、木花で「かかりつけ医」になった理由",
+        "en": "Why a former gastrointestinal surgeon chose to become your family doctor, here in Kibana"
       },
       {
         "slug": "hikari-onnetsu-kenkyu",
@@ -940,8 +940,8 @@ export const generatedPosts: BlogPost[] = [
       },
       {
         "slug": "i-gekai-kara-kakaritsukei",
-        "ja": "元・胃外科医が、木花で「かかりつけ医」になった理由",
-        "en": "Why a former stomach cancer surgeon chose to become your family doctor, here in Kibana"
+        "ja": "元・消化器外科医が、木花で「かかりつけ医」になった理由",
+        "en": "Why a former gastrointestinal surgeon chose to become your family doctor, here in Kibana"
       },
       {
         "slug": "kara-no-michi-2",
@@ -3834,7 +3834,7 @@ export const generatedPosts: BlogPost[] = [
     "cover": "/blog/kibana-landscape.jpg",
     "ja": {
       "category": "院長の歩み",
-      "title": "元・胃外科医が、木花で「かかりつけ医」になった理由",
+      "title": "元・消化器外科医が、木花で「かかりつけ医」になった理由",
       "excerpt": "青島が近いこの木花で、旅先での急な不調も、一見さんも、大歓迎です。胃がん治療の最前線から、あえて離れた一人の外科医の話をします。",
       "body": [
         {
@@ -3873,7 +3873,7 @@ export const generatedPosts: BlogPost[] = [
     },
     "en": {
       "category": "The director's journey",
-      "title": "Why a former stomach cancer surgeon chose to become your family doctor, here in Kibana",
+      "title": "Why a former gastrointestinal surgeon chose to become your family doctor, here in Kibana",
       "excerpt": "Here in Kibana, close to Aoshima, we welcome sudden troubles on a trip and first-time visitors alike. This is the story of one surgeon who chose to step away from the front line of cancer care.",
       "body": [
         {
@@ -4013,8 +4013,8 @@ export const generatedPosts: BlogPost[] = [
     "related": [
       {
         "slug": "i-gekai-kara-kakaritsukei",
-        "ja": "元・胃外科医が、木花で「かかりつけ医」になった理由",
-        "en": "Why a former stomach cancer surgeon chose to become your family doctor, here in Kibana"
+        "ja": "元・消化器外科医が、木花で「かかりつけ医」になった理由",
+        "en": "Why a former gastrointestinal surgeon chose to become your family doctor, here in Kibana"
       },
       {
         "slug": "hikari-onnetsu-kenkyu",
@@ -4059,6 +4059,10 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
+          "text": "これまでにも、「海で遊んでいて、クラゲに刺されました」という方や、「ぜんそくの発作が出てしまったけれど、吸入器を持ってきていない」という方を診てきました。旅先では、いつものお薬や道具が手元にないことも多いものです。そんなときこそ、遠慮なく頼ってください。"
+        },
+        {
+          "kind": "text",
           "text": "### スムーズな受診のために"
         },
         {
@@ -4099,6 +4103,10 @@ export const generatedPosts: BlogPost[] = [
         {
           "kind": "text",
           "text": "As a medical officer in the Self-Defense Forces, I treated people from every kind of background and circumstance. I'm confident in quickly and accurately grasping a new patient's situation and responding calmly. Even for a sudden visit while traveling, you'll get the same careful attention as anyone else."
+        },
+        {
+          "kind": "text",
+          "text": "Over the years, I've seen people who said, “I was stung by a jellyfish while playing in the sea,” and others who said, “I'm having an asthma attack, but I didn't bring my inhaler.” When you're traveling, your usual medicines and supplies often aren't at hand. That's exactly when you should feel free to rely on us."
         },
         {
           "kind": "text",
@@ -4149,6 +4157,10 @@ export const generatedPosts: BlogPost[] = [
         {
           "kind": "text",
           "text": "「健診のオプションで腫瘍マーカーを測ったら、基準値を超えていた」。結果通知の数字を前に、夜も眠れないほど「がんなのでは」と思い詰めてしまった——これまでの診療の中で、そんなご相談を受けることがありました。数字だけを見ると、どうしても最悪のケースを想像してしまうお気持ちは、本当によく分かります。"
+        },
+        {
+          "kind": "text",
+          "text": "健診のオプションで測られることが多いのは、CA19-9、CEA、AFPといったマーカーです。中には、ご家族を同じがんで亡くされている方もいらっしゃいました。そうした経験があれば、数字ひとつで不安が何倍にも大きくなるのは、当然のことだと思います。"
         },
         {
           "kind": "text",
@@ -4209,6 +4221,10 @@ export const generatedPosts: BlogPost[] = [
         {
           "kind": "text",
           "text": "\"My optional tumor marker test came back above the normal range.\" Throughout my career, I've sometimes heard this from patients who told me they could barely sleep that night, convinced it had to mean cancer. Staring at a number like that, it's completely understandable to imagine the worst."
+        },
+        {
+          "kind": "text",
+          "text": "The markers most often measured as checkup options are CA19-9, CEA and AFP. Some people who came to me had, sadly, lost a family member to the very same cancer. With an experience like that, it's only natural for a single number to multiply your worry many times over."
         },
         {
           "kind": "text",

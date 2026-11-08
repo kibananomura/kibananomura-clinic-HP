@@ -21,6 +21,8 @@ excerpt_en: Is it okay to come in for something this temporary? You don't need t
 
 院長は自衛隊の医官として、立場も背景も様々な方を数多く診療してきました。初対面の患者さんの状況を短時間で的確に把握し、落ち着いて対応することには自信があります。旅先での急な受診でも、いつもどおり丁寧に向き合います。
 
+これまでにも、「海で遊んでいて、クラゲに刺されました」という方や、「ぜんそくの発作が出てしまったけれど、吸入器を持ってきていない」という方を診てきました。旅先では、いつものお薬や道具が手元にないことも多いものです。そんなときこそ、遠慮なく頼ってください。
+
 ### スムーズな受診のために
 
 お薬手帳や、これまでの経過が分かるもの（お持ちであれば）をご持参いただけると、より的確な診療につながります。手元になくても、もちろん問題なく診察いたします。
@@ -40,6 +42,8 @@ Many people feel awkward about turning to a different clinic temporarily when th
 ### Why first-time patients can feel at ease
 
 As a medical officer in the Self-Defense Forces, I treated people from every kind of background and circumstance. I'm confident in quickly and accurately grasping a new patient's situation and responding calmly. Even for a sudden visit while traveling, you'll get the same careful attention as anyone else.
+
+Over the years, I've seen people who said, “I was stung by a jellyfish while playing in the sea,” and others who said, “I'm having an asthma attack, but I didn't bring my inhaler.” When you're traveling, your usual medicines and supplies often aren't at hand. That's exactly when you should feel free to rely on us.
 
 ### For a smoother visit
 
