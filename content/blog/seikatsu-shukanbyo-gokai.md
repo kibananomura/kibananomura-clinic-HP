@@ -68,4 +68,4 @@ What matters is identifying what's actually behind an elevated number, and choos
 
 On the other hand, in clinic I also often see people who aren't overweight by body shape or BMI, yet have high numbers — and when we talk, it turns out their eating habits or daily rhythm aren't quite in order. Sometimes it's constitution, sometimes it's lifestyle. That's exactly why, rather than blaming yourself, it's important to work out together how much each one is involved.
 
-If you've been flagged at a checkup but can't think of a reason why, or if you're working hard and the numbers still won't change, please don't carry that alone — feel free to come talk with us.
+If you've been flagged at a checkup but can't think of a reason why, or if you're working hard and the numbers still won't change, please don't carry that alone — feel free to talk with your family doctor (or with us, once we open).

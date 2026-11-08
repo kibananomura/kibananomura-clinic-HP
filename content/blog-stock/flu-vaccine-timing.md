@@ -120,7 +120,7 @@ The vaccine's effect does decline gradually over time, but overseas research sho
 
 - **Vaccinate the whole family**: it helps prevent passing the flu around at home
 - **Handwashing and enough sleep**: strengthen your defenses alongside the vaccine
-- **If a fever starts, talk to us early**: when exams are close, please let us know the dates
+- **If a fever starts, talk with your family doctor (or with us, once we open) early**: when exams are close, please let us know the dates
 
 The vaccine lowers your chance of catching the flu, but it doesn't prevent it 100%. That's exactly why combining it with daily care of your health matters.
 

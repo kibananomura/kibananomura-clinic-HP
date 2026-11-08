@@ -27,7 +27,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "木花のむら総合診療所は、そんなときにまず気軽に立ち寄っていただける、**よろず相談所のような場所**を目指しています。お子さんからご高齢の方まで、日々のちょっとした不調から、どうぞ気軽にご相談ください。"
+          "text": "木花のむら総合診療所は、そんなときにまず気軽に立ち寄っていただける、**よろず相談所のような場所**を目指しています。お子さんからご高齢の方まで、日々のちょっとした不調から、どうぞ気軽に、かかりつけ医などにご相談ください（開院後は当院へ）。"
         },
         {
           "kind": "image",
@@ -59,7 +59,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "Kibana Nomura General Medicine Clinic aims to be exactly that kind of place — **somewhere you can turn to for just about anything**, big or small. From children to the elderly, please feel free to consult us about the small everyday troubles."
+          "text": "Kibana Nomura General Medicine Clinic aims to be exactly that kind of place — **somewhere you can turn to for just about anything**, big or small. From children to the elderly, please feel free to talk with your family doctor (or with us, once we open) about the small everyday troubles."
         },
         {
           "kind": "image",
@@ -252,7 +252,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "お子さんに多い手足口病は、前月の220人から76人へと、約3分の1まで大きく減少しており、ひと段落してきた印象です。一方で、のどの痛みや発熱が特徴のA群溶血性レンサ球菌咽頭炎（いわゆる溶連菌）は152人と、前月の124人からやや増加しています。溶連菌（のどの感染症などを起こす細菌）は自然に治ることは少なく、適切な治療が勧められる感染症です。のどの痛みが強い・発しんが出ているといった場合は、早めにご相談ください。"
+          "text": "お子さんに多い手足口病は、前月の220人から76人へと、約3分の1まで大きく減少しており、ひと段落してきた印象です。一方で、のどの痛みや発熱が特徴のA群溶血性レンサ球菌咽頭炎（いわゆる溶連菌）は152人と、前月の124人からやや増加しています。溶連菌（のどの感染症などを起こす細菌）は自然に治ることは少なく、適切な治療が勧められる感染症です。のどの痛みが強い・発しんが出ているといった場合は、早めに、かかりつけ医などにご相談ください（開院後は当院へ）。"
         },
         {
           "kind": "text",
@@ -268,7 +268,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "- 外から帰ったら、石けんでの手洗い・うがいを習慣にしてください\n- お肉や魚介類は中までしっかり加熱し、調理器具は使い分けてください\n- 発熱に加えて、下痢やおう吐が続く、水分がとれない、ぐったりしているといった場合は、様子を見すぎずに早めにご相談ください"
+          "text": "- 外から帰ったら、石けんでの手洗い・うがいを習慣にしてください\n- お肉や魚介類は中までしっかり加熱し、調理器具は使い分けてください\n- 発熱に加えて、下痢やおう吐が続く、水分がとれない、ぐったりしているといった場合は、様子を見すぎずに、早めにかかりつけ医などにご相談ください（開院後は当院へ）"
         },
         {
           "kind": "text",
@@ -344,7 +344,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "- Please make hand-washing with soap and gargling a habit after coming home\n- Cook meat and seafood thoroughly, and keep cooking utensils separate for raw and cooked food\n- If fever is accompanied by ongoing diarrhea or vomiting, trouble keeping fluids down, or your child seems unusually lethargic, please don't wait it out — come see us sooner"
+          "text": "- Please make hand-washing with soap and gargling a habit after coming home\n- Cook meat and seafood thoroughly, and keep cooking utensils separate for raw and cooked food\n- If fever is accompanied by ongoing diarrhea or vomiting, trouble keeping fluids down, or your child seems unusually lethargic, please don't wait it out — see your family doctor sooner (or us, once we open)"
         },
         {
           "kind": "text",
@@ -1746,7 +1746,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "右下腹部の痛みや、下痢・お腹の違和感が続くときは、どうぞ我慢せずにご相談ください。一緒に原因を確かめていきましょう。"
+          "text": "右下腹部の痛みや、下痢・お腹の違和感が続くときは、どうぞ我慢せずに、かかりつけ医などにご相談ください（開院後は当院へ）。一緒に原因を確かめていきましょう。"
         }
       ]
     },
@@ -2105,7 +2105,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "長引くせきやたんが続くとき、健診で「抗酸菌」「要精査」と言われて不安なときは、どうぞ一人で悩まず、お気軽にご相談ください。"
+          "text": "長引くせきやたんが続くとき、健診で「抗酸菌」「要精査」と言われて不安なときは、どうぞ一人で悩まず、気軽に、かかりつけ医などにご相談ください（開院後は当院へ）。"
         }
       ]
     },
@@ -2277,7 +2277,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "If a cough or phlegm won't go away, or a checkup flagged \"acid-fast bacteria\" or \"further testing needed\" and you're worried, please don't keep it to yourself — feel free to talk to us."
+          "text": "If a cough or phlegm won't go away, or a checkup flagged \"acid-fast bacteria\" or \"further testing needed\" and you're worried, please don't keep it to yourself — feel free to talk with your family doctor (or with us, once we open)."
         }
       ]
     },
@@ -2487,7 +2487,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "大切なのは、ひとりで抱え込まず、**定期的に診てもらえる医師を持つこと**です。開院後、当院では院内のCTを活かして肺の状態をしっかり確認し、必要に応じて専門の医療機関とも連携しながら、長い目で寄り添っていきたいと考えています。「せきがなかなか止まらない」「健診で影があると言われたけれど、どこに行けばいいか分からない」——そんなときは、どうぞお気軽にご相談ください。"
+          "text": "大切なのは、ひとりで抱え込まず、**定期的に診てもらえる医師を持つこと**です。開院後、当院では院内のCTを活かして肺の状態をしっかり確認し、必要に応じて専門の医療機関とも連携しながら、長い目で寄り添っていきたいと考えています。「せきがなかなか止まらない」「健診で影があると言われたけれど、どこに行けばいいか分からない」——そんなときは、どうぞ気軽に、かかりつけ医などにご相談ください（開院後は当院へ）。"
         }
       ]
     },
@@ -2671,7 +2671,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "What matters is not to carry it alone, and **to have a doctor who can see you regularly.** Once we open, we plan to make full use of our in-house CT to check the condition of your lungs carefully, working with specialist institutions when needed, and to support you for the long term. If your cough just won't go away, or a checkup found a shadow and you're not sure where to turn, please feel free to talk to us."
+          "text": "What matters is not to carry it alone, and **to have a doctor who can see you regularly.** Once we open, we plan to make full use of our in-house CT to check the condition of your lungs carefully, working with specialist institutions when needed, and to support you for the long term. If your cough just won't go away, or a checkup found a shadow and you're not sure where to turn, please feel free to talk with your family doctor (or with us, once we open)."
         }
       ]
     },
@@ -2981,7 +2981,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "「これって筋肉痛かな、それとも薬のせいかな」と迷うことがあれば、我慢せずに、どうぞ気軽に院長やスタッフにご相談ください。"
+          "text": "「これって筋肉痛かな、それとも薬のせいかな」と迷うことがあれば、我慢せずに、どうぞ気軽に、かかりつけ医などにご相談ください（開院後は当院へ）。"
         }
       ]
     },
@@ -3164,7 +3164,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "ご自身の脂質のタイプがよく分からない方、健診結果を見て食事をどう工夫したらよいか迷っている方は、どうぞ健診結果を持って気軽にご相談ください。一緒に、今の数値に合った無理のない付き合い方を見つけていきましょう。"
+          "text": "ご自身の脂質のタイプがよく分からない方、健診結果を見て食事をどう工夫したらよいか迷っている方は、どうぞ健診結果を持って気軽に、かかりつけ医などにご相談ください（開院後は当院へ）。一緒に、今の数値に合った無理のない付き合い方を見つけていきましょう。"
         }
       ]
     },
@@ -3725,7 +3725,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "「健診の結果が良くなかったけれど、何から始めればいいか分からない」「サプリメントを続けているけれど、本当に効果があるのか不安」。そうした方は、どうぞ一度気軽にご相談ください。細かい制限を言いつけるようなことはいたしません。お一人おひとりの生活に合った、無理のない一歩を一緒に探していけたらと思っています。"
+          "text": "「健診の結果が良くなかったけれど、何から始めればいいか分からない」「サプリメントを続けているけれど、本当に効果があるのか不安」。そうした方は、どうぞ一度気軽に、かかりつけ医などにご相談ください（開院後は当院へ）。細かい制限を言いつけるようなことはいたしません。お一人おひとりの生活に合った、無理のない一歩を一緒に探していけたらと思っています。"
         }
       ]
     },
@@ -4208,7 +4208,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "腫瘍マーカーは、もともとがん患者さんの経過観察のために発展してきた検査で、健康な方のスクリーニング用に作られたものではありません。だからこそ、がんがなくても基準値を超えてしまう方は、思っている以上に多いのです。一度の数字だけで思い詰めすぎず、気になるときはどうぞ一人で抱え込まず、ご相談ください。数字の意味を一緒に整理し、必要があれば次の一歩も一緒に考えていきます。"
+          "text": "腫瘍マーカーは、もともとがん患者さんの経過観察のために発展してきた検査で、健康な方のスクリーニング用に作られたものではありません。だからこそ、がんがなくても基準値を超えてしまう方は、思っている以上に多いのです。一度の数字だけで思い詰めすぎず、気になるときはどうぞ一人で抱え込まず、かかりつけ医などにご相談ください（開院後は当院へ）。数字の意味を一緒に整理し、必要があれば次の一歩も一緒に考えていきます。"
         }
       ]
     },
@@ -4272,7 +4272,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "Tumor markers were developed mainly to monitor patients already diagnosed with cancer, not as a screening tool for healthy people. That's exactly why more people than you'd expect see an elevated result without having cancer at all. Please don't let a single number weigh on you too heavily — if it's on your mind, don't carry that alone. Come talk to us, and we'll work through what the number means together, and figure out the next step if one's needed."
+          "text": "Tumor markers were developed mainly to monitor patients already diagnosed with cancer, not as a screening tool for healthy people. That's exactly why more people than you'd expect see an elevated result without having cancer at all. Please don't let a single number weigh on you too heavily — if it's on your mind, don't carry that alone. Talk with your family doctor (or with us, once we open), and we'll work through what the number means together, and figure out the next step if one's needed."
         }
       ]
     },
@@ -4601,7 +4601,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "「吸入がうまくできているか不安」「お薬を減らしたい」と感じたときは、自己判断でやめず、いつでも診察室でご相談ください。二人三脚で、快適に呼吸できる毎日を守っていきましょう。"
+          "text": "「吸入がうまくできているか不安」「お薬を減らしたい」と感じたときは、自己判断でやめず、いつでも、かかりつけ医などにご相談ください（開院後は当院へ）。二人三脚で、快適に呼吸できる毎日を守っていきましょう。"
         }
       ]
     },
@@ -4677,7 +4677,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "If you're ever unsure whether you're using your inhaler correctly, or you'd like to try reducing your medication, please don't stop on your own — come talk to us anytime. Let's work side by side to protect your days of comfortable breathing."
+          "text": "If you're ever unsure whether you're using your inhaler correctly, or you'd like to try reducing your medication, please don't stop on your own — talk with your family doctor (or with us, once we open) anytime. Let's work side by side to protect your days of comfortable breathing."
         }
       ]
     },
@@ -4812,7 +4812,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "If you've been flagged at a checkup but can't think of a reason why, or if you're working hard and the numbers still won't change, please don't carry that alone — feel free to come talk with us."
+          "text": "If you've been flagged at a checkup but can't think of a reason why, or if you're working hard and the numbers still won't change, please don't carry that alone — feel free to talk with your family doctor (or with us, once we open)."
         }
       ]
     },
@@ -5079,7 +5079,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "今飲んでいるお薬について「このまま続けていいのかな」と気になることがあれば、どうぞ我慢せずに、気軽に院長やスタッフにご相談ください。一緒に、今のご自身にとってちょうどよい付き合い方を見つけていきましょう。"
+          "text": "今飲んでいるお薬について「このまま続けていいのかな」と気になることがあれば、どうぞ我慢せずに、気軽に、かかりつけ医などにご相談ください（開院後は当院へ）。一緒に、今のご自身にとってちょうどよい付き合い方を見つけていきましょう。"
         }
       ]
     },
@@ -5954,7 +5954,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "「今の鼻の状態で受けて大丈夫かな」「注射とスプレー、どちらがいいか迷っている」——そんなときは、どうぞお気軽にご相談ください。一緒に考えていきましょう。"
+          "text": "「今の鼻の状態で受けて大丈夫かな」「注射とスプレー、どちらがいいか迷っている」——そんなときは、どうぞ気軽に、かかりつけ医などにご相談ください（開院後は当院へ）。一緒に考えていきましょう。"
         }
       ]
     },
@@ -6235,7 +6235,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "**原因のはっきりしない高熱、長引くせき、強いだるさ**があるときは、「そのうち治るだろう」と我慢せず、どうぞ早めにご相談ください。一緒に原因を確かめていきましょう。"
+          "text": "**原因のはっきりしない高熱、長引くせき、強いだるさ**があるときは、「そのうち治るだろう」と我慢せず、どうぞ早めに、かかりつけ医などにご相談ください（開院後は当院へ）。一緒に原因を確かめていきましょう。"
         }
       ]
     },
@@ -6563,7 +6563,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "なお、湿潤療法は、汚れがしっかり落とせていることが前提です。汚れが残ったまま密閉すると、かえって感染を悪化させることがあるので、**迷ったら自己判断せずにご相談ください**。"
+          "text": "なお、湿潤療法は、汚れがしっかり落とせていることが前提です。汚れが残ったまま密閉すると、かえって感染を悪化させることがあるので、**迷ったら自己判断せずに、かかりつけ医などにご相談ください（開院後は当院へ）**。"
         },
         {
           "kind": "text",
@@ -6575,7 +6575,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "ケガをしてしまっても、焦る必要はありません。まずは**水道水で、やさしく、しっかり洗い流してください**。そして、「これは縫ったほうがいいのかな」「この傷、どう手当てしたらいい？」と迷ったときは、どうぞお気軽に当院にご相談ください。外科医として、傷を早く、きれいに治すお手伝いをいたします。"
+          "text": "ケガをしてしまっても、焦る必要はありません。まずは**水道水で、やさしく、しっかり洗い流してください**。そして、「これは縫ったほうがいいのかな」「この傷、どう手当てしたらいい？」と迷ったときは、どうぞ気軽に、かかりつけ医などにご相談ください（開院後は当院へ）。外科医として、傷を早く、きれいに治すお手伝いをいたします。"
         }
       ]
     },
@@ -6896,7 +6896,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "急激なダイエットよりも、**代謝を落とさず、筋肉を守りながら、ゆっくり体を整えていくこと**が、遠回りのようでいちばんの近道です。食事の工夫に迷ったときや、健診で血糖値・体重のことを指摘されたときは、どうぞお気軽にご相談ください。一緒に、無理なく続けられる方法を見つけていきましょう。"
+          "text": "急激なダイエットよりも、**代謝を落とさず、筋肉を守りながら、ゆっくり体を整えていくこと**が、遠回りのようでいちばんの近道です。食事の工夫に迷ったときや、健診で血糖値・体重のことを指摘されたときは、どうぞ気軽に、かかりつけ医などにご相談ください（開院後は当院へ）。一緒に、無理なく続けられる方法を見つけていきましょう。"
         }
       ]
     },
@@ -7032,7 +7032,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "Rather than a rapid diet, **gradually getting your body into shape while keeping your metabolism up and protecting your muscles** may look like a detour, but it is the surest path. If you are unsure how to adjust your meals, or if a health check has flagged your blood sugar or weight, please feel free to talk to us. Let's find a way that you can keep up without strain, together."
+          "text": "Rather than a rapid diet, **gradually getting your body into shape while keeping your metabolism up and protecting your muscles** may look like a detour, but it is the surest path. If you are unsure how to adjust your meals, or if a health check has flagged your blood sugar or weight, please feel free to talk with your family doctor (or with us, once we open). Let's find a way that you can keep up without strain, together."
         }
       ]
     },
@@ -7740,7 +7740,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "長年センナを続けてきた方も、今日からやり直せます。「飲む量が増えてきた」「やめるのが不安」——そんなお悩みも、どうぞそのままお聞かせください。[便秘症のページ](/diseases/constipation)もあわせてご覧いただき、気になる方はいつでもご相談ください。"
+          "text": "長年センナを続けてきた方も、今日からやり直せます。「飲む量が増えてきた」「やめるのが不安」——そんなお悩みも、どうぞそのままお聞かせください。[便秘症のページ](/diseases/constipation)もあわせてご覧いただき、気になる方はいつでも、かかりつけ医などにご相談ください（開院後は当院へ）。"
         }
       ]
     },
@@ -7880,7 +7880,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "Even if you've taken senna for years, you can start again today. “I'm taking more than before,” “I'm scared to stop” — please feel free to share those worries with us as they are. See our [constipation page](/diseases/constipation) as well, and talk to us anytime."
+          "text": "Even if you've taken senna for years, you can start again today. “I'm taking more than before,” “I'm scared to stop” — please feel free to share those worries with us as they are. See our [constipation page](/diseases/constipation) as well, and talk with your family doctor (or with us, once we open) anytime."
         }
       ]
     },
@@ -8088,7 +8088,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "「今年の症状に効いていない気がする」「手元の薬をどう飲めばいいかわからない」——そんなときは、どうぞお気軽に当院にご相談ください。あなたの「いまの症状」に合わせて、一緒にお薬を選びましょう。"
+          "text": "「今年の症状に効いていない気がする」「手元の薬をどう飲めばいいかわからない」——そんなときは、どうぞ気軽に、かかりつけ医などにご相談ください（開院後は当院へ）。あなたの「いまの症状」に合わせて、一緒にお薬を選びましょう。"
         }
       ]
     },
@@ -8268,7 +8268,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "If you feel “my medicine isn't working this year,” or you're unsure how to take what you have at home, please feel free to talk to us. Let's choose the right medicine for your symptoms right now, together."
+          "text": "If you feel “my medicine isn't working this year,” or you're unsure how to take what you have at home, please feel free to talk with your family doctor (or with us, once we open). Let's choose the right medicine for your symptoms right now, together."
         }
       ]
     },
@@ -8608,7 +8608,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "なお、ご家族に若いうちに心筋梗塞を起こした方がいる場合や、LDLがかなり高い場合は、生まれつきコレステロールが高くなる体質（家族性高コレステロール血症）が隠れていることもあります。思い当たる方は、一度ご相談ください。"
+          "text": "なお、ご家族に若いうちに心筋梗塞を起こした方がいる場合や、LDLがかなり高い場合は、生まれつきコレステロールが高くなる体質（家族性高コレステロール血症）が隠れていることもあります。思い当たる方は、一度、かかりつけ医などにご相談ください（開院後は当院へ）。"
         },
         {
           "kind": "text",
@@ -8644,7 +8644,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "自己判断でやめたり、一人で悩んだりせず、どうぞお気軽にご相談ください。一緒に、安全なバランスを保っていきましょう。"
+          "text": "自己判断でやめたり、一人で悩んだりせず、どうぞ気軽に、かかりつけ医などにご相談ください（開院後は当院へ）。一緒に、安全なバランスを保っていきましょう。"
         }
       ]
     },
@@ -8708,7 +8708,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "If someone in your family had a heart attack at a young age, or your LDL is very high, you may have an inherited tendency to high cholesterol (familial hypercholesterolemia). If that sounds familiar, please talk to us."
+          "text": "If someone in your family had a heart attack at a young age, or your LDL is very high, you may have an inherited tendency to high cholesterol (familial hypercholesterolemia). If that sounds familiar, please talk with your family doctor (or with us, once we open)."
         },
         {
           "kind": "text",
@@ -8744,7 +8744,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "Please don't stop on your own or worry alone. Talk to us anytime, and let's keep you in a safe balance together."
+          "text": "Please don't stop on your own or worry alone. Talk with your family doctor (or with us, once we open) anytime, and let's keep you in a safe balance together."
         }
       ]
     },
@@ -9086,11 +9086,11 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "**注意してほしいこと**\n- **ひざや足首、腰に痛みがある方、骨粗しょう症と言われている方、心臓の病気がある方、ふらつきがある方**は、始める前にご相談ください。\n- 起きてすぐや、食べてすぐは避けましょう。転ばないよう、最初は椅子の背やテーブルに手を添えて行うと安心です。\n- 跳ぶのが不安な方は、**かかと上げ**（かかとをゆっくり上げ下げ10回）から。同じふくらはぎを、床から足を離さずに育てられます。"
+          "text": "**注意してほしいこと**\n- **ひざや足首、腰に痛みがある方、骨粗しょう症と言われている方、心臓の病気がある方、ふらつきがある方**は、始める前に、かかりつけ医などにご相談ください（開院後は当院へ）。\n- 起きてすぐや、食べてすぐは避けましょう。転ばないよう、最初は椅子の背やテーブルに手を添えて行うと安心です。\n- 跳ぶのが不安な方は、**かかと上げ**（かかとをゆっくり上げ下げ10回）から。同じふくらはぎを、床から足を離さずに育てられます。"
         },
         {
           "kind": "text",
-          "text": "なお、腎臓の病気がある方は、タンパク質をとりすぎないほうがよい場合があります。ひざや腰に痛みがある方も含めて、気になる方は一度ご相談ください。"
+          "text": "なお、腎臓の病気がある方は、タンパク質をとりすぎないほうがよい場合があります。ひざや腰に痛みがある方も含めて、気になる方は一度、かかりつけ医などにご相談ください（開院後は当院へ）。"
         },
         {
           "kind": "text",
@@ -9106,7 +9106,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "指輪っかテストで気になる結果が出た方や、「何を、どれくらい食べればいいのか」「どんな運動なら続けられるか」と迷っている方は、どうぞ気軽にご相談ください。あなたの暮らしに合ったやり方を、一緒に考えていきましょう。"
+          "text": "指輪っかテストで気になる結果が出た方や、「何を、どれくらい食べればいいのか」「どんな運動なら続けられるか」と迷っている方は、どうぞ気軽に、かかりつけ医などにご相談ください（開院後は当院へ）。あなたの暮らしに合ったやり方を、一緒に考えていきましょう。"
         }
       ]
     },
@@ -9222,11 +9222,11 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "**Please be careful**\n- If you have **knee, ankle or back pain, have been told you have osteoporosis, have a heart condition, or feel unsteady on your feet**, please talk with us before starting.\n- Avoid it right after waking up or right after eating. To be safe, rest a hand on the back of a chair or a table at first.\n- If jumping feels risky, start with **heel raises** (slowly raise and lower your heels 10 times). They build the same calf muscles without your feet leaving the floor."
+          "text": "**Please be careful**\n- If you have **knee, ankle or back pain, have been told you have osteoporosis, have a heart condition, or feel unsteady on your feet**, please talk with your family doctor (or with us, once we open) before starting.\n- Avoid it right after waking up or right after eating. To be safe, rest a hand on the back of a chair or a table at first.\n- If jumping feels risky, start with **heel raises** (slowly raise and lower your heels 10 times). They build the same calf muscles without your feet leaving the floor."
         },
         {
           "kind": "text",
-          "text": "If you have kidney disease, you may need to avoid eating too much protein. If that applies to you — or if you have knee or back pain — please talk with us first."
+          "text": "If you have kidney disease, you may need to avoid eating too much protein. If that applies to you — or if you have knee or back pain — please talk with your family doctor (or with us, once we open) first."
         },
         {
           "kind": "text",
@@ -9242,7 +9242,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "If the finger-ring test gave you a result that worries you, or you're unsure “what and how much to eat” or “what exercise I could keep up,” please feel free to come and talk with us. Let's find an approach that fits your life, together."
+          "text": "If the finger-ring test gave you a result that worries you, or you're unsure “what and how much to eat” or “what exercise I could keep up,” please feel free to talk with your family doctor (or with us, once we open). Let's find an approach that fits your life, together."
         }
       ]
     },
@@ -9816,7 +9816,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "年齢では、**15歳未満のお子さんが全体の約7割**を占めています。学校や園で広がりやすい時期ですので、急な高熱、のどの痛み、関節や筋肉の痛み、強いだるさがあれば、早めにご相談ください。"
+          "text": "年齢では、**15歳未満のお子さんが全体の約7割**を占めています。学校や園で広がりやすい時期ですので、急な高熱、のどの痛み、関節や筋肉の痛み、強いだるさがあれば、早めに、かかりつけ医などにご相談ください（開院後は当院へ）。"
         },
         {
           "kind": "text",
@@ -9864,7 +9864,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "なお、全国ではマイコプラズマ肺炎が前の週の約1.3倍に増えています。せきが長く続くときは、早めにご相談ください。"
+          "text": "なお、全国ではマイコプラズマ肺炎が前の週の約1.3倍に増えています。せきが長く続くときは、早めに、かかりつけ医などにご相談ください（開院後は当院へ）。"
         },
         {
           "kind": "text",
@@ -9880,7 +9880,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "これから年末にかけて、人が集まる機会も増えていきます。「これくらいで受診していいのかな」と迷ったときこそ、気軽にご相談ください。ご家族みなさんが、元気に冬を迎えられますように。"
+          "text": "これから年末にかけて、人が集まる機会も増えていきます。「これくらいで受診していいのかな」と迷ったときこそ、気軽に、かかりつけ医などにご相談ください（開院後は当院へ）。ご家族みなさんが、元気に冬を迎えられますように。"
         }
       ]
     },

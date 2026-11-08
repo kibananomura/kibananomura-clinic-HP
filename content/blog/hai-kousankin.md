@@ -105,7 +105,7 @@ sources:
 
 たんの検査は、何度もお願いすることがあって面倒に感じるかもしれませんが、どの菌なのかを正しく見極め、あなたに合った治療を選ぶための、いちばん確かな手がかりです。そして治療が始まったら、長い道のりを途中で投げ出さないよう、一緒に伴走していきたいと思っています。
 
-長引くせきやたんが続くとき、健診で「抗酸菌」「要精査」と言われて不安なときは、どうぞ一人で悩まず、お気軽にご相談ください。
+長引くせきやたんが続くとき、健診で「抗酸菌」「要精査」と言われて不安なときは、どうぞ一人で悩まず、気軽に、かかりつけ医などにご相談ください（開院後は当院へ）。
 
 ## en
 
@@ -197,4 +197,4 @@ The name "acid-fast bacteria" may sound a little frightening. But in reality, th
 
 Being asked for sputum samples again and again may feel like a hassle, but it's the most reliable clue for correctly identifying the bacterium and choosing the right treatment for you. And once treatment begins, I want to run alongside you so the long road doesn't get abandoned halfway.
 
-If a cough or phlegm won't go away, or a checkup flagged "acid-fast bacteria" or "further testing needed" and you're worried, please don't keep it to yourself — feel free to talk to us.
+If a cough or phlegm won't go away, or a checkup flagged "acid-fast bacteria" or "further testing needed" and you're worried, please don't keep it to yourself — feel free to talk with your family doctor (or with us, once we open).

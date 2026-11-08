@@ -72,7 +72,7 @@ sources:
 
 プリン体は、怖がるべき“敵”ではなく、体を作るのに欠かせない材料です。美味しいものを楽しみながら、ご自身の体の声を聴いて、上手にコントロールしていきましょう。
 
-食事を気をつけていても尿酸値が下がらない方は、体質によって尿酸を作りやすい、あるいは出しにくい場合もあります。病気のくわしい説明は[高尿酸血症・痛風の解説ページ](/diseases/hyperuricemia-gout)にまとめています。不安なときは、どうぞ気軽にご相談ください。
+食事を気をつけていても尿酸値が下がらない方は、体質によって尿酸を作りやすい、あるいは出しにくい場合もあります。病気のくわしい説明は[高尿酸血症・痛風の解説ページ](/diseases/hyperuricemia-gout)にまとめています。不安なときは、どうぞ気軽に、かかりつけ医などにご相談ください（開院後は当院へ）。
 
 ## en
 
@@ -130,4 +130,4 @@ To sum up: **purines have nothing to do with pudding — they're a substance you
 
 Purines aren't an “enemy” to fear — they're an essential building material for your body. Let's enjoy good food, listen to your body, and keep things in balance.
 
-If your uric acid won't come down even though you watch your diet, your constitution may make you produce more uric acid or pass less of it. You'll find more detail on [our hyperuricemia and gout page](/diseases/hyperuricemia-gout). Whenever you feel worried, please feel free to talk with us.
+If your uric acid won't come down even though you watch your diet, your constitution may make you produce more uric acid or pass less of it. You'll find more detail on [our hyperuricemia and gout page](/diseases/hyperuricemia-gout). Whenever you feel worried, please feel free to talk with your family doctor (or with us, once we open).

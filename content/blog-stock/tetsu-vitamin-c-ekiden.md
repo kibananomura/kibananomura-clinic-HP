@@ -78,7 +78,7 @@ sources:
 
 食べ合わせのちょっとした工夫と、日々のセルフチェック。それだけで、体のコンディションはぐっと整えやすくなります。毎日走り込んでいる子どもたちが、持っている力を存分に発揮できるよう、地域のかかりつけ医として応援しています。
 
-「最近バテやすい」「まぶたの裏が白い気がする」と感じたら、無理をせず、気軽にご相談ください。
+「最近バテやすい」「まぶたの裏が白い気がする」と感じたら、無理をせず、気軽に、かかりつけ医などにご相談ください（開院後は当院へ）。
 
 ## en
 
@@ -140,4 +140,4 @@ If taking iron doesn't help, another cause may be hiding, such as bleeding from 
 
 A small tweak in how you pair foods, plus a daily self-check — that alone makes it much easier to keep your body in good condition. As a local family doctor, I'm cheering on the kids who run every day, so they can make the most of the strength they have.
 
-If you feel “I've been tiring easily lately” or “the inside of my eyelid looks pale,” don't push yourself — please feel free to talk with us.
+If you feel “I've been tiring easily lately” or “the inside of my eyelid looks pale,” don't push yourself — please feel free to talk with your family doctor (or with us, once we open).

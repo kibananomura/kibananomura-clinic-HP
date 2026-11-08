@@ -90,7 +90,7 @@ sources:
 
 便秘薬は、「出せばOK」ではありません。**お腹の未来を守るための選び方**が大切です。
 
-長年センナを続けてきた方も、今日からやり直せます。「飲む量が増えてきた」「やめるのが不安」——そんなお悩みも、どうぞそのままお聞かせください。[便秘症のページ](/diseases/constipation)もあわせてご覧いただき、気になる方はいつでもご相談ください。
+長年センナを続けてきた方も、今日からやり直せます。「飲む量が増えてきた」「やめるのが不安」——そんなお悩みも、どうぞそのままお聞かせください。[便秘症のページ](/diseases/constipation)もあわせてご覧いただき、気になる方はいつでも、かかりつけ医などにご相談ください（開院後は当院へ）。
 
 ## en
 
@@ -168,4 +168,4 @@ If you have **blood in your stool, unexplained weight loss, constipation startin
 
 Laxatives are not just about “getting it out.” **Choosing them to protect your bowel's future** matters.
 
-Even if you've taken senna for years, you can start again today. “I'm taking more than before,” “I'm scared to stop” — please feel free to share those worries with us as they are. See our [constipation page](/diseases/constipation) as well, and talk to us anytime.
+Even if you've taken senna for years, you can start again today. “I'm taking more than before,” “I'm scared to stop” — please feel free to share those worries with us as they are. See our [constipation page](/diseases/constipation) as well, and talk with your family doctor (or with us, once we open) anytime.

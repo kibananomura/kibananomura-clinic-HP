@@ -90,11 +90,11 @@ sources:
 - **骨**：着地の小さな衝撃が骨への刺激になり、骨を丈夫に保つ助けになると考えられています。
 
 **注意してほしいこと**
-- **ひざや足首、腰に痛みがある方、骨粗しょう症と言われている方、心臓の病気がある方、ふらつきがある方**は、始める前にご相談ください。
+- **ひざや足首、腰に痛みがある方、骨粗しょう症と言われている方、心臓の病気がある方、ふらつきがある方**は、始める前に、かかりつけ医などにご相談ください（開院後は当院へ）。
 - 起きてすぐや、食べてすぐは避けましょう。転ばないよう、最初は椅子の背やテーブルに手を添えて行うと安心です。
 - 跳ぶのが不安な方は、**かかと上げ**（かかとをゆっくり上げ下げ10回）から。同じふくらはぎを、床から足を離さずに育てられます。
 
-なお、腎臓の病気がある方は、タンパク質をとりすぎないほうがよい場合があります。ひざや腰に痛みがある方も含めて、気になる方は一度ご相談ください。
+なお、腎臓の病気がある方は、タンパク質をとりすぎないほうがよい場合があります。ひざや腰に痛みがある方も含めて、気になる方は一度、かかりつけ医などにご相談ください（開院後は当院へ）。
 
 ### 今日のまとめ
 
@@ -102,7 +102,7 @@ sources:
 
 これまでのダイエットは「減らす」引き算が中心だったかもしれません。でも年齢を重ねてからは、**必要なものを補って、筋肉を育てる「足し算」の健康づくり**が大切になります。
 
-指輪っかテストで気になる結果が出た方や、「何を、どれくらい食べればいいのか」「どんな運動なら続けられるか」と迷っている方は、どうぞ気軽にご相談ください。あなたの暮らしに合ったやり方を、一緒に考えていきましょう。
+指輪っかテストで気になる結果が出た方や、「何を、どれくらい食べればいいのか」「どんな運動なら続けられるか」と迷っている方は、どうぞ気軽に、かかりつけ医などにご相談ください（開院後は当院へ）。あなたの暮らしに合ったやり方を、一緒に考えていきましょう。
 
 ## en
 
@@ -178,11 +178,11 @@ This exercise is introduced in books and on TV by Professor Michiya Igase of Ehi
 - **Bones**: the small impact of each landing stimulates your bones and is thought to help keep them strong.
 
 **Please be careful**
-- If you have **knee, ankle or back pain, have been told you have osteoporosis, have a heart condition, or feel unsteady on your feet**, please talk with us before starting.
+- If you have **knee, ankle or back pain, have been told you have osteoporosis, have a heart condition, or feel unsteady on your feet**, please talk with your family doctor (or with us, once we open) before starting.
 - Avoid it right after waking up or right after eating. To be safe, rest a hand on the back of a chair or a table at first.
 - If jumping feels risky, start with **heel raises** (slowly raise and lower your heels 10 times). They build the same calf muscles without your feet leaving the floor.
 
-If you have kidney disease, you may need to avoid eating too much protein. If that applies to you — or if you have knee or back pain — please talk with us first.
+If you have kidney disease, you may need to avoid eating too much protein. If that applies to you — or if you have knee or back pain — please talk with your family doctor (or with us, once we open) first.
 
 ### Today's takeaway
 
@@ -190,4 +190,4 @@ To sum up: **after your 40s, the key to losing weight isn't what you cut — it'
 
 Until now, dieting may have been mostly about subtracting. But as we get older, **adding what you need and building muscle** becomes the key to good health.
 
-If the finger-ring test gave you a result that worries you, or you're unsure “what and how much to eat” or “what exercise I could keep up,” please feel free to come and talk with us. Let's find an approach that fits your life, together.
+If the finger-ring test gave you a result that worries you, or you're unsure “what and how much to eat” or “what exercise I could keep up,” please feel free to talk with your family doctor (or with us, once we open). Let's find an approach that fits your life, together.

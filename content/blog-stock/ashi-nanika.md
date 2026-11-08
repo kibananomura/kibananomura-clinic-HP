@@ -75,7 +75,7 @@ sources:
 
 足は、毎日黙ってあなたの体を支えてくれている、いちばんの働き者です。だからこそ、小さな痛みや違和感を「年のせい」で片づけずに、ときどき耳を傾けてあげてください。
 
-お風呂上がりに、自分の足をよく見てみる。それだけでも、立派な足のケアです。気になることがあれば、どうぞ気軽にご相談ください。いつまでも自分の足で歩き続けられるよう、一緒に足を大切にしていきましょう。
+お風呂上がりに、自分の足をよく見てみる。それだけでも、立派な足のケアです。気になることがあれば、どうぞ気軽に、かかりつけ医などにご相談ください（開院後は当院へ）。いつまでも自分の足で歩き続けられるよう、一緒に足を大切にしていきましょう。
 
 ## en
 
@@ -132,4 +132,4 @@ To sum up: **behind foot trouble, there may be problems not only with bones or s
 
 Your feet are the hardest workers you have, quietly supporting your body every day. That's exactly why I hope you'll listen to them now and then, rather than writing off small pains or discomfort as “my age.”
 
-After a bath, take a good look at your feet. That alone is real foot care. If anything concerns you, please feel free to talk with us. Let's take care of your feet together, so you can keep walking on your own two feet for years to come.
+After a bath, take a good look at your feet. That alone is real foot care. If anything concerns you, please feel free to talk with your family doctor (or with us, once we open). Let's take care of your feet together, so you can keep walking on your own two feet for years to come.

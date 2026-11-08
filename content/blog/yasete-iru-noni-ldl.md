@@ -44,7 +44,7 @@ sources:
 
 お薬を飲んでいる間は、工場の火加減が調整され、お掃除ロボットもよく働いています。お薬をやめると、工場は**もとの設定に戻って**、また濃いスープを作り始めます。数値が戻るのは、治療が失敗したからではありません。**お薬がきちんと働いていた証拠**なのです。
 
-なお、ご家族に若いうちに心筋梗塞を起こした方がいる場合や、LDLがかなり高い場合は、生まれつきコレステロールが高くなる体質（家族性高コレステロール血症）が隠れていることもあります。思い当たる方は、一度ご相談ください。
+なお、ご家族に若いうちに心筋梗塞を起こした方がいる場合や、LDLがかなり高い場合は、生まれつきコレステロールが高くなる体質（家族性高コレステロール血症）が隠れていることもあります。思い当たる方は、一度、かかりつけ医などにご相談ください（開院後は当院へ）。
 
 ### 血圧の薬と同じ「血管の安全装置」
 
@@ -62,7 +62,7 @@ sources:
 
 お薬に頼ることは、恥ずかしいことでも、努力が足りない証拠でもありません。「自分の力だけでは代謝のバランスを保ちにくい体質」を、お薬が上手にバックアップしてくれている——それが今の医学の考え方です。
 
-自己判断でやめたり、一人で悩んだりせず、どうぞお気軽にご相談ください。一緒に、安全なバランスを保っていきましょう。
+自己判断でやめたり、一人で悩んだりせず、どうぞ気軽に、かかりつけ医などにご相談ください（開院後は当院へ）。一緒に、安全なバランスを保っていきましょう。
 
 ## en
 
@@ -94,7 +94,7 @@ Statins — medicines that lower LDL (“bad”) cholesterol — support this te
 
 While you take the medicine, the factory runs on a lower flame and the cleaning robots work hard. When you stop, the factory **goes back to its original setting** and starts making rich soup again. Numbers bouncing back isn't a sign that treatment failed — it's **proof the medicine was working**.
 
-If someone in your family had a heart attack at a young age, or your LDL is very high, you may have an inherited tendency to high cholesterol (familial hypercholesterolemia). If that sounds familiar, please talk to us.
+If someone in your family had a heart attack at a young age, or your LDL is very high, you may have an inherited tendency to high cholesterol (familial hypercholesterolemia). If that sounds familiar, please talk with your family doctor (or with us, once we open).
 
 ### A “safety device” for your blood vessels, like blood pressure medicine
 
@@ -112,4 +112,4 @@ To sum up: **LDL (“bad”) cholesterol depends more on your constitution than 
 
 Relying on medicine is nothing to be ashamed of, and it isn't a sign you didn't try hard enough. The medicine is skillfully backing up a constitution that finds it hard to keep its metabolic balance on its own — that's how modern medicine sees it.
 
-Please don't stop on your own or worry alone. Talk to us anytime, and let's keep you in a safe balance together.
+Please don't stop on your own or worry alone. Talk with your family doctor (or with us, once we open) anytime, and let's keep you in a safe balance together.

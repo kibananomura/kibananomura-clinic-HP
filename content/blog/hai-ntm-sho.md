@@ -119,7 +119,7 @@ NTMは、特別な場所にいる菌ではありません。**土の中や、水
 
 「肺NTM症」「肺MAC症」と聞くと、聞き慣れない名前に驚き、インターネットの情報を読んで不安になってしまうのは自然なことです。けれど、この病気の多くはゆっくり進み、正しく理解して、自分に合ったペースで経過を見ていけば、日常生活を大きく変えずに付き合っていける病気でもあります。
 
-大切なのは、ひとりで抱え込まず、**定期的に診てもらえる医師を持つこと**です。開院後、当院では院内のCTを活かして肺の状態をしっかり確認し、必要に応じて専門の医療機関とも連携しながら、長い目で寄り添っていきたいと考えています。「せきがなかなか止まらない」「健診で影があると言われたけれど、どこに行けばいいか分からない」——そんなときは、どうぞお気軽にご相談ください。
+大切なのは、ひとりで抱え込まず、**定期的に診てもらえる医師を持つこと**です。開院後、当院では院内のCTを活かして肺の状態をしっかり確認し、必要に応じて専門の医療機関とも連携しながら、長い目で寄り添っていきたいと考えています。「せきがなかなか止まらない」「健診で影があると言われたけれど、どこに行けばいいか分からない」——そんなときは、どうぞ気軽に、かかりつけ医などにご相談ください（開院後は当院へ）。
 
 ## en
 
@@ -225,4 +225,4 @@ To wrap up, here are the key points:
 
 Hearing "pulmonary NTM disease" or "pulmonary MAC disease" for the first time can be startling, and it's natural to feel uneasy after reading about it online. But many cases progress slowly, and with a proper understanding and monitoring at a pace that suits you, it's a condition many people live with without major changes to their daily lives.
 
-What matters is not to carry it alone, and **to have a doctor who can see you regularly.** Once we open, we plan to make full use of our in-house CT to check the condition of your lungs carefully, working with specialist institutions when needed, and to support you for the long term. If your cough just won't go away, or a checkup found a shadow and you're not sure where to turn, please feel free to talk to us.
+What matters is not to carry it alone, and **to have a doctor who can see you regularly.** Once we open, we plan to make full use of our in-house CT to check the condition of your lungs carefully, working with specialist institutions when needed, and to support you for the long term. If your cough just won't go away, or a checkup found a shadow and you're not sure where to turn, please feel free to talk with your family doctor (or with us, once we open).

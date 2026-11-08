@@ -86,7 +86,7 @@ sources:
 
 体重が減らないのは、あなたの努力が足りないからではありません。体が、あなたを守ろうとして省エネモードに切り替わっているだけなのです。
 
-急激なダイエットよりも、**代謝を落とさず、筋肉を守りながら、ゆっくり体を整えていくこと**が、遠回りのようでいちばんの近道です。食事の工夫に迷ったときや、健診で血糖値・体重のことを指摘されたときは、どうぞお気軽にご相談ください。一緒に、無理なく続けられる方法を見つけていきましょう。
+急激なダイエットよりも、**代謝を落とさず、筋肉を守りながら、ゆっくり体を整えていくこと**が、遠回りのようでいちばんの近道です。食事の工夫に迷ったときや、健診で血糖値・体重のことを指摘されたときは、どうぞ気軽に、かかりつけ医などにご相談ください（開院後は当院へ）。一緒に、無理なく続けられる方法を見つけていきましょう。
 
 ## en
 
@@ -160,4 +160,4 @@ Please note: **if you take medication for diabetes, skipping meals on your own c
 
 If your weight isn't coming down, it is not because you haven't tried hard enough. Your body has simply switched into energy-saving mode to protect you.
 
-Rather than a rapid diet, **gradually getting your body into shape while keeping your metabolism up and protecting your muscles** may look like a detour, but it is the surest path. If you are unsure how to adjust your meals, or if a health check has flagged your blood sugar or weight, please feel free to talk to us. Let's find a way that you can keep up without strain, together.
+Rather than a rapid diet, **gradually getting your body into shape while keeping your metabolism up and protecting your muscles** may look like a detour, but it is the surest path. If you are unsure how to adjust your meals, or if a health check has flagged your blood sugar or weight, please feel free to talk with your family doctor (or with us, once we open). Let's find a way that you can keep up without strain, together.

@@ -66,7 +66,7 @@ sources:
 
 「糖尿病かもしれない」と言われることは、決して“おしまい”の合図ではありません。むしろ、体が「今なら間に合いますよ」と教えてくれている、大切なきっかけだと私は考えています。
 
-健診で気になる数値があったら、諦めずに、どうぞ気軽にご相談ください。あなたに合ったペースで、一緒に良い状態を目指していきましょう。
+健診で気になる数値があったら、諦めずに、どうぞ気軽に、かかりつけ医などにご相談ください（開院後は当院へ）。あなたに合ったペースで、一緒に良い状態を目指していきましょう。
 
 ## en
 
@@ -102,7 +102,7 @@ Remission doesn't mean “I'm cured, so I don't need to do anything.” If your 
 
 And depending on the type of diabetes, how long you've had it and your constitution, some people do better by using medicine well to stay in good shape rather than aiming for remission. Taking medicine is never a failure. I've written about this in “[‘Once you start, you can never stop’ is a myth](/blog/kusuri-yamerarenai)” and “[Please don't blame yourself for the label ‘lifestyle disease’](/blog/seikatsu-shukanbyo-gokai).”
 
-### Rather than fearing it, talk to us early
+### Rather than fearing it, talk to a doctor early
 
 Diabetes causes almost no symptoms at first. That makes it easy to put off — “I'm still fine” — and then find it has progressed by the time you notice.
 
@@ -114,4 +114,4 @@ To sum up: **for type 2 diabetes, which makes up most cases, it has become possi
 
 Being told “you might have diabetes” is never a signal that “it's over.” If anything, I see it as an important prompt — your body telling you, “There's still time.”
 
-If anything in your checkup results concerns you, please don't give up — feel free to talk with us. Let's aim for a good state together, at a pace that suits you.
+If anything in your checkup results concerns you, please don't give up — feel free to talk with your family doctor (or with us, once we open). Let's aim for a good state together, at a pace that suits you.

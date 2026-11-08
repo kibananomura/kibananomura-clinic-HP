@@ -68,7 +68,7 @@ sources:
 
 我慢するだけの治療から、美味しく食べて体を守る治療へ。食事は、毎日の楽しみであり、体をつくる大切な材料でもあります。
 
-「何を食べたらいいのか分からない」「家族の食事をどう作ればいいのか迷う」——そんなときは、どうぞ気軽にご相談ください。あなたの暮らしに合った食べ方を、一緒に考えていきましょう。
+「何を食べたらいいのか分からない」「家族の食事をどう作ればいいのか迷う」——そんなときは、どうぞ気軽に、かかりつけ医などにご相談ください（開院後は当院へ）。あなたの暮らしに合った食べ方を、一緒に考えていきましょう。
 
 ## en
 
@@ -119,4 +119,4 @@ If your kidney function has declined, it may be better to adjust how much protei
 
 From treatment that's only about enduring, to treatment where you eat well and protect your body. Food is a daily pleasure and an important material for building your body.
 
-“I don't know what I should eat.” “I'm not sure how to cook for my family.” At times like these, please feel free to talk with us. Let's work out a way of eating that fits your life, together.
+“I don't know what I should eat.” “I'm not sure how to cook for my family.” At times like these, please feel free to talk with your family doctor (or with us, once we open). Let's work out a way of eating that fits your life, together.

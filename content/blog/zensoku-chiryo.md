@@ -50,7 +50,7 @@ sources:
 
 毎日の吸入や服薬を手間に感じることもあると思います。ですがその1回1回が、将来のあなたの気道を守り、大きな発作を防いでいます。
 
-「吸入がうまくできているか不安」「お薬を減らしたい」と感じたときは、自己判断でやめず、いつでも診察室でご相談ください。二人三脚で、快適に呼吸できる毎日を守っていきましょう。
+「吸入がうまくできているか不安」「お薬を減らしたい」と感じたときは、自己判断でやめず、いつでも、かかりつけ医などにご相談ください（開院後は当院へ）。二人三脚で、快適に呼吸できる毎日を守っていきましょう。
 
 ## en
 
@@ -87,4 +87,4 @@ To sum up: **even on symptom-free days, inflammation keeps quietly smoldering in
 
 Taking a daily inhaler or medication can feel like a hassle at times. But each dose is protecting your airways for the future and preventing a major attack.
 
-If you're ever unsure whether you're using your inhaler correctly, or you'd like to try reducing your medication, please don't stop on your own — come talk to us anytime. Let's work side by side to protect your days of comfortable breathing.
+If you're ever unsure whether you're using your inhaler correctly, or you'd like to try reducing your medication, please don't stop on your own — talk with your family doctor (or with us, once we open) anytime. Let's work side by side to protect your days of comfortable breathing.

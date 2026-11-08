@@ -107,7 +107,7 @@ sources:
 
 抗アレルギー薬は、いまの症状にピタリと合えば、**驚くほど快適に過ごせる**お薬です。せっかく毎日飲んでいるのに効果が出なかったり、お体に負担がかかったりするのは、本当にもったいないことです。
 
-「今年の症状に効いていない気がする」「手元の薬をどう飲めばいいかわからない」——そんなときは、どうぞお気軽に当院にご相談ください。あなたの「いまの症状」に合わせて、一緒にお薬を選びましょう。
+「今年の症状に効いていない気がする」「手元の薬をどう飲めばいいかわからない」——そんなときは、どうぞ気軽に、かかりつけ医などにご相談ください（開院後は当院へ）。あなたの「いまの症状」に合わせて、一緒にお薬を選びましょう。
 
 ## en
 
@@ -202,4 +202,4 @@ When you visit, please bring **any leftover medicine and your medication record 
 
 When an allergy medicine matches your current symptoms, it can make you **feel remarkably comfortable**. It's a real shame to take medicine every day and not feel the benefit, or to put unnecessary strain on your body.
 
-If you feel “my medicine isn't working this year,” or you're unsure how to take what you have at home, please feel free to talk to us. Let's choose the right medicine for your symptoms right now, together.
+If you feel “my medicine isn't working this year,” or you're unsure how to take what you have at home, please feel free to talk with your family doctor (or with us, once we open). Let's choose the right medicine for your symptoms right now, together.

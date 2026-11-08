@@ -78,7 +78,7 @@ sources:
 
 足のトラブルは、忙しさの中でつい後回しにされがちです。でも、足は毎日あなたを支えてくれている、大切な体の一部です。
 
-いつまでも自分の足で元気に歩くために、今日から足にも少しだけ優しく目を向けてあげましょう。気になることがあれば、どうぞ気軽にご相談ください。
+いつまでも自分の足で元気に歩くために、今日から足にも少しだけ優しく目を向けてあげましょう。気になることがあれば、どうぞ気軽に、かかりつけ医などにご相談ください（開院後は当院へ）。
 
 ## en
 
@@ -138,4 +138,4 @@ If you notice changes such as “a wound that won't heal,” “red swelling” 
 
 Foot troubles easily get pushed aside in busy lives. But your feet are an important part of your body, supporting you every day.
 
-To keep walking on your own two feet in good health for years to come, let's start today by turning a slightly kinder eye toward your feet. If anything concerns you, please feel free to talk with us.
+To keep walking on your own two feet in good health for years to come, let's start today by turning a slightly kinder eye toward your feet. If anything concerns you, please feel free to talk with your family doctor (or with us, once we open).
