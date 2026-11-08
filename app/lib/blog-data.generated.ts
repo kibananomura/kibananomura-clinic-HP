@@ -272,7 +272,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "「これくらいで受診していいのかな」と迷うことがあれば、どうぞ遠慮なくお電話ください。ご家族みなさんが、この夏を元気に過ごせますように。"
+          "text": "「これくらいで受診していいのかな」と迷うことがあれば、どうぞ遠慮なく、かかりつけ医などにご相談ください（開院後は当院へ）。ご家族みなさんが、この夏を元気に過ごせますように。"
         }
       ]
     },
@@ -328,7 +328,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "Hand, foot, and mouth disease, common among young children, dropped sharply from 220 cases last month to 76, down to about a third — a sign it's settling down. On the other hand, group A streptococcal pharyngitis (strep throat), marked by sore throat and fever, rose slightly from 124 to 152 cases. Strep throat rarely resolves on its own, and appropriate treatment is generally recommended. If your child has a severe sore throat or a rash, please come in sooner rather than later."
+          "text": "Hand, foot, and mouth disease, common among young children, dropped sharply from 220 cases last month to 76, down to about a third — a sign it's settling down. On the other hand, group A streptococcal pharyngitis (strep throat), marked by sore throat and fever, rose slightly from 124 to 152 cases. Strep throat rarely resolves on its own, and appropriate treatment is generally recommended. If your child has a severe sore throat or a rash, please see your family doctor sooner rather than later (or us, once we open)."
         },
         {
           "kind": "text",
@@ -348,7 +348,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "If you're ever unsure whether something is \"worth a visit,\" please don't hesitate to call us. We hope your family has a healthy summer ahead."
+          "text": "If you're ever unsure whether something is \"worth a visit,\" please don't hesitate to talk with your family doctor (or with us, once we open). We hope your family has a healthy summer ahead."
         }
       ]
     },
@@ -4047,7 +4047,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "他院にかかっている方が一時的に別のクリニックを頼るのは気が引ける、と感じる方は少なくありません。ですが、当院ではそうしたご遠慮は一切不要です。一度きりの受診でも、かかりつけ医が再開するまでの「つなぎ」でも、どうぞ気軽にお越しください。"
+          "text": "他院にかかっている方が一時的に別のクリニックを頼るのは気が引ける、と感じる方は少なくありません。ですが、当院ではそうしたご遠慮は一切不要です。一度きりの受診でも、かかりつけ医が再開するまでの「つなぎ」でも、開院後は、どうぞ気軽にお越しください。"
         },
         {
           "kind": "text",
@@ -4075,7 +4075,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "地域の皆さんの日常の健康はもちろん、旅先や一時滞在中の「駆け込み寺」としても、いつでも気軽にお越しください。"
+          "text": "地域の皆さんの日常の健康はもちろん、旅先や一時滞在中の「駆け込み寺」としても、開院後は、いつでも気軽にお越しください。"
         }
       ]
     },
@@ -4094,7 +4094,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "Many people feel awkward about turning to a different clinic temporarily when they already have a regular doctor elsewhere. Please don't feel that way here. Whether it's a single visit or simply bridging the gap until your usual clinic reopens, feel free to come in."
+          "text": "Many people feel awkward about turning to a different clinic temporarily when they already have a regular doctor elsewhere. Please don't feel that way here. Whether it's a single visit or simply bridging the gap until your usual clinic reopens, feel free to come in once we open."
         },
         {
           "kind": "text",
@@ -4122,7 +4122,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "Whether it's your everyday health here in the community, or sudden trouble while traveling or staying nearby, please feel free to come to us anytime."
+          "text": "Whether it's your everyday health here in the community, or sudden trouble while traveling or staying nearby, once we open, please feel free to come to us anytime."
         }
       ]
     },
@@ -5603,7 +5603,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "「このくらいで相談していいのかな」と迷うことがあれば、どうぞ気軽にお越しください。一緒に、今の状態を整理するところから始めましょう。"
+          "text": "「このくらいで相談していいのかな」と迷うことがあれば、どうぞ気軽に、かかりつけ医などにご相談ください（開院後は当院へ）。一緒に、今の状態を整理するところから始めましょう。"
         }
       ]
     },
@@ -5663,7 +5663,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "If you're ever wondering whether something is worth bringing up, please feel free to stop by. Let's start by simply sorting out where things stand right now, together."
+          "text": "If you're ever wondering whether something is worth bringing up, please feel free to talk with your family doctor (or with us, once we open). Let's start by simply sorting out where things stand right now, together."
         }
       ]
     },

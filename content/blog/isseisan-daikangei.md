@@ -15,7 +15,7 @@ excerpt_en: Is it okay to come in for something this temporary? You don't need t
 
 ### 「一見さん」も「つなぎの受診」も、遠慮は無用です
 
-他院にかかっている方が一時的に別のクリニックを頼るのは気が引ける、と感じる方は少なくありません。ですが、当院ではそうしたご遠慮は一切不要です。一度きりの受診でも、かかりつけ医が再開するまでの「つなぎ」でも、どうぞ気軽にお越しください。
+他院にかかっている方が一時的に別のクリニックを頼るのは気が引ける、と感じる方は少なくありません。ですが、当院ではそうしたご遠慮は一切不要です。一度きりの受診でも、かかりつけ医が再開するまでの「つなぎ」でも、開院後は、どうぞ気軽にお越しください。
 
 ### 初めての方でも、安心していただける理由
 
@@ -29,7 +29,7 @@ excerpt_en: Is it okay to come in for something this temporary? You don't need t
 
 ### 結びに
 
-地域の皆さんの日常の健康はもちろん、旅先や一時滞在中の「駆け込み寺」としても、いつでも気軽にお越しください。
+地域の皆さんの日常の健康はもちろん、旅先や一時滞在中の「駆け込み寺」としても、開院後は、いつでも気軽にお越しください。
 
 ## en
 
@@ -37,7 +37,7 @@ Here in Kibana, close to Aoshima, I expect we'll see plenty of people who fall s
 
 ### No need to hesitate, whether you're a first-timer or just filling a gap
 
-Many people feel awkward about turning to a different clinic temporarily when they already have a regular doctor elsewhere. Please don't feel that way here. Whether it's a single visit or simply bridging the gap until your usual clinic reopens, feel free to come in.
+Many people feel awkward about turning to a different clinic temporarily when they already have a regular doctor elsewhere. Please don't feel that way here. Whether it's a single visit or simply bridging the gap until your usual clinic reopens, feel free to come in once we open.
 
 ### Why first-time patients can feel at ease
 
@@ -51,4 +51,4 @@ Bringing your medication notebook, or anything showing your recent medical histo
 
 ### In closing
 
-Whether it's your everyday health here in the community, or sudden trouble while traveling or staying nearby, please feel free to come to us anytime.
+Whether it's your everyday health here in the community, or sudden trouble while traveling or staying nearby, once we open, please feel free to come to us anytime.

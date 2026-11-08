@@ -42,7 +42,7 @@ sources:
 
 健診結果の受け止め方も、「お薬を始めるべきか」という判断も、本来は一人ひとり違うものです。数値の判定結果だけでなく、その背景にある疑問や不安に丁寧に向き合うことが、納得して日々を過ごしていただくための近道だと考えています。
 
-「このくらいで相談していいのかな」と迷うことがあれば、どうぞ気軽にお越しください。一緒に、今の状態を整理するところから始めましょう。
+「このくらいで相談していいのかな」と迷うことがあれば、どうぞ気軽に、かかりつけ医などにご相談ください（開院後は当院へ）。一緒に、今の状態を整理するところから始めましょう。
 
 ## en
 
@@ -70,4 +70,4 @@ This is offered simply as "one option available to you," not something we recomm
 
 How to interpret a checkup result, and whether it's time to start medication, is something that genuinely differs from person to person. I believe that attending carefully to the questions and worries behind the numbers — not just the pass/fail verdict — is the shortest path to living each day with real peace of mind.
 
-If you're ever wondering whether something is worth bringing up, please feel free to stop by. Let's start by simply sorting out where things stand right now, together.
+If you're ever wondering whether something is worth bringing up, please feel free to talk with your family doctor (or with us, once we open). Let's start by simply sorting out where things stand right now, together.
