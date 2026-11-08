@@ -198,6 +198,10 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
+          "text": "秋以降の状況は、続報の「[【続報】宮崎でインフルエンザが例年の約15倍に。](/blog/kansen-2026-11)」でお伝えしています。"
+        },
+        {
+          "kind": "text",
           "text": "### 院長からのメッセージ"
         },
         {
@@ -263,6 +267,10 @@ export const generatedPosts: BlogPost[] = [
         {
           "kind": "text",
           "text": "Hand, foot, and mouth disease, common among young children, dropped sharply from 220 cases last month to 76, down to about a third — a sign it's settling down. On the other hand, group A streptococcal pharyngitis (strep throat), marked by sore throat and fever, rose slightly from 124 to 152 cases. Strep throat rarely resolves on its own, and appropriate treatment is generally recommended. If your child has a severe sore throat or a rash, please come in sooner rather than later."
+        },
+        {
+          "kind": "text",
+          "text": "For the situation from autumn onward, see the follow-up “[Update: Flu in Miyazaki is about 15 times the usual level](/blog/kansen-2026-11).”"
         },
         {
           "kind": "text",
@@ -8486,6 +8494,205 @@ export const generatedPosts: BlogPost[] = [
         {
           "kind": "text",
           "text": "Before you stop on your own, would you show me your current lifestyle and your blood pressure log? Telling me “here's what I've been working on lately” is valuable information too. Let's talk through your treatment plan together."
+        }
+      ]
+    }
+  },
+  {
+    "slug": "kansen-2026-11",
+    "date": "2026.11.08",
+    "cover": "/blog/kibana-landscape.jpg",
+    "sources": [
+      {
+        "label": "宮崎県感染症情報センター「宮崎県感染症週報」2026年第44週（10/26〜11/1）",
+        "url": "https://www.pref.miyazaki.lg.jp/contents/org/fukushi/eikanken/center/infectious/"
+      },
+      {
+        "label": "厚生労働省「インフルエンザ（総合ページ）」",
+        "url": "https://www.mhlw.go.jp/bunya/kenkou/influenza/"
+      }
+    ],
+    "ja": {
+      "category": "健康・予防の話",
+      "subcategory": "感染症・ワクチン",
+      "title": "【続報】宮崎でインフルエンザが例年の約15倍に。RSウイルスも倍増、マダニの感染症にも注意を",
+      "excerpt": "夏にお伝えした宮崎県の感染症の続報です。秋が深まり、流行の主役が入れ替わってきました。最新のデータと、ご家庭で気をつけたいことをまとめました。",
+      "body": [
+        {
+          "kind": "text",
+          "text": "朝晩がぐっと冷え込むようになり、「子どもが熱を出した」「職場でせきをしている人が増えてきた」という声が聞こえてくる季節になりました。この夏、「[宮崎県内で今、増えている感染症は？](/blog/kansen-2026-07)」で県内の感染症の状況をお伝えしましたが、秋が深まり、流行の顔ぶれがすっかり入れ替わってきています。"
+        },
+        {
+          "kind": "text",
+          "text": "この記事を読んでいただくと、今の宮崎でどんな感染症が増えているのか、そしてご家庭でどんなことに気をつければよいのかが分かります。結論から言うと、**今いちばん気をつけたいのはインフルエンザで、例年の同じ時期の約15倍という、かなり早い立ち上がりです。小さなお子さんではRSウイルス、そして畑仕事や山歩きをする方はマダニによる感染症にも注意が必要です。**"
+        },
+        {
+          "kind": "text",
+          "text": "今回のデータは、宮崎県が発表した2026年第44週（10月26日〜11月1日）の「宮崎県感染症週報」です。「定点あたり」は、「1つの医療機関に1週間で何人来たか」という意味だと思っていただければ大丈夫です。"
+        },
+        {
+          "kind": "text",
+          "text": "### インフルエンザ：例年より、ひと足早く広がっています"
+        },
+        {
+          "kind": "text",
+          "text": "県内のインフルエンザの報告数は203人、定点あたり7.5人で、前の週から約2割増えました。例年の同じ時期の平均（0.51人）と比べると、**約15倍**にあたります。インフルエンザは例年、年末から年明けにかけて増えることが多いのですが、今年はかなり早いペースです。"
+        },
+        {
+          "kind": "text",
+          "text": "年齢では、**15歳未満のお子さんが全体の約7割**を占めています。学校や園で広がりやすい時期ですので、急な高熱、のどの痛み、関節や筋肉の痛み、強いだるさがあれば、早めにご相談ください。"
+        },
+        {
+          "kind": "text",
+          "text": "全国でも定点あたり9.5人と、例年の約24倍に増えています。まだワクチンを受けていない方は、今からでも遅くはありません。迷っている方は「[インフルエンザワクチン、打つべきか迷っているあなたへ](/blog/influenza-vaccine-mayoi)」もあわせてお読みください。"
+        },
+        {
+          "kind": "text",
+          "text": "### RSウイルス：赤ちゃんのいるご家庭は特に注意を"
+        },
+        {
+          "kind": "text",
+          "text": "RSウイルス感染症は54人（定点あたり3.9人）で、**前の週の約2倍**に増えました。例年の同じ時期の約5倍です。**1歳以下の赤ちゃんが全体の約7割**を占めています。"
+        },
+        {
+          "kind": "text",
+          "text": "RSウイルスは、大人や年長の子どもでは鼻水やせきなど、ふつうの風邪のような症状で済むことがほとんどです。ところが、生後間もない赤ちゃんでは、気管支や肺に炎症が広がり、呼吸が苦しくなることがあります。次のようなときは、早めに受診してください。"
+        },
+        {
+          "kind": "text",
+          "text": "- 呼吸が速い、ゼーゼー・ヒューヒューと音がする\n- 息をするたびに、胸やおなかがペコペコへこむ\n- ミルクや母乳の飲みが悪い、おしっこが少ない"
+        },
+        {
+          "kind": "text",
+          "text": "上の子が風邪をひいたら、赤ちゃんとの接触をなるべく控え、家族みんなで手洗いを心がけましょう。"
+        },
+        {
+          "kind": "text",
+          "text": "### マダニによる感染症：秋も油断できません"
+        },
+        {
+          "kind": "text",
+          "text": "今週、宮崎市保健所管内から、マダニが媒介する**重症熱性血小板減少症候群（SFTS）**の報告がありました。40歳代の男性で、かまれた跡は見つかっていません。県内での報告は、これで累計128例になりました。ほかにも、同じくダニが関わる**日本紅斑熱**が1例報告されています。"
+        },
+        {
+          "kind": "text",
+          "text": "マダニは秋も活動しています。畑仕事や草刈り、山歩きのときは、長袖・長ズボン・手袋で肌を出さないようにし、帰ったら体にダニがついていないか確かめましょう。かまれた跡が見つからないこともあるので、**野外で過ごした数日〜2週間後に、発熱や下痢、おう吐、強いだるさが出たら、外で過ごしたことを伝えて受診**してください。くわしくは[マダニ・SFTSの解説ページ](/diseases/tick-bite-sfts)にまとめています。"
+        },
+        {
+          "kind": "text",
+          "text": "### 落ち着いてきたもの"
+        },
+        {
+          "kind": "text",
+          "text": "感染性胃腸炎は72人（定点あたり5.1人）で、前の週より2割ほど減りました。例年より少ない状況です。のどの溶連菌、ヘルパンギーナ、はやり目（流行性角結膜炎）も減ってきています。"
+        },
+        {
+          "kind": "text",
+          "text": "なお、全国ではマイコプラズマ肺炎が前の週の約1.3倍に増えています。せきが長く続くときは、早めにご相談ください。"
+        },
+        {
+          "kind": "text",
+          "text": "### 院長からのメッセージ"
+        },
+        {
+          "kind": "text",
+          "text": "- 外から帰ったら、石けんで手を洗いましょう\n- せきが出るときは、マスクをつけて周りの人を守りましょう\n- 高熱が続く、水分がとれない、ぐったりしている、息が苦しそうといったときは、様子を見すぎずに受診してください"
+        },
+        {
+          "kind": "text",
+          "text": "これから年末にかけて、人が集まる機会も増えていきます。「これくらいで受診していいのかな」と迷ったときこそ、気軽にご相談ください。ご家族みなさんが、元気に冬を迎えられますように。"
+        }
+      ]
+    },
+    "en": {
+      "category": "Health and prevention",
+      "subcategory": "Infections & vaccines",
+      "title": "[Update] Flu in Miyazaki is about 15 times the usual level — RSV has doubled, and watch out for tick-borne infections too",
+      "excerpt": "A follow-up to our summer report on infections in Miyazaki. As autumn deepens, the main players have changed. Here's the latest data and what to watch for at home.",
+      "body": [
+        {
+          "kind": "text",
+          "text": "The mornings and evenings have turned chilly, and it's the season when we start hearing “my child has a fever” or “more people at work are coughing.” This summer, in “[What infections are on the rise in Miyazaki right now?](/blog/kansen-2026-07)”, I reported on infections in the prefecture. As autumn deepens, the line-up has changed completely."
+        },
+        {
+          "kind": "text",
+          "text": "This article explains which infections are rising in Miyazaki right now, and what to watch for at home. The bottom line: **the one to watch most closely right now is influenza, which is rising early — about 15 times the usual level for this time of year. RSV is a concern for young children, and tick-borne infections for people who farm or hike.**"
+        },
+        {
+          "kind": "text",
+          "text": "The data comes from the “Miyazaki Prefecture Infectious Disease Weekly Report” for week 44 of 2026 (October 26 – November 1). “Per sentinel” simply means “how many patients one medical institution saw in a week.”"
+        },
+        {
+          "kind": "text",
+          "text": "### Influenza: spreading earlier than usual"
+        },
+        {
+          "kind": "text",
+          "text": "The prefecture reported 203 flu cases, or 7.5 per sentinel — up about 20% from the previous week. That's **about 15 times** the usual average for this time of year (0.51). Flu usually rises from the end of the year into the new year, but this year it's moving much faster."
+        },
+        {
+          "kind": "text",
+          "text": "By age, **children under 15 make up about 70%** of cases. It spreads easily at schools and nurseries, so if you have a sudden high fever, sore throat, joint or muscle aches, or strong fatigue, please talk with a doctor early."
+        },
+        {
+          "kind": "text",
+          "text": "Nationwide, too, it's at 9.5 per sentinel — about 24 times the usual level. If you haven't had a flu shot yet, it's not too late. If you're unsure, please also read “[Still unsure about the flu shot?](/blog/influenza-vaccine-mayoi)”"
+        },
+        {
+          "kind": "text",
+          "text": "### RSV: take extra care if you have a baby"
+        },
+        {
+          "kind": "text",
+          "text": "RSV infections were at 54 (3.9 per sentinel), **about double the previous week** and about 5 times the usual level. **Babies aged 1 and under make up about 70%** of cases."
+        },
+        {
+          "kind": "text",
+          "text": "In adults and older children, RSV usually causes ordinary cold-like symptoms such as a runny nose and cough. But in young babies, inflammation can spread to the airways and lungs and make breathing difficult. Please see a doctor early if:"
+        },
+        {
+          "kind": "text",
+          "text": "- Breathing is fast, or there's wheezing or whistling\n- The chest or belly sinks in with each breath\n- Your baby isn't drinking milk well, or is passing less urine"
+        },
+        {
+          "kind": "text",
+          "text": "If an older sibling has a cold, try to limit contact with the baby, and have the whole family wash their hands."
+        },
+        {
+          "kind": "text",
+          "text": "### Tick-borne infections: don't let your guard down in autumn"
+        },
+        {
+          "kind": "text",
+          "text": "This week, a case of **severe fever with thrombocytopenia syndrome (SFTS)**, which is spread by ticks, was reported from the Miyazaki City public health center area. The patient was a man in his 40s, and no bite mark was found. That brings the prefecture's cumulative total to 128 cases. One case of **Japanese spotted fever**, also tick-related, was reported as well."
+        },
+        {
+          "kind": "text",
+          "text": "Ticks are active in autumn too. When farming, mowing grass or hiking, cover your skin with long sleeves, long pants and gloves, and check your body for ticks when you get home. Since a bite mark may not be found, **if you develop fever, diarrhea, vomiting or strong fatigue a few days to two weeks after spending time outdoors, see a doctor and mention that you were outside**. More details are on [our tick bites and SFTS page](/diseases/tick-bite-sfts)."
+        },
+        {
+          "kind": "text",
+          "text": "### Things that have settled down"
+        },
+        {
+          "kind": "text",
+          "text": "Infectious gastroenteritis was at 72 (5.1 per sentinel), down about 20% from the previous week and below the usual level. Strep throat, herpangina and epidemic keratoconjunctivitis (“pink eye”) are also decreasing."
+        },
+        {
+          "kind": "text",
+          "text": "Nationwide, though, mycoplasma pneumonia rose to about 1.3 times the previous week. If a cough lingers, please talk with a doctor early."
+        },
+        {
+          "kind": "text",
+          "text": "### A message from the director"
+        },
+        {
+          "kind": "text",
+          "text": "- Wash your hands with soap when you come home\n- Wear a mask when you're coughing to protect those around you\n- If a high fever continues, you can't keep fluids down, you seem drained, or breathing looks difficult, don't wait too long — see a doctor"
+        },
+        {
+          "kind": "text",
+          "text": "Toward the end of the year, there will be more occasions when people gather. When you're unsure whether something is “worth seeing a doctor for,” that's exactly when to feel free to ask. I hope your whole family welcomes winter in good health."
         }
       ]
     }
