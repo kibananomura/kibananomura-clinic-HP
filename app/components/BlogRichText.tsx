@@ -11,12 +11,29 @@ import { withWbr } from "../lib/jp-break";
  *   - 行頭 "### " → 見出し(h3)
  *   - 行頭 "- " が連続する行 → 箇条書き(ul)
  *   - "**強調したい文字**" → 太字(strong)
- *   - "[リンク文字](/blog/slug)" → サイト内リンク（"/" 始まりのパスのみ）
+ *   - "[リンク文字](/blog/slug)" → サイト内リンク
+ *   - "[リンク文字](https://...)" → 外部リンク（新しいタブで開く・↗ 付き）
+ *   - 行頭 "> " が連続する行 → 引用・ひと言（左に線の入った囲み）
  */
 
 function renderInline(text: string, breakHints = false): ReactNode[] {
-  const parts = text.split(/(\*\*[^*]+\*\*|\[[^\]]+\]\(\/[^)\s]*\))/g);
+  const parts = text.split(/(\*\*[^*]+\*\*|\[[^\]]+\]\((?:\/|https?:\/\/)[^)\s]*\))/g);
   return parts.map((part, i) => {
+    const external = part.match(/^\[([^\]]+)\]\((https?:\/\/[^)\s]*)\)$/);
+    if (external) {
+      return (
+        <a
+          key={i}
+          href={external[2]}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="font-bold text-primary-dark underline underline-offset-2"
+        >
+          {external[1]}
+          <span aria-hidden="true" className="ml-0.5 text-xs">↗</span>
+        </a>
+      );
+    }
     const link = part.match(/^\[([^\]]+)\]\((\/[^)\s]*)\)$/);
     if (link) {
       return (
@@ -55,8 +72,30 @@ export default function BlogRichText({ text }: { text: string }) {
     listBuffer = [];
   };
 
+  let quoteBuffer: string[] = [];
+  const flushQuote = (key: string) => {
+    if (quoteBuffer.length === 0) return;
+    elements.push(
+      <blockquote
+        key={key}
+        className="my-2 rounded-r-2xl border-l-4 border-primary/50 bg-accent/50 px-4 py-3 text-[15px] leading-[1.9] text-ink/85"
+      >
+        {quoteBuffer.map((q, j) => (
+          <p key={j}>{renderInline(q)}</p>
+        ))}
+      </blockquote>
+    );
+    quoteBuffer = [];
+  };
+
   lines.forEach((line, i) => {
     const trimmed = line.trim();
+    if (trimmed.startsWith("> ")) {
+      flushList(`list-${i}`);
+      quoteBuffer.push(trimmed.slice(2));
+      return;
+    }
+    flushQuote(`quote-${i}`);
     if (trimmed.startsWith("- ")) {
       listBuffer.push(trimmed.slice(2));
       return;
@@ -84,6 +123,7 @@ export default function BlogRichText({ text }: { text: string }) {
     }
   });
   flushList("list-end");
+  flushQuote("quote-end");
 
   return <div className="space-y-3">{elements}</div>;
 }

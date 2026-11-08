@@ -93,6 +93,8 @@ sources:
 
 ### たんの検査をうまく受けるコツ
 
+外来でも、「朝いちばんのたんが出ないんです」「何回も持ってくるのが大変で……」という声を、本当によくお聞きします。そんなときに役立つコツをまとめました。
+
 - **朝起きてすぐ**のたんが、菌が見つかりやすいとされています
 - 先に水で軽く**うがい**をして、口の中をきれいにしてから
 - 唾液ではなく、**胸の奥から「ゴホン」と出したたん**を容器に入れてください
@@ -182,6 +184,8 @@ That's where **sputum tests** become essential:
 Because acid-fast bacteria grow slowly, culture results can take **several weeks.** And since bacteria may not show up in a single sample, it's common to provide sputum **several times on different days.**
 
 ### Tips for a good sputum sample
+
+In clinic, I very often hear, “I can't cough up anything first thing in the morning,” or “Bringing samples in again and again is hard...” Here are some tips that help at times like these.
 
 - Sputum **right after waking up** is said to be the most likely to contain bacteria
 - **Rinse your mouth** lightly with water first to clean it

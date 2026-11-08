@@ -389,7 +389,11 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "私は千葉県で生まれ育ち、一年間の浪人を経て防衛医科大学校に入学しました。大学生活は厳しい規律に従い暮らし、2008年に卒業しました。卒後、防衛医科大学校病院、自衛隊中央病院、三宿病院、災害医療センター、虎の門病院などで研さんを積みました。災害医療センターでは、3次救急ならではの判断のスピードや、限られた時間の中で最善を尽くす姿勢をたたき込まれました。その後、陸上自衛隊衛生学校では医官、看護官、救命士といった衛生職種の教官として、陸上幕僚監部では行政を経験し、自衛隊熊本病院では外科部長兼健康管理センター長を務めました。宮崎大学では助教として臨床・教育・研究にも携わり、県立日南病院では外科医長として地域外科医療の最前線にも立ちました。そして、都城のクリニックでは1日150人以上来院するクリニックで一般内科としてプライマリーケアを経験しました。"
+          "text": "私は千葉県で生まれ育ち、一年間の浪人を経て防衛医科大学校に入学しました。大学生活は厳しい規律に従い暮らし、2008年に卒業しました。卒業後に経験してきた場所を並べると、こうなります。"
+        },
+        {
+          "kind": "text",
+          "text": "- **防衛医科大学校病院・自衛隊中央病院・三宿病院・災害医療センター・虎の門病院など**：研さんを積む。災害医療センターでは、3次救急ならではの判断のスピードと、限られた時間の中で最善を尽くす姿勢をたたき込まれました\n- **陸上自衛隊衛生学校**：医官・看護官・救命士といった衛生職種の教官\n- **陸上幕僚監部**：行政\n- **自衛隊熊本病院**：外科部長 兼 健康管理センター長\n- **宮崎大学**：助教として臨床・教育・研究\n- **県立日南病院**：外科医長として、地域の外科医療の最前線に\n- **都城のクリニック**：1日150人以上が来院するクリニックで、一般内科としてプライマリーケア"
         },
         {
           "kind": "text",
@@ -401,7 +405,23 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "2018年から2019年にかけて、マサチューセッツ総合病院（MGH）で研究員として過ごした時間も、私にとって大きな転換点でした。ボストン日本人研究者交流会(BJRF)で幹事の任を仰せつかり、医学だけでなく社会科学系の研究者や一般企業の研究者など様々な分野の方々と交流する機会に恵まれました。2019年3月には、BJRFの第171回講演会（会場はマサチューセッツ工科大学〈MIT〉）で、「光が導くがん外科治療の未来」と題してお話しする機会もいただきました（[講演の概要](https://www.boston-researchers.jp/pukiwiki/index.php?lecture/2019.html#ode171)）。ありがたいことに、この講演は2018年9月〜2019年8月の「[Best Lecture Award](https://www.boston-researchers.jp/lecture/award.php)」（同点で2名が受賞）に選んでいただきました。臨床と研究の距離の近さ、そして様々な思考方法や文化に触れ、多くの仲間とつながれたことで、**「良い医療は、優れた個人の技術だけでなく、仕組みとチームによって支えられている」**という実感を強く持つようになりました。アフリカのことわざに「早く行きたければ一人で行け、遠くへ行きたければ大勢で行け」という言葉がありますが、まさにそれを肌で感じた日々でした。"
+          "text": "2018年から2019年にかけて、マサチューセッツ総合病院（MGH）で研究員として過ごした時間も、私にとって大きな転換点でした。ボストン日本人研究者交流会（BJRF）で幹事の任を仰せつかり、医学だけでなく社会科学系の研究者や一般企業の研究者など、さまざまな分野の方々と交流する機会に恵まれました。"
+        },
+        {
+          "kind": "text",
+          "text": "2019年3月には、BJRFの第171回講演会（会場はマサチューセッツ工科大学〈MIT〉）で、「光が導くがん外科治療の未来」と題してお話しする機会もいただきました（[講演の概要](https://www.boston-researchers.jp/pukiwiki/index.php?lecture/2019.html#ode171)）。ありがたいことに、この講演は2018年9月〜2019年8月の「[Best Lecture Award](https://www.boston-researchers.jp/lecture/award.php)」（同点で2名が受賞）に選んでいただきました。"
+        },
+        {
+          "kind": "text",
+          "text": "臨床と研究の距離の近さ、そして様々な思考方法や文化に触れ、多くの仲間とつながれたことで、**「良い医療は、優れた個人の技術だけでなく、仕組みとチームによって支えられている」**という実感を強く持つようになりました。アフリカのことわざに、こんな言葉があります。"
+        },
+        {
+          "kind": "text",
+          "text": "> 早く行きたければ、一人で行け。遠くへ行きたければ、大勢で行け。"
+        },
+        {
+          "kind": "text",
+          "text": "まさにそれを肌で感じた日々でした。"
         },
         {
           "kind": "text",
@@ -432,7 +452,11 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "I grew up in Chiba Prefecture and, after a year of preparing for entrance exams, entered the National Defense Medical College, where I lived and studied under fairly strict campus discipline, graduating in 2008. After graduating, I trained at the college's affiliated hospital, the Japan Self-Defense Force Central Hospital, Mishuku Hospital, the Disaster Medical Center, and Toranomon Hospital, among others. Working at the Disaster Medical Center taught me the pace of decision-making unique to tertiary emergency care, and the discipline of doing your best within limited time. After that, I served as an instructor for medical officers, nursing officers, and emergency life-saving technicians at the Japan Ground Self-Defense Force Medical School, worked in administration at the Ground Staff Office, and then as chief of surgery and head of the health management center at the Japan Self-Defense Forces Kumamoto Hospital. I also worked as an assistant professor at the University of Miyazaki (clinical practice, teaching, and research), and then as head of surgery at the Nichinan Prefectural Hospital, on the front line of regional surgical care. After that, at a clinic in Miyakonojo seeing more than 150 patients a day, I gained experience in primary care as a general internist."
+          "text": "I grew up in Chiba Prefecture and, after a year of preparing for entrance exams, entered the National Defense Medical College, where I lived and studied under fairly strict campus discipline, graduating in 2008. Here's where I've worked since graduating:"
+        },
+        {
+          "kind": "text",
+          "text": "- **The college's affiliated hospital, the Japan Self-Defense Force Central Hospital, Mishuku Hospital, the Disaster Medical Center, Toranomon Hospital and others**: training. The Disaster Medical Center taught me the pace of decision-making unique to tertiary emergency care, and the discipline of doing your best within limited time\n- **Japan Ground Self-Defense Force Medical School**: instructor for medical officers, nursing officers and emergency life-saving technicians\n- **Ground Staff Office**: administration\n- **Japan Self-Defense Forces Kumamoto Hospital**: chief of surgery and head of the health management center\n- **University of Miyazaki**: assistant professor (clinical practice, teaching and research)\n- **Nichinan Prefectural Hospital**: head of surgery, on the front line of regional surgical care\n- **A clinic in Miyakonojo**: primary care as a general internist, at a clinic seeing more than 150 patients a day"
         },
         {
           "kind": "text",
@@ -444,7 +468,23 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "Spending time as a research fellow at Massachusetts General Hospital (MGH) from 2018 to 2019 was another major turning point for me. I was asked to serve as an organizer for the Boston Japanese Researchers Forum (BJRF), which gave me the chance to connect with people from a wide range of fields — not only medicine, but researchers in the social sciences and private industry as well. In March 2019, I also had the opportunity to speak at BJRF's 171st lecture meeting, held at the Massachusetts Institute of Technology (MIT), on “The future of cancer surgery guided by light” ([lecture summary](https://www.boston-researchers.jp/pukiwiki/index.php?lecture/2019.html#ode171)). I was grateful that this talk received the [Best Lecture Award](https://www.boston-researchers.jp/lecture/award.php) for September 2018 – August 2019 (shared by two speakers). Seeing how closely clinical practice and research were connected there, encountering many different ways of thinking and cultures, and building connections with so many colleagues gave me a strong conviction: **good medicine isn't just about one skilled individual — it's supported by systems and teams**. There's an African proverb that goes, \"If you want to go fast, go alone. If you want to go far, go together\" — those days taught me exactly that, firsthand."
+          "text": "Spending time as a research fellow at Massachusetts General Hospital (MGH) from 2018 to 2019 was another major turning point for me. I was asked to serve as an organizer for the Boston Japanese Researchers Forum (BJRF), which gave me the chance to connect with people from a wide range of fields — not only medicine, but researchers in the social sciences and private industry as well."
+        },
+        {
+          "kind": "text",
+          "text": "In March 2019, I also had the opportunity to speak at BJRF's 171st lecture meeting, held at the Massachusetts Institute of Technology (MIT), on “The future of cancer surgery guided by light” ([lecture summary](https://www.boston-researchers.jp/pukiwiki/index.php?lecture/2019.html#ode171)). I was grateful that this talk received the [Best Lecture Award](https://www.boston-researchers.jp/lecture/award.php) for September 2018 – August 2019 (shared by two speakers)."
+        },
+        {
+          "kind": "text",
+          "text": "Seeing how closely clinical practice and research were connected there, encountering many different ways of thinking and cultures, and building connections with so many colleagues gave me a strong conviction: **good medicine isn't just about one skilled individual — it's supported by systems and teams**. There's an African proverb that goes:"
+        },
+        {
+          "kind": "text",
+          "text": "> If you want to go fast, go alone. If you want to go far, go together."
+        },
+        {
+          "kind": "text",
+          "text": "Those days taught me exactly that, firsthand."
         },
         {
           "kind": "text",
@@ -2045,6 +2085,10 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
+          "text": "外来でも、「朝いちばんのたんが出ないんです」「何回も持ってくるのが大変で……」という声を、本当によくお聞きします。そんなときに役立つコツをまとめました。"
+        },
+        {
+          "kind": "text",
           "text": "- **朝起きてすぐ**のたんが、菌が見つかりやすいとされています\n- 先に水で軽く**うがい**をして、口の中をきれいにしてから\n- 唾液ではなく、**胸の奥から「ゴホン」と出したたん**を容器に入れてください"
         },
         {
@@ -2213,6 +2257,10 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
+          "text": "In clinic, I very often hear, “I can't cough up anything first thing in the morning,” or “Bringing samples in again and again is hard...” Here are some tips that help at times like these."
+        },
+        {
+          "kind": "text",
           "text": "- Sputum **right after waking up** is said to be the most likely to contain bacteria\n- **Rinse your mouth** lightly with water first to clean it\n- Collect sputum **coughed up from deep in your chest,** not saliva"
         },
         {
@@ -2336,6 +2384,10 @@ export const generatedPosts: BlogPost[] = [
         {
           "kind": "text",
           "text": "ここが、いちばん大切なポイントです。肺NTM症は、結核と同じ「抗酸菌」による病気ですが、**結核とは違って、人から人へうつることはないと考えられています**。そのため、結核のような保健所への届け出や、入院・隔離の必要もありません。"
+        },
+        {
+          "kind": "text",
+          "text": "感染症と聞くと、「せきで周りの人にうつらないの？」と心配になるのは自然なことで、外来でも本当によく聞かれます。肺NTM症の菌は、結核菌のように「人から人へと移りながら生き延びる」性質を持っていません。水や土の中にいるたくさんの菌を、たまたまご本人が直接吸い込んでしまうこと（環境からの感染）でのみ起こる病気なのです。"
         },
         {
           "kind": "text",
@@ -2519,6 +2571,10 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
+          "text": "When people hear “infection,” it's natural to worry, “Won't my cough spread it to others?” — and I hear this question very often in clinic. The bacteria behind pulmonary NTM disease don't have the ability, as tuberculosis does, to survive by traveling from person to person. The disease develops only when a person happens to breathe in large numbers of bacteria living in water or soil directly (infection from the environment)."
+        },
+        {
+          "kind": "text",
           "text": "- It's fine to spend time in the same room as your family\n- There's no need to keep separate dishes or towels\n- It's perfectly fine to hold your grandchildren"
         },
         {
@@ -2682,6 +2738,10 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
+          "text": "実際に、血圧が下がってお薬を減らした方で、あとから振り返ると、血圧が下がった本当の原因は脱水だった、ということもありました。脱水が治れば血圧はまた戻ってくるので、降圧薬をどうするか迷ったことを覚えています。血圧が低いときは、お薬を変える前に、まず脱水や体調の変化がないかを一緒に確かめることも大切です。"
+        },
+        {
+          "kind": "text",
           "text": "### 血圧が90台（低め）のとき、どんな症状に気をつければよいか"
         },
         {
@@ -2759,6 +2819,10 @@ export const generatedPosts: BlogPost[] = [
         {
           "kind": "text",
           "text": "But reducing medication isn't an all-or-nothing switch. The usual approach is to **lower the dose slightly, watch how your blood pressure responds, and keep adjusting gradually under your doctor's guidance.** If it does climb back up after a reduction, that's simply something we adjust again from there. What's worth keeping in mind is that **stopping or skipping medication on your own, out of anxiety, is actually the riskiest move of all.**"
+        },
+        {
+          "kind": "text",
+          "text": "In fact, I once reduced the medication of someone whose blood pressure had dropped, only to realize later that the real cause of the drop was dehydration. Once the dehydration resolved, their blood pressure would come back up — and I remember wrestling with what to do about their blood pressure medicine. When your blood pressure is low, it's important to check together for dehydration or changes in your condition before changing medicines."
         },
         {
           "kind": "text",

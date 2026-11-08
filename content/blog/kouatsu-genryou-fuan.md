@@ -32,6 +32,8 @@ sources:
 
 ですが、減薬は「スパッとやめる」ようなものではありません。**お薬の量を少しだけ減らし、その後の血圧の変化を見ながら、医師の管理のもとで少しずつ調整していく**のが基本的な進め方です。もし減らしたことで血圧が再び上がってきた場合でも、そこでまた調整すれば大丈夫です。**不安だからといって、ご自身の判断でお薬を中断・スキップしてしまうことが、実は一番危険**だということは、知っておいていただきたいポイントです。
 
+実際に、血圧が下がってお薬を減らした方で、あとから振り返ると、血圧が下がった本当の原因は脱水だった、ということもありました。脱水が治れば血圧はまた戻ってくるので、降圧薬をどうするか迷ったことを覚えています。血圧が低いときは、お薬を変える前に、まず脱水や体調の変化がないかを一緒に確かめることも大切です。
+
 ### 血圧が90台（低め）のとき、どんな症状に気をつければよいか
 
 血圧が低めになったときに注意していただきたいサインは、次のようなものです。
@@ -71,6 +73,8 @@ That said, this is only a general guideline. If you have an underlying condition
 The worry that your blood pressure, finally under control, might climb right back up once you cut back on medication — that's a completely understandable concern.
 
 But reducing medication isn't an all-or-nothing switch. The usual approach is to **lower the dose slightly, watch how your blood pressure responds, and keep adjusting gradually under your doctor's guidance.** If it does climb back up after a reduction, that's simply something we adjust again from there. What's worth keeping in mind is that **stopping or skipping medication on your own, out of anxiety, is actually the riskiest move of all.**
+
+In fact, I once reduced the medication of someone whose blood pressure had dropped, only to realize later that the real cause of the drop was dehydration. Once the dehydration resolved, their blood pressure would come back up — and I remember wrestling with what to do about their blood pressure medicine. When your blood pressure is low, it's important to check together for dehydration or changes in your condition before changing medicines.
 
 ### What symptoms to watch for if your blood pressure runs in the 90s
 

@@ -15,13 +15,29 @@ excerpt_en: The National Defense Medical College, the front lines of disaster me
 
 ### 一つの場所に留まらなかった十数年
 
-私は千葉県で生まれ育ち、一年間の浪人を経て防衛医科大学校に入学しました。大学生活は厳しい規律に従い暮らし、2008年に卒業しました。卒後、防衛医科大学校病院、自衛隊中央病院、三宿病院、災害医療センター、虎の門病院などで研さんを積みました。災害医療センターでは、3次救急ならではの判断のスピードや、限られた時間の中で最善を尽くす姿勢をたたき込まれました。その後、陸上自衛隊衛生学校では医官、看護官、救命士といった衛生職種の教官として、陸上幕僚監部では行政を経験し、自衛隊熊本病院では外科部長兼健康管理センター長を務めました。宮崎大学では助教として臨床・教育・研究にも携わり、県立日南病院では外科医長として地域外科医療の最前線にも立ちました。そして、都城のクリニックでは1日150人以上来院するクリニックで一般内科としてプライマリーケアを経験しました。
+私は千葉県で生まれ育ち、一年間の浪人を経て防衛医科大学校に入学しました。大学生活は厳しい規律に従い暮らし、2008年に卒業しました。卒業後に経験してきた場所を並べると、こうなります。
+
+- **防衛医科大学校病院・自衛隊中央病院・三宿病院・災害医療センター・虎の門病院など**：研さんを積む。災害医療センターでは、3次救急ならではの判断のスピードと、限られた時間の中で最善を尽くす姿勢をたたき込まれました
+- **陸上自衛隊衛生学校**：医官・看護官・救命士といった衛生職種の教官
+- **陸上幕僚監部**：行政
+- **自衛隊熊本病院**：外科部長 兼 健康管理センター長
+- **宮崎大学**：助教として臨床・教育・研究
+- **県立日南病院**：外科医長として、地域の外科医療の最前線に
+- **都城のクリニック**：1日150人以上が来院するクリニックで、一般内科としてプライマリーケア
 
 正直に言うと、これまでの私は**「一つの専門をとことん極める」タイプの医師のキャリアパスとは、少し違う歩み方**をしていました。外科医としての技術を磨きながらも、東日本大震災における災害医療、陸上自衛隊衛生に係る救急救命士育成、行政業務、大学病院での臨床・教育・研究、そして、ここ宮崎での地域医療と、その都度、目の前にある「必要とされる場所」に全身で飛び込んできました。
 
 ### アメリカでの一年半が教えてくれたこと
 
-2018年から2019年にかけて、マサチューセッツ総合病院（MGH）で研究員として過ごした時間も、私にとって大きな転換点でした。ボストン日本人研究者交流会(BJRF)で幹事の任を仰せつかり、医学だけでなく社会科学系の研究者や一般企業の研究者など様々な分野の方々と交流する機会に恵まれました。2019年3月には、BJRFの第171回講演会（会場はマサチューセッツ工科大学〈MIT〉）で、「光が導くがん外科治療の未来」と題してお話しする機会もいただきました（[講演の概要](https://www.boston-researchers.jp/pukiwiki/index.php?lecture/2019.html#ode171)）。ありがたいことに、この講演は2018年9月〜2019年8月の「[Best Lecture Award](https://www.boston-researchers.jp/lecture/award.php)」（同点で2名が受賞）に選んでいただきました。臨床と研究の距離の近さ、そして様々な思考方法や文化に触れ、多くの仲間とつながれたことで、**「良い医療は、優れた個人の技術だけでなく、仕組みとチームによって支えられている」**という実感を強く持つようになりました。アフリカのことわざに「早く行きたければ一人で行け、遠くへ行きたければ大勢で行け」という言葉がありますが、まさにそれを肌で感じた日々でした。
+2018年から2019年にかけて、マサチューセッツ総合病院（MGH）で研究員として過ごした時間も、私にとって大きな転換点でした。ボストン日本人研究者交流会（BJRF）で幹事の任を仰せつかり、医学だけでなく社会科学系の研究者や一般企業の研究者など、さまざまな分野の方々と交流する機会に恵まれました。
+
+2019年3月には、BJRFの第171回講演会（会場はマサチューセッツ工科大学〈MIT〉）で、「光が導くがん外科治療の未来」と題してお話しする機会もいただきました（[講演の概要](https://www.boston-researchers.jp/pukiwiki/index.php?lecture/2019.html#ode171)）。ありがたいことに、この講演は2018年9月〜2019年8月の「[Best Lecture Award](https://www.boston-researchers.jp/lecture/award.php)」（同点で2名が受賞）に選んでいただきました。
+
+臨床と研究の距離の近さ、そして様々な思考方法や文化に触れ、多くの仲間とつながれたことで、**「良い医療は、優れた個人の技術だけでなく、仕組みとチームによって支えられている」**という実感を強く持つようになりました。アフリカのことわざに、こんな言葉があります。
+
+> 早く行きたければ、一人で行け。遠くへ行きたければ、大勢で行け。
+
+まさにそれを肌で感じた日々でした。
 
 日本に帰国してからも、その視座は私の根底に息づいています。目の前の一人の患者さんに真摯に向き合うことと、地域全体の健やかな暮らしを支える医療の仕組みをつくること——この二つは、決して別のものではありません。
 
@@ -35,13 +51,29 @@ Hello, I'm Shinsuke Nomura, director of Kibana Nomura General Medicine Clinic. T
 
 ### More than a decade without staying in one place
 
-I grew up in Chiba Prefecture and, after a year of preparing for entrance exams, entered the National Defense Medical College, where I lived and studied under fairly strict campus discipline, graduating in 2008. After graduating, I trained at the college's affiliated hospital, the Japan Self-Defense Force Central Hospital, Mishuku Hospital, the Disaster Medical Center, and Toranomon Hospital, among others. Working at the Disaster Medical Center taught me the pace of decision-making unique to tertiary emergency care, and the discipline of doing your best within limited time. After that, I served as an instructor for medical officers, nursing officers, and emergency life-saving technicians at the Japan Ground Self-Defense Force Medical School, worked in administration at the Ground Staff Office, and then as chief of surgery and head of the health management center at the Japan Self-Defense Forces Kumamoto Hospital. I also worked as an assistant professor at the University of Miyazaki (clinical practice, teaching, and research), and then as head of surgery at the Nichinan Prefectural Hospital, on the front line of regional surgical care. After that, at a clinic in Miyakonojo seeing more than 150 patients a day, I gained experience in primary care as a general internist.
+I grew up in Chiba Prefecture and, after a year of preparing for entrance exams, entered the National Defense Medical College, where I lived and studied under fairly strict campus discipline, graduating in 2008. Here's where I've worked since graduating:
+
+- **The college's affiliated hospital, the Japan Self-Defense Force Central Hospital, Mishuku Hospital, the Disaster Medical Center, Toranomon Hospital and others**: training. The Disaster Medical Center taught me the pace of decision-making unique to tertiary emergency care, and the discipline of doing your best within limited time
+- **Japan Ground Self-Defense Force Medical School**: instructor for medical officers, nursing officers and emergency life-saving technicians
+- **Ground Staff Office**: administration
+- **Japan Self-Defense Forces Kumamoto Hospital**: chief of surgery and head of the health management center
+- **University of Miyazaki**: assistant professor (clinical practice, teaching and research)
+- **Nichinan Prefectural Hospital**: head of surgery, on the front line of regional surgical care
+- **A clinic in Miyakonojo**: primary care as a general internist, at a clinic seeing more than 150 patients a day
 
 To be honest, up until now **my path didn't look like the classic "master one specialty deeply" career**. While continuing to sharpen my skills as a surgeon, I threw myself, wholeheartedly, into wherever I felt I was needed most at the time — disaster medicine after the Great East Japan Earthquake, training emergency medical technicians for the Ground Self-Defense Force medical service, administrative work, clinical practice, teaching and research at a university hospital, and now community medicine here in Miyazaki.
 
 ### What a year and a half in the U.S. taught me
 
-Spending time as a research fellow at Massachusetts General Hospital (MGH) from 2018 to 2019 was another major turning point for me. I was asked to serve as an organizer for the Boston Japanese Researchers Forum (BJRF), which gave me the chance to connect with people from a wide range of fields — not only medicine, but researchers in the social sciences and private industry as well. In March 2019, I also had the opportunity to speak at BJRF's 171st lecture meeting, held at the Massachusetts Institute of Technology (MIT), on “The future of cancer surgery guided by light” ([lecture summary](https://www.boston-researchers.jp/pukiwiki/index.php?lecture/2019.html#ode171)). I was grateful that this talk received the [Best Lecture Award](https://www.boston-researchers.jp/lecture/award.php) for September 2018 – August 2019 (shared by two speakers). Seeing how closely clinical practice and research were connected there, encountering many different ways of thinking and cultures, and building connections with so many colleagues gave me a strong conviction: **good medicine isn't just about one skilled individual — it's supported by systems and teams**. There's an African proverb that goes, "If you want to go fast, go alone. If you want to go far, go together" — those days taught me exactly that, firsthand.
+Spending time as a research fellow at Massachusetts General Hospital (MGH) from 2018 to 2019 was another major turning point for me. I was asked to serve as an organizer for the Boston Japanese Researchers Forum (BJRF), which gave me the chance to connect with people from a wide range of fields — not only medicine, but researchers in the social sciences and private industry as well.
+
+In March 2019, I also had the opportunity to speak at BJRF's 171st lecture meeting, held at the Massachusetts Institute of Technology (MIT), on “The future of cancer surgery guided by light” ([lecture summary](https://www.boston-researchers.jp/pukiwiki/index.php?lecture/2019.html#ode171)). I was grateful that this talk received the [Best Lecture Award](https://www.boston-researchers.jp/lecture/award.php) for September 2018 – August 2019 (shared by two speakers).
+
+Seeing how closely clinical practice and research were connected there, encountering many different ways of thinking and cultures, and building connections with so many colleagues gave me a strong conviction: **good medicine isn't just about one skilled individual — it's supported by systems and teams**. There's an African proverb that goes:
+
+> If you want to go fast, go alone. If you want to go far, go together.
+
+Those days taught me exactly that, firsthand.
 
 That perspective has stayed at the core of who I am since returning to Japan. Sincerely caring for the one patient in front of me, and building a healthcare system that supports the healthy lives of the whole community, are never really separate things.
 
