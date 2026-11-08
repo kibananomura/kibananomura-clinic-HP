@@ -19,7 +19,11 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "これまで大学病院や地域の病院で、外科を中心に診療を行ってきました。その中でいつも感じていたのは、「こんなことで受診していいのかな」「どこに相談したらいいか分からない」と、ひとりで悩みを抱えている方が思いのほか多い、ということです。"
+          "text": "これまで大学病院や地域の病院で、勤務医として診療を行ってきました。その中でいつも感じていたのは、「こんなことで受診していいのかな」「どこに相談したらいいか分からない」と、ひとりで悩みを抱えている方が思いのほか多い、ということです。"
+        },
+        {
+          "kind": "text",
+          "text": "今でも覚えているのは、「背中が痛いんです。でも、骨や腰の痛みとは違って、お腹の奥のほうから痛む感じがして……」と話された方のことです。調べてみると、原因は尿管結石（腎臓でできた石が、尿の通り道に詰まる病気）でした。背中の痛みと聞くと、つい骨や筋肉を思い浮かべますが、痛む場所と原因のある場所は、必ずしも同じではありません。だからこそ、「どこに行けばいいか」を患者さんがひとりで決めなくてもいい場所が必要だと、強く感じてきました。"
         },
         {
           "kind": "text",
@@ -47,7 +51,11 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "I've practiced mainly in surgery at university and regional hospitals. Throughout that time, I kept noticing how many people quietly carry worries, unsure whether their concern is \"worth a visit\" or where to turn for help."
+          "text": "I've worked as a hospital physician at university and regional hospitals. Throughout that time, I kept noticing how many people quietly carry worries, unsure whether their concern is \"worth a visit\" or where to turn for help."
+        },
+        {
+          "kind": "text",
+          "text": "One person I still remember said, \"My back hurts. But it's not like bone or lower-back pain — it feels like it's coming from deep inside my belly...\" When we looked into it, the cause turned out to be a ureteral stone (a stone formed in the kidney that gets stuck in the tube carrying urine). When we hear \"back pain,\" we tend to think of bones or muscles, but where it hurts and where the cause lies aren't always the same. That's exactly why I've felt so strongly that we need a place where patients don't have to decide on their own \"where should I go?\""
         },
         {
           "kind": "text",
@@ -109,6 +117,14 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
+          "text": "実は、この名前には、家族の中でもいろいろな声がありました。木花で育った妻は、自分の育った土地の名前が看板になることに、どこか照れくささがあったようです。日本人らしい奥ゆかしさだな、と私には感じられました。子どもたちからは「いいじゃん！」という声もあれば、「患者さん、来てくれるかな」と心配する声もありました。"
+        },
+        {
+          "kind": "text",
+          "text": "一方の私は、関東から来た身です。それでも、よそから来た私を優しく受け入れてくれたこの土地に、何か恩返しがしたい。ただ地域のために役に立ちたい。その思いがあったので、この名前で開業することに、迷いはまったくありませんでした。"
+        },
+        {
+          "kind": "text",
           "text": "ロゴにも、同じ想いを込めています。「木」と「花」、そしてこの地の山並みと朝日をかたどりました。芽吹き、少しずつ育っていく植物のように——地域の皆さんと長く歩んでいけるクリニックでありたいと思っています。"
         },
         {
@@ -137,6 +153,14 @@ export const generatedPosts: BlogPost[] = [
         {
           "kind": "text",
           "text": "Kibana sits in the southern part of Miyazaki City, green and unhurried, with the sea and the mountains both within easy reach. It was the warmth of this place — the air, and the people in it — along with the fact that **it's the place that raised my wife**, that led me to decide to put down roots here."
+        },
+        {
+          "kind": "text",
+          "text": "In fact, this name drew a range of reactions even within my family. My wife, who grew up in Kibana, seemed a little embarrassed at the idea of the place she grew up in becoming the name on a sign. To me, it felt like a very Japanese kind of modesty. Our children's reactions ranged from \"That's great!\" to the worried \"Will patients actually come?\""
+        },
+        {
+          "kind": "text",
+          "text": "As for me, I came here from the Kanto region. Even so, I wanted to give something back to this place that so warmly welcomed someone from elsewhere — simply to be of use to the community. With that feeling, I had no hesitation at all about opening a clinic under this name."
         },
         {
           "kind": "text",
@@ -216,7 +240,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "これからの時期は、食中毒にも注意が必要です。今回の報告でも、O157やO111などの**腸管出血性大腸菌感染症**（O157などの名前で知られる、おなかの感染症です）が18例報告されており、腹痛や血便、おう吐、発熱といった症状が出ることがあります。5〜9歳のお子さんでの報告がもっとも多くなっています。サルモネラ菌やカンピロバクターによる食中毒の報告も見られます。"
+          "text": "これまでの外来でも、吐き気や下痢で来られた方から「これって食中毒ですかね？」と、本当によく聞かれました。これからの時期は、食中毒にも注意が必要です。今回の報告でも、O157やO111などの**腸管出血性大腸菌感染症**（O157などの名前で知られる、おなかの感染症です）が18例報告されており、腹痛や血便、おう吐、発熱といった症状が出ることがあります。5〜9歳のお子さんでの報告がもっとも多くなっています。サルモネラ菌やカンピロバクターによる食中毒の報告も見られます。"
         },
         {
           "kind": "text",
@@ -292,7 +316,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "This time of year also calls for extra care around food poisoning. This report included 18 cases of **enterohemorrhagic E. coli infection** (an intestinal infection known by strain names such as O157 and O111), which can cause abdominal pain, bloody diarrhea, vomiting, and fever, most commonly in children aged 5 to 9. Cases of salmonella and campylobacter food poisoning were also reported."
+          "text": "In my clinics over the years, people who came in with nausea or diarrhea very often asked me, \"Is this food poisoning?\" This time of year also calls for extra care around food poisoning. This report included 18 cases of **enterohemorrhagic E. coli infection** (an intestinal infection known by strain names such as O157 and O111), which can cause abdominal pain, bloody diarrhea, vomiting, and fever, most commonly in children aged 5 to 9. Cases of salmonella and campylobacter food poisoning were also reported."
         },
         {
           "kind": "text",

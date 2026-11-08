@@ -13,7 +13,9 @@ excerpt_en: “Is this even worth a doctor's visit?” — I've seen so many peo
 
 はじめまして。木花のむら総合診療所院長の野村信介です。現在、2027年10月1日の開院に向けて準備を進めています。
 
-これまで大学病院や地域の病院で、外科を中心に診療を行ってきました。その中でいつも感じていたのは、「こんなことで受診していいのかな」「どこに相談したらいいか分からない」と、ひとりで悩みを抱えている方が思いのほか多い、ということです。
+これまで大学病院や地域の病院で、勤務医として診療を行ってきました。その中でいつも感じていたのは、「こんなことで受診していいのかな」「どこに相談したらいいか分からない」と、ひとりで悩みを抱えている方が思いのほか多い、ということです。
+
+今でも覚えているのは、「背中が痛いんです。でも、骨や腰の痛みとは違って、お腹の奥のほうから痛む感じがして……」と話された方のことです。調べてみると、原因は尿管結石（腎臓でできた石が、尿の通り道に詰まる病気）でした。背中の痛みと聞くと、つい骨や筋肉を思い浮かべますが、痛む場所と原因のある場所は、必ずしも同じではありません。だからこそ、「どこに行けばいいか」を患者さんがひとりで決めなくてもいい場所が必要だと、強く感じてきました。
 
 木花のむら総合診療所は、そんなときにまず気軽に立ち寄っていただける、**よろず相談所のような場所**を目指しています。お子さんからご高齢の方まで、日々のちょっとした不調から、どうぞ気軽にご相談ください。
 
@@ -25,7 +27,9 @@ excerpt_en: “Is this even worth a doctor's visit?” — I've seen so many peo
 
 Hello. I'm Shinsuke Nomura, director of Kibana Nomura General Medicine Clinic. We're currently preparing for our opening, planned for October 2027.
 
-I've practiced mainly in surgery at university and regional hospitals. Throughout that time, I kept noticing how many people quietly carry worries, unsure whether their concern is "worth a visit" or where to turn for help.
+I've worked as a hospital physician at university and regional hospitals. Throughout that time, I kept noticing how many people quietly carry worries, unsure whether their concern is "worth a visit" or where to turn for help.
+
+One person I still remember said, "My back hurts. But it's not like bone or lower-back pain — it feels like it's coming from deep inside my belly..." When we looked into it, the cause turned out to be a ureteral stone (a stone formed in the kidney that gets stuck in the tube carrying urine). When we hear "back pain," we tend to think of bones or muscles, but where it hurts and where the cause lies aren't always the same. That's exactly why I've felt so strongly that we need a place where patients don't have to decide on their own "where should I go?"
 
 Kibana Nomura General Medicine Clinic aims to be exactly that kind of place — **somewhere you can turn to for just about anything**, big or small. From children to the elderly, please feel free to consult us about the small everyday troubles.
 
