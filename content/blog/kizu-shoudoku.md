@@ -20,7 +20,7 @@ sources:
 
 お子さんが公園で転んで膝をすりむいたとき、あるいはご自身が料理中に指を切ってしまったとき。救急箱から**赤茶色の消毒薬**を取り出して、しみるのを我慢しながら塗り、ガーゼを当てて「早く乾いてかさぶたになるように」——そんな手当てを、当たり前のようにしてこられた方は多いのではないでしょうか。私自身、子どもの頃はそうやって手当てしてもらった記憶があります。
 
-この記事を読んでいただくと、なぜ今は「消毒して乾かす」手当てが勧められなくなったのか、そして**傷を早く、痛みを少なく、きれいに治すための正しい手当て**が分かります。結論から言うと、ちょっとした傷の手当ての基本は、**①水道水でしっかり洗い流す、②消毒薬を何度も塗り込まない、③乾かさずに潤った状態を保つ**の3つです。外科医として数え切れないほどの傷を診てきましたが、この3つを守るだけで、傷の治り方は大きく変わります。
+ひと言でいえば、ちょっとした傷の手当ての基本は、**①水道水でしっかり洗い流す、②消毒薬を何度も塗り込まない、③乾かさずに潤った状態を保つ**の3つです。外科医として数え切れないほどの傷を診てきましたが、この3つを守るだけで、傷の治り方は大きく変わります。
 
 ## 昔の常識は今の非常識？「消毒して乾かす」が治りを遅らせる理由
 
@@ -105,7 +105,7 @@ sources:
 
 When your child falls at the park and scrapes a knee, or you nick your finger while cooking — have you always reached for the **reddish-brown antiseptic** in the first-aid kit, gritted your teeth through the sting, covered it with gauze, and waited for it to "dry out and scab over"? Many people have done exactly that for years. I remember being treated that way myself as a child.
 
-By the end of this post, you'll know why "disinfect and let it dry" is no longer recommended, and **how to treat a wound so it heals faster, hurts less and leaves less of a mark.** The short answer: the basics of caring for minor wounds are **① rinse thoroughly with tap water, ② don't keep applying antiseptic, and ③ keep the wound moist rather than letting it dry out.** As a surgeon, I've seen countless wounds — and simply following these three steps makes a big difference in how they heal.
+By the end of this post, you'll know why "disinfect and let it dry" is no longer recommended, and **how to treat a wound so it heals faster, hurts less and leaves less of a mark.** In a nutshell: the basics of caring for minor wounds are **① rinse thoroughly with tap water, ② don't keep applying antiseptic, and ③ keep the wound moist rather than letting it dry out.** As a surgeon, I've seen countless wounds — and simply following these three steps makes a big difference in how they heal.
 
 ## Yesterday's common sense, today's mistake? Why "disinfect and dry" slows healing
 

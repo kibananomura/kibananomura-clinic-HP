@@ -24,7 +24,14 @@ sources:
 
 ただ、「風邪にはウイルスが多いので、抗生剤はあまり効果がありません」という話は、最近はテレビや雑誌でもよく取り上げられるようになり、知っている方も増えてきた印象があります。外来で「どうせ効かないんですよね」と先に言われることも、これまで何度もありました。
 
-この記事を読んでいただくと、「効かない」だけでは終わらない、もう一歩踏み込んだ理由が分かります。結論から言うと、抗生剤は「効かない」だけでなく、**必要のない場面で飲んでしまうと、実はひそかに損をしている**かもしれません。
+先にお答えすると、抗生剤は「効かない」だけでなく、**必要のない場面で飲んでしまうと、実はひそかに損をしている**かもしれません。
+
+このあと、こんな順番でお話しします。
+
+- おさらい：対症療法と根本療法
+- 治しているのは薬ではなく、自分の免疫
+- ここからが本題：抗生剤は「腸内細菌」も巻き込む
+- 安静が保てるなら、それが一番の近道
 
 ### おさらい：対症療法と根本療法
 
@@ -51,7 +58,7 @@ sources:
 
 症状がそれほどつらくなく、食事も睡眠も普段通りとれているなら、無理に薬を増やす必要はありません。しっかり体を休ませることが、遠回りに見えて実は一番の近道です。「薬を出さない」という判断も、将来の自分の免疫力と、社会全体の耐性菌（抗菌薬が効きにくくなった細菌）リスクの両方を守るための、積極的な医療判断なのだとご理解いただけたらうれしいです。
 
-### 院長からのメッセージ
+### おわりに
 
 一つだけ付け加えさせてください。風邪だと思っていても、**溶連菌（のどの感染症などを起こす細菌）感染症**のように、細菌が原因で抗生剤が本当に必要になる病気が隠れていることもあります。診察のうえで抗生剤を処方する場合は、「なぜ今回は細菌感染が疑われるのか」を必ずご説明するようにしています。もし説明がないまま気になることがあれば、遠慮なく「これは何に効くお薬ですか？」と聞いてみてください。
 
@@ -63,7 +70,14 @@ A high fever and a throbbing throat that make it impossible to work or even get 
 
 That said, the idea that "most colds are caused by viruses, so antibiotics don't really help" has made its way into TV programs and magazines often enough that many patients already know it. More than once, I've had someone say "I know it probably won't do anything anyway" before I've even finished explaining.
 
-By the end of this post, you'll understand a reason that goes beyond "it just doesn't work." The short version: antibiotics don't just fail to help with a cold — taking them when you don't actually need them may quietly cost you something.
+By the end of this post, you'll understand a reason that goes beyond "it just doesn't work." Here's the short answer: antibiotics don't just fail to help with a cold — taking them when you don't actually need them may quietly cost you something.
+
+Here's what I'll cover:
+
+- A quick refresher: symptom relief vs. root-cause treatment
+- What actually cures a cold isn't the medicine — it's your immune system
+- Here's the twist: antibiotics also take out your gut bacteria
+- If you can rest, that really is the fastest path
 
 ### A quick refresher: symptom relief vs. root-cause treatment
 
@@ -90,7 +104,7 @@ In other words: if you take an ineffective antibiotic for a cold "just in case" 
 
 If your symptoms aren't too severe and you're still eating and sleeping normally, there's no need to force yourself onto more medication. Giving your body real rest may look like the slow route, but it's actually the fastest one. I hope you'll see the choice not to prescribe an antibiotic as an active medical decision — one made to protect both your own future immune resilience and the broader fight against antibiotic resistance.
 
-### A message from the director
+### In closing
 
 Let me add one thing. What looks like a cold can sometimes turn out to be something like strep throat, a bacterial illness that genuinely requires antibiotics. When I do prescribe one, I make a point of explaining why a bacterial infection is suspected in that particular case. If that explanation hasn't come up and you're curious, please feel free to ask, "What is this medication actually treating?"
 

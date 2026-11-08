@@ -57,6 +57,21 @@ export default function BlogArticle({ relatedDiseases = [] }: { relatedDiseases?
             {withWbr(c.title)}
           </h1>
 
+          <p className="mt-3 text-xs leading-relaxed text-ink/55">
+            {lang === "en" ? "Written and reviewed by " : "執筆・確認："}
+            <a
+              href="https://researchmap.jp/shinsuke_nomura"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="font-bold text-primary-dark underline decoration-primary/30 underline-offset-2"
+            >
+              {lang === "en" ? "Shinsuke Nomura, MD, Director" : "院長 野村信介（医師）"}
+            </a>
+            <span className="mx-1.5 text-ink/30">|</span>
+            {lang === "en" ? "Last reviewed: " : "確認日："}
+            <time dateTime={post.date.replace(/\./g, "-")}>{post.date}</time>
+          </p>
+
           <div className="mt-8 space-y-5">
             {c.body.map((block, i) =>
               block.kind === "text" ? (

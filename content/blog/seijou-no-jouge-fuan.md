@@ -22,7 +22,7 @@ sources:
 
 よくよくお話を伺うと、「周りの友達が次々と薬を飲み始めていて、自分もそろそろ必要なんじゃないかと気になって」とのことでした。健診の結果だけを見れば心配のいらない数値なのに、周囲の状況で不安になってしまう——このお気持ち、とても自然なことだと思います。
 
-この記事を読んでいただくと、「異常なし」という判定と、ご自身が感じる不安との間にあるギャップを、どう考えればいいかのヒントが見つかるかもしれません。結論から言うと、**数値が「正常の範囲内かどうか」と、「お薬が必要かどうか」は、実はイコールではありません**。大切なのは、数字そのものより先に、その数字が今のご自身にとって何を意味するのかを、言葉で整理することです。
+この記事を読んでいただくと、「異常なし」という判定と、ご自身が感じる不安との間にあるギャップを、どう考えればいいかのヒントが見つかるかもしれません。先にお答えすると、**数値が「正常の範囲内かどうか」と、「お薬が必要かどうか」は、実はイコールではありません**。大切なのは、数字そのものより先に、その数字が今のご自身にとって何を意味するのかを、言葉で整理することです。
 
 ### 「正常の上限」が続く、というのはどういう状態か
 
@@ -36,7 +36,7 @@ sources:
 
 あくまで「こういう方法もありますよ」というご案内であって、全員に一律でおすすめしているわけではありません。今の生活を続けて大丈夫だと言葉で納得できれば、それで十分なことも多いですし、実際に調べてみて自分の目で確かめたい、という方には、こうした検査もひとつの選択肢になります。
 
-### 院長からのメッセージ
+### 最後に
 
 健診結果の受け止め方も、「お薬を始めるべきか」という判断も、本来は一人ひとり違うものです。数値の判定結果だけでなく、その背景にある疑問や不安に丁寧に向き合うことが、納得して日々を過ごしていただくための近道だと考えています。
 
@@ -48,7 +48,7 @@ A patient in her 70s I once treated came to me, saying she had something she wan
 
 As we talked more, she told me, "A lot of my friends have started taking medication one after another, and I've started wondering if it's about time for me too." Her checkup results themselves gave no cause for concern, and yet the people around her had made her anxious — a feeling I think is completely natural.
 
-By the end of this post, you may find a useful way to think about the gap between a "no abnormalities" result and the worry you still feel. The short version: **whether a number falls within the normal range, and whether you need medication, are not actually the same question.** What matters more than the number itself is putting into words what it actually means for you right now.
+By the end of this post, you may find a useful way to think about the gap between a "no abnormalities" result and the worry you still feel. Here's the short answer: **whether a number falls within the normal range, and whether you need medication, are not actually the same question.** What matters more than the number itself is putting into words what it actually means for you right now.
 
 ### What it means when you sit at the "upper edge of normal" for years
 
@@ -62,7 +62,7 @@ As we talked further, she said, "I'd like to actually know what's going on with 
 
 This is offered simply as "one option available to you," not something we recommend across the board to everyone. For many people, simply reaching a clear, worded understanding that it's fine to continue as they are is enough. For those who'd rather see it for themselves, a test like this is one path worth having on the table.
 
-### A message from the director
+### Finally
 
 How to interpret a checkup result, and whether it's time to start medication, is something that genuinely differs from person to person. I believe that attending carefully to the questions and worries behind the numbers — not just the pass/fail verdict — is the shortest path to living each day with real peace of mind.
 

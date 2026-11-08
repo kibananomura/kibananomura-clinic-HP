@@ -20,7 +20,13 @@ sources:
 
 「健診で尿酸値が高いと言われたので、薬を飲み始めた。そうしたら、かえって足の親指が腫れて激痛が……」「お酒を飲みすぎて尿酸値が上がったから、発作が起きたんですよね？」——痛風について、こうしたご質問をよくいただきます。せっかく治療を始めたのに発作が起きると、「薬が合わないのでは」と不安になりますよね。
 
-この記事を読んでいただくと、痛風発作が起きやすいタイミングと、その理由、そして発作を避けながら治療を続けるコツが分かります。結論から言うと、**痛風発作は尿酸値が上がったときだけでなく、急に下がったときにも起きやすいのです。カギは「上がるか、下がるか」ではなく、「急に変化するかどうか」にあります。**
+先にお答えすると、**痛風発作は尿酸値が上がったときだけでなく、急に下がったときにも起きやすいのです。カギは「上がるか、下がるか」ではなく、「急に変化するかどうか」にあります。**
+
+このあと、こんな順番でお話しします。
+
+- 関節の中にたまった「トゲ」が揺さぶられる
+- 発作が起きやすい、こんな場面
+- 今日からできる、発作を乗り切るコツ
 
 ### 関節の中にたまった「トゲ」が揺さぶられる
 
@@ -61,7 +67,7 @@ sources:
 
 ダイエットも節酒も、とても良い取り組みです。ただ、一気にやりすぎると尿酸値が揺れてしまいます。体重は月に1〜2キロ程度を目安に、お酒も少しずつ減らしていくのがおすすめです。食事の考え方は「[生活習慣病の方の食事指導の実際](/blog/mainichi-chigau-mono)」も参考にしてください。
 
-### 院長からのメッセージ
+### 最後に
 
 痛風発作は、体からの「もう少しペースを落として、丁寧に整えて」という黄色いサインです。発作が起きたからといって、治療がうまくいっていないわけではありません。
 
@@ -71,7 +77,13 @@ sources:
 
 “My checkup said my uric acid was high, so I started medicine — and then my big toe swelled up with terrible pain.” “I drank too much, my uric acid went up, and that's why I had an attack, right?” I often hear questions like these about gout. When an attack happens just after you've started treatment, it's natural to worry, “Maybe this medicine isn't right for me.”
 
-This article explains when gout attacks tend to happen, why, and how to keep up treatment while avoiding attacks. The bottom line: **gout attacks happen not only when uric acid goes up, but also when it drops quickly. The key isn't whether it goes up or down — it's whether it changes suddenly.**
+This article explains when gout attacks tend to happen, why, and how to keep up treatment while avoiding attacks. Here's the short answer: **gout attacks happen not only when uric acid goes up, but also when it drops quickly. The key isn't whether it goes up or down — it's whether it changes suddenly.**
+
+Here's what I'll cover:
+
+- “Thorns” built up in the joint get shaken loose
+- Situations where attacks are more likely
+- Tips you can start today to get through attacks
 
 ### “Thorns” built up in the joint get shaken loose
 
@@ -112,7 +124,7 @@ Uric acid leaves the body mainly in urine. Rather than drinking a lot at once, s
 
 Dieting and cutting back on alcohol are both great efforts. But doing too much at once makes uric acid swing. Aim for about 1–2 kg of weight loss a month, and cut back on alcohol gradually. For how we think about diet, see also “[What diet guidance actually looks like for lifestyle-related conditions](/blog/mainichi-chigau-mono).”
 
-### A message from the director
+### Finally
 
 A gout attack is your body's yellow light, saying “slow down a little and take care to set things right.” Having an attack doesn't mean your treatment isn't working.
 

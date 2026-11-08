@@ -18,7 +18,7 @@ sources:
 
 「先生、この胃薬、ずっと飲み続けて大丈夫ですか？」これまでの診療の中で、本当によく聞かれてきた質問です。逆流性食道炎（胃酸が食道に逆流して起こる炎症）や胃潰瘍の予防のために、胃の壁にある「胃酸を作り出す出口（プロトンポンプ）」そのものにふたをして、胃酸の分泌を根本から強力に抑えるお薬（プロトンポンプ阻害薬。頭文字をとって「PPI」と呼ばれることもあります）を処方されている方は多く、症状が落ち着いた後も飲み続けている方ほど、ふとこの疑問が浮かぶのだと思います。
 
-この記事を読んでいただくと、胃酸を長期間抑えることが体にどう影響するのか、そしてなぜ「飲み続けたほうがよい人」がいるのかが分かります。結論から言うと、**このお薬は基本的に安全で優れたものですが、胃酸を長期間しっかり抑えることによる影響も、近年少しずつ分かってきています。** 大切なのは、その影響を正しく知った上で、自己判断でやめたり続けたりせず、定期的に主治医と見直していくことです。
+今日は、胃酸を長期間抑えることが体にどう影響するのか、そしてなぜ「飲み続けたほうがよい人」がいるのかについてお話しします。最後まで読んでいただくと、きっと「なるほど」と思っていただけるはずです。ひとつずつ見ていきましょう。
 
 ### 胃酸には、実はとても大切な役割があります
 
@@ -42,7 +42,9 @@ sources:
 
 例えば、重い逆流性食道炎を繰り返している方や、痛み止め（NSAIDs）やアスピリンを長期服用していて胃潰瘍・出血のリスクが高い方です。こうした方にとってこのお薬は、再発や出血という重大なリスクを防ぐための、欠かせない治療の土台になっています。
 
-### 院長からのメッセージ
+### 今日のまとめ
+
+まとめると、**このお薬は基本的に安全で優れたものですが、胃酸を長期間しっかり抑えることによる影響も、近年少しずつ分かってきています。** 大切なのは、その影響を正しく知った上で、自己判断でやめたり続けたりせず、定期的に主治医と見直していくことです。
 
 - **自己判断で中止しないでください：** 急にやめてしまうと、一時的に胃酸の分泌が普段より増える「リバウンド」が起こり、かえって症状が悪化することがあります。
 - **定期的な見直しを一緒に行いましょう：** 症状が安定している場合は、お薬の量を減らす、飲む回数を調整する（症状が出たときだけ飲む「オンデマンド服用」）、あるいは別のタイプのお薬へ切り替えるといった選択肢も検討できます。
@@ -53,7 +55,7 @@ sources:
 
 "Doctor, is it really okay to keep taking this stomach medication indefinitely?" It's a question I've heard often throughout my career. Many people are prescribed a medication that directly blocks the "pump" in the stomach wall that produces acid — shutting down acid production at its source — to prevent reflux esophagitis or a stomach ulcer. (Because it blocks this proton pump, it's medically known as a proton pump inhibitor, sometimes abbreviated as "PPI.") It tends to come up especially from people whose symptoms have since settled down — a natural question to have once things feel stable.
 
-By the end of this post, you'll understand how suppressing stomach acid over the long term affects the body, and why some people genuinely benefit from continuing. The short version: **this medication is, on the whole, safe and highly effective, but research in recent years has gradually revealed some effects of suppressing stomach acid strongly over a long period.** What matters is understanding those effects correctly, and reviewing your medication regularly with your doctor rather than deciding on your own to stop or continue.
+By the end of this post, you'll understand how suppressing stomach acid over the long term affects the body, and why some people genuinely benefit from continuing. By the end, I hope it will all make sense. Let's look at it one step at a time.
 
 ### Stomach acid actually plays an important protective role
 
@@ -77,7 +79,9 @@ At this point, you might think it would be better to stop as soon as possible. B
 
 This includes people with recurring, severe reflux esophagitis, and those on long-term NSAIDs or aspirin who face a higher risk of stomach ulcers or bleeding. For these patients, this medication forms an essential foundation of treatment, preventing serious risks like recurrence or bleeding.
 
-### A message from the director
+### Today's takeaway
+
+To sum up: **this medication is, on the whole, safe and highly effective, but research in recent years has gradually revealed some effects of suppressing stomach acid strongly over a long period.** What matters is understanding those effects correctly, and reviewing your medication regularly with your doctor rather than deciding on your own to stop or continue.
 
 - **Please don't stop on your own:** Stopping suddenly can cause a temporary rebound in acid production, which can actually make symptoms worse than before.
 - **Let's review your treatment together, regularly:** If your symptoms are stable, there are options worth considering — reducing the dose, adjusting how often you take it (such as on-demand dosing, only when symptoms appear), or switching to a different type of medication.

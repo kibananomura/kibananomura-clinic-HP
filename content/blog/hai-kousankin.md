@@ -21,7 +21,7 @@ sources:
 
 確かに、「抗酸」という字面だけを見ると、酸をまき散らす凶悪な菌や、何にも負けない無敵の菌を想像してしまいますよね。
 
-この記事を読んでいただくと、抗酸菌という名前の本当の意味と、この菌がなぜ「手ごわい」と言われるのかが分かります。そして、**なぜ抗酸菌の治療には何か月、ときには年単位の時間がかかるのか、なぜたんの検査がそれほど大切なのか**にも、納得していただけると思います。結論から言うと、**「抗酸菌」は酸を出す菌ではなく、「強い酸で洗っても色が落ちない菌」という、検査の性質からついた名前**です。
+この記事を読んでいただくと、抗酸菌という名前の本当の意味と、この菌がなぜ「手ごわい」と言われるのかが分かります。そして、**なぜ抗酸菌の治療には何か月、ときには年単位の時間がかかるのか、なぜたんの検査がそれほど大切なのか**にも、納得していただけると思います。先にお答えすると、**「抗酸菌」は酸を出す菌ではなく、「強い酸で洗っても色が落ちない菌」という、検査の性質からついた名前**です。
 
 ## 実は「実験室の都合」でついた名前
 
@@ -111,7 +111,7 @@ sources:
 
 It's true — judging by the name alone, it's easy to picture a vicious germ spraying acid, or an invincible one that nothing can beat.
 
-By the end of this post, you'll know what the name "acid-fast bacteria" really means and why these bacteria are considered "tough." I think you'll also understand **why treatment for them takes months, sometimes years, and why sputum tests matter so much.** The short answer: **"acid-fast bacteria" don't produce acid — the name means "bacteria whose stain doesn't wash out even with strong acid," a description based on how they behave in a lab test.**
+By the end of this post, you'll know what the name "acid-fast bacteria" really means and why these bacteria are considered "tough." I think you'll also understand **why treatment for them takes months, sometimes years, and why sputum tests matter so much.** Here's the short answer: **"acid-fast bacteria" don't produce acid — the name means "bacteria whose stain doesn't wash out even with strong acid," a description based on how they behave in a lab test.**
 
 ## A name that comes from "lab convenience"
 

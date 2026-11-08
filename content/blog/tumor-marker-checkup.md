@@ -15,7 +15,7 @@ excerpt_en: For anyone who added a tumor marker test to their checkup and got an
 
 「健診のオプションで腫瘍マーカーを測ったら、基準値を超えていた」。結果通知の数字を前に、夜も眠れないほど「がんなのでは」と思い詰めてしまった——これまでの診療の中で、そんなご相談を受けることがありました。数字だけを見ると、どうしても最悪のケースを想像してしまうお気持ちは、本当によく分かります。
 
-今日は、そもそも腫瘍マーカー（がんがあると血液中で増えることがある物質）とはどういう検査なのかをお話しし、その不安を少しでも軽くできればと思います。結論から言うと、**腫瘍マーカーが基準値を超えていても、がんがない方のほうがずっと多い**のです。その上で、「それでも確認が必要なケース」と「医師にどう相談すればいいか」もあわせてお伝えします。最後まで読んでいただければ、今の数字とどう付き合えばいいかが見えてくるはずです。
+今日は、そもそも腫瘍マーカー（がんがあると血液中で増えることがある物質）とはどういう検査なのかをお話しし、その不安を少しでも軽くできればと思います。先にお答えすると、**腫瘍マーカーが基準値を超えていても、がんがない方のほうがずっと多い**のです。その上で、「それでも確認が必要なケース」と「医師にどう相談すればいいか」もあわせてお伝えします。最後まで読んでいただければ、今の数字とどう付き合えばいいかが見えてくるはずです。
 
 ### 腫瘍マーカーは、もともと何のための検査？
 
@@ -33,7 +33,7 @@ excerpt_en: For anyone who added a tumor marker test to their checkup and got an
 
 だからといって「どんな数値でも気にしなくていい」というわけではありません。**基準値を大きく超えている場合、複数回測定しても下がらない場合、症状を伴う場合**などは、念のため詳しい検査を行い、他の原因が隠れていないかを確認することが大切です。この見極めは自己判断では難しいため、結果の数字だけで悩み続けるのではなく、一度医師に相談して、数字の持つ意味を一緒に整理することをお勧めします。
 
-### 院長からのメッセージ
+### 最後に
 
 もし詳しい検査で異常が見つからなかった場合でも、その結果を「安心して終わり」にするのではなく、**ご自身の生活習慣を振り返るきっかけ**にしていただくのも良いのではないかと思います。禁煙、節酒、食生活の見直し、睡眠や運動の習慣など、見直せる点があれば、この機会に少しずつ整えていく。腫瘍マーカーが「これといった病気」を示していなかったとしても、体からの小さなサインとして前向きに受け止めていただければ、今回の検査にもきちんと意味があったことになります。
 
@@ -43,7 +43,7 @@ excerpt_en: For anyone who added a tumor marker test to their checkup and got an
 
 "My optional tumor marker test came back above the normal range." Throughout my career, I've sometimes heard this from patients who told me they could barely sleep that night, convinced it had to mean cancer. Staring at a number like that, it's completely understandable to imagine the worst.
 
-Today we'd like to explain what tumor marker tests actually are, in the hope of easing that worry. The short version: **far more people with an elevated tumor marker turn out not to have cancer than do.** We'll also cover the cases where follow-up really is warranted, and how to talk it through with a doctor. By the end, you should have a clearer sense of how to make sense of your own result.
+Today we'd like to explain what tumor marker tests actually are, in the hope of easing that worry. Here's the short answer: **far more people with an elevated tumor marker turn out not to have cancer than do.** We'll also cover the cases where follow-up really is warranted, and how to talk it through with a doctor. By the end, you should have a clearer sense of how to make sense of your own result.
 
 ### What were tumor markers originally designed for?
 
@@ -61,7 +61,7 @@ In fact, some health-checkup centers have discontinued certain tumor marker item
 
 This doesn't mean any result can be brushed off. If a value is **substantially above the normal range, stays elevated on repeat testing, or comes with symptoms**, it's worth getting a closer look to rule out other causes, just to be safe. Since this judgment call is hard to make on your own, rather than worrying over the number alone, we'd recommend talking it through with a doctor so you can make sense of what it does and doesn't mean together.
 
-### A message from the director
+### Finally
 
 And if further testing turns up nothing concerning, we'd encourage you not to simply file it away as "all clear" — instead, treat it as **a prompt to look at your lifestyle**. Quitting smoking, cutting back on alcohol, adjusting your diet, improving sleep and exercise habits — if there's room to improve, this is a good moment to start. Even if the tumor marker wasn't pointing to any specific disease, treating it as a small signal from your body and responding to it positively means the test still served a real purpose.
 

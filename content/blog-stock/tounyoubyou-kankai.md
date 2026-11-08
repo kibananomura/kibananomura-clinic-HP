@@ -24,7 +24,7 @@ sources:
 
 健診の結果に「血糖値が高め」「糖尿病の疑い」と書かれていた。頭に浮かぶのは、「一生お薬を飲み続ける」「食べたいものが食べられなくなる」「いずれは目や腎臓が悪くなる」——そんな暗いイメージかもしれません。「糖尿病は一度なったらおしまい」と聞いたことがある方も多いと思います。不安になって、結果の紙を引き出しにしまったままにしている方もいらっしゃるのではないでしょうか。
 
-この記事を読んでいただくと、糖尿病についての考え方がここ数年でどう変わってきたのか、そして早い段階で何をすれば未来を変えられるのかが分かります。結論から言うと、**糖尿病の中でも多くを占める「2型糖尿病」は、早めに気づいて生活を整えれば、お薬なしで良い状態を保てる「寛解（かんかい）」を目指せる時代になってきました。**
+今日は、糖尿病についての考え方がここ数年でどう変わってきたのか、そして早い段階で何をすれば未来を変えられるのかについてお話しします。最後まで読んでいただくと、きっと「なるほど」と思っていただけるはずです。ひとつずつ見ていきましょう。
 
 ### 「寛解」という、新しい目標
 
@@ -60,7 +60,9 @@ sources:
 
 反対に、早い段階で相談していただければ、できることはたくさんあります。食事の内容を少し見直す、毎日の歩く量を少し増やす、体重を記録してみる。どれも、今日から始められることばかりです。小さな積み重ねが、10年後、20年後の体を大きく変えていきます。病気のくわしい説明は[糖尿病の解説ページ](/diseases/diabetes)にまとめています。
 
-### 院長からのメッセージ
+### 今日のまとめ
+
+まとめると、**糖尿病の中でも多くを占める「2型糖尿病」は、早めに気づいて生活を整えれば、お薬なしで良い状態を保てる「寛解（かんかい）」を目指せる時代になってきました。**
 
 「糖尿病かもしれない」と言われることは、決して“おしまい”の合図ではありません。むしろ、体が「今なら間に合いますよ」と教えてくれている、大切なきっかけだと私は考えています。
 
@@ -70,7 +72,7 @@ sources:
 
 Your checkup results say “blood sugar on the high side” or “possible diabetes.” What comes to mind may be a gloomy picture: “taking medicine for the rest of my life,” “never eating what I want again,” “eventually my eyes or kidneys will fail.” Many people have heard that “once you have diabetes, that's it.” Some may even have tucked the results into a drawer out of worry.
 
-This article explains how thinking about diabetes has changed in recent years, and what you can do early on to change your future. The bottom line: **for type 2 diabetes, which makes up most cases, it has become possible to aim for “remission” — keeping things in good shape without medicine — if you notice early and adjust your lifestyle.**
+This article explains how thinking about diabetes has changed in recent years, and what you can do early on to change your future. By the end, I hope it will all make sense. Let's look at it one step at a time.
 
 ### “Remission”: a new goal
 
@@ -106,7 +108,9 @@ Diabetes causes almost no symptoms at first. That makes it easy to put off — �
 
 On the other hand, if you come to us early, there's a lot we can do. Adjust what you eat a little, walk a little more each day, try keeping a record of your weight. All of these can start today. Small steps add up and can greatly change your body ten or twenty years from now. You'll find more detail on [our diabetes page](/diseases/diabetes).
 
-### A message from the director
+### Today's takeaway
+
+To sum up: **for type 2 diabetes, which makes up most cases, it has become possible to aim for “remission” — keeping things in good shape without medicine — if you notice early and adjust your lifestyle.**
 
 Being told “you might have diabetes” is never a signal that “it's over.” If anything, I see it as an important prompt — your body telling you, “There's still time.”
 

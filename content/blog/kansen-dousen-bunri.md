@@ -13,7 +13,7 @@ excerpt_en: Going to the clinic itself feels scary when you have a fever — we 
 
 「熱があるとき、病院に行くこと自体が怖い」。そう感じたことはありませんか。自分がうつされるかもしれない不安と、自分が誰かにうつしてしまうかもしれない不安、その両方を抱えながら受診される方は少なくないと思います。
 
-この記事を読んでいただくと、木花のむら診療所が発熱・感染が疑われる方の動線を、設計の最初の段階からどう分けているかが分かります。結論から言うと、**感染対策は「後から付け加えるもの」ではなく、駐車場の区画割りから院内の動線まで、建物そのものに最初から組み込んでいます。**
+今日は、木花のむら診療所が発熱・感染が疑われる方の動線を、設計の最初の段階からどう分けているかについてお話しします。最後まで読んでいただくと、きっと「なるほど」と思っていただけるはずです。ひとつずつ見ていきましょう。
 
 ### 駐車場の時点で、すでに分かれています
 
@@ -29,7 +29,9 @@ excerpt_en: Going to the clinic itself feels scary when you have a fever — we 
 
 動線の分離は、工事が始まってから追加できるものではありません。駐車場の区画割り、建物の出入口の位置、院内の通路の取り方——そのすべてが、設計図を描く最初の段階で決まってしまいます。「あとから感染対策を強化する」ことには限界があるからこそ、建築士の方との打ち合わせの早い時点から、この動線分離を設計の前提条件としてお伝えしてきました。
 
-### 院長からのメッセージ
+### 今日のまとめ
+
+まとめると、**感染対策は「後から付け加えるもの」ではなく、駐車場の区画割りから院内の動線まで、建物そのものに最初から組み込んでいます。**
 
 発熱で来院される方にとっても、それ以外の理由で来院される方にとっても、「ここに来れば安心」と思っていただけることが何より大切だと考えています。動線を分けることは、特別な方だけのための配慮ではなく、すべての患者さんの安心のための、ごく当たり前の備えだと思っています。
 
@@ -39,7 +41,7 @@ excerpt_en: Going to the clinic itself feels scary when you have a fever — we 
 
 Have you ever felt that going to the clinic itself is scary when you have a fever? Worrying both about catching something from someone else, and about passing something on yourself — I think a lot of people carry both of those fears at once when they visit a clinic with a fever.
 
-By the end of this post, you'll understand how Kibananomura Clinic has separated the flow for patients with a fever or suspected infection from everyone else, starting from the very first stage of the building's design. The short version: **infection control here isn't something added on afterward — it's built into the building itself, from how the parking lot is divided all the way through to the flow inside.**
+By the end of this post, you'll understand how Kibananomura Clinic has separated the flow for patients with a fever or suspected infection from everyone else, starting from the very first stage of the building's design. By the end, I hope it will all make sense. Let's look at it one step at a time.
 
 ### The separation starts right at the parking lot
 
@@ -55,7 +57,9 @@ We also plan to have an **outdoor toilet reserved for patients with a fever**. E
 
 Separating patient flow isn't something you can bolt on once construction has already started. The layout of the parking lot, the placement of the building's entrances, how the hallways inside are routed — all of it gets locked in at the very first stage of drawing up the floor plan. Because there's only so much you can do to strengthen infection control after the fact, we made this separation a non-negotiable condition from the earliest conversations with our architect.
 
-### A message from the director
+### Today's takeaway
+
+To sum up: **infection control here isn't something added on afterward — it's built into the building itself, from how the parking lot is divided all the way through to the flow inside.**
 
 Whether you're visiting us with a fever or for an entirely different reason, what matters most to me is that you feel "I can come here and feel safe." Separating the flow isn't a special accommodation for some patients — it's simply a basic precaution for every patient's peace of mind.
 

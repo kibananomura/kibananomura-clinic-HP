@@ -22,7 +22,7 @@ sources:
 
 「先生、このお薬、一度始めたらもう一生やめられないんですよね……？」これまでの外来で、本当によく聞かれてきた質問です。その言葉の奥には、「薬漬けになってしまう怖さ」や、「今の生活をまるごと変えなければいけない重たさ」があるのだと思います。どちらのお気持ちも、とてもよく分かります。
 
-この記事を読んでいただければ、その不安の答えが「いいえ」であること、そしてお薬を減らしていくために今日からできることが分かります。結論から言うと、**お薬はあくまで「今の体を守るためのサポート」**であり、生活習慣を少しずつ整えていくことで、減薬や卒業を目指せる場合があります。一人で抱え込まず、どうすれば無理なく変えていけるか、まずは一緒に考えていきましょう。
+この記事を読んでいただければ、その不安の答えが「いいえ」であること、そしてお薬を減らしていくために今日からできることが分かります。先にお答えすると、**お薬はあくまで「今の体を守るためのサポート」**であり、生活習慣を少しずつ整えていくことで、減薬や卒業を目指せる場合があります。一人で抱え込まず、どうすれば無理なく変えていけるか、まずは一緒に考えていきましょう。
 
 ### お薬と生活習慣、本当の関係
 
@@ -40,7 +40,7 @@ sources:
 
 高血圧の場合、「数値が落ち着いている＝もう治った」とは限らず、薬が支えてくれているからこその安定であることも多いものです。続けたほうがいい方と、やめられる可能性がある方の違いは、「[血圧はもう正常なのに、どうして薬を飲み続けるの？](/blog/kouatsu-kusuri-tsuzukeru)」でお話ししています。
 
-### 院長からのメッセージ
+### 最後に
 
 生活習慣病の治療は、「指導」ではないと思っています。一人ひとりの日常やちょっとした癖に寄り添いながら進めていく、**共同作業**だと考えています。「本当はお酒がやめられなくて」「夜遅くに食べてしまう癖があって」——そんな弱みを見せていただけることが、治療の一番の近道になります。
 
@@ -50,7 +50,7 @@ sources:
 
 "Doctor, once I start this medication, I can never stop, right?" It's a question I've heard all the time throughout my career. Behind those words, I think, is a fear of becoming dependent on medication for life, and the heavy feeling that comes with having to overhaul your entire way of living. Both feelings make complete sense to me.
 
-By the end of this post, you'll know the answer to that fear — it's no — and what you can start doing today to work toward taking less medication. The short version: **medication is, at its core, support to protect your body as it is right now,** and gradually adjusting your daily habits can open the door to reducing or even stopping it. You don't have to carry this alone — let's start by thinking together about how to make changes without straining yourself.
+By the end of this post, you'll know the answer to that fear — it's no — and what you can start doing today to work toward taking less medication. Here's the short answer: **medication is, at its core, support to protect your body as it is right now,** and gradually adjusting your daily habits can open the door to reducing or even stopping it. You don't have to carry this alone — let's start by thinking together about how to make changes without straining yourself.
 
 ### What medication and lifestyle actually have to do with each other
 
@@ -68,7 +68,7 @@ That said, for things **strongly shaped by constitution**, such as LDL (“bad�
 
 With high blood pressure, “my numbers have settled” doesn't always mean “I'm cured” — often the stability is there because the medicine is supporting it. I explain the difference between people who should continue and those who may be able to stop in “[My blood pressure is normal now — so why do I still need to take my medicine?](/blog/kouatsu-kusuri-tsuzukeru)”
 
-### A message from the director
+### Finally
 
 I don't think of treating lifestyle-related conditions as "instruction." It's a **joint effort**, one where I try to stay close to each person's daily life and small habits as we work through it together. Being able to admit "I really can't give up drinking" or "I have a habit of eating late at night" — sharing those small vulnerabilities is often the shortest path to real progress.
 

@@ -23,7 +23,13 @@ excerpt_en: Some feelings only come out at the very end of a visit, with a hand 
 
 言葉は途中で途切れていました。
 
-この記事を読んでいただくと、診察室でなかなか本音が言えない理由と、言えなかった気持ちをどう伝えればいいかが分かります。結論から言うと、**本音が言えないのは、あなたの性格や勇気の問題ではありません。気持ちを言葉にする時間が、診察の中に用意されていないだけ**です。そして、その「納得できない気持ち」こそ、治療を続けていくうえで大切な手がかりになります。
+先にお答えすると、**本音が言えないのは、あなたの性格や勇気の問題ではありません。気持ちを言葉にする時間が、診察の中に用意されていないだけ**です。そして、その「納得できない気持ち」こそ、治療を続けていくうえで大切な手がかりになります。
+
+このあと、こんな順番でお話しします。
+
+- なぜ、最後にしか言えなかったのか
+- 言えなかった気持ちは、大切な情報です
+- 本音を伝えるための、小さなコツ
 
 ### なぜ、最後にしか言えなかったのか
 
@@ -78,7 +84,13 @@ Just as the visit was ending, they said quietly:
 
 The sentence trailed off.
 
-This article explains why it's so hard to say what you really feel in the exam room, and how to share what you couldn't say. The bottom line: **if you can't speak your mind, it isn't your personality or a lack of courage. There simply isn't time built into a visit for putting feelings into words.** And that sense of “this isn't fair” is actually an important clue for continuing your care.
+This article explains why it's so hard to say what you really feel in the exam room, and how to share what you couldn't say. Here's the short answer: **if you can't speak your mind, it isn't your personality or a lack of courage. There simply isn't time built into a visit for putting feelings into words.** And that sense of “this isn't fair” is actually an important clue for continuing your care.
+
+Here's what I'll cover:
+
+- Why did it only come out at the very end?
+- The feelings you couldn't say are valuable information
+- Small tips for sharing what you really feel
 
 ### Why did it only come out at the very end?
 

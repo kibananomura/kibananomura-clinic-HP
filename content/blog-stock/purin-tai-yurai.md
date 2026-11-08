@@ -20,7 +20,7 @@ sources:
 
 「先生、プリンを食べすぎると痛風になるんですか？」——尿酸値の話をしていると、ときどきこんなご質問をいただきます。カラメルのかかった、あの甘いプリン。名前がそっくりなので、そう思ってしまうのも無理はありませんよね。
 
-この記事を読んでいただくと、プリン体とはそもそも何なのか、どんな食べ物に多いのか、そして食事でどこに気をつければよいのかが分かります。結論から言うと、**プリン体はデザートのプリンとは無関係で、私たちの体にもともと欠かせない成分です。しかも尿酸のもとの多くは体の中で作られているので、「あれもこれも禁止」と怖がりすぎる必要はありません。**
+今日は、プリン体とはそもそも何なのか、どんな食べ物に多いのか、そして食事でどこに気をつければよいのかについてお話しします。最後まで読んでいただくと、きっと「なるほど」と思っていただけるはずです。ひとつずつ見ていきましょう。
 
 ### 名前の由来は「純粋な尿酸」
 
@@ -66,7 +66,9 @@ sources:
 
 細かい制限より、続けられるコツをひとつ。その考え方は「[生活習慣病の方の食事指導の実際](/blog/mainichi-chigau-mono)」でもお話ししています。
 
-### 院長からのメッセージ
+### 今日のまとめ
+
+まとめると、**プリン体はデザートのプリンとは無関係で、私たちの体にもともと欠かせない成分です。しかも尿酸のもとの多くは体の中で作られているので、「あれもこれも禁止」と怖がりすぎる必要はありません。**
 
 プリン体は、怖がるべき“敵”ではなく、体を作るのに欠かせない材料です。美味しいものを楽しみながら、ご自身の体の声を聴いて、上手にコントロールしていきましょう。
 
@@ -76,7 +78,7 @@ sources:
 
 “Doctor, can eating too much pudding give me gout?” When I talk with patients about uric acid, I'm sometimes asked this. In Japanese, the sweet caramel custard pudding is called “purin,” which sounds just like “purine.” With names that similar, it's no wonder people wonder!
 
-This article explains what purines actually are, which foods are high in them, and what to watch in your diet. The bottom line: **purines have nothing to do with pudding — they're a substance your body naturally can't do without. And since most of the raw material for uric acid is made inside your body, there's no need to be so afraid that you ban everything.**
+This article explains what purines actually are, which foods are high in them, and what to watch in your diet. By the end, I hope it will all make sense. Let's look at it one step at a time.
 
 ### The name means “pure uric acid”
 
@@ -122,7 +124,9 @@ So even if you avoid purine-rich foods entirely, that alone won't bring your uri
 
 Rather than strict rules, I suggest one sustainable habit — I explain that approach in “[What diet guidance actually looks like for lifestyle-related conditions](/blog/mainichi-chigau-mono).”
 
-### A message from the director
+### Today's takeaway
+
+To sum up: **purines have nothing to do with pudding — they're a substance your body naturally can't do without. And since most of the raw material for uric acid is made inside your body, there's no need to be so afraid that you ban everything.**
 
 Purines aren't an “enemy” to fear — they're an essential building material for your body. Let's enjoy good food, listen to your body, and keep things in balance.
 

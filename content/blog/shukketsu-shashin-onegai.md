@@ -15,7 +15,7 @@ excerpt_en: Blood in your stool, blood in what you threw up — there's one easy
 
 「便に血が混じっていた気がします」「吐いたものが赤かったような……」。診察室でそうお話しくださる方は多いのですが、正直に言うと、**「どのくらい赤かったか」「どのくらいの量だったか」という記憶は、実はあまりあてになりません。**人間の記憶は、焦っているときほど曖昧になるものだからです。
 
-この記事を読んでいただくと、血便・吐血など「何か出た」と感じたときに、診察をぐっとスムーズにする、ちょっとした行動が分かります。結論から言うと、**トイレや洗面器に残ったものを、慌てずにスマホで一枚撮っておいてください。**それだけで、診察の精度がまったく変わってきます。
+今日は、血便・吐血など「何か出た」と感じたときに、診察をぐっとスムーズにする、ちょっとした行動についてお話しします。最後まで読んでいただくと、きっと「なるほど」と思っていただけるはずです。ひとつずつ見ていきましょう。
 
 ※ これは、落ち着いて受診できる軽症〜中等症のケースについてのお話です。**意識が遠のく、出血が止まらない、冷や汗を伴う等「ただごとではない」場合は、写真より先に119番です。**
 
@@ -35,7 +35,9 @@ excerpt_en: Blood in your stool, blood in what you threw up — there's one easy
 
 ここまでは主に血便・吐血のお話でしたが、**せき込んだときに血が出る「かっ血」は、量が少なくても気道のトラブルのサインであることがあり、血便・吐血とは注意点が異なります。**少しでも息苦しさを伴う場合は、写真を撮る余裕を探すより先に、ご連絡・受診をお願いします。
 
-### 院長からのメッセージ
+### 今日のまとめ
+
+まとめると、**トイレや洗面器に残ったものを、慌てずにスマホで一枚撮っておいてください。**それだけで、診察の精度がまったく変わってきます。
 
 もちろん、意識がもうろうとする、大量の出血が続く、冷や汗を伴う等、**ただならぬ様子のときは、写真を撮る余裕があるかどうかより先に、迷わず救急要請（119番）してください。**写真はあくまで、落ち着いて受診できる状況での心強い味方です。
 
@@ -45,7 +47,7 @@ excerpt_en: Blood in your stool, blood in what you threw up — there's one easy
 
 "I think there was blood in my stool." "What I threw up looked kind of red..." I hear this often in clinic, but honestly, **the memory of "how red it was" or "how much there was" usually isn't very reliable.** Human memory tends to get hazy exactly when we're most alarmed.
 
-By the end of this post, you'll know one small thing that makes a real difference when you notice blood — in your stool or in vomit — and need to see a doctor. The short version: **before you flush or rinse it away, take a quick photo on your phone.** That alone can completely change how accurately we can assess things.
+By the end of this post, you'll know one small thing that makes a real difference when you notice blood — in your stool or in vomit — and need to see a doctor. By the end, I hope it will all make sense. Let's look at it one step at a time.
 
 \* This advice is for situations mild or moderate enough that you can calmly make your way in. **If something feels seriously wrong — you're feeling faint, the bleeding won't stop, you're breaking out in a cold sweat — call emergency services (119) before worrying about a photo.**
 
@@ -65,7 +67,9 @@ Between us — it's genuinely common for someone to rush in worried about blood 
 
 Everything above was mainly about blood in your stool or vomit. **Coughing up blood (hemoptysis) can be a sign of an airway problem even in a small amount, and calls for different caution than blood from the digestive tract.** If you have any shortness of breath along with it, please get in touch or come in right away, rather than taking time to find your phone first.
 
-### A message from the director
+### Today's takeaway
+
+To sum up: **before you flush or rinse it away, take a quick photo on your phone.** That alone can completely change how accurately we can assess things.
 
 Of course, if you're feeling faint, the bleeding is heavy and ongoing, or you're breaking out in a cold sweat — **anything that feels seriously wrong — please call emergency services (119) right away, before worrying about whether you have time for a photo.** A photo is a helpful ally for situations where you can calmly make your way in to be seen, not a reason to delay care.
 

@@ -22,7 +22,13 @@ sources:
 
 「健康のために、1日1万歩は歩きましょう」。テレビや雑誌で、そんな言葉を目にしたことがあると思います。でも、仕事や家事で忙しい毎日の中で、1万歩はなかなか大変です。「今日も歩けなかった」と、運動のことを考えるたびに気が重くなっていませんか。
 
-この記事を読んでいただくと、健康のために本当はどれくらい歩けばよいのか、そして無理なく続けるためのちょっとしたコツが分かります。結論から言うと、**60歳以上の方なら、まずは1日5,000歩くらいからでも、体にとって確かな良い効果が期待できます。大切なのは、完璧を目指すことより、「今より少し多く」を続けることです。**
+先にお答えすると、**60歳以上の方なら、まずは1日5,000歩くらいからでも、体にとって確かな良い効果が期待できます。大切なのは、完璧を目指すことより、「今より少し多く」を続けることです。**
+
+このあと、こんな順番でお話しします。
+
+- 「1万歩」は、絶対のルールではありません
+- 「座りっぱなし」を減らすだけでも、体は変わる
+- スマホを、運動の“相棒”に
 
 ### 「1万歩」は、絶対のルールではありません
 
@@ -64,7 +70,7 @@ sources:
 
 食事と合わせて体を整える考え方は、「[ご飯を減らしても痩せないのはなぜ？](/blog/herashitemo-yasenai)」でもお話ししています。
 
-### 院長からのメッセージ
+### 診察室から、ひと言
 
 運動は、「しなければいけないもの」と思うほど、続けるのがつらくなります。でも、今日いつもより少し多く歩けたなら、それはもう立派な一歩です。
 
@@ -74,7 +80,13 @@ sources:
 
 “Walk 10,000 steps a day for your health.” You've probably seen this on TV or in magazines. But with busy days of work and housework, 10,000 steps is tough. Does thinking about exercise leave you feeling down — “I didn't manage to walk again today”?
 
-This article explains how much you really need to walk for your health, and a few small tips for keeping it up without strain. The bottom line: **if you're 60 or older, even starting at around 5,000 steps a day can bring real health benefits. What matters isn't aiming for perfection — it's keeping up “a little more than now.”**
+This article explains how much you really need to walk for your health, and a few small tips for keeping it up without strain. Here's the short answer: **if you're 60 or older, even starting at around 5,000 steps a day can bring real health benefits. What matters isn't aiming for perfection — it's keeping up “a little more than now.”**
+
+Here's what I'll cover:
+
+- “10,000 steps” isn't an absolute rule
+- Just cutting down on sitting changes your body
+- Make your smartphone your exercise “buddy”
 
 ### “10,000 steps” isn't an absolute rule
 
@@ -116,7 +128,7 @@ That said, getting too caught up in the numbers and pushing yourself on days whe
 
 I also discuss combining diet and activity to get your body in shape in “[Eating less but not losing weight?](/blog/herashitemo-yasenai)”
 
-### A message from the director
+### A word from the exam room
 
 The more you think of exercise as something you “have to do,” the harder it is to keep up. But if you walked a little more than usual today, that's already a real step forward.
 

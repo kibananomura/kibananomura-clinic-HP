@@ -18,7 +18,7 @@ sources:
 
 診察室で、「先生、血圧が正常に安定しているのだから、もう薬をやめてもいいですか？」とご質問をいただくことがあります。毎朝きちんと測って、上も下もすっかり落ち着いている。それなのに、毎日の薬はずっと続いたまま——。「どうして飲み続けなきゃいけないの」と思いますよね。「いつまで続くのだろう」「薬に頼っているのは、体が弱っている証拠なのでは」と、不安になる方もいらっしゃいます。
 
-この記事を読んでいただくと、血圧が落ち着いているのに薬を続ける理由と、どんな方なら薬を減らしたり、やめたりできる可能性があるのかが分かります。結論から言うと、**今の安定した血圧は、多くの場合「治った」からではなく「薬が支えてくれている」からです。そして薬を続けることは、恥ずかしいことでも弱さの証拠でもなく、未来の脳卒中や心筋梗塞から血管を守る、賢いセーフティネットなのです。**
+この記事を読んでいただくと、血圧が落ち着いているのに薬を続ける理由と、どんな方なら薬を減らしたり、やめたりできる可能性があるのかが分かります。先にお答えすると、**今の安定した血圧は、多くの場合「治った」からではなく「薬が支えてくれている」からです。そして薬を続けることは、恥ずかしいことでも弱さの証拠でもなく、未来の脳卒中や心筋梗塞から血管を守る、賢いセーフティネットなのです。**
 
 ### 落ち着いているのは「薬が支えている」から
 
@@ -71,7 +71,7 @@ sources:
 
 In the exam room, I'm sometimes asked, “Doctor, my blood pressure has been normal and stable — can I stop the medicine now?” You measure carefully every morning, and both numbers have settled down nicely. And yet the daily pills just keep going. It's natural to wonder, “Why do I have to keep taking this?” Some people also worry, “How long will this go on?” or “Doesn't relying on medicine mean my body is getting weaker?”
 
-This article explains why we continue medicine even when blood pressure has settled, and who may be able to reduce or stop it. The bottom line: **in most cases, your stable blood pressure isn't because you've been “cured” — it's because the medicine is holding it steady. And continuing your medicine is nothing to be ashamed of and no sign of weakness. It's a smart safety net that protects your blood vessels from future strokes and heart attacks.**
+This article explains why we continue medicine even when blood pressure has settled, and who may be able to reduce or stop it. Here's the short answer: **in most cases, your stable blood pressure isn't because you've been “cured” — it's because the medicine is holding it steady. And continuing your medicine is nothing to be ashamed of and no sign of weakness. It's a smart safety net that protects your blood vessels from future strokes and heart attacks.**
 
 ### It's steady because the medicine is supporting it
 

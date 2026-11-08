@@ -20,7 +20,7 @@ sources:
 
 診察室で、とてもよくいただくご相談です。上がうまくいっているぶん、「下だけ高いままで大丈夫なのかな」「薬が効いていないのかな」と、かえって気になりますよね。
 
-この記事を読んでいただくと、上の血圧と下の血圧がそれぞれ何を表しているのか、そして下の血圧と上手に付き合うために今日からできることが分かります。結論から言うと、**下の血圧が下がりにくいのは、心臓よりも「細い血管が緊張して縮こまっている」ことが関係している場合が多く、薬だけでなく、体の緊張をゆるめる暮らしの工夫が効いてきます。**
+先にお答えすると、**下の血圧が下がりにくいのは、心臓よりも「細い血管が緊張して縮こまっている」ことが関係している場合が多く、薬だけでなく、体の緊張をゆるめる暮らしの工夫が効いてきます。**
 
 ### 上の血圧と下の血圧、何が違うの？
 
@@ -50,7 +50,7 @@ sources:
 
 数値は日によって揺れるものです。朝と夜にご自宅で測った記録を持ってきていただければ、薬の種類や飲む時間の見直しも含めて、一緒に作戦を考えられます。[薬をやめられないことに悩んでいる方](/blog/kusuri-yamerarenai)や、[逆に血圧が下がりすぎて心配な方](/blog/kouatsu-genryou-fuan)の記事もあわせてどうぞ。
 
-### 院長からのメッセージ
+### 最後に
 
 下の血圧が下がりにくいのは、血管からの「もう少しリラックスして」というサインかもしれません。
 
@@ -62,7 +62,7 @@ sources:
 
 I hear this in the exam room all the time. Precisely because the top number is doing well, it's natural to wonder: “Is it okay for just the bottom one to stay high?” “Is the medicine not working?”
 
-This article explains what the top and bottom numbers each represent, and what you can start doing today to get along with the bottom number. The bottom line: **when the bottom number is slow to come down, it's often less about the heart and more about small blood vessels that are tense and clamped down — so along with medicine, everyday habits that help your body relax can make a real difference.**
+This article explains what the top and bottom numbers each represent, and what you can start doing today to get along with the bottom number. Here's the short answer: **when the bottom number is slow to come down, it's often less about the heart and more about small blood vessels that are tense and clamped down — so along with medicine, everyday habits that help your body relax can make a real difference.**
 
 ### What's the difference between the top and bottom numbers?
 
@@ -92,7 +92,7 @@ Rather than adding medicine to force it down all at once, **easing the tension i
 
 Numbers go up and down from day to day. If you bring a record of your morning and evening home readings, we can plan together — including whether to adjust the type of medicine or when you take it. You may also find these helpful: [if you're worried you can't stop your medicine](/blog/kusuri-yamerarenai), and [if your blood pressure has dropped too low](/blog/kouatsu-genryou-fuan).
 
-### A message from the director
+### Finally
 
 A bottom number that's slow to come down may be your blood vessels saying, “Please relax a little more.”
 

@@ -20,7 +20,15 @@ sources:
 
 センナ（センノシド）は、手軽でしっかり効く、良いお薬です。出なくてつらいときに頼りたくなるのは、当然のことだと思います。ただ、**毎日、長い期間続けて使うこと**には、知っておいていただきたい落とし穴があります。
 
-この記事では、センナを長く続けたときにお腹の中で何が起きているのか、そして今からできるお薬の見直し方をお話しします。結論から言うと、**センナのような「刺激性下剤」は、毎日飲むお薬ではなく、どうしても出ないときに使う「お助け役」です。毎日の便秘には別のタイプのお薬を中心にすえることで、今からでも腸との付き合い方をやり直せます。**
+この記事では、センナを長く続けたときにお腹の中で何が起きているのか、そして今からできるお薬の見直し方をお話しします。先にお答えすると、**センナのような「刺激性下剤」は、毎日飲むお薬ではなく、どうしても出ないときに使う「お助け役」です。毎日の便秘には別のタイプのお薬を中心にすえることで、今からでも腸との付き合い方をやり直せます。**
+
+このあと、こんな順番でお話しします。
+
+- 1. センナは「お助け役」に
+- 2. 毎日のお薬は「便をやわらかくする」タイプを中心に
+- 3. 急にやめず、ゆっくり切り替える
+- 4. 生活の土台も一緒に
+- こんなときは、早めにご相談を
 
 ## センナは、腸を「直接たたいて」動かすお薬
 
@@ -90,7 +98,15 @@ sources:
 
 Senna (sennosides) is a convenient, effective medicine. It's only natural to rely on it when you're struggling. But **taking it every day for a long time** has a pitfall I'd like you to know about.
 
-In this post, I'll explain what happens inside your bowel when senna is taken for a long time, and how you can review your medicines from today. The short version: **stimulant laxatives such as senna are not meant to be taken every day — they are a “rescue” for when you really can't go. By making a different type of medicine the mainstay for everyday constipation, you can reset your relationship with your bowel, starting now.**
+In this post, I'll explain what happens inside your bowel when senna is taken for a long time, and how you can review your medicines from today. Here's the short answer: **stimulant laxatives such as senna are not meant to be taken every day — they are a “rescue” for when you really can't go. By making a different type of medicine the mainstay for everyday constipation, you can reset your relationship with your bowel, starting now.**
+
+Here's what I'll cover:
+
+- 1. Make senna a “rescue”
+- 2. Base everyday treatment on medicines that “soften the stool”
+- 3. Don't stop suddenly — switch slowly
+- 4. Strengthen the foundation, too
+- See us soon if…
 
 ## Senna works by “prodding” the bowel directly
 

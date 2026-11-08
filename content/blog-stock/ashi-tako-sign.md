@@ -24,7 +24,13 @@ sources:
 
 足の裏のタコやウオノメ、靴ずれでできた小さな傷、かかとのひび割れ、なかなか治らない水虫——。痛みがそれほどでもなければ、「そのうち治るだろう」と、ついそのままにしてしまいますよね。忙しい毎日の中で、自分の足をじっくり見る時間なんて、なかなかないと思います。
 
-この記事を読んでいただくと、足の小さなトラブルの裏にどんな病気が隠れていることがあるのか、そして毎日の簡単なセルフチェックの方法が分かります。結論から言うと、**糖尿病や血のめぐりの病気は、足にいち早くサインを出します。足の小さなトラブルを放っておくと、大きな病気の発見が遅れたり、傷が重くなったりすることがあります。だからこそ、毎日自分の足を「見る・触る」習慣が大切です。**
+先にお答えすると、**糖尿病や血のめぐりの病気は、足にいち早くサインを出します。足の小さなトラブルを放っておくと、大きな病気の発見が遅れたり、傷が重くなったりすることがあります。だからこそ、毎日自分の足を「見る・触る」習慣が大切です。**
+
+このあと、こんな順番でお話しします。
+
+- 足は「全身の鏡」
+- 「手入れされていない足」が招くこと
+- 今日からできる、足のセルフチェック
 
 ### 足は「全身の鏡」
 
@@ -78,7 +84,13 @@ sources:
 
 Calluses and corns on the soles of your feet, small cuts from rubbing shoes, cracked heels, athlete's foot that won't clear up — if the pain isn't too bad, it's easy to leave them be, thinking “it'll heal eventually.” In busy days, there's rarely time to take a good look at your own feet.
 
-This article explains what conditions can hide behind small foot troubles, and a simple daily self-check. The bottom line: **diabetes and circulation problems often show signs in the feet first. Leaving small foot troubles alone can delay finding a serious condition or let wounds become severe. That's why a daily habit of “looking at and touching” your feet matters.**
+This article explains what conditions can hide behind small foot troubles, and a simple daily self-check. Here's the short answer: **diabetes and circulation problems often show signs in the feet first. Leaving small foot troubles alone can delay finding a serious condition or let wounds become severe. That's why a daily habit of “looking at and touching” your feet matters.**
+
+Here's what I'll cover:
+
+- Your feet are “a mirror of your whole body”
+- What “untended feet” can lead to
+- A foot self-check you can start today
 
 ### Your feet are “a mirror of your whole body”
 

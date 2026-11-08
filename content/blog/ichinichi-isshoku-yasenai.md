@@ -18,7 +18,16 @@ sources:
 
 「先生、1日1食しか食べていないのに、ちっとも痩せないんです」。診察室で、こうした声を本当によくお聞きします。朝も昼も我慢して、夜の1食だけ。それなのに体重は変わらない、むしろ以前より太りやすくなった気がする——。そのつらさは、努力してきた方ほど大きいと思います。
 
-この記事を読んでいただくと、1日1食で痩せにくくなる体の仕組みと、今日からできる改善策が分かります。結論から言うと、**食事の回数を極端に減らすと、体は「省エネモード」に入り、筋肉が落ち、脂肪をため込みやすい状態になります。**「食べないほど痩せる」とは限らないのです。
+先にお答えすると、**食事の回数を極端に減らすと、体は「省エネモード」に入り、筋肉が落ち、脂肪をため込みやすい状態になります。**「食べないほど痩せる」とは限らないのです。
+
+このあと、こんな順番でお話しします。
+
+- インスリンは「ため込むホルモン」
+- 1食にまとめると、さらに不利に
+- 1. 極端な絶食をやめ、2〜3食に分ける
+- 2. 毎食、タンパク質を「手のひら1枚分」
+- 3. 野菜から、よくかんで
+- 4. 筋肉を守る運動を少しずつ
 
 ## 理由1：体が「省エネモード」に入る
 
@@ -83,7 +92,16 @@ sources:
 
 “Doctor, I only eat one meal a day, but I'm not losing any weight.” I hear this in the consultation room all the time. You skip breakfast and lunch and eat only dinner — and yet the scale doesn't move, or you even feel you gain weight more easily than before. The harder you've tried, the more frustrating that must be.
 
-By the end of this post, you'll understand why eating only one meal a day can make it harder to lose weight, and what you can start doing today. The short version: **when you cut your meals down drastically, your body switches into an “energy-saving mode”, loses muscle, and becomes more prone to storing fat.** Eating less does not always mean losing more.
+By the end of this post, you'll understand why eating only one meal a day can make it harder to lose weight, and what you can start doing today. Here's the short answer: **when you cut your meals down drastically, your body switches into an “energy-saving mode”, loses muscle, and becomes more prone to storing fat.** Eating less does not always mean losing more.
+
+Here's what I'll cover:
+
+- Insulin is the “storage hormone”
+- Putting everything into one meal makes it worse
+- 1. Stop extreme fasting and split your food into 2–3 meals
+- 2. A palm-sized portion of protein at every meal
+- 3. Vegetables first, and chew well
+- 4. Build muscle-protecting exercise little by little
 
 ## Reason 1: Your body switches into “energy-saving mode”
 

@@ -22,7 +22,7 @@ sources:
 
 お気に入りの靴を履いて出かけたら、夕方には足が痛くてたまらない。親指の付け根が出っぱってきて、合う靴が見つからない。「母も同じ足だったから、遺伝だろう」「年だから仕方ない」——そう思って、あきらめていませんか。子育て中の方なら、「子どもの靴って、どれを選べばいいの？」と、お店で迷った経験もあるかもしれません。
 
-この記事を読んでいただくと、足のトラブルと靴や歩き方の関係、そして大人も子どもも今日からできる靴選びのコツが分かります。結論から言うと、**外反母趾（がいはんぼし。親指が外側に曲がる変形）や扁平足（へんぺいそく）、足の痛みは、体質だけでなく、毎日履く「靴」や「歩き方」とも深く関わっています。そして、いまからでも見直せることはたくさんあります。**
+今日は、足のトラブルと靴や歩き方の関係、そして大人も子どもも今日からできる靴選びのコツについてお話しします。最後まで読んでいただくと、きっと「なるほど」と思っていただけるはずです。ひとつずつ見ていきましょう。
 
 ### 草履の国が、靴の国になった
 
@@ -57,7 +57,9 @@ sources:
 
 足の小さなトラブルが大切なサインになることもあります。足全体の悩みをどこに相談すればいいか迷う方は、「[『何科に行けばいいかわからない』をなくしたい](/blog/jushin-meiro)」もあわせてお読みください。
 
-### 院長からのメッセージ
+### 今日のまとめ
+
+まとめると、**外反母趾（がいはんぼし。親指が外側に曲がる変形）や扁平足（へんぺいそく）、足の痛みは、体質だけでなく、毎日履く「靴」や「歩き方」とも深く関わっています。そして、いまからでも見直せることはたくさんあります。**
 
 足は、体全体を支える土台です。その土台を毎日包んでいるのが、靴です。おしゃれを我慢してほしいわけではありません。特別な日の靴と、毎日たくさん歩く日の靴を、上手に使い分けるだけでも違ってきます。
 
@@ -67,7 +69,7 @@ sources:
 
 You head out in your favorite shoes, and by evening your feet hurt terribly. The base of your big toe has started to stick out, and you can't find shoes that fit. “My mother had the same feet, so it must be genetic.” “It's my age, there's nothing to be done.” Have you given up like this? If you're raising children, you may also have stood in a shop wondering, “Which shoes should I choose for my child?”
 
-This article explains the link between foot problems and shoes or the way you walk, and tips for choosing shoes that both adults and children can start using today. The bottom line: **bunions (a deformity in which the big toe bends outward), flat feet and foot pain are closely linked not only to constitution but also to the “shoes” you wear every day and “how you walk.” And there's a lot you can still change, starting now.**
+This article explains the link between foot problems and shoes or the way you walk, and tips for choosing shoes that both adults and children can start using today. By the end, I hope it will all make sense. Let's look at it one step at a time.
 
 ### A country of sandals became a country of shoes
 
@@ -102,7 +104,9 @@ Also, deformities and collapse in the shape of the foot show up more clearly **w
 
 Small foot troubles can also be important signs. If you're unsure where to go with foot concerns in general, please also read “[I want to end ‘which department do I even go to?’](/blog/jushin-meiro).”
 
-### A message from the director
+### Today's takeaway
+
+To sum up: **bunions (a deformity in which the big toe bends outward), flat feet and foot pain are closely linked not only to constitution but also to the “shoes” you wear every day and “how you walk.” And there's a lot you can still change, starting now.**
 
 Your feet are the foundation that supports your whole body, and shoes are what wrap that foundation every day. I'm not asking you to give up on style. Simply using special-occasion shoes and everyday walking shoes wisely makes a difference.
 

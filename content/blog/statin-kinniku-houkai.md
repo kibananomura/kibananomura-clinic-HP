@@ -22,7 +22,13 @@ sources:
 
 「コレステロールの薬（スタチン）を飲むと、筋肉が溶ける・崩壊するらしい」。そんな言葉をネットで見かけて、今飲んでいるお薬をやめようか迷っている方、あるいはこれから始めることに不安を感じている方がいらっしゃるかもしれません。「横紋筋融解症」という言葉の強いインパクトだけが独り歩きし、まるで誰にでも起こることのように感じてしまうのも無理はないと思います。
 
-この記事を読んでいただくと、スタチンがなぜ筋肉に影響することがあるのか、その仕組みと「本当に注意すべきサイン」が分かります。結論から言うと、**「筋肉が崩壊する」というレベルの重い副作用は、数万人に1人という非常にまれなもの**です。一方で、軽いだるさや痛みが出ることは確かにあり、それにはきちんとした医学的な理由があります。大切なのは、正しい仕組みを知った上で、自己判断でお薬をやめないことです。
+先にお答えすると、**「筋肉が崩壊する」というレベルの重い副作用は、数万人に1人という非常にまれなもの**です。一方で、軽いだるさや痛みが出ることは確かにあり、それにはきちんとした医学的な理由があります。大切なのは、正しい仕組みを知った上で、自己判断でお薬をやめないことです。
+
+このあと、こんな順番でお話しします。
+
+- なぜスタチンで筋肉に影響が出ることがあるのか
+- 同じ薬でも、効き方や副作用に個人差が出る理由
+- ご自身でチェックしていただきたいサイン
 
 ### なぜスタチンで筋肉に影響が出ることがあるのか
 
@@ -62,7 +68,13 @@ sources:
 
 "Statins dissolve your muscles" — you may have come across that phrase online and wondered whether to stop the medication you're taking, or felt uneasy about starting it in the first place. It's understandable: the strong image behind the term "rhabdomyolysis" tends to take on a life of its own, as if it could happen to anyone at any time.
 
-By the end of this post, you'll understand why statins can sometimes affect muscles, and which signs genuinely deserve your attention. The short version: **a side effect severe enough to be called "muscle breakdown" is extremely rare — on the order of one in tens of thousands of patients.** Mild tiredness or soreness, on the other hand, can genuinely occur, and there are real medical reasons behind it. What matters most is understanding the mechanism correctly, rather than stopping your medication on your own judgment.
+By the end of this post, you'll understand why statins can sometimes affect muscles, and which signs genuinely deserve your attention. Here's the short answer: **a side effect severe enough to be called "muscle breakdown" is extremely rare — on the order of one in tens of thousands of patients.** Mild tiredness or soreness, on the other hand, can genuinely occur, and there are real medical reasons behind it. What matters most is understanding the mechanism correctly, rather than stopping your medication on your own judgment.
+
+Here's what I'll cover:
+
+- Why statins can sometimes affect your muscles
+- Why the same drug can affect people differently
+- Signs worth checking for yourself
 
 ### Why statins can sometimes affect your muscles
 

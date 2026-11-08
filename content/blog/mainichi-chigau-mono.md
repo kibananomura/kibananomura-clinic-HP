@@ -18,7 +18,7 @@ sources:
 
 これまでの診療の中で、健診で「中性脂肪が高いですね」「血糖値が気になります」「血圧が高めです」とお伝えすると、患者さんの表情がさっと曇ることが何度もありました。ご本人に聞いてみると、「好きなものを全部禁止されるんじゃないか」「毎日カロリーを計算して、塩分を何グラムまでと言われるんじゃないか」と身構えていたとのことでした。そう思うと、病院に行くこと自体を後回しにしてしまう気持ちも、よく分かります。
 
-この記事を読んでいただければ、「細かい食事制限は、実はほとんど必要ない」ということと、代わりに今日から始められるたったひとつの考え方が分かります。結論から言うと、私が生活習慣病の患者さんにお伝えしているのは**「毎日同じものを食べないようにする」**、ただそれだけです。なぜそれで十分なのか、順を追ってお話しします。
+今日は、「細かい食事制限は、実はほとんど必要ない」ということと、代わりに今日から始められるたったひとつの考え方についてお話しします。最後まで読んでいただくと、きっと「なるほど」と思っていただけるはずです。ひとつずつ見ていきましょう。
 
 実際のところ、これまでの診療の中で「これは一切禁止」「あれも絶対にダメ」というような細かい食事制限をお伝えすることは、ほとんどありませんでした。
 
@@ -40,7 +40,9 @@ sources:
 
 主菜であれば、月曜日は豚肉、火曜日は青魚、水曜日は豆腐料理と、たんぱく質の種類を日替わりでローテーションしてみる。野菜であれば、緑（ほうれん草・ブロッコリー）、赤（トマト・にんじん）、黄（かぼちゃ・卵）、黒（ひじき・きのこ）と、昨日とは違う色を一品加えてみる。それくらいで十分です。「昨日は魚だったから今日は鶏肉と納豆にしよう」「昨日は緑の野菜が多かったから今日は赤いトマトを添えよう」というくらいの気持ちで、ゲーム感覚で続けていただくのがちょうどいいと思います。
 
-### 院長からのメッセージ
+### 今日のまとめ
+
+まとめると、私が生活習慣病の患者さんにお伝えしているのは**「毎日同じものを食べないようにする」**、ただそれだけです。なぜそれで十分なのか、順を追ってお話しします。
 
 もちろん、すでに腎機能の低下がある方や、数値がかなり高い状態の方には、一時的により厳密な栄養調整をお願いすることもあります。ただ、多くの生活習慣病において本当に大切なのは、完璧を目指すことではなく、**小さな良い習慣を長く続けること**だと考えています。
 
@@ -50,7 +52,7 @@ sources:
 
 "Your triglycerides are a bit high," "your blood sugar is something to watch," "your blood pressure is on the high side" — throughout my career, I've often watched a patient's face fall the moment I said something like this. When I asked, many told me they'd already braced themselves for a long list of forbidden foods, or for being told to count calories and track every gram of salt. I understand why that feeling makes people put off coming in at all.
 
-By the end of this post, you'll see that detailed food restrictions are rarely necessary at all — and you'll have one simple idea you can start today instead. The short version: the one piece of advice I give patients managing a lifestyle-related condition is simply **"try not to eat the same thing every day."** Here's why that's enough.
+By the end of this post, you'll see that detailed food restrictions are rarely necessary at all — and you'll have one simple idea you can start today instead. By the end, I hope it will all make sense. Let's look at it one step at a time.
 
 In practice, throughout my career, I've rarely handed out strict rules like "never eat this" or "this is completely off-limits."
 
@@ -72,7 +74,9 @@ Thinking "I have to cook something completely different every day" would be its 
 
 For a main dish, that might mean rotating pork on Monday, a fish rich in omega-3s on Tuesday, tofu on Wednesday. For vegetables, it might mean adding a color you didn't have yesterday — green (spinach, broccoli), red (tomato, carrot), yellow (pumpkin, egg), black (hijiki seaweed, mushrooms). That's enough. Something like, "I had fish yesterday, so today let's do chicken and natto," or "yesterday was mostly green, so let's add a red tomato today" — treating it almost like a small game is about the right amount of effort to keep it up.
 
-### A message from the director
+### Today's takeaway
+
+To sum up: the one piece of advice I give patients managing a lifestyle-related condition is simply **"try not to eat the same thing every day."** Here's why that's enough.
 
 Of course, for patients who already have reduced kidney function, or whose numbers are quite high, I do sometimes ask for stricter nutritional adjustments for a period. But for most lifestyle-related conditions, what actually matters isn't perfection — it's **keeping up a few small, good habits for a long time.**
 

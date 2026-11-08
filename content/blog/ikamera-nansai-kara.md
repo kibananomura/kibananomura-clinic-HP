@@ -88,7 +88,7 @@ sources:
 - **お酒を飲むとすぐ顔が赤くなる方で、飲酒や喫煙の習慣がある**（食道がんのリスクが高まることが知られています）
 - **前回の胃カメラで、萎縮性胃炎やポリープなどを指摘された**
 
-### 院長からのメッセージ
+### おわりに
 
 「胃カメラは何歳から？」という質問に、ひとことで答えるのは実は難しいのです。同じ50歳でも、ピロリ菌に感染したことがない方と、除菌治療を受けた方とでは、勧めたい間隔がまったく違います。
 
@@ -166,7 +166,7 @@ If any of the following apply to you, talk to your doctor about starting earlier
 - **Your face quickly turns red when you drink, and you drink or smoke regularly** (this is known to raise the risk of esophageal cancer)
 - **Your last gastroscopy found atrophic gastritis, polyps or similar findings**
 
-### A message from the director
+### In closing
 
 "From what age should I get a gastroscopy?" is actually a hard question to answer in a single sentence. Two people who are both 50 — one who has never had H. pylori, and one who has been treated for it — may need completely different intervals.
 

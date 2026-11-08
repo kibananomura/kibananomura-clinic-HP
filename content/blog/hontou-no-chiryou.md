@@ -20,7 +20,7 @@ sources:
 
 仕事を抜けて来るのも、待合室で待つのも、正直なところ大変ですよね。「どうせ同じ薬をもらうだけなのに」と感じるのは、とても自然なことだと思います。
 
-この記事では、生活習慣病の通院で、なぜ月に一度お会いすることをおすすめしているのかをお話しします。結論から言うと、**生活習慣病の治療の中心はお薬そのものではなく、日々の暮らしの小さな変化にあります。そして、月に一度、医師と一緒に数字と生活を振り返る時間は、その変化を続けるための、治療の大切な一部**だと考えています。
+この記事では、生活習慣病の通院で、なぜ月に一度お会いすることをおすすめしているのかをお話しします。ひと言でいえば、**生活習慣病の治療の中心はお薬そのものではなく、日々の暮らしの小さな変化にあります。そして、月に一度、医師と一緒に数字と生活を振り返る時間は、その変化を続けるための、治療の大切な一部**だと考えています。
 
 ## お薬だけでは、病気は治りきらない
 
@@ -91,7 +91,7 @@ sources:
 
 Taking time off work and waiting at the clinic is genuinely hard. It's completely natural to feel, “I'm only getting the same medicine anyway.”
 
-In this post, I'd like to explain why I recommend seeing me once a month for lifestyle diseases. The short version: **the heart of treating lifestyle diseases is not the medicine itself, but small changes in your daily life. And the time we spend together once a month, reviewing your numbers and your routine, is an important part of the treatment that helps those changes last.**
+In this post, I'd like to explain why I recommend seeing me once a month for lifestyle diseases. In a nutshell: **the heart of treating lifestyle diseases is not the medicine itself, but small changes in your daily life. And the time we spend together once a month, reviewing your numbers and your routine, is an important part of the treatment that helps those changes last.**
 
 ## Medicine alone can't fully treat the condition
 

@@ -192,7 +192,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "結論から言うと、今の宮崎で特に増えているのは**新型コロナウイルス感染症**と**感染性胃腸炎**、そしてこれからの季節は**食中毒**にも注意が必要です。一方で手足口病は落ち着いてきています。それぞれの具体的な数字と、ご家庭で気をつけていただきたいポイントを見ていきましょう。"
+          "text": "最後まで読んでいただくと、きっと「なるほど」と思っていただけるはずです。ひとつずつ見ていきましょう。"
         },
         {
           "kind": "text",
@@ -236,7 +236,11 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "### 院長からのメッセージ"
+          "text": "### 今日のまとめ"
+        },
+        {
+          "kind": "text",
+          "text": "まとめると、今の宮崎で特に増えているのは**新型コロナウイルス感染症**と**感染性胃腸炎**、そしてこれからの季節は**食中毒**にも注意が必要です。一方で手足口病は落ち着いてきています。それぞれの具体的な数字と、ご家庭で気をつけていただきたいポイントを見ていきましょう。"
         },
         {
           "kind": "text",
@@ -264,7 +268,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "The short version: right now in Miyazaki, **COVID-19** and **infectious gastroenteritis** are both on the rise, and **food poisoning** deserves extra care as we head into summer. Hand, foot, and mouth disease, on the other hand, is easing up. Let's look at the specific numbers and what to watch for with your family."
+          "text": "By the end, I hope it will all make sense. Let's look at it one step at a time."
         },
         {
           "kind": "text",
@@ -308,7 +312,11 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "### A message from the director"
+          "text": "### Today's takeaway"
+        },
+        {
+          "kind": "text",
+          "text": "To sum up: right now in Miyazaki, **COVID-19** and **infectious gastroenteritis** are both on the rise, and **food poisoning** deserves extra care as we head into summer. Hand, foot, and mouth disease, on the other hand, is easing up. Let's look at the specific numbers and what to watch for with your family."
         },
         {
           "kind": "text",
@@ -693,7 +701,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "### 院長からのメッセージ"
+          "text": "### 最後に"
         },
         {
           "kind": "text",
@@ -828,7 +836,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "### A message from the director"
+          "text": "### Finally"
         },
         {
           "kind": "text",
@@ -1002,7 +1010,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "### 院長からのメッセージ"
+          "text": "### 診察室から、ひと言"
         },
         {
           "kind": "text",
@@ -1146,7 +1154,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "### A message from the director"
+          "text": "### A word from the exam room"
         },
         {
           "kind": "text",
@@ -1314,7 +1322,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "### 院長からのメッセージ"
+          "text": "### おわりに"
         },
         {
           "kind": "text",
@@ -1446,7 +1454,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "### A message from the director"
+          "text": "### In closing"
         },
         {
           "kind": "text",
@@ -1506,7 +1514,15 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "この記事を読んでいただくと、回腸末端炎がどんな病気なのか、盲腸（急性虫垂炎）とどう違うのか、そしてどんなときに詳しい検査が必要なのかが分かります。結論から言うと、**回腸末端炎の多くは、細菌などによる一時的な腸の炎症で、自然に、あるいはお薬で良くなることが多いもの**です。ただし、中には詳しく調べたほうがよい原因が隠れていることもあるため、**きちんと診断して、原因を見極めることが大切**です。"
+          "text": "先にお答えすると、**回腸末端炎の多くは、細菌などによる一時的な腸の炎症で、自然に、あるいはお薬で良くなることが多いもの**です。ただし、中には詳しく調べたほうがよい原因が隠れていることもあるため、**きちんと診断して、原因を見極めることが大切**です。"
+        },
+        {
+          "kind": "text",
+          "text": "このあと、こんな順番でお話しします。"
+        },
+        {
+          "kind": "text",
+          "text": "- 「回腸末端」は、盲腸のすぐ隣にあります\n- 回腸末端は、炎症を起こしやすい「腸の関所」\n- 盲腸（虫垂炎）と回腸末端炎、症状の違いは？\n- 回腸末端炎の主な原因は、大きく3つ\n- 当院での検査と診断の進め方"
         },
         {
           "kind": "text",
@@ -1650,7 +1666,15 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "By the end of this post, you'll know what terminal ileitis is, how it differs from appendicitis, and when more detailed tests are needed. The short answer: **most terminal ileitis is a temporary inflammation of the intestine, often caused by bacteria, and it frequently gets better on its own or with medication.** That said, it can occasionally point to a cause that deserves a closer look — so **getting a proper diagnosis and identifying the cause is what matters.**"
+          "text": "By the end of this post, you'll know what terminal ileitis is, how it differs from appendicitis, and when more detailed tests are needed. Here's the short answer: **most terminal ileitis is a temporary inflammation of the intestine, often caused by bacteria, and it frequently gets better on its own or with medication.** That said, it can occasionally point to a cause that deserves a closer look — so **getting a proper diagnosis and identifying the cause is what matters.**"
+        },
+        {
+          "kind": "text",
+          "text": "Here's what I'll cover:"
+        },
+        {
+          "kind": "text",
+          "text": "- The terminal ileum sits right next to the appendix\n- The terminal ileum: a \"checkpoint\" prone to inflammation\n- Appendicitis vs. terminal ileitis — how do the symptoms differ?\n- Three main causes of terminal ileitis\n- How we test and diagnose at our clinic"
         },
         {
           "kind": "text",
@@ -1825,7 +1849,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "この記事を読んでいただくと、抗酸菌という名前の本当の意味と、この菌がなぜ「手ごわい」と言われるのかが分かります。そして、**なぜ抗酸菌の治療には何か月、ときには年単位の時間がかかるのか、なぜたんの検査がそれほど大切なのか**にも、納得していただけると思います。結論から言うと、**「抗酸菌」は酸を出す菌ではなく、「強い酸で洗っても色が落ちない菌」という、検査の性質からついた名前**です。"
+          "text": "この記事を読んでいただくと、抗酸菌という名前の本当の意味と、この菌がなぜ「手ごわい」と言われるのかが分かります。そして、**なぜ抗酸菌の治療には何か月、ときには年単位の時間がかかるのか、なぜたんの検査がそれほど大切なのか**にも、納得していただけると思います。先にお答えすると、**「抗酸菌」は酸を出す菌ではなく、「強い酸で洗っても色が落ちない菌」という、検査の性質からついた名前**です。"
         },
         {
           "kind": "text",
@@ -1993,7 +2017,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "By the end of this post, you'll know what the name \"acid-fast bacteria\" really means and why these bacteria are considered \"tough.\" I think you'll also understand **why treatment for them takes months, sometimes years, and why sputum tests matter so much.** The short answer: **\"acid-fast bacteria\" don't produce acid — the name means \"bacteria whose stain doesn't wash out even with strong acid,\" a description based on how they behave in a lab test.**"
+          "text": "By the end of this post, you'll know what the name \"acid-fast bacteria\" really means and why these bacteria are considered \"tough.\" I think you'll also understand **why treatment for them takes months, sometimes years, and why sputum tests matter so much.** Here's the short answer: **\"acid-fast bacteria\" don't produce acid — the name means \"bacteria whose stain doesn't wash out even with strong acid,\" a description based on how they behave in a lab test.**"
         },
         {
           "kind": "text",
@@ -2339,7 +2363,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "### 院長からのメッセージ"
+          "text": "### 診察室から、ひと言"
         },
         {
           "kind": "text",
@@ -2519,7 +2543,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "### A message from the director"
+          "text": "### A word from the exam room"
         },
         {
           "kind": "text",
@@ -2566,7 +2590,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "この記事を読んでいただくと、「どれくらい下がったら減量を考えるサインなのか」「薬を減らしたらまた血圧が戻ってしまわないか」といった不安に、どう向き合えばよいかが分かります。結論から言うと、**血圧の数値だけでなく、自覚症状の有無を一緒に見ること、そして減量は自己判断ではなく主治医と相談しながら少しずつ進めることが、何より安全な道筋です。**"
+          "text": "今日は、「どれくらい下がったら減量を考えるサインなのか」「薬を減らしたらまた血圧が戻ってしまわないか」といった不安に、どう向き合えばよいかについてお話しします。最後まで読んでいただくと、きっと「なるほど」と思っていただけるはずです。ひとつずつ見ていきましょう。"
         },
         {
           "kind": "text",
@@ -2618,7 +2642,11 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "### 院長からのメッセージ"
+          "text": "### 今日のまとめ"
+        },
+        {
+          "kind": "text",
+          "text": "まとめると、**血圧の数値だけでなく、自覚症状の有無を一緒に見ること、そして減量は自己判断ではなく主治医と相談しながら少しずつ進めることが、何より安全な道筋です。**"
         },
         {
           "kind": "text",
@@ -2642,7 +2670,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "By the end of this post, you'll have a better sense of how to think through two common worries: \"how low is low enough to be a sign I should cut back?\" and \"won't my blood pressure just go back up if I reduce my medication?\" The short version: **looking at the number alone isn't enough — whether you have symptoms matters just as much, and reducing medication safely means doing it gradually, together with your doctor, not on your own.**"
+          "text": "By the end of this post, you'll have a better sense of how to think through two common worries: \"how low is low enough to be a sign I should cut back?\" and \"won't my blood pressure just go back up if I reduce my medication?\" By the end, I hope it will all make sense. Let's look at it one step at a time."
         },
         {
           "kind": "text",
@@ -2694,7 +2722,11 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "### A message from the director"
+          "text": "### Today's takeaway"
+        },
+        {
+          "kind": "text",
+          "text": "To sum up: **looking at the number alone isn't enough — whether you have symptoms matters just as much, and reducing medication safely means doing it gradually, together with your doctor, not on your own.**"
         },
         {
           "kind": "text",
@@ -2749,7 +2781,15 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "この記事を読んでいただくと、スタチンがなぜ筋肉に影響することがあるのか、その仕組みと「本当に注意すべきサイン」が分かります。結論から言うと、**「筋肉が崩壊する」というレベルの重い副作用は、数万人に1人という非常にまれなもの**です。一方で、軽いだるさや痛みが出ることは確かにあり、それにはきちんとした医学的な理由があります。大切なのは、正しい仕組みを知った上で、自己判断でお薬をやめないことです。"
+          "text": "先にお答えすると、**「筋肉が崩壊する」というレベルの重い副作用は、数万人に1人という非常にまれなもの**です。一方で、軽いだるさや痛みが出ることは確かにあり、それにはきちんとした医学的な理由があります。大切なのは、正しい仕組みを知った上で、自己判断でお薬をやめないことです。"
+        },
+        {
+          "kind": "text",
+          "text": "このあと、こんな順番でお話しします。"
+        },
+        {
+          "kind": "text",
+          "text": "- なぜスタチンで筋肉に影響が出ることがあるのか\n- 同じ薬でも、効き方や副作用に個人差が出る理由\n- ご自身でチェックしていただきたいサイン"
         },
         {
           "kind": "text",
@@ -2829,7 +2869,15 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "By the end of this post, you'll understand why statins can sometimes affect muscles, and which signs genuinely deserve your attention. The short version: **a side effect severe enough to be called \"muscle breakdown\" is extremely rare — on the order of one in tens of thousands of patients.** Mild tiredness or soreness, on the other hand, can genuinely occur, and there are real medical reasons behind it. What matters most is understanding the mechanism correctly, rather than stopping your medication on your own judgment."
+          "text": "By the end of this post, you'll understand why statins can sometimes affect muscles, and which signs genuinely deserve your attention. Here's the short answer: **a side effect severe enough to be called \"muscle breakdown\" is extremely rare — on the order of one in tens of thousands of patients.** Mild tiredness or soreness, on the other hand, can genuinely occur, and there are real medical reasons behind it. What matters most is understanding the mechanism correctly, rather than stopping your medication on your own judgment."
+        },
+        {
+          "kind": "text",
+          "text": "Here's what I'll cover:"
+        },
+        {
+          "kind": "text",
+          "text": "- Why statins can sometimes affect your muscles\n- Why the same drug can affect people differently\n- Signs worth checking for yourself"
         },
         {
           "kind": "text",
@@ -2936,7 +2984,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "ただ、少し意外に思われるかもしれませんが、**トマトジュースはコレステロールが高めの方にはおすすめな一方、中性脂肪が高めの方には逆効果になることがある**、いわば「両刃の剣」のような飲み物です。この記事を読んでいただくと、ご自身の健診結果のタイプに合わせた、トマトジュースとの正しい付き合い方が分かります。結論から言うと、**ポイントは「無塩かどうか」と「ジュースか、生のまま食べるか」**。この2つを押さえるだけで、同じ一杯が味方にも、注意信号にもなります。"
+          "text": "ただ、少し意外に思われるかもしれませんが、**トマトジュースはコレステロールが高めの方にはおすすめな一方、中性脂肪が高めの方には逆効果になることがある**、いわば「両刃の剣」のような飲み物です。先にお答えすると、**ポイントは「無塩かどうか」と「ジュースか、生のまま食べるか」**。この2つを押さえるだけで、同じ一杯が味方にも、注意信号にもなります。"
         },
         {
           "kind": "text",
@@ -2964,7 +3012,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "### 院長からのメッセージ"
+          "text": "### 最後に"
         },
         {
           "kind": "text",
@@ -2988,7 +3036,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "Here's something that might surprise you, though: **tomato juice can be great for people with high cholesterol, while working against people with high triglycerides** — it's something of a double-edged sword. By the end of this post, you'll know how to approach tomato juice based on your own checkup results. The short version: **what matters is whether it's unsalted, and whether you drink it as juice or eat the tomato whole.** Get those two things right, and the very same glass can either help you or work against you."
+          "text": "Here's something that might surprise you, though: **tomato juice can be great for people with high cholesterol, while working against people with high triglycerides** — it's something of a double-edged sword. By the end of this post, you'll know how to approach tomato juice based on your own checkup results. Here's the short answer: **what matters is whether it's unsalted, and whether you drink it as juice or eat the tomato whole.** Get those two things right, and the very same glass can either help you or work against you."
         },
         {
           "kind": "text",
@@ -3016,7 +3064,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "### A message from the director"
+          "text": "### Finally"
         },
         {
           "kind": "text",
@@ -3056,7 +3104,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "この記事を読んでいただくと、木花のむら診療所が発熱・感染が疑われる方の動線を、設計の最初の段階からどう分けているかが分かります。結論から言うと、**感染対策は「後から付け加えるもの」ではなく、駐車場の区画割りから院内の動線まで、建物そのものに最初から組み込んでいます。**"
+          "text": "今日は、木花のむら診療所が発熱・感染が疑われる方の動線を、設計の最初の段階からどう分けているかについてお話しします。最後まで読んでいただくと、きっと「なるほど」と思っていただけるはずです。ひとつずつ見ていきましょう。"
         },
         {
           "kind": "text",
@@ -3088,7 +3136,11 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "### 院長からのメッセージ"
+          "text": "### 今日のまとめ"
+        },
+        {
+          "kind": "text",
+          "text": "まとめると、**感染対策は「後から付け加えるもの」ではなく、駐車場の区画割りから院内の動線まで、建物そのものに最初から組み込んでいます。**"
         },
         {
           "kind": "text",
@@ -3111,7 +3163,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "By the end of this post, you'll understand how Kibananomura Clinic has separated the flow for patients with a fever or suspected infection from everyone else, starting from the very first stage of the building's design. The short version: **infection control here isn't something added on afterward — it's built into the building itself, from how the parking lot is divided all the way through to the flow inside.**"
+          "text": "By the end of this post, you'll understand how Kibananomura Clinic has separated the flow for patients with a fever or suspected infection from everyone else, starting from the very first stage of the building's design. By the end, I hope it will all make sense. Let's look at it one step at a time."
         },
         {
           "kind": "text",
@@ -3143,7 +3195,11 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "### A message from the director"
+          "text": "### Today's takeaway"
+        },
+        {
+          "kind": "text",
+          "text": "To sum up: **infection control here isn't something added on afterward — it's built into the building itself, from how the parking lot is divided all the way through to the flow inside.**"
         },
         {
           "kind": "text",
@@ -3188,7 +3244,15 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "この記事を読んでいただくと、高血圧や糖尿病のように長く付き合っていく病気に対して、私がどんな姿勢で向き合っているかが分かります。結論から言うと、**私は「治す」ことだけを医療のゴールにしていません。むしろ、長く付き合っていく病気とどう上手に折り合いをつけるかを、患者さんと一緒に考えることこそが、自分の役目だと思っています。**"
+          "text": "先にお答えすると、**私は「治す」ことだけを医療のゴールにしていません。むしろ、長く付き合っていく病気とどう上手に折り合いをつけるかを、患者さんと一緒に考えることこそが、自分の役目だと思っています。**"
+        },
+        {
+          "kind": "text",
+          "text": "このあと、こんな順番でお話しします。"
+        },
+        {
+          "kind": "text",
+          "text": "- 「治らない」と「悪くならない」は、まったく別のことです\n- 一生のお付き合いだからこそ、無理のない距離感を\n- 数値の裏にある暮らしを見ています"
         },
         {
           "kind": "text",
@@ -3231,7 +3295,15 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "By the end of this post, you'll understand how I approach conditions like high blood pressure and diabetes, the kind you live with for the long haul. The short version: **I don't treat \"curing\" as the only goal of medicine. I see my role as working together with patients to find a good, sustainable way to live alongside a condition that isn't going away.**"
+          "text": "By the end of this post, you'll understand how I approach conditions like high blood pressure and diabetes, the kind you live with for the long haul. Here's the short answer: **I don't treat \"curing\" as the only goal of medicine. I see my role as working together with patients to find a good, sustainable way to live alongside a condition that isn't going away.**"
+        },
+        {
+          "kind": "text",
+          "text": "Here's what I'll cover:"
+        },
+        {
+          "kind": "text",
+          "text": "- \"Not curable\" and \"not getting worse\" are two completely different things\n- Because it's a lifelong relationship, there's no need to overdo it from the start\n- Looking at the life behind the numbers"
         },
         {
           "kind": "text",
@@ -3302,7 +3374,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "結論から言うと、そのモヤモヤは「気のせい」でも「我慢すべきもの」でもありません。**当院が内科と外科の両方を診ているのは、まさにこの「なんとなくの不調」に向き合うためです。**この記事を読んでいただくと、「検査で異常が出ない不調」がなぜ起こるのか、そしてそれをどう受け止めればいいのかが分かります。"
+          "text": "先にお答えすると、そのモヤモヤは「気のせい」でも「我慢すべきもの」でもありません。**当院が内科と外科の両方を診ているのは、まさにこの「なんとなくの不調」に向き合うためです。**この記事を読んでいただくと、「検査で異常が出ない不調」がなぜ起こるのか、そしてそれをどう受け止めればいいのかが分かります。"
         },
         {
           "kind": "text",
@@ -3341,7 +3413,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "The short version: that nagging feeling isn't \"just your imagination\" or something you have to quietly put up with. **The reason our clinic covers both internal medicine and surgery is precisely to address this kind of \"something feels off\" discomfort.** By the end of this post, you'll understand why discomfort that doesn't show up on a test happens in the first place, and how to think about it."
+          "text": "Here's the short answer: that nagging feeling isn't \"just your imagination\" or something you have to quietly put up with. **The reason our clinic covers both internal medicine and surgery is precisely to address this kind of \"something feels off\" discomfort.** By the end of this post, you'll understand why discomfort that doesn't show up on a test happens in the first place, and how to think about it."
         },
         {
           "kind": "text",
@@ -3409,7 +3481,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "この記事を読んでいただければ、「細かい食事制限は、実はほとんど必要ない」ということと、代わりに今日から始められるたったひとつの考え方が分かります。結論から言うと、私が生活習慣病の患者さんにお伝えしているのは**「毎日同じものを食べないようにする」**、ただそれだけです。なぜそれで十分なのか、順を追ってお話しします。"
+          "text": "今日は、「細かい食事制限は、実はほとんど必要ない」ということと、代わりに今日から始められるたったひとつの考え方についてお話しします。最後まで読んでいただくと、きっと「なるほど」と思っていただけるはずです。ひとつずつ見ていきましょう。"
         },
         {
           "kind": "text",
@@ -3453,7 +3525,11 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "### 院長からのメッセージ"
+          "text": "### 今日のまとめ"
+        },
+        {
+          "kind": "text",
+          "text": "まとめると、私が生活習慣病の患者さんにお伝えしているのは**「毎日同じものを食べないようにする」**、ただそれだけです。なぜそれで十分なのか、順を追ってお話しします。"
         },
         {
           "kind": "text",
@@ -3477,7 +3553,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "By the end of this post, you'll see that detailed food restrictions are rarely necessary at all — and you'll have one simple idea you can start today instead. The short version: the one piece of advice I give patients managing a lifestyle-related condition is simply **\"try not to eat the same thing every day.\"** Here's why that's enough."
+          "text": "By the end of this post, you'll see that detailed food restrictions are rarely necessary at all — and you'll have one simple idea you can start today instead. By the end, I hope it will all make sense. Let's look at it one step at a time."
         },
         {
           "kind": "text",
@@ -3521,7 +3597,11 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "### A message from the director"
+          "text": "### Today's takeaway"
+        },
+        {
+          "kind": "text",
+          "text": "To sum up: the one piece of advice I give patients managing a lifestyle-related condition is simply **\"try not to eat the same thing every day.\"** Here's why that's enough."
         },
         {
           "kind": "text",
@@ -3571,7 +3651,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "実は私は、もともと胃がん治療を専門にしていた外科医でした。この記事を読んでいただくと、専門だった胃がんの手術から、なぜ街のかかりつけ医の道を選んだのか、その経緯が分かります。結論から言うと、**「もっと多くの方の日常に、一番近いところで関わりたい」という思いが、専門を手放してでもかなえたかったことでした。**"
+          "text": "実は私は、もともと胃がん治療を専門にしていた外科医でした。この記事を読んでいただくと、専門だった胃がんの手術から、なぜ街のかかりつけ医の道を選んだのか、その経緯が分かります。答えを先にお伝えすると、**「もっと多くの方の日常に、一番近いところで関わりたい」という思いが、専門を手放してでもかなえたかったことでした。**"
         },
         {
           "kind": "text",
@@ -3610,7 +3690,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "I actually used to be a surgeon specializing in stomach cancer treatment. By the end of this post, you'll understand why I stepped away from that specialty to become a neighborhood family doctor instead. The short version: **wanting to be close to as many people's everyday lives as possible was worth giving up my specialty for.**"
+          "text": "I actually used to be a surgeon specializing in stomach cancer treatment. By the end of this post, you'll understand why I stepped away from that specialty to become a neighborhood family doctor instead. Let me give you the answer first: **wanting to be close to as many people's everyday lives as possible was worth giving up my specialty for.**"
         },
         {
           "kind": "text",
@@ -3880,7 +3960,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "今日は、そもそも腫瘍マーカー（がんがあると血液中で増えることがある物質）とはどういう検査なのかをお話しし、その不安を少しでも軽くできればと思います。結論から言うと、**腫瘍マーカーが基準値を超えていても、がんがない方のほうがずっと多い**のです。その上で、「それでも確認が必要なケース」と「医師にどう相談すればいいか」もあわせてお伝えします。最後まで読んでいただければ、今の数字とどう付き合えばいいかが見えてくるはずです。"
+          "text": "今日は、そもそも腫瘍マーカー（がんがあると血液中で増えることがある物質）とはどういう検査なのかをお話しし、その不安を少しでも軽くできればと思います。先にお答えすると、**腫瘍マーカーが基準値を超えていても、がんがない方のほうがずっと多い**のです。その上で、「それでも確認が必要なケース」と「医師にどう相談すればいいか」もあわせてお伝えします。最後まで読んでいただければ、今の数字とどう付き合えばいいかが見えてくるはずです。"
         },
         {
           "kind": "text",
@@ -3916,7 +3996,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "### 院長からのメッセージ"
+          "text": "### 最後に"
         },
         {
           "kind": "text",
@@ -3940,7 +4020,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "Today we'd like to explain what tumor marker tests actually are, in the hope of easing that worry. The short version: **far more people with an elevated tumor marker turn out not to have cancer than do.** We'll also cover the cases where follow-up really is warranted, and how to talk it through with a doctor. By the end, you should have a clearer sense of how to make sense of your own result."
+          "text": "Today we'd like to explain what tumor marker tests actually are, in the hope of easing that worry. Here's the short answer: **far more people with an elevated tumor marker turn out not to have cancer than do.** We'll also cover the cases where follow-up really is warranted, and how to talk it through with a doctor. By the end, you should have a clearer sense of how to make sense of your own result."
         },
         {
           "kind": "text",
@@ -3976,7 +4056,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "### A message from the director"
+          "text": "### Finally"
         },
         {
           "kind": "text",
@@ -4261,7 +4341,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "この記事を読んでいただくと、「症状がないのに、なぜ薬を続ける必要があるのか」が分かり、不安なく治療を続けられるようになります。結論から言うと、**症状がない日も気管の炎症は静かにくすぶり続けているため、吸入薬は「治す薬」ではなく「火種を抑え続ける薬」**なのです。その理由を、順を追ってお話しします。"
+          "text": "この記事を読んでいただくと、「症状がないのに、なぜ薬を続ける必要があるのか」が分かり、不安なく治療を続けられるようになります。最後まで読んでいただくと、きっと「なるほど」と思っていただけるはずです。ひとつずつ見ていきましょう。"
         },
         {
           "kind": "text",
@@ -4301,7 +4381,11 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "### 院長からのメッセージ"
+          "text": "### 今日のまとめ"
+        },
+        {
+          "kind": "text",
+          "text": "まとめると、**症状がない日も気管の炎症は静かにくすぶり続けているため、吸入薬は「治す薬」ではなく「火種を抑え続ける薬」**なのです。その理由を、順を追ってお話しします。"
         },
         {
           "kind": "text",
@@ -4333,7 +4417,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "By the end of this post, you'll understand why you need to keep taking medicine even with no symptoms at all, so you can keep up treatment without that nagging doubt. The short version: **even on symptom-free days, inflammation keeps quietly smoldering in your airways, so an inhaler isn't a \"cure\" — it's what keeps the embers from reigniting.** Here's why, step by step."
+          "text": "By the end of this post, you'll understand why you need to keep taking medicine even with no symptoms at all, so you can keep up treatment without that nagging doubt. By the end, I hope it will all make sense. Let's look at it one step at a time."
         },
         {
           "kind": "text",
@@ -4373,7 +4457,11 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "### A message from the director"
+          "text": "### Today's takeaway"
+        },
+        {
+          "kind": "text",
+          "text": "To sum up: **even on symptom-free days, inflammation keeps quietly smoldering in your airways, so an inhaler isn't a \"cure\" — it's what keeps the embers from reigniting.** Here's why, step by step."
         },
         {
           "kind": "text",
@@ -4420,7 +4508,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "この記事を読んでいただければ、その自分を責める気持ちから、少し楽になっていただけるかもしれません。結論から言うと、**高血圧・糖尿病・脂質異常症という診断名がついた方のすべてが、生活習慣病とは限らない**のです。なぜそう言えるのか、具体的な例とともにお話しします。"
+          "text": "この記事を読んでいただければ、その自分を責める気持ちから、少し楽になっていただけるかもしれません。答えを先にお伝えすると、**高血圧・糖尿病・脂質異常症という診断名がついた方のすべてが、生活習慣病とは限らない**のです。なぜそう言えるのか、具体的な例とともにお話しします。"
         },
         {
           "kind": "text",
@@ -4472,7 +4560,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "Reading this may ease some of that self-blame. The short version: **not everyone diagnosed with high blood pressure, diabetes, or dyslipidemia actually has a lifestyle disease.** Here's why, with some concrete examples."
+          "text": "Reading this may ease some of that self-blame. Let me give you the answer first: **not everyone diagnosed with high blood pressure, diabetes, or dyslipidemia actually has a lifestyle disease.** Here's why, with some concrete examples."
         },
         {
           "kind": "text",
@@ -4561,7 +4649,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "この記事を読んでいただければ、その不安の答えが「いいえ」であること、そしてお薬を減らしていくために今日からできることが分かります。結論から言うと、**お薬はあくまで「今の体を守るためのサポート」**であり、生活習慣を少しずつ整えていくことで、減薬や卒業を目指せる場合があります。一人で抱え込まず、どうすれば無理なく変えていけるか、まずは一緒に考えていきましょう。"
+          "text": "この記事を読んでいただければ、その不安の答えが「いいえ」であること、そしてお薬を減らしていくために今日からできることが分かります。先にお答えすると、**お薬はあくまで「今の体を守るためのサポート」**であり、生活習慣を少しずつ整えていくことで、減薬や卒業を目指せる場合があります。一人で抱え込まず、どうすれば無理なく変えていけるか、まずは一緒に考えていきましょう。"
         },
         {
           "kind": "text",
@@ -4597,7 +4685,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "### 院長からのメッセージ"
+          "text": "### 最後に"
         },
         {
           "kind": "text",
@@ -4621,7 +4709,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "By the end of this post, you'll know the answer to that fear — it's no — and what you can start doing today to work toward taking less medication. The short version: **medication is, at its core, support to protect your body as it is right now,** and gradually adjusting your daily habits can open the door to reducing or even stopping it. You don't have to carry this alone — let's start by thinking together about how to make changes without straining yourself."
+          "text": "By the end of this post, you'll know the answer to that fear — it's no — and what you can start doing today to work toward taking less medication. Here's the short answer: **medication is, at its core, support to protect your body as it is right now,** and gradually adjusting your daily habits can open the door to reducing or even stopping it. You don't have to carry this alone — let's start by thinking together about how to make changes without straining yourself."
         },
         {
           "kind": "text",
@@ -4657,7 +4745,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "### A message from the director"
+          "text": "### Finally"
         },
         {
           "kind": "text",
@@ -4715,7 +4803,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "この記事を読んでいただくと、胃酸を長期間抑えることが体にどう影響するのか、そしてなぜ「飲み続けたほうがよい人」がいるのかが分かります。結論から言うと、**このお薬は基本的に安全で優れたものですが、胃酸を長期間しっかり抑えることによる影響も、近年少しずつ分かってきています。** 大切なのは、その影響を正しく知った上で、自己判断でやめたり続けたりせず、定期的に主治医と見直していくことです。"
+          "text": "今日は、胃酸を長期間抑えることが体にどう影響するのか、そしてなぜ「飲み続けたほうがよい人」がいるのかについてお話しします。最後まで読んでいただくと、きっと「なるほど」と思っていただけるはずです。ひとつずつ見ていきましょう。"
         },
         {
           "kind": "text",
@@ -4759,7 +4847,11 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "### 院長からのメッセージ"
+          "text": "### 今日のまとめ"
+        },
+        {
+          "kind": "text",
+          "text": "まとめると、**このお薬は基本的に安全で優れたものですが、胃酸を長期間しっかり抑えることによる影響も、近年少しずつ分かってきています。** 大切なのは、その影響を正しく知った上で、自己判断でやめたり続けたりせず、定期的に主治医と見直していくことです。"
         },
         {
           "kind": "text",
@@ -4783,7 +4875,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "By the end of this post, you'll understand how suppressing stomach acid over the long term affects the body, and why some people genuinely benefit from continuing. The short version: **this medication is, on the whole, safe and highly effective, but research in recent years has gradually revealed some effects of suppressing stomach acid strongly over a long period.** What matters is understanding those effects correctly, and reviewing your medication regularly with your doctor rather than deciding on your own to stop or continue."
+          "text": "By the end of this post, you'll understand how suppressing stomach acid over the long term affects the body, and why some people genuinely benefit from continuing. By the end, I hope it will all make sense. Let's look at it one step at a time."
         },
         {
           "kind": "text",
@@ -4827,7 +4919,11 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "### A message from the director"
+          "text": "### Today's takeaway"
+        },
+        {
+          "kind": "text",
+          "text": "To sum up: **this medication is, on the whole, safe and highly effective, but research in recent years has gradually revealed some effects of suppressing stomach acid strongly over a long period.** What matters is understanding those effects correctly, and reviewing your medication regularly with your doctor rather than deciding on your own to stop or continue."
         },
         {
           "kind": "text",
@@ -4891,7 +4987,15 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "この記事を読んでいただくと、「効かない」だけでは終わらない、もう一歩踏み込んだ理由が分かります。結論から言うと、抗生剤は「効かない」だけでなく、**必要のない場面で飲んでしまうと、実はひそかに損をしている**かもしれません。"
+          "text": "先にお答えすると、抗生剤は「効かない」だけでなく、**必要のない場面で飲んでしまうと、実はひそかに損をしている**かもしれません。"
+        },
+        {
+          "kind": "text",
+          "text": "このあと、こんな順番でお話しします。"
+        },
+        {
+          "kind": "text",
+          "text": "- おさらい：対症療法と根本療法\n- 治しているのは薬ではなく、自分の免疫\n- ここからが本題：抗生剤は「腸内細菌」も巻き込む\n- 安静が保てるなら、それが一番の近道"
         },
         {
           "kind": "text",
@@ -4943,7 +5047,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "### 院長からのメッセージ"
+          "text": "### おわりに"
         },
         {
           "kind": "text",
@@ -4971,7 +5075,15 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "By the end of this post, you'll understand a reason that goes beyond \"it just doesn't work.\" The short version: antibiotics don't just fail to help with a cold — taking them when you don't actually need them may quietly cost you something."
+          "text": "By the end of this post, you'll understand a reason that goes beyond \"it just doesn't work.\" Here's the short answer: antibiotics don't just fail to help with a cold — taking them when you don't actually need them may quietly cost you something."
+        },
+        {
+          "kind": "text",
+          "text": "Here's what I'll cover:"
+        },
+        {
+          "kind": "text",
+          "text": "- A quick refresher: symptom relief vs. root-cause treatment\n- What actually cures a cold isn't the medicine — it's your immune system\n- Here's the twist: antibiotics also take out your gut bacteria\n- If you can rest, that really is the fastest path"
         },
         {
           "kind": "text",
@@ -5023,7 +5135,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "### A message from the director"
+          "text": "### In closing"
         },
         {
           "kind": "text",
@@ -5219,7 +5331,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "この記事を読んでいただくと、「異常なし」という判定と、ご自身が感じる不安との間にあるギャップを、どう考えればいいかのヒントが見つかるかもしれません。結論から言うと、**数値が「正常の範囲内かどうか」と、「お薬が必要かどうか」は、実はイコールではありません**。大切なのは、数字そのものより先に、その数字が今のご自身にとって何を意味するのかを、言葉で整理することです。"
+          "text": "この記事を読んでいただくと、「異常なし」という判定と、ご自身が感じる不安との間にあるギャップを、どう考えればいいかのヒントが見つかるかもしれません。先にお答えすると、**数値が「正常の範囲内かどうか」と、「お薬が必要かどうか」は、実はイコールではありません**。大切なのは、数字そのものより先に、その数字が今のご自身にとって何を意味するのかを、言葉で整理することです。"
         },
         {
           "kind": "text",
@@ -5247,7 +5359,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "### 院長からのメッセージ"
+          "text": "### 最後に"
         },
         {
           "kind": "text",
@@ -5275,7 +5387,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "By the end of this post, you may find a useful way to think about the gap between a \"no abnormalities\" result and the worry you still feel. The short version: **whether a number falls within the normal range, and whether you need medication, are not actually the same question.** What matters more than the number itself is putting into words what it actually means for you right now."
+          "text": "By the end of this post, you may find a useful way to think about the gap between a \"no abnormalities\" result and the worry you still feel. Here's the short answer: **whether a number falls within the normal range, and whether you need medication, are not actually the same question.** What matters more than the number itself is putting into words what it actually means for you right now."
         },
         {
           "kind": "text",
@@ -5303,7 +5415,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "### A message from the director"
+          "text": "### Finally"
         },
         {
           "kind": "text",
@@ -5355,7 +5467,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "この記事を読んでいただくと、血便・吐血など「何か出た」と感じたときに、診察をぐっとスムーズにする、ちょっとした行動が分かります。結論から言うと、**トイレや洗面器に残ったものを、慌てずにスマホで一枚撮っておいてください。**それだけで、診察の精度がまったく変わってきます。"
+          "text": "今日は、血便・吐血など「何か出た」と感じたときに、診察をぐっとスムーズにする、ちょっとした行動についてお話しします。最後まで読んでいただくと、きっと「なるほど」と思っていただけるはずです。ひとつずつ見ていきましょう。"
         },
         {
           "kind": "text",
@@ -5395,7 +5507,11 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "### 院長からのメッセージ"
+          "text": "### 今日のまとめ"
+        },
+        {
+          "kind": "text",
+          "text": "まとめると、**トイレや洗面器に残ったものを、慌てずにスマホで一枚撮っておいてください。**それだけで、診察の精度がまったく変わってきます。"
         },
         {
           "kind": "text",
@@ -5419,7 +5535,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "By the end of this post, you'll know one small thing that makes a real difference when you notice blood — in your stool or in vomit — and need to see a doctor. The short version: **before you flush or rinse it away, take a quick photo on your phone.** That alone can completely change how accurately we can assess things."
+          "text": "By the end of this post, you'll know one small thing that makes a real difference when you notice blood — in your stool or in vomit — and need to see a doctor. By the end, I hope it will all make sense. Let's look at it one step at a time."
         },
         {
           "kind": "text",
@@ -5459,7 +5575,11 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "### A message from the director"
+          "text": "### Today's takeaway"
+        },
+        {
+          "kind": "text",
+          "text": "To sum up: **before you flush or rinse it away, take a quick photo on your phone.** That alone can completely change how accurately we can assess things."
         },
         {
           "kind": "text",
@@ -5514,7 +5634,15 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "この記事を読んでいただくと、フルミストがどんな仕組みのワクチンなのか、そして**接種の前に何を確認しておけばよいのか**が分かります。結論から言うと、**フルミストは鼻の粘膜に直接働きかけるワクチンなので、鼻水や鼻づまりがひどいときは効果が十分に発揮されにくい**ことがあります。せっかく受けるなら、鼻のコンディションを整えてから受けることが大切です。"
+          "text": "先にお答えすると、**フルミストは鼻の粘膜に直接働きかけるワクチンなので、鼻水や鼻づまりがひどいときは効果が十分に発揮されにくい**ことがあります。せっかく受けるなら、鼻のコンディションを整えてから受けることが大切です。"
+        },
+        {
+          "kind": "text",
+          "text": "このあと、こんな順番でお話しします。"
+        },
+        {
+          "kind": "text",
+          "text": "- なぜ「鼻から」接種するのか\n- 鼻水・鼻づまりがあると、なぜ効果が落ちやすいのか\n- 接種の前に確認していただきたいこと"
         },
         {
           "kind": "text",
@@ -5570,7 +5698,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "### 院長からのメッセージ"
+          "text": "### おわりに"
         },
         {
           "kind": "text",
@@ -5598,7 +5726,15 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "By the end of this post, you'll understand how FluMist works and **what to check before getting it.** The short answer: **because FluMist works directly on the lining of the nose, it may not work as well when there's a lot of nasal discharge or congestion.** If you're going to get it, it's worth making sure the nose is in good condition first."
+          "text": "By the end of this post, you'll understand how FluMist works and **what to check before getting it.** Here's the short answer: **because FluMist works directly on the lining of the nose, it may not work as well when there's a lot of nasal discharge or congestion.** If you're going to get it, it's worth making sure the nose is in good condition first."
+        },
+        {
+          "kind": "text",
+          "text": "Here's what I'll cover:"
+        },
+        {
+          "kind": "text",
+          "text": "- Why go through the nose?\n- Why a runny or stuffy nose can reduce its effectiveness\n- What to check before the appointment"
         },
         {
           "kind": "text",
@@ -5654,7 +5790,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "### A message from the director"
+          "text": "### In closing"
         },
         {
           "kind": "text",
@@ -5715,7 +5851,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "この記事を読んでいただくと、レジオネラ菌（温泉や加湿器などの水の中で増える細菌）がどんな菌で、どこに潜んでいるのか、感染するとどんな症状が出るのか、そしてご家庭でできる予防のポイントが分かります。結論から言うと、**レジオネラ菌は特別な場所にいる菌ではなく、私たちの身近な水まわりに普通にいる菌**です。過度に怖がる必要はありませんが、**「水をためて、温めて、しぶきにする」ものの手入れを怠ると、菌が増えて感染の原因になる**ことがあります。だからこそ、日頃の管理が大切なのです。"
+          "text": "この記事を読んでいただくと、レジオネラ菌（温泉や加湿器などの水の中で増える細菌）がどんな菌で、どこに潜んでいるのか、感染するとどんな症状が出るのか、そしてご家庭でできる予防のポイントが分かります。先にお答えすると、**レジオネラ菌は特別な場所にいる菌ではなく、私たちの身近な水まわりに普通にいる菌**です。過度に怖がる必要はありませんが、**「水をためて、温めて、しぶきにする」ものの手入れを怠ると、菌が増えて感染の原因になる**ことがあります。だからこそ、日頃の管理が大切なのです。"
         },
         {
           "kind": "text",
@@ -5867,7 +6003,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "By the end of this post, you'll know what Legionella is and where it hides, what symptoms infection causes, and what you can do at home to prevent it. The short answer: **Legionella isn't a bacterium found only in special places — it lives in ordinary water all around us.** There's no need to be overly afraid, but **if things that \"store water, warm it and turn it into spray\" aren't looked after, the bacteria can multiply and cause infection.** That's why everyday maintenance matters."
+          "text": "By the end of this post, you'll know what Legionella is and where it hides, what symptoms infection causes, and what you can do at home to prevent it. Here's the short answer: **Legionella isn't a bacterium found only in special places — it lives in ordinary water all around us.** There's no need to be overly afraid, but **if things that \"store water, warm it and turn it into spray\" aren't looked after, the bacteria can multiply and cause infection.** That's why everyday maintenance matters."
         },
         {
           "kind": "text",
@@ -6051,7 +6187,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "この記事を読んでいただくと、なぜ今は「消毒して乾かす」手当てが勧められなくなったのか、そして**傷を早く、痛みを少なく、きれいに治すための正しい手当て**が分かります。結論から言うと、ちょっとした傷の手当ての基本は、**①水道水でしっかり洗い流す、②消毒薬を何度も塗り込まない、③乾かさずに潤った状態を保つ**の3つです。外科医として数え切れないほどの傷を診てきましたが、この3つを守るだけで、傷の治り方は大きく変わります。"
+          "text": "ひと言でいえば、ちょっとした傷の手当ての基本は、**①水道水でしっかり洗い流す、②消毒薬を何度も塗り込まない、③乾かさずに潤った状態を保つ**の3つです。外科医として数え切れないほどの傷を診てきましたが、この3つを守るだけで、傷の治り方は大きく変わります。"
         },
         {
           "kind": "text",
@@ -6207,7 +6343,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "By the end of this post, you'll know why \"disinfect and let it dry\" is no longer recommended, and **how to treat a wound so it heals faster, hurts less and leaves less of a mark.** The short answer: the basics of caring for minor wounds are **① rinse thoroughly with tap water, ② don't keep applying antiseptic, and ③ keep the wound moist rather than letting it dry out.** As a surgeon, I've seen countless wounds — and simply following these three steps makes a big difference in how they heal."
+          "text": "By the end of this post, you'll know why \"disinfect and let it dry\" is no longer recommended, and **how to treat a wound so it heals faster, hurts less and leaves less of a mark.** In a nutshell: the basics of caring for minor wounds are **① rinse thoroughly with tap water, ② don't keep applying antiseptic, and ③ keep the wound moist rather than letting it dry out.** As a surgeon, I've seen countless wounds — and simply following these three steps makes a big difference in how they heal."
         },
         {
           "kind": "text",
@@ -6392,7 +6528,15 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "この記事を読んでいただくと、1日1食で痩せにくくなる体の仕組みと、今日からできる改善策が分かります。結論から言うと、**食事の回数を極端に減らすと、体は「省エネモード」に入り、筋肉が落ち、脂肪をため込みやすい状態になります。**「食べないほど痩せる」とは限らないのです。"
+          "text": "先にお答えすると、**食事の回数を極端に減らすと、体は「省エネモード」に入り、筋肉が落ち、脂肪をため込みやすい状態になります。**「食べないほど痩せる」とは限らないのです。"
+        },
+        {
+          "kind": "text",
+          "text": "このあと、こんな順番でお話しします。"
+        },
+        {
+          "kind": "text",
+          "text": "- インスリンは「ため込むホルモン」\n- 1食にまとめると、さらに不利に\n- 1. 極端な絶食をやめ、2〜3食に分ける\n- 2. 毎食、タンパク質を「手のひら1枚分」\n- 3. 野菜から、よくかんで\n- 4. 筋肉を守る運動を少しずつ"
         },
         {
           "kind": "text",
@@ -6520,7 +6664,15 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "By the end of this post, you'll understand why eating only one meal a day can make it harder to lose weight, and what you can start doing today. The short version: **when you cut your meals down drastically, your body switches into an “energy-saving mode”, loses muscle, and becomes more prone to storing fat.** Eating less does not always mean losing more."
+          "text": "By the end of this post, you'll understand why eating only one meal a day can make it harder to lose weight, and what you can start doing today. Here's the short answer: **when you cut your meals down drastically, your body switches into an “energy-saving mode”, loses muscle, and becomes more prone to storing fat.** Eating less does not always mean losing more."
+        },
+        {
+          "kind": "text",
+          "text": "Here's what I'll cover:"
+        },
+        {
+          "kind": "text",
+          "text": "- Insulin is the “storage hormone”\n- Putting everything into one meal makes it worse\n- 1. Stop extreme fasting and split your food into 2–3 meals\n- 2. A palm-sized portion of protein at every meal\n- 3. Vegetables first, and chew well\n- 4. Build muscle-protecting exercise little by little"
         },
         {
           "kind": "text",
@@ -6668,7 +6820,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "そこで今回は、日本の経済がいまどのように変わりつつあるのか、そしてその中で当院がどんな診療所を目指しているのかについて説明しようと思います。結論から言うと、**金利のある時代は、「なんとなく」続ける組織がとうたされ、本気で価値を届ける組織だけが残る時代です。だからこそ当院は、覚悟と本気をもって、地域の医療に貢献する診療所をつくります。**"
+          "text": "そこで今回は、日本の経済がいまどのように変わりつつあるのか、そしてその中で当院がどんな診療所を目指しているのかについて説明しようと思います。先にお答えすると、**金利のある時代は、「なんとなく」続ける組織がとうたされ、本気で価値を届ける組織だけが残る時代です。だからこそ当院は、覚悟と本気をもって、地域の医療に貢献する診療所をつくります。**"
         },
         {
           "kind": "text",
@@ -6783,7 +6935,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "So in this post, I'd like to explain how Japan's economy is changing right now, and what kind of clinic we are aiming to be in the middle of it. The short version: **an era with interest rates is one in which organizations that just carry on “somehow” are weeded out, and only those that truly deliver value remain. That is exactly why we are building this clinic with full commitment to contributing to local healthcare.**"
+          "text": "So in this post, I'd like to explain how Japan's economy is changing right now, and what kind of clinic we are aiming to be in the middle of it. Here's the short answer: **an era with interest rates is one in which organizations that just carry on “somehow” are weeded out, and only those that truly deliver value remain. That is exactly why we are building this clinic with full commitment to contributing to local healthcare.**"
         },
         {
           "kind": "text",
@@ -6927,7 +7079,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "この記事では、生活習慣病の通院で、なぜ月に一度お会いすることをおすすめしているのかをお話しします。結論から言うと、**生活習慣病の治療の中心はお薬そのものではなく、日々の暮らしの小さな変化にあります。そして、月に一度、医師と一緒に数字と生活を振り返る時間は、その変化を続けるための、治療の大切な一部**だと考えています。"
+          "text": "この記事では、生活習慣病の通院で、なぜ月に一度お会いすることをおすすめしているのかをお話しします。ひと言でいえば、**生活習慣病の治療の中心はお薬そのものではなく、日々の暮らしの小さな変化にあります。そして、月に一度、医師と一緒に数字と生活を振り返る時間は、その変化を続けるための、治療の大切な一部**だと考えています。"
         },
         {
           "kind": "text",
@@ -7059,7 +7211,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "In this post, I'd like to explain why I recommend seeing me once a month for lifestyle diseases. The short version: **the heart of treating lifestyle diseases is not the medicine itself, but small changes in your daily life. And the time we spend together once a month, reviewing your numbers and your routine, is an important part of the treatment that helps those changes last.**"
+          "text": "In this post, I'd like to explain why I recommend seeing me once a month for lifestyle diseases. In a nutshell: **the heart of treating lifestyle diseases is not the medicine itself, but small changes in your daily life. And the time we spend together once a month, reviewing your numbers and your routine, is an important part of the treatment that helps those changes last.**"
         },
         {
           "kind": "text",
@@ -7220,7 +7372,15 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "この記事では、センナを長く続けたときにお腹の中で何が起きているのか、そして今からできるお薬の見直し方をお話しします。結論から言うと、**センナのような「刺激性下剤」は、毎日飲むお薬ではなく、どうしても出ないときに使う「お助け役」です。毎日の便秘には別のタイプのお薬を中心にすえることで、今からでも腸との付き合い方をやり直せます。**"
+          "text": "この記事では、センナを長く続けたときにお腹の中で何が起きているのか、そして今からできるお薬の見直し方をお話しします。先にお答えすると、**センナのような「刺激性下剤」は、毎日飲むお薬ではなく、どうしても出ないときに使う「お助け役」です。毎日の便秘には別のタイプのお薬を中心にすえることで、今からでも腸との付き合い方をやり直せます。**"
+        },
+        {
+          "kind": "text",
+          "text": "このあと、こんな順番でお話しします。"
+        },
+        {
+          "kind": "text",
+          "text": "- 1. センナは「お助け役」に\n- 2. 毎日のお薬は「便をやわらかくする」タイプを中心に\n- 3. 急にやめず、ゆっくり切り替える\n- 4. 生活の土台も一緒に\n- こんなときは、早めにご相談を"
         },
         {
           "kind": "text",
@@ -7352,7 +7512,15 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "In this post, I'll explain what happens inside your bowel when senna is taken for a long time, and how you can review your medicines from today. The short version: **stimulant laxatives such as senna are not meant to be taken every day — they are a “rescue” for when you really can't go. By making a different type of medicine the mainstay for everyday constipation, you can reset your relationship with your bowel, starting now.**"
+          "text": "In this post, I'll explain what happens inside your bowel when senna is taken for a long time, and how you can review your medicines from today. Here's the short answer: **stimulant laxatives such as senna are not meant to be taken every day — they are a “rescue” for when you really can't go. By making a different type of medicine the mainstay for everyday constipation, you can reset your relationship with your bowel, starting now.**"
+        },
+        {
+          "kind": "text",
+          "text": "Here's what I'll cover:"
+        },
+        {
+          "kind": "text",
+          "text": "- 1. Make senna a “rescue”\n- 2. Base everyday treatment on medicines that “soften the stool”\n- 3. Don't stop suddenly — switch slowly\n- 4. Strengthen the foundation, too\n- See us soon if…"
         },
         {
           "kind": "text",
@@ -7516,7 +7684,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "結論から言うと、**抗アレルギー薬は「どれを飲んでも同じ」ではありません。いまの症状に合った薬を選べば、驚くほど楽に過ごせます。**この記事では、抗アレルギー薬の種類と組み合わせの考え方、そして残った薬を自己判断で飲むときの落とし穴をお話しします。"
+          "text": "先にお答えすると、**抗アレルギー薬は「どれを飲んでも同じ」ではありません。いまの症状に合った薬を選べば、驚くほど楽に過ごせます。**この記事では、抗アレルギー薬の種類と組み合わせの考え方、そして残った薬を自己判断で飲むときの落とし穴をお話しします。"
         },
         {
           "kind": "text",
@@ -7696,7 +7864,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "The bottom line: **allergy medicines are not all the same. When the medicine matches your current symptoms, you can feel remarkably better.** In this article, we explain the main types of allergy medicine, how they're combined, and the pitfalls of taking leftover medicine on your own judgment."
+          "text": "Here's the short answer: **allergy medicines are not all the same. When the medicine matches your current symptoms, you can feel remarkably better.** In this article, we explain the main types of allergy medicine, how they're combined, and the pitfalls of taking leftover medicine on your own judgment."
         },
         {
           "kind": "text",
@@ -7915,7 +8083,15 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "この記事を読んでいただくと、診察室でなかなか本音が言えない理由と、言えなかった気持ちをどう伝えればいいかが分かります。結論から言うと、**本音が言えないのは、あなたの性格や勇気の問題ではありません。気持ちを言葉にする時間が、診察の中に用意されていないだけ**です。そして、その「納得できない気持ち」こそ、治療を続けていくうえで大切な手がかりになります。"
+          "text": "先にお答えすると、**本音が言えないのは、あなたの性格や勇気の問題ではありません。気持ちを言葉にする時間が、診察の中に用意されていないだけ**です。そして、その「納得できない気持ち」こそ、治療を続けていくうえで大切な手がかりになります。"
+        },
+        {
+          "kind": "text",
+          "text": "このあと、こんな順番でお話しします。"
+        },
+        {
+          "kind": "text",
+          "text": "- なぜ、最後にしか言えなかったのか\n- 言えなかった気持ちは、大切な情報です\n- 本音を伝えるための、小さなコツ"
         },
         {
           "kind": "text",
@@ -8014,7 +8190,15 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "This article explains why it's so hard to say what you really feel in the exam room, and how to share what you couldn't say. The bottom line: **if you can't speak your mind, it isn't your personality or a lack of courage. There simply isn't time built into a visit for putting feelings into words.** And that sense of “this isn't fair” is actually an important clue for continuing your care."
+          "text": "This article explains why it's so hard to say what you really feel in the exam room, and how to share what you couldn't say. Here's the short answer: **if you can't speak your mind, it isn't your personality or a lack of courage. There simply isn't time built into a visit for putting feelings into words.** And that sense of “this isn't fair” is actually an important clue for continuing your care."
+        },
+        {
+          "kind": "text",
+          "text": "Here's what I'll cover:"
+        },
+        {
+          "kind": "text",
+          "text": "- Why did it only come out at the very end?\n- The feelings you couldn't say are valuable information\n- Small tips for sharing what you really feel"
         },
         {
           "kind": "text",
@@ -8132,7 +8316,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "この記事を読んでいただくと、その「どうして？」の答えと、お薬との上手な付き合い方が分かります。結論から言うと、**悪玉（LDL）コレステロールの高さは、食事よりも「体質」で決まる部分が大きい**のです。そしてお薬は、その体質の傾きを支えてくれる大切な味方です。"
+          "text": "今日は、その「どうして？」の答えと、お薬との上手な付き合い方についてお話しします。最後まで読んでいただくと、きっと「なるほど」と思っていただけるはずです。ひとつずつ見ていきましょう。"
         },
         {
           "kind": "text",
@@ -8200,7 +8384,11 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "### 院長からのメッセージ"
+          "text": "### 今日のまとめ"
+        },
+        {
+          "kind": "text",
+          "text": "まとめると、**悪玉（LDL）コレステロールの高さは、食事よりも「体質」で決まる部分が大きい**のです。そしてお薬は、その体質の傾きを支えてくれる大切な味方です。"
         },
         {
           "kind": "text",
@@ -8228,7 +8416,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "This article explains why, and how to get along well with your medicine. The bottom line: **LDL (“bad”) cholesterol depends more on your constitution than on your diet.** And medicine is a valuable ally that supports that built-in tendency."
+          "text": "This article explains why, and how to get along well with your medicine. By the end, I hope it will all make sense. Let's look at it one step at a time."
         },
         {
           "kind": "text",
@@ -8296,7 +8484,11 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "### A message from the director"
+          "text": "### Today's takeaway"
+        },
+        {
+          "kind": "text",
+          "text": "To sum up: **LDL (“bad”) cholesterol depends more on your constitution than on your diet.** And medicine is a valuable ally that supports that built-in tendency."
         },
         {
           "kind": "text",
@@ -8363,7 +8555,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "この記事を読んでいただくと、上の血圧と下の血圧がそれぞれ何を表しているのか、そして下の血圧と上手に付き合うために今日からできることが分かります。結論から言うと、**下の血圧が下がりにくいのは、心臓よりも「細い血管が緊張して縮こまっている」ことが関係している場合が多く、薬だけでなく、体の緊張をゆるめる暮らしの工夫が効いてきます。**"
+          "text": "先にお答えすると、**下の血圧が下がりにくいのは、心臓よりも「細い血管が緊張して縮こまっている」ことが関係している場合が多く、薬だけでなく、体の緊張をゆるめる暮らしの工夫が効いてきます。**"
         },
         {
           "kind": "text",
@@ -8415,7 +8607,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "### 院長からのメッセージ"
+          "text": "### 最後に"
         },
         {
           "kind": "text",
@@ -8443,7 +8635,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "This article explains what the top and bottom numbers each represent, and what you can start doing today to get along with the bottom number. The bottom line: **when the bottom number is slow to come down, it's often less about the heart and more about small blood vessels that are tense and clamped down — so along with medicine, everyday habits that help your body relax can make a real difference.**"
+          "text": "This article explains what the top and bottom numbers each represent, and what you can start doing today to get along with the bottom number. Here's the short answer: **when the bottom number is slow to come down, it's often less about the heart and more about small blood vessels that are tense and clamped down — so along with medicine, everyday habits that help your body relax can make a real difference.**"
         },
         {
           "kind": "text",
@@ -8495,7 +8687,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "### A message from the director"
+          "text": "### Finally"
         },
         {
           "kind": "text",
@@ -8550,7 +8742,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "この記事を読んでいただくと、年齢を重ねると「減らすだけ」のダイエットが効きにくくなる理由と、ご自身の筋肉の状態を確かめる方法、そして今日からの一歩が分かります。結論から言うと、**40代以降のダイエットの主役は「何を減らすか」ではなく「筋肉を育てる材料と合図を足すこと」**。つまり、**タンパク質と運動のセット**です。"
+          "text": "今日は、年齢を重ねると「減らすだけ」のダイエットが効きにくくなる理由と、ご自身の筋肉の状態を確かめる方法、そして今日からの一歩についてお話しします。最後まで読んでいただくと、きっと「なるほど」と思っていただけるはずです。ひとつずつ見ていきましょう。"
         },
         {
           "kind": "text",
@@ -8654,7 +8846,11 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "### 院長からのメッセージ"
+          "text": "### 今日のまとめ"
+        },
+        {
+          "kind": "text",
+          "text": "まとめると、**40代以降のダイエットの主役は「何を減らすか」ではなく「筋肉を育てる材料と合図を足すこと」**。つまり、**タンパク質と運動のセット**です。"
         },
         {
           "kind": "text",
@@ -8682,7 +8878,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "This article explains why “just eating less” works less well as we age, how to check the state of your own muscles, and a first step you can take today. The bottom line: **after your 40s, the key to losing weight isn't what you cut — it's adding the building material and the signal your muscles need.** In other words, **protein and exercise, together.**"
+          "text": "This article explains why “just eating less” works less well as we age, how to check the state of your own muscles, and a first step you can take today. By the end, I hope it will all make sense. Let's look at it one step at a time."
         },
         {
           "kind": "text",
@@ -8786,7 +8982,11 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "### A message from the director"
+          "text": "### Today's takeaway"
+        },
+        {
+          "kind": "text",
+          "text": "To sum up: **after your 40s, the key to losing weight isn't what you cut — it's adding the building material and the signal your muscles need.** In other words, **protein and exercise, together.**"
         },
         {
           "kind": "text",
@@ -8847,7 +9047,15 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "この記事を読んでいただくと、ばい菌が入ったときに体の中で何が起きているのか、そして「様子を見てよい腫れ」と「受診したほうがよい腫れ」の見分け方が分かります。結論から言うと、**体を守っているのは白血球だけではありません。血液の中には「補体（ほたい）」という、目に見えないもうひとつの守り役がいて、白血球と手を組んでばい菌を片づけています。**"
+          "text": "先にお答えすると、**体を守っているのは白血球だけではありません。血液の中には「補体（ほたい）」という、目に見えないもうひとつの守り役がいて、白血球と手を組んでばい菌を片づけています。**"
+        },
+        {
+          "kind": "text",
+          "text": "このあと、こんな順番でお話しします。"
+        },
+        {
+          "kind": "text",
+          "text": "- まずは、おなじみの白血球\n- 白血球を助ける、もうひとつの守り役「補体」\n- 「守りが追いついていない」サイン\n- 身近な話：溶連菌のあと、尿の色に気をつける理由\n- 補体の働きを抑えるお薬もある"
         },
         {
           "kind": "text",
@@ -8935,7 +9143,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "### 院長からのメッセージ"
+          "text": "### おわりに"
         },
         {
           "kind": "text",
@@ -8959,7 +9167,15 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "This article explains what happens inside your body when germs get in, and how to tell swelling you can watch at home from swelling that needs a doctor. The bottom line: **white blood cells aren't the only ones protecting you. Your blood also carries an invisible second guardian called “complement,” which teams up with white blood cells to clear away germs.**"
+          "text": "This article explains what happens inside your body when germs get in, and how to tell swelling you can watch at home from swelling that needs a doctor. Here's the short answer: **white blood cells aren't the only ones protecting you. Your blood also carries an invisible second guardian called “complement,” which teams up with white blood cells to clear away germs.**"
+        },
+        {
+          "kind": "text",
+          "text": "Here's what I'll cover:"
+        },
+        {
+          "kind": "text",
+          "text": "- First, the familiar white blood cells\n- Complement: the second guardian that helps white blood cells\n- Signs your defenses can't keep up\n- A familiar example: why we watch urine color after strep\n- There are also medicines that hold complement back"
         },
         {
           "kind": "text",
@@ -9047,7 +9263,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "### A message from the director"
+          "text": "### In closing"
         },
         {
           "kind": "text",
@@ -9099,7 +9315,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "この記事を読んでいただくと、血圧が落ち着いているのに薬を続ける理由と、どんな方なら薬を減らしたり、やめたりできる可能性があるのかが分かります。結論から言うと、**今の安定した血圧は、多くの場合「治った」からではなく「薬が支えてくれている」からです。そして薬を続けることは、恥ずかしいことでも弱さの証拠でもなく、未来の脳卒中や心筋梗塞から血管を守る、賢いセーフティネットなのです。**"
+          "text": "この記事を読んでいただくと、血圧が落ち着いているのに薬を続ける理由と、どんな方なら薬を減らしたり、やめたりできる可能性があるのかが分かります。先にお答えすると、**今の安定した血圧は、多くの場合「治った」からではなく「薬が支えてくれている」からです。そして薬を続けることは、恥ずかしいことでも弱さの証拠でもなく、未来の脳卒中や心筋梗塞から血管を守る、賢いセーフティネットなのです。**"
         },
         {
           "kind": "text",
@@ -9199,7 +9415,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "This article explains why we continue medicine even when blood pressure has settled, and who may be able to reduce or stop it. The bottom line: **in most cases, your stable blood pressure isn't because you've been “cured” — it's because the medicine is holding it steady. And continuing your medicine is nothing to be ashamed of and no sign of weakness. It's a smart safety net that protects your blood vessels from future strokes and heart attacks.**"
+          "text": "This article explains why we continue medicine even when blood pressure has settled, and who may be able to reduce or stop it. Here's the short answer: **in most cases, your stable blood pressure isn't because you've been “cured” — it's because the medicine is holding it steady. And continuing your medicine is nothing to be ashamed of and no sign of weakness. It's a smart safety net that protects your blood vessels from future strokes and heart attacks.**"
         },
         {
           "kind": "text",
@@ -9336,7 +9552,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "この記事を読んでいただくと、今の宮崎でどんな感染症が増えているのか、そしてご家庭でどんなことに気をつければよいのかが分かります。結論から言うと、**今いちばん気をつけたいのはインフルエンザで、例年の同じ時期の約15倍という、かなり早い立ち上がりです。小さなお子さんではRSウイルス、そして畑仕事や山歩きをする方はマダニによる感染症にも注意が必要です。**"
+          "text": "今日は、今の宮崎でどんな感染症が増えているのか、そしてご家庭でどんなことに気をつければよいのかについてお話しします。最後まで読んでいただくと、きっと「なるほど」と思っていただけるはずです。ひとつずつ見ていきましょう。"
         },
         {
           "kind": "text",
@@ -9404,7 +9620,11 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "### 院長からのメッセージ"
+          "text": "### 今日のまとめ"
+        },
+        {
+          "kind": "text",
+          "text": "まとめると、**今いちばん気をつけたいのはインフルエンザで、例年の同じ時期の約15倍という、かなり早い立ち上がりです。小さなお子さんではRSウイルス、そして畑仕事や山歩きをする方はマダニによる感染症にも注意が必要です。**"
         },
         {
           "kind": "text",
@@ -9428,7 +9648,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "This article explains which infections are rising in Miyazaki right now, and what to watch for at home. The bottom line: **the one to watch most closely right now is influenza, which is rising early — about 15 times the usual level for this time of year. RSV is a concern for young children, and tick-borne infections for people who farm or hike.**"
+          "text": "This article explains which infections are rising in Miyazaki right now, and what to watch for at home. By the end, I hope it will all make sense. Let's look at it one step at a time."
         },
         {
           "kind": "text",
@@ -9496,7 +9716,11 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "### A message from the director"
+          "text": "### Today's takeaway"
+        },
+        {
+          "kind": "text",
+          "text": "To sum up: **the one to watch most closely right now is influenza, which is rising early — about 15 times the usual level for this time of year. RSV is a concern for young children, and tick-borne infections for people who farm or hike.**"
         },
         {
           "kind": "text",
@@ -9560,7 +9784,15 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "この記事を読んでいただくと、傷ついた神経がどう修復されるのか、なぜしびれは残りやすいのか、そして残ったときにどう付き合えばよいのかが分かります。結論から言うと、**足の神経には修復する力がありますが、しびれが完全に消えるとは限らず、何らかのしびれが残る方のほうが多いのが実際です。それでも、悪化を防ぎ、日常生活で気にならない程度まで和らげていくことは、多くの方で目指せます。**"
+          "text": "先にお答えすると、**足の神経には修復する力がありますが、しびれが完全に消えるとは限らず、何らかのしびれが残る方のほうが多いのが実際です。それでも、悪化を防ぎ、日常生活で気にならない程度まで和らげていくことは、多くの方で目指せます。**"
+        },
+        {
+          "kind": "text",
+          "text": "このあと、こんな順番でお話しします。"
+        },
+        {
+          "kind": "text",
+          "text": "- 足の神経には「修復する力」がある\n- 正直にお伝えしたいこと——しびれは残りやすい症状です\n- しびれが残っても、できることはあります\n- 修復を邪魔するもの・助けるもの\n- すぐに受診してほしいサイン"
         },
         {
           "kind": "text",
@@ -9632,7 +9864,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "### 院長からのメッセージ"
+          "text": "### 診察室から、ひと言"
         },
         {
           "kind": "text",
@@ -9656,7 +9888,15 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "This article explains how injured nerves repair themselves, why numbness tends to linger, and how to live with it if it stays. The bottom line: **the nerves in your legs can repair themselves, but numbness doesn't always disappear completely — in fact, more people are left with some degree of numbness than not. Even so, for many people it's realistic to aim for keeping it from getting worse and easing it to the point where it doesn't bother daily life.**"
+          "text": "This article explains how injured nerves repair themselves, why numbness tends to linger, and how to live with it if it stays. Here's the short answer: **the nerves in your legs can repair themselves, but numbness doesn't always disappear completely — in fact, more people are left with some degree of numbness than not. Even so, for many people it's realistic to aim for keeping it from getting worse and easing it to the point where it doesn't bother daily life.**"
+        },
+        {
+          "kind": "text",
+          "text": "Here's what I'll cover:"
+        },
+        {
+          "kind": "text",
+          "text": "- The nerves in your legs can repair themselves\n- What I want to tell you honestly — numbness tends to linger\n- Even if numbness remains, there's a lot you can do\n- What gets in the way of repair, and what helps\n- Signs you should see a doctor right away"
         },
         {
           "kind": "text",
@@ -9728,7 +9968,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "### A message from the director"
+          "text": "### A word from the exam room"
         },
         {
           "kind": "text",

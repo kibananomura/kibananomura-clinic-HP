@@ -17,7 +17,7 @@ related: [hontou-no-chiryou, honne-ga-ienai, nagaku-tsukiau-iryou]
 
 教わった内容を忘れたわけではありません。変わったのは、あなたがいる「場所」です。
 
-この記事を読んでいただくと、診察室で聞いた話はすっと納得できるのに、家に帰ると元の生活に戻ってしまうのはなぜなのか、そして通院の時間をどう活かせばいいのかが分かります。結論から言うと、**診察室は、自分の体と向き合うスイッチが自然に入る、特別な「場」です。そして、その場の力を借りることも、治療の大切な一部だと私は考えています。**
+この記事を読んでいただくと、診察室で聞いた話はすっと納得できるのに、家に帰ると元の生活に戻ってしまうのはなぜなのか、そして通院の時間をどう活かせばいいのかが分かります。先にお答えすると、**診察室は、自分の体と向き合うスイッチが自然に入る、特別な「場」です。そして、その場の力を借りることも、治療の大切な一部だと私は考えています。**
 
 ### 「医師は病院の外では無力だ」という言葉
 
@@ -53,7 +53,7 @@ related: [hontou-no-chiryou, honne-ga-ienai, nagaku-tsukiau-iryou]
 
 そしてこの場所は、うまくいかなかったことを話していい場所でもあります。「実は先月は全然だめで」という一言から、次の一手が見えてくることも少なくありません。そのことは「[『もうやれることはやったのに』——その言葉、診察室で言っていいんです](/blog/honne-ga-ienai)」にも書きました。
 
-### 院長からのメッセージ
+### 診察室から、ひと言
 
 診察室で入ったスイッチは、家に帰れば、またゆっくり切れていきます。それで構いません。だからこそ、私たちは今日も診察室の扉を開け、あなたとお話しする時間を大切にしています。
 
@@ -65,7 +65,7 @@ On the night after the dentist shows you how to brush, you somehow brush more ca
 
 You didn't forget what you were taught. What changed was the *place* you were in.
 
-This article explains why things you hear in the exam room make perfect sense, yet once you're home you drift back into old habits — and how to make the most of your visits. The bottom line: **the exam room is a special “place” where a switch for facing your own body turns on naturally. And borrowing the power of that place is, I believe, an important part of treatment.**
+This article explains why things you hear in the exam room make perfect sense, yet once you're home you drift back into old habits — and how to make the most of your visits. Here's the short answer: **the exam room is a special “place” where a switch for facing your own body turns on naturally. And borrowing the power of that place is, I believe, an important part of treatment.**
 
 ### “Doctors are powerless outside the hospital”
 
@@ -101,7 +101,7 @@ Once a month, you look again at the life that has drifted bit by bit, and set it
 
 And this is also a place where it's okay to talk about what didn't go well. A single remark like “Honestly, last month was a total failure” often reveals the next step. I wrote about that in [“I've already done everything I can” — it's okay to say that in the exam room](/blog/honne-ga-ienai).
 
-### A message from the director
+### A word from the exam room
 
 The switch that turns on in the exam room will slowly switch off again once you're home. That's perfectly fine. That's exactly why we open the exam room door again today, and treasure our time talking with you.
 

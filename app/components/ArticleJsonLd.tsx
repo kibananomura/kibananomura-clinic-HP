@@ -39,6 +39,7 @@ export default function ArticleJsonLd({
       "@type": "Person",
       name: "野村信介",
       jobTitle: "院長",
+      sameAs: ["https://researchmap.jp/shinsuke_nomura"],
     },
     publisher: {
       "@type": "MedicalClinic",

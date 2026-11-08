@@ -18,7 +18,7 @@ sources:
 
 「最近、家で測る血圧が100を切ったり、90台になったりするんです……お薬、減らしたほうがいいですか？」。最近、そうご質問をいただくことが増えました。体重も生活習慣も特に変えていないのに血圧が下がる、ということは実はよくあります。季節の変化（夏場は血管が広がりやすく血圧が下がりやすい傾向があります）や、その日の体調によっても数値は変動するものだからです。
 
-この記事を読んでいただくと、「どれくらい下がったら減量を考えるサインなのか」「薬を減らしたらまた血圧が戻ってしまわないか」といった不安に、どう向き合えばよいかが分かります。結論から言うと、**血圧の数値だけでなく、自覚症状の有無を一緒に見ること、そして減量は自己判断ではなく主治医と相談しながら少しずつ進めることが、何より安全な道筋です。**
+今日は、「どれくらい下がったら減量を考えるサインなのか」「薬を減らしたらまた血圧が戻ってしまわないか」といった不安に、どう向き合えばよいかについてお話しします。最後まで読んでいただくと、きっと「なるほど」と思っていただけるはずです。ひとつずつ見ていきましょう。
 
 ### 血圧が「どれくらい低かったら」減量を考えるのか
 
@@ -46,7 +46,9 @@ sources:
 
 反対に、「血圧は落ち着いているのに、どうしてまだ薬を続けるの？」と感じている方は、「[血圧はもう正常なのに、どうして薬を飲み続けるの？](/blog/kouatsu-kusuri-tsuzukeru)」もあわせてお読みください。
 
-### 院長からのメッセージ
+### 今日のまとめ
+
+まとめると、**血圧の数値だけでなく、自覚症状の有無を一緒に見ること、そして減量は自己判断ではなく主治医と相談しながら少しずつ進めることが、何より安全な道筋です。**
 
 不安な気持ちから、ご自身の判断でお薬を中断・スキップしてしまうことだけは、どうか避けてください。血圧の薬を急に止めることは、かえって体に負担をかけることがあります。
 
@@ -56,7 +58,7 @@ sources:
 
 "My blood pressure has been dipping under 100, sometimes down into the 90s, when I measure it at home... should I cut back on my medication?" I've been getting this question more often lately. It's actually quite common for blood pressure to drop even when your weight and daily habits haven't changed — seasonal shifts (blood vessels tend to widen more easily in summer, which can lower blood pressure) and simply how you're feeling that day can both move the number.
 
-By the end of this post, you'll have a better sense of how to think through two common worries: "how low is low enough to be a sign I should cut back?" and "won't my blood pressure just go back up if I reduce my medication?" The short version: **looking at the number alone isn't enough — whether you have symptoms matters just as much, and reducing medication safely means doing it gradually, together with your doctor, not on your own.**
+By the end of this post, you'll have a better sense of how to think through two common worries: "how low is low enough to be a sign I should cut back?" and "won't my blood pressure just go back up if I reduce my medication?" By the end, I hope it will all make sense. Let's look at it one step at a time.
 
 ### How low does blood pressure need to be before cutting back is worth considering?
 
@@ -84,7 +86,9 @@ That said, if you ever lose consciousness, actually faint, or have chest pain or
 
 On the other hand, if you're wondering, “My blood pressure has settled, so why am I still taking medicine?”, please also read “[My blood pressure is normal now — so why do I still need to take my medicine?](/blog/kouatsu-kusuri-tsuzukeru)”
 
-### A message from the director
+### Today's takeaway
+
+To sum up: **looking at the number alone isn't enough — whether you have symptoms matters just as much, and reducing medication safely means doing it gradually, together with your doctor, not on your own.**
 
 Please, whatever you do, don't stop or skip your medication on your own out of worry. Suddenly stopping blood pressure medication can actually put more strain on your body, not less.
 

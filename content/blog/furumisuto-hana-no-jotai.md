@@ -19,7 +19,13 @@ sources:
 
 「注射じゃなくて、鼻にスプレーするワクチンがあるって聞いたんですが……うちの子にも使えますか？」。これまでの診療の中で、この時期になるとそうご質問いただくことが増えてきました。2024年から日本でも使えるようになった、鼻から接種するインフルエンザワクチン「フルミスト」のことですね。注射が苦手なお子さんや、毎年泣いて嫌がるお子さんを連れて行く保護者の方にとって、本当に心強い選択肢だと思います。
 
-この記事を読んでいただくと、フルミストがどんな仕組みのワクチンなのか、そして**接種の前に何を確認しておけばよいのか**が分かります。結論から言うと、**フルミストは鼻の粘膜に直接働きかけるワクチンなので、鼻水や鼻づまりがひどいときは効果が十分に発揮されにくい**ことがあります。せっかく受けるなら、鼻のコンディションを整えてから受けることが大切です。
+先にお答えすると、**フルミストは鼻の粘膜に直接働きかけるワクチンなので、鼻水や鼻づまりがひどいときは効果が十分に発揮されにくい**ことがあります。せっかく受けるなら、鼻のコンディションを整えてから受けることが大切です。
+
+このあと、こんな順番でお話しします。
+
+- なぜ「鼻から」接種するのか
+- 鼻水・鼻づまりがあると、なぜ効果が落ちやすいのか
+- 接種の前に確認していただきたいこと
 
 ### なぜ「鼻から」接種するのか
 
@@ -52,7 +58,7 @@ sources:
 
 持病やアレルギーのある方は、**必ず事前に医師にお申し出ください**。
 
-### 院長からのメッセージ
+### おわりに
 
 痛くないスプレーのワクチンという選択肢が増えたことは、お子さんにとっても保護者の方にとっても、本当に喜ばしいことだと感じています。
 
@@ -64,7 +70,13 @@ sources:
 
 "I heard there's a flu vaccine you spray in the nose instead of a shot... can my child have it?" In my practice, I've been hearing this question more and more around this time of year. It's FluMist, the nasal-spray flu vaccine that became available in Japan from 2024. For children who hate needles — and for parents who face tears every year — it's a genuinely reassuring option.
 
-By the end of this post, you'll understand how FluMist works and **what to check before getting it.** The short answer: **because FluMist works directly on the lining of the nose, it may not work as well when there's a lot of nasal discharge or congestion.** If you're going to get it, it's worth making sure the nose is in good condition first.
+By the end of this post, you'll understand how FluMist works and **what to check before getting it.** Here's the short answer: **because FluMist works directly on the lining of the nose, it may not work as well when there's a lot of nasal discharge or congestion.** If you're going to get it, it's worth making sure the nose is in good condition first.
+
+Here's what I'll cover:
+
+- Why go through the nose?
+- Why a runny or stuffy nose can reduce its effectiveness
+- What to check before the appointment
 
 ### Why go through the nose?
 
@@ -97,7 +109,7 @@ Also, because FluMist uses a live virus, **it's generally for people aged 2 to u
 
 If you have any medical conditions or allergies, **please be sure to tell the doctor beforehand.**
 
-### A message from the director
+### In closing
 
 Having a painless spray vaccine as an option is genuinely good news, for children and parents alike.
 

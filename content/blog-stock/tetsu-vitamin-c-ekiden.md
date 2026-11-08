@@ -22,7 +22,14 @@ sources:
 
 「貧血と言われたので、ほうれん草やひじきを意識して食べています」「鉄のサプリも毎日飲んでいます」——貧血の話になると、こうした声をよくお聞きします。それなのに、だるさがなかなか取れない。数値も思ったほど上がらない。頑張っているのに、もどかしいですよね。
 
-この記事を読んでいただくと、鉄分を体にしっかり取り込むための食べ合わせのコツ、走るスポーツをしているお子さんに貧血が多い理由、そしてご自宅でできる簡単なセルフチェックが分かります。結論から言うと、**鉄分は「何と一緒にとるか」で吸収が大きく変わり、ビタミンCはその心強い相棒です。**
+先にお答えすると、**鉄分は「何と一緒にとるか」で吸収が大きく変わり、ビタミンCはその心強い相棒です。**
+
+このあと、こんな順番でお話しします。
+
+- 鉄は、そのままでは体に入りにくい
+- 駅伝や長距離走の子に、貧血が多い理由
+- 院長のTips：「あっかんべー」でまぶたの裏を見てみよう
+- 「鉄をとれば大丈夫」とは限りません
 
 ### 鉄は、そのままでは体に入りにくい
 
@@ -67,7 +74,7 @@ sources:
 
 鉄をとっても良くならないときは、胃腸などからの出血や、鉄以外の栄養不足など、別の原因が隠れていることもあります。また、自己判断で大量のサプリを長く続けると、鉄のとりすぎになることもあります。くわしくは[鉄欠乏性貧血の解説ページ](/diseases/iron-deficiency-anemia)をご覧ください。
 
-### 院長からのメッセージ
+### おわりに
 
 食べ合わせのちょっとした工夫と、日々のセルフチェック。それだけで、体のコンディションはぐっと整えやすくなります。毎日走り込んでいる子どもたちが、持っている力を存分に発揮できるよう、地域のかかりつけ医として応援しています。
 
@@ -77,7 +84,14 @@ sources:
 
 “I was told I'm anemic, so I'm eating lots of spinach and hijiki seaweed.” “I take an iron supplement every day, too.” I often hear things like this when we talk about anemia. And yet the tiredness won't go away, and the numbers don't rise as much as you'd hoped. It's frustrating when you're trying so hard.
 
-This article explains how to pair foods so your body takes in iron well, why children in running sports often become anemic, and a simple self-check you can do at home. The bottom line: **how well iron is absorbed changes a lot depending on what you take it with — and vitamin C is a powerful partner.**
+This article explains how to pair foods so your body takes in iron well, why children in running sports often become anemic, and a simple self-check you can do at home. Here's the short answer: **how well iron is absorbed changes a lot depending on what you take it with — and vitamin C is a powerful partner.**
+
+Here's what I'll cover:
+
+- Iron doesn't enter the body easily on its own
+- Why young distance runners are often anemic
+- The director's tip: pull down your lower eyelid and take a look
+- “Just take iron” isn't always the answer
 
 ### Iron doesn't enter the body easily on its own
 
@@ -122,7 +136,7 @@ But this is only a rough guide. With mild anemia, the color may not change, so i
 
 If taking iron doesn't help, another cause may be hiding, such as bleeding from the stomach or intestines, or a lack of nutrients other than iron. And taking large amounts of supplements on your own for a long time can lead to too much iron. For more, see [our page on iron deficiency anemia](/diseases/iron-deficiency-anemia).
 
-### A message from the director
+### In closing
 
 A small tweak in how you pair foods, plus a daily self-check — that alone makes it much easier to keep your body in good condition. As a local family doctor, I'm cheering on the kids who run every day, so they can make the most of the strength they have.
 

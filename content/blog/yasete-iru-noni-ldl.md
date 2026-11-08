@@ -20,7 +20,7 @@ sources:
 
 スリムなのにどうして？　と思いますよね。頑張っているのに報われない気がして、がっかりされるお気持ちもよく分かります。
 
-この記事を読んでいただくと、その「どうして？」の答えと、お薬との上手な付き合い方が分かります。結論から言うと、**悪玉（LDL）コレステロールの高さは、食事よりも「体質」で決まる部分が大きい**のです。そしてお薬は、その体質の傾きを支えてくれる大切な味方です。
+今日は、その「どうして？」の答えと、お薬との上手な付き合い方についてお話しします。最後まで読んでいただくと、きっと「なるほど」と思っていただけるはずです。ひとつずつ見ていきましょう。
 
 ### コレステロールの「2：8の法則」
 
@@ -56,7 +56,9 @@ sources:
 
 お薬の量は、数値や体の状態に合わせて診察で一緒に見直していきます。副作用が気になる方は、[このお薬（スタチン）と筋肉への影響についての記事](/blog/statin-kinniku-houkai)も参考にしてください。[脂質異常症の解説ページ](/diseases/dyslipidemia)もあわせてご覧いただけます。
 
-### 院長からのメッセージ
+### 今日のまとめ
+
+まとめると、**悪玉（LDL）コレステロールの高さは、食事よりも「体質」で決まる部分が大きい**のです。そしてお薬は、その体質の傾きを支えてくれる大切な味方です。
 
 お薬に頼ることは、恥ずかしいことでも、努力が足りない証拠でもありません。「自分の力だけでは代謝のバランスを保ちにくい体質」を、お薬が上手にバックアップしてくれている——それが今の医学の考え方です。
 
@@ -68,7 +70,7 @@ sources:
 
 Slim, and still high? It's natural to feel puzzled — and a little discouraged, as if your efforts aren't paying off.
 
-This article explains why, and how to get along well with your medicine. The bottom line: **LDL (“bad”) cholesterol depends more on your constitution than on your diet.** And medicine is a valuable ally that supports that built-in tendency.
+This article explains why, and how to get along well with your medicine. By the end, I hope it will all make sense. Let's look at it one step at a time.
 
 ### The “20:80 rule” of cholesterol
 
@@ -104,7 +106,9 @@ Diet and exercise still matter. Adjusting that 20–30% “splash” also helps 
 
 We review your dose with you at each visit, based on your numbers and condition. If you're worried about side effects, see [our article on statins and muscle](/blog/statin-kinniku-houkai). Our [dyslipidemia page](/diseases/dyslipidemia) has more, too.
 
-### A message from the director
+### Today's takeaway
+
+To sum up: **LDL (“bad”) cholesterol depends more on your constitution than on your diet.** And medicine is a valuable ally that supports that built-in tendency.
 
 Relying on medicine is nothing to be ashamed of, and it isn't a sign you didn't try hard enough. The medicine is skillfully backing up a constitution that finds it hard to keep its metabolic balance on its own — that's how modern medicine sees it.
 

@@ -23,7 +23,7 @@ sources:
 
 「糖尿病と言われてから、ご飯もパンも麺類も食べないようにしています」「おかずは野菜だけ。お肉は控えています」——糖尿病の方から、こうしたお話を聞くことがあります。とてもまじめに取り組まれているのだと思います。ただ、毎日の食事が我慢ばかりになって、楽しみがなくなっていないでしょうか。
 
-この記事を読んでいただくと、いまの糖尿病の食事療法がどう考えられているのか、そして無理なく続けるためのコツが分かります。結論から言うと、**いまの糖尿病の食事は「とにかく減らす」ではなく、「年齢や体の状態に合わせて、必要な栄養をしっかりとる」ことが大切にされています。我慢ばかりの食事は、もう古いのです。**
+この記事を読んでいただくと、いまの糖尿病の食事療法がどう考えられているのか、そして無理なく続けるためのコツが分かります。先にお答えすると、**いまの糖尿病の食事は「とにかく減らす」ではなく、「年齢や体の状態に合わせて、必要な栄養をしっかりとる」ことが大切にされています。我慢ばかりの食事は、もう古いのです。**
 
 ### 「減らすだけ」の食事療法から変わってきた
 
@@ -74,7 +74,7 @@ sources:
 
 “Since I was told I have diabetes, I've stopped eating rice, bread and noodles.” “I only have vegetables as side dishes, and I cut back on meat.” I sometimes hear this from people with diabetes. I can tell they're taking it very seriously. But has every meal become a matter of enduring, with all the enjoyment gone?
 
-This article explains how diet for diabetes is thought about today, and how to keep it up without strain. The bottom line: **today's diabetes diet isn't about “cutting back no matter what” — it's about “getting the nutrition you need, matched to your age and condition.” Eating by enduring alone is now outdated.**
+This article explains how diet for diabetes is thought about today, and how to keep it up without strain. Here's the short answer: **today's diabetes diet isn't about “cutting back no matter what” — it's about “getting the nutrition you need, matched to your age and condition.” Eating by enduring alone is now outdated.**
 
 ### Moving on from “just cut back”
 

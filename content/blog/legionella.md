@@ -17,7 +17,7 @@ sources:
 
 「温泉施設の浴槽から、基準を大きく超えるレジオネラ菌が検出された」「お湯の入れ替えや消毒が、決められた回数どおりに行われていなかった」。ここ数年、こうしたニュースを目にする機会が何度かありました。ご覧になって、「よく行くあの温泉は大丈夫かな」「そういえば、家の加湿器もしばらく洗っていない……」と、ふと気になった方もいらっしゃるのではないでしょうか。
 
-この記事を読んでいただくと、レジオネラ菌（温泉や加湿器などの水の中で増える細菌）がどんな菌で、どこに潜んでいるのか、感染するとどんな症状が出るのか、そしてご家庭でできる予防のポイントが分かります。結論から言うと、**レジオネラ菌は特別な場所にいる菌ではなく、私たちの身近な水まわりに普通にいる菌**です。過度に怖がる必要はありませんが、**「水をためて、温めて、しぶきにする」ものの手入れを怠ると、菌が増えて感染の原因になる**ことがあります。だからこそ、日頃の管理が大切なのです。
+この記事を読んでいただくと、レジオネラ菌（温泉や加湿器などの水の中で増える細菌）がどんな菌で、どこに潜んでいるのか、感染するとどんな症状が出るのか、そしてご家庭でできる予防のポイントが分かります。先にお答えすると、**レジオネラ菌は特別な場所にいる菌ではなく、私たちの身近な水まわりに普通にいる菌**です。過度に怖がる必要はありませんが、**「水をためて、温めて、しぶきにする」ものの手入れを怠ると、菌が増えて感染の原因になる**ことがあります。だからこそ、日頃の管理が大切なのです。
 
 ## レジオネラ菌とは？どこに潜んでいるの？
 
@@ -102,7 +102,7 @@ sources:
 
 "Legionella far above the safety standard was detected in a hot spring facility's baths." "The water wasn't being changed or disinfected as often as required." Over the past few years, news stories like these have come up from time to time. Seeing them, you may have wondered, "Is the hot spring I go to okay?" or "Come to think of it, I haven't cleaned our humidifier in a while..."
 
-By the end of this post, you'll know what Legionella is and where it hides, what symptoms infection causes, and what you can do at home to prevent it. The short answer: **Legionella isn't a bacterium found only in special places — it lives in ordinary water all around us.** There's no need to be overly afraid, but **if things that "store water, warm it and turn it into spray" aren't looked after, the bacteria can multiply and cause infection.** That's why everyday maintenance matters.
+By the end of this post, you'll know what Legionella is and where it hides, what symptoms infection causes, and what you can do at home to prevent it. Here's the short answer: **Legionella isn't a bacterium found only in special places — it lives in ordinary water all around us.** There's no need to be overly afraid, but **if things that "store water, warm it and turn it into spray" aren't looked after, the bacteria can multiply and cause infection.** That's why everyday maintenance matters.
 
 ## What is Legionella, and where does it hide?
 

@@ -80,7 +80,7 @@ excerpt_en: “How late can I eat dinner the night before?” “Can I eat right
 
 一方、鎮静剤を使わない当院の胃カメラなら、検査が終わって説明を聞いたら、**そのままご自分で運転して帰ることができます**。車での移動が欠かせない宮崎では、これは大きなメリットだと考えています。お仕事の合間に受けて、そのまま職場に戻ることもしやすくなります。
 
-### 院長からのメッセージ
+### 診察室から、ひと言
 
 胃カメラは、胃がんや食道がんを早く見つけるための、とても大切な検査です。それなのに「大変そう」「準備がよく分からない」という理由で先延ばしにされてしまうのは、本当にもったいないことだと感じています。
 
@@ -157,7 +157,7 @@ With sedated gastroscopy (using medicine that makes you drowsy), you need to res
 
 With our unsedated approach, once the exam is done and you've heard the explanation, **you can drive yourself home straight away.** In Miyazaki, where getting around by car is a must, I think that's a real advantage. It also makes it easier to fit the exam in around work and head straight back afterward.
 
-### A message from the director
+### A word from the exam room
 
 Gastroscopy is a very important exam for catching stomach and esophageal cancer early. It's a real shame when people put it off simply because it "sounds like a hassle" or they're "not sure how to prepare."
 

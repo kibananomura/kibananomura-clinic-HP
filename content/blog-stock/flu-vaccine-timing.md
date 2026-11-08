@@ -26,7 +26,7 @@ sources:
 
 「先生、インフルエンザワクチンって、いつ打つのが一番いいですか？」。この季節、外来で本当によくいただく質問です。特に、受験を控えたお子さんの保護者の方や、冬に結婚式や大切な式典を控えた方にとっては、「その日だけは絶対にかかりたくない」という切実な悩みですよね。
 
-この記事を読んでいただくと、ワクチンが効き始める時期と効果が続く期間、そして大切な日から逆算した接種のタイミングが分かります。結論から言うと、**ワクチンは打ってから効くまでに約2週間かかり、効果はおよそ5か月続きます。ですから、1月〜3月の受験や行事に備えるなら、11月中、遅くとも12月中旬までに接種を終えておくのがおすすめです。**
+先にお答えすると、**ワクチンは打ってから効くまでに約2週間かかり、効果はおよそ5か月続きます。ですから、1月〜3月の受験や行事に備えるなら、11月中、遅くとも12月中旬までに接種を終えておくのがおすすめです。**
 
 なお、打つかどうかそのものを迷っている方は、「[インフルエンザワクチン、打つべきか迷っているあなたへ](/blog/influenza-vaccine-mayoi)」もあわせてお読みください。
 
@@ -70,7 +70,7 @@ sources:
 
 ワクチンは、かかる可能性を下げてくれますが、100％防ぐものではありません。だからこそ、毎日の体調管理と組み合わせることが大切です。
 
-### 院長からのメッセージ
+### おわりに
 
 大切な日の数週間前には、スケジュールを逆算して、計画的にワクチンを受けましょう。準備ができていれば、本番に安心して臨めます。
 
@@ -80,7 +80,7 @@ sources:
 
 “Doctor, when's the best time to get a flu shot?” It's a question I hear very often in clinic at this time of year. For parents of children facing exams, or anyone with a wedding or important ceremony in winter, the worry “I absolutely can't get sick on that day” is a very real one.
 
-This article explains when the vaccine starts working, how long the effect lasts, and when to get it by counting back from your important day. The bottom line: **the vaccine takes about 2 weeks to start working, and the effect lasts about 5 months. So to be ready for exams or events between January and March, it's best to finish your shot in November, or by mid-December at the latest.**
+This article explains when the vaccine starts working, how long the effect lasts, and when to get it by counting back from your important day. Here's the short answer: **the vaccine takes about 2 weeks to start working, and the effect lasts about 5 months. So to be ready for exams or events between January and March, it's best to finish your shot in November, or by mid-December at the latest.**
 
 If you're still deciding whether to get vaccinated at all, please also read “[Still unsure about the flu shot?](/blog/influenza-vaccine-mayoi)”
 
@@ -124,7 +124,7 @@ The vaccine's effect does decline gradually over time, but overseas research sho
 
 The vaccine lowers your chance of catching the flu, but it doesn't prevent it 100%. That's exactly why combining it with daily care of your health matters.
 
-### A message from the director
+### In closing
 
 A few weeks before your important day, count back and plan your vaccination. Being prepared lets you face the big day with peace of mind.
 

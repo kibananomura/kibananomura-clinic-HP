@@ -24,7 +24,7 @@ sources:
 
 「最近、歩くと足の裏が痛む」「夕方になると足がパンパンにむくむ」「親指の付け根が出っぱってきた」——でも、いざ病院に行こうと思うと、整形外科なのか、皮膚科なのか、内科なのか分からない。足のトラブルで、どこに行けばいいか迷いますよね。結局「年のせいだろう」と、そのまま我慢している方も多いのではないでしょうか。
 
-この記事を読んでいただくと、日本で足の悩みが「行き場」を失いやすい理由と、足の不調を放っておかずに相談するためのコツが分かります。結論から言うと、**足のトラブルの裏には、骨や皮膚だけでなく、血のめぐりや神経、全身の病気が隠れていることがあります。迷ったら、まずは靴下を脱いで、かかりつけ医に足を見せてください。そこから、必要な専門の先生へとつなぐことができます。**
+今日は、日本で足の悩みが「行き場」を失いやすい理由と、足の不調を放っておかずに相談するためのコツについてお話しします。最後まで読んでいただくと、きっと「なるほど」と思っていただけるはずです。ひとつずつ見ていきましょう。
 
 ### 日本は、足の医療では“後発組”でした
 
@@ -69,7 +69,9 @@ sources:
 
 足先のしびれが気になる方は、「[足のしびれは、治る？残る？](/blog/shibire-shinkei-saisei)」もあわせてお読みください。
 
-### 院長からのメッセージ
+### 今日のまとめ
+
+まとめると、**足のトラブルの裏には、骨や皮膚だけでなく、血のめぐりや神経、全身の病気が隠れていることがあります。迷ったら、まずは靴下を脱いで、かかりつけ医に足を見せてください。そこから、必要な専門の先生へとつなぐことができます。**
 
 足は、毎日黙ってあなたの体を支えてくれている、いちばんの働き者です。だからこそ、小さな痛みや違和感を「年のせい」で片づけずに、ときどき耳を傾けてあげてください。
 
@@ -79,7 +81,7 @@ sources:
 
 “Lately the soles of my feet hurt when I walk.” “By evening my legs are swollen tight.” “The base of my big toe is starting to stick out.” But when you think about seeing a doctor, you don't know whether to go to orthopedics, dermatology or internal medicine. It's confusing to know where to go with foot trouble. Many people probably end up just putting up with it, thinking “it's my age.”
 
-This article explains why foot problems in Japan easily end up with “nowhere to go,” and how to get help instead of leaving foot troubles alone. The bottom line: **behind foot trouble, there may be problems not only with bones or skin but with circulation, nerves or conditions affecting the whole body. If you're unsure, start by taking off your socks and showing your feet to your family doctor. From there, we can connect you with the right specialist.**
+This article explains why foot problems in Japan easily end up with “nowhere to go,” and how to get help instead of leaving foot troubles alone. By the end, I hope it will all make sense. Let's look at it one step at a time.
 
 ### Japan was a “late starter” in foot medicine
 
@@ -124,7 +126,9 @@ At our clinic, we first look at the whole foot from an internal medicine and sur
 
 If numbness in your toes concerns you, please also read “[Will the numbness in my leg go away, or will it stay?](/blog/shibire-shinkei-saisei)”
 
-### A message from the director
+### Today's takeaway
+
+To sum up: **behind foot trouble, there may be problems not only with bones or skin but with circulation, nerves or conditions affecting the whole body. If you're unsure, start by taking off your socks and showing your feet to your family doctor. From there, we can connect you with the right specialist.**
 
 Your feet are the hardest workers you have, quietly supporting your body every day. That's exactly why I hope you'll listen to them now and then, rather than writing off small pains or discomfort as “my age.”
 

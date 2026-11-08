@@ -21,7 +21,15 @@ sources:
 
 「腰の痛みはずいぶんましになったのに、お尻から足にかけてのしびれだけが、いつまでたっても取れない」「このまま一生残るのでは」——座骨神経痛の方から、こうした声をよくお聞きします。しびれは目に見えないぶん、良くなっているのかどうかが分かりにくく、心細くなりますよね。
 
-この記事を読んでいただくと、傷ついた神経がどう修復されるのか、なぜしびれは残りやすいのか、そして残ったときにどう付き合えばよいのかが分かります。結論から言うと、**足の神経には修復する力がありますが、しびれが完全に消えるとは限らず、何らかのしびれが残る方のほうが多いのが実際です。それでも、悪化を防ぎ、日常生活で気にならない程度まで和らげていくことは、多くの方で目指せます。**
+先にお答えすると、**足の神経には修復する力がありますが、しびれが完全に消えるとは限らず、何らかのしびれが残る方のほうが多いのが実際です。それでも、悪化を防ぎ、日常生活で気にならない程度まで和らげていくことは、多くの方で目指せます。**
+
+このあと、こんな順番でお話しします。
+
+- 足の神経には「修復する力」がある
+- 正直にお伝えしたいこと——しびれは残りやすい症状です
+- しびれが残っても、できることはあります
+- 修復を邪魔するもの・助けるもの
+- すぐに受診してほしいサイン
 
 ### 足の神経には「修復する力」がある
 
@@ -63,7 +71,7 @@ sources:
 
 歩くと足がしびれて休むと楽になる方は、[脊柱管狭さく症の解説ページ](/diseases/lumbar-spinal-stenosis)もあわせてご覧ください。
 
-### 院長からのメッセージ
+### 診察室から、ひと言
 
 しびれが残ることは、決して珍しいことではありません。そして、しびれがあっても、仕事や趣味、旅行を楽しみながら暮らしている方はたくさんいらっしゃいます。
 
@@ -73,7 +81,15 @@ sources:
 
 “My back pain is much better, but the numbness from my buttock down my leg just won't go away.” “Will it stay like this for the rest of my life?” I often hear words like these from people with sciatica. Because numbness can't be seen, it's hard to tell whether it's getting better — and that can feel lonely.
 
-This article explains how injured nerves repair themselves, why numbness tends to linger, and how to live with it if it stays. The bottom line: **the nerves in your legs can repair themselves, but numbness doesn't always disappear completely — in fact, more people are left with some degree of numbness than not. Even so, for many people it's realistic to aim for keeping it from getting worse and easing it to the point where it doesn't bother daily life.**
+This article explains how injured nerves repair themselves, why numbness tends to linger, and how to live with it if it stays. Here's the short answer: **the nerves in your legs can repair themselves, but numbness doesn't always disappear completely — in fact, more people are left with some degree of numbness than not. Even so, for many people it's realistic to aim for keeping it from getting worse and easing it to the point where it doesn't bother daily life.**
+
+Here's what I'll cover:
+
+- The nerves in your legs can repair themselves
+- What I want to tell you honestly — numbness tends to linger
+- Even if numbness remains, there's a lot you can do
+- What gets in the way of repair, and what helps
+- Signs you should see a doctor right away
 
 ### The nerves in your legs can repair themselves
 
@@ -115,7 +131,7 @@ The following may mean a nerve is being strongly compressed. Please don't wait �
 
 If your legs go numb when you walk and feel better when you rest, please also see [our page on lumbar spinal stenosis](/diseases/lumbar-spinal-stenosis).
 
-### A message from the director
+### A word from the exam room
 
 Lingering numbness is not unusual at all. And plenty of people with numbness go on enjoying their work, hobbies and travel.
 

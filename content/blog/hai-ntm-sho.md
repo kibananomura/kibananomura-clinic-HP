@@ -113,7 +113,7 @@ NTMは、特別な場所にいる菌ではありません。**土の中や、水
 - 初めは**症状がないことも多く**、進むと**長引くせき・たん・微熱・だるさ**などが出る
 - 診断には**CTとたんの検査**が必要で、**すぐに治療が必要とは限らない**
 
-### 院長からのメッセージ
+### 診察室から、ひと言
 
 「肺NTM症」「肺MAC症」と聞くと、聞き慣れない名前に驚き、インターネットの情報を読んで不安になってしまうのは自然なことです。けれど、この病気の多くはゆっくり進み、正しく理解して、自分に合ったペースで経過を見ていけば、日常生活を大きく変えずに付き合っていける病気でもあります。
 
@@ -217,7 +217,7 @@ To wrap up, here are the key points:
 - **There are often no symptoms at first;** as it progresses, **a lingering cough, phlegm, low-grade fever and fatigue** may appear
 - Diagnosis requires **CT and sputum tests,** and **treatment isn't always needed right away**
 
-### A message from the director
+### A word from the exam room
 
 Hearing "pulmonary NTM disease" or "pulmonary MAC disease" for the first time can be startling, and it's natural to feel uneasy after reading about it online. But many cases progress slowly, and with a proper understanding and monitoring at a pace that suits you, it's a condition many people live with without major changes to their daily lives.
 

@@ -20,7 +20,15 @@ sources:
 
 「盲腸じゃなかったなら良かった」と思う一方で、初めて聞く病名に戸惑い、家に帰ってインターネットで調べてみたら「クローン病」「難病」といった言葉が出てきて、かえって不安になってしまった——そんなお気持ち、とてもよく分かります。
 
-この記事を読んでいただくと、回腸末端炎がどんな病気なのか、盲腸（急性虫垂炎）とどう違うのか、そしてどんなときに詳しい検査が必要なのかが分かります。結論から言うと、**回腸末端炎の多くは、細菌などによる一時的な腸の炎症で、自然に、あるいはお薬で良くなることが多いもの**です。ただし、中には詳しく調べたほうがよい原因が隠れていることもあるため、**きちんと診断して、原因を見極めることが大切**です。
+先にお答えすると、**回腸末端炎の多くは、細菌などによる一時的な腸の炎症で、自然に、あるいはお薬で良くなることが多いもの**です。ただし、中には詳しく調べたほうがよい原因が隠れていることもあるため、**きちんと診断して、原因を見極めることが大切**です。
+
+このあと、こんな順番でお話しします。
+
+- 「回腸末端」は、盲腸のすぐ隣にあります
+- 回腸末端は、炎症を起こしやすい「腸の関所」
+- 盲腸（虫垂炎）と回腸末端炎、症状の違いは？
+- 回腸末端炎の主な原因は、大きく3つ
+- 当院での検査と診断の進め方
 
 ### 「回腸末端」は、盲腸のすぐ隣にあります
 
@@ -95,7 +103,15 @@ sources:
 
 Relief that it isn't appendicitis can quickly give way to confusion at an unfamiliar diagnosis. Then you search it online at home, see words like "Crohn's disease" or "intractable disease," and end up more anxious than before. That feeling is completely understandable.
 
-By the end of this post, you'll know what terminal ileitis is, how it differs from appendicitis, and when more detailed tests are needed. The short answer: **most terminal ileitis is a temporary inflammation of the intestine, often caused by bacteria, and it frequently gets better on its own or with medication.** That said, it can occasionally point to a cause that deserves a closer look — so **getting a proper diagnosis and identifying the cause is what matters.**
+By the end of this post, you'll know what terminal ileitis is, how it differs from appendicitis, and when more detailed tests are needed. Here's the short answer: **most terminal ileitis is a temporary inflammation of the intestine, often caused by bacteria, and it frequently gets better on its own or with medication.** That said, it can occasionally point to a cause that deserves a closer look — so **getting a proper diagnosis and identifying the cause is what matters.**
+
+Here's what I'll cover:
+
+- The terminal ileum sits right next to the appendix
+- The terminal ileum: a "checkpoint" prone to inflammation
+- Appendicitis vs. terminal ileitis — how do the symptoms differ?
+- Three main causes of terminal ileitis
+- How we test and diagnose at our clinic
 
 ### The terminal ileum sits right next to the appendix
 

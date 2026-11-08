@@ -24,7 +24,7 @@ sources:
 
 忙しいときほど、手元の薬で何とかしたくなりますよね。ところが、「飲んだら抗えないほど眠くなって、気づいたら何時間も寝ていた」というお話を、本当によくお聞きします。
 
-この記事を読んでいただくと、医療機関で処方される「総合感冒薬」がどんな仕組みのお薬なのか、そしてなぜあれほど眠くなるのかが分かります。結論から言うと、**総合感冒薬の強い眠気は、鼻水を止めるために入っている成分のしっかりとした働きによるものです。車の運転や仕事の前に、自己判断で飲むのはとても危険です。**
+先にお答えすると、**総合感冒薬の強い眠気は、鼻水を止めるために入っている成分のしっかりとした働きによるものです。車の運転や仕事の前に、自己判断で飲むのはとても危険です。**
 
 ### 総合感冒薬は「オールインワン」のお薬
 
@@ -56,7 +56,7 @@ sources:
 
 また、抗ヒスタミン成分は、緑内障や前立腺肥大のある方では、症状を悪くすることがあります。ご高齢の方では、ふらつきや転倒にもつながります。手元の薬を自己判断で飲む落とし穴は、「[去年の残りの薬でしのいでいませんか？](/blog/kyonen-no-allergy-kusuri)」でもお話ししています。
 
-### 院長からのメッセージ
+### 最後に
 
 ひと口に「風邪」といっても、つらいのが熱なのか、のどの痛みなのか、せきなのか、鼻水なのかによって、必要なお薬はまったく違います。症状によっては、そもそも「全部入り」のお薬が必要ないこともあります。
 
@@ -68,7 +68,7 @@ sources:
 
 When you're busy, it's natural to want to make do with what's on hand. But I very often hear, “I took it and got so sleepy I couldn't fight it — the next thing I knew, I'd slept for hours.”
 
-This article explains how the “combination cold medicines” prescribed at clinics work, and why they make you so sleepy. The bottom line: **the strong drowsiness from combination cold medicine comes from the ingredient added to stop your runny nose, which works quite powerfully. Taking it on your own before driving or work is very dangerous.**
+This article explains how the “combination cold medicines” prescribed at clinics work, and why they make you so sleepy. Here's the short answer: **the strong drowsiness from combination cold medicine comes from the ingredient added to stop your runny nose, which works quite powerfully. Taking it on your own before driving or work is very dangerous.**
 
 ### Combination cold medicine is an “all-in-one” medicine
 
@@ -100,7 +100,7 @@ And the amount is far from small. In some of these medicines, if you converted t
 
 Antihistamines can also worsen symptoms in people with glaucoma or an enlarged prostate. In older adults, they can lead to unsteadiness and falls. I also discuss the pitfalls of taking leftover medicines on your own in “[Getting by on last year's leftover pills?](/blog/kyonen-no-allergy-kusuri)”
 
-### A message from the director
+### Finally
 
 A “cold” can mean very different things — whether what bothers you most is fever, sore throat, cough or runny nose — and the medicine you need differs completely. Depending on your symptoms, you may not need an “everything included” medicine at all.
 

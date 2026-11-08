@@ -18,7 +18,7 @@ sources:
 
 これまで健診結果の説明をしてきた中で、「不摂生のせいで、この数値になってしまったんですよね……」と、申し訳なさそうにおっしゃる方がいらっしゃいました。「どうしてこんなに運動したり、食事に気を使ってるのによくならないの？」と悲しそうにする方もいらっしゃいました。高血圧・糖尿病・脂質異常症と聞くと、「生活習慣病」という言葉が真っ先に浮かび、「自分の生活の乱れのせいだ」と感じてしまう方は少なくありません。
 
-この記事を読んでいただければ、その自分を責める気持ちから、少し楽になっていただけるかもしれません。結論から言うと、**高血圧・糖尿病・脂質異常症という診断名がついた方のすべてが、生活習慣病とは限らない**のです。なぜそう言えるのか、具体的な例とともにお話しします。
+この記事を読んでいただければ、その自分を責める気持ちから、少し楽になっていただけるかもしれません。答えを先にお伝えすると、**高血圧・糖尿病・脂質異常症という診断名がついた方のすべてが、生活習慣病とは限らない**のです。なぜそう言えるのか、具体的な例とともにお話しします。
 
 ### 「生活習慣病」の定義には、除外されるものがある
 
@@ -44,7 +44,7 @@ sources:
 
 Throughout my career, when I've explained checkup results, some patients have apologized, saying something like, "This number is my own fault for not taking care of myself, isn't it..." Others have looked genuinely disheartened and asked, "I'm exercising and watching my diet so carefully — why isn't it getting better?" When people hear "high blood pressure," "diabetes," or "dyslipidemia," the phrase "lifestyle disease" comes to mind first, and many end up feeling it's a result of their own undisciplined living.
 
-Reading this may ease some of that self-blame. The short version: **not everyone diagnosed with high blood pressure, diabetes, or dyslipidemia actually has a lifestyle disease.** Here's why, with some concrete examples.
+Reading this may ease some of that self-blame. Let me give you the answer first: **not everyone diagnosed with high blood pressure, diabetes, or dyslipidemia actually has a lifestyle disease.** Here's why, with some concrete examples.
 
 ### The definition of "lifestyle disease" has exclusions
 

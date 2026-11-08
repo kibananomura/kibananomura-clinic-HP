@@ -20,7 +20,7 @@ sources:
 
 「先生、健康のために、毎朝トマトジュースで野菜をとっているんです」。これまでの診療の中で、健診結果を見ながら、誇らしげにそうお話しされる患者さんによくお会いしてきました。野菜不足を気にして、手軽に続けられる習慣を選ばれたその努力は、本当に素晴らしいことだと思います。
 
-ただ、少し意外に思われるかもしれませんが、**トマトジュースはコレステロールが高めの方にはおすすめな一方、中性脂肪が高めの方には逆効果になることがある**、いわば「両刃の剣」のような飲み物です。この記事を読んでいただくと、ご自身の健診結果のタイプに合わせた、トマトジュースとの正しい付き合い方が分かります。結論から言うと、**ポイントは「無塩かどうか」と「ジュースか、生のまま食べるか」**。この2つを押さえるだけで、同じ一杯が味方にも、注意信号にもなります。
+ただ、少し意外に思われるかもしれませんが、**トマトジュースはコレステロールが高めの方にはおすすめな一方、中性脂肪が高めの方には逆効果になることがある**、いわば「両刃の剣」のような飲み物です。先にお答えすると、**ポイントは「無塩かどうか」と「ジュースか、生のまま食べるか」**。この2つを押さえるだけで、同じ一杯が味方にも、注意信号にもなります。
 
 ### なぜトマトジュースは「両刃の剣」なのか
 
@@ -36,7 +36,7 @@ sources:
 - **TG（中性脂肪）が高めの方**：ジュースではなく、**生のトマトをそのまま、よくかんで食べる**のがベストです。食物繊維が丸ごと残っているため、糖質の吸収がゆるやかになります。他の野菜と同じように、「かんで食べる」習慣を優先してください。
 - **LDL・TGの両方が高めの方**：飲む場合は「**無塩・1日1杯まで**」を守ったうえで、その分、夜のご飯（主食）を一口分だけ減らす等、1日の糖質量のバランスを調整していただくと安心です。
 
-### 院長からのメッセージ
+### 最後に
 
 「体によい」とされる食品であっても、ご自身の血液検査のデータ（どの数値が高めなのか）に合わせて選ぶことが、遠回りのようでいちばんの近道です。
 
@@ -46,7 +46,7 @@ sources:
 
 "Doctor, I drink tomato juice every morning to get my vegetables in — it's good for my health." Throughout my career, I've heard this proudly, checkup results in hand, more often than you might think. Being mindful of not getting enough vegetables and choosing an easy habit you can actually stick with is genuinely admirable.
 
-Here's something that might surprise you, though: **tomato juice can be great for people with high cholesterol, while working against people with high triglycerides** — it's something of a double-edged sword. By the end of this post, you'll know how to approach tomato juice based on your own checkup results. The short version: **what matters is whether it's unsalted, and whether you drink it as juice or eat the tomato whole.** Get those two things right, and the very same glass can either help you or work against you.
+Here's something that might surprise you, though: **tomato juice can be great for people with high cholesterol, while working against people with high triglycerides** — it's something of a double-edged sword. By the end of this post, you'll know how to approach tomato juice based on your own checkup results. Here's the short answer: **what matters is whether it's unsalted, and whether you drink it as juice or eat the tomato whole.** Get those two things right, and the very same glass can either help you or work against you.
 
 ### Why tomato juice is a double-edged sword
 
@@ -62,7 +62,7 @@ Here's how I'd suggest approaching it, based on which number on your checkup is 
 - **If your triglycerides (TG) are high:** Skip the juice and **eat the tomato whole, chewing it well, instead.** With the fiber intact, sugar absorption slows down considerably. Treat it the same way you would any other vegetable — chewing, not drinking.
 - **If both LDL and TG are elevated:** If you do drink it, stick to "**unsalted, one glass a day at most**," and balance things out by cutting back slightly elsewhere — for example, one bite less of rice at dinner — to manage your overall carbohydrate intake for the day.
 
-### A message from the director
+### Finally
 
 Even foods considered "healthy" are best chosen with your own blood test results in mind — which numbers are actually elevated for you. It may feel like the long way around, but it's really the shortest path to results.
 

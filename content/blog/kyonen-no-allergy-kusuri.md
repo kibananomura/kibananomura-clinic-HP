@@ -22,7 +22,7 @@ sources:
 
 ただ、診察室では「ちゃんと薬を飲んでいるのに、今年はなぜか効かないんです」というお話をよくお聞きします。その多くは、薬そのものが悪いのではなく、**いまの症状と「効く相手（ターゲット）」が違う薬を選んでいたり、組み合わせが合っていなかったりする**ことが原因です。
 
-結論から言うと、**抗アレルギー薬は「どれを飲んでも同じ」ではありません。いまの症状に合った薬を選べば、驚くほど楽に過ごせます。**この記事では、抗アレルギー薬の種類と組み合わせの考え方、そして残った薬を自己判断で飲むときの落とし穴をお話しします。
+先にお答えすると、**抗アレルギー薬は「どれを飲んでも同じ」ではありません。いまの症状に合った薬を選べば、驚くほど楽に過ごせます。**この記事では、抗アレルギー薬の種類と組み合わせの考え方、そして残った薬を自己判断で飲むときの落とし穴をお話しします。
 
 ## 抗アレルギー薬は、大きく分けて「2つのタイプ」があります
 
@@ -117,7 +117,7 @@ With busy days, making time to see a doctor isn't easy. Wanting to get by with w
 
 But in the clinic, we often hear, “I'm taking my medicine properly, but this year it just doesn't seem to work.” In many cases, the medicine itself isn't the problem. **The medicine is aimed at a different target from the symptoms you have now, or the combination doesn't fit.**
 
-The bottom line: **allergy medicines are not all the same. When the medicine matches your current symptoms, you can feel remarkably better.** In this article, we explain the main types of allergy medicine, how they're combined, and the pitfalls of taking leftover medicine on your own judgment.
+Here's the short answer: **allergy medicines are not all the same. When the medicine matches your current symptoms, you can feel remarkably better.** In this article, we explain the main types of allergy medicine, how they're combined, and the pitfalls of taking leftover medicine on your own judgment.
 
 ## Allergy medicines come in two main types
 

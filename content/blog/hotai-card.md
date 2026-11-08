@@ -20,7 +20,15 @@ sources:
 
 庭の草取りをしていて、指にとげが刺さった。抜いたあと、そこが少し赤くなって、ぷくっと腫れてきた。「ばい菌が入ったかな」と気になりながらも、数日たつと、いつの間にかおさまっている——そんな経験はありませんか。
 
-この記事を読んでいただくと、ばい菌が入ったときに体の中で何が起きているのか、そして「様子を見てよい腫れ」と「受診したほうがよい腫れ」の見分け方が分かります。結論から言うと、**体を守っているのは白血球だけではありません。血液の中には「補体（ほたい）」という、目に見えないもうひとつの守り役がいて、白血球と手を組んでばい菌を片づけています。**
+先にお答えすると、**体を守っているのは白血球だけではありません。血液の中には「補体（ほたい）」という、目に見えないもうひとつの守り役がいて、白血球と手を組んでばい菌を片づけています。**
+
+このあと、こんな順番でお話しします。
+
+- まずは、おなじみの白血球
+- 白血球を助ける、もうひとつの守り役「補体」
+- 「守りが追いついていない」サイン
+- 身近な話：溶連菌のあと、尿の色に気をつける理由
+- 補体の働きを抑えるお薬もある
 
 ### まずは、おなじみの白血球
 
@@ -71,7 +79,7 @@ sources:
 
 ほかにも、ごく一部の腎臓や血液の病気では、補体が自分の赤血球や腎臓を攻撃し続けてしまいます。そうした病気には、補体の働きをピンポイントで抑える新しいお薬が使われるようになりました。守りの一部をあえて休ませるため、使う方は事前にワクチンを受け、熱が出たらすぐ受診できるよう、専用のカードを持ち歩きます。
 
-### 院長からのメッセージ
+### おわりに
 
 とげの腫れが自然におさまるのは、白血球と補体が、目に見えないところで手を組んで働いてくれているからです。だからこそ、いつもと違う腫れ方や、尿の色の変化といった「体からのサイン」には、気づいてあげてください。
 
@@ -81,7 +89,15 @@ sources:
 
 You're weeding the garden and a thorn pricks your finger. After you pull it out, the spot turns a little red and puffs up. You wonder, “Did germs get in?” — and yet a few days later, it has quietly settled down. Sound familiar?
 
-This article explains what happens inside your body when germs get in, and how to tell swelling you can watch at home from swelling that needs a doctor. The bottom line: **white blood cells aren't the only ones protecting you. Your blood also carries an invisible second guardian called “complement,” which teams up with white blood cells to clear away germs.**
+This article explains what happens inside your body when germs get in, and how to tell swelling you can watch at home from swelling that needs a doctor. Here's the short answer: **white blood cells aren't the only ones protecting you. Your blood also carries an invisible second guardian called “complement,” which teams up with white blood cells to clear away germs.**
+
+Here's what I'll cover:
+
+- First, the familiar white blood cells
+- Complement: the second guardian that helps white blood cells
+- Signs your defenses can't keep up
+- A familiar example: why we watch urine color after strep
+- There are also medicines that hold complement back
 
 ### First, the familiar white blood cells
 
@@ -132,7 +148,7 @@ Most cases recover on their own over weeks to months, but catching it early matt
 
 In a small number of other kidney and blood diseases, complement keeps attacking a person's own red blood cells or kidneys. For these, new medicines that hold back complement at a precise point have come into use. Because they deliberately give part of the defense a rest, people who use them get vaccinated beforehand and carry a special card so they can be seen right away if they get a fever.
 
-### A message from the director
+### In closing
 
 A splinter's swelling settles down on its own because white blood cells and complement are working together where you can't see them. That's exactly why I hope you'll notice your body's signals — swelling that seems different from usual, or a change in urine color.
 

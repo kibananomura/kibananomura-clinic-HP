@@ -68,7 +68,7 @@ excerpt_en: This July, research on destroying cancer cells with heat from light 
 
 この「光でがんを見つけ、光で治す」研究の考え方については、2019年3月、留学先のボストンで、ボストン日本人研究者交流会（BJRF）の講演会（会場はマサチューセッツ工科大学〈MIT〉）でも「光が導くがん外科治療の未来」と題してお話ししました（[講演の概要](https://www.boston-researchers.jp/pukiwiki/index.php?lecture/2019.html#ode171)）。
 
-### 院長からのメッセージ
+### 最後に
 
 この研究を通じて私が学んだのは、**「なんとなく効いていそう」ではなく、測って確かめることの大切さ**でした。同じ治療でも、温度がわずか2℃違うだけで結果が正反対になる。その経験は、研究の現場を離れた今も、私の診療の土台になっています。
 
@@ -141,7 +141,7 @@ That said, the research in the news was also done in mice, and clinical trials i
 
 I also spoke about this idea — finding cancer with light and treating it with light — in March 2019 in Boston, at a lecture meeting of the Boston Japanese Researchers Forum (BJRF) held at the Massachusetts Institute of Technology (MIT), titled “The future of cancer surgery guided by light” ([lecture summary](https://www.boston-researchers.jp/pukiwiki/index.php?lecture/2019.html#ode171)).
 
-### A message from the director
+### Finally
 
 What this research taught me was **the importance of measuring and confirming, rather than settling for "it seems to be working."** The same treatment could produce opposite results with a difference of just two degrees. That experience still underpins how I practice medicine today, long after leaving the lab.
 

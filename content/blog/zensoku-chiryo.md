@@ -23,7 +23,7 @@ sources:
 
 症状が落ち着いて元気に過ごせているのは素晴らしいことですし、毎日お薬を続ける大変さもよく分かります。ですが実は、ここがぜんそく治療のいちばんの落とし穴です。
 
-この記事を読んでいただくと、「症状がないのに、なぜ薬を続ける必要があるのか」が分かり、不安なく治療を続けられるようになります。結論から言うと、**症状がない日も気管の炎症は静かにくすぶり続けているため、吸入薬は「治す薬」ではなく「火種を抑え続ける薬」**なのです。その理由を、順を追ってお話しします。
+この記事を読んでいただくと、「症状がないのに、なぜ薬を続ける必要があるのか」が分かり、不安なく治療を続けられるようになります。最後まで読んでいただくと、きっと「なるほど」と思っていただけるはずです。ひとつずつ見ていきましょう。
 
 ### 「症状がない日」も、気管はボヤ状態
 
@@ -44,7 +44,9 @@ sources:
 
 つまり大切なのは、自己判断で止める・減らすのではなく、**節目ごとに診察室で経過を確認しながら、今の自分に合った量を一緒に探っていく**ことです。
 
-### 院長からのメッセージ
+### 今日のまとめ
+
+まとめると、**症状がない日も気管の炎症は静かにくすぶり続けているため、吸入薬は「治す薬」ではなく「火種を抑え続ける薬」**なのです。その理由を、順を追ってお話しします。
 
 毎日の吸入や服薬を手間に感じることもあると思います。ですがその1回1回が、将来のあなたの気道を守り、大きな発作を防いでいます。
 
@@ -58,7 +60,7 @@ A conversation like this has come up often, throughout my career.
 
 It's wonderful to hear that symptoms have settled down, and I understand how tiring it can be to keep up a daily medication. But this is actually the biggest trap in asthma treatment.
 
-By the end of this post, you'll understand why you need to keep taking medicine even with no symptoms at all, so you can keep up treatment without that nagging doubt. The short version: **even on symptom-free days, inflammation keeps quietly smoldering in your airways, so an inhaler isn't a "cure" — it's what keeps the embers from reigniting.** Here's why, step by step.
+By the end of this post, you'll understand why you need to keep taking medicine even with no symptoms at all, so you can keep up treatment without that nagging doubt. By the end, I hope it will all make sense. Let's look at it one step at a time.
 
 ### Even on symptom-free days, the airways are quietly smoldering
 
@@ -79,7 +81,9 @@ Of course, it's not a treatment you continue at the same dose forever. But that 
 
 In other words, what matters is not stopping or reducing on your own judgment, but **checking in with us at each milestone so we can work out together what dose is right for you right now.**
 
-### A message from the director
+### Today's takeaway
+
+To sum up: **even on symptom-free days, inflammation keeps quietly smoldering in your airways, so an inhaler isn't a "cure" — it's what keeps the embers from reigniting.** Here's why, step by step.
 
 Taking a daily inhaler or medication can feel like a hassle at times. But each dose is protecting your airways for the future and preventing a major attack.
 

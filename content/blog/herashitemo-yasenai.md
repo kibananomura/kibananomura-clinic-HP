@@ -22,7 +22,7 @@ sources:
 
 食事の回数や量は変えていないのに、いつの間にか体型が変わってきた。減らしても、昔のようには落ちない。そんな「年齢の壁」を感じている方は少なくありません。
 
-この記事を読んでいただくと、年齢を重ねると「減らすだけ」のダイエットが効きにくくなる理由と、ご自身の筋肉の状態を確かめる方法、そして今日からの一歩が分かります。結論から言うと、**40代以降のダイエットの主役は「何を減らすか」ではなく「筋肉を育てる材料と合図を足すこと」**。つまり、**タンパク質と運動のセット**です。
+今日は、年齢を重ねると「減らすだけ」のダイエットが効きにくくなる理由と、ご自身の筋肉の状態を確かめる方法、そして今日からの一歩についてお話しします。最後まで読んでいただくと、きっと「なるほど」と思っていただけるはずです。ひとつずつ見ていきましょう。
 
 ### 年齢とともに、筋肉は「静かに」減っていく
 
@@ -96,7 +96,9 @@ sources:
 
 なお、腎臓の病気がある方は、タンパク質をとりすぎないほうがよい場合があります。ひざや腰に痛みがある方も含めて、気になる方は一度ご相談ください。
 
-### 院長からのメッセージ
+### 今日のまとめ
+
+まとめると、**40代以降のダイエットの主役は「何を減らすか」ではなく「筋肉を育てる材料と合図を足すこと」**。つまり、**タンパク質と運動のセット**です。
 
 これまでのダイエットは「減らす」引き算が中心だったかもしれません。でも年齢を重ねてからは、**必要なものを補って、筋肉を育てる「足し算」の健康づくり**が大切になります。
 
@@ -108,7 +110,7 @@ sources:
 
 You haven't changed how often or how much you eat, yet your shape has shifted. Cutting back doesn't work the way it used to. Many people run into this “age wall.”
 
-This article explains why “just eating less” works less well as we age, how to check the state of your own muscles, and a first step you can take today. The bottom line: **after your 40s, the key to losing weight isn't what you cut — it's adding the building material and the signal your muscles need.** In other words, **protein and exercise, together.**
+This article explains why “just eating less” works less well as we age, how to check the state of your own muscles, and a first step you can take today. By the end, I hope it will all make sense. Let's look at it one step at a time.
 
 ### With age, muscle slips away “quietly”
 
@@ -182,7 +184,9 @@ This exercise is introduced in books and on TV by Professor Michiya Igase of Ehi
 
 If you have kidney disease, you may need to avoid eating too much protein. If that applies to you — or if you have knee or back pain — please talk with us first.
 
-### A message from the director
+### Today's takeaway
+
+To sum up: **after your 40s, the key to losing weight isn't what you cut — it's adding the building material and the signal your muscles need.** In other words, **protein and exercise, together.**
 
 Until now, dieting may have been mostly about subtracting. But as we get older, **adding what you need and building muscle** becomes the key to good health.
 
