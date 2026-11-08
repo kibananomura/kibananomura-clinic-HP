@@ -19,6 +19,8 @@ excerpt_en: “It's not bad enough for the hospital, but I just feel kind of hea
 
 「なんとなく疲れが取れない」は内科の領域、「長時間座っていると腰がつらい」は外科の領域。普段は別々の科として語られがちですが、日常のちょっとした不調は、内臓の疲れと体の使い方のクセが、互いに影響し合っていることがほとんどです。**当院が内科と外科の両方を掲げているのは、たまたまではありません。**代謝や内臓の状態と、姿勢や関節・筋肉の状態、その両方から「なんとなくの不調」を見ていきたいからです。ゼロで終わらせず、そこからもう一歩踏み込んで、日々を気持ちよく過ごせる「プラス」の状態を一緒に目指していけたらと思っています。
 
+実際に、暮らしの事情を伺って初めて、原因の糸口が見えてくることがよくあります。「最近部署が変わって、仕事のペースがつかめない」「子育てや介護で、夜の睡眠が途切れている」。そんなひと言が、だるさの理由を教えてくれることもあります。また、「健康診断では異常なしと言われたのに、ずっとだるさが抜けない」という方に、睡眠の状態を調べる検査や問診票など、狙いを絞った追加の検査や聞き取りを行うことで、ようやく原因が分かったこともあります。
+
 考えてみれば、「病名がつく前の不調を整える」という発想自体は、昔から東洋医学にある「未病」という考え方に近いものです。西洋医学の視点に加えて、漢方の視点も取り入れながら、マイナス0.5の段階に向き合っていけたらと考えており、今後力を入れていきたい分野のひとつです。
 
 宮崎は海も山も川も近く、ゴルフやサーフィンをはじめ、体を動かす趣味を楽しんでいる方が多い土地だと感じています。仕事も趣味も思い切り楽しむには、まず「動ける体」が土台になる。その土台づくりを、地域の皆さんと一緒に続けていきたいというのが、私の願いです。
@@ -36,6 +38,8 @@ Here's the short answer: that nagging feeling isn't "just your imagination" or s
 People tend to think of a hospital as a place you rush to once something has gone seriously wrong, a "minus 5," and where treatment brings you back to "zero," meaning no abnormalities. That's one of medicine's important roles, but what I keep coming back to is the stretch of time before that. The tests don't catch anything, yet the person genuinely feels something is a little off. **I believe that "minus 0.5" stage matters more than we usually give it credit for.**
 
 "I can't seem to shake this tiredness" is the domain of internal medicine. "My lower back hurts after sitting too long" is the domain of surgery. These tend to be treated as two separate specialties, but in everyday life, fatigue in the body's internal systems and habits in how we move and hold ourselves tend to affect each other. **It's no accident that our clinic covers both internal medicine and surgery** — I want to look at everyday discomfort from both angles, metabolism and internal organ health on one side, posture, joints, and muscles on the other. Rather than stopping at zero, I want to help take that next step, together, toward a "plus" — days that genuinely feel good.
+
+In practice, the first clue to the cause often appears only once I hear about someone's daily circumstances. “I was recently moved to a new department and can't find my pace at work.” “My sleep keeps getting interrupted by childcare or caregiving.” A single remark like that can reveal why someone feels so tired. And for people who say, “My checkup came back normal, but I just can't shake this fatigue,” targeted additional tests and questions — such as checking their sleep or using a questionnaire — have sometimes finally revealed the cause.
 
 Thinking about it, this idea of tending to discomfort before it has a name is close to "mibyo," a concept with roots in traditional East Asian medicine — addressing imbalance before it becomes illness. Alongside a Western medical approach, I'd like to bring in that Kampo perspective as well when thinking about the "minus 0.5" stage. It's one of the areas I hope to put more focus into going forward.
 

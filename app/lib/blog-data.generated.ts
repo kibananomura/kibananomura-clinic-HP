@@ -3264,7 +3264,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "私自身、患者として病院に行ったとき、待合室でせき込んでいる方と、その方を怪訝そうに見るほかの患者さんの表情を目にして、つらい気持ちになったことがあります。せき込んでいる方も、周りの方も、誰も悪くないのに、です。そして何より、診療所を院内で感染が広がる場にはしたくない。それが、この設計の出発点です。"
+          "text": "私自身、患者として病院に行ったとき、待合室でせき込んでいる方と、その方をけげんそうに見るほかの患者さんの表情を目にして、つらい気持ちになったことがあります。せき込んでいる方も、周りの方も、誰も悪くないのに、です。そして何より、診療所を院内で感染が広がる場にはしたくない。それが、この設計の出発点です。"
         },
         {
           "kind": "text",
@@ -3448,6 +3448,10 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
+          "text": "長く通っていただいている方の中には、診察のたびに旅行の話を聞かせてくださる方や、お孫さんの話をうれしそうにしてくださる方もいます。血圧や血糖の数字と一緒に、そうした何気ない会話を重ねていくこと。そこにこそ、暮らしの変化や体調のヒントが隠れていることも少なくありません。"
+        },
+        {
+          "kind": "text",
           "text": "「一生このお薬と付き合うのか」と思うと気が重くなるかもしれませんが、それは「ずっと我慢を強いられる」ということではありません。ご自身の体と、無理のない距離感で、長く付き合っていく——そのための伴走者でありたいと思っています。何か不安なことがあれば、どうぞ遠慮なくお聞かせください。"
         }
       ]
@@ -3496,6 +3500,10 @@ export const generatedPosts: BlogPost[] = [
         {
           "kind": "text",
           "text": "The same blood pressure reading can sit behind very different lives. Someone whose work schedule makes mealtimes unpredictable. Someone caring for family members, with little time left for themselves. Someone who's already trying hard and feels worn down by being asked to do even more. Rather than giving the same generic advice based on the number alone, I want to hear about the realities of your life first, and work out together what's actually realistic to try from where you are now."
+        },
+        {
+          "kind": "text",
+          "text": "Among people who have come to see me for years, some tell me about their travels at every visit, and others happily share stories about their grandchildren. Building up those everyday conversations alongside the blood pressure and blood sugar numbers — that's often exactly where hints about changes in daily life and health are hiding."
         },
         {
           "kind": "text",
@@ -3554,6 +3562,10 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
+          "text": "実際に、暮らしの事情を伺って初めて、原因の糸口が見えてくることがよくあります。「最近部署が変わって、仕事のペースがつかめない」「子育てや介護で、夜の睡眠が途切れている」。そんなひと言が、だるさの理由を教えてくれることもあります。また、「健康診断では異常なしと言われたのに、ずっとだるさが抜けない」という方に、睡眠の状態を調べる検査や問診票など、狙いを絞った追加の検査や聞き取りを行うことで、ようやく原因が分かったこともあります。"
+        },
+        {
+          "kind": "text",
           "text": "考えてみれば、「病名がつく前の不調を整える」という発想自体は、昔から東洋医学にある「未病」という考え方に近いものです。西洋医学の視点に加えて、漢方の視点も取り入れながら、マイナス0.5の段階に向き合っていけたらと考えており、今後力を入れていきたい分野のひとつです。"
         },
         {
@@ -3590,6 +3602,10 @@ export const generatedPosts: BlogPost[] = [
         {
           "kind": "text",
           "text": "\"I can't seem to shake this tiredness\" is the domain of internal medicine. \"My lower back hurts after sitting too long\" is the domain of surgery. These tend to be treated as two separate specialties, but in everyday life, fatigue in the body's internal systems and habits in how we move and hold ourselves tend to affect each other. **It's no accident that our clinic covers both internal medicine and surgery** — I want to look at everyday discomfort from both angles, metabolism and internal organ health on one side, posture, joints, and muscles on the other. Rather than stopping at zero, I want to help take that next step, together, toward a \"plus\" — days that genuinely feel good."
+        },
+        {
+          "kind": "text",
+          "text": "In practice, the first clue to the cause often appears only once I hear about someone's daily circumstances. “I was recently moved to a new department and can't find my pace at work.” “My sleep keeps getting interrupted by childcare or caregiving.” A single remark like that can reveal why someone feels so tired. And for people who say, “My checkup came back normal, but I just can't shake this fatigue,” targeted additional tests and questions — such as checking their sleep or using a questionnaire — have sometimes finally revealed the cause."
         },
         {
           "kind": "text",
@@ -3681,6 +3697,10 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
+          "text": "以前、食事の内容を伺ったところ、「毎朝、決まったものを何年も食べていました」とおっしゃった方がいました。こうしたパターンは、ご本人にとって当たり前すぎて、なかなか気づきにくいものです。"
+        },
+        {
+          "kind": "text",
           "text": "### やり方は「料理」ではなく「食材や色」を変えるだけで十分"
         },
         {
@@ -3750,6 +3770,10 @@ export const generatedPosts: BlogPost[] = [
         {
           "kind": "text",
           "text": "People are sometimes surprised that's all there is to it, but keeping that one idea in mind tends to change things more than you'd expect. Stepping away from fixed patterns — banana and toast every morning, the same bowl of ramen every lunch — and choosing something different each day naturally makes it harder to overdo any one nutrient, whether that's fat, carbohydrates, or salt. In my experience, eating a variety of real food day to day does more for a balanced intake of vitamins, minerals, and fiber than reaching for several kinds of supplements."
+        },
+        {
+          "kind": "text",
+          "text": "Once, when I asked someone about their meals, they told me, “I've eaten the same thing every morning for years.” Patterns like this are so ordinary to the person that they're hard to notice."
         },
         {
           "kind": "text",

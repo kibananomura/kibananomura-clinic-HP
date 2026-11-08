@@ -34,6 +34,8 @@ sources:
 
 拍子抜けされることもありますが、この意識を持つだけで食生活は案外変わります。「朝はいつもバナナとパン」「昼はいつものラーメン」というような決まりきったパターンから少し離れて、日替わりで違う食材を選ぶようにするだけで、脂質や糖質、塩分など特定の栄養素を摂り過ぎる状態を自然と避けやすくなります。サプリメントをいくつも試すよりも、普段の食事にいろいろな種類の食材（いわゆるリアルフード）を取り入れる方が、ビタミンやミネラル、食物繊維をバランスよく摂れることが多いというのが、私の実感です。
 
+以前、食事の内容を伺ったところ、「毎朝、決まったものを何年も食べていました」とおっしゃった方がいました。こうしたパターンは、ご本人にとって当たり前すぎて、なかなか気づきにくいものです。
+
 ### やり方は「料理」ではなく「食材や色」を変えるだけで十分
 
 「毎日違う料理を一から作る」と考えると、それこそ負担になってしまいます。意識していただきたいのは、**食卓に並ぶ「食材」や「色」を変える**ことだけです。
@@ -67,6 +69,8 @@ Eating is something you do for the rest of your life. Numbers that drop after a 
 The one piece of advice I give most often to patients managing a lifestyle-related condition is simply this: **try not to eat the same thing every day.**
 
 People are sometimes surprised that's all there is to it, but keeping that one idea in mind tends to change things more than you'd expect. Stepping away from fixed patterns — banana and toast every morning, the same bowl of ramen every lunch — and choosing something different each day naturally makes it harder to overdo any one nutrient, whether that's fat, carbohydrates, or salt. In my experience, eating a variety of real food day to day does more for a balanced intake of vitamins, minerals, and fiber than reaching for several kinds of supplements.
+
+Once, when I asked someone about their meals, they told me, “I've eaten the same thing every morning for years.” Patterns like this are so ordinary to the person that they're hard to notice.
 
 ### No need to change the cooking — just the ingredients and the colors
 

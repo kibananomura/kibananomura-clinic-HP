@@ -33,6 +33,8 @@ excerpt_en: Am I going to be on this medication for the rest of my life? I've he
 
 同じ血圧の数値でも、その背景にある生活は人それぞれです。仕事の都合で食事の時間が不規則な方、家族の介護で自分のことが後回しになりがちな方、すでに十分頑張っているのにもう一声求められて疲れてしまっている方。数値だけを見て画一的な指導をするのではなく、その方の暮らしの事情を聞いたうえで、今の生活の中で無理なくできることから一緒に考えていきたいと思っています。
 
+長く通っていただいている方の中には、診察のたびに旅行の話を聞かせてくださる方や、お孫さんの話をうれしそうにしてくださる方もいます。血圧や血糖の数字と一緒に、そうした何気ない会話を重ねていくこと。そこにこそ、暮らしの変化や体調のヒントが隠れていることも少なくありません。
+
 「一生このお薬と付き合うのか」と思うと気が重くなるかもしれませんが、それは「ずっと我慢を強いられる」ということではありません。ご自身の体と、無理のない距離感で、長く付き合っていく——そのための伴走者でありたいと思っています。何か不安なことがあれば、どうぞ遠慮なくお聞かせください。
 
 ## en
@@ -58,5 +60,7 @@ Precisely because this is a lifelong relationship, I don't think you need to go 
 ### Looking at the life behind the numbers
 
 The same blood pressure reading can sit behind very different lives. Someone whose work schedule makes mealtimes unpredictable. Someone caring for family members, with little time left for themselves. Someone who's already trying hard and feels worn down by being asked to do even more. Rather than giving the same generic advice based on the number alone, I want to hear about the realities of your life first, and work out together what's actually realistic to try from where you are now.
+
+Among people who have come to see me for years, some tell me about their travels at every visit, and others happily share stories about their grandchildren. Building up those everyday conversations alongside the blood pressure and blood sugar numbers — that's often exactly where hints about changes in daily life and health are hiding.
 
 The thought of "being on this medication forever" can feel heavy, but it doesn't mean a lifetime of gritting your teeth. I want to be someone who walks alongside you, at a pace that actually fits your life, for however long that relationship with your own body needs to last. If anything is weighing on you, please don't hesitate to bring it up.
