@@ -9,6 +9,9 @@ title_ja: 胃酸を抑える薬は長期間飲み続けても大丈夫？〜胃�
 title_en: Is it safe to keep taking acid-suppressing stomach medication long term?
 excerpt_ja: 「この胃薬、ずっと飲み続けて大丈夫ですか？」これまでの診療でとてもよく聞かれてきた質問です。安定して飲めているからこその、素朴な疑問だと思います。
 excerpt_en: Is it really okay to keep taking this stomach medication indefinitely? It's a question I've heard often throughout my career — a natural one to have once your symptoms have settled down.
+sources:
+  - label: "日本消化器病学会「胃食道逆流症（GERD）診療ガイドライン」"
+    url: "https://minds.jcqhc.or.jp/summary/c00644/"
 ---
 
 ## ja

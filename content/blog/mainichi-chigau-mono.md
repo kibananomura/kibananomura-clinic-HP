@@ -9,6 +9,9 @@ title_ja: 生活習慣病の方の食事指導の実際
 title_en: "What diet guidance actually looks like for lifestyle-related conditions"
 excerpt_ja: 「あれもこれも禁止されるのでは」——健診で数値を指摘された方の多くが、そう身構えています。私が細かい制限をおすすめしない理由と、代わりに伝えているたったひとつのコツをお話しします。
 excerpt_en: “Am I about to be told everything is off-limits?” — that's the look I see on so many patients' faces after a checkup. Here's why I don't hand out strict diet rules, and the one thing I ask instead.
+sources:
+  - label: "厚生労働省「日本人の食事摂取基準（2025年版）」"
+    url: "https://www.mhlw.go.jp/stf/newpage_44138.html"
 ---
 
 ## ja

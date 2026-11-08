@@ -9,6 +9,12 @@ title_ja: 足のしびれは、治る？残る？〜神経の修復力と、し�
 title_en: Will the numbness in my leg go away, or will it stay? — the nerve's power to repair, and learning to live well with numbness
 excerpt_ja: 「腰の痛みはましになったのに、足のしびれだけが取れない」——足の神経には修復する力がある一方で、しびれは残りやすい症状でもあります。その両方を、正直にお話しします。
 excerpt_en: “My back pain is better, but the numbness in my leg won't go away.” Leg nerves can repair themselves, yet numbness is also a symptom that tends to linger. Here's an honest look at both.
+sources:
+  - label: "Menorca RMG, et al. Nerve physiology: mechanisms of injury and recovery. Hand Clin. 2013;29:317-330"
+    url: "https://doi.org/10.1016/j.hcl.2013.04.002"
+  - label: "日本整形外科学会・日本脊椎脊髄病学会「腰部脊柱管狭窄症診療ガイドライン2021（改訂第2版）」"
+    url: "https://minds.jcqhc.or.jp/summary/c00646/"
+  - label: "日本整形外科学会・日本脊椎脊髄病学会「腰椎椎間板ヘルニア診療ガイドライン2021（改訂第3版）」"
 ---
 
 ## ja

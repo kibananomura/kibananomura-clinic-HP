@@ -9,6 +9,11 @@ title_ja: とげが刺さったところが、赤く腫れて自然におさま�
 title_en: Why does a splinter spot swell up and then settle down on its own? — white blood cells, and another “invisible guardian” called complement
 excerpt_ja: 庭仕事でとげが刺さり、抜いたあとが少し赤く腫れた。でも数日で、いつの間にかおさまっている。その裏では、よく知られた白血球と、あまり知られていない“もうひとつの守り役”が手を組んで働いています。
 excerpt_en: A thorn pricks you while gardening, and after you pull it out the spot turns a little red and swollen. Yet a few days later, it has quietly settled down. Behind that, the well-known white blood cells are teaming up with a lesser-known second guardian.
+sources:
+  - label: "Walport MJ. Complement. N Engl J Med. 2001;344:1058-1066"
+    url: "https://doi.org/10.1056/NEJM200104053441406"
+  - label: "Rodriguez-Iturbe B, Musser JM. The current state of poststreptococcal glomerulonephritis. J Am Soc Nephrol. 2008;19:1855-1864"
+    url: "https://doi.org/10.1681/ASN.2008010092"
 ---
 
 ## ja

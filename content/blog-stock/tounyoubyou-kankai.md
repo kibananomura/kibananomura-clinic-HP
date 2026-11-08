@@ -9,6 +9,13 @@ title_ja: 「糖尿病は一生治らない」は、もう昔の話？〜「寛�
 title_en: “Diabetes never goes away” — is that an old idea now? — remission has become a realistic goal
 excerpt_ja: 「糖尿病になったら、もうおしまい」——そう思って、健診の結果を見ないふりをしていませんか。実はいま、糖尿病の考え方は大きく変わりつつあります。
 excerpt_en: “Once you have diabetes, that's it” — is that why you've been avoiding your checkup results? In fact, how we think about diabetes is changing a great deal.
+sources:
+  - label: "日本糖尿病学会「糖尿病診療ガイドライン2024」"
+    url: "https://minds.jcqhc.or.jp/summary/c00864/"
+  - label: "Riddle MC, et al. Consensus Report: Definition and Interpretation of Remission in Type 2 Diabetes. Diabetes Care. 2021;44:2438-2444"
+    url: "https://doi.org/10.2337/dci21-0034"
+  - label: "Lean MEJ, et al. Primary care-led weight management for remission of type 2 diabetes (DiRECT). Lancet. 2018;391:541-551"
+    url: "https://doi.org/10.1016/S0140-6736(17)33102-1"
 ---
 
 <!--

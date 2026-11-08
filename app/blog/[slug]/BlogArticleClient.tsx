@@ -82,6 +82,37 @@ export default function BlogArticle({ relatedDiseases = [] }: { relatedDiseases?
             )}
           </div>
 
+          {post.sources && post.sources.length > 0 && (
+            <div className="mt-10 border-t border-accent pt-5">
+              <p className="text-sm font-bold text-ink/60">
+                {lang === "en" ? "References" : "参考にした資料"}
+              </p>
+              <ul className="mt-2 list-disc space-y-1.5 pl-5">
+                {post.sources.map((source) => (
+                  <li key={source.label} className="text-xs leading-relaxed text-ink/60">
+                    {source.url ? (
+                      <a
+                        href={source.url}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="break-words underline decoration-ink/30 underline-offset-2 hover:text-primary-dark"
+                      >
+                        {source.label}
+                      </a>
+                    ) : (
+                      source.label
+                    )}
+                  </li>
+                ))}
+              </ul>
+              <p className="mt-3 text-xs leading-relaxed text-ink/45">
+                {lang === "en"
+                  ? "This article reflects the information available when it was written. For your own symptoms and treatment, please consult a doctor."
+                  : "記事の内容は、執筆時点の資料にもとづいています。ご自身の症状や治療については、医師にご相談ください。"}
+              </p>
+            </div>
+          )}
+
           <ShareButtons path={`/blog/${post.slug}`} title={c.title} lang={lang} />
 
           {relatedDiseases.length > 0 && (

@@ -9,6 +9,9 @@ title_ja: その便秘薬、飲む量が増えていませんか？——セン�
 title_en: Is your laxative dose creeping up? Why senna isn't meant for every day
 excerpt_ja: 「最初は1錠で出ていたのに、今は3錠飲まないと出ない」——それは、あなたのせいではありません。センナを長く毎日続けたときに、お腹の中で起きていることをお話しします。
 excerpt_en: “One tablet used to work — now I need three.” That isn't your fault. Here's what happens inside your bowel when senna is taken every day for years.
+sources:
+  - label: "日本消化管学会「便通異常症診療ガイドライン2023－慢性便秘症」"
+    url: "https://minds.jcqhc.or.jp/summary/c00812/"
 ---
 
 ## ja

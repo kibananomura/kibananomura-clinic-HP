@@ -9,6 +9,9 @@ title_ja: 痩せているのに、なぜコレステロールが高いの？—�
 title_en: Slim, but high cholesterol? The real reason your numbers bounce back when you stop the medicine
 excerpt_ja: 「太っていないし、食事も気をつけているのに……」——実は、コレステロールの7〜8割は、食べ物ではなくご自身の肝臓が作っています。
 excerpt_en: “I'm not overweight, and I watch what I eat…” In fact, 70–80% of your cholesterol isn't from food — your own liver makes it.
+sources:
+  - label: "日本動脈硬化学会「動脈硬化性疾患予防ガイドライン2022年版」"
+    url: "https://www.j-athero.org/jp/jas_gl2022/"
 ---
 
 ## ja

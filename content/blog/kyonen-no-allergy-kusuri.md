@@ -9,6 +9,9 @@ title_ja: 去年の残りの薬でしのいでいませんか？——抗アレ�
 title_en: Getting by on last year's leftover pills? How allergy medicines work together — and the pitfalls of choosing your own
 excerpt_ja: 「去年の薬がまだ何種類か残っているから、とりあえず飲んでおこう」——その引き出しの中の薬、実は「効く相手」がそれぞれ違うかもしれません。
 excerpt_en: “There are still a few kinds left from last year, so I'll just take those” — but the medicines in that drawer may each be aimed at a different target.
+sources:
+  - label: "日本鼻科学会「鼻アレルギー診療ガイドライン－通年性鼻炎と花粉症－2024年版（改訂第10版）」"
+    url: "https://minds.jcqhc.or.jp/guidelines_kind/%E9%BC%BB%E3%82%A2%E3%83%AC%E3%83%AB%E3%82%AE%E3%83%BC/"
 ---
 
 ## ja

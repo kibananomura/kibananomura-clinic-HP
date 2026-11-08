@@ -9,6 +9,9 @@ title_ja: 右下腹部が痛い、もしかして盲腸？——実は多い「�
 title_en: Pain in your lower right belly — is it appendicitis? Meet the often-overlooked “terminal ileitis”
 excerpt_ja: 「盲腸だと思って来たんです」——そう心配して受診され、検査の結果「回腸末端炎」だった、という方は少なくありません。聞き慣れない病名に不安になった方へ。
 excerpt_en: “I came in because I thought it was my appendix” — and the tests showed terminal ileitis instead. If an unfamiliar diagnosis has you worried, this is for you.
+sources:
+  - label: "日本腹部救急医学会ほか「急性腹症診療ガイドライン2015」"
+    url: "https://minds.jcqhc.or.jp/guidelines_kind/%E6%80%A5%E6%80%A7%E8%85%B9%E7%97%87/"
 ---
 
 ## ja

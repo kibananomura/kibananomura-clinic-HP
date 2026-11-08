@@ -9,6 +9,11 @@ title_ja: 残っていた風邪薬を飲んだら、猛烈に眠くなった？�
 title_en: Took some leftover cold medicine and got overwhelmingly sleepy? — what's inside a combination cold medicine, and the real reason for the drowsiness
 excerpt_ja: 「熱冷ましのつもりで飲んだだけなのに、気づいたら何時間も寝ていた」——その眠気には、ちゃんとした理由があります。
 excerpt_en: “I only took it to bring my fever down, and the next thing I knew I'd slept for hours.” There's a clear reason for that drowsiness.
+sources:
+  - label: "日本鼻科学会「鼻アレルギー診療ガイドライン－通年性鼻炎と花粉症－2024年版（改訂第10版）」"
+    url: "https://minds.jcqhc.or.jp/guidelines_kind/%E9%BC%BB%E3%82%A2%E3%83%AC%E3%83%AB%E3%82%AE%E3%83%BC/"
+  - label: "厚生労働省「抗微生物薬適正使用の手引き 第二版」"
+    url: "https://www.mhlw.go.jp/content/10900000/000573655.pdf"
 ---
 
 <!--

@@ -18,6 +18,7 @@ export type BlogPost = {
   date: string; // YYYY.MM.DD
   cover: string;
   coverPosition?: string; // Tailwind object-position クラス（既定: object-center）
+  sources?: { label: string; url?: string }[]; // 参考にした資料（記事末尾に表示）
   ja: BlogContent;
   en: BlogContent;
 };

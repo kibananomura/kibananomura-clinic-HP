@@ -9,6 +9,12 @@ title_ja: 糖尿病だから、ご飯は抜くべき？〜「我慢の食事」�
 title_en: I have diabetes — should I skip rice? — from “eating by enduring” to “eating well to protect your body”
 excerpt_ja: 「糖尿病だから、ご飯もパンも食べないようにしています」——その頑張り、実は体の負担になっているかもしれません。
 excerpt_en: “I have diabetes, so I avoid rice and bread completely.” That effort may actually be putting a strain on your body.
+sources:
+  - label: "日本糖尿病学会「糖尿病診療ガイドライン2024」"
+    url: "https://minds.jcqhc.or.jp/summary/c00864/"
+  - label: "日本老年医学会・日本糖尿病学会「高齢者糖尿病診療ガイドライン2023」"
+  - label: "厚生労働省「日本人の食事摂取基準（2025年版）」"
+    url: "https://www.mhlw.go.jp/stf/newpage_44138.html"
 ---
 
 <!--

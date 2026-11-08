@@ -79,6 +79,21 @@ function fail(message) {
   process.exit(1);
 }
 
+// frontmatter の sources（参考にした資料）を [{ label, url? }] に整える。
+function parseSources(raw, file) {
+  if (raw === undefined || raw === null) return undefined;
+  if (!Array.isArray(raw)) fail(`${file}: "sources" must be a list`);
+  return raw.map((item, i) => {
+    if (!item || typeof item.label !== "string" || !item.label.trim()) {
+      fail(`${file}: sources[${i}] needs a "label"`);
+    }
+    if (item.url !== undefined && !/^https?:\/\//.test(String(item.url))) {
+      fail(`${file}: sources[${i}].url must start with http(s)://`);
+    }
+    return item.url ? { label: item.label.trim(), url: String(item.url) } : { label: item.label.trim() };
+  });
+}
+
 function generate() {
   if (!fs.existsSync(contentDir)) {
     fail(`content directory not found: ${contentDir}`);
@@ -121,6 +136,7 @@ function generate() {
       date: String(data.date),
       cover: data.cover,
       coverPosition: data.coverPosition || undefined,
+      sources: parseSources(data.sources, file),
       ja: {
         category: data.category_ja,
         subcategory: data.subcategory_ja || undefined,

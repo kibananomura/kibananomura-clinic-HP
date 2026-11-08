@@ -9,6 +9,11 @@ title_ja: 健診結果の「正常の上限」、どう考える？
 title_en: Your checkup came back "normal, but at the upper edge" — what does that mean?
 excerpt_ja: 「周りの友達が薬を飲み始めたけど、私も必要なのかな」。健診では異常なしだったのに、そんな不安を抱えて相談に来られた70代の患者さんのお話です。
 excerpt_en: My friends have started taking medication, so do I need to as well — a patient in her 70s I once treated came to me with exactly that worry, even though her checkup had come back with no abnormalities.
+sources:
+  - label: "日本高血圧学会「高血圧管理・治療ガイドライン2025」"
+    url: "https://www.jpnsh.jp/guideline.html"
+  - label: "日本動脈硬化学会「動脈硬化性疾患予防ガイドライン2022年版」"
+    url: "https://www.j-athero.org/jp/jas_gl2022/"
 ---
 
 ## ja

@@ -9,6 +9,9 @@ title_ja: 「上はいいのに、下だけ下がらない」のはなぜ？〜�
 title_en: “My top number is fine, so why won't the bottom one come down?” — the two numbers measure different things
 excerpt_ja: 「薬で上は下がったのに、下がなかなか下がらないんです」。上と下の血圧は、実は体の別々の働きを映しています。
 excerpt_en: “The medicine brought my top number down, but the bottom one just won't budge.” The two numbers actually reflect two different parts of how your body works.
+sources:
+  - label: "日本高血圧学会「高血圧管理・治療ガイドライン2025」"
+    url: "https://www.jpnsh.jp/guideline.html"
 ---
 
 ## ja

@@ -9,6 +9,9 @@ title_ja: プリン体って、あの「プリン」と関係あるの？〜名�
 title_en: Do purines have anything to do with pudding? — where the name comes from, and what purine-rich foods have in common
 excerpt_ja: 「先生、プリンを食べすぎると痛風になるんですか？」——実は、プリン体とデザートのプリンは、名前が似ているだけのまったくの別物です。
 excerpt_en: “Doctor, can eating too much pudding give me gout?” In fact, purines and the dessert called “purin” in Japanese just happen to sound alike — they're completely different things.
+sources:
+  - label: "日本痛風・尿酸核酸学会「高尿酸血症・痛風の治療ガイドライン第3版」"
+    url: "https://minds.jcqhc.or.jp/summary/c00476/"
 ---
 
 <!--

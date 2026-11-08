@@ -9,6 +9,9 @@ title_ja: 「生活習慣病」のレッテルで、ご自身を責めないで�
 title_en: Please don't blame yourself for the label "lifestyle disease"
 excerpt_ja: 「不摂生のせいでこの数値になったんですよね……」そう肩を落とす方に、お伝えしたいことがあります。実は、生活習慣とは関係なく起こる高血圧・糖尿病・脂質異常症もあるのです。
 excerpt_en: This number is my own fault for not taking care of myself, isn't it — I want to tell the people who say this something important. Some cases of high blood pressure, diabetes, and dyslipidemia have nothing to do with lifestyle at all.
+sources:
+  - label: "厚生省 公衆衛生審議会「生活習慣に着目した疾病対策の基本的方向性について（意見具申）」（1996年）"
+    url: "https://www.mhlw.go.jp/www1/houdou/0812/1217-4.html"
 ---
 
 ## ja

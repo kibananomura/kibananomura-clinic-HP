@@ -9,6 +9,9 @@ title_ja: 痛風発作は「尿酸値が上がる時」と「下がる時」、�
 title_en: Do gout attacks happen when uric acid goes up, or when it comes down? — the key turns out to be “sudden change”
 excerpt_ja: 「薬で尿酸値を下げ始めたのに、かえって痛風発作が起きた」——実は痛風発作は、尿酸値が急に下がったときにも起きやすいのです。
 excerpt_en: “I started medicine to lower my uric acid, and then I had a gout attack.” In fact, gout attacks also tend to happen when uric acid drops quickly.
+sources:
+  - label: "日本痛風・尿酸核酸学会「高尿酸血症・痛風の治療ガイドライン第3版」"
+    url: "https://minds.jcqhc.or.jp/summary/c00476/"
 ---
 
 <!--

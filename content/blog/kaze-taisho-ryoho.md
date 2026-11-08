@@ -9,6 +9,13 @@ title_ja: 風邪の抗生剤、実は「未来の免疫力」まで削ってい�
 title_en: That antibiotic for your cold might be borrowing against your future immunity
 excerpt_ja: 「風邪に抗生剤は効かない」——もうご存じの方も多いかもしれません。では、「効かないだけでなく、実は損をしている」としたらどうでしょうか。
 excerpt_en: Antibiotics don't work on colds — many of you probably already know that. But what if taking them anyway didn't just fail to help, but actually cost you something?
+sources:
+  - label: "厚生労働省「抗微生物薬適正使用の手引き 第二版」"
+    url: "https://www.mhlw.go.jp/content/10900000/000573655.pdf"
+  - label: "Jernberg C, et al. Long-term ecological impacts of antibiotic administration on the human intestinal microbiota. ISME J. 2007;1:56-66"
+    url: "https://doi.org/10.1038/ismej.2007.3"
+  - label: "Dethlefsen L, Relman DA. Incomplete recovery and individualized responses of the human distal gut microbiota to repeated antibiotic perturbation. PNAS. 2011;108 Suppl 1:4554-4561"
+    url: "https://doi.org/10.1073/pnas.1000087107"
 ---
 
 ## ja

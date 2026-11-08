@@ -9,6 +9,9 @@ title_ja: 血圧はもう正常なのに、どうして薬を飲み続けるの�
 title_en: My blood pressure is normal now — so why do I still need to take my medicine? — the difference between “cured” and “held steady by medicine”
 excerpt_ja: 「先生、血圧が正常に安定しているのだから、もう薬をやめてもいいですか？」。そう思うのは、治療がうまくいっている証拠でもあります。
 excerpt_en: “Doctor, my blood pressure has been normal and stable — can I stop the medicine now?” Wondering that is actually a sign your treatment is working.
+sources:
+  - label: "日本高血圧学会「高血圧管理・治療ガイドライン2025」"
+    url: "https://www.jpnsh.jp/guideline.html"
 ---
 
 ## ja

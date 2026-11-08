@@ -9,6 +9,9 @@ title_ja: 血圧が低いけれど、お薬を減らしても大丈夫？〜減�
 title_en: My blood pressure is running low — is it okay to cut back on medication?
 excerpt_ja: 「最近、家で測ると100を切るんです……薬、減らしたほうがいいですか？」最近そうご質問いただくことが増えました。減薬の目安と、よくある不安についてお話しします。
 excerpt_en: My home readings have been dipping under 100 lately — should I cut back on my medication? Here's how I think about the signs to watch for, and the worries that come with them.
+sources:
+  - label: "日本高血圧学会「高血圧管理・治療ガイドライン2025」"
+    url: "https://www.jpnsh.jp/guideline.html"
 ---
 
 ## ja

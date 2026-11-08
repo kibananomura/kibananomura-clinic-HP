@@ -9,6 +9,9 @@ title_ja: 生活習慣病の本当の治療は、診察室の外にあります
 title_en: The real treatment for lifestyle diseases happens outside the consultation room
 excerpt_ja: 「薬は毎日飲んでいるのに、数値がなかなか良くならない」——その答えは、お薬の外、毎日の暮らしの中にあるかもしれません。
 excerpt_en: “I take my medicine every day, but my numbers just won't improve” — the answer may lie outside the pills, in your daily life.
+sources:
+  - label: "Crum AJ, Langer EJ. Mind-set matters: exercise and the placebo effect. Psychol Sci. 2007;18:165-171"
+    url: "https://doi.org/10.1111/j.1467-9280.2007.01867.x"
 ---
 
 ## ja

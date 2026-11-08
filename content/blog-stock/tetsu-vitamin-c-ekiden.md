@@ -9,6 +9,11 @@ title_ja: 鉄分をとっているのに、貧血が良くならない？〜カ�
 title_en: Taking iron, but your anemia isn't improving? — vitamin C is the key, plus why young runners often become anemic and a simple eyelid self-check
 excerpt_ja: 「貧血なので、鉄分をたくさんとっています！」——その心がけ、ちょっとした組み合わせの工夫で、もっと生かせるかもしれません。
 excerpt_en: “I'm anemic, so I'm getting lots of iron!” A small change in what you pair it with may help that effort go further.
+sources:
+  - label: "日本鉄バイオサイエンス学会「鉄欠乏性貧血の診療指針」（2024年改訂）"
+  - label: "Hallberg L, et al. Iron absorption in man: ascorbic acid and dose-dependent inhibition by phytate. Am J Clin Nutr. 1989;49:140-144"
+    url: "https://doi.org/10.1093/ajcn/49.1.140"
+  - label: "日本陸上競技連盟「アスリートの貧血対処7か条」（2016年）"
 ---
 
 <!--

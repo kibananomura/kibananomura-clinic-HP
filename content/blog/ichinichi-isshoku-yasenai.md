@@ -9,6 +9,9 @@ title_ja: 1日一食しか食べてないのに痩せないあなたへ
 title_en: To everyone who eats only one meal a day and still can't lose weight
 excerpt_ja: 「1日1食しか食べていないのに、体重計の数字がびくともしない」——その原因は意志の弱さではなく、体が切り替えた「省エネモード」かもしれません。
 excerpt_en: “I only eat one meal a day, and the scale won't budge” — the cause may not be weak willpower, but the “energy-saving mode” your body has switched into.
+sources:
+  - label: "厚生労働省「日本人の食事摂取基準（2025年版）」"
+    url: "https://www.mhlw.go.jp/stf/newpage_44138.html"
 ---
 
 ## ja

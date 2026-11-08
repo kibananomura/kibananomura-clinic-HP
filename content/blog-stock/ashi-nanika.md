@@ -9,6 +9,13 @@ title_ja: 足が痛い、むくむ。でも、何科に行けばいいの？〜�
 title_en: My feet hurt and swell — but which department should I see? — Japan's late start in “foot medicine,” and tips for getting care
 excerpt_ja: 足の痛み、しびれ、むくみ、タコ、爪のトラブル。「何科に行けばいいのか分からなくて」と、我慢していませんか。
 excerpt_en: Foot pain, numbness, swelling, calluses, nail problems — are you putting up with them because you don't know where to go?
+sources:
+  - label: "日本フットケア・足病医学会「学会について」"
+    url: "https://jfcpm.org/outline.html"
+  - label: "日本フットケア・足病医学会「重症化予防のための足病診療ガイドライン」"
+    url: "https://jfcpm.org/guideline.html"
+  - label: "日本循環器学会・日本血管外科学会「2022年改訂版 末梢動脈疾患ガイドライン」"
+    url: "https://www.j-circ.or.jp/cms/wp-content/uploads/2022/03/JCS2022_Azuma.pdf"
 ---
 
 <!--

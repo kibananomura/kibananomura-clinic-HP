@@ -9,6 +9,11 @@ title_ja: 毎日のトマトジュース、実は逆効果かもしれません
 title_en: Your daily tomato juice might be working against you
 excerpt_ja: 「健康のために、毎朝トマトジュースで野菜をとっています」。とても素敵な習慣ですが、実はその一杯、コレステロールには◎でも中性脂肪には注意が必要かもしれません。
 excerpt_en: I drink tomato juice every morning instead of vegetables, for my health — a lovely habit, but that glass may be great for cholesterol while working against your triglycerides.
+sources:
+  - label: "日本動脈硬化学会「動脈硬化性疾患予防ガイドライン2022年版」"
+    url: "https://www.j-athero.org/jp/jas_gl2022/"
+  - label: "文部科学省「日本食品標準成分表（八訂）増補2023年」"
+    url: "https://www.mext.go.jp/a_menu/syokuhinseibun/mext_01110.html"
 ---
 
 ## ja

@@ -9,6 +9,11 @@ title_ja: ご飯を減らしても痩せないのはなぜ？〜40代からは�
 title_en: Eating less but not losing weight? After 40, it's about adding, not subtracting
 excerpt_ja: 実は、食べたカロリーの2〜3割が、消化のときに熱として使われる栄養素があります。年齢とともに痩せにくくなる本当の理由と、その栄養素の話です。
 excerpt_en: There's one nutrient where 20–30% of its calories are burned off as heat during digestion. Here's the real reason weight gets harder to lose with age — and why that nutrient matters.
+sources:
+  - label: "Kortebein P, et al. Effect of 10 days of bed rest on skeletal muscle in healthy older adults. JAMA. 2007;297:1772-1774"
+    url: "https://doi.org/10.1001/jama.297.16.1772-b"
+  - label: "Westerterp KR. Diet induced thermogenesis. Nutr Metab (Lond). 2004;1:5"
+    url: "https://doi.org/10.1186/1743-7075-1-5"
 ---
 
 ## ja

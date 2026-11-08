@@ -9,6 +9,11 @@ title_ja: すり傷に消毒、実は逆効果？——「洗って、乾かさ�
 title_en: Is disinfecting a scrape actually counterproductive? Why “wash it, and don't let it dry out” heals faster and cleaner
 excerpt_ja: 転んですりむいたとき、つい赤茶色の消毒薬を塗って「乾かさなきゃ」と思っていませんか。良かれと思ったその手当て、実は傷の治りを遅らせているかもしれません。
 excerpt_en: When you scrape yourself, do you reach for the reddish-brown antiseptic and try to “let it dry out”? That well-meant first aid may actually be slowing your healing.
+sources:
+  - label: "日本創傷外科学会「創傷関連ガイドライン 第Ⅰ編 急性創傷診療ガイドライン」"
+    url: "https://www.jsswc.or.jp/guideline.html"
+  - label: "Winter GD. Formation of the scab and the rate of epithelization of superficial wounds in the skin of the young domestic pig. Nature. 1962;193:293-294"
+    url: "https://doi.org/10.1038/193293a0"
 ---
 
 ## ja

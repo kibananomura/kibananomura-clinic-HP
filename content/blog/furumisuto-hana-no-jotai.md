@@ -9,6 +9,10 @@ title_ja: 鼻からのインフルエンザワクチン「フルミスト」、�
 title_en: FluMist, the nasal-spray flu vaccine — is it okay with a runny nose?
 excerpt_ja: 「注射が苦手な子にスプレーのワクチンがあるって聞いたんですが」——そうご質問いただくことが増えました。実はこのワクチン、鼻の状態によって効果が左右されることがあるのです。
 excerpt_en: “I heard there's a spray vaccine for kids who hate needles” — I've been hearing this more and more. What many people don't know is that how well it works can depend on the condition of your nose.
+sources:
+  - label: "PMDA「フルミスト点鼻液」添付文書"
+    url: "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/430574_631370AR1026_1_06"
+  - label: "日本小児科学会「経鼻弱毒生インフルエンザワクチンの使用に関する考え方」"
 ---
 
 ## ja

@@ -136,6 +136,12 @@ export const generatedPosts: BlogPost[] = [
     "slug": "kansen-2026-07",
     "date": "2026.08.05",
     "cover": "/blog/kibana-landscape.jpg",
+    "sources": [
+      {
+        "label": "宮崎県衛生環境研究所 感染症情報センター「宮崎県感染症発生動向調査」",
+        "url": "https://www.pref.miyazaki.lg.jp/contents/org/fukushi/eikanken/center/infectious/"
+      }
+    ],
     "ja": {
       "category": "健康・予防の話",
       "subcategory": "感染症・ワクチン",
@@ -1051,6 +1057,20 @@ export const generatedPosts: BlogPost[] = [
     "slug": "ikamera-nansai-kara",
     "date": "2026.09.30",
     "cover": "/blog/kibana-landscape.jpg",
+    "sources": [
+      {
+        "label": "厚生労働省「がん検診（胃がん検診）」がん対策推進企業アクション",
+        "url": "https://www.gankenshin50.mhlw.go.jp/screening/kind_stomach.html"
+      },
+      {
+        "label": "国立がん研究センター がん情報サービス「胃がん検診」リーフレット",
+        "url": "https://ganjoho.jp/public/qa_links/brochure/leaflet/pdf/scr_stomach.pdf"
+      },
+      {
+        "label": "日本ヘリコバクター学会「H. pylori感染の診断と治療のガイドライン」",
+        "url": "https://minds.jcqhc.or.jp/guidelines_kind/h-pylori%E6%84%9F%E6%9F%93/"
+      }
+    ],
     "ja": {
       "category": "健康・予防の話",
       "subcategory": "胃腸・消化器",
@@ -1320,6 +1340,12 @@ export const generatedPosts: BlogPost[] = [
     "slug": "kaicho-mattan-en",
     "date": "2026.10.01",
     "cover": "/blog/kibana-landscape.jpg",
+    "sources": [
+      {
+        "label": "日本腹部救急医学会ほか「急性腹症診療ガイドライン2015」",
+        "url": "https://minds.jcqhc.or.jp/guidelines_kind/%E6%80%A5%E6%80%A7%E8%85%B9%E7%97%87/"
+      }
+    ],
     "ja": {
       "category": "健康・予防の話",
       "subcategory": "胃腸・消化器",
@@ -1613,6 +1639,15 @@ export const generatedPosts: BlogPost[] = [
     "slug": "hai-kousankin",
     "date": "2026.10.02",
     "cover": "/blog/kibana-landscape.jpg",
+    "sources": [
+      {
+        "label": "日本結核・非結核性抗酸菌症学会「成人肺非結核性抗酸菌症化学療法に関する見解―2023年改訂」"
+      },
+      {
+        "label": "Namkoong H, et al. Epidemiology of Pulmonary Nontuberculous Mycobacterial Disease, Japan. Emerg Infect Dis. 2016;22:1116-1117",
+        "url": "https://doi.org/10.3201/eid2206.151086"
+      }
+    ],
     "ja": {
       "category": "健康・予防の話",
       "subcategory": "肺・呼吸器",
@@ -1954,6 +1989,15 @@ export const generatedPosts: BlogPost[] = [
     "slug": "hai-ntm-sho",
     "date": "2026.10.03",
     "cover": "/blog/kibana-landscape.jpg",
+    "sources": [
+      {
+        "label": "日本結核・非結核性抗酸菌症学会「成人肺非結核性抗酸菌症化学療法に関する見解―2023年改訂」"
+      },
+      {
+        "label": "Namkoong H, et al. Epidemiology of Pulmonary Nontuberculous Mycobacterial Disease, Japan. Emerg Infect Dis. 2016;22:1116-1117",
+        "url": "https://doi.org/10.3201/eid2206.151086"
+      }
+    ],
     "ja": {
       "category": "健康・予防の話",
       "subcategory": "肺・呼吸器",
@@ -2319,6 +2363,12 @@ export const generatedPosts: BlogPost[] = [
     "slug": "kouatsu-genryou-fuan",
     "date": "2026.10.04",
     "cover": "/blog/kibana-landscape.jpg",
+    "sources": [
+      {
+        "label": "日本高血圧学会「高血圧管理・治療ガイドライン2025」",
+        "url": "https://www.jpnsh.jp/guideline.html"
+      }
+    ],
     "ja": {
       "category": "健康・予防の話",
       "subcategory": "血圧",
@@ -2476,6 +2526,20 @@ export const generatedPosts: BlogPost[] = [
     "slug": "statin-kinniku-houkai",
     "date": "2026.10.05",
     "cover": "/blog/kibana-landscape.jpg",
+    "sources": [
+      {
+        "label": "日本動脈硬化学会「動脈硬化性疾患予防ガイドライン2022年版」",
+        "url": "https://www.j-athero.org/jp/jas_gl2022/"
+      },
+      {
+        "label": "Cholesterol Treatment Trialists' Collaboration. Effect of statin therapy on muscle symptoms. Lancet. 2022;400:832-845",
+        "url": "https://doi.org/10.1016/S0140-6736(22)01545-8"
+      },
+      {
+        "label": "Vieira-Silva S, et al. Statin therapy is associated with lower prevalence of gut microbiota dysbiosis. Nature. 2020;581:310-315",
+        "url": "https://doi.org/10.1038/s41586-020-2269-x"
+      }
+    ],
     "ja": {
       "category": "健康・予防の話",
       "subcategory": "コレステロール・尿酸",
@@ -2641,6 +2705,16 @@ export const generatedPosts: BlogPost[] = [
     "slug": "tomato-juice-ryouba",
     "date": "2026.10.06",
     "cover": "/blog/kibana-landscape.jpg",
+    "sources": [
+      {
+        "label": "日本動脈硬化学会「動脈硬化性疾患予防ガイドライン2022年版」",
+        "url": "https://www.j-athero.org/jp/jas_gl2022/"
+      },
+      {
+        "label": "文部科学省「日本食品標準成分表（八訂）増補2023年」",
+        "url": "https://www.mext.go.jp/a_menu/syokuhinseibun/mext_01110.html"
+      }
+    ],
     "ja": {
       "category": "健康・予防の話",
       "subcategory": "コレステロール・尿酸",
@@ -3039,6 +3113,12 @@ export const generatedPosts: BlogPost[] = [
     "slug": "mainichi-chigau-mono",
     "date": "2026.10.10",
     "cover": "/blog/kibana-landscape.jpg",
+    "sources": [
+      {
+        "label": "厚生労働省「日本人の食事摂取基準（2025年版）」",
+        "url": "https://www.mhlw.go.jp/stf/newpage_44138.html"
+      }
+    ],
     "ja": {
       "category": "健康・予防の話",
       "subcategory": "食事・運動",
@@ -3757,6 +3837,15 @@ export const generatedPosts: BlogPost[] = [
     "slug": "zensoku-chiryo",
     "date": "2026.10.16",
     "cover": "/blog/kibana-landscape.jpg",
+    "sources": [
+      {
+        "label": "日本アレルギー学会「喘息予防・管理ガイドライン2024」"
+      },
+      {
+        "label": "日本小児アレルギー学会「小児気管支喘息治療・管理ガイドライン2023（JPGL2023）」",
+        "url": "https://minds.jcqhc.or.jp/summary/c00825/"
+      }
+    ],
     "ja": {
       "category": "健康・予防の話",
       "subcategory": "肺・呼吸器",
@@ -3906,6 +3995,12 @@ export const generatedPosts: BlogPost[] = [
     "slug": "seikatsu-shukanbyo-gokai",
     "date": "2026.10.17",
     "cover": "/blog/kibana-landscape.jpg",
+    "sources": [
+      {
+        "label": "厚生省 公衆衛生審議会「生活習慣に着目した疾病対策の基本的方向性について（意見具申）」（1996年）",
+        "url": "https://www.mhlw.go.jp/www1/houdou/0812/1217-4.html"
+      }
+    ],
     "ja": {
       "category": "健康・予防の話",
       "subcategory": "生活習慣病との付き合い方",
@@ -4015,6 +4110,20 @@ export const generatedPosts: BlogPost[] = [
     "slug": "kusuri-yamerarenai",
     "date": "2026.10.18",
     "cover": "/blog/kibana-landscape.jpg",
+    "sources": [
+      {
+        "label": "日本高血圧学会「高血圧管理・治療ガイドライン2025」",
+        "url": "https://www.jpnsh.jp/guideline.html"
+      },
+      {
+        "label": "日本動脈硬化学会「動脈硬化性疾患予防ガイドライン2022年版」",
+        "url": "https://www.j-athero.org/jp/jas_gl2022/"
+      },
+      {
+        "label": "日本糖尿病学会「糖尿病診療ガイドライン2024」",
+        "url": "https://minds.jcqhc.or.jp/summary/c00864/"
+      }
+    ],
     "ja": {
       "category": "健康・予防の話",
       "subcategory": "生活習慣病との付き合い方",
@@ -4140,6 +4249,12 @@ export const generatedPosts: BlogPost[] = [
     "slug": "ppi-chouki-fukuyou",
     "date": "2026.10.19",
     "cover": "/blog/kibana-landscape.jpg",
+    "sources": [
+      {
+        "label": "日本消化器病学会「胃食道逆流症（GERD）診療ガイドライン」",
+        "url": "https://minds.jcqhc.or.jp/summary/c00644/"
+      }
+    ],
     "ja": {
       "category": "健康・予防の話",
       "subcategory": "胃腸・消化器",
@@ -4281,6 +4396,20 @@ export const generatedPosts: BlogPost[] = [
     "slug": "kaze-taisho-ryoho",
     "date": "2026.10.20",
     "cover": "/blog/kibana-landscape.jpg",
+    "sources": [
+      {
+        "label": "厚生労働省「抗微生物薬適正使用の手引き 第二版」",
+        "url": "https://www.mhlw.go.jp/content/10900000/000573655.pdf"
+      },
+      {
+        "label": "Jernberg C, et al. Long-term ecological impacts of antibiotic administration on the human intestinal microbiota. ISME J. 2007;1:56-66",
+        "url": "https://doi.org/10.1038/ismej.2007.3"
+      },
+      {
+        "label": "Dethlefsen L, Relman DA. Incomplete recovery and individualized responses of the human distal gut microbiota to repeated antibiotic perturbation. PNAS. 2011;108 Suppl 1:4554-4561",
+        "url": "https://doi.org/10.1073/pnas.1000087107"
+      }
+    ],
     "ja": {
       "category": "健康・予防の話",
       "subcategory": "感染症・ワクチン",
@@ -4446,6 +4575,12 @@ export const generatedPosts: BlogPost[] = [
     "slug": "influenza-vaccine-mayoi",
     "date": "2026.10.21",
     "cover": "/blog/kibana-landscape.jpg",
+    "sources": [
+      {
+        "label": "厚生労働省「インフルエンザ（総合ページ）」",
+        "url": "https://www.mhlw.go.jp/bunya/kenkou/influenza/"
+      }
+    ],
     "ja": {
       "category": "健康・予防の話",
       "subcategory": "感染症・ワクチン",
@@ -4547,6 +4682,16 @@ export const generatedPosts: BlogPost[] = [
     "slug": "seijou-no-jouge-fuan",
     "date": "2026.10.22",
     "cover": "/blog/kibana-landscape.jpg",
+    "sources": [
+      {
+        "label": "日本高血圧学会「高血圧管理・治療ガイドライン2025」",
+        "url": "https://www.jpnsh.jp/guideline.html"
+      },
+      {
+        "label": "日本動脈硬化学会「動脈硬化性疾患予防ガイドライン2022年版」",
+        "url": "https://www.j-athero.org/jp/jas_gl2022/"
+      }
+    ],
     "ja": {
       "category": "健康・予防の話",
       "subcategory": "健診・検査",
@@ -4797,6 +4942,15 @@ export const generatedPosts: BlogPost[] = [
     "slug": "furumisuto-hana-no-jotai",
     "date": "2026.10.24",
     "cover": "/blog/kibana-landscape.jpg",
+    "sources": [
+      {
+        "label": "PMDA「フルミスト点鼻液」添付文書",
+        "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/430574_631370AR1026_1_06"
+      },
+      {
+        "label": "日本小児科学会「経鼻弱毒生インフルエンザワクチンの使用に関する考え方」"
+      }
+    ],
     "ja": {
       "category": "健康・予防の話",
       "subcategory": "感染症・ワクチン",
@@ -4970,6 +5124,11 @@ export const generatedPosts: BlogPost[] = [
     "slug": "legionella",
     "date": "2026.10.25",
     "cover": "/blog/kibana-landscape.jpg",
+    "sources": [
+      {
+        "label": "厚生労働省「公衆浴場における衛生等管理要領」「レジオネラ症防止指針」"
+      }
+    ],
     "ja": {
       "category": "健康・予防の話",
       "subcategory": "感染症・ワクチン",
@@ -5279,6 +5438,16 @@ export const generatedPosts: BlogPost[] = [
     "slug": "kizu-shoudoku",
     "date": "2026.10.26",
     "cover": "/blog/kibana-landscape.jpg",
+    "sources": [
+      {
+        "label": "日本創傷外科学会「創傷関連ガイドライン 第Ⅰ編 急性創傷診療ガイドライン」",
+        "url": "https://www.jsswc.or.jp/guideline.html"
+      },
+      {
+        "label": "Winter GD. Formation of the scab and the rate of epithelization of superficial wounds in the skin of the young domestic pig. Nature. 1962;193:293-294",
+        "url": "https://doi.org/10.1038/193293a0"
+      }
+    ],
     "ja": {
       "category": "健康・予防の話",
       "subcategory": "けが・外科",
@@ -5596,6 +5765,12 @@ export const generatedPosts: BlogPost[] = [
     "slug": "ichinichi-isshoku-yasenai",
     "date": "2026.10.29",
     "cover": "/blog/kibana-landscape.jpg",
+    "sources": [
+      {
+        "label": "厚生労働省「日本人の食事摂取基準（2025年版）」",
+        "url": "https://www.mhlw.go.jp/stf/newpage_44138.html"
+      }
+    ],
     "ja": {
       "category": "健康・予防の話",
       "subcategory": "食事・運動",
@@ -6092,6 +6267,12 @@ export const generatedPosts: BlogPost[] = [
     "slug": "hontou-no-chiryou",
     "date": "2026.10.31",
     "cover": "/blog/kibana-landscape.jpg",
+    "sources": [
+      {
+        "label": "Crum AJ, Langer EJ. Mind-set matters: exercise and the placebo effect. Psychol Sci. 2007;18:165-171",
+        "url": "https://doi.org/10.1111/j.1467-9280.2007.01867.x"
+      }
+    ],
     "ja": {
       "category": "健康・予防の話",
       "subcategory": "生活習慣病との付き合い方",
@@ -6361,6 +6542,12 @@ export const generatedPosts: BlogPost[] = [
     "slug": "senna-choukirenyou",
     "date": "2026.11.01",
     "cover": "/blog/kibana-landscape.jpg",
+    "sources": [
+      {
+        "label": "日本消化管学会「便通異常症診療ガイドライン2023－慢性便秘症」",
+        "url": "https://minds.jcqhc.or.jp/summary/c00812/"
+      }
+    ],
     "ja": {
       "category": "健康・予防の話",
       "subcategory": "胃腸・消化器",
@@ -6630,6 +6817,12 @@ export const generatedPosts: BlogPost[] = [
     "slug": "kyonen-no-allergy-kusuri",
     "date": "2026.11.02",
     "cover": "/blog/kibana-landscape.jpg",
+    "sources": [
+      {
+        "label": "日本鼻科学会「鼻アレルギー診療ガイドライン－通年性鼻炎と花粉症－2024年版（改訂第10版）」",
+        "url": "https://minds.jcqhc.or.jp/guidelines_kind/%E9%BC%BB%E3%82%A2%E3%83%AC%E3%83%AB%E3%82%AE%E3%83%BC/"
+      }
+    ],
     "ja": {
       "category": "健康・予防の話",
       "subcategory": "アレルギー・花粉症",
@@ -7198,6 +7391,12 @@ export const generatedPosts: BlogPost[] = [
     "slug": "yasete-iru-noni-ldl",
     "date": "2026.11.03",
     "cover": "/blog/kibana-landscape.jpg",
+    "sources": [
+      {
+        "label": "日本動脈硬化学会「動脈硬化性疾患予防ガイドライン2022年版」",
+        "url": "https://www.j-athero.org/jp/jas_gl2022/"
+      }
+    ],
     "ja": {
       "category": "健康・予防の話",
       "subcategory": "コレステロール・尿酸",
@@ -7395,6 +7594,12 @@ export const generatedPosts: BlogPost[] = [
     "slug": "shita-no-ketsuatsu",
     "date": "2026.11.04",
     "cover": "/blog/kibana-landscape.jpg",
+    "sources": [
+      {
+        "label": "日本高血圧学会「高血圧管理・治療ガイドライン2025」",
+        "url": "https://www.jpnsh.jp/guideline.html"
+      }
+    ],
     "ja": {
       "category": "健康・予防の話",
       "subcategory": "血圧",
@@ -7560,6 +7765,16 @@ export const generatedPosts: BlogPost[] = [
     "slug": "herashitemo-yasenai",
     "date": "2026.11.05",
     "cover": "/blog/kibana-landscape.jpg",
+    "sources": [
+      {
+        "label": "Kortebein P, et al. Effect of 10 days of bed rest on skeletal muscle in healthy older adults. JAMA. 2007;297:1772-1774",
+        "url": "https://doi.org/10.1001/jama.297.16.1772-b"
+      },
+      {
+        "label": "Westerterp KR. Diet induced thermogenesis. Nutr Metab (Lond). 2004;1:5",
+        "url": "https://doi.org/10.1186/1743-7075-1-5"
+      }
+    ],
     "ja": {
       "category": "健康・予防の話",
       "subcategory": "食事・運動",
@@ -7829,6 +8044,16 @@ export const generatedPosts: BlogPost[] = [
     "slug": "hotai-card",
     "date": "2026.11.06",
     "cover": "/blog/kibana-landscape.jpg",
+    "sources": [
+      {
+        "label": "Walport MJ. Complement. N Engl J Med. 2001;344:1058-1066",
+        "url": "https://doi.org/10.1056/NEJM200104053441406"
+      },
+      {
+        "label": "Rodriguez-Iturbe B, Musser JM. The current state of poststreptococcal glomerulonephritis. J Am Soc Nephrol. 2008;19:1855-1864",
+        "url": "https://doi.org/10.1681/ASN.2008010092"
+      }
+    ],
     "ja": {
       "category": "健康・予防の話",
       "subcategory": "感染症・ワクチン",
@@ -8058,6 +8283,12 @@ export const generatedPosts: BlogPost[] = [
     "slug": "kouatsu-kusuri-tsuzukeru",
     "date": "2026.11.07",
     "cover": "/blog/kibana-landscape.jpg",
+    "sources": [
+      {
+        "label": "日本高血圧学会「高血圧管理・治療ガイドライン2025」",
+        "url": "https://www.jpnsh.jp/guideline.html"
+      }
+    ],
     "ja": {
       "category": "健康・予防の話",
       "subcategory": "血圧",
@@ -8263,6 +8494,19 @@ export const generatedPosts: BlogPost[] = [
     "slug": "shibire-shinkei-saisei",
     "date": "2026.11.08",
     "cover": "/blog/kibana-landscape.jpg",
+    "sources": [
+      {
+        "label": "Menorca RMG, et al. Nerve physiology: mechanisms of injury and recovery. Hand Clin. 2013;29:317-330",
+        "url": "https://doi.org/10.1016/j.hcl.2013.04.002"
+      },
+      {
+        "label": "日本整形外科学会・日本脊椎脊髄病学会「腰部脊柱管狭窄症診療ガイドライン2021（改訂第2版）」",
+        "url": "https://minds.jcqhc.or.jp/summary/c00646/"
+      },
+      {
+        "label": "日本整形外科学会・日本脊椎脊髄病学会「腰椎椎間板ヘルニア診療ガイドライン2021（改訂第3版）」"
+      }
+    ],
     "ja": {
       "category": "健康・予防の話",
       "subcategory": "腰・関節・神経",

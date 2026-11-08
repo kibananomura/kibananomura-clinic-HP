@@ -9,6 +9,10 @@ title_ja: 「調子がいいから薬やめました」でぜんそくが怖い�
 title_en: Why stopping asthma medicine when you feel fine can be risky
 excerpt_ja: 「症状がないのに、なぜ薬を続けなきゃいけないの？」——実は医師も昔はそう考えていました。ぜんそく治療の考え方がこの数十年でどう変わったか、お話しします。
 excerpt_en: Why keep taking medicine when you have no symptoms at all? Doctors used to think the same thing. Here's how asthma treatment has changed over the past few decades.
+sources:
+  - label: "日本アレルギー学会「喘息予防・管理ガイドライン2024」"
+  - label: "日本小児アレルギー学会「小児気管支喘息治療・管理ガイドライン2023（JPGL2023）」"
+    url: "https://minds.jcqhc.or.jp/summary/c00825/"
 ---
 
 ## ja

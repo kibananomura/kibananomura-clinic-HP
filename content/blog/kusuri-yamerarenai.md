@@ -9,6 +9,13 @@ title_ja: 「お薬は一生やめられない」は誤解です
 title_en: "'Once you start, you can never stop' is a myth"
 excerpt_ja: 「このお薬、一度始めたらもう一生やめられないんですよね……？」これまでの外来でとてもよく聞かれてきた質問です。その答えは、実は「いいえ」です。
 excerpt_en: Once I start this medication, I can never stop, right? It's a question I've heard all the time, throughout my career. The real answer is actually no.
+sources:
+  - label: "日本高血圧学会「高血圧管理・治療ガイドライン2025」"
+    url: "https://www.jpnsh.jp/guideline.html"
+  - label: "日本動脈硬化学会「動脈硬化性疾患予防ガイドライン2022年版」"
+    url: "https://www.j-athero.org/jp/jas_gl2022/"
+  - label: "日本糖尿病学会「糖尿病診療ガイドライン2024」"
+    url: "https://minds.jcqhc.or.jp/summary/c00864/"
 ---
 
 ## ja

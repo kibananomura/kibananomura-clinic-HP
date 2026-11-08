@@ -9,6 +9,13 @@ title_ja: その足のタコや小さな傷、「たかが」で済ませてい�
 title_en: Are you brushing off those calluses and small cuts on your feet? — your feet mirror your whole body: a self-check you can start today
 excerpt_ja: 足のタコやウオノメ、小さな傷。忙しいと、ついそのままにしてしまいますよね。でも、その小さなトラブルが、大切なサインのことがあります。
 excerpt_en: Calluses, corns and small cuts on your feet — when you're busy, it's easy to leave them be. But those small troubles can be important signs.
+sources:
+  - label: "日本フットケア・足病医学会「重症化予防のための足病診療ガイドライン」"
+    url: "https://jfcpm.org/guideline.html"
+  - label: "日本循環器学会・日本血管外科学会「2022年改訂版 末梢動脈疾患ガイドライン」"
+    url: "https://www.j-circ.or.jp/cms/wp-content/uploads/2022/03/JCS2022_Azuma.pdf"
+  - label: "日本糖尿病学会「糖尿病診療ガイドライン2024」"
+    url: "https://minds.jcqhc.or.jp/summary/c00864/"
 ---
 
 <!--

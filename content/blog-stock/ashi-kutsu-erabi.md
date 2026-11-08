@@ -9,6 +9,11 @@ title_ja: 足が痛いのは、年齢や遺伝のせい？〜外反母趾・扁�
 title_en: Is foot pain just age or genes? — the close link between bunions, flat feet and shoes, starting with how we choose children's shoes
 excerpt_ja: おしゃれな靴を履きたいのに、すぐ足が痛くなる。子どもの靴、どれを選べばいいのか分からない。その悩み、「靴」から見直すと変わるかもしれません。
 excerpt_en: You want to wear stylish shoes, but your feet soon start to hurt. You're not sure which shoes to choose for your child. Rethinking “shoes” may change things.
+sources:
+  - label: "日本フットケア・足病医学会『小児靴の手引き書 第二版 2024』"
+    url: "https://jfcpm.org/news/children_shoe_tebiki.html"
+  - label: "日本フットケア・足病医学会「学会について」"
+    url: "https://jfcpm.org/outline.html"
 ---
 
 <!--

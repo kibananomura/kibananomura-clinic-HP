@@ -9,6 +9,9 @@ title_ja: インフルエンザワクチン、打つべきか迷っているあ�
 title_en: Still unsure about the flu shot? Here's how to think about it
 excerpt_ja: 「打ってもかかる人はかかるって聞くし」「副反応も気になる」——そう迷いながら、結局決めきれずにいませんか。私が「ご自身がどうしたいかですよ」とお伝えしてきた、本当の理由をお話しします。
 excerpt_en: I hear people get the flu even after the shot, and the side effects worry me too — if that loop sounds familiar, here's the real reason I've always told patients the choice is ultimately theirs.
+sources:
+  - label: "厚生労働省「インフルエンザ（総合ページ）」"
+    url: "https://www.mhlw.go.jp/bunya/kenkou/influenza/"
 ---
 
 ## ja

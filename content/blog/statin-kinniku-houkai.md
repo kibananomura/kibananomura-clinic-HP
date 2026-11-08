@@ -9,6 +9,13 @@ title_ja: コレステロールの薬で、筋肉が溶けるって本当？〜�
 title_en: Can cholesterol medicine really "break down" your muscles? Questions about statins and the latest evidence
 excerpt_ja: 「コレステロールの薬を飲むと筋肉が溶ける」——ネットでそんな言葉を見て、薬をやめようか迷っていませんか。まず知っていただきたいのは、その不安のほとんどが誤解だということです。
 excerpt_en: “Cholesterol medicine dissolves your muscles” — have you seen that claim online and started wondering whether to stop your medication? The first thing to know is that most of that fear comes from a misunderstanding.
+sources:
+  - label: "日本動脈硬化学会「動脈硬化性疾患予防ガイドライン2022年版」"
+    url: "https://www.j-athero.org/jp/jas_gl2022/"
+  - label: "Cholesterol Treatment Trialists' Collaboration. Effect of statin therapy on muscle symptoms. Lancet. 2022;400:832-845"
+    url: "https://doi.org/10.1016/S0140-6736(22)01545-8"
+  - label: "Vieira-Silva S, et al. Statin therapy is associated with lower prevalence of gut microbiota dysbiosis. Nature. 2020;581:310-315"
+    url: "https://doi.org/10.1038/s41586-020-2269-x"
 ---
 
 ## ja

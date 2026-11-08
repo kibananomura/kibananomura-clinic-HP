@@ -91,3 +91,16 @@ subcategory_en: Stomach & digestion
 
 未公開の原稿（ストック）は content/blog-stock/ に置く（ここはサイトに読み込まれない）。公開するときは content/blog/ へ移して blog:gen。
 表示順は `app/blog/BlogPageClient.tsx` の `SUBCATEGORY_ORDER` で管理しています。
+
+## 参考にした資料（sources）
+
+記事の信頼性を示すため、根拠にしたガイドライン・論文・公的資料を frontmatter に書くと、記事の最後に「参考にした資料」として表示される（任意）。
+
+```yaml
+sources:
+  - label: "日本高血圧学会「高血圧管理・治療ガイドライン2025」"
+    url: "https://www.jpnsh.jp/guideline.html"
+  - label: "日本アレルギー学会「喘息予防・管理ガイドライン2024」"   # URLがなければ label だけでよい
+```
+
+URLは実際に開けることを確かめてから書く。論文は https://doi.org/… の形にする。
