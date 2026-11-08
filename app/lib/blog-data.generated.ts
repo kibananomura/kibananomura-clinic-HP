@@ -5579,6 +5579,10 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
+          "text": "健診の結果では、正直、説明に悩む項目もあります。たとえば、すい炎などで上がるアミラーゼや、心筋梗塞などで上がるCPKのように、病気を見つけるためというより、あとから「高かった」と分かる項目です。こうした数値は、激しい運動のあとや体質などでも上がることがあり、症状がなければ、すぐに病気というわけではありません。気になる数値があれば、その意味を一緒に確かめていきましょう。"
+        },
+        {
+          "kind": "text",
           "text": "### 「知っておく」という選択肢もあります"
         },
         {
@@ -5632,6 +5636,10 @@ export const generatedPosts: BlogPost[] = [
         {
           "kind": "text",
           "text": "Rather than reacting to the number alone, looking back together at the everyday habits behind that number lets a person understand, in their own words, why things are okay for now. I think that understanding is the real foundation for not being swayed by what everyone else around you is doing."
+        },
+        {
+          "kind": "text",
+          "text": "To be honest, some checkup items are hard to explain. Amylase, which rises with pancreatitis, and CPK, which rises with heart attacks, are examples — items that tend to show up as “high” after the fact rather than helping find a disease. These numbers can also rise after hard exercise or simply because of your constitution, so without symptoms, a high value doesn't immediately mean illness. If a number concerns you, let's check together what it means."
         },
         {
           "kind": "text",
@@ -5914,6 +5922,10 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
+          "text": "実際に、鼻炎があってフルミストを受けられないお子さんは、一定の割合でいらっしゃいます。"
+        },
+        {
+          "kind": "text",
           "text": "接種の当日に鼻水や鼻づまりがひどい場合は、無理をせず、症状が落ち着くまで**延期する**か、**注射のワクチンに切り替える**ことも選択肢のひとつです。「少し鼻水が出ているけれど、これくらいなら大丈夫かな」と迷ったときほど、遠慮なく医師に伝えてください。鼻の中の状態を確認したうえで、その日に接種してよいかを一緒に判断できます。"
         },
         {
@@ -6003,6 +6015,10 @@ export const generatedPosts: BlogPost[] = [
         {
           "kind": "text",
           "text": "If your child has allergic rhinitis, treating it beforehand to calm the symptoms helps FluMist work as intended."
+        },
+        {
+          "kind": "text",
+          "text": "In practice, a certain proportion of children can't receive FluMist because of rhinitis."
         },
         {
           "kind": "text",

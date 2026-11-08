@@ -30,6 +30,8 @@ sources:
 
 数値だけを見て一喜一憂するのではなく、その数値がどんな生活習慣の上に成り立っているのかを一緒に振り返ることで、ご本人が「なぜ今は大丈夫なのか」を自分の言葉で理解できるようになります。これが、周囲の声に振り回されないための、いちばんの土台になると感じています。
 
+健診の結果では、正直、説明に悩む項目もあります。たとえば、すい炎などで上がるアミラーゼや、心筋梗塞などで上がるCPKのように、病気を見つけるためというより、あとから「高かった」と分かる項目です。こうした数値は、激しい運動のあとや体質などでも上がることがあり、症状がなければ、すぐに病気というわけではありません。気になる数値があれば、その意味を一緒に確かめていきましょう。
+
 ### 「知っておく」という選択肢もあります
 
 お話をする中で、この患者さんは「自分の血管が実際どうなっているのか、一度きちんと知った上で、これからの生活を決めたい」とおっしゃいました。そういう場合には、体への負担が少ない血管の検査（血管の硬さを測る検査や、けい動脈のエコー検査など）で、動脈硬化（血管が硬く、狭くなること）の状態を客観的に確認するという選択肢もあります、とお伝えしています。
@@ -55,6 +57,8 @@ By the end of this post, you may find a useful way to think about the gap betwee
 Sitting at the upper edge of the normal range for years is, in a sense, standing at a fork in the road — things are fine for now, but which way they go depends on habits going forward. In this patient's case too, after carefully asking about her diet, exercise habits, and family medical history, I first told her plainly: "You don't need medication right now."
 
 Rather than reacting to the number alone, looking back together at the everyday habits behind that number lets a person understand, in their own words, why things are okay for now. I think that understanding is the real foundation for not being swayed by what everyone else around you is doing.
+
+To be honest, some checkup items are hard to explain. Amylase, which rises with pancreatitis, and CPK, which rises with heart attacks, are examples — items that tend to show up as “high” after the fact rather than helping find a disease. These numbers can also rise after hard exercise or simply because of your constitution, so without symptoms, a high value doesn't immediately mean illness. If a number concerns you, let's check together what it means.
 
 ### "Finding out for yourself" is also an option
 

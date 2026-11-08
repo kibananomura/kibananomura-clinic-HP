@@ -47,6 +47,8 @@ sources:
 
 アレルギー性鼻炎をお持ちのお子さんは、事前に鼻炎の治療で症状を落ち着かせておくと、フルミスト本来の効果を発揮しやすくなります。
 
+実際に、鼻炎があってフルミストを受けられないお子さんは、一定の割合でいらっしゃいます。
+
 接種の当日に鼻水や鼻づまりがひどい場合は、無理をせず、症状が落ち着くまで**延期する**か、**注射のワクチンに切り替える**ことも選択肢のひとつです。「少し鼻水が出ているけれど、これくらいなら大丈夫かな」と迷ったときほど、遠慮なく医師に伝えてください。鼻の中の状態を確認したうえで、その日に接種してよいかを一緒に判断できます。
 
 また、フルミストは生きたウイルスを使うワクチンのため、**対象は原則2歳以上19歳未満**です。その年齢であっても、次のような方は接種をお勧めできない場合があります。
@@ -97,6 +99,8 @@ With a lot of discharge, the sprayed vaccine can simply run back out before it s
 ### What to check before the appointment
 
 If your child has allergic rhinitis, treating it beforehand to calm the symptoms helps FluMist work as intended.
+
+In practice, a certain proportion of children can't receive FluMist because of rhinitis.
 
 If a runny or stuffy nose is severe on the day, don't push it — **postponing** until symptoms settle, or **switching to the injectable vaccine,** are both options. Especially when you're unsure ("there's a bit of a runny nose — is that okay?"), please don't hesitate to tell the doctor. After checking inside the nose, we can decide together whether that day is right for the vaccine.
 
