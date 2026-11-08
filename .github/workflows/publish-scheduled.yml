@@ -36,9 +36,8 @@ jobs:
       - name: コミットして push
         if: steps.move.outputs.moved != ''
         run: |
-          # Vercel（Hobby）は、リポジトリの持ち主のコミットだけを自動デプロイするため、持ち主の名前で記録する
-          git config user.name "Medirealize"
-          git config user.email "info@medirealize.jp"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add content/blog content/blog-stock
           git commit -m "院長ブログの予約公開: $(echo "${{ steps.move.outputs.moved }}" | tr '\n' ' ')"
           git push
