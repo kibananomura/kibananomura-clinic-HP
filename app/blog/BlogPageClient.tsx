@@ -34,6 +34,7 @@ const SUBCATEGORY_ORDER: { ja: string; en: string }[] = [
   { ja: "生活習慣病との付き合い方", en: "Living with lifestyle diseases" },
   { ja: "健診・検査", en: "Checkups & tests" },
   { ja: "腰・関節・神経", en: "Back, joints & nerves" },
+  { ja: "足の健康", en: "Foot health" },
   { ja: "けが・外科", en: "Injuries & surgery" },
 ];
 
