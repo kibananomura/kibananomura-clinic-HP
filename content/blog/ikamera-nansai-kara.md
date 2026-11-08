@@ -47,6 +47,8 @@ sources:
 
 こうした症状があるときの胃カメラは、病気を調べるための検査なので、**保険診療**で受けていただけます。
 
+以前、「食事が胸につっかえる感じがする」とおっしゃるご高齢の方に胃カメラをしたところ、食道がんで食道が狭くなっていて、すでに進行していたことがありました。「もっと早く受けていただいていれば」と、今でも思い出します。吐き気やムカムカのような、胃の働きの乱れから来ることの多い症状とは違い、「飲み込みにくい」「つかえる」「黒い便」のように、どこかに“形のある”病気が隠れていそうな症状は、危険なサインです。
+
 ### 症状がない方：国の指針は「50歳以上・2年に1回」
 
 症状のない方が受ける「胃がん検診」について、国の指針では、**50歳以上の方に、2年に1回**の胃カメラ（またはバリウム検査）を勧めています。多くの市町村で、この指針にもとづく胃がん検診が行われていますので、対象年齢や費用はお住まいの市町村の案内をご確認ください。
@@ -124,6 +126,8 @@ First and foremost: if you have any of the following, there's no need to wait un
 - Anemia flagged at a health checkup
 
 A gastroscopy for symptoms like these is a diagnostic exam, so it's **covered by health insurance.**
+
+I once performed a gastroscopy on an older patient who said, “Food feels like it gets stuck in my chest,” and found esophageal cancer that had already narrowed the esophagus and progressed. I still think, “If only they had come sooner.” Unlike nausea or queasiness, which often come from the stomach simply not working smoothly, symptoms like “hard to swallow,” “food getting stuck” or “black stools” suggest something physically there — and they're danger signs.
 
 ### No symptoms: the national guideline is "every 2 years from age 50"
 

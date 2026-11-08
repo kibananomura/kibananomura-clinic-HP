@@ -40,6 +40,8 @@ excerpt_en: This July, research on destroying cancer cells with heat from light 
 
 つまり、効くかどうかの分かれ目は「光の量」ではなく「がんの温度」にあり、**狙った温度に届き、それを保てるかどうか**が治療の成否を左右していたのです。
 
+こう書くとあっさりしていますが、この結果の裏には地道な毎日がありました。毎朝早く実験棟に行き、がんを移植したマウスを準備して、できるだけ同じ環境・同じ条件で実験をくり返す。「何度やっても同じ結果が出る」こと（再現性）を意識して、それを続けるのは正直とても大変でした。でも今振り返ると、その積み重ねこそが、はっきりした結果を出せた一番の理由だったと思っています。
+
 ### 温度を測りながら光を調整する仕組み
 
 そこで開発したのが、温度制御型の光温熱治療（寄稿では「tecPTT」と呼んでいます）です。レーザー装置に、赤外線で「触れずに温度を測る装置」をつなぎ、照射している場所の温度を0.1秒ごとに測りながら、**目標の温度を保つように光の強さを自動で調整する**仕組みです。この装置の性能を確かめた最初の論文では、マウスの皮膚に光を当てた際の温度のぶれを、温度制御なしのときの10分の1以下（ばらつき約0.14℃）に抑えられることを示しました。
@@ -112,6 +114,8 @@ We used a drug called "ICG lactosome" — tiny particles designed to gather in t
 - But when the tumor's temperature **rose above 43°C** during irradiation, **47 of 49 tumors disappeared**, regardless of light strength (the two that didn't were both in the shortest, 111-second group)
 
 In other words, the dividing line wasn't the amount of light but the tumor's temperature, and **whether the target temperature could be reached and held** decided whether the treatment worked.
+
+Put like that, it sounds simple, but behind these results were long, steady days. Every morning I went to the lab building early, prepared the mice with transplanted tumors, and repeated the experiments under conditions kept as identical as possible. Staying focused on reproducibility — getting the same result no matter how many times we ran it — was honestly very hard. Looking back, though, I believe that accumulation was the biggest reason we got such clear results.
 
 ### A system that adjusts the light while measuring the temperature
 

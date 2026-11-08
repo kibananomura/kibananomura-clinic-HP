@@ -677,6 +677,10 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
+          "text": "こう書くとあっさりしていますが、この結果の裏には地道な毎日がありました。毎朝早く実験棟に行き、がんを移植したマウスを準備して、できるだけ同じ環境・同じ条件で実験をくり返す。「何度やっても同じ結果が出る」こと（再現性）を意識して、それを続けるのは正直とても大変でした。でも今振り返ると、その積み重ねこそが、はっきりした結果を出せた一番の理由だったと思っています。"
+        },
+        {
+          "kind": "text",
           "text": "### 温度を測りながら光を調整する仕組み"
         },
         {
@@ -809,6 +813,10 @@ export const generatedPosts: BlogPost[] = [
         {
           "kind": "text",
           "text": "In other words, the dividing line wasn't the amount of light but the tumor's temperature, and **whether the target temperature could be reached and held** decided whether the treatment worked."
+        },
+        {
+          "kind": "text",
+          "text": "Put like that, it sounds simple, but behind these results were long, steady days. Every morning I went to the lab building early, prepared the mice with transplanted tumors, and repeated the experiments under conditions kept as identical as possible. Staying focused on reproducibility — getting the same result no matter how many times we ran it — was honestly very hard. Looking back, though, I believe that accumulation was the biggest reason we got such clear results."
         },
         {
           "kind": "text",
@@ -954,6 +962,10 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
+          "text": "以前、胃の動きがゆっくりな方に「21時までに食事を済ませてくださいね」とお伝えしたところ、21時ちょうどに食べ終わるように召し上がっていて、翌朝の検査では胃の中に食べ物が残っていたことがありました。胃の動きがゆっくりになりやすい方（糖尿病の方、ご高齢の方、胃の手術を受けたことがある方など）は、夕食を少し早めに、量も控えめにしておくと安心です。"
+        },
+        {
+          "kind": "text",
           "text": "### 当日の朝：食事は抜いて、水かお茶だけ"
         },
         {
@@ -971,6 +983,10 @@ export const generatedPosts: BlogPost[] = [
         {
           "kind": "text",
           "text": "どのお薬をどうするかは人によって違います。**予約の時点で、飲んでいるお薬（お薬手帳）を必ず医師に伝えて**、指示を確認しておいてください。"
+        },
+        {
+          "kind": "text",
+          "text": "検査の朝に、いつものお薬を飲んでこられて、胃の壁に白いお薬がべったりと張り付き、洗い流すのにとても苦労したこともあります。本来なら、検査が終わってから飲めばよかったお薬でした。朝のお薬をどうするかは、必ず事前に確認しておいてください。"
         },
         {
           "kind": "text",
@@ -1098,6 +1114,10 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
+          "text": "I once told someone whose stomach empties slowly, “Please finish dinner by 9 p.m.” — and they timed their meal to finish at exactly 9. The next morning, food was still left in their stomach during the exam. If your stomach tends to empty slowly (for example, if you have diabetes, are older, or have had stomach surgery), it's safer to eat dinner a little earlier and keep it light."
+        },
+        {
+          "kind": "text",
           "text": "### The morning of: no food — water or tea only"
         },
         {
@@ -1115,6 +1135,10 @@ export const generatedPosts: BlogPost[] = [
         {
           "kind": "text",
           "text": "How to handle each medication differs from person to person. **When you book, be sure to tell the doctor what you take (bring your medication record),** and confirm the instructions in advance."
+        },
+        {
+          "kind": "text",
+          "text": "I've also had someone take their usual medicine on the morning of the exam, leaving a white medicine stuck thickly to the stomach lining that was very hard to wash away. It was a medicine they could simply have taken after the exam. Please be sure to check in advance what to do with your morning medicines."
         },
         {
           "kind": "text",
@@ -1278,6 +1302,10 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
+          "text": "以前、「食事が胸につっかえる感じがする」とおっしゃるご高齢の方に胃カメラをしたところ、食道がんで食道が狭くなっていて、すでに進行していたことがありました。「もっと早く受けていただいていれば」と、今でも思い出します。吐き気やムカムカのような、胃の働きの乱れから来ることの多い症状とは違い、「飲み込みにくい」「つかえる」「黒い便」のように、どこかに“形のある”病気が隠れていそうな症状は、危険なサインです。"
+        },
+        {
+          "kind": "text",
           "text": "### 症状がない方：国の指針は「50歳以上・2年に1回」"
         },
         {
@@ -1407,6 +1435,10 @@ export const generatedPosts: BlogPost[] = [
         {
           "kind": "text",
           "text": "A gastroscopy for symptoms like these is a diagnostic exam, so it's **covered by health insurance.**"
+        },
+        {
+          "kind": "text",
+          "text": "I once performed a gastroscopy on an older patient who said, “Food feels like it gets stuck in my chest,” and found esophageal cancer that had already narrowed the esophagus and progressed. I still think, “If only they had come sooner.” Unlike nausea or queasiness, which often come from the stomach simply not working smoothly, symptoms like “hard to swallow,” “food getting stuck” or “black stools” suggest something physically there — and they're danger signs."
         },
         {
           "kind": "text",
@@ -1594,6 +1626,10 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
+          "text": "外科医として手術をしていたころ、虫垂炎と診断して手術をし、取り出した虫垂を詳しく調べると確かに虫垂炎だったものの、その周りの腸の炎症のほうがむしろ強かった、ということもありました。それほど、この2つは近い場所で、重なり合って起こることがあるのです。"
+        },
+        {
+          "kind": "text",
           "text": "### 回腸末端炎の主な原因は、大きく3つ"
         },
         {
@@ -1743,6 +1779,10 @@ export const generatedPosts: BlogPost[] = [
         {
           "kind": "text",
           "text": "These are only tendencies, though. Even for doctors, telling the two apart from symptoms alone can be difficult. Appendicitis in particular can rupture (perforate) and lead to peritonitis if left untreated, so **rather than deciding \"it's probably just gastroenteritis\" yourself, it's important to confirm with tests.**"
+        },
+        {
+          "kind": "text",
+          "text": "Back when I was operating as a surgeon, I had cases where we diagnosed appendicitis and operated, and the removed appendix was indeed inflamed on closer examination — yet the inflammation in the surrounding bowel was actually stronger. That's how close these two can be, and how they can overlap."
         },
         {
           "kind": "text",

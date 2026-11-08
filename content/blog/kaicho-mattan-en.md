@@ -54,6 +54,8 @@ sources:
 
 ただし、これはあくまで「傾向」です。症状だけで両者をはっきり見分けることは、医師にとっても難しいことがあります。特に虫垂炎は、放っておくと破れて腹膜炎になるおそれがあるため、**「たぶん腸炎だろう」と自己判断せず、検査で確かめることが大切**です。
 
+外科医として手術をしていたころ、虫垂炎と診断して手術をし、取り出した虫垂を詳しく調べると確かに虫垂炎だったものの、その周りの腸の炎症のほうがむしろ強かった、ということもありました。それほど、この2つは近い場所で、重なり合って起こることがあるのです。
+
 ### 回腸末端炎の主な原因は、大きく3つ
 
 回腸末端炎は、ひとつの病気の名前というより、「回腸末端に炎症が起きている状態」を表す言葉です。原因は大きく次の3つに分けられます。
@@ -136,6 +138,8 @@ Both cause pain in the lower right abdomen, but there are some differences in ho
 - **Fever**: Both can cause fever, so fever alone can't tell them apart
 
 These are only tendencies, though. Even for doctors, telling the two apart from symptoms alone can be difficult. Appendicitis in particular can rupture (perforate) and lead to peritonitis if left untreated, so **rather than deciding "it's probably just gastroenteritis" yourself, it's important to confirm with tests.**
+
+Back when I was operating as a surgeon, I had cases where we diagnosed appendicitis and operated, and the removed appendix was indeed inflamed on closer examination — yet the inflammation in the surrounding bowel was actually stronger. That's how close these two can be, and how they can overlap.
 
 ### Three main causes of terminal ileitis
 

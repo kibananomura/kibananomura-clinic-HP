@@ -36,6 +36,8 @@ excerpt_en: “How late can I eat dinner the night before?” “Can I eat right
 
 21時以降も、**水やお茶（砂糖やミルクの入っていないもの）**は飲んで構いません。
 
+以前、胃の動きがゆっくりな方に「21時までに食事を済ませてくださいね」とお伝えしたところ、21時ちょうどに食べ終わるように召し上がっていて、翌朝の検査では胃の中に食べ物が残っていたことがありました。胃の動きがゆっくりになりやすい方（糖尿病の方、ご高齢の方、胃の手術を受けたことがある方など）は、夕食を少し早めに、量も控えめにしておくと安心です。
+
 ### 当日の朝：食事は抜いて、水かお茶だけ
 
 当日の朝は、**何も食べずに**お越しください。牛乳・ジュース・スポーツドリンク・ミルク入りのコーヒーなども、胃に残るので控えます。水やお茶は、検査の少し前までなら少量飲んで大丈夫です。タバコは胃液を増やし、観察しにくくなるので、当日朝は控えてください。
@@ -47,6 +49,8 @@ excerpt_en: “How late can I eat dinner the night before?” “Can I eat right
 - **血液をサラサラにする薬**（抗血小板薬・抗凝固薬）は、組織を取る可能性があるため扱いに注意が必要ですが、__自己判断でやめるのは危険__です
 
 どのお薬をどうするかは人によって違います。**予約の時点で、飲んでいるお薬（お薬手帳）を必ず医師に伝えて**、指示を確認しておいてください。
+
+検査の朝に、いつものお薬を飲んでこられて、胃の壁に白いお薬がべったりと張り付き、洗い流すのにとても苦労したこともあります。本来なら、検査が終わってから飲めばよかったお薬でした。朝のお薬をどうするかは、必ず事前に確認しておいてください。
 
 服装は、おなかまわりを締めつけないゆったりしたものがおすすめです。
 
@@ -113,6 +117,8 @@ Easy-to-digest foods are best — udon noodles, rice porridge, white fish, tofu 
 
 After 9 p.m., **water and tea (without sugar or milk)** are fine.
 
+I once told someone whose stomach empties slowly, “Please finish dinner by 9 p.m.” — and they timed their meal to finish at exactly 9. The next morning, food was still left in their stomach during the exam. If your stomach tends to empty slowly (for example, if you have diabetes, are older, or have had stomach surgery), it's safer to eat dinner a little earlier and keep it light.
+
 ### The morning of: no food — water or tea only
 
 Please come **without eating anything** that morning. Milk, juice, sports drinks and coffee with milk also linger in the stomach, so avoid those too. Small amounts of water or tea are fine until a little before the exam. Smoking increases stomach acid and makes the stomach harder to see, so please avoid it that morning.
@@ -124,6 +130,8 @@ What needs the most care is **your regular medication.**
 - **Blood thinners** (antiplatelet and anticoagulant drugs) need careful handling because a tissue sample may be taken — but __stopping them on your own is dangerous__
 
 How to handle each medication differs from person to person. **When you book, be sure to tell the doctor what you take (bring your medication record),** and confirm the instructions in advance.
+
+I've also had someone take their usual medicine on the morning of the exam, leaving a white medicine stuck thickly to the stomach lining that was very hard to wash away. It was a medicine they could simply have taken after the exam. Please be sure to check in advance what to do with your morning medicines.
 
 Loose clothing that doesn't squeeze your waist is recommended.
 
