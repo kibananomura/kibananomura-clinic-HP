@@ -5,7 +5,7 @@ category_ja: 健康・予防の話
 category_en: Health and prevention
 subcategory_ja: 足の健康
 subcategory_en: Foot health
-title_ja: 足が痛いのは、年齢や遺伝のせい？〜外反母し・へん平足と「靴」の深い関係。子どもの靴選びから見直そう〜
+title_ja: 足が痛いのは、年齢や遺伝のせい？〜外反母趾・扁平足と「靴」の深い関係。子どもの靴選びから見直そう〜
 title_en: Is foot pain just age or genes? — the close link between bunions, flat feet and shoes, starting with how we choose children's shoes
 excerpt_ja: おしゃれな靴を履きたいのに、すぐ足が痛くなる。子どもの靴、どれを選べばいいのか分からない。その悩み、「靴」から見直すと変わるかもしれません。
 excerpt_en: You want to wear stylish shoes, but your feet soon start to hurt. You're not sure which shoes to choose for your child. Rethinking “shoes” may change things.
@@ -23,19 +23,19 @@ excerpt_en: You want to wear stylish shoes, but your feet soon start to hurt. Yo
 
 お気に入りの靴を履いて出かけたら、夕方には足が痛くてたまらない。親指の付け根が出っぱってきて、合う靴が見つからない。「母も同じ足だったから、遺伝だろう」「年だから仕方ない」——そう思って、あきらめていませんか。子育て中の方なら、「子どもの靴って、どれを選べばいいの？」と、お店で迷った経験もあるかもしれません。
 
-この記事を読んでいただくと、足のトラブルと靴や歩き方の関係、そして大人も子どもも今日からできる靴選びのコツが分かります。結論から言うと、**外反母し（親指が外側に曲がる変形）やへん平足、足の痛みは、体質だけでなく、毎日履く「靴」や「歩き方」とも深く関わっています。そして、いまからでも見直せることはたくさんあります。**
+この記事を読んでいただくと、足のトラブルと靴や歩き方の関係、そして大人も子どもも今日からできる靴選びのコツが分かります。結論から言うと、**外反母趾（がいはんぼし。親指が外側に曲がる変形）や扁平足（へんぺいそく）、足の痛みは、体質だけでなく、毎日履く「靴」や「歩き方」とも深く関わっています。そして、いまからでも見直せることはたくさんあります。**
 
 ### 草履の国が、靴の国になった
 
 日本では、長いあいだ裸足や草履、げたで暮らしてきました。鼻緒を指でつかんで歩く生活では、足の指をよく使い、つま先が締めつけられることもあまりありません。
 
-戦後、洋服とともに靴を履く生活が一気に広がりました。靴は足を守ってくれる、とても便利なものです。ただ、つま先の細い靴や、かかとの高い靴、サイズの合わない靴を長く履き続けると、足の指が押し込められ、親指が少しずつ外側へ曲がっていくことがあります。日本で外反母しに悩む人が増えてきた背景には、こうした生活の変化があると考えられています。
+戦後、洋服とともに靴を履く生活が一気に広がりました。靴は足を守ってくれる、とても便利なものです。ただ、つま先の細い靴や、かかとの高い靴、サイズの合わない靴を長く履き続けると、足の指が押し込められ、親指が少しずつ外側へ曲がっていくことがあります。日本で外反母趾に悩む人が増えてきた背景には、こうした生活の変化があると考えられています。
 
-もちろん、外反母しやへん平足には、生まれつきの足の形や、関節のやわらかさ、年齢による筋力の低下も関わっています。「靴だけが原因」というわけではありません。それでも、**毎日何時間も足を包んでいる靴が、足の形や痛みに影響を与えている**ことは確かです。
+もちろん、外反母趾や扁平足には、生まれつきの足の形や、関節のやわらかさ、年齢による筋力の低下も関わっています。「靴だけが原因」というわけではありません。それでも、**毎日何時間も足を包んでいる靴が、足の形や痛みに影響を与えている**ことは確かです。
 
 ### 子どもの頃の靴が、将来の歩きを守る
 
-最近、足の病気を専門とする医師や看護師たちの間では、大人の足のトラブルを治すだけでなく、**子どもの頃からの「足と靴の環境づくり」**に目が向けられるようになってきました。子どもの足の骨は、まだやわらかく、成長の途中にあります。その時期にどんな靴を履いて、どう歩くかが、大人になってからの足の形や歩き方にも関わると考えられているからです。
+最近、足の病気の専門家たちの間では、大人の足のトラブルを治すだけでなく、**子どもの頃からの「足と靴の環境づくり」**に目が向けられるようになってきました。日本フットケア・足病医学会は「足病予防は小児期から」と呼びかけ、2024年には子どもの靴選びの目安をまとめた『小児靴の手引き書』の第2版を出しています。子どもの足の骨は、まだやわらかく、成長の途中にあります。その時期にどんな靴を履いて、どう歩くかが、大人になってからの足の形や歩き方にも関わると考えられているからです。
 
 子どもの靴選びでは、次の点を目安にしてみてください。
 
@@ -80,7 +80,7 @@ Of course, bunions and flat feet also involve the foot shape you were born with,
 
 ### Childhood shoes protect walking in the future
 
-Recently, doctors and nurses who specialize in foot conditions have begun turning their attention not only to treating adults' foot problems, but also to **creating a good “foot and shoe environment” from childhood**. Children's foot bones are still soft and growing. What shoes they wear and how they walk during this period is thought to affect the shape of their feet and the way they walk as adults.
+Recently, foot specialists have begun turning their attention not only to treating adults' foot problems, but also to **creating a good “foot and shoe environment” from childhood**. The Japanese Society of Foot Care and Podiatric Medicine calls for “preventing foot disease from childhood,” and in 2024 it published the second edition of a guide to children's shoes that sets out how to choose them. Children's foot bones are still soft and growing. What shoes they wear and how they walk during this period is thought to affect the shape of their feet and the way they walk as adults.
 
 When choosing children's shoes, use these as a guide:
 

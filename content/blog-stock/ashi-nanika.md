@@ -38,7 +38,7 @@ excerpt_en: Foot pain, numbness, swelling, calluses, nail problems — are you p
 
 それぞれの専門の先生が、それぞれの立場で診てくれるのは心強いことです。ただ、そのぶん、「足」という一つの場所を、まるごと見渡す人がいなかったともいえます。患者さんの側から見ると、「どの入り口から入ればいいのか分からない」という状態になりやすかったのです。
 
-最近は日本でも、こうした課題に気づいた医師や看護師たちが集まり、足を総合的に診る「足病医療」の考え方が広がり始めています。
+最近は日本でも、こうした課題に気づいた医師や看護師などが集まり、2つの学会がひとつになって「日本フットケア・足病医学会」が生まれました。いろいろな職種が力を合わせて足を総合的に診る「日本版の足病医療」を根づかせ、一人でも多くの方が自分の足で歩き続けられるようにする取り組みが進んでいます。
 
 ### 足のトラブルは、体からの「SOSサイン」
 
@@ -93,7 +93,7 @@ Japan, on the other hand, hasn't had such specialists. Foot conditions are divid
 
 It's reassuring that each specialist sees you from their own perspective. But it also means no one was looking over “the foot” as a whole. From the patient's side, it was easy to end up not knowing which door to go through.
 
-Recently in Japan, doctors and nurses who recognized this problem have come together, and the idea of “foot medicine” that looks at the foot comprehensively has begun to spread.
+Recently in Japan, doctors, nurses and others who recognized this problem have come together: two academic societies merged to form the Japanese Society of Foot Care and Podiatric Medicine. Efforts are under way to establish a “Japanese version of podiatric medicine,” in which many professions work together to care for the foot as a whole, so that as many people as possible can keep walking on their own feet.
 
 ### Foot trouble is your body's “SOS signal”
 
