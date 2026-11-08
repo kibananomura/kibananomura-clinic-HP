@@ -3041,7 +3041,7 @@ export const generatedPosts: BlogPost[] = [
     "cover": "/blog/kibana-landscape.jpg",
     "ja": {
       "category": "健康・予防の話",
-      "subcategory": "食事・ダイエット",
+      "subcategory": "食事・運動",
       "title": "生活習慣病の方の食事指導の実際",
       "excerpt": "「あれもこれも禁止されるのでは」——健診で数値を指摘された方の多くが、そう身構えています。私が細かい制限をおすすめしない理由と、代わりに伝えているたったひとつのコツをお話しします。",
       "body": [
@@ -3109,7 +3109,7 @@ export const generatedPosts: BlogPost[] = [
     },
     "en": {
       "category": "Health and prevention",
-      "subcategory": "Diet & weight",
+      "subcategory": "Diet & exercise",
       "title": "What diet guidance actually looks like for lifestyle-related conditions",
       "excerpt": "“Am I about to be told everything is off-limits?” — that's the look I see on so many patients' faces after a checkup. Here's why I don't hand out strict diet rules, and the one thing I ask instead.",
       "body": [
@@ -5598,7 +5598,7 @@ export const generatedPosts: BlogPost[] = [
     "cover": "/blog/kibana-landscape.jpg",
     "ja": {
       "category": "健康・予防の話",
-      "subcategory": "食事・ダイエット",
+      "subcategory": "食事・運動",
       "title": "1日一食しか食べてないのに痩せないあなたへ",
       "excerpt": "「1日1食しか食べていないのに、体重計の数字がびくともしない」——その原因は意志の弱さではなく、体が切り替えた「省エネモード」かもしれません。",
       "body": [
@@ -5726,7 +5726,7 @@ export const generatedPosts: BlogPost[] = [
     },
     "en": {
       "category": "Health and prevention",
-      "subcategory": "Diet & weight",
+      "subcategory": "Diet & exercise",
       "title": "To everyone who eats only one meal a day and still can't lose weight",
       "excerpt": "“I only eat one meal a day, and the scale won't budge” — the cause may not be weak willpower, but the “energy-saving mode” your body has switched into.",
       "body": [
@@ -7562,7 +7562,7 @@ export const generatedPosts: BlogPost[] = [
     "cover": "/blog/kibana-landscape.jpg",
     "ja": {
       "category": "健康・予防の話",
-      "subcategory": "食事・ダイエット",
+      "subcategory": "食事・運動",
       "title": "ご飯を減らしても痩せないのはなぜ？〜40代からは「引き算」より「足し算」のダイエット〜",
       "excerpt": "実は、食べたカロリーの2〜3割が、消化のときに熱として使われる栄養素があります。年齢とともに痩せにくくなる本当の理由と、その栄養素の話です。",
       "body": [
@@ -7694,7 +7694,7 @@ export const generatedPosts: BlogPost[] = [
     },
     "en": {
       "category": "Health and prevention",
-      "subcategory": "Diet & weight",
+      "subcategory": "Diet & exercise",
       "title": "Eating less but not losing weight? After 40, it's about adding, not subtracting",
       "excerpt": "There's one nutrient where 20–30% of its calories are burned off as heat during digestion. Here's the real reason weight gets harder to lose with age — and why that nutrient matters.",
       "body": [

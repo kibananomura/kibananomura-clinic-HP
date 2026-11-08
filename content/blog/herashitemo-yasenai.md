@@ -3,8 +3,8 @@ date: 2026.11.05
 cover: /blog/kibana-landscape.jpg
 category_ja: 健康・予防の話
 category_en: Health and prevention
-subcategory_ja: 食事・ダイエット
-subcategory_en: Diet & weight
+subcategory_ja: 食事・運動
+subcategory_en: Diet & exercise
 title_ja: ご飯を減らしても痩せないのはなぜ？〜40代からは「引き算」より「足し算」のダイエット〜
 title_en: Eating less but not losing weight? After 40, it's about adding, not subtracting
 excerpt_ja: 実は、食べたカロリーの2〜3割が、消化のときに熱として使われる栄養素があります。年齢とともに痩せにくくなる本当の理由と、その栄養素の話です。

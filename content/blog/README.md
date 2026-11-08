@@ -87,7 +87,7 @@ subcategory_ja: 胃腸・消化器
 subcategory_en: Stomach & digestion
 ```
 
-使用中のサブ分類：感染症・ワクチン（Infections & vaccines）／胃腸・消化器（Stomach & digestion）／肺・呼吸器（Lungs & breathing）／アレルギー・花粉症（Allergies & hay fever）／血圧（Blood pressure）／コレステロール・尿酸（Cholesterol & uric acid）／食事・ダイエット（Diet & weight）／生活習慣病との付き合い方（Living with lifestyle diseases）／健診・検査（Checkups & tests）／腰・関節・神経（Back, joints & nerves）／けが・外科（Injuries & surgery）。表示順は app/blog/BlogPageClient.tsx の SUBCATEGORY_ORDER。
+使用中のサブ分類：感染症・ワクチン（Infections & vaccines）／胃腸・消化器（Stomach & digestion）／肺・呼吸器（Lungs & breathing）／アレルギー・花粉症（Allergies & hay fever）／血圧（Blood pressure）／コレステロール・尿酸（Cholesterol & uric acid）／血糖・糖尿病（Blood sugar & diabetes）／食事・運動（Diet & exercise）／生活習慣病との付き合い方（Living with lifestyle diseases）／健診・検査（Checkups & tests）／腰・関節・神経（Back, joints & nerves）／けが・外科（Injuries & surgery）。表示順は app/blog/BlogPageClient.tsx の SUBCATEGORY_ORDER。
 
 未公開の原稿（ストック）は content/blog-stock/ に置く（ここはサイトに読み込まれない）。公開するときは content/blog/ へ移して blog:gen。
 表示順は `app/blog/BlogPageClient.tsx` の `SUBCATEGORY_ORDER` で管理しています。
