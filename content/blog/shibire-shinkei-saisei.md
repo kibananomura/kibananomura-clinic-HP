@@ -1,6 +1,6 @@
 ---
 date: 2026.11.08
-cover: /blog/kibana-landscape.jpg
+cover: /blog/shibire-shinkei-saisei.jpg
 category_ja: 健康・予防の話
 category_en: Health and prevention
 subcategory_ja: 腰・関節・神経

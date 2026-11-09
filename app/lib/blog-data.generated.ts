@@ -9990,7 +9990,7 @@ export const generatedPosts: BlogPost[] = [
   {
     "slug": "shibire-shinkei-saisei",
     "date": "2026.11.08",
-    "cover": "/blog/kibana-landscape.jpg",
+    "cover": "/blog/shibire-shinkei-saisei.jpg",
     "sources": [
       {
         "label": "Menorca RMG, et al. Nerve physiology: mechanisms of injury and recovery. Hand Clin. 2013;29:317-330",
