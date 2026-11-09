@@ -1,6 +1,6 @@
 ---
 date: 2026.10.29
-cover: /blog/kibana-landscape.jpg
+cover: /blog/ichinichi-isshoku-yasenai.jpg
 category_ja: 健康・予防の話
 category_en: Health and prevention
 subcategory_ja: 食事・運動

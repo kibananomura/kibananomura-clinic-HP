@@ -6740,7 +6740,7 @@ export const generatedPosts: BlogPost[] = [
   {
     "slug": "ichinichi-isshoku-yasenai",
     "date": "2026.10.29",
-    "cover": "/blog/kibana-landscape.jpg",
+    "cover": "/blog/ichinichi-isshoku-yasenai.jpg",
     "sources": [
       {
         "label": "厚生労働省「日本人の食事摂取基準（2025年版）」",
