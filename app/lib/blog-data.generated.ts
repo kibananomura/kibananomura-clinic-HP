@@ -8946,7 +8946,7 @@ export const generatedPosts: BlogPost[] = [
   {
     "slug": "herashitemo-yasenai",
     "date": "2026.11.05",
-    "cover": "/blog/kibana-landscape.jpg",
+    "cover": "/blog/herashitemo-yasenai.jpg",
     "sources": [
       {
         "label": "Kortebein P, et al. Effect of 10 days of bed rest on skeletal muscle in healthy older adults. JAMA. 2007;297:1772-1774",
