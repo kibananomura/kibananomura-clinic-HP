@@ -119,6 +119,14 @@ export default function CareersPageClient() {
                 <li key={w}>{w}</li>
               ))}
             </ul>
+            <p className="mt-5 text-sm font-bold text-primary-dark">{copy.earlyCall.skillsLabel}</p>
+            <p className="mt-2 text-sm leading-relaxed text-ink/80">{copy.earlyCall.skillsIntro}</p>
+            <ul className="mt-2 list-disc space-y-1.5 pl-5 text-sm leading-relaxed text-ink/80">
+              {copy.earlyCall.skills.map((w) => (
+                <li key={w}>{w}</li>
+              ))}
+            </ul>
+            <p className="mt-3 text-xs leading-relaxed text-ink/70">{copy.earlyCall.skillsNote}</p>
             <div className="mt-5 rounded-2xl bg-surface/90 p-4">
               <p className="text-xs font-bold text-ink/60">{copy.earlyCall.emailLabel}</p>
               <a
