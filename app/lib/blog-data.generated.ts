@@ -8524,7 +8524,7 @@ export const generatedPosts: BlogPost[] = [
   {
     "slug": "yasete-iru-noni-ldl",
     "date": "2026.11.03",
-    "cover": "/blog/kibana-landscape.jpg",
+    "cover": "/blog/yasete-iru-noni-ldl.jpg",
     "sources": [
       {
         "label": "日本動脈硬化学会「動脈硬化性疾患予防ガイドライン2022年版」",

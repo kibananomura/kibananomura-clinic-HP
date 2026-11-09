@@ -1,6 +1,6 @@
 ---
 date: 2026.11.03
-cover: /blog/kibana-landscape.jpg
+cover: /blog/yasete-iru-noni-ldl.jpg
 category_ja: 健康・予防の話
 category_en: Health and prevention
 subcategory_ja: コレステロール・尿酸
