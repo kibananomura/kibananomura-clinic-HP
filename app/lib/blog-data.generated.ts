@@ -8763,7 +8763,7 @@ export const generatedPosts: BlogPost[] = [
   {
     "slug": "shita-no-ketsuatsu",
     "date": "2026.11.04",
-    "cover": "/blog/kibana-landscape.jpg",
+    "cover": "/blog/shita-no-ketsuatsu.jpg",
     "sources": [
       {
         "label": "日本高血圧学会「高血圧管理・治療ガイドライン2025」",
