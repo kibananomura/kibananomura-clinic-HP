@@ -9527,7 +9527,7 @@ export const generatedPosts: BlogPost[] = [
   {
     "slug": "kouatsu-kusuri-tsuzukeru",
     "date": "2026.11.07",
-    "cover": "/blog/kibana-landscape.jpg",
+    "cover": "/blog/kouatsu-kusuri-tsuzukeru.jpg",
     "sources": [
       {
         "label": "日本高血圧学会「高血圧管理・治療ガイドライン2025」",
