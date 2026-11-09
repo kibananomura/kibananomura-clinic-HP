@@ -9760,7 +9760,7 @@ export const generatedPosts: BlogPost[] = [
   {
     "slug": "kansen-2026-11",
     "date": "2026.11.08",
-    "cover": "/blog/kibana-landscape.jpg",
+    "cover": "/blog/kansen-2026-11.jpg",
     "sources": [
       {
         "label": "宮崎県感染症情報センター「宮崎県感染症週報」2026年第44週（10/26〜11/1）",
