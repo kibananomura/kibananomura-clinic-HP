@@ -7287,7 +7287,7 @@ export const generatedPosts: BlogPost[] = [
   {
     "slug": "hontou-no-chiryou",
     "date": "2026.10.31",
-    "cover": "/blog/kibana-landscape.jpg",
+    "cover": "/blog/hontou-no-chiryou.jpg",
     "sources": [
       {
         "label": "Crum AJ, Langer EJ. Mind-set matters: exercise and the placebo effect. Psychol Sci. 2007;18:165-171",

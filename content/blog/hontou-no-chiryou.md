@@ -1,6 +1,6 @@
 ---
 date: 2026.10.31
-cover: /blog/kibana-landscape.jpg
+cover: /blog/hontou-no-chiryou.jpg
 category_ja: 健康・予防の話
 category_en: Health and prevention
 subcategory_ja: 生活習慣病との付き合い方
