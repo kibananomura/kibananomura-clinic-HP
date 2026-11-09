@@ -10239,7 +10239,7 @@ export const generatedPosts: BlogPost[] = [
   {
     "slug": "flu-vaccine-timing",
     "date": "2026.11.09",
-    "cover": "/blog/kibana-landscape.jpg",
+    "cover": "/blog/flu-vaccine-timing.jpg",
     "sources": [
       {
         "label": "厚生労働省「令和8年度冬季 急性呼吸器感染症（ARI）総合対策に関するQ&A」",
