@@ -35,6 +35,7 @@ const SUBCATEGORY_ORDER: { ja: string; en: string }[] = [
   { ja: "健診・検査", en: "Checkups & tests" },
   { ja: "腰・関節・神経", en: "Back, joints & nerves" },
   { ja: "足の健康", en: "Foot health" },
+  { ja: "男性の健康", en: "Men's health" },
   { ja: "けが・外科", en: "Injuries & surgery" },
 ];
 
