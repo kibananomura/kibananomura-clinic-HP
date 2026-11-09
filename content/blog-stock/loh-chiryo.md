@@ -19,12 +19,7 @@ sources:
 ---
 
 <!--
-ストック原稿（未公開・日付未定のため自動公開されない）。
-公開前に必ず：
-1. 本文の【院長に確認】（料金・予約方法・使う製剤）を埋める。自費診療の内容をHPに載せるには、費用・期間・主なリスクの明記が必要（医療広告ガイドラインの限定解除）。
-2. marketing-advisor の確認（2026-11-09）済み。表現は修正済み。残りは料金表（初診・検査〔テストステロン・PSA・ヘマトクリット〕・注射1回／月の目安・定期検査や管理料・税込）、期間と回数（例：2〜4週ごとに注射、3か月ごとに見直し）、問い合わせ先（電話または予約ページへのリンク）を本文に入れること。
-   未承認の製剤を使う場合は、①未承認であること ②入手経路 ③国内の同じ成分の承認薬の有無 ④海外の承認状況と安全性の情報、⑤医薬品副作用被害救済制度の対象外であること、を明記。承認された注射を承認外の目的で自費で使う場合も同様の明示を検討。AMSスコアの使用許諾も確認。
-3. 依頼の構成案にあった「架空の症例ストーリー（50代経営者Aさん）」は入れていない。治療の効果に関する体験談は、架空・実在を問わずHPに載せられないため（医療広告ガイドライン）。代わりに、研究で報告されている経過の目安を書いた。
+ストック原稿（未公開・日付未定のため自動公開されない）。料金・製剤・予約先は2026-11-09 院長の指示で確定（宮崎・九州の相場より少し安く、一般的な間隔、日本で最も多い注射製剤、予約は自費診療ページ）。公開するときは date を入れる。1本目（loh-kizuki）→数日あけて2本目。
 -->
 
 ## ja
@@ -41,14 +36,12 @@ sources:
 
 ### Q2. 治療は、どんなことをするのですか？
 
-中心になるのは、足りない男性ホルモンを補う「テストステロン補充療法」です。
+中心になるのは、足りない男性ホルモンを補う「テストステロン補充療法」です。当院では、日本でいちばん広く使われている、国内で承認されたテストステロンの注射（エナント酸テストステロン）を使います。
 
-- **注射**：2〜4週間に1回ほど、筋肉に注射します
-- **塗り薬（クリーム・ジェル）**：毎日、皮膚に塗って吸収させます【院長に確認：国内で処方薬として承認されたテストステロンの塗り薬はないため、使う場合は未承認薬としての説明（下記）が必要。市販の第1類医薬品のクリームもある。製剤が決まるまで、この行を載せるか決める】
+- **2〜4週間に1回ほど、肩やおしりの筋肉に注射します**
+- 間隔は、症状や血液の値、お仕事のペースに合わせて調整します
 
-どちらにも、通う回数や手間、値の安定しやすさに違いがあります。お仕事のペースや通いやすさに合わせて選びます。
-
-【院長に確認】当院で使う製剤（国内で承認された注射・塗り薬のどれを使うか。国内未承認の製剤を使う場合は、未承認であること・入手経路・国内の承認薬の有無・安全性の情報の明記が必要）。
+日本では、処方薬として承認されたテストステロンの塗り薬はありません。当院では、承認されていないお薬は使わない方針です。
 
 なお、症状や検査の結果によっては、**保険診療の対象になります**。同じ病気の治療で保険と自費を組み合わせることはできないため、どちらで行うかを最初にご説明して決めます。
 
@@ -72,7 +65,7 @@ sources:
 - **精子をつくる働きが落ちる・精巣が小さくなる**：これからお子さんを望む方は、治療の前に必ずご相談ください
 - **そのほか**：排尿の症状（前立腺肥大）の悪化、睡眠時無呼吸の悪化、乳房のふくらみ、注射した場所の痛み、血栓
 
-前立腺がん・乳がんのある方、重い心不全の方などは、この治療を受けられません。【院長に確認：使う製剤の添付文書で、受けられない方の一覧を確かめる】
+前立腺がん・乳がんのある方、重い心不全の方などは、この治療を受けられません。
 
 心臓や血管への影響については、心臓病のリスクがある45〜80歳の男性を対象に、塗り薬を使って行われた大規模な研究で、心筋梗塞や脳卒中は増えなかったと報告されています。一方で、不整脈・肺塞栓（血栓）・急性腎障害がやや多かったという結果もあり、持病のある方は慎重に判断します。
 
@@ -82,7 +75,15 @@ sources:
 
 ### Q6. 費用と、通い方は？
 
-【院長に確認】検査（テストステロン・PSA・血液の濃さなど）の料金、治療の月あたりの料金の目安、通院の間隔、予約の方法、問い合わせ先。
+料金は、いずれも税込み・診察料込みです。
+
+- **初回の検査**（テストステロン・PSA・血液の濃さ・肝臓の値）：9,900円
+- **注射**（1回）：4,400円
+- **定期の検査**（3か月ごと）：5,500円
+
+注射を2〜4週間ごとに受ける場合、注射代の目安は月4,400〜8,800円です。3か月ごとに症状と血液の値を見直して、続けるかどうかを相談します。
+
+料金・主なリスクのまとめと予約は、[LOH症候群・TRT（男性ホルモン補充療法）のページ](/self-pay/loh-trt)からどうぞ（予約の受付は、開院前に始める予定です）。
 
 性のことも含めて相談しやすいよう、予約制で、ほかの患者さんと話が聞こえにくい環境を整える予定です。
 
@@ -106,14 +107,12 @@ Then we look at lifestyle — sleep, diet, exercise and alcohol. Testosterone al
 
 ### Q2. What does treatment involve?
 
-The core is “testosterone replacement therapy,” which supplements the male hormone you're short of.
+The core is “testosterone replacement therapy,” which supplements the male hormone you're short of. We use the testosterone injection most widely used in Japan, a domestically approved preparation (testosterone enanthate).
 
-- **Injections**: an injection into the muscle about once every 2–4 weeks
-- **Topical cream or gel**: applied to the skin daily and absorbed [To confirm with the director: no prescription testosterone cream/gel is approved in Japan, so using one requires the unapproved-drug disclosures below. An over-the-counter cream also exists. Decide whether to include this line once the preparation is chosen.]
+- **An injection into the shoulder or buttock muscle about once every 2–4 weeks**
+- The interval is adjusted to your symptoms, blood levels and work schedule
 
-They differ in how often you need to come in, how much effort they take, and how steady the levels stay. We choose based on your work pace and how easy it is for you to visit.
-
-[To confirm with the director] Which preparations the clinic will use. (If an unapproved preparation is used, the website must state that it's unapproved, how it's obtained, whether an approved equivalent exists in Japan, and safety information.)
+No prescription testosterone cream or gel is approved in Japan. Our policy is not to use unapproved medicines.
 
 Depending on your symptoms and test results, **treatment can be covered by health insurance**. Since insurance and self-pay can't be combined for treating the same condition, we'll explain at the start and decide together which one to use.
 
@@ -137,7 +136,7 @@ Hormone treatment always comes with regular testing.
 - **Reduced sperm production and smaller testes**: if you're hoping to have children, please be sure to talk with us before starting
 - **Others**: worsening urinary symptoms (enlarged prostate), worsening sleep apnea, breast enlargement, pain at the injection site, blood clots
 
-People with prostate or breast cancer, severe heart failure and certain other conditions can't receive this treatment. [To confirm with the director: check the full list in the package insert of the chosen preparation.]
+People with prostate or breast cancer, severe heart failure and certain other conditions can't receive this treatment.
 
 As for the heart and blood vessels, a large study of men aged 45–80 at risk of heart disease, using a topical preparation, reported no increase in heart attacks or strokes. On the other hand, arrhythmias, pulmonary embolism (blood clots) and acute kidney injury were slightly more common, so for people with chronic conditions we decide carefully.
 
@@ -147,7 +146,15 @@ Replacement therapy supplies hormones your body is short of from the outside. If
 
 ### Q6. What about cost and visits?
 
-[To confirm with the director] Fees for tests (testosterone, PSA, blood thickness, etc.), estimated monthly cost of treatment, visit intervals, how to book, and where to inquire.
+All prices include tax and the consultation fee.
+
+- **Initial tests** (testosterone, PSA, blood thickness, liver values): ¥9,900
+- **Injection** (per visit): ¥4,400
+- **Regular tests** (every 3 months): ¥5,500
+
+With an injection every 2–4 weeks, injection costs come to roughly ¥4,400–8,800 a month. Every 3 months, we review your symptoms and blood levels and discuss whether to continue.
+
+For a summary of fees and main risks, and to book, see [our LOH syndrome / TRT page](/self-pay/loh-trt) (bookings are planned to open before we open).
 
 To make it easier to talk about things including sexual health, we plan to see people by appointment, in a setting where other patients are unlikely to overhear.
 
