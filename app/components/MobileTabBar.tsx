@@ -6,7 +6,8 @@ import LineLink from "./LineLink";
 
 /**
  * スマホ画面下部に常時固定表示する3ボタンのタブバー（LINEリッチメニュー風）。
- * 「診療のご案内」「開院情報を受け取る（LINE）」「職員募集」への導線を、
+ * 「院長ブログ」「開院情報を受け取る（LINE）」「職員募集」への導線を、
+ * （開院前は、診療の案内よりも「どんなことを書く院長か」を知ってもらうため、左は院長ブログ。2026-11-09 院長指示）
  * どのページを見ていても常に指一本で届く場所に置く。
  */
 export default function MobileTabBar() {
@@ -16,17 +17,17 @@ export default function MobileTabBar() {
     <nav
       className="fixed inset-x-0 bottom-0 z-[60] grid grid-cols-3 border-t border-ink/10 bg-surface/95 backdrop-blur-md shadow-[0_-4px_16px_rgba(0,0,0,0.06)] sm:hidden"
       style={{ paddingBottom: "env(safe-area-inset-bottom)" }}
-      aria-label={t.hero.ctaGuide}
+      aria-label={t.blog.eyebrow}
     >
       <Link
-        href="/services"
+        href="/blog"
         className="flex flex-col items-center justify-center gap-1.5 py-3.5 text-ink/80 transition-colors active:bg-accent/60"
       >
         <svg viewBox="0 0 24 24" className="h-7 w-7" fill="none" stroke="currentColor" strokeWidth="1.8" aria-hidden="true">
-          <rect x="4" y="3" width="16" height="18" rx="2" />
-          <path d="M8 8h8M8 12h8M8 16h5" strokeLinecap="round" />
+          <path d="M4 5.5A1.5 1.5 0 015.5 4H11v16H5.5A1.5 1.5 0 014 18.5v-13zM20 5.5A1.5 1.5 0 0018.5 4H13v16h5.5a1.5 1.5 0 001.5-1.5v-13z" strokeLinejoin="round" />
+          <path d="M7 8h1.5M7 11h1.5M16 8h1.5M16 11h1.5" strokeLinecap="round" />
         </svg>
-        <span className="text-[13px] font-bold leading-none">{t.hero.ctaGuide}</span>
+        <span className="text-[13px] font-bold leading-none">{t.blog.eyebrow}</span>
       </Link>
 
       <LineLink className="flex flex-col items-center justify-center gap-1.5 bg-line py-3.5 text-white transition-opacity active:opacity-80">
