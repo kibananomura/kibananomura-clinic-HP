@@ -85,7 +85,7 @@ export const CAREERS_PAGE = {
       body: "すでに当院の理念に共感し、ここで働きたいと考えてくださっている方は、開院前でも、どしどしご連絡ください。",
       wantedLabel: "特に、こんな方からのご連絡をお待ちしています",
       wanted: [
-        "内視鏡の介助やフットケアなど、当院の診療で生かせる技術をお持ちの看護師さん",
+        "当院の診療で生かせる技術をお持ちの看護師さん（下の「歓迎するスキル・ご経験」をご覧ください）",
         "Instagram や YouTube の撮影・編集の技術を発揮したい方",
       ],
       skillsLabel: "歓迎するスキル・ご経験",
@@ -183,7 +183,7 @@ export const CAREERS_PAGE = {
       body: "If you already share our philosophy and would like to work here, please don't hesitate to contact us — even before we open.",
       wantedLabel: "We'd especially love to hear from",
       wanted: [
-        "Nurses with skills that fit our care, such as endoscopy assistance or foot care",
+        "Nurses with skills that fit our care (see “Welcome skills and experience” below)",
         "People who want to put their Instagram or YouTube filming and editing skills to work",
       ],
       skillsLabel: "Welcome skills and experience",
