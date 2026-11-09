@@ -7888,7 +7888,7 @@ export const generatedPosts: BlogPost[] = [
   {
     "slug": "kyonen-no-allergy-kusuri",
     "date": "2026.11.02",
-    "cover": "/blog/kibana-landscape.jpg",
+    "cover": "/blog/kyonen-no-allergy-kusuri.jpg",
     "sources": [
       {
         "label": "日本鼻科学会「鼻アレルギー診療ガイドライン－通年性鼻炎と花粉症－2024年版（改訂第10版）」",

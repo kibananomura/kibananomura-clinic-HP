@@ -1,6 +1,6 @@
 ---
 date: 2026.11.02
-cover: /blog/kibana-landscape.jpg
+cover: /blog/kyonen-no-allergy-kusuri.jpg
 category_ja: 健康・予防の話
 category_en: Health and prevention
 subcategory_ja: アレルギー・花粉症
