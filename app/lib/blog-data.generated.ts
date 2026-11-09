@@ -7580,7 +7580,7 @@ export const generatedPosts: BlogPost[] = [
   {
     "slug": "senna-choukirenyou",
     "date": "2026.11.01",
-    "cover": "/blog/kibana-landscape.jpg",
+    "cover": "/blog/senna-choukirenyou.jpg",
     "sources": [
       {
         "label": "日本消化管学会「便通異常症診療ガイドライン2023－慢性便秘症」",
