@@ -9255,7 +9255,7 @@ export const generatedPosts: BlogPost[] = [
   {
     "slug": "hotai-card",
     "date": "2026.11.06",
-    "cover": "/blog/kibana-landscape.jpg",
+    "cover": "/blog/hotai-card.jpg",
     "sources": [
       {
         "label": "Walport MJ. Complement. N Engl J Med. 2001;344:1058-1066",
