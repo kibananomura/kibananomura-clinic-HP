@@ -8282,7 +8282,7 @@ export const generatedPosts: BlogPost[] = [
   {
     "slug": "honne-ga-ienai",
     "date": "2026.11.03",
-    "cover": "/blog/kibana-landscape.jpg",
+    "cover": "/blog/honne-ga-ienai.jpg",
     "ja": {
       "category": "診療で大切にしていること",
       "title": "「もうやれることはやったのに」——その言葉、診察室で言っていいんです",
