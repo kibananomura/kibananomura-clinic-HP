@@ -78,13 +78,27 @@ export const CAREERS_PAGE = {
     snsNoticeLabel: "SNS等での情報発信について",
     snsNoticeBody:
       "当院では開院に向けてSNS・ホームページ等での情報発信を予定しており、スタッフの写真や日々の様子を紹介させていただくことがあります。写真の使用範囲（顔出しの可否、匿名化の可否等）については、入職前の面談で個別にご希望を伺い、可能な限り配慮いたします。ただし、顔出しでの発信が一切できない場合、業務内容によってはご希望に沿えないことがありますので、あらかじめご了承ください。",
+    /** 理念に共感した方への、早めの応募の呼びかけ（2026-11-09 院長指示） */
+    earlyCall: {
+      label: "理念に共感してくださった方へ",
+      title: "就職をご希望の方は、早めにご連絡ください",
+      body: "すでに当院の理念に共感し、ここで働きたいと考えてくださっている方は、開院前でも、どしどしご連絡ください。",
+      wantedLabel: "特に、こんな方からのご連絡をお待ちしています",
+      wanted: [
+        "内視鏡の介助やフットケアなど、当院の診療で生かせる技術をお持ちの看護師さん",
+        "Instagram や YouTube の撮影・編集の技術を発揮したい方",
+      ],
+      emailLabel: "メールでのご連絡",
+      email: "contact@kibananomura.jp",
+      emailNote: "件名に「採用について」、本文にお名前・ご連絡先・ご経験（得意なこと）をお書き添えください。",
+    },
     positionsHeading: "募集職種",
     dutiesLabel: "主な業務",
     requirementsLabel: "応募条件・歓迎",
     conditionsLabel: "募集要項（案）",
     applyHeading: "お問い合わせ・ご応募",
     applyBody:
-      "ご興味のある方は、下記よりお気軽にお問い合わせください。面談の日程や詳細条件は個別にご案内いたします。",
+      "ご興味のある方は、メール（contact@kibananomura.jp）または下記の LINE から、お気軽にお問い合わせください。面談の日程や詳細条件は個別にご案内いたします。",
     applyLineButton: "LINE で問い合わせる",
     applyLineNote:
       "※ メッセージに「採用について」とお書き添えいただけるとスムーズです。",
@@ -146,13 +160,26 @@ export const CAREERS_PAGE = {
     snsNoticeLabel: "A note on social media",
     snsNoticeBody:
       "Ahead of opening, we plan to share updates on social media and our website, and may feature photos of staff and their day-to-day work. We'll ask about your preferences regarding photo use (whether you're comfortable appearing on camera, or would prefer to remain unidentified) individually before you join, and will accommodate this where we can. That said, if you are unable to appear on camera at all, this may limit which roles are a good fit, so please keep this in mind.",
+    earlyCall: {
+      label: "If our philosophy resonates with you",
+      title: "If you'd like to work with us, please get in touch early",
+      body: "If you already share our philosophy and would like to work here, please don't hesitate to contact us — even before we open.",
+      wantedLabel: "We'd especially love to hear from",
+      wanted: [
+        "Nurses with skills that fit our care, such as endoscopy assistance or foot care",
+        "People who want to put their Instagram or YouTube filming and editing skills to work",
+      ],
+      emailLabel: "Contact by email",
+      email: "contact@kibananomura.jp",
+      emailNote: "Please write “Recruitment” in the subject line, and include your name, contact details and experience (what you're good at).",
+    },
     positionsHeading: "Open positions",
     dutiesLabel: "Main duties",
     requirementsLabel: "Requirements & welcome",
     conditionsLabel: "Employment conditions (draft)",
     applyHeading: "Inquiries & applications",
     applyBody:
-      "If you are interested, please contact us below. We will arrange an interview and share details individually.",
+      "If you are interested, please contact us by email (contact@kibananomura.jp) or via LINE below. We will arrange an interview and share details individually.",
     applyLineButton: "Contact via LINE",
     applyLineNote:
       '* Please include "Recruitment inquiry" in your message.',

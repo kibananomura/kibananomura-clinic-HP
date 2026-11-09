@@ -107,6 +107,31 @@ export default function CareersPageClient() {
           </Link>
         </FadeIn>
 
+        {/* 理念に共感した方への、早めの応募の呼びかけ */}
+        <FadeIn delay={0.054}>
+          <div className="mx-auto mt-6 max-w-2xl rounded-3xl bg-accent/70 p-6 shadow-card sm:p-7">
+            <p className="text-xs font-bold text-primary">{copy.earlyCall.label}</p>
+            <p className="mt-2 text-base font-bold leading-snug text-ink sm:text-lg">{copy.earlyCall.title}</p>
+            <p className="mt-2 text-sm leading-relaxed text-ink/80">{copy.earlyCall.body}</p>
+            <p className="mt-4 text-sm font-bold text-primary-dark">{copy.earlyCall.wantedLabel}</p>
+            <ul className="mt-2 list-disc space-y-1.5 pl-5 text-sm leading-relaxed text-ink/80">
+              {copy.earlyCall.wanted.map((w) => (
+                <li key={w}>{w}</li>
+              ))}
+            </ul>
+            <div className="mt-5 rounded-2xl bg-surface/90 p-4">
+              <p className="text-xs font-bold text-ink/60">{copy.earlyCall.emailLabel}</p>
+              <a
+                href={`mailto:${copy.earlyCall.email}?subject=${encodeURIComponent(lang === "en" ? "Recruitment" : "採用について")}`}
+                className="mt-1 inline-block break-all text-base font-bold text-primary-dark underline underline-offset-2"
+              >
+                {copy.earlyCall.email}
+              </a>
+              <p className="mt-2 text-xs leading-relaxed text-ink/60">{copy.earlyCall.emailNote}</p>
+            </div>
+          </div>
+        </FadeIn>
+
         <FadeIn delay={0.055}>
           <div className="mx-auto mt-10 max-w-5xl">
             <h2 className="text-center text-lg font-bold text-ink">
