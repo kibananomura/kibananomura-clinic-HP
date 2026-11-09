@@ -22,7 +22,8 @@ sources:
 ストック原稿（未公開・日付未定のため自動公開されない）。
 公開前に必ず：
 1. 本文の【院長に確認】（料金・予約方法・使う製剤）を埋める。自費診療の内容をHPに載せるには、費用・期間・主なリスクの明記が必要（医療広告ガイドラインの限定解除）。
-2. marketing-advisor に医療広告の観点で確認してもらう。
+2. marketing-advisor の確認（2026-11-09）済み。表現は修正済み。残りは料金表（初診・検査〔テストステロン・PSA・ヘマトクリット〕・注射1回／月の目安・定期検査や管理料・税込）、期間と回数（例：2〜4週ごとに注射、3か月ごとに見直し）、問い合わせ先（電話または予約ページへのリンク）を本文に入れること。
+   未承認の製剤を使う場合は、①未承認であること ②入手経路 ③国内の同じ成分の承認薬の有無 ④海外の承認状況と安全性の情報、⑤医薬品副作用被害救済制度の対象外であること、を明記。承認された注射を承認外の目的で自費で使う場合も同様の明示を検討。AMSスコアの使用許諾も確認。
 3. 依頼の構成案にあった「架空の症例ストーリー（50代経営者Aさん）」は入れていない。治療の効果に関する体験談は、架空・実在を問わずHPに載せられないため（医療広告ガイドライン）。代わりに、研究で報告されている経過の目安を書いた。
 -->
 
@@ -43,23 +44,23 @@ sources:
 中心になるのは、足りない男性ホルモンを補う「テストステロン補充療法」です。
 
 - **注射**：2〜4週間に1回ほど、筋肉に注射します
-- **塗り薬（クリーム・ジェル）**：毎日、皮膚に塗って吸収させます
+- **塗り薬（クリーム・ジェル）**：毎日、皮膚に塗って吸収させます【院長に確認：国内で処方薬として承認されたテストステロンの塗り薬はないため、使う場合は未承認薬としての説明（下記）が必要。市販の第1類医薬品のクリームもある。製剤が決まるまで、この行を載せるか決める】
 
 どちらにも、通う回数や手間、値の安定しやすさに違いがあります。お仕事のペースや通いやすさに合わせて選びます。
 
 【院長に確認】当院で使う製剤（国内で承認された注射・塗り薬のどれを使うか。国内未承認の製剤を使う場合は、未承認であること・入手経路・国内の承認薬の有無・安全性の情報の明記が必要）。
 
-なお、症状や検査の結果によっては、**保険診療で治療できる場合もあります**。保険と自費のどちらが合うかも含めて、最初にご説明します。
+なお、症状や検査の結果によっては、**保険診療の対象になります**。同じ病気の治療で保険と自費を組み合わせることはできないため、どちらで行うかを最初にご説明して決めます。
 
 ### Q3. どのくらいで、変化を感じますか？
 
 ここは個人差がとても大きいところです。研究では、変化が出てくるまでの目安として、次のように報告されています。
 
-- **性欲や気分**：早い方で3週間ほどから
-- **やる気・活力、気分の落ち込み**：3〜6週間ほどから
+- **性欲・生活の質**：早い方で3〜4週間ほどから
+- **気分の落ち込み**：3〜6週間ほどから
 - **筋肉や体脂肪、勃起の力**：3〜6か月ほどかけて
 
-何も感じないまま経過する方もいます。そのため、3か月ほどを一区切りに、症状と血液の値を一緒に見直し、続けるかどうかを相談します。運動や睡眠の改善と組み合わせると、効果を感じやすいとも言われています。
+何も感じないまま経過する方もいます。そのため、3か月ほどを一区切りに、症状と血液の値を一緒に見直し、続けるかどうかを相談します。
 
 ### Q4. 副作用や、安全面が心配です
 
@@ -68,9 +69,12 @@ sources:
 - **血が濃くなりすぎる（多血症）**：血液検査で確認し、値によっては量を減らしたり休んだりします
 - **前立腺**：治療前と治療中に、前立腺がんの目安になる血液検査（PSA）を行います。前立腺がんのある方は、この治療を受けられません
 - **にきび・むくみ**：出ることがあります
-- **精子をつくる働きが落ちる**：これからお子さんを望む方は、治療の前に必ずご相談ください
+- **精子をつくる働きが落ちる・精巣が小さくなる**：これからお子さんを望む方は、治療の前に必ずご相談ください
+- **そのほか**：排尿の症状（前立腺肥大）の悪化、睡眠時無呼吸の悪化、乳房のふくらみ、注射した場所の痛み、血栓
 
-心臓や血管への影響については、大規模な研究で、心筋梗塞や脳卒中は増えなかったと報告されています。一方で、不整脈など一部の病気がやや多かったという結果もあり、持病のある方は慎重に判断します。
+前立腺がん・乳がんのある方、重い心不全の方などは、この治療を受けられません。【院長に確認：使う製剤の添付文書で、受けられない方の一覧を確かめる】
+
+心臓や血管への影響については、心臓病のリスクがある45〜80歳の男性を対象に、塗り薬を使って行われた大規模な研究で、心筋梗塞や脳卒中は増えなかったと報告されています。一方で、不整脈・肺塞栓（血栓）・急性腎障害がやや多かったという結果もあり、持病のある方は慎重に判断します。
 
 ### Q5. 一度始めたら、ずっと続けるのですか？
 
@@ -105,23 +109,23 @@ Then we look at lifestyle — sleep, diet, exercise and alcohol. Testosterone al
 The core is “testosterone replacement therapy,” which supplements the male hormone you're short of.
 
 - **Injections**: an injection into the muscle about once every 2–4 weeks
-- **Topical cream or gel**: applied to the skin daily and absorbed
+- **Topical cream or gel**: applied to the skin daily and absorbed [To confirm with the director: no prescription testosterone cream/gel is approved in Japan, so using one requires the unapproved-drug disclosures below. An over-the-counter cream also exists. Decide whether to include this line once the preparation is chosen.]
 
 They differ in how often you need to come in, how much effort they take, and how steady the levels stay. We choose based on your work pace and how easy it is for you to visit.
 
 [To confirm with the director] Which preparations the clinic will use. (If an unapproved preparation is used, the website must state that it's unapproved, how it's obtained, whether an approved equivalent exists in Japan, and safety information.)
 
-Depending on your symptoms and test results, **treatment may also be possible under health insurance**. We'll explain at the start which option — insurance or self-pay — suits you.
+Depending on your symptoms and test results, **treatment can be covered by health insurance**. Since insurance and self-pay can't be combined for treating the same condition, we'll explain at the start and decide together which one to use.
 
 ### Q3. How soon will I notice changes?
 
 This varies greatly from person to person. Research has reported the following as rough timelines for when changes start to appear:
 
-- **Sex drive and mood**: from about 3 weeks for some people
-- **Motivation, energy and low mood**: from about 3–6 weeks
+- **Sex drive and quality of life**: from about 3–4 weeks for some people
+- **Low mood**: from about 3–6 weeks
 - **Muscle, body fat and erectile strength**: over about 3–6 months
 
-Some people notice nothing at all. That's why we review your symptoms and blood levels together at around 3 months and discuss whether to continue. Combining treatment with better exercise and sleep is also said to make the effects easier to feel.
+Some people notice nothing at all. That's why we review your symptoms and blood levels together at around 3 months and discuss whether to continue.
 
 ### Q4. I'm worried about side effects and safety
 
@@ -130,9 +134,12 @@ Hormone treatment always comes with regular testing.
 - **Blood becoming too thick (polycythemia)**: checked with blood tests; depending on the result, we lower the dose or pause
 - **Prostate**: before and during treatment, we do a blood test (PSA) that serves as an indicator for prostate cancer. People with prostate cancer can't receive this treatment
 - **Acne and swelling**: these can occur
-- **Reduced sperm production**: if you're hoping to have children, please be sure to talk with us before starting
+- **Reduced sperm production and smaller testes**: if you're hoping to have children, please be sure to talk with us before starting
+- **Others**: worsening urinary symptoms (enlarged prostate), worsening sleep apnea, breast enlargement, pain at the injection site, blood clots
 
-As for the heart and blood vessels, a large study reported no increase in heart attacks or strokes. On the other hand, some conditions such as certain arrhythmias were slightly more common, so for people with chronic conditions we decide carefully.
+People with prostate or breast cancer, severe heart failure and certain other conditions can't receive this treatment. [To confirm with the director: check the full list in the package insert of the chosen preparation.]
+
+As for the heart and blood vessels, a large study of men aged 45–80 at risk of heart disease, using a topical preparation, reported no increase in heart attacks or strokes. On the other hand, arrhythmias, pulmonary embolism (blood clots) and acute kidney injury were slightly more common, so for people with chronic conditions we decide carefully.
 
 ### Q5. Once I start, do I have to continue forever?
 

@@ -5,8 +5,8 @@ category_ja: 健康・予防の話
 category_en: Health and prevention
 subcategory_ja: 男性の健康
 subcategory_en: Men's health
-title_ja: "その疲れ、本当に「年のせい」ですか？〜40代からの男性更年期（LOH症候群）セルフチェック〜"
-title_en: "Is that fatigue really just your age? — a self-check for male menopause (LOH syndrome) from your 40s"
+title_ja: "その疲れ、本当に「年のせい」ですか？〜40代からの男性更年期セルフチェック〜"
+title_en: "Is that fatigue really just your age? — a self-check for male menopause from your 40s"
 excerpt_ja: "健診は異常なし。なのに、朝から体が重く、仕事の決断も鈍い。そんな状態が続いているなら、男性ホルモンの低下が関わっているかもしれません。"
 excerpt_en: "Your checkup came back normal, yet you wake up heavy and your decisions at work feel sluggish. If that's been going on for a while, a drop in male hormones may be involved."
 related: [loh-chiryo, seijou-no-jouge-fuan, mainasu-05]
@@ -32,7 +32,7 @@ sources:
 
 ### まずは、セルフチェックから
 
-当てはまるものがいくつあるか、数えてみてください。国際的に使われている「AMSスコア」という質問票をもとに、項目をしぼった簡易版です。
+当てはまるものがあるか、見てみてください。国際的な質問票「AMSスコア」（17項目・点数で評価するもの）から、当院で一部の項目を選んだものです。点数で判定することはできません。
 
 **体のこと**
 - 疲れやすく、休んでも疲れが抜けない
@@ -52,6 +52,8 @@ sources:
 - 勃起する力が弱くなった
 
 いくつも当てはまる状態が続いているなら、一度ホルモンの値を調べてみる価値があります。なお、このチェックだけで診断はできません。似た症状は、甲状腺の病気やうつ病、睡眠時無呼吸などでも起こります。
+
+気分の落ち込みが強い、眠れない日が続く、死にたい気持ちがある、という場合は、このチェックの結果にかかわらず、早めに医療機関を受診してください。
 
 ### LOH症候群とは
 
@@ -73,9 +75,9 @@ sources:
 
 テストステロンの値は、1日の中でも変わります。朝に高く、夕方にかけて下がっていくため、**できれば午前中、なるべく早い時間の採血**が勧められています。前の晩の睡眠不足や深酒も値に響くので、検査の前日はいつもどおりの生活を心がけてください。
 
-### そのままにしておくと
+### テストステロンと、ほかの病気との関係
 
-「気分の問題だから」と放っておいてよいわけではありません。テストステロンが低い状態は、メタボリックシンドロームや糖尿病、心臓や血管の病気、骨粗しょう症とも関わりがあることが分かってきています。
+テストステロンが低い状態は、メタボリックシンドロームや糖尿病、心臓や血管の病気、骨粗しょう症と関わりがあると報告されています。ただし、治療でこれらの病気を防げるかどうかは、まだはっきり分かっていません。
 
 一方で、テストステロンの値は**採血で客観的に測ることができます**。自分の不調に「数字」という手がかりが得られるだけでも、次の一手が見えやすくなります。
 
@@ -83,7 +85,7 @@ sources:
 
 性のことも含めて、誰かに話すのは気が引けるものです。ですが、診察室ではごく当たり前の相談です。言いにくいことは、問診票に書いていただくだけでも構いません。
 
-まずは採血で、今の状態を知るところから始めてみませんか。気になる方は、かかりつけ医などにご相談ください（開院後は当院へ）。
+まずは採血で、今の状態を知るところから始めてみませんか。検査の費用や、保険と自費のどちらになるかは、【院長に確認：自費診療の案内ページ（料金・リスク・問い合わせ先）へのリンク】でご案内しています。気になる方は、かかりつけ医などにご相談ください（開院後は当院へ）。
 
 治療ではどんなことをするのか、どのくらいで変化を感じるのかは、「[男性ホルモンの治療って、何をするの？](/blog/loh-chiryo)」でお話しします。
 
@@ -97,7 +99,7 @@ In fact, behind that malaise there may be **a drop in the male hormone testoster
 
 ### Start with a self-check
 
-Count how many of these apply to you. It's a shortened version based on an internationally used questionnaire called the AMS score.
+See whether any of these apply to you. We've selected some items from an international questionnaire called the AMS score (17 items, scored by points). This selection can't be used to score or diagnose.
 
 **Physical**
 - You tire easily and rest doesn't restore you
@@ -117,6 +119,8 @@ Count how many of these apply to you. It's a shortened version based on an inter
 - Weaker erections
 
 If several of these have persisted, it's worth checking your hormone levels. This checklist alone can't make a diagnosis, though. Similar symptoms can also come from thyroid disease, depression, sleep apnea and more.
+
+If your low mood is severe, you can't sleep for days on end, or you have thoughts of wanting to die, please see a medical professional promptly, whatever this checklist shows.
 
 ### What is LOH syndrome?
 
@@ -138,9 +142,9 @@ That's exactly why it's worth checking from a different angle — your hormone l
 
 Testosterone levels change over the course of the day. They're higher in the morning and fall toward evening, so **a blood draw in the morning, as early as possible,** is recommended. A short night's sleep or heavy drinking the night before can also affect the result, so try to keep to your usual routine the day before.
 
-### If you leave it alone
+### Testosterone and other conditions
 
-It's not something to ignore as “just a mood issue.” Low testosterone has been linked to metabolic syndrome, diabetes, heart and blood vessel disease, and osteoporosis.
+Low testosterone has been reported to be associated with metabolic syndrome, diabetes, heart and blood vessel disease, and osteoporosis. However, it's not yet clear whether treatment can prevent these conditions.
 
 On the other hand, testosterone **can be measured objectively with a blood test**. Simply having a number to go with how you feel makes the next step much clearer.
 
@@ -148,6 +152,6 @@ On the other hand, testosterone **can be measured objectively with a blood test*
 
 It can feel awkward to talk to anyone about these things, sexual matters included. But in the exam room, it's a completely ordinary consultation. If something is hard to say, simply writing it on the questionnaire is fine.
 
-Why not start by finding out where you stand with a blood test? If you're concerned, please talk with your family doctor (or with us, once we open).
+Why not start by finding out where you stand with a blood test? The cost of testing, and whether it's covered by insurance or self-pay, is explained on [To confirm with the director: link to the self-pay information page (fees, risks, contact)]. If you're concerned, please talk with your family doctor (or with us, once we open).
 
 What treatment involves and how soon people tend to notice changes is covered in “[What does male hormone treatment actually involve?](/blog/loh-chiryo)”
