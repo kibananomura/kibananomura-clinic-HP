@@ -1,6 +1,6 @@
 ---
 date: 2026.10.26
-cover: /blog/kibana-landscape.jpg
+cover: /blog/kizu-shoudoku.jpg
 category_ja: 健康・予防の話
 category_en: Health and prevention
 subcategory_ja: けが・外科

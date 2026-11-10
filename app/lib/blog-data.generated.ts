@@ -6395,7 +6395,7 @@ export const generatedPosts: BlogPost[] = [
   {
     "slug": "kizu-shoudoku",
     "date": "2026.10.26",
-    "cover": "/blog/kibana-landscape.jpg",
+    "cover": "/blog/kizu-shoudoku.jpg",
     "sources": [
       {
         "label": "日本創傷外科学会「創傷関連ガイドライン 第Ⅰ編 急性創傷診療ガイドライン」",
