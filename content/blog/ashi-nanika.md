@@ -1,6 +1,6 @@
 ---
 date: 2026.11.10
-cover: /blog/kibana-landscape.jpg
+cover: /blog/ashi-nanika.jpg
 category_ja: 健康・予防の話
 category_en: Health and prevention
 subcategory_ja: 足の健康

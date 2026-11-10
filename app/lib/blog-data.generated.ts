@@ -10469,7 +10469,7 @@ export const generatedPosts: BlogPost[] = [
   {
     "slug": "ashi-nanika",
     "date": "2026.11.10",
-    "cover": "/blog/kibana-landscape.jpg",
+    "cover": "/blog/ashi-nanika.jpg",
     "sources": [
       {
         "label": "日本フットケア・足病医学会「学会について」",
