@@ -1939,7 +1939,7 @@ export const generatedPosts: BlogPost[] = [
     ],
     "ja": {
       "category": "健康・予防の話",
-      "subcategory": "肺・呼吸器",
+      "subcategory": "肺・呼吸器・アレルギー",
       "title": "「抗酸菌」は酸を出す最強の菌？——名前のせいで誤解されがちな菌の正体",
       "excerpt": "「抗酸菌が出ています」と言われて、酸を吐く凶悪な菌を想像していませんか。実はその名前、ある「検査の都合」でついたものなのです。",
       "body": [
@@ -2111,7 +2111,7 @@ export const generatedPosts: BlogPost[] = [
     },
     "en": {
       "category": "Health and prevention",
-      "subcategory": "Lungs & breathing",
+      "subcategory": "Lungs, breathing & allergies",
       "title": "Are “acid-fast bacteria” super-germs that spit acid? The truth behind a misleading name",
       "excerpt": "Told “acid-fast bacteria were found” and picturing a vicious germ that spits acid? That name actually comes from how the bacteria behave in a lab test.",
       "body": [
@@ -2288,6 +2288,11 @@ export const generatedPosts: BlogPost[] = [
         "en": "A lingering cough or a “shadow” on your checkup — what is pulmonary NTM (MAC) disease? Causes, symptoms, and “Is it contagious?”"
       },
       {
+        "slug": "kyonen-no-allergy-kusuri",
+        "ja": "去年の残りの薬でしのいでいませんか？——抗アレルギー薬の組み合わせと、自己判断の落とし穴",
+        "en": "Getting by on last year's leftover pills? How allergy medicines work together — and the pitfalls of choosing your own"
+      },
+      {
         "slug": "zensoku-chiryo",
         "ja": "「調子がいいから薬やめました」でぜんそくが怖い理由",
         "en": "Why stopping asthma medicine when you feel fine can be risky"
@@ -2309,7 +2314,7 @@ export const generatedPosts: BlogPost[] = [
     ],
     "ja": {
       "category": "健康・予防の話",
-      "subcategory": "肺・呼吸器",
+      "subcategory": "肺・呼吸器・アレルギー",
       "title": "せきが長引く・健診で「影」——結核菌の仲間による肺の病気「肺NTM症」とは？原因・症状と「人にうつるの？」にお答えします",
       "excerpt": "「肺NTM症って結核の仲間？家族にうつる？」——健診で影を指摘されて不安な方へ。先にお伝えすると、この病気は人から人へはうつりません。",
       "body": [
@@ -2493,7 +2498,7 @@ export const generatedPosts: BlogPost[] = [
     },
     "en": {
       "category": "Health and prevention",
-      "subcategory": "Lungs & breathing",
+      "subcategory": "Lungs, breathing & allergies",
       "title": "A lingering cough or a “shadow” on your checkup — what is pulmonary NTM (MAC) disease? Causes, symptoms, and “Is it contagious?”",
       "excerpt": "“Is pulmonary NTM a kind of tuberculosis? Can my family catch it?” If a checkup found a shadow on your lungs, here's the reassuring first answer — it doesn't spread from person to person.",
       "body": [
@@ -2680,6 +2685,11 @@ export const generatedPosts: BlogPost[] = [
         "slug": "hai-kousankin",
         "ja": "「抗酸菌」は酸を出す最強の菌？——名前のせいで誤解されがちな菌の正体",
         "en": "Are “acid-fast bacteria” super-germs that spit acid? The truth behind a misleading name"
+      },
+      {
+        "slug": "kyonen-no-allergy-kusuri",
+        "ja": "去年の残りの薬でしのいでいませんか？——抗アレルギー薬の組み合わせと、自己判断の落とし穴",
+        "en": "Getting by on last year's leftover pills? How allergy medicines work together — and the pitfalls of choosing your own"
       },
       {
         "slug": "zensoku-chiryo",
@@ -4527,7 +4537,7 @@ export const generatedPosts: BlogPost[] = [
     ],
     "ja": {
       "category": "健康・予防の話",
-      "subcategory": "肺・呼吸器",
+      "subcategory": "肺・呼吸器・アレルギー",
       "title": "「調子がいいから薬やめました」でぜんそくが怖い理由",
       "excerpt": "「症状がないのに、なぜ薬を続けなきゃいけないの？」——実は医師も昔はそう考えていました。ぜんそく治療の考え方がこの数十年でどう変わったか、お話しします。",
       "body": [
@@ -4603,7 +4613,7 @@ export const generatedPosts: BlogPost[] = [
     },
     "en": {
       "category": "Health and prevention",
-      "subcategory": "Lungs & breathing",
+      "subcategory": "Lungs, breathing & allergies",
       "title": "Why stopping asthma medicine when you feel fine can be risky",
       "excerpt": "Why keep taking medicine when you have no symptoms at all? Doctors used to think the same thing. Here's how asthma treatment has changed over the past few decades.",
       "body": [
@@ -4679,6 +4689,11 @@ export const generatedPosts: BlogPost[] = [
     },
     "related": [
       {
+        "slug": "kyonen-no-allergy-kusuri",
+        "ja": "去年の残りの薬でしのいでいませんか？——抗アレルギー薬の組み合わせと、自己判断の落とし穴",
+        "en": "Getting by on last year's leftover pills? How allergy medicines work together — and the pitfalls of choosing your own"
+      },
+      {
         "slug": "hai-ntm-sho",
         "ja": "せきが長引く・健診で「影」——結核菌の仲間による肺の病気「肺NTM症」とは？原因・症状と「人にうつるの？」にお答えします",
         "en": "A lingering cough or a “shadow” on your checkup — what is pulmonary NTM (MAC) disease? Causes, symptoms, and “Is it contagious?”"
@@ -4702,7 +4717,7 @@ export const generatedPosts: BlogPost[] = [
     ],
     "ja": {
       "category": "健康・予防の話",
-      "subcategory": "生活習慣病との付き合い方",
+      "subcategory": "糖尿病・生活習慣病",
       "title": "「生活習慣病」のレッテルで、ご自身を責めないでください",
       "excerpt": "「不摂生のせいでこの数値になったんですよね……」そう肩を落とす方に、お伝えしたいことがあります。実は、生活習慣とは関係なく起こる高血圧・糖尿病・脂質異常症もあるのです。",
       "body": [
@@ -4758,7 +4773,7 @@ export const generatedPosts: BlogPost[] = [
     },
     "en": {
       "category": "Health and prevention",
-      "subcategory": "Living with lifestyle diseases",
+      "subcategory": "Diabetes & lifestyle diseases",
       "title": "Please don't blame yourself for the label \"lifestyle disease\"",
       "excerpt": "This number is my own fault for not taking care of myself, isn't it — I want to tell the people who say this something important. Some cases of high blood pressure, diabetes, and dyslipidemia have nothing to do with lifestyle at all.",
       "body": [
@@ -4851,7 +4866,7 @@ export const generatedPosts: BlogPost[] = [
     ],
     "ja": {
       "category": "健康・予防の話",
-      "subcategory": "生活習慣病との付き合い方",
+      "subcategory": "糖尿病・生活習慣病",
       "title": "「お薬は一生やめられない」は誤解です",
       "excerpt": "「このお薬、一度始めたらもう一生やめられないんですよね……？」これまでの外来でとてもよく聞かれてきた質問です。その答えは、実は「いいえ」です。",
       "body": [
@@ -4911,7 +4926,7 @@ export const generatedPosts: BlogPost[] = [
     },
     "en": {
       "category": "Health and prevention",
-      "subcategory": "Living with lifestyle diseases",
+      "subcategory": "Diabetes & lifestyle diseases",
       "title": "'Once you start, you can never stop' is a myth",
       "excerpt": "Once I start this medication, I can never stop, right? It's a question I've heard all the time, throughout my career. The real answer is actually no.",
       "body": [
@@ -5682,7 +5697,7 @@ export const generatedPosts: BlogPost[] = [
     "cover": "/blog/kibana-landscape.jpg",
     "ja": {
       "category": "健康・予防の話",
-      "subcategory": "けが・外科",
+      "subcategory": "足・腰・けが",
       "title": "血が出たら、まずスマホで一枚撮ってください",
       "excerpt": "便に血が混じっていた、吐いたものに血が混じっていた——そんなとき、つい忘れがちな「ある行動」が、実は診察をものすごく助けてくれます。",
       "body": [
@@ -5750,7 +5765,7 @@ export const generatedPosts: BlogPost[] = [
     },
     "en": {
       "category": "Health and prevention",
-      "subcategory": "Injuries & surgery",
+      "subcategory": "Feet, back & injuries",
       "title": "If you're bleeding, snap a photo on your phone first",
       "excerpt": "Blood in your stool, blood in what you threw up — there's one easy thing people almost always forget to do, and it genuinely helps us a lot.",
       "body": [
@@ -5818,19 +5833,19 @@ export const generatedPosts: BlogPost[] = [
     },
     "related": [
       {
-        "slug": "kizu-shoudoku",
-        "ja": "すり傷に消毒、実は逆効果？——「洗って、乾かさない」が早くきれいに治すコツ",
-        "en": "Is disinfecting a scrape actually counterproductive? Why “wash it, and don't let it dry out” heals faster and cleaner"
-      },
-      {
         "slug": "ashi-nanika",
         "ja": "足が痛い、むくむ。でも、何科に行けばいいの？〜日本で遅れていた「足の医療」と、受診のコツ〜",
         "en": "My feet hurt and swell — but which department should I see? — Japan's late start in “foot medicine,” and tips for getting care"
       },
       {
-        "slug": "flu-vaccine-timing",
-        "ja": "インフルエンザワクチン、いつ打つのが一番いい？〜受験や大切な日から「逆算」する接種スケジュール〜",
-        "en": "When is the best time to get a flu shot? — planning backward from exams and other important days"
+        "slug": "shibire-shinkei-saisei",
+        "ja": "足のしびれは、治る？残る？〜神経の修復力と、しびれと上手に付き合うということ〜",
+        "en": "Will the numbness in my leg go away, or will it stay? — the nerve's power to repair, and learning to live well with numbness"
+      },
+      {
+        "slug": "kizu-shoudoku",
+        "ja": "すり傷に消毒、実は逆効果？——「洗って、乾かさない」が早くきれいに治すコツ",
+        "en": "Is disinfecting a scrape actually counterproductive? Why “wash it, and don't let it dry out” heals faster and cleaner"
       }
     ]
   },
@@ -6404,7 +6419,7 @@ export const generatedPosts: BlogPost[] = [
     ],
     "ja": {
       "category": "健康・予防の話",
-      "subcategory": "けが・外科",
+      "subcategory": "足・腰・けが",
       "title": "すり傷に消毒、実は逆効果？——「洗って、乾かさない」が早くきれいに治すコツ",
       "excerpt": "転んですりむいたとき、つい赤茶色の消毒薬を塗って「乾かさなきゃ」と思っていませんか。良かれと思ったその手当て、実は傷の治りを遅らせているかもしれません。",
       "body": [
@@ -6560,7 +6575,7 @@ export const generatedPosts: BlogPost[] = [
     },
     "en": {
       "category": "Health and prevention",
-      "subcategory": "Injuries & surgery",
+      "subcategory": "Feet, back & injuries",
       "title": "Is disinfecting a scrape actually counterproductive? Why “wash it, and don't let it dry out” heals faster and cleaner",
       "excerpt": "When you scrape yourself, do you reach for the reddish-brown antiseptic and try to “let it dry out”? That well-meant first aid may actually be slowing your healing.",
       "body": [
@@ -6721,9 +6736,14 @@ export const generatedPosts: BlogPost[] = [
         "en": "Why does a splinter spot swell up and then settle down on its own? — white blood cells, and another “invisible guardian” called complement"
       },
       {
-        "slug": "shukketsu-shashin-onegai",
-        "ja": "血が出たら、まずスマホで一枚撮ってください",
-        "en": "If you're bleeding, snap a photo on your phone first"
+        "slug": "ashi-nanika",
+        "ja": "足が痛い、むくむ。でも、何科に行けばいいの？〜日本で遅れていた「足の医療」と、受診のコツ〜",
+        "en": "My feet hurt and swell — but which department should I see? — Japan's late start in “foot medicine,” and tips for getting care"
+      },
+      {
+        "slug": "shibire-shinkei-saisei",
+        "ja": "足のしびれは、治る？残る？〜神経の修復力と、しびれと上手に付き合うということ〜",
+        "en": "Will the numbness in my leg go away, or will it stay? — the nerve's power to repair, and learning to live well with numbness"
       }
     ],
     "upcoming": [
@@ -7292,7 +7312,7 @@ export const generatedPosts: BlogPost[] = [
     ],
     "ja": {
       "category": "健康・予防の話",
-      "subcategory": "生活習慣病との付き合い方",
+      "subcategory": "糖尿病・生活習慣病",
       "title": "生活習慣病の本当の治療は、診察室の外にあります",
       "excerpt": "「薬は毎日飲んでいるのに、数値がなかなか良くならない」——その答えは、お薬の外、毎日の暮らしの中にあるかもしれません。",
       "body": [
@@ -7424,7 +7444,7 @@ export const generatedPosts: BlogPost[] = [
     },
     "en": {
       "category": "Health and prevention",
-      "subcategory": "Living with lifestyle diseases",
+      "subcategory": "Diabetes & lifestyle diseases",
       "title": "The real treatment for lifestyle diseases happens outside the consultation room",
       "excerpt": "“I take my medicine every day, but my numbers just won't improve” — the answer may lie outside the pills, in your daily life.",
       "body": [
@@ -7893,7 +7913,7 @@ export const generatedPosts: BlogPost[] = [
     ],
     "ja": {
       "category": "健康・予防の話",
-      "subcategory": "アレルギー・花粉症",
+      "subcategory": "肺・呼吸器・アレルギー",
       "title": "去年の残りの薬でしのいでいませんか？——抗アレルギー薬の組み合わせと、自己判断の落とし穴",
       "excerpt": "「去年の薬がまだ何種類か残っているから、とりあえず飲んでおこう」——その引き出しの中の薬、実は「効く相手」がそれぞれ違うかもしれません。",
       "body": [
@@ -8073,7 +8093,7 @@ export const generatedPosts: BlogPost[] = [
     },
     "en": {
       "category": "Health and prevention",
-      "subcategory": "Allergies & hay fever",
+      "subcategory": "Lungs, breathing & allergies",
       "title": "Getting by on last year's leftover pills? How allergy medicines work together — and the pitfalls of choosing your own",
       "excerpt": "“There are still a few kinds left from last year, so I'll just take those” — but the medicines in that drawer may each be aimed at a different target.",
       "body": [
@@ -8253,19 +8273,19 @@ export const generatedPosts: BlogPost[] = [
     },
     "related": [
       {
-        "slug": "ashi-nanika",
-        "ja": "足が痛い、むくむ。でも、何科に行けばいいの？〜日本で遅れていた「足の医療」と、受診のコツ〜",
-        "en": "My feet hurt and swell — but which department should I see? — Japan's late start in “foot medicine,” and tips for getting care"
+        "slug": "zensoku-chiryo",
+        "ja": "「調子がいいから薬やめました」でぜんそくが怖い理由",
+        "en": "Why stopping asthma medicine when you feel fine can be risky"
       },
       {
-        "slug": "flu-vaccine-timing",
-        "ja": "インフルエンザワクチン、いつ打つのが一番いい？〜受験や大切な日から「逆算」する接種スケジュール〜",
-        "en": "When is the best time to get a flu shot? — planning backward from exams and other important days"
+        "slug": "hai-ntm-sho",
+        "ja": "せきが長引く・健診で「影」——結核菌の仲間による肺の病気「肺NTM症」とは？原因・症状と「人にうつるの？」にお答えします",
+        "en": "A lingering cough or a “shadow” on your checkup — what is pulmonary NTM (MAC) disease? Causes, symptoms, and “Is it contagious?”"
       },
       {
-        "slug": "shibire-shinkei-saisei",
-        "ja": "足のしびれは、治る？残る？〜神経の修復力と、しびれと上手に付き合うということ〜",
-        "en": "Will the numbness in my leg go away, or will it stay? — the nerve's power to repair, and learning to live well with numbness"
+        "slug": "hai-kousankin",
+        "ja": "「抗酸菌」は酸を出す最強の菌？——名前のせいで誤解されがちな菌の正体",
+        "en": "Are “acid-fast bacteria” super-germs that spit acid? The truth behind a misleading name"
       }
     ],
     "upcoming": [
@@ -10002,7 +10022,7 @@ export const generatedPosts: BlogPost[] = [
     ],
     "ja": {
       "category": "健康・予防の話",
-      "subcategory": "腰・関節・神経",
+      "subcategory": "足・腰・けが",
       "title": "足のしびれは、治る？残る？〜神経の修復力と、しびれと上手に付き合うということ〜",
       "excerpt": "「腰の痛みはましになったのに、足のしびれだけが取れない」——足の神経には修復する力がある一方で、しびれは残りやすい症状でもあります。その両方を、正直にお話しします。",
       "body": [
@@ -10106,7 +10126,7 @@ export const generatedPosts: BlogPost[] = [
     },
     "en": {
       "category": "Health and prevention",
-      "subcategory": "Back, joints & nerves",
+      "subcategory": "Feet, back & injuries",
       "title": "Will the numbness in my leg go away, or will it stay? — the nerve's power to repair, and learning to live well with numbness",
       "excerpt": "“My back pain is better, but the numbness in my leg won't go away.” Leg nerves can repair themselves, yet numbness is also a symptom that tends to linger. Here's an honest look at both.",
       "body": [
@@ -10215,14 +10235,14 @@ export const generatedPosts: BlogPost[] = [
         "en": "My feet hurt and swell — but which department should I see? — Japan's late start in “foot medicine,” and tips for getting care"
       },
       {
-        "slug": "flu-vaccine-timing",
-        "ja": "インフルエンザワクチン、いつ打つのが一番いい？〜受験や大切な日から「逆算」する接種スケジュール〜",
-        "en": "When is the best time to get a flu shot? — planning backward from exams and other important days"
+        "slug": "kizu-shoudoku",
+        "ja": "すり傷に消毒、実は逆効果？——「洗って、乾かさない」が早くきれいに治すコツ",
+        "en": "Is disinfecting a scrape actually counterproductive? Why “wash it, and don't let it dry out” heals faster and cleaner"
       },
       {
-        "slug": "kansen-2026-11",
-        "ja": "【続報】宮崎でインフルエンザが例年の約15倍に。RSウイルスも倍増、マダニの感染症にも注意を",
-        "en": "[Update] Flu in Miyazaki is about 15 times the usual level — RSV has doubled, and watch out for tick-borne infections too"
+        "slug": "shukketsu-shashin-onegai",
+        "ja": "血が出たら、まずスマホで一枚撮ってください",
+        "en": "If you're bleeding, snap a photo on your phone first"
       }
     ]
   },
@@ -10486,7 +10506,7 @@ export const generatedPosts: BlogPost[] = [
     ],
     "ja": {
       "category": "健康・予防の話",
-      "subcategory": "足の健康",
+      "subcategory": "足・腰・けが",
       "title": "足が痛い、むくむ。でも、何科に行けばいいの？〜日本で遅れていた「足の医療」と、受診のコツ〜",
       "excerpt": "足の痛み、しびれ、むくみ、タコ、爪のトラブル。「何科に行けばいいのか分からなくて」と、我慢していませんか。",
       "body": [
@@ -10582,7 +10602,7 @@ export const generatedPosts: BlogPost[] = [
     },
     "en": {
       "category": "Health and prevention",
-      "subcategory": "Foot health",
+      "subcategory": "Feet, back & injuries",
       "title": "My feet hurt and swell — but which department should I see? — Japan's late start in “foot medicine,” and tips for getting care",
       "excerpt": "Foot pain, numbness, swelling, calluses, nail problems — are you putting up with them because you don't know where to go?",
       "body": [

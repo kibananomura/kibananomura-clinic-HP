@@ -3,8 +3,8 @@ date: 2026.10.26
 cover: /blog/kizu-shoudoku.jpg
 category_ja: 健康・予防の話
 category_en: Health and prevention
-subcategory_ja: けが・外科
-subcategory_en: Injuries & surgery
+subcategory_ja: 足・腰・けが
+subcategory_en: Feet, back & injuries
 title_ja: すり傷に消毒、実は逆効果？——「洗って、乾かさない」が早くきれいに治すコツ
 title_en: Is disinfecting a scrape actually counterproductive? Why “wash it, and don't let it dry out” heals faster and cleaner
 excerpt_ja: 転んですりむいたとき、つい赤茶色の消毒薬を塗って「乾かさなきゃ」と思っていませんか。良かれと思ったその手当て、実は傷の治りを遅らせているかもしれません。

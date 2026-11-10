@@ -3,8 +3,8 @@ date: 2026.11.14
 cover: /blog/kibana-landscape.jpg
 category_ja: 健康・予防の話
 category_en: Health and prevention
-subcategory_ja: 足の健康
-subcategory_en: Foot health
+subcategory_ja: 足・腰・けが
+subcategory_en: Feet, back & injuries
 title_ja: "その足のタコや小さな傷、「たかが」で済ませていませんか？〜足は全身の鏡。今日からできるセルフチェック〜"
 title_en: "Are you brushing off those calluses and small cuts on your feet? — your feet mirror your whole body: a self-check you can start today"
 excerpt_ja: "足のタコやウオノメ、小さな傷。忙しいと、ついそのままにしてしまいますよね。でも、その小さなトラブルが、大切なサインのことがあります。"

@@ -52,3 +52,22 @@ export function getAdjacentPosts(slug: string): {
 export function getContent(post: BlogPost, lang: Lang): BlogContent {
   return lang === "en" ? post.en : post.ja;
 }
+
+// 読み物として順に読んでほしいカテゴリは「連載」として、古い順に第1話・第2話…と番号をつける。
+export const SERIES_CATEGORIES = ["院長の歩み", "診療所づくり"];
+
+const seriesNumbers = new Map<string, number>();
+for (const cat of SERIES_CATEGORIES) {
+  posts
+    .filter((p) => p.ja.category === cat)
+    .sort((a, b) => a.date.localeCompare(b.date))
+    .forEach((p, i) => seriesNumbers.set(p.slug, i + 1));
+}
+
+export function getSeriesNumber(post: BlogPost): number | undefined {
+  return seriesNumbers.get(post.slug);
+}
+
+export function seriesLabel(n: number, lang: Lang): string {
+  return lang === "en" ? `Part ${n}` : `第${n}話`;
+}

@@ -3,8 +3,8 @@ date: 2026.10.18
 cover: /blog/kibana-landscape.jpg
 category_ja: 健康・予防の話
 category_en: Health and prevention
-subcategory_ja: 生活習慣病との付き合い方
-subcategory_en: Living with lifestyle diseases
+subcategory_ja: 糖尿病・生活習慣病
+subcategory_en: Diabetes & lifestyle diseases
 title_ja: 「お薬は一生やめられない」は誤解です
 title_en: "'Once you start, you can never stop' is a myth"
 excerpt_ja: 「このお薬、一度始めたらもう一生やめられないんですよね……？」これまでの外来でとてもよく聞かれてきた質問です。その答えは、実は「いいえ」です。

@@ -3,8 +3,8 @@ date: 2026.10.16
 cover: /blog/kibana-landscape.jpg
 category_ja: 健康・予防の話
 category_en: Health and prevention
-subcategory_ja: 肺・呼吸器
-subcategory_en: Lungs & breathing
+subcategory_ja: 肺・呼吸器・アレルギー
+subcategory_en: Lungs, breathing & allergies
 title_ja: 「調子がいいから薬やめました」でぜんそくが怖い理由
 title_en: Why stopping asthma medicine when you feel fine can be risky
 excerpt_ja: 「症状がないのに、なぜ薬を続けなきゃいけないの？」——実は医師も昔はそう考えていました。ぜんそく治療の考え方がこの数十年でどう変わったか、お話しします。

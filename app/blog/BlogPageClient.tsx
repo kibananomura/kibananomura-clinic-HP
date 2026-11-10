@@ -1,12 +1,20 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useMemo, useRef, useState } from "react";
 import Link from "next/link";
 import FadeIn from "../components/FadeIn";
 import SectionHeading from "../components/SectionHeading";
 import { SoftBlob, LeafSprig } from "../components/Decor";
 import { useSite } from "../lib/site";
-import { posts, getContent, type BlogPost, type BlogContent } from "../lib/blog";
+import {
+  posts,
+  getContent,
+  getSeriesNumber,
+  seriesLabel,
+  SERIES_CATEGORIES,
+  type BlogPost,
+  type BlogContent,
+} from "../lib/blog";
 import { withWbr } from "../lib/jp-break";
 import BlogRequestNote from "../components/BlogRequestNote";
 
@@ -25,22 +33,44 @@ const HEALTH_CATEGORY = "健康・予防の話";
 const SUBCATEGORY_ORDER: { ja: string; en: string }[] = [
   { ja: "感染症・ワクチン", en: "Infections & vaccines" },
   { ja: "胃腸・消化器", en: "Stomach & digestion" },
-  { ja: "肺・呼吸器", en: "Lungs & breathing" },
-  { ja: "アレルギー・花粉症", en: "Allergies & hay fever" },
+  { ja: "肺・呼吸器・アレルギー", en: "Lungs, breathing & allergies" },
   { ja: "血圧", en: "Blood pressure" },
   { ja: "コレステロール・尿酸", en: "Cholesterol & uric acid" },
-  { ja: "血糖・糖尿病", en: "Blood sugar & diabetes" },
+  { ja: "糖尿病・生活習慣病", en: "Diabetes & lifestyle diseases" },
   { ja: "食事・運動", en: "Diet & exercise" },
-  { ja: "生活習慣病との付き合い方", en: "Living with lifestyle diseases" },
   { ja: "健診・検査", en: "Checkups & tests" },
-  { ja: "腰・関節・神経", en: "Back, joints & nerves" },
-  { ja: "足の健康", en: "Foot health" },
+  { ja: "足・腰・けが", en: "Feet, back & injuries" },
   { ja: "男性の健康", en: "Men's health" },
-  { ja: "けが・外科", en: "Injuries & surgery" },
 ];
+
+// 「今の季節のおすすめ」に出すサブ分類（月 → サブ分類）。
+const SEASONAL_SUBCATEGORY: Record<number, string> = {
+  1: "感染症・ワクチン",
+  2: "肺・呼吸器・アレルギー",
+  3: "肺・呼吸器・アレルギー",
+  4: "健診・検査",
+  5: "食事・運動",
+  6: "胃腸・消化器",
+  7: "感染症・ワクチン",
+  8: "感染症・ワクチン",
+  9: "健診・検査",
+  10: "感染症・ワクチン",
+  11: "感染症・ワクチン",
+  12: "感染症・ワクチン",
+};
+
+// 最初の画面で、カテゴリ・サブ分類ごとに見せる記事の数（残りは「もっと見る」で開く）。
+const PREVIEW_COUNT = 3;
 
 function sortNewestFirst(list: BlogPost[]): BlogPost[] {
   return [...list].sort((a, b) => b.date.localeCompare(a.date));
+}
+
+// 連載のカテゴリは第1話から読めるように古い順、それ以外は新しい順。
+function sortForCategory(key: string, list: BlogPost[]): BlogPost[] {
+  return SERIES_CATEGORIES.includes(key)
+    ? [...list].sort((a, b) => a.date.localeCompare(b.date))
+    : sortNewestFirst(list);
 }
 
 // ── 記事検索 ──────────────────────────────────────────────
@@ -116,6 +146,7 @@ export default function BlogPageClient() {
   const [activeCategory, setActiveCategory] = useState<string | null>(null);
   const [activeSubcategory, setActiveSubcategory] = useState<string | null>(null);
   const [query, setQuery] = useState("");
+  const topRef = useRef<HTMLDivElement>(null);
   const searching = query.trim().length > 0;
   const results = useMemo(() => searchPosts(query), [query]);
 
@@ -143,7 +174,7 @@ export default function BlogPageClient() {
       ordered.push({
         key: entry.ja,
         label: lang === "en" ? entry.en : entry.ja,
-        posts: sortNewestFirst(list),
+        posts: sortForCategory(entry.ja, list),
       });
       byJaCategory.delete(entry.ja);
     }
@@ -188,6 +219,103 @@ export default function BlogPageClient() {
         : g
   );
 
+  // 新着3本
+  const latest = useMemo(() => sortNewestFirst(posts).slice(0, PREVIEW_COUNT), []);
+
+  // 今の季節のおすすめ（新着に出ている記事は除く）
+  const seasonal = useMemo(() => {
+    const key = SEASONAL_SUBCATEGORY[new Date().getMonth() + 1];
+    const shown = new Set(latest.map((p) => p.slug));
+    const list = sortNewestFirst(posts.filter((p) => p.ja.subcategory === key && !shown.has(p.slug)));
+    const entry = SUBCATEGORY_ORDER.find((e) => e.ja === key);
+    return {
+      label: entry ? (lang === "en" ? entry.en : entry.ja) : key ?? "",
+      posts: list.slice(0, PREVIEW_COUNT),
+    };
+  }, [latest, lang]);
+
+  // 「健康・予防の話」をサブ分類ごとに分けたもの
+  const healthBySubcategory = useMemo(() => {
+    const health = groups.find((g) => g.key === HEALTH_CATEGORY);
+    if (!health) return [];
+    const result = subcategories.map((sc) => ({
+      key: sc.key,
+      label: sc.label,
+      posts: health.posts.filter((p) => p.ja.subcategory === sc.key),
+    }));
+    const others = health.posts.filter((p) => !p.ja.subcategory);
+    if (others.length > 0) {
+      result.push({ key: "__others", label: lang === "en" ? "Others" : "その他", posts: others });
+    }
+    return result;
+  }, [groups, subcategories, lang]);
+
+  function openTopic(category: string, subcategory: string | null) {
+    setActiveCategory(category);
+    setActiveSubcategory(subcategory === "__others" ? null : subcategory);
+    setQuery("");
+    topRef.current?.scrollIntoView({ behavior: "smooth", block: "start" });
+  }
+
+  function GroupTitle({ label, count, note }: { label: string; count?: number; note?: string }) {
+    return (
+      <h2 className="mb-4 flex flex-wrap items-center gap-2 text-base font-bold text-primary-dark">
+        <span className="h-2 w-2 shrink-0 rounded-full bg-primary" aria-hidden="true" />
+        {label}
+        {count !== undefined && (
+          <span className="font-medium text-ink/50">
+            （{count}
+            {t.blog.postCountSuffix}）
+          </span>
+        )}
+        {note && (
+          <span className="rounded-full bg-accent px-2.5 py-0.5 text-xs font-bold text-primary-dark">{note}</span>
+        )}
+      </h2>
+    );
+  }
+
+  function PostList({ list }: { list: BlogPost[] }) {
+    return (
+      <div className="flex flex-col gap-4">
+        {list.map((post, i) => (
+          <PostCard key={post.slug} post={post} delay={(i % 4) * 0.05} />
+        ))}
+      </div>
+    );
+  }
+
+  function MoreButton({ total, onClick }: { total: number; onClick: () => void }) {
+    return (
+      <div className="mt-4 text-center">
+        <button
+          type="button"
+          onClick={onClick}
+          className="inline-flex items-center gap-1.5 rounded-full border border-primary/40 bg-surface px-5 py-2 text-sm font-bold text-primary-dark transition-colors hover:bg-accent"
+        >
+          {lang === "en" ? `See all ${total}` : `もっと見る（全${total}件）`}
+          <span aria-hidden="true">→</span>
+        </button>
+      </div>
+    );
+  }
+
+  function TopicTile({ label, count, onClick }: { label: string; count: number; onClick: () => void }) {
+    return (
+      <button
+        type="button"
+        onClick={onClick}
+        className="flex flex-col items-start rounded-2xl bg-surface/90 p-4 text-left shadow-card transition-all hover:-translate-y-0.5 hover:bg-accent hover:shadow-soft"
+      >
+        <span className="text-sm font-bold leading-snug text-ink">{label}</span>
+        <span className="mt-1 text-xs text-ink/50">
+          {count}
+          {t.blog.postCountSuffix}
+        </span>
+      </button>
+    );
+  }
+
   function PostCard({ post, delay }: { post: BlogPost; delay: number }) {
     const c = getContent(post, lang);
     return (
@@ -204,6 +332,11 @@ export default function BlogPageClient() {
             {c.subcategory && (
               <span className="rounded-full border border-primary/30 px-2.5 py-0.5 font-bold text-primary-dark/80">
                 {c.subcategory}
+              </span>
+            )}
+            {getSeriesNumber(post) && (
+              <span className="rounded-full border border-primary/30 px-2.5 py-0.5 font-bold text-primary-dark/80">
+                {seriesLabel(getSeriesNumber(post)!, lang)}
               </span>
             )}
           </div>
@@ -301,6 +434,7 @@ export default function BlogPageClient() {
         </FadeIn>
 
         {/* カテゴリ絞り込みチップ */}
+        <div ref={topRef} className="scroll-mt-24" />
         <FadeIn delay={0.08}>
           <div className="mx-auto mt-8 flex max-w-3xl flex-wrap justify-center gap-2">
             <button
@@ -402,28 +536,92 @@ export default function BlogPageClient() {
           </div>
         )}
 
-        <div className={`mx-auto mt-10 max-w-3xl space-y-12 ${searching ? "hidden" : ""}`}>
-          {visibleGroups.map((g) => (
-            <div key={g.key}>
-              {/* 「すべて」表示時のみ見出しを出し、特定カテゴリ選択時は一覧だけを見せる */}
-              {activeCategory === null && (
-                <h2 className="mb-4 flex items-center gap-2 text-base font-bold text-primary-dark">
-                  <span className="h-2 w-2 shrink-0 rounded-full bg-primary" aria-hidden="true" />
-                  {g.label}
-                  <span className="font-medium text-ink/50">
-                    （{g.posts.length}
-                    {t.blog.postCountSuffix}）
-                  </span>
-                </h2>
-              )}
-              <div className="flex flex-col gap-4">
-                {g.posts.map((post, i) => (
-                  <PostCard key={post.slug} post={post} delay={(i % 4) * 0.05} />
+        {/* 最初の画面：新着・季節のおすすめ・テーマの入口・カテゴリごとに3本ずつ */}
+        {!searching && activeCategory === null && (
+          <div className="mx-auto mt-10 max-w-3xl space-y-12">
+            <div>
+              <GroupTitle label={lang === "en" ? "Latest" : "新着の記事"} />
+              <PostList list={latest} />
+            </div>
+
+            {seasonal.posts.length > 0 && (
+              <div>
+                <GroupTitle
+                  label={lang === "en" ? "Good reads for this season" : "今の季節に読みたい記事"}
+                  note={seasonal.label}
+                />
+                <PostList list={seasonal.posts} />
+              </div>
+            )}
+
+            <div>
+              <GroupTitle label={lang === "en" ? "Browse by topic" : "テーマから探す"} />
+              <div className="grid grid-cols-2 gap-3 sm:grid-cols-3">
+                {subcategories.map((sc) => (
+                  <TopicTile
+                    key={sc.key}
+                    label={sc.label}
+                    count={sc.count}
+                    onClick={() => openTopic(HEALTH_CATEGORY, sc.key)}
+                  />
                 ))}
+                {groups
+                  .filter((g) => g.key !== HEALTH_CATEGORY)
+                  .map((g) => (
+                    <TopicTile
+                      key={g.key}
+                      label={g.label}
+                      count={g.posts.length}
+                      onClick={() => openTopic(g.key, null)}
+                    />
+                  ))}
               </div>
             </div>
-          ))}
-        </div>
+
+            {groups.map((g) => (
+              <div key={g.key}>
+                <GroupTitle label={g.label} count={g.posts.length} />
+                <PostList list={g.posts.slice(0, PREVIEW_COUNT)} />
+                {g.posts.length > PREVIEW_COUNT && (
+                  <MoreButton total={g.posts.length} onClick={() => openTopic(g.key, null)} />
+                )}
+              </div>
+            ))}
+          </div>
+        )}
+
+        {/* 「健康・予防の話」を選んだとき（サブ分類は未選択）：サブ分類ごとに3本ずつ */}
+        {!searching && activeCategory === HEALTH_CATEGORY && activeSubcategory === null && (
+          <div className="mx-auto mt-10 max-w-3xl space-y-12">
+            {healthBySubcategory.map((sg) => (
+              <div key={sg.key}>
+                <GroupTitle label={sg.label} count={sg.posts.length} />
+                <PostList list={sg.posts.slice(0, PREVIEW_COUNT)} />
+                {sg.posts.length > PREVIEW_COUNT && (
+                  <MoreButton total={sg.posts.length} onClick={() => openTopic(HEALTH_CATEGORY, sg.key)} />
+                )}
+              </div>
+            ))}
+          </div>
+        )}
+
+        {/* それ以外のカテゴリ、またはサブ分類を選んだとき：全件 */}
+        {!searching &&
+          activeCategory !== null &&
+          !(activeCategory === HEALTH_CATEGORY && activeSubcategory === null) && (
+            <div className="mx-auto mt-10 max-w-3xl">
+              {SERIES_CATEGORIES.includes(activeCategory) && (
+                <p className="mb-4 text-center text-sm text-ink/60">
+                  {lang === "en"
+                    ? "This is a series. Start from Part 1."
+                    : "連載です。第1話から順に読めます。"}
+                </p>
+              )}
+              {visibleGroups.map((g) => (
+                <PostList key={g.key} list={g.posts} />
+              ))}
+            </div>
+          )}
 
         <div className="mt-12 text-center">
           <Link

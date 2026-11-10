@@ -3,8 +3,8 @@ date: 2026.10.31
 cover: /blog/hontou-no-chiryou.jpg
 category_ja: 健康・予防の話
 category_en: Health and prevention
-subcategory_ja: 生活習慣病との付き合い方
-subcategory_en: Living with lifestyle diseases
+subcategory_ja: 糖尿病・生活習慣病
+subcategory_en: Diabetes & lifestyle diseases
 title_ja: 生活習慣病の本当の治療は、診察室の外にあります
 title_en: The real treatment for lifestyle diseases happens outside the consultation room
 excerpt_ja: 「薬は毎日飲んでいるのに、数値がなかなか良くならない」——その答えは、お薬の外、毎日の暮らしの中にあるかもしれません。

@@ -6,7 +6,7 @@ import { notFound, useParams } from "next/navigation";
 import { SoftBlob } from "../../components/Decor";
 import BlogRichText from "../../components/BlogRichText";
 import { useSite } from "../../lib/site";
-import { getPost, getContent, getAdjacentPosts } from "../../lib/blog";
+import { getPost, getContent, getAdjacentPosts, getSeriesNumber, seriesLabel } from "../../lib/blog";
 import type { RelatedLink } from "../../lib/related-content";
 import { withWbr } from "../../lib/jp-break";
 import BlogRequestNote from "../../components/BlogRequestNote";
@@ -51,6 +51,11 @@ export default function BlogArticle({ relatedDiseases = [] }: { relatedDiseases?
             <span className="rounded-full bg-accent px-3 py-1 text-xs font-bold text-primary-dark">
               {c.category}
             </span>
+            {getSeriesNumber(post) && (
+              <span className="rounded-full border border-primary/30 px-3 py-1 text-xs font-bold text-primary-dark/80">
+                {seriesLabel(getSeriesNumber(post)!, lang)}
+              </span>
+            )}
           </div>
 
           <h1 className="mt-3 text-2xl font-bold leading-relaxed text-ink sm:text-3xl">

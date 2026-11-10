@@ -3,8 +3,8 @@ date: 2026.11.13
 cover: /blog/kibana-landscape.jpg
 category_ja: 健康・予防の話
 category_en: Health and prevention
-subcategory_ja: 血糖・糖尿病
-subcategory_en: Blood sugar & diabetes
+subcategory_ja: 糖尿病・生活習慣病
+subcategory_en: Diabetes & lifestyle diseases
 title_ja: "「糖尿病は一生治らない」は、もう昔の話？〜「寛解」を目指せる時代になりました〜"
 title_en: "“Diabetes never goes away” — is that an old idea now? — remission has become a realistic goal"
 excerpt_ja: "「糖尿病になったら、もうおしまい」——そう思って、健診の結果を見ないふりをしていませんか。実はいま、糖尿病の考え方は大きく変わりつつあります。"

@@ -3,8 +3,8 @@ date: 2026.11.08
 cover: /blog/shibire-shinkei-saisei.jpg
 category_ja: 健康・予防の話
 category_en: Health and prevention
-subcategory_ja: 腰・関節・神経
-subcategory_en: Back, joints & nerves
+subcategory_ja: 足・腰・けが
+subcategory_en: Feet, back & injuries
 title_ja: 足のしびれは、治る？残る？〜神経の修復力と、しびれと上手に付き合うということ〜
 title_en: Will the numbness in my leg go away, or will it stay? — the nerve's power to repair, and learning to live well with numbness
 excerpt_ja: 「腰の痛みはましになったのに、足のしびれだけが取れない」——足の神経には修復する力がある一方で、しびれは残りやすい症状でもあります。その両方を、正直にお話しします。

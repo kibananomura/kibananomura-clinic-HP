@@ -3,8 +3,8 @@ date: 2026.11.02
 cover: /blog/kyonen-no-allergy-kusuri.jpg
 category_ja: 健康・予防の話
 category_en: Health and prevention
-subcategory_ja: アレルギー・花粉症
-subcategory_en: Allergies & hay fever
+subcategory_ja: 肺・呼吸器・アレルギー
+subcategory_en: Lungs, breathing & allergies
 title_ja: 去年の残りの薬でしのいでいませんか？——抗アレルギー薬の組み合わせと、自己判断の落とし穴
 title_en: Getting by on last year's leftover pills? How allergy medicines work together — and the pitfalls of choosing your own
 excerpt_ja: 「去年の薬がまだ何種類か残っているから、とりあえず飲んでおこう」——その引き出しの中の薬、実は「効く相手」がそれぞれ違うかもしれません。

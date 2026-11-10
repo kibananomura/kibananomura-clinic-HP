@@ -3,8 +3,8 @@ date: 2026.11.19
 cover: /blog/kibana-landscape.jpg
 category_ja: 健康・予防の話
 category_en: Health and prevention
-subcategory_ja: 足の健康
-subcategory_en: Foot health
+subcategory_ja: 足・腰・けが
+subcategory_en: Feet, back & injuries
 title_ja: "足が痛いのは、年齢や遺伝のせい？〜外反母趾・扁平足と「靴」の深い関係。子どもの靴選びから見直そう〜"
 title_en: "Is foot pain just age or genes? — the close link between bunions, flat feet and shoes, starting with how we choose children's shoes"
 excerpt_ja: "おしゃれな靴を履きたいのに、すぐ足が痛くなる。子どもの靴、どれを選べばいいのか分からない。その悩み、「靴」から見直すと変わるかもしれません。"

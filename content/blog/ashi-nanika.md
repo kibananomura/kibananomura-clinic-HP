@@ -3,8 +3,8 @@ date: 2026.11.10
 cover: /blog/ashi-nanika.jpg
 category_ja: 健康・予防の話
 category_en: Health and prevention
-subcategory_ja: 足の健康
-subcategory_en: Foot health
+subcategory_ja: 足・腰・けが
+subcategory_en: Feet, back & injuries
 title_ja: "足が痛い、むくむ。でも、何科に行けばいいの？〜日本で遅れていた「足の医療」と、受診のコツ〜"
 title_en: "My feet hurt and swell — but which department should I see? — Japan's late start in “foot medicine,” and tips for getting care"
 excerpt_ja: "足の痛み、しびれ、むくみ、タコ、爪のトラブル。「何科に行けばいいのか分からなくて」と、我慢していませんか。"
