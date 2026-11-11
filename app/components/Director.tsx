@@ -34,7 +34,7 @@ export default function Director() {
 
           <FadeIn delay={0.15}>
             <span className="eyebrow">{t.director.eyebrow}</span>
-            <h2 className="mt-5 text-xl font-bold leading-relaxed text-ink sm:text-2xl">
+            <h2 className="mt-5 whitespace-pre-line text-xl font-bold leading-relaxed text-ink sm:text-2xl">
               {t.director.greetingTitle}
             </h2>
 
