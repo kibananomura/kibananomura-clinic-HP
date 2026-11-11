@@ -37,7 +37,7 @@ sources:
 
 その緊張を生むのが、**交感神経（体を「がんばるモード」にする神経）**です。睡眠不足、仕事や家庭のストレス、塩分のとりすぎ、お酒の飲みすぎ、運動不足が続くと、交感神経が休めず、血管はずっとキュッと締まったままになります。比較的若い方や働き盛りの方で、下の血圧が下がりにくいことが多いのも、このためと考えられています。
 
-また、大きないびきや、寝ているときに息が止まると言われたことがある方は、睡眠時無呼吸症候群（眠っている間に呼吸が何度も止まる病気）が隠れていることもあります。思い当たる方は、ぜひ教えてください。
+また、大きないびきや、寝ているときに息が止まると言われたことがある方は、睡眠時無呼吸症候群（眠っている間に呼吸が何度も止まる病気）が隠れていることもあります。思い当たる方は、かかりつけ医などにご相談ください（開院後は当院へ）。
 
 ### 今日からできる「下の血圧」との付き合い方
 
@@ -48,7 +48,7 @@ sources:
 - **カリウムをとる**：野菜や海藻、果物に多く、余分な塩分を体の外に出すのを助けてくれます。ただし、腎臓の病気がある方は控えたほうがよい場合があるので、主治医に確認してください。
 - **無理のない有酸素運動**：早歩きなど、会話ができるくらいの軽さで、1日20〜30分ほど。続けるうちに血管のしなやかさが保たれやすくなります。
 
-数値は日によって揺れるものです。朝と夜にご自宅で測った記録を持ってきていただければ、薬の種類や飲む時間の見直しも含めて、一緒に作戦を考えられます。[薬をやめられないことに悩んでいる方](/blog/kusuri-yamerarenai)や、[逆に血圧が下がりすぎて心配な方](/blog/kouatsu-genryou-fuan)の記事もあわせてどうぞ。
+数値は日によって揺れるものです。朝と夜にご自宅で測った記録をかかりつけ医に見せていただくと、薬の種類や飲む時間の見直しも含めて相談しやすくなります（開院後は当院でも一緒に作戦を考えます）。[薬をやめられないことに悩んでいる方](/blog/kusuri-yamerarenai)や、[逆に血圧が下がりすぎて心配な方](/blog/kouatsu-genryou-fuan)の記事もあわせてどうぞ。
 
 ### 最後に
 
@@ -79,7 +79,7 @@ People whose bottom number runs high often have **small blood vessel walls that 
 
 What drives that tension is **the sympathetic nervous system (the nerves that put your body into “push-hard mode”)**. Lack of sleep, stress at work or at home, too much salt, too much alcohol and too little exercise keep that system from switching off, so the vessels stay tight. This is thought to be one reason why the bottom number is often harder to bring down in younger and working-age people.
 
-Also, if you snore loudly or have been told you stop breathing in your sleep, sleep apnea (a condition where breathing stops repeatedly during sleep) may be involved. If that sounds familiar, please let me know.
+Also, if you snore loudly or have been told you stop breathing in your sleep, sleep apnea (a condition where breathing stops repeatedly during sleep) may be involved. If that sounds familiar, please talk with your family doctor (or with us, once we open).
 
 ### How to get along with your bottom number, starting today
 
@@ -90,7 +90,7 @@ Rather than adding medicine to force it down all at once, **easing the tension i
 - **Eat potassium**: found in vegetables, seaweed and fruit, it helps your body flush out extra salt. If you have kidney disease, though, you may need to limit it — please check with your doctor.
 - **Gentle aerobic exercise**: brisk walking at a pace where you can still chat, about 20–30 minutes a day. Over time it helps keep your blood vessels supple.
 
-Numbers go up and down from day to day. If you bring a record of your morning and evening home readings, we can plan together — including whether to adjust the type of medicine or when you take it. You may also find these helpful: [if you're worried you can't stop your medicine](/blog/kusuri-yamerarenai), and [if your blood pressure has dropped too low](/blog/kouatsu-genryou-fuan).
+Numbers go up and down from day to day. Showing your doctor a record of your morning and evening home readings makes it easier to discuss options — including whether to adjust the type of medicine or when you take it (once we open, we'll plan this with you too). You may also find these helpful: [if you're worried you can't stop your medicine](/blog/kusuri-yamerarenai), and [if your blood pressure has dropped too low](/blog/kouatsu-genryou-fuan).
 
 ### Finally
 

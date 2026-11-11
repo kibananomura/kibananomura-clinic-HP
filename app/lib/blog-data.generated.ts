@@ -7234,7 +7234,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "ひと言でいえば、ちょっとした傷の手当ての基本は、**①水道水でしっかり洗い流す、②消毒薬を何度も塗り込まない、③乾かさずに潤った状態を保つ**の3つです。外科医として数え切れないほどの傷を診てきましたが、この3つを守るだけで、傷の治り方は大きく変わります。"
+          "text": "ひと言でいえば、ちょっとした傷の手当ての基本は、**①水道水でしっかり洗い流す、②消毒薬を何度も塗り込まない、③乾かさずに潤った状態を保つ**の3つです。外科医として多くのけがの手当てに携わってきましたが、この3つを守るだけでも、傷の治り方が変わることがあります。"
         },
         {
           "kind": "text",
@@ -7270,7 +7270,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "## 流水で洗って、乾かさない。「湿潤環境（モイストヒーリング）」の3つの効能"
+          "text": "## 流水で洗って、乾かさない。「湿潤環境（モイストヒーリング）」の3つのよいところ"
         },
         {
           "kind": "text",
@@ -7306,7 +7306,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "### 効能①：痛みが和らぐ"
+          "text": "### よいところ①：痛みが和らぐ"
         },
         {
           "kind": "text",
@@ -7314,7 +7314,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "### 効能②：早く治る"
+          "text": "### よいところ②：早く治る"
         },
         {
           "kind": "text",
@@ -7322,7 +7322,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "### 効能③：きれいに治りやすい（跡が残りにくい）"
+          "text": "### よいところ③：きれいに治りやすい（跡が残りにくい）"
         },
         {
           "kind": "text",
@@ -7374,7 +7374,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "ケガをしてしまっても、焦る必要はありません。まずは**水道水で、やさしく、しっかり洗い流してください**。そして、「これは縫ったほうがいいのかな」「この傷、どう手当てしたらいい？」と迷ったときは、どうぞ気軽に、かかりつけ医などにご相談ください（開院後は当院へ）。外科医として、傷を早く、きれいに治すお手伝いをいたします。"
+          "text": "ケガをしてしまっても、焦る必要はありません。まずは**水道水で、やさしく、しっかり洗い流してください**。そして、「これは縫ったほうがいいのかな」「この傷、どう手当てしたらいい？」と迷ったときは、どうぞ気軽に、かかりつけ医などにご相談ください（開院後は当院へ）。外科医として、傷の手当てのお手伝いができればと思っています。"
         }
       ]
     },
@@ -7390,7 +7390,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "By the end of this post, you'll know why \"disinfect and let it dry\" is no longer recommended, and **how to treat a wound so it heals faster, hurts less and leaves less of a mark.** In a nutshell: the basics of caring for minor wounds are **① rinse thoroughly with tap water, ② don't keep applying antiseptic, and ③ keep the wound moist rather than letting it dry out.** As a surgeon, I've seen countless wounds — and simply following these three steps makes a big difference in how they heal."
+          "text": "By the end of this post, you'll know why \"disinfect and let it dry\" is no longer recommended, and **how to treat a wound so it heals faster, hurts less and leaves less of a mark.** In a nutshell: the basics of caring for minor wounds are **① rinse thoroughly with tap water, ② don't keep applying antiseptic, and ③ keep the wound moist rather than letting it dry out.** As a surgeon, I've cared for many injuries — and even just following these three steps can make a difference in how wounds heal."
         },
         {
           "kind": "text",
@@ -7462,7 +7462,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "### Benefit ①: Less pain"
+          "text": "### Good point ①: Less pain"
         },
         {
           "kind": "text",
@@ -7470,7 +7470,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "### Benefit ②: Faster healing"
+          "text": "### Good point ②: Faster healing"
         },
         {
           "kind": "text",
@@ -7478,7 +7478,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "### Benefit ③: Cleaner healing (less scarring)"
+          "text": "### Good point ③: Cleaner healing (less scarring)"
         },
         {
           "kind": "text",
@@ -7530,7 +7530,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "If you do get hurt, there's no need to panic. First, **rinse it gently but thoroughly under tap water.** And if you're unsure — \"Does this need stitches?\" \"How should I care for this wound?\" — please feel free to come and see us. As a surgeon, I'm here to help your wounds heal quickly and cleanly."
+          "text": "If you do get hurt, there's no need to panic. First, **rinse it gently but thoroughly under tap water.** And if you're unsure — \"Does this need stitches?\" \"How should I care for this wound?\" — please feel free to talk with your family doctor (or with us, once we open). As a surgeon, I hope to help you care for your wounds."
         }
       ]
     },
@@ -10021,7 +10021,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "また、大きないびきや、寝ているときに息が止まると言われたことがある方は、睡眠時無呼吸症候群（眠っている間に呼吸が何度も止まる病気）が隠れていることもあります。思い当たる方は、ぜひ教えてください。"
+          "text": "また、大きないびきや、寝ているときに息が止まると言われたことがある方は、睡眠時無呼吸症候群（眠っている間に呼吸が何度も止まる病気）が隠れていることもあります。思い当たる方は、かかりつけ医などにご相談ください（開院後は当院へ）。"
         },
         {
           "kind": "text",
@@ -10037,7 +10037,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "数値は日によって揺れるものです。朝と夜にご自宅で測った記録を持ってきていただければ、薬の種類や飲む時間の見直しも含めて、一緒に作戦を考えられます。[薬をやめられないことに悩んでいる方](/blog/kusuri-yamerarenai)や、[逆に血圧が下がりすぎて心配な方](/blog/kouatsu-genryou-fuan)の記事もあわせてどうぞ。"
+          "text": "数値は日によって揺れるものです。朝と夜にご自宅で測った記録をかかりつけ医に見せていただくと、薬の種類や飲む時間の見直しも含めて相談しやすくなります（開院後は当院でも一緒に作戦を考えます）。[薬をやめられないことに悩んでいる方](/blog/kusuri-yamerarenai)や、[逆に血圧が下がりすぎて心配な方](/blog/kouatsu-genryou-fuan)の記事もあわせてどうぞ。"
         },
         {
           "kind": "text",
@@ -10101,7 +10101,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "Also, if you snore loudly or have been told you stop breathing in your sleep, sleep apnea (a condition where breathing stops repeatedly during sleep) may be involved. If that sounds familiar, please let me know."
+          "text": "Also, if you snore loudly or have been told you stop breathing in your sleep, sleep apnea (a condition where breathing stops repeatedly during sleep) may be involved. If that sounds familiar, please talk with your family doctor (or with us, once we open)."
         },
         {
           "kind": "text",
@@ -10117,7 +10117,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "Numbers go up and down from day to day. If you bring a record of your morning and evening home readings, we can plan together — including whether to adjust the type of medicine or when you take it. You may also find these helpful: [if you're worried you can't stop your medicine](/blog/kusuri-yamerarenai), and [if your blood pressure has dropped too low](/blog/kouatsu-genryou-fuan)."
+          "text": "Numbers go up and down from day to day. Showing your doctor a record of your morning and evening home readings makes it easier to discuss options — including whether to adjust the type of medicine or when you take it (once we open, we'll plan this with you too). You may also find these helpful: [if you're worried you can't stop your medicine](/blog/kusuri-yamerarenai), and [if your blood pressure has dropped too low](/blog/kouatsu-genryou-fuan)."
         },
         {
           "kind": "text",

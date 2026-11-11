@@ -20,7 +20,7 @@ sources:
 
 お子さんが公園で転んで膝をすりむいたとき、あるいはご自身が料理中に指を切ってしまったとき。救急箱から**赤茶色の消毒薬**を取り出して、しみるのを我慢しながら塗り、ガーゼを当てて「早く乾いてかさぶたになるように」——そんな手当てを、当たり前のようにしてこられた方は多いのではないでしょうか。私自身、子どもの頃はそうやって手当てしてもらった記憶があります。
 
-ひと言でいえば、ちょっとした傷の手当ての基本は、**①水道水でしっかり洗い流す、②消毒薬を何度も塗り込まない、③乾かさずに潤った状態を保つ**の3つです。外科医として数え切れないほどの傷を診てきましたが、この3つを守るだけで、傷の治り方は大きく変わります。
+ひと言でいえば、ちょっとした傷の手当ての基本は、**①水道水でしっかり洗い流す、②消毒薬を何度も塗り込まない、③乾かさずに潤った状態を保つ**の3つです。外科医として多くのけがの手当てに携わってきましたが、この3つを守るだけでも、傷の治り方が変わることがあります。
 
 ## 昔の常識は今の非常識？「消毒して乾かす」が治りを遅らせる理由
 
@@ -38,7 +38,7 @@ sources:
 
 ガーゼを当てていると、傷から出てくる液がガーゼに吸われて乾き、はがすときに**せっかくできかけた新しい皮膚まで一緒にはがれてしまう**こともあります。ガーゼをはがすときの、あの痛み。あれは、新しい皮膚がはがれている痛みでもあるのです。
 
-## 流水で洗って、乾かさない。「湿潤環境（モイストヒーリング）」の3つの効能
+## 流水で洗って、乾かさない。「湿潤環境（モイストヒーリング）」の3つのよいところ
 
 ### まずは「勢いのある流水」で、しっかり洗い流す
 
@@ -58,15 +58,15 @@ sources:
 
 この「傷を乾かさずに、適度に潤った状態で治す」方法を、**湿潤療法（モイストヒーリング）**と呼びます。具体的には、**ワセリンを塗ってくっつきにくいガーゼで覆う**、**市販のハイドロコロイド素材のばんそうこうを使う**といった方法があります。
 
-### 効能①：痛みが和らぐ
+### よいところ①：痛みが和らぐ
 
 傷が乾くと、傷口に出ている神経の先端がむき出しになり、空気に触れてヒリヒリと痛みます。潤った状態を保つと、**神経の先端が保護されるため、痛みがぐっと和らぎます**。ガーゼがくっついてはがすときに痛む、ということもなくなります。
 
-### 効能②：早く治る
+### よいところ②：早く治る
 
 皮膚をつくる細胞は、潤った環境の中では、**傷の表面をスムーズに移動し、増えていく**ことができます。硬いかさぶたの下をくぐり抜ける必要がないぶん、傷がふさがるまでの時間が短くなります。湿潤環境では、乾燥させた場合に比べて傷の表面が早く皮膚で覆われることが、古くから研究で示されています。
 
-### 効能③：きれいに治りやすい（跡が残りにくい）
+### よいところ③：きれいに治りやすい（跡が残りにくい）
 
 硬いかさぶたを作らずに、新しい皮膚がなめらかに傷を覆っていくため、**治ったあとの跡が目立ちにくく**なります。かさぶたを無意識にはがしてしまい、そこからまた傷になる、ということも防げます。お顔の傷や、お子さんの傷では、特にうれしいポイントです。
 
@@ -99,13 +99,13 @@ sources:
 
 「消毒して、乾かして、かさぶたで治す」。長いあいだ当たり前だった手当てが、実は傷の治りを遠回りさせていたかもしれない——驚かれた方も多いと思います。でも、それは皆さんが悪いのではありません。医療の常識も、研究とともに少しずつ変わってきたのです。
 
-ケガをしてしまっても、焦る必要はありません。まずは**水道水で、やさしく、しっかり洗い流してください**。そして、「これは縫ったほうがいいのかな」「この傷、どう手当てしたらいい？」と迷ったときは、どうぞ気軽に、かかりつけ医などにご相談ください（開院後は当院へ）。外科医として、傷を早く、きれいに治すお手伝いをいたします。
+ケガをしてしまっても、焦る必要はありません。まずは**水道水で、やさしく、しっかり洗い流してください**。そして、「これは縫ったほうがいいのかな」「この傷、どう手当てしたらいい？」と迷ったときは、どうぞ気軽に、かかりつけ医などにご相談ください（開院後は当院へ）。外科医として、傷の手当てのお手伝いができればと思っています。
 
 ## en
 
 When your child falls at the park and scrapes a knee, or you nick your finger while cooking — have you always reached for the **reddish-brown antiseptic** in the first-aid kit, gritted your teeth through the sting, covered it with gauze, and waited for it to "dry out and scab over"? Many people have done exactly that for years. I remember being treated that way myself as a child.
 
-By the end of this post, you'll know why "disinfect and let it dry" is no longer recommended, and **how to treat a wound so it heals faster, hurts less and leaves less of a mark.** In a nutshell: the basics of caring for minor wounds are **① rinse thoroughly with tap water, ② don't keep applying antiseptic, and ③ keep the wound moist rather than letting it dry out.** As a surgeon, I've seen countless wounds — and simply following these three steps makes a big difference in how they heal.
+By the end of this post, you'll know why "disinfect and let it dry" is no longer recommended, and **how to treat a wound so it heals faster, hurts less and leaves less of a mark.** In a nutshell: the basics of caring for minor wounds are **① rinse thoroughly with tap water, ② don't keep applying antiseptic, and ③ keep the wound moist rather than letting it dry out.** As a surgeon, I've cared for many injuries — and even just following these three steps can make a difference in how wounds heal.
 
 ## Yesterday's common sense, today's mistake? Why "disinfect and dry" slows healing
 
@@ -143,15 +143,15 @@ This fluid contains components that help cells multiply and repair the wound. In
 
 This approach — healing a wound in a suitably moist state instead of letting it dry — is called **moist wound healing.** In practice, it can mean **applying petroleum jelly and covering with non-stick gauze,** or **using a hydrocolloid adhesive bandage** available at pharmacies.
 
-### Benefit ①: Less pain
+### Good point ①: Less pain
 
 When a wound dries out, the nerve endings at its surface are exposed and sting when they touch the air. Keeping the wound moist **protects those nerve endings, so pain eases considerably.** You also avoid the pain of peeling off gauze that's stuck to the wound.
 
-### Benefit ②: Faster healing
+### Good point ②: Faster healing
 
 In a moist environment, the cells that form skin can **move smoothly across the wound surface and multiply.** Without having to tunnel under a hard scab, the wound closes more quickly. Research has long shown that wounds kept moist are covered by new skin faster than wounds left to dry.
 
-### Benefit ③: Cleaner healing (less scarring)
+### Good point ③: Cleaner healing (less scarring)
 
 Because new skin covers the wound smoothly without forming a hard scab, **the mark left after healing tends to be less noticeable.** It also prevents the cycle of absent-mindedly picking off a scab and reopening the wound. This is especially welcome for facial wounds and children's injuries.
 
@@ -184,4 +184,4 @@ Note that moist wound healing assumes the wound has been properly cleaned. Seali
 
 "Disinfect it, dry it out, let it scab." It may come as a surprise that this long-standard first aid may have been taking the long way round. But that's not anyone's fault — medical common sense has changed gradually as research has advanced.
 
-If you do get hurt, there's no need to panic. First, **rinse it gently but thoroughly under tap water.** And if you're unsure — "Does this need stitches?" "How should I care for this wound?" — please feel free to come and see us. As a surgeon, I'm here to help your wounds heal quickly and cleanly.
+If you do get hurt, there's no need to panic. First, **rinse it gently but thoroughly under tap water.** And if you're unsure — "Does this need stitches?" "How should I care for this wound?" — please feel free to talk with your family doctor (or with us, once we open). As a surgeon, I hope to help you care for your wounds.
