@@ -398,8 +398,8 @@ const ja: SiteDict = {
     heading: "診療所の4つの特徴",
     items: [
       {
-        title: "発熱の方は、ほかの患者さんと分けて診察",
-        body: "発熱・感染症の症状がある方は、専用の駐車区画（5台）でお車の中のままお待ちいただき、スタッフがお車まで伺います。専用の屋外トイレも設置予定。院内でほかの患者さんと顔を合わせずに受診できます（予約制）。",
+        title: "発熱の方は、予約制でほかの患者さんと分けて診察",
+        body: "当日発熱が確認された場合は、車内で待機してから診察となる場合があります。",
       },
       {
         title: "CTから外科処置まで、院内で対応予定",
@@ -1261,8 +1261,8 @@ const en: SiteDict = {
     heading: "4 features of our clinic",
     items: [
       {
-        title: "Patients with a fever are seen separately",
-        body: "If you have a fever or possible infection, you wait in your car in a dedicated parking area (5 spaces) and our staff come out to you. An outdoor toilet just for patients with a fever is also planned, so you never have to meet other patients inside (appointment only).",
+        title: "Patients with a fever are seen separately, by appointment",
+        body: "If a fever is found on the day of your visit, you may be asked to wait in your car before being seen.",
       },
       {
         title: "From CT to surgery, all in one place",
