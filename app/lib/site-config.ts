@@ -7,7 +7,7 @@
  */
 export const LINE_URL = process.env.NEXT_PUBLIC_LINE_URL || "https://line.me/R/ti/p/@337njouw";
 
-/** Facebookページ「木花のむら総合診療所」（公開。毎週木曜に投稿） */
+/** Facebookページ「木花のむら総合診療所」（公開。2026-11-12から毎日投稿） */
 export const FACEBOOK_URL = "https://www.facebook.com/profile.php?id=61595134787241";
 
 /** Instagram（2026-11-03開設。空にすると、フッターのアイコンを出さない） */

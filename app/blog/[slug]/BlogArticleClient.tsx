@@ -12,6 +12,7 @@ import { withWbr } from "../../lib/jp-break";
 import BlogRequestNote from "../../components/BlogRequestNote";
 import BlogFeedback from "../../components/BlogFeedback";
 import ShareButtons from "../../components/ShareButtons";
+import { FACEBOOK_URL } from "../../lib/site-config";
 import Breadcrumbs from "../../components/Breadcrumbs";
 
 export default function BlogArticle({ relatedDiseases = [] }: { relatedDiseases?: RelatedLink[] }) {
@@ -198,6 +199,20 @@ export default function BlogArticle({ relatedDiseases = [] }: { relatedDiseases?
           <BlogFeedback slug={post.slug} className="mt-12" />
 
           <BlogRequestNote className="mt-6" />
+
+          <a
+            href={FACEBOOK_URL}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="mt-6 flex items-center justify-between gap-3 rounded-2xl border border-[#1877F2]/25 bg-surface/90 px-5 py-4 text-sm shadow-card transition-colors hover:bg-[#1877F2]/5"
+          >
+            <span className="leading-relaxed text-ink/80">
+              {lang === "en"
+                ? "We post new blog articles and updates on our road to opening every day on Facebook."
+                : "Facebookページでも、院長ブログや開院までの準備の様子を毎日お届けしています。"}
+            </span>
+            <span className="shrink-0 font-bold text-[#1877F2]">{lang === "en" ? "Follow →" : "フォローする →"}</span>
+          </a>
 
           <div className="mt-6 rounded-3xl bg-surface/90 p-6 text-center shadow-card sm:p-8">
             <p className="text-base font-bold text-ink">
