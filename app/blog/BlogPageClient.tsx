@@ -32,6 +32,7 @@ const CATEGORY_ORDER: { ja: string; en: string }[] = [
 const HEALTH_CATEGORY = "健康・予防の話";
 const SUBCATEGORY_ORDER: { ja: string; en: string }[] = [
   { ja: "感染症・ワクチン", en: "Infections & vaccines" },
+  { ja: "子どもの健康", en: "Children's health" },
   { ja: "胃腸・消化器", en: "Stomach & digestion" },
   { ja: "肺・呼吸器・アレルギー", en: "Lungs, breathing & allergies" },
   { ja: "血圧", en: "Blood pressure" },

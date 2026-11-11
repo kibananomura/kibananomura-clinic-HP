@@ -651,6 +651,796 @@ export const generatedPosts: BlogPost[] = [
     ]
   },
   {
+    "slug": "bensenketsu-yousei",
+    "date": "2026.09.24",
+    "cover": "/blog/kibana-landscape.jpg",
+    "sources": [
+      {
+        "label": "国立がん研究センター がん情報サービス「大腸がん検診について」",
+        "url": "https://ganjoho.jp/public/pre_scr/screening/colon.html"
+      },
+      {
+        "label": "国立がん研究センター がん情報サービス「大腸がん（結腸がん・直腸がん）」",
+        "url": "https://ganjoho.jp/public/cancer/colon/index.html"
+      }
+    ],
+    "ja": {
+      "category": "健康・予防の話",
+      "subcategory": "胃腸・消化器",
+      "title": "便の検査で「要精密検査」。でも「じのせいだろう」と思っていませんか？",
+      "excerpt": "健診の便の検査で「陽性・要精密検査」。「じがあるから、そのせいだろう」「もう一回、便の検査をすれば分かる」——実はそれ、どちらも答えになりません。",
+      "body": [
+        {
+          "kind": "text",
+          "text": "健診の結果が届いて、便の検査の欄に「陽性」「要精密検査」の文字。でも、お腹は痛くないし、体調もいい。「じがあるから、きっとそのせいだ」「忙しいし、来年また検査すればいいか」——そう思って、封筒を引き出しにしまったままになっていないでしょうか。"
+        },
+        {
+          "kind": "text",
+          "text": "今日は、便の検査（便潜血検査）で引っかかったときに、**なぜ「大腸カメラでの精密検査」が必要なのか**をお話しします。実は、多くの方が考える「次の一手」には、思わぬ落とし穴があります。"
+        },
+        {
+          "kind": "text",
+          "text": "### 便潜血検査は、目に見えない血を探す検査"
+        },
+        {
+          "kind": "text",
+          "text": "大腸がん検診で行われる便潜血検査は、2日分の便をとって、**目には見えないほどの、ごく少量の血液**が混じっていないかを調べる検査です。大腸にがんやポリープがあると、便がこすれて少し出血することがあり、それを見つけるしくみです。"
+        },
+        {
+          "kind": "text",
+          "text": "国の指針では、**40歳以上の方に、年に1回**の受診が勧められています。"
+        },
+        {
+          "kind": "text",
+          "text": "### 落とし穴①「じのせいだろう」"
+        },
+        {
+          "kind": "text",
+          "text": "じがある方は、それが出血の原因だと考えがちです。でも、**出血の原因がじなのか、大腸の病気なのかは、精密検査をしないと分かりません**。じと大腸がんが同時にあることも、珍しくありません。"
+        },
+        {
+          "kind": "text",
+          "text": "### 落とし穴②「もう一回、便の検査をすれば」"
+        },
+        {
+          "kind": "text",
+          "text": "「2日のうち1日だけ陽性だったから、たまたまでは」「もう一度検査して、陰性なら安心」と考える方もいます。"
+        },
+        {
+          "kind": "text",
+          "text": "けれど、大腸のがんやポリープは、**毎日出血しているわけではありません**。だから、1日分でも陽性なら精密検査が必要です。そして、もう一度便の検査をして陰性だったとしても、それは「その日は出血していなかった」だけかもしれません。**便の検査のやり直しは、精密検査の代わりになりません**。"
+        },
+        {
+          "kind": "text",
+          "text": "### 落とし穴③「症状がないから大丈夫」"
+        },
+        {
+          "kind": "text",
+          "text": "早い段階の大腸がんやポリープには、ほとんど症状がありません。症状がないうちに見つけられることこそが、検診を受ける意味です。反対に、**便に血が混じる、お腹の痛み、便の形や回数の変化**などの症状がすでにある方は、検診を待たずに受診してください。"
+        },
+        {
+          "kind": "text",
+          "text": "### 精密検査は「大腸カメラ」"
+        },
+        {
+          "kind": "text",
+          "text": "精密検査では、ふつう**大腸カメラ（大腸内視鏡検査）**で、大腸全体を直接見ます。ポリープが見つかれば、その場で取れることも多い検査です。準備や当日の流れについては、[大腸カメラの準備の記事](/blog/daichou-camera-junbi)で詳しくお話ししています。"
+        },
+        {
+          "kind": "text",
+          "text": "### 今日のまとめ"
+        },
+        {
+          "kind": "text",
+          "text": "便の検査で「要精密検査」と言われたら、"
+        },
+        {
+          "kind": "text",
+          "text": "- じがあっても、**原因は精密検査をしないと分からない**\n- **便の検査のやり直しは、精密検査の代わりにならない**\n- 症状がなくても、**大腸カメラでの精密検査**を受ける"
+        },
+        {
+          "kind": "text",
+          "text": "大腸がんは、早い段階で見つかれば、治る見込みがとても高いがんです。引き出しの中の封筒は、体が出してくれた大切な知らせです。"
+        },
+        {
+          "kind": "text",
+          "text": "当院は開院当初、大腸カメラは行いませんが、結果のご相談を受け、大腸カメラのできる医療機関へご紹介します。「どこで受ければいいか分からない」という段階から、どうぞご相談ください。"
+        }
+      ]
+    },
+    "en": {
+      "category": "Health and prevention",
+      "subcategory": "Stomach & digestion",
+      "title": "Your stool test came back \"further testing needed\" — but are you telling yourself it's just hemorrhoids?",
+      "excerpt": "Your checkup stool test says \"positive — further testing needed.\" \"It must be my hemorrhoids.\" \"I'll just redo the stool test.\" Neither of those actually gives you an answer.",
+      "body": [
+        {
+          "kind": "text",
+          "text": "Your checkup results arrive, and next to the stool test it says \"positive\" and \"further testing needed.\" But your stomach doesn't hurt and you feel fine. \"It's probably my hemorrhoids.\" \"I'm busy — I'll just get tested again next year.\" Has the envelope ended up sitting in a drawer?"
+        },
+        {
+          "kind": "text",
+          "text": "Today I'll explain **why a \"detailed examination with a colonoscopy\" is needed** when you're flagged by a stool test (fecal occult blood test). The \"next step\" many people have in mind actually has some unexpected pitfalls."
+        },
+        {
+          "kind": "text",
+          "text": "### The fecal occult blood test looks for blood you can't see"
+        },
+        {
+          "kind": "text",
+          "text": "The fecal occult blood test used in colorectal cancer screening checks two days' worth of stool for **tiny amounts of blood that are invisible to the eye.** If there's cancer or a polyp in the large intestine, stool rubbing against it can cause a little bleeding, and that's what the test picks up."
+        },
+        {
+          "kind": "text",
+          "text": "Japan's national guidelines recommend it **once a year for people aged 40 and over.**"
+        },
+        {
+          "kind": "text",
+          "text": "### Pitfall 1: \"It's probably my hemorrhoids\""
+        },
+        {
+          "kind": "text",
+          "text": "People who have hemorrhoids tend to assume that's where the blood came from. But **whether the bleeding comes from hemorrhoids or from a bowel condition can't be known without a detailed examination.** It's not unusual to have hemorrhoids and colorectal cancer at the same time."
+        },
+        {
+          "kind": "text",
+          "text": "### Pitfall 2: \"I'll just redo the stool test\""
+        },
+        {
+          "kind": "text",
+          "text": "Some people think, \"Only one of the two days was positive, so it was probably a fluke,\" or \"If I test again and it's negative, I can relax.\""
+        },
+        {
+          "kind": "text",
+          "text": "But cancers and polyps in the large intestine **don't bleed every day.** That's why even one positive day means a detailed examination is needed. And if you redo the stool test and it comes back negative, that may only mean \"it wasn't bleeding that day.\" **Repeating the stool test is not a substitute for a detailed examination.**"
+        },
+        {
+          "kind": "text",
+          "text": "### Pitfall 3: \"I have no symptoms, so I'm fine\""
+        },
+        {
+          "kind": "text",
+          "text": "Early colorectal cancers and polyps cause almost no symptoms. Finding them while there are no symptoms is the whole point of screening. On the other hand, if you already have symptoms such as **blood in your stool, abdominal pain, or changes in the shape or frequency of your stools**, please see a doctor without waiting for screening."
+        },
+        {
+          "kind": "text",
+          "text": "### The detailed examination is a colonoscopy"
+        },
+        {
+          "kind": "text",
+          "text": "The detailed examination is usually a **colonoscopy**, which looks directly at the whole of the large intestine. If polyps are found, they can often be removed on the spot. I cover the preparation and what happens on the day in [my post on preparing for a colonoscopy](/blog/daichou-camera-junbi)."
+        },
+        {
+          "kind": "text",
+          "text": "### Today's summary"
+        },
+        {
+          "kind": "text",
+          "text": "If a stool test says \"further testing needed\":"
+        },
+        {
+          "kind": "text",
+          "text": "- Even if you have hemorrhoids, **the cause can't be known without a detailed examination**\n- **Redoing the stool test is not a substitute for a detailed examination**\n- Even without symptoms, **have a detailed examination with a colonoscopy**"
+        },
+        {
+          "kind": "text",
+          "text": "Colorectal cancer has a very good chance of cure when it's found early. That envelope in the drawer is an important message from your body."
+        },
+        {
+          "kind": "text",
+          "text": "When we first open, we won't be performing colonoscopies ourselves, but we'll go over your results with you and refer you to a medical institution that can perform one. Please feel free to come to us even if you're at the stage of \"I don't know where to go.\""
+        }
+      ]
+    },
+    "related": [
+      {
+        "slug": "daichou-camera-junbi",
+        "ja": "大腸カメラ、いちばん大変なのは「前の日」でした〜準備から検査後までの流れ〜",
+        "en": "The hardest part of a colonoscopy is the day before — What to expect from preparation to aftercare"
+      },
+      {
+        "slug": "senna-choukirenyou",
+        "ja": "その便秘薬、飲む量が増えていませんか？——センナを毎日続けないほうがよい理由",
+        "en": "Is your laxative dose creeping up? Why senna isn't meant for every day"
+      },
+      {
+        "slug": "ppi-chouki-fukuyou",
+        "ja": "胃酸を抑える薬は長期間飲み続けても大丈夫？〜胃酸の役割と正しい付き合い方〜",
+        "en": "Is it safe to keep taking acid-suppressing stomach medication long term?"
+      }
+    ]
+  },
+  {
+    "slug": "daichou-camera-junbi",
+    "date": "2026.09.25",
+    "cover": "/blog/kibana-landscape.jpg",
+    "sources": [
+      {
+        "label": "国立がん研究センター がん情報サービス「大腸がん検診について」",
+        "url": "https://ganjoho.jp/public/pre_scr/screening/colon.html"
+      },
+      {
+        "label": "日本消化器病学会「患者さんとご家族のための大腸ポリープガイド2023」",
+        "url": "https://www.jsge.or.jp/committees/guideline/disease/pdf/cp_2023.pdf"
+      }
+    ],
+    "ja": {
+      "category": "健康・予防の話",
+      "subcategory": "胃腸・消化器",
+      "title": "大腸カメラ、いちばん大変なのは「前の日」でした〜準備から検査後までの流れ〜",
+      "excerpt": "「大腸カメラが痛そうで怖い」とよく言われます。でも、受けた方に聞くと「大変だったのは検査より、下剤を飲む準備のほう」という声が多いのです。",
+      "body": [
+        {
+          "kind": "text",
+          "text": "「大腸カメラを受けるように言われたけれど、痛そうで怖い」「お尻から入れるなんて恥ずかしい」。そんな気持ちから、検査をつい先延ばしにしてしまう方は少なくありません。"
+        },
+        {
+          "kind": "text",
+          "text": "ところが、実際に受けた方に感想を聞くと、「検査そのものより、**前の日と当日の朝の準備のほうが大変だった**」という声がとても多いのです。大腸カメラは、腸の中をきれいにしておくほど、見落としが少なく、時間も短くすみます。つまり、**準備こそが検査の質を決める**のです。"
+        },
+        {
+          "kind": "text",
+          "text": "このあと、こんな順番でお話しします。"
+        },
+        {
+          "kind": "text",
+          "text": "- 数日前〜前日の食事\n- 当日の朝の下剤\n- 検査中のこと\n- 検査のあとに気をつけること\n- 事前に必ず伝えてほしいこと"
+        },
+        {
+          "kind": "text",
+          "text": "### 数日前〜前日の食事"
+        },
+        {
+          "kind": "text",
+          "text": "腸の中に食べ物のかすが残っていると、カメラで粘膜がよく見えません。検査の2〜3日前から、**消化の悪いもの**を控えます。"
+        },
+        {
+          "kind": "text",
+          "text": "- 控えたいもの：海そう、きのこ、こんにゃく、ごぼうなどの繊維の多い野菜、種のある果物（キウイ、いちごなど）、ごま\n- 前日の夕食：おかゆやうどん、豆腐など、消化のよいものを早めの時間に軽く"
+        },
+        {
+          "kind": "text",
+          "text": "前日の夜には、ふつう、腸の動きを助ける下剤を飲みます。飲む時間や量は、検査を受ける医療機関の指示に従ってください。"
+        },
+        {
+          "kind": "text",
+          "text": "### 当日の朝の下剤"
+        },
+        {
+          "kind": "text",
+          "text": "当日の朝は、**腸をきれいにするための下剤（腸管洗浄液）**を、1.5〜2リットルほど、2時間くらいかけて少しずつ飲みます。何度かトイレに行くうちに、便がだんだん薄くなり、最後は**黄色っぽい透明な水**のようになれば準備完了です。"
+        },
+        {
+          "kind": "text",
+          "text": "量が多くて大変に感じる方も多いのですが、冷やして飲む、少しずつ歩きながら飲むなど、医療機関によって飲みやすくする工夫を教えてくれます。"
+        },
+        {
+          "kind": "text",
+          "text": "### 検査中のこと"
+        },
+        {
+          "kind": "text",
+          "text": "検査そのものは、ポリープを取らなければ**15〜30分ほど**です。腸を広げるために空気や炭酸ガスを入れるので、お腹が張る感じがありますが、多くは我慢できる程度です。不安が強い方には、眠くなる薬（鎮静剤）を使う医療機関もあります。**鎮静剤を使った日は、車の運転はできません**。来院の方法を事前に考えておきましょう。"
+        },
+        {
+          "kind": "text",
+          "text": "### 検査のあとに気をつけること"
+        },
+        {
+          "kind": "text",
+          "text": "- お腹の張りは、ガスが出ると楽になります\n- **ポリープを取った場合**は、出血を防ぐために、数日〜1週間ほど、お酒、激しい運動、長時間の移動や旅行を控えるよう言われるのが一般的です\n- 便に少し血が混じることはありますが、**量が多い、止まらない、お腹が強く痛む**ときは、すぐに検査を受けた医療機関へ連絡してください"
+        },
+        {
+          "kind": "text",
+          "text": "### 事前に必ず伝えてほしいこと"
+        },
+        {
+          "kind": "text",
+          "text": "次のような方は、検査の予約をするときに必ず伝えてください。"
+        },
+        {
+          "kind": "text",
+          "text": "- **血液をさらさらにする薬**を飲んでいる（自己判断で止めないこと。止めるかどうかは医師が決めます）\n- 糖尿病の薬やインスリンを使っている（食事を減らす日の使い方が変わります）\n- 心臓や腎臓の病気、ひどい便秘がある"
+        },
+        {
+          "kind": "text",
+          "text": "### 最後に"
+        },
+        {
+          "kind": "text",
+          "text": "大腸カメラは、がんになる前のポリープを見つけて、その場で取ることもできる検査です。「見つける」と「予防する」を一度にできる検査は、実はそう多くありません。準備は少し大変ですが、それに見合うだけの価値があります。"
+        },
+        {
+          "kind": "text",
+          "text": "当院は開院当初、大腸カメラは行いませんが、検査が必要な方には、受けられる医療機関をご紹介し、準備についての不安にもお答えします。便の検査で引っかかった方は、[こちらの記事](/blog/bensenketsu-yousei)もあわせてどうぞ。"
+        }
+      ]
+    },
+    "en": {
+      "category": "Health and prevention",
+      "subcategory": "Stomach & digestion",
+      "title": "The hardest part of a colonoscopy is the day before — What to expect from preparation to aftercare",
+      "excerpt": "People often tell me colonoscopies sound painful and scary. But ask those who've had one, and many say the hard part wasn't the exam — it was drinking the bowel prep.",
+      "body": [
+        {
+          "kind": "text",
+          "text": "\"I've been told to have a colonoscopy, but it sounds painful and scary.\" \"Having it inserted from behind is so embarrassing.\" Many people end up putting the exam off because of feelings like these."
+        },
+        {
+          "kind": "text",
+          "text": "Yet when I ask people who've actually had one how it went, a great many say **the preparation the day before and on the morning of the exam was harder than the exam itself.** The cleaner the bowel is, the less likely anything is to be missed, and the shorter the exam. In other words, **the preparation determines the quality of the exam.**"
+        },
+        {
+          "kind": "text",
+          "text": "Here's the order we'll go in:"
+        },
+        {
+          "kind": "text",
+          "text": "- What to eat in the days before\n- The bowel prep on the morning of the exam\n- During the exam\n- What to watch out for afterward\n- What you must tell the clinic beforehand"
+        },
+        {
+          "kind": "text",
+          "text": "### What to eat in the days before"
+        },
+        {
+          "kind": "text",
+          "text": "If food residue is left in the bowel, the camera can't see the lining clearly. For 2–3 days before the exam, avoid **hard-to-digest foods.**"
+        },
+        {
+          "kind": "text",
+          "text": "- Foods to avoid: seaweed, mushrooms, konjac, fibrous vegetables such as burdock root, fruits with seeds (kiwi, strawberries, etc.), sesame seeds\n- Dinner the night before: something light and easy to digest, such as rice porridge, udon or tofu, eaten early"
+        },
+        {
+          "kind": "text",
+          "text": "The night before, you'll usually take a laxative to help the bowel move. Follow the instructions of the medical institution doing the exam on when to take it and how much."
+        },
+        {
+          "kind": "text",
+          "text": "### The bowel prep on the morning of the exam"
+        },
+        {
+          "kind": "text",
+          "text": "On the morning of the exam, you'll slowly drink about 1.5–2 liters of **bowel-cleansing solution** over roughly 2 hours. As you go to the toilet several times, your stool gets thinner, and once it looks like **clear, yellowish water**, you're ready."
+        },
+        {
+          "kind": "text",
+          "text": "Many people find the volume hard going, but medical institutions will suggest ways to make it easier, such as drinking it chilled or walking around a little as you drink."
+        },
+        {
+          "kind": "text",
+          "text": "### During the exam"
+        },
+        {
+          "kind": "text",
+          "text": "If no polyps need removing, the exam itself takes **about 15–30 minutes.** Air or carbon dioxide is used to open up the bowel, so you'll feel bloated, but for most people it's bearable. Some institutions offer a sedative for people who are very anxious. **You can't drive on a day you've had a sedative,** so plan how you'll get there and back in advance."
+        },
+        {
+          "kind": "text",
+          "text": "### What to watch out for afterward"
+        },
+        {
+          "kind": "text",
+          "text": "- The bloating eases once you pass gas\n- **If polyps were removed**, you'll usually be told to avoid alcohol, strenuous exercise, and long journeys or travel for a few days to about a week, to prevent bleeding\n- A little blood in your stool can happen, but if **there's a lot, it won't stop, or you have severe abdominal pain**, contact the medical institution that did the exam right away"
+        },
+        {
+          "kind": "text",
+          "text": "### What you must tell the clinic beforehand"
+        },
+        {
+          "kind": "text",
+          "text": "If any of the following apply to you, be sure to mention it when you book the exam:"
+        },
+        {
+          "kind": "text",
+          "text": "- You take **blood-thinning medication** (don't stop it on your own — the doctor will decide whether to pause it)\n- You take diabetes medication or use insulin (how you use it changes on days when you eat less)\n- You have heart or kidney disease, or severe constipation"
+        },
+        {
+          "kind": "text",
+          "text": "### Finally"
+        },
+        {
+          "kind": "text",
+          "text": "A colonoscopy can find polyps before they turn into cancer — and remove them on the spot. There actually aren't many exams that can both \"find\" and \"prevent\" in one go. The preparation is a bit of an effort, but it's well worth it."
+        },
+        {
+          "kind": "text",
+          "text": "When we first open, we won't be performing colonoscopies ourselves, but for anyone who needs one, we'll refer you to a medical institution that can do it and answer any worries you have about the preparation. If you've been flagged by a stool test, see [this post](/blog/bensenketsu-yousei) as well."
+        }
+      ]
+    },
+    "related": [
+      {
+        "slug": "bensenketsu-yousei",
+        "ja": "便の検査で「要精密検査」。でも「じのせいだろう」と思っていませんか？",
+        "en": "Your stool test came back \"further testing needed\" — but are you telling yourself it's just hemorrhoids?"
+      },
+      {
+        "slug": "daichou-polyp",
+        "ja": "「大腸ポリープがあります」と言われたら〜取る？様子を見る？次の検査はいつ？〜",
+        "en": "Told you have a colon polyp? — Remove it or watch it, and when's the next exam?"
+      }
+    ]
+  },
+  {
+    "slug": "daichou-polyp",
+    "date": "2026.09.26",
+    "cover": "/blog/kibana-landscape.jpg",
+    "sources": [
+      {
+        "label": "日本消化器病学会「患者さんとご家族のための大腸ポリープガイド2023」",
+        "url": "https://www.jsge.or.jp/committees/guideline/disease/pdf/cp_2023.pdf"
+      },
+      {
+        "label": "国立がん研究センター がん情報サービス「大腸がん（結腸がん・直腸がん）」",
+        "url": "https://ganjoho.jp/public/cancer/colon/index.html"
+      }
+    ],
+    "ja": {
+      "category": "健康・予防の話",
+      "subcategory": "胃腸・消化器",
+      "title": "「大腸ポリープがあります」と言われたら〜取る？様子を見る？次の検査はいつ？〜",
+      "excerpt": "大腸カメラのあと、「ポリープがありました」のひと言で頭が真っ白に。「それって、がんなの？」——ポリープには、取ったほうがよいものと、そうでないものがあります。",
+      "body": [
+        {
+          "kind": "text",
+          "text": "大腸カメラが終わって、ほっとしたのもつかの間。「ポリープがありました」と言われて、そのあとの説明があまり頭に入らなかった。「ポリープって、がんなの？」「取らないといけないの？」と、帰り道でずっと考えていた——そんな方は多いと思います。"
+        },
+        {
+          "kind": "text",
+          "text": "ひと言でいえば、**ポリープの多くはがんではありません。ただし、一部には「放っておくと、何年もかけてがんになることがあるもの」があり、それは早めに取っておく**のが基本です。"
+        },
+        {
+          "kind": "text",
+          "text": "### ポリープは「粘膜のいぼ」"
+        },
+        {
+          "kind": "text",
+          "text": "大腸の内側は、粘膜という薄い膜でおおわれています。その一部が、いぼのように盛り上がったものを大腸ポリープといいます。大きく分けると、次の2つがあります。"
+        },
+        {
+          "kind": "text",
+          "text": "- **腫瘍性のポリープ**：いちばん多いのが「腺腫」という良性の腫瘍。大きくなるにつれて、一部ががんに変わることがある\n- **腫瘍ではないポリープ**：炎症のあとにできるものや、「過形成性ポリープ」と呼ばれるものなど。多くは、がんになる心配が少ない"
+        },
+        {
+          "kind": "text",
+          "text": "大腸がんの多くは、この腺腫が時間をかけて大きくなる中で生まれると考えられています。だからこそ、**腺腫の段階で取ってしまえば、がんを予防できる**のです。"
+        },
+        {
+          "kind": "text",
+          "text": "### 取る？様子を見る？"
+        },
+        {
+          "kind": "text",
+          "text": "取るかどうかは、ポリープの種類・大きさ・形を見て、医師が判断します。大まかな目安は次のとおりです。"
+        },
+        {
+          "kind": "text",
+          "text": "- **6mm以上の腺腫**：取ることが勧められます\n- **5mm以下の小さな腺腫**：すぐに取らず、様子を見ることもあります。ただし、平らな形やへこんだ形のものは、小さくても取ることが勧められます\n- **がんになる心配の少ないポリープ**：多くは取る必要がありません"
+        },
+        {
+          "kind": "text",
+          "text": "小さなポリープの多くは、大腸カメラの最中に、輪っか状の細い器具をかけて、その場で取ることができます。"
+        },
+        {
+          "kind": "text",
+          "text": "### 次の検査はいつ？"
+        },
+        {
+          "kind": "text",
+          "text": "ポリープを取ったあとも、大腸には新しいポリープができることがあります。そのため、**次の大腸カメラの時期**がとても大切です。"
+        },
+        {
+          "kind": "text",
+          "text": "時期は、取ったポリープの数・大きさ・種類（病理検査の結果）によって変わります。多くは1〜3年後を目安に、医師が決めます。取ったポリープの検査結果は、1〜2週間後に分かることが多いので、**結果を聞くときに「次はいつですか？」と必ず確認してください**。"
+        },
+        {
+          "kind": "text",
+          "text": "### ご家族にも伝えてほしいこと"
+        },
+        {
+          "kind": "text",
+          "text": "親やきょうだいに大腸がんになった方がいる場合、大腸がんになる危険性は、そうでない方より高い（3倍ほどとも言われます）ことが知られています。ご自身にポリープが見つかったときは、**ご家族にも、一度大腸カメラを受けることをすすめてみてください**。"
+        },
+        {
+          "kind": "text",
+          "text": "### おわりに"
+        },
+        {
+          "kind": "text",
+          "text": "「ポリープがありました」は、怖い知らせのように聞こえるかもしれません。でも見方を変えれば、**がんになる前に見つけられた**ということです。取って、記録して、決めた時期にまた確認する。この繰り返しで、大腸がんの多くは防ぐことができます。"
+        },
+        {
+          "kind": "text",
+          "text": "当院は開院当初、大腸カメラは行いませんが、検査結果の見方や次の検査の時期についてのご相談を受け、必要に応じて大腸カメラのできる医療機関をご紹介します。準備のことは[大腸カメラの準備の記事](/blog/daichou-camera-junbi)にまとめています。"
+        }
+      ]
+    },
+    "en": {
+      "category": "Health and prevention",
+      "subcategory": "Stomach & digestion",
+      "title": "Told you have a colon polyp? — Remove it or watch it, and when's the next exam?",
+      "excerpt": "After your colonoscopy, the words \"we found a polyp\" leave your mind blank. \"Is it cancer?\" Some polyps are best removed, and some aren't.",
+      "body": [
+        {
+          "kind": "text",
+          "text": "The colonoscopy is over, and you've barely had time to feel relieved when you're told, \"We found a polyp.\" After that, the explanation didn't really sink in. \"Is a polyp cancer?\" \"Does it have to come out?\" — many people spend the whole way home turning it over."
+        },
+        {
+          "kind": "text",
+          "text": "In short: **most polyps are not cancer. But some are \"the kind that can, over many years, turn into cancer if left alone,\" and the basic approach is to remove those early.**"
+        },
+        {
+          "kind": "text",
+          "text": "### A polyp is a \"wart\" on the lining"
+        },
+        {
+          "kind": "text",
+          "text": "The inside of the large intestine is covered with a thin layer called the mucosa (lining). A colon polyp is a part of it that bulges up like a wart. Broadly, there are two kinds:"
+        },
+        {
+          "kind": "text",
+          "text": "- **Neoplastic polyps**: the most common is a benign tumor called an \"adenoma.\" As it grows, part of it can turn into cancer\n- **Non-neoplastic polyps**: ones that form after inflammation, or those called \"hyperplastic polyps,\" for example. Most carry little risk of becoming cancer"
+        },
+        {
+          "kind": "text",
+          "text": "Most colorectal cancers are thought to arise as these adenomas slowly grow over time. That's exactly why **removing them at the adenoma stage can prevent cancer.**"
+        },
+        {
+          "kind": "text",
+          "text": "### Remove it or watch it?"
+        },
+        {
+          "kind": "text",
+          "text": "Whether to remove a polyp is decided by the doctor based on its type, size and shape. As a rough guide:"
+        },
+        {
+          "kind": "text",
+          "text": "- **Adenomas 6 mm or larger**: removal is recommended\n- **Small adenomas 5 mm or less**: sometimes they're watched rather than removed right away. However, flat or depressed ones are recommended for removal even when small\n- **Polyps with little risk of becoming cancer**: most don't need to be removed"
+        },
+        {
+          "kind": "text",
+          "text": "Many small polyps can be removed on the spot during the colonoscopy, by looping a thin wire snare around them."
+        },
+        {
+          "kind": "text",
+          "text": "### When's the next exam?"
+        },
+        {
+          "kind": "text",
+          "text": "Even after polyps are removed, new ones can form in the large intestine. That's why **the timing of your next colonoscopy** matters so much."
+        },
+        {
+          "kind": "text",
+          "text": "The timing depends on the number, size and type (the pathology result) of the polyps removed. In most cases, the doctor will set it at around 1–3 years later. Results on removed polyps often come back in 1–2 weeks, so **when you hear the results, be sure to ask, \"When should I have the next one?\"**"
+        },
+        {
+          "kind": "text",
+          "text": "### Something to share with your family"
+        },
+        {
+          "kind": "text",
+          "text": "If a parent or sibling has had colorectal cancer, your risk is known to be higher than for people without that history (some say around three times). If polyps are found in you, **consider encouraging your family members to have a colonoscopy too.**"
+        },
+        {
+          "kind": "text",
+          "text": "### In closing"
+        },
+        {
+          "kind": "text",
+          "text": "\"We found a polyp\" may sound like frightening news. But look at it another way: **it was found before it became cancer.** Remove it, record it, and check again at the agreed time — repeating this cycle can prevent most colorectal cancers."
+        },
+        {
+          "kind": "text",
+          "text": "When we first open, we won't be performing colonoscopies ourselves, but we're happy to help you understand your results and the timing of your next exam, and to refer you to a medical institution that can perform colonoscopies when needed. I've covered the preparation in [my post on preparing for a colonoscopy](/blog/daichou-camera-junbi)."
+        }
+      ]
+    },
+    "related": [
+      {
+        "slug": "daichou-camera-junbi",
+        "ja": "大腸カメラ、いちばん大変なのは「前の日」でした〜準備から検査後までの流れ〜",
+        "en": "The hardest part of a colonoscopy is the day before — What to expect from preparation to aftercare"
+      },
+      {
+        "slug": "senna-choukirenyou",
+        "ja": "その便秘薬、飲む量が増えていませんか？——センナを毎日続けないほうがよい理由",
+        "en": "Is your laxative dose creeping up? Why senna isn't meant for every day"
+      },
+      {
+        "slug": "ppi-chouki-fukuyou",
+        "ja": "胃酸を抑える薬は長期間飲み続けても大丈夫？〜胃酸の役割と正しい付き合い方〜",
+        "en": "Is it safe to keep taking acid-suppressing stomach medication long term?"
+      }
+    ]
+  },
+  {
+    "slug": "touen-toukou-itsukara",
+    "date": "2026.09.27",
+    "cover": "/blog/kibana-landscape.jpg",
+    "sources": [
+      {
+        "label": "e-Gov法令検索「学校保健安全法施行規則」",
+        "url": "https://laws.e-gov.go.jp/law/333M50000080018"
+      },
+      {
+        "label": "こども家庭庁「保育所関係」（保育所における感染症対策ガイドライン）",
+        "url": "https://www.cfa.go.jp/policies/hoiku/"
+      }
+    ],
+    "ja": {
+      "category": "健康・予防の話",
+      "subcategory": "子どもの健康",
+      "title": "熱が下がったのに、まだ登園できないの？〜「出席停止」の日数の数え方〜",
+      "excerpt": "熱は下がって、本人は元気いっぱい。それなのに「まだ登園はできません」と言われて困った——その日数には、ちゃんとした理由と数え方があります。",
+      "body": [
+        {
+          "kind": "text",
+          "text": "インフルエンザで熱が出て2日目。薬も飲んで熱は下がり、本人は家の中を走り回っている。「もう行けるよね？」と思って園に連絡したら、「まだお休みしてください」と言われた。仕事の調整に追われながら、「元気なのに、なぜ？」と思ったことのある方は少なくないはずです。"
+        },
+        {
+          "kind": "text",
+          "text": "今日は、**登園・登校をいつから再開してよいか**を決めている「出席停止」のしくみと、日数の数え方についてお話しします。数え方を知っておくだけで、仕事の休みの見通しがぐっと立てやすくなります。"
+        },
+        {
+          "kind": "text",
+          "text": "### 「元気」と「うつさない」は別のもの"
+        },
+        {
+          "kind": "text",
+          "text": "熱が下がって元気になっても、体の中にはまだウイルスが残っていて、周りにうつす力が続いていることがあります。特に子どもは、園や学校で長い時間いっしょに過ごし、おもちゃを共有したり、顔を近づけて遊んだりします。"
+        },
+        {
+          "kind": "text",
+          "text": "そこで、学校保健安全法という法律の決まり（施行規則）で、病気ごとに**「この日数がたつまでは休みましょう」という目安**が定められています。保育園も、こども家庭庁のガイドラインで、おおむね同じ考え方をとっています。"
+        },
+        {
+          "kind": "text",
+          "text": "### 主な病気の目安"
+        },
+        {
+          "kind": "text",
+          "text": "- **インフルエンザ**：発症した後5日を経過し、かつ、解熱した後2日（幼児は3日）を経過するまで\n- **新型コロナウイルス感染症**：発症した後5日を経過し、かつ、症状が軽快した後1日を経過するまで\n- **水ぼうそう**：すべての発しんがかさぶたになるまで\n- **おたふくかぜ**：腫れが出てから5日を経過し、かつ、全身の状態がよくなるまで\n- **溶連菌感染症・胃腸かぜなど**：医師が「うつすおそれがない」と認めるまで（日数の決まりはない）"
+        },
+        {
+          "kind": "text",
+          "text": "ほかの病気については、当院のホームページの[登校・登園の目安](/school-attendance)のページに一覧でまとめています。"
+        },
+        {
+          "kind": "text",
+          "text": "### つまずきやすいのは「日数の数え方」"
+        },
+        {
+          "kind": "text",
+          "text": "ここがいちばん間違えやすいところです。**症状が出た日（熱が下がった日）は「0日目」**と数えます。"
+        },
+        {
+          "kind": "text",
+          "text": "たとえば、幼児がインフルエンザで、**月曜日に熱が出て**、**水曜日に熱が下がった**場合で考えてみます。"
+        },
+        {
+          "kind": "text",
+          "text": "- 「発症した後5日を経過」：月曜が0日目なので、5日目は土曜日。土曜日が終わるまでは休み\n- 「解熱した後3日を経過」：水曜が0日目なので、3日目は土曜日。土曜日が終わるまでは休み"
+        },
+        {
+          "kind": "text",
+          "text": "両方の条件を満たすのは、**日曜日から**。つまり、登園は週明けの月曜日からになります。2つの条件のうち、**遅いほうに合わせる**と覚えておくと迷いません。"
+        },
+        {
+          "kind": "text",
+          "text": "### 証明書や届けは、園や学校ごとに違います"
+        },
+        {
+          "kind": "text",
+          "text": "登園・登校のときに、医師が書く「治癒証明書」や、保護者が書く「登園届」が必要かどうかは、園や学校、地域によって違います。休み始めたときに、**何を出せばよいか**を先に確認しておくと、あとで慌てずにすみます。"
+        },
+        {
+          "kind": "text",
+          "text": "### 今日のまとめ"
+        },
+        {
+          "kind": "text",
+          "text": "- 熱が下がって元気でも、うつす力が残っていることがある\n- 日数の目安は病気ごとに決まっていて、**症状が出た日・熱が下がった日を0日目**と数える\n- 条件が2つあるときは、**遅いほうの日**に合わせる\n- 証明書や届けがいるかどうかは、園・学校に早めに確認する"
+        },
+        {
+          "kind": "text",
+          "text": "お休みの日数を守ることは、ほかのお子さんや、そのご家族、園の先生たちを守ることでもあります。当院は開院後、登園・登校のタイミングのご相談や、必要な場合の書類の作成にも対応します。"
+        }
+      ]
+    },
+    "en": {
+      "category": "Health and prevention",
+      "subcategory": "Children's health",
+      "title": "The fever's gone, so why can't they go back to daycare yet? — How to count \"attendance suspension\" days",
+      "excerpt": "The fever's gone and your child is bursting with energy — yet you're told they can't go back to daycare yet. There's a real reason for those days, and a set way of counting them.",
+      "body": [
+        {
+          "kind": "text",
+          "text": "It's day two of influenza. Your child has taken their medicine, the fever is down, and they're running around the house. \"Surely they can go back now?\" you think — but when you call the daycare, you're told, \"Please keep them home a little longer.\" Juggling work arrangements, plenty of parents have wondered, \"They're fine, so why?\""
+        },
+        {
+          "kind": "text",
+          "text": "Today I'll talk about the \"attendance suspension\" rules that decide **when children can go back to daycare or school**, and how to count the days. Just knowing how to count makes it much easier to plan time off work."
+        },
+        {
+          "kind": "text",
+          "text": "### \"Feeling well\" and \"not contagious\" aren't the same thing"
+        },
+        {
+          "kind": "text",
+          "text": "Even once the fever is gone and your child feels better, the virus can still be in their body, and they may still be able to pass it on. Children in particular spend long hours together at daycare and school, share toys and play face to face."
+        },
+        {
+          "kind": "text",
+          "text": "So under Japan's School Health and Safety Act (and its enforcement regulations), each illness has a set guide to **\"stay home until this many days have passed.\"** Daycare centers broadly follow the same approach under guidelines from the Children and Families Agency."
+        },
+        {
+          "kind": "text",
+          "text": "### Guides for common illnesses"
+        },
+        {
+          "kind": "text",
+          "text": "- **Influenza**: after 5 days have passed since onset, and 2 days (3 days for preschoolers) have passed since the fever went down\n- **COVID-19**: after 5 days have passed since onset, and 1 day has passed since symptoms improved\n- **Chickenpox**: when all the spots have crusted over\n- **Mumps**: after 5 days have passed since the swelling appeared, and the child is generally well\n- **Strep throat, stomach bugs, etc.**: when a doctor judges there's no risk of passing it on (no fixed number of days)"
+        },
+        {
+          "kind": "text",
+          "text": "For other illnesses, see our [school and daycare attendance guide](/school-attendance) page, which lists them in a table."
+        },
+        {
+          "kind": "text",
+          "text": "### The tricky part: counting the days"
+        },
+        {
+          "kind": "text",
+          "text": "This is where people most often go wrong. **The day symptoms start (or the day the fever goes down) counts as \"day 0.\"**"
+        },
+        {
+          "kind": "text",
+          "text": "For example, take a preschooler with influenza whose **fever started on Monday** and **went down on Wednesday.**"
+        },
+        {
+          "kind": "text",
+          "text": "- \"5 days have passed since onset\": Monday is day 0, so day 5 is Saturday. They stay home until the end of Saturday\n- \"3 days have passed since the fever went down\": Wednesday is day 0, so day 3 is Saturday. They stay home until the end of Saturday"
+        },
+        {
+          "kind": "text",
+          "text": "Both conditions are met **from Sunday** — so they can go back to daycare on Monday. Remember to **go by whichever date comes later**, and you won't get confused."
+        },
+        {
+          "kind": "text",
+          "text": "### Certificates and forms vary by daycare and school"
+        },
+        {
+          "kind": "text",
+          "text": "Whether you need a doctor's \"certificate of recovery\" or a parent-completed \"return to daycare\" form depends on the daycare, school and area. If you check **what you'll need to submit** as soon as your child starts staying home, you won't be caught out later."
+        },
+        {
+          "kind": "text",
+          "text": "### Today's summary"
+        },
+        {
+          "kind": "text",
+          "text": "- Even when the fever's gone and your child feels well, they may still be contagious\n- The number of days is set for each illness, and **the day symptoms start or the fever goes down counts as day 0**\n- When there are two conditions, **go by whichever date comes later**\n- Check early with the daycare or school whether a certificate or form is needed"
+        },
+        {
+          "kind": "text",
+          "text": "Keeping to these days off also protects other children, their families and the daycare staff. Once we open, we'll be happy to advise on when your child can return, and to prepare any paperwork that's needed."
+        }
+      ]
+    },
+    "related": [
+      {
+        "slug": "kodomo-outo-geri-suibun",
+        "ja": "吐いたあと、すぐに水を飲ませていませんか？〜子どものおう吐・下痢のときの水分のとり方〜",
+        "en": "Giving water right after your child vomits? — How to give fluids when children have vomiting and diarrhea"
+      },
+      {
+        "slug": "kodomo-netsu-jushin",
+        "ja": "子どもの熱、何度になったら受診する？〜夜中に迷ったときの見分け方〜",
+        "en": "How high does a child's fever need to be before you see a doctor? — How to tell, even in the middle of the night"
+      }
+    ]
+  },
+  {
     "slug": "hikari-onnetsu-kenkyu",
     "date": "2026.09.28",
     "cover": "/blog/kibana-landscape.jpg",
@@ -3090,6 +3880,11 @@ export const generatedPosts: BlogPost[] = [
         "en": "Slim, but high cholesterol? The real reason your numbers bounce back when you stop the medicine"
       },
       {
+        "slug": "tsuufuu-hossa-timing",
+        "ja": "痛風発作は「尿酸値が上がる時」と「下がる時」、どっちに起きやすい？〜カギは“急な変化”でした〜",
+        "en": "Do gout attacks happen when uric acid goes up, or when it comes down? — the key turns out to be “sudden change”"
+      },
+      {
         "slug": "tomato-juice-ryouba",
         "ja": "毎日のトマトジュース、実は逆効果かもしれません",
         "en": "Your daily tomato juice might be working against you"
@@ -3247,6 +4042,11 @@ export const generatedPosts: BlogPost[] = [
       ]
     },
     "related": [
+      {
+        "slug": "tsuufuu-hossa-timing",
+        "ja": "痛風発作は「尿酸値が上がる時」と「下がる時」、どっちに起きやすい？〜カギは“急な変化”でした〜",
+        "en": "Do gout attacks happen when uric acid goes up, or when it comes down? — the key turns out to be “sudden change”"
+      },
       {
         "slug": "yasete-iru-noni-ldl",
         "ja": "痩せているのに、なぜコレステロールが高いの？——薬をやめると数値が戻ってしまう本当の理由",
@@ -3817,6 +4617,11 @@ export const generatedPosts: BlogPost[] = [
     },
     "related": [
       {
+        "slug": "tsuufuu-hossa-timing",
+        "ja": "痛風発作は「尿酸値が上がる時」と「下がる時」、どっちに起きやすい？〜カギは“急な変化”でした〜",
+        "en": "Do gout attacks happen when uric acid goes up, or when it comes down? — the key turns out to be “sudden change”"
+      },
+      {
         "slug": "herashitemo-yasenai",
         "ja": "ご飯を減らしても痩せないのはなぜ？〜40代からは「引き算」より「足し算」のダイエット〜",
         "en": "Eating less but not losing weight? After 40, it's about adding, not subtracting"
@@ -3829,12 +4634,12 @@ export const generatedPosts: BlogPost[] = [
     ],
     "upcoming": [
       {
-        "ja": "痛風発作は「尿酸値が上がる時」と「下がる時」、どっちに起きやすい？〜カギは“急な変化”でした〜",
-        "en": "Do gout attacks happen when uric acid goes up, or when it comes down? — the key turns out to be “sudden change”"
-      },
-      {
         "ja": "プリン体って、あの「プリン」と関係あるの？〜名前の由来と、多い食べ物の意外な共通点〜",
         "en": "Do purines have anything to do with pudding? — where the name comes from, and what purine-rich foods have in common"
+      },
+      {
+        "ja": "糖尿病だから、ご飯は抜くべき？〜「我慢の食事」から「しっかり食べて体を守る食事」へ〜",
+        "en": "I have diabetes — should I skip rice? — from “eating by enduring” to “eating well to protect your body”"
       }
     ]
   },
@@ -4293,14 +5098,14 @@ export const generatedPosts: BlogPost[] = [
         "en": "Your checkup came back \"normal, but at the upper edge\" — what does that mean?"
       },
       {
+        "slug": "tsuufuu-hossa-timing",
+        "ja": "痛風発作は「尿酸値が上がる時」と「下がる時」、どっちに起きやすい？〜カギは“急な変化”でした〜",
+        "en": "Do gout attacks happen when uric acid goes up, or when it comes down? — the key turns out to be “sudden change”"
+      },
+      {
         "slug": "ashi-nanika",
         "ja": "足が痛い、むくむ。でも、何科に行けばいいの？〜日本で遅れていた「足の医療」と、受診のコツ〜",
         "en": "My feet hurt and swell — but which department should I see? — Japan's late start in “foot medicine,” and tips for getting care"
-      },
-      {
-        "slug": "flu-vaccine-timing",
-        "ja": "インフルエンザワクチン、いつ打つのが一番いい？〜受験や大切な日から「逆算」する接種スケジュール〜",
-        "en": "When is the best time to get a flu shot? — planning backward from exams and other important days"
       }
     ]
   },
@@ -5674,14 +6479,14 @@ export const generatedPosts: BlogPost[] = [
         "en": "If your optional tumor marker test came back high"
       },
       {
+        "slug": "tsuufuu-hossa-timing",
+        "ja": "痛風発作は「尿酸値が上がる時」と「下がる時」、どっちに起きやすい？〜カギは“急な変化”でした〜",
+        "en": "Do gout attacks happen when uric acid goes up, or when it comes down? — the key turns out to be “sudden change”"
+      },
+      {
         "slug": "ashi-nanika",
         "ja": "足が痛い、むくむ。でも、何科に行けばいいの？〜日本で遅れていた「足の医療」と、受診のコツ〜",
         "en": "My feet hurt and swell — but which department should I see? — Japan's late start in “foot medicine,” and tips for getting care"
-      },
-      {
-        "slug": "flu-vaccine-timing",
-        "ja": "インフルエンザワクチン、いつ打つのが一番いい？〜受験や大切な日から「逆算」する接種スケジュール〜",
-        "en": "When is the best time to get a flu shot? — planning backward from exams and other important days"
       }
     ],
     "upcoming": [
@@ -6750,6 +7555,388 @@ export const generatedPosts: BlogPost[] = [
       {
         "ja": "その足のタコや小さな傷、「たかが」で済ませていませんか？〜足は全身の鏡。今日からできるセルフチェック〜",
         "en": "Are you brushing off those calluses and small cuts on your feet? — your feet mirror your whole body: a self-check you can start today"
+      }
+    ]
+  },
+  {
+    "slug": "kodomo-netsu-jushin",
+    "date": "2026.10.27",
+    "cover": "/blog/kibana-landscape.jpg",
+    "sources": [
+      {
+        "label": "日本小児科学会 監修「こどもの救急（ONLINE-QQ）」",
+        "url": "http://kodomo-qq.jp/"
+      },
+      {
+        "label": "厚生労働省「子ども医療電話相談事業（#8000）について」",
+        "url": "https://www.mhlw.go.jp/topics/2006/10/tp1010-3.html"
+      }
+    ],
+    "ja": {
+      "category": "健康・予防の話",
+      "subcategory": "子どもの健康",
+      "title": "子どもの熱、何度になったら受診する？〜夜中に迷ったときの見分け方〜",
+      "excerpt": "夜中に子どもの体が熱い。体温計は38.9℃。「朝まで待っていい？今すぐ行くべき？」——実は、見てほしいのは熱の数字より、別のところです。",
+      "body": [
+        {
+          "kind": "text",
+          "text": "夜中にふと子どもの体にふれたら、熱い。体温計を見ると38.9℃。「朝まで様子を見ていいのかな」「でも、もし何かあったら」と、暗い部屋で一人で迷った経験のある方は多いと思います。"
+        },
+        {
+          "kind": "text",
+          "text": "先にお答えすると、**受診を決める物差しは「熱の高さ」ではなく「子どもの様子」**です。40℃近くあっても、水分がとれて、時々笑ったり遊んだりできるなら、多くは朝まで待てます。反対に、37℃台でも、ぐったりしていたり、呼吸が苦しそうだったりすれば、急いだほうがよいことがあります。"
+        },
+        {
+          "kind": "text",
+          "text": "### 熱そのものは、体の守りの反応です"
+        },
+        {
+          "kind": "text",
+          "text": "子どもの熱の多くは、かぜなどのウイルスと戦うために、体がわざと温度を上げている状態です。熱が高いから脳に悪い、ということは、ふつうのかぜの熱ではまずありません。"
+        },
+        {
+          "kind": "text",
+          "text": "ですから、熱を下げる薬（解熱剤）は、**熱を下げきるためではなく、本人を楽にして、眠ったり水分をとったりしやすくするため**に使います。熱があってもすやすや眠れているなら、起こしてまで飲ませる必要はありません。"
+        },
+        {
+          "kind": "text",
+          "text": "### 今すぐ受診（夜間でも）を考えてほしいとき"
+        },
+        {
+          "kind": "text",
+          "text": "次のようなときは、時間に関係なく、救急の受診を考えてください。"
+        },
+        {
+          "kind": "text",
+          "text": "- **生後3か月未満の赤ちゃんで、38℃以上の熱がある**\n- 呼びかけへの反応が弱い、ぐったりして目が合わない\n- 息が苦しそう（肩で息をする、ゼーゼーする、呼吸がとても速い）\n- 水分をほとんど受けつけず、おしっこが半日近く出ていない\n- けいれんを起こした、顔色や唇の色が悪い"
+        },
+        {
+          "kind": "text",
+          "text": "### 翌日、診療時間内に受診すればよいことが多いとき"
+        },
+        {
+          "kind": "text",
+          "text": "- 熱はあるが、水分がとれていて、おしっこも出ている\n- 機嫌はよくないが、あやすと笑う、少し遊べる\n- 熱以外に、鼻水やせきなど、かぜらしい症状がある"
+        },
+        {
+          "kind": "text",
+          "text": "ただし、**熱が4〜5日以上続くとき**は、かぜ以外の病気が隠れていることもあるので、元気そうでも一度受診してください。"
+        },
+        {
+          "kind": "text",
+          "text": "### 迷ったら、#8000へ"
+        },
+        {
+          "kind": "text",
+          "text": "「どちらとも言えない」と迷ったときは、**子ども医療電話相談（#8000）**が使えます。夜間や休日に、看護師や医師が、受診したほうがよいか、家でどう過ごせばよいかを電話で教えてくれます。日本小児科学会が監修する「こどもの救急（ONLINE-QQ）」というサイトでは、症状を選んでいくと受診の目安が分かります。"
+        },
+        {
+          "kind": "text",
+          "text": "### 最後に"
+        },
+        {
+          "kind": "text",
+          "text": "熱の数字は、子どもの体の一部しか教えてくれません。「いつもと比べてどうか」をいちばん分かっているのは、毎日そばにいるご家族です。その「なんだかおかしい」という感覚は、とても大切な情報です。"
+        },
+        {
+          "kind": "text",
+          "text": "当院は開院後、小児科としてお子さんの急な熱やかぜの診療を行います。受診のときには、**熱が出た時刻、最高体温、水分やおしっこの様子、解熱剤を使った時刻**をメモしてきていただけると、診察がとてもスムーズになります。"
+        }
+      ]
+    },
+    "en": {
+      "category": "Health and prevention",
+      "subcategory": "Children's health",
+      "title": "How high does a child's fever need to be before you see a doctor? — How to tell, even in the middle of the night",
+      "excerpt": "It's the middle of the night, your child feels hot, and the thermometer says 38.9°C. \"Can this wait until morning, or should we go now?\" What matters most isn't actually the number.",
+      "body": [
+        {
+          "kind": "text",
+          "text": "You reach over in the night and your child feels hot. The thermometer reads 38.9°C. \"Should I wait until morning? But what if something's wrong?\" Many parents have sat in a dark room, alone, trying to decide."
+        },
+        {
+          "kind": "text",
+          "text": "To give you the answer first: **the yardstick for going to the doctor isn't how high the fever is — it's how your child is doing.** Even close to 40°C, if they're drinking and can still smile or play now and then, most can wait until morning. On the other hand, even at 37-something, if they're limp or struggling to breathe, it may be better to hurry."
+        },
+        {
+          "kind": "text",
+          "text": "### A fever itself is the body defending itself"
+        },
+        {
+          "kind": "text",
+          "text": "Most fevers in children are the body deliberately raising its temperature to fight off a virus such as a cold. With an ordinary cold, a high fever is almost never harmful to the brain in itself."
+        },
+        {
+          "kind": "text",
+          "text": "So fever-reducing medicine is used **not to bring the temperature all the way down, but to make your child comfortable so they can sleep and drink more easily.** If they're sleeping soundly despite the fever, there's no need to wake them up to give it."
+        },
+        {
+          "kind": "text",
+          "text": "### When to consider seeing a doctor right away (even at night)"
+        },
+        {
+          "kind": "text",
+          "text": "In the following cases, please consider emergency care whatever the time:"
+        },
+        {
+          "kind": "text",
+          "text": "- **A baby under 3 months old has a fever of 38°C or higher**\n- They respond weakly when you call them, are limp, or won't make eye contact\n- They seem to be struggling to breathe (heaving shoulders, wheezing, very fast breathing)\n- They're taking almost no fluids and haven't passed urine for about half a day\n- They've had a seizure, or their face or lips look a bad color"
+        },
+        {
+          "kind": "text",
+          "text": "### When it's usually fine to come in during clinic hours the next day"
+        },
+        {
+          "kind": "text",
+          "text": "- They have a fever, but they're drinking and passing urine\n- They're cranky, but smile when comforted and can play a little\n- Besides the fever, they have cold-like symptoms such as a runny nose or cough"
+        },
+        {
+          "kind": "text",
+          "text": "However, **if the fever lasts 4–5 days or more**, something other than a cold may be behind it, so please have them seen once even if they seem well."
+        },
+        {
+          "kind": "text",
+          "text": "### If you're unsure, call #8000"
+        },
+        {
+          "kind": "text",
+          "text": "When you really can't decide, you can use the **children's medical telephone consultation (#8000).** On nights and holidays, nurses or doctors will advise you by phone on whether to go to a doctor and how to care for your child at home. On \"Kodomo no Kyukyu (ONLINE-QQ),\" a site supervised by the Japan Pediatric Society, you can pick your child's symptoms and see a guide to when to seek care."
+        },
+        {
+          "kind": "text",
+          "text": "### Finally"
+        },
+        {
+          "kind": "text",
+          "text": "The number on the thermometer tells you only part of the story. The people who know best how your child compares with usual are the family who are with them every day. That feeling of \"something's not right\" is very important information."
+        },
+        {
+          "kind": "text",
+          "text": "Once we open, we'll see children for sudden fevers and colds as part of our pediatric care. When you come in, it helps a lot if you can jot down **when the fever started, the highest temperature, how they've been drinking and urinating, and when you gave any fever medicine.**"
+        }
+      ]
+    },
+    "related": [
+      {
+        "slug": "kodomo-outo-geri-suibun",
+        "ja": "吐いたあと、すぐに水を飲ませていませんか？〜子どものおう吐・下痢のときの水分のとり方〜",
+        "en": "Giving water right after your child vomits? — How to give fluids when children have vomiting and diarrhea"
+      },
+      {
+        "slug": "touen-toukou-itsukara",
+        "ja": "熱が下がったのに、まだ登園できないの？〜「出席停止」の日数の数え方〜",
+        "en": "The fever's gone, so why can't they go back to daycare yet? — How to count \"attendance suspension\" days"
+      }
+    ]
+  },
+  {
+    "slug": "kodomo-outo-geri-suibun",
+    "date": "2026.10.28",
+    "cover": "/blog/kibana-landscape.jpg",
+    "sources": [
+      {
+        "label": "日本小児救急医学会「エビデンスに基づいた子どもの腹部救急診療ガイドライン2017 第I部 小児急性胃腸炎診療ガイドライン」（Minds）",
+        "url": "https://minds.jcqhc.or.jp/summary/c00577/"
+      },
+      {
+        "label": "日本小児科学会 監修「こどもの救急（ONLINE-QQ）」",
+        "url": "http://kodomo-qq.jp/"
+      }
+    ],
+    "ja": {
+      "category": "健康・予防の話",
+      "subcategory": "子どもの健康",
+      "title": "吐いたあと、すぐに水を飲ませていませんか？〜子どものおう吐・下痢のときの水分のとり方〜",
+      "excerpt": "吐いたあと、「脱水が心配だから」とコップの水を渡したら、またすぐに吐いてしまった——実は、飲ませ方には「量」と「間隔」のコツがあります。",
+      "body": [
+        {
+          "kind": "text",
+          "text": "子どもが吐いた。「脱水になったら大変」と、あわててコップの水やお茶を渡したら、ごくごく飲んで、またすぐに吐いてしまった。冬の胃腸かぜの季節には、こんな場面がどの家庭でも起こります。"
+        },
+        {
+          "kind": "text",
+          "text": "おう吐や下痢のときにいちばん大切なのは、**少しずつ、こまめに水分を入れて、脱水を防ぐこと**です。胃腸かぜの多くは、薬で治すというより、水分をうまく補いながら、体が治るのを待つ病気です。"
+        },
+        {
+          "kind": "text",
+          "text": "このあと、こんな順番でお話しします。"
+        },
+        {
+          "kind": "text",
+          "text": "- 吐いたあと、最初の飲ませ方\n- 何を飲ませるか（経口補水液とスポーツドリンクの違い）\n- 食事はいつから、何を\n- 受診したほうがよいサイン"
+        },
+        {
+          "kind": "text",
+          "text": "### 吐いたあと、最初の飲ませ方"
+        },
+        {
+          "kind": "text",
+          "text": "吐いた直後の胃は、まだ荒れています。そこに一度にたくさん入れると、胃が驚いてまた吐いてしまいます。"
+        },
+        {
+          "kind": "text",
+          "text": "1. 吐いたあとは、**30分〜1時間ほど**、口をゆすぐ程度にして胃を休ませる\n2. その後、**スプーン1杯（5mLほど）を5分おき**に飲ませる\n3. 吐かなければ、少しずつ量を増やし、間隔をつめていく"
+        },
+        {
+          "kind": "text",
+          "text": "「たったこれだけ？」と思うかもしれませんが、スプーン1杯を5分おきでも、1時間で60mLほどになります。子どもが「もっと」と欲しがっても、最初はがまんしてもらうのがコツです。"
+        },
+        {
+          "kind": "text",
+          "text": "### 何を飲ませるか"
+        },
+        {
+          "kind": "text",
+          "text": "おすすめは、薬局などで売っている**経口補水液**です。体から失われた水分と塩分を、吸収しやすい割合で補えるように作られています。"
+        },
+        {
+          "kind": "text",
+          "text": "スポーツドリンクは飲みやすいのですが、経口補水液に比べて塩分が少なく、糖分が多めです。少し飲む分には構いませんが、脱水を補うための飲み物としては経口補水液のほうが向いています。母乳やミルクを飲んでいる赤ちゃんは、薄めたりせず、ふだんどおり続けてかまいません。"
+        },
+        {
+          "kind": "text",
+          "text": "### 食事はいつから、何を"
+        },
+        {
+          "kind": "text",
+          "text": "以前は「下痢のときは食事を抜く」と言われていましたが、今は、**吐き気がおさまって食べたがるなら、早めにふだんの食事を少しずつ再開する**ほうが回復が早いと考えられています。おかゆやうどんなど、消化のよいものから始めるとよいでしょう。脂っこいものや、糖分の多いジュースは、下痢を長引かせることがあるので控えめに。"
+        },
+        {
+          "kind": "text",
+          "text": "### 受診したほうがよいサイン"
+        },
+        {
+          "kind": "text",
+          "text": "次のようなときは、早めに受診してください。"
+        },
+        {
+          "kind": "text",
+          "text": "- **おしっこが半日ほど出ていない**、泣いても涙が出ない、口の中がかわいている\n- ぐったりしている、呼びかけへの反応が弱い\n- 少量ずつ飲ませても、何度も吐いてしまう\n- **便に血が混じる**、吐いたものが緑色（胆汁の色）\n- お腹を痛がって、触られるのをいやがる"
+        },
+        {
+          "kind": "text",
+          "text": "### 家族にうつさないために"
+        },
+        {
+          "kind": "text",
+          "text": "冬の胃腸かぜの多くは、ノロウイルスなどのウイルスが原因で、吐いたものや便からうつります。片付けるときは、使い捨ての手袋とマスクをつけ、塩素系の漂白剤を薄めたもので拭き取ってください。アルコールは効きにくいウイルスもあるので、そのあとの石けんでの手洗いが大切です。"
+        },
+        {
+          "kind": "text",
+          "text": "### 診察室から、ひと言"
+        },
+        {
+          "kind": "text",
+          "text": "吐いている子を前にすると、「何か薬を」と思うのは自然なことです。でも、胃腸かぜのときに一番の薬になるのは、ご家族が根気よく続けてくれる「スプーン1杯」です。"
+        },
+        {
+          "kind": "text",
+          "text": "当院は開院後、小児科としてお子さんのおう吐・下痢の診療を行います。受診のときは、**最後に吐いた時刻、下痢の回数、最後におしっこが出た時刻**を教えていただけると、脱水の程度を判断しやすくなります。"
+        }
+      ]
+    },
+    "en": {
+      "category": "Health and prevention",
+      "subcategory": "Children's health",
+      "title": "Giving water right after your child vomits? — How to give fluids when children have vomiting and diarrhea",
+      "excerpt": "Your child has just vomited, so you hand them a glass of water — and they throw it straight back up. There's a knack to giving fluids, and it comes down to amount and timing.",
+      "body": [
+        {
+          "kind": "text",
+          "text": "Your child has vomited. Worried about dehydration, you quickly hand them a glass of water or tea — they gulp it down and throw it straight back up. During winter stomach-bug season, this happens in homes everywhere."
+        },
+        {
+          "kind": "text",
+          "text": "When children have vomiting or diarrhea, the most important thing is **to prevent dehydration by giving fluids little and often.** Most stomach bugs aren't cured by medicine so much as they're waited out, while you keep the fluids topped up as the body heals."
+        },
+        {
+          "kind": "text",
+          "text": "Here's the order we'll go in:"
+        },
+        {
+          "kind": "text",
+          "text": "- How to give the first fluids after vomiting\n- What to give (oral rehydration solution vs. sports drinks)\n- When and what to start eating\n- Signs that it's time to see a doctor"
+        },
+        {
+          "kind": "text",
+          "text": "### The first fluids after vomiting"
+        },
+        {
+          "kind": "text",
+          "text": "Right after vomiting, the stomach is still irritated. Pour a lot in at once and it reacts by throwing it back up."
+        },
+        {
+          "kind": "text",
+          "text": "1. After vomiting, let the stomach rest for **about 30 minutes to an hour**, just rinsing the mouth\n2. Then give **one spoonful (about 5 mL) every 5 minutes**\n3. If they keep it down, gradually increase the amount and shorten the gaps"
+        },
+        {
+          "kind": "text",
+          "text": "\"Is that all?\" you might think — but a spoonful every 5 minutes adds up to about 60 mL an hour. Even if your child begs for more, the trick is to hold back at first."
+        },
+        {
+          "kind": "text",
+          "text": "### What to give"
+        },
+        {
+          "kind": "text",
+          "text": "We recommend **oral rehydration solution**, sold at pharmacies and drugstores. It's designed to replace the water and salt the body has lost, in proportions that are easy to absorb."
+        },
+        {
+          "kind": "text",
+          "text": "Sports drinks go down easily, but compared with oral rehydration solution they contain less salt and more sugar. A little is fine, but for making up for dehydration, oral rehydration solution is the better choice. Babies who are breastfed or bottle-fed can carry on as usual — there's no need to dilute their milk."
+        },
+        {
+          "kind": "text",
+          "text": "### When and what to start eating"
+        },
+        {
+          "kind": "text",
+          "text": "It used to be said that you should stop eating when you have diarrhea, but these days it's thought that **once the nausea settles and your child wants to eat, getting back to their usual food early, a little at a time,** helps them recover faster. Starting with easy-to-digest foods such as rice porridge or udon is a good idea. Go easy on fatty foods and sugary juice, which can make diarrhea last longer."
+        },
+        {
+          "kind": "text",
+          "text": "### Signs that it's time to see a doctor"
+        },
+        {
+          "kind": "text",
+          "text": "Please see a doctor early if:"
+        },
+        {
+          "kind": "text",
+          "text": "- **They haven't passed urine for about half a day**, cry without tears, or have a dry mouth\n- They're limp or respond weakly when you call them\n- They keep vomiting even when you give fluids in small amounts\n- **There's blood in their stool**, or their vomit is green (the color of bile)\n- Their tummy hurts and they don't want it touched"
+        },
+        {
+          "kind": "text",
+          "text": "### Keeping it from spreading in the family"
+        },
+        {
+          "kind": "text",
+          "text": "Most winter stomach bugs are caused by viruses such as norovirus, which spread through vomit and stool. When cleaning up, wear disposable gloves and a mask, and wipe with diluted chlorine bleach. Some of these viruses aren't easily killed by alcohol, so washing your hands with soap afterward is important."
+        },
+        {
+          "kind": "text",
+          "text": "### A word from the exam room"
+        },
+        {
+          "kind": "text",
+          "text": "Faced with a child who keeps vomiting, it's natural to want \"some kind of medicine.\" But with a stomach bug, the best medicine is the patient \"one spoonful at a time\" that the family keeps up."
+        },
+        {
+          "kind": "text",
+          "text": "Once we open, we'll see children with vomiting and diarrhea as part of our pediatric care. When you come in, it helps us judge how dehydrated your child is if you can tell us **when they last vomited, how many times they've had diarrhea, and when they last passed urine.**"
+        }
+      ]
+    },
+    "related": [
+      {
+        "slug": "kodomo-netsu-jushin",
+        "ja": "子どもの熱、何度になったら受診する？〜夜中に迷ったときの見分け方〜",
+        "en": "How high does a child's fever need to be before you see a doctor? — How to tell, even in the middle of the night"
+      },
+      {
+        "slug": "touen-toukou-itsukara",
+        "ja": "熱が下がったのに、まだ登園できないの？〜「出席停止」の日数の数え方〜",
+        "en": "The fever's gone, so why can't they go back to daycare yet? — How to count \"attendance suspension\" days"
       }
     ]
   },
@@ -10716,6 +11903,256 @@ export const generatedPosts: BlogPost[] = [
       {
         "ja": "足が痛いのは、年齢や遺伝のせい？〜外反母趾・扁平足と「靴」の深い関係。子どもの靴選びから見直そう〜",
         "en": "Is foot pain just age or genes? — the close link between bunions, flat feet and shoes, starting with how we choose children's shoes"
+      }
+    ]
+  },
+  {
+    "slug": "tsuufuu-hossa-timing",
+    "date": "2026.11.11",
+    "cover": "/blog/kibana-landscape.jpg",
+    "sources": [
+      {
+        "label": "日本痛風・尿酸核酸学会「高尿酸血症・痛風の治療ガイドライン第3版」",
+        "url": "https://minds.jcqhc.or.jp/summary/c00476/"
+      }
+    ],
+    "ja": {
+      "category": "健康・予防の話",
+      "subcategory": "コレステロール・尿酸",
+      "title": "痛風発作は「尿酸値が上がる時」と「下がる時」、どっちに起きやすい？〜カギは“急な変化”でした〜",
+      "excerpt": "「薬で尿酸値を下げ始めたのに、かえって痛風発作が起きた」——実は痛風発作は、尿酸値が急に下がったときにも起きやすいのです。",
+      "body": [
+        {
+          "kind": "text",
+          "text": "「健診で尿酸値が高いと言われたので、薬を飲み始めた。そうしたら、かえって足の親指が腫れて激痛が……」「お酒を飲みすぎて尿酸値が上がったから、発作が起きたんですよね？」——痛風について、こうしたご質問をよくいただきます。せっかく治療を始めたのに発作が起きると、「薬が合わないのでは」と不安になりますよね。"
+        },
+        {
+          "kind": "text",
+          "text": "先にお答えすると、**痛風発作は尿酸値が上がったときだけでなく、急に下がったときにも起きやすいのです。カギは「上がるか、下がるか」ではなく、「急に変化するかどうか」にあります。**"
+        },
+        {
+          "kind": "text",
+          "text": "このあと、こんな順番でお話しします。"
+        },
+        {
+          "kind": "text",
+          "text": "- 関節の中にたまった「トゲ」が揺さぶられる\n- 発作が起きやすい、こんな場面\n- 今日からできる、発作を乗り切るコツ"
+        },
+        {
+          "kind": "text",
+          "text": "### 関節の中にたまった「トゲ」が揺さぶられる"
+        },
+        {
+          "kind": "text",
+          "text": "尿酸値が高い状態が長く続くと、尿酸は血液に溶けきれなくなり、細かいトゲのような結晶になって、関節の中に少しずつたまっていきます。特に、体の中でも冷えやすい足の親指の付け根にたまりやすいことが知られています。"
+        },
+        {
+          "kind": "text",
+          "text": "この結晶は、じっとしている間は大きな悪さをしません。ところが、尿酸値が急に変化すると、関節の壁にくっついていた結晶が崩れたり、はがれ落ちたりします。"
+        },
+        {
+          "kind": "text",
+          "text": "すると、体を守る免疫の細胞が、はがれた結晶を「異物が入ってきた！」と勘違いして、いっせいに攻撃を始めます。この攻撃によって起こる激しい炎症が、痛風発作の正体です。"
+        },
+        {
+          "kind": "text",
+          "text": "尿酸値が上がるときは、新しい結晶ができやすくなります。下がるときは、たまっていた結晶が溶けはじめて崩れやすくなります。どちらの場合も、急な変化が「トゲを揺さぶるきっかけ」になるのです。"
+        },
+        {
+          "kind": "text",
+          "text": "### 発作が起きやすい、こんな場面"
+        },
+        {
+          "kind": "text",
+          "text": "**尿酸値が急に上がる場面**"
+        },
+        {
+          "kind": "text",
+          "text": "- 飲みすぎ・食べすぎ（特にレバーや魚卵、ビールなど、プリン体の多いもの）\n- 息が上がるような激しい運動\n- 汗をたくさんかいたのに水分が足りない、脱水の状態"
+        },
+        {
+          "kind": "text",
+          "text": "**尿酸値が大きく揺れ動く場面**"
+        },
+        {
+          "kind": "text",
+          "text": "- **尿酸値を下げる薬を飲み始めた最初の数か月**：じつは、いちばん発作が起きやすい時期です\n- 急な大量の飲酒の中断や、食事を極端に減らすダイエット：食事を抜きすぎると、かえって尿酸値が一時的に上がることもあり、数値が大きく揺れやすくなります"
+        },
+        {
+          "kind": "text",
+          "text": "### 今日からできる、発作を乗り切るコツ"
+        },
+        {
+          "kind": "text",
+          "text": "**薬は自己判断でやめない・急に増やさない**"
+        },
+        {
+          "kind": "text",
+          "text": "治療を始めたころの発作は、多くの場合「薬が効いて、たまっていた結晶が溶けはじめている証拠」です。ここで薬をやめてしまうと、結晶は残ったままになり、発作をくり返しやすくなります。"
+        },
+        {
+          "kind": "text",
+          "text": "そのため当院では、尿酸を下げる薬は少ない量から始め、様子を見ながら少しずつ増やしていく方法をとります。必要に応じて、発作を予防するお薬を一緒に使うこともあります。また、発作が起きている最中は、尿酸を下げる薬を新しく始めたり量を変えたりせず、まず痛みと炎症を抑えることを優先します。"
+        },
+        {
+          "kind": "text",
+          "text": "**水分をこまめにとる**"
+        },
+        {
+          "kind": "text",
+          "text": "尿酸は、おもに尿と一緒に体の外へ出ていきます。一度にたくさんではなく、1日を通してこまめに水やお茶を飲み、尿の量をしっかり保ちましょう。ただし、心臓や腎臓の病気で水分を控えるよう言われている方は、主治医の指示を優先してください。"
+        },
+        {
+          "kind": "text",
+          "text": "**「急にやりすぎない」**"
+        },
+        {
+          "kind": "text",
+          "text": "ダイエットも節酒も、とても良い取り組みです。ただ、一気にやりすぎると尿酸値が揺れてしまいます。体重は月に1〜2キロ程度を目安に、お酒も少しずつ減らしていくのがおすすめです。食事の考え方は「[生活習慣病の方の食事指導の実際](/blog/mainichi-chigau-mono)」も参考にしてください。"
+        },
+        {
+          "kind": "text",
+          "text": "### 最後に"
+        },
+        {
+          "kind": "text",
+          "text": "痛風発作は、体からの「もう少しペースを落として、丁寧に整えて」という黄色いサインです。発作が起きたからといって、治療がうまくいっていないわけではありません。"
+        },
+        {
+          "kind": "text",
+          "text": "尿酸値は、急がず、ゆっくり下げていくほど体にやさしいものです。病気のくわしい説明は[高尿酸血症・痛風の解説ページ](/diseases/hyperuricemia-gout)にもまとめています。焦らず、二人三脚で上手に尿酸値と付き合っていきましょう。"
+        }
+      ]
+    },
+    "en": {
+      "category": "Health and prevention",
+      "subcategory": "Cholesterol & uric acid",
+      "title": "Do gout attacks happen when uric acid goes up, or when it comes down? — the key turns out to be “sudden change”",
+      "excerpt": "“I started medicine to lower my uric acid, and then I had a gout attack.” In fact, gout attacks also tend to happen when uric acid drops quickly.",
+      "body": [
+        {
+          "kind": "text",
+          "text": "“My checkup said my uric acid was high, so I started medicine — and then my big toe swelled up with terrible pain.” “I drank too much, my uric acid went up, and that's why I had an attack, right?” I often hear questions like these about gout. When an attack happens just after you've started treatment, it's natural to worry, “Maybe this medicine isn't right for me.”"
+        },
+        {
+          "kind": "text",
+          "text": "This article explains when gout attacks tend to happen, why, and how to keep up treatment while avoiding attacks. Here's the short answer: **gout attacks happen not only when uric acid goes up, but also when it drops quickly. The key isn't whether it goes up or down — it's whether it changes suddenly.**"
+        },
+        {
+          "kind": "text",
+          "text": "Here's what I'll cover:"
+        },
+        {
+          "kind": "text",
+          "text": "- “Thorns” built up in the joint get shaken loose\n- Situations where attacks are more likely\n- Tips you can start today to get through attacks"
+        },
+        {
+          "kind": "text",
+          "text": "### “Thorns” built up in the joint get shaken loose"
+        },
+        {
+          "kind": "text",
+          "text": "When uric acid stays high for a long time, it can no longer stay dissolved in the blood. It forms tiny thorn-like crystals that slowly build up inside the joints — especially at the base of the big toe, one of the coolest spots in the body."
+        },
+        {
+          "kind": "text",
+          "text": "While these crystals stay still, they don't do much harm. But when uric acid changes suddenly, crystals stuck to the joint wall can crumble or break off."
+        },
+        {
+          "kind": "text",
+          "text": "Then the immune cells that protect your body mistake the loose crystals for “an invader!” and attack all at once. The intense inflammation from that attack is what a gout attack really is."
+        },
+        {
+          "kind": "text",
+          "text": "When uric acid rises, new crystals form more easily. When it falls, the built-up crystals start to dissolve and crumble more easily. Either way, a sudden change is what “shakes the thorns loose.”"
+        },
+        {
+          "kind": "text",
+          "text": "### Situations where attacks are more likely"
+        },
+        {
+          "kind": "text",
+          "text": "**When uric acid rises quickly**"
+        },
+        {
+          "kind": "text",
+          "text": "- Drinking or eating too much (especially purine-rich foods and drinks such as liver, fish roe and beer)\n- Intense exercise that leaves you out of breath\n- Dehydration — sweating a lot without drinking enough"
+        },
+        {
+          "kind": "text",
+          "text": "**When uric acid swings widely**"
+        },
+        {
+          "kind": "text",
+          "text": "- **The first few months after starting medicine to lower uric acid**: this is actually the most likely time for an attack\n- Suddenly stopping heavy drinking, or extreme diets that cut food drastically: skipping too much food can even raise uric acid temporarily, making the numbers swing widely"
+        },
+        {
+          "kind": "text",
+          "text": "### Tips you can start today to get through attacks"
+        },
+        {
+          "kind": "text",
+          "text": "**Don't stop your medicine on your own, and don't suddenly increase it**"
+        },
+        {
+          "kind": "text",
+          "text": "An attack early in treatment is often “a sign that the medicine is working and the built-up crystals are starting to dissolve.” If you stop the medicine here, the crystals stay behind and attacks tend to keep coming back."
+        },
+        {
+          "kind": "text",
+          "text": "That's why at our clinic we start uric-acid-lowering medicine at a low dose and raise it little by little while watching how you do. When needed, we may also use a medicine that helps prevent attacks alongside it. And during an attack, we don't newly start or change uric-acid-lowering medicine — we focus first on easing the pain and inflammation."
+        },
+        {
+          "kind": "text",
+          "text": "**Drink fluids regularly**"
+        },
+        {
+          "kind": "text",
+          "text": "Uric acid leaves the body mainly in urine. Rather than drinking a lot at once, sip water or tea throughout the day to keep your urine output up. If you've been told to limit fluids because of heart or kidney disease, follow your doctor's instructions first."
+        },
+        {
+          "kind": "text",
+          "text": "**Don't overdo it all at once**"
+        },
+        {
+          "kind": "text",
+          "text": "Dieting and cutting back on alcohol are both great efforts. But doing too much at once makes uric acid swing. Aim for about 1–2 kg of weight loss a month, and cut back on alcohol gradually. For how we think about diet, see also “[What diet guidance actually looks like for lifestyle-related conditions](/blog/mainichi-chigau-mono).”"
+        },
+        {
+          "kind": "text",
+          "text": "### Finally"
+        },
+        {
+          "kind": "text",
+          "text": "A gout attack is your body's yellow light, saying “slow down a little and take care to set things right.” Having an attack doesn't mean your treatment isn't working."
+        },
+        {
+          "kind": "text",
+          "text": "The slower and more gently uric acid comes down, the kinder it is to your body. You'll find more detail on [our hyperuricemia and gout page](/diseases/hyperuricemia-gout). Let's take it step by step and learn to live well with your uric acid — together."
+        }
+      ]
+    },
+    "related": [
+      {
+        "slug": "mainichi-chigau-mono",
+        "ja": "生活習慣病の方の食事指導の実際",
+        "en": "What diet guidance actually looks like for lifestyle-related conditions"
+      },
+      {
+        "slug": "yasete-iru-noni-ldl",
+        "ja": "痩せているのに、なぜコレステロールが高いの？——薬をやめると数値が戻ってしまう本当の理由",
+        "en": "Slim, but high cholesterol? The real reason your numbers bounce back when you stop the medicine"
+      },
+      {
+        "slug": "tomato-juice-ryouba",
+        "ja": "毎日のトマトジュース、実は逆効果かもしれません",
+        "en": "Your daily tomato juice might be working against you"
+      }
+    ],
+    "upcoming": [
+      {
+        "ja": "プリン体って、あの「プリン」と関係あるの？〜名前の由来と、多い食べ物の意外な共通点〜",
+        "en": "Do purines have anything to do with pudding? — where the name comes from, and what purine-rich foods have in common"
       }
     ]
   }
