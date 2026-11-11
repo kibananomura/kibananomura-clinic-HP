@@ -74,7 +74,7 @@ sources:
 
 大切な日の数週間前には、スケジュールを逆算して、計画的にワクチンを受けましょう。準備ができていれば、本番に安心して臨めます。
 
-「いつ打てばいいか分からない」と迷ったら、診察室で受験や行事の日程を教えてくださいね。一緒にカレンダーを見ながら、ベストな時期を考えましょう。
+「いつ打てばいいか分からない」と迷ったら、受験や行事の日程を、かかりつけ医などに伝えて相談してみてください（開院後は当院でも、一緒にカレンダーを見ながら時期を考えます）。
 
 ## en
 
@@ -128,4 +128,4 @@ The vaccine lowers your chance of catching the flu, but it doesn't prevent it 10
 
 A few weeks before your important day, count back and plan your vaccination. Being prepared lets you face the big day with peace of mind.
 
-If you're not sure when to get it, tell me your exam or event dates in the exam room. Let's look at the calendar together and find the best timing.
+If you're not sure when to get it, share your exam or event dates with your family doctor and ask (once we open, we'll look at the calendar with you too).

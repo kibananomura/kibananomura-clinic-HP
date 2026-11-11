@@ -11551,7 +11551,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "「いつ打てばいいか分からない」と迷ったら、診察室で受験や行事の日程を教えてくださいね。一緒にカレンダーを見ながら、ベストな時期を考えましょう。"
+          "text": "「いつ打てばいいか分からない」と迷ったら、受験や行事の日程を、かかりつけ医などに伝えて相談してみてください（開院後は当院でも、一緒にカレンダーを見ながら時期を考えます）。"
         }
       ]
     },
@@ -11651,7 +11651,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "If you're not sure when to get it, tell me your exam or event dates in the exam room. Let's look at the calendar together and find the best timing."
+          "text": "If you're not sure when to get it, share your exam or event dates with your family doctor and ask (once we open, we'll look at the calendar with you too)."
         }
       ]
     },
