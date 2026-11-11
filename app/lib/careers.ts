@@ -230,7 +230,7 @@ export const WORK_HIGHLIGHTS = {
       {
         icon: "🏠",
         title: "年間休日120日・平日勤務のみ（土日祝休み）で家庭と両立",
-        body: "原則平日の日勤のみで、週末や祝日はしっかり休める働きやすい環境です（※土日の短時間特別外来は院長中心の運営のため、スタッフの過度な負担はありません）。",
+        body: "原則平日の日勤のみで、週末や祝日はしっかり休める働きやすい環境です（※土日に院長が行うことがある短時間の特別外来は院長1人で行い、スタッフの出勤はありません）。",
       },
       {
         icon: "🌱",
@@ -260,7 +260,7 @@ export const WORK_HIGHLIGHTS = {
       {
         icon: "🏠",
         title: "120 days off a year, weekdays only (closed Sat, Sun & holidays) — balance work and family",
-        body: "You'll generally work daytime shifts on weekdays only, with weekends and holidays fully off (our short weekend specialty clinic is run mainly by the director, so it won't place an undue burden on staff).",
+        body: "You'll generally work daytime shifts on weekdays only, with weekends and holidays fully off (the director's occasional short weekend clinic is run by the director alone — staff do not work).",
       },
       {
         icon: "🌱",
@@ -685,7 +685,7 @@ export const COMMON_EMPLOYMENT_TERMS = {
     note: "※ 各職種の募集要項に別の記載がある場合は、そちらが優先されます。",
     items: [
       { label: "勤務日数・時間帯", value: "常勤・パートとも、ご希望やライフスタイルに合わせてご相談に応じます" },
-      { label: "休日", value: "年間休日120日（土曜・日曜・祝日、年末年始〈12/29〜1/3〉）。土日に院長が行うことがある外科処置の特別外来は、スタッフの勤務を前提としていません" },
+      { label: "休日", value: "年間休日120日（土曜・日曜・祝日、年末年始〈12/29〜1/3〉）。土日に院長が行うことがある外科処置の特別外来は院長1人で行い、スタッフの出勤はありません" },
       { label: "昇給", value: "年1回（クリニック業績および個人の評価による ※開院初年度は規定による）" },
       { label: "賞与（予定）", value: "常勤：年2回、基本給の年間計3.0か月分（案）（開院初年度は計2.0か月分（案）から始め、2年目以降に引き上げます。一度決めた水準は下げない方針です。クリニック業績および個人の評価により決定）／パート：寸志あり（勤務状況による）" },
       { label: "退職金", value: "あり（勤続3年以上の方。支給額は退職金規程による）" },
@@ -704,7 +704,7 @@ export const COMMON_EMPLOYMENT_TERMS = {
     note: "* Where a role's listing states different terms, those take precedence.",
     items: [
       { label: "Work days & hours", value: "For both full-time and part-time, we will discuss days and hours to suit your wishes and lifestyle" },
-      { label: "Holidays", value: "120 days off per year (Saturdays, Sundays, public holidays, and the New Year break, 29 Dec – 3 Jan). The director's occasional weekend surgical clinic does not require staff to work" },
+      { label: "Holidays", value: "120 days off per year (Saturdays, Sundays, public holidays, and the New Year break, 29 Dec – 3 Jan). The director's occasional weekend surgical clinic is run by the director alone, and staff do not work" },
       { label: "Pay raises", value: "Once a year (based on clinic performance and individual evaluation; per internal rules in our first year)" },
       { label: "Bonus (planned)", value: "Full-time: twice a year, totaling 3.0 months of base salary per year (tentative) (starting at 2.0 months in our first year and raised from the second year; once set, we do not intend to lower the level. Decided based on clinic performance and individual evaluation) / Part-time: a small bonus, depending on work record" },
       { label: "Retirement allowance", value: "Provided for staff with 3 or more years of service (amount per our retirement allowance rules)" },
