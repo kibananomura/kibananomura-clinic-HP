@@ -7,6 +7,8 @@ export type CareerPosition = {
     summary: string;
     duties: string[];
     requirements: string[];
+    /** 歓迎するスキル・ご経験（看護師など、職種ごとに載せる） */
+    welcomeSkills?: { label: string; intro: string; items: string[]; note: string };
     conditions?: { label: string; value: string }[];
     note?: string;
   };
@@ -16,6 +18,8 @@ export type CareerPosition = {
     summary: string;
     duties: string[];
     requirements: string[];
+    /** 歓迎するスキル・ご経験（看護師など、職種ごとに載せる） */
+    welcomeSkills?: { label: string; intro: string; items: string[]; note: string };
     conditions?: { label: string; value: string }[];
     note?: string;
   };
@@ -85,26 +89,9 @@ export const CAREERS_PAGE = {
       body: "すでに当院の理念に共感し、ここで働きたいと考えてくださっている方は、開院前でも、どしどしご連絡ください。",
       wantedLabel: "特に、こんな方からのご連絡をお待ちしています",
       wanted: [
-        "当院の診療で生かせる技術をお持ちの看護師さん（下の「歓迎するスキル・ご経験」をご覧ください）",
+        "当院の診療で生かせる技術をお持ちの看護師さん（上の看護師の募集要項にある「歓迎するスキル・ご経験」をご覧ください）",
         "Instagram や YouTube の撮影・編集の技術を発揮したい方",
       ],
-      skillsLabel: "歓迎するスキル・ご経験",
-      skillsIntro:
-        "当院では、内科・外科の診療や、さまざまな処置・検査で、これまでのご経験を存分に発揮していただける環境を整えています。次のような手技や業務のご経験がある方は、応募や面接のときに、ぜひ積極的にアピールしてください（すべてに当てはまる必要はありません。1つでも強みをお持ちの方を歓迎します）。",
-      skills: [
-        "内視鏡の介助（上部消化管内視鏡〈下部は将来的に〉の前処置、検査の介助、スコープの洗浄・管理）",
-        "フットケア（糖尿病の足の病気の予防ケア、胼胝〈たこ〉・鶏眼〈うおのめ〉の処置、爪切り・巻き爪のケアなど）",
-        "小外科手術・処置の直接／間接介助（粉瘤の摘出、皮膚・皮下腫瘍の切除、傷の縫合、外回り）",
-        "創傷ケア・ドレッシング材の管理（やけど・けが・褥瘡の洗浄、被覆材の選定・貼付）",
-        "エコー（超音波検査）の補助・一次描出（腹部・頸動脈・甲状腺・下肢静脈などのプローブ操作の補助）",
-        "呼気NO検査（FeNO）の誘導・測定",
-        "糖尿病の療養指導・自己注射の指導（インスリン・GLP-1、SMBG／CGMの機器の説明とフォロー）",
-        "心電図・ホルター心電図（解析は外注）の検査（正確な電極の装着、回収、異常波形の初期トリアージ）",
-        "血管が出にくい方の末梢静脈路確保（ルートキープ）",
-        "一次救命処置（BLS）・アナフィラキシーの初期対応",
-      ],
-      skillsNote:
-        "※ こうした手技・経験を生かして「外来処置の中心として活躍したい」「特定の専門分野を伸ばしたい」という方からのご応募を、心よりお待ちしています。しばらく離れている手技も、サポートしますので、お気軽にご相談ください。",
       emailLabel: "メールでのご連絡",
       email: "contact@kibananomura.jp",
       emailNote: "件名に「採用について」、本文にお名前・ご連絡先・ご経験（得意なこと）をお書き添えください。",
@@ -183,26 +170,9 @@ export const CAREERS_PAGE = {
       body: "If you already share our philosophy and would like to work here, please don't hesitate to contact us — even before we open.",
       wantedLabel: "We'd especially love to hear from",
       wanted: [
-        "Nurses with skills that fit our care (see “Welcome skills and experience” below)",
+        "Nurses with skills that fit our care (see “Welcome skills and experience” in the nurse posting above)",
         "People who want to put their Instagram or YouTube filming and editing skills to work",
       ],
-      skillsLabel: "Welcome skills and experience",
-      skillsIntro:
-        "We are building an environment where you can make full use of your experience in internal medicine and surgery, and in a wide range of procedures and tests. If you have experience with any of the following, please highlight it when you apply or at interview (you don't need all of them — we welcome anyone with even one strength).",
-      skills: [
-        "Endoscopy assistance (upper GI endoscopy — lower GI in the future: preparation, procedure assistance, scope cleaning and care)",
-        "Foot care (preventive care for diabetic foot problems, callus and corn care, nail trimming and ingrown nail care)",
-        "Direct/indirect assistance in minor surgery and procedures (epidermoid cyst removal, skin and subcutaneous tumor excision, wound suturing, circulating)",
-        "Wound care and dressing management (cleaning burns, injuries and pressure ulcers; choosing and applying dressings)",
-        "Ultrasound assistance and initial imaging (assisting probe scanning of the abdomen, carotid arteries, thyroid, leg veins, etc.)",
-        "Guiding and measuring exhaled nitric oxide tests (FeNO)",
-        "Diabetes self-management education and self-injection instruction (insulin, GLP-1; explaining and following up SMBG/CGM devices)",
-        "ECG and Holter ECG tests (analysis outsourced): accurate electrode placement, collection, initial triage of abnormal waveforms",
-        "Peripheral IV access in patients with difficult veins",
-        "Basic life support (BLS) and initial response to anaphylaxis",
-      ],
-      skillsNote:
-        "* We warmly welcome applications from people who want to use these skills to be at the center of outpatient procedures, or to grow in a particular specialty. If it has been a while since you last performed a procedure, we'll support you — please feel free to ask.",
       emailLabel: "Contact by email",
       email: "contact@kibananomura.jp",
       emailNote: "Please write “Recruitment” in the subject line, and include your name, contact details and experience (what you're good at).",
@@ -304,8 +274,27 @@ export const CAREER_POSITIONS: CareerPosition[] = [
         "看護師免許（正看護師・准看護師）をお持ちの方",
         "クリニック・病院での外来または検査室経験がある方歓迎",
         "未経験の方も、意欲があればご相談ください",
-        "【歓迎スキル】消化器内視鏡（胃カメラ）の介助経験、外科処置の補助、小児科・救急外来での勤務経験がある方は給与面で優遇いたします（未経験・ブランクのある方も丁寧に指導します）",
+        "内視鏡の介助・外科処置の補助・小児科や救急外来での経験がある方は給与面で優遇します（下の「歓迎するスキル・ご経験」もご覧ください。未経験・ブランクのある方も丁寧に指導します）",
       ],
+      welcomeSkills: {
+        label: "歓迎するスキル・ご経験",
+        intro:
+          "当院では、内科・外科の診療や、さまざまな処置・検査で、これまでのご経験を存分に発揮していただける環境を整えています。次のような手技や業務のご経験がある方は、応募や面接のときに、ぜひ積極的にアピールしてください（すべてに当てはまる必要はありません。1つでも強みをお持ちの方を歓迎します）。",
+        items: [
+          "内視鏡の介助（上部消化管内視鏡〈下部は将来的に〉の前処置、検査の介助、スコープの洗浄・管理）",
+          "フットケア（糖尿病の足の病気の予防ケア、胼胝〈たこ〉・鶏眼〈うおのめ〉の処置、爪切り・巻き爪のケアなど）",
+          "小外科手術・処置の直接／間接介助（粉瘤の摘出、皮膚・皮下腫瘍の切除、傷の縫合、外回り）",
+          "創傷ケア・ドレッシング材の管理（やけど・けが・褥瘡の洗浄、被覆材の選定・貼付）",
+          "エコー（超音波検査）の補助・一次描出（腹部・頸動脈・甲状腺・下肢静脈などのプローブ操作の補助）",
+          "呼気NO検査（FeNO）の誘導・測定",
+          "糖尿病の療養指導・自己注射の指導（インスリン・GLP-1、SMBG／CGMの機器の説明とフォロー）",
+          "心電図・ホルター心電図（解析は外注）の検査（正確な電極の装着、回収、異常波形の初期トリアージ）",
+          "血管が出にくい方の末梢静脈路確保（ルートキープ）",
+          "一次救命処置（BLS）・アナフィラキシーの初期対応",
+        ],
+        note:
+          "※ こうした手技・経験を生かして「外来処置の中心として活躍したい」「特定の専門分野を伸ばしたい」という方からのご応募を、心よりお待ちしています。しばらく離れている手技も、サポートしますので、お気軽にご相談ください。",
+      },
       conditions: [
         { label: "雇用形態", value: "常勤（正社員）・パート" },
         {
@@ -330,8 +319,27 @@ export const CAREER_POSITIONS: CareerPosition[] = [
         "Valid nursing license (RN or LPN)",
         "Outpatient or exam room experience preferred",
         "Motivated learners without experience may apply",
-        "[Valued skills] Experience assisting with gastroscopy, surgical procedures, or working in pediatrics/emergency care is rewarded with higher pay (we also provide thorough training for those without experience or returning after a career break)",
+        "Experience assisting with endoscopy or surgical procedures, or in pediatrics/emergency care, is rewarded with higher pay (see “Welcome skills and experience” below; we also train those without experience or returning after a break)",
       ],
+      welcomeSkills: {
+        label: "Welcome skills and experience",
+        intro:
+          "We are building an environment where you can make full use of your experience in internal medicine and surgery, and in a wide range of procedures and tests. If you have experience with any of the following, please highlight it when you apply or at interview (you don't need all of them — we welcome anyone with even one strength).",
+        items: [
+          "Endoscopy assistance (upper GI endoscopy — lower GI in the future: preparation, procedure assistance, scope cleaning and care)",
+          "Foot care (preventive care for diabetic foot problems, callus and corn care, nail trimming and ingrown nail care)",
+          "Direct/indirect assistance in minor surgery and procedures (epidermoid cyst removal, skin and subcutaneous tumor excision, wound suturing, circulating)",
+          "Wound care and dressing management (cleaning burns, injuries and pressure ulcers; choosing and applying dressings)",
+          "Ultrasound assistance and initial imaging (assisting probe scanning of the abdomen, carotid arteries, thyroid, leg veins, etc.)",
+          "Guiding and measuring exhaled nitric oxide tests (FeNO)",
+          "Diabetes self-management education and self-injection instruction (insulin, GLP-1; explaining and following up SMBG/CGM devices)",
+          "ECG and Holter ECG tests (analysis outsourced): accurate electrode placement, collection, initial triage of abnormal waveforms",
+          "Peripheral IV access in patients with difficult veins",
+          "Basic life support (BLS) and initial response to anaphylaxis",
+        ],
+        note:
+          "* We warmly welcome applications from people who want to use these skills to be at the center of outpatient procedures, or to grow in a particular specialty. If it has been a while since you last performed a procedure, we'll support you — please feel free to ask.",
+      },
       conditions: [
         { label: "Employment type", value: "Full-time or part-time" },
         {

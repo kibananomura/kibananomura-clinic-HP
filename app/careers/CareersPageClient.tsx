@@ -91,86 +91,6 @@ export default function CareersPageClient() {
           </p>
         </FadeIn>
 
-        {/* 冒頭の必ず読まれる位置に、院長の覚悟を書いたブログへの案内を置く */}
-        <FadeIn delay={0.052}>
-          <Link
-            href={copy.blogPick.href}
-            className="group mx-auto mt-8 block max-w-2xl rounded-3xl border-2 border-primary/25 bg-surface/95 p-6 shadow-card transition-all hover:-translate-y-0.5 hover:border-primary/50 hover:shadow-soft sm:p-7"
-          >
-            <p className="text-xs font-bold text-primary">{copy.blogPick.label}</p>
-            <p className="mt-2 text-base font-bold leading-snug text-ink sm:text-lg">{copy.blogPick.title}</p>
-            <p className="mt-2 text-sm leading-relaxed text-ink/75">{copy.blogPick.body}</p>
-            <span className="mt-4 inline-flex items-center gap-1.5 rounded-full bg-primary px-4 py-2 text-sm font-bold text-white transition-colors group-hover:bg-primary-dark">
-              {copy.blogPick.cta}
-              <span aria-hidden="true">→</span>
-            </span>
-          </Link>
-        </FadeIn>
-
-        {/* 理念に共感した方への、早めの応募の呼びかけ */}
-        <FadeIn delay={0.054}>
-          <div className="mx-auto mt-6 max-w-2xl rounded-3xl bg-accent/70 p-6 shadow-card sm:p-7">
-            <p className="text-xs font-bold text-primary">{copy.earlyCall.label}</p>
-            <p className="mt-2 text-base font-bold leading-snug text-ink sm:text-lg">{copy.earlyCall.title}</p>
-            <p className="mt-2 text-sm leading-relaxed text-ink/80">{copy.earlyCall.body}</p>
-            <p className="mt-4 text-sm font-bold text-primary-dark">{copy.earlyCall.wantedLabel}</p>
-            <ul className="mt-2 list-disc space-y-1.5 pl-5 text-sm leading-relaxed text-ink/80">
-              {copy.earlyCall.wanted.map((w) => (
-                <li key={w}>{w}</li>
-              ))}
-            </ul>
-            <p className="mt-5 text-sm font-bold text-primary-dark">{copy.earlyCall.skillsLabel}</p>
-            <p className="mt-2 text-sm leading-relaxed text-ink/80">{copy.earlyCall.skillsIntro}</p>
-            <ul className="mt-2 list-disc space-y-1.5 pl-5 text-sm leading-relaxed text-ink/80">
-              {copy.earlyCall.skills.map((w) => (
-                <li key={w}>{w}</li>
-              ))}
-            </ul>
-            <p className="mt-3 text-xs leading-relaxed text-ink/70">{copy.earlyCall.skillsNote}</p>
-            <div className="mt-5 rounded-2xl bg-surface/90 p-4">
-              <p className="text-xs font-bold text-ink/60">{copy.earlyCall.emailLabel}</p>
-              <a
-                href={`mailto:${copy.earlyCall.email}?subject=${encodeURIComponent(lang === "en" ? "Recruitment" : "採用について")}`}
-                className="mt-1 inline-block break-all text-base font-bold text-primary-dark underline underline-offset-2"
-              >
-                {copy.earlyCall.email}
-              </a>
-              <p className="mt-2 text-xs leading-relaxed text-ink/60">{copy.earlyCall.emailNote}</p>
-            </div>
-          </div>
-        </FadeIn>
-
-        <FadeIn delay={0.055}>
-          <div className="mx-auto mt-10 max-w-5xl">
-            <h2 className="text-center text-lg font-bold text-ink">
-              {workHighlights.heading}
-            </h2>
-            <div className="mt-6 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
-              {workHighlights.items.map((item, i) => (
-                <div
-                  key={item.title}
-                  className={`rounded-3xl border border-white bg-surface/90 p-5 shadow-card ${
-                    i === 4 ? "sm:col-span-2 lg:col-span-1" : ""
-                  }`}
-                >
-                  <div
-                    className="flex h-11 w-11 items-center justify-center rounded-2xl bg-primary/10 text-xl"
-                    aria-hidden="true"
-                  >
-                    {item.icon}
-                  </div>
-                  <h3 className="mt-3 text-sm font-bold text-primary-dark">
-                    {item.title}
-                  </h3>
-                  <p className="mt-2 text-sm leading-relaxed text-ink/75">
-                    {item.body}
-                  </p>
-                </div>
-              ))}
-            </div>
-          </div>
-        </FadeIn>
-
         <FadeIn delay={0.06}>
           <div className="mx-auto mt-10 max-w-3xl text-center">
             <p className="eyebrow">{t.mission.eyebrow}</p>
@@ -205,109 +125,33 @@ export default function CareersPageClient() {
           ))}
         </div>
 
-        <FadeIn delay={0.08}>
-          <div className="mx-auto mt-10 max-w-3xl rounded-3xl bg-surface/90 p-6 shadow-card sm:p-8">
-            <h2 className="text-base font-bold text-primary-dark sm:text-lg">
-              {copy.overviewHeading}
-            </h2>
-            <dl className="mt-4 divide-y divide-ink/8">
-              {copy.overviewItems.map((item) => (
-                <div
-                  key={item.label}
-                  className="grid gap-1 py-3 sm:grid-cols-[7rem_1fr] sm:gap-4"
-                >
-                  <dt className="text-sm font-bold text-ink/60">{item.label}</dt>
-                  <dd className="text-sm leading-relaxed text-ink/85">{item.value}</dd>
-                </div>
-              ))}
-            </dl>
-          </div>
-        </FadeIn>
-
-        <FadeIn delay={0.09}>
-          <div className="mx-auto mt-6 max-w-3xl rounded-3xl bg-surface/90 p-6 shadow-card sm:p-8">
-            <h2 className="text-base font-bold text-primary-dark sm:text-lg">
-              {employmentTerms.heading}
-            </h2>
-            <p className="mt-1.5 text-xs text-ink/55">{employmentTerms.note}</p>
-            <dl className="mt-4 divide-y divide-ink/8">
-              {employmentTerms.items.map((item) => (
-                <div
-                  key={item.label}
-                  className="grid gap-1 py-3 sm:grid-cols-[7rem_1fr] sm:gap-4"
-                >
-                  <dt className="text-sm font-bold text-ink/60">{item.label}</dt>
-                  <dd className="text-sm leading-relaxed text-ink/85">{item.value}</dd>
-                </div>
-              ))}
-            </dl>
-          </div>
-        </FadeIn>
-
-        <FadeIn delay={0.11}>
-          <div className="mx-auto mt-10 max-w-3xl rounded-3xl bg-surface/90 p-6 shadow-card sm:p-8">
-            <h2 className="text-base font-bold text-primary-dark sm:text-lg">
-              {copy.directorMessageLabel}
-            </h2>
-            <div className="mt-4 space-y-3 text-sm leading-relaxed text-ink/80">
-              {copy.directorMessageBody.map((paragraph) => (
-                <p key={paragraph}>{paragraph}</p>
-              ))}
-            </div>
-            <p className="mt-4 text-right text-sm font-bold text-ink/70">
-              {copy.directorMessageName}
-            </p>
-            <Link
-              href={copy.blogPick.href}
-              className="mt-3 block text-right text-sm font-bold text-primary-dark underline underline-offset-2 hover:text-primary"
-            >
-              {copy.directorMessageMore}
-            </Link>
-          </div>
-        </FadeIn>
-
-        <FadeIn delay={0.115}>
-          <div className="mx-auto mt-10 max-w-3xl">
+        <FadeIn delay={0.055}>
+          <div className="mx-auto mt-10 max-w-5xl">
             <h2 className="text-center text-lg font-bold text-ink">
-              {copy.valuesHeading}
+              {workHighlights.heading}
             </h2>
-            <div className="mt-6 grid gap-5 sm:grid-cols-3">
-              {copy.values.map((v) => (
+            <div className="mt-6 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+              {workHighlights.items.map((item, i) => (
                 <div
-                  key={v.title}
-                  className="rounded-3xl border border-white bg-surface/90 p-5 shadow-card"
+                  key={item.title}
+                  className={`rounded-3xl border border-white bg-surface/90 p-5 shadow-card ${
+                    i === 4 ? "sm:col-span-2 lg:col-span-1" : ""
+                  }`}
                 >
-                  <h3 className="text-sm font-bold text-primary-dark">{v.title}</h3>
-                  <p className="mt-2 text-sm leading-relaxed text-ink/75">{v.body}</p>
+                  <div
+                    className="flex h-11 w-11 items-center justify-center rounded-2xl bg-primary/10 text-xl"
+                    aria-hidden="true"
+                  >
+                    {item.icon}
+                  </div>
+                  <h3 className="mt-3 text-sm font-bold text-primary-dark">
+                    {item.title}
+                  </h3>
+                  <p className="mt-2 text-sm leading-relaxed text-ink/75">
+                    {item.body}
+                  </p>
                 </div>
               ))}
-            </div>
-          </div>
-        </FadeIn>
-
-        <FadeIn delay={0.118}>
-          <div className="mx-auto mt-10 max-w-3xl rounded-3xl border border-primary/15 bg-primary/5 p-6 sm:p-8">
-            <h2 className="text-base font-bold text-primary-dark sm:text-lg">
-              {copy.idealHeading}
-            </h2>
-            <p className="mt-3 text-sm leading-relaxed text-ink/75">{copy.idealIntro}</p>
-            <ul className="mt-4 space-y-2 text-sm leading-relaxed text-ink/80">
-              {copy.idealItems.map((item) => (
-                <li key={item} className="flex gap-2">
-                  <span className="text-primary" aria-hidden="true">
-                    ✓
-                  </span>
-                  <span>{item}</span>
-                </li>
-              ))}
-            </ul>
-            <div className="mt-6 border-t border-primary/15 pt-5">
-              <h3 className="text-sm font-bold text-primary-dark">
-                {copy.snsNoticeLabel}
-              </h3>
-              <p className="mt-2 text-sm leading-relaxed text-ink/75">
-                {copy.snsNoticeBody}
-              </p>
             </div>
           </div>
         </FadeIn>
@@ -372,6 +216,24 @@ export default function CareersPageClient() {
                     </div>
                   </div>
 
+                  {c.welcomeSkills && (
+                    <div className="mt-6 rounded-2xl bg-accent/40 p-4 sm:p-5">
+                      <h4 className="text-sm font-bold text-primary-dark">{c.welcomeSkills.label}</h4>
+                      <p className="mt-2 text-sm leading-relaxed text-ink/80">{c.welcomeSkills.intro}</p>
+                      <ul className="mt-3 space-y-1.5 text-sm leading-relaxed text-ink/80">
+                        {c.welcomeSkills.items.map((line) => (
+                          <li key={line} className="flex gap-2">
+                            <span className="text-primary" aria-hidden="true">
+                              ✓
+                            </span>
+                            <span>{line}</span>
+                          </li>
+                        ))}
+                      </ul>
+                      <p className="mt-3 text-xs leading-relaxed text-ink/70">{c.welcomeSkills.note}</p>
+                    </div>
+                  )}
+
                   {c.conditions && c.conditions.length > 0 && (
                     <div className="mt-6 border-t border-ink/8 pt-5">
                       <h4 className="text-sm font-bold text-primary-dark">
@@ -425,6 +287,154 @@ export default function CareersPageClient() {
             <p className="mx-auto mt-4 max-w-3xl text-center text-xs leading-relaxed text-ink/50">
               {salaryModels.disclaimer}
             </p>
+          </div>
+        </FadeIn>
+
+        <FadeIn delay={0.09}>
+          <div className="mx-auto mt-6 max-w-3xl rounded-3xl bg-surface/90 p-6 shadow-card sm:p-8">
+            <h2 className="text-base font-bold text-primary-dark sm:text-lg">
+              {employmentTerms.heading}
+            </h2>
+            <p className="mt-1.5 text-xs text-ink/55">{employmentTerms.note}</p>
+            <dl className="mt-4 divide-y divide-ink/8">
+              {employmentTerms.items.map((item) => (
+                <div
+                  key={item.label}
+                  className="grid gap-1 py-3 sm:grid-cols-[7rem_1fr] sm:gap-4"
+                >
+                  <dt className="text-sm font-bold text-ink/60">{item.label}</dt>
+                  <dd className="text-sm leading-relaxed text-ink/85">{item.value}</dd>
+                </div>
+              ))}
+            </dl>
+          </div>
+        </FadeIn>
+
+        <FadeIn delay={0.08}>
+          <div className="mx-auto mt-10 max-w-3xl rounded-3xl bg-surface/90 p-6 shadow-card sm:p-8">
+            <h2 className="text-base font-bold text-primary-dark sm:text-lg">
+              {copy.overviewHeading}
+            </h2>
+            <dl className="mt-4 divide-y divide-ink/8">
+              {copy.overviewItems.map((item) => (
+                <div
+                  key={item.label}
+                  className="grid gap-1 py-3 sm:grid-cols-[7rem_1fr] sm:gap-4"
+                >
+                  <dt className="text-sm font-bold text-ink/60">{item.label}</dt>
+                  <dd className="text-sm leading-relaxed text-ink/85">{item.value}</dd>
+                </div>
+              ))}
+            </dl>
+          </div>
+        </FadeIn>
+
+        <FadeIn delay={0.11}>
+          <div className="mx-auto mt-10 max-w-3xl rounded-3xl bg-surface/90 p-6 shadow-card sm:p-8">
+            <h2 className="text-base font-bold text-primary-dark sm:text-lg">
+              {copy.directorMessageLabel}
+            </h2>
+            <div className="mt-4 space-y-3 text-sm leading-relaxed text-ink/80">
+              {copy.directorMessageBody.map((paragraph) => (
+                <p key={paragraph}>{paragraph}</p>
+              ))}
+            </div>
+            <p className="mt-4 text-right text-sm font-bold text-ink/70">
+              {copy.directorMessageName}
+            </p>
+            <Link
+              href={copy.blogPick.href}
+              className="mt-3 block text-right text-sm font-bold text-primary-dark underline underline-offset-2 hover:text-primary"
+            >
+              {copy.directorMessageMore}
+            </Link>
+          </div>
+        </FadeIn>
+
+        {/* 院長メッセージに続けて、院長の覚悟を書いたブログへの案内を置く */}
+        <FadeIn delay={0.052}>
+          <Link
+            href={copy.blogPick.href}
+            className="group mx-auto mt-8 block max-w-2xl rounded-3xl border-2 border-primary/25 bg-surface/95 p-6 shadow-card transition-all hover:-translate-y-0.5 hover:border-primary/50 hover:shadow-soft sm:p-7"
+          >
+            <p className="text-xs font-bold text-primary">{copy.blogPick.label}</p>
+            <p className="mt-2 text-base font-bold leading-snug text-ink sm:text-lg">{copy.blogPick.title}</p>
+            <p className="mt-2 text-sm leading-relaxed text-ink/75">{copy.blogPick.body}</p>
+            <span className="mt-4 inline-flex items-center gap-1.5 rounded-full bg-primary px-4 py-2 text-sm font-bold text-white transition-colors group-hover:bg-primary-dark">
+              {copy.blogPick.cta}
+              <span aria-hidden="true">→</span>
+            </span>
+          </Link>
+        </FadeIn>
+
+        <FadeIn delay={0.115}>
+          <div className="mx-auto mt-10 max-w-3xl">
+            <h2 className="text-center text-lg font-bold text-ink">
+              {copy.valuesHeading}
+            </h2>
+            <div className="mt-6 grid gap-5 sm:grid-cols-3">
+              {copy.values.map((v) => (
+                <div
+                  key={v.title}
+                  className="rounded-3xl border border-white bg-surface/90 p-5 shadow-card"
+                >
+                  <h3 className="text-sm font-bold text-primary-dark">{v.title}</h3>
+                  <p className="mt-2 text-sm leading-relaxed text-ink/75">{v.body}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+        </FadeIn>
+
+        <FadeIn delay={0.118}>
+          <div className="mx-auto mt-10 max-w-3xl rounded-3xl border border-primary/15 bg-primary/5 p-6 sm:p-8">
+            <h2 className="text-base font-bold text-primary-dark sm:text-lg">
+              {copy.idealHeading}
+            </h2>
+            <p className="mt-3 text-sm leading-relaxed text-ink/75">{copy.idealIntro}</p>
+            <ul className="mt-4 space-y-2 text-sm leading-relaxed text-ink/80">
+              {copy.idealItems.map((item) => (
+                <li key={item} className="flex gap-2">
+                  <span className="text-primary" aria-hidden="true">
+                    ✓
+                  </span>
+                  <span>{item}</span>
+                </li>
+              ))}
+            </ul>
+            <div className="mt-6 border-t border-primary/15 pt-5">
+              <h3 className="text-sm font-bold text-primary-dark">
+                {copy.snsNoticeLabel}
+              </h3>
+              <p className="mt-2 text-sm leading-relaxed text-ink/75">
+                {copy.snsNoticeBody}
+              </p>
+            </div>
+          </div>
+        </FadeIn>
+
+        {/* 理念に共感した方への、早めの応募の呼びかけ */}
+        <FadeIn delay={0.054}>
+          <div className="mx-auto mt-6 max-w-2xl rounded-3xl bg-accent/70 p-6 shadow-card sm:p-7">
+            <p className="text-xs font-bold text-primary">{copy.earlyCall.label}</p>
+            <p className="mt-2 text-base font-bold leading-snug text-ink sm:text-lg">{copy.earlyCall.title}</p>
+            <p className="mt-2 text-sm leading-relaxed text-ink/80">{copy.earlyCall.body}</p>
+            <p className="mt-4 text-sm font-bold text-primary-dark">{copy.earlyCall.wantedLabel}</p>
+            <ul className="mt-2 list-disc space-y-1.5 pl-5 text-sm leading-relaxed text-ink/80">
+              {copy.earlyCall.wanted.map((w) => (
+                <li key={w}>{w}</li>
+              ))}
+            </ul>
+            <div className="mt-5 rounded-2xl bg-surface/90 p-4">
+              <p className="text-xs font-bold text-ink/60">{copy.earlyCall.emailLabel}</p>
+              <a
+                href={`mailto:${copy.earlyCall.email}?subject=${encodeURIComponent(lang === "en" ? "Recruitment" : "採用について")}`}
+                className="mt-1 inline-block break-all text-base font-bold text-primary-dark underline underline-offset-2"
+              >
+                {copy.earlyCall.email}
+              </a>
+              <p className="mt-2 text-xs leading-relaxed text-ink/60">{copy.earlyCall.emailNote}</p>
+            </div>
           </div>
         </FadeIn>
 
