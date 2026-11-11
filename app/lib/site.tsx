@@ -418,10 +418,11 @@ const ja: SiteDict = {
   },
   director: {
     eyebrow: "院長あいさつ",
-    greetingTitle: "私たちの理想は、みなさんがこの診療所に来る必要がなくなることです。",
+    greetingTitle: "私たちの究極の理想は、みなさんがこの診療所に来る必要がなくなることです。",
     greetingLead: [
       "こんにちは。木花のむら総合診療所 院長の野村です。",
       "医師でありながら「医療がいらない明日を目指す」と言うと、少し驚かれるかもしれません。しかし、医療の本当の役目は、検査を重ねて薬を出し続けることではなく、患者さんが自分らしい健やかな日常を取り戻し、私たちの手を離れていくことだと信じています。",
+      "もちろん、甲状腺を手術で取った方や、ホルモンなど体に必要なものが十分に作られない方のように、お薬で補い続けることが命と暮らしを支えている方がいらっしゃることも、重々承知しています。そうした方にとって、お薬は「頼りすぎ」ではなく、自分らしい毎日を支える大切な土台です。必要なお薬はきちんと続けながら、その方らしい健やかな暮らしを一緒に守っていきます。",
       "当院が内科・外科・小児科を掲げ、「総合診療所」と名乗る理由はここにあります。",
     ],
     greetingDepts: [
@@ -1279,10 +1280,11 @@ const en: SiteDict = {
   },
   director: {
     eyebrow: "A word from the director",
-    greetingTitle: "Our ideal is for you to no longer need to come to this clinic.",
+    greetingTitle: "Our ultimate ideal is for you to no longer need to come to this clinic.",
     greetingLead: [
       "Hello. I'm Dr. Nomura, director of Kibana Nomura General Medicine Clinic.",
       "It may surprise you to hear a doctor say, \u201cI'm aiming for a tomorrow where you no longer need medical care.\u201d But I believe the true role of medicine isn't to keep ordering tests and prescribing medication — it's to help patients regain a healthy everyday life that feels like their own, and then leave our hands.",
+      "Of course, I'm well aware that for some people — such as those who have had their thyroid removed, or whose bodies can't make enough of a hormone or other substance they need — continuing to replace it with medication is what sustains their life and daily living. For them, medication isn't \u201crelying too heavily\u201d on medical care; it's an important foundation for an everyday life that feels like their own. We'll keep the medication you need going properly, and work with you to protect a healthy life that's truly yours.",
       "That's why we offer internal medicine, surgery and pediatrics, and call ourselves a \u201cgeneral medicine clinic.\u201d",
     ],
     greetingDepts: [
