@@ -838,7 +838,7 @@ const ja: SiteDict = {
         items: [
           {
             name: "GLP-1受容体作動薬による肥満治療（少量から開始）",
-            price: "月額19,800円〜",
+            price: "準備中",
             overview: "GLP-1受容体作動薬を少量から用いる、医師管理下の体重マネジメント治療です。",
             risks:
               "吐き気・嘔吐・下痢・便秘等の消化器症状が比較的高頻度にみられるほか、まれに低血糖、急性膵炎・胆嚢炎等の重篤な副作用が報告されています。効果・体重減少の程度には個人差があります。",
@@ -847,14 +847,14 @@ const ja: SiteDict = {
           },
           {
             name: "AGA治療（フィナステリド）",
-            price: "月額6,200円",
+            price: "準備中",
             overview: "男性型脱毛症（AGA）に対する、国内承認薬の内服治療です。",
             risks: "性機能への影響（性欲減退・勃起機能低下等）、肝機能への影響等が報告されています。妊娠中・妊娠の可能性がある女性は薬剤に触れることも避ける必要があります。",
             approval: "国内で承認されている医薬品を、保険適用外の自由診療として処方します（未承認医薬品ではありません）。",
           },
           {
             name: "AGA治療（デュタステリド系）",
-            price: "月額10,000円台〜",
+            price: "準備中",
             overview: "男性型脱毛症（AGA）に対する、国内承認薬の内服治療です。",
             risks: "性機能への影響（性欲減退・勃起機能低下等）、肝機能への影響等が報告されています。妊娠中・妊娠の可能性がある女性は薬剤に触れることも避ける必要があります。",
             approval: "国内で承認されている医薬品を、保険適用外の自由診療として処方します（未承認医薬品ではありません）。",
@@ -868,28 +868,28 @@ const ja: SiteDict = {
           },
           {
             name: "LOH症候群・TRT",
-            price: "初回検査 9,900円／注射1回 4,400円／定期検査 5,500円（3か月ごと）（いずれも税込・診察料込み）",
-            overview: "加齢男性性腺機能低下症候群（LOH症候群）に対するテストステロン補充療法（TRT）です。初回に血液検査（テストステロン・PSA・血算・肝機能）を行い、適応がある場合に2〜4週間ごとの筋肉注射を行います。3か月ごとに症状と血液検査で効果と安全性を確認し、継続を相談します。注射のみの場合の月額の目安は4,400〜8,800円です。",
+            price: "準備中",
+            overview: "加齢男性性腺機能低下症候群（LOH症候群）に対するテストステロン補充療法（TRT）です。初回に血液検査（テストステロン・PSA・血算・肝機能）を行い、適応がある場合に2〜4週間ごとの筋肉注射を行います。3か月ごとに症状と血液検査で効果と安全性を確認し、継続を相談します。料金は準備中です。",
             risks: "多血症（血液が濃くなる）、前立腺への影響（PSAの上昇・排尿症状の悪化）、睡眠時無呼吸症候群の悪化、にきび・むくみ、乳房のふくらみ、注射部位の痛み、精子をつくる働きの低下・精巣の縮小、血栓等が報告されています。前立腺がん・乳がんのある方、重い心不全の方などは治療を受けられません。",
             approval: "国内で承認されている注射薬（エナント酸テストステロン）を、保険適用外の自由診療として使用します（未承認医薬品ではありません）。症状・検査の結果によっては保険診療の対象となり、その場合は保険で治療します（同じ病気で保険と自費は組み合わせられません）。",
           },
           {
-            name: "ED治療薬（バイアグラ）",
-            price: "1錠2,400円",
+            name: "ED治療薬（シルデナフィル）",
+            price: "準備中",
             overview: "勃起不全（ED）に対する、国内承認薬の内服治療です。",
             risks: "頭痛・ほてり・動悸・消化不良等が報告されています。硝酸剤を使用中の方は併用禁忌（一緒に使ってはいけない組み合わせ）です。",
             approval: "国内で承認されている医薬品を、保険適用外の自由診療として処方します（未承認医薬品ではありません）。",
           },
           {
-            name: "ED治療薬（シアリス）",
-            price: "1錠1,700円",
+            name: "ED治療薬（タダラフィル）",
+            price: "準備中",
             overview: "勃起不全（ED）に対する、国内承認薬の内服治療です。",
             risks: "頭痛・ほてり・消化不良・背部痛等が報告されています。硝酸剤を使用中の方は併用禁忌です。",
             approval: "国内で承認されている医薬品を、保険適用外の自由診療として処方します（未承認医薬品ではありません）。",
           },
           {
             name: "花粉症ステロイド注射",
-            price: "1回4,000円（診察料別途）",
+            price: "準備中",
             overview: "花粉症（アレルギー性鼻炎）の症状を一時的に抑えるステロイドの筋肉注射です。内服薬・点鼻薬での治療を基本とし、ご希望の方に選択肢としてご案内します。",
             risks: "月経異常、糖尿病の悪化、感染症への抵抗力低下、続発性副腎皮質機能不全（体の中でステロイドホルモンが作られにくくなる状態）、消化性潰瘍、精神症状等が報告されています。繰り返しの使用は特に注意が必要です。",
             approval: "使用する注射薬は、花粉症（アレルギー性鼻炎）への使用が添付文書上の適応として明記されていない場合があり、医師の裁量による投与（適応外使用）となることがあります。",
@@ -910,14 +910,14 @@ const ja: SiteDict = {
           },
           {
             name: "緊急避妊薬（ウリプリスタル酢酸エステル・性交後120時間以内）",
-            price: "9,680円（税込・診察料込み）",
+            price: "準備中",
             overview: "性交後120時間（5日）以内に、ウリプリスタル酢酸エステル（日本では未承認）を1回内服します。早く飲むほど効果が高いとされています。内診はありません。",
             risks: "頭痛・吐き気・腹痛・不正出血などが起こることがあります。100%妊娠を防げるものではなく、内服後も次の生理までの性交では妊娠する可能性があります。胃酸を抑える薬など一部のお薬で効果が弱まることがあり、授乳中の方は内服後1週間は授乳を控える必要があります。ピルなどのホルモン剤は内服後5日間は始めないでください。",
             approval: "ウリプリスタル酢酸エステル（30mg）は、日本国内では承認されていない医薬品（未承認医薬品）です。国内で承認されている同じ成分の医薬品はありません。同じ目的で国内で承認されているお薬として、レボノルゲストレル製剤（性交後72時間以内に内服、薬局でも購入可）があります。入手経路：当院の医師が、医薬品医療機器等法に基づく輸入確認の手続きを行い、診療に用いる目的で海外から個人輸入したものです。個人輸入の医薬品については、厚生労働省の「個人輸入において注意すべき医薬品等について」もご確認ください。ウリプリスタル酢酸エステル（30mg）は、欧州連合（欧州医薬品庁、2009年）、米国（食品医薬品局、2010年）などで緊急避妊薬として承認されています。主な副作用は頭痛・吐き気・腹痛・生理の乱れなどで、まれに発疹・顔のむくみなどのアレルギー反応が報告されています。同じ成分で子宮筋腫の治療のために長期間使う製剤では重い肝障害が報告されましたが、欧州医薬品庁は、緊急避妊のための1回の使用ではこの懸念はないと評価しています。国内で承認されていないため、重い副作用が起きた場合に、国の医薬品副作用被害救済制度の対象外となります。",
           },
           {
             name: "にんにく注射",
-            price: "1回1,500円",
+            price: "準備中",
             overview: "ビタミンB1等を含む注射による、一時的な疲労感の緩和を目的とした自費診療です。",
             risks: "まれにアレルギー反応、注射部位の痛み・発赤等が起こることがあります。",
             approval: "使用する製剤は国内で承認されたビタミン剤等です。",
@@ -1773,7 +1773,7 @@ const en: SiteDict = {
           },
           {
             name: "Emergency contraception (ulipristal acetate, within 120 hours)",
-            price: "¥9,680 (incl. tax and consultation)",
+            price: "Coming soon",
             overview: "A single dose of ulipristal acetate (not approved in Japan) taken within 120 hours (5 days) of intercourse; the sooner it is taken, the more effective it is. No internal examination.",
             risks: "Headache, nausea, abdominal pain and spotting may occur. It is not 100% effective, and pregnancy is still possible from intercourse before your next period. Some medicines, including stomach-acid reducers, can make it less effective, and breastfeeding should be paused for 1 week after taking it. Do not start hormonal contraception for 5 days after taking it.",
             approval: "Ulipristal acetate (30 mg) is not approved in Japan (an unapproved drug), and no drug with the same ingredient is approved in Japan. A drug approved in Japan for the same purpose is levonorgestrel (within 72 hours; also available at pharmacies). Source: imported for clinical use by our physician through the import confirmation procedure under Japan's Pharmaceutical and Medical Device Act. Ulipristal acetate (30 mg) is approved as emergency contraception in the European Union (EMA, 2009) and the United States (FDA, 2010), among others. Main side effects are headache, nausea, abdominal pain and menstrual irregularity; allergic reactions such as rash or facial swelling are rarely reported. Serious liver injury was reported with a long-term product of the same ingredient for uterine fibroids, but the EMA concluded this concern does not apply to single-dose use for emergency contraception. As it is unapproved in Japan, serious side effects are not covered by Japan's relief system for adverse drug reactions.",

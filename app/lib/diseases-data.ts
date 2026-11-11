@@ -2982,8 +2982,8 @@ export const DISEASE_LINK_LABELS: DiseaseLinkLabel[] = DISEASES
     { label: "男性型脱毛症（AGA）", slug: "", href: "/self-pay/aga" },
     { label: "AGA治療（フィナステリド）", slug: "", href: "/self-pay/aga" },
     { label: "AGA治療（デュタステリド系）", slug: "", href: "/self-pay/aga" },
-    { label: "ED治療薬（バイアグラ）", slug: "", href: "/self-pay/ed" },
-    { label: "ED治療薬（シアリス）", slug: "", href: "/self-pay/ed" },
+    { label: "ED治療薬（シルデナフィル）", slug: "", href: "/self-pay/ed" },
+    { label: "ED治療薬（タダラフィル）", slug: "", href: "/self-pay/ed" },
     { label: "花粉症ステロイド注射", slug: "", href: "/self-pay/pollen-steroid" },
   ])
   .filter((v, i, arr) => arr.findIndex((x) => x.label === v.label) === i)

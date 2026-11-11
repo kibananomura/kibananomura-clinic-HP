@@ -83,7 +83,7 @@ sources:
 
 性のことも含めて、誰かに話すのは気が引けるものです。ですが、診察室ではごく当たり前の相談です。言いにくいことは、問診票に書いていただくだけでも構いません。
 
-まずは採血で、今の状態を知るところから始めてみませんか。検査の費用や、保険と自費のどちらになるかは、[LOH症候群・TRT（男性ホルモン補充療法）のページ](/self-pay/loh-trt)にまとめています（初回の検査は9,900円・税込み・診察料込み）。気になる方は、かかりつけ医などにご相談ください（開院後は当院へ）。
+まずは採血で、今の状態を知るところから始めてみませんか。検査の費用や、保険と自費のどちらになるかは、[LOH症候群・TRT（男性ホルモン補充療法）のページ](/self-pay/loh-trt)にまとめています（料金は準備中です）。気になる方は、かかりつけ医などにご相談ください（開院後は当院へ）。
 
 治療ではどんなことをするのか、どのくらいで変化を感じるのかは、「[男性ホルモンの治療って、何をするの？](/blog/loh-chiryo)」でお話しします。
 
@@ -150,6 +150,6 @@ On the other hand, testosterone **can be measured objectively with a blood test*
 
 It can feel awkward to talk to anyone about these things, sexual matters included. But in the exam room, it's a completely ordinary consultation. If something is hard to say, simply writing it on the questionnaire is fine.
 
-Why not start by finding out where you stand with a blood test? The cost of testing, and whether it's covered by insurance or self-pay, is explained on [our LOH syndrome / TRT page](/self-pay/loh-trt) (initial tests: ¥9,900, including tax and consultation fee). If you're concerned, please talk with your family doctor (or with us, once we open).
+Why not start by finding out where you stand with a blood test? The cost of testing, and whether it's covered by insurance or self-pay, is explained on [our LOH syndrome / TRT page](/self-pay/loh-trt) (prices coming soon). If you're concerned, please talk with your family doctor (or with us, once we open).
 
 What treatment involves and how soon people tend to notice changes is covered in “[What does male hormone treatment actually involve?](/blog/loh-chiryo)”

@@ -1349,7 +1349,7 @@ export const SYMPTOMS: SymptomEntry[] = [
     selfPay: {
       isSelfPayNote:
         "GLP-1受容体作動薬による治療は自由診療（公的医療保険の適用外・全額自己負担）であり、標準治療として保険診療に代わるものではありません。",
-      priceItems: [{ name: "GLP-1受容体作動薬による肥満治療（少量から開始）", price: "月額19,800円〜" }],
+      priceItems: [{ name: "GLP-1受容体作動薬による肥満治療（少量から開始）", price: "準備中" }],
       risks:
         "食欲抑制作用があるとされ、血糖値コントロールのサポートも期待されます。消化器症状（吐き気・下痢など）が現れる場合があるほか、まれに急性膵炎・胆嚢炎等の重篤な副作用が報告されているため、強い腹痛がある場合は速やかに受診してください。効果には個人差があり、医師が継続的な体重管理をサポートします。",
       contactNote: "詳しい費用・リスクは、初回診察時に医師よりご説明します。ご不明な点はLINE・お電話（開院後）でお問い合わせください。",
@@ -1374,7 +1374,7 @@ export const SYMPTOMS: SymptomEntry[] = [
       selfPay: {
         isSelfPayNote:
           "Treatment with a GLP-1 receptor agonist is self-pay care (not covered by public health insurance — paid entirely out of pocket) and is not a substitute for standard insurance-covered treatment.",
-        priceItems: [{ name: "GLP-1 weight loss plan (low-dose starter)", price: "From ¥19,800/month" }],
+        priceItems: [{ name: "GLP-1 weight loss plan (low-dose starter)", price: "Coming soon" }],
         risks:
           "Thought to suppress appetite, with hoped-for support for blood sugar control as well. Digestive symptoms (nausea, diarrhea, etc.) can occur, and rare but serious side effects such as acute pancreatitis or cholecystitis have been reported — please come in promptly if you have severe abdominal pain. Results vary from person to person, and your doctor will support you with ongoing weight management.",
         contactNote: "We'll explain the detailed costs and risks at your first visit. For questions, please reach out via LINE or by phone (once we're open).",
@@ -1402,8 +1402,8 @@ export const SYMPTOMS: SymptomEntry[] = [
       isSelfPayNote:
         "AGA治療は自由診療（公的医療保険の適用外・全額自己負担）であり、標準治療として保険診療に代わるものではありません。継続的な処方が前提となり、効果には個人差があります。",
       priceItems: [
-        { name: "AGA治療（フィナステリド）", price: "月額6,200円" },
-        { name: "AGA治療（デュタステリド系）", price: "月額10,000円台〜" },
+        { name: "AGA治療（フィナステリド）", price: "準備中" },
+        { name: "AGA治療（デュタステリド系）", price: "準備中" },
       ],
       risks:
         "ミノキシジル外用薬・フィナステリド内服薬など、エビデンスに基づく薄毛治療です。フィナステリドでは性機能への影響が報告されています。定期的な経過観察を行います。",
@@ -1427,8 +1427,8 @@ export const SYMPTOMS: SymptomEntry[] = [
         isSelfPayNote:
           "AGA treatment is self-pay care (not covered by public health insurance — paid entirely out of pocket) and is not a substitute for standard insurance-covered treatment. It requires ongoing prescriptions, and results vary from person to person.",
         priceItems: [
-          { name: "AGA treatment (finasteride)", price: "¥6,200/month" },
-          { name: "AGA treatment (dutasteride-based)", price: "From around ¥10,000+/month" },
+          { name: "AGA treatment (finasteride)", price: "Coming soon" },
+          { name: "AGA treatment (dutasteride-based)", price: "Coming soon" },
         ],
         risks:
           "Evidence-based hair loss treatments such as topical minoxidil and oral finasteride. Finasteride has been reported to affect sexual function in some cases. We monitor your progress regularly.",
@@ -1457,8 +1457,8 @@ export const SYMPTOMS: SymptomEntry[] = [
       isSelfPayNote:
         "ED治療薬の処方は自由診療（公的医療保険の適用外・全額自己負担）であり、標準治療として保険診療に代わるものではありません。継続的な処方が前提となり、効果には個人差があります。",
       priceItems: [
-        { name: "ED治療薬（バイアグラ）", price: "1錠2,400円" },
-        { name: "ED治療薬（シアリス）", price: "1錠1,700円" },
+        { name: "ED治療薬（シルデナフィル）", price: "準備中" },
+        { name: "ED治療薬（タダラフィル）", price: "準備中" },
       ],
       risks: "シルデナフィル・タダラフィルなど、医師の診察のうえで処方します。頭痛・顔面紅潮・血圧低下などの副作用が出る場合があります。",
       contactNote: "詳しい費用・リスクは、初回診察時に医師よりご説明します。ご不明な点はLINE・お電話（開院後）でお問い合わせください。",
@@ -1481,8 +1481,8 @@ export const SYMPTOMS: SymptomEntry[] = [
         isSelfPayNote:
           "Prescribing ED medication is self-pay care (not covered by public health insurance — paid entirely out of pocket) and is not a substitute for standard insurance-covered treatment. It requires ongoing prescriptions, and results vary from person to person.",
         priceItems: [
-          { name: "ED medication (Viagra)", price: "¥2,400/tablet" },
-          { name: "ED medication (Cialis)", price: "¥1,700/tablet" },
+          { name: "ED medication (sildenafil)", price: "Coming soon" },
+          { name: "ED medication (tadalafil)", price: "Coming soon" },
         ],
         risks: "Sildenafil, tadalafil, and similar medications, prescribed after a doctor's consultation. Side effects such as headache, facial flushing, or low blood pressure can occur.",
         contactNote: "We'll explain the detailed costs and risks at your first visit. For questions, please reach out via LINE or by phone (once we're open).",
@@ -1509,7 +1509,7 @@ export const SYMPTOMS: SymptomEntry[] = [
     selfPay: {
       isSelfPayNote:
         "花粉症ステロイド注射は自由診療（公的医療保険の適用外・全額自己負担）であり、標準治療として保険診療に代わるものではありません。",
-      priceItems: [{ name: "花粉症ステロイド注射", price: "1回4,000円（診察料別途）" }],
+      priceItems: [{ name: "花粉症ステロイド注射", price: "準備中" }],
       risks:
         "季節性アレルギー性鼻炎のシーズン前に行うステロイド（トリアムシノロンアセトニド）注射です。注射部位反応・血糖値上昇のほか、繰り返しの使用では月経異常・免疫力低下・注射部位の皮膚萎縮などのリスクがあり、頻回の使用はおすすめできません。",
       contactNote: "詳しい費用・リスクは、診察時に医師よりご説明します。ご不明な点はLINE・お電話（開院後）でお問い合わせください。",
@@ -1531,7 +1531,7 @@ export const SYMPTOMS: SymptomEntry[] = [
       selfPay: {
         isSelfPayNote:
           "The hay fever steroid injection is self-pay care (not covered by public health insurance — paid entirely out of pocket) and is not a substitute for standard insurance-covered treatment.",
-        priceItems: [{ name: "Hay fever steroid injection", price: "¥4,000/session (consultation fee separate)" }],
+        priceItems: [{ name: "Hay fever steroid injection", price: "Coming soon" }],
         risks:
           "A steroid (triamcinolone acetonide) injection given before the seasonal allergic rhinitis season. Besides injection-site reactions and a rise in blood sugar, repeated use carries risks such as menstrual irregularity, lowered immunity, and skin thinning at the injection site — we don't recommend frequent use.",
         contactNote: "We'll explain the detailed costs and risks at your visit. For questions, please reach out via LINE or by phone (once we're open).",
@@ -1558,7 +1558,7 @@ export const SYMPTOMS: SymptomEntry[] = [
     selfPay: {
       isSelfPayNote:
         "ビタミン注射（にんにく注射）は自由診療（公的医療保険の適用外・全額自己負担）であり、疾患の治療そのものではなく、標準治療として保険診療に代わるものではありません。",
-      priceItems: [{ name: "にんにく注射", price: "1回1,500円" }],
+      priceItems: [{ name: "にんにく注射", price: "準備中" }],
       risks:
         "ビタミンB1等を含む注射で、疲労感・倦怠感の軽減を目的として行われることがあります。効果には個人差があり、まれに注射部位の痛み・アレルギー反応等が起こることがあります。",
       contactNote: "詳しい費用・リスクは、診察時に医師よりご説明します。ご不明な点はLINE・お電話（開院後）でお問い合わせください。",
@@ -1580,7 +1580,7 @@ export const SYMPTOMS: SymptomEntry[] = [
       selfPay: {
         isSelfPayNote:
           "The vitamin injection (\"garlic injection\") is self-pay care (not covered by public health insurance — paid entirely out of pocket). It doesn't treat an underlying condition itself, and is not a substitute for standard insurance-covered treatment.",
-        priceItems: [{ name: "Garlic injection", price: "¥1,500/session" }],
+        priceItems: [{ name: "Garlic injection", price: "Coming soon" }],
         risks:
           "An injection containing vitamin B1 and similar nutrients, given with the aim of easing fatigue. Results vary from person to person, and rarely, injection-site pain or an allergic reaction can occur.",
         contactNote: "We'll explain the detailed costs and risks at your visit. For questions, please reach out via LINE or by phone (once we're open).",

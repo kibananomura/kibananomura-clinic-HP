@@ -75,13 +75,7 @@ sources:
 
 ### Q6. 費用と、通い方は？
 
-料金は、いずれも税込み・診察料込みです。
-
-- **初回の検査**（テストステロン・PSA・血液の濃さ・肝臓の値）：9,900円
-- **注射**（1回）：4,400円
-- **定期の検査**（3か月ごと）：5,500円
-
-注射を2〜4週間ごとに受ける場合、注射代の目安は月4,400〜8,800円です。3か月ごとに症状と血液の値を見直して、続けるかどうかを相談します。
+料金は現在準備中で、開院までに決めて、[LOH症候群・TRT（男性ホルモン補充療法）のページ](/self-pay/loh-trt)に掲載します。通い方は、初回に血液検査をして、治療する場合は注射を2〜4週間ごとに受けていただくのが目安です。3か月ごとに症状と血液の値を見直して、続けるかどうかを相談します。
 
 料金・主なリスクのまとめと予約は、[LOH症候群・TRT（男性ホルモン補充療法）のページ](/self-pay/loh-trt)からどうぞ（予約の受付は、開院前に始める予定です）。
 
@@ -146,13 +140,7 @@ Replacement therapy supplies hormones your body is short of from the outside. If
 
 ### Q6. What about cost and visits?
 
-All prices include tax and the consultation fee.
-
-- **Initial tests** (testosterone, PSA, blood thickness, liver values): ¥9,900
-- **Injection** (per visit): ¥4,400
-- **Regular tests** (every 3 months): ¥5,500
-
-With an injection every 2–4 weeks, injection costs come to roughly ¥4,400–8,800 a month. Every 3 months, we review your symptoms and blood levels and discuss whether to continue.
+Prices are still being finalized; we'll post them on [our LOH syndrome / TRT page](/self-pay/loh-trt) before we open. As for visits, you'll start with a blood test, and if you go ahead with treatment, injections are usually every 2–4 weeks. Every 3 months, we review your symptoms and blood levels and discuss whether to continue.
 
 For a summary of fees and main risks, and to book, see [our LOH syndrome / TRT page](/self-pay/loh-trt) (bookings are planned to open before we open).
 
