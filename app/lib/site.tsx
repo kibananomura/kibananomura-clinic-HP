@@ -71,16 +71,20 @@ export interface SiteDict {
   };
   director: {
     eyebrow: string;
+    greetingTitle: string;
+    greetingLead: string[];
+    greetingDepts: { label: string; text: string }[];
+    greetingClosing: string[];
+    signatureOrg: string;
+    signatureRole: string;
+    profileHeading: string;
     roleLabel: string;
     name: string;
     reading: string;
     qualifications: string[];
     storyIntro: string;
-    quote: string;
-    storyBody: string[];
     storyMore: string;
     storyMoreHref: string;
-    catch: string;
     photoNote: string;
     portraitAria: string;
   };
@@ -318,7 +322,7 @@ const ja: SiteDict = {
     backHome: "トップへ戻る",
   },
   nav: [
-    { href: "/#director", label: "院長紹介" },
+    { href: "/#director", label: "院長あいさつ" },
     { href: "/blog", label: "院長ブログ" },
     { href: "/services", label: "診療案内" },
     { href: "/symptoms", label: "症状から調べる" },
@@ -413,21 +417,34 @@ const ja: SiteDict = {
     feverLink: "熱があるときの受診方法を見る →",
   },
   director: {
-    eyebrow: "院長紹介",
+    eyebrow: "院長あいさつ",
+    greetingTitle: "私たちの理想は、みなさんがこの診療所に来る必要がなくなることです。",
+    greetingLead: [
+      "こんにちは。木花のむら総合診療所 院長の野村です。",
+      "医師でありながら「医療がいらない明日を目指す」と言うと、少し驚かれるかもしれません。しかし、医療の本当の役目は、検査を重ねて薬を出し続けることではなく、患者さんが自分らしい健やかな日常を取り戻し、私たちの手を離れていくことだと信じています。",
+      "当院が内科・外科・小児科を掲げ、「総合診療所」と名乗る理由はここにあります。",
+    ],
+    greetingDepts: [
+      { label: "小児科", text: "子どものうちから、病気に負けない健やかな体と習慣を育てること。" },
+      { label: "内科", text: "生活習慣を見直し、将来の大きな病気や薬を減らす「卒業」を目指すこと。" },
+      { label: "外科", text: "急なケガの処置はもちろん、いつまでも自分の足で歩き続けられる体づくりを支えること。" },
+    ],
+    greetingClosing: [
+      "体の不調やケガのときは、いつでも頼ってください。「どこに相談したらいいか分からない」ときこそ、まず当院へ。誠心誠意、元の暮らしへ戻るお手伝いをします。",
+      "そして元気になったら、病院のことなど忘れて、自然や日々の暮らしを思いきり楽しんでほしい。困ったときは真っ先に駆け込めて、普段は健康の知恵を持ち帰れる地域のパートナーとして。",
+      "木花のみなさんと共に、「医療がいらない明日」をつくっていきます。",
+    ],
+    signatureOrg: "木花のむら総合診療所",
+    signatureRole: "院長",
+    profileHeading: "院長プロフィール",
     roleLabel: "院長",
     name: "野村 信介",
     reading: "のむら しんすけ",
     qualifications: ["日本外科学会認定 外科専門医", "日本消化器外科学会認定 消化器外科専門医", "日本医師会認定 健康スポーツ医"],
     storyIntro:
       "防衛医科大学校を卒業。同校は、医師である幹部自衛官（自衛隊医官）としての使命感を持ち、プライマリケアや総合臨床に対応できる人材の育成を理念に掲げており、その中で幅広い診療科に対応する力を培いました。卒業後は大学病院や地域の病院で消化器外科を中心に診療を重ね、手術室をはじめ、さまざまな現場で患者さんと向き合ってきました。",
-    quote: "「どこに相談したらいいか分からない」——そんなときこそ、頼ってほしい。",
-    storyBody: [
-      "木花のむら総合診療所は、宮崎市熊野に根ざす地域密着型のクリニックです。内科・外科・小児科を中心に、お子さんからご高齢の方まで、日常のちょっとした不調から人生の節目まで寄り添う、かかりつけ診療所を目指します。",
-      "私たちが目指すのは、医療がいらない明日です。治療のゴールは、症状を抑えることではなく、患者さんが「クリニックを卒業する日」を迎えることだと考えています。",
-    ],
     storyMore: "院長ブログでキャリアの話を読む",
     storyMoreHref: "/blog/kara-no-michi",
-    catch: "あなたとご家族のかかりつけ診療所に。",
     photoNote: "※ 写真は開院準備中（イメージ）",
     portraitAria: "木花のむら総合診療所 院長 野村信介",
   },
@@ -1261,7 +1278,26 @@ const en: SiteDict = {
     feverLink: "How to visit when you have a fever →",
   },
   director: {
-    eyebrow: "Director",
+    eyebrow: "A word from the director",
+    greetingTitle: "Our ideal is for you to no longer need to come to this clinic.",
+    greetingLead: [
+      "Hello. I'm Dr. Nomura, director of Kibana Nomura General Medicine Clinic.",
+      "It may surprise you to hear a doctor say, \u201cI'm aiming for a tomorrow where you no longer need medical care.\u201d But I believe the true role of medicine isn't to keep ordering tests and prescribing medication — it's to help patients regain a healthy everyday life that feels like their own, and then leave our hands.",
+      "That's why we offer internal medicine, surgery and pediatrics, and call ourselves a \u201cgeneral medicine clinic.\u201d",
+    ],
+    greetingDepts: [
+      { label: "Pediatrics", text: "Building, from childhood, a healthy body and habits that stand up to illness." },
+      { label: "Internal medicine", text: "Reviewing lifestyle habits and aiming to \u201cgraduate\u201d — with fewer serious illnesses and fewer medications in the future." },
+      { label: "Surgery", text: "Treating sudden injuries, of course, and supporting a body that lets you keep walking on your own two feet for life." },
+    ],
+    greetingClosing: [
+      "Whenever you're unwell or injured, please rely on us. Especially when you don't know where to turn, come to us first. We'll do everything we can to help you get back to your usual life.",
+      "And once you're well again, I hope you'll forget all about the clinic and enjoy nature and your daily life to the full. We want to be a local partner you can run to first when you're in trouble — and one that sends you home with practical health know-how the rest of the time.",
+      "Together with everyone in Kibana, we'll build a \u201ctomorrow where you no longer need medical care.\u201d",
+    ],
+    signatureOrg: "Kibana Nomura General Medicine Clinic",
+    signatureRole: "Director",
+    profileHeading: "Director's profile",
     roleLabel: "Director",
     name: "Dr. Shinsuke Nomura",
     reading: "Nomura Shinsuke",
@@ -1272,14 +1308,8 @@ const en: SiteDict = {
     ],
     storyIntro:
       "I graduated from the National Defense Medical College, whose mission is to train medical officers with a strong sense of duty who can also handle primary care and general clinical practice — an education that gave me a broad clinical foundation. From there, I trained mainly in gastroenterological surgery at university and regional hospitals, facing patients in the operating room and many other settings along the way.",
-    quote: "“I don’t know where to turn.” Those are exactly the moments I want you to rely on us.",
-    storyBody: [
-      "Kibana Nomura General Medicine Clinic is a community-based clinic rooted in Kumano, Miyazaki. Centered on internal medicine, surgery and pediatrics, we aim to be the family clinic you can turn to with confidence, from children to the elderly, for everyday ailments and life's turning points alike.",
-      "What we aim for is a tomorrow where you no longer need medical care. We believe the goal of treatment isn't just to keep symptoms down, but for patients to reach the day they \"graduate\" from the clinic.",
-    ],
     storyMore: "Read more about my career on the blog",
     storyMoreHref: "/blog/kara-no-michi",
-    catch: "Your family clinic.",
     photoNote: "* Photo coming soon (image)",
     portraitAria: "Dr. Shinsuke Nomura, Director of Kibana Nomura General Medicine Clinic",
   },
