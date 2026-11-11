@@ -22,14 +22,13 @@ export default function Director() {
               <Blossom className="absolute -left-3 -top-3 z-10 h-12 w-12 opacity-90" />
               <div className="relative aspect-[4/5] w-full overflow-hidden rounded-4xl shadow-soft">
                 <Image
-                  src="/director.jpg"
+                  src="/director.png"
                   alt={t.director.portraitAria}
                   fill
                   sizes="(max-width: 1024px) 100vw, 40vw"
                   className="object-cover object-top"
                 />
               </div>
-              <p className="mt-3 text-center text-xs leading-relaxed text-ink/55">{t.director.portraitNote}</p>
             </div>
           </FadeIn>
 

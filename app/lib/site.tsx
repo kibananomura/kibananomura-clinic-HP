@@ -83,7 +83,6 @@ export interface SiteDict {
     catch: string;
     photoNote: string;
     portraitAria: string;
-    portraitNote: string;
   };
   services: {
     eyebrow: string;
@@ -435,7 +434,6 @@ const ja: SiteDict = {
     catch: "あなたとご家族のかかりつけ診療所に。",
     photoNote: "※ 写真は開院準備中（イメージ）",
     portraitAria: "木花のむら総合診療所 院長 野村信介",
-    portraitNote: "※写真は、顔のみ院長本人です。服装・背景・室内はAIで合成したイメージで、実際の診療所ではありません。",
   },
   services: {
     eyebrow: "診療のご案内",
@@ -1293,7 +1291,6 @@ const en: SiteDict = {
     catch: "Your family clinic.",
     photoNote: "* Photo coming soon (image)",
     portraitAria: "Dr. Shinsuke Nomura, Director of Kibana Nomura General Medicine Clinic",
-    portraitNote: "*Only the face in this photo is the director's own. The clothing, background and room were created with AI and are not the actual clinic.",
   },
   services: {
     eyebrow: "Services",
