@@ -180,7 +180,7 @@ export default function CareersPageClient() {
           </div>
         </FadeIn>
 
-        <div className="mx-auto mt-8 grid max-w-5xl gap-5 sm:grid-cols-2 lg:grid-cols-4">
+        <div className="mx-auto mt-8 grid max-w-5xl gap-5 lg:grid-cols-3">
           {t.mission.cards.map((card, i) => (
             <FadeIn key={card.title} delay={0.08 + i * 0.06} as="article">
               <div className="group relative h-full overflow-hidden rounded-3xl border border-white bg-surface/90 p-6 shadow-card transition-all hover:-translate-y-1 hover:shadow-soft">
@@ -197,7 +197,7 @@ export default function CareersPageClient() {
                 <h3 className="relative mt-4 text-base font-bold text-ink">
                   {card.title}
                 </h3>
-                <p className="relative mt-2 text-sm leading-relaxed text-ink/75">
+                <p className="relative mt-2 whitespace-pre-line text-sm leading-relaxed text-ink/75">
                   {card.body}
                 </p>
               </div>

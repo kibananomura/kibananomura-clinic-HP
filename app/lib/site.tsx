@@ -374,24 +374,20 @@ const ja: SiteDict = {
     heading: "木花のむら総合診療所が目指すもの",
     cards: [
       {
-        title: "理念",
-        body: "患者さんもスタッフもみんなを笑顔にするクリニック",
+        title: "ミッション（私たちの使命）",
+        body: "私たちが目指すのは、医療がいらない明日です。\n治療のゴールは、症状を抑えることではなく、患者さんが「クリニックを卒業する日」を迎えること。内科・外科・小児科の垣根を越え、家族みんなが医療や薬に頼りすぎず、自分らしく暮らせる土台を支えます。",
       },
       {
-        title: "ミッション",
-        body: "誰もが気兼ねなく医療につながり、安心して暮らし続けられる地域を創ること",
+        title: "ビジョン（私たちが目指す未来）",
+        body: "「普段は病院の存在を忘れていられる」健やかな地域社会\n何かあれば真っ先に駆け込める砦でありながら、日常の中では医療の手を離れ、家族が笑顔で過ごし続けられる地域をつくります。",
       },
       {
-        title: "ビジョン",
-        body: "お子さんからご高齢の方まで、すべての世代の安心を支える地域のかかりつけ診療所になる",
-      },
-      {
-        title: "バリュー",
-        body: "①誠実な対話と共同意思決定　②たゆまない自己研鑽　③高潔な医療倫理　④ITの積極活用による患者さんのゆとり　⑤主体性・チーム全体最適・持続可能な運営　⑥自己の心身管理",
+        title: "バリュー（私たちが大切にすること）",
+        body: "卒業を応援する（自立支援）\n薬を出し続ける医療ではなく、手放す道筋を一緒に探します。\n\n家族の未来を診る（世代をこえた予防）\n小児期の健やかな成長から大人の生活習慣病、高齢期の転倒予防まで、生涯を見据えた医療を届けます。\n\n分かりやすく手渡す（ヘルスリテラシー＝健康の情報を理解し、活かす力）\n患者さん自身が自分の体の専門家になれるよう、丁寧に対話し、知恵と工夫を伝えます。",
       },
     ],
-    visionQuote: "お子さんからご高齢の方まで、すべての世代の安心を支える地域のかかりつけ診療所になる",
-    visionCaption: "── 木花のむら総合診療所　ビジョン",
+    visionQuote: "私たちが目指すのは、医療がいらない明日です。",
+    visionCaption: "── 木花のむら総合診療所　ミッション",
   },
   features: {
     eyebrow: "当院の特徴",
@@ -427,7 +423,7 @@ const ja: SiteDict = {
     quote: "「どこに相談したらいいか分からない」——そんなときこそ、頼ってほしい。",
     storyBody: [
       "木花のむら総合診療所は、宮崎市熊野に根ざす地域密着型のクリニックです。内科・外科・小児科を中心に、お子さんからご高齢の方まで、日常のちょっとした不調から人生の節目まで寄り添う、かかりつけ診療所を目指します。",
-      "私たちが大切にしているのは「患者さんもスタッフもみんなを笑顔にするクリニック」という理念です。",
+      "私たちが目指すのは、医療がいらない明日です。治療のゴールは、症状を抑えることではなく、患者さんが「クリニックを卒業する日」を迎えることだと考えています。",
     ],
     storyMore: "院長ブログでキャリアの話を読む",
     storyMoreHref: "/blog/kara-no-michi",
@@ -1226,25 +1222,20 @@ const en: SiteDict = {
     heading: "What Kibana Nomura General Medicine Clinic stands for",
     cards: [
       {
-        title: "Our Philosophy",
-        body: "A clinic where both patients and staff can smile.",
-      },
-      {
         title: "Mission",
-        body: "To create a community where everyone can access healthcare without hesitation and live with peace of mind.",
+        body: "What we aim for is a tomorrow where you no longer need medical care.\nThe goal of treatment isn't just to keep symptoms down — it's for patients to reach the day they \"graduate\" from the clinic. Across internal medicine, surgery and pediatrics, we support the foundations that let the whole family live their own way, without relying too heavily on medical care or medication.",
       },
       {
         title: "Vision",
-        body: "A family clinic that supports every generation, from children to seniors.",
+        body: "A healthy community where people can usually forget the clinic is even there.\nWe'll be the stronghold you can run to first when something happens — and, in everyday life, help build a community where families step away from medical care and keep living with smiles.",
       },
       {
         title: "Values",
-        body: "① Honest dialogue & shared decision-making  ② Continuous self-improvement  ③ High medical ethics  ④ Leveraging IT for patient-centred care  ⑤ Proactive teamwork & sustainable management  ⑥ Personal health stewardship",
+        body: "Cheering on your graduation (supporting independence)\nRather than prescribing medication indefinitely, we look together for a path to letting it go.\n\nCaring for the family's future (prevention across generations)\nFrom healthy growth in childhood to lifestyle diseases in adulthood and fall prevention in later life, we provide care with the whole lifespan in view.\n\nHanding knowledge over clearly (health literacy)\nThrough careful conversation, we share the know-how that helps you become the expert on your own body.",
       },
     ],
-    visionQuote:
-      "A family clinic that supports every generation, from children to seniors.",
-    visionCaption: "── Kibana Nomura General Medicine Clinic Vision",
+    visionQuote: "What we aim for is a tomorrow where you no longer need medical care.",
+    visionCaption: "── Kibana Nomura General Medicine Clinic Mission",
   },
   features: {
     eyebrow: "Why Us",
@@ -1284,7 +1275,7 @@ const en: SiteDict = {
     quote: "“I don’t know where to turn.” Those are exactly the moments I want you to rely on us.",
     storyBody: [
       "Kibana Nomura General Medicine Clinic is a community-based clinic rooted in Kumano, Miyazaki. Centered on internal medicine, surgery and pediatrics, we aim to be the family clinic you can turn to with confidence, from children to the elderly, for everyday ailments and life's turning points alike.",
-      "What we value most is the idea of a clinic where patients and staff alike leave with a smile.",
+      "What we aim for is a tomorrow where you no longer need medical care. We believe the goal of treatment isn't just to keep symptoms down, but for patients to reach the day they \"graduate\" from the clinic.",
     ],
     storyMore: "Read more about my career on the blog",
     storyMoreHref: "/blog/kara-no-michi",
