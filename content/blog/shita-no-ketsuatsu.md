@@ -18,7 +18,7 @@ sources:
 
 「血圧の薬を飲み始めて、上は目標まで下がったんです。でも、下がなかなか下がらなくて……」
 
-診察室で、とてもよくいただくご相談です。上がうまくいっているぶん、「下だけ高いままで大丈夫なのかな」「薬が効いていないのかな」と、かえって気になりますよね。
+これまでの外来で、とてもよくいただいてきたご相談です。上がうまくいっているぶん、「下だけ高いままで大丈夫なのかな」「薬が効いていないのかな」と、かえって気になりますよね。
 
 先にお答えすると、**下の血圧が下がりにくいのは、心臓よりも「細い血管が緊張して縮こまっている」ことが関係している場合が多く、薬だけでなく、体の緊張をゆるめる暮らしの工夫が効いてきます。**
 
@@ -60,7 +60,7 @@ sources:
 
 “Since I started blood pressure medicine, my top number has come down to the target. But the bottom one just won't budge…”
 
-I hear this in the exam room all the time. Precisely because the top number is doing well, it's natural to wonder: “Is it okay for just the bottom one to stay high?” “Is the medicine not working?”
+Over the years in clinic, I've heard this all the time. Precisely because the top number is doing well, it's natural to wonder: “Is it okay for just the bottom one to stay high?” “Is the medicine not working?”
 
 This article explains what the top and bottom numbers each represent, and what you can start doing today to get along with the bottom number. Here's the short answer: **when the bottom number is slow to come down, it's often less about the heart and more about small blood vessels that are tense and clamped down — so along with medicine, everyday habits that help your body relax can make a real difference.**
 

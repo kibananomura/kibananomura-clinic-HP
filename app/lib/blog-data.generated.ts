@@ -3182,7 +3182,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "感染症と聞くと、「せきで周りの人にうつらないの？」と心配になるのは自然なことで、外来でも本当によく聞かれます。肺NTM症の菌は、結核菌のように「人から人へと移りながら生き延びる」性質を持っていません。水や土の中にいるたくさんの菌を、たまたまご本人が直接吸い込んでしまうこと（環境からの感染）でのみ起こる病気なのです。"
+          "text": "感染症と聞くと、「せきで周りの人にうつらないの？」と心配になるのは自然なことで、これまでの外来でも本当によく聞かれてきました。肺NTM症の菌は、結核菌のように「人から人へと移りながら生き延びる」性質を持っていません。水や土の中にいるたくさんの菌を、たまたまご本人が直接吸い込んでしまうこと（環境からの感染）でのみ起こる病気なのです。"
         },
         {
           "kind": "text",
@@ -3366,7 +3366,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "When people hear “infection,” it's natural to worry, “Won't my cough spread it to others?” — and I hear this question very often in clinic. The bacteria behind pulmonary NTM disease don't have the ability, as tuberculosis does, to survive by traveling from person to person. The disease develops only when a person happens to breathe in large numbers of bacteria living in water or soil directly (infection from the environment)."
+          "text": "When people hear “infection,” it's natural to worry, “Won't my cough spread it to others?” — and over the years in clinic, I've heard this question very often. The bacteria behind pulmonary NTM disease don't have the ability, as tuberculosis does, to survive by traveling from person to person. The disease develops only when a person happens to breathe in large numbers of bacteria living in water or soil directly (infection from the environment)."
         },
         {
           "kind": "text",
@@ -9985,7 +9985,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "診察室で、とてもよくいただくご相談です。上がうまくいっているぶん、「下だけ高いままで大丈夫なのかな」「薬が効いていないのかな」と、かえって気になりますよね。"
+          "text": "これまでの外来で、とてもよくいただいてきたご相談です。上がうまくいっているぶん、「下だけ高いままで大丈夫なのかな」「薬が効いていないのかな」と、かえって気になりますよね。"
         },
         {
           "kind": "text",
@@ -10065,7 +10065,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "I hear this in the exam room all the time. Precisely because the top number is doing well, it's natural to wonder: “Is it okay for just the bottom one to stay high?” “Is the medicine not working?”"
+          "text": "Over the years in clinic, I've heard this all the time. Precisely because the top number is doing well, it's natural to wonder: “Is it okay for just the bottom one to stay high?” “Is the medicine not working?”"
         },
         {
           "kind": "text",

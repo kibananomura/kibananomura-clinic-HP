@@ -55,7 +55,7 @@ NTMは、特別な場所にいる菌ではありません。**土の中や、水
 
 ここが、いちばん大切なポイントです。肺NTM症は、結核と同じ「抗酸菌」による病気ですが、**結核とは違って、人から人へうつることはないと考えられています**。そのため、結核のような保健所への届け出や、入院・隔離の必要もありません。
 
-感染症と聞くと、「せきで周りの人にうつらないの？」と心配になるのは自然なことで、外来でも本当によく聞かれます。肺NTM症の菌は、結核菌のように「人から人へと移りながら生き延びる」性質を持っていません。水や土の中にいるたくさんの菌を、たまたまご本人が直接吸い込んでしまうこと（環境からの感染）でのみ起こる病気なのです。
+感染症と聞くと、「せきで周りの人にうつらないの？」と心配になるのは自然なことで、これまでの外来でも本当によく聞かれてきました。肺NTM症の菌は、結核菌のように「人から人へと移りながら生き延びる」性質を持っていません。水や土の中にいるたくさんの菌を、たまたまご本人が直接吸い込んでしまうこと（環境からの感染）でのみ起こる病気なのです。
 
 - ご家族と同じ部屋で過ごしても大丈夫です
 - 食器やタオルを分ける必要もありません
@@ -161,7 +161,7 @@ They're thought to reach the lungs when we breathe in fine dust or water droplet
 
 This is the most important point. Pulmonary NTM disease is caused by mycobacteria, like tuberculosis — but **unlike tuberculosis, it is not considered to spread from person to person.** That's why, unlike tuberculosis, it doesn't need to be reported to the public health center, and hospitalization or isolation isn't required.
 
-When people hear “infection,” it's natural to worry, “Won't my cough spread it to others?” — and I hear this question very often in clinic. The bacteria behind pulmonary NTM disease don't have the ability, as tuberculosis does, to survive by traveling from person to person. The disease develops only when a person happens to breathe in large numbers of bacteria living in water or soil directly (infection from the environment).
+When people hear “infection,” it's natural to worry, “Won't my cough spread it to others?” — and over the years in clinic, I've heard this question very often. The bacteria behind pulmonary NTM disease don't have the ability, as tuberculosis does, to survive by traveling from person to person. The disease develops only when a person happens to breathe in large numbers of bacteria living in water or soil directly (infection from the environment).
 
 - It's fine to spend time in the same room as your family
 - There's no need to keep separate dishes or towels
