@@ -383,11 +383,11 @@ const ja: SiteDict = {
       },
       {
         title: "ビジョン（目指す地域の未来像）",
-        body: "「ふだんは病院の存在を忘れていられる」木花の健やかな暮らし\n\n子どもから高齢者まで、家族みんなが体への不安から解き放たれ、今日という一日を思いきり楽しんでいる。\n不安なときは真っ先に駆け込めて、元気を取り戻したら自然と医療の手を離れて歩んでいける——地域で一番頼りがいがあり、一番患者さんの自立を応援する総合診療所を目指します。",
+        body: "「ふだんは病院の存在を忘れていられる」木花の健やかな暮らし\n\n子どもから高齢者まで、家族みんなが体への不安から解き放たれ、今日という一日を思いきり楽しんでいる。\n不安なときは真っ先に駆け込めて、元気を取り戻したら自然と医療の手を離れて歩んでいける——困ったときにまず頼っていただけて、患者さんの自立をいちばん近くで応援する総合診療所を目指します。",
       },
       {
         title: "バリュー（日々の行動指針）",
-        body: "「病んでいること」を忘れられる毎日に寄り添う（安心と共感）\n持病や年齢による体の変化があっても、上手にコントロールして日常生活を邪魔させない。仕事、子育て、趣味に夢中になれる「心地よい当たり前」を支えます。\n\n根本から見つめ、自立した健康を育てる（内科・自立支援）\n検査数値を薬だけで抑え込むのではなく、食事・運動・日々の過ごし方に二人三脚で向き合います。お薬を減らし、患者さん自身の力で元気を維持できるよう伴走します。\n\n手術が必要かどうかも見極め、最適な回復の道筋を示す（外科・総合診療）\nケガや長引く関節痛に対し、手術が必要な状態（適応）かどうかを的確に診断。連携病院への迅速な橋渡しから、切らずに治す保存療法まで、最短で日常生活へ復帰できる方法を提案します。\n\n家族の未来を見据え、健やかな土台を育む（小児科・予防）\n子どもの頃からの丈夫な体づくりと適切なケアを通じて、将来にわたって病気に負けない健やかな成長を支えます。",
+        body: "「病んでいること」を忘れられる毎日に寄り添う（安心と共感）\n持病や年齢による体の変化があっても、上手にコントロールして日常生活を邪魔させない。仕事、子育て、趣味に夢中になれる「心地よい当たり前」を支えます。\n\n根本から見つめ、自立した健康を育てる（内科・自立支援）\n検査数値を薬だけで抑え込むのではなく、食事・運動・日々の過ごし方に二人三脚で向き合います。必要に応じてお薬の見直しも一緒に考え、患者さん自身の力で元気を保てるよう伴走します。\n\n手術が必要かどうかも見極め、一人ひとりに合った回復の道筋を示す（外科・総合診療）\nケガや長引く関節痛に対し、ていねいに診察し、手術が必要な状態（適応）かどうかを見極めます。連携病院への迅速な橋渡しから、手術をしない治療（保存療法）まで、一人ひとりに合った、日常生活へ戻るための方法を一緒に考えます。\n\n家族の未来を見据え、健やかな土台を育む（小児科・予防）\n子どもの頃からの丈夫な体づくりと適切なケアを通じて、将来にわたって健やかに育っていけるよう支えます。",
       },
     ],
     visionQuote: "病気や痛みを忘れて暮らせる日常と、薬や通院に頼りすぎない健やかさを届ける。",
@@ -421,20 +421,20 @@ const ja: SiteDict = {
     greetingTitle: "目指すのは、病気や痛みを忘れて暮らせる毎日。\nそして、薬や通院に頼りすぎない健やかな体づくりです。",
     greetingLead: [
       "こんにちは。木花のむら総合診療所 院長の野村です。",
-      "医師としての日々の中で、私が一番うれしい瞬間があります。",
-      "それは、患者さんが診察室で「先生、そういえば最近、体の痛みのことをすっかり忘れて旅行に行けたよ」と笑顔で話してくださるとき。そして、生活習慣を少しずつ見直された方と「数値がぐんと良くなったので、今日でお薬を減らせますね！」と手応えを分かち合える瞬間です。",
+      "医師としての日々の中で、私がうれしく思う瞬間があります。",
+      "それは、患者さんが痛みや不調のことを忘れて、旅行や趣味を思いきり楽しめるようになっていく姿に触れられるとき。そして、生活習慣を少しずつ見直された方と、検査の結果を一緒に確かめながら、お薬の量を見直す相談ができる瞬間です。",
       "医療の役目は、検査を重ね、漫然とお薬を処方し続けることではありません。本来の目的は、みなさんが病気の不安や体の不調を気にせず、木花の自然や日々の暮らしを思いきり楽しんでいただくことです。",
       "当院が内科・外科・小児科を掲げる総合診療所として、大切にしている姿勢があります。",
     ],
     greetingDepts: [
       { label: "小児科", text: "子どもの頃からの健やかな体づくりと習慣を支えること。" },
-      { label: "内科", text: "生活習慣に根本から向き合い、お薬や通院に頼りすぎない体質改善を応援すること。" },
-      { label: "外科", text: "急なケガの処置はもちろん、「手術が必要かどうか」を的確に見極め、切らずに治す保存療法から高度医療連携まで、最短で元の日常に戻る道筋を示すこと。" },
+      { label: "内科", text: "生活習慣に根本から向き合い、お薬や通院に頼りすぎない体づくりを応援すること。" },
+      { label: "外科", text: "急なケガの処置はもちろん、「手術が必要かどうか」をていねいに見極め、手術をしない治療（保存療法）から、必要に応じた専門の医療機関へのご紹介まで、元の日常に戻るまでの道筋を一緒に示すこと。" },
     ],
     greetingClosing: [
       "つらいとき、不安なときは、どうぞ遠慮なく頼ってください。誠心誠意、元の日常へ戻るお手伝いをします。",
       "そして元気を取り戻したら、病院のことなど忘れて、おいしいものを食べ、大切な人と笑い合ってください。",
-      "「困ったときは一番に頼れて、普段は患者さんの自立した暮らしをそっと見守る診療所」として、木花のみなさまと共に歩んでまいります。",
+      "「困ったときはまっ先に頼れて、普段は患者さんの自立した暮らしをそっと見守る診療所」として、木花のみなさまと共に歩んでまいります。",
     ],
     signatureOrg: "木花のむら総合診療所",
     signatureRole: "院長",
@@ -1246,11 +1246,11 @@ const en: SiteDict = {
       },
       {
         title: "Vision",
-        body: "A healthy Kibana where people can usually forget the clinic is even there.\n\nFrom children to older adults, whole families are freed from worries about their bodies and enjoy each day to the full.\nA place you can run to first when you're worried, and then naturally step away from once you're well again — we aim to be the most dependable general medicine clinic in the community, and the one that does the most to support patients' independence.",
+        body: "A healthy Kibana where people can usually forget the clinic is even there.\n\nFrom children to older adults, whole families are freed from worries about their bodies and enjoy each day to the full.\nA place you can run to first when you're worried, and then naturally step away from once you're well again — we aim to be a general medicine clinic you can turn to first when you're in trouble, cheering on your independence from close by.",
       },
       {
         title: "Values",
-        body: "Supporting days when you can forget you're unwell (reassurance and empathy)\nEven with a chronic condition or the changes that come with age, we help you keep it well controlled so it doesn't get in the way of daily life — supporting a “comfortable normal” where you can throw yourself into work, parenting and hobbies.\n\nLooking at the root causes and nurturing independent health (internal medicine and independence)\nRather than suppressing test numbers with medication alone, we work side by side with you on diet, exercise and daily habits — helping you reduce medication and stay well through your own strength.\n\nJudging whether surgery is needed and showing the best path to recovery (surgery and general medicine)\nFor injuries and lingering joint pain, we accurately assess whether surgery is truly needed. From a prompt referral to partner hospitals to non-surgical (conservative) treatment, we suggest the quickest way back to everyday life.\n\nLooking to the family's future and nurturing a healthy foundation (pediatrics and prevention)\nThrough building a strong body and appropriate care from childhood, we support healthy growth that stands up to illness for years to come.",
+        body: "Supporting days when you can forget you're unwell (reassurance and empathy)\nEven with a chronic condition or the changes that come with age, we help you keep it well controlled so it doesn't get in the way of daily life — supporting a “comfortable normal” where you can throw yourself into work, parenting and hobbies.\n\nLooking at the root causes and nurturing independent health (internal medicine and independence)\nRather than suppressing test numbers with medication alone, we work side by side with you on diet, exercise and daily habits — considering a review of your medication where appropriate, and supporting you to stay well through your own strength.\n\nJudging whether surgery is needed and showing a path to recovery that fits you (surgery and general medicine)\nFor injuries and lingering joint pain, we examine you carefully and judge whether surgery is truly needed. From a prompt referral to partner hospitals to non-surgical (conservative) treatment, we work out with you the way back to everyday life that suits you.\n\nLooking to the family's future and nurturing a healthy foundation (pediatrics and prevention)\nThrough building a strong body and appropriate care from childhood, we support children in growing up healthy for years to come.",
       },
     ],
     visionQuote: "To deliver everyday lives where you can forget about illness and pain, and a healthiness that doesn't rely too heavily on medication or clinic visits.",
@@ -1284,15 +1284,15 @@ const en: SiteDict = {
     greetingTitle: "What we aim for is everyday life where you can forget about illness and pain —\nand a healthy body that doesn't rely too heavily on medication or clinic visits.",
     greetingLead: [
       "Hello. I'm Dr. Nomura, director of Kibana Nomura General Medicine Clinic.",
-      "In my days as a doctor, there are moments that make me happiest.",
-      "One is when a patient smiles and tells me in the exam room, “Doctor, come to think of it, I completely forgot about the pain and went on a trip.” Another is when someone who has gradually changed their habits and I share the satisfaction of saying, “Your numbers have improved so much that we can cut back your medication today!”",
+      "In my days as a doctor, there are moments that make me glad.",
+      "One is when I see patients forgetting about their pain and discomfort and coming to enjoy travel and hobbies to the full. Another is when someone who has gradually changed their habits and I check their test results together and can talk about reviewing their medication.",
       "The role of medicine isn't to keep ordering tests and prescribing medication out of habit. Its real purpose is to let you enjoy Kibana's nature and your daily life to the full, without worrying about illness or how your body feels.",
       "As a general medicine clinic offering internal medicine, surgery and pediatrics, there's an approach we hold dear.",
     ],
     greetingDepts: [
       { label: "Pediatrics", text: "Supporting a healthy body and healthy habits from childhood." },
-      { label: "Internal medicine", text: "Addressing lifestyle habits at their roots, and supporting changes that mean you don't rely too heavily on medication or clinic visits." },
-      { label: "Surgery", text: "Treating sudden injuries, of course — and accurately judging whether surgery is needed, then showing the quickest path back to everyday life, from non-surgical (conservative) treatment to referral for advanced care." },
+      { label: "Internal medicine", text: "Addressing lifestyle habits at their roots, and supporting a body that doesn't rely too heavily on medication or clinic visits." },
+      { label: "Surgery", text: "Treating sudden injuries, of course — and carefully judging whether surgery is needed, then showing you the path back to everyday life — from non-surgical (conservative) treatment to referral to specialist medical institutions when needed." },
     ],
     greetingClosing: [
       "When things are hard or you're worried, please don't hesitate to rely on us. We'll do everything we can to help you get back to your usual life.",
