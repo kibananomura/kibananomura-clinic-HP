@@ -11924,7 +11924,7 @@ export const generatedPosts: BlogPost[] = [
       "body": [
         {
           "kind": "text",
-          "text": "「健診で尿酸値が高いと言われたので、薬を飲み始めた。そうしたら、かえって足の親指が腫れて激痛が……」「お酒を飲みすぎて尿酸値が上がったから、発作が起きたんですよね？」——痛風について、こうしたご質問をよくいただきます。せっかく治療を始めたのに発作が起きると、「薬が合わないのでは」と不安になりますよね。"
+          "text": "「健診で尿酸値が高いと言われたので、薬を飲み始めた。そうしたら、かえって足の親指が腫れて激痛が……」「お酒を飲みすぎて尿酸値が上がったから、発作が起きたんですよね？」——これまでの外来で、痛風についてこうしたご質問を本当によくいただいてきました。せっかく治療を始めたのに発作が起きると、「薬が合わないのでは」と不安になりますよね。"
         },
         {
           "kind": "text",
@@ -11992,7 +11992,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "そのため当院では、尿酸を下げる薬は少ない量から始め、様子を見ながら少しずつ増やしていく方法をとります。必要に応じて、発作を予防するお薬を一緒に使うこともあります。また、発作が起きている最中は、尿酸を下げる薬を新しく始めたり量を変えたりせず、まず痛みと炎症を抑えることを優先します。"
+          "text": "そのため、尿酸を下げる薬は少ない量から始め、様子を見ながら少しずつ増やしていくのが基本です。必要に応じて、発作を予防するお薬を一緒に使うこともあります。また、発作が起きている最中は、尿酸を下げる薬を新しく始めたり量を変えたりせず、まず痛みと炎症を抑えることを優先します。当院でも開院後は、この進め方で治療を行う予定です。"
         },
         {
           "kind": "text",
@@ -12020,7 +12020,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "尿酸値は、急がず、ゆっくり下げていくほど体にやさしいものです。病気のくわしい説明は[高尿酸血症・痛風の解説ページ](/diseases/hyperuricemia-gout)にもまとめています。焦らず、二人三脚で上手に尿酸値と付き合っていきましょう。"
+          "text": "尿酸値は、急がず、ゆっくり下げていくほど体にやさしいものです。病気のくわしい説明は[高尿酸血症・痛風の解説ページ](/diseases/hyperuricemia-gout)にもまとめています。焦らず、上手に尿酸値と付き合っていきましょう。開院後は、当院でもその二人三脚のお手伝いができればと思っています。"
         }
       ]
     },
@@ -12032,7 +12032,7 @@ export const generatedPosts: BlogPost[] = [
       "body": [
         {
           "kind": "text",
-          "text": "“My checkup said my uric acid was high, so I started medicine — and then my big toe swelled up with terrible pain.” “I drank too much, my uric acid went up, and that's why I had an attack, right?” I often hear questions like these about gout. When an attack happens just after you've started treatment, it's natural to worry, “Maybe this medicine isn't right for me.”"
+          "text": "“My checkup said my uric acid was high, so I started medicine — and then my big toe swelled up with terrible pain.” “I drank too much, my uric acid went up, and that's why I had an attack, right?” Over the years in clinic, I've heard questions like these about gout again and again. When an attack happens just after you've started treatment, it's natural to worry, “Maybe this medicine isn't right for me.”"
         },
         {
           "kind": "text",
@@ -12100,7 +12100,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "That's why at our clinic we start uric-acid-lowering medicine at a low dose and raise it little by little while watching how you do. When needed, we may also use a medicine that helps prevent attacks alongside it. And during an attack, we don't newly start or change uric-acid-lowering medicine — we focus first on easing the pain and inflammation."
+          "text": "That's why the standard approach is to start uric-acid-lowering medicine at a low dose and raise it little by little while watching how you do. When needed, a medicine that helps prevent attacks may be used alongside it. And during an attack, uric-acid-lowering medicine isn't newly started or changed — the first priority is easing the pain and inflammation. Once we open, we plan to treat gout this way at our clinic too."
         },
         {
           "kind": "text",
@@ -12128,7 +12128,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "The slower and more gently uric acid comes down, the kinder it is to your body. You'll find more detail on [our hyperuricemia and gout page](/diseases/hyperuricemia-gout). Let's take it step by step and learn to live well with your uric acid — together."
+          "text": "The slower and more gently uric acid comes down, the kinder it is to your body. You'll find more detail on [our hyperuricemia and gout page](/diseases/hyperuricemia-gout). Take it step by step and learn to live well with your uric acid. Once we open, I hope we can help you along the way."
         }
       ]
     },

@@ -18,7 +18,7 @@ sources:
 
 ## ja
 
-「健診で尿酸値が高いと言われたので、薬を飲み始めた。そうしたら、かえって足の親指が腫れて激痛が……」「お酒を飲みすぎて尿酸値が上がったから、発作が起きたんですよね？」——痛風について、こうしたご質問をよくいただきます。せっかく治療を始めたのに発作が起きると、「薬が合わないのでは」と不安になりますよね。
+「健診で尿酸値が高いと言われたので、薬を飲み始めた。そうしたら、かえって足の親指が腫れて激痛が……」「お酒を飲みすぎて尿酸値が上がったから、発作が起きたんですよね？」——これまでの外来で、痛風についてこうしたご質問を本当によくいただいてきました。せっかく治療を始めたのに発作が起きると、「薬が合わないのでは」と不安になりますよね。
 
 先にお答えすると、**痛風発作は尿酸値が上がったときだけでなく、急に下がったときにも起きやすいのです。カギは「上がるか、下がるか」ではなく、「急に変化するかどうか」にあります。**
 
@@ -57,7 +57,7 @@ sources:
 
 治療を始めたころの発作は、多くの場合「薬が効いて、たまっていた結晶が溶けはじめている証拠」です。ここで薬をやめてしまうと、結晶は残ったままになり、発作をくり返しやすくなります。
 
-そのため当院では、尿酸を下げる薬は少ない量から始め、様子を見ながら少しずつ増やしていく方法をとります。必要に応じて、発作を予防するお薬を一緒に使うこともあります。また、発作が起きている最中は、尿酸を下げる薬を新しく始めたり量を変えたりせず、まず痛みと炎症を抑えることを優先します。
+そのため、尿酸を下げる薬は少ない量から始め、様子を見ながら少しずつ増やしていくのが基本です。必要に応じて、発作を予防するお薬を一緒に使うこともあります。また、発作が起きている最中は、尿酸を下げる薬を新しく始めたり量を変えたりせず、まず痛みと炎症を抑えることを優先します。当院でも開院後は、この進め方で治療を行う予定です。
 
 **水分をこまめにとる**
 
@@ -71,11 +71,11 @@ sources:
 
 痛風発作は、体からの「もう少しペースを落として、丁寧に整えて」という黄色いサインです。発作が起きたからといって、治療がうまくいっていないわけではありません。
 
-尿酸値は、急がず、ゆっくり下げていくほど体にやさしいものです。病気のくわしい説明は[高尿酸血症・痛風の解説ページ](/diseases/hyperuricemia-gout)にもまとめています。焦らず、二人三脚で上手に尿酸値と付き合っていきましょう。
+尿酸値は、急がず、ゆっくり下げていくほど体にやさしいものです。病気のくわしい説明は[高尿酸血症・痛風の解説ページ](/diseases/hyperuricemia-gout)にもまとめています。焦らず、上手に尿酸値と付き合っていきましょう。開院後は、当院でもその二人三脚のお手伝いができればと思っています。
 
 ## en
 
-“My checkup said my uric acid was high, so I started medicine — and then my big toe swelled up with terrible pain.” “I drank too much, my uric acid went up, and that's why I had an attack, right?” I often hear questions like these about gout. When an attack happens just after you've started treatment, it's natural to worry, “Maybe this medicine isn't right for me.”
+“My checkup said my uric acid was high, so I started medicine — and then my big toe swelled up with terrible pain.” “I drank too much, my uric acid went up, and that's why I had an attack, right?” Over the years in clinic, I've heard questions like these about gout again and again. When an attack happens just after you've started treatment, it's natural to worry, “Maybe this medicine isn't right for me.”
 
 This article explains when gout attacks tend to happen, why, and how to keep up treatment while avoiding attacks. Here's the short answer: **gout attacks happen not only when uric acid goes up, but also when it drops quickly. The key isn't whether it goes up or down — it's whether it changes suddenly.**
 
@@ -114,7 +114,7 @@ When uric acid rises, new crystals form more easily. When it falls, the built-up
 
 An attack early in treatment is often “a sign that the medicine is working and the built-up crystals are starting to dissolve.” If you stop the medicine here, the crystals stay behind and attacks tend to keep coming back.
 
-That's why at our clinic we start uric-acid-lowering medicine at a low dose and raise it little by little while watching how you do. When needed, we may also use a medicine that helps prevent attacks alongside it. And during an attack, we don't newly start or change uric-acid-lowering medicine — we focus first on easing the pain and inflammation.
+That's why the standard approach is to start uric-acid-lowering medicine at a low dose and raise it little by little while watching how you do. When needed, a medicine that helps prevent attacks may be used alongside it. And during an attack, uric-acid-lowering medicine isn't newly started or changed — the first priority is easing the pain and inflammation. Once we open, we plan to treat gout this way at our clinic too.
 
 **Drink fluids regularly**
 
@@ -128,4 +128,4 @@ Dieting and cutting back on alcohol are both great efforts. But doing too much a
 
 A gout attack is your body's yellow light, saying “slow down a little and take care to set things right.” Having an attack doesn't mean your treatment isn't working.
 
-The slower and more gently uric acid comes down, the kinder it is to your body. You'll find more detail on [our hyperuricemia and gout page](/diseases/hyperuricemia-gout). Let's take it step by step and learn to live well with your uric acid — together.
+The slower and more gently uric acid comes down, the kinder it is to your body. You'll find more detail on [our hyperuricemia and gout page](/diseases/hyperuricemia-gout). Take it step by step and learn to live well with your uric acid. Once we open, I hope we can help you along the way.
