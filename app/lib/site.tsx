@@ -379,11 +379,11 @@ const ja: SiteDict = {
     cards: [
       {
         title: "ミッション（使命・存在意義）",
-        body: "病気や痛みを忘れて暮らせる日常と、薬や通院に頼りすぎない健やかさを届ける。\n\n私たちが目指すのは、ただ薬を出し続けるだけの医療ではありません。\n抱えている不調や痛みを上手に整え、日々の暮らしの中で病気のことを忘れて過ごせる安心をつくること。\nそして、生活習慣病などの慢性的な不調には暮らしの根本から寄り添い、患者さん自身が本来の回復力を取り戻し、医療の手を離れて元気に暮らせる体づくりを支え続けます。",
+        body: "病気や痛みを忘れて暮らせる日常と、薬や通院に頼りすぎない健やかさを届ける。\n\n私たちが目指すのは、ただ薬を出し続けるだけの医療ではありません。\n急な発熱や風邪、お腹の不調、突然のケガなど、今すぐ何とかしたい「つらさ」には迅速に寄り添い、一日も早くいつもの日常を取り戻せる安心をつくること。\nそして、生活習慣病などの長く付き合う不調には暮らしの根本から寄り添い、患者さん自身が本来の回復力を取り戻して、薬や通院に頼りすぎず元気に暮らせる体づくりを支え続けます。",
       },
       {
         title: "ビジョン（目指す地域の未来像）",
-        body: "「ふだんは病院の存在を忘れていられる」木花の健やかな暮らし\n\n子どもから高齢者まで、家族みんなが体への不安から解き放たれ、今日という一日を思いきり楽しんでいる。\n不安なときは真っ先に駆け込めて、元気を取り戻したら自然と医療の手を離れて歩んでいける——困ったときにまず頼っていただけて、患者さんの自立をいちばん近くで応援する総合診療所を目指します。",
+        body: "「ふだんは病院の存在を忘れていられる」健やかな地域社会をつくる\n\n子どもから高齢者まで、この地域に暮らす家族みんなが体への不安から解き放たれ、今日という一日を思いきり楽しんでいる未来を目指します。\n急な体調不良や不安なときは真っ先に駆け込めて、元気を取り戻したら笑顔で医療の手を離れて歩んでいける——困ったときにまず頼っていただけて、患者さんの回復と自立をいちばん近くで応援する総合診療所であり続けます。",
       },
       {
         title: "バリュー（日々の行動指針）",
@@ -1242,11 +1242,11 @@ const en: SiteDict = {
     cards: [
       {
         title: "Mission",
-        body: "To deliver everyday lives where you can forget about illness and pain, and a healthiness that doesn't rely too heavily on medication or clinic visits.\n\nWhat we aim for is not medicine that simply keeps prescribing.\nIt's helping you manage the discomfort and pain you live with, so you can feel secure enough to forget about illness in your daily life.\nAnd for chronic conditions such as lifestyle diseases, we work with you at the roots of daily life, continuing to support a body that regains its own natural resilience — so you can step away from medical care and live well.",
+        body: "To deliver everyday lives where you can forget about illness and pain, and a healthiness that doesn't rely too heavily on medication or clinic visits.\n\nWhat we aim for is not medicine that simply keeps prescribing.\nFor the distress you need help with right now — a sudden fever or cold, an upset stomach, an unexpected injury — we respond promptly, so you can feel secure and get back to your usual life as soon as possible.\nAnd for conditions you live with for a long time, such as lifestyle diseases, we work with you at the roots of daily life, continuing to support a body that regains its own natural resilience — so you can live well without relying too heavily on medication or clinic visits.",
       },
       {
         title: "Vision",
-        body: "A healthy Kibana where people can usually forget the clinic is even there.\n\nFrom children to older adults, whole families are freed from worries about their bodies and enjoy each day to the full.\nA place you can run to first when you're worried, and then naturally step away from once you're well again — we aim to be a general medicine clinic you can turn to first when you're in trouble, cheering on your independence from close by.",
+        body: "Building a healthy community where people can usually forget the clinic is even there.\n\nWe aim for a future where whole families in this community, from children to older adults, are freed from worries about their bodies and enjoy each day to the full.\nA place you can run to first when you suddenly feel unwell or worried, and then step away from with a smile once you're well again — we will keep being a general medicine clinic you can turn to first when you're in trouble, cheering on your recovery and independence from close by.",
       },
       {
         title: "Values",
