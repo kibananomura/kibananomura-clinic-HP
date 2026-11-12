@@ -50,7 +50,7 @@ export const CAREERS_PAGE = {
     directorMessageLabel: "院長からのメッセージ",
     directorMessageName: "院長　野村信介",
     directorMessageBody: [
-      "木花のむら総合診療所は「医療がいらない明日」を使命に掲げ、「患者さんもスタッフもみんなを笑顔にするクリニック」を合言葉にしています。患者さんの笑顔は、スタッフが安心して働ける環境があってはじめて生まれるものだと考えています。",
+      "木花のむら総合診療所は「医療がいらない明日」をパーパス（存在意義）に掲げ、「患者さんもスタッフもみんなを笑顔にするクリニック」を合言葉にしています。患者さんの笑顔は、スタッフが安心して働ける環境があってはじめて生まれるものだと考えています。",
       "私の役割は、完璧な経営者としてスタッフを管理することではありません。むしろ、皆さんが患者さんと向き合う時間を大切にできるように現場の環境を整え、判断に迷うときや困難なときには自分が矢面に立つこと——それが院長としての私の務めだと思っています。",
       "内科・外科・小児科と幅広い症状に対応する分、一人ひとりの専門性やこれまでの経験を活かしていただける場面がたくさんあります。新しい診療所を、これから一緒につくっていける方をお待ちしています。",
     ],
@@ -132,7 +132,7 @@ export const CAREERS_PAGE = {
     directorMessageLabel: "A message from our director",
     directorMessageName: "Director Shinsuke Nomura",
     directorMessageBody: [
-      "Our mission is \"a tomorrow where you no longer need medical care,\" and our motto is \"a clinic where both patients and staff can smile.\" We believe patients' smiles start with staff who feel safe and supported at work.",
+      "Our purpose is \"a tomorrow where you no longer need medical care,\" and our motto is \"a clinic where both patients and staff can smile.\" We believe patients' smiles start with staff who feel safe and supported at work.",
       "My role isn't to manage staff as a flawless executive. It's to protect an environment where you can focus on your patients, and to stand at the front line myself when things get difficult or decisions are hard.",
       "With a broad range of departments — internal medicine, gastroenterology, allergy, respiratory medicine, surgery and pediatrics — there is plenty of room to bring your own expertise and experience to the table. We're looking for people who want to build a new clinic together, from the ground up.",
     ],

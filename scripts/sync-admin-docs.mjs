@@ -43,6 +43,7 @@ const CATEGORY_MAP = {
   "採用案内": { slug: "recruiting", label: "採用案内", order: 4 },
   "採用面接質問チェックシート": { slug: "interview-checklist", label: "採用面接チェックシート", order: 5 },
   "事前研修資料_労務編": { slug: "pre-opening-training-labor", label: "事前研修資料（労務編）", order: 5.5 },
+  "事前研修資料_研修台帳": { slug: "pre-opening-training", label: "事前研修資料（理念・カリキュラム・研修資料）", order: 5.6 },
   "医療機器見積価格_総まとめ": { slug: "equipment-summary", label: "医療機器見積価格（総まとめ）", order: 6 },
   "医療機器見積書": { slug: "equipment-quotes", label: "医療機器見積書（個別）", order: 7 },
   "CT導入検討資料": { slug: "ct-review", label: "CT導入検討資料", order: 8 },

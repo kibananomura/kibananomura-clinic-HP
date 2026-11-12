@@ -61,6 +61,11 @@ export interface SiteDict {
     cards: Titled[];
     visionQuote: string;
     visionCaption: string;
+    /** パーパス（存在意義）と、その芯にある経営理念 */
+    purposeLabel: string;
+    purpose: string;
+    philosophyLabel: string;
+    philosophy: string;
   };
   features: {
     eyebrow: string;
@@ -392,6 +397,10 @@ const ja: SiteDict = {
     ],
     visionQuote: "病気や痛みを忘れて暮らせる日常と、薬や通院に頼りすぎない健やかさを届ける。",
     visionCaption: "── 木花のむら総合診療所　ミッション",
+    purposeLabel: "パーパス（私たちの存在意義）",
+    purpose: "「医療がいらない明日」をつくる。",
+    philosophyLabel: "すべての芯にある経営理念",
+    philosophy: "地域の人々が安心して相談できる、心と医療のより所であり続ける。",
   },
   features: {
     eyebrow: "当院の特徴",
@@ -1255,6 +1264,10 @@ const en: SiteDict = {
     ],
     visionQuote: "To deliver everyday lives where you can forget about illness and pain, and a healthiness that doesn't rely too heavily on medication or clinic visits.",
     visionCaption: "── Kibana Nomura General Medicine Clinic Mission",
+    purposeLabel: "Our purpose",
+    purpose: "To build a tomorrow where you no longer need medical care.",
+    philosophyLabel: "The philosophy at the heart of everything",
+    philosophy: "To remain a place of support for both heart and health, where people in our community can feel safe to ask anything.",
   },
   features: {
     eyebrow: "Why Us",

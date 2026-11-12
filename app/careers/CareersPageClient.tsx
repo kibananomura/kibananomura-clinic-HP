@@ -94,9 +94,10 @@ export default function CareersPageClient() {
         <FadeIn delay={0.06}>
           <div className="mx-auto mt-10 max-w-3xl text-center">
             <p className="eyebrow">{t.mission.eyebrow}</p>
-            <p className="mt-4 text-[15px] leading-relaxed text-ink/75">
-              {t.mission.visionQuote}
-            </p>
+            <p className="mt-4 text-xs font-bold tracking-wide text-primary-dark">{t.mission.purposeLabel}</p>
+            <p className="mt-2 text-xl font-bold leading-snug text-ink sm:text-2xl">{t.mission.purpose}</p>
+            <p className="mt-4 text-xs text-ink/60">{t.mission.philosophyLabel}</p>
+            <p className="mt-1 text-[15px] leading-relaxed text-ink/75">{t.mission.philosophy}</p>
           </div>
         </FadeIn>
 
