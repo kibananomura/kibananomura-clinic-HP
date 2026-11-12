@@ -30,7 +30,14 @@ export async function generateMetadata({
       description: c.excerpt,
       url: `${BASE_URL}/blog/${slug}`,
       type: "article",
-      images: [{ url: `${BASE_URL}${post.cover}` }],
+      images: [
+        {
+          url: `${BASE_URL}${post.cover}${post.coverVersion ? `?v=${post.coverVersion}` : ""}`,
+          width: post.coverWidth,
+          height: post.coverHeight,
+          alt: c.title,
+        },
+      ],
     },
   };
 }

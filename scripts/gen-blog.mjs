@@ -28,6 +28,39 @@
  * 記事の並び順は date の昇順。
  */
 import fs from "node:fs";
+import crypto from "node:crypto";
+
+/**
+ * 表紙画像の幅・高さと、中身から作った短い版番号を返す。
+ * SNS（Facebook等）は画像をURLごとに覚えるため、表紙を差し替えたら
+ * og:image のURLに ?v=版番号 を付けて読み直させる。幅・高さを伝えると
+ * 初回のシェアでも画像がすぐ表示される。
+ */
+function coverMeta(cover) {
+  const file = path.join(projectRoot, "public", cover.replace(/^\//, ""));
+  if (!fs.existsSync(file)) return {};
+  const buf = fs.readFileSync(file);
+  const v = crypto.createHash("sha1").update(buf).digest("hex").slice(0, 8);
+  let width;
+  let height;
+  if (buf[0] === 0x89 && buf.toString("ascii", 1, 4) === "PNG") {
+    width = buf.readUInt32BE(16);
+    height = buf.readUInt32BE(20);
+  } else if (buf[0] === 0xff && buf[1] === 0xd8) {
+    let i = 2;
+    while (i < buf.length) {
+      if (buf[i] !== 0xff) { i++; continue; }
+      const marker = buf[i + 1];
+      if (marker >= 0xc0 && marker <= 0xcf && ![0xc4, 0xc8, 0xcc].includes(marker)) {
+        height = buf.readUInt16BE(i + 5);
+        width = buf.readUInt16BE(i + 7);
+        break;
+      }
+      i += 2 + buf.readUInt16BE(i + 2);
+    }
+  }
+  return { coverVersion: v, coverWidth: width, coverHeight: height };
+}
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import matter from "gray-matter";
@@ -211,6 +244,7 @@ function generate() {
       date: String(data.date),
       cover: data.cover,
       coverPosition: data.coverPosition || undefined,
+      ...coverMeta(data.cover),
       sources: parseSources(data.sources, file),
       ja: {
         category: data.category_ja,

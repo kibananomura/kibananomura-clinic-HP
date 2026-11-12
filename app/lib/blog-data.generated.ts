@@ -8,6 +8,9 @@ export const generatedPosts: BlogPost[] = [
     "slug": "hajimemashite",
     "date": "2026.06.01",
     "cover": "/blog/greeting.png",
+    "coverVersion": "44f86aaf",
+    "coverWidth": 863,
+    "coverHeight": 485,
     "ja": {
       "category": "院長の歩み",
       "title": "はじめまして。院長の野村です。",
@@ -94,6 +97,9 @@ export const generatedPosts: BlogPost[] = [
     "slug": "kibana-no-namae",
     "date": "2026.06.02",
     "cover": "/blog/kibana-landscape.jpg",
+    "coverVersion": "951e262c",
+    "coverWidth": 1536,
+    "coverHeight": 1024,
     "ja": {
       "category": "診療所づくり",
       "title": "名前に込めた、ふたつの想い",
@@ -194,6 +200,9 @@ export const generatedPosts: BlogPost[] = [
     "slug": "kansen-2026-07",
     "date": "2026.08.05",
     "cover": "/blog/kibana-landscape.jpg",
+    "coverVersion": "951e262c",
+    "coverWidth": 1536,
+    "coverHeight": 1024,
     "sources": [
       {
         "label": "宮崎県衛生環境研究所 感染症情報センター「宮崎県感染症発生動向調査」",
@@ -374,6 +383,9 @@ export const generatedPosts: BlogPost[] = [
     "slug": "kara-no-michi",
     "date": "2026.09.15",
     "cover": "/blog/kibana-landscape.jpg",
+    "coverVersion": "951e262c",
+    "coverWidth": 1536,
+    "coverHeight": 1024,
     "ja": {
       "category": "院長の歩み",
       "title": "外科医から開業医へ（前編）——十数年、一つの場所に留まらなかった道のり",
@@ -522,6 +534,9 @@ export const generatedPosts: BlogPost[] = [
     "slug": "kara-no-michi-2",
     "date": "2026.09.16",
     "cover": "/blog/kibana-landscape.jpg",
+    "coverVersion": "951e262c",
+    "coverWidth": 1536,
+    "coverHeight": 1024,
     "ja": {
       "category": "院長の歩み",
       "title": "外科医から開業医へ（後編）——遠回りのようで、まっすぐだった道のり",
@@ -654,6 +669,9 @@ export const generatedPosts: BlogPost[] = [
     "slug": "bensenketsu-yousei",
     "date": "2026.09.24",
     "cover": "/blog/kibana-landscape.jpg",
+    "coverVersion": "951e262c",
+    "coverWidth": 1536,
+    "coverHeight": 1024,
     "sources": [
       {
         "label": "国立がん研究センター がん情報サービス「大腸がん検診について」",
@@ -854,6 +872,9 @@ export const generatedPosts: BlogPost[] = [
     "slug": "daichou-camera-junbi",
     "date": "2026.09.25",
     "cover": "/blog/kibana-landscape.jpg",
+    "coverVersion": "951e262c",
+    "coverWidth": 1536,
+    "coverHeight": 1024,
     "sources": [
       {
         "label": "国立がん研究センター がん情報サービス「大腸がん検診について」",
@@ -1065,6 +1086,9 @@ export const generatedPosts: BlogPost[] = [
     "slug": "daichou-polyp",
     "date": "2026.09.26",
     "cover": "/blog/kibana-landscape.jpg",
+    "coverVersion": "951e262c",
+    "coverWidth": 1536,
+    "coverHeight": 1024,
     "sources": [
       {
         "label": "日本消化器病学会「患者さんとご家族のための大腸ポリープガイド2023」",
@@ -1257,6 +1281,9 @@ export const generatedPosts: BlogPost[] = [
     "slug": "touen-toukou-itsukara",
     "date": "2026.09.27",
     "cover": "/blog/kibana-landscape.jpg",
+    "coverVersion": "951e262c",
+    "coverWidth": 1536,
+    "coverHeight": 1024,
     "sources": [
       {
         "label": "e-Gov法令検索「学校保健安全法施行規則」",
@@ -1444,6 +1471,9 @@ export const generatedPosts: BlogPost[] = [
     "slug": "hikari-onnetsu-kenkyu",
     "date": "2026.09.28",
     "cover": "/blog/kibana-landscape.jpg",
+    "coverVersion": "951e262c",
+    "coverWidth": 1536,
+    "coverHeight": 1024,
     "ja": {
       "category": "院長の歩み",
       "title": "「光でがんを温める」研究に打ち込んでいた頃の話",
@@ -1744,6 +1774,9 @@ export const generatedPosts: BlogPost[] = [
     "slug": "ikamera-junbi",
     "date": "2026.09.29",
     "cover": "/blog/kibana-landscape.jpg",
+    "coverVersion": "951e262c",
+    "coverWidth": 1536,
+    "coverHeight": 1024,
     "ja": {
       "category": "健康・予防の話",
       "subcategory": "胃腸・消化器",
@@ -2070,6 +2103,9 @@ export const generatedPosts: BlogPost[] = [
     "slug": "ikamera-nansai-kara",
     "date": "2026.09.30",
     "cover": "/blog/kibana-landscape.jpg",
+    "coverVersion": "951e262c",
+    "coverWidth": 1536,
+    "coverHeight": 1024,
     "sources": [
       {
         "label": "厚生労働省「がん検診（胃がん検診）」がん対策推進企業アクション",
@@ -2378,6 +2414,9 @@ export const generatedPosts: BlogPost[] = [
     "slug": "kaicho-mattan-en",
     "date": "2026.10.01",
     "cover": "/blog/kibana-landscape.jpg",
+    "coverVersion": "951e262c",
+    "coverWidth": 1536,
+    "coverHeight": 1024,
     "sources": [
       {
         "label": "日本腹部救急医学会ほか「急性腹症診療ガイドライン2015」",
@@ -2718,6 +2757,9 @@ export const generatedPosts: BlogPost[] = [
     "slug": "hai-kousankin",
     "date": "2026.10.02",
     "cover": "/blog/kibana-landscape.jpg",
+    "coverVersion": "951e262c",
+    "coverWidth": 1536,
+    "coverHeight": 1024,
     "sources": [
       {
         "label": "日本結核・非結核性抗酸菌症学会「成人肺非結核性抗酸菌症化学療法に関する見解―2023年改訂」"
@@ -3093,6 +3135,9 @@ export const generatedPosts: BlogPost[] = [
     "slug": "hai-ntm-sho",
     "date": "2026.10.03",
     "cover": "/blog/kibana-landscape.jpg",
+    "coverVersion": "951e262c",
+    "coverWidth": 1536,
+    "coverHeight": 1024,
     "sources": [
       {
         "label": "日本結核・非結核性抗酸菌症学会「成人肺非結核性抗酸菌症化学療法に関する見解―2023年改訂」"
@@ -3492,6 +3537,9 @@ export const generatedPosts: BlogPost[] = [
     "slug": "kouatsu-genryou-fuan",
     "date": "2026.10.04",
     "cover": "/blog/kibana-landscape.jpg",
+    "coverVersion": "951e262c",
+    "coverWidth": 1536,
+    "coverHeight": 1024,
     "sources": [
       {
         "label": "日本高血圧学会「高血圧管理・治療ガイドライン2025」",
@@ -3683,6 +3731,9 @@ export const generatedPosts: BlogPost[] = [
     "slug": "statin-kinniku-houkai",
     "date": "2026.10.05",
     "cover": "/blog/kibana-landscape.jpg",
+    "coverVersion": "951e262c",
+    "coverWidth": 1536,
+    "coverHeight": 1024,
     "sources": [
       {
         "label": "日本動脈硬化学会「動脈硬化性疾患予防ガイドライン2022年版」",
@@ -3895,6 +3946,9 @@ export const generatedPosts: BlogPost[] = [
     "slug": "tomato-juice-ryouba",
     "date": "2026.10.06",
     "cover": "/blog/kibana-landscape.jpg",
+    "coverVersion": "951e262c",
+    "coverWidth": 1536,
+    "coverHeight": 1024,
     "sources": [
       {
         "label": "日本動脈硬化学会「動脈硬化性疾患予防ガイドライン2022年版」",
@@ -4063,6 +4117,9 @@ export const generatedPosts: BlogPost[] = [
     "slug": "kansen-dousen-bunri",
     "date": "2026.10.07",
     "cover": "/blog/kibana-landscape.jpg",
+    "coverVersion": "951e262c",
+    "coverWidth": 1536,
+    "coverHeight": 1024,
     "ja": {
       "category": "診療所づくり",
       "title": "発熱の方の動線を、他の患者さんと完全に分けている理由",
@@ -4211,6 +4268,9 @@ export const generatedPosts: BlogPost[] = [
     "slug": "nagaku-tsukiau-iryou",
     "date": "2026.10.08",
     "cover": "/blog/kibana-landscape.jpg",
+    "coverVersion": "951e262c",
+    "coverWidth": 1536,
+    "coverHeight": 1024,
     "ja": {
       "category": "診療で大切にしていること",
       "title": "「治す」だけでなく、「長く付き合う」医療について",
@@ -4338,6 +4398,9 @@ export const generatedPosts: BlogPost[] = [
     "slug": "mainasu-05",
     "date": "2026.10.09",
     "cover": "/blog/kibana-landscape.jpg",
+    "coverVersion": "951e262c",
+    "coverWidth": 1536,
+    "coverHeight": 1024,
     "ja": {
       "category": "診療で大切にしていること",
       "title": "「マイナス0.5」から整える、という考え方",
@@ -4446,6 +4509,9 @@ export const generatedPosts: BlogPost[] = [
     "slug": "mainichi-chigau-mono",
     "date": "2026.10.10",
     "cover": "/blog/kibana-landscape.jpg",
+    "coverVersion": "951e262c",
+    "coverWidth": 1536,
+    "coverHeight": 1024,
     "sources": [
       {
         "label": "厚生労働省「日本人の食事摂取基準（2025年版）」",
@@ -4636,6 +4702,9 @@ export const generatedPosts: BlogPost[] = [
     "slug": "i-gekai-kara-kakaritsukei",
     "date": "2026.10.11",
     "cover": "/blog/kibana-landscape.jpg",
+    "coverVersion": "951e262c",
+    "coverWidth": 1536,
+    "coverHeight": 1024,
     "ja": {
       "category": "院長の歩み",
       "title": "元・消化器外科医が、木花で「かかりつけ医」になった理由",
@@ -4736,6 +4805,9 @@ export const generatedPosts: BlogPost[] = [
     "slug": "gan-ninteii-koushin",
     "date": "2026.10.12",
     "cover": "/blog/kibana-landscape.jpg",
+    "coverVersion": "951e262c",
+    "coverWidth": 1536,
+    "coverHeight": 1024,
     "ja": {
       "category": "院長の歩み",
       "title": "「がん治療認定医」を、更新しないと決めた日",
@@ -4836,6 +4908,9 @@ export const generatedPosts: BlogPost[] = [
     "slug": "isseisan-daikangei",
     "date": "2026.10.13",
     "cover": "/blog/kibana-landscape.jpg",
+    "coverVersion": "951e262c",
+    "coverWidth": 1536,
+    "coverHeight": 1024,
     "ja": {
       "category": "診療所づくり",
       "title": "旅先での体調不良、「一見さん」でも大歓迎です",
@@ -4952,6 +5027,9 @@ export const generatedPosts: BlogPost[] = [
     "slug": "tumor-marker-checkup",
     "date": "2026.10.14",
     "cover": "/blog/kibana-landscape.jpg",
+    "coverVersion": "951e262c",
+    "coverWidth": 1536,
+    "coverHeight": 1024,
     "ja": {
       "category": "健康・予防の話",
       "subcategory": "健診・検査",
@@ -5102,6 +5180,9 @@ export const generatedPosts: BlogPost[] = [
     "slug": "jushin-meiro",
     "date": "2026.10.15",
     "cover": "/blog/kibana-landscape.jpg",
+    "coverVersion": "951e262c",
+    "coverWidth": 1536,
+    "coverHeight": 1024,
     "ja": {
       "category": "診療で大切にしていること",
       "title": "「何科に行けばいいかわからない」をなくしたい",
@@ -5320,6 +5401,9 @@ export const generatedPosts: BlogPost[] = [
     "slug": "zensoku-chiryo",
     "date": "2026.10.16",
     "cover": "/blog/kibana-landscape.jpg",
+    "coverVersion": "951e262c",
+    "coverWidth": 1536,
+    "coverHeight": 1024,
     "sources": [
       {
         "label": "日本アレルギー学会「喘息予防・管理ガイドライン2024」"
@@ -5503,6 +5587,9 @@ export const generatedPosts: BlogPost[] = [
     "slug": "seikatsu-shukanbyo-gokai",
     "date": "2026.10.17",
     "cover": "/blog/kibana-landscape.jpg",
+    "coverVersion": "951e262c",
+    "coverWidth": 1536,
+    "coverHeight": 1024,
     "sources": [
       {
         "label": "厚生省 公衆衛生審議会「生活習慣に着目した疾病対策の基本的方向性について（意見具申）」（1996年）",
@@ -5644,6 +5731,9 @@ export const generatedPosts: BlogPost[] = [
     "slug": "kusuri-yamerarenai",
     "date": "2026.10.18",
     "cover": "/blog/kibana-landscape.jpg",
+    "coverVersion": "951e262c",
+    "coverWidth": 1536,
+    "coverHeight": 1024,
     "sources": [
       {
         "label": "日本高血圧学会「高血圧管理・治療ガイドライン2025」",
@@ -5806,6 +5896,9 @@ export const generatedPosts: BlogPost[] = [
     "slug": "ppi-chouki-fukuyou",
     "date": "2026.10.19",
     "cover": "/blog/kibana-landscape.jpg",
+    "coverVersion": "951e262c",
+    "coverWidth": 1536,
+    "coverHeight": 1024,
     "sources": [
       {
         "label": "日本消化器病学会「胃食道逆流症（GERD）診療ガイドライン」",
@@ -5986,6 +6079,9 @@ export const generatedPosts: BlogPost[] = [
     "slug": "kaze-taisho-ryoho",
     "date": "2026.10.20",
     "cover": "/blog/kibana-landscape.jpg",
+    "coverVersion": "951e262c",
+    "coverWidth": 1536,
+    "coverHeight": 1024,
     "sources": [
       {
         "label": "厚生労働省「抗微生物薬適正使用の手引き 第二版」",
@@ -6212,6 +6308,9 @@ export const generatedPosts: BlogPost[] = [
     "slug": "influenza-vaccine-mayoi",
     "date": "2026.10.21",
     "cover": "/blog/kibana-landscape.jpg",
+    "coverVersion": "951e262c",
+    "coverWidth": 1536,
+    "coverHeight": 1024,
     "sources": [
       {
         "label": "厚生労働省「インフルエンザ（総合ページ）」",
@@ -6331,6 +6430,9 @@ export const generatedPosts: BlogPost[] = [
     "slug": "seijou-no-jouge-fuan",
     "date": "2026.10.22",
     "cover": "/blog/kibana-landscape.jpg",
+    "coverVersion": "951e262c",
+    "coverWidth": 1536,
+    "coverHeight": 1024,
     "sources": [
       {
         "label": "日本高血圧学会「高血圧管理・治療ガイドライン2025」",
@@ -6489,6 +6591,9 @@ export const generatedPosts: BlogPost[] = [
     "slug": "shukketsu-shashin-onegai",
     "date": "2026.10.23",
     "cover": "/blog/kibana-landscape.jpg",
+    "coverVersion": "951e262c",
+    "coverWidth": 1536,
+    "coverHeight": 1024,
     "ja": {
       "category": "健康・予防の話",
       "subcategory": "足・腰・けが",
@@ -6647,6 +6752,9 @@ export const generatedPosts: BlogPost[] = [
     "slug": "furumisuto-hana-no-jotai",
     "date": "2026.10.24",
     "cover": "/blog/kibana-landscape.jpg",
+    "coverVersion": "951e262c",
+    "coverWidth": 1536,
+    "coverHeight": 1024,
     "sources": [
       {
         "label": "PMDA「フルミスト点鼻液」添付文書",
@@ -6870,6 +6978,9 @@ export const generatedPosts: BlogPost[] = [
     "slug": "legionella",
     "date": "2026.10.25",
     "cover": "/blog/kibana-landscape.jpg",
+    "coverVersion": "951e262c",
+    "coverWidth": 1536,
+    "coverHeight": 1024,
     "sources": [
       {
         "label": "厚生労働省「公衆浴場における衛生等管理要領」「レジオネラ症防止指針」"
@@ -7201,6 +7312,9 @@ export const generatedPosts: BlogPost[] = [
     "slug": "kizu-shoudoku",
     "date": "2026.10.26",
     "cover": "/blog/kizu-shoudoku.jpg",
+    "coverVersion": "8ec874b1",
+    "coverWidth": 1600,
+    "coverHeight": 900,
     "sources": [
       {
         "label": "日本創傷外科学会「創傷関連ガイドライン 第Ⅰ編 急性創傷診療ガイドライン」",
@@ -7551,6 +7665,9 @@ export const generatedPosts: BlogPost[] = [
     "slug": "kodomo-netsu-jushin",
     "date": "2026.10.27",
     "cover": "/blog/kibana-landscape.jpg",
+    "coverVersion": "951e262c",
+    "coverWidth": 1536,
+    "coverHeight": 1024,
     "sources": [
       {
         "label": "日本小児科学会 監修「こどもの救急（ONLINE-QQ）」",
@@ -7722,6 +7839,9 @@ export const generatedPosts: BlogPost[] = [
     "slug": "kodomo-outo-geri-suibun",
     "date": "2026.10.28",
     "cover": "/blog/kibana-landscape.jpg",
+    "coverVersion": "951e262c",
+    "coverWidth": 1536,
+    "coverHeight": 1024,
     "sources": [
       {
         "label": "日本小児救急医学会「エビデンスに基づいた子どもの腹部救急診療ガイドライン2017 第I部 小児急性胃腸炎診療ガイドライン」（Minds）",
@@ -7933,6 +8053,9 @@ export const generatedPosts: BlogPost[] = [
     "slug": "ichinichi-isshoku-yasenai",
     "date": "2026.10.29",
     "cover": "/blog/ichinichi-isshoku-yasenai.jpg",
+    "coverVersion": "3f5d0429",
+    "coverWidth": 1600,
+    "coverHeight": 900,
     "sources": [
       {
         "label": "厚生労働省「日本人の食事摂取基準（2025年版）」",
@@ -8228,6 +8351,9 @@ export const generatedPosts: BlogPost[] = [
     "slug": "kinri-no-aru-sekai",
     "date": "2026.10.30",
     "cover": "/blog/kibana-landscape.jpg",
+    "coverVersion": "951e262c",
+    "coverWidth": 1536,
+    "coverHeight": 1024,
     "ja": {
       "category": "診療所づくり",
       "title": "「金利のある世界」で、覚悟を持って診療所をつくります",
@@ -8480,6 +8606,9 @@ export const generatedPosts: BlogPost[] = [
     "slug": "hontou-no-chiryou",
     "date": "2026.10.31",
     "cover": "/blog/hontou-no-chiryou.jpg",
+    "coverVersion": "ad786b91",
+    "coverWidth": 1600,
+    "coverHeight": 900,
     "sources": [
       {
         "label": "Crum AJ, Langer EJ. Mind-set matters: exercise and the placebo effect. Psychol Sci. 2007;18:165-171",
@@ -8772,6 +8901,9 @@ export const generatedPosts: BlogPost[] = [
     "slug": "senna-choukirenyou",
     "date": "2026.11.01",
     "cover": "/blog/senna-choukirenyou.jpg",
+    "coverVersion": "8a786017",
+    "coverWidth": 1600,
+    "coverHeight": 900,
     "sources": [
       {
         "label": "日本消化管学会「便通異常症診療ガイドライン2023－慢性便秘症」",
@@ -9080,6 +9212,9 @@ export const generatedPosts: BlogPost[] = [
     "slug": "kyonen-no-allergy-kusuri",
     "date": "2026.11.02",
     "cover": "/blog/kyonen-no-allergy-kusuri.jpg",
+    "coverVersion": "932921cd",
+    "coverWidth": 1600,
+    "coverHeight": 900,
     "sources": [
       {
         "label": "日本鼻科学会「鼻アレルギー診療ガイドライン－通年性鼻炎と花粉症－2024年版（改訂第10版）」",
@@ -9474,6 +9609,9 @@ export const generatedPosts: BlogPost[] = [
     "slug": "honne-ga-ienai",
     "date": "2026.11.03",
     "cover": "/blog/honne-ga-ienai.jpg",
+    "coverVersion": "929a10cf",
+    "coverWidth": 1600,
+    "coverHeight": 900,
     "ja": {
       "category": "診療で大切にしていること",
       "title": "「もうやれることはやったのに」——その言葉、診察室で言っていいんです",
@@ -9715,6 +9853,9 @@ export const generatedPosts: BlogPost[] = [
     "slug": "yasete-iru-noni-ldl",
     "date": "2026.11.03",
     "cover": "/blog/yasete-iru-noni-ldl.jpg",
+    "coverVersion": "03283c30",
+    "coverWidth": 1600,
+    "coverHeight": 900,
     "sources": [
       {
         "label": "日本動脈硬化学会「動脈硬化性疾患予防ガイドライン2022年版」",
@@ -9954,6 +10095,9 @@ export const generatedPosts: BlogPost[] = [
     "slug": "shita-no-ketsuatsu",
     "date": "2026.11.04",
     "cover": "/blog/shita-no-ketsuatsu.jpg",
+    "coverVersion": "da8cd6a3",
+    "coverWidth": 1600,
+    "coverHeight": 900,
     "sources": [
       {
         "label": "日本高血圧学会「高血圧管理・治療ガイドライン2025」",
@@ -10137,6 +10281,9 @@ export const generatedPosts: BlogPost[] = [
     "slug": "herashitemo-yasenai",
     "date": "2026.11.05",
     "cover": "/blog/herashitemo-yasenai.jpg",
+    "coverVersion": "4c89f97d",
+    "coverWidth": 1600,
+    "coverHeight": 900,
     "sources": [
       {
         "label": "Kortebein P, et al. Effect of 10 days of bed rest on skeletal muscle in healthy older adults. JAMA. 2007;297:1772-1774",
@@ -10446,6 +10593,9 @@ export const generatedPosts: BlogPost[] = [
     "slug": "hotai-card",
     "date": "2026.11.06",
     "cover": "/blog/hotai-card.jpg",
+    "coverVersion": "d2ce1fa7",
+    "coverWidth": 1600,
+    "coverHeight": 900,
     "sources": [
       {
         "label": "Walport MJ. Complement. N Engl J Med. 2001;344:1058-1066",
@@ -10718,6 +10868,9 @@ export const generatedPosts: BlogPost[] = [
     "slug": "kouatsu-kusuri-tsuzukeru",
     "date": "2026.11.07",
     "cover": "/blog/kouatsu-kusuri-tsuzukeru.jpg",
+    "coverVersion": "a831ebc2",
+    "coverWidth": 1600,
+    "coverHeight": 900,
     "sources": [
       {
         "label": "日本高血圧学会「高血圧管理・治療ガイドライン2025」",
@@ -10951,6 +11104,9 @@ export const generatedPosts: BlogPost[] = [
     "slug": "kansen-2026-11",
     "date": "2026.11.08",
     "cover": "/blog/kansen-2026-11.jpg",
+    "coverVersion": "57f6daff",
+    "coverWidth": 1600,
+    "coverHeight": 900,
     "sources": [
       {
         "label": "宮崎県感染症情報センター「宮崎県感染症週報」2026年第44週（10/26〜11/1）",
@@ -11181,6 +11337,9 @@ export const generatedPosts: BlogPost[] = [
     "slug": "shibire-shinkei-saisei",
     "date": "2026.11.08",
     "cover": "/blog/shibire-shinkei-saisei.jpg",
+    "coverVersion": "732bee40",
+    "coverWidth": 1600,
+    "coverHeight": 900,
     "sources": [
       {
         "label": "Menorca RMG, et al. Nerve physiology: mechanisms of injury and recovery. Hand Clin. 2013;29:317-330",
@@ -11424,6 +11583,9 @@ export const generatedPosts: BlogPost[] = [
     "slug": "flu-vaccine-timing",
     "date": "2026.11.09",
     "cover": "/blog/flu-vaccine-timing.jpg",
+    "coverVersion": "0ad8dccc",
+    "coverWidth": 1600,
+    "coverHeight": 900,
     "sources": [
       {
         "label": "厚生労働省「令和8年度冬季 急性呼吸器感染症（ARI）総合対策に関するQ&A」",
@@ -11664,6 +11826,9 @@ export const generatedPosts: BlogPost[] = [
     "slug": "ashi-nanika",
     "date": "2026.11.10",
     "cover": "/blog/ashi-nanika.jpg",
+    "coverVersion": "a25a8f8b",
+    "coverWidth": 1600,
+    "coverHeight": 900,
     "sources": [
       {
         "label": "日本フットケア・足病医学会「学会について」",
@@ -11897,6 +12062,9 @@ export const generatedPosts: BlogPost[] = [
     "slug": "tsuufuu-hossa-timing",
     "date": "2026.11.11",
     "cover": "/blog/kibana-landscape.jpg",
+    "coverVersion": "951e262c",
+    "coverWidth": 1536,
+    "coverHeight": 1024,
     "sources": [
       {
         "label": "日本痛風・尿酸核酸学会「高尿酸血症・痛風の治療ガイドライン第3版」",
@@ -12147,6 +12315,9 @@ export const generatedPosts: BlogPost[] = [
     "slug": "shinsatsushitsu-no-chikara",
     "date": "2026.11.12",
     "cover": "/blog/kibana-landscape.jpg",
+    "coverVersion": "951e262c",
+    "coverWidth": 1536,
+    "coverHeight": 1024,
     "ja": {
       "category": "診療で大切にしていること",
       "title": "同じ言葉なのに、診察室だと心に届くのはなぜ？〜「場」が持つ、もうひとつの治療の力〜",
