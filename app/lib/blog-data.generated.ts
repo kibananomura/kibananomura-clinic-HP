@@ -11915,7 +11915,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "当院では、まず内科・外科の目で足全体を拝見し、必要に応じて整形外科や皮膚科、血管の専門の先生などへおつなぎします。「何科に行けばいいか分からない」という迷いそのものを、一緒にほどいていけたらと思っています。この考え方は「[『何科に行けばいいかわからない』をなくしたい](/blog/jushin-meiro)」にも書きました。"
+          "text": "開院後の当院では、まず内科・外科の目で足全体を拝見し、必要に応じて整形外科や皮膚科、血管の専門の先生などへおつなぎします。「何科に行けばいいか分からない」という迷いそのものを、一緒にほどいていけたらと思っています。この考え方は「[『何科に行けばいいかわからない』をなくしたい](/blog/jushin-meiro)」にも書きました。"
         },
         {
           "kind": "text",
@@ -12011,7 +12011,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "At our clinic, we first look at the whole foot from an internal medicine and surgical perspective, and connect you with orthopedics, dermatology, vascular specialists and others as needed. I hope we can help untangle the very confusion of “which department should I go to?” I've written about this approach in “[I want to end ‘which department do I even go to?’](/blog/jushin-meiro).”"
+          "text": "Once we open, we will first look at the whole foot from an internal medicine and surgical perspective, and connect you with orthopedics, dermatology, vascular specialists and others as needed. I hope we can help untangle the very confusion of “which department should I go to?” I've written about this approach in “[I want to end ‘which department do I even go to?’](/blog/jushin-meiro).”"
         },
         {
           "kind": "text",

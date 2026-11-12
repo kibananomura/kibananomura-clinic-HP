@@ -65,7 +65,7 @@ sources:
 
 これだけでも、たくさんのことが分かります。「足を見せるのは恥ずかしい」と思われる方もいらっしゃいますが、どうぞ気にしないでください。
 
-当院では、まず内科・外科の目で足全体を拝見し、必要に応じて整形外科や皮膚科、血管の専門の先生などへおつなぎします。「何科に行けばいいか分からない」という迷いそのものを、一緒にほどいていけたらと思っています。この考え方は「[『何科に行けばいいかわからない』をなくしたい](/blog/jushin-meiro)」にも書きました。
+開院後の当院では、まず内科・外科の目で足全体を拝見し、必要に応じて整形外科や皮膚科、血管の専門の先生などへおつなぎします。「何科に行けばいいか分からない」という迷いそのものを、一緒にほどいていけたらと思っています。この考え方は「[『何科に行けばいいかわからない』をなくしたい](/blog/jushin-meiro)」にも書きました。
 
 足先のしびれが気になる方は、「[足のしびれは、治る？残る？](/blog/shibire-shinkei-saisei)」もあわせてお読みください。
 
@@ -122,7 +122,7 @@ A foot exam starts very simply: we ask you to take off your socks, and we look a
 
 Just this tells us a lot. Some people feel embarrassed about showing their feet, but please don't worry about it.
 
-At our clinic, we first look at the whole foot from an internal medicine and surgical perspective, and connect you with orthopedics, dermatology, vascular specialists and others as needed. I hope we can help untangle the very confusion of “which department should I go to?” I've written about this approach in “[I want to end ‘which department do I even go to?’](/blog/jushin-meiro).”
+Once we open, we will first look at the whole foot from an internal medicine and surgical perspective, and connect you with orthopedics, dermatology, vascular specialists and others as needed. I hope we can help untangle the very confusion of “which department should I go to?” I've written about this approach in “[I want to end ‘which department do I even go to?’](/blog/jushin-meiro).”
 
 If numbness in your toes concerns you, please also read “[Will the numbness in my leg go away, or will it stay?](/blog/shibire-shinkei-saisei)”
 
