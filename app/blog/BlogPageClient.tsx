@@ -364,6 +364,9 @@ export default function BlogPageClient() {
       <div className="container-page relative">
         <FadeIn>
           <SectionHeading eyebrow={t.blog.eyebrow} title={t.blog.heading} as="h1" />
+          <p className="mx-auto mt-4 max-w-2xl text-center text-base font-bold leading-relaxed text-primary-dark sm:text-lg [text-wrap:balance]">
+            {t.blog.subtitle}
+          </p>
         </FadeIn>
 
         <FadeIn delay={0.05}>

@@ -5,7 +5,7 @@ import BlogPageClient from "./BlogPageClient";
 export const metadata: Metadata = {
   title: `開業前ブログ（院長コラム・開院準備の様子） | ${BRAND.ja.titleSuffix}`,
   description:
-    "木花のむら総合診療所（宮崎市熊野、2027年10月1日開院予定）の院長が綴る開業準備ブログ。開院までの様子や地域のこと、診療への想いをお伝えします。",
+    "聞きたかったけど、聞けなかった。そんな「からだの疑問」に、木花のむら総合診療所（宮崎市熊野、2027年10月1日開院予定）の院長がお答えするブログです。暮らしのことや開院までの様子、診療への想いもお伝えします。",
   alternates: {
     canonical: "/blog",
   },

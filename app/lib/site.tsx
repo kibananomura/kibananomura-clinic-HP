@@ -201,6 +201,8 @@ export interface SiteDict {
   blog: {
     eyebrow: string;
     heading: string;
+    /** 見出しの下のひと言（何のブログかを伝える） */
+    subtitle: string;
     intro: string;
     readMore: string;
     backToList: string;
@@ -777,8 +779,9 @@ const ja: SiteDict = {
   blog: {
     eyebrow: "院長ブログ",
     heading: "開業前ブログ",
+    subtitle: "聞きたかったけど、聞けなかった。そんな「からだの疑問」にお答えします",
     intro:
-      "開院までの準備の様子や、地域のこと、診療への想いを、院長が少しずつお伝えします。",
+      "からだのことや暮らしのこと、開院までの準備の様子や診療への想いを、院長が少しずつお伝えします。",
     readMore: "続きを読む →",
     backToList: "ブログ一覧へ戻る",
     latestHeading: "院長ブログ",
@@ -1648,8 +1651,9 @@ const en: SiteDict = {
   blog: {
     eyebrow: "Director's Blog",
     heading: "Pre-opening blog",
+    subtitle: "The health questions you wanted to ask but never quite could — answered here",
     intro:
-      "Our director gradually shares the preparations toward opening, stories about the area, and thoughts on care.",
+      "Our director gradually shares notes on health and daily life, the preparations toward opening, and thoughts on care.",
     readMore: "Read more →",
     backToList: "Back to all posts",
     latestHeading: "Director's Blog",
