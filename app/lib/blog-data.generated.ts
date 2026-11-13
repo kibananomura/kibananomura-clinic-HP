@@ -12535,10 +12535,10 @@ export const generatedPosts: BlogPost[] = [
   {
     "slug": "tounyoubyou-kankai",
     "date": "2026.11.13",
-    "cover": "/blog/kibana-landscape.jpg",
-    "coverVersion": "951e262c",
-    "coverWidth": 1536,
-    "coverHeight": 1024,
+    "cover": "/blog/tounyoubyou-kankai.jpg",
+    "coverVersion": "06dc0d43",
+    "coverWidth": 1600,
+    "coverHeight": 900,
     "sources": [
       {
         "label": "日本糖尿病学会「糖尿病診療ガイドライン2024」",
