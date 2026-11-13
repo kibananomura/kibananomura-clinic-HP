@@ -1,6 +1,6 @@
 ---
 date: 2026.11.12
-cover: /blog/kibana-landscape.jpg
+cover: /blog/shinsatsushitsu-no-chikara.jpg
 category_ja: 診療で大切にしていること
 category_en: What I value in care
 title_ja: "同じ言葉なのに、診察室だと心に届くのはなぜ？〜「場」が持つ、もうひとつの治療の力〜"

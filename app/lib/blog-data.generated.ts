@@ -12312,10 +12312,10 @@ export const generatedPosts: BlogPost[] = [
   {
     "slug": "shinsatsushitsu-no-chikara",
     "date": "2026.11.12",
-    "cover": "/blog/kibana-landscape.jpg",
-    "coverVersion": "951e262c",
-    "coverWidth": 1536,
-    "coverHeight": 1024,
+    "cover": "/blog/shinsatsushitsu-no-chikara.jpg",
+    "coverVersion": "b0bf3a93",
+    "coverWidth": 1600,
+    "coverHeight": 900,
     "ja": {
       "category": "診療で大切にしていること",
       "title": "同じ言葉なのに、診察室だと心に届くのはなぜ？〜「場」が持つ、もうひとつの治療の力〜",
