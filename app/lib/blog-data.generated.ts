@@ -6306,7 +6306,7 @@ export const generatedPosts: BlogPost[] = [
     "slug": "influenza-vaccine-mayoi",
     "date": "2026.10.21",
     "cover": "/blog/influenza-vaccine-mayoi.jpg",
-    "coverVersion": "5cf0b6f3",
+    "coverVersion": "9c7c5729",
     "coverWidth": 1600,
     "coverHeight": 900,
     "sources": [
