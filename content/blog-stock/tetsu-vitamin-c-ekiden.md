@@ -1,6 +1,6 @@
 ---
 date: 2026.11.17
-cover: /blog/kibana-landscape.jpg
+cover: /blog/tetsu-vitamin-c-ekiden.jpg
 category_ja: 健康・予防の話
 category_en: Health and prevention
 subcategory_ja: 健診・検査
