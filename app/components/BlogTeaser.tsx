@@ -20,6 +20,9 @@ export default function BlogTeaser() {
       <div className="container-page relative">
         <FadeIn>
           <SectionHeading eyebrow={t.blog.eyebrow} title={t.blog.latestHeading} />
+          <p className="mx-auto mt-4 max-w-2xl text-center text-base font-bold leading-relaxed text-primary-dark sm:text-lg [text-wrap:balance]">
+            {t.blog.subtitle}
+          </p>
         </FadeIn>
 
         <div className="mx-auto mt-10 grid max-w-4xl gap-6 sm:grid-cols-2">
