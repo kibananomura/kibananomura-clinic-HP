@@ -1,6 +1,6 @@
 ---
 date: 2026.10.27
-cover: /blog/kibana-landscape.jpg
+cover: /blog/kodomo-netsu-jushin.jpg
 category_ja: 健康・予防の話
 category_en: Health and prevention
 subcategory_ja: 子どもの健康

@@ -6305,10 +6305,10 @@ export const generatedPosts: BlogPost[] = [
   {
     "slug": "influenza-vaccine-mayoi",
     "date": "2026.10.21",
-    "cover": "/blog/kibana-landscape.jpg",
-    "coverVersion": "951e262c",
-    "coverWidth": 1536,
-    "coverHeight": 1024,
+    "cover": "/blog/influenza-vaccine-mayoi.jpg",
+    "coverVersion": "5cf0b6f3",
+    "coverWidth": 1600,
+    "coverHeight": 900,
     "sources": [
       {
         "label": "厚生労働省「インフルエンザ（総合ページ）」",
@@ -7662,10 +7662,10 @@ export const generatedPosts: BlogPost[] = [
   {
     "slug": "kodomo-netsu-jushin",
     "date": "2026.10.27",
-    "cover": "/blog/kibana-landscape.jpg",
-    "coverVersion": "951e262c",
-    "coverWidth": 1536,
-    "coverHeight": 1024,
+    "cover": "/blog/kodomo-netsu-jushin.jpg",
+    "coverVersion": "871586d0",
+    "coverWidth": 1600,
+    "coverHeight": 900,
     "sources": [
       {
         "label": "日本小児科学会 監修「こどもの救急（ONLINE-QQ）」",
