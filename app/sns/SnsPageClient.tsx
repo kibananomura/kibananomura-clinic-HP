@@ -1,13 +1,14 @@
 "use client";
 
 import Link from "next/link";
-import FadeIn from "../components/FadeIn";
 import SectionHeading from "../components/SectionHeading";
 import { useSite } from "../lib/site";
 import { posts, getPost, getContent } from "../lib/blog";
 import { SNS_FEATURED } from "../lib/sns-featured";
 
-/** Instagram のプロフィールのリンク先。紹介した記事を新しい順に、大きな表紙つきで並べる */
+/** Instagram のプロフィールのリンク先。紹介した記事を新しい順に、大きな表紙つきで並べる。
+ * Instagram・Facebook のアプリ内ブラウザでは、スクロールで表示するアニメーション（FadeIn）が
+ * 動かず白紙に見えることがあるため、このページでは使わない（開いた瞬間に全部見える）。 */
 export default function SnsPageClient() {
   const { lang } = useSite();
   const ja = lang === "ja";
@@ -27,7 +28,7 @@ export default function SnsPageClient() {
   return (
     <section className="section-pad relative overflow-hidden bg-cream page-top">
       <div className="container-page relative">
-        <FadeIn>
+        <div>
           <SectionHeading
             eyebrow="Instagram"
             title={ja ? "Instagramで紹介した記事" : "Posts featured on Instagram"}
@@ -38,11 +39,11 @@ export default function SnsPageClient() {
               ? "見てくださってありがとうございます。いちばん上が、最近紹介した記事です。"
               : "Thank you for visiting. The most recently featured post is at the top."}
           </p>
-        </FadeIn>
+        </div>
 
         <ul className="mx-auto mt-8 grid max-w-3xl gap-4">
           {featured.map((f, i) => (
-            <FadeIn as="li" key={f.key} delay={Math.min(i, 4) * 0.05}>
+            <li key={f.key}>
               <Link
                 href={f.href}
                 className="group flex items-center gap-4 rounded-2xl bg-surface/90 p-3 shadow-card transition-all hover:-translate-y-0.5 hover:shadow-soft sm:p-4"
@@ -72,11 +73,11 @@ export default function SnsPageClient() {
                   {f.date && <span className="mt-1 block text-xs text-ink/60">{f.date}</span>}
                 </span>
               </Link>
-            </FadeIn>
+            </li>
           ))}
         </ul>
 
-        <FadeIn delay={0.1}>
+        <div>
           <h2 className="mx-auto mt-12 max-w-3xl text-base font-bold text-ink">
             {ja ? "そのほかの新しい記事" : "Other recent posts"}
           </h2>
@@ -100,7 +101,7 @@ export default function SnsPageClient() {
               {ja ? "トップページ" : "Home"}
             </Link>
           </div>
-        </FadeIn>
+        </div>
       </div>
     </section>
   );

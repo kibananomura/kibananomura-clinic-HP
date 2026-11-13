@@ -30,7 +30,8 @@ export default function FadeIn({
       className={className}
       initial={shouldReduceMotion ? false : { opacity: 0, y }}
       whileInView={{ opacity: 1, y: 0 }}
-      viewport={{ once: true, margin: "-80px" }}
+      // 余白をマイナスにすると、Instagram・Facebookのアプリ内ブラウザで画面内でも表示されないことがあった（2026-11-14）
+      viewport={{ once: true, amount: 0.05 }}
       transition={{ duration: 0.6, delay, ease: [0.22, 1, 0.36, 1] }}
     >
       {children}

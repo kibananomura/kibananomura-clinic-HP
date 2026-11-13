@@ -9,7 +9,8 @@ import { posts, getContent } from "../lib/blog";
 
 export default function BlogTeaser() {
   const { t, lang } = useSite();
-  const latest = posts.slice(0, 2);
+  // 新着順（posts は日付の古い順）。更新の多さが伝わるよう4本
+  const latest = [...posts].reverse().slice(0, 4);
 
   return (
     <section id="blog" className="section-pad relative overflow-hidden bg-cream">
