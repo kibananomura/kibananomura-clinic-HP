@@ -368,14 +368,14 @@ export const generatedPosts: BlogPost[] = [
         "en": "[Update] Flu in Miyazaki is about 15 times the usual level — RSV has doubled, and watch out for tick-borne infections too"
       },
       {
+        "slug": "kansen-2026-11-2",
+        "ja": "宮崎市の感染症、世代ごとの「注意サイン」〜お子さんは手足口病・胃腸炎、大人は長引くせき、そしてインフルエンザに備えを〜",
+        "en": "Infections in Miyazaki City: warning signs for each generation — hand, foot and mouth disease in kids, lingering coughs in adults, and getting ready for flu"
+      },
+      {
         "slug": "flu-vaccine-timing",
         "ja": "インフルエンザワクチン、いつ打つのが一番いい？〜受験や大切な日から「逆算」する接種スケジュール〜",
         "en": "When is the best time to get a flu shot? — planning backward from exams and other important days"
-      },
-      {
-        "slug": "hotai-card",
-        "ja": "とげが刺さったところが、赤く腫れて自然におさまるのはなぜ？〜白血球と、もうひとつの“見えない守り役”補体の話〜",
-        "en": "Why does a splinter spot swell up and then settle down on its own? — white blood cells, and another “invisible guardian” called complement"
       }
     ]
   },
@@ -5165,14 +5165,14 @@ export const generatedPosts: BlogPost[] = [
         "en": "Your checkup came back \"normal, but at the upper edge\" — what does that mean?"
       },
       {
+        "slug": "kansen-2026-11-2",
+        "ja": "宮崎市の感染症、世代ごとの「注意サイン」〜お子さんは手足口病・胃腸炎、大人は長引くせき、そしてインフルエンザに備えを〜",
+        "en": "Infections in Miyazaki City: warning signs for each generation — hand, foot and mouth disease in kids, lingering coughs in adults, and getting ready for flu"
+      },
+      {
         "slug": "tounyoubyou-kankai",
         "ja": "「糖尿病は一生治らない」は、もう昔の話？〜「寛解」を目指せる時代になりました〜",
         "en": "“Diabetes never goes away” — is that an old idea now? — remission has become a realistic goal"
-      },
-      {
-        "slug": "tsuufuu-hossa-timing",
-        "ja": "痛風発作は「尿酸値が上がる時」と「下がる時」、どっちに起きやすい？〜カギは“急な変化”でした〜",
-        "en": "Do gout attacks happen when uric acid goes up, or when it comes down? — the key turns out to be “sudden change”"
       }
     ]
   },
@@ -6280,6 +6280,11 @@ export const generatedPosts: BlogPost[] = [
     },
     "related": [
       {
+        "slug": "kansen-2026-11-2",
+        "ja": "宮崎市の感染症、世代ごとの「注意サイン」〜お子さんは手足口病・胃腸炎、大人は長引くせき、そしてインフルエンザに備えを〜",
+        "en": "Infections in Miyazaki City: warning signs for each generation — hand, foot and mouth disease in kids, lingering coughs in adults, and getting ready for flu"
+      },
+      {
         "slug": "flu-vaccine-timing",
         "ja": "インフルエンザワクチン、いつ打つのが一番いい？〜受験や大切な日から「逆算」する接種スケジュール〜",
         "en": "When is the best time to get a flu shot? — planning backward from exams and other important days"
@@ -6288,11 +6293,6 @@ export const generatedPosts: BlogPost[] = [
         "slug": "kansen-2026-11",
         "ja": "【続報】宮崎でインフルエンザが例年の約15倍に。RSウイルスも倍増、マダニの感染症にも注意を",
         "en": "[Update] Flu in Miyazaki is about 15 times the usual level — RSV has doubled, and watch out for tick-borne infections too"
-      },
-      {
-        "slug": "hotai-card",
-        "ja": "とげが刺さったところが、赤く腫れて自然におさまるのはなぜ？〜白血球と、もうひとつの“見えない守り役”補体の話〜",
-        "en": "Why does a splinter spot swell up and then settle down on its own? — white blood cells, and another “invisible guardian” called complement"
       }
     ],
     "upcoming": [
@@ -6568,14 +6568,14 @@ export const generatedPosts: BlogPost[] = [
         "en": "If your optional tumor marker test came back high"
       },
       {
+        "slug": "kansen-2026-11-2",
+        "ja": "宮崎市の感染症、世代ごとの「注意サイン」〜お子さんは手足口病・胃腸炎、大人は長引くせき、そしてインフルエンザに備えを〜",
+        "en": "Infections in Miyazaki City: warning signs for each generation — hand, foot and mouth disease in kids, lingering coughs in adults, and getting ready for flu"
+      },
+      {
         "slug": "tounyoubyou-kankai",
         "ja": "「糖尿病は一生治らない」は、もう昔の話？〜「寛解」を目指せる時代になりました〜",
         "en": "“Diabetes never goes away” — is that an old idea now? — remission has become a realistic goal"
-      },
-      {
-        "slug": "tsuufuu-hossa-timing",
-        "ja": "痛風発作は「尿酸値が上がる時」と「下がる時」、どっちに起きやすい？〜カギは“急な変化”でした〜",
-        "en": "Do gout attacks happen when uric acid goes up, or when it comes down? — the key turns out to be “sudden change”"
       }
     ],
     "upcoming": [
@@ -6961,14 +6961,14 @@ export const generatedPosts: BlogPost[] = [
         "en": "When is the best time to get a flu shot? — planning backward from exams and other important days"
       },
       {
+        "slug": "kansen-2026-11-2",
+        "ja": "宮崎市の感染症、世代ごとの「注意サイン」〜お子さんは手足口病・胃腸炎、大人は長引くせき、そしてインフルエンザに備えを〜",
+        "en": "Infections in Miyazaki City: warning signs for each generation — hand, foot and mouth disease in kids, lingering coughs in adults, and getting ready for flu"
+      },
+      {
         "slug": "kansen-2026-11",
         "ja": "【続報】宮崎でインフルエンザが例年の約15倍に。RSウイルスも倍増、マダニの感染症にも注意を",
         "en": "[Update] Flu in Miyazaki is about 15 times the usual level — RSV has doubled, and watch out for tick-borne infections too"
-      },
-      {
-        "slug": "hotai-card",
-        "ja": "とげが刺さったところが、赤く腫れて自然におさまるのはなぜ？〜白血球と、もうひとつの“見えない守り役”補体の話〜",
-        "en": "Why does a splinter spot swell up and then settle down on its own? — white blood cells, and another “invisible guardian” called complement"
       }
     ]
   },
@@ -7290,6 +7290,11 @@ export const generatedPosts: BlogPost[] = [
     },
     "related": [
       {
+        "slug": "kansen-2026-11-2",
+        "ja": "宮崎市の感染症、世代ごとの「注意サイン」〜お子さんは手足口病・胃腸炎、大人は長引くせき、そしてインフルエンザに備えを〜",
+        "en": "Infections in Miyazaki City: warning signs for each generation — hand, foot and mouth disease in kids, lingering coughs in adults, and getting ready for flu"
+      },
+      {
         "slug": "flu-vaccine-timing",
         "ja": "インフルエンザワクチン、いつ打つのが一番いい？〜受験や大切な日から「逆算」する接種スケジュール〜",
         "en": "When is the best time to get a flu shot? — planning backward from exams and other important days"
@@ -7298,11 +7303,6 @@ export const generatedPosts: BlogPost[] = [
         "slug": "kansen-2026-11",
         "ja": "【続報】宮崎でインフルエンザが例年の約15倍に。RSウイルスも倍増、マダニの感染症にも注意を",
         "en": "[Update] Flu in Miyazaki is about 15 times the usual level — RSV has doubled, and watch out for tick-borne infections too"
-      },
-      {
-        "slug": "hotai-card",
-        "ja": "とげが刺さったところが、赤く腫れて自然におさまるのはなぜ？〜白血球と、もうひとつの“見えない守り役”補体の話〜",
-        "en": "Why does a splinter spot swell up and then settle down on its own? — white blood cells, and another “invisible guardian” called complement"
       }
     ]
   },
@@ -8035,6 +8035,11 @@ export const generatedPosts: BlogPost[] = [
       ]
     },
     "related": [
+      {
+        "slug": "kansen-2026-11-2",
+        "ja": "宮崎市の感染症、世代ごとの「注意サイン」〜お子さんは手足口病・胃腸炎、大人は長引くせき、そしてインフルエンザに備えを〜",
+        "en": "Infections in Miyazaki City: warning signs for each generation — hand, foot and mouth disease in kids, lingering coughs in adults, and getting ready for flu"
+      },
       {
         "slug": "kodomo-netsu-jushin",
         "ja": "子どもの熱、何度になったら受診する？〜夜中に迷ったときの見分け方〜",
@@ -10851,14 +10856,14 @@ export const generatedPosts: BlogPost[] = [
         "en": "Is disinfecting a scrape actually counterproductive? Why “wash it, and don't let it dry out” heals faster and cleaner"
       },
       {
+        "slug": "kansen-2026-11-2",
+        "ja": "宮崎市の感染症、世代ごとの「注意サイン」〜お子さんは手足口病・胃腸炎、大人は長引くせき、そしてインフルエンザに備えを〜",
+        "en": "Infections in Miyazaki City: warning signs for each generation — hand, foot and mouth disease in kids, lingering coughs in adults, and getting ready for flu"
+      },
+      {
         "slug": "flu-vaccine-timing",
         "ja": "インフルエンザワクチン、いつ打つのが一番いい？〜受験や大切な日から「逆算」する接種スケジュール〜",
         "en": "When is the best time to get a flu shot? — planning backward from exams and other important days"
-      },
-      {
-        "slug": "kansen-2026-11",
-        "ja": "【続報】宮崎でインフルエンザが例年の約15倍に。RSウイルスも倍増、マダニの感染症にも注意を",
-        "en": "[Update] Flu in Miyazaki is about 15 times the usual level — RSV has doubled, and watch out for tick-borne infections too"
       }
     ]
   },
@@ -11317,6 +11322,11 @@ export const generatedPosts: BlogPost[] = [
         "slug": "kansen-2026-07",
         "ja": "宮崎県内で今、増えている感染症は？ 夏に気をつけたいこと",
         "en": "What infections are on the rise in Miyazaki right now? Things to watch for this summer"
+      },
+      {
+        "slug": "kansen-2026-11-2",
+        "ja": "宮崎市の感染症、世代ごとの「注意サイン」〜お子さんは手足口病・胃腸炎、大人は長引くせき、そしてインフルエンザに備えを〜",
+        "en": "Infections in Miyazaki City: warning signs for each generation — hand, foot and mouth disease in kids, lingering coughs in adults, and getting ready for flu"
       },
       {
         "slug": "influenza-vaccine-mayoi",
@@ -12773,6 +12783,220 @@ export const generatedPosts: BlogPost[] = [
       {
         "ja": "糖尿病だから、ご飯は抜くべき？〜「我慢の食事」から「しっかり食べて体を守る食事」へ〜",
         "en": "I have diabetes — should I skip rice? — from “eating by enduring” to “eating well to protect your body”"
+      }
+    ]
+  },
+  {
+    "slug": "kansen-2026-11-2",
+    "date": "2026.11.14",
+    "cover": "/blog/kibana-landscape.jpg",
+    "coverVersion": "951e262c",
+    "coverWidth": 1536,
+    "coverHeight": 1024,
+    "sources": [
+      {
+        "label": "宮崎県感染症情報センター「宮崎県感染症週報」2026年第45週（11/2〜11/8、11月12日発行）",
+        "url": "https://www.pref.miyazaki.lg.jp/contents/org/fukushi/eikanken/center/infectious/"
+      },
+      {
+        "label": "厚生労働省「インフルエンザ（総合ページ）」",
+        "url": "https://www.mhlw.go.jp/bunya/kenkou/influenza/"
+      },
+      {
+        "label": "厚生労働省「百日咳」",
+        "url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou/kekkaku-kansenshou19/whooping_cough.html"
+      },
+      {
+        "label": "厚生労働省「帯状疱疹ワクチン」",
+        "url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/kenkou/kekkaku-kansenshou/yobou-sesshu/vaccine/shingles/index.html"
+      }
+    ],
+    "ja": {
+      "category": "健康・予防の話",
+      "subcategory": "感染症・ワクチン",
+      "title": "宮崎市の感染症、世代ごとの「注意サイン」〜お子さんは手足口病・胃腸炎、大人は長引くせき、そしてインフルエンザに備えを〜",
+      "excerpt": "警報は出ていない今だからこそ、知っておきたいサインがあります。お子さん・大人・ご高齢の方、世代ごとに気をつけたいことをまとめました。",
+      "body": [
+        {
+          "kind": "text",
+          "text": "11月も中旬になり、朝晩の冷え込みがぐっと強くなってきましたね。"
+        },
+        {
+          "kind": "text",
+          "text": "先にお伝えすると、**今の宮崎市では、警報や注意報が出るほどの大きな流行はありません。ただ、お子さん、働き世代、ご高齢の方と、世代ごとに気をつけたい感染症のサインが出ています。**"
+        },
+        {
+          "kind": "text",
+          "text": "今回のもとになっているのは、11月12日に発表された「宮崎県感染症週報」（11月2日〜8日のデータ）です。「定点あたり」は、「決められた1つの医療機関に、1週間で何人来たか」という意味だと思っていただければ大丈夫です。[前回の続報](/blog/kansen-2026-11)とあわせてお読みください。"
+        },
+        {
+          "kind": "text",
+          "text": "### お子さん編：市内で目立っている感染症"
+        },
+        {
+          "kind": "text",
+          "text": "- **手足口病**：県全体の9人のうち**7人が宮崎市**でした（定点あたり1.40）。夏に多い病気ですが、この時期にも出ています。口の中や手足に小さなほっしん（ぶつぶつ）が出て、口の痛みで食事や水分がとりにくくなることがあります\n- **溶連菌（A群溶血性レンサ球菌咽頭炎）**：市内で9人（定点あたり1.80）と増えています。急な熱とのどの痛みが特徴です\n- **感染性胃腸炎**：市内で19人（定点あたり3.80）と多く、県全体でも増えています\n- **RSウイルス**：市内で4人と減ってきましたが、乳幼児、特に2歳ごろまでのお子さんは引き続き注意が必要です"
+        },
+        {
+          "kind": "text",
+          "text": "保育園や学校から持ち帰ったウイルスは、家の中で広がりやすくなります。"
+        },
+        {
+          "kind": "text",
+          "text": "- 帰ったら、まず石けんで手を洗う\n- タオルは家族で共有せず、一人ずつ分ける\n- おう吐物やおむつの片づけは、使い捨ての手袋とマスクをつけ、ふいたあとは塩素系の消毒剤で"
+        },
+        {
+          "kind": "text",
+          "text": "吐いたあとの水分のとり方は「[吐いたあと、すぐに水を飲ませていませんか？](/blog/kodomo-outo-geri-suibun)」にまとめています。"
+        },
+        {
+          "kind": "text",
+          "text": "### 大人・シニア編：「ただの風邪」と油断できないせき"
+        },
+        {
+          "kind": "text",
+          "text": "宮崎市から、**40代の女性の百日せき**の届け出がありました。マイコプラズマ肺炎の報告も出ています。"
+        },
+        {
+          "kind": "text",
+          "text": "大人の百日せきは、熱があまり出ず、夜に激しくせき込む、せきがいつまでも続く、といった形になりやすい病気です。本人は軽く済んでも、**まだワクチンを受けていない赤ちゃんにうつると、重くなることがあります**。**せきが2週間以上続くとき**は、「そのうち治る」と様子を見すぎずに、受診を考えてください。"
+        },
+        {
+          "kind": "text",
+          "text": "また、**80代の女性が水痘（みずぼうそう）で重症となり、入院した**という報告もありました。水痘のウイルスは、治ったあとも体の中に残り、年齢を重ねて免疫が弱まると「帯状ほうしん」として出てくることがあります。帯状ほうしんにはワクチンがあり、65歳の方などは定期接種の対象です（費用や時期は、お住まいの市町村でご確認ください）。よく眠り、しっかり食べて、体力を落とさないことも大切な予防です。"
+        },
+        {
+          "kind": "text",
+          "text": "### 全世代共通：これから増える「インフルエンザ」への備え"
+        },
+        {
+          "kind": "text",
+          "text": "インフルエンザは、宮崎市で40人（定点あたり4.44）と、市内でいちばん多い感染症です。県全体では少し減りましたが、例年の同じ時期の**約9.6倍**の水準で、**約7割が15歳未満のお子さん**です。"
+        },
+        {
+          "kind": "text",
+          "text": "過去5年のデータを見ると、**例年11月後半から年末にかけて、一気に増える**傾向があります。お子さんから大人、ご高齢の方へと、家の中でうつしあうことも多い病気です。今からできる備えは、次のとおりです。"
+        },
+        {
+          "kind": "text",
+          "text": "- **ワクチン**：まだの方は、早めの接種をご検討ください\n- **換気**：寒くても、1時間に数回、窓を少し開ける\n- **湿度**：加湿器などで、部屋の湿度を50〜60％くらいに\n- **手洗い**：外から帰ったとき、食事の前に"
+        },
+        {
+          "kind": "text",
+          "text": "なお、のどの痛みやせき、鼻水などの「かぜ症状」での受診も、市内で多くなっています（急性呼吸器感染症、定点あたり33.44）。"
+        },
+        {
+          "kind": "text",
+          "text": "### 院長からのメッセージ"
+        },
+        {
+          "kind": "text",
+          "text": "お子さんの急な熱、大人の方の長引くせき、ご高齢の方のちょっとした体調の変化。感染症は、家族の中でつながっています。だからこそ、ご家族の誰かの「いつもと違う」に早めに気づくことが、家族みんなを守ることにつながります。"
+        },
+        {
+          "kind": "text",
+          "text": "気になる症状があるときは、ひとりで抱えこまずに、かかりつけ医などにご相談ください（開院後は当院へ）。内科・外科・小児科のかかりつけ医として、ご家族まとめてお話を伺える場所を目指しています。"
+        }
+      ]
+    },
+    "en": {
+      "category": "Health and prevention",
+      "subcategory": "Infections & vaccines",
+      "title": "Infections in Miyazaki City: warning signs for each generation — hand, foot and mouth disease in kids, lingering coughs in adults, and getting ready for flu",
+      "excerpt": "There are no alerts right now — which makes this the right time to know the signs. Here's what to watch for, generation by generation.",
+      "body": [
+        {
+          "kind": "text",
+          "text": "It's mid-November, and the mornings and evenings have turned much colder."
+        },
+        {
+          "kind": "text",
+          "text": "Let me start with the answer: **Miyazaki City has no outbreaks large enough to trigger an alert or advisory right now. But there are warning signs to watch for in each generation — children, working adults and older people.**"
+        },
+        {
+          "kind": "text",
+          "text": "This article is based on the Miyazaki Prefecture Infectious Disease Weekly Report published on November 12 (data for November 2–8). “Per sentinel” simply means “how many patients one designated medical institution saw in a week.” Please read it together with [our previous update](/blog/kansen-2026-11)."
+        },
+        {
+          "kind": "text",
+          "text": "### For children: infections standing out in the city"
+        },
+        {
+          "kind": "text",
+          "text": "- **Hand, foot and mouth disease**: of 9 cases in the prefecture, **7 were in Miyazaki City** (1.40 per sentinel). It's usually a summer illness, but cases are appearing now too. Small spots appear in the mouth and on the hands and feet, and mouth pain can make eating and drinking hard\n- **Strep throat (group A streptococcal pharyngitis)**: 9 cases in the city (1.80 per sentinel) and rising. A sudden fever and sore throat are typical\n- **Infectious gastroenteritis**: 19 cases in the city (3.80 per sentinel), and rising across the prefecture\n- **RSV**: down to 4 cases in the city, but infants and toddlers — especially up to around age 2 — still need care"
+        },
+        {
+          "kind": "text",
+          "text": "Viruses brought home from nursery or school spread easily within the family."
+        },
+        {
+          "kind": "text",
+          "text": "- Wash hands with soap as soon as you get home\n- Don't share towels; give each person their own\n- When cleaning up vomit or diapers, wear disposable gloves and a mask, and disinfect with a chlorine-based cleaner afterwards"
+        },
+        {
+          "kind": "text",
+          "text": "How to give fluids after vomiting is covered in “[Are you giving water right after vomiting?](/blog/kodomo-outo-geri-suibun)”"
+        },
+        {
+          "kind": "text",
+          "text": "### For adults and seniors: coughs you shouldn't dismiss as “just a cold”"
+        },
+        {
+          "kind": "text",
+          "text": "Miyazaki City reported a case of **whooping cough in a woman in her 40s**, and cases of mycoplasma pneumonia have also been reported."
+        },
+        {
+          "kind": "text",
+          "text": "In adults, whooping cough often comes with little fever, but with violent coughing fits at night or a cough that just won't go away. Even if it's mild for the adult, **it can become serious if passed to a baby who hasn't been vaccinated yet**. **If a cough lasts more than two weeks**, please don't wait it out — consider seeing a doctor."
+        },
+        {
+          "kind": "text",
+          "text": "There was also a report of **a woman in her 80s hospitalized with severe chickenpox**. The chickenpox virus stays in the body after recovery, and as immunity weakens with age it can reappear as shingles. There is a shingles vaccine, and people turning 65, among others, are eligible for the routine vaccination (please check costs and timing with your local municipality). Sleeping well, eating properly and keeping up your strength are also important protection."
+        },
+        {
+          "kind": "text",
+          "text": "### For everyone: getting ready for the flu season ahead"
+        },
+        {
+          "kind": "text",
+          "text": "Influenza is the most common infection in Miyazaki City, with 40 cases (4.44 per sentinel). It dipped slightly across the prefecture, but it's still **about 9.6 times** the usual level for this time of year, and **about 70% of cases are children under 15**."
+        },
+        {
+          "kind": "text",
+          "text": "Looking at the past five years, **flu tends to surge from late November to the end of the year**. It often passes within families, from children to adults and older people. Here's what you can do now:"
+        },
+        {
+          "kind": "text",
+          "text": "- **Vaccination**: if you haven't had it yet, please consider getting it soon\n- **Ventilation**: even when it's cold, open a window a little a few times an hour\n- **Humidity**: keep rooms at around 50–60% with a humidifier\n- **Handwashing**: when you come home and before meals"
+        },
+        {
+          "kind": "text",
+          "text": "Visits for cold-like symptoms such as sore throat, cough and runny nose are also common in the city (acute respiratory infections, 33.44 per sentinel)."
+        },
+        {
+          "kind": "text",
+          "text": "### A message from the director"
+        },
+        {
+          "kind": "text",
+          "text": "A child's sudden fever, an adult's lingering cough, a small change in an older family member's health — infections are connected within a family. That's why noticing early when someone “isn't quite themselves” helps protect everyone."
+        },
+        {
+          "kind": "text",
+          "text": "If you're worried about symptoms, please don't keep it to yourself — talk with a doctor such as your regular physician. As a family doctor for internal medicine, surgery and pediatrics, we aim to be a place where the whole family can talk with us together once we open."
+        }
+      ]
+    },
+    "related": [
+      {
+        "slug": "kansen-2026-11",
+        "ja": "【続報】宮崎でインフルエンザが例年の約15倍に。RSウイルスも倍増、マダニの感染症にも注意を",
+        "en": "[Update] Flu in Miyazaki is about 15 times the usual level — RSV has doubled, and watch out for tick-borne infections too"
+      },
+      {
+        "slug": "kodomo-outo-geri-suibun",
+        "ja": "吐いたあと、すぐに水を飲ませていませんか？〜子どものおう吐・下痢のときの水分のとり方〜",
+        "en": "Giving water right after your child vomits? — How to give fluids when children have vomiting and diarrhea"
       }
     ]
   }
