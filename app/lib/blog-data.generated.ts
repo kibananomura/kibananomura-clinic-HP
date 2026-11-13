@@ -12855,7 +12855,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "宮崎市から、**40代の女性の百日せき**の届け出がありました。マイコプラズマ肺炎の報告も出ています。"
+          "text": "宮崎市から、**大人の百日せき**の届け出がありました。マイコプラズマ肺炎の報告も出ています。"
         },
         {
           "kind": "text",
@@ -12863,7 +12863,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "また、**80代の女性が水痘（みずぼうそう）で重症となり、入院した**という報告もありました。水痘のウイルスは、治ったあとも体の中に残り、年齢を重ねて免疫が弱まると「帯状ほうしん」として出てくることがあります。帯状ほうしんにはワクチンがあり、65歳の方などは定期接種の対象です（費用や時期は、お住まいの市町村でご確認ください）。よく眠り、しっかり食べて、体力を落とさないことも大切な予防です。"
+          "text": "また、**ご高齢の方が水痘（みずぼうそう）で入院した**という報告もありました。水痘のウイルスは、治ったあとも体の中に残り、年齢を重ねて免疫が弱まると「帯状ほうしん」として出てくることがあります。帯状ほうしんにはワクチンがあり、65歳の方などは定期接種の対象です（費用や時期は、お住まいの市町村でご確認ください）。よく眠り、しっかり食べて、体力を落とさないことも大切な予防です。"
         },
         {
           "kind": "text",
@@ -12943,7 +12943,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "Miyazaki City reported a case of **whooping cough in a woman in her 40s**, and cases of mycoplasma pneumonia have also been reported."
+          "text": "Miyazaki City reported a case of **whooping cough in an adult**, and cases of mycoplasma pneumonia have also been reported."
         },
         {
           "kind": "text",
@@ -12951,7 +12951,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "There was also a report of **a woman in her 80s hospitalized with severe chickenpox**. The chickenpox virus stays in the body after recovery, and as immunity weakens with age it can reappear as shingles. There is a shingles vaccine, and people turning 65, among others, are eligible for the routine vaccination (please check costs and timing with your local municipality). Sleeping well, eating properly and keeping up your strength are also important protection."
+          "text": "There was also a report of **an older person hospitalized with chickenpox**. The chickenpox virus stays in the body after recovery, and as immunity weakens with age it can reappear as shingles. There is a shingles vaccine, and people turning 65, among others, are eligible for the routine vaccination (please check costs and timing with your local municipality). Sleeping well, eating properly and keeping up your strength are also important protection."
         },
         {
           "kind": "text",
