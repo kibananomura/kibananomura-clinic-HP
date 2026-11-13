@@ -66,6 +66,25 @@ export interface SiteDict {
     purpose: string;
     philosophyLabel: string;
     philosophy: string;
+    mottoLabel: string;
+    motto: string;
+    mottoNote: string;
+  };
+  /** 「当院の想い」ページ（/about）とホームのパーパス帯 */
+  about: {
+    navLabel: string;
+    eyebrow: string;
+    heading: string;
+    intro: string;
+    bandLabel: string;
+    bandLink: string;
+    whyHeading: string;
+    whyBody: string[];
+    layersHeading: string;
+    linksHeading: string;
+    directorLink: string;
+    blogLink: string;
+    careersLink: string;
   };
   features: {
     eyebrow: string;
@@ -174,6 +193,7 @@ export interface SiteDict {
     /** プライバシーポリシーの「ホームページの安全性について」（/privacy#security）へのリンク */
     securityLabel: string;
     careersLabel: string;
+    aboutLabel: string;
     firstVisitLabel: string;
     faqLabel: string;
     contactLabel: string;
@@ -329,6 +349,7 @@ const ja: SiteDict = {
     backHome: "トップへ戻る",
   },
   nav: [
+    { href: "/about", label: "当院の想い" },
     { href: "/#director", label: "院長あいさつ" },
     { href: "/blog", label: "院長ブログ" },
     { href: "/services", label: "診療案内" },
@@ -403,6 +424,28 @@ const ja: SiteDict = {
     purpose: "「医療がいらない明日」をつくる。",
     philosophyLabel: "すべての芯にある経営理念",
     philosophy: "地域の人々が安心して相談できる、心と医療のより所であり続ける。",
+    mottoLabel: "合言葉",
+    motto: "患者さんもスタッフもみんなを笑顔にするクリニック",
+    mottoNote: "患者さんの笑顔は、スタッフが安心して働ける環境があってはじめて生まれるものだと考えています。",
+  },
+  about: {
+    navLabel: "当院の想い",
+    eyebrow: "当院の想い",
+    heading: "なぜ、この診療所をつくるのか",
+    intro: "木花のむら総合診療所が、どんな思いで開院の準備をしているのか。いちばん大切にしている「なぜ」からお伝えします。",
+    bandLabel: "私たちのパーパス（存在意義）",
+    bandLink: "当院の想いを読む →",
+    whyHeading: "「医療がいらない明日」とは",
+    whyBody: [
+      "医療の役目は、検査を重ね、お薬を出し続けることだけではないと考えています。病気や痛みのことを忘れて、仕事や子育て、趣味を思いきり楽しめる毎日。そのお手伝いをすることが、私たちの目指すことです。",
+      "とはいえ、お薬や通院が欠かせない方もいらっしゃいます。「医療がいらない」とは、どなたかにお薬をやめていただくことではありません。病気や治療に、暮らしを邪魔させないこと。そのために、一人ひとりに合った方法を一緒に考えます。",
+      "そして、困ったときにはまっ先に頼っていただける場所であり続けること。すべての芯にある経営理念には、その思いを込めました。",
+    ],
+    layersHeading: "私たちが大切にしていること",
+    linksHeading: "あわせて読む",
+    directorLink: "院長あいさつを読む",
+    blogLink: "院長ブログを読む",
+    careersLink: "一緒に働きたい方へ（職員募集）",
   },
   features: {
     eyebrow: "当院の特徴",
@@ -675,6 +718,7 @@ const ja: SiteDict = {
     privacyLabel: "プライバシーポリシー",
     securityLabel: "ホームページの安全性",
     careersLabel: "医療関係者向け",
+    aboutLabel: "当院の想い",
     firstVisitLabel: "初診の方へ",
     faqLabel: "よくある質問",
     contactLabel: "お問い合わせ",
@@ -1198,6 +1242,7 @@ const en: SiteDict = {
     backHome: "Back to home",
   },
   nav: [
+    { href: "/about", label: "Our Purpose" },
     { href: "/#director", label: "Director" },
     { href: "/blog", label: "Blog" },
     { href: "/services", label: "Services" },
@@ -1271,6 +1316,28 @@ const en: SiteDict = {
     purpose: "To build a tomorrow where you no longer need medical care.",
     philosophyLabel: "The philosophy at the heart of everything",
     philosophy: "To remain a place of support for both heart and health, where people in our community can feel safe to ask anything.",
+    mottoLabel: "Our motto",
+    motto: "A clinic where both patients and staff can smile",
+    mottoNote: "We believe patients' smiles start with staff who feel safe and supported at work.",
+  },
+  about: {
+    navLabel: "Our Purpose",
+    eyebrow: "Our Purpose",
+    heading: "Why we are building this clinic",
+    intro: "What drives Kibana Nomura General Medicine Clinic as we prepare to open? We'd like to start with the \"why\" that matters most to us.",
+    bandLabel: "Our purpose",
+    bandLink: "Read about our purpose →",
+    whyHeading: "What we mean by \"a tomorrow where you no longer need medical care\"",
+    whyBody: [
+      "We believe the role of medicine is not only to repeat tests and keep prescribing. Our aim is to help you enjoy days when you can forget about illness and pain and throw yourself into work, parenting and hobbies.",
+      "Some people do need ongoing medication and visits. \"No longer needing medical care\" does not mean asking anyone to stop their medication. It means not letting illness or treatment get in the way of your life, and working out together the approach that suits you.",
+      "And we want to remain the place you can turn to first when you're in trouble. That is the thought behind the philosophy at the heart of everything we do.",
+    ],
+    layersHeading: "What we value",
+    linksHeading: "Read more",
+    directorLink: "Read the director's greeting",
+    blogLink: "Read the director's blog",
+    careersLink: "Work with us (careers)",
   },
   features: {
     eyebrow: "Why Us",
@@ -1547,6 +1614,7 @@ const en: SiteDict = {
     privacyLabel: "Privacy Policy",
     securityLabel: "Website security",
     careersLabel: "For medical professionals",
+    aboutLabel: "Our Purpose",
     firstVisitLabel: "First visit",
     faqLabel: "FAQ",
     contactLabel: "Contact",

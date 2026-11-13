@@ -160,6 +160,9 @@ export default function Footer() {
             <Link href="/news" className="inline-block py-1.5 text-white/60 transition-colors hover:text-white">
               {t.footer.newsLabel}
             </Link>
+            <Link href="/about" className="inline-block py-1.5 text-white/60 transition-colors hover:text-white">
+              {t.footer.aboutLabel}
+            </Link>
             <Link href="/careers" className="inline-block py-1.5 text-white/60 transition-colors hover:text-white">
               {t.footer.careersLabel}
             </Link>
