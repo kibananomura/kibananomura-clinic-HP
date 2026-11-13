@@ -1,6 +1,6 @@
 ---
 date: 2026.11.19
-cover: /blog/kibana-landscape.jpg
+cover: /blog/ashi-kutsu-erabi.jpg
 category_ja: 健康・予防の話
 category_en: Health and prevention
 subcategory_ja: 足・腰・けが
