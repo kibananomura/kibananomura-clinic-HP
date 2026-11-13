@@ -4116,10 +4116,10 @@ export const generatedPosts: BlogPost[] = [
   {
     "slug": "kansen-dousen-bunri",
     "date": "2026.10.07",
-    "cover": "/blog/kibana-landscape.jpg",
-    "coverVersion": "951e262c",
-    "coverWidth": 1536,
-    "coverHeight": 1024,
+    "cover": "/blog/kansen-dousen-bunri.jpg",
+    "coverVersion": "afebf2c0",
+    "coverWidth": 1600,
+    "coverHeight": 900,
     "ja": {
       "category": "診療所づくり",
       "title": "発熱の方の動線を、他の患者さんと完全に分けている理由",

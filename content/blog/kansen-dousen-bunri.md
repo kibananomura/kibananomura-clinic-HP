@@ -1,6 +1,6 @@
 ---
 date: 2026.10.07
-cover: /blog/kibana-landscape.jpg
+cover: /blog/kansen-dousen-bunri.jpg
 category_ja: 診療所づくり
 category_en: Building the clinic
 title_ja: 発熱の方の動線を、他の患者さんと完全に分けている理由
