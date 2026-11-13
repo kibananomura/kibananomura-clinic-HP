@@ -1,6 +1,6 @@
 ---
 date: 2026.11.16
-cover: /blog/kibana-landscape.jpg
+cover: /blog/purin-tai-yurai.jpg
 category_ja: 健康・予防の話
 category_en: Health and prevention
 subcategory_ja: コレステロール・尿酸
