@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-12T10:52:35.750Z",
+  "generatedAt": "2026-11-14T02:18:37.906Z",
   "categories": [
     {
       "label": "労務規程一式（就業規則・賃金規程・各種規程）",
@@ -263,8 +263,8 @@
           "blobUrl": "https://ck8huzl3ywaclnro.private.blob.vercel-storage.com/pre-opening-training/00_%E7%90%86%E5%BF%B5%E3%81%AE%E4%BD%93%E7%B3%BB%E3%81%A8%E8%A1%8C%E5%8B%95%E6%8C%87%E9%87%9D.pdf",
           "htmlUrl": "/admin-docs/pre-opening-training/00_%E7%90%86%E5%BF%B5%E3%81%AE%E4%BD%93%E7%B3%BB%E3%81%A8%E8%A1%8C%E5%8B%95%E6%8C%87%E9%87%9D.html",
           "blobHtmlUrl": "https://ck8huzl3ywaclnro.private.blob.vercel-storage.com/pre-opening-training/00_%E7%90%86%E5%BF%B5%E3%81%AE%E4%BD%93%E7%B3%BB%E3%81%A8%E8%A1%8C%E5%8B%95%E6%8C%87%E9%87%9D.html",
-          "sizeKB": 2409,
-          "modified": "2026-11-12"
+          "sizeKB": 2418,
+          "modified": "2026-11-14"
         },
         {
           "name": "01_研修カリキュラム",
@@ -336,7 +336,7 @@
           "htmlUrl": "/admin-docs/pre-opening-training/10_T-06_%E3%83%9F%E3%83%83%E3%82%B7%E3%83%A7%E3%83%B3%E3%83%BB%E3%83%93%E3%82%B8%E3%83%A7%E3%83%B3%E5%AE%9F%E8%B7%B5%E3%82%AC%E3%82%A4%E3%83%89%EF%BC%88%E3%82%AF%E3%83%AC%E3%83%89%EF%BC%89.html",
           "blobHtmlUrl": "https://ck8huzl3ywaclnro.private.blob.vercel-storage.com/pre-opening-training/10_T-06_%E3%83%9F%E3%83%83%E3%82%B7%E3%83%A7%E3%83%B3%E3%83%BB%E3%83%93%E3%82%B8%E3%83%A7%E3%83%B3%E5%AE%9F%E8%B7%B5%E3%82%AC%E3%82%A4%E3%83%89%EF%BC%88%E3%82%AF%E3%83%AC%E3%83%89%EF%BC%89.html",
           "sizeKB": 1042,
-          "modified": "2026-11-12"
+          "modified": "2026-11-14"
         }
       ]
     },
