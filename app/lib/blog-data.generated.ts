@@ -10087,7 +10087,7 @@ export const generatedPosts: BlogPost[] = [
     "slug": "shita-no-ketsuatsu",
     "date": "2026.11.04",
     "cover": "/blog/shita-no-ketsuatsu.jpg",
-    "coverVersion": "da8cd6a3",
+    "coverVersion": "825082c5",
     "coverWidth": 1600,
     "coverHeight": 900,
     "sources": [
