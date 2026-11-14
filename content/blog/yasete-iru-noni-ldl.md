@@ -16,7 +16,7 @@ sources:
 
 ## ja
 
-「太っていないし、食事にも気をつけているのに、どうしてコレステロールが高いんでしょう」「薬で下がったのでやめてみたら、すぐ元に戻ってしまって……」。診察室で、本当によくお聞きするお悩みです。
+「太っていないし、食事にも気をつけているのに、どうしてコレステロールが高いんでしょう」「薬で下がったのでやめてみたら、すぐ元に戻ってしまって……」。これまでの診察室で、本当によくお聞きしてきたお悩みです。
 
 スリムなのにどうして？　と思いますよね。頑張っているのに報われない気がして、がっかりされるお気持ちもよく分かります。
 
@@ -66,7 +66,7 @@ sources:
 
 ## en
 
-“I'm not overweight and I watch what I eat — so why is my cholesterol high?” “It came down with the medicine, so I stopped, and it went right back up…” These are concerns we hear in the clinic all the time.
+“I'm not overweight and I watch what I eat — so why is my cholesterol high?” “It came down with the medicine, so I stopped, and it went right back up…” These are concerns I've heard many times over my years in practice.
 
 Slim, and still high? It's natural to feel puzzled — and a little discouraged, as if your efforts aren't paying off.
 
