@@ -33,11 +33,11 @@ sources:
 
 実は、この痛みの仕組みはまだはっきりとは分かっていません。いくつかの説があり、人や場面によって組み合わさって起きると考えられています。
 
-**① 呼吸の筋肉が引っ張られる（右のわき腹に多い）**
-肺の下には、横隔膜（おうかくまく：息を吸ったりはいたりするときに上下に動く、ドーム状の筋肉）があります。走ると呼吸が速くなり、横隔膜は休みなく動きます。そこへ着地の振動で、すぐ下にある重たい肝臓が上下に揺れ、横隔膜やお腹の内側をおおう膜が引っ張られます。足がつるのに近い状態が、わき腹で起きているとイメージしてください。
+**① 呼吸の筋肉やお腹の膜が引っ張られる**
+肺の下には、横隔膜（おうかくまく：息を吸ったりはいたりするときに上下に動く、ドーム状の筋肉）があります。走ると呼吸が速くなり、横隔膜は休みなく動きます。そこへ着地の振動で、すぐ下にある重たい肝臓が上下に揺れ、横隔膜やお腹の内側をおおう膜が引っ張られます。足がつるのに近い状態が、わき腹で起きているとイメージしてください。最近は、この膜がこすれて刺激されることが主な原因ではないか、という説が有力です。
 
-**② 血液の予備タンクがギュッと縮む（左のわき腹に多い）**
-左のわき腹の奥には、ひ臓という、血液をためておく予備タンクのような臓器があります。急に走り出すと、体は筋肉にたくさんの血液を送ろうとして、ひ臓をギュッと縮めます。その動きが痛みとして感じられる、という説です。
+**② ひ臓がギュッと縮む（古くからある説）**
+左のわき腹の奥には、ひ臓という臓器があります。急に走り出すと、筋肉に血液を送ろうとしてひ臓が縮み、その動きが痛みになる、と昔から言われてきました。ただ、今ではこの説の裏付けは弱いと考えられています。
 
 **③ 胃腸の血液不足と揺れ（食後すぐに走ったとき）**
 食後の胃腸は、消化のために多くの血液を必要としています。そのタイミングで走ると、血液は脚の筋肉へ優先して回され、胃腸が一時的に血液不足になります。食べ物や飲み物で重くなった胃腸が揺さぶられることも、痛みにつながります。
@@ -60,11 +60,13 @@ sources:
 
 **こんなときは、早めに医療機関へ**
 - 走るのをやめて休んでも痛みが引かない、どんどん強くなる
-- お腹の右下が痛む（虫垂炎、いわゆる「盲腸」のこともあります）、冷や汗・吐き気・熱をともなう
+- 休んでも、お腹の右下の痛みが続く（虫垂炎、いわゆる「盲腸」のこともあります）
+- 冷や汗・吐き気・熱をともなう
 - 走っていない普段の生活でも同じ場所が痛む、便に血が混じる
-- 胸の痛みや息苦しさをともなう
 
-これらは、走ったことによる一時的な痛みとは別の原因が隠れているサインです。かかりつけ医などにご相談ください（開院後は当院へ）。お腹の右下の痛みについては「[右下腹部が痛い、もしかして盲腸？](/blog/kaicho-mattan-en)」や[虫垂炎の解説ページ](/diseases/appendicitis)にもまとめています。
+**胸の痛みや強い息苦しさがあるときは、ためらわず119番を。** 心臓の病気が隠れていることがあります。
+
+上の項目に当てはまるときは、走ったことによる一時的な痛みとは別の原因が隠れているかもしれません。かかりつけ医などにご相談ください（開院後は当院へ）。お腹の右下の痛みについては「[右下腹部が痛い、もしかして盲腸？](/blog/kaicho-mattan-en)」や[虫垂炎の解説ページ](/diseases/appendicitis)にもまとめています。
 
 部活や大会で走るお子さんには、貧血が隠れていることもあります。「[鉄分をとっているのに、貧血が良くならない？](/blog/tetsu-vitamin-c-ekiden)」もあわせてどうぞ。わき腹の痛みは、体が一生懸命に血液と呼吸を調整しているサインです。ゆっくり付き合いながら、走る楽しさを続けていきましょう。
 
@@ -84,11 +86,11 @@ Here's what we'll cover:
 
 The truth is, the exact mechanism still isn't fully understood. There are several theories, and they may combine differently depending on the person and the situation.
 
-**1. Your breathing muscle gets pulled (more common on the right)**
-Below your lungs sits the diaphragm, a dome-shaped muscle that moves up and down as you breathe in and out. When you run, your breathing speeds up and the diaphragm works nonstop. On top of that, each footstrike jolts the heavy liver just beneath it, tugging on the diaphragm and the lining on the inside of your abdomen. Think of it as something like a leg cramp, but happening in your side.
+**1. Your breathing muscle and abdominal lining get pulled**
+Below your lungs sits the diaphragm, a dome-shaped muscle that moves up and down as you breathe in and out. When you run, your breathing speeds up and the diaphragm works nonstop. On top of that, each footstrike jolts the heavy liver just beneath it, tugging on the diaphragm and the lining on the inside of your abdomen. Think of it as something like a leg cramp, but happening in your side. These days, a leading theory is that irritation from this lining rubbing is the main cause.
 
-**2. Your "reserve blood tank" squeezes (more common on the left)**
-Deep in your left side is the spleen, an organ that works a bit like a reserve tank for blood. When you suddenly start running, your body squeezes the spleen to send extra blood to your muscles. One theory is that this squeeze is felt as pain.
+**2. The spleen squeezes (an older theory)**
+Deep in your left side is the spleen. It has long been said that when you suddenly start running, the spleen contracts to send blood to your muscles, and that this is felt as pain. Today, though, the evidence for this theory is considered weak.
 
 **3. Less blood flow and more jostling in the gut (after eating)**
 After a meal, your stomach and intestines need plenty of blood to digest. If you run then, blood gets diverted to your leg muscles, and your gut runs short for a while. A stomach and intestines weighed down with food or drink also get shaken around, which can add to the pain.
@@ -111,10 +113,12 @@ In most cases, the pain eases after a few minutes of this.
 
 **See a doctor promptly if**
 - The pain doesn't go away after you stop and rest, or keeps getting worse
-- The pain is in your lower right abdomen (this can be appendicitis), or comes with a cold sweat, nausea, or fever
+- Pain in your lower right abdomen continues even after resting (this can be appendicitis)
+- It comes with a cold sweat, nausea, or fever
 - The same spot hurts in everyday life, even when you're not running, or there is blood in your stool
-- You have chest pain or shortness of breath
 
-These are signs that something other than a running stitch may be going on. Please talk to your family doctor or another physician (and to us once we open). For pain in the lower right abdomen, see "[Pain in your lower right belly — is it appendicitis?](/blog/kaicho-mattan-en)" and our [appendicitis page](/diseases/appendicitis).
+**If you have chest pain or severe shortness of breath, call an ambulance (119 in Japan) without hesitation.** A heart problem may be involved.
+
+If any of the signs above apply, something other than a running stitch may be going on. Please talk to your family doctor or another physician (and to us once we open). For pain in the lower right abdomen, see "[Pain in your lower right belly — is it appendicitis?](/blog/kaicho-mattan-en)" and our [appendicitis page](/diseases/appendicitis).
 
 Children who run in clubs and races can also have hidden anemia — see "[Taking iron, but your anemia isn't improving?](/blog/tetsu-vitamin-c-ekiden)" too. A side stitch is your body working hard to balance blood flow and breathing. Go easy on yourself, and keep enjoying your runs.
