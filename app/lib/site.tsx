@@ -439,7 +439,7 @@ const ja: SiteDict = {
     whyBody: [
       "医療の役目は、検査を重ね、お薬を出し続けることだけではないと考えています。病気や痛みのことを忘れて、仕事や子育て、趣味を思いきり楽しめる毎日。そのお手伝いをすることが、私たちの目指すことです。",
       "とはいえ、お薬や通院が欠かせない方もいらっしゃいます。「医療を忘れていられる」とは、治療をやめることではありません。必要な治療は続けながら、病気に暮らしを邪魔させないこと。そのために、一人ひとりに合った方法を一緒に考えます。",
-      "そして、困ったときにはまっ先に頼っていただける場所であり続けること。すべての芯にある経営理念には、その思いを込めました。",
+      "診療所を出たあとは、いつもの毎日を思いきり楽しんでいただく。そして何かあったときには、「あそこに木花のむら総合診療所があるから安心」と思っていただける。道や公園のように、地域の景色の一部として、いつもそこにある存在になりたいと考えています。すべての芯にある経営理念には、その思いを込めました。",
     ],
     layersHeading: "私たちが大切にしていること",
     linksHeading: "あわせて読む",
@@ -1331,7 +1331,7 @@ const en: SiteDict = {
     whyBody: [
       "We believe the role of medicine is not only to repeat tests and keep prescribing. Our aim is to help you enjoy days when you can forget about illness and pain and throw yourself into work, parenting and hobbies.",
       "Some people do need ongoing medication and visits. \"Forgetting about medical care\" does not mean stopping treatment. It means continuing the care you need while not letting illness get in the way of your life, and working out together the approach that suits you.",
-      "And we want to remain the place you can turn to first when you're in trouble. That is the thought behind the philosophy at the heart of everything we do.",
+      "Once you leave the clinic, we want you to enjoy your everyday life to the full. And when something happens, we want you to feel, \"It's all right — Kibana Nomura General Medicine Clinic is right there.\" Like a road or a park, we hope to become part of the local landscape, always there when you need it. That is the thought behind the philosophy at the heart of everything we do.",
     ],
     layersHeading: "What we value",
     linksHeading: "Read more",
