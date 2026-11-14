@@ -5170,9 +5170,9 @@ export const generatedPosts: BlogPost[] = [
         "en": "Infections in Miyazaki City: warning signs for each generation — hand, foot and mouth disease in kids, lingering coughs in adults, and getting ready for flu"
       },
       {
-        "slug": "tounyoubyou-kankai",
-        "ja": "「糖尿病は一生治らない」は、もう昔の話？〜「寛解」を目指せる時代になりました〜",
-        "en": "“Diabetes never goes away” — is that an old idea now? — remission has become a realistic goal"
+        "slug": "ashi-tako-sign",
+        "ja": "その足のタコや小さな傷、「たかが」で済ませていませんか？〜足は全身の鏡。今日からできるセルフチェック〜",
+        "en": "Are you brushing off those calluses and small cuts on your feet? — your feet mirror your whole body: a self-check you can start today"
       }
     ]
   },
@@ -6573,9 +6573,9 @@ export const generatedPosts: BlogPost[] = [
         "en": "Infections in Miyazaki City: warning signs for each generation — hand, foot and mouth disease in kids, lingering coughs in adults, and getting ready for flu"
       },
       {
-        "slug": "tounyoubyou-kankai",
-        "ja": "「糖尿病は一生治らない」は、もう昔の話？〜「寛解」を目指せる時代になりました〜",
-        "en": "“Diabetes never goes away” — is that an old idea now? — remission has become a realistic goal"
+        "slug": "ashi-tako-sign",
+        "ja": "その足のタコや小さな傷、「たかが」で済ませていませんか？〜足は全身の鏡。今日からできるセルフチェック〜",
+        "en": "Are you brushing off those calluses and small cuts on your feet? — your feet mirror your whole body: a self-check you can start today"
       }
     ],
     "upcoming": [
@@ -6730,6 +6730,11 @@ export const generatedPosts: BlogPost[] = [
     },
     "related": [
       {
+        "slug": "ashi-tako-sign",
+        "ja": "その足のタコや小さな傷、「たかが」で済ませていませんか？〜足は全身の鏡。今日からできるセルフチェック〜",
+        "en": "Are you brushing off those calluses and small cuts on your feet? — your feet mirror your whole body: a self-check you can start today"
+      },
+      {
         "slug": "ashi-nanika",
         "ja": "足が痛い、むくむ。でも、何科に行けばいいの？〜日本で遅れていた「足の医療」と、受診のコツ〜",
         "en": "My feet hurt and swell — but which department should I see? — Japan's late start in “foot medicine,” and tips for getting care"
@@ -6738,11 +6743,6 @@ export const generatedPosts: BlogPost[] = [
         "slug": "shibire-shinkei-saisei",
         "ja": "足のしびれは、治る？残る？〜神経の修復力と、しびれと上手に付き合うということ〜",
         "en": "Will the numbness in my leg go away, or will it stay? — the nerve's power to repair, and learning to live well with numbness"
-      },
-      {
-        "slug": "kizu-shoudoku",
-        "ja": "すり傷に消毒、実は逆効果？——「洗って、乾かさない」が早くきれいに治すコツ",
-        "en": "Is disinfecting a scrape actually counterproductive? Why “wash it, and don't let it dry out” heals faster and cleaner"
       }
     ]
   },
@@ -7637,25 +7637,14 @@ export const generatedPosts: BlogPost[] = [
     },
     "related": [
       {
+        "slug": "ashi-tako-sign",
+        "ja": "その足のタコや小さな傷、「たかが」で済ませていませんか？〜足は全身の鏡。今日からできるセルフチェック〜",
+        "en": "Are you brushing off those calluses and small cuts on your feet? — your feet mirror your whole body: a self-check you can start today"
+      },
+      {
         "slug": "hotai-card",
         "ja": "とげが刺さったところが、赤く腫れて自然におさまるのはなぜ？〜白血球と、もうひとつの“見えない守り役”補体の話〜",
         "en": "Why does a splinter spot swell up and then settle down on its own? — white blood cells, and another “invisible guardian” called complement"
-      },
-      {
-        "slug": "ashi-nanika",
-        "ja": "足が痛い、むくむ。でも、何科に行けばいいの？〜日本で遅れていた「足の医療」と、受診のコツ〜",
-        "en": "My feet hurt and swell — but which department should I see? — Japan's late start in “foot medicine,” and tips for getting care"
-      },
-      {
-        "slug": "shibire-shinkei-saisei",
-        "ja": "足のしびれは、治る？残る？〜神経の修復力と、しびれと上手に付き合うということ〜",
-        "en": "Will the numbness in my leg go away, or will it stay? — the nerve's power to repair, and learning to live well with numbness"
-      }
-    ],
-    "upcoming": [
-      {
-        "ja": "その足のタコや小さな傷、「たかが」で済ませていませんか？〜足は全身の鏡。今日からできるセルフチェック〜",
-        "en": "Are you brushing off those calluses and small cuts on your feet? — your feet mirror your whole body: a self-check you can start today"
       }
     ]
   },
@@ -11576,14 +11565,14 @@ export const generatedPosts: BlogPost[] = [
         "en": "My feet hurt and swell — but which department should I see? — Japan's late start in “foot medicine,” and tips for getting care"
       },
       {
+        "slug": "ashi-tako-sign",
+        "ja": "その足のタコや小さな傷、「たかが」で済ませていませんか？〜足は全身の鏡。今日からできるセルフチェック〜",
+        "en": "Are you brushing off those calluses and small cuts on your feet? — your feet mirror your whole body: a self-check you can start today"
+      },
+      {
         "slug": "kizu-shoudoku",
         "ja": "すり傷に消毒、実は逆効果？——「洗って、乾かさない」が早くきれいに治すコツ",
         "en": "Is disinfecting a scrape actually counterproductive? Why “wash it, and don't let it dry out” heals faster and cleaner"
-      },
-      {
-        "slug": "shukketsu-shashin-onegai",
-        "ja": "血が出たら、まずスマホで一枚撮ってください",
-        "en": "If you're bleeding, snap a photo on your phone first"
       }
     ]
   },
@@ -12045,6 +12034,11 @@ export const generatedPosts: BlogPost[] = [
     },
     "related": [
       {
+        "slug": "ashi-tako-sign",
+        "ja": "その足のタコや小さな傷、「たかが」で済ませていませんか？〜足は全身の鏡。今日からできるセルフチェック〜",
+        "en": "Are you brushing off those calluses and small cuts on your feet? — your feet mirror your whole body: a self-check you can start today"
+      },
+      {
         "slug": "jushin-meiro",
         "ja": "「何科に行けばいいかわからない」をなくしたい",
         "en": "I want to end 'which department do I even go to?'"
@@ -12056,10 +12050,6 @@ export const generatedPosts: BlogPost[] = [
       }
     ],
     "upcoming": [
-      {
-        "ja": "その足のタコや小さな傷、「たかが」で済ませていませんか？〜足は全身の鏡。今日からできるセルフチェック〜",
-        "en": "Are you brushing off those calluses and small cuts on your feet? — your feet mirror your whole body: a self-check you can start today"
-      },
       {
         "ja": "足が痛いのは、年齢や遺伝のせい？〜外反母趾・扁平足と「靴」の深い関係。子どもの靴選びから見直そう〜",
         "en": "Is foot pain just age or genes? — the close link between bunions, flat feet and shoes, starting with how we choose children's shoes"
@@ -12765,6 +12755,11 @@ export const generatedPosts: BlogPost[] = [
     },
     "related": [
       {
+        "slug": "ashi-tako-sign",
+        "ja": "その足のタコや小さな傷、「たかが」で済ませていませんか？〜足は全身の鏡。今日からできるセルフチェック〜",
+        "en": "Are you brushing off those calluses and small cuts on your feet? — your feet mirror your whole body: a self-check you can start today"
+      },
+      {
         "slug": "kusuri-yamerarenai",
         "ja": "「お薬は一生やめられない」は誤解です",
         "en": "'Once you start, you can never stop' is a myth"
@@ -12777,12 +12772,265 @@ export const generatedPosts: BlogPost[] = [
     ],
     "upcoming": [
       {
-        "ja": "その足のタコや小さな傷、「たかが」で済ませていませんか？〜足は全身の鏡。今日からできるセルフチェック〜",
-        "en": "Are you brushing off those calluses and small cuts on your feet? — your feet mirror your whole body: a self-check you can start today"
-      },
-      {
         "ja": "糖尿病だから、ご飯は抜くべき？〜「我慢の食事」から「しっかり食べて体を守る食事」へ〜",
         "en": "I have diabetes — should I skip rice? — from “eating by enduring” to “eating well to protect your body”"
+      },
+      {
+        "ja": "1日1万歩じゃなくても大丈夫？〜60歳からは「まず5,000歩」。スマホで楽しく続けるコツ〜",
+        "en": "Do you really need 10,000 steps a day? — after 60, “start with 5,000,” plus tips for keeping it fun with your smartphone"
+      }
+    ]
+  },
+  {
+    "slug": "ashi-tako-sign",
+    "date": "2026.11.14",
+    "cover": "/blog/ashi-tako-sign.jpg",
+    "coverVersion": "9efbbdc0",
+    "coverWidth": 1600,
+    "coverHeight": 900,
+    "sources": [
+      {
+        "label": "日本フットケア・足病医学会「重症化予防のための足病診療ガイドライン」",
+        "url": "https://jfcpm.org/guideline.html"
+      },
+      {
+        "label": "日本循環器学会・日本血管外科学会「2022年改訂版 末梢動脈疾患ガイドライン」",
+        "url": "https://www.j-circ.or.jp/cms/wp-content/uploads/2022/03/JCS2022_Azuma.pdf"
+      },
+      {
+        "label": "日本糖尿病学会「糖尿病診療ガイドライン2024」",
+        "url": "https://minds.jcqhc.or.jp/summary/c00864/"
+      }
+    ],
+    "ja": {
+      "category": "健康・予防の話",
+      "subcategory": "足・腰・けが",
+      "title": "その足のタコや小さな傷、「たかが」で済ませていませんか？〜足は全身の鏡。今日からできるセルフチェック〜",
+      "excerpt": "足のタコやウオノメ、小さな傷。忙しいと、ついそのままにしてしまいますよね。でも、その小さなトラブルが、大切なサインのことがあります。",
+      "body": [
+        {
+          "kind": "text",
+          "text": "足の裏のタコやウオノメ、靴ずれでできた小さな傷、かかとのひび割れ、なかなか治らない水虫——。痛みがそれほどでもなければ、「そのうち治るだろう」と、ついそのままにしてしまいますよね。忙しい毎日の中で、自分の足をじっくり見る時間なんて、なかなかないと思います。"
+        },
+        {
+          "kind": "text",
+          "text": "先にお答えすると、**糖尿病や血のめぐりの病気は、足にいち早くサインを出します。足の小さなトラブルを放っておくと、大きな病気の発見が遅れたり、傷が重くなったりすることがあります。だからこそ、毎日自分の足を「見る・触る」習慣が大切です。**"
+        },
+        {
+          "kind": "text",
+          "text": "このあと、こんな順番でお話しします。"
+        },
+        {
+          "kind": "text",
+          "text": "- 足は「全身の鏡」\n- 「手入れされていない足」が招くこと\n- 今日からできる、足のセルフチェック"
+        },
+        {
+          "kind": "text",
+          "text": "### 足は「全身の鏡」"
+        },
+        {
+          "kind": "text",
+          "text": "足は、心臓からいちばん遠く、細い血管と長い神経の“終点”にある場所です。そのため、血のめぐりや神経にトラブルが起きると、真っ先に足先に変化が表れます。"
+        },
+        {
+          "kind": "text",
+          "text": "**糖尿病の場合**"
+        },
+        {
+          "kind": "text",
+          "text": "血糖値が高い状態が長く続くと、足の神経が少しずつ傷んで、痛みや熱さを感じにくくなります。すると、靴ずれややけど、小さな傷ができても気づかないまま、歩き続けてしまうことがあります。さらに、血糖値が高いとばい菌と戦う力も弱まるため、小さな傷が治りにくく、化のうしやすくなります。"
+        },
+        {
+          "kind": "text",
+          "text": "**足の血のめぐりが悪い場合（末しょう動脈疾患）**"
+        },
+        {
+          "kind": "text",
+          "text": "動脈硬化が進むと、足の血管が細くなったり詰まったりします。これを「末しょう動脈疾患」といいます。歩くとふくらはぎが痛くなって、立ち止まって少し休むと楽になる。足先がいつも冷たい、皮膚の色が悪い。こうした症状が出ることがあります。血のめぐりが悪いと、傷を治すための栄養や酸素が届きにくく、小さな傷がなかなか治りません。"
+        },
+        {
+          "kind": "text",
+          "text": "足に血のめぐりの問題がある方は、心臓や脳の血管にも動脈硬化が進んでいることが少なくありません。足のサインが、全身の血管の状態を教えてくれることもあるのです。"
+        },
+        {
+          "kind": "text",
+          "text": "### 「手入れされていない足」が招くこと"
+        },
+        {
+          "kind": "text",
+          "text": "次のようなトラブルは、それ自体は珍しいものではありません。ただ、糖尿病や血のめぐりの問題がある方では、放っておくことで大きなトラブルの入り口になることがあります。"
+        },
+        {
+          "kind": "text",
+          "text": "- **水虫（足の皮膚や爪の水虫）**：指の間がじゅくじゅくしたり、ひび割れたりすると、そこからばい菌が入りやすくなります。厚くなった爪が、隣の指を傷つけることもあります\n- **乾燥・かかとのひび割れ**：ひびが深くなると、小さな傷口になります\n- **タコ・ウオノメ**：同じ場所に圧力がかかり続けているサインです。その下で、気づかないうちに傷ができていることもあります\n- **冷え**：湯たんぽやカイロを長く当てて、感覚が鈍いために低温やけどになることがあります"
+        },
+        {
+          "kind": "text",
+          "text": "こうした小さな傷が治らずに深くなり、皮膚が深くえぐれた「潰瘍（かいよう）」になってしまうことがあります。さらに重くなると、足の一部を失ってしまうこともあります。怖がらせたいわけではありません。ただ、**多くは「早く気づいて、早く手当てする」ことで防げる**、ということを知っておいていただきたいのです。"
+        },
+        {
+          "kind": "text",
+          "text": "### 今日からできる、足のセルフチェック"
+        },
+        {
+          "kind": "text",
+          "text": "1日1回、お風呂上がりなどに、靴下を脱いで両足を「見て、触って」みてください。"
+        },
+        {
+          "kind": "text",
+          "text": "- **見る**：指の間、足の裏、かかと、爪。傷、赤み、腫れ、色の変化、タコはないか（足の裏は鏡を使うと見やすくなります）\n- **触る**：左右で冷たさに差はないか、しびれや感覚の鈍いところはないか\n- **確かめる**：靴の中に小石などが入っていないか、靴ずれしていないか"
+        },
+        {
+          "kind": "text",
+          "text": "あわせて、こんなケアもおすすめです。"
+        },
+        {
+          "kind": "text",
+          "text": "- 足を洗ったら、指の間までよく拭いて乾かす\n- かかとには保湿クリームを（指の間には塗らない）\n- 爪はまっすぐに切り、深爪しない\n- タコやウオノメを、ご自分で削ったり、市販の薬で無理に取ったりしない"
+        },
+        {
+          "kind": "text",
+          "text": "「傷が治らない」「赤く腫れている」「色が黒っぽい」といった変化があれば、早めに受診してください。糖尿病については[糖尿病の解説ページ](/diseases/diabetes)に、傷の手当ての基本は「[すり傷に消毒、実は逆効果？](/blog/kizu-shoudoku)」にまとめています。"
+        },
+        {
+          "kind": "text",
+          "text": "### 院長からのメッセージ"
+        },
+        {
+          "kind": "text",
+          "text": "足のトラブルは、忙しさの中でつい後回しにされがちです。でも、足は毎日あなたを支えてくれている、大切な体の一部です。"
+        },
+        {
+          "kind": "text",
+          "text": "いつまでも自分の足で元気に歩くために、今日から足にも少しだけ優しく目を向けてあげましょう。気になることがあれば、どうぞ気軽に、かかりつけ医などにご相談ください（開院後は当院へ）。"
+        }
+      ]
+    },
+    "en": {
+      "category": "Health and prevention",
+      "subcategory": "Feet, back & injuries",
+      "title": "Are you brushing off those calluses and small cuts on your feet? — your feet mirror your whole body: a self-check you can start today",
+      "excerpt": "Calluses, corns and small cuts on your feet — when you're busy, it's easy to leave them be. But those small troubles can be important signs.",
+      "body": [
+        {
+          "kind": "text",
+          "text": "Calluses and corns on the soles of your feet, small cuts from rubbing shoes, cracked heels, athlete's foot that won't clear up — if the pain isn't too bad, it's easy to leave them be, thinking “it'll heal eventually.” In busy days, there's rarely time to take a good look at your own feet."
+        },
+        {
+          "kind": "text",
+          "text": "This article explains what conditions can hide behind small foot troubles, and a simple daily self-check. Here's the short answer: **diabetes and circulation problems often show signs in the feet first. Leaving small foot troubles alone can delay finding a serious condition or let wounds become severe. That's why a daily habit of “looking at and touching” your feet matters.**"
+        },
+        {
+          "kind": "text",
+          "text": "Here's what I'll cover:"
+        },
+        {
+          "kind": "text",
+          "text": "- Your feet are “a mirror of your whole body”\n- What “untended feet” can lead to\n- A foot self-check you can start today"
+        },
+        {
+          "kind": "text",
+          "text": "### Your feet are “a mirror of your whole body”"
+        },
+        {
+          "kind": "text",
+          "text": "The feet are farthest from the heart, at the “end of the line” for small blood vessels and long nerves. So when problems arise with circulation or nerves, changes show up in the toes first."
+        },
+        {
+          "kind": "text",
+          "text": "**With diabetes**"
+        },
+        {
+          "kind": "text",
+          "text": "When blood sugar stays high for a long time, the nerves in the feet gradually become damaged, making it harder to feel pain or heat. As a result, you may keep walking without noticing a shoe rub, a burn or a small cut. High blood sugar also weakens the body's ability to fight germs, so small wounds heal slowly and become infected more easily."
+        },
+        {
+          "kind": "text",
+          "text": "**With poor circulation in the legs (peripheral artery disease)**"
+        },
+        {
+          "kind": "text",
+          "text": "As hardening of the arteries progresses, the blood vessels in the legs can narrow or become blocked. This is called “peripheral artery disease.” Your calves may hurt when you walk and ease when you stop and rest for a bit. Your toes may always feel cold, or your skin may look discolored. With poor circulation, the nutrients and oxygen needed to heal wounds have trouble getting through, so small wounds heal slowly."
+        },
+        {
+          "kind": "text",
+          "text": "People with circulation problems in their legs often have hardening of the arteries in the heart and brain as well. Signs in the feet can tell you about the state of blood vessels throughout the body."
+        },
+        {
+          "kind": "text",
+          "text": "### What “untended feet” can lead to"
+        },
+        {
+          "kind": "text",
+          "text": "The troubles below aren't unusual on their own. But for people with diabetes or circulation problems, leaving them alone can open the door to bigger problems."
+        },
+        {
+          "kind": "text",
+          "text": "- **Athlete's foot (of the skin or nails)**: when the skin between the toes gets soggy or cracked, germs can get in more easily. A thickened nail can also injure the toe next to it\n- **Dryness and cracked heels**: deep cracks become small open wounds\n- **Calluses and corns**: a sign that pressure keeps landing on the same spot. A wound can form underneath without you noticing\n- **Cold feet**: with reduced sensation, keeping a hot-water bottle or heat pack against your skin for long can cause a low-temperature burn"
+        },
+        {
+          "kind": "text",
+          "text": "Small wounds like these can fail to heal and deepen into an open sore (an ulcer). In more severe cases, part of the foot may even be lost. I don't want to frighten you. I just want you to know that **much of this can be prevented by “noticing early and treating early.”**"
+        },
+        {
+          "kind": "text",
+          "text": "### A foot self-check you can start today"
+        },
+        {
+          "kind": "text",
+          "text": "Once a day — after a bath, for example — take off your socks and “look at and touch” both feet."
+        },
+        {
+          "kind": "text",
+          "text": "- **Look**: between the toes, the soles, the heels and the nails. Are there cuts, redness, swelling, color changes or calluses? (A mirror makes the soles easier to see.)\n- **Touch**: is one foot colder than the other? Are there areas of numbness or dulled sensation?\n- **Check**: is there a pebble or anything in your shoes? Are your shoes rubbing?"
+        },
+        {
+          "kind": "text",
+          "text": "These care tips help too:"
+        },
+        {
+          "kind": "text",
+          "text": "- After washing your feet, dry them well, even between the toes\n- Use moisturizing cream on your heels (but not between the toes)\n- Cut your nails straight across, and not too short\n- Don't shave down calluses or corns yourself, or force them off with over-the-counter remedies"
+        },
+        {
+          "kind": "text",
+          "text": "If you notice changes such as “a wound that won't heal,” “red swelling” or “darkened color,” please see a doctor early. You'll find more on [our diabetes page](/diseases/diabetes), and the basics of wound care in “[Is disinfecting a scrape actually counterproductive?](/blog/kizu-shoudoku)”"
+        },
+        {
+          "kind": "text",
+          "text": "### A message from the director"
+        },
+        {
+          "kind": "text",
+          "text": "Foot troubles easily get pushed aside in busy lives. But your feet are an important part of your body, supporting you every day."
+        },
+        {
+          "kind": "text",
+          "text": "To keep walking on your own two feet in good health for years to come, let's start today by turning a slightly kinder eye toward your feet. If anything concerns you, please feel free to talk with your family doctor (or with us, once we open)."
+        }
+      ]
+    },
+    "related": [
+      {
+        "slug": "ashi-nanika",
+        "ja": "足が痛い、むくむ。でも、何科に行けばいいの？〜日本で遅れていた「足の医療」と、受診のコツ〜",
+        "en": "My feet hurt and swell — but which department should I see? — Japan's late start in “foot medicine,” and tips for getting care"
+      },
+      {
+        "slug": "tounyoubyou-kankai",
+        "ja": "「糖尿病は一生治らない」は、もう昔の話？〜「寛解」を目指せる時代になりました〜",
+        "en": "“Diabetes never goes away” — is that an old idea now? — remission has become a realistic goal"
+      },
+      {
+        "slug": "kizu-shoudoku",
+        "ja": "すり傷に消毒、実は逆効果？——「洗って、乾かさない」が早くきれいに治すコツ",
+        "en": "Is disinfecting a scrape actually counterproductive? Why “wash it, and don't let it dry out” heals faster and cleaner"
+      }
+    ],
+    "upcoming": [
+      {
+        "ja": "足が痛いのは、年齢や遺伝のせい？〜外反母趾・扁平足と「靴」の深い関係。子どもの靴選びから見直そう〜",
+        "en": "Is foot pain just age or genes? — the close link between bunions, flat feet and shoes, starting with how we choose children's shoes"
       }
     ]
   },
