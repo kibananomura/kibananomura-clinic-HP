@@ -2751,6 +2751,12 @@ export const generatedPosts: BlogPost[] = [
         "ja": "胃カメラは何歳から？どのくらいの間隔で受ければいい？",
         "en": "When should you start getting gastroscopies — and how often?"
       }
+    ],
+    "upcoming": [
+      {
+        "ja": "走るとお腹が痛くなるのはなぜ？〜わき腹が痛む理由と、その場ですぐできる対処法〜",
+        "en": "Why does your side hurt when you run? — what causes that stitch, and what you can do right there on the spot"
+      }
     ]
   },
   {
