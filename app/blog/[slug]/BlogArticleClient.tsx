@@ -12,7 +12,8 @@ import { withWbr } from "../../lib/jp-break";
 import BlogRequestNote from "../../components/BlogRequestNote";
 import BlogFeedback from "../../components/BlogFeedback";
 import ShareButtons from "../../components/ShareButtons";
-import { FACEBOOK_URL, YOUTUBE_URL } from "../../lib/site-config";
+import { YOUTUBE_URL } from "../../lib/site-config";
+import SnsFollowLinks from "../../components/SnsFollowLinks";
 import Breadcrumbs from "../../components/Breadcrumbs";
 
 export default function BlogArticle({ relatedDiseases = [] }: { relatedDiseases?: RelatedLink[] }) {
@@ -260,50 +261,9 @@ export default function BlogArticle({ relatedDiseases = [] }: { relatedDiseases?
 
           <BlogFeedback slug={post.slug} className="mt-12" />
 
-          <BlogRequestNote className="mt-6" />
+          <SnsFollowLinks className="mt-6" />
 
-          <a
-            href={FACEBOOK_URL}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="mt-6 flex items-center justify-between gap-3 rounded-2xl border border-[#1877F2]/25 bg-surface/90 px-5 py-4 text-sm shadow-card transition-colors hover:bg-[#1877F2]/5"
-          >
-            <span className="leading-relaxed text-ink/80">
-              {lang === "en"
-                ? "We post new blog articles and updates on our road to opening every day on Facebook."
-                : "Facebookページでも、院長ブログや開院までの準備の様子を毎日お届けしています。"}
-            </span>
-            <span className="shrink-0 font-bold text-[#1877F2]">{lang === "en" ? "Follow →" : "フォローする →"}</span>
-          </a>
-
-          <a
-            href={YOUTUBE_URL}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="mt-3 flex items-center justify-between gap-3 rounded-2xl border border-[#c00]/20 bg-surface/90 px-5 py-4 text-sm shadow-card transition-colors hover:bg-[#FF0000]/5"
-          >
-            <span className="leading-relaxed text-ink/80">
-              {lang === "en"
-                ? "On YouTube, the director talks through blog topics in 60-second videos."
-                : "YouTubeでは、院長ブログの内容を院長が60秒でお話ししています。"}
-            </span>
-            <span className="shrink-0 font-bold text-[#c00]">{lang === "en" ? "Watch →" : "見てみる →"}</span>
-          </a>
-
-          <div className="mt-6 rounded-3xl bg-surface/90 p-6 text-center shadow-card sm:p-8">
-            <p className="text-base font-bold text-ink">
-              {t.blog.contactCta.heading}
-            </p>
-            <p className="mx-auto mt-2 max-w-xl text-sm leading-relaxed text-muted">
-              {t.blog.contactCta.body}
-            </p>
-            <a
-              href="mailto:contact@kibananomura.jp"
-              className="mt-5 inline-flex items-center gap-1.5 rounded-full bg-primary px-6 py-3 text-sm font-bold text-white shadow-soft transition-transform hover:scale-105 hover:bg-primary-dark"
-            >
-              {t.blog.contactCta.button}
-            </a>
-          </div>
+          <BlogRequestNote className="mt-6" showSns={false} showMail />
 
           <nav className="mt-12 grid gap-4 border-t border-accent pt-8 sm:grid-cols-2">
             {prev ? (
