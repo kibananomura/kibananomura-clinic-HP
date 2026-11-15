@@ -12731,7 +12731,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "On the other hand, if you come to us early, there's a lot we can do. Adjust what you eat a little, walk a little more each day, try keeping a record of your weight. All of these can start today. Small steps add up and can greatly change your body ten or twenty years from now. You'll find more detail on [our diabetes page](/diseases/diabetes)."
+          "text": "On the other hand, if you talk to a doctor early, there's a lot that can be done. Adjust what you eat a little, walk a little more each day, try keeping a record of your weight. All of these can start today. Small steps add up and can greatly change your body ten or twenty years from now. You'll find more detail on [our diabetes page](/diseases/diabetes)."
         },
         {
           "kind": "text",
