@@ -13282,6 +13282,22 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
+          "text": "### 握力計の前で"
+        },
+        {
+          "kind": "text",
+          "text": "私がボランティアとして担当したのは、握力の測定でした。次々に来られる方の測定をしながら、ご自分の体の数字にまっすぐ向き合う姿に触れました。"
+        },
+        {
+          "kind": "text",
+          "text": "木花には、健康への意識が高い方がたくさんいらっしゃる。そう実感できたことが、何よりうれしい一日でした。これから、このみなさんと一緒に木花の健康を守っていけるのだと思うと、身が引き締まる思いです。"
+        },
+        {
+          "kind": "text",
+          "text": "会場には、地元の中学3年生のボランティアの子たちも参加していました。地域の方とふれあう姿を見ていて、心がほのぼのしました。"
+        },
+        {
+          "kind": "text",
           "text": "運営に関わる地域の方々は、朝早くから会場の変更や準備に追われていたはずです。それでも、来た人を笑顔で迎えておられました。こうした地域の力があってこその行事なのだと思います。"
         },
         {
@@ -13344,6 +13360,22 @@ export const generatedPosts: BlogPost[] = [
           "kind": "image",
           "src": "/blog/kibana-kenkou-festa-2026-kaijo.jpg",
           "caption": "Measurement and activity corners set up inside the gym"
+        },
+        {
+          "kind": "text",
+          "text": "### At the grip-strength station"
+        },
+        {
+          "kind": "text",
+          "text": "As a volunteer, my job was measuring grip strength. As one person after another stepped up, I saw how directly people face their own health numbers."
+        },
+        {
+          "kind": "text",
+          "text": "Kibana has so many people who care about their health. Realizing that was the best part of the day, and it made me glad to think that we'll be protecting the health of this community together from now on."
+        },
+        {
+          "kind": "text",
+          "text": "Ninth-grade students from the local junior high also volunteered. Watching them interact with people from the community warmed my heart."
         },
         {
           "kind": "text",

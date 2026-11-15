@@ -24,6 +24,14 @@ related: [kibana-no-namae, isseisan-daikangei]
 
 ![体育館の中に並んだ測定やイベントのコーナー](/blog/kibana-kenkou-festa-2026-kaijo.jpg)
 
+### 握力計の前で
+
+私がボランティアとして担当したのは、握力の測定でした。次々に来られる方の測定をしながら、ご自分の体の数字にまっすぐ向き合う姿に触れました。
+
+木花には、健康への意識が高い方がたくさんいらっしゃる。そう実感できたことが、何よりうれしい一日でした。これから、このみなさんと一緒に木花の健康を守っていけるのだと思うと、身が引き締まる思いです。
+
+会場には、地元の中学3年生のボランティアの子たちも参加していました。地域の方とふれあう姿を見ていて、心がほのぼのしました。
+
 運営に関わる地域の方々は、朝早くから会場の変更や準備に追われていたはずです。それでも、来た人を笑顔で迎えておられました。こうした地域の力があってこその行事なのだと思います。
 
 ### 名刺をお渡しして
@@ -53,6 +61,14 @@ Rain had been forecast since the day before, and I imagine many people assumed i
 Visitors picked up a measurement sheet and a questionnaire at the entrance, then made their way from table to table. Coming out on a rainy day says a lot about how much people want to understand their own health.
 
 ![Measurement and activity corners set up inside the gym](/blog/kibana-kenkou-festa-2026-kaijo.jpg)
+
+### At the grip-strength station
+
+As a volunteer, my job was measuring grip strength. As one person after another stepped up, I saw how directly people face their own health numbers.
+
+Kibana has so many people who care about their health. Realizing that was the best part of the day, and it made me glad to think that we'll be protecting the health of this community together from now on.
+
+Ninth-grade students from the local junior high also volunteered. Watching them interact with people from the community warmed my heart.
 
 The local volunteers had surely been busy since early morning, rearranging everything for the new venue. Even so, they greeted everyone with a smile. Events like this exist because of that kind of community spirit.
 
