@@ -35,7 +35,9 @@ export const generatedPosts: BlogPost[] = [
         {
           "kind": "image",
           "src": "/blog/kibana-landscape.jpg",
-          "caption": "緑ゆたかな木花の地で、皆さんをお待ちしています。"
+          "caption": "緑ゆたかな木花の地で、皆さんをお待ちしています。",
+          "width": 1536,
+          "height": 1024
         },
         {
           "kind": "text",
@@ -67,7 +69,9 @@ export const generatedPosts: BlogPost[] = [
         {
           "kind": "image",
           "src": "/blog/kibana-landscape.jpg",
-          "caption": "We look forward to seeing you here, in the green land of Kibana."
+          "caption": "We look forward to seeing you here, in the green land of Kibana.",
+          "width": 1536,
+          "height": 1024
         },
         {
           "kind": "text",
@@ -13261,7 +13265,9 @@ export const generatedPosts: BlogPost[] = [
         {
           "kind": "image",
           "src": "/blog/kibana-kenkou-festa-2026-selfie.jpg",
-          "caption": "手前が院長。ボランティアのベストを着て（ほかの方のお顔はぼかしています）"
+          "caption": "手前が院長。ボランティアのベストを着て（ほかの方のお顔はぼかしています）",
+          "width": 900,
+          "height": 1200
         },
         {
           "kind": "text",
@@ -13278,7 +13284,9 @@ export const generatedPosts: BlogPost[] = [
         {
           "kind": "image",
           "src": "/blog/kibana-kenkou-festa-2026-kaijo.jpg",
-          "caption": "体育館の中に並んだ測定やイベントのコーナー"
+          "caption": "体育館の中に並んだ測定やイベントのコーナー",
+          "width": 720,
+          "height": 1280
         },
         {
           "kind": "text",
@@ -13342,7 +13350,9 @@ export const generatedPosts: BlogPost[] = [
         {
           "kind": "image",
           "src": "/blog/kibana-kenkou-festa-2026-selfie.jpg",
-          "caption": "That's me in front, in a volunteer vest (other people's faces are blurred)"
+          "caption": "That's me in front, in a volunteer vest (other people's faces are blurred)",
+          "width": 900,
+          "height": 1200
         },
         {
           "kind": "text",
@@ -13359,7 +13369,9 @@ export const generatedPosts: BlogPost[] = [
         {
           "kind": "image",
           "src": "/blog/kibana-kenkou-festa-2026-kaijo.jpg",
-          "caption": "Measurement and activity corners set up inside the gym"
+          "caption": "Measurement and activity corners set up inside the gym",
+          "width": 720,
+          "height": 1280
         },
         {
           "kind": "text",

@@ -3,7 +3,7 @@ import { generatedPosts } from "./blog-data.generated";
 
 export type BlogBlock =
   | { kind: "text"; text: string }
-  | { kind: "image"; src: string; caption?: string };
+  | { kind: "image"; src: string; caption?: string; width?: number; height?: number };
 
 export type BlogContent = {
   category: string;

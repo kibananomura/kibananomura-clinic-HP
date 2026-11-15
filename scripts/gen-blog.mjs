@@ -101,9 +101,14 @@ function parseBlocks(sectionText, slug, lang) {
     const imageMatch = p.match(/^!\[([^\]]*)\]\(([^)]+)\)$/);
     if (imageMatch) {
       const [, caption, src] = imageMatch;
-      return caption
-        ? { kind: "image", src, caption }
-        : { kind: "image", src };
+      // 縦長の写真は、横を切らずにそのままの形で出す（幅・高さを記事データに入れる）
+      const { coverWidth: width, coverHeight: height } = coverMeta(src);
+      return {
+        kind: "image",
+        src,
+        ...(caption ? { caption } : {}),
+        ...(width && height ? { width, height } : {}),
+      };
     }
     return { kind: "text", text: p };
   });

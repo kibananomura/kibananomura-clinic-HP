@@ -94,7 +94,18 @@ export default function BlogArticle({ relatedDiseases = [] }: { relatedDiseases?
                 <BlogRichText key={i} text={block.text} />
               ) : (
                 <figure key={i} className="my-8">
-                  <div className="relative aspect-[16/9] overflow-hidden rounded-2xl shadow-card">
+                  <div
+                    className={`relative overflow-hidden rounded-2xl shadow-card ${
+                      block.width && block.height && block.height > block.width
+                        ? "mx-auto w-full max-w-[420px]"
+                        : "aspect-[16/9]"
+                    }`}
+                    style={
+                      block.width && block.height && block.height > block.width
+                        ? { aspectRatio: `${block.width} / ${block.height}` }
+                        : undefined
+                    }
+                  >
                     <Image
                       src={block.src}
                       alt={block.caption ?? ""}
