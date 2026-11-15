@@ -13275,7 +13275,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "### 去年は校庭で、今年は体育館で"
+          "text": "### 体育館ならではの近さ"
         },
         {
           "kind": "text",
@@ -13348,7 +13348,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "### Last year outdoors, this year in the gym"
+          "text": "### The closeness of an indoor venue"
         },
         {
           "kind": "text",

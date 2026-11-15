@@ -18,7 +18,7 @@ related: [kibana-no-namae, isseisan-daikangei]
 
 前の日まで雨の予報が続き、メイン会場は運動場から体育館に変わりました。前日の夜には、当院のInstagramでも「雨でも開催します」とお知らせしました。ところが当日、始まりの9時には、空はすっかり晴れ渡っていました。
 
-### 去年は校庭で、今年は体育館で
+### 体育館ならではの近さ
 
 実は去年、私も子どもと一緒に、いち参加者としてこのフェスタに来ていました。そのときは晴れて、校庭での開催でした。
 
@@ -50,7 +50,7 @@ On Sunday, November 15, I took part in the Kibana Health Festa at Gakuen Kibanad
 
 Rain had been forecast right up to the day before, so the main venue was moved from the sports ground into the gym. The night before, we posted on our Instagram that the event was going ahead rain or shine. Yet on the day, by the 9 a.m. start, the sky had cleared completely.
 
-### Last year outdoors, this year in the gym
+### The closeness of an indoor venue
 
 Last year, I actually came to this festa with my child, as an ordinary participant. The weather was fine, and it was held out on the school grounds.
 
