@@ -180,6 +180,11 @@ export const generatedPosts: BlogPost[] = [
     },
     "related": [
       {
+        "slug": "kibana-kenkou-festa-2026",
+        "ja": "雨の「木花健康フェスタ」に行ってきました〜開院前の院長として、地域のみなさんにごあいさつ〜",
+        "en": "A rainy day at the Kibana Health Festa — saying hello to the community before we open"
+      },
+      {
         "slug": "kinri-no-aru-sekai",
         "ja": "「金利のある世界」で、覚悟を持って診療所をつくります",
         "en": "In a world where interest rates are back, we are building this clinic with full commitment"
@@ -188,11 +193,6 @@ export const generatedPosts: BlogPost[] = [
         "slug": "isseisan-daikangei",
         "ja": "旅先での体調不良、「一見さん」でも大歓迎です",
         "en": "Feeling unwell while traveling? First-time visitors are always welcome here"
-      },
-      {
-        "slug": "kansen-dousen-bunri",
-        "ja": "発熱の方の動線を、他の患者さんと完全に分けている理由",
-        "en": "Why we keep patients with a fever completely separate from everyone else"
       }
     ]
   },
@@ -368,14 +368,14 @@ export const generatedPosts: BlogPost[] = [
         "en": "[Update] Flu in Miyazaki is about 15 times the usual level — RSV has doubled, and watch out for tick-borne infections too"
       },
       {
+        "slug": "sougou-kanyaku-nemuke",
+        "ja": "残っていた風邪薬を飲んだら、猛烈に眠くなった？〜「総合感冒薬」の中身と、眠気の本当の理由〜",
+        "en": "Took some leftover cold medicine and got overwhelmingly sleepy? — what's inside a combination cold medicine, and the real reason for the drowsiness"
+      },
+      {
         "slug": "kansen-2026-11-2",
         "ja": "宮崎市の感染症、世代ごとの「注意サイン」〜お子さんは手足口病・胃腸炎、大人は長引くせき、そしてインフルエンザに備えを〜",
         "en": "Infections in Miyazaki City: warning signs for each generation — hand, foot and mouth disease in kids, lingering coughs in adults, and getting ready for flu"
-      },
-      {
-        "slug": "flu-vaccine-timing",
-        "ja": "インフルエンザワクチン、いつ打つのが一番いい？〜受験や大切な日から「逆算」する接種スケジュール〜",
-        "en": "When is the best time to get a flu shot? — planning backward from exams and other important days"
       }
     ]
   },
@@ -4259,14 +4259,14 @@ export const generatedPosts: BlogPost[] = [
         "en": "In a world where interest rates are back, we are building this clinic with full commitment"
       },
       {
+        "slug": "kibana-kenkou-festa-2026",
+        "ja": "雨の「木花健康フェスタ」に行ってきました〜開院前の院長として、地域のみなさんにごあいさつ〜",
+        "en": "A rainy day at the Kibana Health Festa — saying hello to the community before we open"
+      },
+      {
         "slug": "isseisan-daikangei",
         "ja": "旅先での体調不良、「一見さん」でも大歓迎です",
         "en": "Feeling unwell while traveling? First-time visitors are always welcome here"
-      },
-      {
-        "slug": "kibana-no-namae",
-        "ja": "名前に込めた、ふたつの想い",
-        "en": "Two ideas behind our name"
       }
     ]
   },
@@ -5013,6 +5013,11 @@ export const generatedPosts: BlogPost[] = [
     },
     "related": [
       {
+        "slug": "kibana-kenkou-festa-2026",
+        "ja": "雨の「木花健康フェスタ」に行ってきました〜開院前の院長として、地域のみなさんにごあいさつ〜",
+        "en": "A rainy day at the Kibana Health Festa — saying hello to the community before we open"
+      },
+      {
         "slug": "kinri-no-aru-sekai",
         "ja": "「金利のある世界」で、覚悟を持って診療所をつくります",
         "en": "In a world where interest rates are back, we are building this clinic with full commitment"
@@ -5021,11 +5026,6 @@ export const generatedPosts: BlogPost[] = [
         "slug": "kansen-dousen-bunri",
         "ja": "発熱の方の動線を、他の患者さんと完全に分けている理由",
         "en": "Why we keep patients with a fever completely separate from everyone else"
-      },
-      {
-        "slug": "kibana-no-namae",
-        "ja": "名前に込めた、ふたつの想い",
-        "en": "Two ideas behind our name"
       }
     ]
   },
@@ -5171,14 +5171,14 @@ export const generatedPosts: BlogPost[] = [
         "en": "Your checkup came back \"normal, but at the upper edge\" — what does that mean?"
       },
       {
+        "slug": "sougou-kanyaku-nemuke",
+        "ja": "残っていた風邪薬を飲んだら、猛烈に眠くなった？〜「総合感冒薬」の中身と、眠気の本当の理由〜",
+        "en": "Took some leftover cold medicine and got overwhelmingly sleepy? — what's inside a combination cold medicine, and the real reason for the drowsiness"
+      },
+      {
         "slug": "kansen-2026-11-2",
         "ja": "宮崎市の感染症、世代ごとの「注意サイン」〜お子さんは手足口病・胃腸炎、大人は長引くせき、そしてインフルエンザに備えを〜",
         "en": "Infections in Miyazaki City: warning signs for each generation — hand, foot and mouth disease in kids, lingering coughs in adults, and getting ready for flu"
-      },
-      {
-        "slug": "ashi-tako-sign",
-        "ja": "その足のタコや小さな傷、「たかが」で済ませていませんか？〜足は全身の鏡。今日からできるセルフチェック〜",
-        "en": "Are you brushing off those calluses and small cuts on your feet? — your feet mirror your whole body: a self-check you can start today"
       }
     ]
   },
@@ -6286,6 +6286,11 @@ export const generatedPosts: BlogPost[] = [
     },
     "related": [
       {
+        "slug": "sougou-kanyaku-nemuke",
+        "ja": "残っていた風邪薬を飲んだら、猛烈に眠くなった？〜「総合感冒薬」の中身と、眠気の本当の理由〜",
+        "en": "Took some leftover cold medicine and got overwhelmingly sleepy? — what's inside a combination cold medicine, and the real reason for the drowsiness"
+      },
+      {
         "slug": "kansen-2026-11-2",
         "ja": "宮崎市の感染症、世代ごとの「注意サイン」〜お子さんは手足口病・胃腸炎、大人は長引くせき、そしてインフルエンザに備えを〜",
         "en": "Infections in Miyazaki City: warning signs for each generation — hand, foot and mouth disease in kids, lingering coughs in adults, and getting ready for flu"
@@ -6294,17 +6299,6 @@ export const generatedPosts: BlogPost[] = [
         "slug": "flu-vaccine-timing",
         "ja": "インフルエンザワクチン、いつ打つのが一番いい？〜受験や大切な日から「逆算」する接種スケジュール〜",
         "en": "When is the best time to get a flu shot? — planning backward from exams and other important days"
-      },
-      {
-        "slug": "kansen-2026-11",
-        "ja": "【続報】宮崎でインフルエンザが例年の約15倍に。RSウイルスも倍増、マダニの感染症にも注意を",
-        "en": "[Update] Flu in Miyazaki is about 15 times the usual level — RSV has doubled, and watch out for tick-borne infections too"
-      }
-    ],
-    "upcoming": [
-      {
-        "ja": "残っていた風邪薬を飲んだら、猛烈に眠くなった？〜「総合感冒薬」の中身と、眠気の本当の理由〜",
-        "en": "Took some leftover cold medicine and got overwhelmingly sleepy? — what's inside a combination cold medicine, and the real reason for the drowsiness"
       }
     ]
   },
@@ -6574,14 +6568,14 @@ export const generatedPosts: BlogPost[] = [
         "en": "If your optional tumor marker test came back high"
       },
       {
+        "slug": "sougou-kanyaku-nemuke",
+        "ja": "残っていた風邪薬を飲んだら、猛烈に眠くなった？〜「総合感冒薬」の中身と、眠気の本当の理由〜",
+        "en": "Took some leftover cold medicine and got overwhelmingly sleepy? — what's inside a combination cold medicine, and the real reason for the drowsiness"
+      },
+      {
         "slug": "kansen-2026-11-2",
         "ja": "宮崎市の感染症、世代ごとの「注意サイン」〜お子さんは手足口病・胃腸炎、大人は長引くせき、そしてインフルエンザに備えを〜",
         "en": "Infections in Miyazaki City: warning signs for each generation — hand, foot and mouth disease in kids, lingering coughs in adults, and getting ready for flu"
-      },
-      {
-        "slug": "ashi-tako-sign",
-        "ja": "その足のタコや小さな傷、「たかが」で済ませていませんか？〜足は全身の鏡。今日からできるセルフチェック〜",
-        "en": "Are you brushing off those calluses and small cuts on your feet? — your feet mirror your whole body: a self-check you can start today"
       }
     ],
     "upcoming": [
@@ -6967,14 +6961,14 @@ export const generatedPosts: BlogPost[] = [
         "en": "When is the best time to get a flu shot? — planning backward from exams and other important days"
       },
       {
+        "slug": "sougou-kanyaku-nemuke",
+        "ja": "残っていた風邪薬を飲んだら、猛烈に眠くなった？〜「総合感冒薬」の中身と、眠気の本当の理由〜",
+        "en": "Took some leftover cold medicine and got overwhelmingly sleepy? — what's inside a combination cold medicine, and the real reason for the drowsiness"
+      },
+      {
         "slug": "kansen-2026-11-2",
         "ja": "宮崎市の感染症、世代ごとの「注意サイン」〜お子さんは手足口病・胃腸炎、大人は長引くせき、そしてインフルエンザに備えを〜",
         "en": "Infections in Miyazaki City: warning signs for each generation — hand, foot and mouth disease in kids, lingering coughs in adults, and getting ready for flu"
-      },
-      {
-        "slug": "kansen-2026-11",
-        "ja": "【続報】宮崎でインフルエンザが例年の約15倍に。RSウイルスも倍増、マダニの感染症にも注意を",
-        "en": "[Update] Flu in Miyazaki is about 15 times the usual level — RSV has doubled, and watch out for tick-borne infections too"
       }
     ]
   },
@@ -7296,6 +7290,11 @@ export const generatedPosts: BlogPost[] = [
     },
     "related": [
       {
+        "slug": "sougou-kanyaku-nemuke",
+        "ja": "残っていた風邪薬を飲んだら、猛烈に眠くなった？〜「総合感冒薬」の中身と、眠気の本当の理由〜",
+        "en": "Took some leftover cold medicine and got overwhelmingly sleepy? — what's inside a combination cold medicine, and the real reason for the drowsiness"
+      },
+      {
         "slug": "kansen-2026-11-2",
         "ja": "宮崎市の感染症、世代ごとの「注意サイン」〜お子さんは手足口病・胃腸炎、大人は長引くせき、そしてインフルエンザに備えを〜",
         "en": "Infections in Miyazaki City: warning signs for each generation — hand, foot and mouth disease in kids, lingering coughs in adults, and getting ready for flu"
@@ -7304,11 +7303,6 @@ export const generatedPosts: BlogPost[] = [
         "slug": "flu-vaccine-timing",
         "ja": "インフルエンザワクチン、いつ打つのが一番いい？〜受験や大切な日から「逆算」する接種スケジュール〜",
         "en": "When is the best time to get a flu shot? — planning backward from exams and other important days"
-      },
-      {
-        "slug": "kansen-2026-11",
-        "ja": "【続報】宮崎でインフルエンザが例年の約15倍に。RSウイルスも倍増、マダニの感染症にも注意を",
-        "en": "[Update] Flu in Miyazaki is about 15 times the usual level — RSV has doubled, and watch out for tick-borne infections too"
       }
     ]
   },
@@ -8589,14 +8583,14 @@ export const generatedPosts: BlogPost[] = [
         "en": "Why we keep patients with a fever completely separate from everyone else"
       },
       {
+        "slug": "kibana-kenkou-festa-2026",
+        "ja": "雨の「木花健康フェスタ」に行ってきました〜開院前の院長として、地域のみなさんにごあいさつ〜",
+        "en": "A rainy day at the Kibana Health Festa — saying hello to the community before we open"
+      },
+      {
         "slug": "isseisan-daikangei",
         "ja": "旅先での体調不良、「一見さん」でも大歓迎です",
         "en": "Feeling unwell while traveling? First-time visitors are always welcome here"
-      },
-      {
-        "slug": "kibana-no-namae",
-        "ja": "名前に込めた、ふたつの想い",
-        "en": "Two ideas behind our name"
       }
     ]
   },
@@ -9581,6 +9575,11 @@ export const generatedPosts: BlogPost[] = [
     },
     "related": [
       {
+        "slug": "sougou-kanyaku-nemuke",
+        "ja": "残っていた風邪薬を飲んだら、猛烈に眠くなった？〜「総合感冒薬」の中身と、眠気の本当の理由〜",
+        "en": "Took some leftover cold medicine and got overwhelmingly sleepy? — what's inside a combination cold medicine, and the real reason for the drowsiness"
+      },
+      {
         "slug": "zensoku-chiryo",
         "ja": "「調子がいいから薬やめました」でぜんそくが怖い理由",
         "en": "Why stopping asthma medicine when you feel fine can be risky"
@@ -9589,17 +9588,6 @@ export const generatedPosts: BlogPost[] = [
         "slug": "hai-ntm-sho",
         "ja": "せきが長引く・健診で「影」——結核菌の仲間による肺の病気「肺NTM症」とは？原因・症状と「人にうつるの？」にお答えします",
         "en": "A lingering cough or a “shadow” on your checkup — what is pulmonary NTM (MAC) disease? Causes, symptoms, and “Is it contagious?”"
-      },
-      {
-        "slug": "hai-kousankin",
-        "ja": "「抗酸菌」は酸を出す最強の菌？——名前のせいで誤解されがちな菌の正体",
-        "en": "Are “acid-fast bacteria” super-germs that spit acid? The truth behind a misleading name"
-      }
-    ],
-    "upcoming": [
-      {
-        "ja": "残っていた風邪薬を飲んだら、猛烈に眠くなった？〜「総合感冒薬」の中身と、眠気の本当の理由〜",
-        "en": "Took some leftover cold medicine and got overwhelmingly sleepy? — what's inside a combination cold medicine, and the real reason for the drowsiness"
       }
     ]
   },
@@ -10852,14 +10840,14 @@ export const generatedPosts: BlogPost[] = [
         "en": "Is disinfecting a scrape actually counterproductive? Why “wash it, and don't let it dry out” heals faster and cleaner"
       },
       {
+        "slug": "sougou-kanyaku-nemuke",
+        "ja": "残っていた風邪薬を飲んだら、猛烈に眠くなった？〜「総合感冒薬」の中身と、眠気の本当の理由〜",
+        "en": "Took some leftover cold medicine and got overwhelmingly sleepy? — what's inside a combination cold medicine, and the real reason for the drowsiness"
+      },
+      {
         "slug": "kansen-2026-11-2",
         "ja": "宮崎市の感染症、世代ごとの「注意サイン」〜お子さんは手足口病・胃腸炎、大人は長引くせき、そしてインフルエンザに備えを〜",
         "en": "Infections in Miyazaki City: warning signs for each generation — hand, foot and mouth disease in kids, lingering coughs in adults, and getting ready for flu"
-      },
-      {
-        "slug": "flu-vaccine-timing",
-        "ja": "インフルエンザワクチン、いつ打つのが一番いい？〜受験や大切な日から「逆算」する接種スケジュール〜",
-        "en": "When is the best time to get a flu shot? — planning backward from exams and other important days"
       }
     ]
   },
@@ -11328,10 +11316,9 @@ export const generatedPosts: BlogPost[] = [
         "slug": "influenza-vaccine-mayoi",
         "ja": "インフルエンザワクチン、打つべきか迷っているあなたへ",
         "en": "Still unsure about the flu shot? Here's how to think about it"
-      }
-    ],
-    "upcoming": [
+      },
       {
+        "slug": "sougou-kanyaku-nemuke",
         "ja": "残っていた風邪薬を飲んだら、猛烈に眠くなった？〜「総合感冒薬」の中身と、眠気の本当の理由〜",
         "en": "Took some leftover cold medicine and got overwhelmingly sleepy? — what's inside a combination cold medicine, and the real reason for the drowsiness"
       }
@@ -13252,6 +13239,359 @@ export const generatedPosts: BlogPost[] = [
         "slug": "kodomo-outo-geri-suibun",
         "ja": "吐いたあと、すぐに水を飲ませていませんか？〜子どものおう吐・下痢のときの水分のとり方〜",
         "en": "Giving water right after your child vomits? — How to give fluids when children have vomiting and diarrhea"
+      }
+    ]
+  },
+  {
+    "slug": "kibana-kenkou-festa-2026",
+    "date": "2026.11.15",
+    "cover": "/blog/kibana-kenkou-festa-2026.jpg",
+    "coverVersion": "d03cfeb1",
+    "coverWidth": 1600,
+    "coverHeight": 900,
+    "ja": {
+      "category": "診療所づくり",
+      "title": "雨の「木花健康フェスタ」に行ってきました〜開院前の院長として、地域のみなさんにごあいさつ〜",
+      "excerpt": "「雨だから中止かな」と思われていた方も多かったはずの朝。体育館には、思っていた以上のにぎわいがありました。",
+      "body": [
+        {
+          "kind": "text",
+          "text": "11月15日（日）、学園木花台小学校で開かれた「木花健康フェスタ」に、開院前の院長として参加してきました。黄緑色のボランティアのベストを着て、会場の中を回りました。"
+        },
+        {
+          "kind": "image",
+          "src": "/blog/kibana-kenkou-festa-2026-selfie.jpg",
+          "caption": "手前が院長。ボランティアのベストを着て（ほかの方のお顔はぼかしています）"
+        },
+        {
+          "kind": "text",
+          "text": "前の日から雨の予報で、「明日は中止かな」と思われていた方も多かったと思います。主催のみなさんの判断で、会場は運動場から体育館に変わりました。前日の夜、当院のInstagramでも「雨でも開催します」とお知らせしました。"
+        },
+        {
+          "kind": "text",
+          "text": "### 体育館には、にぎやかな声が"
+        },
+        {
+          "kind": "text",
+          "text": "受付で測定用紙とアンケートを受け取り、テーブルを順に回っていく。雨の日にわざわざ足を運ぶというのは、それだけ「自分の体のことを知りたい」という思いがあるのだと、あらためて感じました。"
+        },
+        {
+          "kind": "image",
+          "src": "/blog/kibana-kenkou-festa-2026-kaijo.jpg",
+          "caption": "体育館の中に並んだ測定やイベントのコーナー"
+        },
+        {
+          "kind": "text",
+          "text": "運営に関わる地域の方々は、朝早くから会場の変更や準備に追われていたはずです。それでも、来た人を笑顔で迎えておられました。こうした地域の力があってこその行事なのだと思います。"
+        },
+        {
+          "kind": "text",
+          "text": "### 名刺をお渡しして"
+        },
+        {
+          "kind": "text",
+          "text": "会場では、地域づくりに関わる方や、高齢の方の相談窓口の方にごあいさつし、名刺を交換したり、お渡ししたりしました。来場されていたご高齢の方にも、「来年の秋に、熊野に診療所ができます」とお伝えしながら、名刺をお渡ししました。"
+        },
+        {
+          "kind": "text",
+          "text": "まだ建物もない診療所の名刺を受け取っていただくのは、少し気恥ずかしいものです。それでも、こうして一人ずつ顔を合わせていくことが、この土地に根を下ろす一歩目なのだと思っています。"
+        },
+        {
+          "kind": "text",
+          "text": "### 来年は、診療所として"
+        },
+        {
+          "kind": "text",
+          "text": "2027年10月の開院後は、こうした地域の行事にも、診療所として関われたらと考えています。健康のことを気軽に聞ける場が、診察室の外にも増えていけばうれしいです。"
+        },
+        {
+          "kind": "text",
+          "text": "当院の名前に込めた思いは「[名前に込めた、ふたつの想い](/blog/kibana-no-namae)」に書いています。開院までの様子は、InstagramとFacebookでもお届けしていきます。"
+        },
+        {
+          "kind": "text",
+          "text": "※木花のむら総合診療所は2027年10月開院予定です。いまお困りの方は、かかりつけ医にご相談ください。"
+        }
+      ]
+    },
+    "en": {
+      "category": "Building the clinic",
+      "title": "A rainy day at the Kibana Health Festa — saying hello to the community before we open",
+      "excerpt": "Plenty of people probably assumed it would be canceled for rain. Yet the gym was busier than I expected.",
+      "body": [
+        {
+          "kind": "text",
+          "text": "On Sunday, November 15, I took part in the Kibana Health Festa at Gakuen Kibanadai Elementary School — as a clinic director whose clinic hasn't opened yet. I wore a bright yellow-green volunteer vest and made my way around the venue."
+        },
+        {
+          "kind": "image",
+          "src": "/blog/kibana-kenkou-festa-2026-selfie.jpg",
+          "caption": "That's me in front, in a volunteer vest (other people's faces are blurred)"
+        },
+        {
+          "kind": "text",
+          "text": "Rain had been forecast since the day before, and I imagine many people assumed it would be canceled. The organizers decided to move the main venue from the sports ground into the gym. The night before, we posted on our Instagram that the event was going ahead rain or shine."
+        },
+        {
+          "kind": "text",
+          "text": "### A lively gym"
+        },
+        {
+          "kind": "text",
+          "text": "Visitors picked up a measurement sheet and a questionnaire at the entrance, then made their way from table to table. Coming out on a rainy day says a lot about how much people want to understand their own health."
+        },
+        {
+          "kind": "image",
+          "src": "/blog/kibana-kenkou-festa-2026-kaijo.jpg",
+          "caption": "Measurement and activity corners set up inside the gym"
+        },
+        {
+          "kind": "text",
+          "text": "The local volunteers had surely been busy since early morning, rearranging everything for the new venue. Even so, they greeted everyone with a smile. Events like this exist because of that kind of community spirit."
+        },
+        {
+          "kind": "text",
+          "text": "### Handing out my card"
+        },
+        {
+          "kind": "text",
+          "text": "I said hello to people involved in community building and to staff from the local support center for older residents, and exchanged or handed out my cards. I also handed my card to some of the older visitors, letting them know that a clinic will open in Kumano next fall."
+        },
+        {
+          "kind": "text",
+          "text": "It feels a little sheepish to hand out cards for a clinic whose building doesn't exist yet. But meeting people face to face, one by one, is how I hope to put down roots here."
+        },
+        {
+          "kind": "text",
+          "text": "### Next year, as a clinic"
+        },
+        {
+          "kind": "text",
+          "text": "After we open in October 2027, I hope we can take part in local events like this as a clinic. It would be wonderful to have more places, outside the exam room, where people can casually ask about their health."
+        },
+        {
+          "kind": "text",
+          "text": "You can read about the thinking behind our name in \"[Two hopes behind our name](/blog/kibana-no-namae).\" We'll keep sharing our progress toward opening on Instagram and Facebook."
+        },
+        {
+          "kind": "text",
+          "text": "*Kibana Nomura General Clinic is scheduled to open in October 2027. If you need care now, please see your regular doctor.*"
+        }
+      ]
+    },
+    "related": [
+      {
+        "slug": "kibana-no-namae",
+        "ja": "名前に込めた、ふたつの想い",
+        "en": "Two ideas behind our name"
+      },
+      {
+        "slug": "isseisan-daikangei",
+        "ja": "旅先での体調不良、「一見さん」でも大歓迎です",
+        "en": "Feeling unwell while traveling? First-time visitors are always welcome here"
+      }
+    ]
+  },
+  {
+    "slug": "sougou-kanyaku-nemuke",
+    "date": "2026.11.15",
+    "cover": "/blog/sougou-kanyaku-nemuke.jpg",
+    "coverVersion": "6d30dd70",
+    "coverWidth": 1600,
+    "coverHeight": 900,
+    "sources": [
+      {
+        "label": "日本鼻科学会「鼻アレルギー診療ガイドライン－通年性鼻炎と花粉症－2024年版（改訂第10版）」",
+        "url": "https://minds.jcqhc.or.jp/guidelines_kind/%E9%BC%BB%E3%82%A2%E3%83%AC%E3%83%AB%E3%82%AE%E3%83%BC/"
+      },
+      {
+        "label": "厚生労働省「抗微生物薬適正使用の手引き 第二版」",
+        "url": "https://www.mhlw.go.jp/content/10900000/000573655.pdf"
+      }
+    ],
+    "ja": {
+      "category": "健康・予防の話",
+      "subcategory": "感染症・ワクチン",
+      "title": "残っていた風邪薬を飲んだら、猛烈に眠くなった？〜「総合感冒薬」の中身と、眠気の本当の理由〜",
+      "excerpt": "「熱冷ましのつもりで飲んだだけなのに、気づいたら何時間も寝ていた」——その眠気には、ちゃんとした理由があります。",
+      "body": [
+        {
+          "kind": "text",
+          "text": "「なんだか寒気がする。前に病院でもらった風邪薬が残っていたから、熱冷ましと鼻水止めのつもりで飲んでおこう」——そんなふうに、家にある薬を自己判断で飲んだことはありませんか。"
+        },
+        {
+          "kind": "text",
+          "text": "忙しいときほど、手元の薬で何とかしたくなりますよね。ところが、「飲んだら抗えないほど眠くなって、気づいたら何時間も寝ていた」というお話を、本当によくお聞きします。"
+        },
+        {
+          "kind": "text",
+          "text": "先にお答えすると、**総合感冒薬の強い眠気は、鼻水を止めるために入っている成分のしっかりとした働きによるものです。車の運転や仕事の前に、自己判断で飲むのはとても危険です。**"
+        },
+        {
+          "kind": "text",
+          "text": "### 総合感冒薬は「オールインワン」のお薬"
+        },
+        {
+          "kind": "text",
+          "text": "医療用の総合感冒薬は、いくつかの成分を一つにまとめた「配合剤」です。中身は、たとえばこんな顔ぶれです。"
+        },
+        {
+          "kind": "text",
+          "text": "- **解熱鎮痛成分**：熱を下げ、のどや頭の痛みをやわらげる\n- **抗ヒスタミン成分**：くしゃみや鼻水を抑える\n- **カフェイン**：頭痛をやわらげたり、眠気を少し抑えたりする"
+        },
+        {
+          "kind": "text",
+          "text": "いわば、風邪のつらい症状にまとめて対応する「オールインワン」のお薬です。それぞれの成分の量は、単体で見るとマイルドなものもあります。ですが、いくつもの成分が組み合わさることで、**全体としてはしっかりとした効き目**になるよう作られています。"
+        },
+        {
+          "kind": "text",
+          "text": "### なぜ、あれほど眠くなるのか"
+        },
+        {
+          "kind": "text",
+          "text": "眠気のいちばんの理由は、鼻水を止めるための**抗ヒスタミン成分**です。"
+        },
+        {
+          "kind": "text",
+          "text": "ヒスタミンという物質は、鼻水やくしゃみを起こす一方で、脳の中では「目を覚ましておく」スイッチの役割もしています。総合感冒薬に使われる抗ヒスタミン成分は、脳にも届きやすいタイプで、鼻水を止めると同時に、**この目覚めのスイッチまで切ってしまう**のです。"
+        },
+        {
+          "kind": "text",
+          "text": "この成分は体の中に比較的長くとどまるため、夜に飲んだ分の眠気やだるさが、翌朝まで残ってしまうこともあります。「朝は平気だと思ったのに、運転中にぼーっとした」ということも起こりえます。"
+        },
+        {
+          "kind": "text",
+          "text": "しかも、その量は決して少なくありません。お薬によっては、同じ鼻水止めの成分を単独のお薬に置きかえると、**小さな錠剤の数錠分にあたる量**が入っているものもあります。"
+        },
+        {
+          "kind": "text",
+          "text": "「でも、カフェインも入っているなら大丈夫では？」と思われるかもしれません。確かにカフェインは配合されていますが、その量はコーヒー1杯にも満たない程度です。**脳のスイッチを切る力のほうがはるかに強く、カフェインではとても太刀打ちできません。**"
+        },
+        {
+          "kind": "text",
+          "text": "### こんな場面での自己判断は、特に危険です"
+        },
+        {
+          "kind": "text",
+          "text": "- **車やバイクの運転前**：眠気だけでなく、判断や反応が遅れることがあります\n- **仕事中や、高い集中力が必要な作業の前**：機械の操作や、細かい作業などです\n- **他の痛み止めや市販の風邪薬と一緒に**：同じ解熱鎮痛成分が重なり、とりすぎになることがあります"
+        },
+        {
+          "kind": "text",
+          "text": "また、抗ヒスタミン成分は、緑内障や前立腺肥大のある方では、症状を悪くすることがあります。ご高齢の方では、ふらつきや転倒にもつながります。手元の薬を自己判断で飲む落とし穴は、「[去年の残りの薬でしのいでいませんか？](/blog/kyonen-no-allergy-kusuri)」でもお話ししています。"
+        },
+        {
+          "kind": "text",
+          "text": "### 最後に"
+        },
+        {
+          "kind": "text",
+          "text": "ひと口に「風邪」といっても、つらいのが熱なのか、のどの痛みなのか、せきなのか、鼻水なのかによって、必要なお薬はまったく違います。症状によっては、そもそも「全部入り」のお薬が必要ないこともあります。"
+        },
+        {
+          "kind": "text",
+          "text": "だからこそ、手元に残っている薬を自己判断で飲むのではなく、早めに受診してください。「明日は車で出かける」「仕事を休めない」といった生活のご事情も遠慮なくお伝えいただければ、眠くなりにくいお薬を選ぶなど、今のあなたに合った処方を一緒に考えます。風邪の治し方そのものについては、「[風邪の抗生剤、実は「未来の免疫力」まで削っているかもしれません](/blog/kaze-taisho-ryoho)」もあわせてお読みください。"
+        }
+      ]
+    },
+    "en": {
+      "category": "Health and prevention",
+      "subcategory": "Infections & vaccines",
+      "title": "Took some leftover cold medicine and got overwhelmingly sleepy? — what's inside a combination cold medicine, and the real reason for the drowsiness",
+      "excerpt": "“I only took it to bring my fever down, and the next thing I knew I'd slept for hours.” There's a clear reason for that drowsiness.",
+      "body": [
+        {
+          "kind": "text",
+          "text": "“I've got the chills. I still have some cold medicine from my last doctor's visit, so I'll take it for the fever and runny nose.” Have you ever taken medicine you had at home on your own judgment like this?"
+        },
+        {
+          "kind": "text",
+          "text": "When you're busy, it's natural to want to make do with what's on hand. But I very often hear, “I took it and got so sleepy I couldn't fight it — the next thing I knew, I'd slept for hours.”"
+        },
+        {
+          "kind": "text",
+          "text": "This article explains how the “combination cold medicines” prescribed at clinics work, and why they make you so sleepy. Here's the short answer: **the strong drowsiness from combination cold medicine comes from the ingredient added to stop your runny nose, which works quite powerfully. Taking it on your own before driving or work is very dangerous.**"
+        },
+        {
+          "kind": "text",
+          "text": "### Combination cold medicine is an “all-in-one” medicine"
+        },
+        {
+          "kind": "text",
+          "text": "Prescription combination cold medicine bundles several ingredients into one. Its contents typically include:"
+        },
+        {
+          "kind": "text",
+          "text": "- **A fever and pain reliever**: brings down fever and eases throat pain and headache\n- **An antihistamine**: controls sneezing and runny nose\n- **Caffeine**: helps ease headache and slightly counteracts drowsiness"
+        },
+        {
+          "kind": "text",
+          "text": "In other words, it's an “all-in-one” medicine that tackles the miserable symptoms of a cold together. Some of the individual ingredients are mild on their own. But combined, they're designed to work **quite effectively as a whole**."
+        },
+        {
+          "kind": "text",
+          "text": "### Why does it make you so sleepy?"
+        },
+        {
+          "kind": "text",
+          "text": "The main reason for the drowsiness is the **antihistamine** that stops your runny nose."
+        },
+        {
+          "kind": "text",
+          "text": "Histamine causes runny noses and sneezing, but inside the brain it also acts as a switch that “keeps you awake.” The antihistamine used in combination cold medicines easily reaches the brain, so while it stops your runny nose, **it also turns off that wakefulness switch**."
+        },
+        {
+          "kind": "text",
+          "text": "Because this ingredient stays in the body for a relatively long time, drowsiness and sluggishness from a dose taken at night can last into the next morning. You might think “I feel fine this morning,” only to find yourself in a daze while driving."
+        },
+        {
+          "kind": "text",
+          "text": "And the amount is far from small. In some of these medicines, if you converted the same runny-nose ingredient into a single-ingredient medicine, **it would equal several small tablets**."
+        },
+        {
+          "kind": "text",
+          "text": "“But if there's caffeine in it, isn't that fine?” you might think. Caffeine is indeed included, but the amount is less than a cup of coffee. **The power to switch off the brain is far stronger, and caffeine simply can't compete.**"
+        },
+        {
+          "kind": "text",
+          "text": "### Taking it on your own is especially dangerous in these situations"
+        },
+        {
+          "kind": "text",
+          "text": "- **Before driving a car or motorcycle**: besides drowsiness, your judgment and reactions may slow\n- **At work or before tasks needing close concentration**: such as operating machinery or detailed work\n- **Together with other painkillers or over-the-counter cold medicines**: the same fever and pain reliever may double up, leading to too much"
+        },
+        {
+          "kind": "text",
+          "text": "Antihistamines can also worsen symptoms in people with glaucoma or an enlarged prostate. In older adults, they can lead to unsteadiness and falls. I also discuss the pitfalls of taking leftover medicines on your own in “[Getting by on last year's leftover pills?](/blog/kyonen-no-allergy-kusuri)”"
+        },
+        {
+          "kind": "text",
+          "text": "### Finally"
+        },
+        {
+          "kind": "text",
+          "text": "A “cold” can mean very different things — whether what bothers you most is fever, sore throat, cough or runny nose — and the medicine you need differs completely. Depending on your symptoms, you may not need an “everything included” medicine at all."
+        },
+        {
+          "kind": "text",
+          "text": "That's exactly why I'd ask you to see a doctor early rather than taking leftover medicine on your own. Please feel free to tell us about your circumstances — “I'll be driving tomorrow,” “I can't take time off work” — and we'll work out a prescription that fits you now, such as choosing medicines less likely to cause drowsiness. For how colds actually get better, please also read “[That antibiotic for your cold might be borrowing against your future immunity](/blog/kaze-taisho-ryoho).”"
+        }
+      ]
+    },
+    "related": [
+      {
+        "slug": "kyonen-no-allergy-kusuri",
+        "ja": "去年の残りの薬でしのいでいませんか？——抗アレルギー薬の組み合わせと、自己判断の落とし穴",
+        "en": "Getting by on last year's leftover pills? How allergy medicines work together — and the pitfalls of choosing your own"
+      },
+      {
+        "slug": "kaze-taisho-ryoho",
+        "ja": "風邪の抗生剤、実は「未来の免疫力」まで削っているかもしれません",
+        "en": "That antibiotic for your cold might be borrowing against your future immunity"
+      },
+      {
+        "slug": "kansen-2026-11",
+        "ja": "【続報】宮崎でインフルエンザが例年の約15倍に。RSウイルスも倍増、マダニの感染症にも注意を",
+        "en": "[Update] Flu in Miyazaki is about 15 times the usual level — RSV has doubled, and watch out for tick-borne infections too"
       }
     ]
   }
