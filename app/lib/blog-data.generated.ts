@@ -185,8 +185,8 @@ export const generatedPosts: BlogPost[] = [
     "related": [
       {
         "slug": "kibana-kenkou-festa-2026",
-        "ja": "雨の「木花健康フェスタ」に行ってきました〜開院前の院長として、地域のみなさんにごあいさつ〜",
-        "en": "A rainy day at the Kibana Health Festa — saying hello to the community before we open"
+        "ja": "雨の「木花健康フェスタ」に行ってきました〜握力測定のボランティアをして感じた、木花の健康への意識〜",
+        "en": "A rainy day at the Kibana Health Festa — what I felt as a grip-strength volunteer"
       },
       {
         "slug": "kinri-no-aru-sekai",
@@ -4264,8 +4264,8 @@ export const generatedPosts: BlogPost[] = [
       },
       {
         "slug": "kibana-kenkou-festa-2026",
-        "ja": "雨の「木花健康フェスタ」に行ってきました〜開院前の院長として、地域のみなさんにごあいさつ〜",
-        "en": "A rainy day at the Kibana Health Festa — saying hello to the community before we open"
+        "ja": "雨の「木花健康フェスタ」に行ってきました〜握力測定のボランティアをして感じた、木花の健康への意識〜",
+        "en": "A rainy day at the Kibana Health Festa — what I felt as a grip-strength volunteer"
       },
       {
         "slug": "isseisan-daikangei",
@@ -5018,8 +5018,8 @@ export const generatedPosts: BlogPost[] = [
     "related": [
       {
         "slug": "kibana-kenkou-festa-2026",
-        "ja": "雨の「木花健康フェスタ」に行ってきました〜開院前の院長として、地域のみなさんにごあいさつ〜",
-        "en": "A rainy day at the Kibana Health Festa — saying hello to the community before we open"
+        "ja": "雨の「木花健康フェスタ」に行ってきました〜握力測定のボランティアをして感じた、木花の健康への意識〜",
+        "en": "A rainy day at the Kibana Health Festa — what I felt as a grip-strength volunteer"
       },
       {
         "slug": "kinri-no-aru-sekai",
@@ -8588,8 +8588,8 @@ export const generatedPosts: BlogPost[] = [
       },
       {
         "slug": "kibana-kenkou-festa-2026",
-        "ja": "雨の「木花健康フェスタ」に行ってきました〜開院前の院長として、地域のみなさんにごあいさつ〜",
-        "en": "A rainy day at the Kibana Health Festa — saying hello to the community before we open"
+        "ja": "雨の「木花健康フェスタ」に行ってきました〜握力測定のボランティアをして感じた、木花の健康への意識〜",
+        "en": "A rainy day at the Kibana Health Festa — what I felt as a grip-strength volunteer"
       },
       {
         "slug": "isseisan-daikangei",
@@ -13255,8 +13255,8 @@ export const generatedPosts: BlogPost[] = [
     "coverHeight": 900,
     "ja": {
       "category": "診療所づくり",
-      "title": "雨の「木花健康フェスタ」に行ってきました〜開院前の院長として、地域のみなさんにごあいさつ〜",
-      "excerpt": "「雨だから中止かな」と思われていた方も多かったはずの朝。体育館には、思っていた以上のにぎわいがありました。",
+      "title": "雨の「木花健康フェスタ」に行ってきました〜握力測定のボランティアをして感じた、木花の健康への意識〜",
+      "excerpt": "「雨だから中止かな」と思われていた方も多かったはずの朝。体育館には、健康への意識が高い地域の方がたくさん来られていました。",
       "body": [
         {
           "kind": "text",
@@ -13310,18 +13310,6 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "### 名刺をお渡しして"
-        },
-        {
-          "kind": "text",
-          "text": "会場では、地域づくりに関わる方や、高齢の方の相談窓口の方にごあいさつし、名刺を交換したり、お渡ししたりしました。来場されていたご高齢の方にも、「来年の秋に、熊野に診療所ができます」とお伝えしながら、名刺をお渡ししました。"
-        },
-        {
-          "kind": "text",
-          "text": "まだ建物もない診療所の名刺を受け取っていただくのは、少し気恥ずかしいものです。それでも、こうして一人ずつ顔を合わせていくことが、この土地に根を下ろす一歩目なのだと思っています。"
-        },
-        {
-          "kind": "text",
           "text": "### 来年は、診療所として"
         },
         {
@@ -13340,8 +13328,8 @@ export const generatedPosts: BlogPost[] = [
     },
     "en": {
       "category": "Building the clinic",
-      "title": "A rainy day at the Kibana Health Festa — saying hello to the community before we open",
-      "excerpt": "Plenty of people probably assumed it would be canceled for rain. Yet the gym was busier than I expected.",
+      "title": "A rainy day at the Kibana Health Festa — what I felt as a grip-strength volunteer",
+      "excerpt": "Plenty of people probably assumed it would be canceled for rain. Yet the gym was full of health-minded people from the community.",
       "body": [
         {
           "kind": "text",
@@ -13392,18 +13380,6 @@ export const generatedPosts: BlogPost[] = [
         {
           "kind": "text",
           "text": "The local volunteers had surely been busy since early morning, rearranging everything for the new venue. Even so, they greeted everyone with a smile. Events like this exist because of that kind of community spirit."
-        },
-        {
-          "kind": "text",
-          "text": "### Handing out my card"
-        },
-        {
-          "kind": "text",
-          "text": "I said hello to people involved in community building and to staff from the local support center for older residents, and exchanged or handed out my cards. I also handed my card to some of the older visitors, letting them know that a clinic will open in Kumano next fall."
-        },
-        {
-          "kind": "text",
-          "text": "It feels a little sheepish to hand out cards for a clinic whose building doesn't exist yet. But meeting people face to face, one by one, is how I hope to put down roots here."
         },
         {
           "kind": "text",
