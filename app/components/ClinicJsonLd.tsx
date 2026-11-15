@@ -1,7 +1,7 @@
 import { BRAND } from "../lib/brand";
 import { BASE_URL, SITE_SEO } from "../lib/seo";
 import { SCHEDULE } from "../lib/schedule";
-import { FACEBOOK_URL, INSTAGRAM_URL, LINE_URL } from "../lib/site-config";
+import { FACEBOOK_URL, INSTAGRAM_URL, LINE_URL, YOUTUBE_URL } from "../lib/site-config";
 
 const DAY_OF_WEEK = [
   "Monday",
@@ -77,7 +77,7 @@ export default function ClinicJsonLd() {
     description: SITE_SEO.description,
     url: BASE_URL,
     // 同じ診療所の公式アカウント（検索エンジン向け）
-    sameAs: [FACEBOOK_URL, LINE_URL, INSTAGRAM_URL].filter(Boolean),
+    sameAs: [FACEBOOK_URL, LINE_URL, INSTAGRAM_URL, YOUTUBE_URL].filter(Boolean),
     address: {
       "@type": "PostalAddress",
       streetAddress: "熊野5233-2",

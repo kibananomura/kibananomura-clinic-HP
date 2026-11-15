@@ -21,6 +21,7 @@ export type BlogPost = {
   coverVersion?: string; // 表紙の中身から作った版番号（SNSに差し替えを伝えるため、生成時に自動計算）
   coverWidth?: number;
   coverHeight?: number;
+  youtube?: string; // YouTubeショートの動画ID（記事の内容を院長が話した動画。記事の中に埋め込む）
   sources?: { label: string; url?: string }[]; // 参考にした資料（記事末尾に表示）
   related?: { slug: string; ja: string; en: string }[]; // 関連する院長ブログ（記事末尾に表示、生成時に自動計算）
   upcoming?: { ja: string; en: string }[]; // 関連する「近日公開予定」の記事（予約公開待ち）

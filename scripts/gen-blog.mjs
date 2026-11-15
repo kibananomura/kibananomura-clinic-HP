@@ -114,6 +114,14 @@ function fail(message) {
   process.exit(1);
 }
 
+// frontmatter の youtube（院長が記事の内容を話したショート動画のID。例: xhlr0E9nWo8）
+function parseYoutube(raw, file) {
+  if (raw === undefined || raw === null || raw === "") return undefined;
+  const id = String(raw).trim();
+  if (!/^[A-Za-z0-9_-]{11}$/.test(id)) fail(`${file}: "youtube" must be an 11-character video ID`);
+  return id;
+}
+
 // frontmatter の sources（参考にした資料）を [{ label, url? }] に整える。
 function parseSources(raw, file) {
   if (raw === undefined || raw === null) return undefined;
@@ -245,6 +253,7 @@ function generate() {
       cover: data.cover,
       coverPosition: data.coverPosition || undefined,
       ...coverMeta(data.cover),
+      youtube: parseYoutube(data.youtube, file),
       sources: parseSources(data.sources, file),
       ja: {
         category: data.category_ja,

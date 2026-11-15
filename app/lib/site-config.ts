@@ -12,3 +12,6 @@ export const FACEBOOK_URL = "https://www.facebook.com/profile.php?id=61595134787
 
 /** Instagram（2026-11-03開設。空にすると、フッターのアイコンを出さない） */
 export const INSTAGRAM_URL = "https://www.instagram.com/kibananomura/";
+
+/** YouTubeチャンネル（2026-11-14開設。院長が院長ブログの内容を60秒で話すショート動画） */
+export const YOUTUBE_URL = "https://www.youtube.com/@kibananomura";

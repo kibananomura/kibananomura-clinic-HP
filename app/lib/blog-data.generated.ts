@@ -9854,6 +9854,7 @@ export const generatedPosts: BlogPost[] = [
     "coverVersion": "03283c30",
     "coverWidth": 1600,
     "coverHeight": 900,
+    "youtube": "xhlr0E9nWo8",
     "sources": [
       {
         "label": "日本動脈硬化学会「動脈硬化性疾患予防ガイドライン2022年版」",

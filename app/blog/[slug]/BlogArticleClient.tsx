@@ -12,7 +12,7 @@ import { withWbr } from "../../lib/jp-break";
 import BlogRequestNote from "../../components/BlogRequestNote";
 import BlogFeedback from "../../components/BlogFeedback";
 import ShareButtons from "../../components/ShareButtons";
-import { FACEBOOK_URL } from "../../lib/site-config";
+import { FACEBOOK_URL, YOUTUBE_URL } from "../../lib/site-config";
 import Breadcrumbs from "../../components/Breadcrumbs";
 
 export default function BlogArticle({ relatedDiseases = [] }: { relatedDiseases?: RelatedLink[] }) {
@@ -78,6 +78,16 @@ export default function BlogArticle({ relatedDiseases = [] }: { relatedDiseases?
             <time dateTime={post.date.replace(/\./g, "-")}>{post.date}</time>
           </p>
 
+          {post.youtube && (
+            <a
+              href="#video"
+              className="mt-4 inline-flex items-center gap-2 rounded-full bg-[#FF0000]/10 px-4 py-2 text-sm font-bold text-[#c00] transition-colors hover:bg-[#FF0000]/15"
+            >
+              <span aria-hidden="true">▶</span>
+              {lang === "en" ? "Watch the 60-second video (in Japanese)" : "院長が60秒でお話しする動画もあります"}
+            </a>
+          )}
+
           <div className="mt-8 space-y-5">
             {c.body.map((block, i) =>
               block.kind === "text" ? (
@@ -102,6 +112,47 @@ export default function BlogArticle({ relatedDiseases = [] }: { relatedDiseases?
               )
             )}
           </div>
+
+          {post.youtube && (
+            <section id="video" className="mt-12 scroll-mt-28 rounded-3xl bg-surface/90 p-6 shadow-card sm:p-8">
+              <h2 className="text-lg font-bold text-ink">
+                {lang === "en" ? "Watch: the director explains in 60 seconds" : "動画でも：院長が60秒でお話しします"}
+              </h2>
+              <div className="mx-auto mt-5 aspect-[9/16] w-full max-w-[300px] overflow-hidden rounded-2xl bg-ink shadow-card">
+                <iframe
+                  src={`https://www.youtube-nocookie.com/embed/${post.youtube}`}
+                  title={c.title}
+                  loading="lazy"
+                  allow="accelerometer; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowFullScreen
+                  className="h-full w-full"
+                />
+              </div>
+              <div className="mt-5 flex flex-wrap justify-center gap-3 text-sm">
+                <a
+                  href={`https://www.youtube.com/shorts/${post.youtube}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="rounded-full border border-[#c00]/30 px-4 py-2 font-bold text-[#c00] transition-colors hover:bg-[#FF0000]/5"
+                >
+                  {lang === "en" ? "Open on YouTube" : "YouTubeで見る"}
+                </a>
+                <a
+                  href={`${YOUTUBE_URL}?sub_confirmation=1`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="rounded-full bg-[#c00] px-4 py-2 font-bold text-white transition-colors hover:bg-[#a00]"
+                >
+                  {lang === "en" ? "Subscribe to the channel" : "チャンネル登録"}
+                </a>
+              </div>
+              <p className="mt-4 text-center text-xs leading-relaxed text-ink/55">
+                {lang === "en"
+                  ? "This video is general information. Please talk to your doctor before stopping or changing any medicine."
+                  : "動画は一般的な情報です。お薬をやめる・変えるときは、主治医にご相談ください。"}
+              </p>
+            </section>
+          )}
 
           {post.sources && post.sources.length > 0 && (
             <div className="mt-10 border-t border-accent pt-5">
@@ -212,6 +263,20 @@ export default function BlogArticle({ relatedDiseases = [] }: { relatedDiseases?
                 : "Facebookページでも、院長ブログや開院までの準備の様子を毎日お届けしています。"}
             </span>
             <span className="shrink-0 font-bold text-[#1877F2]">{lang === "en" ? "Follow →" : "フォローする →"}</span>
+          </a>
+
+          <a
+            href={YOUTUBE_URL}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="mt-3 flex items-center justify-between gap-3 rounded-2xl border border-[#c00]/20 bg-surface/90 px-5 py-4 text-sm shadow-card transition-colors hover:bg-[#FF0000]/5"
+          >
+            <span className="leading-relaxed text-ink/80">
+              {lang === "en"
+                ? "On YouTube, the director talks through blog topics in 60-second videos."
+                : "YouTubeでは、院長ブログの内容を院長が60秒でお話ししています。"}
+            </span>
+            <span className="shrink-0 font-bold text-[#c00]">{lang === "en" ? "Watch →" : "見てみる →"}</span>
           </a>
 
           <div className="mt-6 rounded-3xl bg-surface/90 p-6 text-center shadow-card sm:p-8">
