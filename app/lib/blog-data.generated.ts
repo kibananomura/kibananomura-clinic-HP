@@ -185,8 +185,8 @@ export const generatedPosts: BlogPost[] = [
     "related": [
       {
         "slug": "kibana-kenkou-festa-2026",
-        "ja": "雨の「木花健康フェスタ」に行ってきました〜握力測定のボランティアをして感じた、木花の健康への意識〜",
-        "en": "A rainy day at the Kibana Health Festa — what I felt as a grip-strength volunteer"
+        "ja": "「木花健康フェスタ」は体育館で〜握力測定のボランティアをして感じた、木花の健康への意識〜",
+        "en": "The Kibana Health Festa moves indoors — what I felt as a grip-strength volunteer"
       },
       {
         "slug": "kinri-no-aru-sekai",
@@ -4264,8 +4264,8 @@ export const generatedPosts: BlogPost[] = [
       },
       {
         "slug": "kibana-kenkou-festa-2026",
-        "ja": "雨の「木花健康フェスタ」に行ってきました〜握力測定のボランティアをして感じた、木花の健康への意識〜",
-        "en": "A rainy day at the Kibana Health Festa — what I felt as a grip-strength volunteer"
+        "ja": "「木花健康フェスタ」は体育館で〜握力測定のボランティアをして感じた、木花の健康への意識〜",
+        "en": "The Kibana Health Festa moves indoors — what I felt as a grip-strength volunteer"
       },
       {
         "slug": "isseisan-daikangei",
@@ -5018,8 +5018,8 @@ export const generatedPosts: BlogPost[] = [
     "related": [
       {
         "slug": "kibana-kenkou-festa-2026",
-        "ja": "雨の「木花健康フェスタ」に行ってきました〜握力測定のボランティアをして感じた、木花の健康への意識〜",
-        "en": "A rainy day at the Kibana Health Festa — what I felt as a grip-strength volunteer"
+        "ja": "「木花健康フェスタ」は体育館で〜握力測定のボランティアをして感じた、木花の健康への意識〜",
+        "en": "The Kibana Health Festa moves indoors — what I felt as a grip-strength volunteer"
       },
       {
         "slug": "kinri-no-aru-sekai",
@@ -8588,8 +8588,8 @@ export const generatedPosts: BlogPost[] = [
       },
       {
         "slug": "kibana-kenkou-festa-2026",
-        "ja": "雨の「木花健康フェスタ」に行ってきました〜握力測定のボランティアをして感じた、木花の健康への意識〜",
-        "en": "A rainy day at the Kibana Health Festa — what I felt as a grip-strength volunteer"
+        "ja": "「木花健康フェスタ」は体育館で〜握力測定のボランティアをして感じた、木花の健康への意識〜",
+        "en": "The Kibana Health Festa moves indoors — what I felt as a grip-strength volunteer"
       },
       {
         "slug": "isseisan-daikangei",
@@ -13255,8 +13255,8 @@ export const generatedPosts: BlogPost[] = [
     "coverHeight": 900,
     "ja": {
       "category": "診療所づくり",
-      "title": "雨の「木花健康フェスタ」に行ってきました〜握力測定のボランティアをして感じた、木花の健康への意識〜",
-      "excerpt": "「雨だから中止かな」と思われていた方も多かったはずの朝。体育館には、健康への意識が高い地域の方がたくさん来られていました。",
+      "title": "「木花健康フェスタ」は体育館で〜握力測定のボランティアをして感じた、木花の健康への意識〜",
+      "excerpt": "雨の予報で体育館に移した会場。ふたを開けてみれば朝9時には晴れ渡り、ブースの近さがかえって熱気を生んでいました。",
       "body": [
         {
           "kind": "text",
@@ -13271,15 +13271,19 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "前の日から雨の予報で、「明日は中止かな」と思われていた方も多かったと思います。主催のみなさんの判断で、会場は運動場から体育館に変わりました。前日の夜、当院のInstagramでも「雨でも開催します」とお知らせしました。"
+          "text": "前の日まで雨の予報が続き、メイン会場は運動場から体育館に変わりました。前日の夜には、当院のInstagramでも「雨でも開催します」とお知らせしました。ところが当日、始まりの9時には、空はすっかり晴れ渡っていました。"
         },
         {
           "kind": "text",
-          "text": "### 体育館には、にぎやかな声が"
+          "text": "### 去年は校庭で、今年は体育館で"
         },
         {
           "kind": "text",
-          "text": "受付で測定用紙とアンケートを受け取り、テーブルを順に回っていく。雨の日にわざわざ足を運ぶというのは、それだけ「自分の体のことを知りたい」という思いがあるのだと、あらためて感じました。"
+          "text": "実は去年、私も子どもと一緒に、いち参加者としてこのフェスタに来ていました。そのときは晴れて、校庭での開催でした。"
+        },
+        {
+          "kind": "text",
+          "text": "今年は体育館の中。ブース同士の距離が近く、あちこちの測定やイベントの声がすぐそばから聞こえてきます。会場の盛り上がりを、肌で感じることができました。"
         },
         {
           "kind": "image",
@@ -13306,10 +13310,6 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "運営に関わる地域の方々は、朝早くから会場の変更や準備に追われていたはずです。それでも、来た人を笑顔で迎えておられました。こうした地域の力があってこその行事なのだと思います。"
-        },
-        {
-          "kind": "text",
           "text": "### 来年は、診療所として"
         },
         {
@@ -13328,8 +13328,8 @@ export const generatedPosts: BlogPost[] = [
     },
     "en": {
       "category": "Building the clinic",
-      "title": "A rainy day at the Kibana Health Festa — what I felt as a grip-strength volunteer",
-      "excerpt": "Plenty of people probably assumed it would be canceled for rain. Yet the gym was full of health-minded people from the community.",
+      "title": "The Kibana Health Festa moves indoors — what I felt as a grip-strength volunteer",
+      "excerpt": "Moved indoors because of the rain forecast, the festa opened at 9 under clear skies — and the close-together booths made the energy all the more vivid.",
       "body": [
         {
           "kind": "text",
@@ -13344,15 +13344,19 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "Rain had been forecast since the day before, and I imagine many people assumed it would be canceled. The organizers decided to move the main venue from the sports ground into the gym. The night before, we posted on our Instagram that the event was going ahead rain or shine."
+          "text": "Rain had been forecast right up to the day before, so the main venue was moved from the sports ground into the gym. The night before, we posted on our Instagram that the event was going ahead rain or shine. Yet on the day, by the 9 a.m. start, the sky had cleared completely."
         },
         {
           "kind": "text",
-          "text": "### A lively gym"
+          "text": "### Last year outdoors, this year in the gym"
         },
         {
           "kind": "text",
-          "text": "Visitors picked up a measurement sheet and a questionnaire at the entrance, then made their way from table to table. Coming out on a rainy day says a lot about how much people want to understand their own health."
+          "text": "Last year, I actually came to this festa with my child, as an ordinary participant. The weather was fine, and it was held out on the school grounds."
+        },
+        {
+          "kind": "text",
+          "text": "This year it was inside the gym. The booths were close together, and you could hear the measurements and activities going on all around you. I could feel the excitement of the venue right on my skin."
         },
         {
           "kind": "image",
@@ -13376,10 +13380,6 @@ export const generatedPosts: BlogPost[] = [
         {
           "kind": "text",
           "text": "Ninth-grade students from the local junior high also volunteered. Watching them interact with people from the community warmed my heart."
-        },
-        {
-          "kind": "text",
-          "text": "The local volunteers had surely been busy since early morning, rearranging everything for the new venue. Even so, they greeted everyone with a smile. Events like this exist because of that kind of community spirit."
         },
         {
           "kind": "text",
