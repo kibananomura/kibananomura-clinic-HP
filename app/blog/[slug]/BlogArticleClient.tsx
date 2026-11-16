@@ -85,7 +85,7 @@ export default function BlogArticle({ relatedDiseases = [] }: { relatedDiseases?
               className="mt-4 inline-flex items-center gap-2 rounded-full bg-[#FF0000]/10 px-4 py-2 text-sm font-bold text-[#c00] transition-colors hover:bg-[#FF0000]/15"
             >
               <span aria-hidden="true">▶</span>
-              {lang === "en" ? "Watch the 60-second video (in Japanese)" : "院長が60秒でお話しする動画もあります"}
+              {lang === "en" ? "Watch the short video (in Japanese)" : "院長が短くお話しする動画もあります"}
             </a>
           )}
 
@@ -128,7 +128,7 @@ export default function BlogArticle({ relatedDiseases = [] }: { relatedDiseases?
           {post.youtube && (
             <section id="video" className="mt-12 scroll-mt-28 rounded-3xl bg-surface/90 p-6 shadow-card sm:p-8">
               <h2 className="text-lg font-bold text-ink">
-                {lang === "en" ? "Watch: the director explains in 60 seconds" : "動画でも：院長が60秒でお話しします"}
+                {lang === "en" ? "Watch: a short talk by the director" : "動画でも：院長が短くお話しします"}
               </h2>
               <div className="mx-auto mt-5 aspect-[9/16] w-full max-w-[300px] overflow-hidden rounded-2xl bg-ink shadow-card">
                 <iframe

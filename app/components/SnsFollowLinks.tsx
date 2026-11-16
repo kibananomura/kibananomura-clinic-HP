@@ -23,7 +23,7 @@ export default function SnsFollowLinks({ className = "" }: { className?: string 
     {
       href: YOUTUBE_URL,
       label: "YouTube",
-      note: en ? "60-second talks" : "院長の60秒動画",
+      note: en ? "Short talks" : "院長のショート動画",
       cls: "border-[#c00]/20 text-[#c00] hover:bg-[#FF0000]/5",
     },
   ].filter((l) => l.href);
