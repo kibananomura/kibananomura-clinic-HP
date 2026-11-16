@@ -10998,6 +10998,10 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
+          "text": "私は外来で、体質（遺伝）による高血圧や、二次性高血圧（腎臓やホルモンの病気など、ほかの病気が原因で起こる高血圧）ではない方で、毎日ご自宅で血圧を測れていて、生活習慣が変わってきていれば、「薬を減らしてみましょう」と提案しています。"
+        },
+        {
+          "kind": "text",
           "text": "そのうえで、**いきなりゼロにするのではなく、量や種類を少しずつ減らして様子を見る「ステップダウン」**という方法をとります。血圧が上がってきたら、もとに戻せば大丈夫です。冬は血圧が上がりやすいので、季節が変わるころにもう一度確かめます。血圧が下がりすぎてふらつくときの目安や、減らし方の詳しい進め方は、「[血圧が低いけれど、お薬を減らしても大丈夫？](/blog/kouatsu-genryou-fuan)」をご覧ください。"
         },
         {
@@ -11095,6 +11099,10 @@ export const generatedPosts: BlogPost[] = [
         {
           "kind": "text",
           "text": "- Your lifestyle improvements have held steady for six months to a year\n- Your home readings have settled on the low side\n- It's a time of year, such as summer, when blood pressure tends to drop, and you're feeling well"
+        },
+        {
+          "kind": "text",
+          "text": "In my own clinic work, if someone's high blood pressure isn't due to their constitution (genetics) or is not secondary hypertension (high blood pressure caused by another condition, such as a kidney or hormone disorder), and they've been measuring their blood pressure at home every day and their lifestyle has been changing, I suggest, \"Let's try reducing your medicine.\""
         },
         {
           "kind": "text",
