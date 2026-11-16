@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-14T02:36:20.862Z",
+  "generatedAt": "2026-11-16T22:05:19.072Z",
   "categories": [
     {
       "label": "労務規程一式（就業規則・賃金規程・各種規程）",
@@ -264,7 +264,7 @@
           "htmlUrl": "/admin-docs/pre-opening-training/00_%E7%90%86%E5%BF%B5%E3%81%AE%E4%BD%93%E7%B3%BB%E3%81%A8%E8%A1%8C%E5%8B%95%E6%8C%87%E9%87%9D.html",
           "blobHtmlUrl": "https://ck8huzl3ywaclnro.private.blob.vercel-storage.com/pre-opening-training/00_%E7%90%86%E5%BF%B5%E3%81%AE%E4%BD%93%E7%B3%BB%E3%81%A8%E8%A1%8C%E5%8B%95%E6%8C%87%E9%87%9D.html",
           "sizeKB": 2442,
-          "modified": "2026-11-14"
+          "modified": "2026-11-16"
         },
         {
           "name": "01_研修カリキュラム",
@@ -335,8 +335,8 @@
           "blobUrl": "https://ck8huzl3ywaclnro.private.blob.vercel-storage.com/pre-opening-training/10_T-06_%E3%83%9F%E3%83%83%E3%82%B7%E3%83%A7%E3%83%B3%E3%83%BB%E3%83%93%E3%82%B8%E3%83%A7%E3%83%B3%E5%AE%9F%E8%B7%B5%E3%82%AC%E3%82%A4%E3%83%89%EF%BC%88%E3%82%AF%E3%83%AC%E3%83%89%EF%BC%89.pdf",
           "htmlUrl": "/admin-docs/pre-opening-training/10_T-06_%E3%83%9F%E3%83%83%E3%82%B7%E3%83%A7%E3%83%B3%E3%83%BB%E3%83%93%E3%82%B8%E3%83%A7%E3%83%B3%E5%AE%9F%E8%B7%B5%E3%82%AC%E3%82%A4%E3%83%89%EF%BC%88%E3%82%AF%E3%83%AC%E3%83%89%EF%BC%89.html",
           "blobHtmlUrl": "https://ck8huzl3ywaclnro.private.blob.vercel-storage.com/pre-opening-training/10_T-06_%E3%83%9F%E3%83%83%E3%82%B7%E3%83%A7%E3%83%B3%E3%83%BB%E3%83%93%E3%82%B8%E3%83%A7%E3%83%B3%E5%AE%9F%E8%B7%B5%E3%82%AC%E3%82%A4%E3%83%89%EF%BC%88%E3%82%AF%E3%83%AC%E3%83%89%EF%BC%89.html",
-          "sizeKB": 1046,
-          "modified": "2026-11-14"
+          "sizeKB": 1047,
+          "modified": "2026-11-16"
         }
       ]
     },
@@ -363,6 +363,24 @@
           "name": "CTと一般撮影装置　参考価格",
           "url": "/admin-docs/equipment-quotes/CT%E3%81%A8%E4%B8%80%E8%88%AC%E6%92%AE%E5%BD%B1%E8%A3%85%E7%BD%AE%E3%80%80%E5%8F%82%E8%80%83%E4%BE%A1%E6%A0%BC.pdf",
           "blobUrl": "https://ck8huzl3ywaclnro.private.blob.vercel-storage.com/equipment-quotes/CT%E3%81%A8%E4%B8%80%E8%88%AC%E6%92%AE%E5%BD%B1%E8%A3%85%E7%BD%AE%E3%80%80%E5%8F%82%E8%80%83%E4%BE%A1%E6%A0%BC.pdf",
+          "htmlUrl": null,
+          "blobHtmlUrl": null,
+          "sizeKB": 1306,
+          "modified": "2026-10-13"
+        },
+        {
+          "name": "コニカ_FPD PACS USシステム_8000000",
+          "url": "/admin-docs/equipment-quotes/%E3%82%B3%E3%83%8B%E3%82%AB_FPD%20PACS%20US%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0_8000000.pdf",
+          "blobUrl": "https://ck8huzl3ywaclnro.private.blob.vercel-storage.com/equipment-quotes/%E3%82%B3%E3%83%8B%E3%82%AB_FPD%20PACS%20US%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0_8000000.pdf",
+          "htmlUrl": null,
+          "blobHtmlUrl": null,
+          "sizeKB": 831,
+          "modified": "2026-10-13"
+        },
+        {
+          "name": "コニカ_キャノンCT Aquilion lightning I＿19500000",
+          "url": "/admin-docs/equipment-quotes/%E3%82%B3%E3%83%8B%E3%82%AB_%E3%82%AD%E3%83%A3%E3%83%8E%E3%83%B3CT%20Aquilion%20lightning%20I%EF%BC%BF19500000.pdf",
+          "blobUrl": "https://ck8huzl3ywaclnro.private.blob.vercel-storage.com/equipment-quotes/%E3%82%B3%E3%83%8B%E3%82%AB_%E3%82%AD%E3%83%A3%E3%83%8E%E3%83%B3CT%20Aquilion%20lightning%20I%EF%BC%BF19500000.pdf",
           "htmlUrl": null,
           "blobHtmlUrl": null,
           "sizeKB": 1306,
@@ -424,6 +442,60 @@
           "blobHtmlUrl": null,
           "sizeKB": 1161,
           "modified": "2026-10-02"
+        },
+        {
+          "name": " MNES _PACS_300000_13000",
+          "url": "/admin-docs/emr-review/%20MNES%20_PACS_300000_13000.pdf",
+          "blobUrl": "https://ck8huzl3ywaclnro.private.blob.vercel-storage.com/emr-review/%20MNES%20_PACS_300000_13000.pdf",
+          "htmlUrl": null,
+          "blobHtmlUrl": null,
+          "sizeKB": 182,
+          "modified": "2026-10-22"
+        },
+        {
+          "name": "ジェイマックシステム_Climis_275000_16500",
+          "url": "/admin-docs/emr-review/%E3%82%B8%E3%82%A7%E3%82%A4%E3%83%9E%E3%83%83%E3%82%AF%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0_Climis_275000_16500.pdf",
+          "blobUrl": "https://ck8huzl3ywaclnro.private.blob.vercel-storage.com/emr-review/%E3%82%B8%E3%82%A7%E3%82%A4%E3%83%9E%E3%83%83%E3%82%AF%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0_Climis_275000_16500.pdf",
+          "htmlUrl": null,
+          "blobHtmlUrl": null,
+          "sizeKB": 736,
+          "modified": "2026-10-22"
+        },
+        {
+          "name": "エムスリーデジカル一体型・デジスマ診療  オンラインプラン概算計算書 .xlsx - 一体型概算計算書",
+          "url": "/admin-docs/emr-review/%E3%82%A8%E3%83%A0%E3%82%B9%E3%83%AA%E3%83%BC%E3%83%87%E3%82%B8%E3%82%AB%E3%83%AB%E4%B8%80%E4%BD%93%E5%9E%8B%E3%83%BB%E3%83%87%E3%82%B8%E3%82%B9%E3%83%9E%E8%A8%BA%E7%99%82%20%20%E3%82%AA%E3%83%B3%E3%83%A9%E3%82%A4%E3%83%B3%E3%83%97%E3%83%A9%E3%83%B3%E6%A6%82%E7%AE%97%E8%A8%88%E7%AE%97%E6%9B%B8%20.xlsx%20-%20%E4%B8%80%E4%BD%93%E5%9E%8B%E6%A6%82%E7%AE%97%E8%A8%88%E7%AE%97%E6%9B%B8.pdf",
+          "blobUrl": "https://ck8huzl3ywaclnro.private.blob.vercel-storage.com/emr-review/%E3%82%A8%E3%83%A0%E3%82%B9%E3%83%AA%E3%83%BC%E3%83%87%E3%82%B8%E3%82%AB%E3%83%AB%E4%B8%80%E4%BD%93%E5%9E%8B%E3%83%BB%E3%83%87%E3%82%B8%E3%82%B9%E3%83%9E%E8%A8%BA%E7%99%82%20%20%E3%82%AA%E3%83%B3%E3%83%A9%E3%82%A4%E3%83%B3%E3%83%97%E3%83%A9%E3%83%B3%E6%A6%82%E7%AE%97%E8%A8%88%E7%AE%97%E6%9B%B8%20.xlsx%20-%20%E4%B8%80%E4%BD%93%E5%9E%8B%E6%A6%82%E7%AE%97%E8%A8%88%E7%AE%97%E6%9B%B8.pdf",
+          "htmlUrl": null,
+          "blobHtmlUrl": null,
+          "sizeKB": 179,
+          "modified": "2026-11-04"
+        },
+        {
+          "name": "Wrusty_オンライン診療システム_495000_39600",
+          "url": "/admin-docs/emr-review/Wrusty_%E3%82%AA%E3%83%B3%E3%83%A9%E3%82%A4%E3%83%B3%E8%A8%BA%E7%99%82%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0_495000_39600.pdf",
+          "blobUrl": "https://ck8huzl3ywaclnro.private.blob.vercel-storage.com/emr-review/Wrusty_%E3%82%AA%E3%83%B3%E3%83%A9%E3%82%A4%E3%83%B3%E8%A8%BA%E7%99%82%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0_495000_39600.pdf",
+          "htmlUrl": null,
+          "blobHtmlUrl": null,
+          "sizeKB": 8778,
+          "modified": "2026-10-22"
+        },
+        {
+          "name": "クリニックキオスクBIZ_セミセルフレジ_2640000",
+          "url": "/admin-docs/emr-review/%E3%82%AF%E3%83%AA%E3%83%8B%E3%83%83%E3%82%AF%E3%82%AD%E3%82%AA%E3%82%B9%E3%82%AFBIZ_%E3%82%BB%E3%83%9F%E3%82%BB%E3%83%AB%E3%83%95%E3%83%AC%E3%82%B8_2640000.pdf",
+          "blobUrl": "https://ck8huzl3ywaclnro.private.blob.vercel-storage.com/emr-review/%E3%82%AF%E3%83%AA%E3%83%8B%E3%83%83%E3%82%AF%E3%82%AD%E3%82%AA%E3%82%B9%E3%82%AFBIZ_%E3%82%BB%E3%83%9F%E3%82%BB%E3%83%AB%E3%83%95%E3%83%AC%E3%82%B8_2640000.pdf",
+          "htmlUrl": null,
+          "blobHtmlUrl": null,
+          "sizeKB": 600,
+          "modified": "2026-10-22"
+        },
+        {
+          "name": "ティーエスアイ_スマレジ_1732500",
+          "url": "/admin-docs/emr-review/%E3%83%86%E3%82%A3%E3%83%BC%E3%82%A8%E3%82%B9%E3%82%A2%E3%82%A4_%E3%82%B9%E3%83%9E%E3%83%AC%E3%82%B8_1732500.pdf",
+          "blobUrl": "https://ck8huzl3ywaclnro.private.blob.vercel-storage.com/emr-review/%E3%83%86%E3%82%A3%E3%83%BC%E3%82%A8%E3%82%B9%E3%82%A2%E3%82%A4_%E3%82%B9%E3%83%9E%E3%83%AC%E3%82%B8_1732500.pdf",
+          "htmlUrl": null,
+          "blobHtmlUrl": null,
+          "sizeKB": 145,
+          "modified": "2026-10-22"
         }
       ]
     },
