@@ -198,6 +198,12 @@ export const generatedPosts: BlogPost[] = [
         "ja": "旅先での体調不良、「一見さん」でも大歓迎です",
         "en": "Feeling unwell while traveling? First-time visitors are always welcome here"
       }
+    ],
+    "upcoming": [
+      {
+        "ja": "「医療を忘れて暮らせる明日」を創る〜私たちが、この言葉にたどり着くまで〜",
+        "en": "Creating “a tomorrow where you can live without thinking about medical care” — how we arrived at these words"
+      }
     ]
   },
   {
@@ -4402,6 +4408,12 @@ export const generatedPosts: BlogPost[] = [
         "ja": "同じ言葉なのに、診察室だと心に届くのはなぜ？〜「場」が持つ、もうひとつの治療の力〜",
         "en": "Why do the same words reach you differently in the exam room? — the other healing power of a “place”"
       }
+    ],
+    "upcoming": [
+      {
+        "ja": "「医療を忘れて暮らせる明日」を創る〜私たちが、この言葉にたどり着くまで〜",
+        "en": "Creating “a tomorrow where you can live without thinking about medical care” — how we arrived at these words"
+      }
     ]
   },
   {
@@ -5888,6 +5900,12 @@ export const generatedPosts: BlogPost[] = [
         "slug": "tounyoubyou-kankai",
         "ja": "「糖尿病は一生治らない」は、もう昔の話？〜「寛解」を目指せる時代になりました〜",
         "en": "“Diabetes never goes away” — is that an old idea now? — remission has become a realistic goal"
+      }
+    ],
+    "upcoming": [
+      {
+        "ja": "「医療を忘れて暮らせる明日」を創る〜私たちが、この言葉にたどり着くまで〜",
+        "en": "Creating “a tomorrow where you can live without thinking about medical care” — how we arrived at these words"
       }
     ]
   },
@@ -8906,6 +8924,12 @@ export const generatedPosts: BlogPost[] = [
         "ja": "同じ言葉なのに、診察室だと心に届くのはなぜ？〜「場」が持つ、もうひとつの治療の力〜",
         "en": "Why do the same words reach you differently in the exam room? — the other healing power of a “place”"
       }
+    ],
+    "upcoming": [
+      {
+        "ja": "「医療を忘れて暮らせる明日」を創る〜私たちが、この言葉にたどり着くまで〜",
+        "en": "Creating “a tomorrow where you can live without thinking about medical care” — how we arrived at these words"
+      }
     ]
   },
   {
@@ -11142,6 +11166,12 @@ export const generatedPosts: BlogPost[] = [
         "slug": "nagaku-tsukiau-iryou",
         "ja": "「治す」だけでなく、「長く付き合う」医療について",
         "en": "Medicine isn't only about curing — it's also about staying alongside you"
+      }
+    ],
+    "upcoming": [
+      {
+        "ja": "「医療を忘れて暮らせる明日」を創る〜私たちが、この言葉にたどり着くまで〜",
+        "en": "Creating “a tomorrow where you can live without thinking about medical care” — how we arrived at these words"
       }
     ]
   },

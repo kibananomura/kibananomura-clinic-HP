@@ -1,5 +1,5 @@
 ---
-date: 未定（院長の確認後に日付を入れる）
+date: 2026.11.24
 cover: /blog/kibana-landscape.jpg
 category_ja: 診療で大切にしていること
 category_en: What I value in care
@@ -42,7 +42,9 @@ related: [hontou-no-chiryou, kouatsu-kusuri-tsuzukeru, kusuri-yamerarenai, nagak
 
 こうした毎日を、病気のある方にも、ない方にも届けたい。それが「暮らせる」という言葉に込めた願いです。
 
-【院長に確認】「いられる」を「暮らせる」に、「つくる」を「創る」に変えた理由を、一言いただければここに入れます（例：「暮らし」という言葉を入れたかった理由、「創る」の字を選んだ理由）。
+「暮らせる」にしたのは、ミッションと言葉をそろえたかったからでもあります。ただ、それだけではありません。前の言葉の「忘れていられる」は、どこか無機質に感じていました。人が生きている毎日の手ざわりがある言葉にしたくて、「暮らせる」を選びました。
+
+そして、「つくる」は「創る」と書くことにしました。この字には、まだないものを生み出すという意味があります。未来を自分たちの手で切り開きたい。宮崎の医療を、一歩でも前に進めたい。地域の皆さんの健康への意識を、一緒にもう一段高めていきたい。そんな思いを込めています。
 
 ### 道や公園のような診療所に
 
@@ -91,6 +93,10 @@ Living without thinking about medical care does not mean stopping treatment.
 - Having a place you can turn to straight away when something goes wrong
 
 We want to bring days like these to people with and without illness alike. That's the hope behind the word “live.”
+
+Choosing “live” was partly about matching our mission, but not only that. The earlier wording, “where you can stay forgetful of medical care,” felt somewhat impersonal to me. I wanted words that carry the feel of people's daily lives, so I chose “live.”
+
+And for “create,” I chose the Japanese character 創, which carries the sense of bringing something new into being. I want to open up the future with our own hands, to move medicine in Miyazaki forward even a little, and to raise health awareness in our community together, one step higher. That's what this word holds for me.
 
 ### A clinic like a road or a park
 
