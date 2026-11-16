@@ -79,6 +79,8 @@ sources:
 
 別々の病院や去年・おととしにもらった薬を合わせて飲むと、気づかないうちに**抗ヒスタミン薬を2種類、3種類と重ねて飲んでいる**ことがあります。効果はほとんど変わらないのに、**強い眠気**や**口の渇き**などの副作用だけが増えてしまいます。
 
+私自身、若いころに、総合感冒薬（市販の風邪薬）にも抗アレルギー薬の成分が入っているだろうと思って飲もうとしたことがあります。そのとき成分を見て、その量の多さにびっくりした記憶があります。市販の風邪薬にも抗ヒスタミン薬が入っていることがあるので、手元の薬と重ねると、知らないうちに同じタイプの薬が重なることがあります（[総合感冒薬の中身の話](/blog/sougou-kanyaku-nemuke)もあわせてどうぞ）。
+
 ### 3. 眠気で、車の運転が危なくなる
 
 抗ヒスタミン薬の中には、**眠気が出やすく、飲んだ日は車の運転を控える必要がある薬**もあります。車での移動が欠かせない地域だからこそ、どの薬を飲んでいるかを把握しておくことが大切です。
@@ -173,6 +175,8 @@ Long-term steroid use can **raise blood sugar and blood pressure**, **make infec
 ### 2. Doubling up on the same type
 
 Combining medicines from different clinics, or from last year and the year before, can mean you're **taking two or three antihistamines at once** without realizing it. The benefit barely changes, but side effects such as **strong drowsiness** and **dry mouth** increase.
+
+When I was young, I once went to take an over-the-counter combination cold medicine, assuming it probably contained an anti-allergy ingredient too. I remember being startled by how much was in it when I read the ingredients. Over-the-counter cold medicines can also contain antihistamines, so taking them with other medicines you have on hand can mean doubling up on the same type without realizing it (see also [what's inside combination cold medicines](/blog/sougou-kanyaku-nemuke)).
 
 ### 3. Drowsiness can make driving dangerous
 

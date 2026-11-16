@@ -9033,6 +9033,10 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
+          "text": "正直にお話しすると、長年飲んできた方ほど「飲まないと出ない」という思いが強く、切り替えをおすすめしても、とても抵抗を感じられます。結局、やめるところまでお手伝いしきれないことが多いのが、これまでの外来での実感です。"
+        },
+        {
+          "kind": "text",
           "text": "### 4. 生活の土台も一緒に"
         },
         {
@@ -9170,6 +9174,10 @@ export const generatedPosts: BlogPost[] = [
         {
           "kind": "text",
           "text": "If you suddenly stop a medicine you've taken for years, you may worry about not being able to go at all. There is no need to stop all at once. It's safest to **start a different medicine while gradually reducing the amount or frequency of senna.**"
+        },
+        {
+          "kind": "text",
+          "text": "To be honest, people who have taken it for many years are often firmly convinced that \"without it, nothing comes out,\" and when I suggest switching, they push back strongly. In my experience in clinics so far, I've often been unable to help them get all the way to stopping."
         },
         {
           "kind": "text",
@@ -9356,6 +9364,10 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
+          "text": "私自身、若いころに、総合感冒薬（市販の風邪薬）にも抗アレルギー薬の成分が入っているだろうと思って飲もうとしたことがあります。そのとき成分を見て、その量の多さにびっくりした記憶があります。市販の風邪薬にも抗ヒスタミン薬が入っていることがあるので、手元の薬と重ねると、知らないうちに同じタイプの薬が重なることがあります（[総合感冒薬の中身の話](/blog/sougou-kanyaku-nemuke)もあわせてどうぞ）。"
+        },
+        {
+          "kind": "text",
           "text": "### 3. 眠気で、車の運転が危なくなる"
         },
         {
@@ -9533,6 +9545,10 @@ export const generatedPosts: BlogPost[] = [
         {
           "kind": "text",
           "text": "Combining medicines from different clinics, or from last year and the year before, can mean you're **taking two or three antihistamines at once** without realizing it. The benefit barely changes, but side effects such as **strong drowsiness** and **dry mouth** increase."
+        },
+        {
+          "kind": "text",
+          "text": "When I was young, I once went to take an over-the-counter combination cold medicine, assuming it probably contained an anti-allergy ingredient too. I remember being startled by how much was in it when I read the ingredients. Over-the-counter cold medicines can also contain antihistamines, so taking them with other medicines you have on hand can mean doubling up on the same type without realizing it (see also [what's inside combination cold medicines](/blog/sougou-kanyaku-nemuke))."
         },
         {
           "kind": "text",
@@ -10145,6 +10161,10 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
+          "text": "外来では、私はよく「上の血圧はポンプ、下の血圧は管です。管が細く狭いと、圧が上がってしまいますよね」とたとえてお話ししています。"
+        },
+        {
+          "kind": "text",
           "text": "### なぜ、下の血圧だけ下がりにくいの？"
         },
         {
@@ -10222,6 +10242,10 @@ export const generatedPosts: BlogPost[] = [
         {
           "kind": "text",
           "text": "So even though both are “blood pressure,” **they look at different parts of how your body works.** If your top number has come down, that's proof the force at the tap is under control. Please give yourself credit for that first."
+        },
+        {
+          "kind": "text",
+          "text": "In the clinic, I often put it this way: \"The top number is the pump, and the bottom number is the pipes. If the pipes are thin and narrow, the pressure goes up, right?\""
         },
         {
           "kind": "text",

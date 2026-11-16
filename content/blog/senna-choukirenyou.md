@@ -78,6 +78,8 @@ sources:
 
 長く続けてきたお薬を急にやめると、**出なくなる不安**が大きいと思います。いきなりゼロにする必要はありません。**別のお薬を始めながら、センナの量や回数を少しずつ減らしていく**のが安全です。
 
+正直にお話しすると、長年飲んできた方ほど「飲まないと出ない」という思いが強く、切り替えをおすすめしても、とても抵抗を感じられます。結局、やめるところまでお手伝いしきれないことが多いのが、これまでの外来での実感です。
+
 ### 4. 生活の土台も一緒に
 
 水分・食物繊維・体を動かす習慣、そして**朝食後にトイレに行く時間をつくる**ことも、腸のリズムを取り戻す助けになります。
@@ -155,6 +157,8 @@ Note that with magnesium oxide, people with weak kidney function and older adult
 ### 3. Don't stop suddenly — switch slowly
 
 If you suddenly stop a medicine you've taken for years, you may worry about not being able to go at all. There is no need to stop all at once. It's safest to **start a different medicine while gradually reducing the amount or frequency of senna.**
+
+To be honest, people who have taken it for many years are often firmly convinced that "without it, nothing comes out," and when I suggest switching, they push back strongly. In my experience in clinics so far, I've often been unable to help them get all the way to stopping.
 
 ### 4. Strengthen the foundation, too
 

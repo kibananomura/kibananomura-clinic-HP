@@ -31,6 +31,8 @@ sources:
 
 つまり、上と下は同じ「血圧」でも、**見ている体の働きが違う**のです。上が下がったのは、元栓の勢いがきちんと整ってきた証拠です。まずはそこを、しっかり評価してあげてください。
 
+外来では、私はよく「上の血圧はポンプ、下の血圧は管です。管が細く狭いと、圧が上がってしまいますよね」とたとえてお話ししています。
+
 ### なぜ、下の血圧だけ下がりにくいの？
 
 下の血圧が高めの方は、ホースの先、つまり**細い血管の壁が緊張して縮こまっている**ことが多くあります。
@@ -72,6 +74,8 @@ Picture a garden hose.
 - **The bottom number (diastolic blood pressure)** is the pressure that remains in your blood vessels while the heart relaxes and refills. In hose terms, it's **“how tightly the nozzle is pinched.”** It reflects how tightly the small blood vessels throughout your body are clamped down.
 
 So even though both are “blood pressure,” **they look at different parts of how your body works.** If your top number has come down, that's proof the force at the tap is under control. Please give yourself credit for that first.
+
+In the clinic, I often put it this way: "The top number is the pump, and the bottom number is the pipes. If the pipes are thin and narrow, the pressure goes up, right?"
 
 ### Why is the bottom number so slow to come down?
 
