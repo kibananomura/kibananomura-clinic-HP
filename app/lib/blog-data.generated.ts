@@ -3941,14 +3941,14 @@ export const generatedPosts: BlogPost[] = [
         "en": "Slim, but high cholesterol? The real reason your numbers bounce back when you stop the medicine"
       },
       {
+        "slug": "purin-tai-yurai",
+        "ja": "プリン体って、あの「プリン」と関係あるの？〜名前の由来と、多い食べ物の意外な共通点〜",
+        "en": "Do purines have anything to do with pudding? — where the name comes from, and what purine-rich foods have in common"
+      },
+      {
         "slug": "tsuufuu-hossa-timing",
         "ja": "痛風発作は「尿酸値が上がる時」と「下がる時」、どっちに起きやすい？〜カギは“急な変化”でした〜",
         "en": "Do gout attacks happen when uric acid goes up, or when it comes down? — the key turns out to be “sudden change”"
-      },
-      {
-        "slug": "tomato-juice-ryouba",
-        "ja": "毎日のトマトジュース、実は逆効果かもしれません",
-        "en": "Your daily tomato juice might be working against you"
       }
     ]
   },
@@ -4107,6 +4107,11 @@ export const generatedPosts: BlogPost[] = [
     },
     "related": [
       {
+        "slug": "purin-tai-yurai",
+        "ja": "プリン体って、あの「プリン」と関係あるの？〜名前の由来と、多い食べ物の意外な共通点〜",
+        "en": "Do purines have anything to do with pudding? — where the name comes from, and what purine-rich foods have in common"
+      },
+      {
         "slug": "tsuufuu-hossa-timing",
         "ja": "痛風発作は「尿酸値が上がる時」と「下がる時」、どっちに起きやすい？〜カギは“急な変化”でした〜",
         "en": "Do gout attacks happen when uric acid goes up, or when it comes down? — the key turns out to be “sudden change”"
@@ -4115,11 +4120,6 @@ export const generatedPosts: BlogPost[] = [
         "slug": "yasete-iru-noni-ldl",
         "ja": "痩せているのに、なぜコレステロールが高いの？——薬をやめると数値が戻ってしまう本当の理由",
         "en": "Slim, but high cholesterol? The real reason your numbers bounce back when you stop the medicine"
-      },
-      {
-        "slug": "statin-kinniku-houkai",
-        "ja": "コレステロールの薬で、筋肉が溶けるって本当？〜悪玉コレステロールを下げる薬（スタチン）の疑問と最新医学〜",
-        "en": "Can cholesterol medicine really \"break down\" your muscles? Questions about statins and the latest evidence"
       }
     ]
   },
@@ -4682,26 +4682,17 @@ export const generatedPosts: BlogPost[] = [
     },
     "related": [
       {
-        "slug": "tsuufuu-hossa-timing",
-        "ja": "痛風発作は「尿酸値が上がる時」と「下がる時」、どっちに起きやすい？〜カギは“急な変化”でした〜",
-        "en": "Do gout attacks happen when uric acid goes up, or when it comes down? — the key turns out to be “sudden change”"
-      },
-      {
-        "slug": "herashitemo-yasenai",
-        "ja": "ご飯を減らしても痩せないのはなぜ？〜40代からは「引き算」より「足し算」のダイエット〜",
-        "en": "Eating less but not losing weight? After 40, it's about adding, not subtracting"
-      },
-      {
-        "slug": "ichinichi-isshoku-yasenai",
-        "ja": "1日一食しか食べてないのに痩せないあなたへ",
-        "en": "To everyone who eats only one meal a day and still can't lose weight"
-      }
-    ],
-    "upcoming": [
-      {
+        "slug": "purin-tai-yurai",
         "ja": "プリン体って、あの「プリン」と関係あるの？〜名前の由来と、多い食べ物の意外な共通点〜",
         "en": "Do purines have anything to do with pudding? — where the name comes from, and what purine-rich foods have in common"
       },
+      {
+        "slug": "tsuufuu-hossa-timing",
+        "ja": "痛風発作は「尿酸値が上がる時」と「下がる時」、どっちに起きやすい？〜カギは“急な変化”でした〜",
+        "en": "Do gout attacks happen when uric acid goes up, or when it comes down? — the key turns out to be “sudden change”"
+      }
+    ],
+    "upcoming": [
       {
         "ja": "糖尿病だから、ご飯は抜くべき？〜「我慢の食事」から「しっかり食べて体を守る食事」へ〜",
         "en": "I have diabetes — should I skip rice? — from “eating by enduring” to “eating well to protect your body”"
@@ -5175,14 +5166,14 @@ export const generatedPosts: BlogPost[] = [
         "en": "Your checkup came back \"normal, but at the upper edge\" — what does that mean?"
       },
       {
+        "slug": "purin-tai-yurai",
+        "ja": "プリン体って、あの「プリン」と関係あるの？〜名前の由来と、多い食べ物の意外な共通点〜",
+        "en": "Do purines have anything to do with pudding? — where the name comes from, and what purine-rich foods have in common"
+      },
+      {
         "slug": "sougou-kanyaku-nemuke",
         "ja": "残っていた風邪薬を飲んだら、猛烈に眠くなった？〜「総合感冒薬」の中身と、眠気の本当の理由〜",
         "en": "Took some leftover cold medicine and got overwhelmingly sleepy? — what's inside a combination cold medicine, and the real reason for the drowsiness"
-      },
-      {
-        "slug": "kansen-2026-11-2",
-        "ja": "宮崎市の感染症、世代ごとの「注意サイン」〜お子さんは手足口病・胃腸炎、大人は長引くせき、そしてインフルエンザに備えを〜",
-        "en": "Infections in Miyazaki City: warning signs for each generation — hand, foot and mouth disease in kids, lingering coughs in adults, and getting ready for flu"
       }
     ]
   },
@@ -6572,14 +6563,14 @@ export const generatedPosts: BlogPost[] = [
         "en": "If your optional tumor marker test came back high"
       },
       {
+        "slug": "purin-tai-yurai",
+        "ja": "プリン体って、あの「プリン」と関係あるの？〜名前の由来と、多い食べ物の意外な共通点〜",
+        "en": "Do purines have anything to do with pudding? — where the name comes from, and what purine-rich foods have in common"
+      },
+      {
         "slug": "sougou-kanyaku-nemuke",
         "ja": "残っていた風邪薬を飲んだら、猛烈に眠くなった？〜「総合感冒薬」の中身と、眠気の本当の理由〜",
         "en": "Took some leftover cold medicine and got overwhelmingly sleepy? — what's inside a combination cold medicine, and the real reason for the drowsiness"
-      },
-      {
-        "slug": "kansen-2026-11-2",
-        "ja": "宮崎市の感染症、世代ごとの「注意サイン」〜お子さんは手足口病・胃腸炎、大人は長引くせき、そしてインフルエンザに備えを〜",
-        "en": "Infections in Miyazaki City: warning signs for each generation — hand, foot and mouth disease in kids, lingering coughs in adults, and getting ready for flu"
       }
     ],
     "upcoming": [
@@ -7363,6 +7354,10 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
+          "text": "これまでの外来でも、市販の消毒薬でしっかり消毒したのに「傷がじゅくじゅくして治らないんです」と、数日後に来られる方が本当に多くいらっしゃいました。そのたびに、洗っておくだけでよかったのに、と思ってきました。"
+        },
+        {
+          "kind": "text",
           "text": "### 「乾かしてかさぶたに」も、実は遠回り"
         },
         {
@@ -7516,6 +7511,10 @@ export const generatedPosts: BlogPost[] = [
         {
           "kind": "text",
           "text": "That doesn't mean antiseptics are never needed. They play an important role in medical settings, such as disinfecting skin before surgery. But the current thinking is that **there's no need to rub them into everyday scrapes and cuts at home day after day.**"
+        },
+        {
+          "kind": "text",
+          "text": "In my clinics over the years, a great many people came in a few days after carefully disinfecting a wound with an over-the-counter antiseptic, saying, \"It's all moist and oozing and just won't heal.\" Each time, I thought: simply washing it would have been enough."
         },
         {
           "kind": "text",
@@ -7733,6 +7732,10 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
+          "text": "私自身、わが子が熱を出したときには、受診するかどうか迷いました。迷ったのは熱の高さよりも、インフルエンザや新型コロナウイルス感染症によるものではないか、人にうつしてしまわないか、という点でした。ぐったりして消耗しきるような熱は、あまりありませんでした。"
+        },
+        {
+          "kind": "text",
           "text": "熱の数字は、子どもの体の一部しか教えてくれません。「いつもと比べてどうか」をいちばん分かっているのは、毎日そばにいるご家族です。その「なんだかおかしい」という感覚は、とても大切な情報です。"
         },
         {
@@ -7802,6 +7805,10 @@ export const generatedPosts: BlogPost[] = [
         {
           "kind": "text",
           "text": "### Finally"
+        },
+        {
+          "kind": "text",
+          "text": "When my own children had fevers, I also hesitated over whether to take them to a doctor. What I worried about was less how high the fever was than whether it might be influenza or COVID-19, and whether they might pass it on to others. Fevers that left them completely drained were rare."
         },
         {
           "kind": "text",
@@ -7879,7 +7886,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "「たったこれだけ？」と思うかもしれませんが、スプーン1杯を5分おきでも、1時間で60mLほどになります。子どもが「もっと」と欲しがっても、最初はがまんしてもらうのがコツです。"
+          "text": "「たったこれだけ？」と思うかもしれませんが、スプーン1杯を5分おきでも、1時間で60mLほどになります。子どもが「もっと」と欲しがっても、最初はがまんしてもらうのがコツです。私自身、水を飲ませるにしても、タイミングと量は考えないといけないと感じてきました。"
         },
         {
           "kind": "text",
@@ -7971,7 +7978,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "\"Is that all?\" you might think — but a spoonful every 5 minutes adds up to about 60 mL an hour. Even if your child begs for more, the trick is to hold back at first."
+          "text": "\"Is that all?\" you might think — but a spoonful every 5 minutes adds up to about 60 mL an hour. Even if your child begs for more, the trick is to hold back at first. I've come to feel that even with water, you have to think about the timing and the amount."
         },
         {
           "kind": "text",
@@ -8126,6 +8133,10 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
+          "text": "1日1回しか食べないということは、その1回でかなりの量を食べていることが多いのではないでしょうか。診察室では、「熊の冬眠と同じで、体はため込もうとします。食べたものが、体重の増加につながりやすくなりますよ」とお話ししています。"
+        },
+        {
+          "kind": "text",
           "text": "## 理由3：食事で燃やすエネルギー（DIT）を取りこぼしている"
         },
         {
@@ -8259,6 +8270,10 @@ export const generatedPosts: BlogPost[] = [
         {
           "kind": "text",
           "text": "People who eat one meal a day tend to eat a large portion, or eat quickly. Taking in a lot of carbohydrates at once makes blood sugar spikes even more likely. Repeated swings in blood sugar are also linked to a higher future risk of [diabetes](/diseases/diabetes)."
+        },
+        {
+          "kind": "text",
+          "text": "Eating only once a day often means eating quite a lot in that one meal. In the consultation room, I tell people: \"Just like a bear before hibernation, your body tries to store it. What you eat is more likely to turn into weight gain.\""
         },
         {
           "kind": "text",
@@ -8683,7 +8698,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "人の決意は、どうしても少しずつ緩んでいくものです。私自身もそうです。"
+          "text": "人の決意は、どうしても少しずつ緩んでいくものです。私自身もそうです。私は1日3食をとるようにしていますが、移動の途中でお腹が痛くなりやすいので、朝食は遅めにとり、夕食は早めにすませて、寝るまでの時間を空けるようにしています。"
         },
         {
           "kind": "text",
@@ -8815,7 +8830,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "Our resolutions naturally loosen over time. Mine do too."
+          "text": "Our resolutions naturally loosen over time. Mine do too. I try to eat three meals a day, but because my stomach tends to hurt while I'm travelling, I eat breakfast a little later and finish dinner early, leaving time before bed."
         },
         {
           "kind": "text",
@@ -10070,15 +10085,14 @@ export const generatedPosts: BlogPost[] = [
         "en": "'Once you start, you can never stop' is a myth"
       },
       {
+        "slug": "purin-tai-yurai",
+        "ja": "プリン体って、あの「プリン」と関係あるの？〜名前の由来と、多い食べ物の意外な共通点〜",
+        "en": "Do purines have anything to do with pudding? — where the name comes from, and what purine-rich foods have in common"
+      },
+      {
         "slug": "statin-kinniku-houkai",
         "ja": "コレステロールの薬で、筋肉が溶けるって本当？〜悪玉コレステロールを下げる薬（スタチン）の疑問と最新医学〜",
         "en": "Can cholesterol medicine really \"break down\" your muscles? Questions about statins and the latest evidence"
-      }
-    ],
-    "upcoming": [
-      {
-        "ja": "プリン体って、あの「プリン」と関係あるの？〜名前の由来と、多い食べ物の意外な共通点〜",
-        "en": "Do purines have anything to do with pudding? — where the name comes from, and what purine-rich foods have in common"
       }
     ]
   },
@@ -12285,25 +12299,14 @@ export const generatedPosts: BlogPost[] = [
     },
     "related": [
       {
+        "slug": "purin-tai-yurai",
+        "ja": "プリン体って、あの「プリン」と関係あるの？〜名前の由来と、多い食べ物の意外な共通点〜",
+        "en": "Do purines have anything to do with pudding? — where the name comes from, and what purine-rich foods have in common"
+      },
+      {
         "slug": "mainichi-chigau-mono",
         "ja": "生活習慣病の方の食事指導の実際",
         "en": "What diet guidance actually looks like for lifestyle-related conditions"
-      },
-      {
-        "slug": "yasete-iru-noni-ldl",
-        "ja": "痩せているのに、なぜコレステロールが高いの？——薬をやめると数値が戻ってしまう本当の理由",
-        "en": "Slim, but high cholesterol? The real reason your numbers bounce back when you stop the medicine"
-      },
-      {
-        "slug": "tomato-juice-ryouba",
-        "ja": "毎日のトマトジュース、実は逆効果かもしれません",
-        "en": "Your daily tomato juice might be working against you"
-      }
-    ],
-    "upcoming": [
-      {
-        "ja": "プリン体って、あの「プリン」と関係あるの？〜名前の由来と、多い食べ物の意外な共通点〜",
-        "en": "Do purines have anything to do with pudding? — where the name comes from, and what purine-rich foods have in common"
       }
     ]
   },
@@ -13612,6 +13615,253 @@ export const generatedPosts: BlogPost[] = [
         "slug": "kansen-2026-11",
         "ja": "【続報】宮崎でインフルエンザが例年の約15倍に。RSウイルスも倍増、マダニの感染症にも注意を",
         "en": "[Update] Flu in Miyazaki is about 15 times the usual level — RSV has doubled, and watch out for tick-borne infections too"
+      }
+    ]
+  },
+  {
+    "slug": "purin-tai-yurai",
+    "date": "2026.11.16",
+    "cover": "/blog/purin-tai-yurai.jpg",
+    "coverVersion": "fb718ce5",
+    "coverWidth": 1600,
+    "coverHeight": 900,
+    "sources": [
+      {
+        "label": "日本痛風・尿酸核酸学会「高尿酸血症・痛風の治療ガイドライン第3版」",
+        "url": "https://minds.jcqhc.or.jp/summary/c00476/"
+      }
+    ],
+    "ja": {
+      "category": "健康・予防の話",
+      "subcategory": "コレステロール・尿酸",
+      "title": "プリン体って、あの「プリン」と関係あるの？〜名前の由来と、多い食べ物の意外な共通点〜",
+      "excerpt": "「先生、プリンを食べすぎると痛風になるんですか？」——実は、プリン体とデザートのプリンは、名前が似ているだけのまったくの別物です。",
+      "body": [
+        {
+          "kind": "text",
+          "text": "「先生、プリンを食べすぎると痛風になるんですか？」——尿酸値の話をしていると、ときどきこんなご質問をいただきます。カラメルのかかった、あの甘いプリン。名前がそっくりなので、そう思ってしまうのも無理はありませんよね。"
+        },
+        {
+          "kind": "text",
+          "text": "今日は、プリン体とはそもそも何なのか、どんな食べ物に多いのか、そして食事でどこに気をつければよいのかについてお話しします。最後まで読んでいただくと、きっと「なるほど」と思っていただけるはずです。ひとつずつ見ていきましょう。"
+        },
+        {
+          "kind": "text",
+          "text": "### 名前の由来は「純粋な尿酸」"
+        },
+        {
+          "kind": "text",
+          "text": "プリン体の「プリン」は、英語で **purine（ピュリン）** と書きます。19世紀の終わりに、ドイツの化学者エミール・フィッシャーが名づけたもので、ラテン語の「purum（純粋な）」と「uricum（尿酸の）」を組み合わせた言葉だといわれています。"
+        },
+        {
+          "kind": "text",
+          "text": "つまり、名前の生まれからして「尿酸のもと」という意味だったわけです。デザートのプリン（pudding）とは、つづりも語源もまったく関係ありません。"
+        },
+        {
+          "kind": "text",
+          "text": "ちなみに、甘いプリンそのものにはプリン体はほとんど含まれていません。ただし、別の理由で注意したい甘いものがあります。それは後ほどお話しします。"
+        },
+        {
+          "kind": "text",
+          "text": "### プリン体は、体の「設計図のパーツ」"
+        },
+        {
+          "kind": "text",
+          "text": "プリン体は、私たちの体にとって悪者どころか、生きるために欠かせない成分です。"
+        },
+        {
+          "kind": "text",
+          "text": "- **細胞の設計図（DNAやRNA）のパーツ**：体のすべての細胞の中にある設計図は、プリン体を含む部品で組み立てられています\n- **エネルギーのもと**：体を動かすエネルギーの“通貨”となる物質にも、プリン体が含まれています"
+        },
+        {
+          "kind": "text",
+          "text": "細胞が古くなって入れ替わるたびに、設計図のパーツは分解されます。その“燃えかす”として最後に残るのが尿酸です。尿酸は、ふだんは尿と一緒に体の外へ出ていきますが、作られる量が多すぎたり、出ていく量が少なかったりすると、血液の中にたまって尿酸値が上がります。"
+        },
+        {
+          "kind": "text",
+          "text": "### プリン体が多い食べ物の共通点は「細胞がぎっしり」と「旨味」"
+        },
+        {
+          "kind": "text",
+          "text": "プリン体は細胞の中にあるので、**細胞がぎっしり詰まった食べ物**ほど多くなります。また、かつお節のイノシン酸や干ししいたけのグアニル酸のように、**旨味成分の一部もプリン体の仲間**です。つまり、「おいしい」と感じるものほど、プリン体が多い傾向があるのです。"
+        },
+        {
+          "kind": "text",
+          "text": "特に多いのは、次のような食べ物です。"
+        },
+        {
+          "kind": "text",
+          "text": "- **内臓系の肉**：レバーなど\n- **魚介類**：白子、あん肝、魚の卵、干物（乾燥して重さあたりの量が増えるため）\n- **ビールなどのお酒**"
+        },
+        {
+          "kind": "text",
+          "text": "お酒は、プリン体の量だけが問題ではありません。アルコールそのものが、体の中で分解されるときに尿酸を作りやすくし、さらに尿酸を尿から出しにくくします。**「プリン体ゼロ」のお酒でも、飲む量が多ければ尿酸値は上がる**ので、ご注意ください。"
+        },
+        {
+          "kind": "text",
+          "text": "そして、先ほどお話しした「注意したい甘いもの」が、果糖（フルーツや清涼飲料水に多い糖）です。果糖をたくさんとると、体の中で尿酸が作られやすくなります。甘いジュースや清涼飲料水の飲みすぎには、気をつけていただきたいところです。"
+        },
+        {
+          "kind": "text",
+          "text": "### 実は、尿酸のもとの多くは体の中で作られている"
+        },
+        {
+          "kind": "text",
+          "text": "ここで意外な事実をひとつ。尿酸のもとになるプリン体のうち、**およそ7〜8割は体の中で作られたもの**で、食事から入ってくるのは2〜3割ほどとされています。"
+        },
+        {
+          "kind": "text",
+          "text": "ですから、プリン体の多い食べ物を一切口にしないようにしても、それだけで尿酸値がぐっと下がるわけではありません。大切なのは、次のような**全体のバランス**です。"
+        },
+        {
+          "kind": "text",
+          "text": "- 内臓や白子などは「たまの楽しみ」にして、毎日続けない\n- お酒は量を決めて、休肝日をつくる\n- 甘い飲み物より、水やお茶をこまめに飲む\n- 体重を少しずつ適正に近づける"
+        },
+        {
+          "kind": "text",
+          "text": "細かい制限より、続けられるコツをひとつ。その考え方は「[生活習慣病の方の食事指導の実際](/blog/mainichi-chigau-mono)」でもお話ししています。"
+        },
+        {
+          "kind": "text",
+          "text": "### 今日のまとめ"
+        },
+        {
+          "kind": "text",
+          "text": "まとめると、**プリン体はデザートのプリンとは無関係で、私たちの体にもともと欠かせない成分です。しかも尿酸のもとの多くは体の中で作られているので、「あれもこれも禁止」と怖がりすぎる必要はありません。**"
+        },
+        {
+          "kind": "text",
+          "text": "プリン体は、怖がるべき“敵”ではなく、体を作るのに欠かせない材料です。美味しいものを楽しみながら、ご自身の体の声を聴いて、上手にコントロールしていきましょう。"
+        },
+        {
+          "kind": "text",
+          "text": "食事を気をつけていても尿酸値が下がらない方は、体質によって尿酸を作りやすい、あるいは出しにくい場合もあります。病気のくわしい説明は[高尿酸血症・痛風の解説ページ](/diseases/hyperuricemia-gout)にまとめています。不安なときは、どうぞ気軽に、かかりつけ医などにご相談ください（開院後は当院へ）。"
+        }
+      ]
+    },
+    "en": {
+      "category": "Health and prevention",
+      "subcategory": "Cholesterol & uric acid",
+      "title": "Do purines have anything to do with pudding? — where the name comes from, and what purine-rich foods have in common",
+      "excerpt": "“Doctor, can eating too much pudding give me gout?” In fact, purines and the dessert called “purin” in Japanese just happen to sound alike — they're completely different things.",
+      "body": [
+        {
+          "kind": "text",
+          "text": "“Doctor, can eating too much pudding give me gout?” When I talk with patients about uric acid, I'm sometimes asked this. In Japanese, the sweet caramel custard pudding is called “purin,” which sounds just like “purine.” With names that similar, it's no wonder people wonder!"
+        },
+        {
+          "kind": "text",
+          "text": "This article explains what purines actually are, which foods are high in them, and what to watch in your diet. By the end, I hope it will all make sense. Let's look at it one step at a time."
+        },
+        {
+          "kind": "text",
+          "text": "### The name means “pure uric acid”"
+        },
+        {
+          "kind": "text",
+          "text": "The English word is **purine**. It was coined in the late 19th century by the German chemist Emil Fischer, and is said to combine the Latin words *purum* (“pure”) and *uricum* (“of uric acid”)."
+        },
+        {
+          "kind": "text",
+          "text": "In other words, from its very origin, the name meant “the source of uric acid.” It has nothing to do with pudding in spelling or origin."
+        },
+        {
+          "kind": "text",
+          "text": "By the way, sweet custard pudding itself contains almost no purines. But there is a sweet thing worth watching for a different reason — I'll come back to that later."
+        },
+        {
+          "kind": "text",
+          "text": "### Purines are “parts of the body's blueprints”"
+        },
+        {
+          "kind": "text",
+          "text": "Far from being villains, purines are essential to life."
+        },
+        {
+          "kind": "text",
+          "text": "- **Parts of the cell's blueprints (DNA and RNA)**: the blueprints inside every cell in your body are built from parts that include purines\n- **A source of energy**: the substance that serves as the body's energy “currency” also contains purines"
+        },
+        {
+          "kind": "text",
+          "text": "Each time cells age and are replaced, those blueprint parts are broken down. The final “ash” left over is uric acid. Uric acid usually leaves the body in urine, but if too much is made or too little goes out, it builds up in the blood and your uric acid level rises."
+        },
+        {
+          "kind": "text",
+          "text": "### What purine-rich foods have in common: “packed with cells” and “umami”"
+        },
+        {
+          "kind": "text",
+          "text": "Because purines live inside cells, **foods packed tightly with cells** contain more of them. And some **umami compounds — such as inosinate in bonito flakes and guanylate in dried shiitake — belong to the purine family**. So foods that taste especially savory tend to be higher in purines."
+        },
+        {
+          "kind": "text",
+          "text": "Foods especially high in purines include:"
+        },
+        {
+          "kind": "text",
+          "text": "- **Organ meats**: liver and the like\n- **Seafood**: milt (shirako), monkfish liver, fish roe, and dried fish (drying concentrates the amount per gram)\n- **Beer and other alcohol**"
+        },
+        {
+          "kind": "text",
+          "text": "With alcohol, the purine content isn't the only problem. Alcohol itself makes the body produce more uric acid as it's broken down, and also makes it harder to pass uric acid in urine. **Even “zero-purine” drinks will raise your uric acid if you drink a lot**, so please be careful."
+        },
+        {
+          "kind": "text",
+          "text": "And the “sweet thing worth watching” I mentioned earlier is fructose (a sugar common in fruit and soft drinks). Taking in a lot of fructose makes the body produce uric acid more easily. Please go easy on sweet juices and soft drinks."
+        },
+        {
+          "kind": "text",
+          "text": "### Most of the raw material for uric acid is made inside your body"
+        },
+        {
+          "kind": "text",
+          "text": "Here's a surprising fact. Of the purines that become uric acid, **about 70–80% are made inside the body**, while only about 20–30% come from food."
+        },
+        {
+          "kind": "text",
+          "text": "So even if you avoid purine-rich foods entirely, that alone won't bring your uric acid down dramatically. What matters is **overall balance**, like this:"
+        },
+        {
+          "kind": "text",
+          "text": "- Make organ meats and milt an “occasional treat,” not an everyday thing\n- Decide how much you'll drink, and give your liver days off\n- Sip water or tea regularly instead of sweet drinks\n- Bring your weight gradually toward a healthy range"
+        },
+        {
+          "kind": "text",
+          "text": "Rather than strict rules, I suggest one sustainable habit — I explain that approach in “[What diet guidance actually looks like for lifestyle-related conditions](/blog/mainichi-chigau-mono).”"
+        },
+        {
+          "kind": "text",
+          "text": "### Today's takeaway"
+        },
+        {
+          "kind": "text",
+          "text": "To sum up: **purines have nothing to do with pudding — they're a substance your body naturally can't do without. And since most of the raw material for uric acid is made inside your body, there's no need to be so afraid that you ban everything.**"
+        },
+        {
+          "kind": "text",
+          "text": "Purines aren't an “enemy” to fear — they're an essential building material for your body. Let's enjoy good food, listen to your body, and keep things in balance."
+        },
+        {
+          "kind": "text",
+          "text": "If your uric acid won't come down even though you watch your diet, your constitution may make you produce more uric acid or pass less of it. You'll find more detail on [our hyperuricemia and gout page](/diseases/hyperuricemia-gout). Whenever you feel worried, please feel free to talk with your family doctor (or with us, once we open)."
+        }
+      ]
+    },
+    "related": [
+      {
+        "slug": "tsuufuu-hossa-timing",
+        "ja": "痛風発作は「尿酸値が上がる時」と「下がる時」、どっちに起きやすい？〜カギは“急な変化”でした〜",
+        "en": "Do gout attacks happen when uric acid goes up, or when it comes down? — the key turns out to be “sudden change”"
+      },
+      {
+        "slug": "mainichi-chigau-mono",
+        "ja": "生活習慣病の方の食事指導の実際",
+        "en": "What diet guidance actually looks like for lifestyle-related conditions"
+      },
+      {
+        "slug": "yasete-iru-noni-ldl",
+        "ja": "痩せているのに、なぜコレステロールが高いの？——薬をやめると数値が戻ってしまう本当の理由",
+        "en": "Slim, but high cholesterol? The real reason your numbers bounce back when you stop the medicine"
       }
     ]
   }

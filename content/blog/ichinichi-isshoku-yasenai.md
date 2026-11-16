@@ -53,6 +53,8 @@ sources:
 
 1日1食の方は、その1食がつい大盛りになったり、早食いになったりしがちです。一度に多くの糖質が入ることで、血糖値スパイクがさらに起こりやすくなります。血糖値の乱高下をくり返すことは、将来の[糖尿病](/diseases/diabetes)のリスクにもつながります。
 
+1日1回しか食べないということは、その1回でかなりの量を食べていることが多いのではないでしょうか。診察室では、「熊の冬眠と同じで、体はため込もうとします。食べたものが、体重の増加につながりやすくなりますよ」とお話ししています。
+
 ## 理由3：食事で燃やすエネルギー（DIT）を取りこぼしている
 
 実は、**食べること自体でもエネルギーは使われています**。これを「食事誘発性熱産生（DIT）」と呼び、食後に体がポカポカするのはこのためです。
@@ -126,6 +128,8 @@ When blood sugar rises sharply, the pancreas releases a lot of a hormone called 
 ### Putting everything into one meal makes it worse
 
 People who eat one meal a day tend to eat a large portion, or eat quickly. Taking in a lot of carbohydrates at once makes blood sugar spikes even more likely. Repeated swings in blood sugar are also linked to a higher future risk of [diabetes](/diseases/diabetes).
+
+Eating only once a day often means eating quite a lot in that one meal. In the consultation room, I tell people: "Just like a bear before hibernation, your body tries to store it. What you eat is more likely to turn into weight gain."
 
 ## Reason 3: You miss out on the energy burned by eating (DIT)
 

@@ -52,6 +52,8 @@ sources:
 
 ### 最後に
 
+私自身、わが子が熱を出したときには、受診するかどうか迷いました。迷ったのは熱の高さよりも、インフルエンザや新型コロナウイルス感染症によるものではないか、人にうつしてしまわないか、という点でした。ぐったりして消耗しきるような熱は、あまりありませんでした。
+
 熱の数字は、子どもの体の一部しか教えてくれません。「いつもと比べてどうか」をいちばん分かっているのは、毎日そばにいるご家族です。その「なんだかおかしい」という感覚は、とても大切な情報です。
 
 当院は開院後、小児科としてお子さんの急な熱やかぜの診療を行います。受診のときには、**熱が出た時刻、最高体温、水分やおしっこの様子、解熱剤を使った時刻**をメモしてきていただけると、診察がとてもスムーズになります。
@@ -91,6 +93,8 @@ However, **if the fever lasts 4–5 days or more**, something other than a cold 
 When you really can't decide, you can use the **children's medical telephone consultation (#8000).** On nights and holidays, nurses or doctors will advise you by phone on whether to go to a doctor and how to care for your child at home. On "Kodomo no Kyukyu (ONLINE-QQ)," a site supervised by the Japan Pediatric Society, you can pick your child's symptoms and see a guide to when to seek care.
 
 ### Finally
+
+When my own children had fevers, I also hesitated over whether to take them to a doctor. What I worried about was less how high the fever was than whether it might be influenza or COVID-19, and whether they might pass it on to others. Fevers that left them completely drained were rare.
 
 The number on the thermometer tells you only part of the story. The people who know best how your child compares with usual are the family who are with them every day. That feeling of "something's not right" is very important information.
 

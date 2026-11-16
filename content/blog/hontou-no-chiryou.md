@@ -51,7 +51,7 @@ sources:
 
 ### 月に一度の「振り返り」が、意識をリセットする
 
-人の決意は、どうしても少しずつ緩んでいくものです。私自身もそうです。
+人の決意は、どうしても少しずつ緩んでいくものです。私自身もそうです。私は1日3食をとるようにしていますが、移動の途中でお腹が痛くなりやすいので、朝食は遅めにとり、夕食は早めにすませて、寝るまでの時間を空けるようにしています。
 
 だからこそ、月に一度、
 
@@ -122,7 +122,7 @@ The study was small and short, so its results can't be applied directly to every
 
 ### A monthly review resets your awareness
 
-Our resolutions naturally loosen over time. Mine do too.
+Our resolutions naturally loosen over time. Mine do too. I try to eat three meals a day, but because my stomach tends to hurt while I'm travelling, I eat breakfast a little later and finish dinner early, leaving time before bed.
 
 That's why, once a month, we:
 

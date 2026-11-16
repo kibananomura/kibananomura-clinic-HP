@@ -37,7 +37,7 @@ sources:
 2. その後、**スプーン1杯（5mLほど）を5分おき**に飲ませる
 3. 吐かなければ、少しずつ量を増やし、間隔をつめていく
 
-「たったこれだけ？」と思うかもしれませんが、スプーン1杯を5分おきでも、1時間で60mLほどになります。子どもが「もっと」と欲しがっても、最初はがまんしてもらうのがコツです。
+「たったこれだけ？」と思うかもしれませんが、スプーン1杯を5分おきでも、1時間で60mLほどになります。子どもが「もっと」と欲しがっても、最初はがまんしてもらうのがコツです。私自身、水を飲ませるにしても、タイミングと量は考えないといけないと感じてきました。
 
 ### 何を飲ませるか
 
@@ -90,7 +90,7 @@ Right after vomiting, the stomach is still irritated. Pour a lot in at once and 
 2. Then give **one spoonful (about 5 mL) every 5 minutes**
 3. If they keep it down, gradually increase the amount and shorten the gaps
 
-"Is that all?" you might think — but a spoonful every 5 minutes adds up to about 60 mL an hour. Even if your child begs for more, the trick is to hold back at first.
+"Is that all?" you might think — but a spoonful every 5 minutes adds up to about 60 mL an hour. Even if your child begs for more, the trick is to hold back at first. I've come to feel that even with water, you have to think about the timing and the amount.
 
 ### What to give
 

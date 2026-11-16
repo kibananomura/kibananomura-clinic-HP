@@ -32,6 +32,8 @@ sources:
 
 もちろん、消毒薬がまったく不要というわけではありません。手術の前に皮膚を消毒するときなど、医療の現場では大切な役割があります。ただ、**家庭でのちょっとしたすり傷や切り傷に、毎日のように塗り込む必要はない**、というのが現在の考え方です。
 
+これまでの外来でも、市販の消毒薬でしっかり消毒したのに「傷がじゅくじゅくして治らないんです」と、数日後に来られる方が本当に多くいらっしゃいました。そのたびに、洗っておくだけでよかったのに、と思ってきました。
+
 ### 「乾かしてかさぶたに」も、実は遠回り
 
 「傷は乾かして、かさぶたで治す」というのも、長く信じられてきた常識です。けれど、かさぶたは、乾いて固まった血液や体液の塊です。皮膚をつくる細胞は、この**硬いかさぶたの下をくぐり抜けるようにして進まなければならない**ため、どうしても時間がかかってしまいます。
@@ -116,6 +118,8 @@ Antiseptics such as povidone-iodine (e.g. Isodine®) are very powerful at killin
 As a wound heals, cells that form new skin and cells that build tissue to fill the wound are hard at work around it. Applying strong antiseptic into the wound again and again **damages these "healing cells" of your own as well** — and as a result, healing can actually slow down.
 
 That doesn't mean antiseptics are never needed. They play an important role in medical settings, such as disinfecting skin before surgery. But the current thinking is that **there's no need to rub them into everyday scrapes and cuts at home day after day.**
+
+In my clinics over the years, a great many people came in a few days after carefully disinfecting a wound with an over-the-counter antiseptic, saying, "It's all moist and oozing and just won't heal." Each time, I thought: simply washing it would have been enough.
 
 ### "Dry it out and let it scab" is also the long way round
 
