@@ -69,7 +69,7 @@ sources:
 
 だからこそ、**この2つはセット**なのです。
 
-「ご飯を減らしているのに痩せない」という方に、私が外来でよくお伝えしてきたのは、「運動して代謝を上げましょう」というひとことです。減らすことより、動いて代謝を上げることを足していただきたいと考えています。
+「ご飯を減らしているのに痩せない」という方に、私が外来でよくお伝えしてきたのは、「運動して代謝を上げましょう」というひとことです。
 
 ### 今日からできる、小さな一歩
 
@@ -159,7 +159,7 @@ This is the key thing that changes with age. Older muscle becomes **less respons
 
 That's why **the two go together.**
 
-To people who tell me, "I've cut back on rice but I'm not losing weight," what I've often said in clinic is simply: "Let's exercise and raise your metabolism." Rather than cutting more, I'd like you to add movement that raises your metabolism.
+To people who tell me, "I've cut back on rice but I'm not losing weight," what I've often said in clinic is simply: "Let's exercise and raise your metabolism."
 
 ### Small steps you can start today
 
