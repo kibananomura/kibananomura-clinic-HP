@@ -10415,6 +10415,10 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
+          "text": "「ご飯を減らしているのに痩せない」という方に、私が外来でよくお伝えしてきたのは、「運動して代謝を上げましょう」というひとことです。減らすことより、動いて代謝を上げることを足していただきたいと考えています。"
+        },
+        {
+          "kind": "text",
           "text": "### 今日からできる、小さな一歩"
         },
         {
@@ -10548,6 +10552,10 @@ export const generatedPosts: BlogPost[] = [
         {
           "kind": "text",
           "text": "That's why **the two go together.**"
+        },
+        {
+          "kind": "text",
+          "text": "To people who tell me, \"I've cut back on rice but I'm not losing weight,\" what I've often said in clinic is simply: \"Let's exercise and raise your metabolism.\" Rather than cutting more, I'd like you to add movement that raises your metabolism."
         },
         {
           "kind": "text",

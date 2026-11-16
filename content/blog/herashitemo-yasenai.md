@@ -69,6 +69,8 @@ sources:
 
 だからこそ、**この2つはセット**なのです。
 
+「ご飯を減らしているのに痩せない」という方に、私が外来でよくお伝えしてきたのは、「運動して代謝を上げましょう」というひとことです。減らすことより、動いて代謝を上げることを足していただきたいと考えています。
+
 ### 今日からできる、小さな一歩
 
 - **タンパク質を「運動した日の食事」に**：散歩や体操をした日の食事に、魚・卵・豆腐などを1品足す。材料と合図のタイミングがそろいます。
@@ -156,6 +158,8 @@ This is the key thing that changes with age. Older muscle becomes **less respons
 - Exercise alone → not enough material, and the body may break down its own muscle for energy
 
 That's why **the two go together.**
+
+To people who tell me, "I've cut back on rice but I'm not losing weight," what I've often said in clinic is simply: "Let's exercise and raise your metabolism." Rather than cutting more, I'd like you to add movement that raises your metabolism.
 
 ### Small steps you can start today
 
