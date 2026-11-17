@@ -21,7 +21,8 @@
     @apply bg-surface text-ink font-sans;
     font-size: 16px;
     line-height: 1.8;
-    overflow-x: hidden;
+    /* hidden だと body がスクロールの箱になり、position: sticky が効かなくなるため clip（2026-11-17） */
+    overflow-x: clip;
     max-width: 100vw;
   }
 

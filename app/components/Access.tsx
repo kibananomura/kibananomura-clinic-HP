@@ -9,7 +9,7 @@ export default function Access() {
   const { t } = useSite();
 
   return (
-    <section id="access" className="section-pad relative overflow-hidden bg-cream">
+    <section id="access" className="section-pad relative overflow-clip bg-cream">
       <SoftBlob className="absolute -right-24 top-16 h-80 w-80 bg-sky/30" />
       <SoftBlob className="absolute -left-16 bottom-12 h-72 w-72 bg-primary/10" />
       <LeafSprig className="absolute right-10 bottom-10 hidden h-24 w-16 rotate-12 opacity-40 sm:block" />
@@ -20,8 +20,9 @@ export default function Access() {
         </FadeIn>
 
         <div className="mt-12 grid gap-6 lg:grid-cols-2">
+          {/* 地図は右の案内と同じ高さの列の中でついてくる（下に大きな空白を作らない） */}
           <FadeIn>
-            <div className="overflow-hidden rounded-3xl border border-accent shadow-card">
+            <div className="overflow-hidden rounded-3xl border border-accent shadow-card lg:sticky lg:top-36">
               <iframe
                 src={t.access.mapEmbed}
                 title={t.access.mapTitle}

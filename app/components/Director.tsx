@@ -10,15 +10,16 @@ export default function Director() {
   const { t } = useSite();
 
   return (
-    <section id="director" className="section-pad relative overflow-hidden bg-cream">
+    <section id="director" className="section-pad relative overflow-clip bg-cream">
       <SoftBlob className="absolute -left-24 top-20 h-72 w-72 bg-blossom/20" />
       <SoftBlob className="absolute -right-16 bottom-10 h-80 w-80 bg-primary/10" />
       <LeafSprig className="absolute left-8 bottom-10 hidden h-24 w-16 rotate-6 opacity-40 lg:block" />
 
       <div className="container-page relative">
         <div className="grid items-start gap-10 lg:grid-cols-[5fr_6fr] lg:gap-16">
-          <FadeIn>
-            <div className="relative mx-auto w-full max-w-md lg:sticky lg:top-24 lg:max-w-none">
+          {/* 写真の列を右の文章と同じ高さまで伸ばし、その中で写真がついてくる（下に大きな空白を作らない） */}
+          <FadeIn className="lg:self-stretch">
+            <div className="relative mx-auto w-full max-w-md lg:sticky lg:top-36 lg:max-w-none">
               <Blossom className="absolute -left-3 -top-3 z-10 h-12 w-12 opacity-90" />
               <div className="relative aspect-[4/5] w-full overflow-hidden rounded-4xl shadow-soft">
                 <Image
