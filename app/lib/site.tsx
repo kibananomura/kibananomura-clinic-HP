@@ -111,6 +111,18 @@ export interface SiteDict {
     storyMoreHref: string;
     photoNote: string;
     portraitAria: string;
+    /** 院長紹介ページ（/director） */
+    page: {
+      eyebrow: string;
+      lead: string;
+      careerHeading: string;
+      career: { when: string; text: string }[];
+      careerNote: string;
+      readHeading: string;
+      reads: { label: string; href: string }[];
+      researchmap: string;
+      greetingHeading: string;
+    };
   };
   services: {
     eyebrow: string;
@@ -350,7 +362,7 @@ const ja: SiteDict = {
   },
   nav: [
     { href: "/about", label: "当院の想い" },
-    { href: "/#director", label: "院長あいさつ" },
+    { href: "/director", label: "院長紹介" },
     { href: "/blog", label: "院長ブログ" },
     { href: "/services", label: "診療案内" },
     { href: "/symptoms", label: "症状から調べる" },
@@ -496,13 +508,43 @@ const ja: SiteDict = {
     roleLabel: "院長",
     name: "野村 信介",
     reading: "のむら しんすけ",
-    qualifications: ["日本外科学会認定 外科専門医", "日本消化器外科学会認定 消化器外科専門医", "日本医師会認定 健康スポーツ医"],
+    qualifications: ["医学博士", "日本外科学会認定 外科専門医", "日本消化器外科学会認定 消化器外科専門医", "日本医師会認定 健康スポーツ医"],
     storyIntro:
       "防衛医科大学校を卒業。同校は、医師である幹部自衛官（自衛隊医官）としての使命感を持ち、プライマリケアや総合臨床に対応できる人材の育成を理念に掲げており、その中で幅広い診療科に対応する力を培いました。卒業後は大学病院や地域の病院で消化器外科を中心に診療を重ね、手術室をはじめ、さまざまな現場で患者さんと向き合ってきました。",
     storyMore: "院長ブログでキャリアの話を読む",
     storyMoreHref: "/blog/kara-no-michi",
     photoNote: "※ 写真は開院準備中（イメージ）",
     portraitAria: "木花のむら総合診療所 院長 野村信介",
+    page: {
+      eyebrow: "院長紹介",
+      lead: "宮崎市熊野（木花）に2027年10月1日開院予定の「木花のむら総合診療所」院長、野村信介（のむら しんすけ）です。外科・消化器外科の専門医として、救急・災害医療から大学病院、地域の病院まで、さまざまな現場で患者さんと向き合ってきました。",
+      careerHeading: "これまでの歩み",
+      career: [
+        { when: "千葉県出身", text: "一年間の浪人を経て、防衛医科大学校に入学" },
+        { when: "2008年", text: "防衛医科大学校を卒業" },
+        { when: "卒業後", text: "防衛医科大学校病院・自衛隊中央病院・三宿病院・災害医療センター・虎の門病院などで研さんを積む" },
+        { when: "", text: "陸上自衛隊衛生学校で、医官・看護官・救命士の教官を務める" },
+        { when: "", text: "陸上幕僚監部で行政に携わる" },
+        { when: "", text: "自衛隊熊本病院 外科部長 兼 健康管理センター長" },
+        { when: "2018〜2019年", text: "米国マサチューセッツ総合病院（MGH）研究員。ボストン日本人研究者交流会で講演し、Best Lecture Awardを受賞" },
+        { when: "", text: "宮崎大学 助教（臨床・教育・研究）" },
+        { when: "", text: "県立日南病院 外科医長" },
+        { when: "", text: "都城のクリニックで、一般内科としてプライマリーケアに携わる" },
+        { when: "2027年10月", text: "木花のむら総合診療所を開院予定" },
+      ],
+      careerNote: "くわしくは、院長ブログ「外科医から開業医へ」に書いています。",
+      readHeading: "院長の思いを読む",
+      reads: [
+        { label: "外科医から開業医へ（前編）", href: "/blog/kara-no-michi" },
+        { label: "外科医から開業医へ（後編）", href: "/blog/kara-no-michi-2" },
+        { label: "元・胃外科医が、木花で「かかりつけ医」になった理由", href: "/blog/i-gekai-kara-kakaritsukei" },
+        { label: "「光でがんを温める」研究に打ち込んでいた頃の話", href: "/blog/hikari-onnetsu-kenkyu" },
+        { label: "名前に込めた、ふたつの想い", href: "/blog/kibana-no-namae" },
+        { label: "当院の想い（パーパス・ミッション・ビジョン・バリュー）", href: "/about" },
+      ],
+      researchmap: "研究の業績（researchmap）",
+      greetingHeading: "院長あいさつ",
+    },
   },
   services: {
     eyebrow: "診療のご案内",
@@ -1243,7 +1285,7 @@ const en: SiteDict = {
   },
   nav: [
     { href: "/about", label: "Our Purpose" },
-    { href: "/#director", label: "Director" },
+    { href: "/director", label: "Director" },
     { href: "/blog", label: "Blog" },
     { href: "/services", label: "Services" },
     { href: "/symptoms", label: "Find by Symptom" },
@@ -1389,6 +1431,7 @@ const en: SiteDict = {
     name: "Dr. Shinsuke Nomura",
     reading: "Nomura Shinsuke",
     qualifications: [
+      "PhD in Medicine",
       "Board-certified Surgeon (Japanese Surgical Society)",
       "Board-certified Gastroenterological Surgeon (Japanese Society of Gastroenterological Surgery)",
       "Certified Sports and Health Physician (Japan Medical Association)",
@@ -1399,6 +1442,36 @@ const en: SiteDict = {
     storyMoreHref: "/blog/kara-no-michi",
     photoNote: "* Photo coming soon (image)",
     portraitAria: "Dr. Shinsuke Nomura, Director of Kibana Nomura General Medicine Clinic",
+    page: {
+      eyebrow: "About the director",
+      lead: "I'm Dr. Shinsuke Nomura, director of Kibana Nomura General Medicine Clinic, opening on October 1, 2027 in Kumano (Kibana), Miyazaki City. As a board-certified surgeon and gastroenterological surgeon, I have cared for patients in many settings — from emergency and disaster medicine to university hospitals and community hospitals.",
+      careerHeading: "My career",
+      career: [
+        { when: "Chiba Prefecture", text: "After a year of exam preparation, entered the National Defense Medical College" },
+        { when: "2008", text: "Graduated from the National Defense Medical College" },
+        { when: "After graduation", text: "Trained at the National Defense Medical College Hospital, JSDF Central Hospital, Mishuku Hospital, the National Disaster Medical Center, Toranomon Hospital and others" },
+        { when: "", text: "Instructor for medical officers, nurses and paramedics at the JGSDF Medical School" },
+        { when: "", text: "Administrative work at the Ground Staff Office" },
+        { when: "", text: "Chief of Surgery and Director of the Health Management Center, JSDF Kumamoto Hospital" },
+        { when: "2018–2019", text: "Research fellow at Massachusetts General Hospital (MGH); received the Best Lecture Award from the Boston Japanese Researchers Forum" },
+        { when: "", text: "Assistant Professor, University of Miyazaki (clinical care, teaching and research)" },
+        { when: "", text: "Chief Surgeon, Miyazaki Prefectural Nichinan Hospital" },
+        { when: "", text: "Primary care in general internal medicine at a clinic in Miyakonojo" },
+        { when: "October 2027", text: "Opening Kibana Nomura General Medicine Clinic" },
+      ],
+      careerNote: "I write about this in more detail in the director's blog, “From surgeon to clinic director.”",
+      readHeading: "Read more from the director",
+      reads: [
+        { label: "From surgeon to clinic director (Part 1)", href: "/blog/kara-no-michi" },
+        { label: "From surgeon to clinic director (Part 2)", href: "/blog/kara-no-michi-2" },
+        { label: "Why a former stomach surgeon became a family doctor in Kibana", href: "/blog/i-gekai-kara-kakaritsukei" },
+        { label: "When I was immersed in research on warming cancer with light", href: "/blog/hikari-onnetsu-kenkyu" },
+        { label: "Two hopes behind our name", href: "/blog/kibana-no-namae" },
+        { label: "Our purpose, mission, vision and values", href: "/about" },
+      ],
+      researchmap: "Research achievements (researchmap)",
+      greetingHeading: "A word from the director",
+    },
   },
   services: {
     eyebrow: "Services",

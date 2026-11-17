@@ -35,7 +35,7 @@ export default function ArticleSupervisor() {
               : "防衛医科大学校卒／日本外科学会専門医／日本消化器外科学会専門医／日本医師会認定健康スポーツ医"}
           </p>
           <Link
-            href="/#director"
+            href="/director"
             className="mt-2 inline-flex items-center gap-1 text-sm font-bold text-primary-dark underline underline-offset-2 hover:text-primary"
           >
             {lang === "en" ? "Meet the director" : "院長紹介を見る"}

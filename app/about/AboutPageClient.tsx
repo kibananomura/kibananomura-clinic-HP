@@ -82,7 +82,7 @@ export default function AboutPageClient() {
           <div className="mx-auto mt-12 max-w-3xl text-center">
             <p className="text-sm font-bold text-ink/70">{a.linksHeading}</p>
             <div className="mt-4 flex flex-wrap justify-center gap-3">
-              <Link href="/#director" className="rounded-full bg-primary px-5 py-2.5 text-sm font-bold text-white shadow-soft transition-transform hover:scale-105">
+              <Link href="/director" className="rounded-full bg-primary px-5 py-2.5 text-sm font-bold text-white shadow-soft transition-transform hover:scale-105">
                 {a.directorLink}
               </Link>
               <Link href="/blog" className="rounded-full border border-primary/40 bg-surface px-5 py-2.5 text-sm font-bold text-primary-dark transition-transform hover:scale-105">

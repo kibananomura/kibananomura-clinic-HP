@@ -53,11 +53,13 @@ const DIRECTOR = {
   medicalSpecialty: ["Surgery", "Gastroenterology"],
   hasCredential: [
     { "@type": "EducationalOccupationalCredential", credentialCategory: "防衛医科大学校卒" },
+    { "@type": "EducationalOccupationalCredential", credentialCategory: "医学博士" },
     { "@type": "EducationalOccupationalCredential", credentialCategory: "日本外科学会専門医" },
     { "@type": "EducationalOccupationalCredential", credentialCategory: "日本消化器外科学会専門医" },
     { "@type": "EducationalOccupationalCredential", credentialCategory: "日本医師会認定健康スポーツ医" },
   ],
-  url: `${BASE_URL}/#director`,
+  url: `${BASE_URL}/director`,
+  sameAs: ["https://researchmap.jp/shinsuke_nomura"],
 } as const;
 
 export default function ClinicJsonLd() {

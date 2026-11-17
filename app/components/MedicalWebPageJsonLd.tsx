@@ -5,7 +5,7 @@ const AUTHOR_PHYSICIAN = {
   "@type": "Physician",
   name: "野村信介",
   jobTitle: "院長",
-  url: `${BASE_URL}/#director`,
+  url: `${BASE_URL}/director`,
 } as const;
 
 /**

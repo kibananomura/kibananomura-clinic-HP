@@ -5173,19 +5173,14 @@ export const generatedPosts: BlogPost[] = [
     },
     "related": [
       {
+        "slug": "tetsu-vitamin-c-ekiden",
+        "ja": "鉄分をとっているのに、貧血が良くならない？〜カギはビタミンC。走る子に貧血が多い理由と、まぶたのセルフチェック〜",
+        "en": "Taking iron, but your anemia isn't improving? — vitamin C is the key, plus why young runners often become anemic and a simple eyelid self-check"
+      },
+      {
         "slug": "seijou-no-jouge-fuan",
         "ja": "健診結果の「正常の上限」、どう考える？",
         "en": "Your checkup came back \"normal, but at the upper edge\" — what does that mean?"
-      },
-      {
-        "slug": "purin-tai-yurai",
-        "ja": "プリン体って、あの「プリン」と関係あるの？〜名前の由来と、多い食べ物の意外な共通点〜",
-        "en": "Do purines have anything to do with pudding? — where the name comes from, and what purine-rich foods have in common"
-      },
-      {
-        "slug": "sougou-kanyaku-nemuke",
-        "ja": "残っていた風邪薬を飲んだら、猛烈に眠くなった？〜「総合感冒薬」の中身と、眠気の本当の理由〜",
-        "en": "Took some leftover cold medicine and got overwhelmingly sleepy? — what's inside a combination cold medicine, and the real reason for the drowsiness"
       }
     ]
   },
@@ -6576,25 +6571,14 @@ export const generatedPosts: BlogPost[] = [
     },
     "related": [
       {
+        "slug": "tetsu-vitamin-c-ekiden",
+        "ja": "鉄分をとっているのに、貧血が良くならない？〜カギはビタミンC。走る子に貧血が多い理由と、まぶたのセルフチェック〜",
+        "en": "Taking iron, but your anemia isn't improving? — vitamin C is the key, plus why young runners often become anemic and a simple eyelid self-check"
+      },
+      {
         "slug": "tumor-marker-checkup",
         "ja": "健診のオプションで「腫瘍マーカー」が高かった方へ",
         "en": "If your optional tumor marker test came back high"
-      },
-      {
-        "slug": "purin-tai-yurai",
-        "ja": "プリン体って、あの「プリン」と関係あるの？〜名前の由来と、多い食べ物の意外な共通点〜",
-        "en": "Do purines have anything to do with pudding? — where the name comes from, and what purine-rich foods have in common"
-      },
-      {
-        "slug": "sougou-kanyaku-nemuke",
-        "ja": "残っていた風邪薬を飲んだら、猛烈に眠くなった？〜「総合感冒薬」の中身と、眠気の本当の理由〜",
-        "en": "Took some leftover cold medicine and got overwhelmingly sleepy? — what's inside a combination cold medicine, and the real reason for the drowsiness"
-      }
-    ],
-    "upcoming": [
-      {
-        "ja": "鉄分をとっているのに、貧血が良くならない？〜カギはビタミンC。走る子に貧血が多い理由と、まぶたのセルフチェック〜",
-        "en": "Taking iron, but your anemia isn't improving? — vitamin C is the key, plus why young runners often become anemic and a simple eyelid self-check"
       }
     ]
   },
@@ -13932,6 +13916,264 @@ export const generatedPosts: BlogPost[] = [
         "slug": "yasete-iru-noni-ldl",
         "ja": "痩せているのに、なぜコレステロールが高いの？——薬をやめると数値が戻ってしまう本当の理由",
         "en": "Slim, but high cholesterol? The real reason your numbers bounce back when you stop the medicine"
+      }
+    ]
+  },
+  {
+    "slug": "tetsu-vitamin-c-ekiden",
+    "date": "2026.11.17",
+    "cover": "/blog/tetsu-vitamin-c-ekiden.jpg",
+    "coverVersion": "4efcfdec",
+    "coverWidth": 1600,
+    "coverHeight": 900,
+    "sources": [
+      {
+        "label": "日本鉄バイオサイエンス学会「鉄欠乏性貧血の診療指針」（2024年改訂）"
+      },
+      {
+        "label": "Hallberg L, et al. Iron absorption in man: ascorbic acid and dose-dependent inhibition by phytate. Am J Clin Nutr. 1989;49:140-144",
+        "url": "https://doi.org/10.1093/ajcn/49.1.140"
+      },
+      {
+        "label": "日本陸上競技連盟「アスリートの貧血対処7か条」（2016年）"
+      }
+    ],
+    "ja": {
+      "category": "健康・予防の話",
+      "subcategory": "健診・検査",
+      "title": "鉄分をとっているのに、貧血が良くならない？〜カギはビタミンC。走る子に貧血が多い理由と、まぶたのセルフチェック〜",
+      "excerpt": "「貧血なので、鉄分をたくさんとっています！」——その心がけ、ちょっとした組み合わせの工夫で、もっと生かせるかもしれません。",
+      "body": [
+        {
+          "kind": "text",
+          "text": "「貧血と言われたので、ほうれん草やひじきを意識して食べています」「鉄のサプリも毎日飲んでいます」——貧血の話になると、こうした声をよくお聞きします。それなのに、だるさがなかなか取れない。数値も思ったほど上がらない。頑張っているのに、もどかしいですよね。"
+        },
+        {
+          "kind": "text",
+          "text": "先にお答えすると、**鉄分は「何と一緒にとるか」で吸収が大きく変わり、ビタミンCはその心強い相棒です。**"
+        },
+        {
+          "kind": "text",
+          "text": "このあと、こんな順番でお話しします。"
+        },
+        {
+          "kind": "text",
+          "text": "- 鉄は、そのままでは体に入りにくい\n- 駅伝や長距離走の子に、貧血が多い理由\n- 院長のTips：「あっかんべー」でまぶたの裏を見てみよう\n- 「鉄をとれば大丈夫」とは限りません"
+        },
+        {
+          "kind": "text",
+          "text": "### 鉄は、そのままでは体に入りにくい"
+        },
+        {
+          "kind": "text",
+          "text": "実は、食べた鉄分のうち、体に吸収されるのはほんの一部です。特に、野菜や海藻、豆類、サプリに多い鉄は、そのままでは腸から入りにくい形をしています。"
+        },
+        {
+          "kind": "text",
+          "text": "いわば、鉄が「合わない鍵」を持っている状態です。ここでビタミンCが働くと、鉄が腸の入り口に合う形へと変わり（これを「還元」といいます）、**体に吸収されやすくなる**のです。"
+        },
+        {
+          "kind": "text",
+          "text": "一方、肉や魚の赤身に含まれる鉄は、もともと吸収されやすい形をしています。ですから、植物性の鉄やサプリをとるときほど、ビタミンCとの組み合わせが効いてきます。"
+        },
+        {
+          "kind": "text",
+          "text": "おすすめの組み合わせは、たとえばこんな形です。"
+        },
+        {
+          "kind": "text",
+          "text": "- ほうれん草のおひたしに、レモンやゆずをしぼる\n- ひじきの煮物に、ブロッコリーやピーマンの副菜を添える\n- 食後のデザートに、みかんやキウイ、いちごを\n- 鉄のサプリは、緑茶やコーヒーではなく、水や果汁で"
+        },
+        {
+          "kind": "text",
+          "text": "緑茶やコーヒー、紅茶に含まれる成分は、鉄の吸収を邪魔することがあります。飲むなら、食事から少し時間をあけるのがおすすめです。"
+        },
+        {
+          "kind": "text",
+          "text": "### 駅伝や長距離走の子に、貧血が多い理由"
+        },
+        {
+          "kind": "text",
+          "text": "駅伝部や陸上部で長い距離を走っている中高生に貧血が多いことは、よく知られています。理由はひとつではありません。"
+        },
+        {
+          "kind": "text",
+          "text": "- **足の裏への衝撃**：着地のたびに足の裏の血管で赤血球がつぶれ、壊れてしまいます\n- **汗**：汗と一緒に、鉄も少しずつ体の外へ出ていきます\n- **成長期**：体が大きくなる時期は、それだけで多くの鉄が必要です\n- **月経**：女子選手では、毎月の出血も重なります"
+        },
+        {
+          "kind": "text",
+          "text": "練習を頑張っているのにタイムが伸びない、すぐにバテる、坂道で脚が重い。そんなとき、「気合が足りない」のではなく、貧血が隠れていることがあります。"
+        },
+        {
+          "kind": "text",
+          "text": "走る量が多い子ほど、体はたくさんの鉄を必要としています。朝ごはんを抜かないこと、練習のあとの補食に、鉄を含む卵や納豆、小魚などと、ビタミンCを含む果物を組み合わせることも、立派なコンディションづくりです。"
+        },
+        {
+          "kind": "text",
+          "text": "### 院長のTips：「あっかんべー」でまぶたの裏を見てみよう"
+        },
+        {
+          "kind": "text",
+          "text": "ご自宅や部活の合間に、鏡の前で「あっかんべー」をして、下まぶたの裏側を見てみてください。"
+        },
+        {
+          "kind": "text",
+          "text": "- **ピンク色〜赤色**：ひとまず安心の目安\n- **白っぽい、色が薄い**：貧血のサインかもしれません"
+        },
+        {
+          "kind": "text",
+          "text": "ただし、これはあくまで目安です。軽い貧血では色が変わらないこともあるので、だるさや息切れが続くときは、白くなくても血液検査で確かめましょう。"
+        },
+        {
+          "kind": "text",
+          "text": "### 「鉄をとれば大丈夫」とは限りません"
+        },
+        {
+          "kind": "text",
+          "text": "鉄をとっても良くならないときは、胃腸などからの出血や、鉄以外の栄養不足など、別の原因が隠れていることもあります。また、自己判断で大量のサプリを長く続けると、鉄のとりすぎになることもあります。くわしくは[鉄欠乏性貧血の解説ページ](/diseases/iron-deficiency-anemia)をご覧ください。"
+        },
+        {
+          "kind": "text",
+          "text": "### おわりに"
+        },
+        {
+          "kind": "text",
+          "text": "食べ合わせのちょっとした工夫と、日々のセルフチェック。それだけで、体のコンディションはぐっと整えやすくなります。毎日走り込んでいる子どもたちが、持っている力を存分に発揮できるよう、地域のかかりつけ医として応援しています。"
+        },
+        {
+          "kind": "text",
+          "text": "「最近バテやすい」「まぶたの裏が白い気がする」と感じたら、無理をせず、気軽に、かかりつけ医などにご相談ください（開院後は当院へ）。"
+        }
+      ]
+    },
+    "en": {
+      "category": "Health and prevention",
+      "subcategory": "Checkups & tests",
+      "title": "Taking iron, but your anemia isn't improving? — vitamin C is the key, plus why young runners often become anemic and a simple eyelid self-check",
+      "excerpt": "“I'm anemic, so I'm getting lots of iron!” A small change in what you pair it with may help that effort go further.",
+      "body": [
+        {
+          "kind": "text",
+          "text": "“I was told I'm anemic, so I'm eating lots of spinach and hijiki seaweed.” “I take an iron supplement every day, too.” I often hear things like this when we talk about anemia. And yet the tiredness won't go away, and the numbers don't rise as much as you'd hoped. It's frustrating when you're trying so hard."
+        },
+        {
+          "kind": "text",
+          "text": "This article explains how to pair foods so your body takes in iron well, why children in running sports often become anemic, and a simple self-check you can do at home. Here's the short answer: **how well iron is absorbed changes a lot depending on what you take it with — and vitamin C is a powerful partner.**"
+        },
+        {
+          "kind": "text",
+          "text": "Here's what I'll cover:"
+        },
+        {
+          "kind": "text",
+          "text": "- Iron doesn't enter the body easily on its own\n- Why young distance runners are often anemic\n- The director's tip: pull down your lower eyelid and take a look\n- “Just take iron” isn't always the answer"
+        },
+        {
+          "kind": "text",
+          "text": "### Iron doesn't enter the body easily on its own"
+        },
+        {
+          "kind": "text",
+          "text": "In fact, only a small part of the iron you eat is actually absorbed. The iron in vegetables, seaweed, beans and supplements in particular comes in a form that has trouble getting in through the gut."
+        },
+        {
+          "kind": "text",
+          "text": "Think of it as iron holding “the wrong key.” When vitamin C steps in, it changes iron into a form that fits the gut's entrance (this is called “reduction”), **making it much easier to absorb**."
+        },
+        {
+          "kind": "text",
+          "text": "The iron in red meat and fish, on the other hand, is already in an easily absorbed form. So pairing with vitamin C matters most when you take plant-based iron or supplements."
+        },
+        {
+          "kind": "text",
+          "text": "Here are some good combinations:"
+        },
+        {
+          "kind": "text",
+          "text": "- Squeeze lemon or yuzu over boiled spinach\n- Serve broccoli or green pepper alongside simmered hijiki\n- Have mandarin oranges, kiwi or strawberries for dessert\n- Take iron supplements with water or fruit juice rather than green tea or coffee"
+        },
+        {
+          "kind": "text",
+          "text": "Compounds in green tea, coffee and black tea can interfere with iron absorption. If you drink them, it's best to leave some time after meals."
+        },
+        {
+          "kind": "text",
+          "text": "### Why young distance runners are often anemic"
+        },
+        {
+          "kind": "text",
+          "text": "It's well known that junior high and high school students who run long distances — on ekiden relay or track teams — are often anemic. There's more than one reason."
+        },
+        {
+          "kind": "text",
+          "text": "- **Impact on the soles of the feet**: with every landing, red blood cells in the blood vessels of the soles are crushed and break apart\n- **Sweat**: a little iron leaves the body with sweat\n- **Growth spurts**: a growing body needs a lot of iron just to grow\n- **Periods**: for female athletes, monthly blood loss adds to it"
+        },
+        {
+          "kind": "text",
+          "text": "Training hard but times aren't improving, getting worn out quickly, legs feeling heavy on hills — at times like these, the problem may not be “not enough grit” but hidden anemia."
+        },
+        {
+          "kind": "text",
+          "text": "The more a child runs, the more iron their body needs. Not skipping breakfast, and pairing an after-practice snack containing iron — such as eggs, natto or small dried fish — with fruit rich in vitamin C, are real parts of good conditioning too."
+        },
+        {
+          "kind": "text",
+          "text": "### The director's tip: pull down your lower eyelid and take a look"
+        },
+        {
+          "kind": "text",
+          "text": "At home or during a break in practice, stand in front of a mirror, gently pull down your lower eyelid, and look at the inside."
+        },
+        {
+          "kind": "text",
+          "text": "- **Pink to red**: generally a reassuring sign\n- **Whitish or pale**: this may be a sign of anemia"
+        },
+        {
+          "kind": "text",
+          "text": "But this is only a rough guide. With mild anemia, the color may not change, so if tiredness or shortness of breath continues, get a blood test even if it doesn't look pale."
+        },
+        {
+          "kind": "text",
+          "text": "### “Just take iron” isn't always the answer"
+        },
+        {
+          "kind": "text",
+          "text": "If taking iron doesn't help, another cause may be hiding, such as bleeding from the stomach or intestines, or a lack of nutrients other than iron. And taking large amounts of supplements on your own for a long time can lead to too much iron. For more, see [our page on iron deficiency anemia](/diseases/iron-deficiency-anemia)."
+        },
+        {
+          "kind": "text",
+          "text": "### In closing"
+        },
+        {
+          "kind": "text",
+          "text": "A small tweak in how you pair foods, plus a daily self-check — that alone makes it much easier to keep your body in good condition. As a local family doctor, I'm cheering on the kids who run every day, so they can make the most of the strength they have."
+        },
+        {
+          "kind": "text",
+          "text": "If you feel “I've been tiring easily lately” or “the inside of my eyelid looks pale,” don't push yourself — please feel free to talk with your family doctor (or with us, once we open)."
+        }
+      ]
+    },
+    "related": [
+      {
+        "slug": "seijou-no-jouge-fuan",
+        "ja": "健診結果の「正常の上限」、どう考える？",
+        "en": "Your checkup came back \"normal, but at the upper edge\" — what does that mean?"
+      },
+      {
+        "slug": "tumor-marker-checkup",
+        "ja": "健診のオプションで「腫瘍マーカー」が高かった方へ",
+        "en": "If your optional tumor marker test came back high"
+      }
+    ],
+    "upcoming": [
+      {
+        "ja": "1日1万歩じゃなくても大丈夫？〜60歳からは「まず5,000歩」。スマホで楽しく続けるコツ〜",
+        "en": "Do you really need 10,000 steps a day? — after 60, “start with 5,000,” plus tips for keeping it fun with your smartphone"
+      },
+      {
+        "ja": "走るとお腹が痛くなるのはなぜ？〜わき腹が痛む理由と、その場ですぐできる対処法〜",
+        "en": "Why does your side hurt when you run? — what causes that stitch, and what you can do right there on the spot"
       }
     ]
   }
