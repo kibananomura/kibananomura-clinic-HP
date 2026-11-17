@@ -296,6 +296,8 @@ export interface SiteDict {
     badge: string;
     heading: string;
     body: string;
+    /** 回答が届いていることの一言（人数は10人を超えたら出す：2026-11-17 院長） */
+    responses: string;
     cta: string;
     dismiss: string;
   };
@@ -1178,6 +1180,7 @@ const ja: SiteDict = {
     badge: "開院準備アンケート",
     heading: "どの時間帯に通いたいですか？",
     body: "2027年10月1日の開院に向けて、診療時間を決めるためのアンケートを実施しています。30秒で答えられます。ぜひご協力ください。",
+    responses: "すでに地域の方からご回答をいただいています。いただいた声は、診療時間を決めるときに生かします。",
     cta: "アンケートに答える",
     dismiss: "閉じる",
   },
@@ -2094,6 +2097,7 @@ const en: SiteDict = {
     badge: "Pre-opening survey",
     heading: "What time of day works best for you?",
     body: "We're deciding our clinic hours and want to hear from you. It takes just 30 seconds — please help us get it right.",
+    responses: "We've already received answers from people in the community. Your voices will help us decide our clinic hours.",
     cta: "Answer the survey",
     dismiss: "Dismiss",
   },

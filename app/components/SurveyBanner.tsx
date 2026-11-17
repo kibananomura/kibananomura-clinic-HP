@@ -52,6 +52,10 @@ export default function SurveyBanner() {
               <p className="mt-1 text-sm leading-relaxed text-ink/70 lg:mt-1.5 lg:text-base">
                 {s.body}
               </p>
+              <p className="mt-1.5 inline-flex items-start gap-1.5 text-xs font-bold leading-relaxed text-primary-dark lg:text-sm">
+                <span aria-hidden="true">✔</span>
+                <span>{s.responses}</span>
+              </p>
             </div>
           </div>
 
