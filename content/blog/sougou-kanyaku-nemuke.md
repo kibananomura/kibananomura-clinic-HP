@@ -62,6 +62,8 @@ sources:
 
 だからこそ、手元に残っている薬を自己判断で飲むのではなく、早めに受診してください。「明日は車で出かける」「仕事を休めない」といった生活のご事情も遠慮なくお伝えいただければ、眠くなりにくいお薬を選ぶなど、今のあなたに合った処方を一緒に考えます。風邪の治し方そのものについては、「[風邪の抗生剤、実は「未来の免疫力」まで削っているかもしれません](/blog/kaze-taisho-ryoho)」もあわせてお読みください。
 
+※木花のむら総合診療所は2027年10月開院予定です。いまお困りの方は、かかりつけ医や薬剤師にご相談ください。
+
 ## en
 
 “I've got the chills. I still have some cold medicine from my last doctor's visit, so I'll take it for the fever and runny nose.” Have you ever taken medicine you had at home on your own judgment like this?
@@ -105,3 +107,5 @@ Antihistamines can also worsen symptoms in people with glaucoma or an enlarged p
 A “cold” can mean very different things — whether what bothers you most is fever, sore throat, cough or runny nose — and the medicine you need differs completely. Depending on your symptoms, you may not need an “everything included” medicine at all.
 
 That's exactly why I'd ask you to see a doctor early rather than taking leftover medicine on your own. Please feel free to tell us about your circumstances — “I'll be driving tomorrow,” “I can't take time off work” — and we'll work out a prescription that fits you now, such as choosing medicines less likely to cause drowsiness. For how colds actually get better, please also read “[That antibiotic for your cold might be borrowing against your future immunity](/blog/kaze-taisho-ryoho).”
+
+*Kibana Nomura General Medicine Clinic is scheduled to open in October 2027. If you need help now, please talk to your regular doctor or pharmacist.*
