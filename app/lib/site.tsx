@@ -931,6 +931,7 @@ const ja: SiteDict = {
           { name: "各種検査（CT・胃カメラ・エコー など）", price: "保険診療に準じます" },
           { name: "外科処置・日帰り手術（粉瘤・脂肪腫など）", price: "保険診療（大きさ・部位・必要な検査などで変わるため、診察のうえでご説明します）" },
           { name: "管理栄養士の栄養指導（2回目以降をオンラインで受ける場合のシステム利用料）", price: "1回550円（税込）。保険診療の自己負担とは別にいただきます" },
+          { name: "オンライン診療（通院中のかかりつけの方。システム利用料）", price: "1回1,000円（税込）。保険診療の自己負担とは別にいただきます" },
         ],
       },
       {
@@ -1871,6 +1872,7 @@ const en: SiteDict = {
             name: "Nutrition counselling by a registered dietitian (system fee for follow-up sessions held online)",
             price: "¥550 per session (incl. tax), charged separately from your insurance co-payment",
           },
+          { name: "Online consultation (for patients who already see us regularly; system fee)", price: "¥1,000 per session (incl. tax), charged separately from your insurance co-payment" },
         ],
       },
       {
