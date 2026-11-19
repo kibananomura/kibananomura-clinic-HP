@@ -5383,25 +5383,14 @@ export const generatedPosts: BlogPost[] = [
     },
     "related": [
       {
+        "slug": "ashi-kutsu-erabi",
+        "ja": "足が痛いのは、年齢や遺伝のせい？〜外反母趾・扁平足と「靴」の深い関係。子どもの靴選びから見直そう〜",
+        "en": "Is foot pain just age or genes? — the close link between bunions, flat feet and shoes, starting with how we choose children's shoes"
+      },
+      {
         "slug": "ashi-nanika",
         "ja": "足が痛い、むくむ。でも、何科に行けばいいの？〜日本で遅れていた「足の医療」と、受診のコツ〜",
         "en": "My feet hurt and swell — but which department should I see? — Japan's late start in “foot medicine,” and tips for getting care"
-      },
-      {
-        "slug": "shinsatsushitsu-no-chikara",
-        "ja": "同じ言葉なのに、診察室だと心に届くのはなぜ？〜「場」が持つ、もうひとつの治療の力〜",
-        "en": "Why do the same words reach you differently in the exam room? — the other healing power of a “place”"
-      },
-      {
-        "slug": "honne-ga-ienai",
-        "ja": "「もうやれることはやったのに」——その言葉、診察室で言っていいんです",
-        "en": "“I've already done everything I can” — it's okay to say that in the exam room"
-      }
-    ],
-    "upcoming": [
-      {
-        "ja": "足が痛いのは、年齢や遺伝のせい？〜外反母趾・扁平足と「靴」の深い関係。子どもの靴選びから見直そう〜",
-        "en": "Is foot pain just age or genes? — the close link between bunions, flat feet and shoes, starting with how we choose children's shoes"
       }
     ]
   },
@@ -6727,6 +6716,11 @@ export const generatedPosts: BlogPost[] = [
     },
     "related": [
       {
+        "slug": "ashi-kutsu-erabi",
+        "ja": "足が痛いのは、年齢や遺伝のせい？〜外反母趾・扁平足と「靴」の深い関係。子どもの靴選びから見直そう〜",
+        "en": "Is foot pain just age or genes? — the close link between bunions, flat feet and shoes, starting with how we choose children's shoes"
+      },
+      {
         "slug": "ashi-tako-sign",
         "ja": "その足のタコや小さな傷、「たかが」で済ませていませんか？〜足は全身の鏡。今日からできるセルフチェック〜",
         "en": "Are you brushing off those calluses and small cuts on your feet? — your feet mirror your whole body: a self-check you can start today"
@@ -6735,11 +6729,6 @@ export const generatedPosts: BlogPost[] = [
         "slug": "ashi-nanika",
         "ja": "足が痛い、むくむ。でも、何科に行けばいいの？〜日本で遅れていた「足の医療」と、受診のコツ〜",
         "en": "My feet hurt and swell — but which department should I see? — Japan's late start in “foot medicine,” and tips for getting care"
-      },
-      {
-        "slug": "shibire-shinkei-saisei",
-        "ja": "足のしびれは、治る？残る？〜神経の修復力と、しびれと上手に付き合うということ〜",
-        "en": "Will the numbness in my leg go away, or will it stay? — the nerve's power to repair, and learning to live well with numbness"
       }
     ]
   },
@@ -11627,14 +11616,14 @@ export const generatedPosts: BlogPost[] = [
         "en": "My feet hurt and swell — but which department should I see? — Japan's late start in “foot medicine,” and tips for getting care"
       },
       {
+        "slug": "ashi-kutsu-erabi",
+        "ja": "足が痛いのは、年齢や遺伝のせい？〜外反母趾・扁平足と「靴」の深い関係。子どもの靴選びから見直そう〜",
+        "en": "Is foot pain just age or genes? — the close link between bunions, flat feet and shoes, starting with how we choose children's shoes"
+      },
+      {
         "slug": "ashi-tako-sign",
         "ja": "その足のタコや小さな傷、「たかが」で済ませていませんか？〜足は全身の鏡。今日からできるセルフチェック〜",
         "en": "Are you brushing off those calluses and small cuts on your feet? — your feet mirror your whole body: a self-check you can start today"
-      },
-      {
-        "slug": "kizu-shoudoku",
-        "ja": "すり傷に消毒、実は逆効果？——「洗って、乾かさない」が早くきれいに治すコツ",
-        "en": "Is disinfecting a scrape actually counterproductive? Why “wash it, and don't let it dry out” heals faster and cleaner"
       }
     ]
   },
@@ -12096,6 +12085,11 @@ export const generatedPosts: BlogPost[] = [
     },
     "related": [
       {
+        "slug": "ashi-kutsu-erabi",
+        "ja": "足が痛いのは、年齢や遺伝のせい？〜外反母趾・扁平足と「靴」の深い関係。子どもの靴選びから見直そう〜",
+        "en": "Is foot pain just age or genes? — the close link between bunions, flat feet and shoes, starting with how we choose children's shoes"
+      },
+      {
         "slug": "ashi-tako-sign",
         "ja": "その足のタコや小さな傷、「たかが」で済ませていませんか？〜足は全身の鏡。今日からできるセルフチェック〜",
         "en": "Are you brushing off those calluses and small cuts on your feet? — your feet mirror your whole body: a self-check you can start today"
@@ -12109,12 +12103,6 @@ export const generatedPosts: BlogPost[] = [
         "slug": "shibire-shinkei-saisei",
         "ja": "足のしびれは、治る？残る？〜神経の修復力と、しびれと上手に付き合うということ〜",
         "en": "Will the numbness in my leg go away, or will it stay? — the nerve's power to repair, and learning to live well with numbness"
-      }
-    ],
-    "upcoming": [
-      {
-        "ja": "足が痛いのは、年齢や遺伝のせい？〜外反母趾・扁平足と「靴」の深い関係。子どもの靴選びから見直そう〜",
-        "en": "Is foot pain just age or genes? — the close link between bunions, flat feet and shoes, starting with how we choose children's shoes"
       }
     ]
   },
@@ -13064,6 +13052,11 @@ export const generatedPosts: BlogPost[] = [
     },
     "related": [
       {
+        "slug": "ashi-kutsu-erabi",
+        "ja": "足が痛いのは、年齢や遺伝のせい？〜外反母趾・扁平足と「靴」の深い関係。子どもの靴選びから見直そう〜",
+        "en": "Is foot pain just age or genes? — the close link between bunions, flat feet and shoes, starting with how we choose children's shoes"
+      },
+      {
         "slug": "ashi-nanika",
         "ja": "足が痛い、むくむ。でも、何科に行けばいいの？〜日本で遅れていた「足の医療」と、受診のコツ〜",
         "en": "My feet hurt and swell — but which department should I see? — Japan's late start in “foot medicine,” and tips for getting care"
@@ -13077,12 +13070,6 @@ export const generatedPosts: BlogPost[] = [
         "slug": "kizu-shoudoku",
         "ja": "すり傷に消毒、実は逆効果？——「洗って、乾かさない」が早くきれいに治すコツ",
         "en": "Is disinfecting a scrape actually counterproductive? Why “wash it, and don't let it dry out” heals faster and cleaner"
-      }
-    ],
-    "upcoming": [
-      {
-        "ja": "足が痛いのは、年齢や遺伝のせい？〜外反母趾・扁平足と「靴」の深い関係。子どもの靴選びから見直そう〜",
-        "en": "Is foot pain just age or genes? — the close link between bunions, flat feet and shoes, starting with how we choose children's shoes"
       }
     ]
   },
@@ -14409,6 +14396,215 @@ export const generatedPosts: BlogPost[] = [
         "slug": "mainichi-chigau-mono",
         "ja": "生活習慣病の方の食事指導の実際",
         "en": "What diet guidance actually looks like for lifestyle-related conditions"
+      }
+    ]
+  },
+  {
+    "slug": "ashi-kutsu-erabi",
+    "date": "2026.11.19",
+    "cover": "/blog/ashi-kutsu-erabi.jpg",
+    "coverVersion": "c50bcef8",
+    "coverWidth": 1600,
+    "coverHeight": 900,
+    "sources": [
+      {
+        "label": "日本フットケア・足病医学会『小児靴の手引き書 第二版 2024』",
+        "url": "https://jfcpm.org/news/children_shoe_tebiki.html"
+      },
+      {
+        "label": "日本フットケア・足病医学会「学会について」",
+        "url": "https://jfcpm.org/outline.html"
+      }
+    ],
+    "ja": {
+      "category": "健康・予防の話",
+      "subcategory": "足・腰・けが",
+      "title": "足が痛いのは、年齢や遺伝のせい？〜外反母趾・扁平足と「靴」の深い関係。子どもの靴選びから見直そう〜",
+      "excerpt": "おしゃれな靴を履きたいのに、すぐ足が痛くなる。子どもの靴、どれを選べばいいのか分からない。その悩み、「靴」から見直すと変わるかもしれません。",
+      "body": [
+        {
+          "kind": "text",
+          "text": "お気に入りの靴を履いて出かけたら、夕方には足が痛くてたまらない。親指の付け根が出っぱってきて、合う靴が見つからない。「母も同じ足だったから、遺伝だろう」「年だから仕方ない」——そう思って、あきらめていませんか。子育て中の方なら、「子どもの靴って、どれを選べばいいの？」と、お店で迷った経験もあるかもしれません。"
+        },
+        {
+          "kind": "text",
+          "text": "今日は、足のトラブルと靴や歩き方の関係、そして大人も子どもも今日からできる靴選びのコツについてお話しします。最後まで読んでいただくと、きっと「なるほど」と思っていただけるはずです。ひとつずつ見ていきましょう。"
+        },
+        {
+          "kind": "text",
+          "text": "### 草履の国が、靴の国になった"
+        },
+        {
+          "kind": "text",
+          "text": "日本では、長いあいだ裸足や草履、げたで暮らしてきました。鼻緒を指でつかんで歩く生活では、足の指をよく使い、つま先が締めつけられることもあまりありません。"
+        },
+        {
+          "kind": "text",
+          "text": "戦後、洋服とともに靴を履く生活が一気に広がりました。靴は足を守ってくれる、とても便利なものです。ただ、つま先の細い靴や、かかとの高い靴、サイズの合わない靴を長く履き続けると、足の指が押し込められ、親指が少しずつ外側へ曲がっていくことがあります。日本で外反母趾に悩む人が増えてきた背景には、こうした生活の変化があると考えられています。"
+        },
+        {
+          "kind": "text",
+          "text": "もちろん、外反母趾や扁平足には、生まれつきの足の形や、関節のやわらかさ、年齢による筋力の低下も関わっています。「靴だけが原因」というわけではありません。それでも、**毎日何時間も足を包んでいる靴が、足の形や痛みに影響を与えている**ことは確かです。"
+        },
+        {
+          "kind": "text",
+          "text": "### 子どもの頃の靴が、将来の歩きを守る"
+        },
+        {
+          "kind": "text",
+          "text": "最近、足の病気の専門家たちの間では、大人の足のトラブルを治すだけでなく、**子どもの頃からの「足と靴の環境づくり」**に目が向けられるようになってきました。日本フットケア・足病医学会は「足病予防は小児期から」と呼びかけ、2024年には子どもの靴選びの目安をまとめた『小児靴の手引き書』の第2版を出しています。子どもの足の骨は、まだやわらかく、成長の途中にあります。その時期にどんな靴を履いて、どう歩くかが、大人になってからの足の形や歩き方にも関わると考えられているからです。"
+        },
+        {
+          "kind": "text",
+          "text": "子どもの靴選びでは、次の点を目安にしてみてください。"
+        },
+        {
+          "kind": "text",
+          "text": "- **つま先に少しゆとりを**：立った状態で、つま先に0.5〜1センチほどの余裕があるもの\n- **かかとがしっかりしたもの**：かかとの部分を指でつまんで、簡単につぶれないもの\n- **甲をしっかり留められるもの**：ひもやマジックテープで、足が靴の中で動かないように\n- **つま先側で曲がるもの**：靴底が、指の付け根あたりで自然に曲がるもの\n- **こまめにサイズを確かめる**：子どもの足はすぐに大きくなります。「大きめを買って長く履かせる」「きょうだいのおさがり」は、足に合っているか確かめてから"
+        },
+        {
+          "kind": "text",
+          "text": "### 大人の私たちにできること"
+        },
+        {
+          "kind": "text",
+          "text": "大人の足も、靴を見直すことで、楽になることがたくさんあります。"
+        },
+        {
+          "kind": "text",
+          "text": "- **靴は夕方に選ぶ**：足は夕方になると少しむくんで大きくなります\n- **長さだけでなく「幅」も測る**：同じサイズでも、足の幅や甲の高さは人それぞれです\n- **両足で履いて、お店の中を歩いてみる**：左右で足の大きさが違うことも珍しくありません\n- **ひもは、履くたびに結び直す**：足が靴の中で前にすべるのを防ぎます"
+        },
+        {
+          "kind": "text",
+          "text": "また、足の形は、座っているときより**立って体重をかけたとき**のほうが、変形や崩れがはっきり分かります。痛みやタコがくり返しできる方は、我慢せずに一度診てもらいましょう。足に合った中敷きや装具をつくったり、専門的なケアを受けたりすることで、ぐっと楽になることもあります。"
+        },
+        {
+          "kind": "text",
+          "text": "足の小さなトラブルが大切なサインになることもあります。足全体の悩みをどこに相談すればいいか迷う方は、「[『何科に行けばいいかわからない』をなくしたい](/blog/jushin-meiro)」もあわせてお読みください。"
+        },
+        {
+          "kind": "text",
+          "text": "### 今日のまとめ"
+        },
+        {
+          "kind": "text",
+          "text": "まとめると、**外反母趾（がいはんぼし。親指が外側に曲がる変形）や扁平足（へんぺいそく）、足の痛みは、体質だけでなく、毎日履く「靴」や「歩き方」とも深く関わっています。そして、いまからでも見直せることはたくさんあります。**"
+        },
+        {
+          "kind": "text",
+          "text": "足は、体全体を支える土台です。その土台を毎日包んでいるのが、靴です。おしゃれを我慢してほしいわけではありません。特別な日の靴と、毎日たくさん歩く日の靴を、上手に使い分けるだけでも違ってきます。"
+        },
+        {
+          "kind": "text",
+          "text": "土台である足を支える靴やケアを見直すことで、毎日の歩きやすさはぐっと変わります。お子さんの足も、ご自身の足も、足元から健康を考えてみませんか。"
+        }
+      ]
+    },
+    "en": {
+      "category": "Health and prevention",
+      "subcategory": "Feet, back & injuries",
+      "title": "Is foot pain just age or genes? — the close link between bunions, flat feet and shoes, starting with how we choose children's shoes",
+      "excerpt": "You want to wear stylish shoes, but your feet soon start to hurt. You're not sure which shoes to choose for your child. Rethinking “shoes” may change things.",
+      "body": [
+        {
+          "kind": "text",
+          "text": "You head out in your favorite shoes, and by evening your feet hurt terribly. The base of your big toe has started to stick out, and you can't find shoes that fit. “My mother had the same feet, so it must be genetic.” “It's my age, there's nothing to be done.” Have you given up like this? If you're raising children, you may also have stood in a shop wondering, “Which shoes should I choose for my child?”"
+        },
+        {
+          "kind": "text",
+          "text": "This article explains the link between foot problems and shoes or the way you walk, and tips for choosing shoes that both adults and children can start using today. By the end, I hope it will all make sense. Let's look at it one step at a time."
+        },
+        {
+          "kind": "text",
+          "text": "### A country of sandals became a country of shoes"
+        },
+        {
+          "kind": "text",
+          "text": "For a long time in Japan, people lived barefoot or in straw sandals (zori) and wooden clogs (geta). Walking by gripping the thong with the toes meant using the toes a lot, and the toes were rarely squeezed."
+        },
+        {
+          "kind": "text",
+          "text": "After the war, wearing shoes along with Western clothing spread rapidly. Shoes are very useful — they protect the feet. But wearing narrow-toed shoes, high heels or ill-fitting shoes for a long time can squeeze the toes and gradually bend the big toe outward. This change in lifestyle is thought to be part of why more people in Japan have bunions."
+        },
+        {
+          "kind": "text",
+          "text": "Of course, bunions and flat feet also involve the foot shape you were born with, how flexible your joints are, and muscle loss with age. Shoes aren't “the only cause.” Even so, **the shoes that wrap your feet for hours every day clearly affect foot shape and pain**."
+        },
+        {
+          "kind": "text",
+          "text": "### Childhood shoes protect walking in the future"
+        },
+        {
+          "kind": "text",
+          "text": "Recently, foot specialists have begun turning their attention not only to treating adults' foot problems, but also to **creating a good “foot and shoe environment” from childhood**. The Japanese Society of Foot Care and Podiatric Medicine calls for “preventing foot disease from childhood,” and in 2024 it published the second edition of a guide to children's shoes that sets out how to choose them. Children's foot bones are still soft and growing. What shoes they wear and how they walk during this period is thought to affect the shape of their feet and the way they walk as adults."
+        },
+        {
+          "kind": "text",
+          "text": "When choosing children's shoes, use these as a guide:"
+        },
+        {
+          "kind": "text",
+          "text": "- **A little room at the toes**: about 0.5–1 cm of space at the toes when standing\n- **A firm heel**: pinch the heel with your fingers — it shouldn't collapse easily\n- **A secure fit over the instep**: laces or hook-and-loop straps that keep the foot from sliding inside the shoe\n- **Bends at the toes**: the sole should bend naturally around the base of the toes\n- **Check the size often**: children's feet grow fast. Before “buying big so they last” or using hand-me-downs from siblings, make sure they fit"
+        },
+        {
+          "kind": "text",
+          "text": "### What we adults can do"
+        },
+        {
+          "kind": "text",
+          "text": "Adults, too, can often find relief by rethinking their shoes."
+        },
+        {
+          "kind": "text",
+          "text": "- **Shop for shoes in the evening**: feet swell a little and get bigger later in the day\n- **Measure width, not just length**: even at the same size, foot width and instep height vary from person to person\n- **Try on both shoes and walk around the shop**: it's not unusual for your left and right feet to differ in size\n- **Retie your laces each time you put your shoes on**: this keeps your foot from sliding forward inside the shoe"
+        },
+        {
+          "kind": "text",
+          "text": "Also, deformities and collapse in the shape of the foot show up more clearly **when you stand and put weight on it** than when you sit. If you keep getting pain or calluses, don't just put up with it — have it checked. Getting insoles or supports made to fit your feet, or receiving specialized care, can make a big difference."
+        },
+        {
+          "kind": "text",
+          "text": "Small foot troubles can also be important signs. If you're unsure where to go with foot concerns in general, please also read “[I want to end ‘which department do I even go to?’](/blog/jushin-meiro).”"
+        },
+        {
+          "kind": "text",
+          "text": "### Today's takeaway"
+        },
+        {
+          "kind": "text",
+          "text": "To sum up: **bunions (a deformity in which the big toe bends outward), flat feet and foot pain are closely linked not only to constitution but also to the “shoes” you wear every day and “how you walk.” And there's a lot you can still change, starting now.**"
+        },
+        {
+          "kind": "text",
+          "text": "Your feet are the foundation that supports your whole body, and shoes are what wrap that foundation every day. I'm not asking you to give up on style. Simply using special-occasion shoes and everyday walking shoes wisely makes a difference."
+        },
+        {
+          "kind": "text",
+          "text": "Rethinking the shoes and care that support your foundation can greatly change how easy it is to walk every day. For your children's feet and your own, why not think about health from the ground up?"
+        }
+      ]
+    },
+    "related": [
+      {
+        "slug": "ashi-nanika",
+        "ja": "足が痛い、むくむ。でも、何科に行けばいいの？〜日本で遅れていた「足の医療」と、受診のコツ〜",
+        "en": "My feet hurt and swell — but which department should I see? — Japan's late start in “foot medicine,” and tips for getting care"
+      },
+      {
+        "slug": "ashi-tako-sign",
+        "ja": "その足のタコや小さな傷、「たかが」で済ませていませんか？〜足は全身の鏡。今日からできるセルフチェック〜",
+        "en": "Are you brushing off those calluses and small cuts on your feet? — your feet mirror your whole body: a self-check you can start today"
+      },
+      {
+        "slug": "jushin-meiro",
+        "ja": "「何科に行けばいいかわからない」をなくしたい",
+        "en": "I want to end 'which department do I even go to?'"
+      }
+    ],
+    "upcoming": [
+      {
+        "ja": "1日1万歩じゃなくても大丈夫？〜60歳からは「まず5,000歩」。スマホで楽しく続けるコツ〜",
+        "en": "Do you really need 10,000 steps a day? — after 60, “start with 5,000,” plus tips for keeping it fun with your smartphone"
       }
     ]
   }
