@@ -9876,7 +9876,7 @@ export const generatedPosts: BlogPost[] = [
     "slug": "yasete-iru-noni-ldl",
     "date": "2026.11.03",
     "cover": "/blog/yasete-iru-noni-ldl.jpg",
-    "coverVersion": "03283c30",
+    "coverVersion": "6a95ae1f",
     "coverWidth": 1600,
     "coverHeight": 900,
     "youtube": "xhlr0E9nWo8",
