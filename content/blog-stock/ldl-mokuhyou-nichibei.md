@@ -8,7 +8,7 @@ subcategory_en: Cholesterol & uric acid
 title_ja: アメリカでは「55未満」？　悪玉コレステロールの目標が日本と違うわけ
 title_en: "Under 55 in the U.S.? Why LDL cholesterol goals differ between Japan and America"
 excerpt_ja: 「120から95に下がった！もう安心？」——その答えは、あなたが「どこの国の、どの立場の」目標で見るかで変わります。
-excerpt_en: "My LDL dropped from 120 to 95 — am I in the clear?" The answer depends on which goal you're measuring against.
+excerpt_en: '"My LDL dropped from 120 to 95 — am I in the clear?" The answer depends on which goal you''re measuring against.'
 sources:
   - label: "Top 10 Concepts in Secondary ASCVD Prevention From the 2026 ACC/AHA Dyslipidemia Guideline: What Is New and Why It Matters. Curr Atheroscler Rep. 2026. doi: 10.1007/s11883-026-01465-5"
     url: "https://doi.org/10.1007/s11883-026-01465-5"

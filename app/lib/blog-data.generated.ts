@@ -3957,6 +3957,12 @@ export const generatedPosts: BlogPost[] = [
         "ja": "痛風発作は「尿酸値が上がる時」と「下がる時」、どっちに起きやすい？〜カギは“急な変化”でした〜",
         "en": "Do gout attacks happen when uric acid goes up, or when it comes down? — the key turns out to be “sudden change”"
       }
+    ],
+    "upcoming": [
+      {
+        "ja": "アメリカでは「55未満」？　悪玉コレステロールの目標が日本と違うわけ",
+        "en": "Under 55 in the U.S.? Why LDL cholesterol goals differ between Japan and America"
+      }
     ]
   },
   {
@@ -6576,6 +6582,12 @@ export const generatedPosts: BlogPost[] = [
         "slug": "tumor-marker-checkup",
         "ja": "健診のオプションで「腫瘍マーカー」が高かった方へ",
         "en": "If your optional tumor marker test came back high"
+      }
+    ],
+    "upcoming": [
+      {
+        "ja": "アメリカでは「55未満」？　悪玉コレステロールの目標が日本と違うわけ",
+        "en": "Under 55 in the U.S.? Why LDL cholesterol goals differ between Japan and America"
       }
     ]
   },
@@ -10119,6 +10131,12 @@ export const generatedPosts: BlogPost[] = [
         "slug": "statin-kinniku-houkai",
         "ja": "コレステロールの薬で、筋肉が溶けるって本当？〜悪玉コレステロールを下げる薬（スタチン）の疑問と最新医学〜",
         "en": "Can cholesterol medicine really \"break down\" your muscles? Questions about statins and the latest evidence"
+      }
+    ],
+    "upcoming": [
+      {
+        "ja": "アメリカでは「55未満」？　悪玉コレステロールの目標が日本と違うわけ",
+        "en": "Under 55 in the U.S.? Why LDL cholesterol goals differ between Japan and America"
       }
     ]
   },
