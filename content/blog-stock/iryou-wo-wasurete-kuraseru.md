@@ -1,6 +1,6 @@
 ---
 date: 2026.11.24
-cover: /blog/kibana-landscape.jpg
+cover: /blog/iryou-wo-wasurete-kuraseru.jpg
 category_ja: 診療で大切にしていること
 category_en: What I value in care
 title_ja: "「医療を忘れて暮らせる明日」を創る〜私たちが、この言葉にたどり着くまで〜"
