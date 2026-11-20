@@ -102,7 +102,7 @@ export const CAREERS_PAGE = {
     conditionsLabel: "募集要項（案）",
     applyHeading: "お問い合わせ・ご応募",
     applyBody:
-      "ご興味のある方は、メール（contact@kibananomura.jp）または下記の LINE から、お気軽にお問い合わせください。面談の日程や詳細条件は個別にご案内いたします。",
+      "ご興味のある方は、メール（contact@kibananomura.jp）または下記の LINE から、お気軽にお問い合わせください。面談の日程や詳細条件は個別にご案内いたします。面接は複数回を予定しています（お互いに合うかどうかを、時間をかけて確かめるためです）。",
     applyLineButton: "LINE で問い合わせる",
     applyLineNote:
       "※ メッセージに「採用について」とお書き添えいただけるとスムーズです。",
@@ -183,7 +183,7 @@ export const CAREERS_PAGE = {
     conditionsLabel: "Employment conditions (draft)",
     applyHeading: "Inquiries & applications",
     applyBody:
-      "If you are interested, please contact us by email (contact@kibananomura.jp) or via LINE below. We will arrange an interview and share details individually.",
+      "If you are interested, please contact us by email (contact@kibananomura.jp) or via LINE below. We will arrange interviews and share details individually. We plan to hold more than one interview, so that we both have time to make sure it is a good fit.",
     applyLineButton: "Contact via LINE",
     applyLineNote:
       '* Please include "Recruitment inquiry" in your message.',
