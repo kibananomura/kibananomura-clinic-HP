@@ -8343,6 +8343,11 @@ export const generatedPosts: BlogPost[] = [
         "en": "Eating less but not losing weight? After 40, it's about adding, not subtracting"
       },
       {
+        "slug": "hosuu-5000",
+        "ja": "1日1万歩じゃなくても大丈夫？〜60歳からは「まず5,000歩」。スマホで楽しく続けるコツ〜",
+        "en": "Do you really need 10,000 steps a day? — after 60, “start with 5,000,” plus tips for keeping it fun with your smartphone"
+      },
+      {
         "slug": "mainichi-chigau-mono",
         "ja": "生活習慣病の方の食事指導の実際",
         "en": "What diet guidance actually looks like for lifestyle-related conditions"
@@ -10607,15 +10612,14 @@ export const generatedPosts: BlogPost[] = [
         "en": "To everyone who eats only one meal a day and still can't lose weight"
       },
       {
+        "slug": "hosuu-5000",
+        "ja": "1日1万歩じゃなくても大丈夫？〜60歳からは「まず5,000歩」。スマホで楽しく続けるコツ〜",
+        "en": "Do you really need 10,000 steps a day? — after 60, “start with 5,000,” plus tips for keeping it fun with your smartphone"
+      },
+      {
         "slug": "tounyoubyou-shokuji",
         "ja": "糖尿病だから、ご飯は抜くべき？〜「我慢の食事」から「しっかり食べて体を守る食事」へ〜",
         "en": "I have diabetes — should I skip rice? — from “eating by enduring” to “eating well to protect your body”"
-      }
-    ],
-    "upcoming": [
-      {
-        "ja": "1日1万歩じゃなくても大丈夫？〜60歳からは「まず5,000歩」。スマホで楽しく続けるコツ〜",
-        "en": "Do you really need 10,000 steps a day? — after 60, “start with 5,000,” plus tips for keeping it fun with your smartphone"
       }
     ]
   },
@@ -12799,6 +12803,11 @@ export const generatedPosts: BlogPost[] = [
         "en": "Are you brushing off those calluses and small cuts on your feet? — your feet mirror your whole body: a self-check you can start today"
       },
       {
+        "slug": "hosuu-5000",
+        "ja": "1日1万歩じゃなくても大丈夫？〜60歳からは「まず5,000歩」。スマホで楽しく続けるコツ〜",
+        "en": "Do you really need 10,000 steps a day? — after 60, “start with 5,000,” plus tips for keeping it fun with your smartphone"
+      },
+      {
         "slug": "tounyoubyou-shokuji",
         "ja": "糖尿病だから、ご飯は抜くべき？〜「我慢の食事」から「しっかり食べて体を守る食事」へ〜",
         "en": "I have diabetes — should I skip rice? — from “eating by enduring” to “eating well to protect your body”"
@@ -12812,12 +12821,6 @@ export const generatedPosts: BlogPost[] = [
         "slug": "seikatsu-shukanbyo-gokai",
         "ja": "「生活習慣病」のレッテルで、ご自身を責めないでください",
         "en": "Please don't blame yourself for the label \"lifestyle disease\""
-      }
-    ],
-    "upcoming": [
-      {
-        "ja": "1日1万歩じゃなくても大丈夫？〜60歳からは「まず5,000歩」。スマホで楽しく続けるコツ〜",
-        "en": "Do you really need 10,000 steps a day? — after 60, “start with 5,000,” plus tips for keeping it fun with your smartphone"
       }
     ]
   },
@@ -13076,10 +13079,10 @@ export const generatedPosts: BlogPost[] = [
   {
     "slug": "kansen-2026-11-2",
     "date": "2026.11.14",
-    "cover": "/blog/kibana-landscape.jpg",
-    "coverVersion": "951e262c",
-    "coverWidth": 1536,
-    "coverHeight": 1024,
+    "cover": "/blog/kansen-2026-11-2.jpg",
+    "coverVersion": "b731c86e",
+    "coverWidth": 1600,
+    "coverHeight": 900,
     "sources": [
       {
         "label": "宮崎県感染症情報センター「宮崎県感染症週報」2026年第45週（11/2〜11/8、11月12日発行）",
@@ -14153,16 +14156,12 @@ export const generatedPosts: BlogPost[] = [
         "en": "Your checkup came back \"normal, but at the upper edge\" — what does that mean?"
       },
       {
-        "slug": "tumor-marker-checkup",
-        "ja": "健診のオプションで「腫瘍マーカー」が高かった方へ",
-        "en": "If your optional tumor marker test came back high"
+        "slug": "hosuu-5000",
+        "ja": "1日1万歩じゃなくても大丈夫？〜60歳からは「まず5,000歩」。スマホで楽しく続けるコツ〜",
+        "en": "Do you really need 10,000 steps a day? — after 60, “start with 5,000,” plus tips for keeping it fun with your smartphone"
       }
     ],
     "upcoming": [
-      {
-        "ja": "1日1万歩じゃなくても大丈夫？〜60歳からは「まず5,000歩」。スマホで楽しく続けるコツ〜",
-        "en": "Do you really need 10,000 steps a day? — after 60, “start with 5,000,” plus tips for keeping it fun with your smartphone"
-      },
       {
         "ja": "走るとお腹が痛くなるのはなぜ？〜わき腹が痛む理由と、その場ですぐできる対処法〜",
         "en": "Why does your side hurt when you run? — what causes that stitch, and what you can do right there on the spot"
@@ -14596,15 +14595,268 @@ export const generatedPosts: BlogPost[] = [
         "en": "Are you brushing off those calluses and small cuts on your feet? — your feet mirror your whole body: a self-check you can start today"
       },
       {
+        "slug": "hosuu-5000",
+        "ja": "1日1万歩じゃなくても大丈夫？〜60歳からは「まず5,000歩」。スマホで楽しく続けるコツ〜",
+        "en": "Do you really need 10,000 steps a day? — after 60, “start with 5,000,” plus tips for keeping it fun with your smartphone"
+      },
+      {
         "slug": "jushin-meiro",
         "ja": "「何科に行けばいいかわからない」をなくしたい",
         "en": "I want to end 'which department do I even go to?'"
       }
+    ]
+  },
+  {
+    "slug": "hosuu-5000",
+    "date": "2026.11.20",
+    "cover": "/blog/hosuu-5000.jpg",
+    "coverVersion": "e4e338ea",
+    "coverWidth": 1600,
+    "coverHeight": 900,
+    "sources": [
+      {
+        "label": "Paluch AE, et al. Daily steps and all-cause mortality: a meta-analysis of 15 international cohorts. Lancet Public Health. 2022;7:e219-e228",
+        "url": "https://doi.org/10.1016/S2468-2667(21)00302-9"
+      },
+      {
+        "label": "厚生労働省「健康づくりのための身体活動・運動ガイド2023」",
+        "url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/kenkou/undou/index.html"
+      }
+    ],
+    "ja": {
+      "category": "健康・予防の話",
+      "subcategory": "食事・運動",
+      "title": "1日1万歩じゃなくても大丈夫？〜60歳からは「まず5,000歩」。スマホで楽しく続けるコツ〜",
+      "excerpt": "「運動しなきゃ」と思うたびに、ちょっと気が重くなる。そんな方に、少し肩の力が抜けるお話です。",
+      "body": [
+        {
+          "kind": "text",
+          "text": "「健康のために、1日1万歩は歩きましょう」。テレビや雑誌で、そんな言葉を目にしたことがあると思います。でも、仕事や家事で忙しい毎日の中で、1万歩はなかなか大変です。「今日も歩けなかった」と、運動のことを考えるたびに気が重くなっていませんか。"
+        },
+        {
+          "kind": "text",
+          "text": "先にお答えすると、**60歳以上の方なら、まずは1日5,000歩くらいからでも、体にとって確かな良い効果が期待できます。大切なのは、完璧を目指すことより、「今より少し多く」を続けることです。**"
+        },
+        {
+          "kind": "text",
+          "text": "このあと、こんな順番でお話しします。"
+        },
+        {
+          "kind": "text",
+          "text": "- 「1万歩」は、絶対のルールではありません\n- 「座りっぱなし」を減らすだけでも、体は変わる\n- スマホを、運動の“相棒”に"
+        },
+        {
+          "kind": "text",
+          "text": "### 「1万歩」は、絶対のルールではありません"
+        },
+        {
+          "kind": "text",
+          "text": "実は「1日1万歩」という数字は、はっきりした医学的な根拠から生まれたものではない、ともいわれています。"
+        },
+        {
+          "kind": "text",
+          "text": "ここ数年、世界中の研究をまとめて、歩数と健康の関係を調べた報告がいくつも出ています。その中で分かってきたのは、次のようなことです。"
+        },
+        {
+          "kind": "text",
+          "text": "- **歩く量が増えるほど、亡くなるリスクは少しずつ下がっていく**\n- **ただし、その効果はある歩数で頭打ちになる**\n- **60歳以上の方では、1日6,000〜8,000歩あたりで効果がほぼ頭打ちになる**"
+        },
+        {
+          "kind": "text",
+          "text": "つまり、60歳以上の方にとって、1万歩を目指してがんばりすぎる必要はないのです。そして、今あまり歩いていない方ほど、少し歩数を増やすだけで得られる効果が大きいことも分かっています。"
+        },
+        {
+          "kind": "text",
+          "text": "厚生労働省の運動の指針でも、ご高齢の方は1日6,000歩程度がひとつの目安とされています。ですから、いま3,000歩くらいの方は、**まず5,000歩**を目標に。それができたら、6,000歩、7,000歩と、少しずつ伸ばしていけば十分です。"
+        },
+        {
+          "kind": "text",
+          "text": "### 「座りっぱなし」を減らすだけでも、体は変わる"
+        },
+        {
+          "kind": "text",
+          "text": "まとまった運動の時間がとれない日もありますよね。そんなときは、**座っている時間を区切る**ことを意識してみてください。"
+        },
+        {
+          "kind": "text",
+          "text": "長い時間座り続けると、血糖や血圧、血のめぐりに良くない影響があることが分かっています。たとえ毎日歩いていても、残りの時間をずっと座って過ごしていると、その効果が薄れてしまうこともあります。"
+        },
+        {
+          "kind": "text",
+          "text": "- **30分〜1時間に一度は立ち上がる**：テレビのコマーシャルのたびに立つ、お茶を入れに行く\n- **「ついで歩き」を増やす**：一つ手前のバス停で降りる、駐車場は入り口から遠い場所に止める、エレベーターより階段を\n- **家の中でも動く**：洗濯物を干す、掃除機をかける。家事も立派な体の動きです"
+        },
+        {
+          "kind": "text",
+          "text": "「今より10分多く体を動かす」だけで、歩数にすると1,000歩ほど増えます。その10分が、毎日の積み重ねになります。"
+        },
+        {
+          "kind": "text",
+          "text": "### スマホを、運動の“相棒”に"
+        },
+        {
+          "kind": "text",
+          "text": "いまのスマートフォンには、持ち歩くだけで歩数を数えてくれる機能が、もともと入っていることがほとんどです。新しく何かを買わなくても、今日から使えます。"
+        },
+        {
+          "kind": "text",
+          "text": "続けるためのコツは、次のようなものです。"
+        },
+        {
+          "kind": "text",
+          "text": "- **毎日の歩数を「見るだけ」でもいい**：数字が目に入るだけで、「もう少し歩こうかな」という気持ちが自然とわいてきます\n- **家族や友人と歩数を共有する**：アプリによっては、お互いの歩数を見せ合ったり、目標を一緒に目指したりできます。「今日はおばあちゃんのほうが歩いてるね」と、会話のきっかけにもなります\n- **小さな目標と、ごほうびを**：「1週間の平均で5,000歩」など、達成できる目標を決めて、できたら自分をほめてあげましょう"
+        },
+        {
+          "kind": "text",
+          "text": "ただし、数字にとらわれすぎて、体調が悪い日や暑すぎる日、寒すぎる日に無理をするのは逆効果です。持病のある方や、ひざや腰に痛みがある方は、どれくらい歩いてよいか、主治医と相談してから始めてください。"
+        },
+        {
+          "kind": "text",
+          "text": "食事と合わせて体を整える考え方は、「[ご飯を減らしても痩せないのはなぜ？](/blog/herashitemo-yasenai)」でもお話ししています。"
+        },
+        {
+          "kind": "text",
+          "text": "### 診察室から、ひと言"
+        },
+        {
+          "kind": "text",
+          "text": "運動は、「しなければいけないもの」と思うほど、続けるのがつらくなります。でも、今日いつもより少し多く歩けたなら、それはもう立派な一歩です。"
+        },
+        {
+          "kind": "text",
+          "text": "完璧を目指さず、まずは今日からできる「少しのプラス」から始めてみませんか。木花の海や山の景色を楽しみながら、気持ちよく歩ける毎日を、一緒に続けていきましょう。"
+        }
+      ]
+    },
+    "en": {
+      "category": "Health and prevention",
+      "subcategory": "Diet & exercise",
+      "title": "Do you really need 10,000 steps a day? — after 60, “start with 5,000,” plus tips for keeping it fun with your smartphone",
+      "excerpt": "Every time you think “I should exercise,” you feel a bit weighed down? Here's something to help you relax a little.",
+      "body": [
+        {
+          "kind": "text",
+          "text": "“Walk 10,000 steps a day for your health.” You've probably seen this on TV or in magazines. But with busy days of work and housework, 10,000 steps is tough. Does thinking about exercise leave you feeling down — “I didn't manage to walk again today”?"
+        },
+        {
+          "kind": "text",
+          "text": "This article explains how much you really need to walk for your health, and a few small tips for keeping it up without strain. Here's the short answer: **if you're 60 or older, even starting at around 5,000 steps a day can bring real health benefits. What matters isn't aiming for perfection — it's keeping up “a little more than now.”**"
+        },
+        {
+          "kind": "text",
+          "text": "Here's what I'll cover:"
+        },
+        {
+          "kind": "text",
+          "text": "- “10,000 steps” isn't an absolute rule\n- Just cutting down on sitting changes your body\n- Make your smartphone your exercise “buddy”"
+        },
+        {
+          "kind": "text",
+          "text": "### “10,000 steps” isn't an absolute rule"
+        },
+        {
+          "kind": "text",
+          "text": "In fact, it's often said that the “10,000 steps a day” figure didn't come from clear medical evidence."
+        },
+        {
+          "kind": "text",
+          "text": "In recent years, several reports have pooled studies from around the world to look at the link between step counts and health. Here's what they've found:"
+        },
+        {
+          "kind": "text",
+          "text": "- **The more you walk, the lower your risk of dying, little by little**\n- **But the benefit levels off at a certain number of steps**\n- **For people 60 and older, the benefit largely levels off at around 6,000–8,000 steps a day**"
+        },
+        {
+          "kind": "text",
+          "text": "In other words, people over 60 don't need to push themselves to reach 10,000. And it's also clear that the less you walk now, the bigger the benefit from adding just a few more steps."
+        },
+        {
+          "kind": "text",
+          "text": "Japan's Ministry of Health exercise guidelines also suggest about 6,000 steps a day as one target for older adults. So if you're at around 3,000 steps now, aim for **5,000 first**. Once you manage that, gradually work up to 6,000, then 7,000 — that's plenty."
+        },
+        {
+          "kind": "text",
+          "text": "### Just cutting down on sitting changes your body"
+        },
+        {
+          "kind": "text",
+          "text": "Some days you can't find time for proper exercise. On those days, try to **break up the time you spend sitting**."
+        },
+        {
+          "kind": "text",
+          "text": "Sitting for long stretches is known to have bad effects on blood sugar, blood pressure and circulation. Even if you walk every day, spending the rest of your time sitting can weaken the benefits."
+        },
+        {
+          "kind": "text",
+          "text": "- **Stand up at least every 30 minutes to an hour**: stand during each TV commercial, or go make a cup of tea\n- **Add “on-the-way walking”**: get off one bus stop early, park far from the entrance, take the stairs instead of the elevator\n- **Move around at home too**: hanging laundry or vacuuming counts — housework is real physical activity"
+        },
+        {
+          "kind": "text",
+          "text": "Moving just “10 minutes more than now” adds about 1,000 steps. Those 10 minutes add up day after day."
+        },
+        {
+          "kind": "text",
+          "text": "### Make your smartphone your exercise “buddy”"
+        },
+        {
+          "kind": "text",
+          "text": "Most smartphones today already have a built-in feature that counts your steps just by carrying the phone. You can start today without buying anything new."
+        },
+        {
+          "kind": "text",
+          "text": "Here are some tips for keeping it going:"
+        },
+        {
+          "kind": "text",
+          "text": "- **Just “looking” at your daily steps is fine**: simply seeing the number naturally makes you think, “maybe I'll walk a bit more”\n- **Share steps with family or friends**: some apps let you show each other your steps or work toward a goal together. “Grandma walked more than you today!” can spark a conversation, too\n- **Small goals and small rewards**: set an achievable goal, such as “a weekly average of 5,000 steps,” and praise yourself when you make it"
+        },
+        {
+          "kind": "text",
+          "text": "That said, getting too caught up in the numbers and pushing yourself on days when you're unwell, or when it's very hot or cold, backfires. If you have a chronic condition or pain in your knees or back, talk with your doctor about how much walking is right for you before you start."
+        },
+        {
+          "kind": "text",
+          "text": "I also discuss combining diet and activity to get your body in shape in “[Eating less but not losing weight?](/blog/herashitemo-yasenai)”"
+        },
+        {
+          "kind": "text",
+          "text": "### A word from the exam room"
+        },
+        {
+          "kind": "text",
+          "text": "The more you think of exercise as something you “have to do,” the harder it is to keep up. But if you walked a little more than usual today, that's already a real step forward."
+        },
+        {
+          "kind": "text",
+          "text": "Don't aim for perfection — why not start with “a little plus” you can do today? Let's keep up days of pleasant walks together, enjoying the views of Kibana's sea and mountains."
+        }
+      ]
+    },
+    "related": [
+      {
+        "slug": "ashi-kutsu-erabi",
+        "ja": "足が痛いのは、年齢や遺伝のせい？〜外反母趾・扁平足と「靴」の深い関係。子どもの靴選びから見直そう〜",
+        "en": "Is foot pain just age or genes? — the close link between bunions, flat feet and shoes, starting with how we choose children's shoes"
+      },
+      {
+        "slug": "tounyoubyou-kankai",
+        "ja": "「糖尿病は一生治らない」は、もう昔の話？〜「寛解」を目指せる時代になりました〜",
+        "en": "“Diabetes never goes away” — is that an old idea now? — remission has become a realistic goal"
+      },
+      {
+        "slug": "herashitemo-yasenai",
+        "ja": "ご飯を減らしても痩せないのはなぜ？〜40代からは「引き算」より「足し算」のダイエット〜",
+        "en": "Eating less but not losing weight? After 40, it's about adding, not subtracting"
+      },
+      {
+        "slug": "tetsu-vitamin-c-ekiden",
+        "ja": "鉄分をとっているのに、貧血が良くならない？〜カギはビタミンC。走る子に貧血が多い理由と、まぶたのセルフチェック〜",
+        "en": "Taking iron, but your anemia isn't improving? — vitamin C is the key, plus why young runners often become anemic and a simple eyelid self-check"
+      }
     ],
     "upcoming": [
       {
-        "ja": "1日1万歩じゃなくても大丈夫？〜60歳からは「まず5,000歩」。スマホで楽しく続けるコツ〜",
-        "en": "Do you really need 10,000 steps a day? — after 60, “start with 5,000,” plus tips for keeping it fun with your smartphone"
+        "ja": "走るとお腹が痛くなるのはなぜ？〜わき腹が痛む理由と、その場ですぐできる対処法〜",
+        "en": "Why does your side hurt when you run? — what causes that stitch, and what you can do right there on the spot"
       }
     ]
   }
