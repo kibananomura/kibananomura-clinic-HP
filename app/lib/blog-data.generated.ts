@@ -259,7 +259,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "これまでの外来でも、吐き気や下痢で来られた方から「これって食中毒ですかね？」と、本当によく聞かれました。これからの時期は、食中毒にも注意が必要です。今回の報告でも、O157やO111などの**腸管出血性大腸菌感染症**（O157などの名前で知られる、おなかの感染症です）が18例報告されており、腹痛や血便、おう吐、発熱といった症状が出ることがあります。5〜9歳のお子さんでの報告がもっとも多くなっています。サルモネラ菌やカンピロバクターによる食中毒の報告も見られます。"
+          "text": "医師として外来に立つなかでも、吐き気や下痢で来られた方から「これって食中毒ですかね？」と、本当によく聞かれました。これからの時期は、食中毒にも注意が必要です。今回の報告でも、O157やO111などの**腸管出血性大腸菌感染症**（O157などの名前で知られる、おなかの感染症です）が18例報告されており、腹痛や血便、おう吐、発熱といった症状が出ることがあります。5〜9歳のお子さんでの報告がもっとも多くなっています。サルモネラ菌やカンピロバクターによる食中毒の報告も見られます。"
         },
         {
           "kind": "text",
@@ -335,7 +335,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "In my clinics over the years, people who came in with nausea or diarrhea very often asked me, \"Is this food poisoning?\" This time of year also calls for extra care around food poisoning. This report included 18 cases of **enterohemorrhagic E. coli infection** (an intestinal infection known by strain names such as O157 and O111), which can cause abdominal pain, bloody diarrhea, vomiting, and fever, most commonly in children aged 5 to 9. Cases of salmonella and campylobacter food poisoning were also reported."
+          "text": "In outpatient work over the years, people who came in with nausea or diarrhea very often asked me, \"Is this food poisoning?\" This time of year also calls for extra care around food poisoning. This report included 18 cases of **enterohemorrhagic E. coli infection** (an intestinal infection known by strain names such as O157 and O111), which can cause abdominal pain, bloody diarrhea, vomiting, and fever, most commonly in children aged 5 to 9. Cases of salmonella and campylobacter food poisoning were also reported."
         },
         {
           "kind": "text",
@@ -3243,7 +3243,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "感染症と聞くと、「せきで周りの人にうつらないの？」と心配になるのは自然なことで、これまでの外来でも本当によく聞かれてきました。肺NTM症の菌は、結核菌のように「人から人へと移りながら生き延びる」性質を持っていません。水や土の中にいるたくさんの菌を、たまたまご本人が直接吸い込んでしまうこと（環境からの感染）でのみ起こる病気なのです。"
+          "text": "感染症と聞くと、「せきで周りの人にうつらないの？」と心配になるのは自然なことで、医師として外来に立つなかでも本当によく聞かれてきました。肺NTM症の菌は、結核菌のように「人から人へと移りながら生き延びる」性質を持っていません。水や土の中にいるたくさんの菌を、たまたまご本人が直接吸い込んでしまうこと（環境からの感染）でのみ起こる病気なのです。"
         },
         {
           "kind": "text",
@@ -5633,7 +5633,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "これまでの外来では、「甘いものを食べ過ぎたから糖尿病になったの、と言われて傷ついた」「毎日気をつけているのに数値が下がらず、自分が責められている気がする」というお話を伺うことがありました。病名だけを見て、ご本人や周囲が「自己管理ができていないせいだ」と決めつけてしまうのは、とても切ないことだと感じています。"
+          "text": "医師として外来に立つなかでは、「甘いものを食べ過ぎたから糖尿病になったの、と言われて傷ついた」「毎日気をつけているのに数値が下がらず、自分が責められている気がする」というお話を伺うことがありました。病名だけを見て、ご本人や周囲が「自己管理ができていないせいだ」と決めつけてしまうのは、とても切ないことだと感じています。"
         },
         {
           "kind": "text",
@@ -5748,11 +5748,11 @@ export const generatedPosts: BlogPost[] = [
       "category": "健康・予防の話",
       "subcategory": "糖尿病・生活習慣病",
       "title": "「お薬は一生やめられない」は誤解です",
-      "excerpt": "「このお薬、一度始めたらもう一生やめられないんですよね……？」これまでの外来でとてもよく聞かれてきた質問です。その答えは、実は「いいえ」です。",
+      "excerpt": "「このお薬、一度始めたらもう一生やめられないんですよね……？」医師として外来に立つなかで、とてもよく聞かれてきた質問です。その答えは、実は「いいえ」です。",
       "body": [
         {
           "kind": "text",
-          "text": "「先生、このお薬、一度始めたらもう一生やめられないんですよね……？」これまでの外来で、本当によく聞かれてきた質問です。その言葉の奥には、「薬漬けになってしまう怖さ」や、「今の生活をまるごと変えなければいけない重たさ」があるのだと思います。どちらのお気持ちも、とてもよく分かります。"
+          "text": "「先生、このお薬、一度始めたらもう一生やめられないんですよね……？」医師として外来に立つなかで、本当によく聞かれてきた質問です。その言葉の奥には、「薬漬けになってしまう怖さ」や、「今の生活をまるごと変えなければいけない重たさ」があるのだと思います。どちらのお気持ちも、とてもよく分かります。"
         },
         {
           "kind": "text",
@@ -5776,7 +5776,11 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "実際にあったお話をさせてください。以前診療していたある患者さんが、数か月ぶりの外来でこう報告してくださったことがあります。「先生、体重が減って、服を買い替えないといけないくらい痩せちゃいました！」。満面の笑みでした。食事の内容を少しずつ見直し、無理のない範囲で体を動かす習慣をつけていっただけなのですが、体重が落ち、血液検査の数値も見違えるように安定していました。そしてそのタイミングで、お薬を一つ減らすことができたのです。"
+          "text": "医師として外来に立つなかで、「先生、体重が減って、服を買い替えないといけないくらい痩せちゃいました！」という、うれしい声を聞くことがあります。"
+        },
+        {
+          "kind": "text",
+          "text": "これは、お薬の効果ではありません。食事の内容を少しずつ見直し、無理のない範囲で体を動かす習慣を続けてこられた、**ご本人の努力の成果**です。体重が落ちると、血液検査の数値が落ち着いてくることがあり、そうしたときは医師と相談しながら、お薬を減らせる場合もあります（変化の大きさや、お薬を減らせるかどうかは、人によって違います）。"
         },
         {
           "kind": "text",
@@ -5836,7 +5840,11 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "Let me share something that actually happened. A patient I once treated came in for a follow-up after a few months and told me, beaming: \"Doctor, I lost so much weight I had to buy new clothes!\" She had simply adjusted her diet little by little and built a habit of moving her body within a comfortable range. Her weight came down, her blood test results stabilized remarkably, and at that visit, we were able to reduce one of her medications."
+          "text": "As a doctor in outpatient clinics, I sometimes hear happy news like this: \"Doctor, I lost so much weight I had to buy new clothes!\""
+        },
+        {
+          "kind": "text",
+          "text": "That is not the effect of medication. It is **the result of the person's own effort** — adjusting their diet little by little and keeping up a habit of moving their body within a comfortable range. As weight comes down, blood test results can settle, and in those cases it may be possible to reduce medication in consultation with a doctor (how much things change, and whether medication can be reduced, differs from person to person)."
         },
         {
           "kind": "text",
@@ -6442,15 +6450,15 @@ export const generatedPosts: BlogPost[] = [
       "category": "健康・予防の話",
       "subcategory": "健診・検査",
       "title": "健診結果の「正常の上限」、どう考える？",
-      "excerpt": "「周りの友達が薬を飲み始めたけど、私も必要なのかな」。健診では異常なしだったのに、そんな不安を抱えて相談に来られた70代の患者さんのお話です。",
+      "excerpt": "「周りの友達が薬を飲み始めたけど、私も必要なのかな」。健診では異常なしだったのに、そんな不安を抱える方は少なくありません。",
       "body": [
         {
           "kind": "text",
-          "text": "以前診療していた、70代のある患者さんが「相談したいことがあって」と来られたことがあります。特定健診の結果を見せていただくと、コレステロールも血圧も「異常なし」の判定です。ただ、正常範囲の中でもやや上限寄りの数値が、ここ数年続いていました。"
+          "text": "医師として外来に立つなかで、こんなご相談をいただくことがあります。特定健診の結果は、コレステロールも血圧も「異常なし」の判定。ただ、正常範囲の中でもやや上限寄りの数値が、ここ数年続いている。"
         },
         {
           "kind": "text",
-          "text": "よくよくお話を伺うと、「周りの友達が次々と薬を飲み始めていて、自分もそろそろ必要なんじゃないかと気になって」とのことでした。健診の結果だけを見れば心配のいらない数値なのに、周囲の状況で不安になってしまう——このお気持ち、とても自然なことだと思います。"
+          "text": "よくよくお話を伺うと、「周りの友達が次々と薬を飲み始めていて、自分もそろそろ必要なんじゃないかと気になって」とおっしゃいます。健診の結果だけを見れば心配のいらない数値なのに、周囲の状況で不安になってしまう——このお気持ち、とても自然なことだと思います。"
         },
         {
           "kind": "text",
@@ -6462,7 +6470,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "正常範囲の上限が何年も続いているというのは、「今はまだ大丈夫だけれど、今後の生活習慣次第で変わっていく可能性がある」という、いわば分かれ道に立っている状態です。この患者さんの場合も、食事内容や運動習慣、ご家族の病歴なども含めてじっくり伺った上で、「今すぐお薬が必要な状態ではありません」とまずお伝えしました。"
+          "text": "正常範囲の上限が何年も続いているというのは、「今はまだ大丈夫だけれど、今後の生活習慣次第で変わっていく可能性がある」という、いわば分かれ道に立っている状態です。こうした方の場合、食事内容や運動習慣、ご家族の病歴なども含めてじっくり伺った上で判断し、今すぐお薬が必要でなければ、まずそのことをはっきりお伝えします。"
         },
         {
           "kind": "text",
@@ -6478,7 +6486,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "お話をする中で、この患者さんは「自分の血管が実際どうなっているのか、一度きちんと知った上で、これからの生活を決めたい」とおっしゃいました。そういう場合には、体への負担が少ない血管の検査（血管の硬さを測る検査や、けい動脈のエコー検査など）で、動脈硬化（血管が硬く、狭くなること）の状態を客観的に確認するという選択肢もあります、とお伝えしています。"
+          "text": "お話をする中で、「自分の血管が実際どうなっているのか、一度きちんと知った上で、これからの生活を決めたい」とおっしゃる方もいます。そういう場合には、体への負担が少ない血管の検査（血管の硬さを測る検査や、けい動脈のエコー検査など）で、動脈硬化（血管が硬く、狭くなること）の状態を客観的に確認するという選択肢もあります、とお伝えしています。"
         },
         {
           "kind": "text",
@@ -6502,15 +6510,15 @@ export const generatedPosts: BlogPost[] = [
       "category": "Health and prevention",
       "subcategory": "Checkups & tests",
       "title": "Your checkup came back \"normal, but at the upper edge\" — what does that mean?",
-      "excerpt": "My friends have started taking medication, so do I need to as well — a patient in her 70s I once treated came to me with exactly that worry, even though her checkup had come back with no abnormalities.",
+      "excerpt": "My friends have started taking medication, so do I need to as well — many people carry that worry even when their checkup came back with no abnormalities.",
       "body": [
         {
           "kind": "text",
-          "text": "A patient in her 70s I once treated came to me, saying she had something she wanted to talk about. When I looked at her health checkup results, both her cholesterol and blood pressure were within the \"normal\" range. Still, the numbers had been sitting near the upper edge of normal for a few years running."
+          "text": "As a doctor in outpatient clinics, I sometimes hear this kind of concern. The health checkup says both cholesterol and blood pressure are within the \"normal\" range. Still, the numbers have been sitting near the upper edge of normal for a few years running."
         },
         {
           "kind": "text",
-          "text": "As we talked more, she told me, \"A lot of my friends have started taking medication one after another, and I've started wondering if it's about time for me too.\" Her checkup results themselves gave no cause for concern, and yet the people around her had made her anxious — a feeling I think is completely natural."
+          "text": "As we talk, people tell me, \"A lot of my friends have started taking medication one after another, and I've started wondering if it's about time for me too.\" The checkup results themselves give no cause for concern, and yet the people around them make them anxious — a feeling I think is completely natural."
         },
         {
           "kind": "text",
@@ -6522,7 +6530,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "Sitting at the upper edge of the normal range for years is, in a sense, standing at a fork in the road — things are fine for now, but which way they go depends on habits going forward. In this patient's case too, after carefully asking about her diet, exercise habits, and family medical history, I first told her plainly: \"You don't need medication right now.\""
+          "text": "Sitting at the upper edge of the normal range for years is, in a sense, standing at a fork in the road — things are fine for now, but which way they go depends on habits going forward. In cases like this, after carefully asking about diet, exercise habits, and family medical history, I make a judgment, and if medication isn't needed right now, I say so plainly first."
         },
         {
           "kind": "text",
@@ -6538,7 +6546,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "As we talked further, she said, \"I'd like to actually know what's going on with my blood vessels before I decide how I want to live going forward.\" In cases like that, I let patients know there's also the option of getting an objective look at arterial health through low-burden vascular tests — one measuring arterial stiffness, another an ultrasound of the carotid arteries."
+          "text": "Some people say, \"I'd like to actually know what's going on with my blood vessels before I decide how I want to live going forward.\" In cases like that, I let patients know there's also the option of getting an objective look at arterial health through low-burden vascular tests — one measuring arterial stiffness, another an ultrasound of the carotid arteries."
         },
         {
           "kind": "text",
@@ -7345,7 +7353,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "これまでの外来でも、市販の消毒薬でしっかり消毒したのに「傷がじゅくじゅくして治らないんです」と、数日後に来られる方が本当に多くいらっしゃいました。そのたびに、洗っておくだけでよかったのに、と思ってきました。"
+          "text": "医師として外来に立つなかでも、市販の消毒薬でしっかり消毒したのに「傷がじゅくじゅくして治らないんです」と、数日後に来られる方が本当に多くいらっしゃいました。そのたびに、洗っておくだけでよかったのに、と思ってきました。"
         },
         {
           "kind": "text",
@@ -9035,7 +9043,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "正直にお話しすると、長年飲んできた方ほど「飲まないと出ない」という思いが強く、切り替えをおすすめしても、とても抵抗を感じられます。結局、やめるところまでお手伝いしきれないことが多いのが、これまでの外来での実感です。"
+          "text": "正直にお話しすると、長年飲んできた方ほど「飲まないと出ない」という思いが強く、切り替えをおすすめしても、とても抵抗を感じられます。結局、やめるところまでお手伝いしきれないことが多いのが、医師として外来に立ってきた実感です。"
         },
         {
           "kind": "text",
@@ -10139,7 +10147,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "これまでの外来で、とてもよくいただいてきたご相談です。上がうまくいっているぶん、「下だけ高いままで大丈夫なのかな」「薬が効いていないのかな」と、かえって気になりますよね。"
+          "text": "医師として外来に立つなかで、とてもよくいただいてきたご相談です。上がうまくいっているぶん、「下だけ高いままで大丈夫なのかな」「薬が効いていないのかな」と、かえって気になりますよね。"
         },
         {
           "kind": "text",
@@ -12131,7 +12139,7 @@ export const generatedPosts: BlogPost[] = [
       "body": [
         {
           "kind": "text",
-          "text": "「健診で尿酸値が高いと言われたので、薬を飲み始めた。そうしたら、かえって足の親指が腫れて激痛が……」「お酒を飲みすぎて尿酸値が上がったから、発作が起きたんですよね？」——これまでの外来で、痛風についてこうしたご質問を本当によくいただいてきました。せっかく治療を始めたのに発作が起きると、「薬が合わないのでは」と不安になりますよね。"
+          "text": "「健診で尿酸値が高いと言われたので、薬を飲み始めた。そうしたら、かえって足の親指が腫れて激痛が……」「お酒を飲みすぎて尿酸値が上がったから、発作が起きたんですよね？」——医師として外来に立つなかで、痛風についてこうしたご質問を本当によくいただいてきました。せっかく治療を始めたのに発作が起きると、「薬が合わないのでは」と不安になりますよね。"
         },
         {
           "kind": "text",

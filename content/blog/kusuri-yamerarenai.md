@@ -7,7 +7,7 @@ subcategory_ja: 糖尿病・生活習慣病
 subcategory_en: Diabetes & lifestyle diseases
 title_ja: 「お薬は一生やめられない」は誤解です
 title_en: "'Once you start, you can never stop' is a myth"
-excerpt_ja: 「このお薬、一度始めたらもう一生やめられないんですよね……？」これまでの外来でとてもよく聞かれてきた質問です。その答えは、実は「いいえ」です。
+excerpt_ja: 「このお薬、一度始めたらもう一生やめられないんですよね……？」医師として外来に立つなかで、とてもよく聞かれてきた質問です。その答えは、実は「いいえ」です。
 excerpt_en: Once I start this medication, I can never stop, right? It's a question I've heard all the time, throughout my career. The real answer is actually no.
 sources:
   - label: "日本高血圧学会「高血圧管理・治療ガイドライン2025」"
@@ -20,7 +20,7 @@ sources:
 
 ## ja
 
-「先生、このお薬、一度始めたらもう一生やめられないんですよね……？」これまでの外来で、本当によく聞かれてきた質問です。その言葉の奥には、「薬漬けになってしまう怖さ」や、「今の生活をまるごと変えなければいけない重たさ」があるのだと思います。どちらのお気持ちも、とてもよく分かります。
+「先生、このお薬、一度始めたらもう一生やめられないんですよね……？」医師として外来に立つなかで、本当によく聞かれてきた質問です。その言葉の奥には、「薬漬けになってしまう怖さ」や、「今の生活をまるごと変えなければいけない重たさ」があるのだと思います。どちらのお気持ちも、とてもよく分かります。
 
 この記事を読んでいただければ、その不安の答えが「いいえ」であること、そしてお薬を減らしていくために今日からできることが分かります。先にお答えすると、**お薬はあくまで「今の体を守るためのサポート」**であり、生活習慣を少しずつ整えていくことで、減薬や卒業を目指せる場合があります。一人で抱え込まず、どうすれば無理なく変えていけるか、まずは一緒に考えていきましょう。
 
@@ -32,7 +32,9 @@ sources:
 
 ### 「服を買い替えないと」という、うれしい悲鳴
 
-実際にあったお話をさせてください。以前診療していたある患者さんが、数か月ぶりの外来でこう報告してくださったことがあります。「先生、体重が減って、服を買い替えないといけないくらい痩せちゃいました！」。満面の笑みでした。食事の内容を少しずつ見直し、無理のない範囲で体を動かす習慣をつけていっただけなのですが、体重が落ち、血液検査の数値も見違えるように安定していました。そしてそのタイミングで、お薬を一つ減らすことができたのです。
+医師として外来に立つなかで、「先生、体重が減って、服を買い替えないといけないくらい痩せちゃいました！」という、うれしい声を聞くことがあります。
+
+これは、お薬の効果ではありません。食事の内容を少しずつ見直し、無理のない範囲で体を動かす習慣を続けてこられた、**ご本人の努力の成果**です。体重が落ちると、血液検査の数値が落ち着いてくることがあり、そうしたときは医師と相談しながら、お薬を減らせる場合もあります（変化の大きさや、お薬を減らせるかどうかは、人によって違います）。
 
 「服がゆるくなって困る」「階段を上るのが楽になった」——こうした日常のちょっとしたうれしい変化こそが、生活改善の何よりのご褒美だと思っています。そしてその先には、お薬を減らせる・卒業できるという未来が、ちゃんと待っています。
 
@@ -60,7 +62,9 @@ So starting a medication isn't a sign that it's "too late." If anything, I'd lik
 
 ### "I had to buy new clothes" — a complaint worth having
 
-Let me share something that actually happened. A patient I once treated came in for a follow-up after a few months and told me, beaming: "Doctor, I lost so much weight I had to buy new clothes!" She had simply adjusted her diet little by little and built a habit of moving her body within a comfortable range. Her weight came down, her blood test results stabilized remarkably, and at that visit, we were able to reduce one of her medications.
+As a doctor in outpatient clinics, I sometimes hear happy news like this: "Doctor, I lost so much weight I had to buy new clothes!"
+
+That is not the effect of medication. It is **the result of the person's own effort** — adjusting their diet little by little and keeping up a habit of moving their body within a comfortable range. As weight comes down, blood test results can settle, and in those cases it may be possible to reduce medication in consultation with a doctor (how much things change, and whether medication can be reduced, differs from person to person).
 
 "My clothes don't fit anymore" or "stairs feel so much easier now" — these small, everyday joys are, I think, the real reward of improving your habits. And waiting beyond them is a future where your medication can be reduced, or even stopped altogether.
 
