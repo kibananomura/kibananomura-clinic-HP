@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-18T12:55:00.378Z",
+  "generatedAt": "2026-11-21T05:04:39.736Z",
   "categories": [
     {
       "label": "労務規程一式（就業規則・賃金規程・各種規程）",
@@ -272,8 +272,8 @@
           "blobUrl": "https://ck8huzl3ywaclnro.private.blob.vercel-storage.com/pre-opening-training/01_%E7%A0%94%E4%BF%AE%E3%82%AB%E3%83%AA%E3%82%AD%E3%83%A5%E3%83%A9%E3%83%A0.pdf",
           "htmlUrl": "/admin-docs/pre-opening-training/01_%E7%A0%94%E4%BF%AE%E3%82%AB%E3%83%AA%E3%82%AD%E3%83%A5%E3%83%A9%E3%83%A0.html",
           "blobHtmlUrl": "https://ck8huzl3ywaclnro.private.blob.vercel-storage.com/pre-opening-training/01_%E7%A0%94%E4%BF%AE%E3%82%AB%E3%83%AA%E3%82%AD%E3%83%A5%E3%83%A9%E3%83%A0.html",
-          "sizeKB": 541,
-          "modified": "2026-11-18"
+          "sizeKB": 560,
+          "modified": "2026-11-21"
         },
         {
           "name": "02_研修スケジュール",
@@ -281,8 +281,8 @@
           "blobUrl": "https://ck8huzl3ywaclnro.private.blob.vercel-storage.com/pre-opening-training/02_%E7%A0%94%E4%BF%AE%E3%82%B9%E3%82%B1%E3%82%B8%E3%83%A5%E3%83%BC%E3%83%AB.pdf",
           "htmlUrl": "/admin-docs/pre-opening-training/02_%E7%A0%94%E4%BF%AE%E3%82%B9%E3%82%B1%E3%82%B8%E3%83%A5%E3%83%BC%E3%83%AB.html",
           "blobHtmlUrl": "https://ck8huzl3ywaclnro.private.blob.vercel-storage.com/pre-opening-training/02_%E7%A0%94%E4%BF%AE%E3%82%B9%E3%82%B1%E3%82%B8%E3%83%A5%E3%83%BC%E3%83%AB.html",
-          "sizeKB": 432,
-          "modified": "2026-11-18"
+          "sizeKB": 452,
+          "modified": "2026-11-21"
         },
         {
           "name": "10_T-01_医師は医師にしかできないことに集中する",
@@ -346,6 +346,33 @@
           "blobHtmlUrl": "https://ck8huzl3ywaclnro.private.blob.vercel-storage.com/pre-opening-training/10_T-07_%E3%83%AC%E3%82%BB%E3%83%97%E3%83%88%E3%81%AF%E5%85%A8%E5%93%A1%E3%81%A7%E8%A6%8B%E3%82%8B%E7%B5%8C%E5%96%B6%E3%81%AE%E9%81%93%E5%85%B7.html",
           "sizeKB": 2209,
           "modified": "2026-11-18"
+        },
+        {
+          "name": "10_T-08-01_training_slides（伴走型の行動変容支援）",
+          "url": "/admin-docs/pre-opening-training/10_T-08-01_training_slides%EF%BC%88%E4%BC%B4%E8%B5%B0%E5%9E%8B%E3%81%AE%E8%A1%8C%E5%8B%95%E5%A4%89%E5%AE%B9%E6%94%AF%E6%8F%B4%EF%BC%89.pdf",
+          "blobUrl": "https://ck8huzl3ywaclnro.private.blob.vercel-storage.com/pre-opening-training/10_T-08-01_training_slides%EF%BC%88%E4%BC%B4%E8%B5%B0%E5%9E%8B%E3%81%AE%E8%A1%8C%E5%8B%95%E5%A4%89%E5%AE%B9%E6%94%AF%E6%8F%B4%EF%BC%89.pdf",
+          "htmlUrl": "/admin-docs/pre-opening-training/10_T-08-01_training_slides%EF%BC%88%E4%BC%B4%E8%B5%B0%E5%9E%8B%E3%81%AE%E8%A1%8C%E5%8B%95%E5%A4%89%E5%AE%B9%E6%94%AF%E6%8F%B4%EF%BC%89.html",
+          "blobHtmlUrl": "https://ck8huzl3ywaclnro.private.blob.vercel-storage.com/pre-opening-training/10_T-08-01_training_slides%EF%BC%88%E4%BC%B4%E8%B5%B0%E5%9E%8B%E3%81%AE%E8%A1%8C%E5%8B%95%E5%A4%89%E5%AE%B9%E6%94%AF%E6%8F%B4%EF%BC%89.html",
+          "sizeKB": 2357,
+          "modified": "2026-11-21"
+        },
+        {
+          "name": "10_T-08-02_pocket_manual（伴走型の行動変容支援）",
+          "url": "/admin-docs/pre-opening-training/10_T-08-02_pocket_manual%EF%BC%88%E4%BC%B4%E8%B5%B0%E5%9E%8B%E3%81%AE%E8%A1%8C%E5%8B%95%E5%A4%89%E5%AE%B9%E6%94%AF%E6%8F%B4%EF%BC%89.pdf",
+          "blobUrl": "https://ck8huzl3ywaclnro.private.blob.vercel-storage.com/pre-opening-training/10_T-08-02_pocket_manual%EF%BC%88%E4%BC%B4%E8%B5%B0%E5%9E%8B%E3%81%AE%E8%A1%8C%E5%8B%95%E5%A4%89%E5%AE%B9%E6%94%AF%E6%8F%B4%EF%BC%89.pdf",
+          "htmlUrl": "/admin-docs/pre-opening-training/10_T-08-02_pocket_manual%EF%BC%88%E4%BC%B4%E8%B5%B0%E5%9E%8B%E3%81%AE%E8%A1%8C%E5%8B%95%E5%A4%89%E5%AE%B9%E6%94%AF%E6%8F%B4%EF%BC%89.html",
+          "blobHtmlUrl": "https://ck8huzl3ywaclnro.private.blob.vercel-storage.com/pre-opening-training/10_T-08-02_pocket_manual%EF%BC%88%E4%BC%B4%E8%B5%B0%E5%9E%8B%E3%81%AE%E8%A1%8C%E5%8B%95%E5%A4%89%E5%AE%B9%E6%94%AF%E6%8F%B4%EF%BC%89.html",
+          "sizeKB": 567,
+          "modified": "2026-11-21"
+        },
+        {
+          "name": "10_T-08-03_roleplay_scenarios（伴走型の行動変容支援）",
+          "url": "/admin-docs/pre-opening-training/10_T-08-03_roleplay_scenarios%EF%BC%88%E4%BC%B4%E8%B5%B0%E5%9E%8B%E3%81%AE%E8%A1%8C%E5%8B%95%E5%A4%89%E5%AE%B9%E6%94%AF%E6%8F%B4%EF%BC%89.pdf",
+          "blobUrl": "https://ck8huzl3ywaclnro.private.blob.vercel-storage.com/pre-opening-training/10_T-08-03_roleplay_scenarios%EF%BC%88%E4%BC%B4%E8%B5%B0%E5%9E%8B%E3%81%AE%E8%A1%8C%E5%8B%95%E5%A4%89%E5%AE%B9%E6%94%AF%E6%8F%B4%EF%BC%89.pdf",
+          "htmlUrl": "/admin-docs/pre-opening-training/10_T-08-03_roleplay_scenarios%EF%BC%88%E4%BC%B4%E8%B5%B0%E5%9E%8B%E3%81%AE%E8%A1%8C%E5%8B%95%E5%A4%89%E5%AE%B9%E6%94%AF%E6%8F%B4%EF%BC%89.html",
+          "blobHtmlUrl": "https://ck8huzl3ywaclnro.private.blob.vercel-storage.com/pre-opening-training/10_T-08-03_roleplay_scenarios%EF%BC%88%E4%BC%B4%E8%B5%B0%E5%9E%8B%E3%81%AE%E8%A1%8C%E5%8B%95%E5%A4%89%E5%AE%B9%E6%94%AF%E6%8F%B4%EF%BC%89.html",
+          "sizeKB": 711,
+          "modified": "2026-11-21"
         }
       ]
     },
