@@ -8363,14 +8363,14 @@ export const generatedPosts: BlogPost[] = [
         "en": "Eating less but not losing weight? After 40, it's about adding, not subtracting"
       },
       {
+        "slug": "gyunyu-maiasa",
+        "ja": "毎朝の牛乳、体にいいの？ 悪いの？〜よし悪しを決める前に知っておきたい、牛乳の「得意」と「苦手」〜",
+        "en": "Is a glass of milk every morning good for you, or not? — What milk does well, and where it falls short"
+      },
+      {
         "slug": "hosuu-5000",
         "ja": "1日1万歩じゃなくても大丈夫？〜60歳からは「まず5,000歩」。スマホで楽しく続けるコツ〜",
         "en": "Do you really need 10,000 steps a day? — after 60, “start with 5,000,” plus tips for keeping it fun with your smartphone"
-      },
-      {
-        "slug": "mainichi-chigau-mono",
-        "ja": "生活習慣病の方の食事指導の実際",
-        "en": "What diet guidance actually looks like for lifestyle-related conditions"
       }
     ]
   },
@@ -14883,6 +14883,217 @@ export const generatedPosts: BlogPost[] = [
       {
         "ja": "走るとお腹が痛くなるのはなぜ？〜わき腹が痛む理由と、その場ですぐできる対処法〜",
         "en": "Why does your side hurt when you run? — what causes that stitch, and what you can do right there on the spot"
+      }
+    ]
+  },
+  {
+    "slug": "gyunyu-maiasa",
+    "date": "2026.11.21",
+    "cover": "/blog/gyunyu-maiasa.jpg",
+    "coverVersion": "65003909",
+    "coverWidth": 1600,
+    "coverHeight": 900,
+    "sources": [
+      {
+        "label": "文部科学省「日本食品標準成分表（八訂）増補2023年」",
+        "url": "https://www.mext.go.jp/a_menu/syokuhinseibun/mext_00001.html"
+      },
+      {
+        "label": "厚生労働省「日本人の食事摂取基準（2025年版）」策定検討会報告書",
+        "url": "https://www.mhlw.go.jp/stf/newpage_44138.html"
+      }
+    ],
+    "ja": {
+      "category": "健康・予防の話",
+      "subcategory": "食事・運動",
+      "title": "毎朝の牛乳、体にいいの？ 悪いの？〜よし悪しを決める前に知っておきたい、牛乳の「得意」と「苦手」〜",
+      "excerpt": "「体にいいと聞いて、毎朝飲んでいるけれど」——実は、牛乳がいいか悪いかは、飲む人によって答えが変わります。",
+      "body": [
+        {
+          "kind": "text",
+          "text": "「健康のために、毎朝コップ1杯の牛乳を飲んでいます」。そう話してくださる方は少なくありません。一方で、「飲むとお腹がゴロゴロするけれど、栄養のために我慢して飲んでいる」という声もよく耳にします。"
+        },
+        {
+          "kind": "text",
+          "text": "牛乳については、「骨にいい」という話も、「体に悪い」という話も聞こえてきて、結局どっちなの？と迷いますよね。"
+        },
+        {
+          "kind": "text",
+          "text": "先にお答えすると、**牛乳は、いい・悪いで決められる食品ではありません。手軽に栄養をとれる「得意」なところと、人によっては合わない「苦手」なところの両方があり、自分の体に合うかどうかで付き合い方を決めるのがいちばんです。**"
+        },
+        {
+          "kind": "text",
+          "text": "### 牛乳の「得意」なところ"
+        },
+        {
+          "kind": "text",
+          "text": "コップ1杯（約200mL）の普通の牛乳には、次のような栄養が入っています。"
+        },
+        {
+          "kind": "text",
+          "text": "- **たんぱく質**：約7g。体を作る材料になる、質のよいたんぱく質です\n- **カルシウム**：約220mg。大人が1日にとりたい量の、およそ3分の1にあたります\n- **ビタミンB2**：皮ふや粘膜の健康を保つのに役立ちます"
+        },
+        {
+          "kind": "text",
+          "text": "これだけの栄養を、料理をせずに注ぐだけでとれるのが、牛乳のいちばんの強みです。"
+        },
+        {
+          "kind": "text",
+          "text": "特にカルシウムは、日本人に不足しがちな栄養です。年齢とともに骨がもろくなる「骨粗しょう症」が気になる方にとって、牛乳はカルシウムをとりやすい食品のひとつです。ただし、骨を守るのはカルシウムだけではありません。体を動かすこと、日光を浴びてビタミンDを作ること、たんぱく質をとることも同じくらい大切で、**牛乳さえ飲めば骨は大丈夫、とまでは言えない**ことも知っておいてください。"
+        },
+        {
+          "kind": "text",
+          "text": "### 牛乳の「苦手」なところ"
+        },
+        {
+          "kind": "text",
+          "text": "**1．脂質とエネルギー**"
+        },
+        {
+          "kind": "text",
+          "text": "普通の牛乳はコップ1杯で約130kcal、脂質は約8gで、その多くは飽和脂肪酸という種類の脂です。飽和脂肪酸をとりすぎると、悪玉（LDL）コレステロールが上がりやすくなります。コレステロールが高めの方や、体重を減らしたい方は、量や種類を考えたいところです。"
+        },
+        {
+          "kind": "text",
+          "text": "**2．お腹がゴロゴロする（乳糖不耐症）**"
+        },
+        {
+          "kind": "text",
+          "text": "牛乳には「乳糖」という糖が入っています。乳糖を分解する酵素は、大人になると働きが弱くなる人が多く、日本人では特にそうした方が多いといわれています。分解しきれなかった乳糖が腸に届くと、お腹が張ったり、ゴロゴロしたり、ゆるくなったりします。これは体質で、病気ではありません。"
+        },
+        {
+          "kind": "text",
+          "text": "なお、これとは別に、牛乳のたんぱく質に体が反応する「牛乳アレルギー」があります。じんましんや息苦しさが出る場合は、必ず医療機関にご相談ください。"
+        },
+        {
+          "kind": "text",
+          "text": "### 自分に合った付き合い方"
+        },
+        {
+          "kind": "text",
+          "text": "牛乳は、誰にとっても欠かせない食品ではありません。体質や持病に合わせて選べば大丈夫です。"
+        },
+        {
+          "kind": "text",
+          "text": "- **お腹がゴロゴロする方**：一度にたくさん飲まず、少しずつ。食事と一緒に飲むのもひとつの方法です。乳糖が少ないヨーグルトやチーズ、乳糖を分解した牛乳を選ぶ手もあります\n- **コレステロールや体重が気になる方**：低脂肪乳や無脂肪乳に替えると、カルシウムはほぼそのままで、脂質を減らせます\n- **豆乳に替える方**：豆乳は大豆のたんぱく質がとれる一方、カルシウムは牛乳よりずっと少なめです。カルシウムが加えてある商品を選ぶか、ほかの食品で補いましょう\n- **牛乳を飲まない方**：小魚、豆腐や納豆などの大豆製品、小松菜などの青菜からも、カルシウムはとれます"
+        },
+        {
+          "kind": "text",
+          "text": "持病で食事の制限がある方は、主治医と相談しながら決めてください。"
+        },
+        {
+          "kind": "text",
+          "text": "### 院長からのメッセージ"
+        },
+        {
+          "kind": "text",
+          "text": "「〇〇は体にいい」という話は、毎日のように聞こえてきます。でも、本当に大切なのは、それが**あなたの体に合っているかどうか**です。毎朝の牛乳が心地よく続いているなら、それはすてきな習慣です。逆に、我慢して飲んでいるなら、無理に続けなくても大丈夫。体の声を聞きながら、自分に合う形を一緒に見つけていきましょう。気になることがあれば、かかりつけ医などに気軽にご相談ください（開院後は当院へ）。"
+        }
+      ]
+    },
+    "en": {
+      "category": "Health and prevention",
+      "subcategory": "Diet & exercise",
+      "title": "Is a glass of milk every morning good for you, or not? — What milk does well, and where it falls short",
+      "excerpt": "“I drink it every morning because I heard it's healthy” — but whether milk is good or bad depends on who's drinking it.",
+      "body": [
+        {
+          "kind": "text",
+          "text": "“I drink a glass of milk every morning for my health.” Plenty of people tell me that. Others say, “Milk upsets my stomach, but I force myself to drink it for the nutrition.”"
+        },
+        {
+          "kind": "text",
+          "text": "You hear that milk is good for your bones, and you also hear that it's bad for you — so which is it?"
+        },
+        {
+          "kind": "text",
+          "text": "Let me start with the answer: **milk isn't simply good or bad. It has strengths — an easy source of nutrition — and weak points that don't suit everyone. The best approach is to decide how to use it based on what suits your own body.**"
+        },
+        {
+          "kind": "text",
+          "text": "### What milk does well"
+        },
+        {
+          "kind": "text",
+          "text": "One glass (about 200 mL) of regular milk contains:"
+        },
+        {
+          "kind": "text",
+          "text": "- **Protein**: about 7 g of good-quality protein, a building block for the body\n- **Calcium**: about 220 mg — roughly a third of what adults should get in a day\n- **Vitamin B2**: helps keep skin and mucous membranes healthy"
+        },
+        {
+          "kind": "text",
+          "text": "Being able to get all this just by pouring a glass, without cooking, is milk's biggest strength."
+        },
+        {
+          "kind": "text",
+          "text": "Calcium in particular is a nutrient many Japanese people fall short on. For those concerned about osteoporosis — bones becoming fragile with age — milk is one of the easier ways to get calcium. But calcium isn't the only thing that protects bones. Moving your body, getting sunlight to make vitamin D, and eating enough protein matter just as much, so **drinking milk alone isn't a guarantee of healthy bones**."
+        },
+        {
+          "kind": "text",
+          "text": "### Where milk falls short"
+        },
+        {
+          "kind": "text",
+          "text": "**1. Fat and calories**"
+        },
+        {
+          "kind": "text",
+          "text": "A glass of regular milk has about 130 kcal and about 8 g of fat, much of it saturated fat. Too much saturated fat tends to raise LDL (“bad”) cholesterol. If your cholesterol is on the high side or you're trying to lose weight, it's worth thinking about the amount and type."
+        },
+        {
+          "kind": "text",
+          "text": "**2. Stomach rumbling (lactose intolerance)**"
+        },
+        {
+          "kind": "text",
+          "text": "Milk contains a sugar called lactose. In many people, the enzyme that breaks down lactose becomes less active in adulthood, and this is said to be especially common among Japanese people. When undigested lactose reaches the gut, it can cause bloating, rumbling, or loose stools. This is a matter of constitution, not a disease."
+        },
+        {
+          "kind": "text",
+          "text": "Separately, there is milk allergy, a reaction to milk proteins. If you get hives or have trouble breathing, please see a doctor."
+        },
+        {
+          "kind": "text",
+          "text": "### Finding the approach that suits you"
+        },
+        {
+          "kind": "text",
+          "text": "Milk isn't essential for everyone. It's fine to choose based on your constitution and any health conditions."
+        },
+        {
+          "kind": "text",
+          "text": "- **If milk upsets your stomach**: drink small amounts at a time, or with a meal. Yogurt and cheese, which contain less lactose, or lactose-reduced milk are also options\n- **If you're watching cholesterol or weight**: switching to low-fat or fat-free milk keeps most of the calcium while cutting fat\n- **If you switch to soy milk**: soy milk provides soy protein, but has much less calcium than milk. Choose a calcium-fortified product or get calcium from other foods\n- **If you don't drink milk**: small fish, soy foods like tofu and natto, and leafy greens like komatsuna also provide calcium"
+        },
+        {
+          "kind": "text",
+          "text": "If you have a health condition with dietary restrictions, please decide together with your doctor."
+        },
+        {
+          "kind": "text",
+          "text": "### A message from the director"
+        },
+        {
+          "kind": "text",
+          "text": "We hear “X is good for you” almost every day. But what really matters is whether it **suits your body**. If your morning milk is a comfortable habit, that's a lovely one to keep. If you're forcing it down, there's no need to continue. Let's find what works for you while listening to your body. If you have concerns, please feel free to talk with your regular doctor."
+        }
+      ]
+    },
+    "related": [
+      {
+        "slug": "hosuu-5000",
+        "ja": "1日1万歩じゃなくても大丈夫？〜60歳からは「まず5,000歩」。スマホで楽しく続けるコツ〜",
+        "en": "Do you really need 10,000 steps a day? — after 60, “start with 5,000,” plus tips for keeping it fun with your smartphone"
+      },
+      {
+        "slug": "herashitemo-yasenai",
+        "ja": "ご飯を減らしても痩せないのはなぜ？〜40代からは「引き算」より「足し算」のダイエット〜",
+        "en": "Eating less but not losing weight? After 40, it's about adding, not subtracting"
+      },
+      {
+        "slug": "ichinichi-isshoku-yasenai",
+        "ja": "1日一食しか食べてないのに痩せないあなたへ",
+        "en": "To everyone who eats only one meal a day and still can't lose weight"
       }
     ]
   }
