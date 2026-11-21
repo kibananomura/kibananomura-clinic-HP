@@ -3960,8 +3960,8 @@ export const generatedPosts: BlogPost[] = [
     ],
     "upcoming": [
       {
-        "ja": "アメリカでは「55未満」？　悪玉コレステロールの目標が日本と違うわけ",
-        "en": "Under 55 in the U.S.? Why LDL cholesterol goals differ between Japan and America"
+        "ja": "健診のコレステロール、アメリカならどう見られる？　日本と目標が違うわけ",
+        "en": "How would your checkup cholesterol be judged in the U.S.? Why the goals differ from Japan"
       }
     ]
   },
@@ -6586,8 +6586,8 @@ export const generatedPosts: BlogPost[] = [
     ],
     "upcoming": [
       {
-        "ja": "アメリカでは「55未満」？　悪玉コレステロールの目標が日本と違うわけ",
-        "en": "Under 55 in the U.S.? Why LDL cholesterol goals differ between Japan and America"
+        "ja": "健診のコレステロール、アメリカならどう見られる？　日本と目標が違うわけ",
+        "en": "How would your checkup cholesterol be judged in the U.S.? Why the goals differ from Japan"
       }
     ]
   },
@@ -10135,8 +10135,8 @@ export const generatedPosts: BlogPost[] = [
     ],
     "upcoming": [
       {
-        "ja": "アメリカでは「55未満」？　悪玉コレステロールの目標が日本と違うわけ",
-        "en": "Under 55 in the U.S.? Why LDL cholesterol goals differ between Japan and America"
+        "ja": "健診のコレステロール、アメリカならどう見られる？　日本と目標が違うわけ",
+        "en": "How would your checkup cholesterol be judged in the U.S.? Why the goals differ from Japan"
       }
     ]
   },
