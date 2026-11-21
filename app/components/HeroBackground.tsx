@@ -1,16 +1,16 @@
 /**
- * Hero 背景。周辺地図を使用。
+ * Hero 背景。開院予定地の写真を使用。
  */
 export default function HeroBackground() {
   return (
     <div className="absolute inset-0 -z-10 overflow-hidden" aria-hidden="true">
-      {/* 周辺地図 */}
+      {/* 開院予定地の写真 */}
       <div
         className="absolute inset-0 bg-no-repeat"
         style={{
-          backgroundImage: "url('/hero-map.jpg')",
-          backgroundSize: "100% auto",
-          backgroundPosition: "15% 46%",
+          backgroundImage: "url('/hero-site.jpg')",
+          backgroundSize: "cover",
+          backgroundPosition: "50% 62%",
         }}
       />
 

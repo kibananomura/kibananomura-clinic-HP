@@ -24,16 +24,16 @@ export default function Hero() {
       </div>
 
       <div className="container-page">
-        {/* スマホ: 地図はバナーとして上に、テキストはその下に配置 */}
+        {/* スマホ: 写真はバナーとして上に、テキストはその下に配置 */}
         <div className="relative -mx-5 mb-7 h-52 overflow-hidden sm:hidden">
           <Image
-            src="/hero-map.jpg"
-            alt="木花のむら総合診療所 開院予定地周辺の地図（宮崎市熊野）"
+            src="/hero-site.jpg"
+            alt="木花のむら総合診療所の開院予定地（宮崎市熊野）"
             fill
             priority
             fetchPriority="high"
             sizes="100vw"
-            className="object-cover"
+            className="object-cover object-[55%_68%]"
           />
         </div>
 
