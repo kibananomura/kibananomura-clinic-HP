@@ -48,22 +48,24 @@ export default function Access() {
                 </a>
               </div>
             </div>
-            {/* 道順の略図（清武・田野方面から） */}
-            <figure className="overflow-hidden rounded-3xl border border-accent bg-white shadow-card">
-              <a href="/access/route-kiyotake.png" target="_blank" rel="noopener noreferrer">
-                <img
-                  src="/access/route-kiyotake.png"
-                  alt={t.access.routeMapAlt}
-                  width={1920}
-                  height={1080}
-                  loading="lazy"
-                  className="block h-auto w-full"
-                />
-              </a>
-              <figcaption className="bg-surface/95 px-5 py-3 text-sm leading-relaxed text-ink/75">
-                {t.access.routeMapCaption}
-              </figcaption>
-            </figure>
+            {/* 道順の略図（方面ごと） */}
+            {t.access.routeMaps.map((m) => (
+              <figure key={m.src} className="overflow-hidden rounded-3xl border border-accent bg-white shadow-card">
+                <a href={m.src} target="_blank" rel="noopener noreferrer">
+                  <img
+                    src={m.src}
+                    alt={m.alt}
+                    width={m.width}
+                    height={m.height}
+                    loading="lazy"
+                    className="block h-auto w-full"
+                  />
+                </a>
+                <figcaption className="bg-surface/95 px-5 py-3 text-sm leading-relaxed text-ink/75">
+                  {m.caption}
+                </figcaption>
+              </figure>
+            ))}
             </div>
           </FadeIn>
 
