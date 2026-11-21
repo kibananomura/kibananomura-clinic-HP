@@ -102,7 +102,7 @@ export const CAREERS_PAGE = {
     conditionsLabel: "募集要項（案）",
     applyHeading: "お問い合わせ・ご応募",
     applyBody:
-      "ご興味のある方は、メール（contact@kibananomura.jp）または下記の LINE から、お気軽にお問い合わせください。面談の日程や詳細条件は個別にご案内いたします。面接は複数回を予定しています（お互いに合うかどうかを、時間をかけて確かめるためです）。",
+      "ご興味のある方は、メール（contact@kibananomura.jp）または下記の LINE から、お気軽にお問い合わせください。最初の面談は Zoom（オンライン）で行います。ご自宅から参加でき、お越しいただく必要はありません。対面での面接は、2027年4月以降に行う予定です。ご応募いただいた方には、どなたにも同じ流れでご案内しています。面談の日程や詳細条件は個別にご案内いたします。面接は複数回を予定しています（お互いに合うかどうかを、時間をかけて確かめるためです）。",
     applyLineButton: "LINE で問い合わせる",
     applyLineNote:
       "※ メッセージに「採用について」とお書き添えいただけるとスムーズです。",
@@ -183,7 +183,7 @@ export const CAREERS_PAGE = {
     conditionsLabel: "Employment conditions (draft)",
     applyHeading: "Inquiries & applications",
     applyBody:
-      "If you are interested, please contact us by email (contact@kibananomura.jp) or via LINE below. We will arrange interviews and share details individually. We plan to hold more than one interview, so that we both have time to make sure it is a good fit.",
+      "If you are interested, please contact us by email (contact@kibananomura.jp) or via LINE below. The first interview is held online via Zoom, so you can join from home without visiting us. In-person interviews are planned from April 2027 onward. Every applicant goes through the same steps. We will arrange interviews and share details individually. We plan to hold more than one interview, so that we both have time to make sure it is a good fit.",
     applyLineButton: "Contact via LINE",
     applyLineNote:
       '* Please include "Recruitment inquiry" in your message.',
