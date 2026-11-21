@@ -19,15 +19,18 @@ export async function generateMetadata({
   if (!item) {
     return { title: `自費診療について | ${BRAND.ja.titleSuffix}` };
   }
-  const description = `${item.summary.replace(/\*\*|__/g, "")} 料金・主なリスクはページ内でご確認いただけます。`;
+  const priceReady = !item.priceNote.startsWith("準備中") && !item.priceNote.startsWith("料金は開院までに");
+  const description =
+    item.seoDescription ??
+    `${item.summary.replace(/\*\*|__/g, "")} ${priceReady ? "料金・主なリスクはページ内でご確認いただけます。" : "主なリスクはページ内でご確認いただけます（料金は開院までに掲載します）。"}`;
   return {
-    title: `${item.title} | 自費診療 | ${BRAND.ja.titleSuffix}`,
+    title: item.seoTitle ? { absolute: item.seoTitle } : `${item.title} | 自費診療 | ${BRAND.ja.titleSuffix}`,
     description,
     alternates: {
       canonical: `/self-pay/${slug}`,
     },
     openGraph: {
-      title: `${item.title} | 自費診療`,
+      title: item.seoTitle ?? `${item.title} | 自費診療`,
       description,
       url: `${BASE_URL}/self-pay/${slug}`,
       type: "article",

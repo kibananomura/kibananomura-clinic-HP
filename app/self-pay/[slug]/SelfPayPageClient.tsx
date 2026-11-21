@@ -59,6 +59,7 @@ export default function SelfPayPageClient() {
 
           <FadeIn delay={0.03}>
             <p className="mt-6 rounded-2xl bg-surface/90 p-4 text-sm leading-relaxed text-ink/70 shadow-card">
+              <strong className="mb-1 block text-ink/80">2027年10月開院予定のため、現在は診療を行っていません。このページは開院後の予定をお知らせするものです。</strong>
               {SELFPAY_DISCLAIMER_INTRO}
             </p>
           </FadeIn>
@@ -80,7 +81,7 @@ export default function SelfPayPageClient() {
 
           {/* こんな方に */}
           <FadeIn delay={0.07} className="mt-6 rounded-[1.75rem] border border-primary/15 bg-accent/40 p-7">
-            <h2 className="text-lg font-bold text-primary-dark">こんな方におすすめです</h2>
+            <h2 className="text-lg font-bold text-primary-dark">このような方がご相談の対象です</h2>
             <ul className="mt-4 space-y-2">
               {item.suitableFor.map((s) => (
                 <li key={s} className="flex gap-3 text-[15px] leading-relaxed text-ink/80">

@@ -1392,7 +1392,7 @@ export const SYMPTOMS: SymptomEntry[] = [
     ],
     relatedTests: [],
     treatmentOverview: [
-      "エビデンス（科学的な根拠）に基づく治療として、ミノキシジル外用薬・フィナステリド内服薬などを用いることが多いです。",
+      "診察でAGAかどうか、ほかの原因（甲状腺の病気・鉄不足・円形脱毛症など）がないかを確かめたうえで、日本皮膚科学会のガイドラインで勧められている飲み薬（フィナステリド・デュタステリド）を用いることが多いです。",
       "定期的な経過観察を行いながら治療を継続することが一般的です。効果には個人差があります。",
     ],
     whenToVisit: [
@@ -1406,7 +1406,7 @@ export const SYMPTOMS: SymptomEntry[] = [
         { name: "AGA治療（デュタステリド系）", price: "準備中" },
       ],
       risks:
-        "ミノキシジル外用薬・フィナステリド内服薬など、エビデンスに基づく薄毛治療です。フィナステリドでは性機能への影響が報告されています。定期的な経過観察を行います。",
+        "性欲の低下・勃起しにくくなるなど性機能への影響、まれに肝機能障害が報告されています。前立腺がんの検査（PSA）の値が低く出る、服用中と中止後一定期間は献血ができない、女性・子どもは薬に触れない、などの注意があります。やめると、時間とともに治療前の状態に戻っていくとされています。",
       contactNote: "詳しい費用・リスクは、初回診察時に医師よりご説明します。ご不明な点はLINE・お電話（開院後）でお問い合わせください。",
     },
     en: {
@@ -1417,7 +1417,7 @@ export const SYMPTOMS: SymptomEntry[] = [
       ],
       relatedTests: [],
       treatmentOverview: [
-        "Evidence-based treatment typically involves topical minoxidil and oral finasteride.",
+        "After checking whether it is AGA and ruling out other causes (thyroid disease, iron deficiency, alopecia areata, etc.), treatment usually uses oral medicines recommended in the Japanese Dermatological Association guideline (finasteride, dutasteride).",
         "Treatment is usually continued with regular follow-up. Results vary from person to person.",
       ],
       whenToVisit: [
@@ -1431,7 +1431,7 @@ export const SYMPTOMS: SymptomEntry[] = [
           { name: "AGA treatment (dutasteride-based)", price: "Coming soon" },
         ],
         risks:
-          "Evidence-based hair loss treatments such as topical minoxidil and oral finasteride. Finasteride has been reported to affect sexual function in some cases. We monitor your progress regularly.",
+          "Effects on sexual function (lower libido, erectile difficulty) and, rarely, liver problems have been reported. PSA (prostate cancer test) readings come out lower, blood donation is not allowed while taking it and for a period after stopping, and women and children should not touch the medicine. After stopping, hair is said to gradually return to its pre-treatment state.",
         contactNote: "We'll explain the detailed costs and risks at your first visit. For questions, please reach out via LINE or by phone (once we're open).",
       },
     },
