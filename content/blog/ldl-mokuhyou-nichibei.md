@@ -1,5 +1,5 @@
 ---
-date: 2026.09.23
+date: 2026.11.21
 youtube: Wt2KDSBgLok
 cover: /blog/kibana-landscape.jpg
 category_ja: 健康・予防の話

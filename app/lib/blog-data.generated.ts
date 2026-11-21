@@ -676,310 +676,6 @@ export const generatedPosts: BlogPost[] = [
     ]
   },
   {
-    "slug": "ldl-mokuhyou-nichibei",
-    "date": "2026.09.23",
-    "cover": "/blog/kibana-landscape.jpg",
-    "coverVersion": "951e262c",
-    "coverWidth": 1536,
-    "coverHeight": 1024,
-    "youtube": "Wt2KDSBgLok",
-    "sources": [
-      {
-        "label": "日本動脈硬化学会「動脈硬化性疾患予防ガイドライン2022年版」",
-        "url": "https://www.j-athero.org/jp/jas_gl2022/"
-      },
-      {
-        "label": "American College of Cardiology「ACC/AHA Issue Updated Guideline for Managing Lipids, Cholesterol」（2026年3月13日）",
-        "url": "https://www.acc.org/About-ACC/Press-Releases/2026/03/13/18/01/ACCAHA-Issue-Updated-Guideline-for-Managing-Lipids-Cholesterol"
-      },
-      {
-        "label": "American Family Physician「Assessing the 2026 ACC/AHA Guideline on the Management of Dyslipidemia」（2026年11月）",
-        "url": "https://www.aafp.org/afp/2026/1100/editorials-assessing-acc-aha-dyslipidemia-guideline"
-      }
-    ],
-    "ja": {
-      "category": "健康・予防の話",
-      "subcategory": "コレステロール・尿酸",
-      "title": "健診のコレステロール、アメリカならどう見られる？　日本と目標が違うわけ",
-      "excerpt": "健診で悪玉コレステロールが130。同じ数字でも、日本とアメリカでは受けとめ方が少し違います。",
-      "body": [
-        {
-          "kind": "text",
-          "text": "「健診で、悪玉コレステロールが130でした。『少し高め』と書いてあったけど、このままで大丈夫ですか？」"
-        },
-        {
-          "kind": "text",
-          "text": "医師として外来に立つなかで、こんなご相談をいただくことがあります。最近は「アメリカでコレステロールの基準が厳しくなった」というニュースを見て、気になった方もいるかもしれません。"
-        },
-        {
-          "kind": "text",
-          "text": "先にお答えすると、**日本とアメリカでは、目標の決め方が少し違います。**でも、どちらの国にも共通していることがあります。それは、**同じ130でも、その方の「この先の危険の高さ」によって目標が変わる**ということです。"
-        },
-        {
-          "kind": "text",
-          "text": "### 健診の「基準」は、入口の目安"
-        },
-        {
-          "kind": "text",
-          "text": "日本では、悪玉（LDL）コレステロールが140以上だと「高い」、120〜139は「境界域（高めの手前）」とされ、健診の判定もこれをもとにしています。"
-        },
-        {
-          "kind": "text",
-          "text": "ただし、これは「詳しく見たほうがよいかどうか」を決める入口の目安です。**治療で目指す数字（目標）は、また別に、一人ひとり決めます。**"
-        },
-        {
-          "kind": "text",
-          "text": "### 日本の目標：危険の高さで決める"
-        },
-        {
-          "kind": "text",
-          "text": "日本のガイドラインでは、年齢・性別・血圧・たばこ・糖尿病などから、この先10年のうちに心筋梗塞などを起こす危険を見積もります。この見積もりには、日本の地域の人たちを長く見守ってきた研究のデータが使われています。そのうえで、病気をしたことがない方の目標は、次のように決められています。"
-        },
-        {
-          "kind": "text",
-          "text": "- 危険が低い方：160未満\n- 危険が中くらいの方：140未満\n- 危険が高い方：120未満\n- 糖尿病がある方：120未満（たばこを吸う、目や腎臓などに合併症がある場合などは100未満）"
-        },
-        {
-          "kind": "text",
-          "text": "そして、病気をしたことがない方は、**まず食事や運動などの生活習慣を見直すこと** が治療の基本です。"
-        },
-        {
-          "kind": "text",
-          "text": "### アメリカの目標：2026年の新しいガイドライン"
-        },
-        {
-          "kind": "text",
-          "text": "アメリカでは2026年3月に、新しいガイドラインが出ました。この先10年の危険を、アメリカの人のデータから作られた新しい計算式で見積もり、病気をしたことがない方の目標を次のように示しています。"
-        },
-        {
-          "kind": "text",
-          "text": "- 10年の危険が10％以上（高い方）：70未満\n- 10年の危険が3〜10％未満（境界〜中くらいの方）：100未満\n- 糖尿病がある方（40〜75歳）：100未満"
-        },
-        {
-          "kind": "text",
-          "text": "危険が低い方については、決まった数字の目標は示されていません。"
-        },
-        {
-          "kind": "text",
-          "text": "ちょっとした裏話もあります。アメリカは2013年のガイドラインで、具体的な目標の数字をいったんやめていました。それが今回、ふたたび「いくつまで下げるか」という数字の目標に戻ってきたのです。ゴールが見えたほうが、医師も患者さんも治療を続けやすい、という考え方です。"
-        },
-        {
-          "kind": "text",
-          "text": "### 同じ「130」でも、こんなに違う"
-        },
-        {
-          "kind": "text",
-          "text": "たとえば、健診で130だった方を考えてみます。"
-        },
-        {
-          "kind": "text",
-          "text": "- 日本で、危険が低い・中くらいの方なら、目標（160未満・140未満）の範囲です。危険が高い方なら目標は120未満で、130は目標より上になります\n- アメリカで、危険が中くらいの方なら、目標は100未満。「どう下げるかを相談しましょう」という話になることがあります"
-        },
-        {
-          "kind": "text",
-          "text": "危険の分け方がちがうので、単純にはくらべられません。それでも、アメリカの目標はおおむね低めに決められています。"
-        },
-        {
-          "kind": "text",
-          "text": "### なぜ、こんなに違うの？"
-        },
-        {
-          "kind": "text",
-          "text": "**1．もともとの「危険の高さ」が違う**"
-        },
-        {
-          "kind": "text",
-          "text": "日本は、欧米にくらべて心筋梗塞を起こす人が少ない国として知られています。食生活や体質の違いも関係していると考えられています。"
-        },
-        {
-          "kind": "text",
-          "text": "**2．危険を見積もるデータが違う**"
-        },
-        {
-          "kind": "text",
-          "text": "日本は日本の人の、アメリカはアメリカの人のデータで、危険を見積もっています。日本の基準が「甘すぎる」わけではなく、それぞれの国の人に合わせて作られた目安です。"
-        },
-        {
-          "kind": "text",
-          "text": "### ニュースの「55未満」は、別の話"
-        },
-        {
-          "kind": "text",
-          "text": "ニュースで見かけるアメリカの「55未満」は、心筋梗塞などをすでに起こした方の、再発を防ぐための目標です。健診で「少し高め」と言われた方の目標とは、別のものです。"
-        },
-        {
-          "kind": "text",
-          "text": "### 数字より、「自分の目標」を知ること"
-        },
-        {
-          "kind": "text",
-          "text": "健診の「基準値（正常の範囲）」の考え方は「[健診結果の『正常の上限』、どう考える？](/blog/seijou-no-jouge-fuan)」で、体質の影響が大きいことは「[痩せているのに、なぜコレステロールが高いの？](/blog/yasete-iru-noni-ldl)」で、病気そのものは「[脂質異常症](/diseases/dyslipidemia)」のページで解説しています。お薬の心配については「[コレステロールの薬で、筋肉が溶けるって本当？](/blog/statin-kinniku-houkai)」もご覧ください。"
-        },
-        {
-          "kind": "text",
-          "text": "健診で「要受診」「要精密検査」と書かれていた方は、ニュースの数字にかかわらず、一度受診して、ご自身の目標を確かめてください。すでにお薬を飲んでいる方は、自己判断で増やしたり、やめたりしないでください。"
-        },
-        {
-          "kind": "text",
-          "text": "「自分の目標はいくつなのか」。次の受診のときに、ぜひ主治医の先生に聞いてみてください（当院は2027年10月の開院予定です。開院後は、当院でもご相談いただけます）。数字の意味が分かると、毎日の食事や運動の工夫にも、きっと納得が生まれます。"
-        },
-        {
-          "kind": "text",
-          "text": "※この記事は一般的な情報で、個別の診断・治療ではありません。"
-        }
-      ]
-    },
-    "en": {
-      "category": "Health and prevention",
-      "subcategory": "Cholesterol & uric acid",
-      "title": "How would your checkup cholesterol be judged in the U.S.? Why the goals differ from Japan",
-      "excerpt": "LDL cholesterol of 130 at your checkup: the same number is read a little differently in Japan and the U.S.",
-      "body": [
-        {
-          "kind": "text",
-          "text": "\"My LDL cholesterol was 130 at my checkup. The report said 'a little high.' Is it okay to leave it?\""
-        },
-        {
-          "kind": "text",
-          "text": "As a doctor in outpatient clinics, I sometimes hear questions like this. And you may have seen news that \"the U.S. has made its cholesterol standards stricter,\" and started to wonder."
-        },
-        {
-          "kind": "text",
-          "text": "Here's the short answer: **Japan and the U.S. set their goals a little differently.** But both countries agree on one thing: **even with the same 130, your goal depends on how high your future risk is.**"
-        },
-        {
-          "kind": "text",
-          "text": "### Checkup \"standards\" are an entry point"
-        },
-        {
-          "kind": "text",
-          "text": "In Japan, LDL (\"bad\") cholesterol of 140 or higher is considered \"high,\" and 120–139 is \"borderline.\" Checkup results are judged based on these numbers."
-        },
-        {
-          "kind": "text",
-          "text": "But these are an entry point for deciding whether to take a closer look. **The number you aim for in treatment (your goal) is decided separately, for each person.**"
-        },
-        {
-          "kind": "text",
-          "text": "### Japan's goals: based on your level of risk"
-        },
-        {
-          "kind": "text",
-          "text": "Japan's guideline estimates your risk of having a heart attack or similar event in the next 10 years, using age, sex, blood pressure, smoking, diabetes and more. This estimate uses data from studies that followed people in a Japanese community for many years. For people who have never had such an event, the goals are:"
-        },
-        {
-          "kind": "text",
-          "text": "- Low risk: under 160\n- Intermediate risk: under 140\n- High risk: under 120\n- People with diabetes: under 120 (under 100 for those who smoke or have complications in the eyes, kidneys and so on)"
-        },
-        {
-          "kind": "text",
-          "text": "And for people who have never had an event, **reviewing lifestyle habits such as diet and exercise comes first.**"
-        },
-        {
-          "kind": "text",
-          "text": "### U.S. goals: the new 2026 guideline"
-        },
-        {
-          "kind": "text",
-          "text": "The U.S. released a new guideline in March 2026. It estimates 10-year risk with a new calculator built from U.S. data, and sets these goals for people who have never had an event:"
-        },
-        {
-          "kind": "text",
-          "text": "- 10-year risk of 10% or higher (high risk): under 70\n- 10-year risk of 3% to under 10% (borderline to intermediate risk): under 100\n- People with diabetes (ages 40–75): under 100"
-        },
-        {
-          "kind": "text",
-          "text": "No specific numeric goal is given for people at low risk."
-        },
-        {
-          "kind": "text",
-          "text": "Here's a bit of behind-the-scenes history. In its 2013 guideline, the U.S. dropped specific target numbers. This time it has brought back a numeric target — \"how low to go.\" The idea is that a visible goal makes it easier for both doctors and patients to stay on track."
-        },
-        {
-          "kind": "text",
-          "text": "### The same \"130,\" read very differently"
-        },
-        {
-          "kind": "text",
-          "text": "Take someone whose checkup showed 130."
-        },
-        {
-          "kind": "text",
-          "text": "- In Japan, if they are at low or intermediate risk, they are within the goal (under 160 or under 140). If they are at high risk, the goal is under 120, so 130 is above it\n- In the U.S., if they are at intermediate risk, the goal is under 100, and the conversation may turn to \"let's talk about how to lower it\""
-        },
-        {
-          "kind": "text",
-          "text": "The two countries classify risk differently, so a direct comparison isn't simple. Even so, the U.S. goals are generally set lower."
-        },
-        {
-          "kind": "text",
-          "text": "### Why are they so different?"
-        },
-        {
-          "kind": "text",
-          "text": "**1. The starting level of risk is different**"
-        },
-        {
-          "kind": "text",
-          "text": "Japan is known for having fewer heart attacks than Western countries. Differences in diet and constitution are thought to play a role."
-        },
-        {
-          "kind": "text",
-          "text": "**2. Risk is estimated from different data**"
-        },
-        {
-          "kind": "text",
-          "text": "Japan estimates risk using data from people in Japan, and the U.S. uses data from people in the U.S. Japan's standards aren't \"too lenient\" — each is designed for the people of its own country."
-        },
-        {
-          "kind": "text",
-          "text": "### The \"under 55\" in the news is a different story"
-        },
-        {
-          "kind": "text",
-          "text": "The U.S. \"under 55\" you may see in the news is a goal for preventing another event in people who have already had a heart attack or similar event. It's a different goal from the one for someone told at a checkup that their cholesterol is \"a little high.\""
-        },
-        {
-          "kind": "text",
-          "text": "### More than the number: know your own goal"
-        },
-        {
-          "kind": "text",
-          "text": "I explain how to think about the \"reference range\" on checkups in \"[How should you think about results at the 'upper limit of normal'?](/blog/seijou-no-jouge-fuan)\", why constitution matters so much in \"[Slim, but high cholesterol?](/blog/yasete-iru-noni-ldl)\", and the condition itself on our [dyslipidemia](/diseases/dyslipidemia) page. If you're worried about medication, see also \"[Can cholesterol medicine really melt your muscles?](/blog/statin-kinniku-houkai)\""
-        },
-        {
-          "kind": "text",
-          "text": "If your checkup report said \"see a doctor\" or \"further testing needed,\" please see a doctor once to confirm your own goal, regardless of the numbers in the news. If you already take medication, please don't increase or stop it on your own."
-        },
-        {
-          "kind": "text",
-          "text": "\"What's my goal?\" — next time you see your doctor, please ask (our clinic is scheduled to open in October 2027; after we open, you're welcome to ask us too). Once you understand what the number means, your daily food and exercise choices will make a lot more sense."
-        },
-        {
-          "kind": "text",
-          "text": "*This article provides general information and is not an individual diagnosis or treatment."
-        }
-      ]
-    },
-    "related": [
-      {
-        "slug": "seijou-no-jouge-fuan",
-        "ja": "健診結果の「正常の上限」、どう考える？",
-        "en": "Your checkup came back \"normal, but at the upper edge\" — what does that mean?"
-      },
-      {
-        "slug": "yasete-iru-noni-ldl",
-        "ja": "痩せているのに、なぜコレステロールが高いの？——薬をやめると数値が戻ってしまう本当の理由",
-        "en": "Slim, but high cholesterol? The real reason your numbers bounce back when you stop the medicine"
-      },
-      {
-        "slug": "statin-kinniku-houkai",
-        "ja": "コレステロールの薬で、筋肉が溶けるって本当？〜悪玉コレステロールを下げる薬（スタチン）の疑問と最新医学〜",
-        "en": "Can cholesterol medicine really \"break down\" your muscles? Questions about statins and the latest evidence"
-      }
-    ]
-  },
-  {
     "slug": "bensenketsu-yousei",
     "date": "2026.09.24",
     "cover": "/blog/kibana-landscape.jpg",
@@ -4413,6 +4109,11 @@ export const generatedPosts: BlogPost[] = [
     },
     "related": [
       {
+        "slug": "ldl-mokuhyou-nichibei",
+        "ja": "健診のコレステロール、アメリカならどう見られる？　日本と目標が違うわけ",
+        "en": "How would your checkup cholesterol be judged in the U.S.? Why the goals differ from Japan"
+      },
+      {
         "slug": "purin-tai-yurai",
         "ja": "プリン体って、あの「プリン」と関係あるの？〜名前の由来と、多い食べ物の意外な共通点〜",
         "en": "Do purines have anything to do with pudding? — where the name comes from, and what purine-rich foods have in common"
@@ -4421,11 +4122,6 @@ export const generatedPosts: BlogPost[] = [
         "slug": "tsuufuu-hossa-timing",
         "ja": "痛風発作は「尿酸値が上がる時」と「下がる時」、どっちに起きやすい？〜カギは“急な変化”でした〜",
         "en": "Do gout attacks happen when uric acid goes up, or when it comes down? — the key turns out to be “sudden change”"
-      },
-      {
-        "slug": "yasete-iru-noni-ldl",
-        "ja": "痩せているのに、なぜコレステロールが高いの？——薬をやめると数値が戻ってしまう本当の理由",
-        "en": "Slim, but high cholesterol? The real reason your numbers bounce back when you stop the medicine"
       }
     ]
   },
@@ -15375,6 +15071,310 @@ export const generatedPosts: BlogPost[] = [
         "slug": "ichinichi-isshoku-yasenai",
         "ja": "1日一食しか食べてないのに痩せないあなたへ",
         "en": "To everyone who eats only one meal a day and still can't lose weight"
+      }
+    ]
+  },
+  {
+    "slug": "ldl-mokuhyou-nichibei",
+    "date": "2026.11.21",
+    "cover": "/blog/kibana-landscape.jpg",
+    "coverVersion": "951e262c",
+    "coverWidth": 1536,
+    "coverHeight": 1024,
+    "youtube": "Wt2KDSBgLok",
+    "sources": [
+      {
+        "label": "日本動脈硬化学会「動脈硬化性疾患予防ガイドライン2022年版」",
+        "url": "https://www.j-athero.org/jp/jas_gl2022/"
+      },
+      {
+        "label": "American College of Cardiology「ACC/AHA Issue Updated Guideline for Managing Lipids, Cholesterol」（2026年3月13日）",
+        "url": "https://www.acc.org/About-ACC/Press-Releases/2026/03/13/18/01/ACCAHA-Issue-Updated-Guideline-for-Managing-Lipids-Cholesterol"
+      },
+      {
+        "label": "American Family Physician「Assessing the 2026 ACC/AHA Guideline on the Management of Dyslipidemia」（2026年11月）",
+        "url": "https://www.aafp.org/afp/2026/1100/editorials-assessing-acc-aha-dyslipidemia-guideline"
+      }
+    ],
+    "ja": {
+      "category": "健康・予防の話",
+      "subcategory": "コレステロール・尿酸",
+      "title": "健診のコレステロール、アメリカならどう見られる？　日本と目標が違うわけ",
+      "excerpt": "健診で悪玉コレステロールが130。同じ数字でも、日本とアメリカでは受けとめ方が少し違います。",
+      "body": [
+        {
+          "kind": "text",
+          "text": "「健診で、悪玉コレステロールが130でした。『少し高め』と書いてあったけど、このままで大丈夫ですか？」"
+        },
+        {
+          "kind": "text",
+          "text": "医師として外来に立つなかで、こんなご相談をいただくことがあります。最近は「アメリカでコレステロールの基準が厳しくなった」というニュースを見て、気になった方もいるかもしれません。"
+        },
+        {
+          "kind": "text",
+          "text": "先にお答えすると、**日本とアメリカでは、目標の決め方が少し違います。**でも、どちらの国にも共通していることがあります。それは、**同じ130でも、その方の「この先の危険の高さ」によって目標が変わる**ということです。"
+        },
+        {
+          "kind": "text",
+          "text": "### 健診の「基準」は、入口の目安"
+        },
+        {
+          "kind": "text",
+          "text": "日本では、悪玉（LDL）コレステロールが140以上だと「高い」、120〜139は「境界域（高めの手前）」とされ、健診の判定もこれをもとにしています。"
+        },
+        {
+          "kind": "text",
+          "text": "ただし、これは「詳しく見たほうがよいかどうか」を決める入口の目安です。**治療で目指す数字（目標）は、また別に、一人ひとり決めます。**"
+        },
+        {
+          "kind": "text",
+          "text": "### 日本の目標：危険の高さで決める"
+        },
+        {
+          "kind": "text",
+          "text": "日本のガイドラインでは、年齢・性別・血圧・たばこ・糖尿病などから、この先10年のうちに心筋梗塞などを起こす危険を見積もります。この見積もりには、日本の地域の人たちを長く見守ってきた研究のデータが使われています。そのうえで、病気をしたことがない方の目標は、次のように決められています。"
+        },
+        {
+          "kind": "text",
+          "text": "- 危険が低い方：160未満\n- 危険が中くらいの方：140未満\n- 危険が高い方：120未満\n- 糖尿病がある方：120未満（たばこを吸う、目や腎臓などに合併症がある場合などは100未満）"
+        },
+        {
+          "kind": "text",
+          "text": "そして、病気をしたことがない方は、**まず食事や運動などの生活習慣を見直すこと** が治療の基本です。"
+        },
+        {
+          "kind": "text",
+          "text": "### アメリカの目標：2026年の新しいガイドライン"
+        },
+        {
+          "kind": "text",
+          "text": "アメリカでは2026年3月に、新しいガイドラインが出ました。この先10年の危険を、アメリカの人のデータから作られた新しい計算式で見積もり、病気をしたことがない方の目標を次のように示しています。"
+        },
+        {
+          "kind": "text",
+          "text": "- 10年の危険が10％以上（高い方）：70未満\n- 10年の危険が3〜10％未満（境界〜中くらいの方）：100未満\n- 糖尿病がある方（40〜75歳）：100未満"
+        },
+        {
+          "kind": "text",
+          "text": "危険が低い方については、決まった数字の目標は示されていません。"
+        },
+        {
+          "kind": "text",
+          "text": "ちょっとした裏話もあります。アメリカは2013年のガイドラインで、具体的な目標の数字をいったんやめていました。それが今回、ふたたび「いくつまで下げるか」という数字の目標に戻ってきたのです。ゴールが見えたほうが、医師も患者さんも治療を続けやすい、という考え方です。"
+        },
+        {
+          "kind": "text",
+          "text": "### 同じ「130」でも、こんなに違う"
+        },
+        {
+          "kind": "text",
+          "text": "たとえば、健診で130だった方を考えてみます。"
+        },
+        {
+          "kind": "text",
+          "text": "- 日本で、危険が低い・中くらいの方なら、目標（160未満・140未満）の範囲です。危険が高い方なら目標は120未満で、130は目標より上になります\n- アメリカで、危険が中くらいの方なら、目標は100未満。「どう下げるかを相談しましょう」という話になることがあります"
+        },
+        {
+          "kind": "text",
+          "text": "危険の分け方がちがうので、単純にはくらべられません。それでも、アメリカの目標はおおむね低めに決められています。"
+        },
+        {
+          "kind": "text",
+          "text": "### なぜ、こんなに違うの？"
+        },
+        {
+          "kind": "text",
+          "text": "**1．もともとの「危険の高さ」が違う**"
+        },
+        {
+          "kind": "text",
+          "text": "日本は、欧米にくらべて心筋梗塞を起こす人が少ない国として知られています。食生活や体質の違いも関係していると考えられています。"
+        },
+        {
+          "kind": "text",
+          "text": "**2．危険を見積もるデータが違う**"
+        },
+        {
+          "kind": "text",
+          "text": "日本は日本の人の、アメリカはアメリカの人のデータで、危険を見積もっています。日本の基準が「甘すぎる」わけではなく、それぞれの国の人に合わせて作られた目安です。"
+        },
+        {
+          "kind": "text",
+          "text": "### ニュースの「55未満」は、別の話"
+        },
+        {
+          "kind": "text",
+          "text": "ニュースで見かけるアメリカの「55未満」は、心筋梗塞などをすでに起こした方の、再発を防ぐための目標です。健診で「少し高め」と言われた方の目標とは、別のものです。"
+        },
+        {
+          "kind": "text",
+          "text": "### 数字より、「自分の目標」を知ること"
+        },
+        {
+          "kind": "text",
+          "text": "健診の「基準値（正常の範囲）」の考え方は「[健診結果の『正常の上限』、どう考える？](/blog/seijou-no-jouge-fuan)」で、体質の影響が大きいことは「[痩せているのに、なぜコレステロールが高いの？](/blog/yasete-iru-noni-ldl)」で、病気そのものは「[脂質異常症](/diseases/dyslipidemia)」のページで解説しています。お薬の心配については「[コレステロールの薬で、筋肉が溶けるって本当？](/blog/statin-kinniku-houkai)」もご覧ください。"
+        },
+        {
+          "kind": "text",
+          "text": "健診で「要受診」「要精密検査」と書かれていた方は、ニュースの数字にかかわらず、一度受診して、ご自身の目標を確かめてください。すでにお薬を飲んでいる方は、自己判断で増やしたり、やめたりしないでください。"
+        },
+        {
+          "kind": "text",
+          "text": "「自分の目標はいくつなのか」。次の受診のときに、ぜひ主治医の先生に聞いてみてください（当院は2027年10月の開院予定です。開院後は、当院でもご相談いただけます）。数字の意味が分かると、毎日の食事や運動の工夫にも、きっと納得が生まれます。"
+        },
+        {
+          "kind": "text",
+          "text": "※この記事は一般的な情報で、個別の診断・治療ではありません。"
+        }
+      ]
+    },
+    "en": {
+      "category": "Health and prevention",
+      "subcategory": "Cholesterol & uric acid",
+      "title": "How would your checkup cholesterol be judged in the U.S.? Why the goals differ from Japan",
+      "excerpt": "LDL cholesterol of 130 at your checkup: the same number is read a little differently in Japan and the U.S.",
+      "body": [
+        {
+          "kind": "text",
+          "text": "\"My LDL cholesterol was 130 at my checkup. The report said 'a little high.' Is it okay to leave it?\""
+        },
+        {
+          "kind": "text",
+          "text": "As a doctor in outpatient clinics, I sometimes hear questions like this. And you may have seen news that \"the U.S. has made its cholesterol standards stricter,\" and started to wonder."
+        },
+        {
+          "kind": "text",
+          "text": "Here's the short answer: **Japan and the U.S. set their goals a little differently.** But both countries agree on one thing: **even with the same 130, your goal depends on how high your future risk is.**"
+        },
+        {
+          "kind": "text",
+          "text": "### Checkup \"standards\" are an entry point"
+        },
+        {
+          "kind": "text",
+          "text": "In Japan, LDL (\"bad\") cholesterol of 140 or higher is considered \"high,\" and 120–139 is \"borderline.\" Checkup results are judged based on these numbers."
+        },
+        {
+          "kind": "text",
+          "text": "But these are an entry point for deciding whether to take a closer look. **The number you aim for in treatment (your goal) is decided separately, for each person.**"
+        },
+        {
+          "kind": "text",
+          "text": "### Japan's goals: based on your level of risk"
+        },
+        {
+          "kind": "text",
+          "text": "Japan's guideline estimates your risk of having a heart attack or similar event in the next 10 years, using age, sex, blood pressure, smoking, diabetes and more. This estimate uses data from studies that followed people in a Japanese community for many years. For people who have never had such an event, the goals are:"
+        },
+        {
+          "kind": "text",
+          "text": "- Low risk: under 160\n- Intermediate risk: under 140\n- High risk: under 120\n- People with diabetes: under 120 (under 100 for those who smoke or have complications in the eyes, kidneys and so on)"
+        },
+        {
+          "kind": "text",
+          "text": "And for people who have never had an event, **reviewing lifestyle habits such as diet and exercise comes first.**"
+        },
+        {
+          "kind": "text",
+          "text": "### U.S. goals: the new 2026 guideline"
+        },
+        {
+          "kind": "text",
+          "text": "The U.S. released a new guideline in March 2026. It estimates 10-year risk with a new calculator built from U.S. data, and sets these goals for people who have never had an event:"
+        },
+        {
+          "kind": "text",
+          "text": "- 10-year risk of 10% or higher (high risk): under 70\n- 10-year risk of 3% to under 10% (borderline to intermediate risk): under 100\n- People with diabetes (ages 40–75): under 100"
+        },
+        {
+          "kind": "text",
+          "text": "No specific numeric goal is given for people at low risk."
+        },
+        {
+          "kind": "text",
+          "text": "Here's a bit of behind-the-scenes history. In its 2013 guideline, the U.S. dropped specific target numbers. This time it has brought back a numeric target — \"how low to go.\" The idea is that a visible goal makes it easier for both doctors and patients to stay on track."
+        },
+        {
+          "kind": "text",
+          "text": "### The same \"130,\" read very differently"
+        },
+        {
+          "kind": "text",
+          "text": "Take someone whose checkup showed 130."
+        },
+        {
+          "kind": "text",
+          "text": "- In Japan, if they are at low or intermediate risk, they are within the goal (under 160 or under 140). If they are at high risk, the goal is under 120, so 130 is above it\n- In the U.S., if they are at intermediate risk, the goal is under 100, and the conversation may turn to \"let's talk about how to lower it\""
+        },
+        {
+          "kind": "text",
+          "text": "The two countries classify risk differently, so a direct comparison isn't simple. Even so, the U.S. goals are generally set lower."
+        },
+        {
+          "kind": "text",
+          "text": "### Why are they so different?"
+        },
+        {
+          "kind": "text",
+          "text": "**1. The starting level of risk is different**"
+        },
+        {
+          "kind": "text",
+          "text": "Japan is known for having fewer heart attacks than Western countries. Differences in diet and constitution are thought to play a role."
+        },
+        {
+          "kind": "text",
+          "text": "**2. Risk is estimated from different data**"
+        },
+        {
+          "kind": "text",
+          "text": "Japan estimates risk using data from people in Japan, and the U.S. uses data from people in the U.S. Japan's standards aren't \"too lenient\" — each is designed for the people of its own country."
+        },
+        {
+          "kind": "text",
+          "text": "### The \"under 55\" in the news is a different story"
+        },
+        {
+          "kind": "text",
+          "text": "The U.S. \"under 55\" you may see in the news is a goal for preventing another event in people who have already had a heart attack or similar event. It's a different goal from the one for someone told at a checkup that their cholesterol is \"a little high.\""
+        },
+        {
+          "kind": "text",
+          "text": "### More than the number: know your own goal"
+        },
+        {
+          "kind": "text",
+          "text": "I explain how to think about the \"reference range\" on checkups in \"[How should you think about results at the 'upper limit of normal'?](/blog/seijou-no-jouge-fuan)\", why constitution matters so much in \"[Slim, but high cholesterol?](/blog/yasete-iru-noni-ldl)\", and the condition itself on our [dyslipidemia](/diseases/dyslipidemia) page. If you're worried about medication, see also \"[Can cholesterol medicine really melt your muscles?](/blog/statin-kinniku-houkai)\""
+        },
+        {
+          "kind": "text",
+          "text": "If your checkup report said \"see a doctor\" or \"further testing needed,\" please see a doctor once to confirm your own goal, regardless of the numbers in the news. If you already take medication, please don't increase or stop it on your own."
+        },
+        {
+          "kind": "text",
+          "text": "\"What's my goal?\" — next time you see your doctor, please ask (our clinic is scheduled to open in October 2027; after we open, you're welcome to ask us too). Once you understand what the number means, your daily food and exercise choices will make a lot more sense."
+        },
+        {
+          "kind": "text",
+          "text": "*This article provides general information and is not an individual diagnosis or treatment."
+        }
+      ]
+    },
+    "related": [
+      {
+        "slug": "seijou-no-jouge-fuan",
+        "ja": "健診結果の「正常の上限」、どう考える？",
+        "en": "Your checkup came back \"normal, but at the upper edge\" — what does that mean?"
+      },
+      {
+        "slug": "yasete-iru-noni-ldl",
+        "ja": "痩せているのに、なぜコレステロールが高いの？——薬をやめると数値が戻ってしまう本当の理由",
+        "en": "Slim, but high cholesterol? The real reason your numbers bounce back when you stop the medicine"
+      },
+      {
+        "slug": "statin-kinniku-houkai",
+        "ja": "コレステロールの薬で、筋肉が溶けるって本当？〜悪玉コレステロールを下げる薬（スタチン）の疑問と最新医学〜",
+        "en": "Can cholesterol medicine really \"break down\" your muscles? Questions about statins and the latest evidence"
       }
     ]
   }
