@@ -8,6 +8,11 @@ subcategory_en: Cholesterol & uric acid
 title_ja: "プリン体って、あの「プリン」と関係あるの？〜名前の由来と、多い食べ物の意外な共通点〜"
 title_en: "Do purines have anything to do with pudding? — where the name comes from, and what purine-rich foods have in common"
 excerpt_ja: "「先生、プリンを食べすぎると痛風になるんですか？」——実は、プリン体とデザートのプリンは、名前が似ているだけのまったくの別物です。"
+seo_title_ja: プリン体の名前の由来は？ デザートのプリンとは無関係、多い食べ物の共通点
+seo_description_ja: プリン体とデザートのプリンは、名前が似ているだけの別物です。名前の由来は「純粋な尿酸」。プリン体が多い食べ物の共通点と、尿酸のもとの多くは体の中で作られていることを医師が解説します。
+seo_title_en: Where does the name "purine" come from? Nothing to do with pudding — and what purine-rich foods share
+seo_description_en: Purines and the dessert "purin" (pudding) just sound alike. The name comes from "pure uric acid." A doctor explains what purine-rich foods have in common, and why most uric acid is made inside the body.
+updated: 2026.11.21
 excerpt_en: "“Doctor, can eating too much pudding give me gout?” In fact, purines and the dessert called “purin” in Japanese just happen to sound alike — they're completely different things."
 related: [tsuufuu-hossa-timing, mainichi-chigau-mono, yasete-iru-noni-ldl]
 sources:
@@ -20,7 +25,7 @@ sources:
 
 「先生、プリンを食べすぎると痛風になるんですか？」——尿酸値の話をしていると、ときどきこんなご質問をいただきます。カラメルのかかった、あの甘いプリン。名前がそっくりなので、そう思ってしまうのも無理はありませんよね。
 
-今日は、プリン体とはそもそも何なのか、どんな食べ物に多いのか、そして食事でどこに気をつければよいのかについてお話しします。最後まで読んでいただくと、きっと「なるほど」と思っていただけるはずです。ひとつずつ見ていきましょう。
+今日は、プリン体とはそもそも何なのか、どんな食べ物に多いのか、そして食事でどこに気をつければよいのかについてお話しします。ひとつずつ見ていきましょう。
 
 ### 名前の由来は「純粋な尿酸」
 
@@ -78,7 +83,7 @@ sources:
 
 “Doctor, can eating too much pudding give me gout?” When I talk with patients about uric acid, I'm sometimes asked this. In Japanese, the sweet caramel custard pudding is called “purin,” which sounds just like “purine.” With names that similar, it's no wonder people wonder!
 
-This article explains what purines actually are, which foods are high in them, and what to watch in your diet. By the end, I hope it will all make sense. Let's look at it one step at a time.
+This article explains what purines actually are, which foods are high in them, and what to watch in your diet. Let's look at it one step at a time.
 
 ### The name means “pure uric acid”
 

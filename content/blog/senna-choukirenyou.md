@@ -8,10 +8,17 @@ subcategory_en: Stomach & digestion
 title_ja: その便秘薬、飲む量が増えていませんか？——センナを毎日続けないほうがよい理由
 title_en: Is your laxative dose creeping up? Why senna isn't meant for every day
 excerpt_ja: 「最初は1錠で出ていたのに、今は3錠飲まないと出ない」——それは、あなたのせいではありません。センナを長く毎日続けたときに、お腹の中で起きていることをお話しします。
+seo_title_ja: センナ茶・センナは毎日飲んでも大丈夫？ 便秘薬の量が増えたときの見直し方
+seo_description_ja: センナ茶やセンナ（センノシド）は、毎日続けると効きにくくなり、量が増えがちです。センナ茶にも同じ下剤の成分が入っています。毎日の便秘のお薬の選び方と、急にやめない切り替え方を医師が解説します。
+seo_title_en: Is it okay to take senna or senna tea every day? What to do when your laxative dose keeps rising
+seo_description_en: Senna and senna tea tend to work less over time when taken daily, so the dose creeps up. Senna tea contains the same laxative ingredient. A doctor explains how to choose everyday constipation treatment and how to switch without stopping suddenly.
+updated: 2026.11.21
 excerpt_en: “One tablet used to work — now I need three.” That isn't your fault. Here's what happens inside your bowel when senna is taken every day for years.
 sources:
   - label: "日本消化管学会「便通異常症診療ガイドライン2023－慢性便秘症」"
     url: "https://minds.jcqhc.or.jp/summary/c00812/"
+  - label: "国民生活センター 商品テスト部「商品テスト結果に見る『健康食品』のリスクに関する具体的な事例」（キャンドルブッシュを含む健康茶）"
+    url: "https://www.mhlw.go.jp/topics/bukyoku/iyaku/syoku-anzen/iken/dl/140303-b-6.pdf"
 ---
 
 ## ja
@@ -38,6 +45,14 @@ sources:
 - 腸を**強く収縮させ、便を押し出します**
 
 たとえるなら、なかなか動かない人の背中を、**後ろから強くたたいて歩かせる**ような効き方です。だからこそ、飲んだ翌朝にしっかり出るのです。
+
+### 「センナ茶」も、同じ成分です
+
+「お茶なら、お薬ではないから毎日でも大丈夫」と思われがちです。でも、センナ茶や、キャンドルブッシュ（ハネセンナ）などを使った「おなかスッキリ」系の健康茶にも、センナと同じ下剤の成分（センノシド）が入っています。
+
+国民生活センターの調べでは、銘柄によっては、カップ2〜3杯で医薬品として飲む量以上の成分をとってしまうものがありました。お茶は1杯ごとの量が分かりにくく、知らないうちに「毎日、下剤を飲んでいる」のと同じ状態になりやすいのです。
+
+また、センナ茶で体重が減ったように見えても、それは便や水分が出た分で、脂肪が減ったわけではありません。センナ茶を毎晩飲まないと出ない方も、このあとの見直し方は同じです。
 
 ## なぜ、だんだん効きにくくなるのか
 
@@ -118,6 +133,14 @@ There are several main types of laxatives. Senna, sennosides, senna tea and bisa
 - They make the bowel **contract strongly and push stool out**
 
 It's a bit like **giving a hard push from behind** to someone who won't start walking. That's why you get a reliable result the next morning.
+
+### "Senna tea" contains the same ingredient
+
+Many people think, "It's tea, not medicine, so it's fine every day." But senna tea, and "belly-clearing" health teas made with candle bush (Cassia alata), contain the same laxative ingredient as senna (sennosides).
+
+Japan's National Consumer Affairs Center found that with some brands, just 2–3 cups delivered more of this ingredient than a medicinal dose. With tea, it's hard to know how much is in each cup, so it's easy to end up, without realizing it, in the same situation as "taking a laxative every day."
+
+And if senna tea seems to make your weight go down, that's only the stool and water that came out — not fat. If you can't go without senna tea every night, the steps for reviewing your treatment below are the same.
 
 ## Why does it gradually stop working?
 

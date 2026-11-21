@@ -9,6 +9,7 @@ export default function ArticleJsonLd({
   description,
   cover,
   date, // "YYYY.MM.DD"
+  updated, // "YYYY.MM.DD"（任意）
   sources = [],
 }: {
   slug: string;
@@ -16,6 +17,7 @@ export default function ArticleJsonLd({
   description: string;
   cover: string;
   date: string;
+  updated?: string;
   sources?: { label: string; url?: string }[];
 }) {
   const isoDate = date.replace(/\./g, "-");
@@ -26,7 +28,7 @@ export default function ArticleJsonLd({
     description,
     image: `${BASE_URL}${cover}`,
     datePublished: isoDate,
-    dateModified: isoDate,
+    dateModified: updated ? updated.replace(/\./g, "-") : isoDate,
     mainEntityOfPage: `${BASE_URL}/blog/${slug}`,
     ...(sources.length > 0
       ? {

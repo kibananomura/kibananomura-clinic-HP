@@ -8,6 +8,11 @@ subcategory_en: Diet & exercise
 title_ja: 1日一食しか食べてないのに痩せないあなたへ
 title_en: To everyone who eats only one meal a day and still can't lose weight
 excerpt_ja: 「1日1食しか食べていないのに、体重計の数字がびくともしない」——その原因は意志の弱さではなく、体が切り替えた「省エネモード」かもしれません。
+seo_title_ja: 1日1食なのに痩せないのはなぜ？ 体の「省エネモード」と、医師がすすめる食べ方4つ
+seo_description_ja: 1日1食しか食べていないのに痩せない原因は、意志の弱さではなく、体が切り替えた「省エネモード」かもしれません。筋肉が落ちて脂肪をため込みやすくなる仕組みと、2〜3食に分ける・タンパク質をとるなど、今日からできる4つの工夫を医師が解説します。
+seo_title_en: Eating one meal a day but not losing weight? Your body's energy-saving mode, and 4 ways to eat instead
+seo_description_en: If you eat only one meal a day and still can't lose weight, the cause may be your body's energy-saving mode, not weak willpower. A doctor explains why muscle drops and fat builds up, and four things you can start today.
+updated: 2026.11.21
 excerpt_en: “I only eat one meal a day, and the scale won't budge” — the cause may not be weak willpower, but the “energy-saving mode” your body has switched into.
 sources:
   - label: "厚生労働省「日本人の食事摂取基準（2025年版）」"

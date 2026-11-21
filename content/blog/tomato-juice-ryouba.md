@@ -8,6 +8,11 @@ subcategory_en: Cholesterol & uric acid
 title_ja: 毎日のトマトジュース、実は逆効果かもしれません
 title_en: Your daily tomato juice might be working against you
 excerpt_ja: 「健康のために、毎朝トマトジュースで野菜をとっています」。とても素敵な習慣ですが、実はその一杯、コレステロールには◎でも中性脂肪には注意が必要かもしれません。
+seo_title_ja: トマトジュースを毎日飲むと中性脂肪は？ コレステロールには味方、選ぶなら無塩
+seo_description_ja: 毎日のトマトジュースは、コレステロールが高めの方には味方ですが、中性脂肪が高めの方には逆効果になることがあります。分かれ目は「無塩かどうか」と「ジュースか、生のまま食べるか」。タイプ別の付き合い方を医師が解説します。
+seo_title_en: Does daily tomato juice raise triglycerides? Good for cholesterol — choose unsalted
+seo_description_en: Daily tomato juice can help if your cholesterol is high, but may backfire if your triglycerides are high. The keys are whether it's unsalted, and juice versus whole tomatoes. A doctor explains how to drink it for your type.
+updated: 2026.11.21
 excerpt_en: I drink tomato juice every morning instead of vegetables, for my health — a lovely habit, but that glass may be great for cholesterol while working against your triglycerides.
 sources:
   - label: "日本動脈硬化学会「動脈硬化性疾患予防ガイドライン2022年版」"
@@ -18,7 +23,7 @@ sources:
 
 ## ja
 
-「先生、健康のために、毎朝トマトジュースで野菜をとっているんです」。これまでの診療の中で、健診結果を見ながら、誇らしげにそうお話しされる患者さんによくお会いしてきました。野菜不足を気にして、手軽に続けられる習慣を選ばれたその努力は、本当に素晴らしいことだと思います。
+「先生、健康のために、毎朝トマトジュースで野菜をとっているんです」。医師として外来に立つなかで、健診結果を見ながらそうお話しされる方は少なくありません。野菜不足を気にして、手軽に続けられる習慣を選ばれたその努力は、本当に素晴らしいことだと思います。
 
 ただ、少し意外に思われるかもしれませんが、**トマトジュースはコレステロールが高めの方にはおすすめな一方、中性脂肪が高めの方には逆効果になることがある**、いわば「両刃の剣」のような飲み物です。先にお答えすると、**ポイントは「無塩かどうか」と「ジュースか、生のまま食べるか」**。この2つを押さえるだけで、同じ一杯が味方にも、注意信号にもなります。
 
@@ -54,7 +59,7 @@ sources:
 
 ## en
 
-"Doctor, I drink tomato juice every morning to get my vegetables in — it's good for my health." Throughout my career, I've heard this proudly, checkup results in hand, more often than you might think. Being mindful of not getting enough vegetables and choosing an easy habit you can actually stick with is genuinely admirable.
+"Doctor, I drink tomato juice every morning to get my vegetables in — it's good for my health." As a doctor in outpatient clinics, I hear this, checkup results in hand, more often than you might think. Being mindful of not getting enough vegetables and choosing an easy habit you can actually stick with is genuinely admirable.
 
 Here's something that might surprise you, though: **tomato juice can be great for people with high cholesterol, while working against people with high triglycerides** — it's something of a double-edged sword. By the end of this post, you'll know how to approach tomato juice based on your own checkup results. Here's the short answer: **what matters is whether it's unsalted, and whether you drink it as juice or eat the tomato whole.** Get those two things right, and the very same glass can either help you or work against you.
 

@@ -2423,6 +2423,7 @@ export const generatedPosts: BlogPost[] = [
   {
     "slug": "kaicho-mattan-en",
     "date": "2026.10.01",
+    "updated": "2026.11.21",
     "cover": "/blog/kibana-landscape.jpg",
     "coverVersion": "951e262c",
     "coverWidth": 1536,
@@ -2438,10 +2439,12 @@ export const generatedPosts: BlogPost[] = [
       "subcategory": "胃腸・消化器",
       "title": "右下腹部が痛い、もしかして盲腸？——実は多い「回腸末端炎（小腸の出口の炎症）」のこと",
       "excerpt": "「盲腸だと思って来たんです」——そう心配して受診され、検査の結果「回腸末端炎」だった、という方は少なくありません。聞き慣れない病名に不安になった方へ。",
+      "seoTitle": "回腸末端炎とは？ 盲腸とまちがえやすい右下腹部の痛みと、主な原因",
+      "seoDescription": "回腸末端炎（かいちょうまったんえん）は、小腸の出口の炎症です。多くは細菌などによる一時的なもので、自然に、またはお薬で良くなります。盲腸（虫垂炎）との違い、主な原因3つ、詳しく調べたほうがよいサインを消化器外科医が解説します。",
       "body": [
         {
           "kind": "text",
-          "text": "「右のお腹の下のほうが痛くて……盲腸だと思って来たんです」。これまでの診療の中で、そう心配して受診された方が、検査の結果「盲腸ではなく、回腸末端炎（かいちょうまったんえん）ですね」とお伝えすることになったケースは、決して少なくありません。"
+          "text": "「右のお腹の下のほうが痛くて……盲腸だと思って来たんです」。医師として外来に立つなかで、そう心配して受診され、検査の結果「盲腸ではなく、回腸末端炎（かいちょうまったんえん）でした」と分かる方は、決して少なくありません。"
         },
         {
           "kind": "text",
@@ -2457,7 +2460,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "- 「回腸末端」は、盲腸のすぐ隣にあります\n- 回腸末端は、炎症を起こしやすい「腸の関所」\n- 盲腸（虫垂炎）と回腸末端炎、症状の違いは？\n- 回腸末端炎の主な原因は、大きく3つ\n- 当院での検査と診断の進め方"
+          "text": "- 「回腸末端」は、盲腸のすぐ隣にあります\n- 回腸末端は、炎症を起こしやすい「腸の関所」\n- 盲腸（虫垂炎）と回腸末端炎、症状の違いは？\n- 回腸末端炎の主な原因は、大きく3つ\n- 検査と診断の進め方"
         },
         {
           "kind": "text",
@@ -2553,11 +2556,11 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "### 当院での検査と診断の進め方"
+          "text": "### 検査と診断の進め方"
         },
         {
           "kind": "text",
-          "text": "右下腹部の痛みでは、「虫垂炎なのか、回腸末端炎なのか、それ以外なのか」を見極めることが何より重要です。当院では、次のような検査を組み合わせて診断します。"
+          "text": "右下腹部の痛みでは、「虫垂炎なのか、回腸末端炎なのか、それ以外なのか」を見極めることが何より重要です。当院（2027年10月開院予定）では、開院後、次のような検査を組み合わせて診断します。"
         },
         {
           "kind": "text",
@@ -2594,10 +2597,12 @@ export const generatedPosts: BlogPost[] = [
       "subcategory": "Stomach & digestion",
       "title": "Pain in your lower right belly — is it appendicitis? Meet the often-overlooked “terminal ileitis”",
       "excerpt": "“I came in because I thought it was my appendix” — and the tests showed terminal ileitis instead. If an unfamiliar diagnosis has you worried, this is for you.",
+      "seoTitle": "What is terminal ileitis? Lower right belly pain often mistaken for appendicitis, and its main causes",
+      "seoDescription": "Terminal ileitis is inflammation at the end of the small intestine. Most cases are temporary, often from bacteria, and get better on their own or with medicine. A gastrointestinal surgeon explains how it differs from appendicitis, its three main causes, and the signs that need a closer look.",
       "body": [
         {
           "kind": "text",
-          "text": "\"My lower right belly hurts... I came in because I thought it was my appendix.\" Over the years in my practice, quite a few people who came in worried about exactly that turned out, after testing, to have something else: \"It's not your appendix — it's terminal ileitis.\""
+          "text": "\"My lower right belly hurts... I came in because I thought it was my appendix.\" As a doctor in outpatient clinics, I've found that quite a few people who come in worried about exactly that turn out, after testing, to have something else: not appendicitis, but terminal ileitis."
         },
         {
           "kind": "text",
@@ -2613,7 +2618,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "- The terminal ileum sits right next to the appendix\n- The terminal ileum: a \"checkpoint\" prone to inflammation\n- Appendicitis vs. terminal ileitis — how do the symptoms differ?\n- Three main causes of terminal ileitis\n- How we test and diagnose at our clinic"
+          "text": "- The terminal ileum sits right next to the appendix\n- The terminal ileum: a \"checkpoint\" prone to inflammation\n- Appendicitis vs. terminal ileitis — how do the symptoms differ?\n- Three main causes of terminal ileitis\n- How it's tested and diagnosed"
         },
         {
           "kind": "text",
@@ -2709,11 +2714,11 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "### How we test and diagnose at our clinic"
+          "text": "### How it's tested and diagnosed"
         },
         {
           "kind": "text",
-          "text": "With lower right abdominal pain, the most important thing is to work out whether it's appendicitis, terminal ileitis, or something else. At our clinic, we combine the following tests:"
+          "text": "With lower right abdominal pain, the most important thing is to work out whether it's appendicitis, terminal ileitis, or something else. After we open (October 2027), our clinic will combine the following tests:"
         },
         {
           "kind": "text",
@@ -3957,6 +3962,7 @@ export const generatedPosts: BlogPost[] = [
   {
     "slug": "tomato-juice-ryouba",
     "date": "2026.10.06",
+    "updated": "2026.11.21",
     "cover": "/blog/kibana-landscape.jpg",
     "coverVersion": "951e262c",
     "coverWidth": 1536,
@@ -3976,10 +3982,12 @@ export const generatedPosts: BlogPost[] = [
       "subcategory": "コレステロール・尿酸",
       "title": "毎日のトマトジュース、実は逆効果かもしれません",
       "excerpt": "「健康のために、毎朝トマトジュースで野菜をとっています」。とても素敵な習慣ですが、実はその一杯、コレステロールには◎でも中性脂肪には注意が必要かもしれません。",
+      "seoTitle": "トマトジュースを毎日飲むと中性脂肪は？ コレステロールには味方、選ぶなら無塩",
+      "seoDescription": "毎日のトマトジュースは、コレステロールが高めの方には味方ですが、中性脂肪が高めの方には逆効果になることがあります。分かれ目は「無塩かどうか」と「ジュースか、生のまま食べるか」。タイプ別の付き合い方を医師が解説します。",
       "body": [
         {
           "kind": "text",
-          "text": "「先生、健康のために、毎朝トマトジュースで野菜をとっているんです」。これまでの診療の中で、健診結果を見ながら、誇らしげにそうお話しされる患者さんによくお会いしてきました。野菜不足を気にして、手軽に続けられる習慣を選ばれたその努力は、本当に素晴らしいことだと思います。"
+          "text": "「先生、健康のために、毎朝トマトジュースで野菜をとっているんです」。医師として外来に立つなかで、健診結果を見ながらそうお話しされる方は少なくありません。野菜不足を気にして、手軽に続けられる習慣を選ばれたその努力は、本当に素晴らしいことだと思います。"
         },
         {
           "kind": "text",
@@ -4044,10 +4052,12 @@ export const generatedPosts: BlogPost[] = [
       "subcategory": "Cholesterol & uric acid",
       "title": "Your daily tomato juice might be working against you",
       "excerpt": "I drink tomato juice every morning instead of vegetables, for my health — a lovely habit, but that glass may be great for cholesterol while working against your triglycerides.",
+      "seoTitle": "Does daily tomato juice raise triglycerides? Good for cholesterol — choose unsalted",
+      "seoDescription": "Daily tomato juice can help if your cholesterol is high, but may backfire if your triglycerides are high. The keys are whether it's unsalted, and juice versus whole tomatoes. A doctor explains how to drink it for your type.",
       "body": [
         {
           "kind": "text",
-          "text": "\"Doctor, I drink tomato juice every morning to get my vegetables in — it's good for my health.\" Throughout my career, I've heard this proudly, checkup results in hand, more often than you might think. Being mindful of not getting enough vegetables and choosing an easy habit you can actually stick with is genuinely admirable."
+          "text": "\"Doctor, I drink tomato juice every morning to get my vegetables in — it's good for my health.\" As a doctor in outpatient clinics, I hear this, checkup results in hand, more often than you might think. Being mindful of not getting enough vegetables and choosing an easy habit you can actually stick with is genuinely admirable."
         },
         {
           "kind": "text",
@@ -8049,6 +8059,7 @@ export const generatedPosts: BlogPost[] = [
   {
     "slug": "ichinichi-isshoku-yasenai",
     "date": "2026.10.29",
+    "updated": "2026.11.21",
     "cover": "/blog/ichinichi-isshoku-yasenai.jpg",
     "coverVersion": "3f5d0429",
     "coverWidth": 1600,
@@ -8064,6 +8075,8 @@ export const generatedPosts: BlogPost[] = [
       "subcategory": "食事・運動",
       "title": "1日一食しか食べてないのに痩せないあなたへ",
       "excerpt": "「1日1食しか食べていないのに、体重計の数字がびくともしない」——その原因は意志の弱さではなく、体が切り替えた「省エネモード」かもしれません。",
+      "seoTitle": "1日1食なのに痩せないのはなぜ？ 体の「省エネモード」と、医師がすすめる食べ方4つ",
+      "seoDescription": "1日1食しか食べていないのに痩せない原因は、意志の弱さではなく、体が切り替えた「省エネモード」かもしれません。筋肉が落ちて脂肪をため込みやすくなる仕組みと、2〜3食に分ける・タンパク質をとるなど、今日からできる4つの工夫を医師が解説します。",
       "body": [
         {
           "kind": "text",
@@ -8204,6 +8217,8 @@ export const generatedPosts: BlogPost[] = [
       "subcategory": "Diet & exercise",
       "title": "To everyone who eats only one meal a day and still can't lose weight",
       "excerpt": "“I only eat one meal a day, and the scale won't budge” — the cause may not be weak willpower, but the “energy-saving mode” your body has switched into.",
+      "seoTitle": "Eating one meal a day but not losing weight? Your body's energy-saving mode, and 4 ways to eat instead",
+      "seoDescription": "If you eat only one meal a day and still can't lose weight, the cause may be your body's energy-saving mode, not weak willpower. A doctor explains why muscle drops and fat builds up, and four things you can start today.",
       "body": [
         {
           "kind": "text",
@@ -8916,6 +8931,7 @@ export const generatedPosts: BlogPost[] = [
   {
     "slug": "senna-choukirenyou",
     "date": "2026.11.01",
+    "updated": "2026.11.21",
     "cover": "/blog/senna-choukirenyou.jpg",
     "coverVersion": "8a786017",
     "coverWidth": 1600,
@@ -8924,6 +8940,10 @@ export const generatedPosts: BlogPost[] = [
       {
         "label": "日本消化管学会「便通異常症診療ガイドライン2023－慢性便秘症」",
         "url": "https://minds.jcqhc.or.jp/summary/c00812/"
+      },
+      {
+        "label": "国民生活センター 商品テスト部「商品テスト結果に見る『健康食品』のリスクに関する具体的な事例」（キャンドルブッシュを含む健康茶）",
+        "url": "https://www.mhlw.go.jp/topics/bukyoku/iyaku/syoku-anzen/iken/dl/140303-b-6.pdf"
       }
     ],
     "ja": {
@@ -8931,6 +8951,8 @@ export const generatedPosts: BlogPost[] = [
       "subcategory": "胃腸・消化器",
       "title": "その便秘薬、飲む量が増えていませんか？——センナを毎日続けないほうがよい理由",
       "excerpt": "「最初は1錠で出ていたのに、今は3錠飲まないと出ない」——それは、あなたのせいではありません。センナを長く毎日続けたときに、お腹の中で起きていることをお話しします。",
+      "seoTitle": "センナ茶・センナは毎日飲んでも大丈夫？ 便秘薬の量が増えたときの見直し方",
+      "seoDescription": "センナ茶やセンナ（センノシド）は、毎日続けると効きにくくなり、量が増えがちです。センナ茶にも同じ下剤の成分が入っています。毎日の便秘のお薬の選び方と、急にやめない切り替え方を医師が解説します。",
       "body": [
         {
           "kind": "text",
@@ -8967,6 +8989,22 @@ export const generatedPosts: BlogPost[] = [
         {
           "kind": "text",
           "text": "たとえるなら、なかなか動かない人の背中を、**後ろから強くたたいて歩かせる**ような効き方です。だからこそ、飲んだ翌朝にしっかり出るのです。"
+        },
+        {
+          "kind": "text",
+          "text": "### 「センナ茶」も、同じ成分です"
+        },
+        {
+          "kind": "text",
+          "text": "「お茶なら、お薬ではないから毎日でも大丈夫」と思われがちです。でも、センナ茶や、キャンドルブッシュ（ハネセンナ）などを使った「おなかスッキリ」系の健康茶にも、センナと同じ下剤の成分（センノシド）が入っています。"
+        },
+        {
+          "kind": "text",
+          "text": "国民生活センターの調べでは、銘柄によっては、カップ2〜3杯で医薬品として飲む量以上の成分をとってしまうものがありました。お茶は1杯ごとの量が分かりにくく、知らないうちに「毎日、下剤を飲んでいる」のと同じ状態になりやすいのです。"
+        },
+        {
+          "kind": "text",
+          "text": "また、センナ茶で体重が減ったように見えても、それは便や水分が出た分で、脂肪が減ったわけではありません。センナ茶を毎晩飲まないと出ない方も、このあとの見直し方は同じです。"
         },
         {
           "kind": "text",
@@ -9075,6 +9113,8 @@ export const generatedPosts: BlogPost[] = [
       "subcategory": "Stomach & digestion",
       "title": "Is your laxative dose creeping up? Why senna isn't meant for every day",
       "excerpt": "“One tablet used to work — now I need three.” That isn't your fault. Here's what happens inside your bowel when senna is taken every day for years.",
+      "seoTitle": "Is it okay to take senna or senna tea every day? What to do when your laxative dose keeps rising",
+      "seoDescription": "Senna and senna tea tend to work less over time when taken daily, so the dose creeps up. Senna tea contains the same laxative ingredient. A doctor explains how to choose everyday constipation treatment and how to switch without stopping suddenly.",
       "body": [
         {
           "kind": "text",
@@ -9111,6 +9151,22 @@ export const generatedPosts: BlogPost[] = [
         {
           "kind": "text",
           "text": "It's a bit like **giving a hard push from behind** to someone who won't start walking. That's why you get a reliable result the next morning."
+        },
+        {
+          "kind": "text",
+          "text": "### \"Senna tea\" contains the same ingredient"
+        },
+        {
+          "kind": "text",
+          "text": "Many people think, \"It's tea, not medicine, so it's fine every day.\" But senna tea, and \"belly-clearing\" health teas made with candle bush (Cassia alata), contain the same laxative ingredient as senna (sennosides)."
+        },
+        {
+          "kind": "text",
+          "text": "Japan's National Consumer Affairs Center found that with some brands, just 2–3 cups delivered more of this ingredient than a medicinal dose. With tea, it's hard to know how much is in each cup, so it's easy to end up, without realizing it, in the same situation as \"taking a laxative every day.\""
+        },
+        {
+          "kind": "text",
+          "text": "And if senna tea seems to make your weight go down, that's only the stool and water that came out — not fat. If you can't go without senna tea every night, the steps for reviewing your treatment below are the same."
         },
         {
           "kind": "text",
@@ -13673,6 +13729,7 @@ export const generatedPosts: BlogPost[] = [
   {
     "slug": "purin-tai-yurai",
     "date": "2026.11.16",
+    "updated": "2026.11.21",
     "cover": "/blog/purin-tai-yurai.jpg",
     "coverVersion": "fb718ce5",
     "coverWidth": 1600,
@@ -13688,6 +13745,8 @@ export const generatedPosts: BlogPost[] = [
       "subcategory": "コレステロール・尿酸",
       "title": "プリン体って、あの「プリン」と関係あるの？〜名前の由来と、多い食べ物の意外な共通点〜",
       "excerpt": "「先生、プリンを食べすぎると痛風になるんですか？」——実は、プリン体とデザートのプリンは、名前が似ているだけのまったくの別物です。",
+      "seoTitle": "プリン体の名前の由来は？ デザートのプリンとは無関係、多い食べ物の共通点",
+      "seoDescription": "プリン体とデザートのプリンは、名前が似ているだけの別物です。名前の由来は「純粋な尿酸」。プリン体が多い食べ物の共通点と、尿酸のもとの多くは体の中で作られていることを医師が解説します。",
       "body": [
         {
           "kind": "text",
@@ -13695,7 +13754,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "今日は、プリン体とはそもそも何なのか、どんな食べ物に多いのか、そして食事でどこに気をつければよいのかについてお話しします。最後まで読んでいただくと、きっと「なるほど」と思っていただけるはずです。ひとつずつ見ていきましょう。"
+          "text": "今日は、プリン体とはそもそも何なのか、どんな食べ物に多いのか、そして食事でどこに気をつければよいのかについてお話しします。ひとつずつ見ていきましょう。"
         },
         {
           "kind": "text",
@@ -13796,6 +13855,8 @@ export const generatedPosts: BlogPost[] = [
       "subcategory": "Cholesterol & uric acid",
       "title": "Do purines have anything to do with pudding? — where the name comes from, and what purine-rich foods have in common",
       "excerpt": "“Doctor, can eating too much pudding give me gout?” In fact, purines and the dessert called “purin” in Japanese just happen to sound alike — they're completely different things.",
+      "seoTitle": "Where does the name \"purine\" come from? Nothing to do with pudding — and what purine-rich foods share",
+      "seoDescription": "Purines and the dessert \"purin\" (pudding) just sound alike. The name comes from \"pure uric acid.\" A doctor explains what purine-rich foods have in common, and why most uric acid is made inside the body.",
       "body": [
         {
           "kind": "text",
@@ -13803,7 +13864,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "This article explains what purines actually are, which foods are high in them, and what to watch in your diet. By the end, I hope it will all make sense. Let's look at it one step at a time."
+          "text": "This article explains what purines actually are, which foods are high in them, and what to watch in your diet. Let's look at it one step at a time."
         },
         {
           "kind": "text",

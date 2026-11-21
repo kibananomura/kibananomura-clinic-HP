@@ -8,6 +8,11 @@ subcategory_en: Stomach & digestion
 title_ja: 右下腹部が痛い、もしかして盲腸？——実は多い「回腸末端炎（小腸の出口の炎症）」のこと
 title_en: Pain in your lower right belly — is it appendicitis? Meet the often-overlooked “terminal ileitis”
 excerpt_ja: 「盲腸だと思って来たんです」——そう心配して受診され、検査の結果「回腸末端炎」だった、という方は少なくありません。聞き慣れない病名に不安になった方へ。
+seo_title_ja: 回腸末端炎とは？ 盲腸とまちがえやすい右下腹部の痛みと、主な原因
+seo_description_ja: 回腸末端炎（かいちょうまったんえん）は、小腸の出口の炎症です。多くは細菌などによる一時的なもので、自然に、またはお薬で良くなります。盲腸（虫垂炎）との違い、主な原因3つ、詳しく調べたほうがよいサインを消化器外科医が解説します。
+seo_title_en: What is terminal ileitis? Lower right belly pain often mistaken for appendicitis, and its main causes
+seo_description_en: Terminal ileitis is inflammation at the end of the small intestine. Most cases are temporary, often from bacteria, and get better on their own or with medicine. A gastrointestinal surgeon explains how it differs from appendicitis, its three main causes, and the signs that need a closer look.
+updated: 2026.11.21
 excerpt_en: “I came in because I thought it was my appendix” — and the tests showed terminal ileitis instead. If an unfamiliar diagnosis has you worried, this is for you.
 sources:
   - label: "日本腹部救急医学会ほか「急性腹症診療ガイドライン2015」"
@@ -16,7 +21,7 @@ sources:
 
 ## ja
 
-「右のお腹の下のほうが痛くて……盲腸だと思って来たんです」。これまでの診療の中で、そう心配して受診された方が、検査の結果「盲腸ではなく、回腸末端炎（かいちょうまったんえん）ですね」とお伝えすることになったケースは、決して少なくありません。
+「右のお腹の下のほうが痛くて……盲腸だと思って来たんです」。医師として外来に立つなかで、そう心配して受診され、検査の結果「盲腸ではなく、回腸末端炎（かいちょうまったんえん）でした」と分かる方は、決して少なくありません。
 
 「盲腸じゃなかったなら良かった」と思う一方で、初めて聞く病名に戸惑い、家に帰ってインターネットで調べてみたら「クローン病」「難病」といった言葉が出てきて、かえって不安になってしまった——そんなお気持ち、とてもよく分かります。
 
@@ -28,7 +33,7 @@ sources:
 - 回腸末端は、炎症を起こしやすい「腸の関所」
 - 盲腸（虫垂炎）と回腸末端炎、症状の違いは？
 - 回腸末端炎の主な原因は、大きく3つ
-- 当院での検査と診断の進め方
+- 検査と診断の進め方
 
 ### 「回腸末端」は、盲腸のすぐ隣にあります
 
@@ -78,9 +83,9 @@ sources:
 
 ネットで「クローン病」という言葉を見て不安になった方も多いと思いますが、回腸末端炎と言われた方の多くは、1や2の一時的な炎症です。ただ、**症状が長引く、何度も繰り返す、体重が減る、血便が出る**といった場合は、こうした病気が隠れていないか、詳しく調べることが大切になります。
 
-### 当院での検査と診断の進め方
+### 検査と診断の進め方
 
-右下腹部の痛みでは、「虫垂炎なのか、回腸末端炎なのか、それ以外なのか」を見極めることが何より重要です。当院では、次のような検査を組み合わせて診断します。
+右下腹部の痛みでは、「虫垂炎なのか、回腸末端炎なのか、それ以外なのか」を見極めることが何より重要です。当院（2027年10月開院予定）では、開院後、次のような検査を組み合わせて診断します。
 
 - **血液検査**：白血球や炎症反応（CRP）の数値から、体の中でどのくらい炎症が起きているかを確認します
 - **便の検査**：下痢がある場合は、必要に応じて便を調べ、原因となる細菌を確認します
@@ -101,7 +106,7 @@ sources:
 
 ## en
 
-"My lower right belly hurts... I came in because I thought it was my appendix." Over the years in my practice, quite a few people who came in worried about exactly that turned out, after testing, to have something else: "It's not your appendix — it's terminal ileitis."
+"My lower right belly hurts... I came in because I thought it was my appendix." As a doctor in outpatient clinics, I've found that quite a few people who come in worried about exactly that turn out, after testing, to have something else: not appendicitis, but terminal ileitis.
 
 Relief that it isn't appendicitis can quickly give way to confusion at an unfamiliar diagnosis. Then you search it online at home, see words like "Crohn's disease" or "intractable disease," and end up more anxious than before. That feeling is completely understandable.
 
@@ -113,7 +118,7 @@ Here's what I'll cover:
 - The terminal ileum: a "checkpoint" prone to inflammation
 - Appendicitis vs. terminal ileitis — how do the symptoms differ?
 - Three main causes of terminal ileitis
-- How we test and diagnose at our clinic
+- How it's tested and diagnosed
 
 ### The terminal ileum sits right next to the appendix
 
@@ -163,9 +168,9 @@ Less commonly, inflammatory bowel diseases such as **Crohn's disease,** or condi
 
 Many people feel anxious after seeing "Crohn's disease" online, but most people told they have terminal ileitis have the temporary kind described in 1 or 2. Still, **if symptoms drag on, keep coming back, or come with weight loss or blood in the stool,** it's important to check carefully whether one of these conditions is involved.
 
-### How we test and diagnose at our clinic
+### How it's tested and diagnosed
 
-With lower right abdominal pain, the most important thing is to work out whether it's appendicitis, terminal ileitis, or something else. At our clinic, we combine the following tests:
+With lower right abdominal pain, the most important thing is to work out whether it's appendicitis, terminal ileitis, or something else. After we open (October 2027), our clinic will combine the following tests:
 
 - **Blood tests**: White blood cell counts and inflammation markers (CRP) show how much inflammation is going on in the body
 - **Stool tests**: If you have diarrhea, we may test a stool sample to identify the bacteria responsible

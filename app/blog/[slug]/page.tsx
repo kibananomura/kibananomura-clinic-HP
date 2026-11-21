@@ -20,14 +20,14 @@ export async function generateMetadata({
   }
   const c = getContent(post, "ja");
   return {
-    title: `${c.title} | 院長ブログ | ${BRAND.ja.titleSuffix}`,
-    description: c.excerpt,
+    title: `${c.seoTitle ?? c.title} | 院長ブログ | ${BRAND.ja.titleSuffix}`,
+    description: c.seoDescription ?? c.excerpt,
     alternates: {
       canonical: `/blog/${slug}`,
     },
     openGraph: {
-      title: `${c.title} | 院長ブログ`,
-      description: c.excerpt,
+      title: `${c.seoTitle ?? c.title} | 院長ブログ`,
+      description: c.seoDescription ?? c.excerpt,
       url: `${BASE_URL}/blog/${slug}`,
       type: "article",
       images: [
@@ -67,7 +67,8 @@ export default async function BlogArticle({
         <ArticleJsonLd
           slug={slug}
           title={title}
-          description={getContent(post, "ja").excerpt}
+          description={getContent(post, "ja").seoDescription ?? getContent(post, "ja").excerpt}
+          updated={post.updated}
           cover={post.cover}
           date={post.date}
           sources={post.sources}

@@ -10,12 +10,15 @@ export type BlogContent = {
   subcategory?: string; // 健康・予防の話などのサブ分類（任意）
   title: string;
   excerpt: string;
+  seoTitle?: string; // 検索結果に出すタイトル（任意。無ければ title）。記事の見出しとは別に、検索される言葉を前に置く
+  seoDescription?: string; // 検索結果の説明文（任意。無ければ excerpt）
   body: BlogBlock[];
 };
 
 export type BlogPost = {
   slug: string;
   date: string; // YYYY.MM.DD
+  updated?: string; // YYYY.MM.DD 内容を見直した日（任意。構造化データの dateModified）
   cover: string;
   coverPosition?: string; // Tailwind object-position クラス（既定: object-center）
   coverVersion?: string; // 表紙の中身から作った版番号（SNSに差し替えを伝えるため、生成時に自動計算）

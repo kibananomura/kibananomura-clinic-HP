@@ -255,6 +255,7 @@ function generate() {
     return {
       slug,
       date: String(data.date),
+      updated: data.updated ? String(data.updated) : undefined,
       cover: data.cover,
       coverPosition: data.coverPosition || undefined,
       ...coverMeta(data.cover),
@@ -265,6 +266,8 @@ function generate() {
         subcategory: data.subcategory_ja || undefined,
         title: data.title_ja,
         excerpt: data.excerpt_ja,
+        seoTitle: data.seo_title_ja || undefined,
+        seoDescription: data.seo_description_ja || undefined,
         body: parseBlocks(ja, slug, "ja"),
       },
       en: {
@@ -272,6 +275,8 @@ function generate() {
         subcategory: data.subcategory_en || undefined,
         title: data.title_en,
         excerpt: data.excerpt_en,
+        seoTitle: data.seo_title_en || undefined,
+        seoDescription: data.seo_description_en || undefined,
         body: parseBlocks(en, slug, "en"),
       },
     };
