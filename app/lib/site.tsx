@@ -948,17 +948,38 @@ const ja: SiteDict = {
           },
           {
             name: "AGA治療（フィナステリド）",
-            price: "準備中",
-            overview: "男性型脱毛症（AGA）に対する、国内承認薬の内服治療です。",
-            risks: "性機能への影響（性欲減退・勃起機能低下等）、肝機能への影響等が報告されています。妊娠中・妊娠の可能性がある女性は薬剤に触れることも避ける必要があります。",
+            price: "6,200円（税込・30日分・初診料と再診料を含む・予定）",
+            overview: "男性型脱毛症（AGA）に対する、国内承認薬の内服治療です。3か月ごとに受診して効果と副作用を確かめます。",
+            risks: "性機能への影響（性欲の低下・勃起しにくくなる等）、まれに肝機能障害が報告されています。前立腺がんの検査（PSA）の値が低く出る、服用中と中止後一定期間は献血ができない、女性・子どもは薬に触れない、などの注意があります。やめると、時間とともに治療前の状態に戻っていくとされています。",
             approval: "国内で承認されている医薬品を、保険適用外の自由診療として処方します（未承認医薬品ではありません）。",
           },
           {
-            name: "AGA治療（デュタステリド系）",
-            price: "準備中",
-            overview: "男性型脱毛症（AGA）に対する、国内承認薬の内服治療です。",
-            risks: "性機能への影響（性欲減退・勃起機能低下等）、肝機能への影響等が報告されています。妊娠中・妊娠の可能性がある女性は薬剤に触れることも避ける必要があります。",
+            name: "AGA治療（デュタステリド）",
+            price: "10,000円（税込・30日分・初診料と再診料を含む・予定）",
+            overview: "男性型脱毛症（AGA）に対する、国内承認薬の内服治療です。3か月ごとに受診して効果と副作用を確かめます。",
+            risks: "性機能への影響（性欲の低下・勃起しにくくなる等）、まれに肝機能障害が報告されています。前立腺がんの検査（PSA）の値が低く出る、服用中と中止後一定期間は献血ができない、女性・子どもは薬に触れない、などの注意があります。やめると、時間とともに治療前の状態に戻っていくとされています。乳房の張りや痛みが出ることがあります。",
             approval: "国内で承認されている医薬品を、保険適用外の自由診療として処方します（未承認医薬品ではありません）。",
+          },
+          {
+            name: "AGA治療（ミノキシジル 飲み薬）",
+            price: "6,000円（税込・30日分・初診料と再診料を含む・予定）",
+            overview: "髪の成長を促すとされる飲み薬です。日本皮膚科学会のガイドラインでは「行うべきではない（推奨度D）」とされています。リスクをご説明し、同意いただいた方にだけ処方します。",
+            risks: "体毛が濃くなる、むくみ、どうき・脈が速くなる、ふらつき、頭痛が報告されています。まれに心臓のまわりに水がたまる（心膜液貯留）など重い副作用が起こることがあります。心臓の病気のある方、血圧の低い方、妊娠中・授乳中の方は使えません。",
+            approval: "国内で承認されていない医薬品です（ミノキシジルの飲み薬は、国内で承認された医薬品がありません）。入手経路：海外で製造された医薬品を、当院の医師が、医薬品医療機器等法にもとづく手続き（厚生労働省による輸入の確認）を受けたうえで、診療に使う目的で輸入します（輸入の手続きは国内の業者に依頼します。製品名・製造国は開院までにこのページに記載します）。重い副作用が起きても医薬品副作用被害救済制度の対象になりません。詳しくはAGA治療のページをご覧ください。",
+          },
+          {
+            name: "AGA治療（ミノキシジル 塗り薬）",
+            price: "8,000円（税込・30日分・初診料と再診料を含む・予定）",
+            overview: "髪の成長を促すとされる塗り薬です。当院で処方するのは海外製の国内未承認品です（濃度は開院までに記載）。同じ成分の男性用5%の塗り薬は国内で市販薬として承認されており、日本皮膚科学会のガイドラインで推奨度Aとされているのはこの濃度の塗り薬です。",
+            risks: "かゆみ・かぶれ・ふけなど、頭皮の症状が出ることがあります。使い始めに一時的に抜け毛が増えることがあります。",
+            approval: "国内で承認されていない医薬品です。同じ成分の市販薬（一般用医薬品）は国内で承認されています。入手経路：海外で製造された医薬品を、当院の医師が、医薬品医療機器等法にもとづく手続き（厚生労働省による輸入の確認）を受けたうえで、診療に使う目的で輸入します（輸入の手続きは国内の業者に依頼します。製品名・製造国は開院までにこのページに記載します）。重い副作用が起きても医薬品副作用被害救済制度の対象になりません。",
+          },
+          {
+            name: "AGA治療の血液検査",
+            price: "3,000円（1回・予定）",
+            overview: "AGAの薬を始める前と、その後は医師が必要と判断したときに、肝臓の働きなどを確かめます。",
+            risks: "採血に伴う内出血・痛み等が起こることがあります。",
+            approval: "保険適用外の自由診療として行います。",
           },
           {
             name: "FAGA（女性の薄毛）",
@@ -1138,7 +1159,7 @@ const ja: SiteDict = {
       },
       {
         name: "AGA（男性型脱毛症）",
-        desc: "ミノキシジル外用薬・フィナステリド内服薬など、エビデンスに基づく薄毛治療。フィナステリドでは性機能への影響が報告されています。定期的な経過観察を行います。",
+        desc: "フィナステリド・デュタステリドの飲み薬を中心に、ご希望に応じてミノキシジル（国内未承認の飲み薬・塗り薬）も扱います。性機能への影響・肝機能障害、ミノキシジルの飲み薬ではむくみ・どうき・まれに心膜液貯留などが報告されています。3か月ごとに効果と副作用を確かめます。",
         slug: "aga",
       },
       {
@@ -1888,9 +1909,9 @@ const en: SiteDict = {
           {
             name: "AGA (male pattern hair loss)",
             price: "Coming soon",
-            overview: "Oral treatment with medications approved in Japan for male pattern hair loss.",
-            risks: "Possible effects on sexual function (reduced libido, erectile difficulty) and liver function. Pregnant women or those who may become pregnant must avoid contact with the medication.",
-            approval: "Uses medications approved in Japan, prescribed as self-pay care outside insurance coverage (not unapproved drugs).",
+            overview: "Mainly oral finasteride or dutasteride. On request, we also prescribe minoxidil (oral and topical), which is not approved in Japan. Results and side effects are checked every 3 months.",
+            risks: "Effects on sexual function and, rarely, liver problems; PSA readings come out lower; no blood donation during and for a period after treatment; women and children must not touch the medicine. Oral minoxidil may cause increased body hair, swelling, palpitations, lightheadedness and, rarely, fluid around the heart (pericardial effusion).",
+            approval: "Some medications are not approved in Japan. See the Japanese AGA page.",
           },
           {
             name: "FAGA (female hair loss)",
@@ -2056,7 +2077,7 @@ const en: SiteDict = {
       },
       {
         name: "AGA (male pattern hair loss)",
-        desc: "Evidence-based treatment including topical minoxidil and oral finasteride, with regular follow-up visits. Finasteride may affect sexual function in some individuals.",
+        desc: "Mainly oral finasteride or dutasteride. On request, we also prescribe minoxidil (oral and topical), which is not approved in Japan. Reported risks include effects on sexual function and liver, and with oral minoxidil, swelling, palpitations and, rarely, pericardial effusion. We check results and side effects every 3 months.",
         slug: "aga",
       },
       {

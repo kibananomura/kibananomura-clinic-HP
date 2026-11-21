@@ -1386,7 +1386,7 @@ export const SYMPTOMS: SymptomEntry[] = [
     title: "薄毛が気になる（AGA治療）",
     category: "selfpay",
     summary: "AGA（男性型脱毛症）の自費診療について",
-  lastReviewed: "2026-09-15",
+  lastReviewed: "2026-11-21",
     possibleCauses: [
       { name: "男性型脱毛症（AGA）", note: "加齢やホルモンの影響などが背景にあることが多いです。" },
     ],
@@ -1402,11 +1402,14 @@ export const SYMPTOMS: SymptomEntry[] = [
       isSelfPayNote:
         "AGA治療は自由診療（公的医療保険の適用外・全額自己負担）であり、標準治療として保険診療に代わるものではありません。継続的な処方が前提となり、効果には個人差があります。",
       priceItems: [
-        { name: "AGA治療（フィナステリド）", price: "準備中" },
-        { name: "AGA治療（デュタステリド系）", price: "準備中" },
+        { name: "AGA治療（フィナステリド）", price: "6,200円（税込・30日分・初診料と再診料を含む・予定）" },
+        { name: "AGA治療（デュタステリド）", price: "10,000円（税込・30日分・初診料と再診料を含む・予定）" },
+        { name: "AGA治療（ミノキシジル 飲み薬・国内未承認）", price: "6,000円（税込・30日分・初診料と再診料を含む・予定）" },
+        { name: "AGA治療（ミノキシジル 塗り薬・国内未承認）", price: "8,000円（税込・30日分・初診料と再診料を含む・予定）" },
+        { name: "AGA治療の血液検査", price: "3,000円（税込・1回・予定）" },
       ],
       risks:
-        "性欲の低下・勃起しにくくなるなど性機能への影響、まれに肝機能障害が報告されています。前立腺がんの検査（PSA）の値が低く出る、服用中と中止後一定期間は献血ができない、女性・子どもは薬に触れない、などの注意があります。やめると、時間とともに治療前の状態に戻っていくとされています。",
+        "性欲の低下・勃起しにくくなるなど性機能への影響、まれに肝機能障害が報告されています。前立腺がんの検査（PSA）の値が低く出る、服用中と中止後一定期間は献血ができない、女性・子どもは薬に触れない、などの注意があります。やめると、時間とともに治療前の状態に戻っていくとされています。ミノキシジルの飲み薬では、体毛が濃くなる・むくみ・どうき・ふらつき、まれに心臓のまわりに水がたまる（心膜液貯留）などが報告されています。当院のミノキシジル（飲み薬・塗り薬）は国内で承認されていない医薬品で、飲み薬は日本皮膚科学会のガイドラインで『行うべきではない（推奨度D）』とされています。重い副作用が起きても医薬品副作用被害救済制度の対象になりません。入手経路・海外の安全性情報はAGA治療のページをご覧ください。",
       contactNote: "詳しい費用・リスクは、初回診察時に医師よりご説明します。ご不明な点はLINE・お電話（開院後）でお問い合わせください。",
     },
     en: {
@@ -1427,11 +1430,14 @@ export const SYMPTOMS: SymptomEntry[] = [
         isSelfPayNote:
           "AGA treatment is self-pay care (not covered by public health insurance — paid entirely out of pocket) and is not a substitute for standard insurance-covered treatment. It requires ongoing prescriptions, and results vary from person to person.",
         priceItems: [
-          { name: "AGA treatment (finasteride)", price: "Coming soon" },
-          { name: "AGA treatment (dutasteride-based)", price: "Coming soon" },
+          { name: "AGA treatment (finasteride)", price: "6,200 yen (30 days, planned)" },
+          { name: "AGA treatment (dutasteride)", price: "10,000 yen (30 days, planned)" },
+          { name: "AGA treatment (oral minoxidil, not approved in Japan)", price: "6,000 yen (30 days, planned)" },
+          { name: "AGA treatment (topical minoxidil, not approved in Japan)", price: "8,000 yen (30 days, planned)" },
+          { name: "Blood test for AGA treatment", price: "3,000 yen (per test, planned)" },
         ],
         risks:
-          "Effects on sexual function (lower libido, erectile difficulty) and, rarely, liver problems have been reported. PSA (prostate cancer test) readings come out lower, blood donation is not allowed while taking it and for a period after stopping, and women and children should not touch the medicine. After stopping, hair is said to gradually return to its pre-treatment state.",
+          "Effects on sexual function (lower libido, erectile difficulty) and, rarely, liver problems have been reported. PSA (prostate cancer test) readings come out lower, blood donation is not allowed while taking it and for a period after stopping, and women and children should not touch the medicine. After stopping, hair is said to gradually return to its pre-treatment state. Oral minoxidil may cause increased body hair, swelling, palpitations, lightheadedness and, rarely, fluid around the heart (pericardial effusion). The minoxidil we prescribe (oral and topical) is not approved in Japan; oral minoxidil is graded 'should not be done (Grade D)' in the Japanese Dermatological Association guideline. Serious side effects are not covered by Japan's Relief System for Adverse Drug Reactions. See the AGA treatment page for sourcing and overseas safety information.",
         contactNote: "We'll explain the detailed costs and risks at your first visit. For questions, please reach out via LINE or by phone (once we're open).",
       },
     },
