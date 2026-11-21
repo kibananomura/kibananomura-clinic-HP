@@ -21,7 +21,7 @@ export async function generateMetadata({
   if (!disease) {
     return { title: `疾患について | ${BRAND.ja.titleSuffix}` };
   }
-  const title = `${disease.title} | 疾患について | ${BRAND.ja.titleSuffix}`;
+  const title = `${disease.seoTitle ?? disease.title} | 疾患について | ${BRAND.ja.titleSuffix}`;
   const description = `${disease.summary} 病態・検査方法・治療法をご紹介します。このページは診断を行うものではなく、実際の診断・治療には受診が必要です。`;
   return {
     title,
@@ -30,7 +30,7 @@ export async function generateMetadata({
       canonical: `/diseases/${slug}`,
     },
     openGraph: {
-      title: `${disease.title} | 疾患について`,
+      title: `${disease.seoTitle ?? disease.title} | 疾患について`,
       description,
       url: `${BASE_URL}/diseases/${slug}`,
       type: "article",

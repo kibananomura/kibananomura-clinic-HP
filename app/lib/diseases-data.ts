@@ -549,6 +549,7 @@ export const DISEASES: DiseaseEntry[] = [
   {
     slug: "terminal-ileitis",
     title: "回腸末端炎",
+    seoTitle: "回腸末端炎の原因・症状・検査・治療（盲腸との見分け方）",
     category: "internal",
     summary: "小腸の末端（回腸末端）に炎症が見つかった状態を指す言葉で、虫垂炎とよく似た症状を起こすことがあり、原因の見極めが重要です。",
     pathology:

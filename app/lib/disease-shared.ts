@@ -52,6 +52,7 @@ export type DiseaseEntry = {
   title: string;
   category: DiseaseCategory;
   summary: string;
+  seoTitle?: string; // 検索結果に出すタイトル（任意。無ければ title）
   pathology: string;
   tests: string;
   treatment: string;
