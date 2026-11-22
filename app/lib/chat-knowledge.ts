@@ -81,7 +81,7 @@ const BASIC_INFO: KnowledgeChunk = {
  * HPのよくある質問のページには載せない（駐車場はアクセス欄に書く方針）。台数は site.tsx の PARKING_STATUS から。
  */
 const PARKING_QA: KnowledgeChunk = {
-  title: "よくある質問：駐車場はありますか？（車・自転車で来院するとき）",
+  title: "アクセス：駐車場・駐輪場",
   url: "/#access",
   text: [
     "Q. 駐車場はありますか？車で行けますか？何台とめられますか？",
