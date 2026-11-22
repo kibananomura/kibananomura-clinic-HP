@@ -1669,8 +1669,8 @@ const en: SiteDict = {
       "https://maps.google.com/maps?q=%E5%AE%AE%E5%B4%8E%E7%9C%8C%E5%AE%AE%E5%B4%8E%E5%B8%82%E7%86%8A%E9%87%8E5233-2&z=14&output=embed",
     mapButton: "Open in Google Maps",
     routeMaps: [
-      { src: "/access/route-kiyotake-v2.png", width: 2400, height: 1267, alt: "Simplified route map from the Kiyotake and Tano areas, showing the roads from Kiyotake IC and Kiyotake-Minami IC to the clinic, along with University of Miyazaki Hospital, the University of Miyazaki Kibana Campus and Miyazaki Daiichi Junior and Senior High School.", caption: "Route from the Kiyotake and Tano areas (simplified map, labels in Japanese). Tap to enlarge." },
-      { src: "/access/route-aoshima-v2.png", width: 1980, height: 2118, alt: "Simplified route map from the Aoshima, airport and JR Kibana Station areas, showing the roads via Route 220 and the Kizakibashi-minami intersection to the clinic, along with JR Kibana Station, Hinata Miyazaki Prefectural Sports Park and the University of Miyazaki Kibana Campus.", caption: "Route from the Aoshima, airport and Kibana Station areas (simplified map, labels in Japanese). Tap to enlarge." },
+      { src: "/access/route-kiyotake-en.png", width: 2400, height: 1267, alt: "Simplified route map from the Kiyotake and Tano areas, showing the roads from Kiyotake IC and Kiyotake-Minami IC to the clinic, along with University of Miyazaki Hospital, the University of Miyazaki Kibana Campus and Miyazaki Daiichi Junior and Senior High School.", caption: "Route from the Kiyotake and Tano areas (simplified map). Tap to enlarge." },
+      { src: "/access/route-aoshima-en.png", width: 1980, height: 2118, alt: "Simplified route map from the Aoshima, airport and JR Kibana Station areas, showing the roads via Route 220 and the Kizakibashi-minami intersection to the clinic, along with JR Kibana Station, Hinata Miyazaki Prefectural Sports Park and the University of Miyazaki Kibana Campus.", caption: "Route from the Aoshima, airport and Kibana Station areas (simplified map). Tap to enlarge." },
     ],
     addressLabel: "Address",
     addressValue: "5233-2 Kumano, Miyazaki City, Miyazaki 889-2151, Japan",
