@@ -17,6 +17,7 @@ import { posts } from "./blog";
 import { SITE_TEXT_CHUNKS } from "./chat-site-text.generated";
 import { CAREER_POSITIONS, COMMON_EMPLOYMENT_TERMS } from "./careers";
 import { INSURANCE_COPAY } from "./insurance-copay";
+import { PARKING_STATUS } from "./site";
 
 export type KnowledgeChunk = { title: string; url: string; text: string };
 
@@ -74,8 +75,24 @@ const BASIC_INFO: KnowledgeChunk = {
   ].join("\n"),
 };
 
+/**
+ * 「駐車場はありますか？」に「記載が見つかりません」と答えた不具合（2026-11-23）への対応。
+ * 台数の行が参照にあっても「ありますか」の形だと見落とすことがあったため、問いと答えの形でも持たせる。
+ * HPのよくある質問のページには載せない（駐車場はアクセス欄に書く方針）。台数は site.tsx の PARKING_STATUS から。
+ */
+const PARKING_QA: KnowledgeChunk = {
+  title: "よくある質問：駐車場はありますか？（車・自転車で来院するとき）",
+  url: "/#access",
+  text: [
+    "Q. 駐車場はありますか？車で行けますか？何台とめられますか？",
+    `A. はい、あります。駐車場は${PARKING_STATUS.ja_short}です（2027年10月の開院時）。発熱の方専用の5台は、発熱・感染症の症状がある方のための区画です。`,
+    "Q. 自転車・バイクはとめられますか？",
+    "A. はい。駐輪場を正面玄関の右横に設置予定です（自転車・バイク）。",
+  ].join("\n"),
+};
+
 function buildChunks(): KnowledgeChunk[] {
-  const chunks: KnowledgeChunk[] = [BASIC_INFO, ...SITE_TEXT_CHUNKS];
+  const chunks: KnowledgeChunk[] = [BASIC_INFO, PARKING_QA, ...SITE_TEXT_CHUNKS];
 
   // よくある質問は、該当する質問の位置へ直接案内する（id は faq-data.ts。予約・支払い・アクセス等は各ページの本文側）
   for (const item of FAQ_ITEMS_JA) {
@@ -210,6 +227,7 @@ function childSubsidyRules(): { keywords: RegExp; titles: string[] }[] {
  */
 const TOPIC_RULES: { keywords: RegExp; titles: string[] }[] = [
   { keywords: /院長|先生|医師|ドクター|経歴|出身|学歴|専門医|資格/, titles: ["院長紹介"] },
+  { keywords: /駐車|駐輪|自転車|バイク|車で|車は|とめ|停め|止め/, titles: [PARKING_QA.title] },
   { keywords: /駐車|駐輪|自転車|バイク|アクセス|場所|住所|行き方|バス|駅|薬局|バリアフリー|車いす|車椅子/, titles: ["アクセス"] },
   {
     keywords: /初診|持ち物|保険証|マイナ|医療証|受診の流れ|予約|キャンセル|待ち時間|順番|支払|クレジット|カード|トイレ|おしっこ|英語|english/i,
