@@ -37,7 +37,17 @@ if (jaStart < 0 || jaEnd < 0) {
   console.error("[chat:gen] ERROR: site.tsx の日本語辞書が見つかりません");
   process.exit(1);
 }
-const jaSource = source.slice(jaStart, jaEnd);
+// 定数（PARKING_STATUS など）で書かれた値は文字列リテラルとして拾えないので、先に中身へ置き換える。
+// 「駐車場」「駐輪場」のような短い見出しは下の strings() で落ちるため、
+// { label: "見出し", value: "本文" } と parkingLabel/parkingValue は「見出し：本文」の1行にまとめる。
+const parking = {};
+const pm = source.match(/export const PARKING_STATUS = \{([\s\S]*?)\} as const;/);
+if (pm) for (const m of pm[1].matchAll(/(\w+):\s*"((?:[^"\\]|\\.)*)"/g)) parking[m[1]] = m[2];
+const jaSource = source
+  .slice(jaStart, jaEnd)
+  .replace(/PARKING_STATUS\.(\w+)/g, (_, k) => JSON.stringify(parking[k] ?? ""))
+  .replace(/parkingLabel:\s*"([^"]*)",\s*\n\s*parkingValue:\s*"([^"]*)"/g, (_, l, v) => `parkingValue: "${l}：${v}"`)
+  .replace(/\{\s*label:\s*"([^"]*)",\s*value:\s*"((?:[^"\\]|\\.)*)"\s*\}/g, (_, l, v) => `"${l}：${v}"`);
 
 /** 辞書直下（インデント2）のセクションごとに本文を切り出す */
 function sectionBody(name) {
