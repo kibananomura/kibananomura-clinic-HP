@@ -10,7 +10,8 @@ import OpeningCountdown from "./OpeningCountdown";
 import { useSite } from "../lib/site";
 
 export default function Hero() {
-  const { t } = useSite();
+  const { t, lang } = useSite();
+  const photoDate = lang === "en" ? "Photo taken November 21, 2026" : "2026年11月21日撮影";
   const [openGuide, setOpenGuide] = useState(false);
 
   return (
@@ -21,6 +22,10 @@ export default function Hero() {
       {/* PC: 背景いっぱいに地図を敷き、テキストを重ねる */}
       <div className="hidden sm:block">
         <HeroBackground />
+        {/* 表紙の写真の撮影日 */}
+        <p className="absolute bottom-52 right-6 z-10 rounded-full bg-black/45 px-3 py-1 text-xs text-white">
+          {photoDate}
+        </p>
       </div>
 
       <div className="container-page">
@@ -35,6 +40,9 @@ export default function Hero() {
             sizes="100vw"
             className="object-cover object-[55%_68%]"
           />
+          <p className="absolute bottom-2 right-3 rounded-full bg-black/45 px-2.5 py-0.5 text-[11px] text-white">
+            {photoDate}
+          </p>
         </div>
 
         <div className="max-w-2xl">
