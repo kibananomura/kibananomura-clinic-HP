@@ -1,6 +1,6 @@
 ---
 date: 2026.10.06
-cover: /blog/kibana-landscape.jpg
+cover: /blog/tomato-juice-ryouba.jpg
 category_ja: 健康・予防の話
 category_en: Health and prevention
 subcategory_ja: コレステロール・尿酸

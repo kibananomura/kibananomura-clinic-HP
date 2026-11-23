@@ -3957,10 +3957,10 @@ export const generatedPosts: BlogPost[] = [
     "slug": "tomato-juice-ryouba",
     "date": "2026.10.06",
     "updated": "2026.11.21",
-    "cover": "/blog/kibana-landscape.jpg",
-    "coverVersion": "951e262c",
-    "coverWidth": 1536,
-    "coverHeight": 1024,
+    "cover": "/blog/tomato-juice-ryouba.jpg",
+    "coverVersion": "7ccde719",
+    "coverWidth": 1600,
+    "coverHeight": 900,
     "sources": [
       {
         "label": "日本動脈硬化学会「動脈硬化性疾患予防ガイドライン2022年版」",
@@ -5725,10 +5725,10 @@ export const generatedPosts: BlogPost[] = [
   {
     "slug": "kusuri-yamerarenai",
     "date": "2026.10.18",
-    "cover": "/blog/kibana-landscape.jpg",
-    "coverVersion": "951e262c",
-    "coverWidth": 1536,
-    "coverHeight": 1024,
+    "cover": "/blog/kusuri-yamerarenai.jpg",
+    "coverVersion": "6e9cb14a",
+    "coverWidth": 1600,
+    "coverHeight": 900,
     "sources": [
       {
         "label": "日本高血圧学会「高血圧管理・治療ガイドライン2025」",
