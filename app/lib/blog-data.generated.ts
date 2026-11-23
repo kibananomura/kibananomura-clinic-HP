@@ -15130,10 +15130,10 @@ export const generatedPosts: BlogPost[] = [
   {
     "slug": "ldl-mokuhyou-nichibei",
     "date": "2026.11.21",
-    "cover": "/blog/kibana-landscape.jpg",
-    "coverVersion": "951e262c",
-    "coverWidth": 1536,
-    "coverHeight": 1024,
+    "cover": "/blog/ldl-mokuhyou-nichibei.jpg",
+    "coverVersion": "acaee240",
+    "coverWidth": 1600,
+    "coverHeight": 900,
     "youtube": "Wt2KDSBgLok",
     "sources": [
       {
@@ -15434,10 +15434,10 @@ export const generatedPosts: BlogPost[] = [
   {
     "slug": "samui-hanamizu",
     "date": "2026.11.22",
-    "cover": "/blog/kibana-landscape.jpg",
-    "coverVersion": "951e262c",
-    "coverWidth": 1536,
-    "coverHeight": 1024,
+    "cover": "/blog/samui-hanamizu.jpg",
+    "coverVersion": "81cc0801",
+    "coverWidth": 1600,
+    "coverHeight": 900,
     "sources": [
       {
         "label": "日本耳鼻咽喉科頭頸部外科学会「鼻科・嗅覚・アレルギー」",
