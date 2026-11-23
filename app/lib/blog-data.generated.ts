@@ -7834,10 +7834,10 @@ export const generatedPosts: BlogPost[] = [
   {
     "slug": "kodomo-outo-geri-suibun",
     "date": "2026.10.28",
-    "cover": "/blog/kibana-landscape.jpg",
-    "coverVersion": "951e262c",
-    "coverWidth": 1536,
-    "coverHeight": 1024,
+    "cover": "/blog/kodomo-outo-geri-suibun.jpg",
+    "coverVersion": "0f64d817",
+    "coverWidth": 1600,
+    "coverHeight": 900,
     "sources": [
       {
         "label": "日本小児救急医学会「エビデンスに基づいた子どもの腹部救急診療ガイドライン2017 第I部 小児急性胃腸炎診療ガイドライン」（Minds）",

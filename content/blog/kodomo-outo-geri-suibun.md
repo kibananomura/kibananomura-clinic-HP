@@ -1,6 +1,6 @@
 ---
 date: 2026.10.28
-cover: /blog/kibana-landscape.jpg
+cover: /blog/kodomo-outo-geri-suibun.jpg
 category_ja: 健康・予防の話
 category_en: Health and prevention
 subcategory_ja: 子どもの健康
