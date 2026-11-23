@@ -2424,10 +2424,10 @@ export const generatedPosts: BlogPost[] = [
     "slug": "kaicho-mattan-en",
     "date": "2026.10.01",
     "updated": "2026.11.21",
-    "cover": "/blog/kibana-landscape.jpg",
-    "coverVersion": "951e262c",
-    "coverWidth": 1536,
-    "coverHeight": 1024,
+    "cover": "/blog/kaicho-mattan-en.jpg",
+    "coverVersion": "981d4a95",
+    "coverWidth": 1600,
+    "coverHeight": 900,
     "sources": [
       {
         "label": "日本腹部救急医学会ほか「急性腹症診療ガイドライン2015」",
@@ -5396,10 +5396,10 @@ export const generatedPosts: BlogPost[] = [
   {
     "slug": "zensoku-chiryo",
     "date": "2026.10.16",
-    "cover": "/blog/kibana-landscape.jpg",
-    "coverVersion": "951e262c",
-    "coverWidth": 1536,
-    "coverHeight": 1024,
+    "cover": "/blog/zensoku-chiryo.jpg",
+    "coverVersion": "fe689428",
+    "coverWidth": 1600,
+    "coverHeight": 900,
     "sources": [
       {
         "label": "日本アレルギー学会「喘息予防・管理ガイドライン2024」"
