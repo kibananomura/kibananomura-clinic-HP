@@ -1,6 +1,6 @@
 ---
 date: 2026.09.27
-cover: /blog/kibana-landscape.jpg
+cover: /blog/touen-toukou-itsukara.jpg
 category_ja: 健康・予防の話
 category_en: Health and prevention
 subcategory_ja: 子どもの健康

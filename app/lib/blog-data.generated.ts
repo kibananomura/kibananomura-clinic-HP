@@ -1290,10 +1290,10 @@ export const generatedPosts: BlogPost[] = [
   {
     "slug": "touen-toukou-itsukara",
     "date": "2026.09.27",
-    "cover": "/blog/kibana-landscape.jpg",
-    "coverVersion": "951e262c",
-    "coverWidth": 1536,
-    "coverHeight": 1024,
+    "cover": "/blog/touen-toukou-itsukara.jpg",
+    "coverVersion": "5266c497",
+    "coverWidth": 1600,
+    "coverHeight": 900,
     "sources": [
       {
         "label": "e-Gov法令検索「学校保健安全法施行規則」",
@@ -3745,10 +3745,10 @@ export const generatedPosts: BlogPost[] = [
   {
     "slug": "statin-kinniku-houkai",
     "date": "2026.10.05",
-    "cover": "/blog/kibana-landscape.jpg",
-    "coverVersion": "951e262c",
-    "coverWidth": 1536,
-    "coverHeight": 1024,
+    "cover": "/blog/statin-kinniku-houkai.jpg",
+    "coverVersion": "8537e865",
+    "coverWidth": 1600,
+    "coverHeight": 900,
     "youtube": "FaoIItBAI8Q",
     "sources": [
       {

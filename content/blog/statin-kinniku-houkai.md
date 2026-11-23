@@ -1,6 +1,6 @@
 ---
 date: 2026.10.05
-cover: /blog/kibana-landscape.jpg
+cover: /blog/statin-kinniku-houkai.jpg
 youtube: FaoIItBAI8Q
 category_ja: 健康・予防の話
 category_en: Health and prevention
