@@ -678,10 +678,10 @@ export const generatedPosts: BlogPost[] = [
   {
     "slug": "bensenketsu-yousei",
     "date": "2026.09.24",
-    "cover": "/blog/kibana-landscape.jpg",
-    "coverVersion": "951e262c",
-    "coverWidth": 1536,
-    "coverHeight": 1024,
+    "cover": "/blog/bensenketsu-yousei.jpg",
+    "coverVersion": "46cfe21f",
+    "coverWidth": 1600,
+    "coverHeight": 900,
     "sources": [
       {
         "label": "国立がん研究センター がん情報サービス「大腸がん検診について」",
