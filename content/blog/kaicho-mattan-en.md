@@ -8,9 +8,9 @@ subcategory_en: Stomach & digestion
 title_ja: 右下腹部が痛い、もしかして盲腸？——実は多い「回腸末端炎（小腸の出口の炎症）」のこと
 title_en: Pain in your lower right belly — is it appendicitis? Meet the often-overlooked “terminal ileitis”
 excerpt_ja: 「盲腸だと思って来たんです」——そう心配して受診され、検査の結果「回腸末端炎」だった、という方は少なくありません。聞き慣れない病名に不安になった方へ。
-seo_title_ja: 回腸末端炎とは？ 盲腸とまちがえやすい右下腹部の痛みと、主な原因
-seo_description_ja: 回腸末端炎（かいちょうまったんえん）は、小腸の出口の炎症です。多くは細菌などによる一時的なもので、自然に、またはお薬で良くなります。盲腸（虫垂炎）との違い、主な原因3つ、詳しく調べたほうがよいサインを消化器外科医が解説します。
-seo_title_en: What is terminal ileitis? Lower right belly pain often mistaken for appendicitis, and its main causes
+seo_title_ja: 回腸末端炎の原因と症状｜盲腸（虫垂炎）との違いを消化器外科医が解説
+seo_description_ja: 回腸末端炎（かいちょうまったんえん・小腸末端の炎症）の主な原因3つと、右下腹部の痛み・下痢などの症状を、消化器外科医が解説します。多くは細菌などによる一時的なもので、自然に、またはお薬で良くなります。盲腸（虫垂炎）との違いと、詳しく調べたほうがよいサインも。
+seo_title_en: Terminal ileitis: causes, symptoms, and how it differs from appendicitis
 seo_description_en: Terminal ileitis is inflammation at the end of the small intestine. Most cases are temporary, often from bacteria, and get better on their own or with medicine. A gastrointestinal surgeon explains how it differs from appendicitis, its three main causes, and the signs that need a closer look.
 updated: 2026.11.21
 excerpt_en: “I came in because I thought it was my appendix” — and the tests showed terminal ileitis instead. If an unfamiliar diagnosis has you worried, this is for you.
@@ -37,7 +37,7 @@ sources:
 
 ### 「回腸末端」は、盲腸のすぐ隣にあります
 
-小腸は、胃から続く長い腸で、最後の部分を「回腸（かいちょう）」と呼びます。その回腸の終わり、ちょうど**大腸につながる手前の部分が「回腸末端」**です。
+小腸は、胃から続く長い腸で、最後の部分を「回腸（かいちょう）」と呼びます。その回腸の終わり、ちょうど**大腸につながる手前の部分が「回腸末端」**です（「小腸の末端」とも呼ばれます）。
 
 そして、この回腸末端がつながる大腸の入り口が「盲腸」で、いわゆる「盲腸（の病気）」と呼ばれている**虫垂（ちゅうすい）**は、その盲腸からぶら下がっている細い突起です。つまり、回腸末端と虫垂は、**右下腹部のほぼ同じ場所に、隣り合って並んでいる**のです。
 

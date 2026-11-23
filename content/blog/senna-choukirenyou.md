@@ -8,8 +8,8 @@ subcategory_en: Stomach & digestion
 title_ja: その便秘薬、飲む量が増えていませんか？——センナを毎日続けないほうがよい理由
 title_en: Is your laxative dose creeping up? Why senna isn't meant for every day
 excerpt_ja: 「最初は1錠で出ていたのに、今は3錠飲まないと出ない」——それは、あなたのせいではありません。センナを長く毎日続けたときに、お腹の中で起きていることをお話しします。
-seo_title_ja: センナ茶・センナは毎日飲んでも大丈夫？ 便秘薬の量が増えたときの見直し方
-seo_description_ja: センナ茶やセンナ（センノシド）は、毎日続けると効きにくくなり、量が増えがちです。センナ茶にも同じ下剤の成分が入っています。毎日の便秘のお薬の選び方と、急にやめない切り替え方を医師が解説します。
+seo_title_ja: センナ茶は毎日飲んでも大丈夫？ 効きすぎるときと飲む頻度、量が増えたときの見直し方
+seo_description_ja: センナ茶やセンナ（センノシド）は、毎日続けると効きにくくなり、量が増えがちです。反対に、センナ茶が効きすぎておなかが痛い・下痢が続くときの対処、飲む頻度の目安、毎日の便秘のお薬の選び方と、急にやめない切り替え方を医師が解説します。
 seo_title_en: Is it okay to take senna or senna tea every day? What to do when your laxative dose keeps rising
 seo_description_en: Senna and senna tea tend to work less over time when taken daily, so the dose creeps up. Senna tea contains the same laxative ingredient. A doctor explains how to choose everyday constipation treatment and how to switch without stopping suddenly.
 updated: 2026.11.21
@@ -53,6 +53,16 @@ sources:
 国民生活センターの調べでは、銘柄によっては、カップ2〜3杯で医薬品として飲む量以上の成分をとってしまうものがありました。お茶は1杯ごとの量が分かりにくく、知らないうちに「毎日、下剤を飲んでいる」のと同じ状態になりやすいのです。
 
 また、センナ茶で体重が減ったように見えても、それは便や水分が出た分で、脂肪が減ったわけではありません。センナ茶を毎晩飲まないと出ない方も、このあとの見直し方は同じです。
+
+### センナ茶が「効きすぎる」とき
+
+センナ茶は、1杯に入っている成分の量がはっきりしないため、日によって効きすぎることもあります。おなかが強く痛む、水のような便が何度も出る、といったときは、次のようにしてください。
+
+- その日はもう飲まず、次からは量を減らすか、間をあける
+- 下痢が続くと、体の水分や塩分（カリウムなど）が失われるので、水分をこまめにとる
+- 痛みや下痢がおさまらない、ふらつく、便に血が混じるときは、早めに医療機関に相談する
+
+「どのくらいの間隔で飲めばいいの？」と聞かれることもあります。答えは、**毎日の習慣にはせず、出ないときだけの「お助け役」に**です。毎日飲まないと出ない状態が続いているなら、このあとの見直し方を参考に、かかりつけ医や薬剤師に相談してください。
 
 ## なぜ、だんだん効きにくくなるのか
 
@@ -141,6 +151,16 @@ Many people think, "It's tea, not medicine, so it's fine every day." But senna t
 Japan's National Consumer Affairs Center found that with some brands, just 2–3 cups delivered more of this ingredient than a medicinal dose. With tea, it's hard to know how much is in each cup, so it's easy to end up, without realizing it, in the same situation as "taking a laxative every day."
 
 And if senna tea seems to make your weight go down, that's only the stool and water that came out — not fat. If you can't go without senna tea every night, the steps for reviewing your treatment below are the same.
+
+### When senna tea works "too well"
+
+Because you can't tell how much of the ingredient is in each cup, senna tea can sometimes work too strongly. If you get strong belly pain or watery stools again and again:
+
+- Don't drink any more that day, and next time use less or wait longer between cups
+- Ongoing diarrhea drains water and salts (such as potassium) from your body, so drink fluids often
+- If the pain or diarrhea doesn't settle, you feel lightheaded, or there is blood in your stool, contact a medical facility soon
+
+People also ask, "How often should I drink it?" The answer: **don't make it a daily habit — keep it as a "rescue" for days you can't go.** If you can't go without it every day, use the steps below and talk to your doctor or pharmacist.
 
 ## Why does it gradually stop working?
 
