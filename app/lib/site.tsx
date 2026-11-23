@@ -722,8 +722,8 @@ const ja: SiteDict = {
       "https://maps.google.com/maps?q=%E5%AE%AE%E5%B4%8E%E7%9C%8C%E5%AE%AE%E5%B4%8E%E5%B8%82%E7%86%8A%E9%87%8E5233-2&z=14&output=embed",
     mapButton: "Googleマップで開く",
     routeMaps: [
-      { src: "/access/route-kiyotake-v2.png", width: 2400, height: 1267, alt: "清武・田野方面からの道順の略図。清武IC・清武南ICから国道269号・県道338号などを通って当院へ。宮崎大学医学部附属病院、宮崎大学木花キャンパス、宮崎第一中学高校の位置も示しています。", caption: "清武・田野方面からの道順（略図）。タップすると大きく表示します。" },
-      { src: "/access/route-aoshima-v2.png", width: 1980, height: 2118, alt: "青島・空港・木花駅方面からの道順の略図。国道220号・県道367号などから木崎橋南交差点を通って当院へ。JR木花駅、ひなた宮崎県運動公園、宮崎大学木花キャンパスの位置も示しています。", caption: "青島・空港・木花駅方面からの道順（略図）。タップすると大きく表示します。" },
+      { src: "/access/route-kiyotake-v3.png", width: 2400, height: 1279, alt: "清武・田野方面からの道順の略図。清武IC・清武南ICから国道269号・県道338号などを通り、岡交差点・永田交差点・木原交差点を経て当院へ。JR清武駅、宮崎大学医学部附属病院、宮崎大学木花キャンパス、宮崎県立看護大学、宮崎第一中学高校、ガソリンスタンドの位置と方角も示しています。", caption: "清武・田野方面からの道順（略図）。タップすると大きく表示します。" },
+      { src: "/access/route-aoshima-v3.png", width: 1980, height: 2120, alt: "青島・空港・木花駅方面からの道順の略図。国道220号・県道367号などから木崎橋南交差点を通って当院へ。JR木花駅、ひなた宮崎県運動公園、宮崎大学木花キャンパスの位置も示しています。", caption: "青島・空港・木花駅方面からの道順（略図）。タップすると大きく表示します。" },
     ],
     addressLabel: "所在地",
     addressValue: "〒889-2151 宮崎県宮崎市熊野5233-2",
@@ -1669,8 +1669,8 @@ const en: SiteDict = {
       "https://maps.google.com/maps?q=%E5%AE%AE%E5%B4%8E%E7%9C%8C%E5%AE%AE%E5%B4%8E%E5%B8%82%E7%86%8A%E9%87%8E5233-2&z=14&output=embed",
     mapButton: "Open in Google Maps",
     routeMaps: [
-      { src: "/access/route-kiyotake-en.png", width: 2400, height: 1267, alt: "Simplified route map from the Kiyotake and Tano areas, showing the roads from Kiyotake IC and Kiyotake-Minami IC to the clinic, along with University of Miyazaki Hospital, the University of Miyazaki Kibana Campus and Miyazaki Daiichi Junior and Senior High School.", caption: "Route from the Kiyotake and Tano areas (simplified map). Tap to enlarge." },
-      { src: "/access/route-aoshima-en.png", width: 1980, height: 2118, alt: "Simplified route map from the Aoshima, airport and JR Kibana Station areas, showing the roads via Route 220 and the Kizakibashi-minami intersection to the clinic, along with JR Kibana Station, Hinata Miyazaki Prefectural Sports Park and the University of Miyazaki Kibana Campus.", caption: "Route from the Aoshima, airport and Kibana Station areas (simplified map). Tap to enlarge." },
+      { src: "/access/route-kiyotake-en-v3.png", width: 2400, height: 1279, alt: "Simplified route map from the Kiyotake and Tano areas, showing the roads from Kiyotake IC and Kiyotake-Minami IC via the Oka, Nagata and Kihara intersections to the clinic, along with JR Kiyotake Station, University of Miyazaki Hospital, the University of Miyazaki Kibana Campus, Miyazaki Prefectural Nursing University, Miyazaki Daiichi Junior and Senior High School, gas stations and a compass.", caption: "Route from the Kiyotake and Tano areas (simplified map). Tap to enlarge." },
+      { src: "/access/route-aoshima-en-v3.png", width: 1980, height: 2120, alt: "Simplified route map from the Aoshima, airport and JR Kibana Station areas, showing the roads via Route 220 and the Kizakibashi-minami intersection to the clinic, along with JR Kibana Station, Hinata Miyazaki Prefectural Sports Park and the University of Miyazaki Kibana Campus.", caption: "Route from the Aoshima, airport and Kibana Station areas (simplified map). Tap to enlarge." },
     ],
     addressLabel: "Address",
     addressValue: "5233-2 Kumano, Miyazaki City, Miyazaki 889-2151, Japan",
