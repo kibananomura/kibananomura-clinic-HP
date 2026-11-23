@@ -3551,10 +3551,10 @@ export const generatedPosts: BlogPost[] = [
   {
     "slug": "kouatsu-genryou-fuan",
     "date": "2026.10.04",
-    "cover": "/blog/kibana-landscape.jpg",
-    "coverVersion": "951e262c",
-    "coverWidth": 1536,
-    "coverHeight": 1024,
+    "cover": "/blog/kouatsu-genryou-fuan.jpg",
+    "coverVersion": "3bc979c6",
+    "coverWidth": 1600,
+    "coverHeight": 900,
     "sources": [
       {
         "label": "日本高血圧学会「高血圧管理・治療ガイドライン2025」",
@@ -5903,10 +5903,10 @@ export const generatedPosts: BlogPost[] = [
   {
     "slug": "ppi-chouki-fukuyou",
     "date": "2026.10.19",
-    "cover": "/blog/kibana-landscape.jpg",
-    "coverVersion": "951e262c",
-    "coverWidth": 1536,
-    "coverHeight": 1024,
+    "cover": "/blog/ppi-chouki-fukuyou.jpg",
+    "coverVersion": "5044f714",
+    "coverWidth": 1600,
+    "coverHeight": 900,
     "sources": [
       {
         "label": "日本消化器病学会「胃食道逆流症（GERD）診療ガイドライン」",
