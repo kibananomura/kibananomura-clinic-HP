@@ -1783,10 +1783,10 @@ export const generatedPosts: BlogPost[] = [
   {
     "slug": "ikamera-junbi",
     "date": "2026.09.29",
-    "cover": "/blog/kibana-landscape.jpg",
-    "coverVersion": "951e262c",
-    "coverWidth": 1536,
-    "coverHeight": 1024,
+    "cover": "/blog/ikamera-junbi.jpg",
+    "coverVersion": "c822cdf6",
+    "coverWidth": 1600,
+    "coverHeight": 900,
     "ja": {
       "category": "健康・予防の話",
       "subcategory": "胃腸・消化器",
@@ -2112,10 +2112,10 @@ export const generatedPosts: BlogPost[] = [
   {
     "slug": "ikamera-nansai-kara",
     "date": "2026.09.30",
-    "cover": "/blog/kibana-landscape.jpg",
-    "coverVersion": "951e262c",
-    "coverWidth": 1536,
-    "coverHeight": 1024,
+    "cover": "/blog/ikamera-nansai-kara.jpg",
+    "coverVersion": "17904389",
+    "coverWidth": 1600,
+    "coverHeight": 900,
     "sources": [
       {
         "label": "厚生労働省「がん検診（胃がん検診）」がん対策推進企業アクション",

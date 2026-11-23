@@ -249,8 +249,7 @@ const TOPIC_RULES: { keywords: RegExp; titles: string[] }[] = [
 ];
 
 /** 質問の語尾（「はありますか？」「してもらえますか」「やってますか」など）。検索の点数づけの前に外す */
-const QUESTION_TAIL =
-  /[はがもを]?(あります|ありません|できます|できません|(して|出して|診て|見て)?(もらえ|いただけ)ます|やって(い)?ます|されます|して(い)?ます|いいです|よいです|です)(か)?[？?。!！\s]*$/;
+const QUESTION_TAIL = /[はがもを]?[ぁ-ん]{0,6}(ます|ません|です|でしょう)(か)?[？?。!！…\s]*$/;
 
 // 症状・病気の解説ページは、ブログより少し優先して参照する（解説ページへ案内しやすくするため）
 const HEALTH_PAGE_BOOST = 1.3;
@@ -260,8 +259,10 @@ export function searchKnowledge(query: string, limit = 5, maxChars = 5000): Know
   // 「自由診療」「保険外」のような言い方は、HPの表記（自費診療）に寄せた語も足す
   // 「〜はありますか？」「〜できますか？」などの語尾は、よくある質問の問いの文と同じ形のため、
   // 中身の関係ない質問（駐車場→禁煙外来・内覧会など）まで拾っていた（2026-11-23）。検索の点数には語尾を使わない
-  const core = query.replace(QUESTION_TAIL, "").trim() || query;
-  const expanded = `${core} ${core.replace(/(\S)が?痛(い|む|くて|み)/g, "$1痛")} ${/自由診療|保険外/.test(query) ? "自費診療" : ""}`;
+  const stripped = query.replace(QUESTION_TAIL, "").trim();
+  // 「腰がいたいです」→「腰」のように短くなりすぎるときは、元の文のまま探す
+  const core = stripped.length >= 2 ? stripped : query;
+  const expanded = `${core} ${core.replace(/(\S)が?(痛|いた)(い|む|くて|み)/g, "$1痛")} ${/自由診療|保険外/.test(query) ? "自費診療" : ""}`;
   const q = bigrams(expanded);
   if (q.size === 0) return [BASIC_INFO];
   const scored = CHUNKS.map((chunk, i) => {
