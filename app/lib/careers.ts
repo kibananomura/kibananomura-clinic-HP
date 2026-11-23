@@ -356,17 +356,17 @@ export const CAREER_POSITIONS: CareerPosition[] = [
       title: "事務",
       badge: "受付・会計・レセプト",
       summary:
-        "受付やパソコン入力だけでなく、患者さんの不安を取り除く『おもてなし』の一員として活躍いただきます。開業初期の仕組みづくりから携わっていただけるため、将来はクリニック運営を支えるステップアップの道も見込めます。",
+        "受付やパソコン入力だけでなく、患者さんの不安を取り除く『おもてなし』の一員として活躍いただきます。開業初期の仕組みづくりから携わっていただけるため、将来はクリニック運営を支えるステップアップの道も見込めます。電子カルテは、レセプトのシステム（レセコン）と一体になったものを導入する予定です。診察の記録がそのまま会計やレセプトにつながるため、別のシステムに打ち直す手間が少なくてすみます。操作は開院前の研修で一からお伝えします。",
       duties: [
         "受付・会計・待合の案内",
-        "レセプト作成、保険請求関連の事務",
+        "レセプト（保険請求）の確認・提出などの事務（レセコン一体型の電子カルテを使います）",
         "電話・LINE対応、予約管理（開院後）",
         "医師・看護師との連携",
       ],
       requirements: [
-        "医療事務経験者歓迎（レセプト経験がある方優遇）",
-        "未経験の方も、意欲があればご相談ください",
-        "患者さんへの丁寧な対応ができる方",
+        "患者さんに丁寧に、やさしく対応できる方（医療の知識よりも人柄を大切にしています）",
+        "医療事務が未経験の方も歓迎します（資格は問いません。電子カルテやレセプトの操作は、開院前の研修でお伝えします）",
+        "医療事務の経験がある方も歓迎します（レセプト経験がある方優遇）",
         "【歓迎スキル】クリニックでの受付・レセプト業務経験者、電子カルテ・Web問診等のITツール操作に抵抗がない方を歓迎します",
       ],
       conditions: [
@@ -382,17 +382,17 @@ export const CAREER_POSITIONS: CareerPosition[] = [
       title: "Administrative staff",
       badge: "Reception, billing & claims",
       summary:
-        "Beyond reception and data entry, our admin staff are hospitality professionals who put patients at ease. As a new clinic, you can help shape our workflows from the start, with room to grow into practice management over time.",
+        "Beyond reception and data entry, our admin staff are hospitality professionals who put patients at ease. As a new clinic, you can help shape our workflows from the start, with room to grow into practice management over time. We plan to use an electronic medical record system with built-in billing and claims (receipt computer). What is recorded during the consultation flows straight into billing and claims, so there is little re-entering into another system. We will teach you how to use it from scratch in training before opening.",
       duties: [
         "Reception, billing and waiting-area guidance",
-        "Claims processing and insurance-related admin",
+        "Checking and submitting insurance claims (using the EMR with built-in claims processing)",
         "Phone and LINE support; appointment management (after opening)",
         "Coordination with clinical staff",
       ],
       requirements: [
-        "Medical admin experience preferred (claims experience a plus)",
-        "Motivated applicants without experience welcome",
-        "Friendly, patient-facing communication",
+        "Kind, careful communication with patients (we value personality over medical knowledge)",
+        "No medical admin experience or qualification needed (we will teach EMR and claims work in training before opening)",
+        "Medical admin experience also welcome (claims experience a plus)",
         "[Valued skills] We welcome applicants with clinic reception/claims experience, and those comfortable using electronic medical records, web pre-screening and other IT tools",
       ],
       conditions: [
