@@ -6742,10 +6742,10 @@ export const generatedPosts: BlogPost[] = [
   {
     "slug": "furumisuto-hana-no-jotai",
     "date": "2026.10.24",
-    "cover": "/blog/kibana-landscape.jpg",
-    "coverVersion": "951e262c",
-    "coverWidth": 1536,
-    "coverHeight": 1024,
+    "cover": "/blog/furumisuto-hana-no-jotai.jpg",
+    "coverVersion": "9b8c06c3",
+    "coverWidth": 1600,
+    "coverHeight": 900,
     "sources": [
       {
         "label": "PMDA「フルミスト点鼻液」添付文書",
