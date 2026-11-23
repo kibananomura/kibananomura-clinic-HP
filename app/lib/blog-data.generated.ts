@@ -6086,10 +6086,10 @@ export const generatedPosts: BlogPost[] = [
   {
     "slug": "kaze-taisho-ryoho",
     "date": "2026.10.20",
-    "cover": "/blog/kibana-landscape.jpg",
-    "coverVersion": "951e262c",
-    "coverWidth": 1536,
-    "coverHeight": 1024,
+    "cover": "/blog/kaze-taisho-ryoho.jpg",
+    "coverVersion": "3df57b75",
+    "coverWidth": 1600,
+    "coverHeight": 900,
     "sources": [
       {
         "label": "厚生労働省「抗微生物薬適正使用の手引き 第二版」",
@@ -6968,10 +6968,10 @@ export const generatedPosts: BlogPost[] = [
   {
     "slug": "legionella",
     "date": "2026.10.25",
-    "cover": "/blog/kibana-landscape.jpg",
-    "coverVersion": "951e262c",
-    "coverWidth": 1536,
-    "coverHeight": 1024,
+    "cover": "/blog/legionella.jpg",
+    "coverVersion": "5d3adda3",
+    "coverWidth": 1600,
+    "coverHeight": 900,
     "sources": [
       {
         "label": "厚生労働省「公衆浴場における衛生等管理要領」「レジオネラ症防止指針」"

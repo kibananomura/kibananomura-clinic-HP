@@ -1,6 +1,6 @@
 ---
 date: 2026.10.20
-cover: /blog/kibana-landscape.jpg
+cover: /blog/kaze-taisho-ryoho.jpg
 category_ja: 健康・予防の話
 category_en: Health and prevention
 subcategory_ja: 感染症・ワクチン
