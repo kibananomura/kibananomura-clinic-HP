@@ -1,6 +1,6 @@
 ---
 date: 未定（料金と診療体制が決まってから日付を入れる）
-cover: /blog/kibana-landscape.jpg
+cover: /blog/loh-chiryo.jpg
 category_ja: 健康・予防の話
 category_en: Health and prevention
 subcategory_ja: 男性の健康

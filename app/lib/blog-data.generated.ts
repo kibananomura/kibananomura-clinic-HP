@@ -8927,7 +8927,7 @@ export const generatedPosts: BlogPost[] = [
     "date": "2026.11.01",
     "updated": "2026.11.21",
     "cover": "/blog/senna-choukirenyou.jpg",
-    "coverVersion": "8a786017",
+    "coverVersion": "b98e29af",
     "coverWidth": 1600,
     "coverHeight": 900,
     "sources": [
