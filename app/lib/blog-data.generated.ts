@@ -881,10 +881,10 @@ export const generatedPosts: BlogPost[] = [
   {
     "slug": "daichou-camera-junbi",
     "date": "2026.09.25",
-    "cover": "/blog/kibana-landscape.jpg",
-    "coverVersion": "951e262c",
-    "coverWidth": 1536,
-    "coverHeight": 1024,
+    "cover": "/blog/daichou-camera-junbi.jpg",
+    "coverVersion": "ef8e0522",
+    "coverWidth": 1600,
+    "coverHeight": 900,
     "sources": [
       {
         "label": "国立がん研究センター がん情報サービス「大腸がん検診について」",
@@ -1095,10 +1095,10 @@ export const generatedPosts: BlogPost[] = [
   {
     "slug": "daichou-polyp",
     "date": "2026.09.26",
-    "cover": "/blog/kibana-landscape.jpg",
-    "coverVersion": "951e262c",
-    "coverWidth": 1536,
-    "coverHeight": 1024,
+    "cover": "/blog/daichou-polyp.jpg",
+    "coverVersion": "73926230",
+    "coverWidth": 1600,
+    "coverHeight": 900,
     "sources": [
       {
         "label": "日本消化器病学会「患者さんとご家族のための大腸ポリープガイド2023」",
