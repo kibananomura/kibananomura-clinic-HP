@@ -5038,10 +5038,10 @@ export const generatedPosts: BlogPost[] = [
   {
     "slug": "tumor-marker-checkup",
     "date": "2026.10.14",
-    "cover": "/blog/kibana-landscape.jpg",
-    "coverVersion": "951e262c",
-    "coverWidth": 1536,
-    "coverHeight": 1024,
+    "cover": "/blog/tumor-marker-checkup.jpg",
+    "coverVersion": "668c269c",
+    "coverWidth": 1600,
+    "coverHeight": 900,
     "ja": {
       "category": "健康・予防の話",
       "subcategory": "健診・検査",
@@ -6431,10 +6431,10 @@ export const generatedPosts: BlogPost[] = [
   {
     "slug": "seijou-no-jouge-fuan",
     "date": "2026.10.22",
-    "cover": "/blog/kibana-landscape.jpg",
-    "coverVersion": "951e262c",
-    "coverWidth": 1536,
-    "coverHeight": 1024,
+    "cover": "/blog/seijou-no-jouge-fuan.jpg",
+    "coverVersion": "ded94f7e",
+    "coverWidth": 1600,
+    "coverHeight": 900,
     "sources": [
       {
         "label": "日本高血圧学会「高血圧管理・治療ガイドライン2025」",
