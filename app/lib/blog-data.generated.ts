@@ -5582,10 +5582,10 @@ export const generatedPosts: BlogPost[] = [
   {
     "slug": "seikatsu-shukanbyo-gokai",
     "date": "2026.10.17",
-    "cover": "/blog/kibana-landscape.jpg",
-    "coverVersion": "951e262c",
-    "coverWidth": 1536,
-    "coverHeight": 1024,
+    "cover": "/blog/seikatsu-shukanbyo-gokai.jpg",
+    "coverVersion": "7bdf8b40",
+    "coverWidth": 1600,
+    "coverHeight": 900,
     "sources": [
       {
         "label": "厚生省 公衆衛生審議会「生活習慣に着目した疾病対策の基本的方向性について（意見具申）」（1996年）",
@@ -6581,10 +6581,10 @@ export const generatedPosts: BlogPost[] = [
   {
     "slug": "shukketsu-shashin-onegai",
     "date": "2026.10.23",
-    "cover": "/blog/kibana-landscape.jpg",
-    "coverVersion": "951e262c",
-    "coverWidth": 1536,
-    "coverHeight": 1024,
+    "cover": "/blog/shukketsu-shashin-onegai.jpg",
+    "coverVersion": "c648b038",
+    "coverWidth": 1600,
+    "coverHeight": 900,
     "ja": {
       "category": "健康・予防の話",
       "subcategory": "足・腰・けが",

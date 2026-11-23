@@ -1,6 +1,6 @@
 ---
 date: 2026.10.23
-cover: /blog/kibana-landscape.jpg
+cover: /blog/shukketsu-shashin-onegai.jpg
 category_ja: 健康・予防の話
 category_en: Health and prevention
 subcategory_ja: 足・腰・けが
