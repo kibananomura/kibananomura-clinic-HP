@@ -10,7 +10,7 @@ title_en: Pain in your lower right belly — is it appendicitis? Meet the often-
 excerpt_ja: 「盲腸だと思って来たんです」——そう心配して受診され、検査の結果「回腸末端炎」だった、という方は少なくありません。聞き慣れない病名に不安になった方へ。
 seo_title_ja: 回腸末端炎の原因と症状｜盲腸（虫垂炎）との違いを消化器外科医が解説
 seo_description_ja: 回腸末端炎（かいちょうまったんえん・小腸末端の炎症）の主な原因3つと、右下腹部の痛み・下痢などの症状を、消化器外科医が解説します。多くは細菌などによる一時的なもので、自然に、またはお薬で良くなります。盲腸（虫垂炎）との違いと、詳しく調べたほうがよいサインも。
-seo_title_en: Terminal ileitis: causes, symptoms, and how it differs from appendicitis
+seo_title_en: "Terminal ileitis: causes, symptoms, and how it differs from appendicitis"
 seo_description_en: Terminal ileitis is inflammation at the end of the small intestine. Most cases are temporary, often from bacteria, and get better on their own or with medicine. A gastrointestinal surgeon explains how it differs from appendicitis, its three main causes, and the signs that need a closer look.
 updated: 2026.11.21
 excerpt_en: “I came in because I thought it was my appendix” — and the tests showed terminal ileitis instead. If an unfamiliar diagnosis has you worried, this is for you.

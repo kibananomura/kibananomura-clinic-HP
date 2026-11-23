@@ -2439,8 +2439,8 @@ export const generatedPosts: BlogPost[] = [
       "subcategory": "胃腸・消化器",
       "title": "右下腹部が痛い、もしかして盲腸？——実は多い「回腸末端炎（小腸の出口の炎症）」のこと",
       "excerpt": "「盲腸だと思って来たんです」——そう心配して受診され、検査の結果「回腸末端炎」だった、という方は少なくありません。聞き慣れない病名に不安になった方へ。",
-      "seoTitle": "回腸末端炎とは？ 盲腸とまちがえやすい右下腹部の痛みと、主な原因",
-      "seoDescription": "回腸末端炎（かいちょうまったんえん）は、小腸の出口の炎症です。多くは細菌などによる一時的なもので、自然に、またはお薬で良くなります。盲腸（虫垂炎）との違い、主な原因3つ、詳しく調べたほうがよいサインを消化器外科医が解説します。",
+      "seoTitle": "回腸末端炎の原因と症状｜盲腸（虫垂炎）との違いを消化器外科医が解説",
+      "seoDescription": "回腸末端炎（かいちょうまったんえん・小腸末端の炎症）の主な原因3つと、右下腹部の痛み・下痢などの症状を、消化器外科医が解説します。多くは細菌などによる一時的なもので、自然に、またはお薬で良くなります。盲腸（虫垂炎）との違いと、詳しく調べたほうがよいサインも。",
       "body": [
         {
           "kind": "text",
@@ -2468,7 +2468,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "小腸は、胃から続く長い腸で、最後の部分を「回腸（かいちょう）」と呼びます。その回腸の終わり、ちょうど**大腸につながる手前の部分が「回腸末端」**です。"
+          "text": "小腸は、胃から続く長い腸で、最後の部分を「回腸（かいちょう）」と呼びます。その回腸の終わり、ちょうど**大腸につながる手前の部分が「回腸末端」**です（「小腸の末端」とも呼ばれます）。"
         },
         {
           "kind": "text",
@@ -2597,7 +2597,7 @@ export const generatedPosts: BlogPost[] = [
       "subcategory": "Stomach & digestion",
       "title": "Pain in your lower right belly — is it appendicitis? Meet the often-overlooked “terminal ileitis”",
       "excerpt": "“I came in because I thought it was my appendix” — and the tests showed terminal ileitis instead. If an unfamiliar diagnosis has you worried, this is for you.",
-      "seoTitle": "What is terminal ileitis? Lower right belly pain often mistaken for appendicitis, and its main causes",
+      "seoTitle": "Terminal ileitis: causes, symptoms, and how it differs from appendicitis",
       "seoDescription": "Terminal ileitis is inflammation at the end of the small intestine. Most cases are temporary, often from bacteria, and get better on their own or with medicine. A gastrointestinal surgeon explains how it differs from appendicitis, its three main causes, and the signs that need a closer look.",
       "body": [
         {
@@ -8945,8 +8945,8 @@ export const generatedPosts: BlogPost[] = [
       "subcategory": "胃腸・消化器",
       "title": "その便秘薬、飲む量が増えていませんか？——センナを毎日続けないほうがよい理由",
       "excerpt": "「最初は1錠で出ていたのに、今は3錠飲まないと出ない」——それは、あなたのせいではありません。センナを長く毎日続けたときに、お腹の中で起きていることをお話しします。",
-      "seoTitle": "センナ茶・センナは毎日飲んでも大丈夫？ 便秘薬の量が増えたときの見直し方",
-      "seoDescription": "センナ茶やセンナ（センノシド）は、毎日続けると効きにくくなり、量が増えがちです。センナ茶にも同じ下剤の成分が入っています。毎日の便秘のお薬の選び方と、急にやめない切り替え方を医師が解説します。",
+      "seoTitle": "センナ茶は毎日飲んでも大丈夫？ 効きすぎるときと飲む頻度、量が増えたときの見直し方",
+      "seoDescription": "センナ茶やセンナ（センノシド）は、毎日続けると効きにくくなり、量が増えがちです。反対に、センナ茶が効きすぎておなかが痛い・下痢が続くときの対処、飲む頻度の目安、毎日の便秘のお薬の選び方と、急にやめない切り替え方を医師が解説します。",
       "body": [
         {
           "kind": "text",
@@ -8999,6 +8999,22 @@ export const generatedPosts: BlogPost[] = [
         {
           "kind": "text",
           "text": "また、センナ茶で体重が減ったように見えても、それは便や水分が出た分で、脂肪が減ったわけではありません。センナ茶を毎晩飲まないと出ない方も、このあとの見直し方は同じです。"
+        },
+        {
+          "kind": "text",
+          "text": "### センナ茶が「効きすぎる」とき"
+        },
+        {
+          "kind": "text",
+          "text": "センナ茶は、1杯に入っている成分の量がはっきりしないため、日によって効きすぎることもあります。おなかが強く痛む、水のような便が何度も出る、といったときは、次のようにしてください。"
+        },
+        {
+          "kind": "text",
+          "text": "- その日はもう飲まず、次からは量を減らすか、間をあける\n- 下痢が続くと、体の水分や塩分（カリウムなど）が失われるので、水分をこまめにとる\n- 痛みや下痢がおさまらない、ふらつく、便に血が混じるときは、早めに医療機関に相談する"
+        },
+        {
+          "kind": "text",
+          "text": "「どのくらいの間隔で飲めばいいの？」と聞かれることもあります。答えは、**毎日の習慣にはせず、出ないときだけの「お助け役」に**です。毎日飲まないと出ない状態が続いているなら、このあとの見直し方を参考に、かかりつけ医や薬剤師に相談してください。"
         },
         {
           "kind": "text",
@@ -9161,6 +9177,22 @@ export const generatedPosts: BlogPost[] = [
         {
           "kind": "text",
           "text": "And if senna tea seems to make your weight go down, that's only the stool and water that came out — not fat. If you can't go without senna tea every night, the steps for reviewing your treatment below are the same."
+        },
+        {
+          "kind": "text",
+          "text": "### When senna tea works \"too well\""
+        },
+        {
+          "kind": "text",
+          "text": "Because you can't tell how much of the ingredient is in each cup, senna tea can sometimes work too strongly. If you get strong belly pain or watery stools again and again:"
+        },
+        {
+          "kind": "text",
+          "text": "- Don't drink any more that day, and next time use less or wait longer between cups\n- Ongoing diarrhea drains water and salts (such as potassium) from your body, so drink fluids often\n- If the pain or diarrhea doesn't settle, you feel lightheaded, or there is blood in your stool, contact a medical facility soon"
+        },
+        {
+          "kind": "text",
+          "text": "People also ask, \"How often should I drink it?\" The answer: **don't make it a daily habit — keep it as a \"rescue\" for days you can't go.** If you can't go without it every day, use the steps below and talk to your doctor or pharmacist."
         },
         {
           "kind": "text",
