@@ -381,10 +381,10 @@ export const generatedPosts: BlogPost[] = [
   {
     "slug": "kara-no-michi",
     "date": "2026.09.15",
-    "cover": "/blog/kibana-landscape.jpg",
-    "coverVersion": "951e262c",
-    "coverWidth": 1536,
-    "coverHeight": 1024,
+    "cover": "/blog/kara-no-michi.jpg",
+    "coverVersion": "da2eac0f",
+    "coverWidth": 1600,
+    "coverHeight": 900,
     "ja": {
       "category": "院長の歩み",
       "title": "外科医から開業医へ（前編）——十数年、一つの場所に留まらなかった道のり",
@@ -4701,10 +4701,10 @@ export const generatedPosts: BlogPost[] = [
   {
     "slug": "i-gekai-kara-kakaritsukei",
     "date": "2026.10.11",
-    "cover": "/blog/kibana-landscape.jpg",
-    "coverVersion": "951e262c",
-    "coverWidth": 1536,
-    "coverHeight": 1024,
+    "cover": "/blog/i-gekai-kara-kakaritsukei.jpg",
+    "coverVersion": "91c039e1",
+    "coverWidth": 1600,
+    "coverHeight": 900,
     "ja": {
       "category": "院長の歩み",
       "title": "元・消化器外科医が、木花で「かかりつけ医」になった理由",

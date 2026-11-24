@@ -1,6 +1,6 @@
 ---
 date: 2026.10.11
-cover: /blog/kibana-landscape.jpg
+cover: /blog/i-gekai-kara-kakaritsukei.jpg
 category_ja: 院長の歩み
 category_en: The director's journey
 title_ja: 元・消化器外科医が、木花で「かかりつけ医」になった理由
