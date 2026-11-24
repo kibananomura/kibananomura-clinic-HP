@@ -4181,8 +4181,12 @@ export const generatedPosts: BlogPost[] = [
     ],
     "upcoming": [
       {
-        "ja": "善玉コレステロールが高すぎるのは、良いこと？——健診で「HDLだけ高い」と言われた方へ",
+        "ja": "善玉コレステロールが高すぎるのは、良いこと？——健診で「HDLだけ高い」と言われた方へ（善玉コレステロール①）",
         "en": "Is very high \"good\" cholesterol a good thing? For anyone told only their HDL is high"
+      },
+      {
+        "ja": "高すぎる善玉コレステロール、下げたほうがいい？——タイプ別の向き合い方（善玉コレステロール②）",
+        "en": "Should you lower very high \"good\" cholesterol? What to do for each type (Good cholesterol, part 2)"
       }
     ]
   },
@@ -10263,12 +10267,6 @@ export const generatedPosts: BlogPost[] = [
         "ja": "プリン体って、あの「プリン」と関係あるの？〜名前の由来と、多い食べ物の意外な共通点〜",
         "en": "Do purines have anything to do with pudding? — where the name comes from, and what purine-rich foods have in common"
       }
-    ],
-    "upcoming": [
-      {
-        "ja": "善玉コレステロールが高すぎるのは、良いこと？——健診で「HDLだけ高い」と言われた方へ",
-        "en": "Is very high \"good\" cholesterol a good thing? For anyone told only their HDL is high"
-      }
     ]
   },
   {
@@ -15545,8 +15543,12 @@ export const generatedPosts: BlogPost[] = [
     ],
     "upcoming": [
       {
-        "ja": "善玉コレステロールが高すぎるのは、良いこと？——健診で「HDLだけ高い」と言われた方へ",
+        "ja": "善玉コレステロールが高すぎるのは、良いこと？——健診で「HDLだけ高い」と言われた方へ（善玉コレステロール①）",
         "en": "Is very high \"good\" cholesterol a good thing? For anyone told only their HDL is high"
+      },
+      {
+        "ja": "高すぎる善玉コレステロール、下げたほうがいい？——タイプ別の向き合い方（善玉コレステロール②）",
+        "en": "Should you lower very high \"good\" cholesterol? What to do for each type (Good cholesterol, part 2)"
       }
     ]
   },

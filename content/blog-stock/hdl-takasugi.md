@@ -5,7 +5,7 @@ category_ja: 健康・予防の話
 category_en: Health and prevention
 subcategory_ja: コレステロール・尿酸
 subcategory_en: Cholesterol & uric acid
-title_ja: "善玉コレステロールが高すぎるのは、良いこと？——健診で「HDLだけ高い」と言われた方へ"
+title_ja: "善玉コレステロールが高すぎるのは、良いこと？——健診で「HDLだけ高い」と言われた方へ（善玉コレステロール①）"
 title_en: "Is very high \"good\" cholesterol a good thing? For anyone told only their HDL is high"
 excerpt_ja: "「善玉は高いほど良い」と聞いていたのに、基準値を超えていた。そのわけを、お掃除トラックにたとえてお話しします。"
 excerpt_en: "You'd heard \"good\" cholesterol is better the higher it is — yet yours was flagged. Here's why, explained with a garbage-truck analogy."
@@ -13,7 +13,7 @@ seo_title_ja: "HDL（善玉）コレステロールが高すぎる原因は？ �
 seo_description_ja: "健診でHDL（善玉）コレステロールだけが高いと言われたら。運動、お酒、生まれつきの体質という3つの理由と、90mg/dL以上のとても高い値で分かってきた注意点、お酒の量や肝臓の数値とあわせた見方、首の血管の検査について医師が解説します。"
 seo_title_en: "Why is my HDL (good) cholesterol so high? Three reasons when LDL is normal, and what to watch for"
 seo_description_en: "Told only your HDL is high at a checkup? A doctor explains three reasons (exercise, alcohol, inherited traits), what research shows about very high levels of 90 mg/dL or more, and how to read it alongside alcohol intake, liver tests and a neck artery scan."
-related: [ldl-mokuhyou-nichibei, tomato-juice-ryouba, yasete-iru-noni-ldl]
+related: [hdl-sagerukata, ldl-mokuhyou-nichibei, tomato-juice-ryouba]
 sources:
   - label: "日本動脈硬化学会「動脈硬化性疾患予防ガイドライン2022年版」"
     url: "https://www.j-athero.org/jp/jas_gl2022/"
