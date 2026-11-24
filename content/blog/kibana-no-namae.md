@@ -1,6 +1,6 @@
 ---
 date: 2026.06.02
-cover: /blog/kibana-landscape.jpg
+cover: /blog/kibana-no-namae.jpg
 category_ja: 診療所づくり
 category_en: Building the clinic
 title_ja: 名前に込めた、ふたつの想い

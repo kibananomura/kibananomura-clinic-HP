@@ -100,10 +100,10 @@ export const generatedPosts: BlogPost[] = [
   {
     "slug": "kibana-no-namae",
     "date": "2026.06.02",
-    "cover": "/blog/kibana-landscape.jpg",
-    "coverVersion": "951e262c",
-    "coverWidth": 1536,
-    "coverHeight": 1024,
+    "cover": "/blog/kibana-no-namae.jpg",
+    "coverVersion": "776d8328",
+    "coverWidth": 1600,
+    "coverHeight": 900,
     "ja": {
       "category": "診療所づくり",
       "title": "名前に込めた、ふたつの想い",
@@ -5174,10 +5174,10 @@ export const generatedPosts: BlogPost[] = [
   {
     "slug": "jushin-meiro",
     "date": "2026.10.15",
-    "cover": "/blog/kibana-landscape.jpg",
-    "coverVersion": "951e262c",
-    "coverWidth": 1536,
-    "coverHeight": 1024,
+    "cover": "/blog/jushin-meiro.jpg",
+    "coverVersion": "959e4181",
+    "coverWidth": 1600,
+    "coverHeight": 900,
     "ja": {
       "category": "診療で大切にしていること",
       "title": "「何科に行けばいいかわからない」をなくしたい",

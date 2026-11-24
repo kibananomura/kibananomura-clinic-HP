@@ -1,6 +1,6 @@
 ---
 date: 2026.10.15
-cover: /blog/kibana-landscape.jpg
+cover: /blog/jushin-meiro.jpg
 category_ja: 診療で大切にしていること
 category_en: What I value in care
 title_ja: 「何科に行けばいいかわからない」をなくしたい
