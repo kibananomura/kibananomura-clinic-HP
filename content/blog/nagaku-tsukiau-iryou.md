@@ -1,6 +1,6 @@
 ---
 date: 2026.10.08
-cover: /blog/kibana-landscape.jpg
+cover: /blog/nagaku-tsukiau-iryou.jpg
 category_ja: 診療で大切にしていること
 category_en: What I value in care
 title_ja: 「治す」だけでなく、「長く付き合う」医療について

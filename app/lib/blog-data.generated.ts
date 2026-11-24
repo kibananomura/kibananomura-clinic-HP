@@ -4272,10 +4272,10 @@ export const generatedPosts: BlogPost[] = [
   {
     "slug": "nagaku-tsukiau-iryou",
     "date": "2026.10.08",
-    "cover": "/blog/kibana-landscape.jpg",
-    "coverVersion": "951e262c",
-    "coverWidth": 1536,
-    "coverHeight": 1024,
+    "cover": "/blog/nagaku-tsukiau-iryou.jpg",
+    "coverVersion": "6b0ee58c",
+    "coverWidth": 1600,
+    "coverHeight": 900,
     "ja": {
       "category": "診療で大切にしていること",
       "title": "「治す」だけでなく、「長く付き合う」医療について",
@@ -4907,10 +4907,10 @@ export const generatedPosts: BlogPost[] = [
   {
     "slug": "isseisan-daikangei",
     "date": "2026.10.13",
-    "cover": "/blog/kibana-landscape.jpg",
-    "coverVersion": "951e262c",
-    "coverWidth": 1536,
-    "coverHeight": 1024,
+    "cover": "/blog/isseisan-daikangei.jpg",
+    "coverVersion": "23965161",
+    "coverWidth": 1600,
+    "coverHeight": 900,
     "ja": {
       "category": "診療所づくり",
       "title": "旅先での体調不良、「一見さん」でも大歓迎です",

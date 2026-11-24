@@ -1,6 +1,6 @@
 ---
 date: 2026.10.13
-cover: /blog/kibana-landscape.jpg
+cover: /blog/isseisan-daikangei.jpg
 category_ja: 診療所づくり
 category_en: Building the clinic
 title_ja: 旅先での体調不良、「一見さん」でも大歓迎です
