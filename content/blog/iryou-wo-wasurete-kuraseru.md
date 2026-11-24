@@ -24,7 +24,7 @@ related: [hontou-no-chiryou, kouatsu-kusuri-tsuzukeru, kusuri-yamerarenai, nagak
 
 病気にならない、病院に通わなくていい。それが一番の理想だという思いは、今も変わりません。
 
-ただ、この言葉には気になるところがありました。血圧やコレステロール、糖尿病のお薬のように、**飲み続けることで体を守っている方**がたくさんいらっしゃいます。そうした方に「医療がいらない」という言葉は、「薬を飲んでいるあなたは、まだ目標に届いていない」と聞こえてしまうかもしれません。
+ただ、この言葉には気になるところがありました。血圧やコレステロール、糖尿病のお薬のように、**飲み続けることで体を守っている方**がたくさんいらっしゃいます。なかには、生まれ持った体質や、ご自身の努力だけではどうにもならない事情があって、お薬でしか体のバランスを保てない方もいらっしゃいます。そうした方が「医療がいらない明日」という言葉を目にしたら、「では、薬を手放せない私たちは、どうすればいいの？」と戸惑わせてしまうかもしれない。そう思ったのです。
 
 [血圧の薬を飲み続ける理由](/blog/kouatsu-kusuri-tsuzukeru)の記事でも書きましたが、お薬は弱さの証拠ではなく、体を上手に支える道具です。診療所の理念が、その方たちを置き去りにしてはいけない。そう考えて、言葉を選び直しました。
 
@@ -76,7 +76,7 @@ When I first began putting our philosophy into words, I wrote “a tomorrow with
 
 Not getting ill, not needing to go to the doctor — I still believe that's the ideal.
 
-But these words had one problem. Many people **protect their health by continuing to take medicine** — for blood pressure, cholesterol or diabetes. To them, “no need for medical care” might sound like, “If you're still taking medicine, you haven't reached the goal yet.”
+But these words had one problem. Many people **protect their health by continuing to take medicine** — for blood pressure, cholesterol or diabetes. Some of them, because of the constitution they were born with or circumstances that effort alone can't change, can only keep their body in balance with medicine. If they came across the words “a tomorrow without the need for medical care,” they might be left wondering, “Then what about those of us who can't give up our medicine?” That was my concern.
 
 As I wrote in [why we keep taking blood pressure medicine](/blog/kouatsu-kusuri-tsuzukeru), medicine is not a sign of weakness but a tool that helps support your body. A clinic's philosophy must not leave those people behind. So I chose our words again.
 

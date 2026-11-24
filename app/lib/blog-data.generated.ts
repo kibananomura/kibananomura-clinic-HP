@@ -16056,7 +16056,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "ただ、この言葉には気になるところがありました。血圧やコレステロール、糖尿病のお薬のように、**飲み続けることで体を守っている方**がたくさんいらっしゃいます。そうした方に「医療がいらない」という言葉は、「薬を飲んでいるあなたは、まだ目標に届いていない」と聞こえてしまうかもしれません。"
+          "text": "ただ、この言葉には気になるところがありました。血圧やコレステロール、糖尿病のお薬のように、**飲み続けることで体を守っている方**がたくさんいらっしゃいます。なかには、生まれ持った体質や、ご自身の努力だけではどうにもならない事情があって、お薬でしか体のバランスを保てない方もいらっしゃいます。そうした方が「医療がいらない明日」という言葉を目にしたら、「では、薬を手放せない私たちは、どうすればいいの？」と戸惑わせてしまうかもしれない。そう思ったのです。"
         },
         {
           "kind": "text",
@@ -16159,7 +16159,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "But these words had one problem. Many people **protect their health by continuing to take medicine** — for blood pressure, cholesterol or diabetes. To them, “no need for medical care” might sound like, “If you're still taking medicine, you haven't reached the goal yet.”"
+          "text": "But these words had one problem. Many people **protect their health by continuing to take medicine** — for blood pressure, cholesterol or diabetes. Some of them, because of the constitution they were born with or circumstances that effort alone can't change, can only keep their body in balance with medicine. If they came across the words “a tomorrow without the need for medical care,” they might be left wondering, “Then what about those of us who can't give up our medicine?” That was my concern."
         },
         {
           "kind": "text",
