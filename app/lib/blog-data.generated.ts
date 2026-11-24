@@ -4178,6 +4178,12 @@ export const generatedPosts: BlogPost[] = [
         "ja": "痛風発作は「尿酸値が上がる時」と「下がる時」、どっちに起きやすい？〜カギは“急な変化”でした〜",
         "en": "Do gout attacks happen when uric acid goes up, or when it comes down? — the key turns out to be “sudden change”"
       }
+    ],
+    "upcoming": [
+      {
+        "ja": "善玉コレステロールが高すぎるのは、良いこと？——健診で「HDLだけ高い」と言われた方へ",
+        "en": "Is very high \"good\" cholesterol a good thing? For anyone told only their HDL is high"
+      }
     ]
   },
   {
@@ -10257,6 +10263,12 @@ export const generatedPosts: BlogPost[] = [
         "ja": "プリン体って、あの「プリン」と関係あるの？〜名前の由来と、多い食べ物の意外な共通点〜",
         "en": "Do purines have anything to do with pudding? — where the name comes from, and what purine-rich foods have in common"
       }
+    ],
+    "upcoming": [
+      {
+        "ja": "善玉コレステロールが高すぎるのは、良いこと？——健診で「HDLだけ高い」と言われた方へ",
+        "en": "Is very high \"good\" cholesterol a good thing? For anyone told only their HDL is high"
+      }
     ]
   },
   {
@@ -15529,6 +15541,12 @@ export const generatedPosts: BlogPost[] = [
         "slug": "statin-kinniku-houkai",
         "ja": "コレステロールの薬で、筋肉が溶けるって本当？〜悪玉コレステロールを下げる薬（スタチン）の疑問と最新医学〜",
         "en": "Can cholesterol medicine really \"break down\" your muscles? Questions about statins and the latest evidence"
+      }
+    ],
+    "upcoming": [
+      {
+        "ja": "善玉コレステロールが高すぎるのは、良いこと？——健診で「HDLだけ高い」と言われた方へ",
+        "en": "Is very high \"good\" cholesterol a good thing? For anyone told only their HDL is high"
       }
     ]
   },
