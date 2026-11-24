@@ -184,25 +184,14 @@ export const generatedPosts: BlogPost[] = [
     },
     "related": [
       {
+        "slug": "iryou-wo-wasurete-kuraseru",
+        "ja": "「医療を忘れて暮らせる明日」を創る〜私たちが、この言葉にたどり着くまで〜",
+        "en": "Creating “a tomorrow where you can live without thinking about medical care” — how we arrived at these words"
+      },
+      {
         "slug": "kibana-kenkou-festa-2026",
         "ja": "「木花健康フェスタ」は体育館で〜握力測定のボランティアをして感じた、木花の健康への意識〜",
         "en": "The Kibana Health Festa moves indoors — what I felt as a grip-strength volunteer"
-      },
-      {
-        "slug": "kinri-no-aru-sekai",
-        "ja": "「金利のある世界」で、覚悟を持って診療所をつくります",
-        "en": "In a world where interest rates are back, we are building this clinic with full commitment"
-      },
-      {
-        "slug": "isseisan-daikangei",
-        "ja": "旅先での体調不良、「一見さん」でも大歓迎です",
-        "en": "Feeling unwell while traveling? First-time visitors are always welcome here"
-      }
-    ],
-    "upcoming": [
-      {
-        "ja": "「医療を忘れて暮らせる明日」を創る〜私たちが、この言葉にたどり着くまで〜",
-        "en": "Creating “a tomorrow where you can live without thinking about medical care” — how we arrived at these words"
       }
     ]
   },
@@ -2771,10 +2760,10 @@ export const generatedPosts: BlogPost[] = [
   {
     "slug": "hai-kousankin",
     "date": "2026.10.02",
-    "cover": "/blog/kibana-landscape.jpg",
-    "coverVersion": "951e262c",
-    "coverWidth": 1536,
-    "coverHeight": 1024,
+    "cover": "/blog/hai-kousankin.jpg",
+    "coverVersion": "7e25ea0c",
+    "coverWidth": 1600,
+    "coverHeight": 900,
     "sources": [
       {
         "label": "日本結核・非結核性抗酸菌症学会「成人肺非結核性抗酸菌症化学療法に関する見解―2023年改訂」"
@@ -3149,10 +3138,10 @@ export const generatedPosts: BlogPost[] = [
   {
     "slug": "hai-ntm-sho",
     "date": "2026.10.03",
-    "cover": "/blog/kibana-landscape.jpg",
-    "coverVersion": "951e262c",
-    "coverWidth": 1536,
-    "coverHeight": 1024,
+    "cover": "/blog/hai-ntm-sho.jpg",
+    "coverVersion": "caa6adfa",
+    "coverWidth": 1600,
+    "coverHeight": 900,
     "sources": [
       {
         "label": "日本結核・非結核性抗酸菌症学会「成人肺非結核性抗酸菌症化学療法に関する見解―2023年改訂」"
@@ -4399,6 +4388,11 @@ export const generatedPosts: BlogPost[] = [
     },
     "related": [
       {
+        "slug": "iryou-wo-wasurete-kuraseru",
+        "ja": "「医療を忘れて暮らせる明日」を創る〜私たちが、この言葉にたどり着くまで〜",
+        "en": "Creating “a tomorrow where you can live without thinking about medical care” — how we arrived at these words"
+      },
+      {
         "slug": "kouatsu-kusuri-tsuzukeru",
         "ja": "血圧はもう正常なのに、どうして薬を飲み続けるの？〜「治った」と「薬が支えている」の違い〜",
         "en": "My blood pressure is normal now — so why do I still need to take my medicine? — the difference between “cured” and “held steady by medicine”"
@@ -4407,12 +4401,6 @@ export const generatedPosts: BlogPost[] = [
         "slug": "shinsatsushitsu-no-chikara",
         "ja": "同じ言葉なのに、診察室だと心に届くのはなぜ？〜「場」が持つ、もうひとつの治療の力〜",
         "en": "Why do the same words reach you differently in the exam room? — the other healing power of a “place”"
-      }
-    ],
-    "upcoming": [
-      {
-        "ja": "「医療を忘れて暮らせる明日」を創る〜私たちが、この言葉にたどり着くまで〜",
-        "en": "Creating “a tomorrow where you can live without thinking about medical care” — how we arrived at these words"
       }
     ]
   },
@@ -4511,6 +4499,11 @@ export const generatedPosts: BlogPost[] = [
     },
     "related": [
       {
+        "slug": "iryou-wo-wasurete-kuraseru",
+        "ja": "「医療を忘れて暮らせる明日」を創る〜私たちが、この言葉にたどり着くまで〜",
+        "en": "Creating “a tomorrow where you can live without thinking about medical care” — how we arrived at these words"
+      },
+      {
         "slug": "shinsatsushitsu-no-chikara",
         "ja": "同じ言葉なのに、診察室だと心に届くのはなぜ？〜「場」が持つ、もうひとつの治療の力〜",
         "en": "Why do the same words reach you differently in the exam room? — the other healing power of a “place”"
@@ -4519,11 +4512,6 @@ export const generatedPosts: BlogPost[] = [
         "slug": "honne-ga-ienai",
         "ja": "「もうやれることはやったのに」——その言葉、診察室で言っていいんです",
         "en": "“I've already done everything I can” — it's okay to say that in the exam room"
-      },
-      {
-        "slug": "jushin-meiro",
-        "ja": "「何科に行けばいいかわからない」をなくしたい",
-        "en": "I want to end 'which department do I even go to?'"
       }
     ]
   },
@@ -5873,6 +5861,11 @@ export const generatedPosts: BlogPost[] = [
     },
     "related": [
       {
+        "slug": "iryou-wo-wasurete-kuraseru",
+        "ja": "「医療を忘れて暮らせる明日」を創る〜私たちが、この言葉にたどり着くまで〜",
+        "en": "Creating “a tomorrow where you can live without thinking about medical care” — how we arrived at these words"
+      },
+      {
         "slug": "kouatsu-kusuri-tsuzukeru",
         "ja": "血圧はもう正常なのに、どうして薬を飲み続けるの？〜「治った」と「薬が支えている」の違い〜",
         "en": "My blood pressure is normal now — so why do I still need to take my medicine? — the difference between “cured” and “held steady by medicine”"
@@ -5891,12 +5884,6 @@ export const generatedPosts: BlogPost[] = [
         "slug": "tounyoubyou-kankai",
         "ja": "「糖尿病は一生治らない」は、もう昔の話？〜「寛解」を目指せる時代になりました〜",
         "en": "“Diabetes never goes away” — is that an old idea now? — remission has become a realistic goal"
-      }
-    ],
-    "upcoming": [
-      {
-        "ja": "「医療を忘れて暮らせる明日」を創る〜私たちが、この言葉にたどり着くまで〜",
-        "en": "Creating “a tomorrow where you can live without thinking about medical care” — how we arrived at these words"
       }
     ]
   },
@@ -8910,15 +8897,14 @@ export const generatedPosts: BlogPost[] = [
         "en": "Slim, but high cholesterol? The real reason your numbers bounce back when you stop the medicine"
       },
       {
+        "slug": "iryou-wo-wasurete-kuraseru",
+        "ja": "「医療を忘れて暮らせる明日」を創る〜私たちが、この言葉にたどり着くまで〜",
+        "en": "Creating “a tomorrow where you can live without thinking about medical care” — how we arrived at these words"
+      },
+      {
         "slug": "shinsatsushitsu-no-chikara",
         "ja": "同じ言葉なのに、診察室だと心に届くのはなぜ？〜「場」が持つ、もうひとつの治療の力〜",
         "en": "Why do the same words reach you differently in the exam room? — the other healing power of a “place”"
-      }
-    ],
-    "upcoming": [
-      {
-        "ja": "「医療を忘れて暮らせる明日」を創る〜私たちが、この言葉にたどり着くまで〜",
-        "en": "Creating “a tomorrow where you can live without thinking about medical care” — how we arrived at these words"
       }
     ]
   },
@@ -11206,6 +11192,11 @@ export const generatedPosts: BlogPost[] = [
     },
     "related": [
       {
+        "slug": "iryou-wo-wasurete-kuraseru",
+        "ja": "「医療を忘れて暮らせる明日」を創る〜私たちが、この言葉にたどり着くまで〜",
+        "en": "Creating “a tomorrow where you can live without thinking about medical care” — how we arrived at these words"
+      },
+      {
         "slug": "kouatsu-genryou-fuan",
         "ja": "血圧が低いけれど、お薬を減らしても大丈夫？〜減量の目安とよくある不安〜",
         "en": "My blood pressure is running low — is it okay to cut back on medication?"
@@ -11224,12 +11215,6 @@ export const generatedPosts: BlogPost[] = [
         "slug": "nagaku-tsukiau-iryou",
         "ja": "「治す」だけでなく、「長く付き合う」医療について",
         "en": "Medicine isn't only about curing — it's also about staying alongside you"
-      }
-    ],
-    "upcoming": [
-      {
-        "ja": "「医療を忘れて暮らせる明日」を創る〜私たちが、この言葉にたどり着くまで〜",
-        "en": "Creating “a tomorrow where you can live without thinking about medical care” — how we arrived at these words"
       }
     ]
   },
@@ -15926,6 +15911,247 @@ export const generatedPosts: BlogPost[] = [
         "slug": "kaicho-mattan-en",
         "ja": "右下腹部が痛い、もしかして盲腸？——実は多い「回腸末端炎（小腸の出口の炎症）」のこと",
         "en": "Pain in your lower right belly — is it appendicitis? Meet the often-overlooked “terminal ileitis”"
+      }
+    ]
+  },
+  {
+    "slug": "iryou-wo-wasurete-kuraseru",
+    "date": "2026.11.24",
+    "cover": "/blog/iryou-wo-wasurete-kuraseru.jpg",
+    "coverVersion": "4ac572ed",
+    "coverWidth": 1600,
+    "coverHeight": 900,
+    "ja": {
+      "category": "診療で大切にしていること",
+      "title": "「医療を忘れて暮らせる明日」を創る〜私たちが、この言葉にたどり着くまで〜",
+      "excerpt": "病院のことを、ふだんは忘れていてほしい。診療所をつくる人間が、なぜそんなことを願うのか。その理由をお話しします。",
+      "body": [
+        {
+          "kind": "text",
+          "text": "体の調子がいいとき、病院のことを思い出す人はあまりいません。仕事のこと、子どものこと、畑のこと、週末の予定。頭の中は、毎日の暮らしでいっぱいのはずです。"
+        },
+        {
+          "kind": "text",
+          "text": "それでいいのだと、私は思っています。"
+        },
+        {
+          "kind": "text",
+          "text": "木花のむら総合診療所は、「**医療を忘れて暮らせる明日」を創る**ことを、パーパス（この診療所がある理由）に掲げました。診療所をつくる側が「医療を忘れてほしい」と言うのは、少しおかしく聞こえるかもしれません。今日は、この言葉に込めた思いと、ここにたどり着くまでのことをお話しします。"
+        },
+        {
+          "kind": "text",
+          "text": "### 最初の言葉は「医療がいらない明日」でした"
+        },
+        {
+          "kind": "text",
+          "text": "理念を形にしようと考えはじめたころ、最初に書いた言葉は「医療がいらない明日」でした。"
+        },
+        {
+          "kind": "text",
+          "text": "病気にならない、病院に通わなくていい。それが一番の理想だという思いは、今も変わりません。"
+        },
+        {
+          "kind": "text",
+          "text": "ただ、この言葉には気になるところがありました。血圧やコレステロール、糖尿病のお薬のように、**飲み続けることで体を守っている方**がたくさんいらっしゃいます。そうした方に「医療がいらない」という言葉は、「薬を飲んでいるあなたは、まだ目標に届いていない」と聞こえてしまうかもしれません。"
+        },
+        {
+          "kind": "text",
+          "text": "[血圧の薬を飲み続ける理由](/blog/kouatsu-kusuri-tsuzukeru)の記事でも書きましたが、お薬は弱さの証拠ではなく、体を上手に支える道具です。診療所の理念が、その方たちを置き去りにしてはいけない。そう考えて、言葉を選び直しました。"
+        },
+        {
+          "kind": "text",
+          "text": "### 「忘れて暮らせる」という言い方にした理由"
+        },
+        {
+          "kind": "text",
+          "text": "選び直した言葉は、「医療を忘れて暮らせる明日」です。"
+        },
+        {
+          "kind": "text",
+          "text": "当院のミッション（毎日、届けたいこと）は、「病気や痛みを忘れて暮らせる日常と、薬や通院に頼りすぎない健やかさを届ける」です。パーパスとミッションで、同じ「忘れて暮らせる」という言葉を使うことにしました。"
+        },
+        {
+          "kind": "text",
+          "text": "「忘れて暮らせる」は、治療をやめることではありません。"
+        },
+        {
+          "kind": "text",
+          "text": "- 必要なお薬は続けながら、病気のことを一日中考えずに済むこと\n- 通院の日以外は、仕事や子育て、趣味に思いきり打ち込めること\n- 困ったときは、迷わずすぐに相談できる場所があること"
+        },
+        {
+          "kind": "text",
+          "text": "こうした毎日を、病気のある方にも、ない方にも届けたい。それが「暮らせる」という言葉に込めた願いです。"
+        },
+        {
+          "kind": "text",
+          "text": "「暮らせる」にしたのは、ミッションと言葉をそろえたかったからでもあります。ただ、それだけではありません。前の言葉の「忘れていられる」は、どこか無機質に感じていました。人が生きている毎日の手ざわりがある言葉にしたくて、「暮らせる」を選びました。"
+        },
+        {
+          "kind": "text",
+          "text": "そして、「つくる」は「創る」と書くことにしました。この字には、まだないものを生み出すという意味があります。未来を自分たちの手で切り開きたい。宮崎の医療を、一歩でも前に進めたい。地域の皆さんの健康への意識を、一緒にもう一段高めていきたい。そんな思いを込めています。"
+        },
+        {
+          "kind": "text",
+          "text": "### 道や公園のような診療所に"
+        },
+        {
+          "kind": "text",
+          "text": "ビジョンには、「ふだんは病院の存在を忘れていられる、健やかな地域社会をつくる」と書きました。"
+        },
+        {
+          "kind": "text",
+          "text": "道や公園は、ふだん意識することはありません。けれど、なくなったら困ります。必要なときには、いつもそこにあります。診療所も、そんなふうに地域の景色の一部になれたらと考えています。ロゴを、木花の山と田畑の景色にしたのも、そのためです（[名前に込めた、ふたつの想い](/blog/kibana-no-namae)）。"
+        },
+        {
+          "kind": "text",
+          "text": "そして、医療を忘れて暮らせる明日は、診療所だけでは創れません。[本当の治療は、診察室の外にあります](/blog/hontou-no-chiryou)。毎日の食事や運動、睡眠を整えるのは、皆さん自身の暮らしです。私たちは、それを横で支える役目だと考えています。"
+        },
+        {
+          "kind": "text",
+          "text": "### 最後に"
+        },
+        {
+          "kind": "text",
+          "text": "2027年10月の開院に向けて、建物も、職員の体制も、少しずつ形になってきています。その真ん中に置いておきたいのが、この言葉です。"
+        },
+        {
+          "kind": "text",
+          "text": "病院のことを、ふだんは忘れていてほしい。そして、困ったときには思い出してほしい。そんな診療所を、木花の皆さんと一緒に創っていきます。"
+        },
+        {
+          "kind": "text",
+          "text": "※木花のむら総合診療所は2027年10月開院予定です。いまお困りの方は、かかりつけ医にご相談ください。"
+        }
+      ]
+    },
+    "en": {
+      "category": "What I value in care",
+      "title": "Creating “a tomorrow where you can live without thinking about medical care” — how we arrived at these words",
+      "excerpt": "We hope you can forget about hospitals most of the time. Why would people building a clinic wish for that? Here's why.",
+      "body": [
+        {
+          "kind": "text",
+          "text": "When you're feeling well, you probably don't think about hospitals much. Your mind is full of everyday life — work, your children, the fields, plans for the weekend."
+        },
+        {
+          "kind": "text",
+          "text": "I think that's exactly how it should be."
+        },
+        {
+          "kind": "text",
+          "text": "Kibana Nomura General Medicine Clinic has made **“to create a tomorrow where you can live without thinking about medical care”** our purpose — the reason this clinic exists. It may sound odd for people building a clinic to say they hope you'll forget about medical care. Today I'd like to share what these words mean to us, and how we arrived at them."
+        },
+        {
+          "kind": "text",
+          "text": "### Our first words were “a tomorrow without the need for medical care”"
+        },
+        {
+          "kind": "text",
+          "text": "When I first began putting our philosophy into words, I wrote “a tomorrow without the need for medical care.”"
+        },
+        {
+          "kind": "text",
+          "text": "Not getting ill, not needing to go to the doctor — I still believe that's the ideal."
+        },
+        {
+          "kind": "text",
+          "text": "But these words had one problem. Many people **protect their health by continuing to take medicine** — for blood pressure, cholesterol or diabetes. To them, “no need for medical care” might sound like, “If you're still taking medicine, you haven't reached the goal yet.”"
+        },
+        {
+          "kind": "text",
+          "text": "As I wrote in [why we keep taking blood pressure medicine](/blog/kouatsu-kusuri-tsuzukeru), medicine is not a sign of weakness but a tool that helps support your body. A clinic's philosophy must not leave those people behind. So I chose our words again."
+        },
+        {
+          "kind": "text",
+          "text": "### Why “live without thinking about it”"
+        },
+        {
+          "kind": "text",
+          "text": "The words we chose instead were “a tomorrow where you can live without thinking about medical care.”"
+        },
+        {
+          "kind": "text",
+          "text": "Our mission — what we want to deliver every day — is “to deliver everyday lives where you can forget about illness and pain, and a healthiness that doesn't rely too heavily on medication or clinic visits.” We decided to use the same idea, “live without thinking about it,” in both our purpose and our mission."
+        },
+        {
+          "kind": "text",
+          "text": "Living without thinking about medical care does not mean stopping treatment."
+        },
+        {
+          "kind": "text",
+          "text": "- Continuing the medicine you need, without having to think about your illness all day\n- Throwing yourself into work, parenting and hobbies on the days you're not at the clinic\n- Having a place you can turn to straight away when something goes wrong"
+        },
+        {
+          "kind": "text",
+          "text": "We want to bring days like these to people with and without illness alike. That's the hope behind the word “live.”"
+        },
+        {
+          "kind": "text",
+          "text": "Choosing “live” was partly about matching our mission, but not only that. The earlier wording, “where you can stay forgetful of medical care,” felt somewhat impersonal to me. I wanted words that carry the feel of people's daily lives, so I chose “live.”"
+        },
+        {
+          "kind": "text",
+          "text": "And for “create,” I chose the Japanese character 創, which carries the sense of bringing something new into being. I want to open up the future with our own hands, to move medicine in Miyazaki forward even a little, and to raise health awareness in our community together, one step higher. That's what this word holds for me."
+        },
+        {
+          "kind": "text",
+          "text": "### A clinic like a road or a park"
+        },
+        {
+          "kind": "text",
+          "text": "Our vision reads: “to build a healthy community where, most of the time, you can forget that hospitals exist.”"
+        },
+        {
+          "kind": "text",
+          "text": "You don't usually think about roads or parks. But you'd miss them if they were gone, and they're always there when you need them. We hope our clinic can become part of the local landscape in the same way. That's also why our logo shows the mountains and fields of Kibana (see [Two hopes behind our name](/blog/kibana-no-namae))."
+        },
+        {
+          "kind": "text",
+          "text": "And a tomorrow where you can live without thinking about medical care can't be created by a clinic alone. [The real treatment happens outside the exam room](/blog/hontou-no-chiryou). It's your own daily life — meals, exercise, sleep — that shapes your health. We see our role as supporting you from alongside."
+        },
+        {
+          "kind": "text",
+          "text": "### Finally"
+        },
+        {
+          "kind": "text",
+          "text": "As we prepare to open in October 2027, the building and our team are gradually taking shape. These are the words we want to keep at the very center."
+        },
+        {
+          "kind": "text",
+          "text": "We hope you can forget about hospitals most of the time — and remember us when you need us. Together with everyone in Kibana, we'll create that kind of clinic."
+        },
+        {
+          "kind": "text",
+          "text": "*Kibana Nomura General Medicine Clinic is scheduled to open in October 2027. If you need care now, please see your regular doctor.*"
+        }
+      ]
+    },
+    "related": [
+      {
+        "slug": "hontou-no-chiryou",
+        "ja": "生活習慣病の本当の治療は、診察室の外にあります",
+        "en": "The real treatment for lifestyle diseases happens outside the consultation room"
+      },
+      {
+        "slug": "kouatsu-kusuri-tsuzukeru",
+        "ja": "血圧はもう正常なのに、どうして薬を飲み続けるの？〜「治った」と「薬が支えている」の違い〜",
+        "en": "My blood pressure is normal now — so why do I still need to take my medicine? — the difference between “cured” and “held steady by medicine”"
+      },
+      {
+        "slug": "kusuri-yamerarenai",
+        "ja": "「お薬は一生やめられない」は誤解です",
+        "en": "'Once you start, you can never stop' is a myth"
+      },
+      {
+        "slug": "nagaku-tsukiau-iryou",
+        "ja": "「治す」だけでなく、「長く付き合う」医療について",
+        "en": "Medicine isn't only about curing — it's also about staying alongside you"
+      },
+      {
+        "slug": "kibana-no-namae",
+        "ja": "名前に込めた、ふたつの想い",
+        "en": "Two ideas behind our name"
       }
     ]
   }
