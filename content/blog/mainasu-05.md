@@ -1,6 +1,6 @@
 ---
 date: 2026.10.09
-cover: /blog/kibana-landscape.jpg
+cover: /blog/mainasu-05.jpg
 category_ja: 診療で大切にしていること
 category_en: What I value in care
 title_ja: 「マイナス0.5」から整える、という考え方

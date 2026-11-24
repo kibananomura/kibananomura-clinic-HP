@@ -4419,10 +4419,10 @@ export const generatedPosts: BlogPost[] = [
   {
     "slug": "mainasu-05",
     "date": "2026.10.09",
-    "cover": "/blog/kibana-landscape.jpg",
-    "coverVersion": "951e262c",
-    "coverWidth": 1536,
-    "coverHeight": 1024,
+    "cover": "/blog/mainasu-05.jpg",
+    "coverVersion": "1744c8de",
+    "coverWidth": 1600,
+    "coverHeight": 900,
     "ja": {
       "category": "診療で大切にしていること",
       "title": "「マイナス0.5」から整える、という考え方",
@@ -4530,10 +4530,10 @@ export const generatedPosts: BlogPost[] = [
   {
     "slug": "mainichi-chigau-mono",
     "date": "2026.10.10",
-    "cover": "/blog/kibana-landscape.jpg",
-    "coverVersion": "951e262c",
-    "coverWidth": 1536,
-    "coverHeight": 1024,
+    "cover": "/blog/mainichi-chigau-mono.jpg",
+    "coverVersion": "efcd9bdc",
+    "coverWidth": 1600,
+    "coverHeight": 900,
     "sources": [
       {
         "label": "厚生労働省「日本人の食事摂取基準（2025年版）」",
