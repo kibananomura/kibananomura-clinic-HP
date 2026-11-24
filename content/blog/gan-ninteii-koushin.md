@@ -1,6 +1,6 @@
 ---
 date: 2026.10.12
-cover: /blog/kibana-landscape.jpg
+cover: /blog/gan-ninteii-koushin.jpg
 category_ja: 院長の歩み
 category_en: The director's journey
 title_ja: 「がん治療認定医」を、更新しないと決めた日

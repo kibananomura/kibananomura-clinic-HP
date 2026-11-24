@@ -532,10 +532,10 @@ export const generatedPosts: BlogPost[] = [
   {
     "slug": "kara-no-michi-2",
     "date": "2026.09.16",
-    "cover": "/blog/kibana-landscape.jpg",
-    "coverVersion": "951e262c",
-    "coverWidth": 1536,
-    "coverHeight": 1024,
+    "cover": "/blog/kara-no-michi-2.jpg",
+    "coverVersion": "d46ccbe9",
+    "coverWidth": 1600,
+    "coverHeight": 900,
     "ja": {
       "category": "院長の歩み",
       "title": "外科医から開業医へ（後編）——遠回りのようで、まっすぐだった道のり",
@@ -4804,10 +4804,10 @@ export const generatedPosts: BlogPost[] = [
   {
     "slug": "gan-ninteii-koushin",
     "date": "2026.10.12",
-    "cover": "/blog/kibana-landscape.jpg",
-    "coverVersion": "951e262c",
-    "coverWidth": 1536,
-    "coverHeight": 1024,
+    "cover": "/blog/gan-ninteii-koushin.jpg",
+    "coverVersion": "4a65c77e",
+    "coverWidth": 1600,
+    "coverHeight": 900,
     "ja": {
       "category": "院長の歩み",
       "title": "「がん治療認定医」を、更新しないと決めた日",

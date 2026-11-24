@@ -1,6 +1,6 @@
 ---
 date: 2026.09.16
-cover: /blog/kibana-landscape.jpg
+cover: /blog/kara-no-michi-2.jpg
 category_ja: 院長の歩み
 category_en: The director's journey
 title_ja: 外科医から開業医へ（後編）——遠回りのようで、まっすぐだった道のり
