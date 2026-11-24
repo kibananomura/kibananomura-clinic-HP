@@ -1,6 +1,6 @@
 ---
 date: 2026.10.30
-cover: /blog/kibana-landscape.jpg
+cover: /blog/kinri-no-aru-sekai.jpg
 category_ja: 診療所づくり
 category_en: Building the clinic
 title_ja: 「金利のある世界」で、覚悟を持って診療所をつくります

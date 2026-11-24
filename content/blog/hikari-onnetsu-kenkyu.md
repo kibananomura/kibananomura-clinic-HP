@@ -1,6 +1,6 @@
 ---
 date: 2026.09.28
-cover: /blog/kibana-landscape.jpg
+cover: /blog/hikari-onnetsu-kenkyu.jpg
 category_ja: 院長の歩み
 category_en: The director's journey
 title_ja: 「光でがんを温める」研究に打ち込んでいた頃の話

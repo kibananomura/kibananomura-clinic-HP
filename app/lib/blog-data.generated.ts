@@ -1469,10 +1469,10 @@ export const generatedPosts: BlogPost[] = [
   {
     "slug": "hikari-onnetsu-kenkyu",
     "date": "2026.09.28",
-    "cover": "/blog/kibana-landscape.jpg",
-    "coverVersion": "951e262c",
-    "coverWidth": 1536,
-    "coverHeight": 1024,
+    "cover": "/blog/hikari-onnetsu-kenkyu.jpg",
+    "coverVersion": "fb9f2740",
+    "coverWidth": 1600,
+    "coverHeight": 900,
     "ja": {
       "category": "院長の歩み",
       "title": "「光でがんを温める」研究に打ち込んでいた頃の話",
@@ -8356,10 +8356,10 @@ export const generatedPosts: BlogPost[] = [
   {
     "slug": "kinri-no-aru-sekai",
     "date": "2026.10.30",
-    "cover": "/blog/kibana-landscape.jpg",
-    "coverVersion": "951e262c",
-    "coverWidth": 1536,
-    "coverHeight": 1024,
+    "cover": "/blog/kinri-no-aru-sekai.jpg",
+    "coverVersion": "8d4be3ac",
+    "coverWidth": 1600,
+    "coverHeight": 900,
     "ja": {
       "category": "診療所づくり",
       "title": "「金利のある世界」で、覚悟を持って診療所をつくります",
