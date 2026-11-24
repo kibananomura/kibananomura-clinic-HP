@@ -8,11 +8,11 @@ subcategory_en: Cholesterol & uric acid
 title_ja: 毎日のトマトジュース、実は逆効果かもしれません
 title_en: Your daily tomato juice might be working against you
 excerpt_ja: 「健康のために、毎朝トマトジュースで野菜をとっています」。とても素敵な習慣ですが、実はその一杯、コレステロールには◎でも中性脂肪には注意が必要かもしれません。
-seo_title_ja: トマトジュースを毎日飲むと中性脂肪は？ コレステロールには味方、選ぶなら無塩
+seo_title_ja: トマトジュースを毎日飲むと悪玉コレステロール・中性脂肪は？ 血液検査の数値の見方と、選ぶなら無塩
 seo_description_ja: 毎日のトマトジュースは、コレステロールが高めの方には味方ですが、中性脂肪が高めの方には逆効果になることがあります。分かれ目は「無塩かどうか」と「ジュースか、生のまま食べるか」。タイプ別の付き合い方を医師が解説します。
 seo_title_en: Does daily tomato juice raise triglycerides? Good for cholesterol — choose unsalted
 seo_description_en: Daily tomato juice can help if your cholesterol is high, but may backfire if your triglycerides are high. The keys are whether it's unsalted, and juice versus whole tomatoes. A doctor explains how to drink it for your type.
-updated: 2026.11.21
+updated: 2026.11.25
 excerpt_en: I drink tomato juice every morning instead of vegetables, for my health — a lovely habit, but that glass may be great for cholesterol while working against your triglycerides.
 sources:
   - label: "日本動脈硬化学会「動脈硬化性疾患予防ガイドライン2022年版」"
@@ -51,6 +51,18 @@ sources:
 
 また、トマトにはGABA（ギャバ）という成分が含まれていて、睡眠の質に関わるとも言われています。飲むなら、朝よりも夕方以降がおすすめです。
 
+### 血液検査の数値は、どう変わる？
+
+「トマトジュースを続けたら、健診の数値はどれくらい下がりますか？」と聞かれることがあります。正直にお答えすると、**トマトジュースだけで、健診の数値が大きく変わるとは言えません。** 数値を左右するのは、1杯のジュースよりも、食事全体の量と中身、体重、体を動かす習慣のほうがずっと大きいからです。
+
+変化を確かめたいときは、続けてみて2〜3か月後の健診や血液検査で、次の数値を前回と見比べてください。
+
+- **LDLコレステロール（悪玉）**：下がっていれば、今の食事全体がうまくいっているサインです
+- **中性脂肪**：上がっていたら、ジュースを生のトマトに変える、量を減らすなどを考えます。中性脂肪は前の晩の食事や飲酒でも大きく動くので、空腹で測った値で比べるのがおすすめです
+- **血糖（HbA1c）**：甘みのあるジュースを毎日飲んでいる方は、あわせて見ておきましょう
+
+数値の読み方に迷ったら、健診の結果を持って、かかりつけ医などにご相談ください（開院後は当院へ）。
+
 ### 最後に
 
 「体によい」とされる食品であっても、ご自身の血液検査のデータ（どの数値が高めなのか）に合わせて選ぶことが、遠回りのようでいちばんの近道です。
@@ -86,6 +98,18 @@ Some people find that a daily habit was quietly putting a strain on their body.
 - **Loose stools**: drinking a lot can loosen your bowels
 
 Tomatoes also contain GABA, a substance said to be involved in sleep quality. If you drink tomato juice, the evening is a better time than the morning.
+
+### How do your blood test numbers change?
+
+People sometimes ask, "If I keep drinking tomato juice, how much will my checkup numbers drop?" To be honest, **tomato juice alone can't be expected to change your checkup numbers much.** What moves those numbers is far more about the overall amount and content of your meals, your weight, and how active you are than a single glass of juice.
+
+If you want to check for changes, compare these numbers with your previous results at a checkup or blood test two to three months after you start:
+
+- **LDL cholesterol ("bad" cholesterol)**: if it's down, that's a sign your overall diet is working
+- **Triglycerides**: if they're up, consider switching to whole tomatoes or drinking less. Triglycerides swing a lot with the previous night's meal and alcohol, so compare fasting values
+- **Blood sugar (HbA1c)**: worth checking too if you drink a sweetened juice every day
+
+If you're not sure how to read your numbers, bring your checkup results to your regular doctor (after we open, you're welcome to see us).
 
 ### Finally
 

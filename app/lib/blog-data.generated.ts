@@ -376,6 +376,12 @@ export const generatedPosts: BlogPost[] = [
         "ja": "宮崎市の感染症、世代ごとの「注意サイン」〜お子さんは手足口病・胃腸炎、大人は長引くせき、そしてインフルエンザに備えを〜",
         "en": "Infections in Miyazaki City: warning signs for each generation — hand, foot and mouth disease in kids, lingering coughs in adults, and getting ready for flu"
       }
+    ],
+    "upcoming": [
+      {
+        "ja": "食中毒は夏だけじゃない？——冬のノロウイルス、家でできることと受診の目安",
+        "en": "Food poisoning isn't just a summer thing — norovirus in winter, what to do at home and when to see a doctor"
+      }
     ]
   },
   {
@@ -865,6 +871,12 @@ export const generatedPosts: BlogPost[] = [
         "ja": "その便秘薬、飲む量が増えていませんか？——センナを毎日続けないほうがよい理由",
         "en": "Is your laxative dose creeping up? Why senna isn't meant for every day"
       }
+    ],
+    "upcoming": [
+      {
+        "ja": "「宿便がたまっている」って本当？——腸の中で、実際に起きていること",
+        "en": "Is \"old stool stuck in your gut\" real? What's actually happening inside your bowel"
+      }
     ]
   },
   {
@@ -1078,6 +1090,12 @@ export const generatedPosts: BlogPost[] = [
         "slug": "daichou-polyp",
         "ja": "「大腸ポリープがあります」と言われたら〜取る？様子を見る？次の検査はいつ？〜",
         "en": "Told you have a colon polyp? — Remove it or watch it, and when's the next exam?"
+      }
+    ],
+    "upcoming": [
+      {
+        "ja": "「宿便がたまっている」って本当？——腸の中で、実際に起きていること",
+        "en": "Is \"old stool stuck in your gut\" real? What's actually happening inside your bowel"
       }
     ]
   },
@@ -2429,7 +2447,7 @@ export const generatedPosts: BlogPost[] = [
       "title": "右下腹部が痛い、もしかして盲腸？——実は多い「回腸末端炎（小腸の出口の炎症）」のこと",
       "excerpt": "「盲腸だと思って来たんです」——そう心配して受診され、検査の結果「回腸末端炎」だった、という方は少なくありません。聞き慣れない病名に不安になった方へ。",
       "seoTitle": "回腸末端炎の原因と症状｜盲腸（虫垂炎）との違いを消化器外科医が解説",
-      "seoDescription": "回腸末端炎（かいちょうまったんえん・小腸末端の炎症）の主な原因3つと、右下腹部の痛み・下痢などの症状を、消化器外科医が解説します。多くは細菌などによる一時的なもので、自然に、またはお薬で良くなります。盲腸（虫垂炎）との違いと、詳しく調べたほうがよいサインも。",
+      "seoDescription": "回腸末端とは、小腸の最後の部分で、大腸につながる手前の場所です。回腸末端炎（かいちょうまったんえん・小腸末端の炎症）の主な原因3つと、右下腹部の痛み・下痢などの症状を、消化器外科医が解説します。多くは細菌などによる一時的なもので、自然に、またはお薬で良くなります。盲腸（虫垂炎）との違いと、詳しく調べたほうがよいサインも。",
       "body": [
         {
           "kind": "text",
@@ -3156,6 +3174,8 @@ export const generatedPosts: BlogPost[] = [
       "subcategory": "肺・呼吸器・アレルギー",
       "title": "せきが長引く・健診で「影」——結核菌の仲間による肺の病気「肺NTM症」とは？原因・症状と「人にうつるの？」にお答えします",
       "excerpt": "「肺NTM症って結核の仲間？家族にうつる？」——健診で影を指摘されて不安な方へ。先にお伝えすると、この病気は人から人へはうつりません。",
+      "seoTitle": "肺NTM症・肺MAC症とは？ 長引くせきや健診の影の原因と症状、「人にうつるの？」を医師が解説",
+      "seoDescription": "肺NTM症（非結核性抗酸菌症）の多くは、肺MAC症と呼ばれるタイプです。結核菌の仲間ですが、人から人へはうつりません。長引くせきや健診の胸の影で見つかる原因、症状、検査と治療の考え方を医師が解説します。",
       "body": [
         {
           "kind": "text",
@@ -3340,6 +3360,8 @@ export const generatedPosts: BlogPost[] = [
       "subcategory": "Lungs, breathing & allergies",
       "title": "A lingering cough or a “shadow” on your checkup — what is pulmonary NTM (MAC) disease? Causes, symptoms, and “Is it contagious?”",
       "excerpt": "“Is pulmonary NTM a kind of tuberculosis? Can my family catch it?” If a checkup found a shadow on your lungs, here's the reassuring first answer — it doesn't spread from person to person.",
+      "seoTitle": "Pulmonary NTM and MAC disease: causes of a lingering cough or a shadow on a chest X-ray, symptoms, and whether it's contagious",
+      "seoDescription": "Most pulmonary NTM (nontuberculous mycobacterial) disease is the type called MAC disease. It's related to tuberculosis but doesn't spread between people. A doctor explains causes, symptoms, testing and treatment.",
       "body": [
         {
           "kind": "text",
@@ -3945,7 +3967,7 @@ export const generatedPosts: BlogPost[] = [
   {
     "slug": "tomato-juice-ryouba",
     "date": "2026.10.06",
-    "updated": "2026.11.21",
+    "updated": "2026.11.25",
     "cover": "/blog/tomato-juice-ryouba.jpg",
     "coverVersion": "7ccde719",
     "coverWidth": 1600,
@@ -3965,7 +3987,7 @@ export const generatedPosts: BlogPost[] = [
       "subcategory": "コレステロール・尿酸",
       "title": "毎日のトマトジュース、実は逆効果かもしれません",
       "excerpt": "「健康のために、毎朝トマトジュースで野菜をとっています」。とても素敵な習慣ですが、実はその一杯、コレステロールには◎でも中性脂肪には注意が必要かもしれません。",
-      "seoTitle": "トマトジュースを毎日飲むと中性脂肪は？ コレステロールには味方、選ぶなら無塩",
+      "seoTitle": "トマトジュースを毎日飲むと悪玉コレステロール・中性脂肪は？ 血液検査の数値の見方と、選ぶなら無塩",
       "seoDescription": "毎日のトマトジュースは、コレステロールが高めの方には味方ですが、中性脂肪が高めの方には逆効果になることがあります。分かれ目は「無塩かどうか」と「ジュースか、生のまま食べるか」。タイプ別の付き合い方を医師が解説します。",
       "body": [
         {
@@ -4015,6 +4037,26 @@ export const generatedPosts: BlogPost[] = [
         {
           "kind": "text",
           "text": "また、トマトにはGABA（ギャバ）という成分が含まれていて、睡眠の質に関わるとも言われています。飲むなら、朝よりも夕方以降がおすすめです。"
+        },
+        {
+          "kind": "text",
+          "text": "### 血液検査の数値は、どう変わる？"
+        },
+        {
+          "kind": "text",
+          "text": "「トマトジュースを続けたら、健診の数値はどれくらい下がりますか？」と聞かれることがあります。正直にお答えすると、**トマトジュースだけで、健診の数値が大きく変わるとは言えません。** 数値を左右するのは、1杯のジュースよりも、食事全体の量と中身、体重、体を動かす習慣のほうがずっと大きいからです。"
+        },
+        {
+          "kind": "text",
+          "text": "変化を確かめたいときは、続けてみて2〜3か月後の健診や血液検査で、次の数値を前回と見比べてください。"
+        },
+        {
+          "kind": "text",
+          "text": "- **LDLコレステロール（悪玉）**：下がっていれば、今の食事全体がうまくいっているサインです\n- **中性脂肪**：上がっていたら、ジュースを生のトマトに変える、量を減らすなどを考えます。中性脂肪は前の晩の食事や飲酒でも大きく動くので、空腹で測った値で比べるのがおすすめです\n- **血糖（HbA1c）**：甘みのあるジュースを毎日飲んでいる方は、あわせて見ておきましょう"
+        },
+        {
+          "kind": "text",
+          "text": "数値の読み方に迷ったら、健診の結果を持って、かかりつけ医などにご相談ください（開院後は当院へ）。"
         },
         {
           "kind": "text",
@@ -4085,6 +4127,26 @@ export const generatedPosts: BlogPost[] = [
         {
           "kind": "text",
           "text": "Tomatoes also contain GABA, a substance said to be involved in sleep quality. If you drink tomato juice, the evening is a better time than the morning."
+        },
+        {
+          "kind": "text",
+          "text": "### How do your blood test numbers change?"
+        },
+        {
+          "kind": "text",
+          "text": "People sometimes ask, \"If I keep drinking tomato juice, how much will my checkup numbers drop?\" To be honest, **tomato juice alone can't be expected to change your checkup numbers much.** What moves those numbers is far more about the overall amount and content of your meals, your weight, and how active you are than a single glass of juice."
+        },
+        {
+          "kind": "text",
+          "text": "If you want to check for changes, compare these numbers with your previous results at a checkup or blood test two to three months after you start:"
+        },
+        {
+          "kind": "text",
+          "text": "- **LDL cholesterol (\"bad\" cholesterol)**: if it's down, that's a sign your overall diet is working\n- **Triglycerides**: if they're up, consider switching to whole tomatoes or drinking less. Triglycerides swing a lot with the previous night's meal and alcohol, so compare fasting values\n- **Blood sugar (HbA1c)**: worth checking too if you drink a sweetened juice every day"
+        },
+        {
+          "kind": "text",
+          "text": "If you're not sure how to read your numbers, bring your checkup results to your regular doctor (after we open, you're welcome to see us)."
         },
         {
           "kind": "text",
@@ -8035,6 +8097,12 @@ export const generatedPosts: BlogPost[] = [
         "ja": "熱が下がったのに、まだ登園できないの？〜「出席停止」の日数の数え方〜",
         "en": "The fever's gone, so why can't they go back to daycare yet? — How to count \"attendance suspension\" days"
       }
+    ],
+    "upcoming": [
+      {
+        "ja": "食中毒は夏だけじゃない？——冬のノロウイルス、家でできることと受診の目安",
+        "en": "Food poisoning isn't just a summer thing — norovirus in winter, what to do at home and when to see a doctor"
+      }
     ]
   },
   {
@@ -9297,6 +9365,12 @@ export const generatedPosts: BlogPost[] = [
         "slug": "kaicho-mattan-en",
         "ja": "右下腹部が痛い、もしかして盲腸？——実は多い「回腸末端炎（小腸の出口の炎症）」のこと",
         "en": "Pain in your lower right belly — is it appendicitis? Meet the often-overlooked “terminal ileitis”"
+      }
+    ],
+    "upcoming": [
+      {
+        "ja": "「宿便がたまっている」って本当？——腸の中で、実際に起きていること",
+        "en": "Is \"old stool stuck in your gut\" real? What's actually happening inside your bowel"
       }
     ]
   },
@@ -10987,6 +11061,8 @@ export const generatedPosts: BlogPost[] = [
       "subcategory": "血圧",
       "title": "血圧はもう正常なのに、どうして薬を飲み続けるの？〜「治った」と「薬が支えている」の違い〜",
       "excerpt": "「先生、血圧が正常に安定しているのだから、もう薬をやめてもいいですか？」。そう思うのは、治療がうまくいっている証拠でもあります。",
+      "seoTitle": "高血圧は治る？ 血圧が正常になったら薬はやめられる？「治った」と「薬が支えている」の違い",
+      "seoDescription": "血圧が正常になったのは、高血圧が治ったからでしょうか、それとも薬が支えているからでしょうか。薬を減らしたりやめたりできる人の条件と、自己判断でやめたときに起きること、医師と相談しながら減らす進め方を解説します。",
       "body": [
         {
           "kind": "text",
@@ -11091,6 +11167,8 @@ export const generatedPosts: BlogPost[] = [
       "subcategory": "Blood pressure",
       "title": "My blood pressure is normal now — so why do I still need to take my medicine? — the difference between “cured” and “held steady by medicine”",
       "excerpt": "“Doctor, my blood pressure has been normal and stable — can I stop the medicine now?” Wondering that is actually a sign your treatment is working.",
+      "seoTitle": "Can high blood pressure be cured? Can you stop your medicine once your readings are normal?",
+      "seoDescription": "Is your blood pressure normal because it's cured, or because your medicine is holding it steady? A doctor explains who may be able to cut down or stop, what happens if you stop on your own, and how to reduce medicine safely.",
       "body": [
         {
           "kind": "text",
@@ -13357,6 +13435,12 @@ export const generatedPosts: BlogPost[] = [
         "slug": "kodomo-outo-geri-suibun",
         "ja": "吐いたあと、すぐに水を飲ませていませんか？〜子どものおう吐・下痢のときの水分のとり方〜",
         "en": "Giving water right after your child vomits? — How to give fluids when children have vomiting and diarrhea"
+      }
+    ],
+    "upcoming": [
+      {
+        "ja": "食中毒は夏だけじゃない？——冬のノロウイルス、家でできることと受診の目安",
+        "en": "Food poisoning isn't just a summer thing — norovirus in winter, what to do at home and when to see a doctor"
       }
     ]
   },

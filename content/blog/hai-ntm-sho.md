@@ -9,6 +9,10 @@ title_ja: せきが長引く・健診で「影」——結核菌の仲間によ�
 title_en: A lingering cough or a “shadow” on your checkup — what is pulmonary NTM (MAC) disease? Causes, symptoms, and “Is it contagious?”
 excerpt_ja: 「肺NTM症って結核の仲間？家族にうつる？」——健診で影を指摘されて不安な方へ。先にお伝えすると、この病気は人から人へはうつりません。
 excerpt_en: “Is pulmonary NTM a kind of tuberculosis? Can my family catch it?” If a checkup found a shadow on your lungs, here's the reassuring first answer — it doesn't spread from person to person.
+seo_title_ja: "肺NTM症・肺MAC症とは？ 長引くせきや健診の影の原因と症状、「人にうつるの？」を医師が解説"
+seo_description_ja: "肺NTM症（非結核性抗酸菌症）の多くは、肺MAC症と呼ばれるタイプです。結核菌の仲間ですが、人から人へはうつりません。長引くせきや健診の胸の影で見つかる原因、症状、検査と治療の考え方を医師が解説します。"
+seo_title_en: "Pulmonary NTM and MAC disease: causes of a lingering cough or a shadow on a chest X-ray, symptoms, and whether it's contagious"
+seo_description_en: "Most pulmonary NTM (nontuberculous mycobacterial) disease is the type called MAC disease. It's related to tuberculosis but doesn't spread between people. A doctor explains causes, symptoms, testing and treatment."
 sources:
   - label: "日本結核・非結核性抗酸菌症学会「成人肺非結核性抗酸菌症化学療法に関する見解―2023年改訂」"
   - label: "Namkoong H, et al. Epidemiology of Pulmonary Nontuberculous Mycobacterial Disease, Japan. Emerg Infect Dis. 2016;22:1116-1117"
