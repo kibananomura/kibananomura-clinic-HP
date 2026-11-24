@@ -2472,7 +2472,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "そして、この回腸末端がつながる大腸の入り口が「盲腸」で、いわゆる「盲腸（の病気）」と呼ばれている**虫垂（ちゅうすい）**は、その盲腸からぶら下がっている細い突起です。つまり、回腸末端と虫垂は、**右下腹部のほぼ同じ場所に、隣り合って並んでいる**のです。"
+          "text": "そして、この回腸末端がつながる大腸の入り口が「盲腸」で、いわゆる「盲腸（の病気）」と呼ばれている**虫垂（ちゅうすい）**は、その盲腸からぶら下がっている細い突起です。つまり、回腸末端と虫垂は、**右下腹部のほぼ同じ場所に、隣り合って並んでいる**のです。回腸と盲腸のつなぎ目のあたりは「回盲部（かいもうぶ）」と呼ばれ、この部分の炎症を「回盲部炎」と呼ぶこともあります。"
         },
         {
           "kind": "text",
@@ -2630,7 +2630,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "The part of the large intestine it connects to is the cecum, and the **appendix** — the organ involved in \"appendicitis\" — is a thin tube hanging off the cecum. In other words, the terminal ileum and the appendix **sit side by side in almost the same spot in the lower right abdomen.**"
+          "text": "The part of the large intestine it connects to is the cecum, and the **appendix** — the organ involved in \"appendicitis\" — is a thin tube hanging off the cecum. In other words, the terminal ileum and the appendix **sit side by side in almost the same spot in the lower right abdomen.** The area where the ileum joins the cecum is called the ileocecal region, and inflammation there is sometimes called ileocecal inflammation (ileocecitis)."
         },
         {
           "kind": "text",

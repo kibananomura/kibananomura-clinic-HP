@@ -39,7 +39,7 @@ sources:
 
 小腸は、胃から続く長い腸で、最後の部分を「回腸（かいちょう）」と呼びます。その回腸の終わり、ちょうど**大腸につながる手前の部分が「回腸末端」**です（「小腸の末端」とも呼ばれます）。
 
-そして、この回腸末端がつながる大腸の入り口が「盲腸」で、いわゆる「盲腸（の病気）」と呼ばれている**虫垂（ちゅうすい）**は、その盲腸からぶら下がっている細い突起です。つまり、回腸末端と虫垂は、**右下腹部のほぼ同じ場所に、隣り合って並んでいる**のです。
+そして、この回腸末端がつながる大腸の入り口が「盲腸」で、いわゆる「盲腸（の病気）」と呼ばれている**虫垂（ちゅうすい）**は、その盲腸からぶら下がっている細い突起です。つまり、回腸末端と虫垂は、**右下腹部のほぼ同じ場所に、隣り合って並んでいる**のです。回腸と盲腸のつなぎ目のあたりは「回盲部（かいもうぶ）」と呼ばれ、この部分の炎症を「回盲部炎」と呼ぶこともあります。
 
 そのため、どちらに炎症が起きても、痛む場所がとてもよく似てしまいます。「右下腹部が痛い＝盲腸」と考えるのは自然なことですが、実際には盲腸（虫垂炎）以外の原因で痛んでいることも多く、その代表が回腸末端炎です。
 
@@ -124,7 +124,7 @@ Here's what I'll cover:
 
 The small intestine is the long stretch of bowel that follows the stomach, and its last section is called the ileum. The very end of the ileum — **just before it joins the large intestine — is the "terminal ileum."**
 
-The part of the large intestine it connects to is the cecum, and the **appendix** — the organ involved in "appendicitis" — is a thin tube hanging off the cecum. In other words, the terminal ileum and the appendix **sit side by side in almost the same spot in the lower right abdomen.**
+The part of the large intestine it connects to is the cecum, and the **appendix** — the organ involved in "appendicitis" — is a thin tube hanging off the cecum. In other words, the terminal ileum and the appendix **sit side by side in almost the same spot in the lower right abdomen.** The area where the ileum joins the cecum is called the ileocecal region, and inflammation there is sometimes called ileocecal inflammation (ileocecitis).
 
 That's why inflammation in either one causes pain in a very similar place. It's natural to think "lower right belly pain means appendicitis," but in reality the pain often has another cause — and terminal ileitis is one of the most common.
 
