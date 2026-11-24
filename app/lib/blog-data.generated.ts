@@ -198,10 +198,10 @@ export const generatedPosts: BlogPost[] = [
   {
     "slug": "kansen-2026-07",
     "date": "2026.08.05",
-    "cover": "/blog/kibana-landscape.jpg",
-    "coverVersion": "951e262c",
-    "coverWidth": 1536,
-    "coverHeight": 1024,
+    "cover": "/blog/kansen-2026-07.jpg",
+    "coverVersion": "3537e118",
+    "coverWidth": 1600,
+    "coverHeight": 900,
     "sources": [
       {
         "label": "宮崎県衛生環境研究所 感染症情報センター「宮崎県感染症発生動向調査」",
