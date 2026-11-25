@@ -5232,6 +5232,11 @@ export const generatedPosts: BlogPost[] = [
     },
     "related": [
       {
+        "slug": "usuge-koujousen-tetsu",
+        "ja": "抜け毛が増えたのは、年齢のせい？　髪の前に、体のサインを見てみませんか",
+        "en": "More hair in the drain — is it just age? Before treating your hair, check what your body is telling you"
+      },
+      {
         "slug": "tetsu-vitamin-c-ekiden",
         "ja": "鉄分をとっているのに、貧血が良くならない？〜カギはビタミンC。走る子に貧血が多い理由と、まぶたのセルフチェック〜",
         "en": "Taking iron, but your anemia isn't improving? — vitamin C is the key, plus why young runners often become anemic and a simple eyelid self-check"
@@ -16256,6 +16261,293 @@ export const generatedPosts: BlogPost[] = [
         "slug": "kibana-no-namae",
         "ja": "名前に込めた、ふたつの想い",
         "en": "Two ideas behind our name"
+      }
+    ]
+  },
+  {
+    "slug": "usuge-koujousen-tetsu",
+    "date": "2026.11.25",
+    "cover": "/blog/usuge-koujousen-tetsu.jpg",
+    "coverVersion": "e491cbbf",
+    "coverWidth": 1600,
+    "coverHeight": 900,
+    "sources": [
+      {
+        "label": "日本皮膚科学会「男性型および女性型脱毛症診療ガイドライン2017年版」（Minds）",
+        "url": "https://minds.jcqhc.or.jp/summary/c00458/"
+      },
+      {
+        "label": "MSDマニュアル プロフェッショナル版「甲状腺機能低下症」",
+        "url": "https://www.msdmanuals.com/ja-jp/%E3%83%97%E3%83%AD%E3%83%95%E3%82%A7%E3%83%83%E3%82%B7%E3%83%A7%E3%83%8A%E3%83%AB/10-%E5%86%85%E5%88%86%E6%B3%8C%E7%96%BE%E6%82%A3%E3%81%A8%E4%BB%A3%E8%AC%9D%E6%80%A7%E7%96%BE%E6%82%A3/%E7%94%B2%E7%8A%B6%E8%85%BA%E7%96%BE%E6%82%A3/%E7%94%B2%E7%8A%B6%E8%85%BA%E6%A9%9F%E8%83%BD%E4%BD%8E%E4%B8%8B%E7%97%87"
+      },
+      {
+        "label": "Trost LB, et al. The diagnosis and treatment of iron deficiency and its potential relationship to hair loss. J Am Acad Dermatol. 2006",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/16635664/"
+      },
+      {
+        "label": "Iron Deficiency and Nonscarring Alopecia in Women: Systematic Review and Meta-Analysis. Skin Appendage Disord. 2022",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/35415182/"
+      }
+    ],
+    "ja": {
+      "category": "健康・予防の話",
+      "subcategory": "健診・検査",
+      "title": "抜け毛が増えたのは、年齢のせい？　髪の前に、体のサインを見てみませんか",
+      "excerpt": "急に抜け毛が増えた。その原因が、髪ではなく体の中にあることもあります。",
+      "seoTitle": "薄毛・抜け毛は甲状腺や鉄不足のせい？ 血液検査で分かる原因と、受診の目安",
+      "seoDescription": "抜け毛や薄毛の原因は、AGA（男性型脱毛症）だけではありません。甲状腺の働きが落ちている、鉄が足りないなど、体の中の原因で髪が薄くなることもあります。見分けるヒントと、血液検査で分かること、受診の目安を医師が解説します。",
+      "body": [
+        {
+          "kind": "text",
+          "text": "「お風呂の排水口にたまる髪が、前より増えた気がする」「分け目が目立つようになった」。鏡を見るたびに気になって、「年のせいかな」とため息をついている方もいるかもしれません。"
+        },
+        {
+          "kind": "text",
+          "text": "先にお答えすると、**薄毛や抜け毛の原因は、年齢や体質だけではありません。**甲状腺の働きが落ちている、体の鉄が足りないなど、**体の中の原因で髪が薄くなることもあります。**こうした原因は、血液検査で確かめることができます。"
+        },
+        {
+          "kind": "text",
+          "text": "### 髪は、体の調子を映す鏡"
+        },
+        {
+          "kind": "text",
+          "text": "髪は、伸びる時期・休む時期・抜ける時期をくり返しています。体の調子がくずれると、休む時期に入る髪が一度に増え、しばらくしてからまとまって抜けることがあります。"
+        },
+        {
+          "kind": "text",
+          "text": "そのため、抜け毛の原因が、髪そのものではなく体のほうにあることも少なくありません。"
+        },
+        {
+          "kind": "text",
+          "text": "### 甲状腺の働きが落ちているとき"
+        },
+        {
+          "kind": "text",
+          "text": "甲状腺は、のどにある小さな臓器で、体の元気さを保つホルモンを出しています。この働きが落ちる「甲状腺機能低下症」では、髪が細くなったり、抜けやすくなったりすることがあります。"
+        },
+        {
+          "kind": "text",
+          "text": "髪のほかに、こんな変化がないか見てみてください。"
+        },
+        {
+          "kind": "text",
+          "text": "- 疲れやすい、なんとなくだるい\n- 寒がりになった\n- 顔や手がむくむ\n- 肌がかさかさする\n- 便秘ぎみになった\n- 食べる量は変わらないのに体重が増えた"
+        },
+        {
+          "kind": "text",
+          "text": "反対に、甲状腺の働きが強すぎるとき（バセドウ病など）にも、抜け毛が増えることがあります。この場合は、どうき、汗をかきやすい、体重が減るといった変化が目立ちます。"
+        },
+        {
+          "kind": "text",
+          "text": "甲状腺の病気は女性に多く、出産のあとに始まることもあります。"
+        },
+        {
+          "kind": "text",
+          "text": "### 鉄が足りないとき"
+        },
+        {
+          "kind": "text",
+          "text": "髪をつくるには、鉄も欠かせません。月経のある女性や、食事の量を減らしている方は、鉄が足りなくなりやすいといわれています。"
+        },
+        {
+          "kind": "text",
+          "text": "ここで知っておきたいのは、**貧血と言われていなくても、体にたくわえておく鉄（フェリチン）が減っていることがある**という点です。疲れやすい、息切れがする、月経の量が多い、といった方は、一度確かめてみる価値があります。"
+        },
+        {
+          "kind": "text",
+          "text": "ただし、鉄を補えば髪が元に戻ると、はっきり確かめられているわけではありません。また、鉄は取りすぎても体に害があります。サプリメントを自己判断で飲み続けるより、まず血液検査で足りているかを確かめることをおすすめします。"
+        },
+        {
+          "kind": "text",
+          "text": "### ほかにも、こんな原因が"
+        },
+        {
+          "kind": "text",
+          "text": "- 出産のあとの抜け毛（多くは半年〜1年ほどで自然に戻ります）\n- 無理なダイエット\n- 円形脱毛症\n- 飲んでいるお薬の影響\n- 男性型・女性型の脱毛症（AGA・FAGA）"
+        },
+        {
+          "kind": "text",
+          "text": "男性型・女性型の脱毛症は、生え際や頭のてっぺん、分け目から少しずつ薄くなるのが特徴です。一方、**ここ数か月で急に、全体的に抜けるようになった場合は、体の中の原因も疑ってみる**のがよいと思います。"
+        },
+        {
+          "kind": "text",
+          "text": "### 血液検査で分かること"
+        },
+        {
+          "kind": "text",
+          "text": "血液検査では、甲状腺の働き（TSH・甲状腺ホルモン）、貧血の有無、体の鉄のたくわえ（フェリチン）などを調べることができます。原因が見つかれば、その病気を治すことで、髪の状態も落ち着いてくることがあります。"
+        },
+        {
+          "kind": "text",
+          "text": "薄毛の治療を始める前に、まずこうした原因がないかを確かめておくことが大切です。"
+        },
+        {
+          "kind": "text",
+          "text": "### 受診のときに伝えてほしいこと"
+        },
+        {
+          "kind": "text",
+          "text": "次のようなことをメモして持っていくと、原因を考える手がかりになります。"
+        },
+        {
+          "kind": "text",
+          "text": "- いつごろから、どのくらい抜けるようになったか\n- 抜けるのは全体か、生え際・頭のてっぺん・分け目か\n- だるさ・寒がり・どうき・息切れなど、ほかの体の変化\n- ここ半年ほどの出産・ダイエット・大きな病気やけが\n- 飲んでいるお薬やサプリメント"
+        },
+        {
+          "kind": "text",
+          "text": "### まずは、体の話から"
+        },
+        {
+          "kind": "text",
+          "text": "「髪のことで病院に行くなんて」と思わずに、**抜け毛とあわせて、だるさや寒がり、どうき、息切れなどがある方は、かかりつけ医などにご相談ください**（開院後は当院へ）。髪のことは「[薄毛が気になる](/symptoms/hair-loss-aga)」のページでもまとめています。"
+        },
+        {
+          "kind": "text",
+          "text": "医師として外来に立つなかで、「髪のことだから」と体の不調を後回しにしてしまう方は少なくありません。髪は、体からの小さな便りかもしれません。"
+        },
+        {
+          "kind": "text",
+          "text": "※この記事は一般的な情報で、個別の診断・治療ではありません。"
+        }
+      ]
+    },
+    "en": {
+      "category": "Health and prevention",
+      "subcategory": "Checkups & tests",
+      "title": "More hair in the drain — is it just age? Before treating your hair, check what your body is telling you",
+      "excerpt": "Suddenly losing more hair? Sometimes the cause isn't your hair at all, but something inside your body.",
+      "seoTitle": "Is your hair loss from your thyroid or low iron? Causes a blood test can find, and when to see a doctor",
+      "seoDescription": "Hair loss isn't always male or female pattern hair loss. An underactive thyroid or low iron can also thin your hair. A doctor explains the clues, what a blood test can show, and when to get checked.",
+      "body": [
+        {
+          "kind": "text",
+          "text": "\"There seems to be more hair in the bathroom drain than before.\" \"My part is getting more noticeable.\" If you sigh at the mirror and think, \"It must be my age,\" you're not alone."
+        },
+        {
+          "kind": "text",
+          "text": "Here's the short answer: **thinning hair and hair loss aren't only about age or genes.** An underactive thyroid or low iron, for example, **can thin your hair from the inside.** These causes can be checked with a blood test."
+        },
+        {
+          "kind": "text",
+          "text": "### Your hair reflects your body"
+        },
+        {
+          "kind": "text",
+          "text": "Hair cycles through growing, resting and shedding phases. When your body is out of balance, more hairs can enter the resting phase at once, and then fall out together some time later."
+        },
+        {
+          "kind": "text",
+          "text": "That's why the cause of hair loss is often not the hair itself, but the body."
+        },
+        {
+          "kind": "text",
+          "text": "### When your thyroid slows down"
+        },
+        {
+          "kind": "text",
+          "text": "The thyroid is a small organ in your neck that releases hormones that keep your body running. When it slows down (hypothyroidism), hair can become thinner or fall out more easily."
+        },
+        {
+          "kind": "text",
+          "text": "Besides your hair, check for changes like these:"
+        },
+        {
+          "kind": "text",
+          "text": "- Tiring easily, or feeling sluggish\n- Feeling cold more than before\n- Puffiness in the face or hands\n- Dry skin\n- Constipation\n- Weight gain without eating more"
+        },
+        {
+          "kind": "text",
+          "text": "On the other hand, an overactive thyroid (such as Graves' disease) can also increase hair loss. Then you're more likely to notice a racing heartbeat, sweating and weight loss."
+        },
+        {
+          "kind": "text",
+          "text": "Thyroid disease is more common in women, and it sometimes starts after childbirth."
+        },
+        {
+          "kind": "text",
+          "text": "### When you're low on iron"
+        },
+        {
+          "kind": "text",
+          "text": "Your body also needs iron to make hair. People who menstruate, and people who are eating less, are said to run low on iron more easily."
+        },
+        {
+          "kind": "text",
+          "text": "It helps to know that **even if you haven't been told you're anemic, your stored iron (ferritin) can still be low.** If you tire easily, get short of breath, or have heavy periods, it's worth checking."
+        },
+        {
+          "kind": "text",
+          "text": "That said, it hasn't been clearly shown that taking iron will bring your hair back. And too much iron can also harm the body. Rather than taking supplements on your own, we recommend first checking with a blood test whether you're actually low."
+        },
+        {
+          "kind": "text",
+          "text": "### Other possible causes"
+        },
+        {
+          "kind": "text",
+          "text": "- Hair loss after childbirth (usually recovers on its own within about 6 months to a year)\n- Extreme dieting\n- Alopecia areata\n- Side effects of medicines you take\n- Male or female pattern hair loss (AGA, FAGA)"
+        },
+        {
+          "kind": "text",
+          "text": "Pattern hair loss usually thins gradually at the hairline, the crown or the part. On the other hand, **if your hair has started falling out all over, suddenly, over the past few months, it's worth considering a cause inside the body.**"
+        },
+        {
+          "kind": "text",
+          "text": "### What a blood test can show"
+        },
+        {
+          "kind": "text",
+          "text": "A blood test can check your thyroid function (TSH and thyroid hormone), whether you're anemic, and your iron stores (ferritin). If a cause is found, treating that condition can help your hair settle down too."
+        },
+        {
+          "kind": "text",
+          "text": "Before starting treatment for thinning hair, it's important to first rule out causes like these."
+        },
+        {
+          "kind": "text",
+          "text": "### What to tell your doctor"
+        },
+        {
+          "kind": "text",
+          "text": "Jotting down the following and bringing it with you can help find the cause:"
+        },
+        {
+          "kind": "text",
+          "text": "- When the hair loss started, and how much\n- Whether it's all over, or at the hairline, the crown or the part\n- Other changes such as fatigue, feeling cold, a racing heartbeat or shortness of breath\n- Childbirth, dieting, or a major illness or injury in the past six months or so\n- Medicines and supplements you take"
+        },
+        {
+          "kind": "text",
+          "text": "### Start with your body"
+        },
+        {
+          "kind": "text",
+          "text": "Don't think, \"It's only my hair.\" **If your hair loss comes with fatigue, feeling cold, a racing heartbeat or shortness of breath, please talk to your regular doctor** (after we open, you're welcome to see us). For more on hair, see our \"[Concerned about thinning hair](/symptoms/hair-loss-aga)\" page."
+        },
+        {
+          "kind": "text",
+          "text": "As a doctor in outpatient clinics, I find many people put off their physical symptoms because \"it's just my hair.\" Your hair may be a small message from your body."
+        },
+        {
+          "kind": "text",
+          "text": "*This article provides general information and is not an individual diagnosis or treatment."
+        }
+      ]
+    },
+    "related": [
+      {
+        "slug": "tetsu-vitamin-c-ekiden",
+        "ja": "鉄分をとっているのに、貧血が良くならない？〜カギはビタミンC。走る子に貧血が多い理由と、まぶたのセルフチェック〜",
+        "en": "Taking iron, but your anemia isn't improving? — vitamin C is the key, plus why young runners often become anemic and a simple eyelid self-check"
+      },
+      {
+        "slug": "seijou-no-jouge-fuan",
+        "ja": "健診結果の「正常の上限」、どう考える？",
+        "en": "Your checkup came back \"normal, but at the upper edge\" — what does that mean?"
+      },
+      {
+        "slug": "tumor-marker-checkup",
+        "ja": "健診のオプションで「腫瘍マーカー」が高かった方へ",
+        "en": "If your optional tumor marker test came back high"
       }
     ]
   }
