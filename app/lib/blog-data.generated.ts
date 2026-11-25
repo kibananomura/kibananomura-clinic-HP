@@ -9396,6 +9396,10 @@ export const generatedPosts: BlogPost[] = [
       {
         "ja": "「宿便がたまっている」って本当？——腸の中で、実際に起きていること",
         "en": "Is \"old stool stuck in your gut\" real? What's actually happening inside your bowel"
+      },
+      {
+        "ja": "「貼り薬だから安心」は本当？——湿布で胃が悪くなる理由と、正しい使い方",
+        "en": "Is a pain patch always safe? Why patches can upset your stomach, and how to use them properly"
       }
     ]
   },
@@ -13849,6 +13853,10 @@ export const generatedPosts: BlogPost[] = [
       {
         "ja": "たくさん寝たのに疲れが取れない？——大切なのは、睡眠の「長さ」より「翌朝の回復感」",
         "en": "Slept plenty but still tired? What matters more than hours is how rested you feel the next morning"
+      },
+      {
+        "ja": "「貼り薬だから安心」は本当？——湿布で胃が悪くなる理由と、正しい使い方",
+        "en": "Is a pain patch always safe? Why patches can upset your stomach, and how to use them properly"
       }
     ]
   },
