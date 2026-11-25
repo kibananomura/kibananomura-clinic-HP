@@ -1,6 +1,6 @@
 ---
 date: 2026.12.04
-cover: /blog/kibana-landscape.jpg
+cover: /blog/fuyu-bate-suibun-tanpaku.jpg
 category_ja: 健康・予防の話
 category_en: Health and prevention
 subcategory_ja: 食事・運動
