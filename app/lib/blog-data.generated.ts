@@ -8434,6 +8434,16 @@ export const generatedPosts: BlogPost[] = [
         "ja": "1日1万歩じゃなくても大丈夫？〜60歳からは「まず5,000歩」。スマホで楽しく続けるコツ〜",
         "en": "Do you really need 10,000 steps a day? — after 60, “start with 5,000,” plus tips for keeping it fun with your smartphone"
       }
+    ],
+    "upcoming": [
+      {
+        "ja": "朝から体が重いのは、朝ごはんのせい？——「腸活」と「たんぱく質」を一緒にとる朝の習慣",
+        "en": "Feeling heavy every morning? Pair gut-friendly foods with protein at breakfast"
+      },
+      {
+        "ja": "体重計の数字に、一喜一憂していませんか？——体重より「体の調子」で考える、姿勢・筋力・日々の動き",
+        "en": "Riding the ups and downs of the scale? Think in terms of how your body feels — posture, strength and everyday movement"
+      }
     ]
   },
   {
@@ -13834,6 +13844,12 @@ export const generatedPosts: BlogPost[] = [
         "ja": "【続報】宮崎でインフルエンザが例年の約15倍に。RSウイルスも倍増、マダニの感染症にも注意を",
         "en": "[Update] Flu in Miyazaki is about 15 times the usual level — RSV has doubled, and watch out for tick-borne infections too"
       }
+    ],
+    "upcoming": [
+      {
+        "ja": "たくさん寝たのに疲れが取れない？——大切なのは、睡眠の「長さ」より「翌朝の回復感」",
+        "en": "Slept plenty but still tired? What matters more than hours is how rested you feel the next morning"
+      }
     ]
   },
   {
@@ -15030,6 +15046,16 @@ export const generatedPosts: BlogPost[] = [
         "ja": "鉄分をとっているのに、貧血が良くならない？〜カギはビタミンC。走る子に貧血が多い理由と、まぶたのセルフチェック〜",
         "en": "Taking iron, but your anemia isn't improving? — vitamin C is the key, plus why young runners often become anemic and a simple eyelid self-check"
       }
+    ],
+    "upcoming": [
+      {
+        "ja": "スマホを見ていると、目も首も肩も重い——完璧じゃなくていい、1日5分のリセット習慣",
+        "en": "Eyes, neck and shoulders heavy from screens? A 5-minute daily reset — no need to be perfect"
+      },
+      {
+        "ja": "「これくらい大丈夫」と後回しにしていませんか？——忙しい人のための「頑張らない養生」",
+        "en": "Putting off \"it's nothing\"? Effortless self-care for busy people"
+      }
     ]
   },
   {
@@ -15240,6 +15266,12 @@ export const generatedPosts: BlogPost[] = [
         "slug": "ichinichi-isshoku-yasenai",
         "ja": "1日一食しか食べてないのに痩せないあなたへ",
         "en": "To everyone who eats only one meal a day and still can't lose weight"
+      }
+    ],
+    "upcoming": [
+      {
+        "ja": "朝から体が重いのは、朝ごはんのせい？——「腸活」と「たんぱく質」を一緒にとる朝の習慣",
+        "en": "Feeling heavy every morning? Pair gut-friendly foods with protein at breakfast"
       }
     ]
   },

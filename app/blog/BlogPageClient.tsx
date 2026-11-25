@@ -39,6 +39,7 @@ const SUBCATEGORY_ORDER: { ja: string; en: string }[] = [
   { ja: "コレステロール・尿酸", en: "Cholesterol & uric acid" },
   { ja: "糖尿病・生活習慣病", en: "Diabetes & lifestyle diseases" },
   { ja: "食事・運動", en: "Diet & exercise" },
+  { ja: "睡眠・休養", en: "Sleep & rest" },
   { ja: "健診・検査", en: "Checkups & tests" },
   { ja: "足・腰・けが", en: "Feet, back & injuries" },
   { ja: "男性の健康", en: "Men's health" },
