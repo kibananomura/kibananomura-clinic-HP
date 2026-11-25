@@ -1,6 +1,6 @@
 ---
 date: 2026.11.30
-cover: /blog/kibana-landscape.jpg
+cover: /blog/suimin-kaifukukan.jpg
 category_ja: 健康・予防の話
 category_en: Health and prevention
 subcategory_ja: 睡眠・休養
