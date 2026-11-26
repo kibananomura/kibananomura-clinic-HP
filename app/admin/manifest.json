@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-25T04:42:30.022Z",
+  "generatedAt": "2026-11-26T05:03:27.148Z",
   "categories": [
     {
       "label": "労務規程一式（就業規則・賃金規程・各種規程）",
@@ -263,8 +263,8 @@
           "blobUrl": "https://ck8huzl3ywaclnro.private.blob.vercel-storage.com/pre-opening-training/00_%E7%90%86%E5%BF%B5%E3%81%AE%E4%BD%93%E7%B3%BB%E3%81%A8%E8%A1%8C%E5%8B%95%E6%8C%87%E9%87%9D.pdf",
           "htmlUrl": "/admin-docs/pre-opening-training/00_%E7%90%86%E5%BF%B5%E3%81%AE%E4%BD%93%E7%B3%BB%E3%81%A8%E8%A1%8C%E5%8B%95%E6%8C%87%E9%87%9D.html",
           "blobHtmlUrl": "https://ck8huzl3ywaclnro.private.blob.vercel-storage.com/pre-opening-training/00_%E7%90%86%E5%BF%B5%E3%81%AE%E4%BD%93%E7%B3%BB%E3%81%A8%E8%A1%8C%E5%8B%95%E6%8C%87%E9%87%9D.html",
-          "sizeKB": 2442,
-          "modified": "2026-11-16"
+          "sizeKB": 2462,
+          "modified": "2026-11-26"
         },
         {
           "name": "01_研修カリキュラム",
@@ -272,8 +272,8 @@
           "blobUrl": "https://ck8huzl3ywaclnro.private.blob.vercel-storage.com/pre-opening-training/01_%E7%A0%94%E4%BF%AE%E3%82%AB%E3%83%AA%E3%82%AD%E3%83%A5%E3%83%A9%E3%83%A0.pdf",
           "htmlUrl": "/admin-docs/pre-opening-training/01_%E7%A0%94%E4%BF%AE%E3%82%AB%E3%83%AA%E3%82%AD%E3%83%A5%E3%83%A9%E3%83%A0.html",
           "blobHtmlUrl": "https://ck8huzl3ywaclnro.private.blob.vercel-storage.com/pre-opening-training/01_%E7%A0%94%E4%BF%AE%E3%82%AB%E3%83%AA%E3%82%AD%E3%83%A5%E3%83%A9%E3%83%A0.html",
-          "sizeKB": 580,
-          "modified": "2026-11-25"
+          "sizeKB": 640,
+          "modified": "2026-11-26"
         },
         {
           "name": "02_研修スケジュール",
@@ -281,8 +281,8 @@
           "blobUrl": "https://ck8huzl3ywaclnro.private.blob.vercel-storage.com/pre-opening-training/02_%E7%A0%94%E4%BF%AE%E3%82%B9%E3%82%B1%E3%82%B8%E3%83%A5%E3%83%BC%E3%83%AB.pdf",
           "htmlUrl": "/admin-docs/pre-opening-training/02_%E7%A0%94%E4%BF%AE%E3%82%B9%E3%82%B1%E3%82%B8%E3%83%A5%E3%83%BC%E3%83%AB.html",
           "blobHtmlUrl": "https://ck8huzl3ywaclnro.private.blob.vercel-storage.com/pre-opening-training/02_%E7%A0%94%E4%BF%AE%E3%82%B9%E3%82%B1%E3%82%B8%E3%83%A5%E3%83%BC%E3%83%AB.html",
-          "sizeKB": 454,
-          "modified": "2026-11-21"
+          "sizeKB": 464,
+          "modified": "2026-11-26"
         },
         {
           "name": "10_T-01_医師は医師にしかできないことに集中する",
@@ -335,8 +335,8 @@
           "blobUrl": "https://ck8huzl3ywaclnro.private.blob.vercel-storage.com/pre-opening-training/10_T-06_%E3%83%9F%E3%83%83%E3%82%B7%E3%83%A7%E3%83%B3%E3%83%BB%E3%83%93%E3%82%B8%E3%83%A7%E3%83%B3%E5%AE%9F%E8%B7%B5%E3%82%AC%E3%82%A4%E3%83%89%EF%BC%88%E3%82%AF%E3%83%AC%E3%83%89%EF%BC%89.pdf",
           "htmlUrl": "/admin-docs/pre-opening-training/10_T-06_%E3%83%9F%E3%83%83%E3%82%B7%E3%83%A7%E3%83%B3%E3%83%BB%E3%83%93%E3%82%B8%E3%83%A7%E3%83%B3%E5%AE%9F%E8%B7%B5%E3%82%AC%E3%82%A4%E3%83%89%EF%BC%88%E3%82%AF%E3%83%AC%E3%83%89%EF%BC%89.html",
           "blobHtmlUrl": "https://ck8huzl3ywaclnro.private.blob.vercel-storage.com/pre-opening-training/10_T-06_%E3%83%9F%E3%83%83%E3%82%B7%E3%83%A7%E3%83%B3%E3%83%BB%E3%83%93%E3%82%B8%E3%83%A7%E3%83%B3%E5%AE%9F%E8%B7%B5%E3%82%AC%E3%82%A4%E3%83%89%EF%BC%88%E3%82%AF%E3%83%AC%E3%83%89%EF%BC%89.html",
-          "sizeKB": 1047,
-          "modified": "2026-11-16"
+          "sizeKB": 1053,
+          "modified": "2026-11-26"
         },
         {
           "name": "10_T-07_レセプトは全員で見る経営の道具",
@@ -373,6 +373,15 @@
           "blobHtmlUrl": "https://ck8huzl3ywaclnro.private.blob.vercel-storage.com/pre-opening-training/10_T-08-03_roleplay_scenarios%EF%BC%88%E4%BC%B4%E8%B5%B0%E5%9E%8B%E3%81%AE%E8%A1%8C%E5%8B%95%E5%A4%89%E5%AE%B9%E6%94%AF%E6%8F%B4%EF%BC%89.html",
           "sizeKB": 862,
           "modified": "2026-11-21"
+        },
+        {
+          "name": "10_T-09_相談しやすい職場の約束と相談の流れ",
+          "url": "/admin-docs/pre-opening-training/10_T-09_%E7%9B%B8%E8%AB%87%E3%81%97%E3%82%84%E3%81%99%E3%81%84%E8%81%B7%E5%A0%B4%E3%81%AE%E7%B4%84%E6%9D%9F%E3%81%A8%E7%9B%B8%E8%AB%87%E3%81%AE%E6%B5%81%E3%82%8C.pdf",
+          "blobUrl": "https://ck8huzl3ywaclnro.private.blob.vercel-storage.com/pre-opening-training/10_T-09_%E7%9B%B8%E8%AB%87%E3%81%97%E3%82%84%E3%81%99%E3%81%84%E8%81%B7%E5%A0%B4%E3%81%AE%E7%B4%84%E6%9D%9F%E3%81%A8%E7%9B%B8%E8%AB%87%E3%81%AE%E6%B5%81%E3%82%8C.pdf",
+          "htmlUrl": "/admin-docs/pre-opening-training/10_T-09_%E7%9B%B8%E8%AB%87%E3%81%97%E3%82%84%E3%81%99%E3%81%84%E8%81%B7%E5%A0%B4%E3%81%AE%E7%B4%84%E6%9D%9F%E3%81%A8%E7%9B%B8%E8%AB%87%E3%81%AE%E6%B5%81%E3%82%8C.html",
+          "blobHtmlUrl": "https://ck8huzl3ywaclnro.private.blob.vercel-storage.com/pre-opening-training/10_T-09_%E7%9B%B8%E8%AB%87%E3%81%97%E3%82%84%E3%81%99%E3%81%84%E8%81%B7%E5%A0%B4%E3%81%AE%E7%B4%84%E6%9D%9F%E3%81%A8%E7%9B%B8%E8%AB%87%E3%81%AE%E6%B5%81%E3%82%8C.html",
+          "sizeKB": 714,
+          "modified": "2026-11-26"
         }
       ]
     },
