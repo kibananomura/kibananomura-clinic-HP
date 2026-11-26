@@ -11,7 +11,7 @@ import { useSite } from "../lib/site";
 
 export default function Hero() {
   const { t, lang } = useSite();
-  const photoDate = lang === "en" ? "Photo taken November 21, 2026" : "2026年11月21日撮影";
+  const photoDate = lang === "en" ? "Photo taken November 26, 2026" : "2026年11月26日撮影";
   const [openGuide, setOpenGuide] = useState(false);
 
   return (
