@@ -9,6 +9,9 @@ title_ja: 温泉や加湿器にもいる「レジオネラ菌」、どんな病�
 title_en: Legionella lives in hot springs and humidifiers too — what illness does it cause, and how do you prevent it?
 excerpt_ja: 「温泉施設でレジオネラ菌が検出」——そんなニュースを見て、自宅の加湿器は大丈夫かと気になった方へ。実はこの菌、私たちの身近な水まわりに普通にいる菌なのです。
 excerpt_en: “Legionella detected at a hot spring facility” — if a headline like that made you wonder about the humidifier at home, read on. This bacterium actually lives in ordinary water all around us.
+seo_title_ja: レジオネラ菌とは？ 温泉や加湿器で感染する？ 症状と、家庭でできる予防
+seo_description_ja: 温泉や加湿器、給湯設備の水にいる「レジオネラ菌」。しぶきを吸い込んで感染し、重い肺炎になることもあります。レジオネラ肺炎とポンティアック熱の症状、家庭や温泉でできる予防のポイントを医師が解説します。
+updated: 2026.11.27
 sources:
   - label: "厚生労働省「公衆浴場における衛生等管理要領」「レジオネラ症防止指針」"
 ---

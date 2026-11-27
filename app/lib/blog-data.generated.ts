@@ -362,25 +362,14 @@ export const generatedPosts: BlogPost[] = [
     },
     "related": [
       {
+        "slug": "fuyu-shokuchudoku",
+        "ja": "食中毒は夏だけじゃない？——冬のノロウイルス、家でできることと受診の目安",
+        "en": "Food poisoning isn't just a summer thing — norovirus in winter, what to do at home and when to see a doctor"
+      },
+      {
         "slug": "kansen-2026-11",
         "ja": "【続報】宮崎でインフルエンザが例年の約15倍に。RSウイルスも倍増、マダニの感染症にも注意を",
         "en": "[Update] Flu in Miyazaki is about 15 times the usual level — RSV has doubled, and watch out for tick-borne infections too"
-      },
-      {
-        "slug": "sougou-kanyaku-nemuke",
-        "ja": "残っていた風邪薬を飲んだら、猛烈に眠くなった？〜「総合感冒薬」の中身と、眠気の本当の理由〜",
-        "en": "Took some leftover cold medicine and got overwhelmingly sleepy? — what's inside a combination cold medicine, and the real reason for the drowsiness"
-      },
-      {
-        "slug": "kansen-2026-11-2",
-        "ja": "宮崎市の感染症、世代ごとの「注意サイン」〜お子さんは手足口病・胃腸炎、大人は長引くせき、そしてインフルエンザに備えを〜",
-        "en": "Infections in Miyazaki City: warning signs for each generation — hand, foot and mouth disease in kids, lingering coughs in adults, and getting ready for flu"
-      }
-    ],
-    "upcoming": [
-      {
-        "ja": "食中毒は夏だけじゃない？——冬のノロウイルス、家でできることと受診の目安",
-        "en": "Food poisoning isn't just a summer thing — norovirus in winter, what to do at home and when to see a doctor"
       }
     ]
   },
@@ -2842,6 +2831,7 @@ export const generatedPosts: BlogPost[] = [
   {
     "slug": "hai-kousankin",
     "date": "2026.10.02",
+    "updated": "2026.11.27",
     "cover": "/blog/hai-kousankin.jpg",
     "coverVersion": "7e25ea0c",
     "coverWidth": 1600,
@@ -2860,6 +2850,8 @@ export const generatedPosts: BlogPost[] = [
       "subcategory": "肺・呼吸器・アレルギー",
       "title": "「抗酸菌」は酸を出す最強の菌？——名前のせいで誤解されがちな菌の正体",
       "excerpt": "「抗酸菌が出ています」と言われて、酸を吐く凶悪な菌を想像していませんか。実はその名前、ある「検査の都合」でついたものなのです。",
+      "seoTitle": "抗酸菌とは？ 名前の意味と、結核菌・非結核性抗酸菌（NTM）の違い",
+      "seoDescription": "「抗酸菌」は酸を出す菌ではありません。名前の由来になった検査の仕組み、ロウのよろいで薬が効きにくい理由、結核菌と非結核性抗酸菌（NTM・肺MAC症）の違い、たんの検査が大切な理由を医師が解説します。",
       "body": [
         {
           "kind": "text",
@@ -3820,6 +3812,7 @@ export const generatedPosts: BlogPost[] = [
   {
     "slug": "statin-kinniku-houkai",
     "date": "2026.10.05",
+    "updated": "2026.11.27",
     "cover": "/blog/statin-kinniku-houkai.jpg",
     "coverVersion": "8537e865",
     "coverWidth": 1600,
@@ -3844,6 +3837,8 @@ export const generatedPosts: BlogPost[] = [
       "subcategory": "コレステロール・尿酸",
       "title": "コレステロールの薬で、筋肉が溶けるって本当？〜悪玉コレステロールを下げる薬（スタチン）の疑問と最新医学〜",
       "excerpt": "「コレステロールの薬を飲むと筋肉が溶ける」——ネットでそんな言葉を見て、薬をやめようか迷っていませんか。まず知っていただきたいのは、その不安のほとんどが誤解だということです。",
+      "seoTitle": "スタチンで筋肉が溶ける（横紋筋融解症）は本当？ 頻度と、自分で気づきたいサイン",
+      "seoDescription": "コレステロールを下げる薬（スタチン）で筋肉が溶けると聞いて不安な方へ。横紋筋融解症はまれな副作用です。筋肉に影響が出る理由、個人差、ご自身でチェックしたいサインを医師が解説します。自己判断でやめないことも大切です。",
       "body": [
         {
           "kind": "text",
@@ -4031,7 +4026,7 @@ export const generatedPosts: BlogPost[] = [
   {
     "slug": "tomato-juice-ryouba",
     "date": "2026.10.06",
-    "updated": "2026.11.25",
+    "updated": "2026.11.27",
     "cover": "/blog/tomato-juice-ryouba.jpg",
     "coverVersion": "7ccde719",
     "coverWidth": 1600,
@@ -4052,7 +4047,7 @@ export const generatedPosts: BlogPost[] = [
       "title": "毎日のトマトジュース、実は逆効果かもしれません",
       "excerpt": "「健康のために、毎朝トマトジュースで野菜をとっています」。とても素敵な習慣ですが、実はその一杯、コレステロールには◎でも中性脂肪には注意が必要かもしれません。",
       "seoTitle": "トマトジュースを毎日飲むと悪玉コレステロール・中性脂肪は？ 血液検査の数値の見方と、選ぶなら無塩",
-      "seoDescription": "毎日のトマトジュースは、コレステロールが高めの方には味方ですが、中性脂肪が高めの方には逆効果になることがあります。分かれ目は「無塩かどうか」と「ジュースか、生のまま食べるか」。タイプ別の付き合い方を医師が解説します。",
+      "seoDescription": "毎日のトマトジュースは、悪玉コレステロールが高めの方には味方ですが、中性脂肪が高めの方には逆効果になることも。1日の適量（無塩で1杯200ml程度まで）、デメリット、血液検査の数値の見方を医師が解説します。",
       "body": [
         {
           "kind": "text",
@@ -6423,14 +6418,14 @@ export const generatedPosts: BlogPost[] = [
         "en": "Took some leftover cold medicine and got overwhelmingly sleepy? — what's inside a combination cold medicine, and the real reason for the drowsiness"
       },
       {
+        "slug": "fuyu-shokuchudoku",
+        "ja": "食中毒は夏だけじゃない？——冬のノロウイルス、家でできることと受診の目安",
+        "en": "Food poisoning isn't just a summer thing — norovirus in winter, what to do at home and when to see a doctor"
+      },
+      {
         "slug": "kansen-2026-11-2",
         "ja": "宮崎市の感染症、世代ごとの「注意サイン」〜お子さんは手足口病・胃腸炎、大人は長引くせき、そしてインフルエンザに備えを〜",
         "en": "Infections in Miyazaki City: warning signs for each generation — hand, foot and mouth disease in kids, lingering coughs in adults, and getting ready for flu"
-      },
-      {
-        "slug": "flu-vaccine-timing",
-        "ja": "インフルエンザワクチン、いつ打つのが一番いい？〜受験や大切な日から「逆算」する接種スケジュール〜",
-        "en": "When is the best time to get a flu shot? — planning backward from exams and other important days"
       }
     ]
   },
@@ -7082,20 +7077,21 @@ export const generatedPosts: BlogPost[] = [
         "en": "When is the best time to get a flu shot? — planning backward from exams and other important days"
       },
       {
+        "slug": "fuyu-shokuchudoku",
+        "ja": "食中毒は夏だけじゃない？——冬のノロウイルス、家でできることと受診の目安",
+        "en": "Food poisoning isn't just a summer thing — norovirus in winter, what to do at home and when to see a doctor"
+      },
+      {
         "slug": "sougou-kanyaku-nemuke",
         "ja": "残っていた風邪薬を飲んだら、猛烈に眠くなった？〜「総合感冒薬」の中身と、眠気の本当の理由〜",
         "en": "Took some leftover cold medicine and got overwhelmingly sleepy? — what's inside a combination cold medicine, and the real reason for the drowsiness"
-      },
-      {
-        "slug": "kansen-2026-11-2",
-        "ja": "宮崎市の感染症、世代ごとの「注意サイン」〜お子さんは手足口病・胃腸炎、大人は長引くせき、そしてインフルエンザに備えを〜",
-        "en": "Infections in Miyazaki City: warning signs for each generation — hand, foot and mouth disease in kids, lingering coughs in adults, and getting ready for flu"
       }
     ]
   },
   {
     "slug": "legionella",
     "date": "2026.10.25",
+    "updated": "2026.11.27",
     "cover": "/blog/legionella.jpg",
     "coverVersion": "5d3adda3",
     "coverWidth": 1600,
@@ -7110,6 +7106,8 @@ export const generatedPosts: BlogPost[] = [
       "subcategory": "感染症・ワクチン",
       "title": "温泉や加湿器にもいる「レジオネラ菌」、どんな病気？どう防ぐ？",
       "excerpt": "「温泉施設でレジオネラ菌が検出」——そんなニュースを見て、自宅の加湿器は大丈夫かと気になった方へ。実はこの菌、私たちの身近な水まわりに普通にいる菌なのです。",
+      "seoTitle": "レジオネラ菌とは？ 温泉や加湿器で感染する？ 症状と、家庭でできる予防",
+      "seoDescription": "温泉や加湿器、給湯設備の水にいる「レジオネラ菌」。しぶきを吸い込んで感染し、重い肺炎になることもあります。レジオネラ肺炎とポンティアック熱の症状、家庭や温泉でできる予防のポイントを医師が解説します。",
       "body": [
         {
           "kind": "text",
@@ -7411,6 +7409,11 @@ export const generatedPosts: BlogPost[] = [
     },
     "related": [
       {
+        "slug": "fuyu-shokuchudoku",
+        "ja": "食中毒は夏だけじゃない？——冬のノロウイルス、家でできることと受診の目安",
+        "en": "Food poisoning isn't just a summer thing — norovirus in winter, what to do at home and when to see a doctor"
+      },
+      {
         "slug": "sougou-kanyaku-nemuke",
         "ja": "残っていた風邪薬を飲んだら、猛烈に眠くなった？〜「総合感冒薬」の中身と、眠気の本当の理由〜",
         "en": "Took some leftover cold medicine and got overwhelmingly sleepy? — what's inside a combination cold medicine, and the real reason for the drowsiness"
@@ -7419,11 +7422,6 @@ export const generatedPosts: BlogPost[] = [
         "slug": "kansen-2026-11-2",
         "ja": "宮崎市の感染症、世代ごとの「注意サイン」〜お子さんは手足口病・胃腸炎、大人は長引くせき、そしてインフルエンザに備えを〜",
         "en": "Infections in Miyazaki City: warning signs for each generation — hand, foot and mouth disease in kids, lingering coughs in adults, and getting ready for flu"
-      },
-      {
-        "slug": "flu-vaccine-timing",
-        "ja": "インフルエンザワクチン、いつ打つのが一番いい？〜受験や大切な日から「逆算」する接種スケジュール〜",
-        "en": "When is the best time to get a flu shot? — planning backward from exams and other important days"
       }
     ]
   },
@@ -8162,25 +8160,14 @@ export const generatedPosts: BlogPost[] = [
     },
     "related": [
       {
+        "slug": "fuyu-shokuchudoku",
+        "ja": "食中毒は夏だけじゃない？——冬のノロウイルス、家でできることと受診の目安",
+        "en": "Food poisoning isn't just a summer thing — norovirus in winter, what to do at home and when to see a doctor"
+      },
+      {
         "slug": "kansen-2026-11-2",
         "ja": "宮崎市の感染症、世代ごとの「注意サイン」〜お子さんは手足口病・胃腸炎、大人は長引くせき、そしてインフルエンザに備えを〜",
         "en": "Infections in Miyazaki City: warning signs for each generation — hand, foot and mouth disease in kids, lingering coughs in adults, and getting ready for flu"
-      },
-      {
-        "slug": "kodomo-netsu-jushin",
-        "ja": "子どもの熱、何度になったら受診する？〜夜中に迷ったときの見分け方〜",
-        "en": "How high does a child's fever need to be before you see a doctor? — How to tell, even in the middle of the night"
-      },
-      {
-        "slug": "touen-toukou-itsukara",
-        "ja": "熱が下がったのに、まだ登園できないの？〜「出席停止」の日数の数え方〜",
-        "en": "The fever's gone, so why can't they go back to daycare yet? — How to count \"attendance suspension\" days"
-      }
-    ],
-    "upcoming": [
-      {
-        "ja": "食中毒は夏だけじゃない？——冬のノロウイルス、家でできることと受診の目安",
-        "en": "Food poisoning isn't just a summer thing — norovirus in winter, what to do at home and when to see a doctor"
       }
     ]
   },
@@ -9104,7 +9091,7 @@ export const generatedPosts: BlogPost[] = [
   {
     "slug": "senna-choukirenyou",
     "date": "2026.11.01",
-    "updated": "2026.11.21",
+    "updated": "2026.11.27",
     "cover": "/blog/senna-choukirenyou.jpg",
     "coverVersion": "b98e29af",
     "coverWidth": 1600,
@@ -9177,7 +9164,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "また、センナ茶で体重が減ったように見えても、それは便や水分が出た分で、脂肪が減ったわけではありません。センナ茶を毎晩飲まないと出ない方も、このあとの見直し方は同じです。"
+          "text": "また、センナ茶で体重が減ったように見えても、それは便や水分が出た分で、脂肪が減ったわけではありません。センナ茶を毎晩飲まないと出ない方も、このあとの見直し方は同じです。「宿便を出したくて」センナ茶を飲んでいる方は、[「宿便」についての記事](/blog/shukuben)もあわせてご覧ください。"
         },
         {
           "kind": "text",
@@ -11157,14 +11144,14 @@ export const generatedPosts: BlogPost[] = [
         "en": "Is disinfecting a scrape actually counterproductive? Why “wash it, and don't let it dry out” heals faster and cleaner"
       },
       {
+        "slug": "fuyu-shokuchudoku",
+        "ja": "食中毒は夏だけじゃない？——冬のノロウイルス、家でできることと受診の目安",
+        "en": "Food poisoning isn't just a summer thing — norovirus in winter, what to do at home and when to see a doctor"
+      },
+      {
         "slug": "sougou-kanyaku-nemuke",
         "ja": "残っていた風邪薬を飲んだら、猛烈に眠くなった？〜「総合感冒薬」の中身と、眠気の本当の理由〜",
         "en": "Took some leftover cold medicine and got overwhelmingly sleepy? — what's inside a combination cold medicine, and the real reason for the drowsiness"
-      },
-      {
-        "slug": "kansen-2026-11-2",
-        "ja": "宮崎市の感染症、世代ごとの「注意サイン」〜お子さんは手足口病・胃腸炎、大人は長引くせき、そしてインフルエンザに備えを〜",
-        "en": "Infections in Miyazaki City: warning signs for each generation — hand, foot and mouth disease in kids, lingering coughs in adults, and getting ready for flu"
       }
     ]
   },
@@ -12386,6 +12373,7 @@ export const generatedPosts: BlogPost[] = [
   {
     "slug": "tsuufuu-hossa-timing",
     "date": "2026.11.11",
+    "updated": "2026.11.27",
     "cover": "/blog/tsuufuu-hossa-timing.jpg",
     "coverVersion": "f9c78ed9",
     "coverWidth": 1600,
@@ -12401,6 +12389,8 @@ export const generatedPosts: BlogPost[] = [
       "subcategory": "コレステロール・尿酸",
       "title": "痛風発作は「尿酸値が上がる時」と「下がる時」、どっちに起きやすい？〜カギは“急な変化”でした〜",
       "excerpt": "「薬で尿酸値を下げ始めたのに、かえって痛風発作が起きた」——実は痛風発作は、尿酸値が急に下がったときにも起きやすいのです。",
+      "seoTitle": "痛風発作は尿酸値が下がる時にも起きる？ 発作が起きやすい場面と、乗り切るコツ",
+      "seoDescription": "痛風発作は、尿酸値が上がる時だけでなく、お薬などで急に下がる時にも起きやすくなります。カギは「急な変化」。発作が起きやすい場面と、今日からできる発作を乗り切るコツを医師が解説します。",
       "body": [
         {
           "kind": "text",
@@ -13552,6 +13542,11 @@ export const generatedPosts: BlogPost[] = [
     },
     "related": [
       {
+        "slug": "fuyu-shokuchudoku",
+        "ja": "食中毒は夏だけじゃない？——冬のノロウイルス、家でできることと受診の目安",
+        "en": "Food poisoning isn't just a summer thing — norovirus in winter, what to do at home and when to see a doctor"
+      },
+      {
         "slug": "kansen-2026-11",
         "ja": "【続報】宮崎でインフルエンザが例年の約15倍に。RSウイルスも倍増、マダニの感染症にも注意を",
         "en": "[Update] Flu in Miyazaki is about 15 times the usual level — RSV has doubled, and watch out for tick-borne infections too"
@@ -13560,12 +13555,6 @@ export const generatedPosts: BlogPost[] = [
         "slug": "kodomo-outo-geri-suibun",
         "ja": "吐いたあと、すぐに水を飲ませていませんか？〜子どものおう吐・下痢のときの水分のとり方〜",
         "en": "Giving water right after your child vomits? — How to give fluids when children have vomiting and diarrhea"
-      }
-    ],
-    "upcoming": [
-      {
-        "ja": "食中毒は夏だけじゃない？——冬のノロウイルス、家でできることと受診の目安",
-        "en": "Food poisoning isn't just a summer thing — norovirus in winter, what to do at home and when to see a doctor"
       }
     ]
   },
@@ -13738,6 +13727,7 @@ export const generatedPosts: BlogPost[] = [
   {
     "slug": "sougou-kanyaku-nemuke",
     "date": "2026.11.15",
+    "updated": "2026.11.27",
     "cover": "/blog/sougou-kanyaku-nemuke.jpg",
     "coverVersion": "6d30dd70",
     "coverWidth": 1600,
@@ -13757,6 +13747,8 @@ export const generatedPosts: BlogPost[] = [
       "subcategory": "感染症・ワクチン",
       "title": "残っていた風邪薬を飲んだら、猛烈に眠くなった？〜「総合感冒薬」の中身と、眠気の本当の理由〜",
       "excerpt": "「熱冷ましのつもりで飲んだだけなのに、気づいたら何時間も寝ていた」——その眠気には、ちゃんとした理由があります。",
+      "seoTitle": "風邪薬で眠くなるのはなぜ？ 何時間くらい残る？ 総合感冒薬の眠気の理由と運転の注意",
+      "seoDescription": "総合感冒薬（市販の風邪薬）で強く眠くなるのは、鼻水を止める抗ヒスタミン成分のため。眠気は翌朝まで残ることもあり、何時間たてば大丈夫とは言い切れません。運転や仕事の前に気をつけたいことを医師が解説します。",
       "body": [
         {
           "kind": "text",
@@ -13800,7 +13792,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "この成分は体の中に比較的長くとどまるため、夜に飲んだ分の眠気やだるさが、翌朝まで残ってしまうこともあります。「朝は平気だと思ったのに、運転中にぼーっとした」ということも起こりえます。"
+          "text": "この成分は体の中に比較的長くとどまるため、夜に飲んだ分の眠気やだるさが、翌朝まで残ってしまうこともあります。「朝は平気だと思ったのに、運転中にぼーっとした」ということも起こりえます。眠気がとれるまでの時間は、成分や飲んだ量、体質によって違うため、**「何時間たてば大丈夫」とは言い切れません**。市販の風邪薬の説明書にも「服用後、乗物または機械類の運転操作をしないでください」と書かれているものが多くあります。"
         },
         {
           "kind": "text",
@@ -14902,6 +14894,7 @@ export const generatedPosts: BlogPost[] = [
   {
     "slug": "hosuu-5000",
     "date": "2026.11.20",
+    "updated": "2026.11.27",
     "cover": "/blog/hosuu-5000.jpg",
     "coverVersion": "e4e338ea",
     "coverWidth": 1600,
@@ -14921,6 +14914,8 @@ export const generatedPosts: BlogPost[] = [
       "subcategory": "食事・運動",
       "title": "1日1万歩じゃなくても大丈夫？〜60歳からは「まず5,000歩」。スマホで楽しく続けるコツ〜",
       "excerpt": "「運動しなきゃ」と思うたびに、ちょっと気が重くなる。そんな方に、少し肩の力が抜けるお話です。",
+      "seoTitle": "1日何歩歩けばいい？ 60歳からは「まず5,000歩」で大丈夫な理由と、続けるコツ",
+      "seoDescription": "1日1万歩でなくても大丈夫？ 歩数と健康の研究から、60歳以上は「まず5,000歩」を目安にしてよい理由、座りっぱなしを減らす工夫、スマホで楽しく続けるコツを医師が解説します。",
       "body": [
         {
           "kind": "text",
@@ -15165,6 +15160,7 @@ export const generatedPosts: BlogPost[] = [
   {
     "slug": "gyunyu-maiasa",
     "date": "2026.11.21",
+    "updated": "2026.11.27",
     "cover": "/blog/gyunyu-maiasa.jpg",
     "coverVersion": "65003909",
     "coverWidth": 1600,
@@ -15184,6 +15180,8 @@ export const generatedPosts: BlogPost[] = [
       "subcategory": "食事・運動",
       "title": "毎朝の牛乳、体にいいの？ 悪いの？〜よし悪しを決める前に知っておきたい、牛乳の「得意」と「苦手」〜",
       "excerpt": "「体にいいと聞いて、毎朝飲んでいるけれど」——実は、牛乳がいいか悪いかは、飲む人によって答えが変わります。",
+      "seoTitle": "朝の牛乳は体に悪い？ メリット・デメリットと、お腹がゴロゴロする人の飲み方",
+      "seoDescription": "毎朝の牛乳は体にいいの？ 悪いの？ カルシウムやたんぱく質がとれるメリットと、お腹がゴロゴロする（乳糖不耐症）などのデメリット、自分に合った飲み方を医師が解説します。",
       "body": [
         {
           "kind": "text",
@@ -15967,6 +15965,7 @@ export const generatedPosts: BlogPost[] = [
   {
     "slug": "hashiru-wakibara-itami",
     "date": "2026.11.23",
+    "updated": "2026.11.27",
     "cover": "/blog/hashiru-wakibara-itami.jpg",
     "coverVersion": "97590a06",
     "coverWidth": 1600,
@@ -15986,6 +15985,8 @@ export const generatedPosts: BlogPost[] = [
       "subcategory": "胃腸・消化器",
       "title": "走るとお腹が痛くなるのはなぜ？〜わき腹が痛む理由と、その場ですぐできる対処法〜",
       "excerpt": "持久走でわき腹が痛くなって、歩いてしまった——あれは根性が足りないせいではありません。",
+      "seoTitle": "走るとお腹（わき腹）が痛くなるのはなぜ？ 原因と、その場ですぐできる対処法・予防のコツ",
+      "seoDescription": "走るとお腹やわき腹が痛くなるのはなぜ？ 横隔膜や内臓の揺れ、食後すぐの運動などの理由と、痛くなったときにその場でできる対処、予防のコツ、受診を考えたいサインを医師が解説します。",
       "body": [
         {
           "kind": "text",
@@ -16937,6 +16938,247 @@ export const generatedPosts: BlogPost[] = [
       {
         "ja": "朝から体が重いのは、朝ごはんのせい？——「腸活」と「たんぱく質」を一緒にとる朝の習慣",
         "en": "Feeling heavy every morning? Pair gut-friendly foods with protein at breakfast"
+      }
+    ]
+  },
+  {
+    "slug": "fuyu-shokuchudoku",
+    "date": "2026.11.27",
+    "cover": "/blog/fuyu-shokuchudoku.jpg",
+    "coverVersion": "338869cf",
+    "coverWidth": 1600,
+    "coverHeight": 900,
+    "sources": [
+      {
+        "label": "厚生労働省「ノロウイルスに関するQ&A」",
+        "url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/shokuhin/syokuchu/kanren/yobou/040204-1.html"
+      }
+    ],
+    "ja": {
+      "category": "健康・予防の話",
+      "subcategory": "感染症・ワクチン",
+      "title": "食中毒は夏だけじゃない？——冬のノロウイルス、家でできることと受診の目安",
+      "excerpt": "冬の食中毒の原因で多いのは、細菌ではなくウイルスです。",
+      "seoTitle": "冬の食中毒・ノロウイルスの症状と潜伏期間、吐いたものの片づけ方と受診の目安を医師が解説",
+      "seoDescription": "食中毒は夏だけではありません。冬に多いノロウイルスは、潜伏期間が24〜48時間で、吐き気・おう吐・下痢が1〜2日続きます。家でできる水分のとり方、下痢止めを自己判断で使わない理由、家族にうつさない吐いたものの片づけ方、受診の目安を医師が解説します。",
+      "body": [
+        {
+          "kind": "text",
+          "text": "「食中毒は、暑い夏に気をつけるもの」。そう思っている方は多いのではないでしょうか。冷蔵庫に入れておけば大丈夫、冬は食べ物がいたみにくいから安心、と感じますよね。"
+        },
+        {
+          "kind": "text",
+          "text": "実は、**冬にも食中毒は起きます。冬に多い原因は、細菌ではなく「ノロウイルス」というウイルス**です。ノロウイルスは、食べ物からだけでなく、人の手や、吐いたもの・便を通して家族の中でも広がります。"
+        },
+        {
+          "kind": "text",
+          "text": "### 夏の食中毒と、どこが違うの？"
+        },
+        {
+          "kind": "text",
+          "text": "夏に多い食中毒は、細菌が食べ物の中で増えることで起きます。そのため、冷蔵庫で冷やす、しっかり加熱する、作り置きを早めに食べる、といった食べ物の扱いで多くを防げます。"
+        },
+        {
+          "kind": "text",
+          "text": "一方、ノロウイルスは食べ物の中では増えませんが、**ごく少しの量でもうつる**のが特徴です。生や加熱が足りない二枚貝のほか、ウイルスのついた手で調理した料理、家族の吐いたものや便からもうつります。冬の食中毒は、食べ物の扱いだけでなく、**手洗いと片づけ**が防ぐ中心になります。"
+        },
+        {
+          "kind": "text",
+          "text": "### ノロウイルスの症状と経過"
+        },
+        {
+          "kind": "text",
+          "text": "感染してから症状が出るまでは、**24〜48時間**ほどです。主な症状は、吐き気、おう吐、下痢、腹痛で、熱は出ても軽いことが多いです。多くの場合、**1〜2日で治まり**、あとに残ることはありません。"
+        },
+        {
+          "kind": "text",
+          "text": "ただし、子どもやお年寄りは、脱水になったり、吐いたものをのどに詰まらせたりして、重くなることがあります。"
+        },
+        {
+          "kind": "text",
+          "text": "### 家でできること"
+        },
+        {
+          "kind": "text",
+          "text": "ノロウイルスによく効くお薬はなく、治療は体の回復を助けることが中心です。"
+        },
+        {
+          "kind": "text",
+          "text": "- **水分は少しずつ**：吐いた直後に一気に飲むと、また吐きやすくなります。吐き気が落ち着いたら、スプーン1杯から少しずつ、経口補水液などをとってください（子どもの飲ませ方は「[吐いたあと、すぐに水を飲ませていませんか？](/blog/kodomo-outo-geri-suibun)」）\n- **下痢止めは自己判断で使わない**：ウイルスを体の外に出すのが遅れ、治るのが長引くことがあります\n- **食事は無理をしない**：吐き気が治まってから、おかゆやうどんなど消化のよいものを少しずつ"
+        },
+        {
+          "kind": "text",
+          "text": "### 家族にうつさないために"
+        },
+        {
+          "kind": "text",
+          "text": "ノロウイルスは、とても少ない量でもうつります。また、**症状が治まってからも、便の中には1週間ほど、長いと1か月ほどウイルスが出続ける**ことがあります。"
+        },
+        {
+          "kind": "text",
+          "text": "- トイレのあと、調理や食事の前は、石けんと流水でていねいに手を洗う（アルコールの手指消毒は、手洗いの代わりになりません）\n- 吐いたものや便の片づけは、使い捨ての手袋とマスクをつけ、ペーパーでふき取ってビニール袋に入れる\n- ふき取ったあとの床やトイレは、塩素系の漂白剤（次亜塩素酸ナトリウム）を薄めたものでふく。アルコールではウイルスが残りやすいです\n- 具合の悪い人は、治ってしばらくは家族の料理を作らない\n- 冬にカキなどの二枚貝を食べるときは、中心までしっかり加熱する（85〜90℃で90秒以上が目安）"
+        },
+        {
+          "kind": "text",
+          "text": "### 仕事や学校は、いつから？"
+        },
+        {
+          "kind": "text",
+          "text": "おう吐や下痢が治まり、ふだんどおり食事がとれるようになってからが目安です。ただ、治ったあとも便からウイルスが出ていることがあるので、しばらくは特にていねいな手洗いを続けてください。食べ物を扱うお仕事の方は、職場の決まりに従ってください。"
+        },
+        {
+          "kind": "text",
+          "text": "### 受診したほうがよいサイン"
+        },
+        {
+          "kind": "text",
+          "text": "次のようなときは、早めに医療機関に相談してください。"
+        },
+        {
+          "kind": "text",
+          "text": "- 水分をとってもすぐに吐いてしまい、ほとんど飲めない\n- おしっこが半日以上出ない、口の中がからからに乾いている\n- ぐったりしている、呼びかけへの反応がにぶい\n- 便に血が混じる、強い腹痛が続く、高い熱が出る\n- 赤ちゃん、お年寄り、持病のある方で、症状が強い"
+        },
+        {
+          "kind": "text",
+          "text": "夜間や休日で迷うときは、子どもなら「#8000」、大人なら地域の救急相談窓口などに電話で相談する方法もあります。"
+        },
+        {
+          "kind": "text",
+          "text": "### 最後に"
+        },
+        {
+          "kind": "text",
+          "text": "冬のおう吐・下痢は、「寒さでお腹が冷えたのかな」と思われがちです。家族の中で同じ症状が続いたら、ノロウイルスを疑って、片づけと手洗いを徹底してください。いまお困りの方は、かかりつけ医などにご相談ください（開院後は当院へ）。"
+        },
+        {
+          "kind": "text",
+          "text": "※この記事は一般的な情報で、個別の診断・治療ではありません。"
+        }
+      ]
+    },
+    "en": {
+      "category": "Health and prevention",
+      "subcategory": "Infections & vaccines",
+      "title": "Food poisoning isn't just a summer thing — norovirus in winter, what to do at home and when to see a doctor",
+      "excerpt": "In winter, the most common cause of food poisoning isn't bacteria — it's a virus.",
+      "seoTitle": "Winter food poisoning and norovirus: symptoms, incubation, cleaning up vomit, and when to see a doctor",
+      "seoDescription": "Food poisoning isn't only a summer problem. Norovirus, common in winter, starts 24 to 48 hours after infection and causes nausea, vomiting and diarrhea for 1 to 2 days. A doctor explains fluids at home, why to avoid anti-diarrheal medicine on your own, how to clean up safely, and when to get care.",
+      "body": [
+        {
+          "kind": "text",
+          "text": "\"Food poisoning is something to watch out for in the summer heat.\" Many people think so. It feels safe in winter: the fridge keeps things cold and food doesn't spoil as easily."
+        },
+        {
+          "kind": "text",
+          "text": "In fact, **food poisoning happens in winter too, and the most common winter cause isn't bacteria but a virus called norovirus.** Norovirus spreads not only through food, but also within families through hands, vomit and stool."
+        },
+        {
+          "kind": "text",
+          "text": "### How is it different from summer food poisoning?"
+        },
+        {
+          "kind": "text",
+          "text": "Summer food poisoning usually happens when bacteria multiply in food. That's why much of it can be prevented by how you handle food: keeping it chilled, cooking it thoroughly, and eating leftovers soon."
+        },
+        {
+          "kind": "text",
+          "text": "Norovirus, on the other hand, doesn't multiply in food, but **just a tiny amount is enough to infect you.** Besides raw or undercooked shellfish, it spreads through food prepared with contaminated hands, and through a family member's vomit or stool. In winter, prevention centers not only on handling food but on **handwashing and careful cleanup.**"
+        },
+        {
+          "kind": "text",
+          "text": "### Norovirus symptoms and how it runs its course"
+        },
+        {
+          "kind": "text",
+          "text": "Symptoms usually start **24 to 48 hours** after infection. The main symptoms are nausea, vomiting, diarrhea and stomach pain; any fever is usually mild. In most cases it **settles within 1 to 2 days** and leaves no lasting effects."
+        },
+        {
+          "kind": "text",
+          "text": "However, children and older adults can become seriously ill from dehydration, or from choking on vomit."
+        },
+        {
+          "kind": "text",
+          "text": "### What you can do at home"
+        },
+        {
+          "kind": "text",
+          "text": "There's no medicine that works well against norovirus, so treatment focuses on helping your body recover."
+        },
+        {
+          "kind": "text",
+          "text": "- **Sip fluids a little at a time**: drinking a lot right after vomiting often brings it back up. Once the nausea eases, start with a spoonful of oral rehydration solution and build up slowly (for children, see \"[Giving water right after your child vomits?](/blog/kodomo-outo-geri-suibun)\")\n- **Don't use anti-diarrheal medicine on your own**: it can slow the clearing of the virus and make the illness last longer\n- **Don't force food**: once the nausea settles, start with small amounts of easy-to-digest food such as rice porridge or udon"
+        },
+        {
+          "kind": "text",
+          "text": "### Keeping it from spreading in the family"
+        },
+        {
+          "kind": "text",
+          "text": "Norovirus spreads from just a tiny amount. And **even after symptoms settle, the virus can stay in stool for about a week, and sometimes up to a month.**"
+        },
+        {
+          "kind": "text",
+          "text": "- Wash your hands carefully with soap and running water after using the toilet and before cooking or eating (alcohol hand sanitizer is not a substitute for handwashing)\n- When cleaning up vomit or stool, wear disposable gloves and a mask, wipe it up with paper towels, and seal it in a plastic bag\n- Wipe the floor or toilet afterward with diluted chlorine bleach (sodium hypochlorite). Alcohol tends to leave the virus behind\n- Anyone who has been sick should avoid cooking for the family for a while after recovering\n- When eating oysters or other shellfish in winter, cook them through to the center (about 85–90°C for at least 90 seconds)"
+        },
+        {
+          "kind": "text",
+          "text": "### When can you go back to work or school?"
+        },
+        {
+          "kind": "text",
+          "text": "A good guide is once the vomiting and diarrhea have stopped and you can eat normally again. But the virus can still be in your stool after you recover, so keep up especially careful handwashing for a while. If you handle food at work, follow your workplace's rules."
+        },
+        {
+          "kind": "text",
+          "text": "### Signs that it's time to get care"
+        },
+        {
+          "kind": "text",
+          "text": "Please contact a medical facility early if:"
+        },
+        {
+          "kind": "text",
+          "text": "- You vomit soon after every drink and can hardly keep any fluids down\n- There's been no urine for half a day or more, or the mouth is very dry\n- The person is limp or slow to respond\n- There's blood in the stool, strong stomach pain that won't ease, or a high fever\n- A baby, an older adult, or someone with a chronic illness has severe symptoms"
+        },
+        {
+          "kind": "text",
+          "text": "At night or on holidays, you can also call for advice: #8000 for children, or your local emergency advice line for adults."
+        },
+        {
+          "kind": "text",
+          "text": "### One last word"
+        },
+        {
+          "kind": "text",
+          "text": "Winter vomiting and diarrhea are often blamed on \"a chill in the stomach.\" If the same symptoms spread through your family, suspect norovirus and be thorough with cleanup and handwashing. If you need help now, please talk to your regular doctor (after we open, you're welcome to see us)."
+        },
+        {
+          "kind": "text",
+          "text": "*This article provides general information and is not an individual diagnosis or treatment."
+        }
+      ]
+    },
+    "related": [
+      {
+        "slug": "kodomo-outo-geri-suibun",
+        "ja": "吐いたあと、すぐに水を飲ませていませんか？〜子どものおう吐・下痢のときの水分のとり方〜",
+        "en": "Giving water right after your child vomits? — How to give fluids when children have vomiting and diarrhea"
+      },
+      {
+        "slug": "kansen-2026-11-2",
+        "ja": "宮崎市の感染症、世代ごとの「注意サイン」〜お子さんは手足口病・胃腸炎、大人は長引くせき、そしてインフルエンザに備えを〜",
+        "en": "Infections in Miyazaki City: warning signs for each generation — hand, foot and mouth disease in kids, lingering coughs in adults, and getting ready for flu"
+      },
+      {
+        "slug": "kansen-2026-07",
+        "ja": "宮崎県内で今、増えている感染症は？ 夏に気をつけたいこと",
+        "en": "What infections are on the rise in Miyazaki right now? Things to watch for this summer"
+      }
+    ],
+    "upcoming": [
+      {
+        "ja": "寒くなってから、なんだか疲れやすい？——冬のだるさを防ぐ「水分」と「たんぱく質」、コンビニでもできる工夫",
+        "en": "More tired since it got cold? Water and protein for winter fatigue — easy fixes, even from the convenience store"
       }
     ]
   }

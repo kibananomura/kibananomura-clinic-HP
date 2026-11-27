@@ -10,6 +10,9 @@ title_en: "Why does your side hurt when you run? — what causes that stitch, an
 excerpt_ja: "持久走でわき腹が痛くなって、歩いてしまった——あれは根性が足りないせいではありません。"
 excerpt_en: "That stitch that made you slow to a walk in the school race? It was never about a lack of grit."
 related: [tetsu-vitamin-c-ekiden, hosuu-5000, kaicho-mattan-en]
+seo_title_ja: 走るとお腹（わき腹）が痛くなるのはなぜ？ 原因と、その場ですぐできる対処法・予防のコツ
+seo_description_ja: 走るとお腹やわき腹が痛くなるのはなぜ？ 横隔膜や内臓の揺れ、食後すぐの運動などの理由と、痛くなったときにその場でできる対処、予防のコツ、受診を考えたいサインを医師が解説します。
+updated: 2026.11.27
 sources:
   - label: "Morton D, Callister R. Exercise-related transient abdominal pain (ETAP). Sports Med. 2015;45(1):23-35"
     url: "https://doi.org/10.1007/s40279-014-0245-z"

@@ -9,6 +9,9 @@ title_ja: 毎朝の牛乳、体にいいの？ 悪いの？〜よし悪しを決
 title_en: "Is a glass of milk every morning good for you, or not? — What milk does well, and where it falls short"
 excerpt_ja: 「体にいいと聞いて、毎朝飲んでいるけれど」——実は、牛乳がいいか悪いかは、飲む人によって答えが変わります。
 excerpt_en: “I drink it every morning because I heard it's healthy” — but whether milk is good or bad depends on who's drinking it.
+seo_title_ja: 朝の牛乳は体に悪い？ メリット・デメリットと、お腹がゴロゴロする人の飲み方
+seo_description_ja: 毎朝の牛乳は体にいいの？ 悪いの？ カルシウムやたんぱく質がとれるメリットと、お腹がゴロゴロする（乳糖不耐症）などのデメリット、自分に合った飲み方を医師が解説します。
+updated: 2026.11.27
 sources:
   - label: "文部科学省「日本食品標準成分表（八訂）増補2023年」"
     url: "https://www.mext.go.jp/a_menu/syokuhinseibun/mext_00001.html"

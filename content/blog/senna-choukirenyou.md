@@ -12,7 +12,7 @@ seo_title_ja: センナ茶は毎日飲んでも大丈夫？ 効きすぎると�
 seo_description_ja: センナ茶やセンナ（センノシド）は、毎日続けると効きにくくなり、量が増えがちです。反対に、センナ茶が効きすぎておなかが痛い・下痢が続くときの対処、飲む頻度の目安、毎日の便秘のお薬の選び方と、急にやめない切り替え方を医師が解説します。
 seo_title_en: Is it okay to take senna or senna tea every day? What to do when your laxative dose keeps rising
 seo_description_en: Senna and senna tea tend to work less over time when taken daily, so the dose creeps up. Senna tea contains the same laxative ingredient. A doctor explains how to choose everyday constipation treatment and how to switch without stopping suddenly.
-updated: 2026.11.21
+updated: 2026.11.27
 excerpt_en: “One tablet used to work — now I need three.” That isn't your fault. Here's what happens inside your bowel when senna is taken every day for years.
 sources:
   - label: "日本消化管学会「便通異常症診療ガイドライン2023－慢性便秘症」"
@@ -52,7 +52,7 @@ sources:
 
 国民生活センターの調べでは、銘柄によっては、カップ2〜3杯で医薬品として飲む量以上の成分をとってしまうものがありました。お茶は1杯ごとの量が分かりにくく、知らないうちに「毎日、下剤を飲んでいる」のと同じ状態になりやすいのです。
 
-また、センナ茶で体重が減ったように見えても、それは便や水分が出た分で、脂肪が減ったわけではありません。センナ茶を毎晩飲まないと出ない方も、このあとの見直し方は同じです。
+また、センナ茶で体重が減ったように見えても、それは便や水分が出た分で、脂肪が減ったわけではありません。センナ茶を毎晩飲まないと出ない方も、このあとの見直し方は同じです。「宿便を出したくて」センナ茶を飲んでいる方は、[「宿便」についての記事](/blog/shukuben)もあわせてご覧ください。
 
 ### センナ茶が「効きすぎる」とき
 

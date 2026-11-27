@@ -10,6 +10,9 @@ title_ja: コレステロールの薬で、筋肉が溶けるって本当？〜�
 title_en: Can cholesterol medicine really "break down" your muscles? Questions about statins and the latest evidence
 excerpt_ja: 「コレステロールの薬を飲むと筋肉が溶ける」——ネットでそんな言葉を見て、薬をやめようか迷っていませんか。まず知っていただきたいのは、その不安のほとんどが誤解だということです。
 excerpt_en: “Cholesterol medicine dissolves your muscles” — have you seen that claim online and started wondering whether to stop your medication? The first thing to know is that most of that fear comes from a misunderstanding.
+seo_title_ja: スタチンで筋肉が溶ける（横紋筋融解症）は本当？ 頻度と、自分で気づきたいサイン
+seo_description_ja: コレステロールを下げる薬（スタチン）で筋肉が溶けると聞いて不安な方へ。横紋筋融解症はまれな副作用です。筋肉に影響が出る理由、個人差、ご自身でチェックしたいサインを医師が解説します。自己判断でやめないことも大切です。
+updated: 2026.11.27
 sources:
   - label: "日本動脈硬化学会「動脈硬化性疾患予防ガイドライン2022年版」"
     url: "https://www.j-athero.org/jp/jas_gl2022/"

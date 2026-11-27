@@ -9,6 +9,9 @@ title_ja: 「抗酸菌」は酸を出す最強の菌？——名前のせいで�
 title_en: Are “acid-fast bacteria” super-germs that spit acid? The truth behind a misleading name
 excerpt_ja: 「抗酸菌が出ています」と言われて、酸を吐く凶悪な菌を想像していませんか。実はその名前、ある「検査の都合」でついたものなのです。
 excerpt_en: Told “acid-fast bacteria were found” and picturing a vicious germ that spits acid? That name actually comes from how the bacteria behave in a lab test.
+seo_title_ja: 抗酸菌とは？ 名前の意味と、結核菌・非結核性抗酸菌（NTM）の違い
+seo_description_ja: 「抗酸菌」は酸を出す菌ではありません。名前の由来になった検査の仕組み、ロウのよろいで薬が効きにくい理由、結核菌と非結核性抗酸菌（NTM・肺MAC症）の違い、たんの検査が大切な理由を医師が解説します。
+updated: 2026.11.27
 sources:
   - label: "日本結核・非結核性抗酸菌症学会「成人肺非結核性抗酸菌症化学療法に関する見解―2023年改訂」"
   - label: "Namkoong H, et al. Epidemiology of Pulmonary Nontuberculous Mycobacterial Disease, Japan. Emerg Infect Dis. 2016;22:1116-1117"

@@ -9,10 +9,10 @@ title_ja: 毎日のトマトジュース、実は逆効果かもしれません
 title_en: Your daily tomato juice might be working against you
 excerpt_ja: 「健康のために、毎朝トマトジュースで野菜をとっています」。とても素敵な習慣ですが、実はその一杯、コレステロールには◎でも中性脂肪には注意が必要かもしれません。
 seo_title_ja: トマトジュースを毎日飲むと悪玉コレステロール・中性脂肪は？ 血液検査の数値の見方と、選ぶなら無塩
-seo_description_ja: 毎日のトマトジュースは、コレステロールが高めの方には味方ですが、中性脂肪が高めの方には逆効果になることがあります。分かれ目は「無塩かどうか」と「ジュースか、生のまま食べるか」。タイプ別の付き合い方を医師が解説します。
+seo_description_ja: 毎日のトマトジュースは、悪玉コレステロールが高めの方には味方ですが、中性脂肪が高めの方には逆効果になることも。1日の適量（無塩で1杯200ml程度まで）、デメリット、血液検査の数値の見方を医師が解説します。
 seo_title_en: Does daily tomato juice raise triglycerides? Good for cholesterol — choose unsalted
 seo_description_en: Daily tomato juice can help if your cholesterol is high, but may backfire if your triglycerides are high. The keys are whether it's unsalted, and juice versus whole tomatoes. A doctor explains how to drink it for your type.
-updated: 2026.11.25
+updated: 2026.11.27
 excerpt_en: I drink tomato juice every morning instead of vegetables, for my health — a lovely habit, but that glass may be great for cholesterol while working against your triglycerides.
 sources:
   - label: "日本動脈硬化学会「動脈硬化性疾患予防ガイドライン2022年版」"
