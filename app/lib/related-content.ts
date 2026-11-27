@@ -30,6 +30,8 @@ export const RELATED_POSTS_BY_DISEASE: Record<string, string[]> = {
   "h-pylori": ["ikamera-nansai-kara", "ikamera-junbi"],
   constipation: ["senna-choukirenyou", "benpi-nannichi-kiken"],
   "bowel-obstruction": ["benpi-nannichi-kiken"],
+  cholecystitis: ["tannouen-gimon"],
+  gallstones: ["tannouen-gimon"],
   "pulmonary-ntm": ["hai-ntm-sho", "hai-kousankin"],
   legionellosis: ["legionella"],
   "lumbar-spinal-stenosis": ["shibire-shinkei-saisei", "ashi-nanika"],

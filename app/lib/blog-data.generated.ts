@@ -2422,6 +2422,12 @@ export const generatedPosts: BlogPost[] = [
         "ja": "健診のオプションで「腫瘍マーカー」が高かった方へ",
         "en": "If your optional tumor marker test came back high"
       }
+    ],
+    "upcoming": [
+      {
+        "ja": "胆のう炎は自然に治る？ 手術しないとだめ？——よく調べられている7つの疑問に、医師が答えます",
+        "en": "Does cholecystitis heal on its own? Do I need surgery? A doctor answers 7 common questions"
+      }
     ]
   },
   {
@@ -2851,6 +2857,10 @@ export const generatedPosts: BlogPost[] = [
       {
         "ja": "便が何日出なかったら危ない？——日数よりも大切な、腸閉塞のサイン",
         "en": "How many days without a bowel movement is dangerous? The signs of bowel obstruction matter more than the count"
+      },
+      {
+        "ja": "胆のう炎は自然に治る？ 手術しないとだめ？——よく調べられている7つの疑問に、医師が答えます",
+        "en": "Does cholecystitis heal on its own? Do I need surgery? A doctor answers 7 common questions"
       }
     ]
   },
