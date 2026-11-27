@@ -7773,6 +7773,12 @@ export const generatedPosts: BlogPost[] = [
         "ja": "とげが刺さったところが、赤く腫れて自然におさまるのはなぜ？〜白血球と、もうひとつの“見えない守り役”補体の話〜",
         "en": "Why does a splinter spot swell up and then settle down on its own? — white blood cells, and another “invisible guardian” called complement"
       }
+    ],
+    "upcoming": [
+      {
+        "ja": "アロエ、卵の薄皮、きゅうりパック——肌とけがの「おばあちゃんの知恵」を医師が確かめました",
+        "en": "Aloe, eggshell membrane, cucumber packs — a doctor checks grandma's remedies for skin and minor injuries"
+      }
     ]
   },
   {
@@ -15960,6 +15966,12 @@ export const generatedPosts: BlogPost[] = [
         "ja": "せきが長引く・健診で「影」——結核菌の仲間による肺の病気「肺NTM症」とは？原因・症状と「人にうつるの？」にお答えします",
         "en": "A lingering cough or a “shadow” on your checkup — what is pulmonary NTM (MAC) disease? Causes, symptoms, and “Is it contagious?”"
       }
+    ],
+    "upcoming": [
+      {
+        "ja": "はちみつ大根、焼きネギ、卵酒——風邪のときの「おばあちゃんの知恵」を医師が確かめました",
+        "en": "Honey-soaked radish, roasted leeks, egg sake — a doctor checks grandma's cold remedies"
+      }
     ]
   },
   {
@@ -16938,6 +16950,10 @@ export const generatedPosts: BlogPost[] = [
       {
         "ja": "朝から体が重いのは、朝ごはんのせい？——「腸活」と「たんぱく質」を一緒にとる朝の習慣",
         "en": "Feeling heavy every morning? Pair gut-friendly foods with protein at breakfast"
+      },
+      {
+        "ja": "梅干し、大根おろし、すりおろしりんご——お腹の不調の「おばあちゃんの知恵」を消化器外科医が確かめました",
+        "en": "Pickled plums, grated radish, grated apple — a GI surgeon checks grandma's tummy remedies"
       }
     ]
   },
@@ -17179,6 +17195,10 @@ export const generatedPosts: BlogPost[] = [
       {
         "ja": "寒くなってから、なんだか疲れやすい？——冬のだるさを防ぐ「水分」と「たんぱく質」、コンビニでもできる工夫",
         "en": "More tired since it got cold? Water and protein for winter fatigue — easy fixes, even from the convenience store"
+      },
+      {
+        "ja": "梅干し、大根おろし、すりおろしりんご——お腹の不調の「おばあちゃんの知恵」を消化器外科医が確かめました",
+        "en": "Pickled plums, grated radish, grated apple — a GI surgeon checks grandma's tummy remedies"
       }
     ]
   }
