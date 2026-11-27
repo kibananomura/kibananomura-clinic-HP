@@ -13,6 +13,7 @@ seo_title_ja: 薄毛・抜け毛は甲状腺や鉄不足のせい？ 血液検�
 seo_description_ja: 抜け毛や薄毛の原因は、AGA（男性型脱毛症）だけではありません。甲状腺の働きが落ちている、鉄が足りないなど、体の中の原因で髪が薄くなることもあります。見分けるヒントと、血液検査で分かること、受診の目安を医師が解説します。
 seo_title_en: Is your hair loss from your thyroid or low iron? Causes a blood test can find, and when to see a doctor
 seo_description_en: Hair loss isn't always male or female pattern hair loss. An underactive thyroid or low iron can also thin your hair. A doctor explains the clues, what a blood test can show, and when to get checked.
+related: [tetsu-vitamin-c-ekiden]
 sources:
   - label: "日本皮膚科学会「男性型および女性型脱毛症診療ガイドライン2017年版」（Minds）"
     url: "https://minds.jcqhc.or.jp/summary/c00458/"

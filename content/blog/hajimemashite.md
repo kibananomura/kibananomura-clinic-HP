@@ -7,6 +7,7 @@ title_ja: はじめまして。院長の野村です。
 title_en: Hello — I'm Dr. Nomura, the director.
 excerpt_ja: 「こんなことで受診していいのかな」——そんな風にひとりで悩む方を、これまでたくさん見てきました。2027年10月開院に向けて、院長の野村から最初のごあいさつです。
 excerpt_en: “Is this even worth a doctor's visit?” — I've seen so many people quietly wrestle with that question alone. A first hello from director Nomura, ahead of our October 2027 opening.
+related: [kibana-no-namae, kara-no-michi, iryou-wo-wasurete-kuraseru]
 ---
 
 ## ja

@@ -7,6 +7,7 @@ title_ja: 「もうやれることはやったのに」——その言葉、診�
 title_en: “I've already done everything I can” — it's okay to say that in the exam room
 excerpt_ja: 診察の最後、ドアに手をかけたところで、ようやく出てくる本音があります。言えなかったのは、あなたの勇気が足りなかったからではありません。
 excerpt_en: Some feelings only come out at the very end of a visit, with a hand already on the door. If you couldn't say it sooner, it wasn't because you lacked courage.
+related: [shinsatsushitsu-no-chikara, nagaku-tsukiau-iryou]
 ---
 
 ## ja

@@ -9,6 +9,7 @@ title_ja: 熱が下がったのに、まだ登園できないの？〜「出席�
 title_en: The fever's gone, so why can't they go back to daycare yet? — How to count "attendance suspension" days
 excerpt_ja: 熱は下がって、本人は元気いっぱい。それなのに「まだ登園はできません」と言われて困った——その日数には、ちゃんとした理由と数え方があります。
 excerpt_en: The fever's gone and your child is bursting with energy — yet you're told they can't go back to daycare yet. There's a real reason for those days, and a set way of counting them.
+related: [kodomo-netsu-jushin]
 sources:
   - label: "e-Gov法令検索「学校保健安全法施行規則」"
     url: "https://laws.e-gov.go.jp/law/333M50000080018"

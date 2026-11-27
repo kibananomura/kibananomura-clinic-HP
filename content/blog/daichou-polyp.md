@@ -9,6 +9,7 @@ title_ja: 「大腸ポリープがあります」と言われたら〜取る？�
 title_en: Told you have a colon polyp? — Remove it or watch it, and when's the next exam?
 excerpt_ja: 大腸カメラのあと、「ポリープがありました」のひと言で頭が真っ白に。「それって、がんなの？」——ポリープには、取ったほうがよいものと、そうでないものがあります。
 excerpt_en: After your colonoscopy, the words "we found a polyp" leave your mind blank. "Is it cancer?" Some polyps are best removed, and some aren't.
+related: [tumor-marker-checkup, ikamera-nansai-kara]
 sources:
   - label: "日本消化器病学会「患者さんとご家族のための大腸ポリープガイド2023」"
     url: "https://www.jsge.or.jp/committees/guideline/disease/pdf/cp_2023.pdf"

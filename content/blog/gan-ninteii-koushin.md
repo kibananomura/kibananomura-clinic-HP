@@ -7,6 +7,7 @@ title_ja: 「がん治療認定医」を、更新しないと決めた日
 title_en: The day I decided not to renew my cancer treatment certification
 excerpt_ja: 「先生、昔は何をされていたんですか」。診察の合間に、そう聞かれることがあります。かつて手にした資格を、あえて手放した日の話をします。
 excerpt_en: Doctor, what did you used to do before this? I'm sometimes asked that between patients. This is the story of the day I chose to let go of a credential I once held.
+related: [hikari-onnetsu-kenkyu, i-gekai-kara-kakaritsukei, kara-no-michi-2]
 ---
 
 ## ja

@@ -7,6 +7,7 @@ title_ja: 「金利のある世界」で、覚悟を持って診療所をつく�
 title_en: In a world where interest rates are back, we are building this clinic with full commitment
 excerpt_ja: 「融資が決まりました」——銀行からのその知らせに、ほっとするより先に、背筋が伸びる思いがしました。時代が大きく変わる今、院長として決めた覚悟をお伝えします。
 excerpt_en: “Your loan has been approved” — when the bank told me this, before any relief, I felt myself sit up straighter. As times change in a big way, here is the commitment I have made as director.
+related: [iryou-wo-wasurete-kuraseru, kibana-no-namae, i-gekai-kara-kakaritsukei]
 ---
 
 ## ja

@@ -9,6 +9,7 @@ title_ja: 子どもの熱、何度になったら受診する？〜夜中に迷�
 title_en: How high does a child's fever need to be before you see a doctor? — How to tell, even in the middle of the night
 excerpt_ja: 夜中に子どもの体が熱い。体温計は38.9℃。「朝まで待っていい？今すぐ行くべき？」——実は、見てほしいのは熱の数字より、別のところです。
 excerpt_en: It's the middle of the night, your child feels hot, and the thermometer says 38.9°C. "Can this wait until morning, or should we go now?" What matters most isn't actually the number.
+related: [touen-toukou-itsukara, flu-vaccine-timing]
 sources:
   - label: "日本小児科学会 監修「こどもの救急（ONLINE-QQ）」"
     url: "http://kodomo-qq.jp/"

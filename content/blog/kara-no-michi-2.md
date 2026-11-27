@@ -7,6 +7,7 @@ title_ja: 外科医から開業医へ（後編）——遠回りのようで、�
 title_en: "From surgeon to clinic director, Part 2 — a path that looked winding, but wasn't"
 excerpt_ja: 手術室に立ち続ける道も、大学に残る道もあった中で、私があえて開業を選んだ理由。進路に迷う学生の皆さんへのメッセージも添えた、キャリア振り返りの後編です。
 excerpt_en: I could have stayed in the operating room, or stayed at the university — here's why I chose to open a clinic instead. Part 2, with a message for students still finding their path.
+related: [kara-no-michi, i-gekai-kara-kakaritsukei, gan-ninteii-koushin]
 ---
 
 ## ja

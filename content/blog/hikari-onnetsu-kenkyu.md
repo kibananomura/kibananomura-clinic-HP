@@ -7,6 +7,7 @@ title_ja: 「光でがんを温める」研究に打ち込んでいた頃の話
 title_en: Back when I was researching how to heat cancer with light
 excerpt_ja: 今年7月、「がん細胞を光の熱で壊す」研究がニュースになりました。実はこの治療、私が大学院時代に打ち込んでいた研究テーマでもあります。
 excerpt_en: This July, research on destroying cancer cells with heat from light made the news. As it happens, this was the very treatment I devoted myself to researching in graduate school.
+related: [kara-no-michi, gan-ninteii-koushin, kara-no-michi-2]
 ---
 
 ## ja

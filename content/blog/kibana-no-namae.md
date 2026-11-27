@@ -7,6 +7,7 @@ title_ja: 名前に込めた、ふたつの想い
 title_en: Two ideas behind our name
 excerpt_ja: 実は少し欲張りな名前なんです。地域の名『木花』に、院長の姓『野村』を重ねました。「木花のむら総合診療所」という名前に込めた、ふたつの想いをお話しします。
 excerpt_en: It's actually a bit of a greedy name — I layered my own surname, Nomura, onto Kibana, the name of this area. Here's the story behind Kibana Nomura General Medicine Clinic.
+related: [hajimemashite, kibana-kenkou-festa-2026, kinri-no-aru-sekai]
 ---
 
 ## ja

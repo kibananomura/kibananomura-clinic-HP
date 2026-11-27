@@ -9,6 +9,7 @@ title_ja: 胃カメラは何歳から？どのくらいの間隔で受ければ�
 title_en: When should you start getting gastroscopies — and how often?
 excerpt_ja: 「胃カメラって、何歳になったら受けるもの？」「毎年受けないとダメ？」——実はその答え、年齢だけでなく「ピロリ菌」と「症状」で大きく変わります。
 excerpt_en: “At what age should I start getting a gastroscopy?” “Do I need one every year?” The answer actually depends a lot on two things besides age — H. pylori and your symptoms.
+related: [ikamera-junbi, daichou-polyp, tumor-marker-checkup]
 sources:
   - label: "厚生労働省「がん検診（胃がん検診）」がん対策推進企業アクション"
     url: "https://www.gankenshin50.mhlw.go.jp/screening/kind_stomach.html"

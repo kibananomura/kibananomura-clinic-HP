@@ -9,7 +9,7 @@ title_ja: "1日1万歩じゃなくても大丈夫？〜60歳からは「まず5,
 title_en: "Do you really need 10,000 steps a day? — after 60, “start with 5,000,” plus tips for keeping it fun with your smartphone"
 excerpt_ja: "「運動しなきゃ」と思うたびに、ちょっと気が重くなる。そんな方に、少し肩の力が抜けるお話です。"
 excerpt_en: "Every time you think “I should exercise,” you feel a bit weighed down? Here's something to help you relax a little."
-related: [tounyoubyou-kankai, herashitemo-yasenai, ashi-kutsu-erabi]
+related: [tounyoubyou-kankai, herashitemo-yasenai, ashi-kutsu-erabi, hashiru-wakibara-itami]
 seo_title_ja: 1日何歩歩けばいい？ 60歳からは「まず5,000歩」で大丈夫な理由と、続けるコツ
 seo_description_ja: 1日1万歩でなくても大丈夫？ 歩数と健康の研究から、60歳以上は「まず5,000歩」を目安にしてよい理由、座りっぱなしを減らす工夫、スマホで楽しく続けるコツを医師が解説します。
 updated: 2026.11.27

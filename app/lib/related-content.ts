@@ -12,10 +12,10 @@ export const RELATED_POSTS_BY_DISEASE: Record<string, string[]> = {
   "ureteral-stone": ["hajimemashite"],
   appendicitis: ["kaicho-mattan-en"],
   "terminal-ileitis": ["kaicho-mattan-en"],
-  influenza: ["influenza-vaccine-mayoi", "furumisuto-hana-no-jotai", "kansen-2026-11", "flu-vaccine-timing"],
-  "common-cold": ["kaze-taisho-ryoho", "sougou-kanyaku-nemuke"],
-  "streptococcal-pharyngitis": ["hotai-card", "kansen-2026-07"],
-  "covid-19": ["kansen-2026-07"],
+  influenza: ["influenza-vaccine-mayoi", "furumisuto-hana-no-jotai", "kansen-2026-11", "flu-vaccine-timing", "kodomo-netsu-jushin", "touen-toukou-itsukara"],
+  "common-cold": ["kaze-taisho-ryoho", "sougou-kanyaku-nemuke", "kodomo-netsu-jushin", "touen-toukou-itsukara"],
+  "streptococcal-pharyngitis": ["hotai-card", "kansen-2026-07", "touen-toukou-itsukara"],
+  "covid-19": ["kansen-2026-07", "touen-toukou-itsukara"],
   "bacterial-food-poisoning": ["kansen-2026-07"],
   gastroenteritis: ["kansen-2026-07", "kansen-2026-11"],
   "viral-gastroenteritis": ["kansen-2026-07"],
@@ -40,9 +40,10 @@ export const RELATED_POSTS_BY_DISEASE: Record<string, string[]> = {
   "fatty-liver-disease": ["herashitemo-yasenai", "ichinichi-isshoku-yasenai"],
   diabetes: ["tounyoubyou-kankai", "tounyoubyou-shokuji", "ashi-tako-sign", "hosuu-5000", "seikatsu-shukanbyo-gokai", "mainichi-chigau-mono"],
   "hyperuricemia-gout": ["tsuufuu-hossa-timing", "purin-tai-yurai"],
-  "iron-deficiency-anemia": ["tetsu-vitamin-c-ekiden"],
+  "iron-deficiency-anemia": ["tetsu-vitamin-c-ekiden", "usuge-koujousen-tetsu"],
   osteoporosis: ["herashitemo-yasenai"],
   "knee-osteoarthritis": ["ashi-kutsu-erabi", "hosuu-5000"],
+  thyroid: ["usuge-koujousen-tetsu"],
 };
 
 export function getRelatedPostSlugs(diseaseSlug: string): string[] {

@@ -9,6 +9,7 @@ title_ja: 健診のオプションで「腫瘍マーカー」が高かった方�
 title_en: If your optional tumor marker test came back high
 excerpt_ja: 健康診断のオプションで腫瘍マーカーを測り、異常値に不安を感じている方へ。腫瘍マーカーがどうやって生まれた検査なのかを知ると、少し見え方が変わるかもしれません。
 excerpt_en: For anyone who added a tumor marker test to their checkup and got an unsettling result — understanding how this test came to exist might change how you see that number.
+related: [daichou-polyp, ikamera-nansai-kara]
 ---
 
 ## ja

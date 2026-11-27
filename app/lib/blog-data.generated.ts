@@ -81,19 +81,19 @@ export const generatedPosts: BlogPost[] = [
     },
     "related": [
       {
-        "slug": "gan-ninteii-koushin",
-        "ja": "「がん治療認定医」を、更新しないと決めた日",
-        "en": "The day I decided not to renew my cancer treatment certification"
+        "slug": "kibana-no-namae",
+        "ja": "名前に込めた、ふたつの想い",
+        "en": "Two ideas behind our name"
       },
       {
-        "slug": "i-gekai-kara-kakaritsukei",
-        "ja": "元・消化器外科医が、木花で「かかりつけ医」になった理由",
-        "en": "Why a former gastrointestinal surgeon chose to become your family doctor, here in Kibana"
+        "slug": "kara-no-michi",
+        "ja": "外科医から開業医へ（前編）——十数年、一つの場所に留まらなかった道のり",
+        "en": "From surgeon to clinic director, Part 1 — more than a decade without staying in one place"
       },
       {
-        "slug": "hikari-onnetsu-kenkyu",
-        "ja": "「光でがんを温める」研究に打ち込んでいた頃の話",
-        "en": "Back when I was researching how to heat cancer with light"
+        "slug": "iryou-wo-wasurete-kuraseru",
+        "ja": "「医療を忘れて暮らせる明日」を創る〜私たちが、この言葉にたどり着くまで〜",
+        "en": "Creating “a tomorrow where you can live without thinking about medical care” — how we arrived at these words"
       }
     ]
   },
@@ -184,6 +184,16 @@ export const generatedPosts: BlogPost[] = [
     },
     "related": [
       {
+        "slug": "hajimemashite",
+        "ja": "はじめまして。院長の野村です。",
+        "en": "Hello — I'm Dr. Nomura, the director."
+      },
+      {
+        "slug": "i-gekai-kara-kakaritsukei",
+        "ja": "元・消化器外科医が、木花で「かかりつけ医」になった理由",
+        "en": "Why a former gastrointestinal surgeon chose to become your family doctor, here in Kibana"
+      },
+      {
         "slug": "iryou-wo-wasurete-kuraseru",
         "ja": "「医療を忘れて暮らせる明日」を創る〜私たちが、この言葉にたどり着くまで〜",
         "en": "Creating “a tomorrow where you can live without thinking about medical care” — how we arrived at these words"
@@ -192,6 +202,11 @@ export const generatedPosts: BlogPost[] = [
         "slug": "kibana-kenkou-festa-2026",
         "ja": "「木花健康フェスタ」は体育館で〜握力測定のボランティアをして感じた、木花の健康への意識〜",
         "en": "The Kibana Health Festa moves indoors — what I felt as a grip-strength volunteer"
+      },
+      {
+        "slug": "kinri-no-aru-sekai",
+        "ja": "「金利のある世界」で、覚悟を持って診療所をつくります",
+        "en": "In a world where interest rates are back, we are building this clinic with full commitment"
       }
     ]
   },
@@ -508,19 +523,19 @@ export const generatedPosts: BlogPost[] = [
     },
     "related": [
       {
-        "slug": "gan-ninteii-koushin",
-        "ja": "「がん治療認定医」を、更新しないと決めた日",
-        "en": "The day I decided not to renew my cancer treatment certification"
-      },
-      {
-        "slug": "i-gekai-kara-kakaritsukei",
-        "ja": "元・消化器外科医が、木花で「かかりつけ医」になった理由",
-        "en": "Why a former gastrointestinal surgeon chose to become your family doctor, here in Kibana"
+        "slug": "hajimemashite",
+        "ja": "はじめまして。院長の野村です。",
+        "en": "Hello — I'm Dr. Nomura, the director."
       },
       {
         "slug": "hikari-onnetsu-kenkyu",
         "ja": "「光でがんを温める」研究に打ち込んでいた頃の話",
         "en": "Back when I was researching how to heat cancer with light"
+      },
+      {
+        "slug": "kara-no-michi-2",
+        "ja": "外科医から開業医へ（後編）——遠回りのようで、まっすぐだった道のり",
+        "en": "From surgeon to clinic director, Part 2 — a path that looked winding, but wasn't"
       }
     ]
   },
@@ -648,14 +663,19 @@ export const generatedPosts: BlogPost[] = [
         "en": "The day I decided not to renew my cancer treatment certification"
       },
       {
+        "slug": "hikari-onnetsu-kenkyu",
+        "ja": "「光でがんを温める」研究に打ち込んでいた頃の話",
+        "en": "Back when I was researching how to heat cancer with light"
+      },
+      {
         "slug": "i-gekai-kara-kakaritsukei",
         "ja": "元・消化器外科医が、木花で「かかりつけ医」になった理由",
         "en": "Why a former gastrointestinal surgeon chose to become your family doctor, here in Kibana"
       },
       {
-        "slug": "hikari-onnetsu-kenkyu",
-        "ja": "「光でがんを温める」研究に打ち込んでいた頃の話",
-        "en": "Back when I was researching how to heat cancer with light"
+        "slug": "kara-no-michi",
+        "ja": "外科医から開業医へ（前編）——十数年、一つの場所に留まらなかった道のり",
+        "en": "From surgeon to clinic director, Part 1 — more than a decade without staying in one place"
       }
     ]
   },
@@ -1255,19 +1275,19 @@ export const generatedPosts: BlogPost[] = [
     },
     "related": [
       {
+        "slug": "tumor-marker-checkup",
+        "ja": "健診のオプションで「腫瘍マーカー」が高かった方へ",
+        "en": "If your optional tumor marker test came back high"
+      },
+      {
+        "slug": "ikamera-nansai-kara",
+        "ja": "胃カメラは何歳から？どのくらいの間隔で受ければいい？",
+        "en": "When should you start getting gastroscopies — and how often?"
+      },
+      {
         "slug": "daichou-camera-junbi",
         "ja": "大腸カメラ、いちばん大変なのは「前の日」でした〜準備から検査後までの流れ〜",
         "en": "The hardest part of a colonoscopy is the day before — What to expect from preparation to aftercare"
-      },
-      {
-        "slug": "shukuben",
-        "ja": "「宿便がたまっている」って本当？——腸の中で、実際に起きていること",
-        "en": "Is \"old stool stuck in your gut\" real? What's actually happening inside your bowel"
-      },
-      {
-        "slug": "hashiru-wakibara-itami",
-        "ja": "走るとお腹が痛くなるのはなぜ？〜わき腹が痛む理由と、その場ですぐできる対処法〜",
-        "en": "Why does your side hurt when you run? — what causes that stitch, and what you can do right there on the spot"
       }
     ]
   },
@@ -1450,14 +1470,14 @@ export const generatedPosts: BlogPost[] = [
     },
     "related": [
       {
-        "slug": "kodomo-outo-geri-suibun",
-        "ja": "吐いたあと、すぐに水を飲ませていませんか？〜子どものおう吐・下痢のときの水分のとり方〜",
-        "en": "Giving water right after your child vomits? — How to give fluids when children have vomiting and diarrhea"
-      },
-      {
         "slug": "kodomo-netsu-jushin",
         "ja": "子どもの熱、何度になったら受診する？〜夜中に迷ったときの見分け方〜",
         "en": "How high does a child's fever need to be before you see a doctor? — How to tell, even in the middle of the night"
+      },
+      {
+        "slug": "kodomo-outo-geri-suibun",
+        "ja": "吐いたあと、すぐに水を飲ませていませんか？〜子どものおう吐・下痢のときの水分のとり方〜",
+        "en": "Giving water right after your child vomits? — How to give fluids when children have vomiting and diarrhea"
       }
     ]
   },
@@ -1753,9 +1773,9 @@ export const generatedPosts: BlogPost[] = [
         "en": "The day I decided not to renew my cancer treatment certification"
       },
       {
-        "slug": "i-gekai-kara-kakaritsukei",
-        "ja": "元・消化器外科医が、木花で「かかりつけ医」になった理由",
-        "en": "Why a former gastrointestinal surgeon chose to become your family doctor, here in Kibana"
+        "slug": "kara-no-michi",
+        "ja": "外科医から開業医へ（前編）——十数年、一つの場所に留まらなかった道のり",
+        "en": "From surgeon to clinic director, Part 1 — more than a decade without staying in one place"
       },
       {
         "slug": "kara-no-michi-2",
@@ -2077,6 +2097,11 @@ export const generatedPosts: BlogPost[] = [
     },
     "related": [
       {
+        "slug": "ikamera-nansai-kara",
+        "ja": "胃カメラは何歳から？どのくらいの間隔で受ければいい？",
+        "en": "When should you start getting gastroscopies — and how often?"
+      },
+      {
         "slug": "shukuben",
         "ja": "「宿便がたまっている」って本当？——腸の中で、実際に起きていること",
         "en": "Is \"old stool stuck in your gut\" real? What's actually happening inside your bowel"
@@ -2085,11 +2110,6 @@ export const generatedPosts: BlogPost[] = [
         "slug": "hashiru-wakibara-itami",
         "ja": "走るとお腹が痛くなるのはなぜ？〜わき腹が痛む理由と、その場ですぐできる対処法〜",
         "en": "Why does your side hurt when you run? — what causes that stitch, and what you can do right there on the spot"
-      },
-      {
-        "slug": "senna-choukirenyou",
-        "ja": "その便秘薬、飲む量が増えていませんか？——センナを毎日続けないほうがよい理由",
-        "en": "Is your laxative dose creeping up? Why senna isn't meant for every day"
       }
     ]
   },
@@ -2388,19 +2408,19 @@ export const generatedPosts: BlogPost[] = [
     },
     "related": [
       {
-        "slug": "shukuben",
-        "ja": "「宿便がたまっている」って本当？——腸の中で、実際に起きていること",
-        "en": "Is \"old stool stuck in your gut\" real? What's actually happening inside your bowel"
+        "slug": "daichou-polyp",
+        "ja": "「大腸ポリープがあります」と言われたら〜取る？様子を見る？次の検査はいつ？〜",
+        "en": "Told you have a colon polyp? — Remove it or watch it, and when's the next exam?"
       },
       {
-        "slug": "hashiru-wakibara-itami",
-        "ja": "走るとお腹が痛くなるのはなぜ？〜わき腹が痛む理由と、その場ですぐできる対処法〜",
-        "en": "Why does your side hurt when you run? — what causes that stitch, and what you can do right there on the spot"
+        "slug": "ikamera-junbi",
+        "ja": "胃カメラの前日・当日・検査後、どう過ごせばいい？",
+        "en": "Getting a gastroscopy? How to spend the day before, the day of, and after"
       },
       {
-        "slug": "senna-choukirenyou",
-        "ja": "その便秘薬、飲む量が増えていませんか？——センナを毎日続けないほうがよい理由",
-        "en": "Is your laxative dose creeping up? Why senna isn't meant for every day"
+        "slug": "tumor-marker-checkup",
+        "ja": "健診のオプションで「腫瘍マーカー」が高かった方へ",
+        "en": "If your optional tumor marker test came back high"
       }
     ]
   },
@@ -4519,6 +4539,11 @@ export const generatedPosts: BlogPost[] = [
     },
     "related": [
       {
+        "slug": "honne-ga-ienai",
+        "ja": "「もうやれることはやったのに」——その言葉、診察室で言っていいんです",
+        "en": "“I've already done everything I can” — it's okay to say that in the exam room"
+      },
+      {
         "slug": "iryou-wo-wasurete-kuraseru",
         "ja": "「医療を忘れて暮らせる明日」を創る〜私たちが、この言葉にたどり着くまで〜",
         "en": "Creating “a tomorrow where you can live without thinking about medical care” — how we arrived at these words"
@@ -4921,14 +4946,24 @@ export const generatedPosts: BlogPost[] = [
         "en": "The day I decided not to renew my cancer treatment certification"
       },
       {
-        "slug": "hikari-onnetsu-kenkyu",
-        "ja": "「光でがんを温める」研究に打ち込んでいた頃の話",
-        "en": "Back when I was researching how to heat cancer with light"
-      },
-      {
         "slug": "kara-no-michi-2",
         "ja": "外科医から開業医へ（後編）——遠回りのようで、まっすぐだった道のり",
         "en": "From surgeon to clinic director, Part 2 — a path that looked winding, but wasn't"
+      },
+      {
+        "slug": "iryou-wo-wasurete-kuraseru",
+        "ja": "「医療を忘れて暮らせる明日」を創る〜私たちが、この言葉にたどり着くまで〜",
+        "en": "Creating “a tomorrow where you can live without thinking about medical care” — how we arrived at these words"
+      },
+      {
+        "slug": "kibana-no-namae",
+        "ja": "名前に込めた、ふたつの想い",
+        "en": "Two ideas behind our name"
+      },
+      {
+        "slug": "kinri-no-aru-sekai",
+        "ja": "「金利のある世界」で、覚悟を持って診療所をつくります",
+        "en": "In a world where interest rates are back, we are building this clinic with full commitment"
       }
     ]
   },
@@ -5019,14 +5054,14 @@ export const generatedPosts: BlogPost[] = [
     },
     "related": [
       {
-        "slug": "i-gekai-kara-kakaritsukei",
-        "ja": "元・消化器外科医が、木花で「かかりつけ医」になった理由",
-        "en": "Why a former gastrointestinal surgeon chose to become your family doctor, here in Kibana"
-      },
-      {
         "slug": "hikari-onnetsu-kenkyu",
         "ja": "「光でがんを温める」研究に打ち込んでいた頃の話",
         "en": "Back when I was researching how to heat cancer with light"
+      },
+      {
+        "slug": "i-gekai-kara-kakaritsukei",
+        "ja": "元・消化器外科医が、木花で「かかりつけ医」になった理由",
+        "en": "Why a former gastrointestinal surgeon chose to become your family doctor, here in Kibana"
       },
       {
         "slug": "kara-no-michi-2",
@@ -5291,19 +5326,14 @@ export const generatedPosts: BlogPost[] = [
     },
     "related": [
       {
-        "slug": "usuge-koujousen-tetsu",
-        "ja": "抜け毛が増えたのは、年齢のせい？　髪の前に、体のサインを見てみませんか",
-        "en": "More hair in the drain — is it just age? Before treating your hair, check what your body is telling you"
+        "slug": "daichou-polyp",
+        "ja": "「大腸ポリープがあります」と言われたら〜取る？様子を見る？次の検査はいつ？〜",
+        "en": "Told you have a colon polyp? — Remove it or watch it, and when's the next exam?"
       },
       {
-        "slug": "tetsu-vitamin-c-ekiden",
-        "ja": "鉄分をとっているのに、貧血が良くならない？〜カギはビタミンC。走る子に貧血が多い理由と、まぶたのセルフチェック〜",
-        "en": "Taking iron, but your anemia isn't improving? — vitamin C is the key, plus why young runners often become anemic and a simple eyelid self-check"
-      },
-      {
-        "slug": "seijou-no-jouge-fuan",
-        "ja": "健診結果の「正常の上限」、どう考える？",
-        "en": "Your checkup came back \"normal, but at the upper edge\" — what does that mean?"
+        "slug": "ikamera-nansai-kara",
+        "ja": "胃カメラは何歳から？どのくらいの間隔で受ければいい？",
+        "en": "When should you start getting gastroscopies — and how often?"
       }
     ]
   },
@@ -7952,14 +7982,14 @@ export const generatedPosts: BlogPost[] = [
     },
     "related": [
       {
-        "slug": "kodomo-outo-geri-suibun",
-        "ja": "吐いたあと、すぐに水を飲ませていませんか？〜子どものおう吐・下痢のときの水分のとり方〜",
-        "en": "Giving water right after your child vomits? — How to give fluids when children have vomiting and diarrhea"
-      },
-      {
         "slug": "touen-toukou-itsukara",
         "ja": "熱が下がったのに、まだ登園できないの？〜「出席停止」の日数の数え方〜",
         "en": "The fever's gone, so why can't they go back to daycare yet? — How to count \"attendance suspension\" days"
+      },
+      {
+        "slug": "flu-vaccine-timing",
+        "ja": "インフルエンザワクチン、いつ打つのが一番いい？〜受験や大切な日から「逆算」する接種スケジュール〜",
+        "en": "When is the best time to get a flu shot? — planning backward from exams and other important days"
       }
     ]
   },
@@ -8778,19 +8808,24 @@ export const generatedPosts: BlogPost[] = [
     },
     "related": [
       {
+        "slug": "kibana-no-namae",
+        "ja": "名前に込めた、ふたつの想い",
+        "en": "Two ideas behind our name"
+      },
+      {
+        "slug": "iryou-wo-wasurete-kuraseru",
+        "ja": "「医療を忘れて暮らせる明日」を創る〜私たちが、この言葉にたどり着くまで〜",
+        "en": "Creating “a tomorrow where you can live without thinking about medical care” — how we arrived at these words"
+      },
+      {
+        "slug": "i-gekai-kara-kakaritsukei",
+        "ja": "元・消化器外科医が、木花で「かかりつけ医」になった理由",
+        "en": "Why a former gastrointestinal surgeon chose to become your family doctor, here in Kibana"
+      },
+      {
         "slug": "kansen-dousen-bunri",
         "ja": "発熱の方の動線を、他の患者さんと完全に分けている理由",
         "en": "Why we keep patients with a fever completely separate from everyone else"
-      },
-      {
-        "slug": "kibana-kenkou-festa-2026",
-        "ja": "「木花健康フェスタ」は体育館で〜握力測定のボランティアをして感じた、木花の健康への意識〜",
-        "en": "The Kibana Health Festa moves indoors — what I felt as a grip-strength volunteer"
-      },
-      {
-        "slug": "isseisan-daikangei",
-        "ja": "旅先での体調不良、「一見さん」でも大歓迎です",
-        "en": "Feeling unwell while traveling? First-time visitors are always welcome here"
       }
     ]
   },
@@ -10114,6 +10149,16 @@ export const generatedPosts: BlogPost[] = [
     },
     "related": [
       {
+        "slug": "shinsatsushitsu-no-chikara",
+        "ja": "同じ言葉なのに、診察室だと心に届くのはなぜ？〜「場」が持つ、もうひとつの治療の力〜",
+        "en": "Why do the same words reach you differently in the exam room? — the other healing power of a “place”"
+      },
+      {
+        "slug": "nagaku-tsukiau-iryou",
+        "ja": "「治す」だけでなく、「長く付き合う」医療について",
+        "en": "Medicine isn't only about curing — it's also about staying alongside you"
+      },
+      {
         "slug": "yasete-iru-noni-ldl",
         "ja": "痩せているのに、なぜコレステロールが高いの？——薬をやめると数値が戻ってしまう本当の理由",
         "en": "Slim, but high cholesterol? The real reason your numbers bounce back when you stop the medicine"
@@ -10127,11 +10172,6 @@ export const generatedPosts: BlogPost[] = [
         "slug": "hontou-no-chiryou",
         "ja": "生活習慣病の本当の治療は、診察室の外にあります",
         "en": "The real treatment for lifestyle diseases happens outside the consultation room"
-      },
-      {
-        "slug": "shinsatsushitsu-no-chikara",
-        "ja": "同じ言葉なのに、診察室だと心に届くのはなぜ？〜「場」が持つ、もうひとつの治療の力〜",
-        "en": "Why do the same words reach you differently in the exam room? — the other healing power of a “place”"
       }
     ]
   },
@@ -12142,6 +12182,11 @@ export const generatedPosts: BlogPost[] = [
         "slug": "kansen-2026-11-3",
         "ja": "【続報】宮崎県でインフルエンザが流行の注意報レベルに。宮崎市ではみずぼうそうも増えています",
         "en": "Update: Flu in Miyazaki Prefecture reaches advisory level, and chickenpox is rising in Miyazaki City"
+      },
+      {
+        "slug": "kodomo-netsu-jushin",
+        "ja": "子どもの熱、何度になったら受診する？〜夜中に迷ったときの見分け方〜",
+        "en": "How high does a child's fever need to be before you see a doctor? — How to tell, even in the middle of the night"
       }
     ]
   },
@@ -12833,14 +12878,14 @@ export const generatedPosts: BlogPost[] = [
     },
     "related": [
       {
-        "slug": "hontou-no-chiryou",
-        "ja": "生活習慣病の本当の治療は、診察室の外にあります",
-        "en": "The real treatment for lifestyle diseases happens outside the consultation room"
-      },
-      {
         "slug": "honne-ga-ienai",
         "ja": "「もうやれることはやったのに」——その言葉、診察室で言っていいんです",
         "en": "“I've already done everything I can” — it's okay to say that in the exam room"
+      },
+      {
+        "slug": "hontou-no-chiryou",
+        "ja": "生活習慣病の本当の治療は、診察室の外にあります",
+        "en": "The real treatment for lifestyle diseases happens outside the consultation room"
       },
       {
         "slug": "nagaku-tsukiau-iryou",
@@ -14474,6 +14519,11 @@ export const generatedPosts: BlogPost[] = [
         "slug": "hosuu-5000",
         "ja": "1日1万歩じゃなくても大丈夫？〜60歳からは「まず5,000歩」。スマホで楽しく続けるコツ〜",
         "en": "Do you really need 10,000 steps a day? — after 60, “start with 5,000,” plus tips for keeping it fun with your smartphone"
+      },
+      {
+        "slug": "usuge-koujousen-tetsu",
+        "ja": "抜け毛が増えたのは、年齢のせい？　髪の前に、体のサインを見てみませんか",
+        "en": "More hair in the drain — is it just age? Before treating your hair, check what your body is telling you"
       }
     ]
   },
@@ -16405,6 +16455,16 @@ export const generatedPosts: BlogPost[] = [
     },
     "related": [
       {
+        "slug": "hajimemashite",
+        "ja": "はじめまして。院長の野村です。",
+        "en": "Hello — I'm Dr. Nomura, the director."
+      },
+      {
+        "slug": "i-gekai-kara-kakaritsukei",
+        "ja": "元・消化器外科医が、木花で「かかりつけ医」になった理由",
+        "en": "Why a former gastrointestinal surgeon chose to become your family doctor, here in Kibana"
+      },
+      {
         "slug": "hontou-no-chiryou",
         "ja": "生活習慣病の本当の治療は、診察室の外にあります",
         "en": "The real treatment for lifestyle diseases happens outside the consultation room"
@@ -16418,16 +16478,6 @@ export const generatedPosts: BlogPost[] = [
         "slug": "kusuri-yamerarenai",
         "ja": "「お薬は一生やめられない」は誤解です",
         "en": "'Once you start, you can never stop' is a myth"
-      },
-      {
-        "slug": "nagaku-tsukiau-iryou",
-        "ja": "「治す」だけでなく、「長く付き合う」医療について",
-        "en": "Medicine isn't only about curing — it's also about staying alongside you"
-      },
-      {
-        "slug": "kibana-no-namae",
-        "ja": "名前に込めた、ふたつの想い",
-        "en": "Two ideas behind our name"
       }
     ]
   },
