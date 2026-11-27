@@ -6418,14 +6418,14 @@ export const generatedPosts: BlogPost[] = [
         "en": "Took some leftover cold medicine and got overwhelmingly sleepy? — what's inside a combination cold medicine, and the real reason for the drowsiness"
       },
       {
+        "slug": "kansen-2026-11-3",
+        "ja": "【続報】宮崎県でインフルエンザが流行の注意報レベルに。宮崎市ではみずぼうそうも増えています",
+        "en": "Update: Flu in Miyazaki Prefecture reaches advisory level, and chickenpox is rising in Miyazaki City"
+      },
+      {
         "slug": "fuyu-shokuchudoku",
         "ja": "食中毒は夏だけじゃない？——冬のノロウイルス、家でできることと受診の目安",
         "en": "Food poisoning isn't just a summer thing — norovirus in winter, what to do at home and when to see a doctor"
-      },
-      {
-        "slug": "kansen-2026-11-2",
-        "ja": "宮崎市の感染症、世代ごとの「注意サイン」〜お子さんは手足口病・胃腸炎、大人は長引くせき、そしてインフルエンザに備えを〜",
-        "en": "Infections in Miyazaki City: warning signs for each generation — hand, foot and mouth disease in kids, lingering coughs in adults, and getting ready for flu"
       }
     ]
   },
@@ -7077,14 +7077,14 @@ export const generatedPosts: BlogPost[] = [
         "en": "When is the best time to get a flu shot? — planning backward from exams and other important days"
       },
       {
+        "slug": "kansen-2026-11-3",
+        "ja": "【続報】宮崎県でインフルエンザが流行の注意報レベルに。宮崎市ではみずぼうそうも増えています",
+        "en": "Update: Flu in Miyazaki Prefecture reaches advisory level, and chickenpox is rising in Miyazaki City"
+      },
+      {
         "slug": "fuyu-shokuchudoku",
         "ja": "食中毒は夏だけじゃない？——冬のノロウイルス、家でできることと受診の目安",
         "en": "Food poisoning isn't just a summer thing — norovirus in winter, what to do at home and when to see a doctor"
-      },
-      {
-        "slug": "sougou-kanyaku-nemuke",
-        "ja": "残っていた風邪薬を飲んだら、猛烈に眠くなった？〜「総合感冒薬」の中身と、眠気の本当の理由〜",
-        "en": "Took some leftover cold medicine and got overwhelmingly sleepy? — what's inside a combination cold medicine, and the real reason for the drowsiness"
       }
     ]
   },
@@ -7409,6 +7409,11 @@ export const generatedPosts: BlogPost[] = [
     },
     "related": [
       {
+        "slug": "kansen-2026-11-3",
+        "ja": "【続報】宮崎県でインフルエンザが流行の注意報レベルに。宮崎市ではみずぼうそうも増えています",
+        "en": "Update: Flu in Miyazaki Prefecture reaches advisory level, and chickenpox is rising in Miyazaki City"
+      },
+      {
         "slug": "fuyu-shokuchudoku",
         "ja": "食中毒は夏だけじゃない？——冬のノロウイルス、家でできることと受診の目安",
         "en": "Food poisoning isn't just a summer thing — norovirus in winter, what to do at home and when to see a doctor"
@@ -7417,11 +7422,6 @@ export const generatedPosts: BlogPost[] = [
         "slug": "sougou-kanyaku-nemuke",
         "ja": "残っていた風邪薬を飲んだら、猛烈に眠くなった？〜「総合感冒薬」の中身と、眠気の本当の理由〜",
         "en": "Took some leftover cold medicine and got overwhelmingly sleepy? — what's inside a combination cold medicine, and the real reason for the drowsiness"
-      },
-      {
-        "slug": "kansen-2026-11-2",
-        "ja": "宮崎市の感染症、世代ごとの「注意サイン」〜お子さんは手足口病・胃腸炎、大人は長引くせき、そしてインフルエンザに備えを〜",
-        "en": "Infections in Miyazaki City: warning signs for each generation — hand, foot and mouth disease in kids, lingering coughs in adults, and getting ready for flu"
       }
     ]
   },
@@ -11150,14 +11150,14 @@ export const generatedPosts: BlogPost[] = [
         "en": "Is disinfecting a scrape actually counterproductive? Why “wash it, and don't let it dry out” heals faster and cleaner"
       },
       {
+        "slug": "kansen-2026-11-3",
+        "ja": "【続報】宮崎県でインフルエンザが流行の注意報レベルに。宮崎市ではみずぼうそうも増えています",
+        "en": "Update: Flu in Miyazaki Prefecture reaches advisory level, and chickenpox is rising in Miyazaki City"
+      },
+      {
         "slug": "fuyu-shokuchudoku",
         "ja": "食中毒は夏だけじゃない？——冬のノロウイルス、家でできることと受診の目安",
         "en": "Food poisoning isn't just a summer thing — norovirus in winter, what to do at home and when to see a doctor"
-      },
-      {
-        "slug": "sougou-kanyaku-nemuke",
-        "ja": "残っていた風邪薬を飲んだら、猛烈に眠くなった？〜「総合感冒薬」の中身と、眠気の本当の理由〜",
-        "en": "Took some leftover cold medicine and got overwhelmingly sleepy? — what's inside a combination cold medicine, and the real reason for the drowsiness"
       }
     ]
   },
@@ -11640,14 +11640,14 @@ export const generatedPosts: BlogPost[] = [
         "en": "Infections in Miyazaki City: warning signs for each generation — hand, foot and mouth disease in kids, lingering coughs in adults, and getting ready for flu"
       },
       {
+        "slug": "kansen-2026-11-3",
+        "ja": "【続報】宮崎県でインフルエンザが流行の注意報レベルに。宮崎市ではみずぼうそうも増えています",
+        "en": "Update: Flu in Miyazaki Prefecture reaches advisory level, and chickenpox is rising in Miyazaki City"
+      },
+      {
         "slug": "influenza-vaccine-mayoi",
         "ja": "インフルエンザワクチン、打つべきか迷っているあなたへ",
         "en": "Still unsure about the flu shot? Here's how to think about it"
-      },
-      {
-        "slug": "sougou-kanyaku-nemuke",
-        "ja": "残っていた風邪薬を飲んだら、猛烈に眠くなった？〜「総合感冒薬」の中身と、眠気の本当の理由〜",
-        "en": "Took some leftover cold medicine and got overwhelmingly sleepy? — what's inside a combination cold medicine, and the real reason for the drowsiness"
       }
     ]
   },
@@ -12137,6 +12137,11 @@ export const generatedPosts: BlogPost[] = [
         "slug": "kansen-2026-11",
         "ja": "【続報】宮崎でインフルエンザが例年の約15倍に。RSウイルスも倍増、マダニの感染症にも注意を",
         "en": "[Update] Flu in Miyazaki is about 15 times the usual level — RSV has doubled, and watch out for tick-borne infections too"
+      },
+      {
+        "slug": "kansen-2026-11-3",
+        "ja": "【続報】宮崎県でインフルエンザが流行の注意報レベルに。宮崎市ではみずぼうそうも増えています",
+        "en": "Update: Flu in Miyazaki Prefecture reaches advisory level, and chickenpox is rising in Miyazaki City"
       }
     ]
   },
@@ -13446,6 +13451,10 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
+          "text": "その後、インフルエンザが注意報の目安を超えた状況は「[【続報】宮崎県でインフルエンザが流行の注意報レベルに](/blog/kansen-2026-11-3)」でお伝えしています。"
+        },
+        {
+          "kind": "text",
           "text": "### 院長からのメッセージ"
         },
         {
@@ -13534,6 +13543,10 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
+          "text": "For the latest situation, after flu passed the advisory threshold, see \"[Update: Flu in Miyazaki Prefecture reaches advisory level](/blog/kansen-2026-11-3).\""
+        },
+        {
+          "kind": "text",
           "text": "### A message from the director"
         },
         {
@@ -13561,6 +13574,11 @@ export const generatedPosts: BlogPost[] = [
         "slug": "kodomo-outo-geri-suibun",
         "ja": "吐いたあと、すぐに水を飲ませていませんか？〜子どものおう吐・下痢のときの水分のとり方〜",
         "en": "Giving water right after your child vomits? — How to give fluids when children have vomiting and diarrhea"
+      },
+      {
+        "slug": "kansen-2026-11-3",
+        "ja": "【続報】宮崎県でインフルエンザが流行の注意報レベルに。宮崎市ではみずぼうそうも増えています",
+        "en": "Update: Flu in Miyazaki Prefecture reaches advisory level, and chickenpox is rising in Miyazaki City"
       }
     ]
   },
@@ -17199,6 +17217,173 @@ export const generatedPosts: BlogPost[] = [
       {
         "ja": "梅干し、大根おろし、すりおろしりんご——お腹の不調の「おばあちゃんの知恵」を医師が確かめました",
         "en": "Pickled plums, grated radish, grated apple — a doctor checks grandma's tummy remedies"
+      }
+    ]
+  },
+  {
+    "slug": "kansen-2026-11-3",
+    "date": "2026.11.27",
+    "cover": "/blog/kibana-landscape.jpg",
+    "coverVersion": "951e262c",
+    "coverWidth": 1536,
+    "coverHeight": 1024,
+    "sources": [
+      {
+        "label": "宮崎県感染症情報センター「宮崎県感染症週報」2026年第47週（11/16〜11/22、11月26日発行）",
+        "url": "https://www.pref.miyazaki.lg.jp/contents/org/fukushi/eikanken/center/infectious/"
+      },
+      {
+        "label": "厚生労働省「インフルエンザ（総合ページ）」",
+        "url": "https://www.mhlw.go.jp/bunya/kenkou/influenza/"
+      }
+    ],
+    "ja": {
+      "category": "健康・予防の話",
+      "subcategory": "感染症・ワクチン",
+      "title": "【続報】宮崎県でインフルエンザが流行の注意報レベルに。宮崎市ではみずぼうそうも増えています",
+      "excerpt": "今シーズン初めて、インフルエンザが注意報の目安を超えました。宮崎市で今、気をつけたいことをまとめます。",
+      "seoTitle": "宮崎市のインフルエンザ流行状況（2026年11月）｜注意報レベル、みずぼうそう・溶連菌も",
+      "seoDescription": "宮崎県感染症週報（11月16日〜22日）で、インフルエンザが今シーズン初めて流行注意報の目安を超えました。宮崎市の数字と、増えているみずぼうそう・溶連菌・手足口病、ご家庭でできる備えと受診の目安を医師がまとめます。",
+      "body": [
+        {
+          "kind": "text",
+          "text": "11月も終わりに近づき、「子どもの学級でインフルエンザが出た」という話を耳にすることが増えてきました。"
+        },
+        {
+          "kind": "text",
+          "text": "先にお伝えすると、**宮崎県のインフルエンザは、今シーズン初めて「流行注意報」の目安を超えました。宮崎市でも同じ水準まで増えていて、これから年末にかけて、さらに広がるおそれがあります。**"
+        },
+        {
+          "kind": "text",
+          "text": "今回のもとになっているのは、11月26日に発表された「宮崎県感染症週報」（11月16日〜22日のデータ）です。「定点あたり」は、「決められた1つの医療機関に、1週間で何人来たか」という意味です。[前回の続報](/blog/kansen-2026-11-2)とあわせてお読みください。"
+        },
+        {
+          "kind": "text",
+          "text": "### インフルエンザ：注意報の目安を超えました"
+        },
+        {
+          "kind": "text",
+          "text": "- **県全体**：288人（定点あたり10.67）。前の週の約1.4倍で、**注意報の目安（10）を今シーズン初めて超えました**。例年の同じ時期の約7倍です\n- **宮崎市**：86人（定点あたり9.56）。前回お伝えした4.44から、2週間で2倍以上になりました\n- **年代**：15歳未満のお子さんが約6割を占めています\n- **型**：県の検査では、A型（2009年に流行した型の仲間）が見つかっています"
+        },
+        {
+          "kind": "text",
+          "text": "過去のデータを見ると、宮崎県のインフルエンザは、**例年12月に入ってから一気に増える**傾向があります。県内では日南・延岡・日向などで、すでに定点あたり15を超えています。"
+        },
+        {
+          "kind": "text",
+          "text": "### 宮崎市で増えている、そのほかの感染症"
+        },
+        {
+          "kind": "text",
+          "text": "- **みずぼうそう（水とう）**：宮崎市で7人（定点あたり1.40）。県の参考の目安では、**警報レベルにあたる数字**です。熱と、かゆみのある水ぶくれが全身に出ます。ワクチンを2回受けているかどうか、母子手帳で確かめておきましょう\n- **溶連菌（A群溶血性レンサ球菌の、のどの感染症）**：宮崎市で10人（定点あたり2.00）と、県内でいちばん多くなっています。急な熱とのどの強い痛みが特徴です\n- **手足口病**：宮崎市で7人（定点あたり1.40）。口の中や手足にぶつぶつが出ます\n- **感染性胃腸炎**：宮崎市で15人と、県のほかの地域（小林・日向）ほどではありませんが、冬はノロウイルスにも注意が必要です"
+        },
+        {
+          "kind": "text",
+          "text": "また、のどの痛みやせき、鼻水などで受診した人も、宮崎市で定点あたり40.67と多くなっています。宮崎市からは、肺炎球菌による重い感染症の届け出もありました。"
+        },
+        {
+          "kind": "text",
+          "text": "### ご家庭でできる備え"
+        },
+        {
+          "kind": "text",
+          "text": "- **ワクチン**：インフルエンザのワクチンがまだの方は、早めにご検討ください。受験などの予定がある方は「[インフルエンザワクチン、いつ打つのが一番いい？](/blog/flu-vaccine-timing)」も参考に\n- **換気と湿度**：寒くても1時間に数回、窓を少し開け、部屋の湿度は50〜60％くらいに\n- **手洗い**：外から帰ったとき、食事の前に、石けんで\n- **体調が悪いときは休む**：熱があるときは、学校や仕事を無理せず休みましょう"
+        },
+        {
+          "kind": "text",
+          "text": "### こんなときは早めに受診を"
+        },
+        {
+          "kind": "text",
+          "text": "- 息が苦しい、ぐったりして呼びかけへの反応がにぶい\n- 水分がとれない、おしっこが半日以上出ない\n- 熱が下がったあと、また上がってきた\n- 小さなお子さんで、けいれんした、意味の通らないことを言う"
+        },
+        {
+          "kind": "text",
+          "text": "インフルエンザの薬は、熱が出てから早めに飲むほど効果が出やすいとされています。気になる症状があるときは、ひとりで抱えこまずに、かかりつけ医などにご相談ください（開院後は当院へ）。"
+        }
+      ]
+    },
+    "en": {
+      "category": "Health and prevention",
+      "subcategory": "Infections & vaccines",
+      "title": "Update: Flu in Miyazaki Prefecture reaches advisory level, and chickenpox is rising in Miyazaki City",
+      "excerpt": "For the first time this season, flu has passed the advisory threshold. Here's what to watch for in Miyazaki City right now.",
+      "seoTitle": "Flu in Miyazaki City (November 2026): advisory level reached, plus chickenpox and strep",
+      "seoDescription": "In the Miyazaki Prefecture infectious disease weekly report (Nov 16–22), flu passed the advisory threshold for the first time this season. A doctor summarizes the Miyazaki City figures, rising chickenpox, strep throat and hand, foot and mouth disease, and when to seek care.",
+      "body": [
+        {
+          "kind": "text",
+          "text": "As November draws to a close, we're hearing more often that \"flu has shown up in my child's class.\""
+        },
+        {
+          "kind": "text",
+          "text": "Here's the short answer: **flu in Miyazaki Prefecture has passed the \"advisory\" threshold for the first time this season. Miyazaki City has risen to about the same level, and it may spread further toward the end of the year.**"
+        },
+        {
+          "kind": "text",
+          "text": "This update is based on the Miyazaki Prefecture infectious disease weekly report published on November 26 (data for November 16–22). \"Per sentinel site\" means \"how many patients came to one designated clinic in a week.\" Please read it together with [the previous update](/blog/kansen-2026-11-2)."
+        },
+        {
+          "kind": "text",
+          "text": "### Flu: past the advisory threshold"
+        },
+        {
+          "kind": "text",
+          "text": "- **Prefecture-wide**: 288 cases (10.67 per sentinel site), about 1.4 times the previous week — **passing the advisory threshold (10) for the first time this season**, and about seven times the usual level for this time of year\n- **Miyazaki City**: 86 cases (9.56 per sentinel site), more than double the 4.44 we reported two weeks ago\n- **Age**: children under 15 account for about 60% of cases\n- **Type**: prefectural testing has found influenza A (related to the strain that spread in 2009)"
+        },
+        {
+          "kind": "text",
+          "text": "Past data show that flu in Miyazaki Prefecture **tends to rise sharply from December**. In Nichinan, Nobeoka and Hyuga, it has already passed 15 per sentinel site."
+        },
+        {
+          "kind": "text",
+          "text": "### Other infections rising in Miyazaki City"
+        },
+        {
+          "kind": "text",
+          "text": "- **Chickenpox**: 7 cases in Miyazaki City (1.40 per sentinel site) — **a figure at the warning level** by the prefecture's reference thresholds. It causes fever and itchy blisters all over the body. Check your child's maternal and child health handbook to see whether they've had both vaccine doses\n- **Strep throat (group A streptococcal pharyngitis)**: 10 cases in Miyazaki City (2.00 per sentinel site), the highest in the prefecture. Sudden fever and severe sore throat are typical\n- **Hand, foot and mouth disease**: 7 cases in Miyazaki City (1.40 per sentinel site), with spots in the mouth and on the hands and feet\n- **Infectious gastroenteritis**: 15 cases in Miyazaki City — fewer than in some other areas (Kobayashi, Hyuga), but in winter norovirus also needs attention"
+        },
+        {
+          "kind": "text",
+          "text": "Visits for sore throat, cough and runny nose are also high in Miyazaki City (40.67 per sentinel site), and a case of serious pneumococcal infection was reported from the city."
+        },
+        {
+          "kind": "text",
+          "text": "### What you can do at home"
+        },
+        {
+          "kind": "text",
+          "text": "- **Vaccination**: if you haven't had a flu shot yet, please consider it soon. If you have exams or other big days coming up, see \"[When is the best time to get a flu shot?](/blog/flu-vaccine-timing)\"\n- **Ventilation and humidity**: even when it's cold, open a window a little a few times an hour, and keep indoor humidity around 50–60%\n- **Hand washing**: with soap, when you come home and before meals\n- **Rest when you're unwell**: with a fever, don't push yourself to go to school or work"
+        },
+        {
+          "kind": "text",
+          "text": "### See a doctor promptly if"
+        },
+        {
+          "kind": "text",
+          "text": "- There is difficulty breathing, or the person is limp and slow to respond\n- They can't keep fluids down, or haven't urinated for half a day or more\n- A fever comes back after it had gone down\n- A young child has a seizure or says things that don't make sense"
+        },
+        {
+          "kind": "text",
+          "text": "Flu medicines are said to work best when taken soon after the fever starts. If you're worried about symptoms, please don't keep it to yourself — talk with your family doctor (or with us, once we open)."
+        }
+      ]
+    },
+    "related": [
+      {
+        "slug": "kansen-2026-11-2",
+        "ja": "宮崎市の感染症、世代ごとの「注意サイン」〜お子さんは手足口病・胃腸炎、大人は長引くせき、そしてインフルエンザに備えを〜",
+        "en": "Infections in Miyazaki City: warning signs for each generation — hand, foot and mouth disease in kids, lingering coughs in adults, and getting ready for flu"
+      },
+      {
+        "slug": "kansen-2026-11",
+        "ja": "【続報】宮崎でインフルエンザが例年の約15倍に。RSウイルスも倍増、マダニの感染症にも注意を",
+        "en": "[Update] Flu in Miyazaki is about 15 times the usual level — RSV has doubled, and watch out for tick-borne infections too"
+      },
+      {
+        "slug": "flu-vaccine-timing",
+        "ja": "インフルエンザワクチン、いつ打つのが一番いい？〜受験や大切な日から「逆算」する接種スケジュール〜",
+        "en": "When is the best time to get a flu shot? — planning backward from exams and other important days"
       }
     ]
   }
