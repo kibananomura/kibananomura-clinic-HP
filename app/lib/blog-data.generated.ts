@@ -16952,8 +16952,8 @@ export const generatedPosts: BlogPost[] = [
         "en": "Feeling heavy every morning? Pair gut-friendly foods with protein at breakfast"
       },
       {
-        "ja": "梅干し、大根おろし、すりおろしりんご——お腹の不調の「おばあちゃんの知恵」を消化器外科医が確かめました",
-        "en": "Pickled plums, grated radish, grated apple — a GI surgeon checks grandma's tummy remedies"
+        "ja": "梅干し、大根おろし、すりおろしりんご——お腹の不調の「おばあちゃんの知恵」を医師が確かめました",
+        "en": "Pickled plums, grated radish, grated apple — a doctor checks grandma's tummy remedies"
       }
     ]
   },
@@ -17197,8 +17197,8 @@ export const generatedPosts: BlogPost[] = [
         "en": "More tired since it got cold? Water and protein for winter fatigue — easy fixes, even from the convenience store"
       },
       {
-        "ja": "梅干し、大根おろし、すりおろしりんご——お腹の不調の「おばあちゃんの知恵」を消化器外科医が確かめました",
-        "en": "Pickled plums, grated radish, grated apple — a GI surgeon checks grandma's tummy remedies"
+        "ja": "梅干し、大根おろし、すりおろしりんご——お腹の不調の「おばあちゃんの知恵」を医師が確かめました",
+        "en": "Pickled plums, grated radish, grated apple — a doctor checks grandma's tummy remedies"
       }
     ]
   }

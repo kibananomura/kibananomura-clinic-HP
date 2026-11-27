@@ -5,14 +5,14 @@ category_ja: 健康・予防の話
 category_en: Health and prevention
 subcategory_ja: 胃腸・消化器
 subcategory_en: Stomach & digestion
-title_ja: "梅干し、大根おろし、すりおろしりんご——お腹の不調の「おばあちゃんの知恵」を消化器外科医が確かめました"
-title_en: "Pickled plums, grated radish, grated apple — a GI surgeon checks grandma's tummy remedies"
+title_ja: "梅干し、大根おろし、すりおろしりんご——お腹の不調の「おばあちゃんの知恵」を医師が確かめました"
+title_en: "Pickled plums, grated radish, grated apple — a doctor checks grandma's tummy remedies"
 excerpt_ja: "「胃もたれには冷やご飯」は、実は逆かもしれません。お腹の知恵の、すごいところと気をつけたいところ。"
 excerpt_en: "\"Cold rice for an upset stomach\" may actually be the other way round. What grandma's tummy remedies got right — and what to watch."
 seo_title_ja: "お腹の不調の民間療法を医師が検証｜梅干し・大根おろし・冷やご飯・干し柿・りんご・重湯"
-seo_description_ja: "梅干しや梅しょう番茶、大根おろし、冷やご飯、干し柿・焼きりんご、すりおろしりんご、重湯・くず湯。お腹が弱ったときのおばあちゃんの知恵の理にかなった点と、塩分や冷やご飯の消化など気をつけたい点を消化器外科医が解説します。"
-seo_title_en: "Japanese folk remedies for an upset stomach, checked by a GI surgeon"
-seo_description_en: "Pickled plums, grated daikon radish, cold rice, dried persimmons, baked and grated apple, and rice gruel: a gastrointestinal surgeon explains what makes sense and what to watch, from salt content to how cold rice is digested."
+seo_description_ja: "梅干しや梅しょう番茶、大根おろし、冷やご飯、干し柿・焼きりんご、すりおろしりんご、重湯・くず湯。お腹が弱ったときのおばあちゃんの知恵の理にかなった点と、塩分や冷やご飯の消化など気をつけたい点を医師が解説します。"
+seo_title_en: "Japanese folk remedies for an upset stomach, checked by a doctor"
+seo_description_en: "Pickled plums, grated daikon radish, cold rice, dried persimmons, baked and grated apple, and rice gruel: a doctor explains what makes sense and what to watch, from salt content to how cold rice is digested."
 related: [shukuben, fuyu-shokuchudoku, obaachan-chie-kaze]
 sources:
   - label: "文部科学省「日本食品標準成分表（八訂）増補2023年」"
