@@ -9,14 +9,16 @@ title_ja: 1日一食しか食べてないのに痩せないあなたへ
 title_en: To everyone who eats only one meal a day and still can't lose weight
 excerpt_ja: 「1日1食しか食べていないのに、体重計の数字がびくともしない」——その原因は意志の弱さではなく、体が切り替えた「省エネモード」かもしれません。
 seo_title_ja: 1日1食なのに痩せないのはなぜ？ 体の「省エネモード」と、医師がすすめる食べ方4つ
-seo_description_ja: 1日1食しか食べていないのに痩せない原因は、意志の弱さではなく、体が切り替えた「省エネモード」かもしれません。筋肉が落ちて脂肪をため込みやすくなる仕組みと、2〜3食に分ける・タンパク質をとるなど、今日からできる4つの工夫を医師が解説します。
+seo_description_ja: 1日1食しか食べていないのに痩せない原因は、意志の弱さではなく、体が切り替えた「省エネモード」かもしれません。筋肉が落ちて脂肪をため込みやすくなる仕組みと、夜だけの1食がさらに不利になりやすい理由と、2〜3食に分ける・タンパク質をとるなど、今日からできる4つの工夫を医師が解説します。
 seo_title_en: Eating one meal a day but not losing weight? Your body's energy-saving mode, and 4 ways to eat instead
 seo_description_en: If you eat only one meal a day and still can't lose weight, the cause may be your body's energy-saving mode, not weak willpower. A doctor explains why muscle drops and fat builds up, and four things you can start today.
-updated: 2026.11.21
+updated: 2026.11.27
 excerpt_en: “I only eat one meal a day, and the scale won't budge” — the cause may not be weak willpower, but the “energy-saving mode” your body has switched into.
 sources:
   - label: "厚生労働省「日本人の食事摂取基準（2025年版）」"
     url: "https://www.mhlw.go.jp/stf/newpage_44138.html"
+  - label: "Jakubowicz D, et al. High caloric intake at breakfast vs. dinner differentially influences weight loss of overweight and obese women. Obesity. 2013"
+    url: "https://doi.org/10.1002/oby.20460"
 ---
 
 ## ja
@@ -29,6 +31,7 @@ sources:
 
 - インスリンは「ため込むホルモン」
 - 1食にまとめると、さらに不利に
+- 夜だけの1食は、さらに不利になりやすい
 - 1. 極端な絶食をやめ、2〜3食に分ける
 - 2. 毎食、タンパク質を「手のひら1枚分」
 - 3. 野菜から、よくかんで
@@ -69,6 +72,16 @@ sources:
 
 1日1食の食事は、空腹のあまり早食いになり、ご飯や麺などの糖質中心になりがちです。つまり、**せっかく食べているのに、食事で燃やせるはずのエネルギーを取りこぼしている**状態です。回数そのものよりも、「何を・どう食べるか」で差が出るところです。
 
+## 夜だけの1食は、さらに不利になりやすい
+
+1日1食の方の多くは、朝と昼をぬいて「夜だけ」食べています。実は、**同じ量を食べるなら、夜に多く食べるほど不利になりやすい**ことが分かってきました。
+
+- 体には1日のリズム（体内時計）があり、食べる時間によって体の反応が変わります
+- 減量中の女性を、1日の量は同じにして「朝にしっかり・夜は少なめ」と「朝は少なめ・夜にしっかり」の2つに分けて12週間比べた研究があります。朝にしっかり食べた人たちのほうが、**体重と腹囲がより減り**、血糖値やインスリンの値もより下がりました。中性脂肪は、朝の人たちでは下がり、夜の人たちでは上がっていました
+- 夜の1食は、食べてすぐ寝ることになりやすく、とったエネルギーを日中の活動で使う時間がありません
+
+夜だけ食べている方は、いきなり3食にしなくても大丈夫です。まずは**朝か昼に、ゆで卵やヨーグルトなど小さな1食を足し、そのぶん夜の量を少し減らす**ところから始めてみてください。夕食が遅くなる日は、夕方におにぎりなどの主食を少し食べておき、夜は野菜とタンパク質を中心にする方法もあります。
+
 ## 院長からのアドバイス：今日からできること
 
 ### 1. 極端な絶食をやめ、2〜3食に分ける
@@ -105,6 +118,7 @@ Here's what I'll cover:
 
 - Insulin is the “storage hormone”
 - Putting everything into one meal makes it worse
+- Eating only at night tends to be even less favorable
 - 1. Stop extreme fasting and split your food into 2–3 meals
 - 2. A palm-sized portion of protein at every meal
 - 3. Vegetables first, and chew well
@@ -144,6 +158,16 @@ In fact, **eating itself uses energy**. This is called diet-induced thermogenesi
 - Chewing well is also known to increase DIT.
 
 With one meal a day, hunger often leads to eating quickly, with a meal centred on carbohydrates such as rice or noodles. In other words, **you are eating, but missing out on energy that the meal could have burned**. What makes the difference is less the number of meals than what you eat and how you eat it.
+
+## Eating only at night tends to be even less favorable
+
+Most people who eat one meal a day skip breakfast and lunch and eat only in the evening. In fact, it is becoming clear that **for the same amount of food, the more you eat at night, the less favorable it tends to be.**
+
+- Your body has a daily rhythm (a body clock), and how it responds to food changes with the time of day
+- One study divided women who were losing weight into two groups eating the same daily amount — "big breakfast, small dinner" and "small breakfast, big dinner" — and compared them for 12 weeks. Those who ate more at breakfast **lost more weight and more waist circumference,** and their blood sugar and insulin levels fell further. Triglycerides went down in the breakfast group but went up in the dinner group
+- A single evening meal often means going to bed soon after eating, leaving no time to use that energy in daytime activity
+
+If you eat only at night, you don't need to jump straight to three meals. Start by **adding a small meal in the morning or at lunch — a boiled egg or yogurt, for example — and eating a little less at night.** On days when dinner is late, another option is to eat a little rice or bread, such as a rice ball, in the early evening, and keep the late meal centred on vegetables and protein.
 
 ## Advice from the director: what you can do from today
 

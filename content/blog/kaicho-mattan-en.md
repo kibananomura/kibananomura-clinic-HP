@@ -9,19 +9,21 @@ title_ja: 右下腹部が痛い、もしかして盲腸？——実は多い「�
 title_en: Pain in your lower right belly — is it appendicitis? Meet the often-overlooked “terminal ileitis”
 excerpt_ja: 「盲腸だと思って来たんです」——そう心配して受診され、検査の結果「回腸末端炎」だった、という方は少なくありません。聞き慣れない病名に不安になった方へ。
 seo_title_ja: 回腸末端炎の原因と症状｜盲腸（虫垂炎）との違いを消化器外科医が解説
-seo_description_ja: 回腸末端とは、小腸の最後の部分で、大腸につながる手前の場所です。回腸末端炎（かいちょうまったんえん・小腸末端の炎症）の主な原因3つと、右下腹部の痛み・下痢などの症状を、消化器外科医が解説します。多くは細菌などによる一時的なもので、自然に、またはお薬で良くなります。盲腸（虫垂炎）との違いと、詳しく調べたほうがよいサインも。
+seo_description_ja: 回腸末端炎（末端回腸炎とも）とは何か。回腸末端とは、小腸の最後の部分で、大腸につながる手前の場所です。回腸末端炎（かいちょうまったんえん・小腸末端の炎症）の主な原因3つと、右下腹部の痛み・下痢などの症状を、消化器外科医が解説します。多くは細菌などによる一時的なもので、自然に、またはお薬で良くなります。盲腸（虫垂炎）や右側の大腸憩室炎との違い、治療と回復までの目安、詳しく調べたほうがよいサインも。
 seo_title_en: "Terminal ileitis: causes, symptoms, and how it differs from appendicitis"
 seo_description_en: Terminal ileitis is inflammation at the end of the small intestine. Most cases are temporary, often from bacteria, and get better on their own or with medicine. A gastrointestinal surgeon explains how it differs from appendicitis, its three main causes, and the signs that need a closer look.
-updated: 2026.11.21
+updated: 2026.11.27
 excerpt_en: “I came in because I thought it was my appendix” — and the tests showed terminal ileitis instead. If an unfamiliar diagnosis has you worried, this is for you.
 sources:
   - label: "日本腹部救急医学会ほか「急性腹症診療ガイドライン2015」"
     url: "https://minds.jcqhc.or.jp/guidelines_kind/%E6%80%A5%E6%80%A7%E8%85%B9%E7%97%87/"
+  - label: "日本消化管学会「大腸憩室症（憩室出血・憩室炎）ガイドライン」（2017年）"
+    url: "https://minds.jcqhc.or.jp/summary/c00438/"
 ---
 
 ## ja
 
-「右のお腹の下のほうが痛くて……盲腸だと思って来たんです」。医師として外来に立つなかで、そう心配して受診され、検査の結果「盲腸ではなく、回腸末端炎（かいちょうまったんえん）でした」と分かる方は、決して少なくありません。
+「右のお腹の下のほうが痛くて……盲腸だと思って来たんです」。医師として外来に立つなかで、そう心配して受診され、検査の結果「盲腸ではなく、回腸末端炎（かいちょうまったんえん。「末端回腸炎」とも呼ばれます）でした」と分かる方は、決して少なくありません。
 
 「盲腸じゃなかったなら良かった」と思う一方で、初めて聞く病名に戸惑い、家に帰ってインターネットで調べてみたら「クローン病」「難病」といった言葉が出てきて、かえって不安になってしまった——そんなお気持ち、とてもよく分かります。
 
@@ -33,7 +35,9 @@ sources:
 - 回腸末端は、炎症を起こしやすい「腸の関所」
 - 盲腸（虫垂炎）と回腸末端炎、症状の違いは？
 - 回腸末端炎の主な原因は、大きく3つ
+- 右側の大腸憩室炎とも、見分けがつきにくいことがあります
 - 検査と診断の進め方
+- 治療と、良くなるまでの目安
 
 ### 「回腸末端」は、盲腸のすぐ隣にあります
 
@@ -83,6 +87,17 @@ sources:
 
 ネットで「クローン病」という言葉を見て不安になった方も多いと思いますが、回腸末端炎と言われた方の多くは、1や2の一時的な炎症です。ただ、**症状が長引く、何度も繰り返す、体重が減る、血便が出る**といった場合は、こうした病気が隠れていないか、詳しく調べることが大切になります。
 
+### 右側の大腸憩室炎とも、見分けがつきにくいことがあります
+
+右下腹部の痛みで、もう一つまぎらわしいのが「大腸憩室炎（だいちょうけいしつえん）」です。憩室とは、大腸の壁の一部が外側に向かって小さな袋のようにふくらんだもので、そこに炎症が起きた状態を憩室炎といいます。
+
+日本人では、憩室は右側の大腸（盲腸やそれに続く上行結腸）にできやすく、**60歳未満の憩室炎は右側に多い**と報告されています。右側の大腸は、回腸末端や虫垂のすぐそばにあるため、痛む場所がほとんど同じになります。
+
+- 憩室炎では、炎症が起きている憩室のあたりを押すと痛む、というように**痛む場所がはっきりしている**ことが多くあります
+- 回腸末端炎のような下痢が、あまり目立たないこともあります
+
+消化器外科医として診ていても、回腸末端炎と右側の憩室炎は、お腹を触る診察だけでは判断に迷うことがあります。学会のガイドラインでも、右側の憩室炎と虫垂炎の区別には、診察や血液検査だけでは足りず、**CTや超音波の検査が必要**とされています。
+
 ### 検査と診断の進め方
 
 右下腹部の痛みでは、「虫垂炎なのか、回腸末端炎なのか、それ以外なのか」を見極めることが何より重要です。当院（2027年10月開院予定）では、開院後、次のような検査を組み合わせて診断します。
@@ -96,6 +111,17 @@ sources:
 
 また、虫垂炎で手術が必要と判断される場合も、速やかに対応できる医療機関へご紹介します。
 
+### 治療と、良くなるまでの目安
+
+治療は、原因によって変わります。
+
+- **細菌などによる腸炎**：基本は、水分をしっかりとり、消化のよいものを少しずつ食べて、お腹を休めることです。多くは数日〜1、2週間で良くなります。抗菌薬（抗生物質）が必要かどうかは、症状の強さや原因の菌によって医師が判断します
+- **痛み止めなどのお薬が関わっているとき**：原因になっているお薬を見直します。ただし、自己判断でやめずに、処方した医師に相談してください
+- **クローン病などの病気が見つかったとき**：専門の医療機関で、病気と長く付き合っていくための治療を続けます
+- **右側の大腸憩室炎だったとき**：高い熱がなく、画像検査でうみのたまりや腸に穴があいた様子がなければ、抗菌薬を使いながら外来で様子を見ることが多い病気です。熱が高いときや、血液検査で炎症の数値が高いときは、入院して腸を休める治療になることが多くなります
+
+どの原因でも、**痛みがどんどん強くなる、歩くとお腹に響く、熱が高い、水分がとれない、便に血が混じる**といったときは、様子を見すぎずに、早めに医療機関を受診してください。
+
 ### 院長からのメッセージ
 
 「回腸末端炎」という聞き慣れない病名に、驚かれた方も多いと思います。けれど、きちんと検査をして原因を見極めれば、**過度に怖がる必要はありません**。多くの場合は、しばらく様子を見たり、お薬を使ったりすることで、良くなっていきます。
@@ -106,7 +132,7 @@ sources:
 
 ## en
 
-"My lower right belly hurts... I came in because I thought it was my appendix." As a doctor in outpatient clinics, I've found that quite a few people who come in worried about exactly that turn out, after testing, to have something else: not appendicitis, but terminal ileitis.
+"My lower right belly hurts... I came in because I thought it was my appendix." As a doctor in outpatient clinics, I've found that quite a few people who come in worried about exactly that turn out, after testing, to have something else: not appendicitis, but terminal ileitis (inflammation of the terminal ileum, sometimes also called "distal ileitis").
 
 Relief that it isn't appendicitis can quickly give way to confusion at an unfamiliar diagnosis. Then you search it online at home, see words like "Crohn's disease" or "intractable disease," and end up more anxious than before. That feeling is completely understandable.
 
@@ -118,7 +144,9 @@ Here's what I'll cover:
 - The terminal ileum: a "checkpoint" prone to inflammation
 - Appendicitis vs. terminal ileitis — how do the symptoms differ?
 - Three main causes of terminal ileitis
+- It can also be hard to tell apart from right-sided colonic diverticulitis
 - How it's tested and diagnosed
+- Treatment, and how long recovery takes
 
 ### The terminal ileum sits right next to the appendix
 
@@ -168,6 +196,17 @@ Less commonly, inflammatory bowel diseases such as **Crohn's disease,** or condi
 
 Many people feel anxious after seeing "Crohn's disease" online, but most people told they have terminal ileitis have the temporary kind described in 1 or 2. Still, **if symptoms drag on, keep coming back, or come with weight loss or blood in the stool,** it's important to check carefully whether one of these conditions is involved.
 
+### It can also be hard to tell apart from right-sided colonic diverticulitis
+
+Another common source of confusion with lower right belly pain is **colonic diverticulitis**. A diverticulum is a small pouch where part of the wall of the large intestine bulges outward, and diverticulitis is inflammation of one of these pouches.
+
+In Japanese people, diverticula tend to form on the right side of the large intestine (the cecum and the ascending colon that follows it), and **diverticulitis in people under 60 is reported to occur mostly on the right side.** Because the right colon sits right next to the terminal ileum and the appendix, the pain is felt in almost the same place.
+
+- With diverticulitis, the pain is often **clearly localized** — pressing over the inflamed pouch hurts
+- Diarrhea, common in terminal ileitis, may not be prominent
+
+Even as a gastrointestinal surgeon, I sometimes find it hard to decide between terminal ileitis and right-sided diverticulitis from a physical examination alone. The Japanese guideline also states that physical findings and blood tests are not enough to tell right-sided diverticulitis from appendicitis, and that **CT or ultrasound is needed.**
+
 ### How it's tested and diagnosed
 
 With lower right abdominal pain, the most important thing is to work out whether it's appendicitis, terminal ileitis, or something else. After we open (October 2027), our clinic will combine the following tests:
@@ -180,6 +219,17 @@ With lower right abdominal pain, the most important thing is to work out whether
 If the inflammation persists, or a chronic condition is suspected, a **colonoscopy** allows the terminal ileum to be examined directly, with a small tissue sample taken for testing if needed (a biopsy). When a colonoscopy is needed, we'll refer you to a partner medical institution.
 
 And if appendicitis requiring surgery is diagnosed, we'll promptly refer you to a hospital that can provide it.
+
+### Treatment, and how long recovery takes
+
+Treatment depends on the cause:
+
+- **Enteritis caused by bacteria**: The basics are drinking plenty of fluids, eating small amounts of easy-to-digest food, and resting your gut. Most cases improve within a few days to a week or two. Whether antibiotics are needed is decided by the doctor, based on how severe the symptoms are and which bacteria are involved
+- **When a medication such as a painkiller is involved**: The medication causing it is reviewed. Please don't stop it on your own — talk to the doctor who prescribed it
+- **When a condition such as Crohn's disease is found**: Ongoing treatment continues at a specialist medical institution, to manage the condition over the long term
+- **When it turns out to be right-sided diverticulitis**: If there is no high fever and imaging shows no abscess or perforation, it is often managed as an outpatient with antibiotics. With a high fever or high inflammation markers in blood tests, treatment often involves a hospital stay to rest the bowel
+
+Whatever the cause, if **the pain keeps getting worse, walking jars your belly, you have a high fever, you can't keep fluids down, or there is blood in your stool,** don't wait too long — see a medical institution promptly.
 
 ### A message from the director
 

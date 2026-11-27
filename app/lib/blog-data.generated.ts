@@ -862,18 +862,7 @@ export const generatedPosts: BlogPost[] = [
         "en": "The hardest part of a colonoscopy is the day before — What to expect from preparation to aftercare"
       },
       {
-        "slug": "hashiru-wakibara-itami",
-        "ja": "走るとお腹が痛くなるのはなぜ？〜わき腹が痛む理由と、その場ですぐできる対処法〜",
-        "en": "Why does your side hurt when you run? — what causes that stitch, and what you can do right there on the spot"
-      },
-      {
-        "slug": "senna-choukirenyou",
-        "ja": "その便秘薬、飲む量が増えていませんか？——センナを毎日続けないほうがよい理由",
-        "en": "Is your laxative dose creeping up? Why senna isn't meant for every day"
-      }
-    ],
-    "upcoming": [
-      {
+        "slug": "shukuben",
         "ja": "「宿便がたまっている」って本当？——腸の中で、実際に起きていること",
         "en": "Is \"old stool stuck in your gut\" real? What's actually happening inside your bowel"
       }
@@ -1090,10 +1079,9 @@ export const generatedPosts: BlogPost[] = [
         "slug": "daichou-polyp",
         "ja": "「大腸ポリープがあります」と言われたら〜取る？様子を見る？次の検査はいつ？〜",
         "en": "Told you have a colon polyp? — Remove it or watch it, and when's the next exam?"
-      }
-    ],
-    "upcoming": [
+      },
       {
+        "slug": "shukuben",
         "ja": "「宿便がたまっている」って本当？——腸の中で、実際に起きていること",
         "en": "Is \"old stool stuck in your gut\" real? What's actually happening inside your bowel"
       }
@@ -1283,14 +1271,14 @@ export const generatedPosts: BlogPost[] = [
         "en": "The hardest part of a colonoscopy is the day before — What to expect from preparation to aftercare"
       },
       {
+        "slug": "shukuben",
+        "ja": "「宿便がたまっている」って本当？——腸の中で、実際に起きていること",
+        "en": "Is \"old stool stuck in your gut\" real? What's actually happening inside your bowel"
+      },
+      {
         "slug": "hashiru-wakibara-itami",
         "ja": "走るとお腹が痛くなるのはなぜ？〜わき腹が痛む理由と、その場ですぐできる対処法〜",
         "en": "Why does your side hurt when you run? — what causes that stitch, and what you can do right there on the spot"
-      },
-      {
-        "slug": "senna-choukirenyou",
-        "ja": "その便秘薬、飲む量が増えていませんか？——センナを毎日続けないほうがよい理由",
-        "en": "Is your laxative dose creeping up? Why senna isn't meant for every day"
       }
     ]
   },
@@ -2100,6 +2088,11 @@ export const generatedPosts: BlogPost[] = [
     },
     "related": [
       {
+        "slug": "shukuben",
+        "ja": "「宿便がたまっている」って本当？——腸の中で、実際に起きていること",
+        "en": "Is \"old stool stuck in your gut\" real? What's actually happening inside your bowel"
+      },
+      {
         "slug": "hashiru-wakibara-itami",
         "ja": "走るとお腹が痛くなるのはなぜ？〜わき腹が痛む理由と、その場ですぐできる対処法〜",
         "en": "Why does your side hurt when you run? — what causes that stitch, and what you can do right there on the spot"
@@ -2108,11 +2101,6 @@ export const generatedPosts: BlogPost[] = [
         "slug": "senna-choukirenyou",
         "ja": "その便秘薬、飲む量が増えていませんか？——センナを毎日続けないほうがよい理由",
         "en": "Is your laxative dose creeping up? Why senna isn't meant for every day"
-      },
-      {
-        "slug": "ppi-chouki-fukuyou",
-        "ja": "胃酸を抑える薬は長期間飲み続けても大丈夫？〜胃酸の役割と正しい付き合い方〜",
-        "en": "Is it safe to keep taking acid-suppressing stomach medication long term?"
       }
     ]
   },
@@ -2411,6 +2399,11 @@ export const generatedPosts: BlogPost[] = [
     },
     "related": [
       {
+        "slug": "shukuben",
+        "ja": "「宿便がたまっている」って本当？——腸の中で、実際に起きていること",
+        "en": "Is \"old stool stuck in your gut\" real? What's actually happening inside your bowel"
+      },
+      {
         "slug": "hashiru-wakibara-itami",
         "ja": "走るとお腹が痛くなるのはなぜ？〜わき腹が痛む理由と、その場ですぐできる対処法〜",
         "en": "Why does your side hurt when you run? — what causes that stitch, and what you can do right there on the spot"
@@ -2419,18 +2412,13 @@ export const generatedPosts: BlogPost[] = [
         "slug": "senna-choukirenyou",
         "ja": "その便秘薬、飲む量が増えていませんか？——センナを毎日続けないほうがよい理由",
         "en": "Is your laxative dose creeping up? Why senna isn't meant for every day"
-      },
-      {
-        "slug": "ppi-chouki-fukuyou",
-        "ja": "胃酸を抑える薬は長期間飲み続けても大丈夫？〜胃酸の役割と正しい付き合い方〜",
-        "en": "Is it safe to keep taking acid-suppressing stomach medication long term?"
       }
     ]
   },
   {
     "slug": "kaicho-mattan-en",
     "date": "2026.10.01",
-    "updated": "2026.11.21",
+    "updated": "2026.11.27",
     "cover": "/blog/kaicho-mattan-en.jpg",
     "coverVersion": "981d4a95",
     "coverWidth": 1600,
@@ -2439,6 +2427,10 @@ export const generatedPosts: BlogPost[] = [
       {
         "label": "日本腹部救急医学会ほか「急性腹症診療ガイドライン2015」",
         "url": "https://minds.jcqhc.or.jp/guidelines_kind/%E6%80%A5%E6%80%A7%E8%85%B9%E7%97%87/"
+      },
+      {
+        "label": "日本消化管学会「大腸憩室症（憩室出血・憩室炎）ガイドライン」（2017年）",
+        "url": "https://minds.jcqhc.or.jp/summary/c00438/"
       }
     ],
     "ja": {
@@ -2447,11 +2439,11 @@ export const generatedPosts: BlogPost[] = [
       "title": "右下腹部が痛い、もしかして盲腸？——実は多い「回腸末端炎（小腸の出口の炎症）」のこと",
       "excerpt": "「盲腸だと思って来たんです」——そう心配して受診され、検査の結果「回腸末端炎」だった、という方は少なくありません。聞き慣れない病名に不安になった方へ。",
       "seoTitle": "回腸末端炎の原因と症状｜盲腸（虫垂炎）との違いを消化器外科医が解説",
-      "seoDescription": "回腸末端とは、小腸の最後の部分で、大腸につながる手前の場所です。回腸末端炎（かいちょうまったんえん・小腸末端の炎症）の主な原因3つと、右下腹部の痛み・下痢などの症状を、消化器外科医が解説します。多くは細菌などによる一時的なもので、自然に、またはお薬で良くなります。盲腸（虫垂炎）との違いと、詳しく調べたほうがよいサインも。",
+      "seoDescription": "回腸末端炎（末端回腸炎とも）とは何か。回腸末端とは、小腸の最後の部分で、大腸につながる手前の場所です。回腸末端炎（かいちょうまったんえん・小腸末端の炎症）の主な原因3つと、右下腹部の痛み・下痢などの症状を、消化器外科医が解説します。多くは細菌などによる一時的なもので、自然に、またはお薬で良くなります。盲腸（虫垂炎）や右側の大腸憩室炎との違い、治療と回復までの目安、詳しく調べたほうがよいサインも。",
       "body": [
         {
           "kind": "text",
-          "text": "「右のお腹の下のほうが痛くて……盲腸だと思って来たんです」。医師として外来に立つなかで、そう心配して受診され、検査の結果「盲腸ではなく、回腸末端炎（かいちょうまったんえん）でした」と分かる方は、決して少なくありません。"
+          "text": "「右のお腹の下のほうが痛くて……盲腸だと思って来たんです」。医師として外来に立つなかで、そう心配して受診され、検査の結果「盲腸ではなく、回腸末端炎（かいちょうまったんえん。「末端回腸炎」とも呼ばれます）でした」と分かる方は、決して少なくありません。"
         },
         {
           "kind": "text",
@@ -2467,7 +2459,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "- 「回腸末端」は、盲腸のすぐ隣にあります\n- 回腸末端は、炎症を起こしやすい「腸の関所」\n- 盲腸（虫垂炎）と回腸末端炎、症状の違いは？\n- 回腸末端炎の主な原因は、大きく3つ\n- 検査と診断の進め方"
+          "text": "- 「回腸末端」は、盲腸のすぐ隣にあります\n- 回腸末端は、炎症を起こしやすい「腸の関所」\n- 盲腸（虫垂炎）と回腸末端炎、症状の違いは？\n- 回腸末端炎の主な原因は、大きく3つ\n- 右側の大腸憩室炎とも、見分けがつきにくいことがあります\n- 検査と診断の進め方\n- 治療と、良くなるまでの目安"
         },
         {
           "kind": "text",
@@ -2563,6 +2555,26 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
+          "text": "### 右側の大腸憩室炎とも、見分けがつきにくいことがあります"
+        },
+        {
+          "kind": "text",
+          "text": "右下腹部の痛みで、もう一つまぎらわしいのが「大腸憩室炎（だいちょうけいしつえん）」です。憩室とは、大腸の壁の一部が外側に向かって小さな袋のようにふくらんだもので、そこに炎症が起きた状態を憩室炎といいます。"
+        },
+        {
+          "kind": "text",
+          "text": "日本人では、憩室は右側の大腸（盲腸やそれに続く上行結腸）にできやすく、**60歳未満の憩室炎は右側に多い**と報告されています。右側の大腸は、回腸末端や虫垂のすぐそばにあるため、痛む場所がほとんど同じになります。"
+        },
+        {
+          "kind": "text",
+          "text": "- 憩室炎では、炎症が起きている憩室のあたりを押すと痛む、というように**痛む場所がはっきりしている**ことが多くあります\n- 回腸末端炎のような下痢が、あまり目立たないこともあります"
+        },
+        {
+          "kind": "text",
+          "text": "消化器外科医として診ていても、回腸末端炎と右側の憩室炎は、お腹を触る診察だけでは判断に迷うことがあります。学会のガイドラインでも、右側の憩室炎と虫垂炎の区別には、診察や血液検査だけでは足りず、**CTや超音波の検査が必要**とされています。"
+        },
+        {
+          "kind": "text",
           "text": "### 検査と診断の進め方"
         },
         {
@@ -2580,6 +2592,22 @@ export const generatedPosts: BlogPost[] = [
         {
           "kind": "text",
           "text": "また、虫垂炎で手術が必要と判断される場合も、速やかに対応できる医療機関へご紹介します。"
+        },
+        {
+          "kind": "text",
+          "text": "### 治療と、良くなるまでの目安"
+        },
+        {
+          "kind": "text",
+          "text": "治療は、原因によって変わります。"
+        },
+        {
+          "kind": "text",
+          "text": "- **細菌などによる腸炎**：基本は、水分をしっかりとり、消化のよいものを少しずつ食べて、お腹を休めることです。多くは数日〜1、2週間で良くなります。抗菌薬（抗生物質）が必要かどうかは、症状の強さや原因の菌によって医師が判断します\n- **痛み止めなどのお薬が関わっているとき**：原因になっているお薬を見直します。ただし、自己判断でやめずに、処方した医師に相談してください\n- **クローン病などの病気が見つかったとき**：専門の医療機関で、病気と長く付き合っていくための治療を続けます\n- **右側の大腸憩室炎だったとき**：高い熱がなく、画像検査でうみのたまりや腸に穴があいた様子がなければ、抗菌薬を使いながら外来で様子を見ることが多い病気です。熱が高いときや、血液検査で炎症の数値が高いときは、入院して腸を休める治療になることが多くなります"
+        },
+        {
+          "kind": "text",
+          "text": "どの原因でも、**痛みがどんどん強くなる、歩くとお腹に響く、熱が高い、水分がとれない、便に血が混じる**といったときは、様子を見すぎずに、早めに医療機関を受診してください。"
         },
         {
           "kind": "text",
@@ -2609,7 +2637,7 @@ export const generatedPosts: BlogPost[] = [
       "body": [
         {
           "kind": "text",
-          "text": "\"My lower right belly hurts... I came in because I thought it was my appendix.\" As a doctor in outpatient clinics, I've found that quite a few people who come in worried about exactly that turn out, after testing, to have something else: not appendicitis, but terminal ileitis."
+          "text": "\"My lower right belly hurts... I came in because I thought it was my appendix.\" As a doctor in outpatient clinics, I've found that quite a few people who come in worried about exactly that turn out, after testing, to have something else: not appendicitis, but terminal ileitis (inflammation of the terminal ileum, sometimes also called \"distal ileitis\")."
         },
         {
           "kind": "text",
@@ -2625,7 +2653,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "- The terminal ileum sits right next to the appendix\n- The terminal ileum: a \"checkpoint\" prone to inflammation\n- Appendicitis vs. terminal ileitis — how do the symptoms differ?\n- Three main causes of terminal ileitis\n- How it's tested and diagnosed"
+          "text": "- The terminal ileum sits right next to the appendix\n- The terminal ileum: a \"checkpoint\" prone to inflammation\n- Appendicitis vs. terminal ileitis — how do the symptoms differ?\n- Three main causes of terminal ileitis\n- It can also be hard to tell apart from right-sided colonic diverticulitis\n- How it's tested and diagnosed\n- Treatment, and how long recovery takes"
         },
         {
           "kind": "text",
@@ -2721,6 +2749,26 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
+          "text": "### It can also be hard to tell apart from right-sided colonic diverticulitis"
+        },
+        {
+          "kind": "text",
+          "text": "Another common source of confusion with lower right belly pain is **colonic diverticulitis**. A diverticulum is a small pouch where part of the wall of the large intestine bulges outward, and diverticulitis is inflammation of one of these pouches."
+        },
+        {
+          "kind": "text",
+          "text": "In Japanese people, diverticula tend to form on the right side of the large intestine (the cecum and the ascending colon that follows it), and **diverticulitis in people under 60 is reported to occur mostly on the right side.** Because the right colon sits right next to the terminal ileum and the appendix, the pain is felt in almost the same place."
+        },
+        {
+          "kind": "text",
+          "text": "- With diverticulitis, the pain is often **clearly localized** — pressing over the inflamed pouch hurts\n- Diarrhea, common in terminal ileitis, may not be prominent"
+        },
+        {
+          "kind": "text",
+          "text": "Even as a gastrointestinal surgeon, I sometimes find it hard to decide between terminal ileitis and right-sided diverticulitis from a physical examination alone. The Japanese guideline also states that physical findings and blood tests are not enough to tell right-sided diverticulitis from appendicitis, and that **CT or ultrasound is needed.**"
+        },
+        {
+          "kind": "text",
           "text": "### How it's tested and diagnosed"
         },
         {
@@ -2738,6 +2786,22 @@ export const generatedPosts: BlogPost[] = [
         {
           "kind": "text",
           "text": "And if appendicitis requiring surgery is diagnosed, we'll promptly refer you to a hospital that can provide it."
+        },
+        {
+          "kind": "text",
+          "text": "### Treatment, and how long recovery takes"
+        },
+        {
+          "kind": "text",
+          "text": "Treatment depends on the cause:"
+        },
+        {
+          "kind": "text",
+          "text": "- **Enteritis caused by bacteria**: The basics are drinking plenty of fluids, eating small amounts of easy-to-digest food, and resting your gut. Most cases improve within a few days to a week or two. Whether antibiotics are needed is decided by the doctor, based on how severe the symptoms are and which bacteria are involved\n- **When a medication such as a painkiller is involved**: The medication causing it is reviewed. Please don't stop it on your own — talk to the doctor who prescribed it\n- **When a condition such as Crohn's disease is found**: Ongoing treatment continues at a specialist medical institution, to manage the condition over the long term\n- **When it turns out to be right-sided diverticulitis**: If there is no high fever and imaging shows no abscess or perforation, it is often managed as an outpatient with antibiotics. With a high fever or high inflammation markers in blood tests, treatment often involves a hospital stay to rest the bowel"
+        },
+        {
+          "kind": "text",
+          "text": "Whatever the cause, if **the pain keeps getting worse, walking jars your belly, you have a high fever, you can't keep fluids down, or there is blood in your stool,** don't wait too long — see a medical institution promptly."
         },
         {
           "kind": "text",
@@ -2764,14 +2828,14 @@ export const generatedPosts: BlogPost[] = [
         "en": "Why does your side hurt when you run? — what causes that stitch, and what you can do right there on the spot"
       },
       {
+        "slug": "shukuben",
+        "ja": "「宿便がたまっている」って本当？——腸の中で、実際に起きていること",
+        "en": "Is \"old stool stuck in your gut\" real? What's actually happening inside your bowel"
+      },
+      {
         "slug": "senna-choukirenyou",
         "ja": "その便秘薬、飲む量が増えていませんか？——センナを毎日続けないほうがよい理由",
         "en": "Is your laxative dose creeping up? Why senna isn't meant for every day"
-      },
-      {
-        "slug": "ppi-chouki-fukuyou",
-        "ja": "胃酸を抑える薬は長期間飲み続けても大丈夫？〜胃酸の役割と正しい付き合い方〜",
-        "en": "Is it safe to keep taking acid-suppressing stomach medication long term?"
       }
     ]
   },
@@ -6131,6 +6195,11 @@ export const generatedPosts: BlogPost[] = [
     },
     "related": [
       {
+        "slug": "shukuben",
+        "ja": "「宿便がたまっている」って本当？——腸の中で、実際に起きていること",
+        "en": "Is \"old stool stuck in your gut\" real? What's actually happening inside your bowel"
+      },
+      {
         "slug": "hashiru-wakibara-itami",
         "ja": "走るとお腹が痛くなるのはなぜ？〜わき腹が痛む理由と、その場ですぐできる対処法〜",
         "en": "Why does your side hurt when you run? — what causes that stitch, and what you can do right there on the spot"
@@ -6139,11 +6208,6 @@ export const generatedPosts: BlogPost[] = [
         "slug": "senna-choukirenyou",
         "ja": "その便秘薬、飲む量が増えていませんか？——センナを毎日続けないほうがよい理由",
         "en": "Is your laxative dose creeping up? Why senna isn't meant for every day"
-      },
-      {
-        "slug": "kaicho-mattan-en",
-        "ja": "右下腹部が痛い、もしかして盲腸？——実は多い「回腸末端炎（小腸の出口の炎症）」のこと",
-        "en": "Pain in your lower right belly — is it appendicitis? Meet the often-overlooked “terminal ileitis”"
       }
     ]
   },
@@ -8123,7 +8187,7 @@ export const generatedPosts: BlogPost[] = [
   {
     "slug": "ichinichi-isshoku-yasenai",
     "date": "2026.10.29",
-    "updated": "2026.11.21",
+    "updated": "2026.11.27",
     "cover": "/blog/ichinichi-isshoku-yasenai.jpg",
     "coverVersion": "3f5d0429",
     "coverWidth": 1600,
@@ -8132,6 +8196,10 @@ export const generatedPosts: BlogPost[] = [
       {
         "label": "厚生労働省「日本人の食事摂取基準（2025年版）」",
         "url": "https://www.mhlw.go.jp/stf/newpage_44138.html"
+      },
+      {
+        "label": "Jakubowicz D, et al. High caloric intake at breakfast vs. dinner differentially influences weight loss of overweight and obese women. Obesity. 2013",
+        "url": "https://doi.org/10.1002/oby.20460"
       }
     ],
     "ja": {
@@ -8140,7 +8208,7 @@ export const generatedPosts: BlogPost[] = [
       "title": "1日一食しか食べてないのに痩せないあなたへ",
       "excerpt": "「1日1食しか食べていないのに、体重計の数字がびくともしない」——その原因は意志の弱さではなく、体が切り替えた「省エネモード」かもしれません。",
       "seoTitle": "1日1食なのに痩せないのはなぜ？ 体の「省エネモード」と、医師がすすめる食べ方4つ",
-      "seoDescription": "1日1食しか食べていないのに痩せない原因は、意志の弱さではなく、体が切り替えた「省エネモード」かもしれません。筋肉が落ちて脂肪をため込みやすくなる仕組みと、2〜3食に分ける・タンパク質をとるなど、今日からできる4つの工夫を医師が解説します。",
+      "seoDescription": "1日1食しか食べていないのに痩せない原因は、意志の弱さではなく、体が切り替えた「省エネモード」かもしれません。筋肉が落ちて脂肪をため込みやすくなる仕組みと、夜だけの1食がさらに不利になりやすい理由と、2〜3食に分ける・タンパク質をとるなど、今日からできる4つの工夫を医師が解説します。",
       "body": [
         {
           "kind": "text",
@@ -8156,7 +8224,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "- インスリンは「ため込むホルモン」\n- 1食にまとめると、さらに不利に\n- 1. 極端な絶食をやめ、2〜3食に分ける\n- 2. 毎食、タンパク質を「手のひら1枚分」\n- 3. 野菜から、よくかんで\n- 4. 筋肉を守る運動を少しずつ"
+          "text": "- インスリンは「ため込むホルモン」\n- 1食にまとめると、さらに不利に\n- 夜だけの1食は、さらに不利になりやすい\n- 1. 極端な絶食をやめ、2〜3食に分ける\n- 2. 毎食、タンパク質を「手のひら1枚分」\n- 3. 野菜から、よくかんで\n- 4. 筋肉を守る運動を少しずつ"
         },
         {
           "kind": "text",
@@ -8221,6 +8289,22 @@ export const generatedPosts: BlogPost[] = [
         {
           "kind": "text",
           "text": "1日1食の食事は、空腹のあまり早食いになり、ご飯や麺などの糖質中心になりがちです。つまり、**せっかく食べているのに、食事で燃やせるはずのエネルギーを取りこぼしている**状態です。回数そのものよりも、「何を・どう食べるか」で差が出るところです。"
+        },
+        {
+          "kind": "text",
+          "text": "## 夜だけの1食は、さらに不利になりやすい"
+        },
+        {
+          "kind": "text",
+          "text": "1日1食の方の多くは、朝と昼をぬいて「夜だけ」食べています。実は、**同じ量を食べるなら、夜に多く食べるほど不利になりやすい**ことが分かってきました。"
+        },
+        {
+          "kind": "text",
+          "text": "- 体には1日のリズム（体内時計）があり、食べる時間によって体の反応が変わります\n- 減量中の女性を、1日の量は同じにして「朝にしっかり・夜は少なめ」と「朝は少なめ・夜にしっかり」の2つに分けて12週間比べた研究があります。朝にしっかり食べた人たちのほうが、**体重と腹囲がより減り**、血糖値やインスリンの値もより下がりました。中性脂肪は、朝の人たちでは下がり、夜の人たちでは上がっていました\n- 夜の1食は、食べてすぐ寝ることになりやすく、とったエネルギーを日中の活動で使う時間がありません"
+        },
+        {
+          "kind": "text",
+          "text": "夜だけ食べている方は、いきなり3食にしなくても大丈夫です。まずは**朝か昼に、ゆで卵やヨーグルトなど小さな1食を足し、そのぶん夜の量を少し減らす**ところから始めてみてください。夕食が遅くなる日は、夕方におにぎりなどの主食を少し食べておき、夜は野菜とタンパク質を中心にする方法もあります。"
         },
         {
           "kind": "text",
@@ -8298,7 +8382,7 @@ export const generatedPosts: BlogPost[] = [
         },
         {
           "kind": "text",
-          "text": "- Insulin is the “storage hormone”\n- Putting everything into one meal makes it worse\n- 1. Stop extreme fasting and split your food into 2–3 meals\n- 2. A palm-sized portion of protein at every meal\n- 3. Vegetables first, and chew well\n- 4. Build muscle-protecting exercise little by little"
+          "text": "- Insulin is the “storage hormone”\n- Putting everything into one meal makes it worse\n- Eating only at night tends to be even less favorable\n- 1. Stop extreme fasting and split your food into 2–3 meals\n- 2. A palm-sized portion of protein at every meal\n- 3. Vegetables first, and chew well\n- 4. Build muscle-protecting exercise little by little"
         },
         {
           "kind": "text",
@@ -8363,6 +8447,22 @@ export const generatedPosts: BlogPost[] = [
         {
           "kind": "text",
           "text": "With one meal a day, hunger often leads to eating quickly, with a meal centred on carbohydrates such as rice or noodles. In other words, **you are eating, but missing out on energy that the meal could have burned**. What makes the difference is less the number of meals than what you eat and how you eat it."
+        },
+        {
+          "kind": "text",
+          "text": "## Eating only at night tends to be even less favorable"
+        },
+        {
+          "kind": "text",
+          "text": "Most people who eat one meal a day skip breakfast and lunch and eat only in the evening. In fact, it is becoming clear that **for the same amount of food, the more you eat at night, the less favorable it tends to be.**"
+        },
+        {
+          "kind": "text",
+          "text": "- Your body has a daily rhythm (a body clock), and how it responds to food changes with the time of day\n- One study divided women who were losing weight into two groups eating the same daily amount — \"big breakfast, small dinner\" and \"small breakfast, big dinner\" — and compared them for 12 weeks. Those who ate more at breakfast **lost more weight and more waist circumference,** and their blood sugar and insulin levels fell further. Triglycerides went down in the breakfast group but went up in the dinner group\n- A single evening meal often means going to bed soon after eating, leaving no time to use that energy in daytime activity"
+        },
+        {
+          "kind": "text",
+          "text": "If you eat only at night, you don't need to jump straight to three meals. Start by **adding a small meal in the morning or at lunch — a boiled egg or yogurt, for example — and eating a little less at night.** On days when dinner is late, another option is to eat a little rice or bread, such as a rice ball, in the early evening, and keep the late meal centred on vegetables and protein."
         },
         {
           "kind": "text",
@@ -9377,6 +9477,11 @@ export const generatedPosts: BlogPost[] = [
     },
     "related": [
       {
+        "slug": "shukuben",
+        "ja": "「宿便がたまっている」って本当？——腸の中で、実際に起きていること",
+        "en": "Is \"old stool stuck in your gut\" real? What's actually happening inside your bowel"
+      },
+      {
         "slug": "hashiru-wakibara-itami",
         "ja": "走るとお腹が痛くなるのはなぜ？〜わき腹が痛む理由と、その場ですぐできる対処法〜",
         "en": "Why does your side hurt when you run? — what causes that stitch, and what you can do right there on the spot"
@@ -9385,18 +9490,9 @@ export const generatedPosts: BlogPost[] = [
         "slug": "ppi-chouki-fukuyou",
         "ja": "胃酸を抑える薬は長期間飲み続けても大丈夫？〜胃酸の役割と正しい付き合い方〜",
         "en": "Is it safe to keep taking acid-suppressing stomach medication long term?"
-      },
-      {
-        "slug": "kaicho-mattan-en",
-        "ja": "右下腹部が痛い、もしかして盲腸？——実は多い「回腸末端炎（小腸の出口の炎症）」のこと",
-        "en": "Pain in your lower right belly — is it appendicitis? Meet the often-overlooked “terminal ileitis”"
       }
     ],
     "upcoming": [
-      {
-        "ja": "「宿便がたまっている」って本当？——腸の中で、実際に起きていること",
-        "en": "Is \"old stool stuck in your gut\" real? What's actually happening inside your bowel"
-      },
       {
         "ja": "「貼り薬だから安心」は本当？——湿布で胃が悪くなる理由と、正しい使い方",
         "en": "Is a pain patch always safe? Why patches can upset your stomach, and how to use them properly"
@@ -16588,6 +16684,259 @@ export const generatedPosts: BlogPost[] = [
         "slug": "tumor-marker-checkup",
         "ja": "健診のオプションで「腫瘍マーカー」が高かった方へ",
         "en": "If your optional tumor marker test came back high"
+      }
+    ]
+  },
+  {
+    "slug": "shukuben",
+    "date": "2026.11.26",
+    "cover": "/blog/shukuben.jpg",
+    "coverVersion": "62229056",
+    "coverWidth": 1600,
+    "coverHeight": 900,
+    "sources": [
+      {
+        "label": "日本消化管学会「便通異常症診療ガイドライン2023－慢性便秘症」（Minds）",
+        "url": "https://minds.jcqhc.or.jp/summary/c00812/"
+      },
+      {
+        "label": "Mishori R, et al. The dangers of colon cleansing. J Fam Pract. 2011",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/21814639/"
+      }
+    ],
+    "ja": {
+      "category": "健康・予防の話",
+      "subcategory": "胃腸・消化器",
+      "title": "「宿便がたまっている」って本当？——腸の中で、実際に起きていること",
+      "excerpt": "「お腹に何年分もの宿便が…」。その話、実は医学の言葉ではありません。",
+      "seoTitle": "宿便とは？ 本当にたまるのか、センナ茶や腸内洗浄で出すべきかを消化器外科医が解説",
+      "seoDescription": "「宿便を出すとやせる」「腸に古い便がこびりついている」は本当でしょうか。宿便は医学の言葉ではありません。腸の壁が生まれ変わるしくみ、センナ茶や腸内洗浄で出し切ろうとしたときの体への負担、本当に気をつけたい便の変化を、消化器外科医が解説します。",
+      "body": [
+        {
+          "kind": "text",
+          "text": "「お腹に何年分もの宿便がたまっていて、それを出せば体が軽くなる」「宿便が出たら、体重が2キロ減った」。テレビや広告、知り合いの話で、こうした言葉を聞いたことがある方も多いと思います。ぽっこりしたお腹を見て、「私にもたまっているのかな」と気になりますよね。"
+        },
+        {
+          "kind": "text",
+          "text": "先にお答えすると、**「宿便」は医学の言葉ではありません。腸の壁に古い便が何年もこびりついてたまる、ということは、ふつうは起きません。**"
+        },
+        {
+          "kind": "text",
+          "text": "### 腸の壁は、数日ごとに生まれ変わっている"
+        },
+        {
+          "kind": "text",
+          "text": "大腸の内側をおおっている粘膜は、表面の細胞が数日ごとに入れ替わっています。古い細胞ははがれ落ち、便と一緒に出ていきます。壁そのものが入れ替わり続けているので、そこに便が何年も張りついたままになるしくみがありません。"
+        },
+        {
+          "kind": "text",
+          "text": "大腸カメラ（大腸の内視鏡検査）の写真を見ると、準備の下剤で中をきれいにした大腸の内側は、つるつるしたピンク色です。消化器外科の手術でも、腸の壁に古い便の層がこびりついている、ということはありません。"
+        },
+        {
+          "kind": "text",
+          "text": "### 「出したあとのすっきり」の正体"
+        },
+        {
+          "kind": "text",
+          "text": "それでも、下剤やセンナ茶を飲んだあとに、たくさん出て体重が減ることはあります。これは、**本来なら翌日以降に出るはずだった便と、腸の中の水分が、早めに出ただけ**です。脂肪が減ったわけではないので、食事を戻せば体重も戻ります。"
+        },
+        {
+          "kind": "text",
+          "text": "### お腹のぽっこりは、便のせいとは限らない"
+        },
+        {
+          "kind": "text",
+          "text": "「下腹がぽっこりしているのは、宿便のせい」と思われがちですが、お腹のふくらみには、いくつもの理由があります。"
+        },
+        {
+          "kind": "text",
+          "text": "- 腸の中のガス（早食いや炭酸飲料、便秘で増えます）\n- 内臓のまわりについた脂肪\n- お腹の筋肉がゆるんだり、姿勢がくずれたりして、内臓が前に出てくること"
+        },
+        {
+          "kind": "text",
+          "text": "便を出し切っても、ぽっこりが変わらないことが多いのはこのためです。お腹まわりが気になるときは、下剤よりも、ゆっくり食べること、体を動かすことのほうが近道です。"
+        },
+        {
+          "kind": "text",
+          "text": "### 毎日出なくても、困っていなければ大丈夫"
+        },
+        {
+          "kind": "text",
+          "text": "便の回数には個人差があり、毎日出なくても、すっきり出せていて困っていなければ、心配はいりません。便秘で困るのは、回数よりも「出しにくい」「出し切れない」「お腹が張って苦しい」といった状態が続くときです。「毎日出さなければ、宿便になる」と焦る必要はありません。"
+        },
+        {
+          "kind": "text",
+          "text": "### 出し切ろうとすると、体に起きること"
+        },
+        {
+          "kind": "text",
+          "text": "「宿便を出す」ためにセンナ茶を毎日飲んだり、腸内洗浄をくり返したりすると、かえって体に負担がかかります。"
+        },
+        {
+          "kind": "text",
+          "text": "- センナのような刺激の強い下剤は、毎日続けると効きにくくなり、量が増えていきがちです（くわしくは「[その便秘薬、飲む量が増えていませんか？](/blog/senna-choukirenyou)」）\n- 腸内洗浄（お尻から水を入れて腸を洗う方法）は、効果が確かめられていない一方で、吐き気、脱水、体の塩分（電解質）の乱れ、まれに腸に穴があくといった害が報告されています\n- 出し切ることを続けると、腸が自分で動く力をつかいにくくなります"
+        },
+        {
+          "kind": "text",
+          "text": "### 本当に気にしてほしい「便のサイン」"
+        },
+        {
+          "kind": "text",
+          "text": "宿便を心配するより、気にかけていただきたいのは、次のような変化です。"
+        },
+        {
+          "kind": "text",
+          "text": "- 便に血が混じる、便が黒い\n- 便が細くなった、出し切れない感じ（残便感）が続く\n- ここ数か月で、便秘と下痢をくり返すようになった\n- 食べる量は変わらないのに、体重が減ってきた\n- 健診の便の検査で「陽性」と言われた（「[便の検査で「要精密検査」。でも「じのせいだろう」と思っていませんか？](/blog/bensenketsu-yousei)」もご覧ください）"
+        },
+        {
+          "kind": "text",
+          "text": "こうした変化は、大腸ポリープや大腸がんなどのサインのことがあります。「宿便のせい」と思って下剤で流してしまわず、一度検査を受けてください。"
+        },
+        {
+          "kind": "text",
+          "text": "### ふだんの便通を整えるには"
+        },
+        {
+          "kind": "text",
+          "text": "便通を整える基本は、地味ですが、食物繊維と水分をとること、朝食のあとにトイレの時間をとること、体を動かすことです。それでも便秘が続くときは、毎日使っても効きにくくなりにくい便秘のお薬もあります。自分で強い下剤を増やす前に、かかりつけ医などにご相談ください（開院後は当院へ）。便通の変化については「[便通が変わった](/symptoms/bowel-changes)」のページでもまとめています。"
+        },
+        {
+          "kind": "text",
+          "text": "お腹は、出し切ってすっきりさせるものではなく、毎日の流れを整えていくものです。"
+        },
+        {
+          "kind": "text",
+          "text": "※この記事は一般的な情報で、個別の診断・治療ではありません。"
+        }
+      ]
+    },
+    "en": {
+      "category": "Health and prevention",
+      "subcategory": "Stomach & digestion",
+      "title": "Is \"old stool stuck in your gut\" real? What's actually happening inside your bowel",
+      "excerpt": "\"Years of old waste stuck in your gut\" — that idea isn't actually medicine.",
+      "seoTitle": "Is \"impacted old stool\" real? A GI surgeon on detox teas, colon cleansing and the bowel changes that matter",
+      "seoDescription": "Is there really old stool stuck to your bowel walls, and does flushing it out help you lose weight? A gastrointestinal surgeon explains how the bowel lining renews itself, the risks of laxative teas and colon cleansing, and which bowel changes deserve a checkup.",
+      "body": [
+        {
+          "kind": "text",
+          "text": "\"I've got years of old waste stuck in my gut — if I flush it out, I'll feel lighter.\" \"I lost 2 kilos after a cleanse.\" You may have heard claims like these on TV, in ads, or from friends. Looking at a bloated belly, it's natural to wonder whether it's happening to you, too."
+        },
+        {
+          "kind": "text",
+          "text": "Here's the short answer: **\"impacted old stool\" (called *shukuben* in Japanese) is not a medical term. Old stool does not normally stick to the bowel wall and build up over years.**"
+        },
+        {
+          "kind": "text",
+          "text": "### The bowel lining renews itself every few days"
+        },
+        {
+          "kind": "text",
+          "text": "The lining of the large intestine replaces its surface cells every few days. Old cells shed and leave the body with stool. Because the wall itself keeps renewing, there's no way for stool to stay stuck to it for years."
+        },
+        {
+          "kind": "text",
+          "text": "In colonoscopy images, a bowel cleaned out with prep laxatives is smooth and pink inside. In bowel surgery, too, we don't find layers of old stool caked onto the wall."
+        },
+        {
+          "kind": "text",
+          "text": "### What that \"cleaned-out\" feeling really is"
+        },
+        {
+          "kind": "text",
+          "text": "You can still pass a lot of stool and lose weight after laxatives or senna tea. But that's just **stool and water that would have come out over the next day or so, leaving early.** It isn't fat loss, so the weight comes back once you eat normally."
+        },
+        {
+          "kind": "text",
+          "text": "### A rounded belly isn't always about stool"
+        },
+        {
+          "kind": "text",
+          "text": "A bulging lower belly is often blamed on old stool, but there are many reasons a belly sticks out:"
+        },
+        {
+          "kind": "text",
+          "text": "- Gas in the bowel (eating quickly, fizzy drinks and constipation all add to it)\n- Fat around the internal organs\n- Loosened abdominal muscles or poor posture letting the organs push forward"
+        },
+        {
+          "kind": "text",
+          "text": "That's why emptying your bowels often doesn't change the bulge. If your waistline bothers you, eating slowly and staying active will get you further than laxatives."
+        },
+        {
+          "kind": "text",
+          "text": "### Not going every day is fine if it doesn't bother you"
+        },
+        {
+          "kind": "text",
+          "text": "Bowel frequency varies from person to person. If you don't go every day but pass stool comfortably and aren't troubled, there's nothing to worry about. Constipation becomes a problem not because of how often you go, but when you keep finding it hard to pass stool, can't fully empty, or feel uncomfortably bloated. There's no need to rush to go daily for fear of \"old stool.\""
+        },
+        {
+          "kind": "text",
+          "text": "### What happens when you try to flush it all out"
+        },
+        {
+          "kind": "text",
+          "text": "Drinking senna tea every day or repeating colon cleansing to \"get rid of old stool\" actually puts a strain on your body."
+        },
+        {
+          "kind": "text",
+          "text": "- Strong stimulant laxatives like senna tend to work less when taken daily, so the dose creeps up (see \"[Is your laxative dose creeping up?](/blog/senna-choukirenyou)\")\n- Colon cleansing (flushing water into the bowel from below) has no proven benefit, while harms such as nausea, dehydration, salt (electrolyte) imbalances and, rarely, bowel perforation have been reported\n- Constantly emptying the bowel makes it harder for your gut to use its own natural movement"
+        },
+        {
+          "kind": "text",
+          "text": "### The bowel changes that really deserve attention"
+        },
+        {
+          "kind": "text",
+          "text": "Rather than worrying about old stool, please watch for changes like these:"
+        },
+        {
+          "kind": "text",
+          "text": "- Blood in your stool, or black stool\n- Thinner stools, or a lasting feeling that you haven't fully emptied\n- Alternating constipation and diarrhea over the past few months\n- Losing weight without eating less\n- A positive stool test at a checkup (see also \"[Your stool test came back “further testing needed” — but are you telling yourself it's just hemorrhoids?](/blog/bensenketsu-yousei)\")"
+        },
+        {
+          "kind": "text",
+          "text": "These can be signs of colon polyps or colorectal cancer. Instead of blaming \"old stool\" and flushing it away with laxatives, please get checked."
+        },
+        {
+          "kind": "text",
+          "text": "### Keeping your bowels regular"
+        },
+        {
+          "kind": "text",
+          "text": "The basics are unglamorous: fiber and fluids, time on the toilet after breakfast, and staying active. If constipation continues, there are everyday constipation medicines that are less likely to lose their effect. Before increasing strong laxatives on your own, please talk to your regular doctor (after we open, you're welcome to see us). For more, see our \"[Changes in bowel habits](/symptoms/bowel-changes)\" page."
+        },
+        {
+          "kind": "text",
+          "text": "Your gut isn't something to flush clean — it's something to keep flowing, day by day."
+        },
+        {
+          "kind": "text",
+          "text": "*This article provides general information and is not an individual diagnosis or treatment."
+        }
+      ]
+    },
+    "related": [
+      {
+        "slug": "senna-choukirenyou",
+        "ja": "その便秘薬、飲む量が増えていませんか？——センナを毎日続けないほうがよい理由",
+        "en": "Is your laxative dose creeping up? Why senna isn't meant for every day"
+      },
+      {
+        "slug": "bensenketsu-yousei",
+        "ja": "便の検査で「要精密検査」。でも「じのせいだろう」と思っていませんか？",
+        "en": "Your stool test came back \"further testing needed\" — but are you telling yourself it's just hemorrhoids?"
+      },
+      {
+        "slug": "daichou-camera-junbi",
+        "ja": "大腸カメラ、いちばん大変なのは「前の日」でした〜準備から検査後までの流れ〜",
+        "en": "The hardest part of a colonoscopy is the day before — What to expect from preparation to aftercare"
+      }
+    ],
+    "upcoming": [
+      {
+        "ja": "朝から体が重いのは、朝ごはんのせい？——「腸活」と「たんぱく質」を一緒にとる朝の習慣",
+        "en": "Feeling heavy every morning? Pair gut-friendly foods with protein at breakfast"
       }
     ]
   }
