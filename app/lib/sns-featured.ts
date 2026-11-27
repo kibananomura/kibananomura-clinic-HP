@@ -7,6 +7,7 @@
 export type SnsFeatured = { slug?: string; href?: string; ja?: string; en?: string };
 
 export const SNS_FEATURED: SnsFeatured[] = [
+  { slug: "kansen-2026-11-3" },
   { slug: "yasete-iru-noni-ldl" },
   { slug: "kansen-2026-11-2" },
   { slug: "kansen-dousen-bunri" },
