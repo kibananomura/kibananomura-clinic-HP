@@ -17223,10 +17223,10 @@ export const generatedPosts: BlogPost[] = [
   {
     "slug": "kansen-2026-11-3",
     "date": "2026.11.27",
-    "cover": "/blog/kibana-landscape.jpg",
-    "coverVersion": "951e262c",
-    "coverWidth": 1536,
-    "coverHeight": 1024,
+    "cover": "/blog/kansen-2026-11-3.jpg",
+    "coverVersion": "c94e5cc4",
+    "coverWidth": 1600,
+    "coverHeight": 900,
     "sources": [
       {
         "label": "宮崎県感染症情報センター「宮崎県感染症週報」2026年第47週（11/16〜11/22、11月26日発行）",
