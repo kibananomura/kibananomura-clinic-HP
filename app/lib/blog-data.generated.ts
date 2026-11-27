@@ -2846,6 +2846,12 @@ export const generatedPosts: BlogPost[] = [
         "ja": "その便秘薬、飲む量が増えていませんか？——センナを毎日続けないほうがよい理由",
         "en": "Is your laxative dose creeping up? Why senna isn't meant for every day"
       }
+    ],
+    "upcoming": [
+      {
+        "ja": "便が何日出なかったら危ない？——日数よりも大切な、腸閉塞のサイン",
+        "en": "How many days without a bowel movement is dangerous? The signs of bowel obstruction matter more than the count"
+      }
     ]
   },
   {
@@ -9524,6 +9530,10 @@ export const generatedPosts: BlogPost[] = [
       {
         "ja": "「貼り薬だから安心」は本当？——湿布で胃が悪くなる理由と、正しい使い方",
         "en": "Is a pain patch always safe? Why patches can upset your stomach, and how to use them properly"
+      },
+      {
+        "ja": "便が何日出なかったら危ない？——日数よりも大切な、腸閉塞のサイン",
+        "en": "How many days without a bowel movement is dangerous? The signs of bowel obstruction matter more than the count"
       }
     ]
   },
