@@ -14,5 +14,4 @@ export const SNS_FEATURED: SnsFeatured[] = [
   { slug: "flu-vaccine-timing" },
   { slug: "kizu-shoudoku" },
   { slug: "kibana-no-namae" },
-  { href: "/careers", ja: "職員募集（看護師・医療事務）", en: "Careers (nurses and medical office staff)" },
 ];

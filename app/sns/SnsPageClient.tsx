@@ -9,6 +9,11 @@ import { SNS_FEATURED } from "../lib/sns-featured";
 /** Instagram のプロフィールのリンク先。紹介した記事を新しい順に、大きな表紙つきで並べる。
  * Instagram・Facebook のアプリ内ブラウザでは、スクロールで表示するアニメーション（FadeIn）が
  * 動かず白紙に見えることがあるため、このページでは使わない（開いた瞬間に全部見える）。 */
+/** Vercel Analytics の「UTM Parameters」で、/sns からどのページに進んだかを数えるための目印。
+ * utm_content にはリンク先の名前（記事のスラッグなど）を入れる。 */
+const track = (href: string, content: string) =>
+  `${href}?utm_source=instagram&utm_medium=sns_page&utm_content=${encodeURIComponent(content)}`;
+
 export default function SnsPageClient() {
   const { lang } = useSite();
   const ja = lang === "ja";
@@ -41,11 +46,27 @@ export default function SnsPageClient() {
           </p>
         </div>
 
+        {/* Instagram から来た人がよく見ている2ページ（2026-11-27 Vercel の数字より）を、いちばん上に */}
+        <div className="mx-auto mt-6 grid max-w-3xl grid-cols-2 gap-3">
+          <Link
+            href={track("/director", "director")}
+            className="rounded-2xl bg-primary px-4 py-4 text-center text-[15px] font-bold text-white shadow-soft transition-transform hover:-translate-y-0.5"
+          >
+            {ja ? "院長の紹介" : "About the director"}
+          </Link>
+          <Link
+            href={track("/careers", "careers")}
+            className="rounded-2xl bg-accent px-4 py-4 text-center text-[15px] font-bold text-primary-dark shadow-soft transition-transform hover:-translate-y-0.5"
+          >
+            {ja ? "職員募集（看護師・医療事務）" : "Careers"}
+          </Link>
+        </div>
+
         <ul className="mx-auto mt-8 grid max-w-3xl gap-4">
           {featured.map((f, i) => (
             <li key={f.key}>
               <Link
-                href={f.href}
+                href={track(f.href, f.key.replace(/^\//, ""))}
                 className="group flex items-center gap-4 rounded-2xl bg-surface/90 p-3 shadow-card transition-all hover:-translate-y-0.5 hover:shadow-soft sm:p-4"
               >
                 {f.cover ? (
@@ -84,7 +105,7 @@ export default function SnsPageClient() {
           <ul className="mx-auto mt-3 grid max-w-3xl gap-2">
             {latest.map((p) => (
               <li key={p.slug}>
-                <Link href={`/blog/${p.slug}`} className="block rounded-xl bg-surface/80 px-4 py-3 text-sm font-bold text-ink hover:text-primary-dark">
+                <Link href={track(`/blog/${p.slug}`, p.slug)} className="block rounded-xl bg-surface/80 px-4 py-3 text-sm font-bold text-ink hover:text-primary-dark">
                   {getContent(p, lang).title}
                 </Link>
               </li>
