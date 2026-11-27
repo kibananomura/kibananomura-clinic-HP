@@ -65,7 +65,7 @@ const SEASONAL_SUBCATEGORY: Record<number, string> = {
 const PREVIEW_COUNT = 3;
 
 function sortNewestFirst(list: BlogPost[]): BlogPost[] {
-  return [...list].sort((a, b) => b.date.localeCompare(a.date));
+  return [...list].sort((a, b) => b.date.localeCompare(a.date) || (b.order ?? 0) - (a.order ?? 0));
 }
 
 // 連載のカテゴリは第1話から読めるように古い順、それ以外は新しい順。

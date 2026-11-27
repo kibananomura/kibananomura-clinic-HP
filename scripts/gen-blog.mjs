@@ -255,6 +255,7 @@ function generate() {
     return {
       slug,
       date: String(data.date),
+      ...(data.order ? { order: Number(data.order) } : {}),
       updated: data.updated ? String(data.updated) : undefined,
       cover: data.cover,
       coverPosition: data.coverPosition || undefined,
@@ -282,7 +283,8 @@ function generate() {
     };
   });
 
-  posts.sort((a, b) => a.date.localeCompare(b.date));
+  // 同じ日付の記事は frontmatter の order が大きいほど新しい扱い（一覧の上に出る）
+  posts.sort((a, b) => a.date.localeCompare(b.date) || (a.order ?? 0) - (b.order ?? 0));
   attachRelated(posts, rawLinks);
 
   const banner = `// このファイルは自動生成です。手で編集しないでください。

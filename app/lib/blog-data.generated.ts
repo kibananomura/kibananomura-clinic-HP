@@ -17223,6 +17223,7 @@ export const generatedPosts: BlogPost[] = [
   {
     "slug": "kansen-2026-11-3",
     "date": "2026.11.27",
+    "order": 1,
     "cover": "/blog/kansen-2026-11-3.jpg",
     "coverVersion": "c94e5cc4",
     "coverWidth": 1600,

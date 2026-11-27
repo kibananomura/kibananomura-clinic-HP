@@ -18,6 +18,7 @@ export type BlogContent = {
 export type BlogPost = {
   slug: string;
   date: string; // YYYY.MM.DD
+  order?: number; // 同じ日付の中での並び（大きいほど新しい扱い）
   updated?: string; // YYYY.MM.DD 内容を見直した日（任意。構造化データの dateModified）
   cover: string;
   coverPosition?: string; // Tailwind object-position クラス（既定: object-center）
