@@ -6,7 +6,8 @@ import FadeIn from "./FadeIn";
 import { SoftBlob, LeafSprig, Blossom } from "./Decor";
 import { useSite } from "../lib/site";
 
-export default function Director() {
+/** withPortrait=false：院長紹介ページ（/director）用。ページ上部に写真があるので、ここでは写真を出さない */
+export default function Director({ withPortrait = true }: { withPortrait?: boolean } = {}) {
   const { t } = useSite();
 
   return (
@@ -16,8 +17,9 @@ export default function Director() {
       <LeafSprig className="absolute left-8 bottom-10 hidden h-24 w-16 rotate-6 opacity-40 lg:block" />
 
       <div className="container-page relative">
-        <div className="grid items-start gap-10 lg:grid-cols-[5fr_6fr] lg:gap-16">
+        <div className={withPortrait ? "grid items-start gap-10 lg:grid-cols-[5fr_6fr] lg:gap-16" : "mx-auto max-w-3xl"}>
           {/* 写真の列を右の文章と同じ高さまで伸ばし、その中で写真がついてくる（下に大きな空白を作らない） */}
+          {withPortrait && (
           <FadeIn className="lg:self-stretch">
             <div className="relative mx-auto w-full max-w-md lg:sticky lg:top-36 lg:max-w-none">
               <Blossom className="absolute -left-3 -top-3 z-10 h-12 w-12 opacity-90" />
@@ -32,6 +34,8 @@ export default function Director() {
               </div>
             </div>
           </FadeIn>
+
+          )}
 
           <FadeIn delay={0.15}>
             <span className="eyebrow">{t.director.eyebrow}</span>
@@ -78,6 +82,8 @@ export default function Director() {
               </span>
             </p>
 
+            {/* 院長紹介ページでは、名前・資格・経歴を上と下に出しているので、このカードは出さない */}
+            {withPortrait && (
             <div className="mt-8 rounded-3xl bg-surface/90 p-5 shadow-card sm:p-6">
               <h3 className="text-sm font-bold text-primary-dark">{t.director.profileHeading}</h3>
               <p className="mt-2 text-lg font-bold text-ink">
@@ -103,6 +109,7 @@ export default function Director() {
                 <span aria-hidden="true">→</span>
               </Link>
             </div>
+            )}
           </FadeIn>
         </div>
       </div>

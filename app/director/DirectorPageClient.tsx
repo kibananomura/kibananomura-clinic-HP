@@ -9,7 +9,7 @@ import { useSite } from "../lib/site";
 
 /**
  * 院長紹介（/director）。見出しに「院長 野村 信介」を漢字で出し、検索で院長の名前から見つけてもらう。
- * 経歴・資格・院長ブログへのリンクのあとに、トップと同じ「院長あいさつ」を置く。
+ * 写真・名前・資格 → 院長あいさつ（写真なし）→ 経歴 → 院長の思いを読む、の順。写真は1回だけ。
  */
 export default function DirectorPageClient() {
   const { t } = useSite();
@@ -44,6 +44,12 @@ export default function DirectorPageClient() {
             </FadeIn>
           </div>
 
+        </div>
+      </section>
+      {/* 写真はページ上部に1回だけ。あいさつは写真なしで続ける */}
+      <Director withPortrait={false} />
+      <section className="section-pad relative overflow-hidden bg-cream pt-0">
+        <div className="container-page relative">
           <FadeIn delay={0.08}>
             <div className="mx-auto mt-12 max-w-3xl rounded-3xl bg-surface/90 p-6 shadow-card sm:p-8">
               <h2 className="text-lg font-bold text-primary-dark">{p.careerHeading}</h2>
@@ -91,7 +97,6 @@ export default function DirectorPageClient() {
 
         </div>
       </section>
-      <Director />
     </>
   );
 }
