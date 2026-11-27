@@ -155,29 +155,29 @@ export const DISEASES: DiseaseEntry[] = [
     category: "surgical",
     summary: "多くは胆石が原因となって胆のうに炎症が起こる病気で、進行すると緊急手術が必要になることがあります。",
     pathology:
-      "胆のうの出口を胆石がふさぐ等の原因で、胆のう内に炎症が起こった状態です。__持続する右上腹部〜みぞおちの痛みに加え、発熱を伴う__ことが特徴で、胆石による疝痛発作が治まらず悪化した状態と考えると分かりやすいです。進行すると__胆のうが壊死したり、周囲に膿が広がったりする__重篤な状態（重症胆嚢炎）に至ることがあります。",
+      "胆のうの出口を胆石がふさぐ等の原因で、胆のう内に炎症が起こった状態です。__持続する右上腹部〜みぞおちの痛みに加え、発熱を伴う__ことが特徴で、胆石による疝痛発作が治まらず悪化した状態と考えると分かりやすいです。進行すると__胆のうが壊死したり、周囲に膿が広がったりする__重篤な状態（重症胆嚢炎）に至ることがあります。__脂っこい食事のあとに痛みが始まる__ことが多く、__右の肩や背中に痛みが響く__こともあります。__皮膚や白目が黄色くなる（黄疸）、ふるえるほどの寒気と高い熱__がある場合は、胆汁の通り道に炎症が広がる「胆管炎」の可能性があり、より急いだ対応が必要です。まれに、__胆石がなくても、重い病気で入院中の方やご高齢の方に胆嚢炎が起こる__こと（無石胆嚢炎）もあります。",
     tests:
-      "__腹部エコー（胆のう壁の肥厚等を確認）__に加え、血液検査（炎症反応・肝機能）、CT検査で重症度や周囲への炎症の広がりを評価します。__Murphy徴候（エコーのプローブで右上腹部を押さえながら深呼吸してもらうと痛みで息が止まる所見）__も診断の参考になります。",
+      "__腹部エコー（胆のう壁の肥厚等を確認）__に加え、血液検査（炎症反応・肝機能）、CT検査で重症度や周囲への炎症の広がりを評価します。__Murphy徴候（エコーのプローブで右上腹部を押さえながら深呼吸してもらうと痛みで息が止まる所見）__も診断の参考になります。診断は、__右上腹部の痛みや押したときの痛みなどの「お腹の所見」、発熱や炎症反応などの「全身の炎症のサイン」、そして画像検査の所見__を組み合わせて行うのが、ガイドラインの考え方です。",
     treatment:
-      "診断がつけば、**絶食・補液・抗菌薬（いわゆる抗生物質）治療**を開始しつつ、__早期の腹腔鏡下胆のう摘出術__が標準的な治療として推奨されています。全身状態等により早期手術が難しい場合は、__胆のうに管を入れて排膿するドレナージ処置__を先行し、炎症が落ち着いてから手術を行うこともあります。診断がつき次第、入院治療・手術が可能な連携医療機関へ速やかにご紹介します。",
-    tip: "__胆石をお持ちの方で、強い右上腹部痛に発熱が加わった__場合は、胆嚢炎に進行している可能性があります。自己判断で痛み止めだけで様子を見ず、早めの受診をお勧めします。",
+      "診断がつけば、**絶食・補液・抗菌薬（いわゆる抗生物質）治療**を開始しつつ、__早期の腹腔鏡下胆のう摘出術__が標準的な治療として推奨されています。全身状態等により早期手術が難しい場合は、__胆のうに管を入れて排膿するドレナージ処置__を先行し、炎症が落ち着いてから手術を行うこともあります。診断がつき次第、入院治療・手術が可能な連携医療機関へ速やかにご紹介します。__胆のうを取っても、多くの方は手術前とほぼ同じように食事ができます__。胆汁は肝臓で作られ、胆のうがなくても腸へ流れていくためです。手術後しばらくは、脂っこいものを一度にたくさん食べると、お腹がゆるくなることがあります。",
+    tip: "__胆石をお持ちの方で、強い右上腹部痛に発熱が加わった__場合は、胆嚢炎に進行している可能性があります。自己判断で痛み止めだけで様子を見ず、早めの受診をお勧めします。なお、__健診などで見つかった症状のない胆石は、すぐに手術をせず経過を見る__ことが多いです。一度でも胆石の発作（食後の強いみぞおちや右上腹部の痛み）を起こしたことがある方は、今後の方針を一度ご相談ください。",
     sources: [
       {
         label: "急性胆管炎・胆嚢炎診療ガイドライン改訂出版委員会「急性胆管炎・胆嚢炎診療ガイドライン2018（TG18新基準）」",
         url: "https://minds.jcqhc.or.jp/summary/c00467/",
       },
     ],
-    lastReviewed: "2026-10-12",
+    lastReviewed: "2026-11-27",
     en: {
       title: "Cholecystitis (acute cholecystitis)",
       summary: "Usually caused by a gallstone, this is inflammation of the gallbladder, which can progress to needing emergency surgery.",
       pathology:
-        "A state of inflammation inside the gallbladder, typically caused by a gallstone blocking its outlet. __Persistent pain in the upper right abdomen to the pit of the stomach, together with fever,__ is characteristic — think of it as biliary colic that hasn't settled and has worsened. If it progresses, it can lead to a serious condition (severe cholecystitis) where __the gallbladder becomes necrotic or pus spreads to surrounding tissue__.",
+        "A state of inflammation inside the gallbladder, typically caused by a gallstone blocking its outlet. __Persistent pain in the upper right abdomen to the pit of the stomach, together with fever,__ is characteristic — think of it as biliary colic that hasn't settled and has worsened. If it progresses, it can lead to a serious condition (severe cholecystitis) where __the gallbladder becomes necrotic or pus spreads to surrounding tissue__. The pain __often starts after a fatty meal__ and may __radiate to the right shoulder or back__. If there is __yellowing of the skin or the whites of the eyes (jaundice), or shaking chills with a high fever__, the inflammation may have spread to the bile ducts (cholangitis), which needs even more urgent care. Rarely, __cholecystitis occurs without gallstones in people who are seriously ill in hospital or in older adults__ (acalculous cholecystitis).",
       tests:
-        "__Abdominal ultrasound__ (checking for thickening of the gallbladder wall, etc.), along with blood tests (inflammation markers, liver function) and CT to assess severity and how far the inflammation has spread. __Murphy's sign__ (pain that stops your breath when the right upper abdomen is pressed with the ultrasound probe during a deep breath) is also a useful diagnostic clue.",
+        "__Abdominal ultrasound__ (checking for thickening of the gallbladder wall, etc.), along with blood tests (inflammation markers, liver function) and CT to assess severity and how far the inflammation has spread. __Murphy's sign__ (pain that stops your breath when the right upper abdomen is pressed with the ultrasound probe during a deep breath) is also a useful diagnostic clue. In line with the guideline, the diagnosis combines __local signs in the abdomen (pain or tenderness in the upper right), signs of systemic inflammation such as fever and raised inflammation markers, and imaging findings__.",
       treatment:
-        "Once diagnosed, we start **fasting, IV fluids, and antibiotic treatment**, while __early laparoscopic gallbladder removal__ is recommended as the standard treatment. If early surgery isn't feasible due to overall condition, __a drainage procedure to insert a tube into the gallbladder to remove the pus__ may be done first, with surgery once the inflammation has settled. As soon as a diagnosis is made, we promptly refer you to a partner institution capable of inpatient treatment and surgery.",
-      tip: "If you have known gallstones and develop __strong upper right abdominal pain plus fever__, this may indicate progression to cholecystitis. Please don't just manage it with painkillers on your own — come in soon.",
+        "Once diagnosed, we start **fasting, IV fluids, and antibiotic treatment**, while __early laparoscopic gallbladder removal__ is recommended as the standard treatment. If early surgery isn't feasible due to overall condition, __a drainage procedure to insert a tube into the gallbladder to remove the pus__ may be done first, with surgery once the inflammation has settled. As soon as a diagnosis is made, we promptly refer you to a partner institution capable of inpatient treatment and surgery. __After gallbladder removal, most people can eat much as they did before surgery.__ Bile is made in the liver and still flows into the intestine without a gallbladder. For a while after surgery, eating a lot of fatty food at once may loosen the stools.",
+      tip: "If you have known gallstones and develop __strong upper right abdominal pain plus fever__, this may indicate progression to cholecystitis. Please don't just manage it with painkillers on your own — come in soon. Note that __gallstones found at a health check that cause no symptoms are usually monitored rather than operated on right away__. If you have ever had a gallstone attack (strong pain in the pit of the stomach or upper right belly after eating), please talk with a doctor about the plan going forward.",
     },
   },
   {
@@ -367,27 +367,27 @@ export const DISEASES: DiseaseEntry[] = [
     category: "internal",
     summary: "結核菌以外の抗酸菌（NTM）が肺に住みついて炎症を起こす病気で、日本ではその約9割がMACという菌による「肺MAC症」です。人から人へはうつりません。",
     pathology:
-      "非結核性抗酸菌（NTM）は、__結核菌以外の抗酸菌の総称__で、土の中や浴室・シャワーヘッド・加湿器などの__身近な水まわりに普通に存在する菌__です。菌を含んだほこりや水しぶきを吸い込むことで肺に入ると考えられており、**結核とは異なり、人から人へうつることはないとされています**（肺NTM症と確定すれば、保健所への届け出や隔離は必要ありません）。日本の肺NTM症の__約9割はMAC（Mycobacterium avium complex）__によるもので、近年患者さんが増えています。特に__中高年のやせ型の女性__に多く、小さな粒状の影と気管支の拡張がみられる「結節・気管支拡張型」が代表的です。多くは__何年もかけてゆっくり進行__し、初めは無症状で健診の胸部X線やCTで見つかることも少なくありません。進行すると、長引く咳・痰・血痰・微熱・だるさ・体重減少などが現れることがあります。",
+      "非結核性抗酸菌（NTM）は、__結核菌以外の抗酸菌の総称__で、土の中や浴室・シャワーヘッド・加湿器などの__身近な水まわりに普通に存在する菌__です。菌を含んだほこりや水しぶきを吸い込むことで肺に入ると考えられており、**結核とは異なり、人から人へうつることはないとされています**（肺NTM症と確定すれば、保健所への届け出や隔離は必要ありません）。日本の肺NTM症の__約9割はMAC（Mycobacterium avium complex）__によるもので、近年患者さんが増えています。特に__中高年のやせ型の女性__に多く、小さな粒状の影と気管支の拡張がみられる「結節・気管支拡張型」が代表的です。多くは__何年もかけてゆっくり進行__し、初めは無症状で健診の胸部X線やCTで見つかることも少なくありません。進行すると、長引く咳・痰・血痰・微熱・だるさ・体重減少などが現れることがあります。「MAC」は「マック」と読み、__「肺MAC症（はいマックしょう）」と呼ばれる__のはこのためです。__気管支拡張症（気管支が広がったままになる状態）がある方__もかかりやすいとされています。",
     tests:
       "胸部X線・__胸部CT__で、影の形や広がりを確認します。診断には画像所見（診察や検査で見つかった変化）に加えて菌の確認が必要で、__喀痰（痰）の抗酸菌検査（塗抹・培養・菌種の同定）__を行います。日本の診断基準では、原則として**2回以上の異なる喀痰から同じ菌種が培養される**こと（または気管支鏡検査での検体から1回培養されること）などが目安とされています。痰が出にくく気管支鏡検査が必要な場合は、専門医療機関に依頼します。菌はゆっくり増えるため、培養結果が出るまで数週間かかります。補助的に、__MAC抗体を調べる血液検査__（保険適用）もあります。同じ抗酸菌である**結核との区別**も、重要な目的のひとつです。",
     treatment:
       "診断されても、**すぐに治療を始めるとは限りません**。症状が軽く、病変が小さく、進行がゆっくりな場合は、定期的な画像検査や喀痰検査で__経過観察__を行うことも一般的な選択肢です。病変が広がっている、空洞がある、症状が強いなどの場合には治療を検討し、肺MAC症では一般的に、__マクロライド系薬（クラリスロマイシンまたはアジスロマイシン）・エタンブトール・リファンピシンの3剤併用__を、__菌が検出されなくなってからも1年以上__続けます。エタンブトールによる視力の変化（眼科での定期検査を併用します）や、リファンピシンと他のお薬との飲み合わせなどに注意しながら進めます。なお、マクロライド系の薬を単独で長く飲むと、薬が効かない菌（耐性菌）が生じやすいため、単独での使用は避けます。当院では、__軽症と判断できる場合は当院で治療を行うこともあり__、重症化した場合や、注射薬・吸入薬の追加などより専門的な治療が必要な場合は、**呼吸器を専門とする医療機関へご紹介**します。",
-    tip: "菌は身近な環境にいるため完全には避けられませんが、__浴室の換気・清掃、シャワーヘッドや加湿器のこまめな手入れ、土いじりの際のマスク着用__で吸い込む機会を減らせます。しっかり食べて__体重と体力を保つ__ことも大切です。**人にうつる病気ではない**ので、ご家族と普段どおりに過ごしていただいて大丈夫です。なお、__血痰が増えた、まとまった量の血を吐いた__場合は、早めにご連絡ください。",
+    tip: "菌は身近な環境にいるため完全には避けられませんが、__浴室の換気・清掃、シャワーヘッドや加湿器のこまめな手入れ、土いじりの際のマスク着用__で吸い込む機会を減らせます。しっかり食べて__体重と体力を保つ__ことも大切です。**人にうつる病気ではない**ので、ご家族と普段どおりに過ごしていただいて大丈夫です。なお、__血痰が増えた、まとまった量の血を吐いた__場合は、早めにご連絡ください。__結核と肺NTM症の違い__を簡単にまとめると、__結核は人にうつり、決まった期間お薬を飲めば多くは治る病気__、__肺NTM症は人にうつらず、ゆっくり進むため長く付き合っていく病気__です。治療をしない時期も、__半年〜1年ごとの画像検査や痰の検査__で、変化がないかを確かめていきます。",
     sources: [
       { label: "日本結核病学会・日本呼吸器学会「肺非結核性抗酸菌症診断に関する指針―2008年」" },
       { label: "日本結核・非結核性抗酸菌症学会 非結核性抗酸菌症対策委員会「成人肺非結核性抗酸菌症化学療法に関する見解―2023年改訂」" },
     ],
-    lastReviewed: "2026-10-27",
+    lastReviewed: "2026-11-27",
     en: {
       title: "Pulmonary NTM disease (non-tuberculous mycobacterial lung disease / pulmonary MAC disease)",
       summary: "A lung disease in which mycobacteria other than tuberculosis (NTM) settle in the lungs and cause inflammation. In Japan, about 90% of cases are \"pulmonary MAC disease,\" caused by bacteria called MAC. It does not spread from person to person.",
       pathology:
-        "Non-tuberculous mycobacteria (NTM) is __the umbrella term for mycobacteria other than tuberculosis__. They are __ordinary bacteria found in soil and around everyday water sources__ such as bathrooms, shower heads and humidifiers. They're thought to reach the lungs when dust or water droplets containing them are inhaled, and **unlike tuberculosis, the disease is not considered to spread from person to person** (once confirmed as NTM disease, no public health reporting or isolation is needed). In Japan, __about 90% of pulmonary NTM disease is caused by MAC (Mycobacterium avium complex)__, and the number of patients has been rising. It is especially common in __middle-aged and older slim women__, typically in a \"nodular bronchiectatic\" form with small nodular shadows and widened airways. It usually __progresses slowly over years__, and is often found by chance on a checkup chest X-ray or CT before any symptoms appear. As it progresses, a lingering cough, phlegm, blood-streaked sputum, low-grade fever, fatigue and weight loss may develop.",
+        "Non-tuberculous mycobacteria (NTM) is __the umbrella term for mycobacteria other than tuberculosis__. They are __ordinary bacteria found in soil and around everyday water sources__ such as bathrooms, shower heads and humidifiers. They're thought to reach the lungs when dust or water droplets containing them are inhaled, and **unlike tuberculosis, the disease is not considered to spread from person to person** (once confirmed as NTM disease, no public health reporting or isolation is needed). In Japan, __about 90% of pulmonary NTM disease is caused by MAC (Mycobacterium avium complex)__, and the number of patients has been rising. It is especially common in __middle-aged and older slim women__, typically in a \"nodular bronchiectatic\" form with small nodular shadows and widened airways. It usually __progresses slowly over years__, and is often found by chance on a checkup chest X-ray or CT before any symptoms appear. As it progresses, a lingering cough, phlegm, blood-streaked sputum, low-grade fever, fatigue and weight loss may develop. \"MAC\" is pronounced \"mack,\" which is why it is called __pulmonary MAC disease__. __People with bronchiectasis (airways that remain widened)__ are also thought to be more susceptible.",
       tests:
         "A chest X-ray and __chest CT__ show the shape and extent of the shadows. Diagnosis requires confirming the bacteria as well as the imaging findings, so we perform __sputum tests for mycobacteria (smear, culture and species identification)__. Under Japanese diagnostic criteria, a key benchmark is generally **the same species being cultured from two or more separate sputum samples** (or from one bronchoscopy sample). If sputum is hard to produce and a bronchoscopy is needed, we arrange it with a specialist institution. Because the bacteria grow slowly, culture results take several weeks. A __blood test for MAC antibodies__ (covered by insurance) can also support the diagnosis. **Ruling out tuberculosis**, caused by bacteria from the same family, is another important goal.",
       treatment:
         "Even after diagnosis, **treatment doesn't always start straight away**. When symptoms are mild, lesions are small and progression is slow, __monitoring__ with regular imaging and sputum tests is a common option. When lesions are spreading, cavities are present or symptoms are significant, treatment is considered; for pulmonary MAC disease this generally means __a three-drug combination of a macrolide (clarithromycin or azithromycin), ethambutol and rifampicin__, continued for __at least a year after the bacteria are no longer detected__. We watch for vision changes from ethambutol (with regular eye checks at an ophthalmologist) and interactions between rifampicin and other medications. Because taking a macrolide on its own for a long time easily leads to resistant bacteria, it is not used alone. At our clinic, __when the disease can be judged to be mild, we may treat it here__; if it becomes severe, or more specialized treatment such as added injectable or inhaled medication is needed, **we refer you to an institution specializing in respiratory medicine**.",
-      tip: "Because the bacteria live in everyday environments, you can't avoid them completely, but __ventilating and cleaning the bathroom, regularly cleaning shower heads and humidifiers, and wearing a mask when handling soil__ reduce how often you breathe them in. __Maintaining your weight and strength__ by eating well also matters. **It isn't contagious**, so you can spend time with your family as usual. If __blood in your sputum increases, or you cough up a significant amount of blood__, please contact us promptly.",
+      tip: "Because the bacteria live in everyday environments, you can't avoid them completely, but __ventilating and cleaning the bathroom, regularly cleaning shower heads and humidifiers, and wearing a mask when handling soil__ reduce how often you breathe them in. __Maintaining your weight and strength__ by eating well also matters. **It isn't contagious**, so you can spend time with your family as usual. If __blood in your sputum increases, or you cough up a significant amount of blood__, please contact us promptly. To put the __difference between tuberculosis and pulmonary NTM disease__ simply: __tuberculosis spreads between people, and most cases are cured with a set course of medicine__; __pulmonary NTM disease does not spread between people and progresses slowly, so it is something you live with over the long term__. Even during periods without treatment, we check for changes with __imaging and sputum tests every six months to a year__.",
     },
   },
   {
@@ -517,12 +517,12 @@ export const DISEASES: DiseaseEntry[] = [
     category: "surgical",
     summary: "盲腸の近くにある虫垂という小さな臓器に炎症が起こる病気で、進行すると緊急手術が必要になることがあります。",
     pathology:
-      "**虫垂**は盲腸から伸びる細い袋状の臓器で、ここに炎症が起こった状態が__虫垂炎（いわゆる「盲腸」）__です。虫垂の入り口が便の塊（糞石）やリンパ組織の腫れ等でふさがれ、中で細菌が増殖することが主な原因と考えられています。典型的には__みぞおち〜おへそ周囲の痛みで始まり、時間とともに右下腹部に痛みが移動する__という経過をたどりますが、__子ども・ご高齢の方・妊婦等では典型的な経過をたどらないこともある__ため注意が必要です。進行すると虫垂が破裂し、腹膜炎という重篤な状態に至ることがあります。",
+      "**虫垂**は盲腸から伸びる細い袋状の臓器で、ここに炎症が起こった状態が__虫垂炎（いわゆる「盲腸」）__です。虫垂の入り口が便の塊（糞石）やリンパ組織の腫れ等でふさがれ、中で細菌が増殖することが主な原因と考えられています。典型的には__みぞおち〜おへそ周囲の痛みで始まり、時間とともに右下腹部に痛みが移動する__という経過をたどりますが、__子ども・ご高齢の方・妊婦等では典型的な経過をたどらないこともある__ため注意が必要です。進行すると虫垂が破裂し、腹膜炎という重篤な状態に至ることがあります。__10〜20代に多い病気ですが、どの年代にも起こります__。痛みのほかに、__食欲がなくなる・吐き気・微熱__を伴うことが多く、__歩いたり咳をしたりすると右下腹部に響く__のも、よくみられるサインです。",
     tests:
-      "問診・診察（右下腹部の圧痛等の確認）に加え、__血液検査（炎症反応の確認）、腹部エコー、CT__を組み合わせて評価します。超音波検査を第一選択としつつ、所見（診察や検査で見つかった変化）がはっきりしない場合や穿孔が疑われる場合にはCT検査を追加することが推奨されています。",
+      "問診・診察（右下腹部の圧痛等の確認）に加え、__血液検査（炎症反応の確認）、腹部エコー、CT__を組み合わせて評価します。超音波検査を第一選択としつつ、所見（診察や検査で見つかった変化）がはっきりしない場合や穿孔が疑われる場合にはCT検査を追加することが推奨されています。なお、__「痛みの移動・食欲不振・吐き気・右下腹部の圧痛・発熱・白血球の増加」などを点数にして見当をつける方法（アルバラード・スコアなど）__も知られていますが、点数だけで決めることはせず、診察と画像検査の結果を合わせて判断します。",
     treatment:
       "炎症の程度に応じて、__抗菌薬（いわゆる抗生物質）による保存的治療__で軽快する軽症例もありますが、**手術（虫垂切除術）**が標準的な治療となることが多く、近年は__腹腔鏡下手術__が広く行われています。膿瘍を形成している場合は、まず抗菌薬で炎症を落ち着かせ、後日改めて虫垂を切除する「待機的虫垂切除」が選択されることもあります。__保存的治療のみで経過をみた場合は再発のリスクがある__ことも知られています。手術が必要と判断した場合は、速やかに連携医療機関へご紹介します。",
-    tip: "__右下腹部の痛みが強くなる、発熱を伴う、痛みが移動してきた__等の症状がある場合は、自己判断で様子を見ず早めの受診をお勧めします。進行すると緊急手術が必要になることがあるため、「様子を見てから」ではなく__早めの受診が安全につながります__。",
+    tip: "__右下腹部の痛みが強くなる、発熱を伴う、痛みが移動してきた__等の症状がある場合は、自己判断で様子を見ず早めの受診をお勧めします。進行すると緊急手術が必要になることがあるため、「様子を見てから」ではなく__早めの受診が安全につながります__。右下腹部の痛みは、虫垂炎のほかにも、__回腸末端炎（小腸の出口の炎症）や、日本人に多い右側の大腸憩室炎__などでも起こり、症状だけでは区別が難しいことがあります。__痛み止めで痛みを抑えて様子を見ると、かえって判断が遅れる__こともあるため、強い痛みのときは早めに受診してください。",
     sources: [
       {
         label: "日本腹部救急医学会ほか「急性腹症診療ガイドライン2015」",
@@ -533,17 +533,17 @@ export const DISEASES: DiseaseEntry[] = [
         url: "https://minds.jcqhc.or.jp/summary/c00575/",
       },
     ],
-    lastReviewed: "2026-10-12",
+    lastReviewed: "2026-11-27",
     en: {
       title: "Appendicitis (acute appendicitis)",
       summary: "Inflammation of the appendix, a small organ near the cecum, which can progress to needing emergency surgery.",
       pathology:
-        "The **appendix** is a thin, pouch-like organ extending from the cecum; __appendicitis (commonly called \"having your appendix\")__ is inflammation there. It's thought to mainly occur when the appendix opening is blocked by a hardened piece of stool (a fecalith) or swollen lymphatic tissue, allowing bacteria to multiply inside. The classic course is __pain starting around the pit of the stomach or navel, then migrating to the lower right abdomen over time__, though __children, older adults, and pregnant women may not follow this typical pattern__, so care is needed. If it progresses, the appendix can rupture, leading to the serious condition of peritonitis.",
+        "The **appendix** is a thin, pouch-like organ extending from the cecum; __appendicitis (commonly called \"having your appendix\")__ is inflammation there. It's thought to mainly occur when the appendix opening is blocked by a hardened piece of stool (a fecalith) or swollen lymphatic tissue, allowing bacteria to multiply inside. The classic course is __pain starting around the pit of the stomach or navel, then migrating to the lower right abdomen over time__, though __children, older adults, and pregnant women may not follow this typical pattern__, so care is needed. If it progresses, the appendix can rupture, leading to the serious condition of peritonitis. __It is most common in people in their teens and twenties, but it can occur at any age.__ Besides pain, it often comes with __loss of appetite, nausea and a mild fever__, and __pain in the lower right belly that jolts when you walk or cough__ is another common sign.",
       tests:
-        "History-taking and examination (checking for tenderness in the lower right abdomen), combined with __blood tests (checking inflammation markers), abdominal ultrasound, and CT__. Ultrasound is typically used first, with CT added if findings are unclear or perforation is suspected.",
+        "History-taking and examination (checking for tenderness in the lower right abdomen), combined with __blood tests (checking inflammation markers), abdominal ultrasound, and CT__. Ultrasound is typically used first, with CT added if findings are unclear or perforation is suspected. Scoring systems that add up points for __migrating pain, loss of appetite, nausea, tenderness in the lower right abdomen, fever and a raised white blood cell count (such as the Alvarado score)__ are also known, but we never decide on the score alone — we combine it with the examination and imaging.",
       treatment:
         "Depending on severity, __conservative treatment with antibiotics__ can resolve mild cases, but **surgery (appendectomy)** is the standard treatment in most cases, with __laparoscopic surgery__ now widely used. If an abscess has formed, antibiotics may be used first to calm the inflammation, with the appendix removed later (\"interval appendectomy\"). __Conservative treatment alone carries a risk of recurrence.__ If surgery is needed, we promptly refer you to a partner institution.",
-      tip: "If you have __worsening lower right abdominal pain, fever, or pain that has shifted location,__ please don't wait and see — come in soon. Because it can progress to needing emergency surgery, __coming in early is the safer choice__ rather than waiting to see how things develop.",
+      tip: "If you have __worsening lower right abdominal pain, fever, or pain that has shifted location,__ please don't wait and see — come in soon. Because it can progress to needing emergency surgery, __coming in early is the safer choice__ rather than waiting to see how things develop. Lower right abdominal pain can also come from __terminal ileitis (inflammation at the end of the small intestine) or right-sided colonic diverticulitis, which is common in Japanese people__, and symptoms alone may not tell them apart. __Masking the pain with painkillers and waiting can delay the diagnosis__, so please seek care early when the pain is strong.",
     },
   },
   {
@@ -1218,29 +1218,29 @@ export const DISEASES: DiseaseEntry[] = [
     summary:
       "ビタミンB12や葉酸の不足で起こる貧血で、放置すると手足のしびれ等の神経症状を残すことがあります。鉄剤では改善しないタイプの貧血です。",
     pathology:
-      "**ビタミンB12・葉酸**は、体内で血液（赤血球）を新しく作る際に欠かせない栄養素です。これらが不足すると、骨髄で作られる赤血球が異常に大きくなり（巨赤芽球。赤血球が大きくなる貧血は「大球性貧血」と呼ばれ、その代表的な原因です）、__正常に機能しないまま壊れてしまう__ため貧血が起こります。__ビタミンB12欠乏の代表的な原因は、胃から分泌される「内因子」という物質の不足による吸収障害（悪性貧血）__で、__胃の手術歴がある方や、長期間の厳格な菜食__等でも起こり得ます。__葉酸欠乏は、偏った食事や大量の飲酒、一部の薬剤の影響__等で起こります。__鉄欠乏性貧血とは原因も治療法もまったく異なる__ため、同じ「貧血」でも__鉄剤を飲んでも改善しません__。",
+      "**ビタミンB12・葉酸**は、体内で血液（赤血球）を新しく作る際に欠かせない栄養素です。これらが不足すると、骨髄で作られる赤血球が異常に大きくなり（巨赤芽球。赤血球が大きくなる貧血は「大球性貧血」と呼ばれ、その代表的な原因です）、__正常に機能しないまま壊れてしまう__ため貧血が起こります。__ビタミンB12欠乏の代表的な原因は、胃から分泌される「内因子」という物質の不足による吸収障害（悪性貧血）__で、__胃の手術歴がある方や、長期間の厳格な菜食__等でも起こり得ます。__葉酸欠乏は、偏った食事や大量の飲酒、一部の薬剤の影響__等で起こります。__鉄欠乏性貧血とは原因も治療法もまったく異なる__ため、同じ「貧血」でも__鉄剤を飲んでも改善しません__。症状は、__疲れやすさ・息切れ・動悸__といった貧血の症状に加え、__舌がひりひりする・赤くつるつるになる__、__手足のしびれ・歩くとふらつく__などがみられます。__胃の手術を受けてから数年たってから__、体の中のビタミンB12が少しずつ減って起こることも知られています。",
     tests:
       "**院内の血球計算装置（血算）でヘモグロビン値に加えMCV（赤血球の大きさ）をその場で確認でき、このタイプの貧血では赤血球が大きくなる特徴があるため、来院当日のうちに「鉄欠乏とは違うタイプかもしれない」という見当をつけることができます**。確定のため__血清ビタミンB12・葉酸__を測定し、__ビタミンB12欠乏が疑われる場合は、原因検索のため胃カメラ等の検査__を検討することもあります。",
     treatment:
       "**ビタミンB12または葉酸の補充**が治療の基本です。__吸収障害がある場合はビタミンB12の注射での補充__が必要になることが多く、__原因によっては生涯にわたる定期的な補充__が必要になることもあります。__ビタミンB12欠乏を見逃したまま葉酸だけを補充すると、貧血の数値は改善しても神経症状（手足のしびれ等）がかえって進行することがある__ため、__どちらが不足しているのかを正確に見極めてから治療を開始する__ことが重要です。",
-    tip: "__「貧血＝鉄分不足」と思い込み、市販の鉄剤やサプリだけで様子を見ている__方の中に、実はこのタイプの貧血が隠れていることがあります。__手足のしびれ・ふらつき・舌の違和感・物忘れの悪化__等、貧血の症状に加えて神経症状がある場合は、特に注意が必要です。__進行した神経症状は治療をしても完全には戻らないことがある__ため、__「疲れやすいだけ」と様子を見過ぎず__、早めのご相談をお勧めします。__当院では院内の血算機でMCVまでその場で測定できるため、鉄欠乏性貧血との見分けの第一歩をその日のうちにお手伝いできます__。",
+    tip: "__「貧血＝鉄分不足」と思い込み、市販の鉄剤やサプリだけで様子を見ている__方の中に、実はこのタイプの貧血が隠れていることがあります。__手足のしびれ・ふらつき・舌の違和感・物忘れの悪化__等、貧血の症状に加えて神経症状がある場合は、特に注意が必要です。__進行した神経症状は治療をしても完全には戻らないことがある__ため、__「疲れやすいだけ」と様子を見過ぎず__、早めのご相談をお勧めします。__当院では院内の血算機でMCVまでその場で測定できるため、鉄欠乏性貧血との見分けの第一歩をその日のうちにお手伝いできます__。なお、胃酸を抑えるお薬や、糖尿病のお薬の一部（メトホルミン）を長く飲んでいる方では、ビタミンB12が少しずつ減ることがあるとされています。__自己判断でお薬をやめず、気になるときは主治医にご相談ください__。",
     sources: [
       {
         label:
           "日本血液学会専門医による診療知見（ビタミンB12・葉酸欠乏性貧血の鑑別と治療）に基づく",
       },
     ],
-    lastReviewed: "2026-10-14",
+    lastReviewed: "2026-11-27",
     en: {
       title: "Megaloblastic anemia (vitamin B12 or folate deficiency anemia)",
       summary: "Anemia caused by a shortage of vitamin B12 or folate, which, if left untreated, can leave behind lasting nerve symptoms like numbness in the hands and feet. This type doesn't respond to iron supplements.",
       pathology:
-        "**Vitamin B12 and folate** are essential nutrients for making new red blood cells. When they're deficient, the red blood cells produced in the bone marrow become abnormally large (megaloblasts) and __break down before they can function properly__, causing anemia. __A leading cause of B12 deficiency is impaired absorption due to a lack of \"intrinsic factor,\" a substance secreted by the stomach (pernicious anemia)__, which can also occur in people with a history of stomach surgery or long-term strict vegetarian/vegan diets. __Folate deficiency can result from an unbalanced diet, heavy alcohol use, or certain medications.__ Because __the cause and treatment are completely different from iron deficiency anemia,__ this type of \"anemia\" __won't improve with iron supplements.__",
+        "**Vitamin B12 and folate** are essential nutrients for making new red blood cells. When they're deficient, the red blood cells produced in the bone marrow become abnormally large (megaloblasts) and __break down before they can function properly__, causing anemia. __A leading cause of B12 deficiency is impaired absorption due to a lack of \"intrinsic factor,\" a substance secreted by the stomach (pernicious anemia)__, which can also occur in people with a history of stomach surgery or long-term strict vegetarian/vegan diets. __Folate deficiency can result from an unbalanced diet, heavy alcohol use, or certain medications.__ Because __the cause and treatment are completely different from iron deficiency anemia,__ this type of \"anemia\" __won't improve with iron supplements.__ Along with anaemia symptoms such as __tiredness, shortness of breath and palpitations__, there may be __a sore tongue that turns red and smooth__, and __numbness in the hands and feet or unsteadiness when walking__. It is also known to develop __several years after stomach surgery__, as the body's vitamin B12 stores gradually run down.",
       tests:
         "**Our in-house blood cell counter checks hemoglobin along with MCV (red blood cell size) on the spot; because red blood cells are enlarged in this type of anemia, we can get a sense the same day that \"this might be a different type than iron deficiency.\"** We confirm with __serum vitamin B12 and folate levels,__ and __if B12 deficiency is suspected, we may consider tests such as gastroscopy to investigate the cause.__",
       treatment:
         "**Replacing vitamin B12 or folate** is the basis of treatment. __If there's an absorption problem, B12 injections are often needed,__ and __depending on the cause, lifelong periodic replacement may be necessary.__ Because __missing a B12 deficiency and replacing only folate can actually worsen nerve symptoms (numbness, etc.) even as the anemia numbers improve,__ __correctly identifying which one is deficient before starting treatment__ matters.",
-      tip: "__Some people simply assume \"anemia = low iron\" and manage with over-the-counter iron supplements or vitamins,__ but this type of anemia can be hiding underneath. __If you have numbness or unsteadiness in your hands and feet, a strange sensation on the tongue, or worsening forgetfulness, along with anemia symptoms,__ extra caution is warranted. __Advanced nerve symptoms sometimes don't fully recover even with treatment,__ so __rather than writing it off as \"just being tired,\" please come talk to us sooner rather than later.__ __Since our in-house blood counter can measure MCV on the spot, we can help with the first step of distinguishing this from iron deficiency anemia the same day.__",
+      tip: "__Some people simply assume \"anemia = low iron\" and manage with over-the-counter iron supplements or vitamins,__ but this type of anemia can be hiding underneath. __If you have numbness or unsteadiness in your hands and feet, a strange sensation on the tongue, or worsening forgetfulness, along with anemia symptoms,__ extra caution is warranted. __Advanced nerve symptoms sometimes don't fully recover even with treatment,__ so __rather than writing it off as \"just being tired,\" please come talk to us sooner rather than later.__ __Since our in-house blood counter can measure MCV on the spot, we can help with the first step of distinguishing this from iron deficiency anemia the same day.__ Also, in people who take acid-suppressing medicines or certain diabetes medicines (metformin) for a long time, vitamin B12 levels are said to fall gradually. __Please don't stop your medicines on your own — talk to your doctor if you're concerned.__",
     },
   },
   {
@@ -1470,29 +1470,29 @@ export const DISEASES: DiseaseEntry[] = [
     summary:
       "猫に引っかかれたり咬まれたりした後に、リンパ節が腫れて長引くことがある感染症です。猫を飼っているご家庭では知っておきたい病気です。",
     pathology:
-      "**バルトネラ・ヘンセレ（Bartonella henselae）**という細菌による感染症で、__猫にひっかかれる・咬まれる、あるいは猫についたノミに刺される__ことで感染します。__猫自身はほとんど症状を示さないまま菌を保有している__ことが多く、__特に子猫からの感染が報告されています__。__受傷部位に小さな発疹やかさぶたができた後、1〜数週間してから、受傷部位に近いリンパ節（脇の下・首・肘等）が腫れて痛みを伴う__のが典型的な経過です。__微熱や倦怠感を伴う__こともあり、多くは__数週間〜数か月かけて自然に軽快__しますが、__原因不明のリンパ節の腫れとして長引き、他の病気との鑑別（ほかの病気と見分けること）が必要になる__こともあります。",
+      "**バルトネラ・ヘンセレ（Bartonella henselae）**という細菌による感染症で、__猫にひっかかれる・咬まれる、あるいは猫についたノミに刺される__ことで感染します。__猫自身はほとんど症状を示さないまま菌を保有している__ことが多く、__特に子猫からの感染が報告されています__。__受傷部位に小さな発疹やかさぶたができた後、1〜数週間してから、受傷部位に近いリンパ節（脇の下・首・肘等）が腫れて痛みを伴う__のが典型的な経過です。__微熱や倦怠感を伴う__こともあり、多くは__数週間〜数か月かけて自然に軽快__しますが、__原因不明のリンパ節の腫れとして長引き、他の病気との鑑別（ほかの病気と見分けること）が必要になる__こともあります。__子どもや若い方に多い__とされ、__猫に限らず、まれに犬からの感染__も報告されています。__免疫の力が落ちている方（お薬や病気の影響など）では、重くなったり全身に広がったりする__ことがあるため、より注意が必要です。",
     tests:
-      "__猫との接触歴（ひっかき傷・咬み傷の有無）__の問診が診断の大きな手がかりになります。__リンパ節の腫れの原因を調べるため、血液検査や、必要に応じて画像検査__を行い、__他の原因（悪性リンパ腫等）が隠れていないか__を確認することも重要です。確定診断のための特殊な血清検査は、実施できる施設が限られています。",
+      "__猫との接触歴（ひっかき傷・咬み傷の有無）__の問診が診断の大きな手がかりになります。__リンパ節の腫れの原因を調べるため、血液検査や、必要に応じて画像検査__を行い、__他の原因（悪性リンパ腫等）が隠れていないか__を確認することも重要です。確定診断のための特殊な血清検査は、実施できる施設が限られています。__リンパ節が硬くて動かない、どんどん大きくなる、体のあちこちのリンパ節が腫れる、寝汗や体重減少を伴う__といった場合は、猫ひっかき病以外の原因も考えて、詳しく調べます。",
     treatment:
       "__軽症の場合は、特別な治療をしなくても数週間〜数か月で自然に軽快する__ことが多い病気です。__症状が強い場合や治りを早めたい場合には、抗菌薬（いわゆる抗生物質）治療（ドキシサイクリン等）__を行うことがあります。__リンパ節が大きく腫れて痛みが強い場合は、穿刺（針を刺して中の液を抜く）等の処置__を検討することもあります。",
-    tip: "__「猫に引っかかれただけ」と軽く考えがちです__が、__受傷から数週間後にリンパ節の腫れが出てくるため、原因に気づかれにくい__病気です。__猫を新しく迎えた、野良猫と接触した後にリンパ節の腫れが続く__場合は、受診の際に__猫との接触歴をお伝えいただく__ことが、早期の診断につながります。__予防としては、猫に引っかかれた・咬まれた傷をすぐに流水と石けんでよく洗う、猫のノミ対策をしっかり行う__ことが有効です。",
+    tip: "__「猫に引っかかれただけ」と軽く考えがちです__が、__受傷から数週間後にリンパ節の腫れが出てくるため、原因に気づかれにくい__病気です。__猫を新しく迎えた、野良猫と接触した後にリンパ節の腫れが続く__場合は、受診の際に__猫との接触歴をお伝えいただく__ことが、早期の診断につながります。__予防としては、猫に引っかかれた・咬まれた傷をすぐに流水と石けんでよく洗う、猫のノミ対策をしっかり行う__ことが有効です。__ペットの猫を手放す必要はありません__。爪を短く切っておく、子猫と遊ぶときは引っかかれないよう気をつける、猫に傷口をなめさせない、といった工夫で、感染の機会を減らせます。",
     sources: [
       {
         label: "大阪府「猫ひっかき病」感染症情報",
         url: "https://www.pref.osaka.lg.jp/o100050/iryo/osakakansensho/nekohikkakibyo.html",
       },
     ],
-    lastReviewed: "2026-10-14",
+    lastReviewed: "2026-11-27",
     en: {
       title: "Cat scratch disease",
       summary: "An infection that can cause lingering, swollen lymph nodes after a cat scratch or bite. Worth knowing about if you have a cat at home.",
       pathology:
-        "This is an infection caused by the bacterium **Bartonella henselae**, transmitted by __a cat's scratch or bite, or by a flea that has been on a cat__. __Cats themselves usually carry the bacteria with little or no symptoms of their own__, and __infection from kittens in particular has been reported__. The typical course is: __a small rash or scab forms at the site of injury, and then, one to several weeks later, a nearby lymph node (under the arm, in the neck, at the elbow, etc.) becomes swollen and painful__. __A mild fever or fatigue may accompany it__, and in most cases __it resolves on its own over weeks to months__, though it can also __linger as unexplained swollen lymph nodes, requiring differentiation from other conditions__.",
+        "This is an infection caused by the bacterium **Bartonella henselae**, transmitted by __a cat's scratch or bite, or by a flea that has been on a cat__. __Cats themselves usually carry the bacteria with little or no symptoms of their own__, and __infection from kittens in particular has been reported__. The typical course is: __a small rash or scab forms at the site of injury, and then, one to several weeks later, a nearby lymph node (under the arm, in the neck, at the elbow, etc.) becomes swollen and painful__. __A mild fever or fatigue may accompany it__, and in most cases __it resolves on its own over weeks to months__, though it can also __linger as unexplained swollen lymph nodes, requiring differentiation from other conditions__. __It is said to be more common in children and young people__, and __infection from dogs has rarely been reported as well__. In __people with weakened immunity (due to medication or illness), it can become severe or spread through the body__, so extra care is needed.",
       tests:
-        "__Asking about contact with a cat (any scratch or bite)__ is a major clue for diagnosis. __Blood tests, and imaging if needed, help investigate the cause of swollen lymph nodes__, and it's also important to __rule out other causes (such as lymphoma)__. Specialized serologic testing for a definitive diagnosis is only available at limited facilities.",
+        "__Asking about contact with a cat (any scratch or bite)__ is a major clue for diagnosis. __Blood tests, and imaging if needed, help investigate the cause of swollen lymph nodes__, and it's also important to __rule out other causes (such as lymphoma)__. Specialized serologic testing for a definitive diagnosis is only available at limited facilities. If __a lymph node is hard and doesn't move, keeps growing, nodes swell in several parts of the body, or there are night sweats or weight loss__, we look carefully for causes other than cat scratch disease.",
       treatment:
         "__In mild cases, it often resolves on its own over weeks to months without specific treatment__. __If symptoms are more pronounced, or you'd like to recover faster, antibiotic treatment (such as doxycycline) may be used__. __If a lymph node is markedly swollen and painful, a procedure such as needle aspiration (draining fluid with a needle) may be considered__.",
-      tip: "__It's easy to think lightly of \"just a scratch from the cat,\"__ but because __the lymph node swelling appears weeks after the actual injury, the connection is often missed__. __If you've recently gotten a new cat, had contact with a stray cat, and now have persistent swollen lymph nodes__, mentioning __your contact with a cat__ when you come in helps us reach an earlier diagnosis. __Washing any scratch or bite promptly and thoroughly with running water and soap, and keeping on top of flea prevention for your cat__, are both effective preventive measures.",
+      tip: "__It's easy to think lightly of \"just a scratch from the cat,\"__ but because __the lymph node swelling appears weeks after the actual injury, the connection is often missed__. __If you've recently gotten a new cat, had contact with a stray cat, and now have persistent swollen lymph nodes__, mentioning __your contact with a cat__ when you come in helps us reach an earlier diagnosis. __Washing any scratch or bite promptly and thoroughly with running water and soap, and keeping on top of flea prevention for your cat__, are both effective preventive measures. __There is no need to give up your pet cat.__ Keeping its claws short, taking care not to get scratched when playing with kittens, and not letting a cat lick open wounds all reduce the chance of infection.",
     },
   },
   {
@@ -1536,26 +1536,26 @@ export const DISEASES: DiseaseEntry[] = [
     pathology:
       "皮膚の小さな傷・虫刺され・水虫（足白癬）による皮膚のひび割れ等から__細菌（主に溶血性レンサ球菌・黄色ブドウ球菌）が皮膚の深い層（真皮・皮下組織）に入り込んで起こる感染症__です。__足のすね・甲、手等__に起こりやすく、__赤み・腫れ・熱感・痛みが、境目がはっきりしないまま周囲にじわじわ広がっていく__のが特徴です。__発熱や倦怠感等の全身症状を伴う__ことも多く、__糖尿病や血流障害（むくみやすい・リンパの流れが悪い等）がある方は重症化しやすい__とされています。__放置すると、感染が血液に及ぶ（敗血症）等、全身に影響が広がる__ことがあり、早期の治療開始が重要です。",
     tests:
-      "__皮疹の広がり方・範囲・熱感__等を診察で評価し、__血液検査で炎症反応（白血球数・CRP等）__を確認します。重症度や広がりの評価のため、__患部にペンで印をつけて範囲の変化を記録する__こともあります。",
+      "__皮疹の広がり方・範囲・熱感__等を診察で評価し、__血液検査で炎症反応（白血球数・CRP等）__を確認します。重症度や広がりの評価のため、__患部にペンで印をつけて範囲の変化を記録する__こともあります。__片方の足だけが赤く腫れている場合__は、足の静脈に血のかたまりができる病気（深部静脈血栓症）との見分けが必要になることがあり、__超音波（エコー）検査__で確認することもあります。",
     treatment:
-      "**抗菌薬（いわゆる抗生物質）治療**が基本で、__原因菌（溶血性レンサ球菌・黄色ブドウ球菌）に効果のある抗菌薬を、内服または点滴で投与__します。__軽症〜中等症は外来での内服治療・経過観察が可能__なことが多いですが、__範囲が広い、発熱が強い、糖尿病等の基礎疾患がある、治療を始めても改善しない__等の場合は、__点滴治療や入院治療が可能な医療機関と連携__します。__患部を心臓より高い位置に上げて安静にする__ことも、腫れを引かせるために有効です。",
-    tip: "__「虫刺されがひどくなっただけ」「ただのむくみ」と様子を見ているうちに、範囲がどんどん広がってしまう__ことがよくあります。__赤みの範囲を写真に撮っておくと、広がっているかどうかの判断に役立ちます__。__足の水虫（足白癬）を治療せずに放置していると、そこから細菌が入り蜂窩織炎（皮膚の奥に細菌が入り、赤く腫れて痛む感染症）を繰り返す__ことがあるため、__水虫の治療も蜂窩織炎の予防として大切__です。発熱を伴う、範囲が急速に広がる場合は、様子を見過ぎずに早めにご相談ください。",
+      "**抗菌薬（いわゆる抗生物質）治療**が基本で、__原因菌（溶血性レンサ球菌・黄色ブドウ球菌）に効果のある抗菌薬を、内服または点滴で投与__します。__軽症〜中等症は外来での内服治療・経過観察が可能__なことが多いですが、__範囲が広い、発熱が強い、糖尿病等の基礎疾患がある、治療を始めても改善しない__等の場合は、__点滴治療や入院治療が可能な医療機関と連携__します。__患部を心臓より高い位置に上げて安静にする__ことも、腫れを引かせるために有効です。抗菌薬は、__赤みや腫れが引いてきても、医師が指示した日数を最後まで飲みきる__ことが大切です。途中でやめると、ぶり返すことがあります。__治療を始めて2〜3日たっても赤みが広がる・熱が下がらない__場合は、早めに再度受診してください。",
+    tip: "__「虫刺されがひどくなっただけ」「ただのむくみ」と様子を見ているうちに、範囲がどんどん広がってしまう__ことがよくあります。__赤みの範囲を写真に撮っておくと、広がっているかどうかの判断に役立ちます__。__足の水虫（足白癬）を治療せずに放置していると、そこから細菌が入り蜂窩織炎（皮膚の奥に細菌が入り、赤く腫れて痛む感染症）を繰り返す__ことがあるため、__水虫の治療も蜂窩織炎の予防として大切__です。発熱を伴う、範囲が急速に広がる場合は、様子を見過ぎずに早めにご相談ください。__「蜂窩織炎は人にうつりますか？」__というご質問をよくいただきますが、**人から人へうつる病気ではありません**。ご家族と普段どおりに過ごしていただいて大丈夫です。ただし、傷口からうみが出ている場合は、触ったあとに石けんで手を洗いましょう。",
     sources: [
       {
         label: "日本感染症学会・日本化学療法学会「JAID/JSC感染症治療ガイド2019」",
       },
     ],
-    lastReviewed: "2026-10-14",
+    lastReviewed: "2026-11-27",
     en: {
       title: "Cellulitis",
       summary: "A skin infection where the skin of the foot or hand becomes red, swollen, and hot, gradually spreading outward. Left untreated it can become serious, so early treatment matters.",
       pathology:
         "This is an infection where __bacteria (mainly streptococcus or staphylococcus) enter the deeper layers of the skin (the dermis and subcutaneous tissue)__ through a small skin injury, insect bite, or cracked skin from athlete's foot. __It tends to occur on the shin, top of the foot, or hand__, and is characterized by __redness, swelling, warmth, and pain that gradually spread outward with no clear border__. It's often accompanied by __whole-body symptoms such as fever and fatigue__, and __people with diabetes or circulation problems (prone to swelling, poor lymphatic flow, etc.) tend to develop more severe cases__. __Left untreated, the infection can spread into the bloodstream (sepsis) and affect the whole body__, so starting treatment early matters.",
       tests:
-        "We evaluate __how far the rash has spread and its warmth__ on exam, and check __inflammatory markers on a blood test (white blood cell count, CRP, etc.)__. To track severity and spread, we sometimes __mark the edge of the affected area with a pen to record changes over time__.",
+        "We evaluate __how far the rash has spread and its warmth__ on exam, and check __inflammatory markers on a blood test (white blood cell count, CRP, etc.)__. To track severity and spread, we sometimes __mark the edge of the affected area with a pen to record changes over time__. __When only one leg is red and swollen__, it may need to be distinguished from a blood clot in the leg veins (deep vein thrombosis), and we may check with an __ultrasound scan__.",
       treatment:
-        "**Antibiotic treatment** is the foundation, using __an antibiotic effective against the likely bacteria (streptococcus, staphylococcus), given orally or by IV__. __Mild to moderate cases can often be managed with oral treatment and outpatient follow-up__, but if __the area is extensive, fever is significant, there's an underlying condition like diabetes, or there's no improvement after starting treatment__, we coordinate with __a facility capable of IV treatment or hospitalization__. __Keeping the affected area elevated above the heart and resting it__ also helps bring the swelling down.",
-      tip: "__It's common for the area to keep spreading while you tell yourself \"the bug bite just got worse\" or \"it's just swelling.\"__ __Taking a photo of how far the redness extends can help you judge whether it's spreading.__ __Leaving athlete's foot untreated can let bacteria in and cause recurring cellulitis__, so __treating athlete's foot is also an important way to prevent cellulitis__. If fever develops or the area spreads quickly, please don't wait too long — come talk to us sooner rather than later.",
+        "**Antibiotic treatment** is the foundation, using __an antibiotic effective against the likely bacteria (streptococcus, staphylococcus), given orally or by IV__. __Mild to moderate cases can often be managed with oral treatment and outpatient follow-up__, but if __the area is extensive, fever is significant, there's an underlying condition like diabetes, or there's no improvement after starting treatment__, we coordinate with __a facility capable of IV treatment or hospitalization__. __Keeping the affected area elevated above the heart and resting it__ also helps bring the swelling down. It is important to __finish the full course of antibiotics your doctor prescribed, even when the redness and swelling start to fade__; stopping early can lead to a flare-up. If __the redness keeps spreading or the fever doesn't come down after 2–3 days of treatment__, please come back promptly.",
+      tip: "__It's common for the area to keep spreading while you tell yourself \"the bug bite just got worse\" or \"it's just swelling.\"__ __Taking a photo of how far the redness extends can help you judge whether it's spreading.__ __Leaving athlete's foot untreated can let bacteria in and cause recurring cellulitis__, so __treating athlete's foot is also an important way to prevent cellulitis__. If fever develops or the area spreads quickly, please don't wait too long — come talk to us sooner rather than later. We're often asked, __\"Is cellulitis contagious?\"__ **It does not spread from person to person**, so you can carry on with family life as usual. If pus is coming from a wound, though, wash your hands with soap after touching it.",
     },
   },
   {
@@ -1729,11 +1729,11 @@ export const DISEASES: DiseaseEntry[] = [
     category: "internal",
     summary: "回転性めまいと難聴・耳鳴り・耳閉感を繰り返す、内耳のむくみ（内リンパ水腫）が原因の病気です。",
     pathology:
-      "内耳を満たす「内リンパ液」が過剰に溜まってむくんだ状態（内リンパ水腫）になることで起こると考えられています。__数十分〜数時間続く回転性めまいと、難聴・耳鳴り・耳が詰まった感じ（耳閉感）が同時に、繰り返し起こる__のが特徴で、**発作を繰り返すうちに難聴が進行する**ことがあります。ストレスや睡眠不足、過労が発作の誘因となることが知られています。",
+      "内耳を満たす「内リンパ液」が過剰に溜まってむくんだ状態（内リンパ水腫）になることで起こると考えられています。__数十分〜数時間続く回転性めまいと、難聴・耳鳴り・耳が詰まった感じ（耳閉感）が同時に、繰り返し起こる__のが特徴で、**発作を繰り返すうちに難聴が進行する**ことがあります。ストレスや睡眠不足、過労が発作の誘因となることが知られています。__多くは片方の耳だけに起こり__、30〜50代に多いとされています。めまいの病気でいちばん多い__「良性発作性頭位めまい症」は、寝返りや起き上がりなど頭を動かしたときに数十秒ほど続くめまいで、難聴や耳鳴りは伴わない__のが特徴で、メニエール病とは区別されます。",
     tests:
-      "問診に加え、__聴力検査__で難聴の有無・程度を確認します。発作を繰り返す経過や聴力検査の結果を踏まえて診断基準に沿って判断し、他の原因（中枢性の病気等）が疑われる場合は画像検査が可能な医療機関と連携します。",
+      "問診に加え、__聴力検査__で難聴の有無・程度を確認します。発作を繰り返す経過や聴力検査の結果を踏まえて診断基準に沿って判断し、他の原因（中枢性の病気等）が疑われる場合は画像検査が可能な医療機関と連携します。__ろれつが回らない、手足がしびれる・力が入らない、物が二重に見える、まっすぐ立てない・歩けない__といった症状を伴うめまいは、__脳卒中など脳の病気の可能性__があります。この場合は様子を見ずに、すぐに救急車を呼んでください。",
     treatment:
-      "急性期にはめまい止め・吐き気止めで症状を緩和し、間欠期（発作のない時期）には**内リンパ水腫を軽減するための利尿薬（尿を増やして、体の余分な水分を減らす薬）**や、__生活指導（睡眠・ストレス管理、水分摂取等）__を基本とした治療を行います。保存的な治療で発作が十分にコントロールできない場合は、中耳加圧治療や手術的治療等のより専門的な治療を行っている医療機関へのご紹介を検討します。",
+      "急性期にはめまい止め・吐き気止めで症状を緩和し、間欠期（発作のない時期）には**内リンパ水腫を軽減するための利尿薬（尿を増やして、体の余分な水分を減らす薬）**や、__生活指導（睡眠・ストレス管理、水分摂取等）__を基本とした治療を行います。保存的な治療で発作が十分にコントロールできない場合は、中耳加圧治療や手術的治療等のより専門的な治療を行っている医療機関へのご紹介を検討します。生活の面では、__十分な睡眠、ストレスをため込まない工夫、ウォーキングなどの適度な有酸素運動__が、発作を減らすために勧められています。",
     tip: "__めまいだけでなく難聴や耳鳴りを伴う発作を繰り返す__場合はメニエール病の可能性があります。繰り返すたびに聴力が低下していくことがあるため、症状のパターンに心当たりがある場合は早めのご相談をお勧めします。",
     sources: [
       {
@@ -1741,16 +1741,16 @@ export const DISEASES: DiseaseEntry[] = [
         url: "https://minds.jcqhc.or.jp/summary/c00590/",
       },
     ],
-    lastReviewed: "2026-10-12",
+    lastReviewed: "2026-11-27",
     en: {
       title: "Ménière's disease",
       summary: "A condition caused by fluid buildup in the inner ear (endolymphatic hydrops), bringing repeated episodes of spinning vertigo along with hearing loss, tinnitus, and ear fullness.",
       pathology:
-        "This is thought to occur when the \"endolymph\" fluid that fills the inner ear builds up excessively, causing swelling (endolymphatic hydrops). It's characterized by __repeated episodes, lasting tens of minutes to hours, of spinning vertigo occurring together with hearing loss, tinnitus, and a plugged-up feeling in the ear (aural fullness)__, and **hearing loss can progress as episodes recur**. Stress, lack of sleep, and overexertion are known triggers for episodes.",
+        "This is thought to occur when the \"endolymph\" fluid that fills the inner ear builds up excessively, causing swelling (endolymphatic hydrops). It's characterized by __repeated episodes, lasting tens of minutes to hours, of spinning vertigo occurring together with hearing loss, tinnitus, and a plugged-up feeling in the ear (aural fullness)__, and **hearing loss can progress as episodes recur**. Stress, lack of sleep, and overexertion are known triggers for episodes. __It usually affects only one ear__ and is said to be most common in people in their 30s to 50s. The most common cause of vertigo, __benign paroxysmal positional vertigo (BPPV), causes spinning that lasts tens of seconds when you move your head — rolling over in bed or sitting up — without hearing loss or tinnitus__, which distinguishes it from Ménière's disease.",
       tests:
-        "Beyond a history, a __hearing test__ confirms whether hearing loss is present and to what degree. We make a judgment against diagnostic criteria based on the pattern of recurring episodes and hearing test results, and coordinate with an institution capable of imaging if another cause (such as a central nervous system condition) is suspected.",
+        "Beyond a history, a __hearing test__ confirms whether hearing loss is present and to what degree. We make a judgment against diagnostic criteria based on the pattern of recurring episodes and hearing test results, and coordinate with an institution capable of imaging if another cause (such as a central nervous system condition) is suspected. Vertigo that comes with __slurred speech, numbness or weakness in the arms or legs, double vision, or being unable to stand or walk straight__ may be a sign of __a stroke or another brain condition__. In that case, don't wait — call an ambulance right away.",
       treatment:
-        "During an acute episode, anti-vertigo and anti-nausea medication relieves symptoms, and during the interval between episodes, treatment centers on **a diuretic to reduce the fluid buildup** along with __lifestyle guidance (sleep, stress management, fluid intake, etc.)__. If episodes aren't adequately controlled with conservative treatment, we consider referral to an institution offering more specialized treatment such as middle ear pressure therapy or surgery.",
+        "During an acute episode, anti-vertigo and anti-nausea medication relieves symptoms, and during the interval between episodes, treatment centers on **a diuretic to reduce the fluid buildup** along with __lifestyle guidance (sleep, stress management, fluid intake, etc.)__. If episodes aren't adequately controlled with conservative treatment, we consider referral to an institution offering more specialized treatment such as middle ear pressure therapy or surgery. In daily life, __getting enough sleep, finding ways not to let stress build up, and moderate aerobic exercise such as walking__ are recommended to reduce attacks.",
       tip: "__If you're having repeated episodes that involve not just vertigo but also hearing loss or tinnitus__, Ménière's disease may be the cause. Because hearing can decline a little more with each episode, if this symptom pattern sounds familiar, we'd recommend coming in sooner rather than later.",
     },
   },
@@ -2007,29 +2007,29 @@ export const DISEASES: DiseaseEntry[] = [
     summary:
       "重い物を持ち上げた瞬間、急に腰が抜けるように痛む「ぎっくり腰」。多くは数日〜数週間で改善する、過度に心配しなくてよい痛みです。",
     pathology:
-      "__重い物を持ち上げた瞬間や、急に体をひねった時等__に、__腰に急激な痛みが走る状態__を指し、医学的には「急性腰痛症」と呼ばれます。__いわゆる「ぎっくり腰」は欧米では「魔女の一撃」とも呼ばれる__ほど、__突然で強い痛み__が特徴です。__原因の多くは、腰の筋肉や靱帯の軽い損傷等で、画像検査をしても特定の異常が見つからないことがほとんど__です。__発症後4週間以内の腰痛を急性腰痛、3か月以上続くものを慢性腰痛__と区別します。",
+      "__重い物を持ち上げた瞬間や、急に体をひねった時等__に、__腰に急激な痛みが走る状態__を指し、医学的には「急性腰痛症」と呼ばれます。__いわゆる「ぎっくり腰」は欧米では「魔女の一撃」とも呼ばれる__ほど、__突然で強い痛み__が特徴です。__原因の多くは、腰の筋肉や靱帯の軽い損傷等で、画像検査をしても特定の異常が見つからないことがほとんど__です。__発症後4週間以内の腰痛を急性腰痛、3か月以上続くものを慢性腰痛__と区別します。__腰を丸めて重い物を持ち上げる、くしゃみをする、顔を洗おうと前かがみになる__といった、何気ない動きがきっかけになることも少なくありません。",
     tests:
-      "__問診・診察で、足のしびれ・排尿排便の障害・発熱・体重減少等の「危険なサイン」の有無__を確認します。__多くの急性腰痛では、これらのサインがなければ、画像検査（X線・CT等）を急いで行う必要はない__とされています。危険なサインがある場合や、痛みが長引く場合には画像検査を検討します。",
+      "__問診・診察で、足のしびれ・排尿排便の障害・発熱・体重減少等の「危険なサイン」の有無__を確認します。__多くの急性腰痛では、これらのサインがなければ、画像検査（X線・CT等）を急いで行う必要はない__とされています。危険なサインがある場合や、痛みが長引く場合には画像検査を検討します。__ご高齢の方が尻もちなどのあとに強い腰痛が出た場合は、背骨の骨折（圧迫骨折）__の可能性があります。__横になって休んでいても痛む・夜も痛みで目が覚める、がんの治療を受けたことがある、熱がある__といった場合も、ほかの病気が隠れていないかを調べます。",
     treatment:
-      "__痛み止め（内服・湿布等）で痛みを和らげながら、「安静にし過ぎず、できる範囲で普段通りの生活を続ける」__ことが、回復を早めることが分かっています。__コルセット等で一時的に腰を保護する__ことも選択肢になります。__多くは数日〜数週間で自然に改善__します。__下肢のしびれ・脱力、排尿排便の障害を伴う場合__には、神経の圧迫（腰部脊柱管狭窄症・椎間板ヘルニア等）が疑われ、専門的な評価を行います。",
-    tip: "__「ぎっくり腰になったら絶対安静」というイメージを持たれがちです__が、__実際には安静にし過ぎるとかえって回復が遅れる__ことが分かっており、__痛みに応じて早期から普段の生活に戻ること__が推奨されています。__足のしびれ・力が入らない、おしっこ・便の調子がおかしい__等を伴う場合は、通常のぎっくり腰とは異なる可能性があるため、早めにご相談ください。",
+      "__痛み止め（内服・湿布等）で痛みを和らげながら、「安静にし過ぎず、できる範囲で普段通りの生活を続ける」__ことが、回復を早めることが分かっています。__コルセット等で一時的に腰を保護する__ことも選択肢になります。__多くは数日〜数週間で自然に改善__します。__下肢のしびれ・脱力、排尿排便の障害を伴う場合__には、神経の圧迫（腰部脊柱管狭窄症・椎間板ヘルニア等）が疑われ、専門的な評価を行います。__痛みが強い最初の1〜2日は、楽な姿勢で過ごしながら、痛みが少しやわらいだら、できる範囲で歩く・家事をする__ことから始めます。",
+    tip: "__「ぎっくり腰になったら絶対安静」というイメージを持たれがちです__が、__実際には安静にし過ぎるとかえって回復が遅れる__ことが分かっており、__痛みに応じて早期から普段の生活に戻ること__が推奨されています。__足のしびれ・力が入らない、おしっこ・便の調子がおかしい__等を伴う場合は、通常のぎっくり腰とは異なる可能性があるため、早めにご相談ください。__くり返さないためには__、物を持ち上げるときに腰だけを曲げず__ひざを曲げて体に近づけて持つ__、長く座り続けず__1時間に一度は立ち上がる__、__ウォーキングや軽い体操で体を動かす習慣__をつけることが役立ちます。",
     sources: [
       {
         label: "日本整形外科学会・日本腰痛学会「腰痛診療ガイドライン2019（改訂第2版）」",
         url: "https://minds.jcqhc.or.jp/summary/c00498/",
       },
     ],
-    lastReviewed: "2026-10-14",
+    lastReviewed: "2026-11-27",
     en: {
       title: "Acute low back pain (\"thrown-out back\")",
       summary: "A sudden, severe pain in the lower back at the moment of lifting something heavy — what's often called \"throwing out your back.\" In most cases it improves within days to weeks and isn't something to worry about excessively.",
       pathology:
-        "This refers to __a sudden, sharp pain in the lower back__, typically at __the moment of lifting something heavy or suddenly twisting the body__, and is medically called \"acute low back pain.\" What's commonly called \"throwing out your back\" is known in the West as being hit by \"the witch's stroke,\" reflecting just how __sudden and intense__ the pain can be. __In most cases, the cause is minor strain to the back muscles or ligaments, and imaging usually finds no specific abnormality.__ Back pain lasting __up to 4 weeks after onset is classified as acute, while pain lasting 3 months or more is classified as chronic__.",
+        "This refers to __a sudden, sharp pain in the lower back__, typically at __the moment of lifting something heavy or suddenly twisting the body__, and is medically called \"acute low back pain.\" What's commonly called \"throwing out your back\" is known in the West as being hit by \"the witch's stroke,\" reflecting just how __sudden and intense__ the pain can be. __In most cases, the cause is minor strain to the back muscles or ligaments, and imaging usually finds no specific abnormality.__ Back pain lasting __up to 4 weeks after onset is classified as acute, while pain lasting 3 months or more is classified as chronic__. It is often triggered by an ordinary movement, such as __lifting something heavy with a rounded back, sneezing, or bending forward to wash your face__.",
       tests:
-        "A history and exam check for __\"warning signs\" such as leg numbness, bladder or bowel problems, fever, or weight loss__. __For most cases of acute low back pain, if none of these warning signs are present, urgent imaging (X-ray, CT, etc.) isn't considered necessary.__ Imaging is considered if warning signs are present or the pain drags on.",
+        "A history and exam check for __\"warning signs\" such as leg numbness, bladder or bowel problems, fever, or weight loss__. __For most cases of acute low back pain, if none of these warning signs are present, urgent imaging (X-ray, CT, etc.) isn't considered necessary.__ Imaging is considered if warning signs are present or the pain drags on. __When an older adult develops strong back pain after a fall onto the buttocks, a spinal fracture (compression fracture)__ is possible. We also check for other conditions if __the pain persists even when lying down or wakes you at night, you have had cancer treatment, or you have a fever__.",
       treatment:
-        "It's known that __easing the pain with medication (oral or a topical patch) while \"not resting excessively, and continuing your usual daily activities as much as you reasonably can\"__ speeds recovery. __Temporarily supporting the lower back with a brace__ is also an option. __Most cases improve naturally within days to weeks.__ __If numbness or weakness in the legs, or bladder/bowel problems, are present__, nerve compression (such as spinal stenosis or a herniated disc) is suspected, and we carry out a specialized evaluation.",
-      tip: "__People often picture \"strict bed rest\" as the response to throwing out your back,__ but __we now know that resting too much can actually slow recovery__, and __returning to your usual activities early, as your pain allows, is recommended.__ __If it comes with leg numbness, weakness, or bladder/bowel changes__, it may be something other than a typical thrown-out back, so please come talk to us sooner rather than later.",
+        "It's known that __easing the pain with medication (oral or a topical patch) while \"not resting excessively, and continuing your usual daily activities as much as you reasonably can\"__ speeds recovery. __Temporarily supporting the lower back with a brace__ is also an option. __Most cases improve naturally within days to weeks.__ __If numbness or weakness in the legs, or bladder/bowel problems, are present__, nerve compression (such as spinal stenosis or a herniated disc) is suspected, and we carry out a specialized evaluation. __For the first 1–2 days when the pain is strongest, rest in a comfortable position; once it eases a little, start with walking and household tasks within your limits.__",
+      tip: "__People often picture \"strict bed rest\" as the response to throwing out your back,__ but __we now know that resting too much can actually slow recovery__, and __returning to your usual activities early, as your pain allows, is recommended.__ __If it comes with leg numbness, weakness, or bladder/bowel changes__, it may be something other than a typical thrown-out back, so please come talk to us sooner rather than later. __To keep it from coming back__, lift by __bending your knees and holding the object close to your body__ rather than bending only at the waist, __stand up at least once an hour__ instead of sitting for long periods, and build a __habit of moving, such as walking or light exercises__.",
     },
   },
   {
@@ -2070,29 +2070,29 @@ export const DISEASES: DiseaseEntry[] = [
     category: "internal",
     summary: "花粉に対するアレルギー反応でくしゃみ・鼻水・鼻づまり・目のかゆみ等が起こります。重症度に応じた治療法が確立しており、重い症状には注射薬や手術まで選択肢があります。",
     pathology:
-      "花粉症は有病率（その病気がある人の割合）が**4割を超える**ともいわれる国民病で、近年は重症例の増加も指摘されています。くしゃみ・鼻水が主体の「くしゃみ・鼻漏型」、鼻づまりが主体の「鼻閉型」、両方がみられる「充全型」に分けられ、__くしゃみ発作・鼻漏の回数や口呼吸になる時間の長さによって、軽症から最重症まで段階的に重症度が分類される__ことが特徴です。症状が重いほど、早い段階での適切な治療が勧められています。",
+      "花粉症は有病率（その病気がある人の割合）が**4割を超える**ともいわれる国民病で、近年は重症例の増加も指摘されています。くしゃみ・鼻水が主体の「くしゃみ・鼻漏型」、鼻づまりが主体の「鼻閉型」、両方がみられる「充全型」に分けられ、__くしゃみ発作・鼻漏の回数や口呼吸になる時間の長さによって、軽症から最重症まで段階的に重症度が分類される__ことが特徴です。症状が重いほど、早い段階での適切な治療が勧められています。日本では、__スギ花粉がおおむね2〜4月、ヒノキ花粉が3〜5月__ごろに多く飛び、__イネ科（初夏）やブタクサ・ヨモギなど（秋）__でも症状が出る方がいます。毎年同じ時期に症状が出る場合は、花粉症の可能性が高くなります。",
     tests:
       "問診と鼻の中の観察（鼻鏡・内視鏡検査）で診断することが多く、典型的な所見（診察や検査で見つかった変化）があればそのまま治療を開始します。診断がはっきりしない場合や薬の効果が乏しい場合、根本的な体質改善を目指す治療（アレルゲン免疫療法）を検討する場合には、血液検査（アレルギー検査）や皮膚テスト、鼻の症状を誘発させて確認する鼻誘発試験等を組み合わせて確定診断を行います。",
     treatment:
-      "症状の程度に応じた段階的な治療が基本です。軽症〜中等症では第2世代抗ヒスタミン薬や鼻噴霧用ステロイド薬を中心に、重症・最重症では__これらを複数組み合わせて__用い、必要に応じて点鼻用血管収縮薬を短期間（2週間程度）、症状が特に強い場合は経口ステロイド薬を1週間程度併用します。**標準治療でも症状が改善しない重症の花粉症には、抗IgE抗体（オマリズマブ）という注射薬**が、スギ花粉症の確定診断等一定の条件を満たす場合に使用できることが、近年のガイドラインに明記されました。花粉の飛散が始まる前からの「初期治療」や、根本的な体質改善を目指すアレルゲン免疫療法（舌下免疫療法等）も、症状の軽減や将来的な改善が期待される選択肢です。",
-    tip: "__「毎年のことだから」と市販薬だけで過ごしている重い花粉症__の中には、注射薬まで含めた治療で大きく改善する余地が残っているケースがあります。強い鼻づまりが続く・眠れないほど症状が強い等でお困りの場合は、一度ご相談ください。",
+      "症状の程度に応じた段階的な治療が基本です。軽症〜中等症では第2世代抗ヒスタミン薬や鼻噴霧用ステロイド薬を中心に、重症・最重症では__これらを複数組み合わせて__用い、必要に応じて点鼻用血管収縮薬を短期間（2週間程度）、症状が特に強い場合は経口ステロイド薬を1週間程度併用します。**標準治療でも症状が改善しない重症の花粉症には、抗IgE抗体（オマリズマブ）という注射薬**が、スギ花粉症の確定診断等一定の条件を満たす場合に使用できることが、近年のガイドラインに明記されました。花粉の飛散が始まる前からの「初期治療」や、根本的な体質改善を目指すアレルゲン免疫療法（舌下免疫療法等）も、症状の軽減や将来的な改善が期待される選択肢です。__車の運転や細かい作業をする方には、眠気の出にくいお薬__を選びます。市販の鼻炎薬や風邪薬には眠くなる成分が入っているものも多いため、お薬手帳を見ながらご相談ください。",
+    tip: "__「毎年のことだから」と市販薬だけで過ごしている重い花粉症__の中には、注射薬まで含めた治療で大きく改善する余地が残っているケースがあります。強い鼻づまりが続く・眠れないほど症状が強い等でお困りの場合は、一度ご相談ください。毎日の工夫として、__外出時のマスク・メガネ、帰宅したら玄関で衣服の花粉を払う、洗顔・うがい、飛散の多い日は洗濯物や布団を外に干さない__ことも、症状を軽くするのに役立ちます。",
     sources: [
       {
         label: "日本鼻科学会（鼻アレルギー診療ガイドライン作成委員会）「鼻アレルギー診療ガイドライン－通年性鼻炎と花粉症－2024年版（改訂第10版）」",
         url: "https://minds.jcqhc.or.jp/guidelines_kind/%E9%BC%BB%E3%82%A2%E3%83%AC%E3%83%AB%E3%82%AE%E3%83%BC/",
       },
     ],
-    lastReviewed: "2026-10-10",
+    lastReviewed: "2026-11-27",
     en: {
       title: "Hay fever (seasonal allergic rhinitis)",
       summary: "An allergic reaction to pollen causing sneezing, a runny nose, nasal congestion, and itchy eyes. Treatment approaches are well established by severity, with options ranging up to injectable medication and surgery for severe cases.",
       pathology:
-        "Hay fever is sometimes described as a national condition, with a prevalence said to exceed **40%**, and recent years have also seen an increase in severe cases. It's divided into a \"sneezing/runny nose type\" (dominated by sneezing and discharge), a \"congestion type\" (dominated by nasal blockage), and a \"combined type\" (both). A notable feature is that __severity is classified step by step, from mild to most severe, based on the frequency of sneezing attacks and discharge, and how much time is spent breathing through the mouth__. The more severe the symptoms, the more that early, appropriate treatment is recommended.",
+        "Hay fever is sometimes described as a national condition, with a prevalence said to exceed **40%**, and recent years have also seen an increase in severe cases. It's divided into a \"sneezing/runny nose type\" (dominated by sneezing and discharge), a \"congestion type\" (dominated by nasal blockage), and a \"combined type\" (both). A notable feature is that __severity is classified step by step, from mild to most severe, based on the frequency of sneezing attacks and discharge, and how much time is spent breathing through the mouth__. The more severe the symptoms, the more that early, appropriate treatment is recommended. In Japan, __Japanese cedar pollen is mostly airborne from about February to April and cypress pollen from about March to May__, and some people also react to __grasses (early summer) or ragweed and mugwort (autumn)__. Symptoms that appear at the same time every year make hay fever more likely.",
       tests:
         "Diagnosis is often made through a history and examination inside the nose (using a nasal speculum or endoscope), and treatment typically begins right away if the findings are typical. If the diagnosis isn't clear, medication isn't working well, or treatment aimed at fundamentally changing your allergic tendency (allergen immunotherapy) is being considered, we combine a blood test (allergy testing), skin testing, and a nasal provocation test (deliberately triggering and observing a nasal reaction) to reach a confirmed diagnosis.",
       treatment:
-        "Treatment is staged according to severity. For mild to moderate cases, treatment centers on second-generation antihistamines and nasal steroid sprays; for severe and most severe cases, __these are combined__, with a nasal decongestant spray used short-term (around 2 weeks) as needed, and oral steroids added for about a week if symptoms are especially intense. Recent guidelines have made clear that **an injectable anti-IgE antibody medication (omalizumab) can be used for severe hay fever that doesn't improve with standard treatment**, when certain conditions are met, such as a confirmed diagnosis of Japanese cedar pollen allergy. \"Early treatment\" started before pollen season begins, and allergen immunotherapy (such as sublingual immunotherapy) aimed at fundamentally changing your allergic tendency, are also options that can reduce symptoms and offer hope of long-term improvement.",
-      tip: "__Among those managing severe hay fever with over-the-counter medication alone, year after year,__ some have real room for improvement with treatment that includes injectable medication. If you're struggling with persistent severe congestion, or symptoms bad enough to interfere with sleep, please come talk it over with us.",
+        "Treatment is staged according to severity. For mild to moderate cases, treatment centers on second-generation antihistamines and nasal steroid sprays; for severe and most severe cases, __these are combined__, with a nasal decongestant spray used short-term (around 2 weeks) as needed, and oral steroids added for about a week if symptoms are especially intense. Recent guidelines have made clear that **an injectable anti-IgE antibody medication (omalizumab) can be used for severe hay fever that doesn't improve with standard treatment**, when certain conditions are met, such as a confirmed diagnosis of Japanese cedar pollen allergy. \"Early treatment\" started before pollen season begins, and allergen immunotherapy (such as sublingual immunotherapy) aimed at fundamentally changing your allergic tendency, are also options that can reduce symptoms and offer hope of long-term improvement. __For people who drive or do detailed work, we choose medicines that are less likely to cause drowsiness.__ Many over-the-counter allergy and cold medicines contain ingredients that cause drowsiness, so please consult us with your medication record.",
+      tip: "__Among those managing severe hay fever with over-the-counter medication alone, year after year,__ some have real room for improvement with treatment that includes injectable medication. If you're struggling with persistent severe congestion, or symptoms bad enough to interfere with sleep, please come talk it over with us. Everyday measures also help ease symptoms: __wearing a mask and glasses when you go out, brushing pollen off your clothes at the door when you get home, washing your face and gargling, and not drying laundry or futons outdoors on high-pollen days__.",
     },
   },
   {
@@ -2460,11 +2460,11 @@ export const DISEASES: DiseaseEntry[] = [
     category: "surgical",
     summary: "皮下にできる軟部腫瘍の中で最も頻度の高い良性のしこりです。柔らかく痛みのないことが多いですが、見た目だけで他の病気と区別がつかないこともあります。",
     pathology:
-      "脂肪腫（皮膚の下にできる、やわらかい脂肪のかたまり）は、皮下にできる軟部組織の腫瘍の中で**最も頻度の高い良性のできもの**です。成熟した脂肪細胞が薄い被膜に包まれてできる柔らかいしこりで、多くはゆっくりと大きくなり、痛みを伴わないことがほとんどです。背中・肩・首まわりなど体幹に近い部位にできやすく、40〜50歳代や女性、肥満のある方にやや多いとされています。皮膚がドーム状に盛り上がり、押すと柔らかく動く塊として触れるのが特徴です。",
+      "脂肪腫（皮膚の下にできる、やわらかい脂肪のかたまり）は、皮下にできる軟部組織の腫瘍の中で**最も頻度の高い良性のできもの**です。成熟した脂肪細胞が薄い被膜に包まれてできる柔らかいしこりで、多くはゆっくりと大きくなり、痛みを伴わないことがほとんどです。背中・肩・首まわりなど体幹に近い部位にできやすく、40〜50歳代や女性、肥満のある方にやや多いとされています。皮膚がドーム状に盛り上がり、押すと柔らかく動く塊として触れるのが特徴です。__よく似たしこりに「粉瘤（ふんりゅう）」__があります。粉瘤は皮膚の下に袋ができて垢や皮脂がたまるもので、__皮膚とくっついていて、中央に小さな黒い点（開口部）が見られる__ことがあり、__押すとにおいのある内容物が出たり、赤く腫れて痛んだり__します。一方、脂肪腫は__皮膚の下にあって皮膚とはくっついておらず、やわらかく、炎症を起こすことはまれ__です。",
     tests:
       "視診・触診に加えて、**体表超音波（エコー）検査で深さや広がりを評価**します。必要に応じてCT・MRIで性状を確認することもあります。__まれに、画像だけでは悪性の脂肪肉腫との区別が難しいケースがある__ため、急速に大きくなる・硬さがある・サイズが大きい等の所見（診察や検査で見つかった変化）がある場合は、摘出して組織を調べることをお勧めすることがあります。",
     treatment:
-      "根本的な治療は**手術による摘出**です。腫瘍の大きさに合わせて皮膚を切開し、周囲の組織や被膜を傷つけないよう丁寧に剥がして摘出します。摘出後は出血が溜まらないよう十分に止血し、大きさに応じてドレーン（排液管）を一時的に留置して圧迫固定することもあります。症状がなく小さいものは経過観察でも問題ありませんが、ご希望やサイズ・部位に応じて日帰り手術での摘出を相談しながら決めていきます。",
+      "根本的な治療は**手術による摘出**です。腫瘍の大きさに合わせて皮膚を切開し、周囲の組織や被膜を傷つけないよう丁寧に剥がして摘出します。摘出後は出血が溜まらないよう十分に止血し、大きさに応じてドレーン（排液管）を一時的に留置して圧迫固定することもあります。症状がなく小さいものは経過観察でも問題ありませんが、ご希望やサイズ・部位に応じて日帰り手術での摘出を相談しながら決めていきます。__多くは局所麻酔での日帰り手術__で取ることができ、傷あとはしこりの大きさに応じた長さになります。__大きいもの（目安として5cmを超えるもの）や、筋肉の下など深い場所にあるもの__は、より大きな病院での手術をご紹介することがあります。取り出した脂肪腫は、__病理検査（顕微鏡で詳しく調べる検査）__に出して、良性であることを確かめます。",
     tip: "摘出後の再発はまれとされており、きちんと取りきれば根本的な解決になります。__急に大きくなった・硬くなった・動きにくくなった__等の変化がある場合は、念のため一度ご相談ください。",
     sources: [
       {
@@ -2472,16 +2472,16 @@ export const DISEASES: DiseaseEntry[] = [
         url: "https://jsprs.or.jp/general/disease/shuyo/hifu_hika/shiboshu.html",
       },
     ],
-    lastReviewed: "2026-10-10",
+    lastReviewed: "2026-11-27",
     en: {
       title: "Lipoma",
       summary: "The most common type of benign soft-tissue lump found under the skin. Usually soft and painless, though appearance alone isn't always enough to distinguish it from other conditions.",
       pathology:
-        "A lipoma is the **most common type of benign growth** found among soft-tissue tumors under the skin. It's a soft lump formed from mature fat cells wrapped in a thin capsule, usually growing slowly and, in most cases, painless. It tends to form on the trunk — the back, shoulders, around the neck — and is somewhat more common in people in their 40s and 50s, in women, and in those who are overweight. A characteristic feature is a dome-shaped bulge in the skin that feels soft and moves when pressed.",
+        "A lipoma is the **most common type of benign growth** found among soft-tissue tumors under the skin. It's a soft lump formed from mature fat cells wrapped in a thin capsule, usually growing slowly and, in most cases, painless. It tends to form on the trunk — the back, shoulders, around the neck — and is somewhat more common in people in their 40s and 50s, in women, and in those who are overweight. A characteristic feature is a dome-shaped bulge in the skin that feels soft and moves when pressed. __A similar-looking lump is an \"epidermoid cyst\" (atheroma).__ This is a sac under the skin filled with skin debris and oil; it is __attached to the skin and may have a small black dot (opening) in the centre__, and __pressing it may release foul-smelling material, or it may become red, swollen and painful__. A lipoma, by contrast, __sits beneath the skin without being attached to it, feels soft, and rarely becomes inflamed__.",
       tests:
         "Beyond visual inspection and palpation, we **evaluate its depth and extent with surface ultrasound**. CT or MRI may be used to confirm its characteristics as needed. __In rare cases, imaging alone can't reliably distinguish it from a malignant liposarcoma__, so if it's growing rapidly, feels firm, or is large, we may recommend removing it to examine the tissue.",
       treatment:
-        "The definitive treatment is **surgical removal**. We make an incision sized to the lump and carefully separate it, along with its surrounding tissue and capsule, without damaging anything nearby. After removal, we achieve thorough hemostasis to prevent blood from pooling, and may temporarily place a drain and apply compression, depending on the size. A small, symptomless lipoma can also simply be monitored, but we discuss and decide together on same-day surgical removal based on your preference, size, and location.",
+        "The definitive treatment is **surgical removal**. We make an incision sized to the lump and carefully separate it, along with its surrounding tissue and capsule, without damaging anything nearby. After removal, we achieve thorough hemostasis to prevent blood from pooling, and may temporarily place a drain and apply compression, depending on the size. A small, symptomless lipoma can also simply be monitored, but we discuss and decide together on same-day surgical removal based on your preference, size, and location. __Most can be removed as a day procedure under local anaesthesia__, and the scar length depends on the size of the lump. __Large ones (roughly over 5 cm) or those lying deep, such as under a muscle__, may be referred to a larger hospital for surgery. The removed lipoma is sent for __pathology (examination under a microscope)__ to confirm it is benign.",
       tip: "Recurrence after removal is considered rare, and complete removal resolves the issue for good. If you notice it __suddenly growing larger, becoming firmer, or becoming less mobile__, please come talk to it over with us just to be safe.",
     },
   },
@@ -2491,27 +2491,27 @@ export const DISEASES: DiseaseEntry[] = [
     category: "surgical",
     summary: "爪が周囲の皮膚に食い込み、痛み・炎症・化膿を起こすことがある状態です。多くは保存的治療から始めます。",
     pathology:
-      "爪が周囲の皮膚に食い込み、痛み・炎症・化膿を起こすことがある状態。深爪や合わない靴、爪の変形等が誘因となります。__不適切な爪の切り方（特に角を丸く切りすぎること）は症状を悪化させる__ことが知られており、爪は指の先端より少し長めに、角を残して四角く切る（スクエアオフ）ことが勧められます。",
-    tests: "視診。炎症・化膿の程度や爪の形状を確認します。",
+      "爪が周囲の皮膚に食い込み、痛み・炎症・化膿を起こすことがある状態。深爪や合わない靴、爪の変形等が誘因となります。__不適切な爪の切り方（特に角を丸く切りすぎること）は症状を悪化させる__ことが知られており、爪は指の先端より少し長めに、角を残して四角く切る（スクエアオフ）ことが勧められます。__「巻き爪」は、爪の両端が内側に巻いて丸まった状態、「陥入爪」は、爪の端が皮膚に食い込んで炎症を起こした状態__を指し、両方が重なっていることもよくあります。__足の親指__に多く、__先の細い靴やきつい靴、深爪__のほか、__あまり歩かない・寝ている時間が長い__と、地面からの押し返す力がかからず爪が巻きやすくなるといわれています。",
+    tests: "視診。炎症・化膿の程度や爪の形状を確認します。__赤く腫れてうみが出ている、肉が盛り上がっている（肉芽）__かどうかも確認します。",
     treatment:
-      "軽度から中等度の場合、__テーピングや爪の形を整える矯正処置等の保存的治療がまず有効__とされています。いきなりの外科的治療は推奨されておらず、保存的治療で改善が乏しい場合や炎症を繰り返す場合に、フェノール法（炎症の原因となる爪の端の一部を薬剤で処理する方法）などの手術的処置を検討します。フェノール法は術後の痛みが少ない処置として位置づけられています。",
-    tip: "深爪や合わない靴が誘因となることが多く、__日常の爪の切り方・靴選びの見直し__も予防に役立ちます。自己判断で爪の端を無理に切り込んだり放置したりすると悪化することがあるため、痛みが続く場合は早めにご相談ください。",
+      "軽度から中等度の場合、__テーピングや爪の形を整える矯正処置等の保存的治療がまず有効__とされています。いきなりの外科的治療は推奨されておらず、保存的治療で改善が乏しい場合や炎症を繰り返す場合に、フェノール法（炎症の原因となる爪の端の一部を薬剤で処理する方法）などの手術的処置を検討します。フェノール法は術後の痛みが少ない処置として位置づけられています。__うみがたまって炎症が強いときは、抗菌薬（いわゆる抗生物質）で炎症を落ち着かせて__から処置を考えます。爪にワイヤーやプレートを付けて巻きをゆるめる矯正の方法もありますが、__保険が使えない場合がある__ため、方法と費用は事前にご説明します。",
+    tip: "深爪や合わない靴が誘因となることが多く、__日常の爪の切り方・靴選びの見直し__も予防に役立ちます。自己判断で爪の端を無理に切り込んだり放置したりすると悪化することがあるため、痛みが続く場合は早めにご相談ください。__糖尿病のある方や、足の血流が悪い方__は、小さな傷や炎症から治りにくい感染に進むことがあります。__ご自分で爪の角を深く切り込まず__、早めにご相談ください。",
     sources: [
       {
         label: "日本創傷外科学会「創傷関連ガイドライン　第Ⅱ編 感染創診療ガイドライン（陥入爪・巻き爪）」",
         url: "https://www.jsswc.or.jp/guideline.html",
       },
     ],
-    lastReviewed: "2026-10-10",
+    lastReviewed: "2026-11-27",
     en: {
       title: "Ingrown toenails / curled nails",
       summary: "A condition where the nail digs into the surrounding skin, sometimes causing pain, inflammation, and infection. Treatment usually starts with conservative measures.",
       pathology:
-        "This is a condition where the nail digs into the surrounding skin, sometimes causing pain, inflammation, and infection. It's often triggered by cutting nails too short, ill-fitting shoes, or a deformed nail shape. __Improper nail-cutting technique — especially rounding the corners too much — is known to make symptoms worse__, so it's recommended to cut the nail slightly longer than the end of the toe, leaving the corners square (\"square-off\" cutting).",
-      tests: "Visual inspection, checking the degree of inflammation or infection and the shape of the nail.",
+        "This is a condition where the nail digs into the surrounding skin, sometimes causing pain, inflammation, and infection. It's often triggered by cutting nails too short, ill-fitting shoes, or a deformed nail shape. __Improper nail-cutting technique — especially rounding the corners too much — is known to make symptoms worse__, so it's recommended to cut the nail slightly longer than the end of the toe, leaving the corners square (\"square-off\" cutting). __An \"involuted (curved) nail\" is one where both edges curl inward, while an \"ingrown nail\" is one whose edge digs into the skin and causes inflammation__; the two often occur together. It is most common on __the big toe__. Besides __narrow or tight shoes and cutting nails too short__, __walking little or spending long periods lying down__ is said to make nails curl, because the nail no longer gets the counter-pressure from the ground.",
+      tests: "Visual inspection, checking the degree of inflammation or infection and the shape of the nail. We also check whether __it is red, swollen and oozing pus, or whether there is overgrown tissue (granulation)__.",
       treatment:
-        "For mild to moderate cases, __conservative treatment — taping or procedures to reshape the nail — is usually effective as a first step__. Jumping straight to surgery isn't recommended; surgical procedures, such as the phenol method (chemically treating part of the nail edge that's causing inflammation), are considered when conservative treatment doesn't bring enough improvement or inflammation keeps recurring. The phenol method is recognized as a procedure with relatively little post-procedure pain.",
-      tip: "Nails cut too short and ill-fitting shoes are common triggers, so __reviewing your everyday nail-cutting habits and shoe choice__ also helps with prevention. Forcefully cutting into the nail corner yourself, or leaving it alone, can make things worse, so please come talk to us sooner rather than later if pain persists.",
+        "For mild to moderate cases, __conservative treatment — taping or procedures to reshape the nail — is usually effective as a first step__. Jumping straight to surgery isn't recommended; surgical procedures, such as the phenol method (chemically treating part of the nail edge that's causing inflammation), are considered when conservative treatment doesn't bring enough improvement or inflammation keeps recurring. The phenol method is recognized as a procedure with relatively little post-procedure pain. __When pus has built up and the inflammation is strong, we first settle it with antibiotics__ before considering a procedure. Correction methods that attach a wire or plate to the nail to ease the curl also exist, but __they may not be covered by insurance__, so we explain the method and cost beforehand.",
+      tip: "Nails cut too short and ill-fitting shoes are common triggers, so __reviewing your everyday nail-cutting habits and shoe choice__ also helps with prevention. Forcefully cutting into the nail corner yourself, or leaving it alone, can make things worse, so please come talk to us sooner rather than later if pain persists. __People with diabetes or poor blood flow in the feet__ can see a small wound or inflammation progress to a hard-to-heal infection. __Please don't cut deep into the corners of the nail yourself__ — come in early.",
     },
   },
   {
@@ -2692,23 +2692,23 @@ export const DISEASES: DiseaseEntry[] = [
     category: "surgical",
     summary: "腸の内容物の流れが止まってしまう状態です。「腸閉塞」と「イレウス」は日本の臨床現場では同じ意味で使われがちですが、本来は原因が異なる2つのタイプがあります。",
     pathology:
-      "腸の中身（消化物やガス）の流れが、何らかの原因で止まってしまった状態です。日本では「腸閉塞」と「イレウス」という言葉が__同じ意味で使われることが多い__のですが、本来は原因によって2つのタイプに分かれます。**①機械的な閉塞（狭い意味での腸閉塞、英語ではbowel obstruction）**は、お腹の手術後の癒着・腫瘍・ヘルニアの嵌頓（かんとん）・腸重積等、__腸そのものが物理的にふさがれたり折れ曲がったりする__ことで起こります。**②機能的な閉塞（麻痺性イレウス・腸管麻痺、英語ではparalytic ileus）**は、物理的な閉塞はないものの、__腹膜炎や開腹手術後等で腸の動き（蠕動運動）が弱まり、内容物が先に進めなくなる__ことで起こります。特に①のうち、腸への血流が障害されるタイプ（絞扼性腸閉塞、英語ではstrangulated bowel obstruction。絞扼性イレウスとも呼ばれます）は、**腸が壊死してしまう危険があるため緊急の対応が必要**です。",
+      "腸の中身（消化物やガス）の流れが、何らかの原因で止まってしまった状態です。日本では「腸閉塞」と「イレウス」という言葉が__同じ意味で使われることが多い__のですが、本来は原因によって2つのタイプに分かれます。**①機械的な閉塞（狭い意味での腸閉塞、英語ではbowel obstruction）**は、お腹の手術後の癒着・腫瘍・ヘルニアの嵌頓（かんとん）・腸重積等、__腸そのものが物理的にふさがれたり折れ曲がったりする__ことで起こります。**②機能的な閉塞（麻痺性イレウス・腸管麻痺、英語ではparalytic ileus）**は、物理的な閉塞はないものの、__腹膜炎や開腹手術後等で腸の動き（蠕動運動）が弱まり、内容物が先に進めなくなる__ことで起こります。特に①のうち、腸への血流が障害されるタイプ（絞扼性腸閉塞、英語ではstrangulated bowel obstruction。絞扼性イレウスとも呼ばれます）は、**腸が壊死してしまう危険があるため緊急の対応が必要**です。__原因として最も多いのは、過去のお腹の手術による癒着__です。手術から何年もたってから起こることもあります。__ご高齢の方では、大腸がんや強い便秘が原因になる__こともあります。症状は、__お腹の張り、波のように強くなったり弱くなったりする腹痛、吐き気・おう吐、おならや便が出なくなる__ことが中心で、__小腸がつまるとおう吐が早く目立ち、大腸がつまるとお腹の張りが強く出やすい__傾向があります。",
     tests:
       "問診・診察（お腹の張り・腸の音の聴診等）に加え、__腹部X線・CT検査__で、腸の拡張やガス・液体のたまり方、閉塞の原因・部位を評価します。血流障害を伴う絞扼性腸閉塞が疑われる場合は、特に迅速な評価と対応が必要です。",
     treatment:
-      "多くは、__飲食を中断し、鼻からチューブを入れて腸の中のガス・液体を抜く処置（減圧）__と点滴による水分・電解質補給を行う保存的治療から開始します。機能的な閉塞（麻痺性イレウス）は、多くの場合この保存的治療で改善します。機械的な閉塞のうち、**血流障害を伴う絞扼性腸閉塞や、保存的治療で改善しない場合には、緊急手術が必要**となることがあり、専門的な治療が可能な医療機関と連携します。",
+      "多くは、__飲食を中断し、鼻からチューブを入れて腸の中のガス・液体を抜く処置（減圧）__と点滴による水分・電解質補給を行う保存的治療から開始します。機能的な閉塞（麻痺性イレウス）は、多くの場合この保存的治療で改善します。機械的な閉塞のうち、**血流障害を伴う絞扼性腸閉塞や、保存的治療で改善しない場合には、緊急手術が必要**となることがあり、専門的な治療が可能な医療機関と連携します。__鼻から入れる細い管（胃管）では足りない場合、より長い管（イレウス管）を小腸まで進めて減圧する__こともあります。__癒着による腸閉塞は繰り返すことがある__ため、退院後も、__よくかんでゆっくり食べる、海藻・きのこ・こんにゃくなど消化しにくいものを一度にたくさん食べない、便秘をためない__ことが再発予防に役立ちます。",
     tip: "__お腹の張り・激しい腹痛・繰り返す嘔吐に加えて、ガスやおならが全く出ない状態__が続く場合は、腸閉塞を疑う重要なサインです。様子を見ずに、早めの受診・ご相談をおすすめします。過去にお腹の手術を受けたことがある方は、癒着による腸閉塞のリスクがあることも知っておいていただきたい点です。",
     sources: [],
-    lastReviewed: "2026-10-24",
+    lastReviewed: "2026-11-27",
     en: {
       title: "Bowel obstruction (ileus)",
       summary: "A condition where the contents of the intestine stop moving through. In everyday Japanese clinical use, \"bowel obstruction\" and \"ileus\" are often used interchangeably, but they're technically two distinct types with different causes.",
       pathology:
-        "This is a state where the contents of the intestine (digested material and gas) stop moving along, for one of several reasons. In Japan, the terms for \"bowel obstruction\" and \"ileus\" are __often used interchangeably in everyday clinical conversation__, but they technically refer to two distinct types based on cause. **① Mechanical obstruction (bowel obstruction in the strict sense)** happens when __the intestine itself is physically blocked or kinked__ — from adhesions after abdominal surgery, a tumor, a strangulated hernia, intussusception, and similar causes. **② Functional obstruction (paralytic ileus)** happens when there's no physical blockage, but __the intestine's muscular movement (peristalsis) weakens__ — for example after peritonitis or abdominal surgery — so contents simply stop advancing. Within type ①, the subtype where blood flow to the intestine is compromised (strangulated obstruction) carries a **risk of the bowel tissue dying, and needs urgent treatment.**",
+        "This is a state where the contents of the intestine (digested material and gas) stop moving along, for one of several reasons. In Japan, the terms for \"bowel obstruction\" and \"ileus\" are __often used interchangeably in everyday clinical conversation__, but they technically refer to two distinct types based on cause. **① Mechanical obstruction (bowel obstruction in the strict sense)** happens when __the intestine itself is physically blocked or kinked__ — from adhesions after abdominal surgery, a tumor, a strangulated hernia, intussusception, and similar causes. **② Functional obstruction (paralytic ileus)** happens when there's no physical blockage, but __the intestine's muscular movement (peristalsis) weakens__ — for example after peritonitis or abdominal surgery — so contents simply stop advancing. Within type ①, the subtype where blood flow to the intestine is compromised (strangulated obstruction) carries a **risk of the bowel tissue dying, and needs urgent treatment.** __The most common cause is adhesions from previous abdominal surgery__, which can appear many years after the operation. __In older adults, colon cancer or severe constipation can also be the cause.__ The main symptoms are __abdominal bloating, cramping pain that comes in waves, nausea and vomiting, and being unable to pass gas or stool__. __When the small intestine is blocked, vomiting tends to appear early; when the large intestine is blocked, bloating tends to be more marked.__",
       tests:
         "Beyond a history and physical exam (checking for abdominal distension, listening for bowel sounds), we evaluate with __abdominal X-ray and CT scans__ to assess how distended the bowel is, how gas and fluid have accumulated, and the cause and location of the obstruction. If a strangulated obstruction with compromised blood flow is suspected, especially rapid evaluation and treatment are needed.",
       treatment:
-        "Most cases start with conservative treatment: __stopping all food and drink, and placing a tube through the nose to decompress the bowel by draining gas and fluid__, along with IV fluids and electrolytes. Functional obstruction (paralytic ileus) usually improves with this conservative approach alone. Among mechanical obstructions, **a strangulated obstruction with compromised blood flow, or one that doesn't improve with conservative treatment, may require emergency surgery**, and we coordinate with an institution capable of that specialized care.",
+        "Most cases start with conservative treatment: __stopping all food and drink, and placing a tube through the nose to decompress the bowel by draining gas and fluid__, along with IV fluids and electrolytes. Functional obstruction (paralytic ileus) usually improves with this conservative approach alone. Among mechanical obstructions, **a strangulated obstruction with compromised blood flow, or one that doesn't improve with conservative treatment, may require emergency surgery**, and we coordinate with an institution capable of that specialized care. __If a thin tube through the nose (nasogastric tube) is not enough, a longer tube (long intestinal tube) may be advanced into the small intestine to decompress it.__ __Obstruction caused by adhesions can recur__, so after discharge it helps to __chew well and eat slowly, avoid eating large amounts of hard-to-digest foods such as seaweed, mushrooms and konnyaku at once, and avoid letting constipation build up__.",
       tip: "__Abdominal distension, severe abdominal pain, and repeated vomiting, combined with a complete inability to pass gas or stool,__ is an important warning sign of bowel obstruction. Please don't wait and see — come in or get in touch sooner rather than later. If you've had abdominal surgery in the past, it's also worth knowing that adhesions can put you at risk for this kind of obstruction.",
     },
   },
