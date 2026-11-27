@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import { useEffect, useState } from "react";
 import SectionHeading from "../components/SectionHeading";
 import { useSite } from "../lib/site";
 import { posts, getPost, getContent } from "../lib/blog";
@@ -10,11 +11,19 @@ import { SNS_FEATURED } from "../lib/sns-featured";
  * Instagram・Facebook のアプリ内ブラウザでは、スクロールで表示するアニメーション（FadeIn）が
  * 動かず白紙に見えることがあるため、このページでは使わない（開いた瞬間に全部見える）。 */
 /** Vercel Analytics の「UTM Parameters」で、/sns からどのページに進んだかを数えるための目印。
- * utm_content にはリンク先の名前（記事のスラッグなど）を入れる。 */
-const track = (href: string, content: string) =>
-  `${href}?utm_source=instagram&utm_medium=sns_page&utm_content=${encodeURIComponent(content)}`;
+ * utm_content にはリンク先の名前（記事のスラッグなど）を入れる。
+ * utm_source は /sns に来たときの目印を引き継ぐ（YouTube のプロフィールは /sns?utm_source=youtube）。
+ * 目印がなければ instagram とみなす。 */
+const SOURCES = ["instagram", "youtube", "facebook"];
 
 export default function SnsPageClient() {
+  const [source, setSource] = useState("instagram");
+  useEffect(() => {
+    const s = new URLSearchParams(window.location.search).get("utm_source");
+    if (s && SOURCES.includes(s)) setSource(s);
+  }, []);
+  const track = (href: string, content: string) =>
+    `${href}?utm_source=${source}&utm_medium=sns_page&utm_content=${encodeURIComponent(content)}`;
   const { lang } = useSite();
   const ja = lang === "ja";
   type Item = { key: string; href: string; title: string; cover?: string; date?: string };

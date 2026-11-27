@@ -9,7 +9,7 @@ title_ja: "胆のう炎は自然に治る？ 手術しないとだめ？——�
 title_en: "Does cholecystitis heal on its own? Do I need surgery? A doctor answers 7 common questions"
 excerpt_ja: "痛みが引いたから、もう大丈夫。実はそこが、胆のう炎でいちばん多い勘違いです。"
 excerpt_en: "\"The pain is gone, so I'm fine.\" That's actually the most common misunderstanding about cholecystitis."
-seo_title_ja: "胆のう炎は自然に治る？｜症状・痛む場所、手術が必要な理由、胆のうを取ったあとの生活と食事を医師が解説"
+seo_title_ja: "胆のう炎（胆嚢炎）は自然に治る？｜症状・痛む場所、手術が必要な理由、胆のうを取ったあとの生活と食事を医師が解説"
 seo_description_ja: "胆のう炎はどこが痛む？ 胃痛との違いは？ 自然に治るのか、手術しないとだめなのか、胆のうを取っても大丈夫か、食べてはいけないもの、健診で胆石と言われたときの考え方まで、よく調べられている7つの疑問に医師が答えます。"
 seo_title_en: "Does cholecystitis heal on its own? Symptoms, why surgery is recommended, and life after gallbladder removal"
 seo_description_en: "Where does cholecystitis hurt, and how is it different from stomach pain? Does it heal on its own, is surgery necessary, is it safe to remove the gallbladder, what should you avoid eating, and what if a checkup finds gallstones? A doctor answers 7 common questions."
